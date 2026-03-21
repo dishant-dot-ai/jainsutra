@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading... — JainAwaken</title>
+  <meta name="description" content="Jain philosophy explained clearly and accessibly.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Reading Progress -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">JainAwaken</a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button class="nav__hamburger" id="navToggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Topic Hero -->
+  <section class="topic-hero">
+    <div class="container--narrow">
+      <a href="concepts.html" class="topic-hero__back">&larr; All Concepts</a>
+      <div class="fade-in">
+        <div class="category-tag" id="topicCategory"></div>
+        <div class="topic-hero__sanskrit" id="topicSanskrit"></div>
+        <h1 class="topic-hero__title" id="topicTitle"></h1>
+        <p class="topic-hero__tagline" id="topicTagline"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Terms -->
+  <section>
+    <div class="container--narrow">
+      <div class="key-terms fade-in" id="keyTerms"></div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <article>
+    <div class="container--narrow">
+      <div class="topic-content fade-in" id="topicContent"></div>
+    </div>
+  </article>
+
+  <!-- Connected Topics -->
+  <section class="connected">
+    <div class="container">
+      <h3 class="fade-in">Explore next</h3>
+      <div class="connected__grid" id="connectedGrid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__tagline">JainAwaken.org — The path, not the diet.</p>
+      <p class="footer__credit">Made with devotion</p>
+    </div>
+  </footer>
+
+  <script src="js/topics-data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/topic-page.js"></script>
+</body>
+</html>

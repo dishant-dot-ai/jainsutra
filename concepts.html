@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Fundamentals — JainAwaken</title>
+  <meta name="description" content="18 concepts that form the complete architecture of Jain philosophy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">JainAwaken</a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="concepts.html" class="active">Concepts</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button class="nav__hamburger" id="navToggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="section" style="padding-bottom:0;">
+    <div class="container">
+      <div class="section__header fade-in">
+        <h1>The Fundamentals</h1>
+        <p style="font-size:1.125rem;margin-top:12px;">18 concepts that form the complete architecture of Jain philosophy.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filters fade-in" id="filters">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Foundation">Foundation</button>
+        <button class="filter-btn" data-filter="Soul & Reality">Soul & Reality</button>
+        <button class="filter-btn" data-filter="Karma System">Karma System</button>
+        <button class="filter-btn" data-filter="The Path">The Path</button>
+        <button class="filter-btn" data-filter="Philosophy">Philosophy</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topic Grid -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="grid" id="topicGrid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__tagline">JainAwaken.org — The path, not the diet.</p>
+      <p class="footer__credit">Made with devotion</p>
+    </div>
+  </footer>
+
+  <script src="js/topics-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    const grid = document.getElementById('topicGrid');
+    const filters = document.getElementById('filters');
+    let activeFilter = 'All';
+
+    // Check URL for filter param
+    const urlFilter = new URLSearchParams(window.location.search).get('filter');
+    if (urlFilter) activeFilter = urlFilter;
+
+    function renderGrid(filter) {
+      const topics = filter === 'All' ? TOPICS : TOPICS.filter(t => t.category === filter);
+      grid.innerHTML = topics.map(t => `
+        <a href="topic.html?id=${t.id}" class="card fade-in">
+          <div class="card__category">
+            <span class="card__dot"></span>
+            <span class="category-tag">${t.category}</span>
+          </div>
+          <div class="card__sanskrit">${t.sanskrit}</div>
+          <h3 class="card__title">${t.title}</h3>
+          <p class="card__tagline">${t.tagline}</p>
+          <span class="card__link">Explore</span>
+        </a>
+      `).join('');
+      initFadeIn();
+    }
+
+    // Set active filter button
+    filters.querySelectorAll('.filter-btn').forEach(btn => {
+      if (btn.dataset.filter === activeFilter) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+      btn.addEventListener('click', () => {
+        filters.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.filter;
+        renderGrid(activeFilter);
+      });
+    });
+
+    renderGrid(activeFilter);
+  </script>
+</body>
+</html>

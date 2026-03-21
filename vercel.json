@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/topic/:id", "destination": "/topic.html" }
+  ]
+}
