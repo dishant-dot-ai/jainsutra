@@ -7,8 +7,9 @@
   <meta name="description" content="Jainism is not a diet. It's a complete path to liberation. These are the fundamentals most Jains were never taught.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 
@@ -17,138 +18,233 @@
     <div class="nav__inner">
       <a href="index.html" class="nav__logo">JainAwaken</a>
       <ul class="nav__links" id="navLinks">
-        <li><a href="concepts.html">Concepts</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="concepts.html" class="nav__link--caps">Concepts</a></li>
+        <li><a href="about.html" class="nav__link--caps">About</a></li>
       </ul>
       <button class="nav__hamburger" id="navToggle" aria-label="Menu">&#9776;</button>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section class="hero container">
-    <div class="hero__bg">
-      <svg viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <ellipse cx="200" cy="300" rx="120" ry="280" stroke="#C9A84C" stroke-width="0.5"/>
-        <ellipse cx="200" cy="300" rx="80" ry="180" stroke="#C9A84C" stroke-width="0.3"/>
-        <line x1="80" y1="200" x2="320" y2="200" stroke="#C9A84C" stroke-width="0.3"/>
-        <line x1="80" y1="400" x2="320" y2="400" stroke="#C9A84C" stroke-width="0.3"/>
-        <circle cx="200" cy="300" r="4" fill="#C9A84C" opacity="0.5"/>
-        <line x1="200" y1="20" x2="200" y2="580" stroke="#C9A84C" stroke-width="0.2"/>
-      </svg>
+  <!-- ===================== HERO ===================== -->
+  <section class="h-hero">
+    <div class="h-hero__left">
+      <div class="h-hero__label">THE FUNDAMENTALS // 18 PRINCIPLES</div>
+      <h1 class="h-hero__title">
+        Jainism is<br>not <em>a diet.</em>
+      </h1>
+      <div class="h-hero__line"></div>
     </div>
-    <div class="hero__content fade-in">
-      <h1 class="hero__tagline">Jainism is not <em>a diet.</em></h1>
-      <p class="hero__sub">It's a complete path to liberation. These are the fundamentals most Jains were never taught.</p>
-      <a href="concepts.html" class="hero__cta">Explore the Fundamentals</a>
-    </div>
-    <div class="hero__image fade-in">
-      <img src="assets/hero-meditation.jpg" alt="Meditation in stillness" loading="lazy">
+    <div class="h-hero__right">
+      <p class="h-hero__desc">
+        It's a complete path to liberation. A metaphysical architecture more precise than any other philosophical system. These are the fundamentals most Jains were never taught.
+      </p>
+      <a href="concepts.html" class="h-hero__cta">Explore the Fundamentals &rarr;</a>
     </div>
   </section>
 
-  <!-- Visual Banner -->
-  <section class="visual-banner fade-in">
-    <img src="assets/lamp-glow.jpg" alt="Sacred lamp" loading="lazy">
-    <div class="visual-banner__overlay">
-      <p class="sanskrit" style="font-size:clamp(1.5rem,3vw,2.25rem);">अहिंसा परमो धर्मः</p>
-      <p style="color:var(--text-secondary);font-size:0.875rem;margin-top:8px;">Non-violence is the supreme dharma</p>
+  <!-- ===================== FEATURED PRINCIPLE ===================== -->
+  <section class="h-principle">
+    <div class="h-principle__top">
+      <div class="h-principle__label">PRINCIPLE 01 // FOUNDATION</div>
+      <div class="h-principle__title-row">
+        <h2 class="h-principle__title">Navkar <span class="sanskrit">णमो अरिहंताणं</span></h2>
+      </div>
+      <div class="h-principle__line"></div>
     </div>
-  </section>
-
-  <!-- Featured Topics -->
-  <section class="section">
-    <div class="container">
-      <div class="section__header fade-in">
-        <span class="section__label">Featured</span>
-        <h2>Start Here</h2>
-        <p>Three concepts that reshape how you understand Jain philosophy.</p>
-      </div>
-      <div class="grid" id="featuredGrid">
-        <!-- Filled by JS -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Categories -->
-  <section class="section section--alt">
-    <div class="container">
-      <div class="section__header fade-in">
-        <span class="section__label">Categories</span>
-        <h2>The Architecture</h2>
-        <p>18 concepts organized into five domains of Jain thought.</p>
-      </div>
-      <div class="categories fade-in">
-        <a href="concepts.html?filter=Foundation" class="cat-block">
-          <div class="cat-block__count">3</div>
-          <div class="cat-block__name">Foundation</div>
-          <div class="cat-block__desc">The starting points — prayer, faith, and the three jewels.</div>
-        </a>
-        <a href="concepts.html?filter=Soul+%26+Reality" class="cat-block">
-          <div class="cat-block__count">4</div>
-          <div class="cat-block__name">Soul & Reality</div>
-          <div class="cat-block__desc">What exists — the soul, non-soul, substances, and destinies.</div>
-        </a>
-        <a href="concepts.html?filter=Karma+System" class="cat-block">
-          <div class="cat-block__count">6</div>
-          <div class="cat-block__name">Karma System</div>
-          <div class="cat-block__desc">How karma works — the complete mechanical framework.</div>
-        </a>
-        <a href="concepts.html?filter=The+Path" class="cat-block">
-          <div class="cat-block__count">4</div>
-          <div class="cat-block__name">The Path</div>
-          <div class="cat-block__desc">Practice — vows, reflections, repentance, and stages.</div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Philosophy callout with image -->
-  <section class="section">
-    <div class="container">
-      <div class="split-section fade-in">
-        <div class="split-section__image">
-          <img src="assets/cosmic-soul.jpg" alt="Cosmic consciousness" loading="lazy">
+    <div class="h-principle__body">
+      <div class="h-principle__diagram">
+        <img src="assets/hero-meditation.jpg" alt="Meditation" class="h-principle__img">
+        <div class="h-principle__caption">
+          <em>The Sacred Salutation</em><br>
+          <span>A bow to five supreme beings — not a wish, but an acknowledgement of greatness.</span>
         </div>
-        <div class="split-section__content" style="text-align:center;">
-          <span class="section__label">Philosophy</span>
-          <h2 style="font-size:clamp(2rem,5vw,3rem);max-width:700px;margin:0 auto 16px;">
-            <span class="sanskrit">अनेकान्तवाद</span>
-          </h2>
-          <h2 style="max-width:700px;margin:0 auto 16px;">Anekantavada</h2>
-          <p style="color:var(--text-secondary);max-width:600px;margin:0 auto 32px;font-family:var(--font-heading);font-size:1.25rem;font-style:italic;">
-            The doctrine of non-absolutism: understanding that truth is multifaceted and reality can be perceived from infinite viewpoints.
-          </p>
-          <a href="topic.html?id=anekantavada" class="hero__cta" style="font-size:0.8125rem;padding:10px 24px;">Read More</a>
+      </div>
+      <div class="h-principle__defs">
+        <h3 class="h-principle__heading">The Five<br>Parameshthis.</h3>
+        <div class="h-def">
+          <div class="h-def__label">ARIHANT</div>
+          <p>Those who have conquered all inner enemies and attained omniscience while still embodied.</p>
+        </div>
+        <div class="h-def">
+          <div class="h-def__label">SIDDHA</div>
+          <p>Liberated souls who have shed all karma and all bodies. Pure consciousness, infinite and free.</p>
+        </div>
+        <div class="h-def">
+          <div class="h-def__label">VITRAG</div>
+          <p>The state of complete detachment — not indifference, but freedom from the pull of passion.</p>
+        </div>
+        <a href="topic.html?id=navkar-mantra" class="h-def__link">Read Full Concept &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COSMIC DIAGRAM ===================== -->
+  <section class="h-cosmic">
+    <div class="h-cosmic__left">
+      <div class="h-cosmic__label">COSMIC DIAGRAM // LOK AKASH</div>
+      <div class="h-cosmic__svg-wrap">
+        <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-cosmic__svg">
+          <!-- Outer diamond -->
+          <polygon points="200,20 380,200 200,380 20,200" stroke="#C9A84C" stroke-width="0.5" fill="none"/>
+          <!-- Inner diamond -->
+          <polygon points="200,80 320,200 200,320 80,200" stroke="#C9A84C" stroke-width="0.8" fill="none"/>
+          <!-- Innermost diamond -->
+          <polygon points="200,140 260,200 200,260 140,200" stroke="#C9A84C" stroke-width="1" fill="none"/>
+          <!-- Center dot -->
+          <circle cx="200" cy="200" r="5" fill="#C9A84C" opacity="0.8"/>
+          <circle cx="200" cy="200" r="12" stroke="#C9A84C" stroke-width="0.3" fill="none"/>
+          <!-- Axis lines -->
+          <line x1="200" y1="20" x2="200" y2="380" stroke="#C9A84C" stroke-width="0.2" opacity="0.5"/>
+          <line x1="20" y1="200" x2="380" y2="200" stroke="#C9A84C" stroke-width="0.2" opacity="0.5"/>
+          <!-- Corner diamonds -->
+          <polygon points="200,14 206,20 200,26 194,20" fill="#C9A84C"/>
+          <polygon points="200,374 206,380 200,386 194,380" fill="#C9A84C"/>
+        </svg>
+        <div class="h-cosmic__caption">
+          <em class="sanskrit">The Central Anchor</em><br>
+          <span>Pure awareness amidst the rotating cycles of Prakriti</span>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Golden Orbs visual row -->
-  <section class="orbs-row fade-in">
-    <div class="container">
-      <div class="orbs-row__grid">
-        <div class="orb-item">
-          <img src="assets/golden-orb-1.jpg" alt="Foundation" loading="lazy">
-          <span class="category-tag">Foundation</span>
-        </div>
-        <div class="orb-item">
-          <img src="assets/golden-orb-2.jpg" alt="Karma System" loading="lazy">
-          <span class="category-tag">Karma System</span>
-        </div>
-        <div class="orb-item">
-          <img src="assets/golden-orb-3.jpg" alt="The Path" loading="lazy">
-          <span class="category-tag">The Path</span>
-        </div>
+    <div class="h-cosmic__right">
+      <h3 class="h-cosmic__heading">Beyond the<br>Biological<br>Frame.</h3>
+      <div class="h-def">
+        <div class="h-def__label">NON-BODY</div>
+        <p>The soul is not the carbon structure it inhabits, nor the sensory organs it utilizes.</p>
+      </div>
+      <div class="h-def">
+        <div class="h-def__label">NON-MIND</div>
+        <p>Thoughts are atmospheric events. The Jiva is the sky in which they appear.</p>
+      </div>
+      <div class="h-def">
+        <div class="h-def__label">PURE AWARENESS</div>
+        <p>Its defining quality is Cetana — the light of consciousness that illuminates data.</p>
       </div>
     </div>
   </section>
 
-  <!-- Mission Teaser -->
-  <section class="section section--alt">
-    <div class="mission fade-in">
-      <p>A space for slow contemplation. No algorithms. No opinions. Just the path, explained clearly, for anyone who wants to understand.</p>
-      <a href="about.html" style="font-size:0.875rem;font-weight:600;">Learn about this project &rarr;</a>
+  <!-- ===================== QUOTE BREAK ===================== -->
+  <section class="h-quote">
+    <div class="h-quote__inner">
+      <blockquote>
+        "The soul is not the body, not the mind, not the karma attached to it."
+      </blockquote>
+      <div class="h-quote__context">
+        <p>In the structural plan of the cosmos, every living being possesses a Jiva. It is the permanent observer in a temporary universe. While the physical form undergoes entropy and the mental form undergoes fluctuation, the Jiva remains constant.</p>
+        <a href="topic.html?id=jiva" class="h-def__link">Explore Jiva &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== KARMA SYSTEM PREVIEW ===================== -->
+  <section class="h-principle">
+    <div class="h-principle__top">
+      <div class="h-principle__label">SYSTEM // KARMA MECHANICS</div>
+      <div class="h-principle__title-row">
+        <h2 class="h-principle__title">Nine <span class="sanskrit">तत्त्व</span> Tattvas</h2>
+      </div>
+      <div class="h-principle__line"></div>
+    </div>
+    <div class="h-principle__body">
+      <div class="h-principle__diagram">
+        <img src="assets/cosmic-soul.jpg" alt="Cosmic consciousness" class="h-principle__img">
+        <div class="h-principle__caption">
+          <em>The Complete Map</em><br>
+          <span>Nine categories that explain the soul's bondage and liberation</span>
+        </div>
+      </div>
+      <div class="h-principle__defs">
+        <h3 class="h-principle__heading">The Operating<br>Manual.</h3>
+        <div class="h-def">
+          <div class="h-def__label">ASRAV</div>
+          <p>Influx — karma particles flowing toward the soul through every activity of mind, speech, and body.</p>
+        </div>
+        <div class="h-def">
+          <div class="h-def__label">SAMVAR</div>
+          <p>Stoppage — the discipline of reducing and halting the inflow through mindful restraint.</p>
+        </div>
+        <div class="h-def">
+          <div class="h-def__label">NIRJARA</div>
+          <p>Shedding — burning accumulated karma through austerity, meditation, and spiritual practice.</p>
+        </div>
+        <a href="topic.html?id=nav-tattvas" class="h-def__link">Read Full Concept &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== THE PATH VISUAL ===================== -->
+  <section class="h-path">
+    <div class="h-path__banner">
+      <img src="assets/lamp-glow.jpg" alt="The Path" loading="lazy">
+      <div class="h-path__overlay">
+        <div class="h-path__label">THE PATH // 14 STAGES</div>
+        <h2 class="h-path__title">Gunsthanaks</h2>
+        <p class="h-path__sub">From total delusion to total liberation — the most precise spiritual metric ever conceived.</p>
+        <a href="topic.html?id=gunsthanaks" class="h-hero__cta" style="margin-top:24px;">Explore the 14 Stages &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GOLDEN ORBS / CATEGORY GRID ===================== -->
+  <section class="h-categories">
+    <div class="h-categories__header">
+      <div class="h-principle__label">ARCHITECTURE // FIVE DOMAINS</div>
+      <h2 class="h-cosmic__heading" style="margin-top:16px;">The Complete<br>Framework.</h2>
+    </div>
+    <div class="h-categories__grid">
+      <a href="concepts.html?filter=Foundation" class="h-cat">
+        <img src="assets/golden-orb-1.jpg" alt="Foundation" loading="lazy">
+        <div class="h-cat__info">
+          <span class="h-cat__count">3</span>
+          <span class="h-cat__name">Foundation</span>
+          <span class="h-cat__desc">Prayer, faith, and the three jewels</span>
+        </div>
+      </a>
+      <a href="concepts.html?filter=Soul+%26+Reality" class="h-cat">
+        <img src="assets/golden-orb-2.jpg" alt="Soul & Reality" loading="lazy">
+        <div class="h-cat__info">
+          <span class="h-cat__count">4</span>
+          <span class="h-cat__name">Soul & Reality</span>
+          <span class="h-cat__desc">The soul, non-soul, substances, destinies</span>
+        </div>
+      </a>
+      <a href="concepts.html?filter=Karma+System" class="h-cat">
+        <img src="assets/golden-orb-3.jpg" alt="Karma System" loading="lazy">
+        <div class="h-cat__info">
+          <span class="h-cat__count">6</span>
+          <span class="h-cat__name">Karma System</span>
+          <span class="h-cat__desc">The complete mechanical framework</span>
+        </div>
+      </a>
+      <a href="concepts.html?filter=The+Path" class="h-cat">
+        <img src="assets/abstract-dark-1.jpg" alt="The Path" loading="lazy">
+        <div class="h-cat__info">
+          <span class="h-cat__count">4</span>
+          <span class="h-cat__name">The Path</span>
+          <span class="h-cat__desc">Vows, reflections, repentance, stages</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== ANEKANTAVADA CALLOUT ===================== -->
+  <section class="h-anekant">
+    <div class="h-anekant__inner">
+      <div class="h-principle__label">PHILOSOPHY // NON-ABSOLUTISM</div>
+      <div class="h-anekant__title">
+        <span class="sanskrit" style="font-size:clamp(2rem,4vw,3.5rem);">अनेकान्तवाद</span>
+      </div>
+      <h2 class="h-anekant__english">Anekantavada</h2>
+      <p class="h-anekant__desc">The doctrine of non-absolutism: understanding that truth is multifaceted and reality can be perceived from infinite viewpoints. No single perspective captures the complete truth — only omniscience can see the whole.</p>
+      <a href="topic.html?id=anekantavada" class="h-hero__cta">Explore Anekantavada &rarr;</a>
+    </div>
+  </section>
+
+  <!-- ===================== MISSION ===================== -->
+  <section class="h-mission">
+    <div class="h-mission__inner">
+      <p class="h-mission__text">A space for slow contemplation. No algorithms. No opinions. Just the path, explained clearly, for anyone who wants to understand.</p>
+      <a href="about.html" class="h-def__link">Learn about this project &rarr;</a>
     </div>
   </section>
 
@@ -162,27 +258,5 @@
 
   <script src="js/topics-data.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    // Render featured cards
-    const featured = ['samyaktva', 'nav-tattvas', 'gunsthanaks'];
-    const grid = document.getElementById('featuredGrid');
-    featured.forEach(id => {
-      const t = TOPICS.find(x => x.id === id);
-      if (!t) return;
-      grid.innerHTML += `
-        <a href="topic.html?id=${t.id}" class="card card--featured fade-in">
-          <div class="card__category">
-            <span class="card__dot"></span>
-            <span class="category-tag">${t.category}</span>
-          </div>
-          <div class="card__sanskrit">${t.sanskrit}</div>
-          <h3 class="card__title">${t.title}</h3>
-          <p class="card__tagline">${t.tagline}</p>
-          <span class="card__link">Explore</span>
-        </a>
-      `;
-    });
-    initFadeIn();
-  </script>
 </body>
 </html>

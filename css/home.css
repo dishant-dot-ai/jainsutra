@@ -1,0 +1,496 @@
+/* ============================================
+   JainAwaken — Homepage Editorial Styles
+   ============================================ */
+
+/* ---- Hero ---- */
+.h-hero {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 64px;
+  align-items: end;
+  padding: 120px 48px 96px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.h-hero__label {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent-gold);
+  margin-bottom: 24px;
+}
+
+.h-hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-weight: 300;
+  line-height: 0.95;
+  color: var(--text-primary);
+}
+
+.h-hero__title em {
+  font-style: italic;
+  color: var(--accent-gold);
+}
+
+.h-hero__line {
+  width: 80px;
+  height: 1px;
+  background: var(--accent-gold);
+  margin-top: 48px;
+  opacity: 0.5;
+}
+
+.h-hero__desc {
+  font-size: 1.0625rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.h-hero__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: var(--accent-gold);
+  color: var(--bg-primary);
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+}
+
+.h-hero__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(201, 168, 76, 0.3);
+  opacity: 1;
+}
+
+/* ---- Principle Section ---- */
+.h-principle {
+  padding: 96px 48px;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-top: 1px solid var(--border);
+}
+
+.h-principle__top {
+  margin-bottom: 64px;
+}
+
+.h-principle__label {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent-gold);
+  margin-bottom: 20px;
+}
+
+.h-principle__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 300;
+  line-height: 1;
+}
+
+.h-principle__title .sanskrit {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+}
+
+.h-principle__line {
+  width: 60px;
+  height: 1px;
+  background: var(--accent-gold);
+  margin-top: 32px;
+  opacity: 0.4;
+}
+
+.h-principle__body {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.h-principle__diagram {
+  position: relative;
+}
+
+.h-principle__img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: brightness(0.7) contrast(1.1);
+}
+
+.h-principle__caption {
+  margin-top: 16px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.h-principle__caption em {
+  font-family: var(--font-heading);
+  color: var(--accent-gold);
+  font-size: 1.125rem;
+}
+
+.h-principle__defs {
+  padding-top: 16px;
+}
+
+.h-principle__heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 40px;
+}
+
+/* ---- Definition Blocks ---- */
+.h-def {
+  margin-bottom: 28px;
+}
+
+.h-def__label {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent-gold);
+  margin-bottom: 8px;
+}
+
+.h-def p {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.h-def__link {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+  margin-top: 16px;
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+
+.h-def__link:hover {
+  opacity: 0.7;
+}
+
+/* ---- Cosmic Diagram ---- */
+.h-cosmic {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 64px;
+  align-items: center;
+  padding: 96px 48px;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-top: 1px solid var(--border);
+}
+
+.h-cosmic__label {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.h-cosmic__svg-wrap {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 48px;
+  text-align: center;
+}
+
+.h-cosmic__svg {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.h-cosmic__caption {
+  margin-top: 24px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.h-cosmic__caption em {
+  font-family: var(--font-heading);
+  color: var(--accent-gold);
+  font-size: 1.25rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.h-cosmic__heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.h-cosmic__right {
+  padding-right: 24px;
+}
+
+/* ---- Quote Break ---- */
+.h-quote {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-secondary);
+}
+
+.h-quote__inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 96px 48px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.h-quote blockquote {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.3;
+  color: var(--text-primary);
+  position: relative;
+  padding-left: 24px;
+  border-left: 2px solid var(--accent-gold);
+}
+
+.h-quote__context p {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+/* ---- Path Banner ---- */
+.h-path__banner {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.h-path__banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.25);
+}
+
+.h-path__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 48px;
+}
+
+.h-path__label {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent-gold);
+  margin-bottom: 16px;
+}
+
+.h-path__title {
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 300;
+  font-style: italic;
+}
+
+.h-path__sub {
+  font-size: 1.0625rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin-top: 16px;
+  line-height: 1.7;
+}
+
+/* ---- Categories Grid ---- */
+.h-categories {
+  padding: 96px 48px;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-top: 1px solid var(--border);
+}
+
+.h-categories__header {
+  margin-bottom: 56px;
+}
+
+.h-categories__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.h-cat {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.h-cat:hover {
+  border-color: rgba(201, 168, 76, 0.4);
+  transform: translateY(-4px);
+  opacity: 1;
+}
+
+.h-cat img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: brightness(0.5);
+  transition: filter 0.3s;
+}
+
+.h-cat:hover img {
+  filter: brightness(0.65);
+}
+
+.h-cat__info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.h-cat__count {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--accent-gold);
+}
+
+.h-cat__name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.h-cat__desc {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+/* ---- Anekantavada Callout ---- */
+.h-anekant {
+  border-top: 1px solid var(--border);
+  padding: 120px 48px;
+}
+
+.h-anekant__inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h-anekant__title {
+  margin: 24px 0 8px;
+}
+
+.h-anekant__english {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.h-anekant__desc {
+  font-size: 1.0625rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 640px;
+  margin: 0 auto 32px;
+}
+
+/* ---- Mission ---- */
+.h-mission {
+  border-top: 1px solid var(--border);
+  background: var(--bg-secondary);
+  padding: 80px 48px;
+}
+
+.h-mission__inner {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h-mission__text {
+  font-family: var(--font-heading);
+  font-size: 1.375rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .h-hero { grid-template-columns: 1fr; gap: 40px; padding: 80px 32px 64px; }
+  .h-principle__body { grid-template-columns: 1fr; }
+  .h-cosmic { grid-template-columns: 1fr; }
+  .h-quote__inner { grid-template-columns: 1fr; }
+  .h-categories__grid { grid-template-columns: repeat(2, 1fr); }
+  .h-principle { padding: 64px 32px; }
+  .h-cosmic { padding: 64px 32px; }
+  .h-quote__inner { padding: 64px 32px; }
+  .h-categories { padding: 64px 32px; }
+  .h-anekant { padding: 80px 32px; }
+  .h-mission { padding: 64px 32px; }
+}
+
+@media (max-width: 768px) {
+  .h-hero { padding: 48px 20px 40px; }
+  .h-hero__title { font-size: clamp(2.5rem, 10vw, 4rem); }
+  .h-principle { padding: 48px 20px; }
+  .h-principle__img { height: 300px; }
+  .h-cosmic { padding: 48px 20px; gap: 40px; }
+  .h-cosmic__svg-wrap { padding: 24px; }
+  .h-quote__inner { padding: 48px 20px; }
+  .h-path__banner { height: 380px; }
+  .h-categories { padding: 48px 20px; }
+  .h-categories__grid { grid-template-columns: 1fr; }
+  .h-anekant { padding: 48px 20px; }
+  .h-mission { padding: 48px 20px; }
+}
