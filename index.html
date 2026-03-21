@@ -28,7 +28,6 @@
   <section class="hero container">
     <div class="hero__bg">
       <svg viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- Simplified Jain Lok / cosmic form -->
         <ellipse cx="200" cy="300" rx="120" ry="280" stroke="#C9A84C" stroke-width="0.5"/>
         <ellipse cx="200" cy="300" rx="80" ry="180" stroke="#C9A84C" stroke-width="0.3"/>
         <line x1="80" y1="200" x2="320" y2="200" stroke="#C9A84C" stroke-width="0.3"/>
@@ -41,6 +40,18 @@
       <h1 class="hero__tagline">Jainism is not <em>a diet.</em></h1>
       <p class="hero__sub">It's a complete path to liberation. These are the fundamentals most Jains were never taught.</p>
       <a href="concepts.html" class="hero__cta">Explore the Fundamentals</a>
+    </div>
+    <div class="hero__image fade-in">
+      <img src="assets/hero-meditation.jpg" alt="Meditation in stillness" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Visual Banner -->
+  <section class="visual-banner fade-in">
+    <img src="assets/lamp-glow.jpg" alt="Sacred lamp" loading="lazy">
+    <div class="visual-banner__overlay">
+      <p class="sanskrit" style="font-size:clamp(1.5rem,3vw,2.25rem);">अहिंसा परमो धर्मः</p>
+      <p style="color:var(--text-secondary);font-size:0.875rem;margin-top:8px;">Non-violence is the supreme dharma</p>
     </div>
   </section>
 
@@ -91,19 +102,44 @@
     </div>
   </section>
 
-  <!-- Philosophy callout -->
+  <!-- Philosophy callout with image -->
   <section class="section">
-    <div class="container" style="text-align:center;">
-      <div class="fade-in">
-        <span class="section__label">Philosophy</span>
-        <h2 style="font-size:clamp(2rem,5vw,3rem);max-width:700px;margin:0 auto 16px;">
-          <span class="sanskrit">अनेकान्तवाद</span>
-        </h2>
-        <h2 style="max-width:700px;margin:0 auto 16px;">Anekantavada</h2>
-        <p style="color:var(--text-secondary);max-width:600px;margin:0 auto 32px;font-family:var(--font-heading);font-size:1.25rem;font-style:italic;">
-          The doctrine of non-absolutism: understanding that truth is multifaceted and reality can be perceived from infinite viewpoints.
-        </p>
-        <a href="topic.html?id=anekantavada" class="hero__cta" style="font-size:0.8125rem;padding:10px 24px;">Read More</a>
+    <div class="container">
+      <div class="split-section fade-in">
+        <div class="split-section__image">
+          <img src="assets/cosmic-soul.jpg" alt="Cosmic consciousness" loading="lazy">
+        </div>
+        <div class="split-section__content" style="text-align:center;">
+          <span class="section__label">Philosophy</span>
+          <h2 style="font-size:clamp(2rem,5vw,3rem);max-width:700px;margin:0 auto 16px;">
+            <span class="sanskrit">अनेकान्तवाद</span>
+          </h2>
+          <h2 style="max-width:700px;margin:0 auto 16px;">Anekantavada</h2>
+          <p style="color:var(--text-secondary);max-width:600px;margin:0 auto 32px;font-family:var(--font-heading);font-size:1.25rem;font-style:italic;">
+            The doctrine of non-absolutism: understanding that truth is multifaceted and reality can be perceived from infinite viewpoints.
+          </p>
+          <a href="topic.html?id=anekantavada" class="hero__cta" style="font-size:0.8125rem;padding:10px 24px;">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Golden Orbs visual row -->
+  <section class="orbs-row fade-in">
+    <div class="container">
+      <div class="orbs-row__grid">
+        <div class="orb-item">
+          <img src="assets/golden-orb-1.jpg" alt="Foundation" loading="lazy">
+          <span class="category-tag">Foundation</span>
+        </div>
+        <div class="orb-item">
+          <img src="assets/golden-orb-2.jpg" alt="Karma System" loading="lazy">
+          <span class="category-tag">Karma System</span>
+        </div>
+        <div class="orb-item">
+          <img src="assets/golden-orb-3.jpg" alt="The Path" loading="lazy">
+          <span class="category-tag">The Path</span>
+        </div>
       </div>
     </div>
   </section>

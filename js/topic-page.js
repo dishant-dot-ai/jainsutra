@@ -20,11 +20,27 @@
   // Set page title
   document.title = `${topic.title} — JainAwaken`;
 
+  // Map categories to images
+  const categoryImages = {
+    'Foundation': 'assets/hero-meditation.jpg',
+    'Soul & Reality': 'assets/cosmic-soul.jpg',
+    'Karma System': 'assets/golden-orb-1.jpg',
+    'The Path': 'assets/lamp-glow.jpg',
+    'Philosophy': 'assets/abstract-dark-1.jpg'
+  };
+
   // Fill hero
   document.getElementById('topicCategory').textContent = topic.category;
   document.getElementById('topicSanskrit').textContent = topic.sanskrit;
   document.getElementById('topicTitle').textContent = topic.title;
   document.getElementById('topicTagline').textContent = topic.tagline;
+
+  // Add hero image
+  const heroImageEl = document.getElementById('topicHeroImage');
+  if (heroImageEl) {
+    const imgSrc = categoryImages[topic.category] || 'assets/abstract-dark-2.jpg';
+    heroImageEl.innerHTML = `<img src="${imgSrc}" alt="${topic.title}" loading="lazy">`;
+  }
 
   // Fill key terms
   const termsEl = document.getElementById('keyTerms');
