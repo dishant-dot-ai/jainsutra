@@ -69,7 +69,6 @@ h3 {
 
 .sanskrit {
   font-family: var(--font-heading);
-  font-style: italic;
   color: var(--accent-gold);
 }
 
@@ -130,7 +129,6 @@ h3 {
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 400;
-  font-style: italic;
   color: var(--accent-gold);
   letter-spacing: -0.02em;
 }
@@ -308,7 +306,6 @@ h3 {
 
 .card__sanskrit {
   font-family: var(--font-heading);
-  font-style: italic;
   color: var(--accent-gold);
   font-size: 1.125rem;
   margin-bottom: 4px;
@@ -454,7 +451,6 @@ h3 {
 
 .topic-hero__sanskrit {
   font-family: var(--font-heading);
-  font-style: italic;
   color: var(--accent-gold);
   font-size: clamp(1.5rem, 3vw, 2rem);
   margin-bottom: 8px;
@@ -564,7 +560,6 @@ h3 {
   color: var(--text-secondary);
   max-width: 600px;
   margin: 0 auto 24px;
-  font-style: italic;
 }
 
 /* ---- Footer ---- */
@@ -578,7 +573,6 @@ h3 {
   font-family: var(--font-heading);
   font-size: 1.25rem;
   color: var(--accent-gold);
-  font-style: italic;
   opacity: 0.8;
   margin-bottom: 24px;
 }
@@ -727,7 +721,6 @@ h3 {
   font-family: var(--font-heading);
   font-size: clamp(2.5rem, 6vw, 4rem);
   font-weight: 300;
-  font-style: italic;
   margin-bottom: 16px;
 }
 
@@ -751,7 +744,6 @@ h3 {
   font-family: var(--font-heading);
   font-size: 1.125rem;
   font-weight: 400;
-  font-style: italic;
   color: var(--accent-gold);
   letter-spacing: 1px;
   margin-bottom: 32px;
@@ -807,7 +799,6 @@ h3 {
 
 .ccard__sanskrit {
   font-family: var(--font-heading);
-  font-style: italic;
   color: var(--accent-gold);
   font-size: 0.875rem;
   margin-bottom: 4px;

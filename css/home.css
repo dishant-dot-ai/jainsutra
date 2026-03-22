@@ -181,7 +181,6 @@
 .hp-about__scribe {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  font-style: italic;
   color: var(--accent-gold);
   margin-bottom: 8px;
 }
@@ -238,7 +237,6 @@
 .hp-about__pillar-title {
   font-family: var(--font-heading);
   font-size: 1.25rem;
-  font-style: italic;
   color: var(--accent-gold);
   margin-bottom: 16px;
 }
@@ -268,12 +266,10 @@
   font-family: var(--font-heading);
   font-size: clamp(2rem, 3vw, 2.5rem);
   font-weight: 400;
-  font-style: italic;
   color: var(--text-primary);
 }
 
 .hp-section__title em {
-  font-style: italic;
   color: var(--text-primary);
 }
 
@@ -327,7 +323,6 @@
   font-family: var(--font-heading);
   font-size: 1.75rem;
   font-weight: 500;
-  font-style: italic;
   color: var(--text-primary);
   margin-bottom: 6px;
 }
@@ -420,7 +415,6 @@
   font-family: var(--font-heading);
   font-size: 2rem;
   font-weight: 400;
-  font-style: italic;
   color: var(--text-primary);
   margin-bottom: 8px;
 }
@@ -434,7 +428,6 @@
   color: var(--text-secondary);
   line-height: 1.6;
   max-width: 400px;
-  font-style: italic;
 }
 
 /* ---- III. Karma System ---- */
@@ -465,7 +458,6 @@
   font-family: var(--font-heading);
   font-size: 2.25rem;
   font-weight: 300;
-  font-style: italic;
   color: var(--accent-gold);
   display: block;
   margin-bottom: 12px;
@@ -475,7 +467,6 @@
   font-family: var(--font-heading);
   font-size: 1.625rem;
   font-weight: 500;
-  font-style: italic;
   color: var(--text-primary);
   margin-bottom: 8px;
 }
@@ -516,7 +507,6 @@
   font-family: var(--font-heading);
   font-size: clamp(3.25rem, 6vw, 5.25rem);
   font-weight: 300;
-  font-style: italic;
   color: var(--text-primary);
   margin-bottom: 20px;
 }
@@ -578,7 +568,6 @@
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 500;
-  font-style: italic;
   color: var(--text-primary);
   margin-bottom: 8px;
 }
@@ -614,7 +603,6 @@
   font-family: var(--font-heading);
   font-size: clamp(3.25rem, 7vw, 5.75rem);
   font-weight: 300;
-  font-style: italic;
   color: var(--text-primary);
   margin-bottom: 32px;
 }
@@ -629,7 +617,6 @@
 .hp-anekant__desc {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  font-style: italic;
   color: var(--text-secondary);
   line-height: 1.7;
   max-width: 640px;
@@ -662,7 +649,6 @@
   font-family: var(--font-heading);
   font-size: 1.25rem;
   font-weight: 400;
-  font-style: italic;
   color: var(--accent-gold);
   opacity: 0.8;
   margin-bottom: 8px;

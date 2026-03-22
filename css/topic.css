@@ -128,7 +128,6 @@
 .tp-deep__sidebar-title {
   font-family: var(--font-heading);
   font-size: 2.5rem;
-  font-style: italic;
   font-weight: 400;
   color: var(--text-primary);
   margin-bottom: 24px;
@@ -330,7 +329,6 @@
 .tp-quote__text {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 5vw, 3.5rem);
-  font-style: italic;
   font-weight: 300;
   line-height: 1.25;
   color: var(--text-primary);
@@ -389,7 +387,6 @@
 .tp-conn-card__title {
   font-family: var(--font-heading);
   font-size: 2.25rem;
-  font-style: italic;
   font-weight: 400;
   color: var(--text-primary);
   margin-bottom: 16px;
