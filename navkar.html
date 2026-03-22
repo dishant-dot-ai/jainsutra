@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navkar Mantra — JainAwaken</title>
+  <meta name="description" content="The most sacred prayer in Jainism. Five salutations. Zero requests. Pure reverence.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ---- Navkar Standalone ---- */
+    .nk-hero {
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 120px 48px 80px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nk-hero__inner {
+      max-width: 800px;
+    }
+
+    .nk-hero__label {
+      font-family: var(--font-body);
+      font-size: 0.625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: var(--accent-gold);
+      margin-bottom: 32px;
+    }
+
+    .nk-hero__sanskrit {
+      font-family: var(--font-heading);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-style: italic;
+      color: var(--accent-gold);
+      margin-bottom: 16px;
+      opacity: 0.8;
+    }
+
+    .nk-hero__title {
+      font-family: var(--font-heading);
+      font-size: clamp(3.5rem, 8vw, 7rem);
+      font-weight: 300;
+      font-style: italic;
+      line-height: 0.95;
+      margin-bottom: 32px;
+    }
+
+    .nk-hero__tagline {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .nk-hero__line {
+      width: 1px;
+      height: 48px;
+      background: var(--accent-gold);
+      margin: 40px auto 0;
+      opacity: 0.4;
+    }
+
+    /* ---- Intro ---- */
+    .nk-intro {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 80px 48px;
+      text-align: center;
+    }
+
+    .nk-intro p {
+      font-size: 1.0625rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .nk-intro p:first-child {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-style: italic;
+      color: var(--text-primary);
+      line-height: 1.5;
+    }
+
+    /* ---- Salutations ---- */
+    .nk-salutations {
+      border-top: 1px solid var(--border);
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 48px;
+    }
+
+    .nk-sal {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 48px;
+      padding: 64px 0;
+      border-bottom: 1px solid var(--border);
+      align-items: start;
+    }
+
+    .nk-sal__num {
+      font-family: var(--font-heading);
+      font-size: 3.5rem;
+      font-weight: 300;
+      color: var(--accent-gold);
+      opacity: 0.4;
+      line-height: 1;
+      padding-top: 4px;
+    }
+
+    .nk-sal__content {
+      max-width: 600px;
+    }
+
+    .nk-sal__label {
+      font-family: var(--font-body);
+      font-size: 0.625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--accent-gold);
+      margin-bottom: 12px;
+    }
+
+    .nk-sal__name {
+      font-family: var(--font-heading);
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+    }
+
+    .nk-sal__text {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+
+    /* ---- Insight ---- */
+    .nk-insight {
+      border-top: 1px solid var(--border);
+      padding: 80px 48px;
+    }
+
+    .nk-insight__inner {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .nk-insight__heading {
+      font-family: var(--font-heading);
+      font-size: clamp(1.75rem, 3vw, 2.25rem);
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 32px;
+      color: var(--text-primary);
+    }
+
+    .nk-insight p {
+      font-size: 1.0625rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .nk-insight p strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    /* ---- Key Terms ---- */
+    .nk-terms {
+      border-top: 1px solid var(--border);
+      background: var(--bg-secondary);
+      padding: 64px 48px;
+    }
+
+    .nk-terms__inner {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .nk-terms__label {
+      font-family: var(--font-body);
+      font-size: 0.625rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--accent-gold);
+      margin-bottom: 32px;
+    }
+
+    .nk-term {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 24px;
+    }
+
+    .nk-term:last-child {
+      border-bottom: none;
+    }
+
+    .nk-term__word {
+      font-family: var(--font-heading);
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--accent-gold);
+      min-width: 100px;
+      flex-shrink: 0;
+    }
+
+    .nk-term__meaning {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ---- Back CTA ---- */
+    .nk-back {
+      border-top: 1px solid var(--border);
+      padding: 64px 48px;
+      text-align: center;
+    }
+
+    .nk-back a {
+      font-family: var(--font-body);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--accent-gold);
+      letter-spacing: 1px;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .nk-back a:hover { opacity: 0.7; }
+
+    /* ---- Responsive ---- */
+    @media (max-width: 768px) {
+      .nk-hero { padding: 80px 20px 48px; min-height: auto; }
+      .nk-intro { padding: 48px 20px; }
+      .nk-salutations { padding: 0 20px; }
+      .nk-sal { grid-template-columns: 1fr; gap: 16px; padding: 40px 0; }
+      .nk-sal__num { font-size: 2.5rem; }
+      .nk-insight { padding: 48px 20px; }
+      .nk-terms { padding: 48px 20px; }
+      .nk-term { flex-direction: column; gap: 4px; }
+      .nk-back { padding: 48px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">JainAwaken</a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="navkar.html" class="nav__link--caps active">Navkar Mantra</a></li>
+        <li><a href="about.html" class="nav__link--caps">About</a></li>
+      </ul>
+      <button class="nav__hamburger" id="navToggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="nk-hero fade-in">
+    <div class="nk-hero__inner">
+      <div class="nk-hero__label">FOUNDATION // THE SACRED SALUTATION</div>
+      <div class="nk-hero__sanskrit">णमो अरिहंताणं</div>
+      <h1 class="nk-hero__title">Navkar Mantra</h1>
+      <p class="nk-hero__tagline">Not a wish. A bow to greatness.</p>
+      <div class="nk-hero__line"></div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="nk-intro fade-in">
+    <p>No petition. No plea. No bargain with the divine.</p>
+    <p>The Navkar Mantra is pure reverence — a bow to five supreme beings who represent the highest spiritual accomplishment. It contains zero requests. Genuine reverence transforms the one who offers it.</p>
+  </section>
+
+  <!-- Five Salutations -->
+  <section class="nk-salutations">
+    <div class="nk-sal fade-in">
+      <div class="nk-sal__num">01</div>
+      <div class="nk-sal__content">
+        <div class="nk-sal__label">THE ENLIGHTENED MASTERS</div>
+        <h2 class="nk-sal__name">Namo Arihantanam</h2>
+        <p class="nk-sal__text">I bow to the Arihants, the conquerors of inner enemies like anger, greed, and ego, who have attained omniscience but remain to guide humanity.</p>
+      </div>
+    </div>
+
+    <div class="nk-sal fade-in">
+      <div class="nk-sal__num">02</div>
+      <div class="nk-sal__content">
+        <div class="nk-sal__label">THE LIBERATED SOULS</div>
+        <h2 class="nk-sal__name">Namo Siddhanam</h2>
+        <p class="nk-sal__text">I bow to the Siddhas, the perfected souls who have discarded the physical body and broken free from the cycle of birth and death forever.</p>
+      </div>
+    </div>
+
+    <div class="nk-sal fade-in">
+      <div class="nk-sal__num">03</div>
+      <div class="nk-sal__content">
+        <div class="nk-sal__label">THE SPIRITUAL LEADERS</div>
+        <h2 class="nk-sal__name">Namo Ayariyanam</h2>
+        <p class="nk-sal__text">I bow to the Acharyas, the heads of the ascetic orders who embody self-discipline and preserve the ancient teachings.</p>
+      </div>
+    </div>
+
+    <div class="nk-sal fade-in">
+      <div class="nk-sal__num">04</div>
+      <div class="nk-sal__content">
+        <div class="nk-sal__label">THE LEARNED PRECEPTORS</div>
+        <h2 class="nk-sal__name">Namo Uvajjhayanam</h2>
+        <p class="nk-sal__text">I bow to the Upadhyayas, the master teachers who dedicate their existence to the study and dissemination of the sacred scriptures.</p>
+      </div>
+    </div>
+
+    <div class="nk-sal fade-in">
+      <div class="nk-sal__num">05</div>
+      <div class="nk-sal__content">
+        <div class="nk-sal__label">THE ASCETICS EVERYWHERE</div>
+        <h2 class="nk-sal__name">Namo Loe Savva Sahunam</h2>
+        <p class="nk-sal__text">I bow to all the Sadhus and Sadhvis in the universe who follow the path of non-violence, truth, and detachment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insight -->
+  <section class="nk-insight fade-in">
+    <div class="nk-insight__inner">
+      <h3 class="nk-insight__heading">Why this order?</h3>
+      <p><strong>Arihantas before Siddhas</strong> — because while Siddhas have achieved liberation, Arihantas are still here, actively teaching. They bridge the liberated and the seeking.</p>
+      <p>By bowing to these qualities — conquest of passion, liberation, leadership, knowledge, and renunciation — you begin cultivating them within yourself.</p>
+      <p>Every Jain prayer, ceremony, and meditation begins here. It is the foundation.</p>
+    </div>
+  </section>
+
+  <!-- Key Terms -->
+  <section class="nk-terms fade-in">
+    <div class="nk-terms__inner">
+      <div class="nk-terms__label">KEY TERMS</div>
+      <div class="nk-term">
+        <span class="nk-term__word">Arihant</span>
+        <span class="nk-term__meaning">One who has destroyed all inner enemies and attained omniscience.</span>
+      </div>
+      <div class="nk-term">
+        <span class="nk-term__word">Siddha</span>
+        <span class="nk-term__meaning">A fully liberated soul, free from birth and death.</span>
+      </div>
+      <div class="nk-term">
+        <span class="nk-term__word">Vitrag</span>
+        <span class="nk-term__meaning">Complete detachment from worldly passions.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back -->
+  <section class="nk-back">
+    <a href="index.html">&larr; Back to Home</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__tagline">JainAwaken.org — The path, not the diet.</p>
+      <p class="footer__credit">Made with devotion</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

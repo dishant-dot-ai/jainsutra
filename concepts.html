@@ -7,7 +7,7 @@
   <meta name="description" content="18 concepts that form the complete architecture of Jain philosophy.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,31 +17,21 @@
     <div class="nav__inner">
       <a href="index.html" class="nav__logo">JainAwaken</a>
       <ul class="nav__links" id="navLinks">
-        <li><a href="concepts.html" class="active">Concepts</a></li>
+        <li><a href="navkar.html">Navkar Mantra</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
       <button class="nav__hamburger" id="navToggle" aria-label="Menu">&#9776;</button>
     </div>
   </nav>
 
-  <!-- Visual Header -->
-  <section class="visual-banner fade-in">
-    <img src="assets/abstract-dark-2.jpg" alt="Jain philosophy" loading="lazy">
-    <div class="visual-banner__overlay">
-      <h1 style="font-family:var(--font-heading);font-size:clamp(2.5rem,6vw,4rem);font-weight:300;font-style:italic;">Eighteen Paths to<br><em style="color:var(--accent-gold);">Liberation.</em></h1>
-    </div>
-  </section>
-
   <!-- Page Header -->
-  <section class="section" style="padding-bottom:0;">
+  <section class="concepts-header fade-in">
     <div class="container">
-      <div class="section__header fade-in">
-        <h1>The Fundamentals</h1>
-        <p style="font-size:1.125rem;margin-top:12px;">18 concepts that form the complete architecture of Jain philosophy.</p>
-      </div>
+      <h1 class="concepts-header__title">The Digital Sanctuary</h1>
+      <p class="concepts-header__sub">A codebook through the timeless wisdom of antiquity. Explore the foundational principles, the mechanics of the soul, and the evolution of the cosmic reality.</p>
 
       <!-- Filter Tabs -->
-      <div class="filters fade-in" id="filters">
+      <div class="filters" id="filters">
         <button class="filter-btn active" data-filter="All">All</button>
         <button class="filter-btn" data-filter="Foundation">Foundation</button>
         <button class="filter-btn" data-filter="Soul & Reality">Soul & Reality</button>
@@ -55,7 +45,7 @@
   <!-- Topic Grid -->
   <section class="section" style="padding-top:0;">
     <div class="container">
-      <div class="grid" id="topicGrid"></div>
+      <div id="topicGrid"></div>
     </div>
   </section>
 
@@ -70,7 +60,7 @@
   <script src="js/topics-data.js"></script>
   <script src="js/main.js"></script>
   <script>
-    const grid = document.getElementById('topicGrid');
+    const gridWrap = document.getElementById('topicGrid');
     const filters = document.getElementById('filters');
     let activeFilter = 'All';
 
@@ -78,20 +68,74 @@
     const urlFilter = new URLSearchParams(window.location.search).get('filter');
     if (urlFilter) activeFilter = urlFilter;
 
-    function renderGrid(filter) {
-      const topics = filter === 'All' ? TOPICS : TOPICS.filter(t => t.category === filter);
-      grid.innerHTML = topics.map(t => `
-        <a href="topic.html?id=${t.id}" class="card fade-in">
-          <div class="card__category">
-            <span class="card__dot"></span>
-            <span class="category-tag">${t.category}</span>
+    // Image mapping per topic
+    const TOPIC_IMAGES = {
+      'navkar-mantra': 'assets/card-navkar.jpg',
+      'samyaktva': 'assets/card-samyaktva.jpg',
+      'ratnatraya': 'assets/card-ratnatraya.jpg',
+      'jiva': 'assets/card-jiva.jpg',
+      'ajiva': 'assets/card-ajiva.jpg',
+      'six-dravyas': 'assets/card-six-dravyas.jpg',
+      'gati': 'assets/card-gati.jpg',
+      'nav-tattvas': 'assets/golden-orb-2.jpg',
+      'karma': 'assets/abstract-dark-2.jpg',
+      'ghati-aghati': 'assets/golden-orb-3.jpg',
+      'kashaya': 'assets/cosmic-soul.jpg',
+      'asrav-samvar-nirjara': 'assets/card-asrav.jpg',
+      'leshya': 'assets/lamp-glow.jpg',
+      'charitra': 'assets/card-charitra.jpg',
+      'bhavnas': 'assets/golden-orb-3.jpg',
+      'pratikraman': 'assets/abstract-dark-1.jpg',
+      'gunsthanaks': 'assets/card-gunsthanaks-new.jpg',
+      'anekantavada': 'assets/card-anekantavada-new.jpg'
+    };
+
+    const CATEGORY_ORDER = [
+      { key: 'Foundation', label: 'I. FOUNDATION' },
+      { key: 'Soul & Reality', label: 'II. THE SOUL & REALITY' },
+      { key: 'Karma System', label: 'III. KARMA SYSTEM' },
+      { key: 'The Path', label: 'IV. THE PATH' },
+      { key: 'Philosophy', label: 'V. PHILOSOPHY' }
+    ];
+
+    function renderCard(t) {
+      const img = TOPIC_IMAGES[t.id] || 'assets/golden-orb-1.jpg';
+      return `
+        <a href="topic.html?id=${t.id}" class="ccard fade-in">
+          <div class="ccard__img-wrap">
+            <img src="${img}" alt="${t.title}" loading="lazy">
           </div>
-          <div class="card__sanskrit">${t.sanskrit}</div>
-          <h3 class="card__title">${t.title}</h3>
-          <p class="card__tagline">${t.tagline}</p>
-          <span class="card__link">Explore</span>
-        </a>
-      `).join('');
+          <div class="ccard__body">
+            <div class="ccard__sanskrit">${t.sanskrit}</div>
+            <h3 class="ccard__title">${t.title}</h3>
+            <p class="ccard__desc">${t.tagline}</p>
+          </div>
+        </a>`;
+    }
+
+    // Filter out Navkar Mantra — it has its own standalone page
+    const FILTERED_TOPICS = TOPICS.filter(t => t.id !== 'navkar-mantra');
+
+    function renderGrid(filter) {
+      if (filter === 'All') {
+        gridWrap.innerHTML = CATEGORY_ORDER.map(cat => {
+          const topics = FILTERED_TOPICS.filter(t => t.category === cat.key);
+          if (!topics.length) return '';
+          return `
+            <div class="concepts-section fade-in">
+              <h2 class="concepts-section__label">${cat.label}</h2>
+              <div class="concepts-grid">
+                ${topics.map(renderCard).join('')}
+              </div>
+            </div>`;
+        }).join('');
+      } else {
+        const topics = FILTERED_TOPICS.filter(t => t.category === filter);
+        gridWrap.innerHTML = `
+          <div class="concepts-grid">
+            ${topics.map(renderCard).join('')}
+          </div>`;
+      }
       initFadeIn();
     }
 
