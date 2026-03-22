@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kashaya — JainAwaken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-tertiary-container": "#bca26c",
+                        "on-primary": "#3c2f00",
+                        "primary-fixed": "#ffe088",
+                        "inverse-on-surface": "#313030",
+                        "secondary": "#bac6ec",
+                        "inverse-primary": "#735c00",
+                        "surface-dim": "#131313",
+                        "primary-container": "#493900",
+                        "on-secondary": "#23304e",
+                        "on-error": "#690005",
+                        "on-surface": "#e5e2e1",
+                        "outline-variant": "#45464e",
+                        "tertiary": "#dfc38b",
+                        "surface-container": "#201f1f",
+                        "primary-fixed-dim": "#e9c349",
+                        "on-primary-fixed": "#241a00",
+                        "tertiary-container": "#4a380c",
+                        "on-secondary-container": "#a8b4da",
+                        "surface-container-lowest": "#0e0e0e",
+                        "surface-container-low": "#1c1b1b",
+                        "inverse-surface": "#e5e2e1",
+                        "on-primary-container": "#c5a129",
+                        "on-background": "#e5e2e1",
+                        "background": "#131313",
+                        "error": "#ffb4ab",
+                        "surface-tint": "#e9c349",
+                        "surface": "#131313",
+                        "surface-bright": "#3a3939",
+                        "on-tertiary": "#3f2e03",
+                        "on-secondary-fixed-variant": "#3a4666",
+                        "on-error-container": "#ffdad6",
+                        "on-secondary-fixed": "#0d1a38",
+                        "on-tertiary-fixed-variant": "#574417",
+                        "secondary-fixed-dim": "#bac6ec",
+                        "primary": "#e9c349",
+                        "surface-container-high": "#2a2a2a",
+                        "tertiary-fixed-dim": "#dfc38b",
+                        "tertiary-fixed": "#fddfa4",
+                        "outline": "#8f9098",
+                        "surface-variant": "#353534",
+                        "error-container": "#93000a",
+                        "surface-container-highest": "#353534",
+                        "secondary-container": "#3a4666",
+                        "on-tertiary-fixed": "#261a00",
+                        "on-surface-variant": "#c6c6ce",
+                        "on-primary-fixed-variant": "#574500",
+                        "secondary-fixed": "#dae2ff"
+                    },
+                    fontFamily: {
+                        "headline": ["Newsreader"],
+                        "body": ["Newsreader"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #131313;
+            color: #e5e2e1;
+            font-family: 'Newsreader', serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #e9c349 0%, #493900 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="selection:bg-primary-container selection:text-on-primary-container">
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Newsreader'] text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<main class="max-w-screen-2xl mx-auto px-6 md:px-10 pt-12">
+<header class="editorial-grid mb-24">
+<div class="col-span-12 md:col-span-7 pt-12">
+<div class="flex items-center gap-4 mb-8">
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.3em] text-on-tertiary-container px-3 py-1 border border-outline-variant/20">Karma System</span>
+<div class="h-[1px] w-12 bg-outline-variant/30"></div>
+</div>
+<h1 class="text-7xl md:text-[9rem] leading-[0.85] font-['Newsreader'] font-light italic tracking-tighter mb-6">
+                    Kashaya
+                </h1>
+<p class="text-2xl font-['Inter'] text-on-surface/60 tracking-wide mt-2">The Passions</p>
+<div class="text-3xl md:text-5xl font-['Newsreader'] text-primary/40 mb-12 italic">
+                    कषाय
+                </div>
+<p class="text-2xl md:text-3xl font-['Newsreader'] font-light leading-snug max-w-xl text-on-surface/80 italic">
+                    The 4 passions — anger, ego, deceit, greed — in 4 intensities. The engine of bondage.
+                </p>
+</div>
+<div class="col-span-12 md:col-span-5 relative mt-12 md:mt-0">
+<div class="aspect-[3/4] overflow-hidden grayscale contrast-125 opacity-70">
+<img alt="Dark intense binding forces" class="w-full h-full object-cover" data-alt="Dark abstract representation of binding karmic forces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3uYGw1JX0CLzwsWBhNOKIF90BlgVK33xmd5EKtQddnX227aGtoeC8VVbgxGXKRhq1VoJ_2yUHhJZZGKbROS1Q_M6UBprJHFI2DmbHbvwRd1ZoynGuKZEb0XRhIS1UVvQej-F-Z4_0JNzox72tbdJaNTkpUUfWj8Ds4LNuYGLEzD5lHRmS2-pMce8ju1pMC0DUA6KpsWPsyzd9UPj_-2iM1M2Q5n1YXcRSvdOKg84YdMEDU4WN5wLjaccmeUhATR9LNTmXFZIfAw"/>
+</div>
+<div class="absolute -bottom-8 -left-8 p-10 bg-surface-container-low backdrop-blur-xl border border-outline-variant/10 max-w-xs hidden md:block">
+<p class="font-['Inter'] text-xs uppercase tracking-widest text-on-surface-variant mb-4">Siddhanta Principle</p>
+<p class="font-['Newsreader'] text-lg leading-relaxed italic text-on-surface/70">
+                        "Just as a sticky substance binds dust to a garment, Kashayas bind Karma to the Atman."
+                    </p>
+</div>
+</div>
+</header>
+<section class="mb-40">
+<div class="editorial-grid">
+<div class="col-span-12 md:col-span-4 sticky top-32 h-fit mb-12 md:mb-0">
+<h2 class="text-4xl font-['Newsreader'] mb-6">The Anatomy of Bondage</h2>
+<p class="font-['Newsreader'] text-xl leading-relaxed text-on-surface/60">
+                        Explanation: Krodh (Anger), Maan (Ego), Maya (Deceit), Lobh (Greed). At their most intense (Anantanubandhi), they block Samyaktva entirely. At their subtlest (Sanjwalan), even Arihants work to dissolve them. These are not personality flaws — they are karmic chains.
+                    </p>
+</div>
+<div class="col-span-12 md:col-start-6 md:col-span-7">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-outline-variant/10 border border-outline-variant/10">
+<div class="bg-surface-container-low p-12 transition-colors hover:bg-surface-container">
+<span class="font-['Inter'] text-[10px] text-primary tracking-[0.4em] uppercase block mb-6">01. Krodh</span>
+<h3 class="text-4xl font-['Newsreader'] mb-4">Anger</h3>
+<p class="text-on-surface/50 leading-relaxed font-['Newsreader'] text-lg">
+                                The fire that consumes the self before it burns others. It obscures the soul's innate quality of infinite forgiveness and peace.
+                            </p>
+</div>
+<div class="bg-surface-container-low p-12 transition-colors hover:bg-surface-container">
+<span class="font-['Inter'] text-[10px] text-primary tracking-[0.4em] uppercase block mb-6">02. Maan</span>
+<h3 class="text-4xl font-['Newsreader'] mb-4">Ego</h3>
+<p class="text-on-surface/50 leading-relaxed font-['Newsreader'] text-lg">
+                                The mountain of illusion. It creates the false 'I', blocking the realization of the soul's fundamental equality with all living beings.
+                            </p>
+</div>
+<div class="bg-surface-container-low p-12 transition-colors hover:bg-surface-container">
+<span class="font-['Inter'] text-[10px] text-primary tracking-[0.4em] uppercase block mb-6">03. Maya</span>
+<h3 class="text-4xl font-['Newsreader'] mb-4">Deceit</h3>
+<p class="text-on-surface/50 leading-relaxed font-['Newsreader'] text-lg">
+                                The tangled web of crookedness. It fractures the soul's integrity, replacing Satya (Truth) with masks and manipulation.
+                            </p>
+</div>
+<div class="bg-surface-container-low p-12 transition-colors hover:bg-surface-container">
+<span class="font-['Inter'] text-[10px] text-primary tracking-[0.4em] uppercase block mb-6">04. Lobh</span>
+<h3 class="text-4xl font-['Newsreader'] mb-4">Greed</h3>
+<p class="text-on-surface/50 leading-relaxed font-['Newsreader'] text-lg">
+                                The ditch with no bottom. The father of all sins, it tethers the soul to temporary matter, obscuring eternal bliss.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-40 py-24 bg-surface-container-lowest">
+<div class="max-w-4xl mx-auto px-6 text-center">
+<h2 class="text-xs font-['Inter'] uppercase tracking-[0.5em] text-primary mb-12">The Four Intensities</h2>
+<div class="space-y-20">
+<div class="group">
+<h4 class="text-3xl font-['Newsreader'] text-on-surface mb-2">Anantanubandhi</h4>
+<p class="text-on-surface-variant max-w-lg mx-auto">Life-long intensity. Blocks the path of right vision (Samyaktva) entirely.</p>
+<div class="h-px w-0 group-hover:w-full bg-primary/30 transition-all duration-1000 mx-auto mt-4"></div>
+</div>
+<div class="group">
+<h4 class="text-3xl font-['Newsreader'] text-on-surface mb-2">Apratyakhyana</h4>
+<p class="text-on-surface-variant max-w-lg mx-auto">Blocks the beginning of partial renunciation and self-restraint.</p>
+<div class="h-px w-0 group-hover:w-full bg-primary/30 transition-all duration-1000 mx-auto mt-4"></div>
+</div>
+<div class="group">
+<h4 class="text-3xl font-['Newsreader'] text-on-surface mb-2">Pratyakhyana</h4>
+<p class="text-on-surface-variant max-w-lg mx-auto">Blocks complete renunciation. Found in those with partial vows.</p>
+<div class="h-px w-0 group-hover:w-full bg-primary/30 transition-all duration-1000 mx-auto mt-4"></div>
+</div>
+<div class="group">
+<h4 class="text-3xl font-['Newsreader'] text-on-surface mb-2">Sanjwalan</h4>
+<p class="text-on-surface-variant max-w-lg mx-auto">Flickering intensity. The last subtle traces even ascetics must dissolve.</p>
+<div class="h-px w-0 group-hover:w-full bg-primary/30 transition-all duration-1000 mx-auto mt-4"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-40 grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+<div class="order-2 md:order-1">
+<div class="relative group cursor-none">
+<img alt="Universal soul consciousness" class="w-full grayscale brightness-50 contrast-125" data-alt="Distant nebula representing pure soul consciousness" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHR5pr1N9Ky_v2qncxfpsPd_nBc-C-Rhqw-opWtqrof28DJxntfxRbteppZ2rvjYnk7xfqwwz7uwQgmNiDGOovWzkrQK_HzvADDd6viVmaxfAg9WDE2Sx7CfghGMy98i1JHEgjdT7bkXaCUdovWK7xyD4n50qWSiURMfiLsk6qCyYHo2F9qrYs5YXm1LNs6Te8hwUUKrHhUv7I9aC_6oebKKk0Lko7cMDB5gcuFEGb15VYPxXnJaJnlR7Nuwg2DvhkXXiGJqC1Zw"/>
+<div class="absolute inset-0 bg-primary/5 mix-blend-overlay"></div>
+</div>
+</div>
+<div class="order-1 md:order-2">
+<h2 class="text-5xl font-['Newsreader'] mb-10 leading-tight">Dissolving the Alchemical Lead</h2>
+<p class="text-xl font-['Newsreader'] text-on-surface/70 leading-relaxed mb-8">
+                    Liberation is not the acquisition of something new, but the dissolution of the Kashayas. When the leaden weight of passion is removed, the soul naturally ascends to its pristine state of infinite knowledge and bliss.
+                </p>
+<button class="px-10 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-['Inter'] text-xs uppercase tracking-widest hover:scale-105 transition-transform duration-500">
+                    Explore Samvara
+                </button>
+</div>
+</section>
+</main>
+<footer class="w-full py-16 border-t border-[#e5e2e1]/10 bg-[#1c1b1b]">
+<div class="flex flex-col items-center gap-4 px-8 text-center">
+<div class="font-['Newsreader'] text-[#e9c349] opacity-80 text-xl">JainAwaken</div>
+<p class="font-['Inter'] text-[#e5e2e1]/40 text-xs tracking-widest">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>

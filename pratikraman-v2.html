@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pratikraman — JainAwaken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#bca26c",
+              "on-primary": "#3c2f00",
+              "primary-fixed": "#ffe088",
+              "inverse-on-surface": "#313030",
+              "secondary": "#bac6ec",
+              "inverse-primary": "#735c00",
+              "surface-dim": "#131313",
+              "primary-container": "#493900",
+              "on-secondary": "#23304e",
+              "on-error": "#690005",
+              "on-surface": "#e5e2e1",
+              "outline-variant": "#45464e",
+              "tertiary": "#dfc38b",
+              "surface-container": "#201f1f",
+              "primary-fixed-dim": "#e9c349",
+              "on-primary-fixed": "#241a00",
+              "tertiary-container": "#4a380c",
+              "on-secondary-container": "#a8b4da",
+              "surface-container-lowest": "#0e0e0e",
+              "surface-container-low": "#1c1b1b",
+              "inverse-surface": "#e5e2e1",
+              "on-primary-container": "#c5a129",
+              "on-background": "#e5e2e1",
+              "background": "#131313",
+              "error": "#ffb4ab",
+              "surface-tint": "#e9c349",
+              "surface": "#131313",
+              "surface-bright": "#3a3939",
+              "on-tertiary": "#3f2e03",
+              "on-secondary-fixed-variant": "#3a4666",
+              "on-error-container": "#ffdad6",
+              "on-secondary-fixed": "#0d1a38",
+              "on-tertiary-fixed-variant": "#574417",
+              "secondary-fixed-dim": "#bac6ec",
+              "primary": "#e9c349",
+              "surface-container-high": "#2a2a2a",
+              "tertiary-fixed-dim": "#dfc38b",
+              "tertiary-fixed": "#fddfa4",
+              "outline": "#8f9098",
+              "surface-variant": "#353534",
+              "error-container": "#93000a",
+              "surface-container-highest": "#353534",
+              "secondary-container": "#3a4666",
+              "on-tertiary-fixed": "#261a00",
+              "on-surface-variant": "#c6c6ce",
+              "on-primary-fixed-variant": "#574500",
+              "secondary-fixed": "#dae2ff"
+            },
+            fontFamily: {
+              "headline": ["Newsreader"],
+              "body": ["Newsreader"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #131313;
+            color: #e5e2e1;
+            font-family: 'Newsreader', serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-shadow {
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            background-color: rgba(19, 19, 19, 0.8);
+        }
+    </style>
+</head>
+<body class="selection:bg-primary/30 selection:text-primary">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Newsreader'] text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section: The Ritual Scroller Style Layout -->
+<section class="max-w-screen-2xl mx-auto px-10 mb-24 grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
+<div class="lg:col-span-7">
+<span class="font-['Inter'] text-xs uppercase tracking-[0.4em] text-primary mb-6 block">The Path</span>
+<h1 class="text-7xl md:text-9xl font-headline italic tracking-tighter leading-none mb-4">Pratikraman</h1>
+<div class="text-4xl font-headline text-on-tertiary-container/40 mb-12">प्रतिक्रमण</div>
+<p class="text-2xl font-['Inter'] text-on-surface/60 tracking-wide mt-2">The Returning</p>
+<p class="text-2xl md:text-3xl font-body italic text-on-surface-variant max-w-2xl leading-relaxed">
+                    The daily practice of returning — withdrawing from every wrong thought, word, and deed.
+                </p>
+</div>
+<div class="lg:col-span-5 relative group">
+<div class="aspect-[4/5] bg-surface-container-low overflow-hidden relative">
+<img class="w-full h-full object-cover mix-blend-luminosity opacity-60 group-hover:scale-105 transition-transform duration-1000" data-alt="An abstract spiral of light pulling inward towards a center point" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOm5Tc3VC7cqhkF8IAIZdEaf4U4juoOiDHhFa7r5mqsIK8T8DEXBj0CKlFU9ocPfqUdRAOqrLcdSMHoKuRzoxpgHzK25vzBfXYvgj8sJnSH3lHv4PuaWNRy2GYr6vVsdYTKsV_8480CG5EBFPuCdXkPxQR-Vsci9HdRVVZQb_Au0dSlofVOWf1mcX695kDeE_jtfEyMqz50euPqS5qAtX4FHc9yTs_3BQ8vK18oSNurM6Ha0UdfazKb4NPJBkMZh-LaHLD2pEXiQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+</div>
+<div class="absolute -bottom-6 -left-6 bg-primary p-8 text-on-primary editorial-shadow hidden md:block">
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.3em] font-bold">Concept Pillar</span>
+<div class="text-2xl font-headline italic mt-2">Inner Sanctuary</div>
+</div>
+</div>
+</section>
+<!-- Philosophic Breakdown: Asymmetric Grid -->
+<section class="max-w-screen-2xl mx-auto px-10 py-24 border-t border-outline-variant/10">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
+<div class="space-y-12">
+<div class="space-y-6">
+<h2 class="text-4xl font-headline tracking-tight">The Metaphysics of Returning</h2>
+<p class="text-lg leading-relaxed text-on-surface-variant font-body">
+                            Pratikraman is not confession. It is the soul pulling itself back from where it drifted. Done twice daily by devout Jains. Philosophically it is applied <span class="text-primary">Samvar</span> and <span class="text-primary">Nirjara</span> — stopping new karma and shedding old.
+                        </p>
+</div>
+<div class="bg-surface-container-lowest p-10 border-l-2 border-primary">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
+<div>
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.2em] text-on-tertiary-container">Stage I</span>
+<h3 class="text-xl font-headline mt-2">Samvar</h3>
+<p class="text-sm text-on-surface-variant mt-2 font-body">The sealing of the doors. Consciously stopping the influx of cosmic dust into the eternal self.</p>
+</div>
+<div>
+<span class="font-['Inter'] text-[10px] uppercase tracking-[0.2em] text-on-tertiary-container">Stage II</span>
+<h3 class="text-xl font-headline mt-2">Nirjara</h3>
+<p class="text-sm text-on-surface-variant mt-2 font-body">The cleansing fire. Shedding the accumulated layers of past actions through focused awareness.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-6">
+<div class="bg-surface-container-low p-12 transition-all hover:bg-surface-container-high">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="wb_twilight">wb_twilight</span>
+<h4 class="text-2xl font-headline mb-4">Rai Pratikraman</h4>
+<p class="text-on-surface-variant leading-relaxed font-body">Performed at dusk to repent for the transgressions of the day. A sunset ritual of psychic cleaning before the rest of sleep.</p>
+</div>
+<div class="bg-surface-container-low p-12 transition-all hover:bg-surface-container-high">
+<span class="material-symbols-outlined text-primary text-4xl mb-6" data-icon="sunny">sunny</span>
+<h4 class="text-2xl font-headline mb-4">Devasi Pratikraman</h4>
+<p class="text-on-surface-variant leading-relaxed font-body">Performed at dawn for the subtle errors of the night. Starting the cycle of awareness with a clear crystalline intent.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Signature Component: The Ritual Scroller (Conceptual Meditation Steps) -->
+<section class="py-24 bg-surface-container-lowest overflow-hidden">
+<div class="max-w-screen-2xl mx-auto px-10 mb-16">
+<h2 class="text-4xl font-headline">The Six Essentials</h2>
+<p class="font-['Inter'] text-xs uppercase tracking-[0.3em] text-outline mt-2">Avashyaka: The Must-Perform Daily Virtues</p>
+</div>
+<div class="flex gap-10 overflow-x-auto pb-10 px-10 no-scrollbar">
+<!-- Step 1 -->
+<div class="min-w-[350px] bg-surface p-12 flex flex-col justify-between aspect-[3/4] border-t-4 border-primary shadow-2xl">
+<div>
+<span class="text-6xl font-headline opacity-20">01</span>
+<h3 class="text-2xl font-headline mt-4">Samayika</h3>
+</div>
+<p class="text-on-surface-variant font-body">Achieving equanimity. Becoming a silent observer of the universe within.</p>
+</div>
+<!-- Step 2 -->
+<div class="min-w-[350px] bg-surface-dim p-12 flex flex-col justify-between aspect-[3/4] border-t-4 border-outline-variant/30">
+<div>
+<span class="text-6xl font-headline opacity-10">02</span>
+<h3 class="text-2xl font-headline mt-4">Chauvisantho</h3>
+</div>
+<p class="text-on-surface-variant font-body">Praising the twenty-four Tirthankaras, the victors of the soul's journey.</p>
+</div>
+<!-- Step 3 -->
+<div class="min-w-[350px] bg-surface-dim p-12 flex flex-col justify-between aspect-[3/4] border-t-4 border-outline-variant/30">
+<div>
+<span class="text-6xl font-headline opacity-10">03</span>
+<h3 class="text-2xl font-headline mt-4">Vandana</h3>
+</div>
+<p class="text-on-surface-variant font-body">Respectful salutation to the living masters and the wisdom they hold.</p>
+</div>
+<!-- Step 4 -->
+<div class="min-w-[350px] bg-surface-dim p-12 flex flex-col justify-between aspect-[3/4] border-t-4 border-outline-variant/30">
+<div>
+<span class="text-6xl font-headline opacity-10">04</span>
+<h3 class="text-2xl font-headline mt-4">Pratikraman</h3>
+</div>
+<p class="text-on-surface-variant font-body">The core act of turning back from the path of error to the path of light.</p>
+</div>
+</div>
+</section>
+<!-- CTA / Final Insight -->
+<section class="max-w-4xl mx-auto px-10 py-32 text-center">
+<div class="inline-block w-12 h-[1px] bg-primary mb-10"></div>
+<h2 class="text-5xl md:text-6xl font-headline leading-tight mb-12 text-on-surface">
+                "The soul is like a mirror; Pratikraman is the daily wiping away of the dust."
+            </h2>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-12 py-5 font-['Inter'] text-xs uppercase tracking-[0.3em] font-bold hover:scale-105 transition-transform duration-500 shadow-lg shadow-primary/10">
+                Begin the Practice
+            </button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 border-t border-[#e5e2e1]/10 bg-[#1c1b1b]">
+<div class="flex flex-col items-center gap-4 px-8 text-center">
+<div class="font-['Newsreader'] text-[#e9c349] opacity-80 text-xl">JainAwaken</div>
+<p class="font-['Inter'] text-[#e5e2e1]/40 text-xs tracking-widest">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>

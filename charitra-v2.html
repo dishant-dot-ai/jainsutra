@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Charitra — JainAwaken</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#bca26c",
+              "on-primary": "#3c2f00",
+              "primary-fixed": "#ffe088",
+              "inverse-on-surface": "#313030",
+              "secondary": "#bac6ec",
+              "inverse-primary": "#735c00",
+              "surface-dim": "#131313",
+              "primary-container": "#493900",
+              "on-secondary": "#23304e",
+              "on-error": "#690005",
+              "on-surface": "#e5e2e1",
+              "outline-variant": "#45464e",
+              "tertiary": "#dfc38b",
+              "surface-container": "#201f1f",
+              "primary-fixed-dim": "#e9c349",
+              "on-primary-fixed": "#241a00",
+              "tertiary-container": "#4a380c",
+              "on-secondary-container": "#a8b4da",
+              "surface-container-lowest": "#0e0e0e",
+              "surface-container-low": "#1c1b1b",
+              "inverse-surface": "#e5e2e1",
+              "on-primary-container": "#c5a129",
+              "on-background": "#e5e2e1",
+              "background": "#131313",
+              "error": "#ffb4ab",
+              "surface-tint": "#e9c349",
+              "surface": "#131313",
+              "surface-bright": "#3a3939",
+              "on-tertiary": "#3f2e03",
+              "on-secondary-fixed-variant": "#3a4666",
+              "on-error-container": "#ffdad6",
+              "on-secondary-fixed": "#0d1a38",
+              "on-tertiary-fixed-variant": "#574417",
+              "secondary-fixed-dim": "#bac6ec",
+              "primary": "#e9c349",
+              "surface-container-high": "#2a2a2a",
+              "tertiary-fixed-dim": "#dfc38b",
+              "tertiary-fixed": "#fddfa4",
+              "outline": "#8f9098",
+              "surface-variant": "#353534",
+              "error-container": "#93000a",
+              "surface-container-highest": "#353534",
+              "secondary-container": "#3a4666",
+              "on-tertiary-fixed": "#261a00",
+              "on-surface-variant": "#c6c6ce",
+              "on-primary-fixed-variant": "#574500",
+              "secondary-fixed": "#dae2ff"
+            },
+            fontFamily: {
+              "headline": ["Newsreader"],
+              "body": ["Newsreader"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      .alchemist-glow {
+        box-shadow: 0 0 40px rgba(233, 195, 73, 0.15);
+      }
+      .text-glow {
+        text-shadow: 0 0 12px rgba(233, 195, 73, 0.3);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary overflow-x-hidden">
+<!-- TopNavBar Component -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Newsreader'] text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<main class="relative min-h-screen flex flex-col pt-32 px-6 md:px-20 lg:px-40">
+<div class="absolute top-0 right-0 w-2/3 h-full opacity-20 pointer-events-none overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-l from-primary/20 to-transparent"></div>
+<div class="w-full h-full bg-cover bg-center" data-alt="Abstract path of light leading towards star" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD7YuXEKYmoG1uUeBDIiYqpLEE6whmu4L4azn1NuBrmkFifa9bI75kgAE4c4M7Pe-aOAi9YSQRhc5yCPGs8ISUisfR4cVDJCDuRIVvjkda0o0OuQwT3sw2ojr3gGulsjoFFlaZZdkdNTn2Oz5iD4SlEq5m4LB46giR3HQVhPd_roApDrtvhPMRl0BXeCc2erGe1ENz1hTGikJIqFbi33ie8bB61QCHaRWuxiwprEifGoLyUiEj35_aqQXNXZgq7ZJ9woy0U6tpuLA')"></div>
+</div>
+<section class="relative z-10 max-w-4xl">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-primary/70 mb-6 block">The Path</span>
+<div class="flex flex-col md:flex-row md:items-baseline gap-4 md:gap-8 mb-8">
+<h1 class="text-7xl md:text-9xl font-headline italic tracking-tighter text-primary leading-none text-glow">Charitra</h1>
+<span class="text-4xl md:text-6xl font-headline text-on-surface/40 italic">चारित्र</span>
+</div>
+<p class="text-2xl font-['Inter'] text-on-surface/60 tracking-wide mt-2 not-italic">Right Conduct</p>
+<p class="text-2xl md:text-4xl font-headline italic leading-tight text-on-surface max-w-2xl">
+                Right Conduct — not rules, but the natural behavior of a soul moving toward freedom.
+            </p>
+</section>
+<!-- Siddhanta Content Layout -->
+<section class="mt-24 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 relative z-10">
+<!-- Left: Primary Explanation -->
+<div class="lg:col-span-7 space-y-16">
+<div class="space-y-8">
+<h2 class="text-3xl font-headline text-primary-fixed-dim">The Third Jewel</h2>
+<div class="h-px w-24 bg-primary/30"></div>
+<p class="text-xl md:text-2xl leading-relaxed text-on-surface-variant font-light">
+                        The third jewel of <span class="text-primary">Ratnatraya</span>. For householders: 12 vows. For monks: 28 mool gunas. Charitra is not morality imposed from outside — it's the soul's own movement away from <span class="text-tertiary">Asrav</span> and toward <span class="text-secondary">Samvar</span>.
+                    </p>
+</div>
+<!-- Asymmetric Bento-style Details -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-surface-container-low p-10 border-l border-primary/20 alchemist-glow">
+<h3 class="font-label text-[10px] uppercase tracking-[0.2em] text-on-surface/40 mb-4">Shravaka Dharma</h3>
+<p class="text-3xl font-headline text-on-surface">12 Vows</p>
+<p class="mt-4 text-on-surface-variant leading-relaxed">The internal blueprint for a householder to cultivate discipline while navigating the material world.</p>
+</div>
+<div class="bg-surface-container-low p-10 mt-8 md:mt-16 border-l border-primary/20 alchemist-glow">
+<h3 class="font-label text-[10px] uppercase tracking-[0.2em] text-on-surface/40 mb-4">Muni Dharma</h3>
+<p class="text-3xl font-headline text-on-surface">28 Mool Gunas</p>
+<p class="mt-4 text-on-surface-variant leading-relaxed">The profound path of the ascetic, where every action is a conscious step toward total liberation.</p>
+</div>
+</div>
+</div>
+<!-- Right: The "Alchemy" Side -->
+<div class="lg:col-span-5 flex flex-col justify-center">
+<div class="relative p-1 bg-gradient-to-br from-primary/40 via-transparent to-primary/10">
+<div class="bg-surface p-12 space-y-10">
+<div class="space-y-4">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="auto_awesome">auto_awesome</span>
+<h4 class="text-2xl font-headline">Internal Alchemy</h4>
+</div>
+<div class="space-y-8">
+<div class="group">
+<div class="flex justify-between items-end mb-2">
+<span class="font-label text-xs uppercase tracking-widest text-on-surface/60">From Asrav</span>
+<span class="font-headline text-on-surface/40">Influx</span>
+</div>
+<div class="h-0.5 bg-surface-container-highest w-full relative overflow-hidden">
+<div class="absolute inset-0 bg-primary/40 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-1000"></div>
+</div>
+</div>
+<div class="group">
+<div class="flex justify-between items-end mb-2">
+<span class="font-label text-xs uppercase tracking-widest text-primary">To Samvar</span>
+<span class="font-headline text-primary/60">Stoppage</span>
+</div>
+<div class="h-0.5 bg-surface-container-highest w-full relative overflow-hidden">
+<div class="absolute inset-0 bg-primary transform -translate-x-full group-hover:translate-x-0 transition-transform duration-1000 delay-150"></div>
+</div>
+</div>
+</div>
+<p class="font-label text-[11px] leading-relaxed text-on-surface/40 uppercase tracking-tighter">
+                            Conduct is not a cage of restrictions; it is the structural integrity of the awakened soul.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final Vision Section -->
+<section class="mt-40 mb-20 text-center max-w-3xl mx-auto space-y-12">
+<div class="inline-block w-px h-24 bg-gradient-to-b from-transparent via-primary/50 to-transparent"></div>
+<h2 class="text-5xl md:text-6xl font-headline text-primary tracking-tight">The Movement of the Soul</h2>
+<p class="text-xl font-light text-on-surface-variant leading-relaxed">
+                When Right Faith and Right Knowledge are present, Right Conduct follows like a shadow follows the body. It is the natural expression of truth in the physical realm.
+            </p>
+<button class="px-12 py-5 bg-gradient-to-br from-primary to-primary-container text-on-primary font-label uppercase tracking-[0.2em] text-xs font-bold transition-all duration-500 hover:scale-105 alchemist-glow">
+                Explore The Twelve Vows
+            </button>
+</section>
+</main>
+<!-- Footer Component -->
+<footer class="w-full py-16 border-t border-[#e5e2e1]/10 bg-[#1c1b1b]">
+<div class="flex flex-col items-center gap-4 px-8 text-center">
+<div class="font-['Newsreader'] text-[#e9c349] opacity-80 text-xl">JainAwaken</div>
+<p class="font-['Inter'] text-[#e5e2e1]/40 text-xs tracking-widest">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>

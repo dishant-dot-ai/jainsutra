@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Karma — JainAwaken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&amp;family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#bca26c",
+              "on-primary": "#3c2f00",
+              "primary-fixed": "#ffe088",
+              "inverse-on-surface": "#313030",
+              "secondary": "#bac6ec",
+              "inverse-primary": "#735c00",
+              "surface-dim": "#131313",
+              "primary-container": "#493900",
+              "on-secondary": "#23304e",
+              "on-error": "#690005",
+              "on-surface": "#e5e2e1",
+              "outline-variant": "#45464e",
+              "tertiary": "#dfc38b",
+              "surface-container": "#201f1f",
+              "primary-fixed-dim": "#e9c349",
+              "on-primary-fixed": "#241a00",
+              "tertiary-container": "#4a380c",
+              "on-secondary-container": "#a8b4da",
+              "surface-container-lowest": "#0e0e0e",
+              "surface-container-low": "#1c1b1b",
+              "inverse-surface": "#e5e2e1",
+              "on-primary-container": "#c5a129",
+              "on-background": "#e5e2e1",
+              "background": "#131313",
+              "error": "#ffb4ab",
+              "surface-tint": "#e9c349",
+              "surface": "#131313",
+              "surface-bright": "#3a3939",
+              "on-tertiary": "#3f2e03",
+              "on-secondary-fixed-variant": "#3a4666",
+              "on-error-container": "#ffdad6",
+              "on-secondary-fixed": "#0d1a38",
+              "on-tertiary-fixed-variant": "#574417",
+              "secondary-fixed-dim": "#bac6ec",
+              "primary": "#e9c349",
+              "surface-container-high": "#2a2a2a",
+              "tertiary-fixed-dim": "#dfc38b",
+              "tertiary-fixed": "#fddfa4",
+              "outline": "#8f9098",
+              "surface-variant": "#353534",
+              "error-container": "#93000a",
+              "surface-container-highest": "#353534",
+              "secondary-container": "#3a4666",
+              "on-tertiary-fixed": "#261a00",
+              "on-surface-variant": "#c6c6ce",
+              "on-primary-fixed-variant": "#574500",
+              "secondary-fixed": "#dae2ff"
+            },
+            fontFamily: {
+              "headline": ["Newsreader"],
+              "body": ["Newsreader"],
+              "label": ["Inter"],
+              "serif": ["Newsreader", "serif"],
+              "noto": ["Noto Serif", "serif"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #131313;
+            color: #e5e2e1;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #e9c349 0%, #493900 100%);
+        }
+        .glass-panel {
+            background: rgba(28, 27, 27, 0.4);
+            backdrop-filter: blur(20px);
+        }
+        .text-glow {
+            text-shadow: 0 0 15px rgba(233, 195, 73, 0.3);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #131313; }
+        ::-webkit-scrollbar-thumb { background: #493900; }
+    </style>
+</head>
+<body class="font-body selection:bg-primary/30">
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Newsreader'] text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<main class="pt-32">
+<section class="px-10 max-w-screen-2xl mx-auto mb-24 grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
+<div class="lg:col-span-8">
+<div class="flex items-center gap-4 mb-6">
+<span class="font-label uppercase tracking-[0.3em] text-primary text-xs">Karma System</span>
+<div class="h-[1px] w-24 bg-primary/30"></div>
+</div>
+<h1 class="text-8xl md:text-[10rem] font-headline font-bold leading-none tracking-tighter text-[#e9c349] mb-4">Karma</h1>
+<p class="text-2xl font-['Inter'] text-on-surface/60 tracking-wide mt-2">The Binding Particles</p>
+<div class="flex items-baseline gap-6">
+<span class="text-4xl md:text-6xl font-noto italic text-on-surface-variant opacity-40">कर्म</span>
+<p class="text-2xl md:text-3xl font-light max-w-xl text-on-surface/80 leading-relaxed italic">
+                        Not fate — particles of matter that attach to the soul based on your thoughts, words, and actions.
+                    </p>
+</div>
+</div>
+<div class="lg:col-span-4 lg:text-right">
+<div class="inline-block p-10 border border-outline-variant/20 bg-surface-container-low">
+<p class="text-xs font-label uppercase tracking-widest text-on-surface-variant mb-4">Current Transit</p>
+<p class="text-xl font-headline">Every thought you think right now is either binding or releasing karma.</p>
+</div>
+</div>
+</section>
+<section class="bg-surface-container-low py-32 px-10">
+<div class="max-w-screen-2xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div>
+<h2 class="text-4xl font-headline text-primary mb-12">4 Ghati (Destructive)</h2>
+<div class="space-y-10">
+<div class="group border-l border-primary/20 pl-8 py-2 transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Jnanavarniya</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Knowledge-obscuring</p>
+<p class="text-on-surface/70 leading-relaxed max-w-md">Veils the natural omniscience of the soul, like a cloth covering a mirror.</p>
+</div>
+<div class="group border-l border-primary/20 pl-8 py-2 transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Darshanavarniya</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Perception-obscuring</p>
+<p class="text-on-surface/70 leading-relaxed max-w-md">Prevents the soul from perceiving the true nature of reality and divine vision.</p>
+</div>
+<div class="group border-l border-primary/20 pl-8 py-2 transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Mohniya</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Delusory</p>
+<p class="text-on-surface/70 leading-relaxed max-w-md">The most dangerous karma; it confuses the soul, causing attachment and aversion.</p>
+</div>
+<div class="group border-l border-primary/20 pl-8 py-2 transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Antaraya</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Power-obscuring</p>
+<p class="text-on-surface/70 leading-relaxed max-w-md">Obstructs the innate power and energy of the soul to perform good deeds.</p>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="sticky top-40 aspect-square w-full bg-surface-container-highest/20 overflow-hidden flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/5 to-transparent"></div>
+<div class="w-64 h-64 border border-primary/30 rotate-45 animate-pulse-slow"></div>
+<div class="absolute w-48 h-48 border border-primary/10 -rotate-12"></div>
+<div class="absolute w-80 h-80 border border-primary/5 rotate-90"></div>
+<img class="absolute w-full h-full object-cover opacity-30 mix-blend-overlay" data-alt="Abstract golden particles swirling in deep space" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXcEeFfg4U1uCDdfc6PrRR1H0IiPj4IsJ-tnAQPJI75MzpS0VXxkHrGfenqy0ZmeQ-SIASh9BD3J8qMuCvykessUWAVtg52-cJwk8bVOD9mJHbbj6OiIr8dtWwykUaTShkOS3MYBQUqwoeCxZZXrCCKBTo32Q6_t8gVuHPRC3s7duKeoC9CAW5k4EBVa5H_9etGb2r1Dayqt1HY6SsOJIqniX2tMzypNJvP5QL0-7W9_cenDPPDN93JIRf9_0SpP54r36u4r5Fmg"/>
+<div class="z-10 text-center">
+<span class="text-xs font-label uppercase tracking-[0.5em] text-primary block mb-4">The Veil</span>
+<div class="w-1 h-16 bg-primary mx-auto"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-40">
+<div class="order-2 lg:order-1 relative">
+<div class="aspect-[4/5] w-full overflow-hidden">
+<img class="w-full h-full object-cover grayscale brightness-50" data-alt="High quality abstract image of textured dark stone and gold veins" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0EF0tuQZzYqbbdHAi-JJSQC32tUFXhqiPcWsntj1qQUvGE8zhDXKLNy9eog6dPr0XLIe4M6KErc34sHOIUEbJFyPd2JN5d3kHyqKCXnKL237CxurCI1RQVkxkNiZeEpeWjr-f1HA259DsBJHR2fki9fzONVGKv_vl783ZkPxMm2BA9ZeMyLZFLJIHQFub5RW8AeC_FBpc2ildYyZUeJkMxOCadwT9iQaiOFvHUTm1U19dP7aGW9-Civz-rAYA7GVR7Iqj8bkQSw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent"></div>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<h2 class="text-4xl font-headline text-primary mb-12">4 Aghati (Non-destructive)</h2>
+<div class="space-y-10">
+<div class="group border-r border-primary/20 pr-8 py-2 text-right transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Vedniya</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Feeling-producing</p>
+<p class="text-on-surface/70 leading-relaxed ml-auto max-w-md">Determines the physical and worldly pleasure or pain experienced by the being.</p>
+</div>
+<div class="group border-r border-primary/20 pr-8 py-2 text-right transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Nama</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Body-determining</p>
+<p class="text-on-surface/70 leading-relaxed ml-auto max-w-md">Determines the physical body, its shape, color, and sensory capabilities.</p>
+</div>
+<div class="group border-r border-primary/20 pr-8 py-2 text-right transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Gotra</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Status-determining</p>
+<p class="text-on-surface/70 leading-relaxed ml-auto max-w-md">Determines the family, social environment, and spiritual lineage of birth.</p>
+</div>
+<div class="group border-r border-primary/20 pr-8 py-2 text-right transition-all hover:border-primary">
+<h3 class="text-2xl font-noto mb-2 group-hover:text-primary transition-colors">Ayu</h3>
+<p class="text-on-surface-variant font-label text-sm uppercase tracking-wider mb-3">Life-span-determining</p>
+<p class="text-on-surface/70 leading-relaxed ml-auto max-w-md">Determines the specific duration of a soul's life in its current physical form.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-40 px-10 max-w-4xl mx-auto">
+<div class="text-center mb-24">
+<span class="material-symbols-outlined text-6xl text-primary mb-8" data-weight="fill">flare</span>
+<h2 class="text-5xl font-headline mb-10 leading-tight">The Mechanics of Binding</h2>
+<div class="space-y-8 text-xl font-light text-on-surface/80 leading-relaxed">
+<p>Karma in Jainism is literal — fine particles of matter that bind to the soul. It is not an abstract tally of deeds, but a physical weight that determines the soul's trajectory through the universe.</p>
+<p>Every interaction is defined by four distinct characteristics:</p>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="p-8 border border-outline-variant/10 text-center hover:bg-surface-container transition-colors">
+<p class="text-primary font-bold text-lg mb-2">Nature</p>
+<p class="text-xs uppercase tracking-widest text-on-surface-variant">Prakriti</p>
+</div>
+<div class="p-8 border border-outline-variant/10 text-center hover:bg-surface-container transition-colors">
+<p class="text-primary font-bold text-lg mb-2">Quantity</p>
+<p class="text-xs uppercase tracking-widest text-on-surface-variant">Pradesh</p>
+</div>
+<div class="p-8 border border-outline-variant/10 text-center hover:bg-surface-container transition-colors">
+<p class="text-primary font-bold text-lg mb-2">Duration</p>
+<p class="text-xs uppercase tracking-widest text-on-surface-variant">Sthiti</p>
+</div>
+<div class="p-8 border border-outline-variant/10 text-center hover:bg-surface-container transition-colors">
+<p class="text-primary font-bold text-lg mb-2">Intensity</p>
+<p class="text-xs uppercase tracking-widest text-on-surface-variant">Anubhav</p>
+</div>
+</div>
+<div class="mt-32 p-16 bg-surface-container-high relative overflow-hidden">
+<div class="relative z-10">
+<p class="text-3xl font-headline text-[#e9c349] leading-snug">
+                        "Your vibrations, fueled by passions like anger or greed, act like glue. They draw these floating karmic particles to your soul in a precise scientific reaction."
+                    </p>
+<div class="mt-12 flex justify-between items-center">
+<button class="px-10 py-4 gold-gradient text-on-primary font-label uppercase tracking-widest text-sm font-bold scale-102 transition-transform duration-500 hover:brightness-110">Begin De-linking</button>
+<span class="text-on-surface-variant font-noto text-sm opacity-50">— The Tattvartha Sutra</span>
+</div>
+</div>
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-primary/5 blur-3xl"></div>
+</div>
+</section>
+</main>
+<footer class="w-full py-16 border-t border-[#e5e2e1]/10 bg-[#1c1b1b]">
+<div class="flex flex-col items-center gap-4 px-8 text-center">
+<div class="font-['Newsreader'] text-[#e9c349] opacity-80 text-xl">JainAwaken</div>
+<p class="font-['Inter'] text-[#e5e2e1]/40 text-xs tracking-widest">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>

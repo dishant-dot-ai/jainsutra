@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bhavnas — JainAwaken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#bca26c",
+              "on-primary": "#3c2f00",
+              "primary-fixed": "#ffe088",
+              "inverse-on-surface": "#313030",
+              "secondary": "#bac6ec",
+              "inverse-primary": "#735c00",
+              "surface-dim": "#131313",
+              "primary-container": "#493900",
+              "on-secondary": "#23304e",
+              "on-error": "#690005",
+              "on-surface": "#e5e2e1",
+              "outline-variant": "#45464e",
+              "tertiary": "#dfc38b",
+              "surface-container": "#201f1f",
+              "primary-fixed-dim": "#e9c349",
+              "on-primary-fixed": "#241a00",
+              "tertiary-container": "#4a380c",
+              "on-secondary-container": "#a8b4da",
+              "surface-container-lowest": "#0e0e0e",
+              "surface-container-low": "#1c1b1b",
+              "inverse-surface": "#e5e2e1",
+              "on-primary-container": "#c5a129",
+              "on-background": "#e5e2e1",
+              "background": "#131313",
+              "error": "#ffb4ab",
+              "surface-tint": "#e9c349",
+              "surface": "#131313",
+              "surface-bright": "#3a3939",
+              "on-tertiary": "#3f2e03",
+              "on-secondary-fixed-variant": "#3a4666",
+              "on-error-container": "#ffdad6",
+              "on-secondary-fixed": "#0d1a38",
+              "on-tertiary-fixed-variant": "#574417",
+              "secondary-fixed-dim": "#bac6ec",
+              "primary": "#e9c349",
+              "surface-container-high": "#2a2a2a",
+              "tertiary-fixed-dim": "#dfc38b",
+              "tertiary-fixed": "#fddfa4",
+              "outline": "#8f9098",
+              "surface-variant": "#353534",
+              "error-container": "#93000a",
+              "surface-container-highest": "#353534",
+              "secondary-container": "#3a4666",
+              "on-tertiary-fixed": "#261a00",
+              "on-surface-variant": "#c6c6ce",
+              "on-primary-fixed-variant": "#574500",
+              "secondary-fixed": "#dae2ff"
+            },
+            fontFamily: {
+              "headline": ["Newsreader"],
+              "body": ["Newsreader"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+      }
+      .text-glow {
+        text-shadow: 0 0 15px rgba(233, 195, 73, 0.3);
+      }
+      .mask-gradient {
+        mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-primary">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Newsreader'] text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="px-6 md:px-10 lg:px-20 mb-24 grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+<div class="lg:col-span-7">
+<span class="font-label text-sm uppercase tracking-[0.3em] text-primary mb-4 block">The Path</span>
+<h1 class="text-7xl md:text-9xl font-headline italic tracking-tighter text-on-surface leading-[0.85] mb-6">
+                    Bhavnas <br/>
+<span class="text-2xl font-['Inter'] text-on-surface/60 tracking-wide not-italic block mt-2">The 12 Contemplations</span>
+<span class="text-4xl md:text-6xl font-normal opacity-40 not-italic block mt-4">भावना</span>
+</h1>
+<p class="text-2xl md:text-3xl font-headline italic text-on-surface-variant max-w-xl border-l border-primary/30 pl-8 mt-12">
+                    12 contemplations that rewire how the soul sees itself and the world.
+                </p>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-square bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover opacity-60 mix-blend-luminosity hover:scale-105 transition-transform duration-[2000ms]" data-alt="Intricate circular mandala pattern with cosmic layers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAv6b92BvuYYybq1eWwdtzbXFsbDDiguS0f_epKqlIRPvWycwtd5D3E5PRGk1Mz9GJB8gRZZEeym_CGBLxud22p7i2UR2Jv0ixoFfpLX8h8FC6qUfJJuGTc_CjL4BK94s5Kwj20AAYXh9DbGkZvIfEU5cxvW3U29K__D8IvJmvx6BQCtSeCmSoQT3hVL0NKuzg23l-yqb2zPzxGdA0n7_x3a8cUgxm2pmtZGxAg470Zan9D-EyVAp6Fa-kwyZRgmwLKFlhYvS-fVw"/>
+</div>
+</div>
+</section>
+<!-- Narrative Explanation -->
+<section class="px-6 md:px-10 lg:px-20 mb-32">
+<div class="max-w-4xl">
+<p class="text-xl md:text-2xl font-headline leading-relaxed text-on-surface/90 mb-12">
+                    Anitya (impermanence), Asharan (no refuge), Samsara (the cycle), Ekatva (aloneness), Anyatva (separateness of body and soul), Asuchi (impurity of body), Asrav, Samvar, Nirjara, Loka, Bodhi-durlabha (rarity of enlightenment), Dharma.
+                </p>
+<p class="text-xl md:text-2xl font-headline text-primary-fixed-dim border-t border-outline-variant/20 pt-12">
+                    "Contemplate these daily and the soul loosens its grip."
+                </p>
+</div>
+</section>
+<!-- The 12 Contemplations Bento Grid -->
+<section class="px-6 md:px-10 lg:px-20">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0.5 bg-outline-variant/10">
+<!-- 01 Anitya -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">01</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Anitya</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Impermanence</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">hourglass_empty</span>
+</div>
+<!-- 02 Asharan -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">02</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Asharan</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">No Refuge</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">umbrella</span>
+</div>
+<!-- 03 Samsara -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">03</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Samsara</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">The Cycle</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">all_inclusive</span>
+</div>
+<!-- 04 Ekatva -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">04</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Ekatva</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Aloneness</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">person</span>
+</div>
+<!-- 05 Anyatva -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">05</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Anyatva</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Separateness</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">unfold_more</span>
+</div>
+<!-- 06 Asuchi -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">06</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Asuchi</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Impurity</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">format_color_reset</span>
+</div>
+<!-- 07 Asrav -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">07</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Asrav</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Inflow</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">waves</span>
+</div>
+<!-- 08 Samvar -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">08</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Samvar</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Stoppage</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">block</span>
+</div>
+<!-- 09 Nirjara -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">09</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Nirjara</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Shedding</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">auto_awesome</span>
+</div>
+<!-- 10 Loka -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">10</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Loka</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Cosmography</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">public</span>
+</div>
+<!-- 11 Bodhi-durlabha -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">11</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Bodhi-durlabha</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Rarity</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">diamond</span>
+</div>
+<!-- 12 Dharma -->
+<div class="bg-surface p-10 flex flex-col justify-between aspect-square group hover:bg-surface-container-low transition-colors duration-500">
+<div>
+<span class="font-label text-xs tracking-widest opacity-40 mb-8 block">12</span>
+<h3 class="text-3xl font-headline mb-2 group-hover:text-primary transition-colors">Dharma</h3>
+<p class="font-label text-[10px] uppercase tracking-widest text-on-surface-variant">Law of Truth</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors">balance</span>
+</div>
+</div>
+</section>
+<!-- Ritual Call to Action -->
+<section class="py-40 flex flex-col items-center text-center px-6">
+<h2 class="text-5xl md:text-7xl font-headline mb-10 tracking-tighter">Begin the Contemplation.</h2>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-16 py-6 font-label uppercase tracking-[0.4em] text-xs hover:scale-105 transition-transform duration-500 group">
+                Enter the Inner Sanctum
+                <div class="h-[1px] w-full bg-on-primary mt-2 opacity-20"></div>
+</button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 border-t border-[#e5e2e1]/10 bg-[#1c1b1b]">
+<div class="flex flex-col items-center gap-4 px-8 text-center">
+<div class="font-['Newsreader'] text-[#e9c349] opacity-80 text-xl">JainAwaken</div>
+<p class="font-['Inter'] text-[#e5e2e1]/40 text-xs tracking-widest">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>

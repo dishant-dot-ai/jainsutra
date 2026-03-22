@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ajiva — JainAwaken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-highest": "#353534",
+                        "background": "#131313",
+                        "on-primary-fixed-variant": "#574500",
+                        "on-secondary-fixed-variant": "#3a4666",
+                        "surface-bright": "#3a3939",
+                        "surface": "#131313",
+                        "outline": "#8f9098",
+                        "on-secondary-container": "#a8b4da",
+                        "surface-tint": "#e9c349",
+                        "on-error": "#690005",
+                        "error-container": "#93000a",
+                        "on-surface": "#e5e2e1",
+                        "on-tertiary": "#3f2e03",
+                        "inverse-surface": "#e5e2e1",
+                        "surface-container-lowest": "#0e0e0e",
+                        "secondary-fixed-dim": "#bac6ec",
+                        "surface-variant": "#353534",
+                        "surface-container-high": "#2a2a2a",
+                        "primary-fixed": "#ffe088",
+                        "on-primary": "#3c2f00",
+                        "tertiary-fixed": "#fddfa4",
+                        "on-primary-fixed": "#241a00",
+                        "tertiary-fixed-dim": "#dfc38b",
+                        "surface-container": "#201f1f",
+                        "primary-fixed-dim": "#e9c349",
+                        "outline-variant": "#45464e",
+                        "on-error-container": "#ffdad6",
+                        "secondary-fixed": "#dae2ff",
+                        "primary-container": "#493900",
+                        "tertiary-container": "#4a380c",
+                        "tertiary": "#dfc38b",
+                        "on-tertiary-fixed": "#261a00",
+                        "on-surface-variant": "#c6c6ce",
+                        "on-primary-container": "#c5a129",
+                        "surface-container-low": "#1c1b1b",
+                        "inverse-on-surface": "#313030",
+                        "secondary-container": "#3a4666",
+                        "secondary": "#bac6ec",
+                        "on-tertiary-container": "#bca26c",
+                        "on-tertiary-fixed-variant": "#574417",
+                        "on-secondary": "#23304e",
+                        "error": "#ffb4ab",
+                        "inverse-primary": "#735c00",
+                        "on-secondary-fixed": "#0d1a38",
+                        "surface-dim": "#131313",
+                        "primary": "#e9c349",
+                        "on-background": "#e5e2e1"
+                    },
+                    fontFamily: {
+                        "headline": ["Newsreader"],
+                        "body": ["Newsreader"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-nav {
+            background: rgba(19, 19, 19, 0.8);
+            backdrop-filter: blur(20px);
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #e9c349 0%, #493900 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-glow:hover {
+            box-shadow: 0 0 20px rgba(233, 195, 73, 0.2);
+        }
+        .asymmetric-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+        }
+        @media (max-width: 768px) {
+            .asymmetric-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary/30">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Newsreader'] text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24">
+<!-- Hero Section -->
+<section class="px-10 mb-24 max-w-7xl mx-auto">
+<div class="asymmetric-grid gap-16 items-start">
+<div class="pt-12">
+<span class="font-label text-xs tracking-[0.3em] text-primary uppercase mb-6 block">Soul &amp; Reality</span>
+<h1 class="font-headline text-7xl md:text-8xl font-bold tracking-tighter leading-none mb-4 text-on-surface">Ajiva - The Non-Soul</h1>
+<div class="font-headline text-4xl italic text-primary/60 mb-8 font-light">अजीव</div>
+<p class="font-body text-2xl text-on-surface/90 leading-relaxed max-w-xl">
+                        Everything that is not the soul — matter, space, time, motion, rest.
+                    </p>
+<div class="mt-12 flex gap-8">
+<button class="bg-gradient-to-br from-primary to-primary-container px-10 py-4 font-label text-sm font-semibold text-on-primary hover:scale-102 active:scale-95 transition-all duration-200 shadow-lg gold-glow">
+                            BEGIN INQUIRY
+                        </button>
+<button class="border border-outline-variant/20 px-10 py-4 font-label text-sm font-semibold text-on-surface/80 hover:bg-surface-container-low transition-all duration-300">
+                            THE 6 DRAVYAS
+                        </button>
+</div>
+</div>
+<div class="relative h-[600px] w-full bg-surface-container-low overflow-hidden">
+<img alt="Crystalline Structure" class="w-full h-full object-cover grayscale brightness-50 opacity-80 mix-blend-luminosity" data-alt="Abstract geometric illustration representing inanimate matter with dark crystalline forms and amber light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiBqda0KoH97Lvt6AVRhU3BKAxGX2fi6ZQ0gvBn0jAkacVr7mW9-YSG6BnH-Ku6E_0u7yanCoUx-FDD4vH0iPoZJ5jsp_V6xFFztSHsBffv7W4gGDrTyPIfCmNW-0-Z9hpoLrsYwgfgGILBuyYAFDyN0lQnr00v5gXs_F0ATP4f971EtpanpF3zpyjZXYlsKnP11OEuuDiwxNSfnbGZnV3ctQoPc9w-XIlh3bSgkIQLgmuZrFVickLVN0Nv3j7eFIDQMFjkbSwqw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
+<div class="absolute bottom-8 right-8 border-l border-primary/40 pl-6 max-w-xs">
+<p class="font-label text-[10px] tracking-widest text-primary/60 uppercase mb-2">Observation 002</p>
+<p class="text-on-surface/70 font-body text-lg leading-snug">
+                            "Structure is the silence that allows the song of the soul to be heard."
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- The Breakdown Section -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-7xl mx-auto px-10">
+<div class="mb-20 max-w-3xl">
+<h2 class="font-headline text-5xl mb-8 leading-tight">The Architecture of Insentience</h2>
+<p class="font-body text-xl text-on-surface/70 leading-relaxed">
+                        Ajiva includes all non-living substances: Pudgal (matter), Akash (space), Dharma (medium of motion), Adharma (medium of rest), and Kaal (time). Understanding what you are <span class="text-primary">NOT</span> is as important as understanding what you are.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-outline-variant/10">
+<!-- Pudgal -->
+<div class="bg-surface p-12 hover:bg-surface-container transition-colors duration-500">
+<span class="font-label text-[10px] text-primary tracking-[0.4em] uppercase mb-4 block">Pudgal</span>
+<h3 class="font-headline text-3xl mb-6">Matter &amp; Energy</h3>
+<p class="text-on-surface/60 font-body leading-relaxed mb-8">
+                            That which has form, color, smell, and touch. The tangible reality that binds or releases the spirit.
+                        </p>
+<span class="material-symbols-outlined text-primary/40 text-4xl" data-icon="grain">grain</span>
+</div>
+<!-- Akash -->
+<div class="bg-surface p-12 hover:bg-surface-container transition-colors duration-500">
+<span class="font-label text-[10px] text-primary tracking-[0.4em] uppercase mb-4 block">Akash</span>
+<h3 class="font-headline text-3xl mb-6">Infinite Space</h3>
+<p class="text-on-surface/60 font-body leading-relaxed mb-8">
+                            The container for all substances. Without space, neither movement nor existence could be defined.
+                        </p>
+<span class="material-symbols-outlined text-primary/40 text-4xl" data-icon="all_out">all_out</span>
+</div>
+<!-- Kaal -->
+<div class="bg-surface p-12 hover:bg-surface-container transition-colors duration-500">
+<span class="font-label text-[10px] text-primary tracking-[0.4em] uppercase mb-4 block">Kaal</span>
+<h3 class="font-headline text-3xl mb-6">The Wheel of Time</h3>
+<p class="text-on-surface/60 font-body leading-relaxed mb-8">
+                            The catalyst of change. While the soul is eternal, time governs the transformations of the physical realm.
+                        </p>
+<span class="material-symbols-outlined text-primary/40 text-4xl" data-icon="hourglass_empty">hourglass_empty</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Deep Quote / Impact -->
+<section class="py-32 flex flex-col items-center text-center px-10">
+<div class="max-w-4xl">
+<span class="material-symbols-outlined text-primary text-6xl mb-12" data-icon="auto_awesome" data-weight="fill">auto_awesome</span>
+<h2 class="font-headline text-6xl leading-tight mb-12 text-on-surface">
+                    "Liberation begins when we cease to mistake the instrument for the musician."
+                </h2>
+<div class="w-12 h-px bg-primary/40 mx-auto"></div>
+<p class="font-label text-xs tracking-widest text-primary/60 mt-8 uppercase">The Alchemy of Discernment</p>
+</div>
+</section>
+<!-- Ritual Scroller -->
+<section class="pb-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-10 mb-12 flex justify-between items-end">
+<h2 class="font-headline text-4xl">Contemplative Modules</h2>
+<div class="flex gap-4">
+<button class="w-12 h-12 flex items-center justify-center border border-outline-variant/20 hover:bg-primary hover:text-on-primary transition-all">
+<span class="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="w-12 h-12 flex items-center justify-center border border-outline-variant/20 hover:bg-primary hover:text-on-primary transition-all">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="flex gap-8 px-10 overflow-x-auto no-scrollbar pb-10">
+<div class="min-w-[400px] h-[500px] bg-surface-bright p-12 flex flex-col justify-between group cursor-pointer border-r border-transparent hover:border-primary/20 transition-all duration-700">
+<div>
+<h4 class="font-headline text-2xl mb-4 group-hover:text-primary transition-colors">Neti Neti</h4>
+<p class="text-on-surface/60 font-body">The practice of 'Not this, Not that'. Systematically shedding identifications with Ajiva.</p>
+</div>
+<span class="font-label text-[10px] tracking-widest text-primary">01 / DISCRIMINATION</span>
+</div>
+<div class="min-w-[400px] h-[500px] bg-surface-dim p-12 flex flex-col justify-between group cursor-pointer border border-outline-variant/10">
+<div>
+<h4 class="font-headline text-2xl mb-4 group-hover:text-primary transition-colors">The Void of Space</h4>
+<p class="text-on-surface/60 font-body">Understanding Akash dravya to realize the vastness within the external silence.</p>
+</div>
+<span class="font-label text-[10px] tracking-widest text-primary/40">02 / EXTENSION</span>
+</div>
+<div class="min-w-[400px] h-[500px] bg-surface-dim p-12 flex flex-col justify-between group cursor-pointer border border-outline-variant/10">
+<div>
+<h4 class="font-headline text-2xl mb-4 group-hover:text-primary transition-colors">Matter as Vibration</h4>
+<p class="text-on-surface/60 font-body">Tracing the atomic nature of Pudgal and its constant flux of combination and dissolution.</p>
+</div>
+<span class="font-label text-[10px] tracking-widest text-primary/40">03 / CONSOLIDATION</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 border-t border-[#e5e2e1]/10 bg-[#1c1b1b]">
+<div class="flex flex-col items-center gap-4 px-8 text-center">
+<div class="font-['Newsreader'] text-[#e9c349] opacity-80 text-xl">JainAwaken</div>
+<p class="font-['Inter'] text-[#e5e2e1]/40 text-xs tracking-widest">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>
