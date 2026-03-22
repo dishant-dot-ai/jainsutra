@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ratnatraya — JainAwaken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-container": "#a8b4da",
+              "inverse-surface": "#e5e2e1",
+              "tertiary-fixed-dim": "#dfc38b",
+              "tertiary-fixed": "#fddfa4",
+              "primary-fixed": "#ffe088",
+              "outline": "#8f9098",
+              "error-container": "#93000a",
+              "tertiary-container": "#4a380c",
+              "on-error-container": "#ffdad6",
+              "on-secondary-fixed-variant": "#3a4666",
+              "secondary-fixed-dim": "#bac6ec",
+              "on-error": "#690005",
+              "surface-bright": "#3a3939",
+              "surface": "#131313",
+              "secondary-container": "#3a4666",
+              "surface-container": "#201f1f",
+              "background": "#131313",
+              "on-secondary": "#23304e",
+              "primary-fixed-dim": "#e9c349",
+              "surface-variant": "#353534",
+              "on-primary": "#3c2f00",
+              "error": "#ffb4ab",
+              "outline-variant": "#45464e",
+              "on-tertiary-fixed-variant": "#574417",
+              "on-secondary-fixed": "#0d1a38",
+              "tertiary": "#dfc38b",
+              "primary": "#e9c349",
+              "on-surface": "#e5e2e1",
+              "surface-container-high": "#2a2a2a",
+              "on-primary-fixed-variant": "#574500",
+              "on-primary-fixed": "#241a00",
+              "on-tertiary-container": "#bca26c",
+              "surface-dim": "#131313",
+              "secondary-fixed": "#dae2ff",
+              "on-tertiary": "#3f2e03",
+              "on-background": "#e5e2e1",
+              "on-surface-variant": "#c6c6ce",
+              "surface-container-highest": "#353534",
+              "surface-tint": "#e9c349",
+              "inverse-on-surface": "#313030",
+              "surface-container-lowest": "#0e0e0e",
+              "on-primary-container": "#c5a129",
+              "surface-container-low": "#1c1b1b",
+              "secondary": "#bac6ec",
+              "primary-container": "#493900",
+              "on-tertiary-fixed": "#261a00",
+              "inverse-primary": "#735c00"
+            },
+            fontFamily: {
+              "headline": ["Newsreader"],
+              "body": ["Newsreader"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at center, rgba(233, 195, 73, 0.05) 0%, transparent 70%);
+        }
+        .gold-leaf-btn {
+            background: linear-gradient(135deg, #e9c349 0%, #493900 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Newsreader'] italic text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<main class="pt-32">
+<!-- Hero Section -->
+<section class="relative px-8 lg:px-24 mb-24 overflow-hidden">
+<div class="grid lg:grid-cols-12 gap-12 items-center max-w-screen-2xl mx-auto">
+<div class="lg:col-span-6 z-10">
+<span class="font-label text-xs uppercase tracking-[0.3em] text-primary mb-6 block">The Three Jewels</span>
+<h1 class="font-headline text-6xl md:text-8xl tracking-tighter leading-none mb-4 italic">Ratnatraya</h1>
+<h2 class="font-headline text-3xl md:text-4xl text-on-surface-variant mb-8 font-light italic opacity-80">रत्नत्रय</h2>
+<p class="text-xl md:text-2xl max-w-xl text-on-surface-variant leading-relaxed">
+                        Three Jewels — Right Faith, Right Knowledge, Right Conduct. Together, they are the complete path. No single jewel alone leads to liberation.
+                    </p>
+</div>
+<div class="lg:col-span-6 relative flex justify-center items-center">
+<div class="hero-gradient absolute inset-0 w-full h-full scale-150"></div>
+<!-- Abstract Visualization: Three Jewels Triangle -->
+<div class="relative w-full aspect-square max-w-md flex items-center justify-center">
+<div class="absolute top-0 w-32 h-32 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="absolute bottom-0 left-0 w-32 h-32 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="absolute bottom-0 right-0 w-32 h-32 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="grid grid-cols-2 gap-8 relative z-10">
+<div class="col-span-2 flex justify-center">
+<div class="w-24 h-24 border border-primary/40 rotate-45 flex items-center justify-center">
+<div class="w-12 h-12 bg-primary shadow-[0_0_30px_rgba(233,195,73,0.5)]"></div>
+</div>
+</div>
+<div class="w-24 h-24 border border-primary/40 rotate-45 flex items-center justify-center">
+<div class="w-12 h-12 bg-primary shadow-[0_0_30px_rgba(233,195,73,0.5)]"></div>
+</div>
+<div class="w-24 h-24 border border-primary/40 rotate-45 flex items-center justify-center">
+<div class="w-12 h-12 bg-primary shadow-[0_0_30px_rgba(233,195,73,0.5)]"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Introduction -->
+<section class="px-8 lg:px-24 mb-32 max-w-screen-2xl mx-auto">
+<div class="grid lg:grid-cols-12">
+<div class="lg:col-span-8 lg:col-start-3">
+<div class="bg-surface-container-low p-12 lg:p-24 relative">
+<span class="absolute top-12 left-12 text-6xl font-serif text-primary/10">"</span>
+<p class="font-headline text-3xl md:text-4xl italic leading-tight text-on-surface text-center lg:text-left mb-12">
+                            All three must arise together — like three legs of a stool. If one is missing, the structure of spiritual liberation collapses.
+                        </p>
+<div class="h-px w-24 bg-primary/30 mx-auto lg:mx-0 mb-12"></div>
+<div class="font-body text-lg leading-loose text-on-surface-variant columns-1 md:columns-2 gap-12">
+                            The Ratnatraya represents the essential synthesis required for the soul's journey toward Samyak (Rightness). It is not enough to simply believe, nor is it enough to simply know. Action without faith is empty, and faith without knowledge is blind. The Digital Alchemist views these as the fundamental code of existence. Samyak Darshan provides the clarity of vision, Samyak Jnan provides the architect's blueprint, and Samyak Charitra provides the steady hand that builds the cathedral of the self.
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- The Three Pillars Section -->
+<section class="px-8 lg:px-24 mb-32 max-w-screen-2xl mx-auto">
+<div class="grid md:grid-cols-3 gap-0">
+<!-- Jewel 1: Right Faith -->
+<div class="group bg-surface-container-low border-r border-outline-variant/10 p-12 transition-all duration-500 hover:bg-surface-container">
+<span class="font-label text-xs text-primary/60 tracking-widest mb-4 block">PILLAR I</span>
+<h3 class="font-headline text-4xl mb-2">Samyak Darshan</h3>
+<p class="font-label text-xs uppercase tracking-widest text-on-surface-variant mb-8 italic">Right Faith</p>
+<p class="text-on-surface-variant leading-relaxed mb-12 min-h-[100px]">
+                        The pure conviction in the nature of reality and the potential for liberation. It is the spiritual awakening that allows the light of truth to enter.
+                    </p>
+<div class="flex items-center gap-4 text-primary group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Explore Vision</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Jewel 2: Right Knowledge -->
+<div class="group bg-surface-container-high p-12 transition-all duration-500 hover:bg-surface-container-highest">
+<span class="font-label text-xs text-primary/60 tracking-widest mb-4 block">PILLAR II</span>
+<h3 class="font-headline text-4xl mb-2">Samyak Jnan</h3>
+<p class="font-label text-xs uppercase tracking-widest text-on-surface-variant mb-8 italic">Right Knowledge</p>
+<p class="text-on-surface-variant leading-relaxed mb-12 min-h-[100px]">
+                        The accurate, doubt-free understanding of the self and the universe. It is the discernment between what is eternal and what is transient.
+                    </p>
+<div class="flex items-center gap-4 text-primary group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Study Doctrine</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Jewel 3: Right Conduct -->
+<div class="group bg-surface-container-low border-l border-outline-variant/10 p-12 transition-all duration-500 hover:bg-surface-container">
+<span class="font-label text-xs text-primary/60 tracking-widest mb-4 block">PILLAR III</span>
+<h3 class="font-headline text-4xl mb-2">Samyak Charitra</h3>
+<p class="font-label text-xs uppercase tracking-widest text-on-surface-variant mb-8 italic">Right Conduct</p>
+<p class="text-on-surface-variant leading-relaxed mb-12 min-h-[100px]">
+                        The translation of faith and knowledge into ethical living. It is the practical application of non-violence and self-restraint in every breath.
+                    </p>
+<div class="flex items-center gap-4 text-primary group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Master Self</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="px-8 lg:px-24 mb-24 max-w-screen-2xl mx-auto text-center">
+<div class="py-24 border-y border-outline-variant/10 relative overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-primary/5 blur-3xl rounded-full"></div>
+<h4 class="font-headline text-5xl mb-12 tracking-tight">Ready to integrate the Jewels?</h4>
+<button class="gold-leaf-btn px-12 py-5 text-[#3c2f00] font-['Inter'] font-bold text-sm uppercase tracking-[0.2em] transition-all hover:scale-105 active:scale-95 shadow-[0_10px_30px_rgba(233,195,73,0.2)]">
+                    Begin the Path
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-20 px-12 bg-[#1c1b1b]">
+<div class="flex flex-col items-center gap-6 max-w-7xl mx-auto text-center">
+<div class="font-['Newsreader'] text-[#e9c349] opacity-80 text-xl italic">JainAwaken</div>
+<p class="font-['Inter'] text-xs uppercase tracking-widest text-[#e5e2e1]/40">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>
