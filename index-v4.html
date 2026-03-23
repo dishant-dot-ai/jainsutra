@@ -75,6 +75,13 @@
     body { font-family: 'Inter', sans-serif; background-color: #fef9f1; color: #1d1c17; }
     .font-serif { font-family: 'Noto Serif', serif; }
     .glass-nav { background: rgba(248, 247, 246, 0.55); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: rgba(255,255,255,0.92) !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.65) !important; }
+    .nav-hero .nav-link:hover { color: #C9A84C !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.1) !important; color: white; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.45) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.45) !important; }
     .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
     .sutra-border { border-left: 2px solid #755b00; }
     .gold-btn { background: linear-gradient(135deg, #755b00 0%, #c9a84c 100%); }
@@ -92,20 +99,20 @@
 <body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
 
 <!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300 border-b border-[#C9A84C]/10">
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
     <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
         <div class="flex items-center gap-12">
-            <span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+            <span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span>
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
-                <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html">Fundamentals</a>
-                <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
-                <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index.html">Sacred Texts</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index.html">Sacred Texts</a>
             </div>
         </div>
         <div class="flex items-center gap-8">
             <div class="relative group hidden lg:block">
-                <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
-                <input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
             </div>
             <button class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</button>
         </div>
@@ -474,6 +481,23 @@
   }
 
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', initSearch) : initSearch();
+})();
+</script>
+<script>
+(function () {
+  var nav = document.getElementById('main-nav');
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove('nav-hero');
+      nav.classList.add('glass-nav');
+    } else {
+      nav.classList.add('nav-hero');
+      nav.classList.remove('glass-nav');
+    }
+  }
+  window.addEventListener('scroll', update, { passive: true });
+  update();
 })();
 </script>
 </body></html>
