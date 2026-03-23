@@ -10,6 +10,137 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <style>
+    html { scroll-behavior: smooth; }
+    .nav__links .donate-btn {
+      background: linear-gradient(135deg, #e6c364, #755b00);
+      color: #ffffff !important;
+      padding: 0.6rem 1.5rem;
+      border-radius: 2rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: opacity 0.3s;
+    }
+    .nav__links .donate-btn:hover { opacity: 0.9; }
+    
+    #donate {
+      padding: 8rem 2rem;
+      background-color: #f8f3eb;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    .donate-watermark {
+      position: absolute;
+      inset: 0;
+      opacity: 0.03;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 0;
+    }
+    .donate-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .donate-heading {
+      font-family: 'Newsreader', serif;
+      font-size: 2.5rem;
+      color: #755B00;
+      margin-bottom: 2.5rem;
+    }
+    .donate-body {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.25rem;
+      color: rgba(29, 28, 23, 0.7);
+      line-height: 1.7;
+      max-width: 620px;
+      margin: 0 auto 1.5rem;
+    }
+    .donate-closing {
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-style: italic;
+      color: rgba(29, 28, 23, 0.5);
+      margin-bottom: 5rem;
+    }
+    .donate-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+      .donate-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .donate-card {
+      background-color: #fef9f1;
+      padding: 2.5rem;
+      border-radius: 0.5rem;
+      transition: all 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .donate-card:hover {
+      shadow: 0 0 24px rgba(201, 168, 76, 0.08);
+      background-color: #f2ede5;
+    }
+    .card-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #C9A84C;
+      margin-bottom: 1rem;
+    }
+    .card-desc {
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      color: rgba(29, 28, 23, 0.6);
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    .donate-btn-action {
+      margin-top: auto;
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid #C9A84C;
+      background: transparent;
+      color: #C9A84C;
+      font-family: 'Newsreader', serif;
+      font-size: 1rem;
+      border-radius: 0.125rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+    }
+    .donate-btn-action:hover {
+      background-color: #C9A84C;
+      color: #1D1C17;
+    }
+    .upi-qr {
+      width: 12rem;
+      height: 12rem;
+      object-fit: contain;
+      margin-bottom: 1.5rem;
+      filter: grayscale(1);
+      opacity: 0.8;
+    }
+    .upi-id {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: rgba(29, 28, 23, 0.6);
+      margin-bottom: 2rem;
+    }
+    .upi-id span { color: #755b00; font-weight: 600; }
     /* ---- Navkar Standalone ---- */
     .nk-hero {
       min-height: 60vh;
@@ -270,6 +401,7 @@
       <ul class="nav__links" id="navLinks">
         <li><a href="navkar.html" class="nav__link--caps active">Navkar Mantra</a></li>
         <li><a href="about.html" class="nav__link--caps">About</a></li>
+        <li><a href="#donate" class="donate-btn">Donate</a></li>
       </ul>
       <button class="nav__hamburger" id="navToggle" aria-label="Menu">&#9776;</button>
     </div>
@@ -372,6 +504,45 @@
   <!-- Back -->
   <section class="nk-back">
     <a href="index.html">&larr; Back to Home</a>
+  </section>
+
+  <!-- ===================== DONATE ===================== -->
+  <section id="donate">
+    <div class="donate-watermark">
+      <svg width="600" height="600" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 5L95 95H5L50 5Z" stroke="#755b00" stroke-width="0.5"/>
+        <circle cx="50" cy="60" r="15" stroke="#755b00" stroke-width="0.5"/>
+      </svg>
+    </div>
+    <div class="donate-content">
+      <h2 class="donate-heading">Support the Dharma</h2>
+      <p class="donate-body">
+        A significant amount of time, energy, and dedication has gone into building JainAwaken — the first comprehensive English resource covering both the fundamentals of Jain philosophy and its sacred scriptures. It exists to educate Jains and non-Jains alike about this beautiful, rational, and compassionate path. Donating is never required, but if this resource brought you value, your support is deeply appreciated and helps keep it free for everyone.
+      </p>
+      <p class="donate-closing">Jai Jinendra 🙏</p>
+
+      <div class="donate-grid">
+        <!-- UPI Card (Indian Donors) - Top on mobile -->
+        <div class="donate-card" style="order: 1;">
+          <span class="card-label">FOR INDIAN DONORS</span>
+          <p class="card-desc">Scan with any UPI app — GPay, PhonePe, Paytm, or any bank app.</p>
+          <img src="assets/upi-qr.png" alt="UPI QR Code — JainAwaken donations" class="upi-qr">
+          <p class="upi-id">Or send directly to <span>YOUR_UPI_ID</span></p>
+          <button class="donate-btn-action">Donate via UPI</button>
+        </div>
+
+        <!-- PayPal Card (International Donors) - Bottom on mobile -->
+        <div class="donate-card" style="order: 2;">
+          <span class="card-label">FOR INTERNATIONAL DONORS</span>
+          <p class="card-desc">Pay securely via PayPal. No PayPal account needed — guest checkout accepted.</p>
+          <form action="https://www.paypal.com/donate" method="post" target="_blank" style="width: 100%; margin-top: auto;">
+            <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+            <input type="hidden" name="currency_code" value="USD">
+            <button type="submit" class="donate-btn-action">Donate via PayPal</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
