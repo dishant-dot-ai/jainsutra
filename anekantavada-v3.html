@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JainAwaken - Anekantavada</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f8f3eb",
+              "surface": "#fef9f1",
+              "tertiary-container": "#9ba8eb",
+              "inverse-surface": "#32302b",
+              "surface-dim": "#ded9d2",
+              "on-primary-container": "#503d00",
+              "secondary": "#625d59",
+              "surface-tint": "#755b00",
+              "outline-variant": "#d0c5b2",
+              "secondary-fixed": "#e9e1dc",
+              "inverse-primary": "#e6c364",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-container-high": "#ece8e0",
+              "on-tertiary-fixed": "#041451",
+              "on-secondary-fixed": "#1e1b18",
+              "tertiary": "#4d5a98",
+              "on-secondary-container": "#67625e",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-surface": "#1d1c17",
+              "surface-container": "#f2ede5",
+              "primary": "#755b00",
+              "surface-container-highest": "#e7e2da",
+              "on-primary-fixed": "#241a00",
+              "error-container": "#ffdad6",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#7e7665",
+              "on-surface-variant": "#4d4637",
+              "on-secondary": "#ffffff",
+              "on-tertiary-fixed-variant": "#35437e",
+              "surface-variant": "#e7e2da",
+              "on-tertiary-container": "#2e3b77",
+              "primary-fixed": "#ffe08f",
+              "primary-fixed-dim": "#e6c364",
+              "on-error": "#ffffff",
+              "primary-container": "#c9a84c",
+              "surface-bright": "#fef9f1",
+              "inverse-on-surface": "#f5f0e8",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#ccc5c0",
+              "on-background": "#1d1c17",
+              "secondary-container": "#e6ded9",
+              "on-secondary-fixed-variant": "#4a4642",
+              "background": "#fef9f1",
+              "tertiary-fixed": "#dde1ff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fef9f1;
+            color: #1d1c17;
+        }
+        .serif-text { font-family: 'Noto Serif', serif; }
+        .sutra-quote {
+            border-left: 2px solid #755b00;
+            padding-left: 1.5rem;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5 flex items-center justify-between px-6 h-16">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00]">menu</span>
+<h1 class="font-serif text-2xl tracking-wide font-medium text-[#755B00]">JainAwaken</h1>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-serif italic text-[#755B00] hover:opacity-80 transition-opacity" href="#">Home</a>
+<a class="font-serif italic text-[#755B00] hover:opacity-80 transition-opacity" href="#">Philosophy</a>
+<a class="font-serif italic text-[#4D4B3E] hover:opacity-80 transition-opacity" href="#">Meditation</a>
+<a class="font-serif italic text-[#4D4B3E] hover:opacity-80 transition-opacity" href="#">Archive</a>
+</div>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-[#755B00]">search</span>
+</div>
+</header>
+<main class="pt-24 pb-32 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
+<!-- Hero Section / Artboard Header -->
+<section class="mb-16">
+<div class="grid md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7 lg:col-span-6 space-y-6">
+<span class="text-primary font-medium tracking-[0.2em] uppercase text-sm">Doctrine of Non-Absolutism</span>
+<h2 class="serif-text text-5xl md:text-7xl leading-tight text-on-surface">अनेकान्तवाद</h2>
+<p class="text-xl serif-text italic text-on-surface-variant leading-relaxed opacity-90">
+                        The philosophy of Anekantavada teaches that reality is multifaceted and infinitely complex, such that no single perspective can encapsulate the absolute truth.
+                    </p>
+</div>
+<div class="md:col-span-5 lg:col-span-6">
+<div class="relative group">
+<div class="absolute -inset-2 bg-primary-container/10 rounded-full blur-2xl"></div>
+<img alt="A multi-faceted diamond reflecting light" class="relative w-full h-[400px] object-cover rounded-xl shadow-2xl" data-alt="A multi-faceted diamond reflecting prismatic light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr2kP59EREoThMOjmhyDoddcdKG7Af-6P7a0ha-O8-9f4CuAyBA7WsDeKUyTtig0-66eoRTfF96Y-K9cpucx1ilMBKHsrp1KH-FGOvDHVcuoaKNrSZmOJTvuOZ2TtYksQaVG2t-XxQXgkey-0vhuaASG-9M7IvJbrQO53KOke95_svWBqPoxJQrvijuMeWJfXJI6aQSH6ntajYYaUfV1nH79cYWy9Lb0GVlynvFCDvqx1SdrK5KQalvs7oh5Oz6M56bZ4XUhclwQ"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Bento Grid: Facets of Truth -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
+<!-- Large Focus Card -->
+<div class="md:col-span-2 bg-surface-container-low p-10 rounded-xl space-y-4">
+<div class="text-primary-container">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">diamond</span>
+</div>
+<h3 class="serif-text text-3xl text-on-surface">The Many-Sided Reality</h3>
+<p class="text-on-surface-variant leading-relaxed max-w-xl">
+                    Anekantavada encourages us to view the world through the metaphor of the blind men and the elephant. Every viewpoint holds a portion of the truth, but none holds the entirety. By acknowledging this, we move closer to an enlightened understanding.
+                </p>
+</div>
+<!-- Small Detail Card -->
+<div class="bg-surface-container-highest p-8 rounded-xl flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary text-3xl">psychology</span>
+<div>
+<h4 class="font-bold text-lg mb-2">Intellectual Humility</h4>
+<p class="text-sm text-on-surface-variant">The practice of admitting that our personal perspective is naturally limited and potentially incomplete.</p>
+</div>
+</div>
+<!-- Bottom Row -->
+<div class="bg-primary/5 p-8 rounded-xl border-l-4 border-primary">
+<h4 class="serif-text text-xl mb-3">Syadvada</h4>
+<p class="text-sm text-on-surface-variant">The 'maybe' or 'perhaps' doctrine. Qualifying our statements to reflect the conditional nature of truth.</p>
+</div>
+<div class="md:col-span-2 bg-surface-container p-8 rounded-xl flex items-center gap-8">
+<div class="hidden sm:block h-24 w-1 bg-outline-variant/30"></div>
+<div>
+<h4 class="serif-text text-xl mb-2">A Spiritual Practice</h4>
+<p class="text-on-surface-variant">In Jainism, intellectual non-violence (Ahimsa) begins with Anekantavada. Respecting the thoughts of others is as vital as respecting their physical forms.</p>
+</div>
+</div>
+</section>
+<!-- Sutra Quote Section -->
+<section class="max-w-3xl mx-auto mb-20">
+<div class="sutra-quote bg-surface-container-lowest p-12 rounded-r-xl shadow-sm">
+<p class="serif-text text-2xl md:text-3xl italic text-primary leading-relaxed">
+                    "Truth is a multifaceted jewel; the more angles from which you view it, the more brilliant it becomes."
+                </p>
+<div class="mt-6 flex items-center gap-4">
+<div class="h-[1px] w-12 bg-primary-container"></div>
+<span class="text-xs tracking-widest uppercase font-medium text-on-surface-variant">Ancient Wisdom</span>
+</div>
+</div>
+</section>
+<!-- Interactive Reflection Section (Visual Only) -->
+<section class="grid md:grid-cols-2 gap-12 items-center bg-surface-container-low rounded-3xl p-8 md:p-16 mb-20">
+<div>
+<h3 class="serif-text text-4xl mb-6">Embracing Complexity</h3>
+<div class="space-y-6">
+<div class="flex gap-4">
+<span class="bg-primary text-on-primary w-8 h-8 rounded-full flex items-center justify-center text-xs shrink-0">01</span>
+<p class="text-on-surface-variant pt-1"><strong class="text-on-surface">Active Listening:</strong> Listen not to respond, but to find the truth in the other person's facet.</p>
+</div>
+<div class="flex gap-4">
+<span class="bg-primary text-on-primary w-8 h-8 rounded-full flex items-center justify-center text-xs shrink-0">02</span>
+<p class="text-on-surface-variant pt-1"><strong class="text-on-surface">Conditional Truth:</strong> Prefix your strong opinions with "In this context..." or "From my viewpoint..."</p>
+</div>
+<div class="flex gap-4">
+<span class="bg-primary text-on-primary w-8 h-8 rounded-full flex items-center justify-center text-xs shrink-0">03</span>
+<p class="text-on-surface-variant pt-1"><strong class="text-on-surface">Non-Attachment:</strong> Do not cling to a single perspective as the ultimate destination.</p>
+</div>
+</div>
+</div>
+<div class="bg-white p-2 rounded-xl shadow-xl rotate-2">
+<img alt="Meditative pattern" class="w-full h-80 object-cover rounded-lg" data-alt="An abstract kaleidoscopic pattern representing many perspectives" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDQp9uFv_OH1iKpYTtEDRQlsfemBzetRxXgNGMpnZZSTm5QNd9Ce2GpQgeVLdbMcbi326RnVDnIf4hECZYxPBKZJyhZMoyb7gKuUkgt-TD7jrU-zpKGKiPgIQgdqcMJPq2MUzFgSjFo7cH-e5M9mxZPmXG440go0X64QKt6dYO8m6SOfsQ4SK5UiBxztBqjCvYe9TDR1AQ74Vq4jVSY51_m0iqaO8ChbjM_rGGU_FzyoAeOcIL_6SW6hFgttGiyEowTKTRPtEZTw"/>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 bg-[#F5F0E8] shadow-[0_-4px_20px_rgba(29,28,23,0.04)] border-t border-[#E7E2DA]/30 flex justify-around items-center px-4 pb-6 pt-3 rounded-t-3xl md:hidden">
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-serif italic text-[10px] tracking-tight">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40" href="#">
+<span class="material-symbols-outlined">self_improvement</span>
+<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
+</a>
+</nav>
+<!-- Footer for Desktop (Optional addition for completeness) -->
+<footer class="hidden md:block py-16 bg-surface-container-low border-t border-outline-variant/10">
+<div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+<p class="serif-text italic text-on-surface-variant">Exploring the depths of Jain Wisdom.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-primary">auto_awesome</span>
+<span class="material-symbols-outlined text-primary">diversity_1</span>
+<span class="material-symbols-outlined text-primary">menu_book</span>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f8f3eb",
+              "surface": "#fef9f1",
+              "tertiary-container": "#9ba8eb",
+              "inverse-surface": "#32302b",
+              "surface-dim": "#ded9d2",
+              "on-primary-container": "#503d00",
+              "secondary": "#625d59",
+              "surface-tint": "#755b00",
+              "outline-variant": "#d0c5b2",
+              "secondary-fixed": "#e9e1dc",
+              "inverse-primary": "#e6c364",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-container-high": "#ece8e0",
+              "on-tertiary-fixed": "#041451",
+              "on-secondary-fixed": "#1e1b18",
+              "tertiary": "#4d5a98",
+              "on-secondary-container": "#67625e",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-surface": "#1d1c17",
+              "surface-container": "#f2ede5",
+              "primary": "#755b00",
+              "surface-container-highest": "#e7e2da",
+              "on-primary-fixed": "#241a00",
+              "error-container": "#ffdad6",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#7e7665",
+              "on-surface-variant": "#4d4637",
+              "on-secondary": "#ffffff",
+              "on-tertiary-fixed-variant": "#35437e",
+              "surface-variant": "#e7e2da",
+              "on-tertiary-container": "#2e3b77",
+              "primary-fixed": "#ffe08f",
+              "primary-fixed-dim": "#e6c364",
+              "on-error": "#ffffff",
+              "primary-container": "#c9a84c",
+              "surface-bright": "#fef9f1",
+              "inverse-on-surface": "#f5f0e8",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#ccc5c0",
+              "on-background": "#1d1c17",
+              "secondary-container": "#e6ded9",
+              "on-secondary-fixed-variant": "#4a4642",
+              "background": "#fef9f1",
+              "tertiary-fixed": "#dde1ff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .sutra-line {
+        border-left: 2px solid #755b00;
+      }
+      .parchment-texture {
+        background-image: radial-gradient(#e7e2da 0.5px, transparent 0.5px);
+        background-size: 24px 24px;
+        opacity: 0.15;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5 flex items-center justify-between px-6 h-16">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00] cursor-pointer hover:opacity-80 transition-opacity">menu</span>
+<h1 class="font-serif text-2xl tracking-wide font-medium text-[#755B00]">JainAwaken</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-[#755B00] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Home</a>
+<a class="text-[#4D4B3E] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Philosophy</a>
+<a class="text-[#4D4B3E] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Meditation</a>
+<a class="text-[#4D4B3E] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Archive</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00]">search</span>
+<div class="font-serif italic text-[#755B00] text-xl">Jiva</div>
+</div>
+</header>
+<main class="pt-16 pb-24 min-h-screen relative overflow-hidden">
+<!-- Background Subtle Texture -->
+<div class="absolute inset-0 parchment-texture pointer-events-none"></div>
+<!-- Hero Section -->
+<section class="relative h-[353px] md:h-[442px] w-full overflow-hidden mb-12">
+<img alt="Ethereal banner" class="w-full h-full object-cover" data-alt="Ethereal golden light filtering through temple arches" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCk0J9sDadCOtcwq9hdD4OcHvAfVa0sArMhAZJiFULT_PHrymZaEWXXOkJ6UFPxvC02qs3VKylVX42xFUhgA6cn8bkerbEvWBanVXa83R5wh4Bl901ibOlfnC8SNLkBpkkJB3jg_RearjncTCExemwX2D1UnJcqcCa4kmW4ud_GlSKsaHEk80Abr9o1RdlZptBMqgBF6C0jxe3RidQnd7vpeyRLARWdZSPYuycZygU5_2WtT1DesE9rX-DzLxGif1yybooQ1Gv0mQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 w-full p-8 md:p-16 flex flex-col items-center text-center">
+<span class="text-primary font-headline text-5xl md:text-8xl font-bold tracking-widest mb-4">जीव</span>
+<div class="h-px w-24 bg-primary-container"></div>
+</div>
+</section>
+<!-- Content Content Container -->
+<div class="max-w-screen-xl mx-auto px-6 grid grid-cols-12 gap-8 relative z-10">
+<!-- Sidebar Annotation (Empty for breathing room as per Design System) -->
+<div class="hidden lg:block col-span-2"></div>
+<!-- Main Narrative -->
+<article class="col-span-12 lg:col-span-7 space-y-12">
+<div class="space-y-6">
+<h2 class="font-headline text-4xl md:text-5xl text-primary leading-tight">
+                        The living soul—conscious, eternal, and capable of liberation.
+                    </h2>
+<p class="text-on-surface-variant text-lg md:text-xl leading-relaxed font-body">
+                        Every living being has a Jiva—a soul with consciousness as its defining quality. It is the vital energy, the sentient essence that experiences the world through the prism of existence.
+                    </p>
+</div>
+<!-- Sutra Quote Component -->
+<div class="bg-surface-container-lowest p-8 sutra-line shadow-sm">
+<p class="font-headline italic text-2xl text-on-surface leading-snug">
+                        "The soul is the master of its own destiny. It is neither created nor destroyed, but exists in a continuous state of becoming until it finds the silence of its own light."
+                    </p>
+<footer class="mt-4 text-primary font-label tracking-widest text-xs">REFLECTIONS ON THE SOUL</footer>
+</div>
+<!-- Asymmetric Bento-style Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
+<div class="bg-surface-container-low p-8 rounded-xl space-y-4">
+<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+<h3 class="font-headline text-xl text-primary">Pure Consciousness</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The inherent nature of Jiva is infinite knowledge, infinite perception, and infinite power.</p>
+</div>
+<div class="bg-surface-container-highest p-8 rounded-xl space-y-4 mt-4 md:mt-12">
+<span class="material-symbols-outlined text-primary text-3xl">all_inclusive</span>
+<h3 class="font-headline text-xl text-primary">Eternal Essence</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Transcending the physical vessel, the soul migrates through cycles until it attains the state of Siddha.</p>
+</div>
+</div>
+</article>
+<!-- Metadata/Scholarly Annotation Sidebar -->
+<aside class="col-span-12 lg:col-span-3 space-y-8">
+<div class="border-t border-outline-variant/30 pt-4">
+<h4 class="font-label text-xs tracking-widest text-primary mb-4">DEFINITIONS</h4>
+<ul class="space-y-4">
+<li class="group cursor-default">
+<span class="block text-on-surface font-headline italic">Chetana</span>
+<span class="block text-on-surface-variant text-xs font-body">The quality of consciousness that differentiates Jiva from Ajiva.</span>
+</li>
+<li class="group cursor-default">
+<span class="block text-on-surface font-headline italic">Upayoga</span>
+<span class="block text-on-surface-variant text-xs font-body">The active application of consciousness in perception and knowledge.</span>
+</li>
+</ul>
+</div>
+<!-- Call to Action Card -->
+<div class="bg-gradient-to-br from-primary to-primary-container p-1 rounded-sm">
+<div class="bg-surface p-6 flex flex-col gap-4">
+<h4 class="font-headline text-primary text-lg">Contemplate the Self</h4>
+<p class="text-on-surface-variant text-xs">Join our weekly meditation focused on the separation of soul from body.</p>
+<button class="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary py-3 px-4 font-label text-xs tracking-widest hover:opacity-90 transition-all rounded-sm">
+                            BEGIN JOURNEY
+                        </button>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Bottom Navigation Bar (Mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 bg-[#F5F0E8] border-t border-[#E7E2DA]/30 flex justify-around items-center px-4 pb-6 pt-3 shadow-[0_-4px_20px_rgba(29,28,23,0.04)] rounded-t-3xl">
+<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-serif italic text-[10px] tracking-tight">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">self_improvement</span>
+<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
+</a>
+</nav>
+</body></html>

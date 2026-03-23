@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f8f3eb",
+              "surface": "#fef9f1",
+              "tertiary-container": "#9ba8eb",
+              "inverse-surface": "#32302b",
+              "surface-dim": "#ded9d2",
+              "on-primary-container": "#503d00",
+              "secondary": "#625d59",
+              "surface-tint": "#755b00",
+              "outline-variant": "#d0c5b2",
+              "secondary-fixed": "#e9e1dc",
+              "inverse-primary": "#e6c364",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-container-high": "#ece8e0",
+              "on-tertiary-fixed": "#041451",
+              "on-secondary-fixed": "#1e1b18",
+              "tertiary": "#4d5a98",
+              "on-secondary-container": "#67625e",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-surface": "#1d1c17",
+              "surface-container": "#f2ede5",
+              "primary": "#755b00",
+              "surface-container-highest": "#e7e2da",
+              "on-primary-fixed": "#241a00",
+              "error-container": "#ffdad6",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#7e7665",
+              "on-surface-variant": "#4d4637",
+              "on-secondary": "#ffffff",
+              "on-tertiary-fixed-variant": "#35437e",
+              "surface-variant": "#e7e2da",
+              "on-tertiary-container": "#2e3b77",
+              "primary-fixed": "#ffe08f",
+              "primary-fixed-dim": "#e6c364",
+              "on-error": "#ffffff",
+              "primary-container": "#c9a84c",
+              "surface-bright": "#fef9f1",
+              "inverse-on-surface": "#f5f0e8",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#ccc5c0",
+              "on-background": "#1d1c17",
+              "secondary-container": "#e6ded9",
+              "on-secondary-fixed-variant": "#4a4642",
+              "background": "#fef9f1",
+              "tertiary-fixed": "#dde1ff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-serif { font-family: 'Noto Serif', serif; }
+        .sutra-quote {
+            border-left: 2px solid #755b00;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface antialiased">
+<!-- Top Navigation -->
+<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5 flex items-center justify-between px-6 h-16">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00] cursor-pointer">menu</span>
+<span class="font-serif italic text-[#755B00] text-xl">JainAwaken</span>
+</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-[#755B00] font-serif italic text-sm transition-opacity hover:opacity-80" href="#">Home</a>
+<a class="text-[#4D4B3E] font-serif italic text-sm transition-opacity hover:opacity-80" href="#">Philosophy</a>
+<a class="text-[#4D4B3E] font-serif italic text-sm transition-opacity hover:opacity-80" href="#">Meditation</a>
+<a class="text-[#4D4B3E] font-serif italic text-sm transition-opacity hover:opacity-80" href="#">Archive</a>
+</nav>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl">account_circle</span>
+</div>
+</header>
+<main class="pt-16 pb-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Hero Section -->
+<section class="mt-8 mb-16">
+<div class="relative w-full h-[400px] md:h-[500px] overflow-hidden rounded-xl shadow-lg">
+<img class="w-full h-full object-cover" data-alt="Sacred Jain temple interior with golden light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQtqJf11R824VjDDw9XerKQ8oNGxwSDimtKA0MZnvxmbidZWx0IDKzJ3uRdWy2JS5kyZd6NHva9wJslg21bp5Tsl4xsC1P3IXmx__NuQ5T42XvgiUy7YO5WNnxd5uaTfQ3LWwzpOLRI2dYnTquQ754MJfYXVnS9nJQnqIHn-1YT1gncVuou4yIgn4U7IQ4Lsjy9e4-hRmXkflCrGdSxSfVkEVRIBwA_Kif6SyJPLfqMpbLg5y-9mBxKdOv549WI1EecoYDGeIJuw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-10 left-10 right-10">
+<h2 class="text-surface font-serif text-5xl md:text-7xl tracking-wide font-medium mb-4">रत्नत्रय</h2>
+<p class="text-surface-variant font-serif italic text-xl md:text-2xl max-w-2xl">The Three Jewels: The path to spiritual liberation.</p>
+</div>
+</div>
+</section>
+<!-- Bento Grid: The Three Jewels -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-16">
+<!-- Intro Card -->
+<div class="md:col-span-12 lg:col-span-4 bg-surface-container-low p-10 flex flex-col justify-center border-l-4 border-primary">
+<h3 class="text-primary font-serif text-3xl mb-6">The Complete Path</h3>
+<p class="text-on-surface-variant leading-relaxed text-lg font-body">
+                    In Jain philosophy, the **Ratnatraya** (The Three Jewels) constitute the essential path to Nirvana. They are not independent steps, but three facets of a single, unified spiritual journey.
+                </p>
+<div class="mt-8 flex items-center gap-2 text-primary font-serif italic">
+<span class="text-sm">Explore the Trinity</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Samyak Darshan -->
+<div class="md:col-span-6 lg:col-span-4 bg-surface-container-lowest p-8 shadow-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">visibility</span>
+</div>
+<h4 class="text-primary font-serif text-2xl mb-4">Samyak Darshan</h4>
+<p class="text-on-surface mb-6 font-serif italic text-lg">Right Faith</p>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed mb-6">
+                    The unwavering belief in the true nature of reality. It is the conviction in the soul's potential and the teachings of the Tirthankaras.
+                </p>
+<div class="h-1 w-0 bg-primary group-hover:w-full transition-all duration-500"></div>
+</div>
+<!-- Samyak Jnan -->
+<div class="md:col-span-6 lg:col-span-4 bg-surface-container-lowest p-8 shadow-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+</div>
+<h4 class="text-primary font-serif text-2xl mb-4">Samyak Jnan</h4>
+<p class="text-on-surface mb-6 font-serif italic text-lg">Right Knowledge</p>
+<p class="text-on-surface-variant font-body text-sm leading-relaxed mb-6">
+                    A deep, accurate understanding of the self and the universe. It is knowledge free from doubt, delusion, or error.
+                </p>
+<div class="h-1 w-0 bg-primary group-hover:w-full transition-all duration-500"></div>
+</div>
+<!-- Samyak Charitra -->
+<div class="md:col-span-12 lg:col-span-8 bg-surface-container-highest p-10 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center mb-6 text-on-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">self_improvement</span>
+</div>
+<h4 class="text-on-surface font-serif text-3xl mb-4">Samyak Charitra</h4>
+<p class="text-primary font-serif italic text-xl mb-6">Right Conduct</p>
+<p class="text-on-surface-variant font-body text-base leading-relaxed">
+                        The practical application of faith and knowledge. It involves living a life governed by non-violence (Ahinsa), truth, and discipline to shed karmic particles.
+                    </p>
+</div>
+<div class="w-full md:w-1/3 aspect-square bg-surface-container rounded-full overflow-hidden flex items-center justify-center border-8 border-surface-container-low">
+<img class="w-full h-full object-cover opacity-60 mix-blend-multiply" data-alt="Person in meditative pose outdoors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbHLKsJWl2z_HnBOj0luad-9flu9R0aH1LLuigTUp3MG8qrOjN-xuTdclIDgwo0jq7gsema7xYgPHSkGMZ_8idi2eDR5pHd8qY5nFp8tP8oeuGboT9f6_DcxZ2aqa_385oUzysXKR_UnPzgYGISiu2wQEsA27zZkjbaS-jypsRGaiZf7DfjZs7vqVozFafMGhallVAlOy6fTGyICccabCNDeY4eo21kz4zoK3oh6PF5nzdDlE9pkI9N4Yr1vwM4AT4NFbM2rKQjw"/>
+</div>
+</div>
+<!-- Quote Container -->
+<div class="md:col-span-12 lg:col-span-4 bg-[#755B00] p-10 text-on-primary flex flex-col justify-center">
+<span class="material-symbols-outlined text-4xl mb-6 opacity-40">format_quote</span>
+<p class="font-serif italic text-2xl leading-snug">
+                    "Knowledge without faith is blind; Faith without knowledge is hollow; Both without conduct are fruitless."
+                </p>
+<div class="mt-6 pt-6 border-t border-on-primary/20">
+<p class="font-body text-xs tracking-widest uppercase opacity-70">Ancient Sutra</p>
+</div>
+</div>
+</div>
+<!-- Asymmetric Information Section -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start mb-24">
+<div class="space-y-8">
+<div class="sutra-quote pl-8 py-4">
+<h3 class="font-serif text-2xl text-on-surface mb-2">The Inseparable Bond</h3>
+<p class="text-on-surface-variant font-body italic leading-relaxed">
+                        Like a medicine that requires faith in the doctor, knowledge of the dose, and the act of swallowing—liberation requires the union of all three jewels.
+                    </p>
+</div>
+<p class="text-on-surface-variant font-body leading-loose">
+                    To possess Samyak Darshan without Jnan is to have a map but no light. To have Jnan without Charitra is to have the light but refuse to walk the path. Only together do they form the *Moksha Marga*—the path to liberation.
+                </p>
+<button class="px-8 py-3 bg-gradient-to-r from-primary to-primary-container text-on-primary font-serif rounded-sm shadow-md hover:shadow-lg transition-all flex items-center gap-3 w-fit">
+                    Begin the Journey
+                    <span class="material-symbols-outlined text-sm">auto_awesome</span>
+</button>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary-container/10 rounded-xl -rotate-2 group-hover:rotate-0 transition-transform"></div>
+<div class="relative bg-surface-container-high p-4 rounded-xl shadow-xl">
+<img class="w-full h-auto rounded-lg grayscale hover:grayscale-0 transition-all duration-700" data-alt="Handwritten ancient manuscript page" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4Wd-RCnEU_5LqCvvb1Ik9LZJZnQtVftmsE9JkSTtinFlt_W95PF5iPKlOs0BFoepaX2UBE0uN7WUwTlwCHMatVfZTO7ExhkWk07p7c8FuOV38vglCMHe9MuAi5nAoIM9bcPzLMtie0vse1aGL5I7nPY5KKsfnjj3bohpcCFBOEhwKUCR6oIu9S8D761YB05P-FFr45gnJJlQSKpYIkGCv_Jvjc-wphYckdwW9C21bPUOdT0L0_Awaw_UM3XMlO6oCqPjK_CaPVA"/>
+<div class="mt-4 flex justify-between items-center px-2">
+<span class="font-serif text-sm italic text-on-surface-variant">Scriptural Reference #104</span>
+<span class="material-symbols-outlined text-primary">bookmark</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Navigation Bar -->
+<footer class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F5F0E8] rounded-t-3xl border-t border-[#E7E2DA]/30 shadow-[0_-4px_20px_rgba(29,28,23,0.04)]">
+<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-serif italic text-[10px] tracking-tight">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">self_improvement</span>
+<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
+</a>
+</footer>
+</body></html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f8f3eb",
+              "surface": "#fef9f1",
+              "tertiary-container": "#9ba8eb",
+              "inverse-surface": "#32302b",
+              "surface-dim": "#ded9d2",
+              "on-primary-container": "#503d00",
+              "secondary": "#625d59",
+              "surface-tint": "#755b00",
+              "outline-variant": "#d0c5b2",
+              "secondary-fixed": "#e9e1dc",
+              "inverse-primary": "#e6c364",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-container-high": "#ece8e0",
+              "on-tertiary-fixed": "#041451",
+              "on-secondary-fixed": "#1e1b18",
+              "tertiary": "#4d5a98",
+              "on-secondary-container": "#67625e",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-surface": "#1d1c17",
+              "surface-container": "#f2ede5",
+              "primary": "#755b00",
+              "surface-container-highest": "#e7e2da",
+              "on-primary-fixed": "#241a00",
+              "error-container": "#ffdad6",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#7e7665",
+              "on-surface-variant": "#4d4637",
+              "on-secondary": "#ffffff",
+              "on-tertiary-fixed-variant": "#35437e",
+              "surface-variant": "#e7e2da",
+              "on-tertiary-container": "#2e3b77",
+              "primary-fixed": "#ffe08f",
+              "primary-fixed-dim": "#e6c364",
+              "on-error": "#ffffff",
+              "primary-container": "#c9a84c",
+              "surface-bright": "#fef9f1",
+              "inverse-on-surface": "#f5f0e8",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#ccc5c0",
+              "on-background": "#1d1c17",
+              "secondary-container": "#e6ded9",
+              "on-secondary-fixed-variant": "#4a4642",
+              "background": "#fef9f1",
+              "tertiary-fixed": "#dde1ff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #fef9f1;
+        color: #1d1c17;
+      }
+      h1, h2, h3, .font-serif {
+        font-family: 'Noto Serif', serif;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Shell -->
+<header class="fixed top-0 w-full z-50 flex items-center justify-between px-6 h-16 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00] cursor-pointer hover:opacity-80 transition-opacity">menu</span>
+<span class="font-serif italic text-[#755B00] text-xl">JainAwaken</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-[#755B00] font-serif text-sm tracking-wide" href="#">Home</a>
+<a class="text-[#4D4B3E] font-serif text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">Philosophy</a>
+<a class="text-[#4D4B3E] font-serif text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">Meditation</a>
+<a class="text-[#4D4B3E] font-serif text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">Archive</a>
+</nav>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">account_circle</span>
+</div>
+</header>
+<main class="pt-16 pb-24 min-h-screen">
+<!-- Hero Section -->
+<section class="relative w-full h-[530px] overflow-hidden flex items-end">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="Traditional Jain symbolic artwork depicting cosmic substances" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlyYQT2ZJ3F8TNzpe-pr4zzYuVf7ZvQGvluRH3PuyIvFIx6ue1Z08dIFUsmDqZ_grUUWVLXPuHS38RLmYy5RERQTjNVm2wrJ3yGe0S4kex3hg-myObD--08yz0NAyjDyyX8Qkef5drGY-gWP0YKYyYgAWKFPvIk91bki5d-bZ4SeOAg5OKdlJd5mxJ5kJN7qXcVhatEZf32U8KkuB7ofjyfdbVgsRPGb6eZorEOlNi5lKdZdR3Vm8_D-VdA1ZtxNINvsiCRXtqYw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<div class="relative z-10 px-8 md:px-24 pb-12 max-w-5xl">
+<span class="text-primary font-serif italic text-lg mb-2 block">The Fundamental Reality</span>
+<h1 class="text-5xl md:text-7xl font-bold text-on-surface tracking-tight leading-tight">षड् द्रव्य</h1>
+<p class="mt-4 text-xl md:text-2xl text-on-surface-variant font-serif max-w-2xl leading-relaxed">
+                    The six substances that make up all of existence—nothing more, nothing less.
+                </p>
+</div>
+</section>
+<!-- The Bento Grid of Substances -->
+<section class="px-6 md:px-24 py-16">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Jiva: The Soul -->
+<div class="md:col-span-7 bg-surface-container-low p-8 rounded-xl flex flex-col justify-between transition-all hover:bg-surface-container-high">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="text-primary font-serif text-3xl">जीव</span>
+<span class="material-symbols-outlined text-primary text-4xl" style="font-variation-settings: 'FILL' 1;">brightness_7</span>
+</div>
+<h3 class="text-2xl font-bold mb-3">Jiva</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6 font-serif italic">The living being or soul. Characterized by consciousness, perception, and knowledge. It is the only substance that experiences joy, pain, and liberation.</p>
+</div>
+<div class="h-px bg-outline-variant/30 w-full mb-4"></div>
+<span class="text-primary text-sm font-label tracking-widest uppercase">Sentient Existence</span>
+</div>
+<!-- Pudgal: Matter -->
+<div class="md:col-span-5 bg-primary-container/20 p-8 rounded-xl flex flex-col justify-between hover:bg-primary-container/30 transition-all">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="text-primary font-serif text-3xl">पुद्गल</span>
+<span class="material-symbols-outlined text-primary text-4xl">grain</span>
+</div>
+<h3 class="text-2xl font-bold mb-3">Pudgal</h3>
+<p class="text-on-surface-variant leading-relaxed font-serif italic">Matter and Energy. Anything that has color, taste, smell, and touch. It can be perceived by the senses.</p>
+</div>
+</div>
+<!-- Dharma & Adharma: Motion & Rest -->
+<div class="md:col-span-4 bg-surface-container p-8 rounded-xl border-l-2 border-primary">
+<div class="mb-6">
+<span class="text-primary font-serif text-2xl">धर्म</span>
+<h3 class="text-xl font-bold mt-1">Dharma</h3>
+</div>
+<p class="text-on-surface-variant font-serif italic leading-relaxed">The medium of motion. Just as water helps fish to swim, Dharma allows substances to move.</p>
+</div>
+<div class="md:col-span-4 bg-surface-container p-8 rounded-xl border-l-2 border-primary/40">
+<div class="mb-6">
+<span class="text-primary font-serif text-2xl">अधर्म</span>
+<h3 class="text-xl font-bold mt-1">Adharma</h3>
+</div>
+<p class="text-on-surface-variant font-serif italic leading-relaxed">The medium of rest. Like the shade of a tree helps a traveler stay still, Adharma assists in stillness.</p>
+</div>
+<!-- Akash: Space -->
+<div class="md:col-span-4 bg-surface-container-highest p-8 rounded-xl flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-5xl mb-4">filter_drama</span>
+<span class="text-primary font-serif text-2xl">आकाश</span>
+<h3 class="text-xl font-bold mb-2">Akash</h3>
+<p class="text-on-surface-variant font-serif italic text-sm">Space. That which provides room for all other substances to exist and interact.</p>
+</div>
+<!-- Kaal: Time (The Full Width Callout) -->
+<div class="md:col-span-12 bg-inverse-surface text-inverse-on-surface p-12 rounded-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between">
+<div class="relative z-10 max-w-xl">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary-fixed">schedule</span>
+<span class="text-primary-fixed font-serif text-xl tracking-widest">काल</span>
+</div>
+<h3 class="text-3xl font-bold mb-4">Kaal: The Measure of Change</h3>
+<p class="text-surface-dim font-serif italic text-lg leading-relaxed">
+                            Time is the catalyst of transformation. It doesn't move itself, but it is the auxiliary cause of change (Parinama) in all other substances.
+                        </p>
+</div>
+<div class="mt-8 md:mt-0 opacity-20 transform rotate-12">
+<span class="material-symbols-outlined text-[160px]">history</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Sutra Quote Section -->
+<section class="px-6 md:px-24 py-16 max-w-4xl mx-auto">
+<div class="bg-surface-container-lowest p-10 border-l-4 border-primary">
+<p class="text-2xl font-serif italic text-on-surface leading-relaxed">
+                    "Nothing is newly created, and nothing is ever destroyed. Existence is simply the eternal dance and transformation of these six fundamental dravyas."
+                </p>
+<div class="mt-6 flex items-center gap-4">
+<div class="h-[1px] w-12 bg-primary"></div>
+<span class="text-primary font-label tracking-tighter">Ancient Wisdom, Eternal Reality</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Navigation Shell (Mobile) -->
+<footer class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F5F0E8] shadow-[0_-4px_20px_rgba(29,28,23,0.04)] border-t border-[#E7E2DA]/30 rounded-t-3xl">
+<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-serif italic text-[10px] tracking-tight">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60" href="#">
+<span class="material-symbols-outlined">self_improvement</span>
+<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
+</a>
+</footer>
+</body></html>

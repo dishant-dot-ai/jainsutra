@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JainAwaken - Nav Tattvas</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-low": "#f8f3eb",
+                        "surface": "#fef9f1",
+                        "tertiary-container": "#9ba8eb",
+                        "inverse-surface": "#32302b",
+                        "surface-dim": "#ded9d2",
+                        "on-primary-container": "#503d00",
+                        "secondary": "#625d59",
+                        "surface-tint": "#755b00",
+                        "outline-variant": "#d0c5b2",
+                        "secondary-fixed": "#e9e1dc",
+                        "inverse-primary": "#e6c364",
+                        "on-tertiary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed-variant": "#584400",
+                        "surface-container-high": "#ece8e0",
+                        "on-tertiary-fixed": "#041451",
+                        "on-secondary-fixed": "#1e1b18",
+                        "tertiary": "#4d5a98",
+                        "on-secondary-container": "#67625e",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed-dim": "#b9c3ff",
+                        "on-surface": "#1d1c17",
+                        "surface-container": "#f2ede5",
+                        "primary": "#755b00",
+                        "surface-container-highest": "#e7e2da",
+                        "on-primary-fixed": "#241a00",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "outline": "#7e7665",
+                        "on-surface-variant": "#4d4637",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#35437e",
+                        "surface-variant": "#e7e2da",
+                        "on-tertiary-container": "#2e3b77",
+                        "primary-fixed": "#ffe08f",
+                        "primary-fixed-dim": "#e6c364",
+                        "on-error": "#ffffff",
+                        "primary-container": "#c9a84c",
+                        "surface-bright": "#fef9f1",
+                        "inverse-on-surface": "#f5f0e8",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed-dim": "#ccc5c0",
+                        "on-background": "#1d1c17",
+                        "secondary-container": "#e6ded9",
+                        "on-secondary-fixed-variant": "#4a4642",
+                        "background": "#fef9f1",
+                        "tertiary-fixed": "#dde1ff"
+                    },
+                    fontFamily: {
+                        "headline": ["Noto Serif"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fef9f1;
+            color: #1d1c17;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Noto Serif', serif;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+        .sutra-quote {
+            border-left: 2px solid #755b00;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar Shell -->
+<nav class="fixed top-0 w-full z-50 flex items-center justify-between px-6 h-16 w-full bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00] hover:opacity-80 transition-opacity cursor-pointer">menu</span>
+<span class="font-serif italic text-[#755B00] text-xl tracking-wide font-medium">JainAwaken</span>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-serif italic text-sm text-[#755B00] transition-opacity hover:opacity-80" href="#">Home</a>
+<a class="font-serif italic text-sm text-[#755B00] transition-opacity hover:opacity-80 border-b border-[#755B00]" href="#">Philosophy</a>
+<a class="font-serif italic text-sm text-[#4D4B3E] transition-opacity hover:opacity-80" href="#">Meditation</a>
+<a class="font-serif italic text-sm text-[#4D4B3E] transition-opacity hover:opacity-80" href="#">Archive</a>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00] cursor-pointer">search</span>
+</div>
+</nav>
+<main class="pt-24 pb-32 px-6 max-w-7xl mx-auto">
+<!-- Hero Section -->
+<header class="mb-20">
+<div class="flex flex-col md:flex-row gap-12 items-end">
+<div class="md:w-1/2 space-y-6">
+<span class="text-primary font-body tracking-[0.2em] text-xs uppercase font-semibold">Ancient Wisdom</span>
+<h1 class="text-6xl md:text-8xl text-on-surface leading-tight font-medium">नव तत्त्व</h1>
+<h2 class="text-3xl font-serif text-primary italic">The Nine Realities</h2>
+<p class="text-lg text-on-surface-variant max-w-md leading-relaxed">
+                        A profound framework explaining the soul's journey from worldly bondage to ultimate spiritual liberation.
+                    </p>
+</div>
+<div class="md:w-1/2 w-full">
+<div class="relative aspect-[16/9] overflow-hidden rounded-xl bg-surface-container-highest">
+<img alt="Spiritual Jain manuscript depicting cosmic journey" class="w-full h-full object-cover" data-alt="Traditional Jain painting showing cosmic path and soul" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu19hYpcnxRg8Qo4ZpYYu-PTc6_zZFpovzdTvyJAXgbkqhAgpDSUEgQIaYpBIUfXmBque3bldBKK2wwrJAvK4CnDM5BZyzC1ySlZxEEWL-wvveH2gE4TC37feRims7LjjD31CPHSPcCK_aMO-iatEJ6FU1ns4Q1fp5UFScSwD1sTIaXVdyiAhQUhCOatmT-HN4pYtYWwxffcRqryea5Wzb7K2qlKLu50mqe7zoImoDhNyE9T7NdCdcNfJgW49Fqpa-hYncs9bnLw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/20 to-transparent"></div>
+</div>
+</div>
+</div>
+</header>
+<!-- Sutra Quote Container -->
+<section class="mb-20 max-w-3xl ml-auto">
+<div class="sutra-quote bg-surface-container-lowest p-8 shadow-sm">
+<p class="text-2xl font-serif italic text-on-surface leading-relaxed">
+                    "The universe is composed of Jiva and Ajiva. Understanding their interaction is the first step toward the cessation of suffering."
+                </p>
+<div class="mt-4 flex items-center gap-2">
+<div class="h-px w-8 bg-outline-variant"></div>
+<span class="text-xs tracking-widest text-outline uppercase">Tattvartha Sutra</span>
+</div>
+</div>
+</section>
+<!-- Bento Grid of Tattvas -->
+<section class="bento-grid">
+<!-- Jiva - Large Feature -->
+<div class="col-span-12 md:col-span-7 bg-surface-container-low p-10 rounded-xl flex flex-col justify-between min-h-[400px]">
+<div>
+<span class="text-primary font-serif italic text-4xl mb-4 block">01. Jiva</span>
+<h3 class="text-4xl font-headline font-medium mb-6">The Living Being</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed max-w-lg">
+                        The conscious soul characterized by knowledge, perception, and infinite energy. It is the eternal witness of the cosmic drama.
+                    </p>
+</div>
+<div class="mt-8 flex gap-4">
+<span class="px-4 py-2 bg-primary-container/20 text-on-primary-container text-xs font-semibold rounded-full uppercase tracking-tighter">Consciousness</span>
+<span class="px-4 py-2 bg-primary-container/20 text-on-primary-container text-xs font-semibold rounded-full uppercase tracking-tighter">Eternal</span>
+</div>
+</div>
+<!-- Ajiva - Vertical -->
+<div class="col-span-12 md:col-span-5 bg-surface-container-highest p-10 rounded-xl border border-outline-variant/10">
+<span class="text-primary font-serif italic text-2xl mb-2 block">02. Ajiva</span>
+<h3 class="text-3xl font-headline font-medium mb-4">Non-Living Matter</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                    The non-conscious substances including space, time, and matter that provide the environment for the soul's experience.
+                </p>
+<div class="mt-12 h-32 w-full bg-gradient-to-br from-outline-variant/20 to-surface-container-highest rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-outline text-5xl opacity-40">category</span>
+</div>
+</div>
+<!-- Punya & Pap - Twin Cards -->
+<div class="col-span-12 md:col-span-4 bg-surface-container-low p-8 rounded-xl">
+<div class="flex justify-between items-start mb-6">
+<div>
+<span class="text-primary font-serif italic text-xl block">03. Punya</span>
+<h4 class="text-2xl font-headline font-medium">Virtue</h4>
+</div>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star_shine</span>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                    Meritorious actions leading to worldly comfort and favorable rebirth, acting as a gentle wind in the soul's journey.
+                </p>
+</div>
+<div class="col-span-12 md:col-span-4 bg-surface-container-low p-8 rounded-xl">
+<div class="flex justify-between items-start mb-6">
+<div>
+<span class="text-primary font-serif italic text-xl block">04. Pap</span>
+<h4 class="text-2xl font-headline font-medium">Demerit</h4>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant">cloud</span>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">
+                    Harmful actions that bind the soul to suffering and lower realms of existence, obscuring the soul's inherent light.
+                </p>
+</div>
+<!-- Asrav - Action Card -->
+<div class="col-span-12 md:col-span-4 bg-[#755B00] text-on-primary p-8 rounded-xl flex flex-col justify-between">
+<div>
+<span class="text-primary-fixed-dim font-serif italic text-xl block">05. Asrav</span>
+<h4 class="text-2xl font-headline font-medium">Inflow</h4>
+</div>
+<p class="text-primary-fixed/80 text-sm leading-relaxed mt-4">
+                    The process by which karmic matter enters the soul through the channels of activity, desire, and attachment.
+                </p>
+</div>
+<!-- Process Grid (Bandh, Samvar, Nirjara) -->
+<div class="col-span-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Bandh -->
+<div class="p-10 bg-surface-container rounded-xl border-l-4 border-primary">
+<span class="text-primary font-serif italic text-lg mb-2 block">06. Bandh</span>
+<h4 class="text-2xl font-headline font-medium mb-4">Bondage</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                        The actual attachment of karmic particles to the soul, much like dust sticking to an oily surface.
+                    </p>
+</div>
+<!-- Samvar -->
+<div class="p-10 bg-surface-container rounded-xl">
+<span class="text-primary font-serif italic text-lg mb-2 block">07. Samvar</span>
+<h4 class="text-2xl font-headline font-medium mb-4">Stoppage</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                        The intentional blocking of new karma through mindfulness, vows, and disciplined spiritual practice.
+                    </p>
+</div>
+<!-- Nirjara -->
+<div class="p-10 bg-surface-container rounded-xl border-r-4 border-outline-variant">
+<span class="text-primary font-serif italic text-lg mb-2 block">08. Nirjara</span>
+<h4 class="text-2xl font-headline font-medium mb-4">Shedding</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">
+                        The removal of accumulated karma through austerity and deep meditation, purifying the soul's essence.
+                    </p>
+</div>
+</div>
+<!-- Moksha - Full Width Finale -->
+<div class="col-span-12 mt-12 overflow-hidden relative rounded-2xl bg-gradient-to-r from-[#F8F3EB] to-[#F5F0E8] p-12 text-center">
+<div class="relative z-10 max-w-2xl mx-auto">
+<span class="text-primary font-serif italic text-2xl mb-4 block">09. Moksha</span>
+<h3 class="text-5xl font-headline font-medium mb-6">The State of Liberation</h3>
+<p class="text-lg text-on-surface-variant italic font-serif leading-relaxed mb-8">
+                        The ultimate destination. Complete freedom from the cycle of birth and death, where the soul exists in eternal bliss and infinite knowledge.
+                    </p>
+<button class="bg-gradient-to-r from-primary to-primary-container text-white px-10 py-4 rounded-sm font-semibold tracking-widest uppercase text-xs hover:opacity-90 transition-all shadow-md">
+                        Begin the Journey
+                    </button>
+</div>
+<!-- Decorative element -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 border-8 border-primary/5 rounded-full"></div>
+<div class="absolute -left-10 -top-10 w-40 h-40 border-4 border-primary/5 rounded-full"></div>
+</div>
+</section>
+<!-- Informational Annotation -->
+<footer class="mt-24 pt-12 border-t border-outline-variant/30 text-center">
+<div class="flex flex-col items-center gap-4">
+<span class="material-symbols-outlined text-tertiary text-4xl">temple_hindu</span>
+<p class="text-xs font-body text-tertiary uppercase tracking-[0.3em]">Ancient Scholars' Synthesis</p>
+<div class="max-w-lg text-sm text-on-surface-variant italic">
+                    The Nine Tattvas provide the metaphysical logic behind the Jain path of Ahimsa and Anekantavada.
+                </div>
+</div>
+</footer>
+</main>
+<!-- BottomNavBar Shell -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F5F0E8] dark:bg-[#1D1C17] rounded-t-3xl shadow-[0_-4px_20px_rgba(29,28,23,0.04)] border-t border-[#E7E2DA]/30 md:hidden">
+<div class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40 cursor-pointer">
+<span class="material-symbols-outlined">home</span>
+<span class="font-serif italic text-[10px] tracking-tight">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#755B00] dark:text-[#C9A84C] bg-[#F8F3EB] dark:bg-[#2A2922] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40 cursor-pointer">
+<span class="material-symbols-outlined">self_improvement</span>
+<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40 cursor-pointer">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
+</div>
+</nav>
+</body></html>

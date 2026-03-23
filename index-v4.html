@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JainAwaken — Eighteen Paths to Liberation</title>
+<meta name="description" content="A definitive guide to the metaphysical architecture of Jain philosophy. From the foundations of mantra to the pinnacle of spiritual evolution.">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f8f3eb",
+              "surface": "#fef9f1",
+              "tertiary-container": "#9ba8eb",
+              "inverse-surface": "#32302b",
+              "surface-dim": "#ded9d2",
+              "on-primary-container": "#503d00",
+              "secondary": "#625d59",
+              "surface-tint": "#755b00",
+              "outline-variant": "#d0c5b2",
+              "secondary-fixed": "#e9e1dc",
+              "inverse-primary": "#e6c364",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-container-high": "#ece8e0",
+              "on-tertiary-fixed": "#041451",
+              "on-secondary-fixed": "#1e1b18",
+              "tertiary": "#4d5a98",
+              "on-secondary-container": "#67625e",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-surface": "#1d1c17",
+              "surface-container": "#f2ede5",
+              "primary": "#755b00",
+              "surface-container-highest": "#e7e2da",
+              "on-primary-fixed": "#241a00",
+              "error-container": "#ffdad6",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#7e7665",
+              "on-surface-variant": "#4d4637",
+              "on-secondary": "#ffffff",
+              "on-tertiary-fixed-variant": "#35437e",
+              "surface-variant": "#e7e2da",
+              "on-tertiary-container": "#2e3b77",
+              "primary-fixed": "#ffe08f",
+              "primary-fixed-dim": "#e6c364",
+              "on-error": "#ffffff",
+              "primary-container": "#c9a84c",
+              "surface-bright": "#fef9f1",
+              "inverse-on-surface": "#f5f0e8",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#ccc5c0",
+              "on-background": "#1d1c17",
+              "secondary-container": "#e6ded9",
+              "on-secondary-fixed-variant": "#4a4642",
+              "background": "#fef9f1",
+              "tertiary-fixed": "#dde1ff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+    body { font-family: 'Inter', sans-serif; background-color: #fef9f1; color: #1d1c17; }
+    .font-serif { font-family: 'Noto Serif', serif; }
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .glass-nav {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+    .sutra-border { border-left: 2px solid #755b00; }
+    .gold-btn {
+        background: linear-gradient(135deg, #755b00 0%, #c9a84c 100%);
+    }
+</style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav bg-[#fef9f1]/80 shadow-sm shadow-[#1d1c17]/5">
+<div class="flex justify-between items-center px-8 py-5 max-w-screen-2xl mx-auto">
+<a href="index.html" class="text-2xl font-serif text-primary tracking-tight hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-label text-xs font-medium uppercase tracking-widest text-on-surface-variant/60 hover:text-primary transition-colors duration-300">Navkar Mantra</a>
+<a href="about.html" class="font-label text-xs font-medium uppercase tracking-widest text-on-surface-variant/60 hover:text-primary transition-colors duration-300">About</a>
+</div>
+</div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="pt-32 pb-20 px-8 lg:px-24 max-w-screen-2xl mx-auto">
+<div class="flex flex-col md:flex-row gap-12 items-center">
+<div class="md:w-1/2 space-y-8">
+<span class="text-primary font-label tracking-[0.2em] text-xs uppercase font-semibold">The Eternal Path</span>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl text-on-surface leading-[1.05] tracking-tight">
+Jainism is <em>not a</em> diet.<br>
+It's a path to <em>liberation.</em>
+</h1>
+<p class="text-lg md:text-xl text-on-surface-variant leading-relaxed max-w-lg">
+These are the fundamentals that most Jains were never taught — and every human deserves to know.
+</p>
+<div class="flex flex-wrap gap-4 pt-2">
+<a href="#foundation" class="gold-btn px-8 py-4 text-on-primary font-label font-bold text-sm uppercase tracking-[0.15em] rounded-sm transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-primary/10">Begin the Journey</a>
+<a href="navkar.html" class="px-8 py-4 text-primary font-label font-medium text-sm uppercase tracking-[0.15em] hover:bg-surface-container-high transition-colors rounded-sm">Explore Wisdom</a>
+</div>
+</div>
+<div class="md:w-1/2 w-full">
+<div class="relative aspect-[4/3] overflow-hidden rounded-xl bg-surface-container-highest">
+<img alt="Jain temple interior" class="w-full h-full object-cover" src="assets/jain-temple.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/10 to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===================== WHY THIS SITE EXISTS ===================== -->
+<section class="px-8 lg:px-24 py-24 max-w-screen-2xl mx-auto">
+<div class="flex flex-col md:flex-row gap-16 items-center">
+<div class="md:w-5/12">
+<div class="relative overflow-hidden rounded-xl">
+<img src="assets/manuscript.jpg" alt="Ancient manuscript" class="w-full aspect-[3/4] object-cover"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/40 to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<h3 class="font-headline text-lg text-white/90">The Scribe's Intent</h3>
+<p class="text-white/60 text-sm mt-1">Dated: Vikram Samvat 2081</p>
+</div>
+</div>
+</div>
+<div class="md:w-7/12 space-y-8">
+<span class="text-primary font-label tracking-[0.2em] text-xs uppercase font-semibold">Foundations</span>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface tracking-tight">Why this site exists</h2>
+<div class="space-y-5 text-on-surface-variant text-lg leading-relaxed">
+<p>For centuries, the core tenets of Jainism—Ahimsa, Anekantavada, and Aparigraha—have been simplified into mere dietary restrictions or passive rituals. We believe these are not just rules, but a sophisticated technology of the soul.</p>
+<p>Jain Awaken was born to bridge the gap between ancient Prakrit manuscripts and the modern seeker. We strip away the cultural dogma to reveal the raw, rigorous scholarship of liberation.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+<div class="bg-surface-container-low p-6 rounded-xl">
+<h4 class="font-headline text-lg text-on-surface mb-2">Scholarly Depth</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Verified translations and ontological breakdowns of the Tattvartha Sutra and beyond.</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl">
+<h4 class="font-headline text-lg text-on-surface mb-2">Digital Sanctuary</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">A non-sectarian space for the preservation and contemplation of Tirthankara wisdom.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===================== I. FOUNDATION ===================== -->
+<section class="px-8 lg:px-24 py-20 max-w-screen-2xl mx-auto" id="foundation">
+<div class="flex justify-between items-baseline mb-12">
+<h2 class="font-headline text-3xl md:text-4xl text-on-surface"><em>I.</em> Foundation</h2>
+<span class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60">01 — 03</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<a href="navkar-mantra-v4.html" class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+<div class="aspect-[16/10] overflow-hidden">
+<img src="assets/card-navkar.jpg" alt="Navkar Mantra" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+</div>
+<div class="p-6 space-y-3">
+<span class="font-label text-xs uppercase tracking-widest text-primary font-semibold">Universal Salutation</span>
+<h3 class="font-headline text-2xl text-on-surface">Navkar Mantra</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The most powerful prayer in Jainism — a universal salutation to all enlightened souls, not to any one god.</p>
+</div>
+</a>
+<a href="samyaktva-v4.html" class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+<div class="aspect-[16/10] overflow-hidden">
+<img src="assets/card-samyaktva.jpg" alt="Samyaktva" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+</div>
+<div class="p-6 space-y-3">
+<span class="font-label text-xs uppercase tracking-widest text-primary font-semibold">Right Perception</span>
+<h3 class="font-headline text-2xl text-on-surface">Samyaktva</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Right perception — the foundation of the spiritual path, where you see reality as it truly is.</p>
+</div>
+</a>
+<a href="ratnatraya-v4.html" class="group bg-surface-container-low rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+<div class="aspect-[16/10] overflow-hidden">
+<img src="assets/card-ratnatraya.jpg" alt="Ratnatraya" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+</div>
+<div class="p-6 space-y-3">
+<span class="font-label text-xs uppercase tracking-widest text-primary font-semibold">The Three Jewels</span>
+<h3 class="font-headline text-2xl text-on-surface">Ratnatraya</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The Three Jewels — right faith, right knowledge, and right conduct — the complete path to liberation.</p>
+</div>
+</a>
+</div>
+</section>
+
+<!-- ===================== II. SOUL & REALITY ===================== -->
+<section class="px-8 lg:px-24 py-20 max-w-screen-2xl mx-auto" id="soul-reality">
+<div class="flex justify-between items-baseline mb-12">
+<h2 class="font-headline text-3xl md:text-4xl text-on-surface"><em>II.</em> The Soul &amp; Reality</h2>
+<span class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60">04 — 07</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Jiva — wide -->
+<a href="jiva-v4.html" class="group md:col-span-7 relative overflow-hidden rounded-xl min-h-[360px]">
+<img src="assets/card-jiva.jpg" alt="Jiva" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1d1c17]/80 via-[#1d1c17]/30 to-transparent"></div>
+<div class="absolute bottom-8 left-8 space-y-2">
+<span class="font-label text-xs uppercase tracking-widest text-primary-fixed-dim font-semibold">The Conscious</span>
+<h3 class="font-headline text-4xl text-white">Jiva</h3>
+<p class="text-white/70 text-sm max-w-sm leading-relaxed">The soul — the eternal conscious being with infinite knowledge, perception, bliss, and energy.</p>
+</div>
+</a>
+<!-- Ajiva — narrow -->
+<a href="ajiva-v4.html" class="group md:col-span-5 relative overflow-hidden rounded-xl min-h-[360px]">
+<img src="assets/card-ajiva.jpg" alt="Ajiva" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1d1c17]/80 via-[#1d1c17]/30 to-transparent"></div>
+<div class="absolute bottom-8 left-8 space-y-2">
+<h3 class="font-headline text-3xl text-white">Ajiva</h3>
+<p class="text-white/70 text-sm max-w-xs leading-relaxed">Non-living matter — everything in the universe that is not a soul, from atoms to space and time.</p>
+</div>
+</a>
+<!-- 6 Dravyas — narrow -->
+<a href="six-dravyas-v4.html" class="group md:col-span-5 relative overflow-hidden rounded-xl min-h-[360px]">
+<img src="assets/card-six-dravyas.jpg" alt="6 Dravyas" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1d1c17]/80 via-[#1d1c17]/30 to-transparent"></div>
+<div class="absolute bottom-8 left-8 space-y-2">
+<h3 class="font-headline text-3xl text-white">6 Dravyas</h3>
+<p class="text-white/70 text-sm max-w-xs leading-relaxed">The six eternal substances that make up the entire universe — soul, matter, motion, rest, space, and time.</p>
+</div>
+</a>
+<!-- Gati — wide -->
+<a href="gati-v4.html" class="group md:col-span-7 relative overflow-hidden rounded-xl min-h-[360px]">
+<img src="assets/card-gati.jpg" alt="Gati" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1d1c17]/80 via-[#1d1c17]/30 to-transparent"></div>
+<div class="absolute bottom-8 left-8 space-y-2">
+<span class="font-label text-xs uppercase tracking-widest text-primary-fixed-dim font-semibold">The Four Realms</span>
+<h3 class="font-headline text-4xl text-white">Gati</h3>
+<p class="text-white/70 text-sm max-w-sm leading-relaxed">The four realms of existence — celestial, human, animal/plant, and hellish — where souls are born based on karma.</p>
+</div>
+</a>
+</div>
+</section>
+
+<!-- ===================== III. KARMA SYSTEM ===================== -->
+<section class="px-8 lg:px-24 py-20 max-w-screen-2xl mx-auto" id="karma-system">
+<div class="flex justify-between items-baseline mb-12">
+<h2 class="font-headline text-3xl md:text-4xl text-on-surface"><em>III.</em> Karma System</h2>
+<span class="font-label text-xs uppercase tracking-widest text-on-surface-variant/60">08 — 13</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<a href="nav-tattvas-v4.html" class="group bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<span class="font-headline text-4xl text-primary/30 block mb-4">08</span>
+<h3 class="font-headline text-2xl text-on-surface mb-3">Nav Tattvas</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The nine realities — the complete framework that explains how karma binds the soul and how to break free.</p>
+<div class="flex items-center gap-2 text-primary mt-6 group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Explore</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</a>
+<a href="karma-v3.html" class="group bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<span class="font-headline text-4xl text-primary/30 block mb-4">09</span>
+<h3 class="font-headline text-2xl text-on-surface mb-3">Karma</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Not punishment or reward — karma is physical matter that sticks to the soul through every action, thought, and word.</p>
+<div class="flex items-center gap-2 text-primary mt-6 group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Explore</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</a>
+<a href="ghati-aghati-v4.html" class="group bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<span class="font-headline text-4xl text-primary/30 block mb-4">10</span>
+<h3 class="font-headline text-2xl text-on-surface mb-3">Ghati &amp; Aghati</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The two types of karma — destructive ones that block the soul's true nature, and non-destructive ones that shape the body and life.</p>
+<div class="flex items-center gap-2 text-primary mt-6 group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Explore</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</a>
+<a href="kashaya-v4.html" class="group bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<span class="font-headline text-4xl text-primary/30 block mb-4">11</span>
+<h3 class="font-headline text-2xl text-on-surface mb-3">Kashaya</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The four passions — anger, pride, deceit, and greed — the root causes that attract karma to the soul.</p>
+<div class="flex items-center gap-2 text-primary mt-6 group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Explore</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</a>
+<a href="asrav-samvar-nirjara-v4.html" class="group bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<span class="font-headline text-4xl text-primary/30 block mb-4">12</span>
+<h3 class="font-headline text-2xl text-on-surface mb-3">Asrav, Samvar, Nirjara</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Influx, stoppage, and shedding — the three-part process of how karma enters the soul, how to stop it, and how to burn it off.</p>
+<div class="flex items-center gap-2 text-primary mt-6 group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Explore</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</a>
+<a href="leshya-v4.html" class="group bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<span class="font-headline text-4xl text-primary/30 block mb-4">13</span>
+<h3 class="font-headline text-2xl text-on-surface mb-3">Leshya</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The six colors of the soul — from black to white — that reflect its spiritual purity based on thoughts and actions.</p>
+<div class="flex items-center gap-2 text-primary mt-6 group-hover:translate-x-2 transition-transform">
+<span class="font-label text-xs uppercase tracking-widest">Explore</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</a>
+</div>
+</section>
+
+<!-- ===================== IV. THE PATH ===================== -->
+<section class="px-8 lg:px-24 py-20 max-w-screen-2xl mx-auto" id="the-path">
+<div class="flex flex-col lg:flex-row gap-16">
+<div class="lg:w-5/12 space-y-6 lg:sticky lg:top-32 lg:self-start">
+<span class="font-label text-xs uppercase tracking-widest text-primary font-semibold">Section IV</span>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface tracking-tight">The Path</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed">The practical discipline of daily spiritual practice — how to live, think, and act on the path to liberation.</p>
+<a href="charitra-v4.html" class="inline-block gold-btn px-8 py-4 text-on-primary font-label font-bold text-sm uppercase tracking-[0.15em] rounded-sm transition-all hover:scale-[1.02] active:scale-95 shadow-lg shadow-primary/10 mt-4">Begin Reading</a>
+</div>
+<div class="lg:w-7/12 space-y-6">
+<a href="charitra-v4.html" class="group block bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-headline text-2xl text-on-surface mb-3">Charitra</h4>
+<p class="text-on-surface-variant leading-relaxed">Right conduct — the ethical discipline of non-violence, truthfulness, and self-control in daily life.</p>
+</div>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform mt-1">arrow_forward</span>
+</div>
+</a>
+<a href="bhavnas-v4.html" class="group block bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-headline text-2xl text-on-surface mb-3">Bhavnas</h4>
+<p class="text-on-surface-variant leading-relaxed">The twelve reflections — meditative contemplations that develop detachment, compassion, and inner peace.</p>
+</div>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform mt-1">arrow_forward</span>
+</div>
+</a>
+<a href="pratikraman-v2.html" class="group block bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-headline text-2xl text-on-surface mb-3">Pratikraman</h4>
+<p class="text-on-surface-variant leading-relaxed">The practice of self-reflection and repentance — reviewing your actions and seeking forgiveness for harm caused.</p>
+</div>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform mt-1">arrow_forward</span>
+</div>
+</a>
+<a href="gunsthanaks-v4.html" class="group block bg-surface-container-low p-8 rounded-xl transition-all duration-300 hover:bg-surface-container-high">
+<div class="flex justify-between items-start">
+<div>
+<h4 class="font-headline text-2xl text-on-surface mb-3">Gunsthanaks</h4>
+<p class="text-on-surface-variant leading-relaxed">The fourteen stages of spiritual progress — a precise map from complete delusion to total liberation.</p>
+</div>
+<span class="material-symbols-outlined text-primary group-hover:translate-x-2 transition-transform mt-1">arrow_forward</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<!-- ===================== ANEKANTAVADA ===================== -->
+<section class="px-8 lg:px-24 py-24 max-w-screen-2xl mx-auto" id="anekantavada">
+<div class="bg-surface-container-low p-12 md:p-20 rounded-xl sutra-border text-center">
+<span class="font-label text-xs uppercase tracking-widest text-primary font-semibold mb-6 block">Final Integration</span>
+<h2 class="font-headline text-5xl md:text-6xl text-on-surface tracking-tight mb-6 italic">Anekantavada</h2>
+<div class="h-px w-24 bg-primary/30 mx-auto mb-8"></div>
+<p class="text-xl text-on-surface-variant leading-relaxed max-w-2xl mx-auto mb-12">The doctrine of many-sidedness — no single viewpoint captures the whole truth. Reality is infinite, and every perspective reveals only a part of it.</p>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="anekantavada-v4.html" class="px-8 py-3 bg-surface-container-highest text-on-surface font-label text-xs uppercase tracking-widest rounded-sm hover:bg-primary hover:text-on-primary transition-all duration-300">Multiplicity</a>
+<a href="anekantavada-v4.html" class="px-8 py-3 bg-surface-container-highest text-on-surface font-label text-xs uppercase tracking-widest rounded-sm hover:bg-primary hover:text-on-primary transition-all duration-300">Tolerance</a>
+<a href="anekantavada-v4.html" class="px-8 py-3 bg-surface-container-highest text-on-surface font-label text-xs uppercase tracking-widest rounded-sm hover:bg-primary hover:text-on-primary transition-all duration-300">Perspective</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="w-full py-20 px-12 bg-surface-container-low">
+<div class="flex flex-col items-center gap-4 max-w-7xl mx-auto text-center">
+<div class="font-serif text-primary opacity-80 text-xl">JainAwaken</div>
+<p class="font-label text-xs uppercase tracking-widest text-on-surface-variant/40">The path, not the diet.</p>
+</div>
+</footer>
+
+</body></html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gati — JainAwaken</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "outline-variant": "#45464e",
+              "tertiary": "#dfc38b",
+              "on-error": "#690005",
+              "on-surface": "#e5e2e1",
+              "tertiary-container": "#4a380c",
+              "on-secondary-container": "#a8b4da",
+              "surface-container": "#201f1f",
+              "primary-fixed-dim": "#e9c349",
+              "on-primary-fixed": "#241a00",
+              "on-tertiary-container": "#bca26c",
+              "on-primary": "#3c2f00",
+              "primary-fixed": "#ffe088",
+              "inverse-on-surface": "#313030",
+              "secondary": "#bac6ec",
+              "inverse-primary": "#735c00",
+              "surface-dim": "#131313",
+              "primary-container": "#493900",
+              "on-secondary": "#23304e",
+              "tertiary-fixed": "#fddfa4",
+              "outline": "#8f9098",
+              "surface-variant": "#353534",
+              "secondary-fixed-dim": "#bac6ec",
+              "primary": "#e9c349",
+              "surface-container-high": "#2a2a2a",
+              "tertiary-fixed-dim": "#dfc38b",
+              "surface-container-highest": "#353534",
+              "secondary-container": "#3a4666",
+              "on-tertiary-fixed": "#261a00",
+              "on-surface-variant": "#c6c6ce",
+              "on-primary-fixed-variant": "#574500",
+              "secondary-fixed": "#dae2ff",
+              "error-container": "#93000a",
+              "background": "#131313",
+              "error": "#ffb4ab",
+              "surface-container-lowest": "#0e0e0e",
+              "surface-container-low": "#1c1b1b",
+              "inverse-surface": "#e5e2e1",
+              "on-primary-container": "#c5a129",
+              "on-background": "#e5e2e1",
+              "on-secondary-fixed": "#0d1a38",
+              "on-tertiary-fixed-variant": "#574417",
+              "surface-tint": "#e9c349",
+              "surface": "#131313",
+              "surface-bright": "#3a3939",
+              "on-tertiary": "#3f2e03",
+              "on-secondary-fixed-variant": "#3a4666",
+              "on-error-container": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0rem", "lg": "0rem", "xl": "0rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .editorial-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 1.5rem;
+      }
+      .mask-gradient {
+        mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+      }
+      body {
+        background-color: #131313;
+        color: #e5e2e1;
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+</head>
+<body class="bg-surface selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5">
+<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
+<a href="index.html" class="text-2xl font-['Noto_Serif'] text-[#755B00] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
+<div class="hidden md:flex items-center gap-8">
+<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#4D4637]/60 hover:text-[#755B00] transition-colors duration-300 no-underline">Navkar Mantra</a>
+<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#4D4637]/60 hover:text-[#755B00] transition-colors duration-300 no-underline">About</a>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24 px-6 md:px-20 max-w-[1600px] mx-auto">
+<!-- Hero Section -->
+<header class="mb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+<div class="md:col-span-8">
+<span class="font-label text-primary tracking-[0.3em] text-xs uppercase mb-6 block">The Digital Alchemist Presents</span>
+<h1 class="text-7xl md:text-9xl font-headline italic tracking-tighter leading-none mb-8">GATI</h1>
+<p class="text-3xl font-['Inter'] text-on-surface/60 tracking-wide mt-2 mb-8">The Four States of Existence</p>
+<p class="text-2xl md:text-3xl text-on-surface-variant font-body leading-relaxed max-w-2xl opacity-80">
+                        The four currents of migration. A study on the perpetual wandering of the soul through the dimensions of existence.
+                    </p>
+</div>
+<div class="md:col-span-4 flex justify-end">
+<div class="w-full h-px bg-outline-variant/30 hidden md:block mb-8"></div>
+</div>
+</div>
+</header>
+<!-- Asymmetric Editorial Content -->
+<section class="space-y-48">
+<!-- 01. Narak -->
+<article class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+<div class="md:col-span-5 md:sticky md:top-40">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-low">
+<img alt="Abstract dark red crystalline structure" class="w-full h-full object-cover grayscale brightness-50 contrast-125" data-alt="Abstract dark red crystalline structure on black background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwqnLqzVHFmh5g4BRYpYTvYlOWMAKn-Ka2SuMrM3yBKpfZnbSGTo31ihLKVvwWFxfzSgQgHNFbgifPmbbUfJgjGJKEVYnVrUAH69fo7it3T8AwkzX8BNmEzkr4wekok6eWu7pBG4CQOoWppXXmSmkCXF1rGVt7Qyo4gaXzZXr69pTUgEGQKwz06bYxtT9uBCGq0lwLnRSO1yWrFs7bH8wDLAcxu-cOW9Do_DJu4npTYmMfpSPYGQnOBKtuQrV7XTb0M0Uhp5wOGA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-60"></div>
+</div>
+</div>
+<div class="md:col-start-7 md:col-span-5 pt-12">
+<span class="font-label text-primary/60 text-5xl mb-6 block font-thin tracking-tighter">01.</span>
+<h2 class="text-5xl md:text-6xl font-headline mb-8 text-on-surface">Narak <span class="text-2xl align-middle font-light ml-4 opacity-50">Hellish Beings</span></h2>
+<div class="space-y-6 text-xl leading-relaxed text-on-surface-variant font-body">
+<p>The realms of intense suffering, not as a punishment from a deity, but as the mathematical gravity of heavy karma. Here, the soul experiences the fruition of violence and profound attachment.</p>
+<p class="text-lg opacity-70 border-l border-primary/30 pl-6">"A landscape of internal shadows manifesting as external heat and cold."</p>
+</div>
+<div class="mt-12">
+<button class="font-label text-xs uppercase tracking-[0.2em] border-b border-outline-variant py-2 hover:text-primary hover:border-primary transition-colors">Observe the Lower Spheres</button>
+</div>
+</div>
+</article>
+<!-- 02. Tiryanch -->
+<article class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-5 order-2 md:order-1">
+<span class="font-label text-primary/60 text-5xl mb-6 block font-thin tracking-tighter">02.</span>
+<h2 class="text-5xl md:text-6xl font-headline mb-8 text-on-surface">Tiryanch <span class="text-2xl align-middle font-light ml-4 opacity-50">Sub-humans</span></h2>
+<div class="space-y-6 text-xl leading-relaxed text-on-surface-variant font-body">
+<p>From the single-sensed life in a drop of water to the complex instincts of the wild. The state of Tiryanch represents the struggle for survival, governed by the primary instincts of food, fear, and procreation.</p>
+<p>It is the vast majority of life on the planet—a cycle of being that is often overlooked yet fundamental to the cosmic balance of Ahimsa.</p>
+</div>
+</div>
+<div class="md:col-start-7 md:col-span-6 order-1 md:order-2">
+<div class="relative aspect-[16/9] bg-surface-container-low overflow-hidden">
+<img alt="Macro view of fractal plant patterns" class="w-full h-full object-cover opacity-60" data-alt="Macro view of golden fractal plant veins" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhNCVLYyj_oahjbp7elA8vbLdtjcIEwlNOPTRhVe8Hq_6oWHRl_BuI_YN3ET0Z8lg6O2Xk-Wi7bVWEn3gAji7aX4764pW6jcFkrJWtpew0UGZOWRQIiO8lAGsfhMmldbT5fRW-Hz1hpEB-_7IE-U0dp4PIQLzw18rfhYCn2zvHPIrAUEMrFuyzYwpPhXx3_d1wgrDnzWRlDe5Rb3x5ec4dJDcm7X851H1zLGlqha2nP2qsjinFs62xuHyHB05Tb7144a4STPzSNQ"/>
+<div class="absolute inset-0 bg-primary/5 mix-blend-overlay"></div>
+</div>
+</div>
+</article>
+<!-- 03. Manushya -->
+<article class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+<div class="md:col-span-12 mb-16">
+<div class="w-full h-[614px] bg-surface-container-lowest relative overflow-hidden">
+<img alt="Human silhouette against golden cosmic dust" class="w-full h-full object-cover opacity-40 grayscale" data-alt="Human silhouette in meditation against golden cosmic dust" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTG9zKhVPm4UK-ZcNt6np8j6UM91uSnAV9QzxiRhVSKeVfoBK5MdHTB3QsrxJ1NfB5galrKlkBUCO87EhMnmBA7JZA259tAzV1OuHQ14iQjc0P0oK1hebRL-Ri-sC8LcLnRf6F5SfSogpeJiwBU52piCnBCApgNA2tCt_jpLZMzWK2NUIKpd-LDL_ffExR8UMOkVfUuOjfeefeLn1x8wcdHqsA7NI_EmqFvdjZPoDVz5cafX12_kgXQzV9xxQxer-2Y9oInXwMDw"/>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background"></div>
+<div class="absolute inset-0 flex items-center justify-center">
+<h2 class="text-8xl md:text-[12rem] font-headline tracking-tighter text-on-surface/10 select-none">Mortal</h2>
+</div>
+</div>
+</div>
+<div class="md:col-start-2 md:col-span-4">
+<span class="font-label text-primary/60 text-5xl mb-6 block font-thin tracking-tighter">03.</span>
+<h2 class="text-5xl md:text-6xl font-headline mb-8 text-on-surface">Manushya</h2>
+</div>
+<div class="md:col-start-6 md:col-span-6 pt-4">
+<div class="space-y-8 text-2xl leading-relaxed text-on-surface font-body font-light">
+<p>The rarest opportunity. The only state from which one can achieve liberation (Moksha). In the human form, we possess the unique combination of discernment (Viveka) and the capacity for penance.</p>
+<p class="text-lg text-on-surface-variant font-label tracking-wide uppercase leading-loose">The bridge between the beast and the divine.</p>
+</div>
+</div>
+</article>
+<!-- 04. Dev -->
+<article class="grid grid-cols-1 md:grid-cols-12 gap-12 items-end">
+<div class="md:col-span-7">
+<div class="p-16 bg-surface-container-low relative border border-outline-variant/10">
+<span class="font-label text-primary/60 text-5xl mb-6 block font-thin tracking-tighter">04.</span>
+<h2 class="text-5xl md:text-6xl font-headline mb-8 text-on-surface">Dev <span class="text-2xl align-middle font-light ml-4 opacity-50">Celestial Beings</span></h2>
+<p class="text-xl text-on-surface-variant leading-relaxed max-w-lg mb-8">Often mistaken for the final destination, the celestial realm is but a high-end plateau. Beings here live in immense pleasure and longevity, yet they too are bound by the cycle of birth and death.</p>
+<div class="flex space-x-4">
+<span class="material-symbols-outlined text-primary text-4xl">colors_spark</span>
+<span class="material-symbols-outlined text-primary text-4xl">auto_awesome</span>
+</div>
+</div>
+</div>
+<div class="md:col-span-5">
+<div class="aspect-square bg-surface-container-high overflow-hidden">
+<img alt="Bright ethereal nebula in gold and violet" class="w-full h-full object-cover mix-blend-lighten opacity-80" data-alt="Golden ethereal nebula pattern on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzj2l7hVmSeYEWsWe7T1kRqAoPaaWz78PTuuYukhWoSgGoG9f74K2v0FIyYc5yFangdH1dIEQQH8PkBHL5QQYavMm6ymesHo9XcSmYs4BUMgnnfsGWxI0RdytiS6sRLZkv0rK3y6QfrN6ADpBLqjdDfwiLf2oXqXEGLbYillJVREuixLTrYnIYk6Nk0yYdcWDO8LQ9HamtdeH0MeKtwBOJxhi7nmRGOI46LS_4T11y1N0nVOBAgeKec_7mGI143Rmc6kazYbSi4g"/>
+</div>
+</div>
+</article>
+</section>
+<!-- Call to Reflection -->
+<section class="mt-64 py-32 border-t border-outline-variant/20 text-center">
+<h3 class="text-4xl md:text-6xl font-headline mb-12">Whither goes the soul next?</h3>
+<div class="max-w-2xl mx-auto space-y-8">
+<p class="text-lg text-on-surface-variant font-body">The Digital Alchemist invites you to record your reflections on the Gati cycle. Your intentions today sculpt the vessel of tomorrow.</p>
+<div class="flex flex-col md:flex-row justify-center items-center gap-8 pt-8">
+<button class="w-full md:w-auto px-12 py-4 bg-primary text-on-primary font-label font-bold uppercase tracking-widest text-sm hover:shadow-[0_0_30px_rgba(117,91,0,0.3)] transition-all">Begin Contemplation</button>
+<button class="w-full md:w-auto px-12 py-4 border border-outline-variant text-on-surface font-label font-bold uppercase tracking-widest text-sm hover:border-primary transition-all">Archived Texts</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 border-t border-[#e5e2e1]/10 bg-[#f8f3eb]">
+<div class="flex flex-col items-center gap-4 px-8 text-center">
+<div class="font-['Noto_Serif'] text-[#755B00] opacity-80 text-xl">JainAwaken</div>
+<p class="font-['Inter'] text-[#4D4637]/40 text-xs tracking-widest">The path, not the diet.</p>
+</div>
+</footer>
+</body></html>

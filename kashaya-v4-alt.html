@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kashaya | The Four Passions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "inverse-on-surface": "#f5f0e8",
+                        "error": "#ba1a1a",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#e6c364",
+                        "on-tertiary-fixed": "#041451",
+                        "on-primary-container": "#503d00",
+                        "surface-container-high": "#ece8e0",
+                        "surface": "#fef9f1",
+                        "secondary-fixed": "#e9e1dc",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-highest": "#e7e2da",
+                        "secondary": "#625d59",
+                        "primary": "#755b00",
+                        "on-error-container": "#93000a",
+                        "on-surface": "#1d1c17",
+                        "on-secondary-container": "#67625e",
+                        "tertiary": "#4d5a98",
+                        "on-secondary-fixed-variant": "#4a4642",
+                        "on-secondary": "#ffffff",
+                        "background": "#fef9f1",
+                        "on-tertiary-fixed-variant": "#35437e",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#755b00",
+                        "outline": "#7e7665",
+                        "on-primary-fixed-variant": "#584400",
+                        "surface-container-low": "#f8f3eb",
+                        "on-background": "#1d1c17",
+                        "on-tertiary-container": "#2e3b77",
+                        "surface-dim": "#ded9d2",
+                        "surface-bright": "#fef9f1",
+                        "inverse-primary": "#e6c364",
+                        "on-primary-fixed": "#241a00",
+                        "primary-container": "#c9a84c",
+                        "on-secondary-fixed": "#1e1b18",
+                        "outline-variant": "#d0c5b2",
+                        "surface-variant": "#e7e2da",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed-dim": "#ccc5c0",
+                        "tertiary-fixed-dim": "#b9c3ff",
+                        "surface-container": "#f2ede5",
+                        "secondary-container": "#e6ded9",
+                        "tertiary-fixed": "#dde1ff",
+                        "primary-fixed": "#ffe08f",
+                        "on-surface-variant": "#4d4637",
+                        "inverse-surface": "#32302b",
+                        "tertiary-container": "#9ba8eb",
+                        "on-error": "#ffffff"
+                    },
+                    fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+
+<style>
+      .glass-nav {
+        background: rgba(248, 247, 246, 0.85);
+        backdrop-filter: blur(16px);
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .burnished-gradient {
+        background: radial-gradient(circle at center, #755b00, #c9a84c);
+      }
+      .sutra-quote {
+        border-left: 1px solid #c9a84c;
+        padding-left: 3rem;
+      }
+      .mesh-bg {
+        background-color: #f2f1f0;
+        background-image: radial-gradient(#C9A84C15 1px, transparent 1px);
+        background-size: 40px 40px;
+      }
+    </style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
+<!-- TopAppBar -->
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300 border-b border-[#C9A84C]/10">
+<div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Philosophy</a>
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Archives</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<button class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">
+                Donate
+            </button>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-8 py-24 md:py-32">
+<div class="grid grid-cols-12 gap-8 items-end">
+<div class="col-span-12 md:col-start-4 md:col-span-8">
+<span class="font-label uppercase tracking-widest text-primary text-sm mb-4 block">Ancient Wisdom</span>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl tracking-tight leading-none text-on-surface mb-8">
+                        The Four Passions <br/>
+<span class="italic text-primary-container">(Kashaya)</span>
+</h1>
+</div>
+<div class="col-span-12 md:col-start-5 md:col-span-6 border-l-2 border-primary pl-8 py-4">
+<p class="font-headline text-xl md:text-2xl text-on-surface-variant leading-relaxed italic">
+                        In the path toward liberation, one must first recognize the shadows that bind the soul. These are the kashayas—the sticky passions that trap our consciousness in the cycle of worldly existence.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Passion Rows: Asymmetric Layouts -->
+<!-- 1. Anger (Krodha) -->
+<section class="w-full bg-surface-container-low py-24">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-1/2 aspect-[4/5] overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-700" data-alt="Black and white tall stone pillars under dramatic light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTD6b8j71VCYaMu5H1XjH5M5prrz5PX8Iu1FzPFmORjBPXGun6zoqlmpyrAofbMS5yznj9vk_MwSFALbhnT2rAmQCKHQWIJ5_65W1jp0uNChGetP7aEtUdkrUZMn_ibi2q3p_DiAqk0kvnKTD0y9Jfy8ulEnJzDWu4guqE_nsVFeP6DVgm_ZeSfCrJf6a0k2Ny2JLtWtrVLfju6dtzenKYBqqmEIIWEvlgnRel1XNeSGuKWe12rL3hmwz0iWMcSW8BHAYCQtQ2hA"/>
+</div>
+<div class="w-full md:w-1/2 max-w-xl">
+<div class="mb-6 flex items-center gap-4">
+<span class="h-px w-12 bg-primary"></span>
+<span class="font-label text-primary uppercase tracking-widest">The Burning One</span>
+</div>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface mb-6">Anger (Krodha)</h2>
+<div class="space-y-6 text-on-surface-variant leading-relaxed font-serif text-lg">
+<p>Like a wildfire that consumes the very forest it inhabits, anger destroys the peace of the self before reaching others. It is the sudden storm that clouds judgment and fractures relationships.</p>
+<p class="text-primary italic">"Patience is the cooling rain that quenches the fire of Krodha."</p>
+</div>
+<button class="mt-12 px-8 py-3 bg-burnished-gold text-white font-label rounded-sm tracking-wide active:scale-95 transition-transform">Contemplate Patience</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Ego (Mana) -->
+<section class="w-full bg-surface py-24">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col md:flex-row-reverse items-center gap-16">
+<div class="w-full md:w-1/2 aspect-[4/5] overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover contrast-110" data-alt="Majestic elephant walking through a temple corridor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3USgl9Ag4qNUvw93RZPIpV6NEP8XVYPNWD5pHA4IWoXBgEO3etri3zNbR2omYLyfRH_6fr5u1e7WGtqX4iMbpxxRUoWdGJ3Z8Ibh0pW1Ck63tTM3PK2Y8gX8zqdQax-PeREvkP10TfHNmNcvvWCEN8LawewS0A4C3K2Egno2wMRvjRztuia3a_ilOoCunsYLT0dWKIuwe-1yzsKZ19jVwTYvxceqtSF5ZPCPzmj3ospnGyjvMFa-2JL_E78uoBXzV-sKskfeZag"/>
+</div>
+<div class="w-full md:w-1/2 max-w-xl md:ml-auto">
+<div class="mb-6 flex items-center gap-4">
+<span class="h-px w-12 bg-primary"></span>
+<span class="font-label text-primary uppercase tracking-widest">The Heavy Chain</span>
+</div>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface mb-6">Ego (Mana)</h2>
+<div class="space-y-6 text-on-surface-variant leading-relaxed font-serif text-lg">
+<p>The elephant of the mind is often drunk on the wine of pride. Mana creates a wall between the soul and the truth, making one believe they are the mountain rather than a grain of sand.</p>
+<p class="text-primary italic">"Humility is the gate through which the wise enter the sanctuary."</p>
+</div>
+<button class="mt-12 px-8 py-3 border border-outline text-primary font-label rounded-sm tracking-wide hover:bg-surface-container-high transition-colors">Study Humility</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Deceit (Maya) -->
+<section class="w-full bg-surface-container-low py-24">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col md:flex-row items-center gap-16">
+<div class="w-full md:w-1/2 aspect-[4/5] overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover" data-alt="A crane standing perfectly still near a pond waiting for fish" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQZgGm0HYTmsE8uzTMv2_xd1cU4o59nLZ0PLTy0dIFi7IqrqJJ3wYBfnJ_yoW42kkQ7pcJ7XnG_gQqbAUTMEtyISQ-Df4LaG7dDKOVbk1kqTuSB70bAUYrpI4npJEWUD_hrj9bh3PXrxcpi4TQ8gjHXhLJjWLp2JnZ1QXYGEzpLG_9j8PxMCveFbKbRQSbm8h3XUxJGEkirlPUej-caQXCHa8T-dpjr0qAKD_20-krvYd9Q6XShx03AJgnqUkqi9dE0f3QaRMBoQ"/>
+</div>
+<div class="w-full md:w-1/2 max-w-xl">
+<div class="mb-6 flex items-center gap-4">
+<span class="h-px w-12 bg-primary"></span>
+<span class="font-label text-primary uppercase tracking-widest">The Veil of Illusion</span>
+</div>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface mb-6">Deceit (Maya)</h2>
+<div class="space-y-6 text-on-surface-variant leading-relaxed font-serif text-lg">
+<p>As the crane stands motionless to deceive the fish, Maya works through subtle layers of dishonesty and pretense. It is a labyrinth of mirrors that hides the true self from view.</p>
+<p class="text-primary italic">"Simplicity and honesty are the lights that dissolve the shadows of Maya."</p>
+</div>
+<button class="mt-12 px-8 py-3 bg-burnished-gold text-white font-label rounded-sm tracking-wide active:scale-95 transition-transform">Practice Truth</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Greed (Lobha) -->
+<section class="w-full bg-surface py-24">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col md:flex-row-reverse items-center gap-16">
+<div class="w-full md:w-1/2 aspect-[4/5] overflow-hidden rounded-lg">
+<img class="w-full h-full object-cover sepia-[0.3]" data-alt="Rough heavy stone pillars stacked in a dark temple hall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfuGd4relHv34LwtXE8kPspwTqkj-GopshJQ60LEmf1CYnHxKtT33n-kRxjN__r426Fll3kor6PCbsniLSSJ9JNFkuRwQTZjwPecBNlcJpC8J4hDN596aUI37iF5yO87orc0LK_Xvj2DzciGRU2KpyLanv5_Ge2xRuHxXQ9UX2QGI-RQpinxiaTglyCUaKyAAL2TjEtZRcPgkzDyDJ1qoahFfBZQ-JB7sNTqPjJL-GMvtv1M5fTbSRtSRXP8PdqxsLe8z-Uk2adw"/>
+</div>
+<div class="w-full md:w-1/2 max-w-xl md:ml-auto">
+<div class="mb-6 flex items-center gap-4">
+<span class="h-px w-12 bg-primary"></span>
+<span class="font-label text-primary uppercase tracking-widest">The Bottomless Jar</span>
+</div>
+<h2 class="font-headline text-4xl md:text-5xl text-on-surface mb-6">Greed (Lobha)</h2>
+<div class="space-y-6 text-on-surface-variant leading-relaxed font-serif text-lg">
+<p>Lobha is the root of all other passions. It is the unquenchable thirst for more—more power, more wealth, more life. It weighs the soul down like heavy stones until it can no longer rise.</p>
+<p class="text-primary italic">"Contentment is the wealth that no thief can ever steal."</p>
+</div>
+<button class="mt-12 px-8 py-3 border border-outline text-primary font-label rounded-sm tracking-wide hover:bg-surface-container-high transition-colors">Embrace Contentment</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Meditative Prompt / Sutra Quote -->
+<section class="py-32 bg-surface-container-lowest">
+<div class="max-w-3xl mx-auto px-8 text-center">
+<div class="w-1 h-24 bg-primary mx-auto mb-12"></div>
+<blockquote class="font-headline text-3xl md:text-4xl text-on-surface leading-snug">
+                    "Victory over oneself is a greater victory than victory over thousands in a battle."
+                </blockquote>
+<cite class="mt-8 block font-label text-primary tracking-[0.2em] uppercase text-sm">— Mahavira</cite>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Explore</span>
+<a class="hover:text-primary transition-colors" href="#">About Us</a>
+<a class="hover:text-primary transition-colors" href="#">Philosophy</a>
+<a class="hover:text-primary transition-colors" href="#">Practice</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Connect</span>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+<a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+<a class="hover:text-primary transition-colors" href="#">Events</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

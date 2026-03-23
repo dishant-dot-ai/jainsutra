@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jiva (Sanskrit: जीव) - JainAwaken.org</title>
+<!-- Google Fonts: Noto Serif and Inter -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#35437e",
+              "on-secondary-fixed-variant": "#4a4642",
+              "secondary-container": "#e6ded9",
+              "primary-fixed-dim": "#e6c364",
+              "surface-bright": "#fef9f1",
+              "tertiary-fixed": "#dde1ff",
+              "surface": "#fef9f1",
+              "primary-fixed": "#ffe08f",
+              "surface-container-low": "#f8f3eb",
+              "secondary-fixed": "#e9e1dc",
+              "outline-variant": "#d0c5b2",
+              "outline": "#7e7665",
+              "inverse-on-surface": "#f5f0e8",
+              "on-background": "#1d1c17",
+              "on-secondary": "#ffffff",
+              "on-tertiary-container": "#2e3b77",
+              "error": "#ba1a1a",
+              "on-error": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-dim": "#ded9d2",
+              "surface-container-high": "#ece8e0",
+              "primary": "#755b00",
+              "on-primary-container": "#503d00",
+              "inverse-surface": "#32302b",
+              "secondary": "#625d59",
+              "error-container": "#ffdad6",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-secondary-container": "#67625e",
+              "on-primary": "#ffffff",
+              "on-primary-fixed": "#241a00",
+              "on-error-container": "#93000a",
+              "surface-tint": "#755b00",
+              "secondary-fixed-dim": "#ccc5c0",
+              "surface-variant": "#e7e2da",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#041451",
+              "surface-container-highest": "#e7e2da",
+              "primary-container": "#c9a84c",
+              "inverse-primary": "#e6c364",
+              "on-surface-variant": "#4d4637",
+              "tertiary": "#4d5a98",
+              "background": "#fef9f1",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#1d1c17",
+              "tertiary-container": "#9ba8eb",
+              "surface-container": "#f2ede5",
+              "on-secondary-fixed": "#1e1b18"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+
+<style>
+      .glass-nav {
+        background: rgba(248, 247, 246, 0.85);
+        backdrop-filter: blur(16px);
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .burnished-gradient {
+        background: radial-gradient(circle at center, #755b00, #c9a84c);
+      }
+      .sutra-quote {
+        border-left: 1px solid #c9a84c;
+        padding-left: 3rem;
+      }
+      .mesh-bg {
+        background-color: #f2f1f0;
+        background-image: radial-gradient(#C9A84C15 1px, transparent 1px);
+        background-size: 40px 40px;
+      }
+    </style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300 border-b border-[#C9A84C]/10">
+<div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Philosophy</a>
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Archives</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<button class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">
+                Donate
+            </button>
+</div>
+</div>
+</nav>
+<main class="pt-40 pb-20">
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-12 grid grid-cols-12 gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">The Living Essence</span>
+<h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+                    Jiva <span class="text-primary font-normal">(जीव)</span>
+</h1>
+</div>
+<h2 class="text-5xl font-headline italic text-on-surface-variant leading-tight font-light">
+                "The Conscious Soul"
+            </h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+                The living soul — conscious, eternal, and capable of liberation. It is pure, infinite awareness underneath it all.
+            </p>
+<div class="flex gap-6 pt-4">
+<button class="burnished-gradient text-on-primary px-10 py-4 rounded-sm font-headline tracking-[0.15em] uppercase text-xs font-bold shadow-md hover:translate-y-[-1px] transition-all">Explore the Soul</button>
+<button class="text-primary font-headline uppercase text-xs font-bold tracking-[0.15em] px-10 py-4 border border-primary/20 hover:bg-primary/5 transition-colors">Learn More</button>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+<div class="aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Softly glowing orb of light in a stone chamber" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlF7LfmaYGs_54mI51ryFdV7d1d1d2hVoIWrhYCJ_qtx2HtKrmMLXpSXs_XhtKyIvzHs57DKLCN8P4PvO1gMrU4_efJK3irhvaSDYApJ098gWi5S1anG0Il-2QDJJBi0vVmsk-HNku89bhRqs0MOGtkK53yYQOjOHcExLH9GwQSuLJk6rXsOVF3gCn2EBIbZI0K05S12YUSoHUdzuGywO8JgbGPKb3yj7Ujro9K7IvN_iwQMe6GH33mEe3FFNsd0gr698Y4OseXg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+</div>
+</section>
+<!-- Concept Section: Tonal Layering -->
+<section class="bg-surface-container-low py-32 mb-32">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="asymmetric-grid">
+<div class="col-span-12 md:col-start-4 md:col-span-6">
+<div class="bg-surface-container-lowest p-16 rounded-lg shadow-sm">
+<h2 class="font-headline text-4xl text-primary mb-12">The Essence of Jiva</h2>
+<div class="space-y-12">
+<div class="flex gap-8">
+<span class="font-headline text-2xl text-outline-variant">01</span>
+<div>
+<h3 class="font-headline text-xl mb-3">Upayoga: Pure Consciousness</h3>
+<p class="text-on-surface-variant leading-relaxed italic">
+                                            Upayoga is the defining characteristic of Jiva. It is the manifestation of consciousness through perception (Darshana) and knowledge (Jnana).
+                                        </p>
+</div>
+</div>
+<div class="flex gap-8">
+<span class="font-headline text-2xl text-outline-variant">02</span>
+<div>
+<h3 class="font-headline text-xl mb-3">Amurta: The Formless</h3>
+<p class="text-on-surface-variant leading-relaxed italic">
+                                            While residing in a physical body, the soul itself is non-material (Amurta). It possesses no taste, color, smell, or touch.
+                                        </p>
+</div>
+</div>
+<div class="flex gap-8">
+<span class="font-headline text-2xl text-outline-variant">03</span>
+<div>
+<h3 class="font-headline text-xl mb-3">Kartr: The Agent</h3>
+<p class="text-on-surface-variant leading-relaxed italic">
+                                            The Jiva is the doer of its own actions and the reaper of its own karmic fruits, traversing the cycles of existence until liberation.
+                                        </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sutra Quote Component -->
+<section class="max-w-screen-2xl mx-auto px-12 mb-32">
+<div class="asymmetric-grid">
+<div class="col-span-12 md:col-start-3 md:col-span-8 bg-surface-container-lowest p-12 sutra-quote-border">
+<blockquote class="font-headline text-3xl md:text-4xl text-on-surface leading-snug italic">
+                        "Just as a lamp illuminates a room, the soul illuminates the entire body with consciousness."
+                    </blockquote>
+<cite class="block mt-8 font-label text-primary uppercase tracking-widest text-sm not-italic">— Tattvartha Sutra</cite>
+</div>
+</div>
+</section>
+<!-- Bento Grid Insights -->
+<section class="max-w-screen-2xl mx-auto px-12 mb-32">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[300px]">
+<!-- Item 1 -->
+<div class="md:col-span-2 bg-surface-container flex flex-col justify-end p-10 rounded-xl relative overflow-hidden group">
+<img alt="Subtle morning light on stone" class="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" data-alt="Soft morning sunlight reflecting on ancient stone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoZIf8-SX0JvPBbX0LEC2jjf8VEYb-uMI6mbTPimoEyvnWcgCRusNdfgUewf8oxEPyhU6idmIf2n0fn1GvOekhhE3QUc3hnqd3kzTaaAgBz4vuDl0Sq2aOj--gOt1C5OEQJtQ_gG2_MQezeAJRrqXx77x_m8pBDooLhWH2jhzxtoNbfs0XW0VChs2qarLnFebvN5oFhlQ3Cx7nSYRFDbUvrKyoTJC6vX2BUUhHLoGLhQhWa9j2g6y3lP39GJfpgDbsPi4TrSWvBA"/>
+<div class="relative z-10">
+<h4 class="font-headline text-2xl mb-2">Eternal Continuity</h4>
+<p class="text-on-surface-variant max-w-sm">The soul was never created, and it can never be destroyed. It transitions through forms like a traveler through stations.</p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-primary text-on-primary p-10 rounded-xl flex flex-col justify-between">
+<span class="material-symbols-outlined text-4xl" data-weight="fill">flare</span>
+<div>
+<h4 class="font-headline text-xl mb-2">Infinite Potency</h4>
+<p class="text-on-primary/80 text-sm">Every Jiva possesses the inherent capacity for infinite knowledge, perception, and bliss.</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-high p-10 rounded-xl">
+<h4 class="font-headline text-xl mb-6">The Three States</h4>
+<ul class="space-y-4 font-label text-sm">
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            Bahiratman (External Soul)
+                        </li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            Antaratman (Internal Soul)
+                        </li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                            Paramatman (Supreme Soul)
+                        </li>
+</ul>
+</div>
+<!-- Item 4 -->
+<div class="md:col-span-2 bg-tertiary-container/10 p-10 rounded-xl border border-outline-variant/20 flex items-center gap-12">
+<div class="hidden md:block w-32 h-32 rounded-full border-2 border-primary/20 flex-shrink-0 flex items-center justify-center italic font-headline text-primary">
+                        Awareness
+                    </div>
+<div>
+<h4 class="font-headline text-2xl mb-2">Anekantavada</h4>
+<p class="text-on-surface-variant">Understanding the soul through multifaceted reality. The soul is both permanent in its essence and changing in its modes (Paryayas).</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Explore</span>
+<a class="hover:text-primary transition-colors" href="#">About Us</a>
+<a class="hover:text-primary transition-colors" href="#">Philosophy</a>
+<a class="hover:text-primary transition-colors" href="#">Practice</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Connect</span>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+<a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+<a class="hover:text-primary transition-colors" href="#">Events</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gati (गति) - The Cycle of Becoming</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#35437e",
+              "on-secondary-fixed-variant": "#4a4642",
+              "secondary-container": "#e6ded9",
+              "primary-fixed-dim": "#e6c364",
+              "surface-bright": "#fef9f1",
+              "tertiary-fixed": "#dde1ff",
+              "surface": "#fef9f1",
+              "primary-fixed": "#ffe08f",
+              "surface-container-low": "#f8f3eb",
+              "secondary-fixed": "#e9e1dc",
+              "outline-variant": "#d0c5b2",
+              "outline": "#7e7665",
+              "inverse-on-surface": "#f5f0e8",
+              "on-background": "#1d1c17",
+              "on-secondary": "#ffffff",
+              "on-tertiary-container": "#2e3b77",
+              "error": "#ba1a1a",
+              "on-error": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-dim": "#ded9d2",
+              "surface-container-high": "#ece8e0",
+              "primary": "#755b00",
+              "on-primary-container": "#503d00",
+              "inverse-surface": "#32302b",
+              "secondary": "#625d59",
+              "error-container": "#ffdad6",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-secondary-container": "#67625e",
+              "on-primary": "#ffffff",
+              "on-primary-fixed": "#241a00",
+              "on-error-container": "#93000a",
+              "surface-tint": "#755b00",
+              "secondary-fixed-dim": "#ccc5c0",
+              "surface-variant": "#e7e2da",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#041451",
+              "surface-container-highest": "#e7e2da",
+              "primary-container": "#c9a84c",
+              "inverse-primary": "#e6c364",
+              "on-surface-variant": "#4d4637",
+              "tertiary": "#4d5a98",
+              "background": "#fef9f1",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#1d1c17",
+              "tertiary-container": "#9ba8eb",
+              "surface-container": "#f2ede5",
+              "on-secondary-fixed": "#1e1b18"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+
+<style>
+      .glass-nav {
+        background: rgba(248, 247, 246, 0.85);
+        backdrop-filter: blur(16px);
+      }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .burnished-gradient {
+        background: radial-gradient(circle at center, #755b00, #c9a84c);
+      }
+      .sutra-quote {
+        border-left: 1px solid #c9a84c;
+        padding-left: 3rem;
+      }
+      .mesh-bg {
+        background-color: #f2f1f0;
+        background-image: radial-gradient(#C9A84C15 1px, transparent 1px);
+        background-size: 40px 40px;
+      }
+    </style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300 border-b border-[#C9A84C]/10">
+<div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Philosophy</a>
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Archives</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<button class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">
+                Donate
+            </button>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-12 grid grid-cols-12 gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Samsara: The Eternal Flow</span>
+<h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+                    Gati <span class="text-primary font-normal">(गति)</span>
+</h1>
+</div>
+<h2 class="text-5xl font-headline italic text-on-surface-variant leading-tight font-light">
+                "The Cycle of Becoming"
+            </h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+                The soul migrates through four fundamental states of existence, bound by karma until it achieves liberation.
+            </p>
+<div class="flex gap-6 pt-4">
+<button class="burnished-gradient text-on-primary px-10 py-4 rounded-sm font-headline tracking-[0.15em] uppercase text-xs font-bold shadow-md hover:translate-y-[-1px] transition-all">Explore the Realms</button>
+<button class="text-primary font-headline uppercase text-xs font-bold tracking-[0.15em] px-10 py-4 border border-primary/20 hover:bg-primary/5 transition-colors">Learn More</button>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+<div class="aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Four ancient pathways carved into a rock face" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxgwHhlxeIUfRVEw9Y-v4AjUpfoiXjA3lE6qNoBUOWF1W56Xd5F9nyt3BKwGSxvwLfMIvq1iiVpCZgDONAo4tBB5CzY3gYmMLK9zacv15f34OV7D9nxz6M64AaLDDBh2lxzhFPxGpVg9QkLuSGRbUl8AI4VN532OWKJ2jcDxPUJMAZSwdAWQg-KBENukl2tYvtsqXFMCVnVQ3iNC3yxlnsMk5nbsSHwoS78z8DDxYQvoeL8HBHg8QO4rQb2F-7PfvqOgcYpPfBeQ"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+</div>
+</section>
+<!-- The Concept Intro -->
+<section class="py-32 bg-surface">
+<div class="max-w-screen-xl mx-auto px-12">
+<div class="grid grid-cols-12 gap-16 items-center">
+<div class="col-span-12 md:col-span-6">
+<h2 class="text-4xl font-headline mb-8 text-on-surface">The Perpetual Migration of the Soul</h2>
+<div class="space-y-6 text-lg text-on-surface-variant leading-relaxed">
+<p>
+                                In Jain cosmology, <span class="text-primary font-semibold">Gati</span> refers to the four states of existence or "destinations" that a worldly soul (jiva) can inhabit. Driven by the weight of karma, the soul migrates through these realms in an endless cycle known as Samsara.
+                            </p>
+<p>
+                                Each Gati represents a unique experience of consciousness, physical form, and suffering, serving as a crucible where the soul faces the consequences of its previous actions before its eventual dissolution or liberation.
+                            </p>
+</div>
+</div>
+<div class="col-span-12 md:col-span-6 grid grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-8 aspect-square flex flex-col justify-center items-center text-center">
+<span class="text-4xl font-headline text-primary mb-2">8.4M</span>
+<span class="text-xs uppercase tracking-widest font-label opacity-60">Yonis (Birth Species)</span>
+</div>
+<div class="bg-surface-container-high p-8 aspect-square flex flex-col justify-center items-center text-center translate-y-8">
+<span class="text-4xl font-headline text-primary mb-2">4</span>
+<span class="text-xs uppercase tracking-widest font-label opacity-60">Principal Gatis</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- The Four Gatis (Asymmetric Layout) -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="flex justify-between items-end mb-20">
+<div class="max-w-xl">
+<h2 class="text-5xl font-headline mb-4">The Four Destinations</h2>
+<p class="text-on-surface-variant font-serif italic">Mapped according to the intensity of karma and consciousness.</p>
+</div>
+<div class="hidden md:block h-[1px] flex-1 mx-12 bg-outline-variant/30"></div>
+<span class="text-primary font-headline text-2xl">I – IV</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Narak -->
+<div class="bg-surface p-10 group hover:bg-surface-container-highest transition-colors duration-500">
+<span class="text-outline-variant font-headline text-5xl mb-12 block group-hover:text-primary transition-colors">01</span>
+<h3 class="text-3xl font-headline mb-6">Narak</h3>
+<p class="text-on-surface-variant leading-relaxed mb-8 h-24">The infernal realm of immense suffering, where souls endure pain caused by the environment and fellow inhabitants.</p>
+<ul class="space-y-3 text-sm font-label opacity-70 mb-10">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Extreme temperature</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Unceasing pain</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-primary uppercase tracking-widest text-xs font-bold group-hover:gap-4 transition-all" href="#">
+                            Deep Study <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+<!-- Tiryanch -->
+<div class="bg-surface p-10 mt-12 group hover:bg-surface-container-highest transition-colors duration-500">
+<span class="text-outline-variant font-headline text-5xl mb-12 block group-hover:text-primary transition-colors">02</span>
+<h3 class="text-3xl font-headline mb-6">Tiryanch</h3>
+<p class="text-on-surface-variant leading-relaxed mb-8 h-24">The sub-human realm encompassing animals, plants, and microorganisms. Defined by instinct and limited awareness.</p>
+<ul class="space-y-3 text-sm font-label opacity-70 mb-10">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> High dependence</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Diverse biology</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-primary uppercase tracking-widest text-xs font-bold group-hover:gap-4 transition-all" href="#">
+                            Deep Study <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+<!-- Manushya -->
+<div class="bg-surface p-10 group hover:bg-surface-container-highest transition-colors duration-500">
+<span class="text-outline-variant font-headline text-5xl mb-12 block group-hover:text-primary transition-colors">03</span>
+<h3 class="text-3xl font-headline mb-6">Manushya</h3>
+<p class="text-on-surface-variant leading-relaxed mb-8 h-24">The human realm. Rare and precious, it is the only state where liberation (Moksha) can be achieved through self-will.</p>
+<ul class="space-y-3 text-sm font-label opacity-70 mb-10">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Intellectual capacity</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Moral choice</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-primary uppercase tracking-widest text-xs font-bold group-hover:gap-4 transition-all" href="#">
+                            Deep Study <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+<!-- Dev -->
+<div class="bg-surface p-10 mt-12 group hover:bg-surface-container-highest transition-colors duration-500">
+<span class="text-outline-variant font-headline text-5xl mb-12 block group-hover:text-primary transition-colors">04</span>
+<h3 class="text-3xl font-headline mb-6">Dev</h3>
+<p class="text-on-surface-variant leading-relaxed mb-8 h-24">The celestial realm of pleasure and longevity. While blissful, it is temporary and lacks the urge for liberation.</p>
+<ul class="space-y-3 text-sm font-label opacity-70 mb-10">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Sensory delight</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Radiant existence</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-primary uppercase tracking-widest text-xs font-bold group-hover:gap-4 transition-all" href="#">
+                            Deep Study <span class="material-symbols-outlined text-sm">east</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- The Sutra Quote Section -->
+<section class="py-32 px-12">
+<div class="max-w-4xl mx-auto">
+<div class="bg-surface-container-lowest border-l-[3px] border-primary p-16 shadow-sm">
+<span class="material-symbols-outlined text-primary mb-8 text-4xl" data-weight="fill">format_quote</span>
+<blockquote class="text-3xl font-headline leading-snug text-on-surface mb-8 italic">
+                        "Birth is a burden, life a journey, and death a change of garments. Until the soul sheds the weight of attachment, the cycle of Gati remains unbroken."
+                    </blockquote>
+<cite class="block font-serif text-lg text-primary opacity-80">— Acharya Samantabhadra, Ratnakaranda Sravakachara</cite>
+</div>
+</div>
+</section>
+<!-- Bento Grid Insight Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-screen-2xl mx-auto px-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[300px]">
+<div class="md:col-span-2 bg-secondary-container rounded-xl p-12 flex flex-col justify-end overflow-hidden relative">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+<h4 class="text-4xl font-headline mb-4">Anekantavada</h4>
+<p class="text-on-surface-variant max-w-lg">The doctrine of manifold facets. Understanding Gati requires acknowledging the infinite perspectives of karma and its impact on the soul's journey.</p>
+</div>
+<div class="bg-primary p-12 rounded-xl flex flex-col justify-center text-on-primary">
+<span class="material-symbols-outlined text-5xl mb-6">psychology</span>
+<h4 class="text-2xl font-headline mb-4">Mindfulness</h4>
+<p class="opacity-80">Gati is not just a future destination, but a reflection of your current state of being.</p>
+</div>
+<div class="bg-surface-container-highest p-10 rounded-xl flex items-center justify-between group cursor-pointer">
+<div>
+<h4 class="text-xl font-headline mb-2">The Fifth Path</h4>
+<p class="text-sm text-on-surface-variant">The Siddha-loka: Beyond the Cycle.</p>
+</div>
+<span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_outward</span>
+</div>
+<div class="md:col-span-2 bg-surface-container rounded-xl overflow-hidden flex flex-col md:flex-row">
+<div class="md:w-1/2 p-10 flex flex-col justify-center">
+<h4 class="text-2xl font-headline mb-4">The Karma Catalyst</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Karma acts as the gravity that pulls the soul into specific Gatis. Understanding the mechanics of Leshya (thought-paintings) is crucial to navigating the cycle.</p>
+</div>
+<div class="md:w-1/2 bg-outline-variant/20 flex items-center justify-center">
+<img alt="" class="w-full h-full object-cover mix-blend-multiply opacity-50" data-alt="Abstract golden patterns mimicking cosmic flows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9-AKVkcoY0Og_vzC9lg8llpqO8lLY6TJ7gfrYXUa6hNT8v1n3D9YoZQn7vlAF4E46iGakQ467hlgMFZ3_rXqgvZHW4nM1nfEHeoZw-d5YfA00yY2dXN1CCxEzr-ghJNNn74nIMGS7nff7uqytZNP3QzbwF4pfcpLcofB3ZsONWyR-QoeswKNhk3_ZeWM5Y79sUZ50fHyTAVGn_1Y6SgjOsWJf4XU-AcP15v4iMnL9hs88k7PkpxF1HpYuR_IxzHpIzqTDKrIiyw"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Explore</span>
+<a class="hover:text-primary transition-colors" href="#">About Us</a>
+<a class="hover:text-primary transition-colors" href="#">Philosophy</a>
+<a class="hover:text-primary transition-colors" href="#">Practice</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Connect</span>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+<a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+<a class="hover:text-primary transition-colors" href="#">Events</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

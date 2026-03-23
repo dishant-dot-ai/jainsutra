@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f8f3eb",
+              "surface": "#fef9f1",
+              "tertiary-container": "#9ba8eb",
+              "inverse-surface": "#32302b",
+              "surface-dim": "#ded9d2",
+              "on-primary-container": "#503d00",
+              "secondary": "#625d59",
+              "surface-tint": "#755b00",
+              "outline-variant": "#d0c5b2",
+              "secondary-fixed": "#e9e1dc",
+              "inverse-primary": "#e6c364",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-container-high": "#ece8e0",
+              "on-tertiary-fixed": "#041451",
+              "on-secondary-fixed": "#1e1b18",
+              "tertiary": "#4d5a98",
+              "on-secondary-container": "#67625e",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-surface": "#1d1c17",
+              "surface-container": "#f2ede5",
+              "primary": "#755b00",
+              "surface-container-highest": "#e7e2da",
+              "on-primary-fixed": "#241a00",
+              "error-container": "#ffdad6",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#7e7665",
+              "on-surface-variant": "#4d4637",
+              "on-secondary": "#ffffff",
+              "on-tertiary-fixed-variant": "#35437e",
+              "surface-variant": "#e7e2da",
+              "on-tertiary-container": "#2e3b77",
+              "primary-fixed": "#ffe08f",
+              "primary-fixed-dim": "#e6c364",
+              "on-error": "#ffffff",
+              "primary-container": "#c9a84c",
+              "surface-bright": "#fef9f1",
+              "inverse-on-surface": "#f5f0e8",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#ccc5c0",
+              "on-background": "#1d1c17",
+              "secondary-container": "#e6ded9",
+              "on-secondary-fixed-variant": "#4a4642",
+              "background": "#fef9f1",
+              "tertiary-fixed": "#dde1ff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .sutra-quote-border {
+        border-left: 2px solid #755b00;
+      }
+      .parchment-texture {
+        background-image: radial-gradient(circle at 2px 2px, rgba(117, 91, 0, 0.03) 1px, transparent 0);
+        background-size: 24px 24px;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5 flex items-center justify-between px-6 h-16">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00] hover:opacity-80 transition-opacity cursor-pointer">menu</span>
+<h1 class="font-serif text-2xl tracking-wide font-medium text-[#755B00]">JainAwaken</h1>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-serif italic text-[#755B00]" href="#">Home</a>
+<a class="font-serif italic text-[#4D4B3E] hover:opacity-80 transition-opacity" href="#">Philosophy</a>
+<a class="font-serif italic text-[#4D4B3E] hover:opacity-80 transition-opacity" href="#">Meditation</a>
+<a class="font-serif italic text-[#4D4B3E] hover:opacity-80 transition-opacity" href="#">Archive</a>
+</div>
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl">account_circle</span>
+</div>
+</header>
+<main class="pt-16 pb-32 max-w-7xl mx-auto px-6 parchment-texture">
+<!-- Hero Section -->
+<section class="py-12 md:py-20 flex flex-col md:flex-row items-center gap-12">
+<div class="flex-1 space-y-6">
+<span class="font-headline italic text-primary text-xl tracking-widest block">Conceptual Framework</span>
+<h2 class="font-headline text-6xl md:text-8xl text-on-surface leading-tight">लेश्या</h2>
+<div class="sutra-quote-border pl-6 py-2 bg-surface-container-lowest/50">
+<p class="font-headline text-2xl md:text-3xl italic text-on-surface-variant leading-relaxed">
+                        "The soul's karmic color—from deepest black to purest white."
+                    </p>
+</div>
+<p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">
+                    In Jain philosophy, Leshya refers to the state of mind and the coloring of the soul based on its karmic vibrations and emotional intensity.
+                </p>
+</div>
+<div class="flex-1 relative w-full aspect-square md:aspect-auto h-[400px] md:h-[600px] flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent rounded-full blur-3xl opacity-30"></div>
+<img alt="A glowing cosmic sphere representing the soul's purity" class="w-full h-full object-contain relative z-10 filter drop-shadow-2xl" data-alt="A glowing celestial sphere radiating light colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1PF0oo5VcCEOygerNSq3BI07__gU9DCP_TjgLREzrHoy_xL7XrrDjm7d5J3bzlj4hH6Rb4Ez_1vWHYjXxBkvr3Pv9vAEDiSPXDzZcIWLVDQFrM7XlLtoA4banF_Wx52tFlPEK9qsL15CTKLOVVAU0Y6XaoNcUMTjko32l94iQZjdNZVXeaBBlfwEZp-5rTKtgCfXyyDFKa39vQDG8sxh5p_Dm_qWDsVPB9tGsmm20LJAIuU797KlZWBPYYfErbPU1ShtQisTyhw"/>
+</div>
+</section>
+<!-- Bento Grid for 6 Leshyas -->
+<section class="py-16 space-y-12">
+<div class="flex flex-col md:flex-row items-end justify-between gap-4">
+<div class="max-w-2xl">
+<h3 class="font-headline text-4xl text-primary mb-4">The Six Colorations</h3>
+<p class="text-on-surface-variant italic">Every thought leaves a hue upon the spiritual canvas of the being.</p>
+</div>
+<div class="h-px bg-outline-variant flex-grow ml-8 hidden md:block"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Krishna -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl shadow-sm group hover:bg-surface-container transition-colors duration-500">
+<div class="w-12 h-12 bg-[#1d1c17] rounded-full mb-6 ring-4 ring-outline-variant/20"></div>
+<h4 class="font-headline text-2xl mb-2">Krishna</h4>
+<p class="text-sm uppercase tracking-widest text-primary font-semibold mb-4">Black Leshya</p>
+<p class="text-on-surface-variant leading-relaxed">Representing the state of intense cruelty, anger, and darkness. The lowest spiritual vibration.</p>
+</div>
+<!-- Neel -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl shadow-sm group hover:bg-surface-container transition-colors duration-500">
+<div class="w-12 h-12 bg-[#2e3b77] rounded-full mb-6 ring-4 ring-outline-variant/20"></div>
+<h4 class="font-headline text-2xl mb-2">Neel</h4>
+<p class="text-sm uppercase tracking-widest text-primary font-semibold mb-4">Blue Leshya</p>
+<p class="text-on-surface-variant leading-relaxed">Symbolizing pride, laziness, and a lack of moral direction. Deep attachment to worldly desires.</p>
+</div>
+<!-- Kapot -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl shadow-sm group hover:bg-surface-container transition-colors duration-500">
+<div class="w-12 h-12 bg-[#625d59] rounded-full mb-6 ring-4 ring-outline-variant/20"></div>
+<h4 class="font-headline text-2xl mb-2">Kapot</h4>
+<p class="text-sm uppercase tracking-widest text-primary font-semibold mb-4">Grey Leshya</p>
+<p class="text-on-surface-variant leading-relaxed">Indicative of fear, sorrow, and deceit. A soul caught in the turmoil of worldly anxiety.</p>
+</div>
+<!-- Tejo -->
+<div class="md:col-span-6 bg-surface-container-low p-10 rounded-xl shadow-sm flex flex-col md:flex-row gap-8 items-start group hover:bg-surface-container transition-colors duration-500">
+<div class="w-16 h-16 bg-[#ba1a1a] rounded-full flex-shrink-0 ring-4 ring-outline-variant/20"></div>
+<div>
+<h4 class="font-headline text-3xl mb-2">Tejo</h4>
+<p class="text-sm uppercase tracking-widest text-primary font-semibold mb-4">Red Leshya</p>
+<p class="text-on-surface-variant leading-relaxed">The dawn of spiritual awakening. Representing a soul that is becoming prudent and self-aware, though still passionate.</p>
+</div>
+</div>
+<!-- Padma -->
+<div class="md:col-span-6 bg-surface-container-low p-10 rounded-xl shadow-sm flex flex-col md:flex-row gap-8 items-start group hover:bg-surface-container transition-colors duration-500">
+<div class="w-16 h-16 bg-[#ffe08f] rounded-full flex-shrink-0 ring-4 ring-outline-variant/20"></div>
+<div>
+<h4 class="font-headline text-3xl mb-2">Padma</h4>
+<p class="text-sm uppercase tracking-widest text-primary font-semibold mb-4">Yellow Leshya</p>
+<p class="text-on-surface-variant leading-relaxed">The color of the lotus. High spiritual purity, benevolence, and a profound sense of compassion toward all beings.</p>
+</div>
+</div>
+<!-- Shukla -->
+<div class="md:col-span-12 bg-gradient-to-r from-surface-container-lowest to-surface-container-low p-12 rounded-xl border border-outline-variant/30 flex flex-col items-center text-center group hover:shadow-md transition-all duration-700">
+<div class="w-20 h-20 bg-white rounded-full mb-8 ring-8 ring-primary/5 shadow-inner"></div>
+<h4 class="font-headline text-4xl mb-4">Shukla</h4>
+<p class="text-base uppercase tracking-widest text-primary font-semibold mb-6">White Leshya</p>
+<p class="text-on-surface-variant max-w-2xl text-lg leading-relaxed italic">
+                        "The state of purest transcendence. Absolute equanimity, freedom from attachment, and the brilliance of the liberated soul."
+                    </p>
+</div>
+</div>
+</section>
+<!-- Informational Content -->
+<section class="py-16 grid md:grid-cols-2 gap-16 border-t border-outline-variant/20">
+<div class="space-y-6">
+<h3 class="font-headline text-3xl text-on-surface">The Significance of Hue</h3>
+<p class="text-on-surface-variant leading-relaxed">
+                    Leshya is not a physical color but a spiritual vibration. It serves as a visual metaphor for the weight of our intentions. Just as white light can be refracted into many shades, the pure soul is colored by the 'Kasayas' (passions) of greed, ego, deceit, and anger.
+                </p>
+<div class="flex items-center gap-4 text-primary">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="font-headline italic">Discover the Sacred Texts</span>
+</div>
+</div>
+<div class="bg-surface-container-highest p-8 rounded-xl">
+<h4 class="font-headline text-xl mb-4 text-on-surface">Daily Reflection</h4>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1">flare</span>
+<span class="text-on-surface-variant">Analyze the intent behind your actions today.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1">flare</span>
+<span class="text-on-surface-variant">Practice 'Samayika' to cleanse the internal canvas.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1">flare</span>
+<span class="text-on-surface-variant">Seek the path toward the Shukla state.</span>
+</li>
+</ul>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F5F0E8] shadow-[0_-4px_20px_rgba(29,28,23,0.04)] border-t border-[#E7E2DA]/30 rounded-t-3xl">
+<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-serif italic text-[10px] tracking-tight">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">self_improvement</span>
+<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
+</a>
+</nav>
+</body></html>

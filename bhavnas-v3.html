@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>JainAwaken - Bhavna Contemplations</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,500;0,700;1,400;1,500&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f8f3eb",
+              "surface": "#fef9f1",
+              "tertiary-container": "#9ba8eb",
+              "inverse-surface": "#32302b",
+              "surface-dim": "#ded9d2",
+              "on-primary-container": "#503d00",
+              "secondary": "#625d59",
+              "surface-tint": "#755b00",
+              "outline-variant": "#d0c5b2",
+              "secondary-fixed": "#e9e1dc",
+              "inverse-primary": "#e6c364",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-container-high": "#ece8e0",
+              "on-tertiary-fixed": "#041451",
+              "on-secondary-fixed": "#1e1b18",
+              "tertiary": "#4d5a98",
+              "on-secondary-container": "#67625e",
+              "error": "#ba1a1a",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-surface": "#1d1c17",
+              "surface-container": "#f2ede5",
+              "primary": "#755b00",
+              "surface-container-highest": "#e7e2da",
+              "on-primary-fixed": "#241a00",
+              "error-container": "#ffdad6",
+              "surface-container-lowest": "#ffffff",
+              "outline": "#7e7665",
+              "on-surface-variant": "#4d4637",
+              "on-secondary": "#ffffff",
+              "on-tertiary-fixed-variant": "#35437e",
+              "surface-variant": "#e7e2da",
+              "on-tertiary-container": "#2e3b77",
+              "primary-fixed": "#ffe08f",
+              "primary-fixed-dim": "#e6c364",
+              "on-error": "#ffffff",
+              "primary-container": "#c9a84c",
+              "surface-bright": "#fef9f1",
+              "inverse-on-surface": "#f5f0e8",
+              "on-error-container": "#93000a",
+              "secondary-fixed-dim": "#ccc5c0",
+              "on-background": "#1d1c17",
+              "secondary-container": "#e6ded9",
+              "on-secondary-fixed-variant": "#4a4642",
+              "background": "#fef9f1",
+              "tertiary-fixed": "#dde1ff"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        background-color: #fef9f1;
+        color: #1d1c17;
+      }
+      .manuscript-shadow {
+        box-shadow: 0 4px 24px -2px rgba(29, 28, 23, 0.06);
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation -->
+<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md flex items-center justify-between px-6 h-16 w-full shadow-sm shadow-[#1D1C17]/5">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#755B00]">menu</span>
+<span class="font-serif italic text-[#755B00] text-xl">JainAwaken</span>
+</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-[#755B00] font-serif text-sm tracking-wide" href="#">Home</a>
+<a class="text-[#4D4B3E] font-serif text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">Philosophy</a>
+<a class="text-[#4D4B3E] font-serif text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">Meditation</a>
+<a class="text-[#4D4B3E] font-serif text-sm tracking-wide hover:opacity-80 transition-opacity" href="#">Archive</a>
+</nav>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#4D4B3E]">search</span>
+</div>
+</header>
+<main class="pt-16 pb-32">
+<!-- Hero Section -->
+<section class="relative w-full h-[442px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-60" data-alt="Warm candlelight flickering in a traditional temple setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAv6b92BvuYYybq1eWwdtzbXFsbDDiguS0f_epKqlIRPvWycwtd5D3E5PRGk1Mz9GJB8gRZZEeym_CGBLxud22p7i2UR2Jv0ixoFfpLX8h8FC6qUfJJuGTc_CjL4BK94s5Kwj20AAYXh9DbGkZvIfEU5cxvW3U29K__D8IvJmvx6BQCtSeCmSoQT3hVL0NKuzg23l-yqb2zPzxGdA0n7_x3a8cUgxm2pmtZGxAg470Zan9D-EyVAp6Fa-kwyZRgmwLKFlhYvS-fVw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 text-center px-6">
+<h2 class="text-primary font-headline text-5xl md:text-7xl font-medium tracking-tighter mb-4">भावना</h2>
+<p class="font-headline italic text-on-surface-variant text-xl md:text-2xl max-w-2xl mx-auto">
+                    12 contemplations that rewire how the soul sees itself and the world.
+                </p>
+</div>
+</section>
+<!-- Content Canvas -->
+<div class="max-w-7xl mx-auto px-6 mt-12">
+<!-- Intro Text -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-20">
+<div class="md:col-start-4 md:col-span-6">
+<div class="bg-surface-container-lowest p-8 border-l-2 border-primary">
+<p class="font-headline text-lg leading-relaxed text-on-surface">
+                            Bhavna is the conscious cultivation of thought. It is the practice of repeatedly reflecting on universal truths to dissolve the ego and realize the eternal nature of the soul.
+                        </p>
+</div>
+</div>
+</div>
+<!-- Bento Grid of 12 Contemplations -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Anitya -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl flex flex-col justify-between manuscript-shadow border-t-4 border-primary/20">
+<div>
+<span class="text-primary font-headline italic text-sm block mb-4">01. Impermanence</span>
+<h3 class="text-on-surface font-headline text-2xl font-bold mb-3 tracking-wide">Anitya</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Everything in the material world is transient. Like clouds in the sky, youth, wealth, and life itself are constantly shifting.</p>
+</div>
+</div>
+<!-- Asharan -->
+<div class="md:col-span-4 bg-surface-container-highest p-8 rounded-xl flex flex-col justify-between manuscript-shadow">
+<div>
+<span class="text-primary font-headline italic text-sm block mb-4">02. Helplessness</span>
+<h3 class="text-on-surface font-headline text-2xl font-bold mb-3 tracking-wide">Asharan</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">In the face of death and karmic consequences, no external power can provide ultimate refuge except the path of truth.</p>
+</div>
+</div>
+<!-- Samsara -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl flex flex-col justify-between manuscript-shadow">
+<div>
+<span class="text-primary font-headline italic text-sm block mb-4">03. Cycle of Birth</span>
+<h3 class="text-on-surface font-headline text-2xl font-bold mb-3 tracking-wide">Samsara</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The soul wanders through infinite lifetimes, driven by desire and attachment, finding no permanent home in the worldly cycle.</p>
+</div>
+</div>
+<!-- Ekatva (Large Highlight) -->
+<div class="md:col-span-8 bg-surface-container-lowest p-10 rounded-xl manuscript-shadow flex items-center gap-8 relative overflow-hidden">
+<div class="absolute -right-10 -bottom-10 opacity-5">
+<span class="material-symbols-outlined text-[12rem]">self_improvement</span>
+</div>
+<div class="max-w-lg relative z-10">
+<span class="text-primary font-headline italic text-sm block mb-4">04. Solitude</span>
+<h3 class="text-on-surface font-headline text-4xl font-bold mb-4 tracking-tight">Ekatva</h3>
+<p class="text-on-surface-variant text-base leading-relaxed mb-6">The soul is born alone and departs alone. Happiness and misery are experienced individually. Realizing this solitude leads to true independence.</p>
+<button class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-6 py-2 rounded-sm text-sm font-medium tracking-wide shadow-md">Deepen Meditation</button>
+</div>
+</div>
+<!-- Anyatva -->
+<div class="md:col-span-4 bg-surface-container-high p-8 rounded-xl flex flex-col justify-between manuscript-shadow">
+<div>
+<span class="text-primary font-headline italic text-sm block mb-4">05. Separateness</span>
+<h3 class="text-on-surface font-headline text-2xl font-bold mb-3 tracking-wide">Anyatva</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">The soul is distinct from the body and all material relations. The "I" is the observer, not the shell.</p>
+</div>
+</div>
+<!-- Asuchi -->
+<div class="md:col-span-3 bg-surface-container-low p-8 rounded-xl manuscript-shadow">
+<span class="text-primary font-headline italic text-sm block mb-4">06. Impurity</span>
+<h3 class="text-on-surface font-headline text-xl font-bold mb-2">Asuchi</h3>
+<p class="text-on-surface-variant text-xs italic">Contemplating the physical body's nature to reduce vanity.</p>
+</div>
+<!-- Asrav -->
+<div class="md:col-span-3 bg-surface-container-low p-8 rounded-xl manuscript-shadow">
+<span class="text-primary font-headline italic text-sm block mb-4">07. Influx</span>
+<h3 class="text-on-surface font-headline text-xl font-bold mb-2">Asrav</h3>
+<p class="text-on-surface-variant text-xs italic">Observing how thoughts and actions attract new karmic matter.</p>
+</div>
+<!-- Samvar -->
+<div class="md:col-span-3 bg-surface-container-low p-8 rounded-xl manuscript-shadow">
+<span class="text-primary font-headline italic text-sm block mb-4">08. Stoppage</span>
+<h3 class="text-on-surface font-headline text-xl font-bold mb-2">Samvar</h3>
+<p class="text-on-surface-variant text-xs italic">The art of closing the doors to new karma through mindfulness.</p>
+</div>
+<!-- Nirjara -->
+<div class="md:col-span-3 bg-surface-container-low p-8 rounded-xl manuscript-shadow">
+<span class="text-primary font-headline italic text-sm block mb-4">09. Shedding</span>
+<h3 class="text-on-surface font-headline text-xl font-bold mb-2">Nirjara</h3>
+<p class="text-on-surface-variant text-xs italic">Purifying the soul by burning away past karmic accumulations.</p>
+</div>
+<!-- Loka -->
+<div class="md:col-span-4 bg-surface-container-highest p-8 rounded-xl manuscript-shadow border-b-4 border-primary/20">
+<span class="text-primary font-headline italic text-sm block mb-4">10. Universe</span>
+<h3 class="text-on-surface font-headline text-2xl font-bold mb-3 tracking-wide">Loka</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Understanding the structure and vastness of the cosmos, recognizing our tiny yet eternal place within it.</p>
+</div>
+<!-- Bodhi-durlabha -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl manuscript-shadow">
+<span class="text-primary font-headline italic text-sm block mb-4">11. Rare Enlightenment</span>
+<h3 class="text-on-surface font-headline text-2xl font-bold mb-3 tracking-wide text-[1.4rem]">Bodhi-durlabha</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Recognizing that the opportunity for spiritual growth and right perception is exceedingly rare and precious.</p>
+</div>
+<!-- Dharma -->
+<div class="md:col-span-4 bg-surface-container-lowest p-8 rounded-xl manuscript-shadow border-t-2 border-primary">
+<span class="text-primary font-headline italic text-sm block mb-4">12. The Path</span>
+<h3 class="text-on-surface font-headline text-2xl font-bold mb-3 tracking-wide">Dharma</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Contemplating the liberating nature of the Tirthankara's teachings as the only true boat to cross the ocean of life.</p>
+</div>
+</div>
+</div>
+<!-- Quote Section -->
+<section class="mt-24 px-6 max-w-4xl mx-auto">
+<div class="bg-surface-container-lowest p-12 border-l-4 border-primary manuscript-shadow">
+<p class="font-headline italic text-2xl md:text-3xl text-on-surface leading-snug">
+                    "When the soul meditates on these twelve, the world loses its grip, and the light of true knowledge begins to dawn."
+                </p>
+<div class="mt-6 flex items-center gap-4">
+<div class="h-[1px] w-12 bg-primary"></div>
+<span class="font-label text-sm tracking-widest text-primary uppercase">Ancient Wisdom</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 bg-[#F5F0E8] flex justify-around items-center px-4 pb-6 pt-3 shadow-[0_-4px_20px_rgba(29,28,23,0.04)] rounded-t-3xl md:hidden">
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-serif italic text-[10px] tracking-tight">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1" href="#">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60" href="#">
+<span class="material-symbols-outlined">self_improvement</span>
+<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
+</a>
+</nav>
+</body></html>
