@@ -113,6 +113,49 @@
                     transform: translateY(0);
                   }
                   .nav-button:hover { border-color: rgba(201, 168, 76, 1); color: rgba(201, 168, 76, 1); }
+
+      /* Ch1 Visual Enhancement */
+      .sutra-badge {
+        width: 52px; height: 52px;
+        border-radius: 50%;
+        border: 1.5px solid #C9A84C;
+        display: flex; align-items: center; justify-content: center;
+        color: #C9A84C;
+        font-family: 'Noto Serif', serif;
+        font-size: 0.78rem; font-weight: 600;
+        margin: 0 auto 1.25rem auto;
+        letter-spacing: 0.02em;
+        flex-shrink: 0;
+      }
+      .sutra-sanskrit-block {
+        border-left: 2px solid #C9A84C;
+        background: #F8F3EB;
+        padding: 0.875rem 1.25rem;
+        border-radius: 0 4px 4px 0;
+      }
+      .num-callout {
+        color: #C9A84C;
+        font-size: 1.05em;
+        font-family: 'Noto Serif', serif;
+        font-weight: 700;
+      }
+      .concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+      .concept-tag {
+        display: inline-block;
+        border: 1px solid rgba(201, 168, 76, 0.4);
+        background: transparent;
+        color: #755B00;
+        font-family: 'Inter', sans-serif;
+        font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em;
+        border-radius: 100px; padding: 3px 10px;
+      }
+      .commentary-wrapper { position: relative; margin-top: 0.75rem; }
+      .quote-svg-icon { float: left; margin-right: 10px; margin-top: 2px; }
+      #sutra-progress {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.75rem; color: #7e7665;
+        margin-top: 0.5rem; letter-spacing: 0.05em;
+      }
                 </style></head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
 <!-- TopNavBar -->
@@ -191,6 +234,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyaya 1</span>
 <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 33 Sutras</h3>
 <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Sanskrit in Devanagari, its English translation, and essential commentary.</p>
+<p id="sutra-progress">Sutra 1 of 33</p>
 </div>
 
 <!-- Sutra 1-1 -->
@@ -700,6 +744,152 @@ Sanskrit sutras by <span class="text-primary font-semibold">Acharya Umasvati</sp
             buttons.forEach(btn => btn.classList.remove('visible'));
         }
     });
+</script>
+
+<script>
+(function () {
+  'use strict';
+
+  const TAGS = {
+    'sutra-1':  ['Right Faith', 'Liberation', 'Three Jewels'],
+    'sutra-2':  ['Samyagdarshana', 'Belief', 'Reality'],
+    'sutra-3':  ['Faith', 'Inner Awakening', 'Teacher'],
+    'sutra-4':  ['Seven Tattvas', 'Soul', 'Karma'],
+    'sutra-5':  ['Four Methods', 'Understanding'],
+    'sutra-6':  ['Pramana', 'Naya', 'Knowledge'],
+    'sutra-7':  ['Six Lenses', 'Analysis'],
+    'sutra-8':  ['Seven Categories', 'Study Tools'],
+    'sutra-9':  ['Five Knowledges', 'Omniscience', 'Senses'],
+    'sutra-10': ['Valid Knowledge', 'Pramana'],
+    'sutra-11': ['Indirect Knowledge', 'Senses', 'Mind'],
+    'sutra-12': ['Direct Knowledge', 'Omniscience'],
+    'sutra-13': ['Memory Power', 'Mati Jnana', 'Mind'],
+    'sutra-14': ['Senses', 'Mind', 'Perception'],
+    'sutra-15': ['Four Steps', 'Perception', 'Mati Jnana'],
+    'sutra-16': ['Sub-Types', 'Cognitive Nuance'],
+    'sutra-17': ['Mati Jnana', 'Perception'],
+    'sutra-18': ['Vague Impression', 'Avagraha'],
+    'sutra-19': ['Eyes', 'Mind', 'Special Senses'],
+    'sutra-20': ['Shrut Jnana', 'Scripture', 'Learning'],
+    'sutra-21': ['Clairvoyance', 'Devas', 'Born Gift'],
+    'sutra-22': ['Avadhi Jnana', 'Six Types', 'Karma'],
+    'sutra-23': ['Telepathy', 'Two Levels', 'Manahparyaya'],
+    'sutra-24': ['Purity', 'Infallibility', 'Spiritual Stage'],
+    'sutra-25': ['Telepathy vs Clairvoyance', 'Four Differences'],
+    'sutra-26': ['Six Substances', 'Mati', 'Shrut'],
+    'sutra-27': ['Clairvoyance', 'Physical Form', 'Matter'],
+    'sutra-28': ['Telepathy', 'Depth vs Breadth'],
+    'sutra-29': ['Omniscience', 'Keval Jnana', 'Liberation'],
+    'sutra-30': ['Simultaneous Knowledge', 'Combinations'],
+    'sutra-31': ['Wrong Knowledge', 'Right Faith', 'Purification'],
+    'sutra-32': ['Mithyajnana', 'Reality', 'Three Errors'],
+    'sutra-33': ['Seven Nayas', 'Standpoints', 'Anekantavada'],
+  };
+
+  const NUMBER_PATTERN = /\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|first|second|third|fourth|fifth|sixth|seventh)\b/gi;
+
+  const QUOTE_SVG = '<svg class="quote-svg-icon" width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M0 22V13.2C0 5.87 4.4 1.47 13.2 0L14.67 2.93C10.27 3.9 7.82 7.07 7.33 12.47H13.2V22H0ZM14.8 22V13.2C14.8 5.87 19.2 1.47 28 0L29.47 2.93C25.07 3.9 22.62 7.07 22.13 12.47H28V22H14.8Z" fill="#C9A84C" fill-opacity="0.30"/></svg>';
+
+  function init() {
+    var allCards = document.querySelectorAll('.sutra-card');
+    var totalSutras = allCards.length;
+
+    // Progress indicator
+    var progressEl = document.getElementById('sutra-progress');
+    if (progressEl) {
+      progressEl.textContent = 'Sutra 1 of ' + totalSutras;
+      function updateProgress() {
+        var current = 1;
+        allCards.forEach(function(card, i) {
+          if (card.getBoundingClientRect().top < window.innerHeight * 0.55) current = i + 1;
+        });
+        progressEl.textContent = 'Sutra ' + current + ' of ' + totalSutras;
+      }
+      window.addEventListener('scroll', updateProgress, { passive: true });
+    }
+
+    // Transform each card
+    allCards.forEach(function(card, index) {
+      // Alternating background
+      var bgA = '#f8f3eb', bgB = '#f2ede5';
+      var hoverA = '#ece8e0', hoverB = '#e8e3db';
+      card.style.background = index % 2 === 0 ? bgA : bgB;
+      card.classList.remove('bg-surface-container-low');
+      card.addEventListener('mouseenter', function() {
+        card.style.background = index % 2 === 0 ? hoverA : hoverB;
+      });
+      card.addEventListener('mouseleave', function() {
+        card.style.background = index % 2 === 0 ? bgA : bgB;
+      });
+
+      var flexDiv = card.querySelector('.flex.items-start');
+      if (!flexDiv) return;
+
+      var numSpan = flexDiv.querySelector('span');
+      var contentDiv = flexDiv.querySelector('.space-y-4');
+      if (!numSpan || !contentDiv) return;
+
+      var numText = numSpan.textContent.trim();
+      var sanskritP = contentDiv.querySelector('.sutra-sanskrit');
+      var englishP = contentDiv.querySelector('.text-lg');
+      var commentaryP = contentDiv.querySelector('.text-base');
+
+      // Restructure layout
+      flexDiv.style.flexDirection = 'column';
+      flexDiv.style.gap = '0';
+
+      // 1. Badge
+      var badge = document.createElement('div');
+      badge.className = 'sutra-badge';
+      badge.textContent = numText;
+      flexDiv.insertBefore(badge, numSpan);
+      numSpan.style.display = 'none';
+
+      // 2. Sanskrit block
+      if (sanskritP) {
+        var block = document.createElement('div');
+        block.className = 'sutra-sanskrit-block';
+        sanskritP.parentNode.insertBefore(block, sanskritP);
+        block.appendChild(sanskritP);
+      }
+
+      // 3. Number callouts
+      if (englishP) {
+        englishP.innerHTML = englishP.innerHTML.replace(NUMBER_PATTERN, '<span class="num-callout">$1</span>');
+        englishP.style.marginTop = '1rem';
+      }
+
+      // 4. Quote icon before commentary
+      if (commentaryP) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'commentary-wrapper';
+        commentaryP.parentNode.insertBefore(wrapper, commentaryP);
+        wrapper.innerHTML = QUOTE_SVG;
+        wrapper.appendChild(commentaryP);
+      }
+
+      // 5. Concept tags
+      var tags = TAGS[card.id] || [];
+      if (tags.length > 0) {
+        var tagDiv = document.createElement('div');
+        tagDiv.className = 'concept-tags';
+        tags.forEach(function(tag) {
+          var span = document.createElement('span');
+          span.className = 'concept-tag';
+          span.textContent = tag;
+          tagDiv.appendChild(span);
+        });
+        contentDiv.appendChild(tagDiv);
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
 </script>
 
 </body></html>
