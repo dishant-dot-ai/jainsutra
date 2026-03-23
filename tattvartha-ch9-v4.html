@@ -52,8 +52,16 @@
         position: fixed; 
         bottom: 24px; 
         z-index: 100;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: 0 4px 24px rgba(117,91,0,0.15);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+      }
+      .nav-button.visible { 
+        opacity: 1; 
+        pointer-events: auto;
+        transform: translateY(0);
       }
       .nav-button:hover { transform: scale(1.03); filter: brightness(1.1); }
     </style>
@@ -227,8 +235,63 @@
             </div>
         </article>
 
-        <!-- (Summarizing Sutras 8-17 as they list the 22 afflictions) -->
-        <p class="text-center text-on-surface-variant italic my-12">Sutras 8 through 17 explain the 22 "Afflictions" (Parishaha) &mdash; like hunger, thirst, cold, and insults &mdash; that a spiritual seeker must learn to endure with a calm mind to stop new karma and shed the old.</p>
+        <!-- Sutra 9-8 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-8">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.8</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">मार्गाच्यवननिर्जरार्थं परिषोढव्याः परीषहाः ॥८॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Afflictions are to be endured to stay on the path and for shedding karma.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Life is full of challenges. For a spiritual seeker, these challenges (Afflictions or Parishaha) are actually opportunities. By facing them with a calm mind &mdash; instead of complaining or giving up &mdash; you ensure you don't wander off the right path and you actively "burn away" old karma.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-9 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-9">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.9</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">क्षुत्पिपासाशीतोष्णदंशमशक... प्रज्ञाज्ञानादर्शनानि ॥९॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">The 22 afflictions: hunger, thirst, cold, heat, insect bites, nakedness, lack of pleasure, and others.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This sutra lists the 22 specific hardships a monk or nun might face. It includes physical things like hunger and bug bites, emotional things like being insulted or feeling lonely, and even mental things like feeling ignorant or losing faith. Being a "spiritual warrior" means being ready to face all of these with total peace.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-10 to 12 (Stages of Afflictions) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-10">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.10-12</span>
+                <div class="space-y-4 flex-1">
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Afflictions vary depending on your spiritual stage.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Not everyone faces all 22 at once. As a person grows spiritually, some afflictions disappear. For example, a fully enlightened Jina only faces 11 physical ones (like hunger or heat) but has zero mental ones (like doubt or anger). The more you clean your soul, the fewer "hooks" life has to pull on you.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-13 to 16 (Causes of Afflictions) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-13">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.13-16</span>
+                <div class="space-y-4 flex-1">
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Different karmas cause different afflictions.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">These sutras explain the "why." Knowledge-obscuring karma causes the affliction of feeling ignorant. Conduct-deluding karma causes the difficulty of staying chaste. Feeling karma causes physical pain. This helps us see that the hardships we face are just our own past karma coming back &mdash; so there's no reason to be angry at the world!</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-17 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-17">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.17</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">एकादशैकास्मिन्नयुगपत् ॥१७॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">A maximum of nineteen afflictions can occur at the same time in one person.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">You can't feel everything at once! Some things are opposites, like feeling too hot and too cold at the same time. This sutra shows the logical limit of how much suffering a soul can be "tested" with at any single moment. Even in our hardest times, there is always a limit to the storm.</p>
+                </div>
+            </div>
+        </article>
 
         <!-- Section: The Science of Shedding (Nirjara) -->
         <div class="my-16 text-center">
@@ -288,8 +351,88 @@
             </div>
         </article>
 
-        <!-- (Summarizing Sutras 30-47) -->
-        <p class="text-center text-on-surface-variant italic my-12">The rest of the chapter (Sutras 30-47) goes into detail about these four types of meditation and the different types of saints who walk this path, ending with how we can tell them apart by their knowledge and behavior.</p>
+        <!-- Sutra 9-30 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-30">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.30</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">आर्तरौद्रधर्म्यशुक्लानि ॥३०॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">The four types of meditation: painful, cruel, virtuous, and pure.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Meditation just means "holding a thought." There are four ways we do this. Painful (thinking about what we hate) and Cruel (thinking about hurting others) lead us away from freedom. Virtuous (thinking about truth) and Pure (focusing on the soul) are the only ones that lead us toward it.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-31 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-31">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.31</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">परे मोक्षहेतू ॥३१॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">The last two (virtuous and pure) are the causes of liberation.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is a clear goal. If you want to be free, you have to train your mind to stay in the virtuous and pure zones. The first two types of meditation are like "junk food" for the mind &mdash; they might feel intense, but they make your soul heavy.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-32 to 35 (Painful Meditation) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-32">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.32-35</span>
+                <div class="space-y-4 flex-1">
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Painful meditation involves dwelling on unwanted things or lost pleasures.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Whenever you spend all day worrying about something you hate, or crying over something you lost, you are performing "Painful" meditation. It also includes dreaming about getting rewards in the future. All of these thoughts keep you trapped in the cycle of craving and aversion.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-37 (Cruel Meditation) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-37">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.37</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">हिंसानृतस्तेयविषयसंरक्षणेभ्यो रौद्रमविरतदेशविरतयोः ॥३७॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Cruel meditation is focusing on violence, lies, theft, and hoarding stuff.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is the "dark" side of focus. If someone's mind is constantly busy planning how to trick others, how to take things that aren't theirs, or how to hurt someone, they are in "Cruel" meditation. This creates very heavy, sticky karma that leads to deep suffering.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-38 (Virtuous Meditation) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-38">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.38</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">आज्ञापायविपाकसंस्थानविजयाय धर्म्यमप्रमत्तसंयतस्य ॥३८॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Virtuous meditation is thinking about wisdom, the nature of suffering, karma, and the universe.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is the "positive" focus. You think about the teachings of the masters, how to help others end their suffering, how karma actually works, and the vast structure of the universe. This type of thinking cleans your mind and prepares you for the ultimate step.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-40 (Pure Meditation) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-40">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.40</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">पृथक्त्ववितर्कसविचार... व्युपरतक्रियानिवर्ति च शुक्लम् ॥४०॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Pure meditation has four stages, leading to total stillness.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is the highest level! It starts with focusing deeply on scriptural words and eventually moves to a stage where the soul is perfectly still, with no movement of body, speech, or even the subtlest thought. It's like a flame in a room with no wind &mdash; perfectly steady and bright.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 9-47 (Types of Saints) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-47">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.47</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">पुलाकबकुशकुशीलनिर्ग्रन्थस्नातका निर्ग्रन्थाः ॥४७॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">The five classes of saints: Pulaka, Bakusha, Kushila, Nirgrantha, and Snataka.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is the "hall of fame" of spiritual masters. It lists the five stages of mastery for those who have left the worldly life. From the beginner "Pulaka" who is still learning, to the "Snataka" who has reached perfect omniscience. It shows us that everyone is on a journey, and there are clear steps to the top.</p>
+                </div>
+            </div>
+        </article>
 
         <!-- Chapter End -->
         <div class="my-16 py-12 text-center border-t border-b border-primary/20">
@@ -318,11 +461,11 @@
 </main>
 
 <!-- Floating Navigation Buttons -->
-<a href="tattvartha-ch8-v4.html" class="nav-button left-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch8-v4.html" class="nav-button left-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-[#503d00] font-headline font-bold text-sm tracking-wide">
     <span class="text-lg">←</span> Chapter 8
 </a>
 
-<a href="tattvartha-ch10-v4.html" class="nav-button right-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch10-v4.html" class="nav-button right-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-[#503d00] font-headline font-bold text-sm tracking-wide">
     Chapter 10 <span class="text-lg">→</span>
 </a>
 
@@ -353,5 +496,15 @@
     </div>
 </footer>
 
-</body>
-</html>
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+</body></html>
