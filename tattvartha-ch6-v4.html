@@ -52,10 +52,20 @@
         position: fixed; 
         bottom: 24px; 
         z-index: 100;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        box-shadow: 0 4px 24px rgba(117,91,0,0.15);
+        background: transparent;
+        border: 1px solid rgba(201, 168, 76, 0.35);
+        color: rgba(201, 168, 76, 0.6);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
       }
-      .nav-button:hover { transform: scale(1.03); filter: brightness(1.1); }
+      .nav-button.visible { 
+        opacity: 1; 
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+      .nav-button:hover { border-color: rgba(201, 168, 76, 1); color: rgba(201, 168, 76, 1); }
     </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
@@ -68,7 +78,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="index.html">Philosophy</a>
                 <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
-                <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Archives</a>
+                <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index.html">Sacred Texts</a>
             </div>
         </div>
         <div class="flex items-center gap-8">
@@ -519,11 +529,11 @@
 </main>
 
 <!-- Floating Navigation Buttons -->
-<a href="tattvartha-ch5-v4.html" class="nav-button left-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch5-v4.html" class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
     <span class="text-lg">←</span> Chapter 5
 </a>
 
-<a href="tattvartha-ch7-v4.html" class="nav-button right-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch7-v4.html" class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
     Chapter 7 <span class="text-lg">→</span>
 </a>
 
@@ -554,5 +564,15 @@
     </div>
 </footer>
 
-</body>
-</html>
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+</body></html>
