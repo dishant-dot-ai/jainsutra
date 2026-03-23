@@ -52,8 +52,16 @@
         position: fixed; 
         bottom: 24px; 
         z-index: 100;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: 0 4px 24px rgba(117,91,0,0.15);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+      }
+      .nav-button.visible { 
+        opacity: 1; 
+        pointer-events: auto;
+        transform: translateY(0);
       }
       .nav-button:hover { transform: scale(1.03); filter: brightness(1.1); }
     </style>
@@ -175,8 +183,8 @@
         </article>
 
         <!-- Divider: Ahimsa Bhavanas -->
-        <div class="my-12 text-center">
-            <span class="text-primary font-headline italic text-sm uppercase tracking-widest">Observances of Non-violence</span>
+        <div class="my-16 text-center">
+            <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Observances of Non-violence</span>
         </div>
 
         <!-- Sutra 7-4 -->
@@ -192,8 +200,8 @@
         </article>
 
         <!-- Divider: Satya Bhavanas -->
-        <div class="my-12 text-center">
-            <span class="text-primary font-headline italic text-sm uppercase tracking-widest">Observances of Truth</span>
+        <div class="my-16 text-center">
+            <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Observances of Truth</span>
         </div>
 
         <!-- Sutra 7-5 -->
@@ -209,8 +217,8 @@
         </article>
 
         <!-- Divider: Achaurya Bhavanas -->
-        <div class="my-12 text-center">
-            <span class="text-primary font-headline italic text-sm uppercase tracking-widest">Observances of Non-stealing</span>
+        <div class="my-16 text-center">
+            <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Observances of Non-stealing</span>
         </div>
 
         <!-- Sutra 7-6 -->
@@ -226,8 +234,8 @@
         </article>
 
         <!-- Divider: Brahmacarya Bhavanas -->
-        <div class="my-12 text-center">
-            <span class="text-primary font-headline italic text-sm uppercase tracking-widest">Observances of Chastity</span>
+        <div class="my-16 text-center">
+            <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Observances of Chastity</span>
         </div>
 
         <!-- Sutra 7-7 -->
@@ -243,8 +251,8 @@
         </article>
 
         <!-- Divider: Aparigraha Bhavanas -->
-        <div class="my-12 text-center">
-            <span class="text-primary font-headline italic text-sm uppercase tracking-widest">Observances of Non-attachment</span>
+        <div class="my-16 text-center">
+            <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Observances of Non-attachment</span>
         </div>
 
         <!-- Sutra 7-8 -->
@@ -461,6 +469,18 @@
             </div>
         </article>
 
+        <!-- Sutra 7-24 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-24">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.24</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">व्रतशीलेषु पञ्च पञ्च ॥२४॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">There are five slips each for the five vows and the supplementary vows.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Just as there were five training habits to keep vows strong, there are also five common "banana peels" or slips for each vow. Knowing these helps us stay alert so we don't accidentally fall off the path. Mindfulness is like keeping your eyes on the ground while you walk.</p>
+                </div>
+            </div>
+        </article>
+
         <!-- Sutra 7-25 (Non-violence) -->
         <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-25">
             <div class="flex items-start gap-6">
@@ -521,8 +541,101 @@
             </div>
         </article>
 
-        <!-- Sutras 7-30 to 7-37 (Supplementary Slips) -->
-        <p class="text-center text-on-surface-variant italic my-12">The remaining sutras (30-37) list the slips for the supplementary vows, including Samayika and Sallekhana, reminding us to stay focused and respectful during our practices.</p>
+        <!-- Sutra 7-30 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-30">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.30</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">ऊर्ध्वधस्तिर्यग्व्यतिक्रमक्षेत्रवृद्धिस्मृत्यन्तराधानानि ॥३०॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of travel limits: going higher, lower, or further than your limit, and forgetting your boundaries.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">If you've promised to only travel within a certain area to keep your life simple, "slipping" means sneaking past those boundaries or just being "forgetful" about where they are. Integrity means sticking to the limits you set for yourself, even when no one is watching.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 7-31 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-31">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.31</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">आनयनप्रेष्यप्रयोगशब्दरूपानुपपातपुद्गलक्षेपाः ॥३१॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of specific area limits: ordering things from outside, sending messages, or making signals to get things from beyond your limit.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is a "modern" warning! Even if your body stays inside your limit, if you are constantly ordering stuff from far away or sending others to do your dirty work outside your boundary, you are breaking the spirit of the vow. It's about being content with what is right in front of you.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 7-32 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-32">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.32</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">कन्दर्पकौत्कुच्यमौखर्याशस्त्रीयप्रसाधनप्रयोजनार्थातिचाराः ॥३२॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of unbeneficial activity: mocking others, gossiping, talking too much, and keeping dangerous tools without a reason.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">These are "lifestyle slips." Being a "troll," making fun of people, or just blabbing about nothing for hours wastes your soul's energy. Also, keeping things that only cause harm (like weapons) without a real need attracts negative vibes. Keep your environment and your conversation clean.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 7-33 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-33">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.33</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">मनोवाक्कायदुष्प्रणिधानानादरस्मृत्यनुपस्थानानि ॥३३॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of meditation: bad thoughts, bad words, physical restlessness, lack of interest, and forgetting the meditation.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">When you sit for Samayika (meditation), don't just "be there" physically. If your mind is racing with bad thoughts or you're just bored and waiting for it to end, that's a slip. Real meditation requires your heart to be present and your mind to be focused on peace.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 7-34 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-34">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.34</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">अप्रत्यवेक्षिताप्रमार्जितोत्सर्गनिक्षेपादानसंस्तरोपक्रमोन्मर्यादाविस्मरणानि ॥३४॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of fasting: being careless with objects, lack of enthusiasm, and forgetting the rules of the fast.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Fasting (Proshadha) is more than just not eating. It's a day of total mindfulness. If you're throwing things around carelessly or just being lazy and grumpy because you're hungry, you're missing the point. The fast is meant to make you more awake, not more annoyed.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 7-35 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-35">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.35</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">सचित्तसम्बद्धसम्मिश्राभिषवदुःपक्वभक्षणाः ॥३५॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of diet limits: eating food with living organisms, eating items connected to living things, or eating poorly cooked food.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is about being careful with what you put in your body. In Jainism, we try to avoid food that causes unnecessary harm. Slipping means being lazy about checking your food or eating things you know are questionable just because they taste good. Your diet is a reflection of your compassion.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 7-36 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-36">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.36</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">सचित्तनिक्षेपपिधानपरव्यपदेशमात्सर्यकालातिक्रमाः ॥३६॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of sharing: putting food on a living leaf, covering it with living things, being jealous of other givers, or giving at the wrong time.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Sharing food with monks or the needy should be done with total respect. Using "living" items like fresh leaves as plates (which hurts the plant) or being jealous that someone else gave more than you turns a good act into a "slip." Give with a clean, happy heart.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 7-37 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-37">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.37</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">जीवितमरणाशंसासुहृदनुरागसुखानुबन्धनिदानकरणानि ॥३७॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Slips of the peaceful ritual death: wanting to live longer, wanting to die faster, remembering friends too much, or wanting to be born rich in the next life.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">When practicing Sallekhana (the final fast), the goal is total peace. If you're constantly wishing for the end or dreaming about being a king in your next life, you're not actually "letting go." You should be like a calm lake &mdash; no ripples of desire for the past or the future.</p>
+                </div>
+            </div>
+        </article>
 
         <!-- Section: The Heart of Charity -->
         <div class="my-16 text-center">
@@ -580,11 +693,11 @@
 </main>
 
 <!-- Floating Navigation Buttons -->
-<a href="tattvartha-ch6-v4.html" class="nav-button left-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch6-v4.html" class="nav-button left-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-[#503d00] font-headline font-bold text-sm tracking-wide">
     <span class="text-lg">←</span> Chapter 6
 </a>
 
-<a href="tattvartha-ch8-v4.html" class="nav-button right-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch8-v4.html" class="nav-button right-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-[#503d00] font-headline font-bold text-sm tracking-wide">
     Chapter 8 <span class="text-lg">→</span>
 </a>
 
@@ -615,5 +728,15 @@
     </div>
 </footer>
 
-</body>
-</html>
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+</body></html>

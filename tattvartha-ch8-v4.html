@@ -52,8 +52,16 @@
         position: fixed; 
         bottom: 24px; 
         z-index: 100;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: 0 4px 24px rgba(117,91,0,0.15);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+      }
+      .nav-button.visible { 
+        opacity: 1; 
+        pointer-events: auto;
+        transform: translateY(0);
       }
       .nav-button:hover { transform: scale(1.03); filter: brightness(1.1); }
     </style>
@@ -220,8 +228,112 @@
             </div>
         </article>
 
-        <!-- (Summarizing Sutras 7-17 as they list the 148 subtypes) -->
-        <p class="text-center text-on-surface-variant italic my-12">Sutras 7 through 17 list all the specific subtypes of these eight main karmas, detailing everything from different types of sleep to the various genders and states of existence.</p>
+        <!-- Sutra 8-7 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-7">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.7</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">मतिश्रुतावधिमनःपर्ययकेवलानाम् ॥७॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Knowledge-obscuring karma has five types: sensory, scriptural, clairvoyant, telepathic, and omniscient.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">These five karmas are like layers of dust on a mirror. They block the five ways we can "know" things &mdash; from our basic senses to the ultimate ability to know everything in the universe. Each layer makes our mental sight a bit fuzzier.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-8 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-8">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.8</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">चक्षुरचक्षुरवधिकेवलानां... निद्राप्रचलास्त्यानगृद्धयश्च ॥८॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Perception-obscuring karma has nine types, including ocular, clairvoyant, and five types of sleep.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Perception is the "general view" before we get into the details. This karma blocks that first glance. Interestingly, sleep is also listed here! Deep sleep or drowsiness are considered types of karma that "cloud" our perception and keep our soul from being fully awake.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-9 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-9">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.9</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">सदसद्वेद्ये ॥९॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Feeling karma has two types: pleasure-producing and pain-producing.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is the most "obvious" karma. One type (Sata) makes you feel comfortable and happy, while the other (Asata) makes you feel pain or discomfort. It's like the weather of your life &mdash; sometimes it's sunny, sometimes it's stormy.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-10 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-10">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.10</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">दर्शनचारित्रमोहनीयाकषायकषायवेदनीयाख्या... ॥१०॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Deluding karma has 28 types, divided into belief-deluding and conduct-deluding.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is the "villain" of karmas. It confuses your vision of the truth (Belief) and makes your behavior messy (Conduct). It includes things like anger, pride, and even smaller emotions like laughter or fear. It's the primary reason we stay stuck in the cycle of birth and death.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-11 to 13 (Detailed Deluding) -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-11">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.11-13</span>
+                <div class="space-y-4 flex-1">
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Deluding karma breaks down into 16 passions, 9 quasi-passions, and 3 types of belief.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">The 16 passions are different levels of anger, pride, deceit, and greed. The 9 quasi-passions are lighter emotions like laughter, liking, disliking, sorrow, fear, disgust, and the three gender-based desires. All these "flavors" of emotion decide how we react to the world.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-14 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-14">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.14</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">नारकतिर्यङ्मानुषदैवानि ॥१४॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Life karma has four types: infernal, animal, human, and celestial.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This karma is like a jailer that decides which "room" you will live in for your next life. It locks you into one of the four realms &mdash; hell, animal world, human world, or heaven &mdash; for a set amount of time.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-15 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-15">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.15</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">गतिजातिशरीराङ्गोपाङ्ग... यशःकीर्तयः सेतराः ॥१५॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Name karma has 93 types, deciding your body, class, senses, and reputation.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This is the "painter" karma. It decides every detail of your physical self: how many senses you have, the shape of your body, your height, your voice, and even how people talk about you. It's like the DNA of your spiritual record.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-16 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-16">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.16</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">उच्चैर्नीचैश्च ॥१६॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Status karma has two types: high and low.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This decides your "social standing." One type brings you into a family or environment where you are respected and have resources, while the other puts you in a more difficult or humble position. It's about the environment your soul is born into.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-17 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-17">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.17</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">दानालाभभोगोपभोगवीर्याणाम् ॥१७॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">Obstructive karma has five types: blocking charity, gain, enjoyment, re-enjoyment, and power.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">Have you ever tried to do something good but just "couldn't" for some reason? That's this karma. It acts as an obstacle, stopping you from giving, getting, or using your own energy. It's like a spiritual wall that stands between you and your goals.</p>
+                </div>
+            </div>
+        </article>
 
         <!-- Section: Mechanics of Bondage -->
         <div class="my-16 text-center">
@@ -272,6 +384,18 @@
                     <p class="sutra-sanskrit font-headline">ततश्च निर्जरा ॥२१॥</p>
                     <p class="text-lg font-semibold text-on-surface leading-relaxed">After fruition, the karmic matter falls off — shedding.</p>
                     <p class="text-base text-on-surface-variant leading-relaxed">Here is the good news: karma doesn't stay forever. Once a piece of karma has ripened and you have experienced its result, it "falls off" the soul. This is called "Nirjara" (shedding). It's like a battery being used up. Once the energy is gone, the battery is empty and is discarded. This is how the soul eventually becomes clean again.</p>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sutra 8-22 -->
+        <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-22">
+            <div class="flex items-start gap-6">
+                <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.22</span>
+                <div class="space-y-4 flex-1">
+                    <p class="sutra-sanskrit font-headline">नामप्रत्ययाः सर्वतो योगविशेषात् ॥२२॥</p>
+                    <p class="text-lg font-semibold text-on-surface leading-relaxed">The quantity of space-points is determined by the soul's activity.</p>
+                    <p class="text-base text-on-surface-variant leading-relaxed">This reinforces that your body's movements, your words, and your thoughts (Yoga) are the direct cause of how much karmic matter sticks to you. Every action creates a vibration that determines the "volume" of karma. It's a reminder that we are the architects of our own karmic weight.</p>
                 </div>
             </div>
         </article>
@@ -344,11 +468,11 @@
 </main>
 
 <!-- Floating Navigation Buttons -->
-<a href="tattvartha-ch7-v4.html" class="nav-button left-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch7-v4.html" class="nav-button left-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-[#503d00] font-headline font-bold text-sm tracking-wide">
     <span class="text-lg">←</span> Chapter 7
 </a>
 
-<a href="tattvartha-ch9-v4.html" class="nav-button right-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-on-primary font-headline font-bold text-sm tracking-wide">
+<a href="tattvartha-ch9-v4.html" class="nav-button right-12 flex items-center gap-3 px-6 py-3 burnished-gradient rounded-sm text-[#503d00] font-headline font-bold text-sm tracking-wide">
     Chapter 9 <span class="text-lg">→</span>
 </a>
 
@@ -379,5 +503,15 @@
     </div>
 </footer>
 
-</body>
-</html>
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+</body></html>
