@@ -82,207 +82,69 @@
         color: #1d1c17;
       }
       .font-serif { font-family: 'Noto Serif', serif; }
-    </style>
+    
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
 <style>
     body {
       min-height: max(884px, 100dvh);
     }
-  </style>
+  
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
   </head>
 <body class="min-h-screen pb-24">
-<!-- TopAppBar -->
-<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 dark:bg-[#1D1C17]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5">
-<div class="flex items-center justify-between px-6 h-16 w-full">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-[#755B00] dark:text-[#C9A84C] cursor-pointer">menu</span>
-<h1 class="font-serif text-2xl tracking-wide font-medium text-[#755B00] dark:text-[#C9A84C]">JainAwaken</h1>
-</div>
-<div class="hidden md:flex items-center gap-8">
-<a class="font-serif italic text-sm text-[#755B00] dark:text-[#C9A84C] transition-opacity hover:opacity-80" href="#">Home</a>
-<a class="font-serif italic text-sm text-[#4D4B3E] dark:text-[#E7E2DA] transition-opacity hover:opacity-80" href="#">Philosophy</a>
-<a class="font-serif italic text-sm text-[#4D4B3E] dark:text-[#E7E2DA] transition-opacity hover:opacity-80" href="#">Meditation</a>
-<a class="font-serif italic text-sm text-[#4D4B3E] dark:text-[#E7E2DA] transition-opacity hover:opacity-80" href="#">Archive</a>
-</div>
-</div>
-</header>
-<main class="pt-24 px-6 max-w-7xl mx-auto">
-<!-- Hero Section -->
-<section class="mb-16">
-<div class="relative w-full h-80 rounded-xl overflow-hidden bg-surface-container shadow-sm">
-<img alt="Rough ancient stone texture banner" class="w-full h-full object-cover opacity-60" data-alt="Ancient weathered stone surface with warm tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAEj2N5HVJN9pgZpbIT-HJDLrsucoYjQv5r9tYiEd8djU7eg2dlDKNyD-a5dEsV9sUIKCUFM5jLOvpc2K66mgUQvVtbzTB70JA3-4u0a1fy442WlNcsBfPHlqPw5e6OJqu69QAnRxuGmvHPz0N5Ib-n0RGU4561285iJJrFOgCJadByfRnkqIJjZY6q5jtXgIhlbmGR4Mi41GiAKsTdbkJ_XVBPJJHCnDfqprtlBEChh8EsnTWEJ_rjhOgz-dy7B_QCA_h1KgFgQ"/>
-<div class="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-t from-surface via-transparent to-transparent">
-<h2 class="font-serif text-6xl md:text-8xl tracking-widest text-primary mb-2">कषाय</h2>
-<p class="font-serif italic text-xl md:text-2xl text-on-surface-variant tracking-wide">Kashaya: The Four Passions</p>
-</div>
-</div>
-</section>
-<!-- Time Limits of the Kashayas (Passions) -->
-<section class="mb-20">
-<h3 class="font-serif text-3xl text-primary mb-3">Time Limits of the Kashayas (Passions)</h3>
-<p class="text-on-surface-variant leading-relaxed mb-8 max-w-2xl">Each passion operates at four intensities, defined by how long it binds the soul before it can be overcome.</p>
-<div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-<div class="bg-surface-container-highest p-6 rounded-xl text-center">
-<span class="block text-xs text-primary uppercase tracking-widest mb-2 font-medium">Anantanubandhi</span>
-<span class="text-lg font-serif text-on-surface">Life-long</span>
-<p class="text-xs text-on-surface-variant mt-2">Binds across infinite lifetimes</p>
-</div>
-<div class="bg-surface-container-highest p-6 rounded-xl text-center">
-<span class="block text-xs text-primary uppercase tracking-widest mb-2 font-medium">Apratyakhyana</span>
-<span class="text-lg font-serif text-on-surface">Year-long</span>
-<p class="text-xs text-on-surface-variant mt-2">Prevents partial renunciation</p>
-</div>
-<div class="bg-surface-container-highest p-6 rounded-xl text-center">
-<span class="block text-xs text-primary uppercase tracking-widest mb-2 font-medium">Pratyakhyana</span>
-<span class="text-lg font-serif text-on-surface">Four-month</span>
-<p class="text-xs text-on-surface-variant mt-2">Prevents total renunciation</p>
-</div>
-<div class="bg-surface-container-highest p-6 rounded-xl text-center border-b-2 border-primary">
-<span class="block text-xs text-primary uppercase tracking-widest mb-2 font-medium">Sanjvalana</span>
-<span class="text-lg font-serif text-on-surface">Fleeting</span>
-<p class="text-xs text-on-surface-variant mt-2">Momentary flicker, easily shed</p>
-</div>
-</div>
-</section>
-<!-- The 4 Passions Bento Grid -->
-<section class="mb-20">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
-<!-- Krodh (Anger) -->
-<div class="md:col-span-7 bg-surface-container-low p-8 rounded-xl relative overflow-hidden group">
-<div class="absolute top-0 right-0 p-4 opacity-5">
-<span class="font-serif text-9xl">क्रोध</span>
-</div>
-<h3 class="font-serif text-3xl text-primary mb-4 flex items-center gap-2">
-                        Krodh <span class="text-on-surface-variant/40 text-sm">/ Anger</span>
-</h3>
-<p class="text-on-surface-variant leading-relaxed max-w-lg mb-8">
-                        The fire that consumes the soul's tranquility. Anger is a blinding force that obscures discernment and binds the self to destructive karmas.
-                    </p>
-</div>
-<!-- Maan (Ego) -->
-<div class="md:col-span-5 bg-surface-container-highest p-8 rounded-xl border-l-4 border-primary/20">
-<h3 class="font-serif text-3xl text-primary mb-4">Maan <span class="text-on-surface-variant/40 text-sm italic">Ego &amp; Pride</span></h3>
-<p class="text-on-surface-variant leading-relaxed mb-6">
-                        The mountain of self-importance that prevents the descent into humility. Pride hardens the heart against wisdom.
-                    </p>
-<ul class="space-y-3">
-<li class="flex items-center gap-3 text-sm italic font-serif text-on-surface border-b border-outline-variant/20 pb-2">
-<span class="w-2 h-2 rounded-full bg-primary/40"></span>
-                            Pride of Knowledge (Jnana)
-                        </li>
-<li class="flex items-center gap-3 text-sm italic font-serif text-on-surface border-b border-outline-variant/20 pb-2">
-<span class="w-2 h-2 rounded-full bg-primary/40"></span>
-                            Pride of Lineage (Kula)
-                        </li>
-<li class="flex items-center gap-3 text-sm italic font-serif text-on-surface">
-<span class="w-2 h-2 rounded-full bg-primary/40"></span>
-                            Pride of Beauty (Rupa)
-                        </li>
-</ul>
-</div>
-<!-- Maya (Deceit) -->
-<div class="md:col-span-5 bg-surface-container p-8 rounded-xl">
-<h3 class="font-serif text-3xl text-primary mb-4">Maya <span class="text-on-surface-variant/40 text-sm italic">Deceit</span></h3>
-<p class="text-on-surface-variant leading-relaxed mb-6">
-                        The tangled web of illusion and dishonesty. It creates a barrier between the inner truth and outward expression.
-                    </p>
-<div class="p-4 bg-surface-container-lowest border-l-2 border-primary italic font-serif text-on-primary-container">
-                        "Straightness of heart is the remedy for the crookedness of deceit."
-                    </div>
-</div>
-<!-- Lobh (Greed) -->
-<div class="md:col-span-7 bg-surface-container-low p-8 rounded-xl flex flex-col justify-between">
-<div>
-<h3 class="font-serif text-3xl text-primary mb-4">Lobh <span class="text-on-surface-variant/40 text-sm italic">Greed</span></h3>
-<p class="text-on-surface-variant leading-relaxed mb-8">
-                            The insatiable desire for more—whether material or emotional. Greed is the root of all other passions, anchoring the soul to the worldly mire.
-                        </p>
-</div>
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-[10px] tracking-widest uppercase rounded-md">Attachment</span>
-<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-[10px] tracking-widest uppercase rounded-md">Possessiveness</span>
-<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-[10px] tracking-widest uppercase rounded-md">Desire</span>
-<span class="px-3 py-1 bg-secondary-container text-on-secondary-container text-[10px] tracking-widest uppercase rounded-md">Accumulation</span>
-</div>
-</div>
-</div>
-</section>
-<!-- The Sutra Quote Section -->
-<section class="max-w-3xl mx-auto py-12 px-8 bg-surface-container-lowest rounded-xl shadow-sm border-l-[3px] border-primary">
-<div class="space-y-6">
-<p class="font-serif italic text-2xl text-on-surface leading-snug">
-                    "He who conquers these four passions—Anger, Ego, Deceit, and Greed—is a true victor (Jina), for the external enemies are but shadows of these internal foes."
-                </p>
-<div class="flex items-center gap-4">
-<div class="h-[1px] w-12 bg-outline-variant"></div>
-<span class="text-[10px] tracking-[0.2em] uppercase text-primary font-bold">Mahavira Swami</span>
-</div>
-</div>
-</section>
-<!-- Intensities Table (Traditional Asymmetry) -->
-<section class="mt-24 mb-12">
-<h4 class="font-serif text-center text-primary text-2xl mb-12 italic tracking-widest">Levels of Intensity</h4>
-<div class="overflow-x-auto">
-<table class="w-full text-left border-collapse">
-<thead>
-<tr class="border-b border-outline-variant/30">
-<th class="py-4 font-serif italic text-on-surface-variant font-medium">Passion</th>
-<th class="py-4 font-serif italic text-on-surface-variant font-medium">Stone (Life-long)</th>
-<th class="py-4 font-serif italic text-on-surface-variant font-medium">Earth (Annual)</th>
-<th class="py-4 font-serif italic text-on-surface-variant font-medium">Sand (Monthly)</th>
-<th class="py-4 font-serif italic text-on-surface-variant font-medium">Water (Momentary)</th>
-</tr>
-</thead>
-<tbody class="text-sm font-body text-on-surface">
-<tr class="hover:bg-surface-container-low transition-colors">
-<td class="py-6 border-b border-outline-variant/10 text-primary font-semibold">Krodh (Anger)</td>
-<td class="py-6 border-b border-outline-variant/10">Fissure in Stone</td>
-<td class="py-6 border-b border-outline-variant/10">Crack in Earth</td>
-<td class="py-6 border-b border-outline-variant/10">Line in Sand</td>
-<td class="py-6 border-b border-outline-variant/10">Ripple in Water</td>
-</tr>
-<tr class="hover:bg-surface-container-low transition-colors">
-<td class="py-6 border-b border-outline-variant/10 text-primary font-semibold">Maan (Ego)</td>
-<td class="py-6 border-b border-outline-variant/10">Mountain of Stone</td>
-<td class="py-6 border-b border-outline-variant/10">Bone Pillar</td>
-<td class="py-6 border-b border-outline-variant/10">Wood Plank</td>
-<td class="py-6 border-b border-outline-variant/10">Blade of Grass</td>
-</tr>
-<tr class="hover:bg-surface-container-low transition-colors">
-<td class="py-6 border-b border-outline-variant/10 text-primary font-semibold">Maya (Deceit)</td>
-<td class="py-6 border-b border-outline-variant/10">Bamboo Root Knot</td>
-<td class="py-6 border-b border-outline-variant/10">Ram's Horn</td>
-<td class="py-6 border-b border-outline-variant/10">Ox's Urine Track</td>
-<td class="py-6 border-b border-outline-variant/10">Shaving Scraper</td>
-</tr>
-<tr class="hover:bg-surface-container-low transition-colors">
-<td class="py-6 border-b border-outline-variant/10 text-primary font-semibold">Lobh (Greed)</td>
-<td class="py-6 border-b border-outline-variant/10">Crimson Dye (Fixed)</td>
-<td class="py-6 border-b border-outline-variant/10">Caked Mud</td>
-<td class="py-6 border-b border-outline-variant/10">Lamp Soot</td>
-<td class="py-6 border-b border-outline-variant/10">Turmeric Stain</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
-</main>
-<!-- BottomNavBar -->
-<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F5F0E8] dark:bg-[#1D1C17] rounded-t-3xl shadow-[0_-4px_20px_rgba(29,28,23,0.04)] border-t border-[#E7E2DA]/30">
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40 dark:hover:bg-[#3E3D35] px-3 py-1" href="#">
-<span class="material-symbols-outlined" data-icon="home">home</span>
-<span class="font-serif italic text-[10px] tracking-tight">Home</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#755B00] dark:text-[#C9A84C] bg-[#F8F3EB] dark:bg-[#2A2922] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
-<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40 dark:hover:bg-[#3E3D35] px-3 py-1" href="#">
-<span class="material-symbols-outlined" data-icon="self_improvement">self_improvement</span>
-<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 transition-all duration-500 ease-in-out hover:bg-[#E7E2DA]/40 dark:hover:bg-[#3E3D35] px-3 py-1" href="#">
-<span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
-<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
-</a>
+<!-- TopNavBar -->
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
+
+<script>
+(function () {
+  var nav = document.getElementById("main-nav");
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove("nav-hero");
+      nav.classList.add("glass-nav");
+    } else {
+      nav.classList.add("nav-hero");
+      nav.classList.remove("glass-nav");
+    }
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 </body></html>

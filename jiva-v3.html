@@ -83,123 +83,69 @@
         background-size: 24px 24px;
         opacity: 0.15;
       }
-    </style>
+    
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
 <style>
     body {
       min-height: max(884px, 100dvh);
     }
-  </style>
+  
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
   </head>
 <body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
-<!-- Top Navigation Bar -->
-<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5 flex items-center justify-between px-6 h-16">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-[#755B00] cursor-pointer hover:opacity-80 transition-opacity">menu</span>
-<h1 class="font-serif text-2xl tracking-wide font-medium text-[#755B00]">JainAwaken</h1>
-</div>
-<nav class="hidden md:flex items-center gap-8">
-<a class="text-[#755B00] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Home</a>
-<a class="text-[#4D4B3E] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Philosophy</a>
-<a class="text-[#4D4B3E] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Meditation</a>
-<a class="text-[#4D4B3E] font-serif italic text-sm hover:opacity-80 transition-opacity" href="#">Archive</a>
+<!-- TopNavBar -->
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-[#755B00]">search</span>
-<div class="font-serif italic text-[#755B00] text-xl">Jiva</div>
-</div>
-</header>
-<main class="pt-16 pb-24 min-h-screen relative overflow-hidden">
-<!-- Background Subtle Texture -->
-<div class="absolute inset-0 parchment-texture pointer-events-none"></div>
-<!-- Hero Section -->
-<section class="relative h-[353px] md:h-[442px] w-full overflow-hidden mb-12">
-<img alt="Ethereal banner" class="w-full h-full object-cover" data-alt="Ethereal golden light filtering through temple arches" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCk0J9sDadCOtcwq9hdD4OcHvAfVa0sArMhAZJiFULT_PHrymZaEWXXOkJ6UFPxvC02qs3VKylVX42xFUhgA6cn8bkerbEvWBanVXa83R5wh4Bl901ibOlfnC8SNLkBpkkJB3jg_RearjncTCExemwX2D1UnJcqcCa4kmW4ud_GlSKsaHEk80Abr9o1RdlZptBMqgBF6C0jxe3RidQnd7vpeyRLARWdZSPYuycZygU5_2WtT1DesE9rX-DzLxGif1yybooQ1Gv0mQ"/>
-<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
-<div class="absolute bottom-0 left-0 w-full p-8 md:p-16 flex flex-col items-center text-center">
-<span class="text-primary font-headline text-5xl md:text-8xl font-bold tracking-widest mb-4">जीव</span>
-<div class="h-px w-24 bg-primary-container"></div>
-</div>
-</section>
-<!-- Content Content Container -->
-<div class="max-w-screen-xl mx-auto px-6 grid grid-cols-12 gap-8 relative z-10">
-<!-- Sidebar Annotation (Empty for breathing room as per Design System) -->
-<div class="hidden lg:block col-span-2"></div>
-<!-- Main Narrative -->
-<article class="col-span-12 lg:col-span-7 space-y-12">
-<div class="space-y-6">
-<h2 class="font-headline text-4xl md:text-5xl text-primary leading-tight">
-                        The living soul—conscious, eternal, and capable of liberation.
-                    </h2>
-<p class="text-on-surface-variant text-lg md:text-xl leading-relaxed font-body">
-                        Every living being has a Jiva—a soul with consciousness as its defining quality. It is the vital energy, the sentient essence that experiences the world through the prism of existence.
-                    </p>
-</div>
-<!-- Sutra Quote Component -->
-<div class="bg-surface-container-lowest p-8 sutra-line shadow-sm">
-<p class="font-headline italic text-2xl text-on-surface leading-snug">
-                        "The soul is the master of its own destiny. It is neither created nor destroyed, but exists in a continuous state of becoming until it finds the silence of its own light."
-                    </p>
-<footer class="mt-4 text-primary font-label tracking-widest text-xs">REFLECTIONS ON THE SOUL</footer>
-</div>
-<!-- Asymmetric Bento-style Grid -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
-<div class="bg-surface-container-low p-8 rounded-xl space-y-4">
-<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
-<h3 class="font-headline text-xl text-primary">Pure Consciousness</h3>
-<p class="text-on-surface-variant text-sm leading-relaxed">The inherent nature of Jiva is infinite knowledge, infinite perception, and infinite power.</p>
-</div>
-<div class="bg-surface-container-highest p-8 rounded-xl space-y-4 mt-4 md:mt-12">
-<span class="material-symbols-outlined text-primary text-3xl">all_inclusive</span>
-<h3 class="font-headline text-xl text-primary">Eternal Essence</h3>
-<p class="text-on-surface-variant text-sm leading-relaxed">Transcending the physical vessel, the soul migrates through cycles until it attains the state of Siddha.</p>
-</div>
-</div>
-</article>
-<!-- Metadata/Scholarly Annotation Sidebar -->
-<aside class="col-span-12 lg:col-span-3 space-y-8">
-<div class="border-t border-outline-variant/30 pt-4">
-<h4 class="font-label text-xs tracking-widest text-primary mb-4">DEFINITIONS</h4>
-<ul class="space-y-4">
-<li class="group cursor-default">
-<span class="block text-on-surface font-headline italic">Chetana</span>
-<span class="block text-on-surface-variant text-xs font-body">The quality of consciousness that differentiates Jiva from Ajiva.</span>
-</li>
-<li class="group cursor-default">
-<span class="block text-on-surface font-headline italic">Upayoga</span>
-<span class="block text-on-surface-variant text-xs font-body">The active application of consciousness in perception and knowledge.</span>
-</li>
-</ul>
-</div>
-<!-- Call to Action Card -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-1 rounded-sm">
-<div class="bg-surface p-6 flex flex-col gap-4">
-<h4 class="font-headline text-primary text-lg">Contemplate the Self</h4>
-<p class="text-on-surface-variant text-xs">Join our weekly meditation focused on the separation of soul from body.</p>
-<button class="w-full bg-gradient-to-r from-primary to-primary-container text-on-primary py-3 px-4 font-label text-xs tracking-widest hover:opacity-90 transition-all rounded-sm">
-                            BEGIN JOURNEY
-                        </button>
-</div>
-</div>
-</aside>
-</div>
-</main>
-<!-- Bottom Navigation Bar (Mobile) -->
-<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 bg-[#F5F0E8] border-t border-[#E7E2DA]/30 flex justify-around items-center px-4 pb-6 pt-3 shadow-[0_-4px_20px_rgba(29,28,23,0.04)] rounded-t-3xl">
-<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined">home</span>
-<span class="font-serif italic text-[10px] tracking-tight">Home</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined">menu_book</span>
-<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined">self_improvement</span>
-<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined">inventory_2</span>
-<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
-</a>
-</nav>
+
+<script>
+(function () {
+  var nav = document.getElementById("main-nav");
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove("nav-hero");
+      nav.classList.add("glass-nav");
+    } else {
+      nav.classList.add("nav-hero");
+      nav.classList.remove("glass-nav");
+    }
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 </body></html>

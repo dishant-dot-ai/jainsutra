@@ -91,137 +91,55 @@
         background-image: radial-gradient(#C9A84C15 1px, transparent 1px);
         background-size: 40px 40px;
       }
-    </style>
+    
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
-<!-- TopAppBar -->
-<header class="fixed top-0 w-full z-50 bg-[#fef9f1]/80 backdrop-blur-md flex justify-between items-center px-6 py-4 shadow-sm shadow-stone-900/5">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-yellow-700">menu</span>
-<h1 class="font-serif text-2xl font-bold text-yellow-800 tracking-wide">Sutra Insights</h1>
-</div>
-<span class="material-symbols-outlined text-yellow-700">account_circle</span>
-</header>
-<main class="pt-40 pb-32 min-h-screen">
-<!-- Hero Section -->
-<section class="px-6 py-8 temple-gradient">
-<div class="max-w-md mx-auto">
-<h2 class="font-headline text-4xl font-bold text-on-surface leading-tight mb-2">
-                    The Four Destinations <span class="text-primary italic font-normal text-3xl">(गति)</span>
-</h2>
-<p class="text-primary font-medium tracking-widest text-sm uppercase mb-8">Gati • Transitions of the Soul</p>
-<div class="relative aspect-[4/5] rounded-xl overflow-hidden shadow-2xl mb-8">
-<img alt="Four Paths through an ancient landscape" class="w-full h-full object-cover" data-alt="Four ancient paths diverging in mystical golden light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7Snx5T2cQtMOii5EACJROA3TWgOXb_xDo4zMJMRSkHp0ZiEsUzRziaRIEoAYfPLapcgOLswyVoRxMN6Dbj5A8BNLGImDFEu1buzMOiMu346rOhacbOzMuZ8s60qLnNJQ0C2vGRt45UImc2U2dzoQfGnIPLjum03FJ4324CKfKHuQ1dCIjzSKoTdQ4kG91O_ZHjrAjN-uENc-PbXHjGoNbrtDDiUsVSt0CTlYX9qWtCYaM_MZq0B1ti6MDDLyoSjsIG5kmvk1rkg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
-</div>
-<div class="sutra-border pl-6 py-2 mb-12 bg-surface-container-low/50">
-<p class="font-headline text-lg italic text-on-surface-variant leading-relaxed">
-                        "In Jain cosmology, the soul wander through four states of existence until it achieves liberation."
-                    </p>
-</div>
-</div>
-</section>
-<!-- The 4 Gatis Grid -->
-<section class="px-4 space-y-6 max-w-md mx-auto">
-<!-- Narak -->
-<div class="bg-surface-container-low p-6 rounded-xl relative overflow-hidden group">
-<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-<span class="material-symbols-outlined text-6xl" style="font-variation-settings: 'FILL' 1;">thunderstorm</span>
-</div>
-<div class="flex items-center gap-3 mb-3">
-<span class="text-xs font-bold text-stone-400 tracking-tighter uppercase">01</span>
-<h3 class="font-headline text-2xl text-on-surface">Narak</h3>
-</div>
-<p class="text-primary-fixed-dim font-medium mb-2">Hellish beings</p>
-<p class="text-on-surface-variant leading-relaxed">Intense suffering and dark environments where karma is purged through pain.</p>
-</div>
-<!-- Tiryanch -->
-<div class="bg-surface-container-high p-6 rounded-xl relative overflow-hidden group">
-<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-<span class="material-symbols-outlined text-6xl" style="font-variation-settings: 'FILL' 1;">pets</span>
-</div>
-<div class="flex items-center gap-3 mb-3">
-<span class="text-xs font-bold text-stone-400 tracking-tighter uppercase">02</span>
-<h3 class="font-headline text-2xl text-on-surface">Tiryanch</h3>
-</div>
-<p class="text-primary-fixed-dim font-medium mb-2">Plants and animals</p>
-<p class="text-on-surface-variant leading-relaxed">Instinct-driven existence in varied forms of life, from microscopic to mammalian.</p>
-</div>
-<!-- Manushya (Highlighted) -->
-<div class="bg-surface-container-lowest border-2 border-primary-container p-6 rounded-xl relative overflow-hidden shadow-sm group">
-<div class="absolute -top-4 -right-4 w-24 h-24 bg-primary/5 rounded-full blur-2xl"></div>
-<div class="flex items-center gap-3 mb-3">
-<span class="text-xs font-bold text-primary tracking-tighter uppercase">03</span>
-<h3 class="font-headline text-2xl text-primary font-bold underline decoration-primary-container underline-offset-8">Manushya</h3>
-</div>
-<p class="text-primary font-semibold mb-2">Humans</p>
-<p class="text-on-surface leading-relaxed font-medium">The only state where spiritual growth and liberation (Moksha) are possible through conscious effort.</p>
-<div class="mt-4 flex items-center gap-2 text-primary font-bold text-xs uppercase tracking-widest">
-<span>Path to Liberation</span>
-<span class="material-symbols-outlined text-sm">arrow_forward</span>
-</div>
-</div>
-<!-- Dev -->
-<div class="bg-surface-container-low p-6 rounded-xl relative overflow-hidden group">
-<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-<span class="material-symbols-outlined text-6xl" style="font-variation-settings: 'FILL' 1;">brightness_high</span>
-</div>
-<div class="flex items-center gap-3 mb-3">
-<span class="text-xs font-bold text-stone-400 tracking-tighter uppercase">04</span>
-<h3 class="font-headline text-2xl text-on-surface">Dev</h3>
-</div>
-<p class="text-primary-fixed-dim font-medium mb-2">Celestial beings</p>
-<p class="text-on-surface-variant leading-relaxed">Long-lived, pleasure-filled states of existence, yet still bound by the cycle of karma.</p>
-</div>
-</section>
-<!-- Footer -->
-<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
-<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
-<div class="flex flex-col gap-6 max-w-md">
-<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
-<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
-                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
-            </p>
-<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
-</div>
-<div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
-<div class="flex flex-col gap-4">
-<span class="text-primary/40 mb-2">Explore</span>
-<a class="hover:text-primary transition-colors" href="#">About Us</a>
-<a class="hover:text-primary transition-colors" href="#">Philosophy</a>
-<a class="hover:text-primary transition-colors" href="#">Practice</a>
-</div>
-<div class="flex flex-col gap-4">
-<span class="text-primary/40 mb-2">Connect</span>
-<a class="hover:text-primary transition-colors" href="#">Contact</a>
-<a class="hover:text-primary transition-colors" href="#">Newsletter</a>
-<a class="hover:text-primary transition-colors" href="#">Events</a>
-</div>
-</div>
-</div>
-</footer>
-</main>
-<!-- BottomNavBar -->
 <!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 glass-nav transition-all duration-300 border-b border-[#C9A84C]/10">
-<div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
-<div class="flex items-center gap-12">
-<a href="index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
-<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
-<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
-<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
-<a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Archives</a>
-</div>
-</div>
-<div class="flex items-center gap-8">
-<div class="relative group hidden lg:block">
-<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
-<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
-</div>
-<button class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">
-                Donate
-            </button>
-</div>
-</div>
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
+
+<script>
+(function () {
+  var nav = document.getElementById("main-nav");
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove("nav-hero");
+      nav.classList.add("glass-nav");
+    } else {
+      nav.classList.add("nav-hero");
+      nav.classList.remove("glass-nav");
+    }
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 </body></html>

@@ -84,18 +84,38 @@
       .leshy-gradient-tejo { background: linear-gradient(180deg, #b71c1c 0%, #493900 100%); }
       .leshy-gradient-padma { background: linear-gradient(180deg, #ec407a 0%, #3f2e03 100%); }
       .leshy-gradient-shukla { background: linear-gradient(180deg, #e5e2e1 0%, #c6c6ce 100%); }
-    </style>
+    
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
 </head>
 <body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-primary">
-<!-- Top Navigation Bar -->
-<nav class="fixed top-0 w-full z-50 bg-[#131313]/90 backdrop-blur-xl">
-<div class="flex justify-between items-center px-8 py-5 max-w-[1200px] mx-auto">
-<a href="index.html" class="text-2xl font-['Newsreader'] text-[#e9c349] tracking-tight no-underline hover:opacity-80">JainAwaken</a>
-<div class="hidden md:flex items-center gap-8">
-<a href="navkar.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">Navkar Mantra</a>
-<a href="about.html" class="font-['Inter'] text-xs font-medium uppercase tracking-widest text-[#e5e2e1]/60 hover:text-[#e9c349] transition-colors duration-300 no-underline">About</a>
-</div>
-</div>
+<!-- TopNavBar -->
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
 <main class="relative">
 <!-- Hero Section: Editorial Asymmetry -->
@@ -227,4 +247,22 @@
 <p class="font-['Inter'] text-[#e5e2e1]/40 text-xs tracking-widest">The path, not the diet.</p>
 </div>
 </footer>
+
+<script>
+(function () {
+  var nav = document.getElementById("main-nav");
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove("nav-hero");
+      nav.classList.add("glass-nav");
+    } else {
+      nav.classList.add("nav-hero");
+      nav.classList.remove("glass-nav");
+    }
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 </body></html>

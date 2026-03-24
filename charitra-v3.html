@@ -83,119 +83,91 @@
       .serif-display {
         font-family: 'Noto Serif', serif;
       }
-    </style>
+    
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
 <style>
     body {
       min-height: max(884px, 100dvh);
     }
-  </style>
+  
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
   </head>
 <body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
-<!-- Top Navigation -->
-<nav class="fixed top-0 w-full z-50 flex items-center justify-between px-6 h-16 w-full bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-[#755B00] cursor-pointer hover:opacity-80 transition-opacity">menu</span>
-<span class="font-serif italic text-[#755B00] text-xl">JainAwaken</span>
-</div>
-<div class="hidden md:flex items-center gap-8 text-[#4D4B3E] font-serif italic text-sm">
-<a class="text-[#755B00] hover:opacity-80 transition-opacity" href="#">Home</a>
-<a class="hover:opacity-80 transition-opacity" href="#">Philosophy</a>
-<a class="hover:opacity-80 transition-opacity" href="#">Meditation</a>
-<a class="hover:opacity-80 transition-opacity" href="#">Archive</a>
-</div>
-<div class="flex items-center">
-<span class="material-symbols-outlined text-[#755B00] cursor-pointer hover:opacity-80 transition-opacity">search</span>
-</div>
+<!-- TopNavBar -->
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
 <main class="pt-24 pb-32 px-6 max-w-7xl mx-auto">
-<!-- Hero Section -->
-<header class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-20 items-end">
-<div class="md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 text-center">
-<span class="text-primary font-headline text-lg tracking-[0.2em] mb-4 block">THE THIRD JEWEL</span>
-<h1 class="font-headline text-6xl md:text-8xl text-on-surface tracking-tight mb-6">चारित्र</h1>
-<h2 class="font-headline italic text-2xl md:text-3xl text-primary-container mb-8">Charitra</h2>
-</div>
-</header>
-<!-- Main Content Canvas -->
-<section class="grid grid-cols-1 md:grid-cols-12 gap-12">
-<!-- Banner Image Section -->
-<div class="md:col-span-12 relative overflow-hidden rounded-xl h-[400px] mb-12 shadow-sm">
-<img alt="Stone footsteps on a path" class="w-full h-full object-cover" data-alt="Stone footsteps leading along a sacred path" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzhuY5RqTEGxvbPDMgpbLnERU7mrmk7HpNPj_E9eiegTNZU2exYyL8CjcliV2KpzlDhp8lekTJFR7mJZMrCm7fUmILmuS-4HWmuYsfzT-zho7wsftYPMpEW0y7eB3OdUjpv-hbbQEWLJpXagrPYs1-leIUnFflcsbjsbGwFLtp_VXNigXEC5dbEBb2qh_4coc3PKb2_3MerwwqWb0OGcvBa_ku6Q0YzEEZGfvtEACHK39G2i8ruRGIzeDH8ByHho70mMKxCxuz0A"/>
-<div class="absolute inset-0 bg-gradient-to-t from-surface/80 via-transparent to-transparent"></div>
-</div>
-<!-- Content Grid: Bento Style Asymmetry -->
-<div class="md:col-span-3 hidden md:block">
-<div class="sticky top-32 space-y-8">
-<div class="border-l-2 border-primary pl-6">
-<p class="font-headline text-primary text-sm uppercase tracking-widest mb-2">Definition</p>
-<p class="text-on-surface-variant leading-relaxed italic">The conduct that aligns the soul with its inherent purity.</p>
-</div>
-</div>
-</div>
-<div class="md:col-span-6 space-y-16">
-<!-- Primary Insight -->
-<article class="bg-surface-container-low p-10 md:p-16 rounded-sm shadow-sm relative">
-<div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-primary-container/30 -translate-x-2 -translate-y-2"></div>
-<p class="font-headline text-3xl md:text-4xl leading-snug text-on-surface">
-                        Right Conduct—not <span class="text-primary">rules</span>, but the natural behavior of a soul moving toward <span class="italic">freedom</span>.
-                    </p>
-<div class="mt-12 space-y-6 text-lg text-on-surface-variant leading-relaxed">
-<p>Charitra is the culmination of the Ratnatraya (Three Jewels). While Right Vision (Samyak Darshana) provides the path and Right Knowledge (Samyak Jnana) lights the way, Right Conduct is the actual walking of that path.</p>
-<p>It is not a collection of restrictive laws, but a liberating alignment where action and essence become one. As the soul sheds its karmic weight, these behaviors arise not by effort, but by nature.</p>
-</div>
-</article>
-<!-- Sutra Quote Component -->
-<div class="bg-surface-container-lowest py-8 px-10 border-l-2 border-primary">
-<p class="font-headline text-xl italic text-on-surface mb-2">"Asceticism is not the rejection of life, but the perfection of conduct."</p>
-<p class="font-label text-xs tracking-widest text-primary-container">ANCIENT INSIGHT</p>
-</div>
-<!-- Bento Style Details -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<div class="bg-surface-container p-8 rounded-lg">
-<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">spa</span>
-<h3 class="font-headline text-xl text-on-surface mb-3">Ahimsa</h3>
-<p class="text-sm text-on-secondary-container leading-relaxed">The foundation of conduct where non-violence becomes a living presence in every breath and movement.</p>
-</div>
-<div class="bg-surface-container-high p-8 rounded-lg">
-<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">balance</span>
-<h3 class="font-headline text-xl text-on-surface mb-3">Equanimity</h3>
-<p class="text-sm text-on-secondary-container leading-relaxed">Maintaining balance amidst the duality of pleasure and pain, success and failure, on the journey to the self.</p>
-</div>
-</div>
-</div>
-<div class="md:col-span-3 space-y-10">
-<div class="bg-primary text-on-primary p-8 rounded-sm shadow-lg">
-<h4 class="font-headline text-lg mb-4">Ratnatraya</h4>
-<ul class="space-y-4 font-label text-sm tracking-wide opacity-90">
-<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-primary-fixed-dim rounded-full"></span> Samyak Darshana</li>
-<li class="flex items-center gap-3"><span class="w-1.5 h-1.5 bg-primary-fixed-dim rounded-full"></span> Samyak Jnana</li>
-<li class="flex items-center gap-3 border-b border-on-primary/20 pb-2"><span class="w-2 h-2 bg-on-primary rounded-full"></span> Samyak Charitra</li>
-</ul>
-</div>
-<div class="p-6 border border-outline-variant/30 rounded-lg">
-<p class="font-headline italic text-on-surface-variant mb-4 text-center">Reflective Prompt</p>
-<p class="text-sm text-center text-on-surface leading-relaxed">How does your movement today reflect the freedom you seek tomorrow?</p>
-</div>
-</div>
-</section>
-</main>
-<!-- Bottom Navigation -->
-<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F5F0E8] shadow-[0_-4px_20px_rgba(29,28,23,0.04)] border-t border-[#E7E2DA]/30 rounded-t-3xl md:hidden">
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined">home</span>
-<span class="font-serif italic text-[10px] tracking-tight">Home</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined">menu_book</span>
-<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">self_improvement</span>
-<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined">inventory_2</span>
-<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
-</a>
+<!-- TopNavBar -->
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
+
+<script>
+(function () {
+  var nav = document.getElementById("main-nav");
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove("nav-hero");
+      nav.classList.add("glass-nav");
+    } else {
+      nav.classList.add("nav-hero");
+      nav.classList.remove("glass-nav");
+    }
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 </body></html>

@@ -81,132 +81,73 @@
             background-size: 24px 24px;
             opacity: 0.15;
         }
-    </style>
+    
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
 <style>
     body {
       min-height: max(884px, 100dvh);
     }
-  </style>
+  
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
   </head>
 <body class="bg-surface font-body text-on-surface selection:bg-primary-container/30">
-<!-- Top Navigation Shell -->
-<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5 flex items-center justify-between px-6 h-16 w-full">
-<div class="flex items-center gap-4">
-<button class="text-[#755B00] hover:opacity-80 transition-opacity">
-<span class="material-symbols-outlined" data-icon="menu">menu</span>
-</button>
-<h1 class="font-serif text-2xl tracking-wide font-medium text-[#755B00]">JainAwaken</h1>
-</div>
-<div class="hidden md:flex gap-8 items-center font-serif italic text-[#4D4B3E]">
-<a class="text-[#755B00] hover:opacity-80 transition-opacity" href="#">Home</a>
-<a class="hover:opacity-80 transition-opacity" href="#">Philosophy</a>
-<a class="hover:opacity-80 transition-opacity" href="#">Meditation</a>
-<a class="hover:opacity-80 transition-opacity" href="#">Archive</a>
-</div>
-<div class="flex items-center">
-<span class="font-serif italic text-[#755B00] text-xl">Spirit</span>
-</div>
-</header>
-<main class="pt-16 pb-24 min-h-screen relative overflow-hidden">
-<div class="absolute inset-0 parchment-texture pointer-events-none"></div>
-<!-- Hero Section: The Golden Banner -->
-<section class="relative w-full h-[353px] md:h-[442px] overflow-hidden">
-<img alt="Golden Karma Dust" class="w-full h-full object-cover grayscale-[0.2] brightness-90" data-alt="Golden dust banner with spiritual light particles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiQnOkS1BwhGZkNWcMRfDWv19ekTcIPp2686z8FKv3XY-MMHJeN1OtVthgLB2EX1tAhnBO9k1SYBzhNDu6YKvsMr7NEpJCYOLTSmaJq2CePOceWSwqnbdnsSmyEKjE_bn1ZUbRcoRwYZ1wxlDAGXX9zWz674-wXoMR0B7sx3uK7rsSvRHdxnZ_qJVYTvCW0HxtBbTf16jx6w5DQXjgRCq2k2A51bfxU26cvkRvB7P8nT4v2RuvDr-W-5F9RGJwEP19xkNu5r4HMQ"/>
-<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/20 to-transparent"></div>
-<div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-<span class="font-headline text-primary text-6xl md:text-9xl opacity-80 mb-4 tracking-widest">कर्म</span>
-<div class="w-16 h-px bg-primary/40 mb-4"></div>
-<h2 class="font-headline text-3xl md:text-5xl text-on-surface tracking-tight">The Science of Karma</h2>
-</div>
-</section>
-<!-- Content Canvas -->
-<section class="max-w-6xl mx-auto px-6 -mt-12 relative z-10">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-<!-- Main Definition Card -->
-<div class="md:col-span-8 space-y-8">
-<div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-[0_4px_20px_rgba(29,28,23,0.03)] border-b-2 border-primary/10">
-<p class="font-headline text-2xl md:text-3xl text-on-surface leading-relaxed italic mb-8">
-                            Not fate—particles of matter that attach to the soul based on your <span class="text-primary not-italic font-bold">thoughts, words, and actions</span>.
-                        </p>
-<div class="flex flex-wrap gap-4">
-<span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-sm font-medium tracking-wide">Pudgala</span>
-<span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-sm font-medium tracking-wide">Soul Bound</span>
-<span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-sm font-medium tracking-wide">Cosmic Law</span>
-</div>
-</div>
-<!-- Sutra Quote Component -->
-<div class="bg-surface-container-lowest p-8 border-l-2 border-primary">
-<p class="font-headline text-xl text-on-surface-variant leading-relaxed">
-                            Every thought you think right now is either binding or releasing karma. The soul is a magnet; your vibration determines the density of the dust that clings.
-                        </p>
-</div>
-<!-- Interaction Cards: Bento Style -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<div class="bg-surface-container-low p-6 rounded-xl hover:bg-surface-container-high transition-colors">
-<span class="material-symbols-outlined text-primary mb-4" data-icon="psychology">psychology</span>
-<h3 class="font-headline text-lg mb-2 text-primary">Mental Bhava</h3>
-<p class="text-sm text-on-surface-variant">Your intentions (Bhava) are the primary glue of karmic bonding. A pure thought dissolves old layers.</p>
-</div>
-<div class="bg-surface-container-low p-6 rounded-xl hover:bg-surface-container-high transition-colors">
-<span class="material-symbols-outlined text-primary mb-4" data-icon="auto_awesome">auto_awesome</span>
-<h3 class="font-headline text-lg mb-2 text-primary">Nirjara</h3>
-<p class="text-sm text-on-surface-variant">The process of shedding karmic matter through mindfulness and equanimity. Reclaiming the soul's light.</p>
-</div>
-</div>
-</div>
-<!-- Sidebar / Scholarly Notes -->
-<aside class="md:col-span-4 space-y-6">
-<div class="bg-surface-container p-6 rounded-xl">
-<h4 class="font-headline text-primary-fixed-dim bg-on-primary-fixed-variant/5 inline-block px-2 mb-4 font-bold text-sm tracking-widest uppercase">The Ledger</h4>
-<ul class="space-y-4">
-<li class="flex items-start gap-3">
-<span class="w-1 h-1 rounded-full bg-primary mt-2"></span>
-<p class="text-sm leading-snug">Karma is physical matter (Varganas) invisible to the naked eye.</p>
-</li>
-<li class="flex items-start gap-3">
-<span class="w-1 h-1 rounded-full bg-primary mt-2"></span>
-<p class="text-sm leading-snug">Passions (Kashayas) like anger and greed create the 'stickiness'.</p>
-</li>
-<li class="flex items-start gap-3">
-<span class="w-1 h-1 rounded-full bg-primary mt-2"></span>
-<p class="text-sm leading-snug">Liberation is the complete absence of this dust.</p>
-</li>
-</ul>
-</div>
-<!-- Call to Action -->
-<div class="bg-gradient-to-br from-primary to-primary-container p-8 rounded-sm shadow-lg text-on-primary">
-<h4 class="font-headline text-xl mb-4">Reflect on your current Bhava</h4>
-<p class="text-sm opacity-90 mb-6">Begin a 5-minute meditation on non-attachment to current thoughts.</p>
-<button class="bg-surface-container-lowest text-primary font-bold px-6 py-2 rounded-sm text-sm hover:opacity-90 transition-opacity flex items-center gap-2">
-<span>Begin Practice</span>
-<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
-</button>
-</div>
-</aside>
-</div>
-</section>
-</main>
-<!-- Bottom Navigation Shell -->
-<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F5F0E8] shadow-[0_-4px_20px_rgba(29,28,23,0.04)] border-t border-[#E7E2DA]/30 rounded-t-3xl md:hidden">
-<a class="flex flex-col items-center justify-center text-[#755B00] bg-[#F8F3EB] rounded-xl px-3 py-1 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined" data-icon="home">home</span>
-<span class="font-serif italic text-[10px] tracking-tight">Home</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
-<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined" data-icon="self_improvement">self_improvement</span>
-<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500 ease-in-out" href="#">
-<span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
-<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
-</a>
+<!-- TopNavBar -->
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
 <!-- Floating Action Button for Meditative Insight (Contextual) -->
 <button class="fixed right-6 bottom-24 md:bottom-8 bg-primary text-on-primary w-14 h-14 rounded-full shadow-xl flex items-center justify-center hover:scale-105 active:scale-95 transition-transform z-40">
 <span class="material-symbols-outlined" data-icon="auto_stories" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
 </button>
+
+<script>
+(function () {
+  var nav = document.getElementById("main-nav");
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove("nav-hero");
+      nav.classList.add("glass-nav");
+    } else {
+      nav.classList.add("nav-hero");
+      nav.classList.remove("glass-nav");
+    }
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 </body></html>

@@ -88,146 +88,52 @@
         .gold-gradient {
             background: linear-gradient(135deg, #755b00 0%, #c9a84c 100%);
         }
-    </style>
+    
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
 <style>
     body {
       min-height: max(884px, 100dvh);
     }
-  </style>
+  
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+</style>
   </head>
 <body class="bg-surface selection:bg-primary-container selection:text-on-primary-container">
-<!-- Top Navigation Shell -->
-<header class="fixed top-0 w-full z-50 bg-[#F5F0E8]/80 dark:bg-[#1D1C17]/80 backdrop-blur-md shadow-sm shadow-[#1D1C17]/5 flex items-center justify-between px-6 h-16">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-[#755B00] cursor-pointer hover:opacity-80 transition-opacity">menu</span>
-<h1 class="font-serif text-2xl tracking-wide font-medium text-[#755B00]">JainAwaken</h1>
-</div>
-<div class="hidden md:flex gap-8 items-center">
-<span class="font-serif italic text-[#755B00] cursor-pointer">Home</span>
-<span class="font-serif italic text-[#4D4B3E] hover:text-[#755B00] transition-colors cursor-pointer">Philosophy</span>
-<span class="font-serif italic text-[#4D4B3E] hover:text-[#755B00] transition-colors cursor-pointer">Meditation</span>
-<span class="font-serif italic text-[#4D4B3E] hover:text-[#755B00] transition-colors cursor-pointer">Archive</span>
-</div>
-<div class="flex items-center gap-2">
-<span class="font-serif italic text-[#755B00] text-xl">गति</span>
-</div>
-</header>
-<main class="pt-16 pb-32 max-w-7xl mx-auto px-6 lg:px-12">
-<!-- Hero Section: The Pathway -->
-<section class="mt-8 mb-16 relative overflow-hidden rounded-xl h-[400px] lg:h-[500px]">
-<img alt="Ancient pathway banner" class="w-full h-full object-cover grayscale opacity-40 mix-blend-multiply" data-alt="Ancient stone pathway leading into misty light" src="images/gati-hero.png"/>
-<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
-<div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-<span class="serif-text text-primary text-6xl md:text-8xl mb-4 font-bold tracking-widest opacity-90">गति</span>
-<h2 class="serif-text text-3xl md:text-5xl text-on-surface font-medium tracking-tight">Gati: The Cycle of Becoming</h2>
-<div class="w-16 h-0.5 bg-primary mt-6 mb-4"></div>
-<p class="max-w-xl text-on-surface-variant italic font-serif leading-relaxed text-lg">
-                    The four states of existence a soul cycles through until it finds the path of ultimate liberation.
-                </p>
-</div>
-</section>
-<!-- Bento Grid: The Four States -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-20">
-<!-- Narak (Hellish) -->
-<div class="md:col-span-4 bg-surface-container-low p-8 rounded-xl border-l-2 border-primary group hover:bg-surface-container transition-colors duration-500">
-<div class="flex justify-between items-start mb-6">
-<span class="material-symbols-outlined text-primary text-3xl" data-icon="dark_mode">dark_mode</span>
-<span class="serif-text italic text-outline text-sm tracking-widest uppercase">State I</span>
-</div>
-<h3 class="serif-text text-2xl text-on-surface font-bold mb-3">Narak <span class="font-normal text-lg text-on-surface-variant">— Hellish Beings</span></h3>
-<p class="text-on-surface-variant font-body leading-relaxed mb-6">
-                    The hellish realm where souls endure suffering due to past violence, anger, and excessive accumulation.
-                </p>
-<div class="flex items-center gap-2 text-primary font-serif italic text-sm">
-<span>Hellish Beings</span>
-<span class="w-8 h-px bg-outline-variant"></span>
-</div>
-</div>
-<!-- Tiryanch (Sub-human/Nature) -->
-<div class="md:col-span-8 bg-surface-container-high p-8 rounded-xl group hover:shadow-xl hover:shadow-primary/5 transition-all duration-700 overflow-hidden relative">
-<div class="relative z-10 flex flex-col md:flex-row gap-8 items-center">
-<div class="w-full md:w-1/2">
-<div class="flex justify-between items-start mb-6">
-<span class="material-symbols-outlined text-primary text-3xl" data-icon="nature">nature</span>
-<span class="serif-text italic text-outline text-sm tracking-widest uppercase">State II</span>
-</div>
-<h3 class="serif-text text-2xl text-on-surface font-bold mb-3">Tiryanch <span class="font-normal text-lg text-on-surface-variant">— Animal Kingdom (Micro to Macro)</span></h3>
-<p class="text-on-surface-variant font-body leading-relaxed">
-                            The animal and plant kingdoms. A state marked by basic survival instincts and varying levels of sensory consciousness.
-                        </p>
-</div>
-<div class="w-full md:w-1/2 h-48 rounded-lg overflow-hidden bg-surface-container-lowest">
-<img alt="Plants and animals" class="w-full h-full object-cover opacity-60 grayscale hover:grayscale-0 transition-all duration-700" data-alt="Lush green forest floor with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJMwDu0fANQAgL7qqCRg8tN8x6lzL2jY1yiDme1QAKgTUCVBIahxEKnol-p-m4rh-BUOlTkmKrpcBcOyouHA80bn9tzvhhKaO1CZs7ZmkRh49AUxP6Y9pv9BeFLaEa6cmeYw9vxqsMJLN1qPtX3Uom85UwibmdcPR8mW9l44pVsOL7UwieHuTQP0EyvTBFCEVZI6zkPqPJx5z8abr1efJWHu4V9EeTgMU5C0GHWUvV6xx9iHIq7nQPRBgvTSCUZbBfNXkCtou_Ng"/>
-</div>
-</div>
-</div>
-<!-- Manushya (Human) -->
-<div class="md:col-span-7 bg-surface-container-highest p-8 rounded-xl flex flex-col justify-center border-b-2 border-primary/20">
-<div class="flex justify-between items-start mb-6">
-<span class="material-symbols-outlined text-primary text-3xl" data-icon="person_meditating">person</span>
-<span class="serif-text italic text-outline text-sm tracking-widest uppercase">State III</span>
-</div>
-<h3 class="serif-text text-3xl text-on-surface font-bold mb-4">Manushya <span class="font-normal text-xl text-on-surface-variant">— Human Beings</span></h3>
-<p class="text-on-surface-variant font-body leading-relaxed text-lg mb-8">
-                    The rarest and most auspicious state. Only in the human form can a soul practice restraint, tap into deep wisdom, and eventually break the cycle of Gati.
-                </p>
-<button class="w-fit px-8 py-3 gold-gradient text-white rounded-sm font-serif italic shadow-lg shadow-primary/20 hover:opacity-90 transition-opacity">
-                    Seek Liberation
-                </button>
-</div>
-<!-- Dev (Celestial) -->
-<div class="md:col-span-5 bg-surface-container-low p-8 rounded-xl relative group">
-<div class="absolute top-0 right-0 p-4 opacity-10">
-<span class="material-symbols-outlined text-8xl" data-icon="auto_awesome">auto_awesome</span>
-</div>
-<div class="flex justify-between items-start mb-6">
-<span class="material-symbols-outlined text-primary text-3xl" data-icon="brightness_7">brightness_7</span>
-<span class="serif-text italic text-outline text-sm tracking-widest uppercase">State IV</span>
-</div>
-<h3 class="serif-text text-2xl text-on-surface font-bold mb-3">Dev <span class="font-normal text-lg text-on-surface-variant">— Heavenly Beings</span></h3>
-<p class="text-on-surface-variant font-body leading-relaxed mb-6">
-                    Celestial beings living in heavens. While a state of immense pleasure and longevity, it is still temporary and bound by the laws of Karma.
-                </p>
-<ul class="space-y-3 font-serif italic text-sm text-primary">
-<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary/40"></span> Divine Splendor</li>
-<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary/40"></span> Subtle Form</li>
-<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary/40"></span> Temporary Peace</li>
-</ul>
-</div>
-</div>
-<!-- Sutra Quote Section -->
-<section class="mb-20 px-4 md:px-20 py-16 bg-surface-container-lowest relative overflow-hidden">
-<div class="absolute left-0 top-0 w-1 h-full bg-primary"></div>
-<div class="max-w-3xl mx-auto">
-<span class="material-symbols-outlined text-primary-container text-6xl mb-4 block" data-icon="format_quote">format_quote</span>
-<p class="serif-text text-2xl md:text-3xl text-on-surface-variant leading-relaxed italic mb-8">
-                    "The soul, like a flame in a windless place, wanders through the Gatis until it realizes its own infinite nature, separate from all karma."
-                </p>
-<div class="flex items-center gap-4">
-<div class="h-px flex-grow bg-outline-variant/30"></div>
-<cite class="serif-text text-primary font-medium tracking-wide">Tattvartha Sutra</cite>
-</div>
-</div>
-</section>
-</main>
-<!-- Bottom Navigation Shell -->
-<nav class="fixed bottom-0 left-0 w-full z-50 bg-[#F5F0E8] dark:bg-[#1D1C17] border-t border-[#E7E2DA]/30 shadow-[0_-4px_20px_rgba(29,28,23,0.04)] flex justify-around items-center px-4 pb-6 pt-3 rounded-t-3xl">
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500" href="#">
-<span class="material-symbols-outlined mb-1" data-icon="home">home</span>
-<span class="font-serif italic text-[10px] tracking-tight">Home</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#755B00] dark:text-[#C9A84C] bg-[#F8F3EB] dark:bg-[#2A2922] rounded-xl px-3 py-1 transition-all duration-500" href="#">
-<span class="material-symbols-outlined mb-1" data-icon="menu_book">menu_book</span>
-<span class="font-serif italic text-[10px] tracking-tight">Philosophy</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500" href="#">
-<span class="material-symbols-outlined mb-1" data-icon="self_improvement">self_improvement</span>
-<span class="font-serif italic text-[10px] tracking-tight">Meditation</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#4D4B3E] dark:text-[#A8A29D] opacity-60 hover:bg-[#E7E2DA]/40 transition-all duration-500" href="#">
-<span class="material-symbols-outlined mb-1" data-icon="inventory_2">inventory_2</span>
-<span class="font-serif italic text-[10px] tracking-tight">Archive</span>
-</a>
+<!-- TopNavBar -->
+<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
 </nav>
 <!-- Decorative Corner Element -->
 <div class="fixed bottom-24 right-8 z-40 md:block hidden">
@@ -235,4 +141,22 @@
 <span class="material-symbols-outlined text-primary text-2xl" data-icon="cycle">cycle</span>
 </div>
 </div>
+
+<script>
+(function () {
+  var nav = document.getElementById("main-nav");
+  var threshold = 80;
+  function update() {
+    if (window.scrollY > threshold) {
+      nav.classList.remove("nav-hero");
+      nav.classList.add("glass-nav");
+    } else {
+      nav.classList.add("nav-hero");
+      nav.classList.remove("glass-nav");
+    }
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+})();
+</script>
 </body></html>
