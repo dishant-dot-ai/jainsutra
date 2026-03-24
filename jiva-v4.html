@@ -5,7 +5,7 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Jiva (Sanskrit: जीव) - JainAwaken.org</title>
 <!-- TopNavBar -->
-<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50  transition-all duration-500 border-b border-[#C9A84C]/10">
     <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
         <div class="flex items-center gap-12">
             <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
@@ -182,21 +182,5 @@
 </div>
 </footer>
 
-<script>
-(function () {
-  var nav = document.getElementById("main-nav");
-  var threshold = 80;
-  function update() {
-    if (window.scrollY > threshold) {
-      nav.classList.remove("nav-hero");
-      nav.classList.add("glass-nav");
-    } else {
-      nav.classList.add("nav-hero");
-      nav.classList.remove("glass-nav");
-    }
-  }
-  window.addEventListener("scroll", update, { passive: true });
-  update();
-})();
-</script>
+
 </body></html>

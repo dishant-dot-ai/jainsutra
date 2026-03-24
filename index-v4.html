@@ -104,6 +104,15 @@
     .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
     .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
     .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+    
+    /* Hero Zoom Out Animation */
+    @keyframes hero-zoom-out {
+      from { transform: scale(1.15); }
+      to { transform: scale(1); }
+    }
+    .hero-image-zoom {
+      animation: hero-zoom-out 20s cubic-bezier(0.2, 0, 0.4, 1) forwards;
+    }
 </style>
 </head>
 <body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
@@ -132,7 +141,7 @@
 
 <!-- ===================== HERO ===================== -->
 <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-  <img alt="Jain temple interior" class="absolute inset-0 w-full h-full object-cover object-center" src="assets/jain-temple.jpg"/>
+  <img alt="Jain temple interior" class="absolute inset-0 w-full h-full object-cover object-center hero-image-zoom" src="assets/jain-temple.jpg"/>
   <div class="absolute inset-0 bg-gradient-to-b from-[#1d1c17]/55 via-[#1d1c17]/35 to-[#1d1c17]/65"></div>
   <div class="relative z-10 text-center px-8 max-w-4xl mx-auto space-y-8">
     <span class="block text-[#C9A84C] font-label tracking-[0.3em] text-xs uppercase font-semibold">The Eternal Path</span>

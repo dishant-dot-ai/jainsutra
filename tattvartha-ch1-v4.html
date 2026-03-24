@@ -141,17 +141,17 @@
       }
                 
     .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
-    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
-    .nav-hero .nav-logo { color: #ffffff !important; }
-    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
-    .nav-hero .nav-link:hover { color: #ffffff !important; }
-    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
-    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
-    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+    . { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    . .nav-logo { color: #ffffff !important; }
+    . .nav-link { color: rgba(255,255,255,0.8) !important; }
+    . .nav-link:hover { color: #ffffff !important; }
+    . .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    . .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    . .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
 </style></head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
 <!-- TopNavBar -->
-<nav id="main-nav" class="fixed top-0 w-full z-50 nav-hero transition-all duration-500 border-b border-[#C9A84C]/10">
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50  transition-all duration-500 border-b border-[#C9A84C]/10">
     <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
         <div class="flex items-center gap-12">
             <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
@@ -827,21 +827,5 @@ Sanskrit sutras by <span class="text-primary font-semibold">Acharya Umasvati</sp
 </script>
 
 
-<script>
-(function () {
-  var nav = document.getElementById("main-nav");
-  var threshold = 80;
-  function update() {
-    if (window.scrollY > threshold) {
-      nav.classList.remove("nav-hero");
-      nav.classList.add("glass-nav");
-    } else {
-      nav.classList.add("nav-hero");
-      nav.classList.remove("glass-nav");
-    }
-  }
-  window.addEventListener("scroll", update, { passive: true });
-  update();
-})();
-</script>
+
 </body></html>
