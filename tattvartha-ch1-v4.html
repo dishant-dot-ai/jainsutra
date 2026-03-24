@@ -92,7 +92,67 @@
       .sutra-card {
         border-left: 3px solid #c9a84c;
       }
+      
       .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      
+      /* Ensure numbers and star icons have exact same width for perfect vertical alignment */
+      .sutra-card > div > span:first-child {
+        width: 3.5rem;
+        display: inline-block;
+      }
+      
+      /* Pondering Over Section Styling */
+      .pondering-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem; /* Matches gap-6 */
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        /* Matches sutra card's 2rem padding + 3px left border */
+        padding: 0 2rem 0 calc(2rem + 3px); 
+      }
+      .pondering-star {
+        font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+        color: #c9a84c;
+        font-size: 2rem;
+        flex-shrink: 0;
+        width: 3.5rem;
+        display: inline-block;
+        padding-top: 0.25rem;
+      }
+      .pondering-content {
+        flex: 1;
+      }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      .pondering-recap {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1d1c17;
+        line-height: 1.625;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      .pondering-questions {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #4d4637;
+        line-height: 1.625;
+        font-style: italic;
+        padding: 1.5rem;
+        background: rgba(201,168,76,0.05);
+        border-left: 2px solid #c9a84c;
+        display: block;
+      }
+
       .simple-explanation { 
         margin-top: 1rem;
         padding-top: 1rem;
@@ -204,7 +264,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -282,10 +342,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Right faith, right knowledge, and right conduct &mdash; together &mdash; form the path to liberation.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Think of these as a three-legged stool. You need all three legs for it to stand. Having just faith, or just knowledge, or just good behavior alone won&rsquo;t get you to liberation &mdash; you need all three working together. Liberation means being completely free from all karmas.</p>
 <p class="simple-explanation"><b>The simple version:</b> To be truly free, you need to believe the truth, know the truth, and live the truth. If you miss even one, the whole thing falls apart.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Can you really act "good" if you don't actually believe in what you are doing? Why or why not?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -299,10 +356,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Believing in things as they truly are &mdash; that is right faith (<em>samyagdarshana</em>).</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Right faith means seeing reality clearly, without distortion. It&rsquo;s not blind belief &mdash; it&rsquo;s understanding the true nature of things (like the soul, karma, and liberation) and trusting in that understanding. It comes in two forms: with some worldly attachment still present, and completely free from attachment.</p>
 <p class="simple-explanation"><b>The simple version:</b> Right faith isn't just "wishing" something is true. It's looking at the world and seeing it exactly as it is, without any lies or confusion in your way.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Think of a time you were 100% sure about something, but later realized you were wrong. What part of your "seeing" was distorted?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -316,10 +370,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Right faith can arise naturally from within, or through learning from others.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Some souls awaken to the truth on their own &mdash; like a sudden inner realization when faith-blocking karmas weaken. Others develop right faith by listening to a teacher, reading scriptures, or learning from someone who already has it. Both paths are valid.</p>
 <p class="simple-explanation"><b>The simple version:</b> Some people just "get it" one day (like a lightbulb going off), while others need to read books or have a wise person explain it to them.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Do you find it easier to learn something by figuring it out yourself, or by having someone explain the "how-to" to you?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -333,10 +384,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">The seven fundamental truths are: soul, non-soul, karmic inflow, bondage, stoppage, shedding of karma, and liberation.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">These seven truths (<em>tattvas</em>) are the building blocks of everything in Jainism. The <em>soul</em> is the living, conscious being. <em>Non-soul</em> is everything else (matter, space, time, etc.). <em>Inflow</em> is karma pouring into the soul. <em>Bondage</em> is karma sticking to the soul. <em>Stoppage</em> is blocking new karma from entering. <em>Shedding</em> is removing old karma. <em>Liberation</em> is when all karma is gone and the soul is completely free.</p>
 <p class="simple-explanation"><b>The simple version:</b> There are 7 basic facts about reality: You (the soul), everything not you, how bad vibes come in, how they stick, how to stop them, how to wash them off, and being finally free.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you were trying to clean a dusty room, which would you do first: stop the dust from coming in (stoppage) or start sweeping (shedding)? Why?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -350,10 +398,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">These truths can be understood in four ways: by name, by representation, by substance, and by actual state.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Imagine you want to understand &ldquo;soul.&rdquo; By <em>name</em> &mdash; simply calling something a soul. By <em>representation</em> &mdash; using an idol or symbol to represent it. By <em>substance</em> &mdash; recognizing the actual entity that has the potential to become a soul. By <em>actual state</em> &mdash; understanding the soul as it exists right now, in its present condition.</p>
 <p class="simple-explanation"><b>The simple version:</b> You can understand anything by its label (name), a picture/symbol of it, what it's made of (potential), or what it is doing right now (reality).</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>A photo of a fire can't burn you, but a real fire can. Why is it important to know the difference between a "representation" and the "actual state"?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -367,10 +412,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">We gain knowledge of these truths through two methods: seeing the whole picture (<em>pramana</em>) and looking from a particular angle (<em>naya</em>).</p>
 <p class="text-base text-on-surface-variant leading-relaxed"><em>Pramana</em> is like looking at an elephant and seeing the entire animal. <em>Naya</em> is like looking at just the trunk, or just the tail &mdash; a partial but valid perspective. Both methods are needed. The full picture gives you the complete truth; the partial view helps you understand specific aspects in detail.</p>
 <p class="simple-explanation"><b>The simple version:</b> You can know things in two ways: seeing the whole thing at once (Pramana) or looking at one specific detail (Naya). You need both to not be confused.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If two people look at the same object from different sides, can they both be "right" even if they see something different?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -384,10 +426,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">To fully understand something, examine it through six lenses: what it is, who possesses it, what causes it, where it exists, how long it lasts, and what types it has.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">This is like a framework for studying anything in Jainism. For example, to understand right faith: What is it? (description). Who has it? (ownership). What causes it? (origin). Where does it exist? (location). How long does it last? (duration). How many types are there? (division).</p>
 <p class="simple-explanation"><b>The simple version:</b> To really "get" something, you have to ask: What is it? Who has it? How did it start? Where is it? How long is it there? and What kind is it?</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Pick an object near you. Try to answer these six questions about it. Does it change how you feel about the object?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -401,13 +440,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">The seven truths can also be studied by: does it exist, how many, where, how far it extends, when, time gaps, its inner nature, and how things compare to each other.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">This is another set of tools for deeper understanding. Together with the six lenses from the previous sutra, these give us a complete toolkit for examining any concept in Jain philosophy from every possible angle.</p>
 <p class="simple-explanation"><b>The simple version:</b> More questions to ask: Is it real? How many? Where? How big? When? How does it feel inside? and Is it more or less than something else?</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Why do you think Jainism provides so many "checklists" for thinking? How does this help prevent lazy thinking?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: The Path to Liberation -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Path to Liberation</span>
+        <span class="pondering-recap">The path to liberation is a combination of right belief, right knowledge, and right conduct (1.1). We explored the seven fundamental truths (1.4) and how we can learn about them through natural intuition or by being taught (1.3).</span>
+        <span class="pondering-questions">Is it possible to have right conduct without right belief? Why do all three have to work together like legs on a stool?</span>
+    </div>
+</div>
 
 <!-- Divider: Five Kinds of Knowledge -->
 <div class="my-16 text-center">
@@ -423,10 +470,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">There are five kinds of knowledge: memory power (<em>mati jnana</em>), intelligence (<em>shrut jnana</em>), clairvoyance (<em>avadhi jnana</em>), telepathy (<em>manahparyaya jnana</em>), and omniscience (<em>keval jnana</em>).</p>
 <p class="text-base text-on-surface-variant leading-relaxed"><em>Mati jnana</em> is what you know through your senses and mind &mdash; what you see, hear, remember, and figure out. <em>Shrut jnana</em> is knowledge gained through study, reading, and learning from teachers. <em>Avadhi jnana</em> is the ability to perceive things beyond normal senses &mdash; seeing what&rsquo;s far away or hidden. <em>Manahparyaya jnana</em> is reading another person&rsquo;s thoughts. <em>Keval jnana</em> is omniscience &mdash; knowing absolutely everything in the universe at once. This is what the Tirthankaras achieve.</p>
 <p class="simple-explanation"><b>The simple version:</b> There are 5 ways to know things: Senses/Mind, Study, Special Sight, Mind-reading, and Knowing Everything (Perfect knowledge).</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Most of us only use the first two (Senses and Study). What would life be like if you could suddenly read minds (Telepathy)? Would it be better or worse?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -440,10 +484,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">These five kinds of knowledge are the only valid ways of knowing.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Jainism recognizes only these five as true knowledge. No other method &mdash; no matter who invented it &mdash; qualifies as a valid source of truth. They fall into two groups: indirect knowledge (the first two) and direct knowledge (the last three).</p>
 <p class="simple-explanation"><b>The simple version:</b> Only these 5 ways of knowing are "official" and true. Everything else is just guessing or being confused.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If something isn't learned through your senses, study, or special inner sight, can you really call it "knowledge"?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -457,10 +498,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Memory power and intelligence are indirect knowledge.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">These two are called &ldquo;indirect&rdquo; because they depend on outside help to work. Memory power needs your senses (eyes, ears, etc.) and your mind. Intelligence needs teachers, books, and learning from others. The soul doesn&rsquo;t know directly on its own &mdash; it needs these external tools.</p>
 <p class="simple-explanation"><b>The simple version:</b> Senses and Study are like wearing glasses. You aren't seeing directly with your soul; you're using "tools" (eyes, ears, books) to help you see.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you lost all your senses (sight, sound, etc.), would you still "know" that you exist? How?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -474,13 +512,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">The remaining three &mdash; clairvoyance, telepathy, and omniscience &mdash; are direct knowledge.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">These are called &ldquo;direct&rdquo; because the soul knows by itself, without needing senses or external help. When karmas that block knowledge are reduced or destroyed, these abilities naturally emerge from within the soul.</p>
 <p class="simple-explanation"><b>The simple version:</b> These special powers are like taking off the glasses and seeing perfectly because your soul is "awake." You don't need any tools anymore.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If the soul naturally knows everything, what is currently "blocking" you from knowing what's happening on the other side of the world right now?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: Five Kinds of Knowledge -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Five Kinds of Knowledge</span>
+        <span class="pondering-recap">True knowledge comes in five forms: sensory, scriptural, clairvoyance, telepathy, and omniscience (1.9). The first two are indirect (filtered through our senses and mind), while the last three are direct experiences of the soul (1.11-1.12).</span>
+        <span class="pondering-questions">Since our normal knowledge is filtered through our physical senses, how often do you think your 'facts' are actually just 'interpretations'?</span>
+    </div>
+</div>
 
 <!-- Divider: Memory Power -->
 <div class="my-16 text-center">
@@ -496,10 +542,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Perception, remembering, recognizing, reasoning, and understanding are all different names for memory power (<em>mati jnana</em>).</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Memory power includes everything your mind does with information from the senses: seeing something for the first time, recalling it later, recognizing it when you see it again, thinking about it logically, and drawing conclusions. All of these are different aspects of the same ability.</p>
 <p class="simple-explanation"><b>The simple version:</b> Thinking, remembering, and noticing things are all part of the same "brain power" (Mati). They are just different ways your mind uses what it sees.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Is "forgetting" a failure of the soul, or just a failure of the "tool" (the mind)?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -513,10 +556,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Memory power works through the five senses and the mind.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Your five senses (sight, hearing, smell, taste, touch) gather information from the outside world, and your mind processes it. The mind is like a sixth sense &mdash; an internal one. By itself, the soul has the nature of knowledge, but when blocked by karmas, it needs these tools to perceive things.</p>
 <p class="simple-explanation"><b>The simple version:</b> You learn about the world through your 5 senses + your 1 mind. Think of them as 6 windows that let light into a dark room.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Which of your 6 "windows" (senses or mind) do you trust the most? Which one do you trust the least?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -530,10 +570,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Memory power works in four steps: first impression, curiosity, understanding, and retention.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Imagine you spot something white in the distance. Step 1 (<em>avagraha</em>): You notice it &mdash; &ldquo;there&rsquo;s something white over there.&rdquo; Step 2 (<em>iha</em>): You get curious &mdash; &ldquo;Is it a crane or a flag?&rdquo; Step 3 (<em>avaya</em>): You figure it out &mdash; &ldquo;It&rsquo;s a crane, I can see it flapping its wings.&rdquo; Step 4 (<em>dharana</em>): You remember it &mdash; &ldquo;That&rsquo;s the same crane I saw this morning.&rdquo;</p>
 <p class="simple-explanation"><b>The simple version:</b> Knowing happens in 4 fast steps: 1. Noticing, 2. Wondering "What is that?", 3. Realizing "Oh, it's a [thing]!", and 4. Storing it in your memory.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Can you think of a time you skipped Step 3 and went straight to Step 4, only to realize later you remembered it wrong?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -547,10 +584,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Each of the four steps has sub-types: many, many kinds, quick, hidden, unexpressed, lasting &mdash; and their opposites.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">For example, an impression can be of many things at once or just one thing. It can happen quickly or slowly. The object might be partially hidden or fully visible. The knowledge might be spoken or unspoken. And it can be permanent or fleeting. This shows how detailed and layered even basic perception really is.</p>
 <p class="simple-explanation"><b>The simple version:</b> Those 4 steps change based on what you're looking at. Is it hidden? Is it moving fast? Is there a lot of it? Your mind adjusts to all these variations.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Why is it harder to "know" something that is moving fast versus something that is staying still?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -564,10 +598,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">These four steps of memory power apply to clear, distinct objects.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">When you perceive something clearly &mdash; a person, a sound, a smell &mdash; all four steps (impression, curiosity, understanding, retention) take place. The senses deal with actual substances, not just abstract qualities.</p>
 <p class="simple-explanation"><b>The simple version:</b> You go through all 4 steps when the thing you're looking at is clear and real (like a dog or a car).</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you see a "ghost" but it's just a shadow, at what step (1, 2, or 3) did the mistake happen?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -581,10 +612,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">For vague, unclear things, only the first step (impression) happens.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Think of hearing a faint sound in the distance &mdash; you sense something is there, but you can&rsquo;t make it out clearly. You get an impression, but you can&rsquo;t get curious about details or understand what it is yet. It&rsquo;s like a new pot that doesn&rsquo;t absorb the first few drops of water &mdash; clarity takes time.</p>
 <p class="simple-explanation"><b>The simple version:</b> If something is super vague (like a tiny whisper), you only get to Step 1 (Noticing). You don't have enough info to wonder what it is or realize the truth yet.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Think of a faint smell. You know *something* is there, but you can't tell if it's cookies or a flower. Why is Step 1 sometimes enough to keep you alert?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -598,13 +626,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">This vague impression doesn&rsquo;t happen with the eyes or the mind.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Your eyes and mind work differently from touch, taste, smell, and hearing. The eyes can see things without physical contact &mdash; you see clearly from a distance. The mind also processes things without contact. So these two don&rsquo;t have that &ldquo;vague, building-up&rdquo; phase that the other senses do.</p>
 <p class="simple-explanation"><b>The simple version:</b> Eyes and Mind are special. They don't need to "touch" things to know them, so they usually skip the "vague" phase and get straight to the point.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Does seeing something make it "more real" to you than just hearing about it? Why?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: Memory and Understanding -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Memory and Understanding</span>
+        <span class="pondering-recap">Sensory knowledge isn't just seeing or hearing; it's a process of grasping, inquiring, recognizing, and finally retaining that information (1.15). We gather this data through our five senses and our mind (1.14).</span>
+        <span class="pondering-questions">Think of a time you 'saw' something but didn't actually 'perceive' it until later. How can you train your mind to be more observant?</span>
+    </div>
+</div>
 
 <!-- Divider: Intelligence -->
 <div class="my-16 text-center">
@@ -620,13 +656,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Intelligence (<em>shrut jnana</em>) builds on top of memory power. It comes in two main types, many sub-types, and twelve categories.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">You can&rsquo;t study and learn without first having basic perception. Intelligence builds on what your senses take in. The two main divisions are: works within the original Jain scriptures (the 12 <em>angas</em> &mdash; the canonical texts) and works outside them. The knowledge comes from three levels of teachers: the omniscient Tirthankara himself, his direct disciples, and later scholars.</p>
 <p class="simple-explanation"><b>The simple version:</b> Study (Shrut) happens AFTER you notice things. It's when you take what you see and learn deep things from books, teachers, and ancient wisdom.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you could never read a book or talk to a teacher, how much of the "Truth" could you figure out just by using your own 5 senses?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: Scriptural Knowledge -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Scriptural Knowledge</span>
+        <span class="pondering-recap">Scriptural knowledge is preceded by sensory knowledge (1.20) and helps us understand concepts beyond our immediate environment. It has multiple divisions depending on the depth of study.</span>
+        <span class="pondering-questions">How does reading ancient wisdom change the way your physical senses perceive the modern world around you?</span>
+    </div>
+</div>
 
 <!-- Divider: Clairvoyance -->
 <div class="my-16 text-center">
@@ -642,10 +686,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Celestial beings (devas) and hellish beings (narakis) are born with clairvoyance automatically.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">These beings don&rsquo;t earn clairvoyance through effort &mdash; it comes naturally with their type of existence. Just like birds can fly by nature, devas and hellish beings can perceive things beyond normal senses simply because of where and how they are born. However, if they hold wrong beliefs, their clairvoyance is considered flawed.</p>
 <p class="simple-explanation"><b>The simple version:</b> For some beings (like those in heaven or hell), "special sight" is like a basic instinct. They don't have to work for it; they're just born with it.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you were born with the ability to see through walls, would you use it for good, or would it just make life more complicated?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -659,13 +700,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Humans and animals can also gain clairvoyance, through reducing their karmas. It comes in six varieties.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">The six types describe how this ability behaves: it can follow you everywhere (like your shadow), or only appear in certain places. It can grow stronger over time, or weaken. It can stay steady, or fluctuate like waves. Not everyone gets it &mdash; only those with right faith, the right capacity, and whose knowledge-blocking karmas are sufficiently weakened.</p>
 <p class="simple-explanation"><b>The simple version:</b> Humans and animals have to "clean" their souls to get this special sight. Once they get it, it can be permanent, temporary, or even grow stronger depending on how they live.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>In Jainism, even some animals can have special spiritual powers. Does this change how you look at the creatures around you?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: Clairvoyance -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Clairvoyance</span>
+        <span class="pondering-recap">Clairvoyance (Avadhi) allows a soul to perceive physical objects at a distance without using the senses. For celestial and infernal beings, this power is innate from birth (1.21). For humans and animals, it must be earned through spiritual merit (1.22).</span>
+        <span class="pondering-questions">If you could see anything happening anywhere in the world right now, would it bring you peace or anxiety?</span>
+    </div>
+</div>
 
 <!-- Divider: Telepathy -->
 <div class="my-16 text-center">
@@ -681,10 +730,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Telepathy comes in two levels: <em>rjumati</em> (basic) and <em>vipulamati</em> (advanced).</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Basic telepathy (<em>rjumati</em>) is straightforward mind-reading &mdash; knowing what others are thinking, but with limited range (a few past or future births). Advanced telepathy (<em>vipulamati</em>) is far more powerful &mdash; it can span innumerable births and perceive much subtler thoughts. Both arise only in highly disciplined ascetics.</p>
 <p class="simple-explanation"><b>The simple version:</b> Mind-reading has two levels: "Basic" (reading simple thoughts) and "Pro" (reading super deep, subtle thoughts from many lives ago).</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Why do you think only people with extreme self-control (ascetics) are allowed to have mind-reading powers? What would happen if a greedy person could read minds?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -698,10 +744,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">The difference between basic and advanced telepathy comes down to purity and reliability.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Advanced telepathy (<em>vipulamati</em>) is purer &mdash; it can perceive subtler, finer details. It&rsquo;s also infallible &mdash; once attained, it never degrades or falls back. Basic telepathy, on the other hand, can weaken or be lost if the person&rsquo;s spiritual conduct declines.</p>
 <p class="simple-explanation"><b>The simple version:</b> The "Pro" version of mind-reading is more detailed and it stays forever. The "Basic" version can be lost if you start acting badly.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Is there any skill you've learned that you're afraid of losing if you don't keep practicing? How does that compare to spiritual "powers"?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -715,13 +758,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Telepathy and clairvoyance differ in four ways: purity, range, who can have it, and what it can perceive.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Telepathy is purer &mdash; it sees finer details than clairvoyance. Clairvoyance can cover a wider area but telepathy goes deeper into subtler matter. Also, clairvoyance can be possessed by many types of beings, but telepathy is only possible for ascetics at very high levels of spiritual discipline.</p>
 <p class="simple-explanation"><b>The simple version:</b> Special Sight (Clairvoyance) and Mind-reading (Telepathy) are different in 4 ways: how clear they are, how far they reach, who can use them, and what exactly they see.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you could only have one, would you rather see things far away or know what people are thinking right next to you? Why?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: Telepathy -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Telepathy</span>
+        <span class="pondering-recap">Telepathy (Manahparyaya) is the direct perception of the thoughts in other beings' minds (1.23). It is purer and more focused than clairvoyance, but it is limited to the human realm (1.24-1.25).</span>
+        <span class="pondering-questions">If everyone could hear your thoughts, would you change what you think about? Why is a pure mind necessary for telepathy?</span>
+    </div>
+</div>
 
 <!-- Divider: Scope of Knowledge -->
 <div class="my-16 text-center">
@@ -737,10 +788,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Memory power and intelligence can cover all six types of substances, but not every aspect of them.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">The six substances in Jain cosmology are: souls, matter, the medium of motion, the medium of rest, space, and time. Your senses and learning can tell you about all of these &mdash; but only partially. You can know some features, not all of their infinite forms and states. That&rsquo;s why these are considered limited.</p>
 <p class="simple-explanation"><b>The simple version:</b> Your everyday mind and your studies can touch every part of the universe, but they can't see the whole truth. It's like looking at a mountain through a keyhole.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you can only see a part of the truth, is it dangerous to act as if you know the *whole* truth?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -754,10 +802,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Clairvoyance can only perceive things that have physical form.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Clairvoyance works on matter &mdash; things you could theoretically see or touch, like physical objects, bodies, and material particles. It cannot perceive non-physical things like the soul itself, space, or the medium of motion. Even within physical things, its range is limited based on the person&rsquo;s spiritual development.</p>
 <p class="simple-explanation"><b>The simple version:</b> Special sight (Clairvoyance) only works on physical stuff. It can't "see" invisible things like your soul or empty space.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Is something only "real" if it has a physical form? Why do we often value physical things more than invisible things (like love or consciousness)?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -771,10 +816,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Telepathy perceives an infinitely tiny fraction of what the highest clairvoyance can see &mdash; but with far greater depth.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Think of it this way: clairvoyance is like a wide-angle camera that sees a lot but not in extreme detail. Telepathy is like a super-powered microscope &mdash; it sees a much smaller area but zooms into incredibly fine, subtle details that clairvoyance can&rsquo;t reach.</p>
 <p class="simple-explanation"><b>The simple version:</b> Mind-reading covers a tiny area compared to special sight, but it sees things that are way more detailed and hidden.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>What is more powerful: a person who knows everything about "where" things are, or a person who knows exactly "what" people are feeling?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -788,10 +830,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Omniscience knows everything &mdash; every substance, every form, every mode &mdash; all at once.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">This is the ultimate knowledge. While the other four types of knowledge are limited in what they can perceive, omniscience has no limits. It knows every soul, every atom, every moment of the past, present, and future &mdash; all simultaneously. This is what the Tirthankaras and all liberated souls achieve. Nothing in the universe is outside its scope.</p>
 <p class="simple-explanation"><b>The simple version:</b> Perfect knowledge (Keval) is like having the "cheat codes" to the universe. You know every single thing, in every single place, at every single time, all at once.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>If you knew absolutely everything that was going to happen, would you still feel the need to worry about anything? Does total knowledge bring total peace?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -805,13 +844,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul can hold one to four types of knowledge at the same time &mdash; but not all five.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">If a soul has just one type, it must be omniscience &mdash; because that&rsquo;s the only one that stands completely alone. Two at once? Memory power + intelligence. Three? Add clairvoyance or telepathy. Four? Memory power + intelligence + clairvoyance + telepathy. But omniscience never co-exists with the others, because once you&rsquo;re omniscient, you don&rsquo;t need anything else.</p>
 <p class="simple-explanation"><b>The simple version:</b> You can have up to 4 kinds of knowledge at once. But once you reach the top level (Omniscience), you drop all the others because you don't need tools anymore.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Why use a flashlight (senses) when the sun (omniscience) is already shining? Once you know the whole truth, do the partial truths even matter?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: Scope of Knowledge -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Scope of Knowledge</span>
+        <span class="pondering-recap">While sensory and scriptural knowledge can only grasp a fraction of reality, and clairvoyance and telepathy have physical limits, Omniscience (Kevala) knows all substances and all their modes simultaneously, without limits (1.29).</span>
+        <span class="pondering-questions">What would it feel like to know everything at once? Would it feel like total control, or total surrender?</span>
+    </div>
+</div>
 
 <!-- Divider: Erroneous Knowledge -->
 <div class="my-16 text-center">
@@ -827,10 +874,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">Memory power, intelligence, and clairvoyance can all become faulty.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">When someone holds wrong beliefs about reality, even their accurate observations become &ldquo;wrong knowledge.&rdquo; It&rsquo;s like pouring good milk into a bitter gourd &mdash; the container spoils the contents. The person might see or learn things correctly, but because their fundamental worldview is off, the knowledge is considered tainted. With right faith, the same knowledge becomes pure.</p>
 <p class="simple-explanation"><b>The simple version:</b> Your mind, your studies, and even your special sight can be wrong if you start with a bad attitude or a false belief. It's like using a broken compass &mdash; no matter how carefully you walk, you'll still get lost.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Have you ever seen something correctly but interpreted it completely wrong because you were angry or biased?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -844,13 +888,21 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">When you can&rsquo;t tell what&rsquo;s real from what&rsquo;s not, your knowledge becomes as unreliable as a madman&rsquo;s.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Wrong belief causes three types of errors: confusing the cause of something (like thinking color is permanent), confusing whether things are same or different (like thinking cause and effect are identical), and confusing the nature of things (like thinking colors don&rsquo;t exist at all). With right faith, these errors disappear and knowledge becomes trustworthy.</p>
 <p class="simple-explanation"><b>The simple version:</b> If you can't tell the difference between what's real and what's fake, your "knowledge" is just random guessing. You might be right sometimes, but you won't know why.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>In a world of "fake news," how do you decide what is real and what is just a distraction?</p>
-</div>
+
 </div>
 </div>
 </article>
+
+
+<!-- Pondering Over: Erroneous Knowledge -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Erroneous Knowledge</span>
+        <span class="pondering-recap">Without right belief, even accurate data becomes wrong knowledge (1.31). The mind misinterprets reality, just like a lunatic might call a piece of gold a piece of iron (1.32).</span>
+        <span class="pondering-questions">Have you ever held a completely wrong belief that made you interpret true facts incorrectly? How do you make sure your core beliefs are right?</span>
+    </div>
+</div>
 
 <!-- Divider: Seven Standpoints -->
 <div class="my-16 text-center">
@@ -866,10 +918,7 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
 <p class="text-lg font-semibold text-on-surface leading-relaxed">There are seven ways of looking at reality: the figurative, the general, the practical, the present-moment, the verbal, the conventional, and the specific.</p>
 <p class="text-base text-on-surface-variant leading-relaxed">Each standpoint is like a different lens for viewing the same truth. The <em>figurative</em> view considers intention (saying &ldquo;I&rsquo;m cooking&rdquo; while still gathering ingredients). The <em>general</em> view groups everything broadly (&ldquo;all things exist&rdquo;). The <em>practical</em> view divides things into specific categories. The <em>present-moment</em> view focuses only on right now. The <em>verbal</em> view focuses on the exact meaning of words. The <em>conventional</em> view picks one main meaning from many. The <em>specific</em> view considers only the actual present state. Each lens on its own gives a partial picture. Only by combining all seven do you see the full truth &mdash; this is the heart of Anekantavada, the Jain doctrine of many-sidedness.</p>
 <p class="simple-explanation"><b>The simple version:</b> There are 7 different "angles" to see any truth. Some look at the big picture, some look at the details, and some look at the words we use. To see the WHOLE truth, you have to use all 7 angles at the same time.</p>
-<div class="contemplation-box">
-<h5>Ponder this</h5>
-<p>Think of an argument you had with a friend. What was "their angle" and what was "your angle"? Is it possible both were partially true?</p>
-</div>
+
 </div>
 </div>
 </article>
@@ -890,7 +939,18 @@ Chapter 1 &mdash; <span class="text-primary font-semibold">Right Faith and Knowl
             </div>
         </div>
 
-        <!-- Chapter End --><div class="my-16 py-12 text-center border-t border-b border-primary/20">
+        
+<!-- Pondering Over: The Seven Standpoints -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Seven Standpoints</span>
+        <span class="pondering-recap">Reality is complex. Jainism uses seven standpoints (Nayas) to understand a single object from different angles—from its broad universal category down to its exact state in the present moment (1.33).</span>
+        <span class="pondering-questions">When you disagree with someone, are you both just looking at the same truth from two different 'standpoints'? How does this idea foster tolerance?</span>
+    </div>
+</div>
+
+<!-- Chapter End --><div class="my-16 py-12 text-center border-t border-b border-primary/20">
 <p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे प्रथमोऽध्यायः समाप्तः ॥</p>
 <p class="text-on-surface-variant text-sm mt-3 font-label italic">Thus ends the First Chapter of Tattvarthasutra, also known as Mokshashastra.</p>
 </div>

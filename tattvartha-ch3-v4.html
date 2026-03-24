@@ -93,6 +93,64 @@
         border-left: 3px solid #c9a84c;
       }
       .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      .simple-explanation { 
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px dashed rgba(201,168,76,0.3);
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        line-height: 1.7;
+        color: #4d4637;
+      }
+      .simple-explanation b { color: #755b00; font-weight: 600; }
+      /* Pondering Over Section Styling */
+      .pondering-section {
+        display: flex;
+        items-align: flex-start;
+        gap: 1.5rem; /* Gap-6 matching sutra-card */
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        padding: 0 2rem; /* Aligns with the 8 padding of cards if container is same */
+      }
+      .pondering-star {
+        font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+        color: #c9a84c;
+        font-size: 2rem;
+        flex-shrink: 0;
+        padding-top: 0.25rem;
+      }
+      .pondering-content {
+        flex: 1;
+      }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      .pondering-recap {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1d1c17;
+        line-height: 1.625;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      .pondering-questions {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #4d4637;
+        line-height: 1.625;
+        font-style: italic;
+        padding: 1.5rem;
+        background: rgba(201,168,76,0.05);
+        border-left: 2px solid #c9a84c;
+        display: block;
+      }
                   .nav-button { 
                     position: fixed; 
                     bottom: 24px; 
@@ -172,7 +230,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -318,6 +376,16 @@ Think of the Jain cosmos like a three-layered structure. The lower world is a st
 </div>
 </article>
 
+<!-- Pondering Over: The Lower World -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Lower World</span>
+        <span class="pondering-recap">We've explored the seven levels of the lower world (3.1), noting how the population decreases while suffering intensifies as you go deeper (3.2). These realms are defined by darker vibes, physical pain, and constant conflict (3.3-3.5), with lifespans stretching into trillions of years (3.6).</span>
+        <span class="pondering-questions">Does the idea of "hell" being a state of mind (coloration) change how you see your own dark moments? If suffering is often caused by our own anger and weapons, how can we start putting down those inner weapons today?</span>
+    </div>
+</div>
+
 <!-- Divider: The Middle World: Continents and Oceans -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Middle World: Continents and Oceans</span>
@@ -358,6 +426,16 @@ Think of the Jain cosmos like a three-layered structure. The lower world is a st
 </div>
 </div>
 </article>
+
+<!-- Pondering Over: The Cosmic Design -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Cosmic Design</span>
+        <span class="pondering-recap">The middle world is a magnificent pattern of concentric rings — continents and oceans that double in size as they expand outward (3.7-3.8). At the very heart of it all stands Mount Meru, the cosmic axis of our home, Jambudvipa (3.9).</span>
+        <span class="pondering-questions">Living in a universe built on such perfect, geometric patterns — does it make reality feel more like a purposeful home or just a random accident? If Mount Meru is the physical center of the world, what is the "center" of your own life that everything else revolves around?</span>
+    </div>
+</div>
 
 <!-- Divider: Regions and Mountains of Jambudvipa -->
 <div class="my-16 text-center">
@@ -542,6 +620,16 @@ Think of the Jain cosmos like a three-layered structure. The lower world is a st
 </div>
 </article>
 
+<!-- Pondering Over: A World of Jewels and Rivers -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: A World of Jewels and Rivers</span>
+        <span class="pondering-recap">Jambudvipa is divided into seven regions by six giant, jewel-coloured mountain ranges (3.10-3.13). Atop these mountains are cosmic lakes and giant lotuses, home to celestial beings (3.14-3.19). From these heights, 14 major rivers flow down, accompanied by hundreds of thousands of tributaries, watering the entire continent (3.20-3.23).</span>
+        <span class="pondering-questions">Jainism describes a world literally built of gold, silver, and lapis lazuli. Why do we often only see the "grey" parts of our world? How can you start looking for the "jewels" and "life-giving rivers" in your own environment today?</span>
+    </div>
+</div>
+
 <!-- Divider: Dimensions of the Regions -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Dimensions of the Regions</span>
@@ -582,6 +670,16 @@ Think of the Jain cosmos like a three-layered structure. The lower world is a st
 </div>
 </div>
 </article>
+
+<!-- Pondering Over: Balance and Proportion -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Balance and Proportion</span>
+        <span class="pondering-recap">We see the exact mathematical measurements of our land (3.24) and the perfect doubling of widths as we move toward the center (3.25). The universe is a mirror, with the North perfectly matching the South (3.26).</span>
+        <span class="pondering-questions">Does knowing the exact mathematical order of the world make you feel more "at home"? How can you bring more "proportional balance" to your own daily life — balancing your work, your rest, and your spiritual study?</span>
+    </div>
+</div>
 
 <!-- Divider: Time Cycles and Human Life -->
 <div class="my-16 text-center">
@@ -648,6 +746,18 @@ Think of the Jain cosmos like a three-layered structure. The lower world is a st
 </div>
 </article>
 
+</article>
+
+<!-- Pondering Over: Time and Stability -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Time and Stability</span>
+        <span class="pondering-recap">Time moves in giant cycles of rise and fall in Bharata and Airavata (3.27), while other regions remain perfectly stable (3.28). In those stable lands, humans enjoy incredibly long, peaceful lifespans (3.29-3.30), while Videha offers countable years and constant spiritual opportunity (3.31).</span>
+        <span class="pondering-questions">If you lived in a land where time never changed, would you still feel the "rush" to achieve things? How can you find a sense of "stable time" inside yourself even while living in a world that is constantly changing?</span>
+    </div>
+</div>
+
 <!-- Divider: Beyond Jambudvipa -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Beyond Jambudvipa</span>
@@ -701,6 +811,16 @@ Think of the Jain cosmos like a three-layered structure. The lower world is a st
 </div>
 </article>
 
+<!-- Pondering Over: Our Place in the Universe -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Our Place in the Universe</span>
+        <span class="pondering-recap">We've looked at the vast rings beyond Jambudvipa (3.32-3.34) and discovered the absolute boundary of where human life can exist (3.35).</span>
+        <span class="pondering-questions">Knowing that human life is restricted to a relatively tiny "circle" in an infinite universe, does it make you value your current birth more? If you only have one "plot" of cosmic land where you can actually work toward freedom, are you using it wisely?</span>
+    </div>
+</div>
+
 <!-- Divider: Types of Human Beings and Regions of Labour -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Types of Human Beings and Regions of Labour</span>
@@ -753,6 +873,16 @@ Think of the Jain cosmos like a three-layered structure. The lower world is a st
 </div>
 </div>
 </article>
+
+<!-- Pondering Over: Action and Lifespan -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Action and Lifespan</span>
+        <span class="pondering-recap">We've distinguished between civilized (arya) and unevolved (mleccha) states of being (3.36), and identified the specific "Regions of Labour" (karmabhumi) where spiritual progress is possible (3.37). Finally, we saw the vast range of lifespans available to both humans and subhuman beings (3.38-3.39).</span>
+        <span class="pondering-questions">If only certain regions allow for the "labour" of shedding karma, and life can be as short as 48 minutes — how urgent does your spiritual path feel right now? Are you making the most of your "civilized" human birth in this region of action?</span>
+    </div>
+</div>
 
 <!-- Chapter End -->
 <div class="my-16 py-12 text-center border-t border-b border-primary/20">

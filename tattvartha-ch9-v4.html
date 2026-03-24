@@ -47,7 +47,67 @@
       .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
       .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
       .sutra-card { border-left: 3px solid #c9a84c; }
+      
       .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      
+      /* Ensure numbers and star icons have exact same width for perfect vertical alignment */
+      .sutra-card > div > span:first-child {
+        width: 3.5rem;
+        display: inline-block;
+      }
+      
+      /* Pondering Over Section Styling */
+      .pondering-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem; /* Matches gap-6 */
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        /* Matches sutra card's 2rem padding + 3px left border */
+        padding: 0 2rem 0 calc(2rem + 3px); 
+      }
+      .pondering-star {
+        font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+        color: #c9a84c;
+        font-size: 2rem;
+        flex-shrink: 0;
+        width: 3.5rem;
+        display: inline-block;
+        padding-top: 0.25rem;
+      }
+      .pondering-content {
+        flex: 1;
+      }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      .pondering-recap {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1d1c17;
+        line-height: 1.625;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      .pondering-questions {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #4d4637;
+        line-height: 1.625;
+        font-style: italic;
+        padding: 1.5rem;
+        background: rgba(201,168,76,0.05);
+        border-left: 2px solid #c9a84c;
+        display: block;
+      }
+
       .nav-button { 
         position: fixed; 
         bottom: 24px; 
@@ -129,7 +189,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -240,7 +300,18 @@
             </div>
         </article>
 
-        <!-- Section: The Stoppage Toolkit -->
+        
+<!-- Pondering Over: Stoppage (Samvara) -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Stoppage (Samvara)</span>
+        <span class="pondering-recap">Stoppage (Samvara) is the obstruction of incoming karma (9.1). It is the 'Do Not Disturb' sign for the soul, keeping new dust from entering the system.</span>
+        <span class="pondering-questions">If your soul is a house, what is the biggest 'open window' where stress and bad vibes keep blowing in?</span>
+    </div>
+</div>
+
+<!-- Section: The Stoppage Toolkit -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Stoppage Toolkit</span>
         </div>
@@ -425,7 +496,18 @@
             </div>
         </article>
 
-        <!-- Section: The Science of Shedding (Nirjara) -->
+        
+<!-- Pondering Over: The Toolkit of Protection -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Toolkit of Protection</span>
+        <span class="pondering-recap">Stoppage is achieved through a massive toolkit: carefulness (samiti), self-control (gupti), virtues (dharma), reflections (anupreksha), conquering hardships (parishaha), and pure conduct (charitra) (9.2).</span>
+        <span class="pondering-questions">Which tool do you need most today: the 'carefulness' to not hurt others, or the 'endurance' to not complain when things get hard?</span>
+    </div>
+</div>
+
+<!-- Section: The Science of Shedding (Nirjara) -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Science of Shedding</span>
         </div>
@@ -526,7 +608,18 @@
             </div>
         </article>
 
-        <!-- Section: The Power of Meditation -->
+        
+<!-- Pondering Over: The Fire of Penance -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Fire of Penance</span>
+        <span class="pondering-recap">To get rid of old karma, you need Shedding (Nirjara), which is achieved through Penance (Tapa) (9.3). This includes external penances like fasting (9.19) and internal penances like study, service, and meditation (9.20).</span>
+        <span class="pondering-questions">We usually think of 'penance' as punishment. What if it's just 'sweating it out' in a spiritual gym? What 'workout' does your mind need?</span>
+    </div>
+</div>
+
+<!-- Section: The Power of Meditation -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Power of Meditation</span>
         </div>
@@ -759,7 +852,18 @@
             </div>
         </article>
 
-        <!-- Chapter End -->
+        
+<!-- Pondering Over: Meditation and Spiritual Ranks -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Meditation and Spiritual Ranks</span>
+        <span class="pondering-recap">Meditation (Dhyana) is the ultimate internal penance. It involves focusing the mind on a single object for up to 48 minutes (9.27). The chapter closes by mapping the different ranks of advanced monks (9.47).</span>
+        <span class="pondering-questions">Can you focus on a single, positive thought for even 48 seconds without getting distracted? What happens when you try?</span>
+    </div>
+</div>
+
+<!-- Chapter End -->
         <div class="my-16 py-12 text-center border-t border-b border-primary/20">
             <p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे नवमोऽध्यायः समाप्तः ॥</p>
             <p class="text-on-surface-variant text-sm mt-3 font-label italic">Thus ends the Ninth Chapter of Tattvarthasutra, also known as Mokshashastra.</p>

@@ -47,7 +47,67 @@
       .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
       .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
       .sutra-card { border-left: 3px solid #c9a84c; }
+      
       .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      
+      /* Ensure numbers and star icons have exact same width for perfect vertical alignment */
+      .sutra-card > div > span:first-child {
+        width: 3.5rem;
+        display: inline-block;
+      }
+      
+      /* Pondering Over Section Styling */
+      .pondering-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem; /* Matches gap-6 */
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        /* Matches sutra card's 2rem padding + 3px left border */
+        padding: 0 2rem 0 calc(2rem + 3px); 
+      }
+      .pondering-star {
+        font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+        color: #c9a84c;
+        font-size: 2rem;
+        flex-shrink: 0;
+        width: 3.5rem;
+        display: inline-block;
+        padding-top: 0.25rem;
+      }
+      .pondering-content {
+        flex: 1;
+      }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      .pondering-recap {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1d1c17;
+        line-height: 1.625;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      .pondering-questions {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #4d4637;
+        line-height: 1.625;
+        font-style: italic;
+        padding: 1.5rem;
+        background: rgba(201,168,76,0.05);
+        border-left: 2px solid #c9a84c;
+        display: block;
+      }
+
       .nav-button { 
         position: fixed; 
         bottom: 24px; 
@@ -129,7 +189,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -240,7 +300,18 @@
             </div>
         </article>
 
-        <!-- Section: The Four Types of Bondage -->
+        
+<!-- Pondering Over: Causes of Bondage -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Causes of Bondage</span>
+        <span class="pondering-recap">Karma sticks because of wrong belief, lack of control, carelessness, passions, and activity (8.1). Passions act like glue, attracting karmic matter to the soul (8.2), which is the definition of bondage (8.3).</span>
+        <span class="pondering-questions">If passions are the 'glue,' what specific emotion (anger, pride, greed) is making you the 'stickiest' today?</span>
+    </div>
+</div>
+
+<!-- Section: The Four Types of Bondage -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Four Aspects</span>
         </div>
@@ -257,7 +328,18 @@
             </div>
         </article>
 
-        <!-- Section: Nature of Karma (Prakriti) -->
+        
+<!-- Pondering Over: The Four Types of Bondage -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Four Types of Bondage</span>
+        <span class="pondering-recap">Bondage has four dimensions: what kind of karma it is (Nature), how long it lasts (Duration), how intensely it will affect you (Fruition), and how much of it there is (Quantity) (8.4).</span>
+        <span class="pondering-questions">When you make a mistake, do you worry more about 'how long' the consequence will last, or 'how bad' it will feel?</span>
+    </div>
+</div>
+
+<!-- Section: Nature of Karma (Prakriti) -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Nature (Prakriti)</span>
         </div>
@@ -393,7 +475,18 @@
             </div>
         </article>
 
-        <!-- Section: Mechanics of Bondage -->
+        
+<!-- Pondering Over: The Eight Core Karmas -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Eight Core Karmas</span>
+        <span class="pondering-recap">The 'Nature' of karma is divided into 8 main types (8.5) and 148 subtypes (8.6). They obscure knowledge, cause feelings, delude beliefs, determine lifespans, build bodies, assign status, and obstruct success (8.7-8.14).</span>
+        <span class="pondering-questions">If you had the power to instantly dissolve ONE of these eight karmic blocks in yourself today, which one would it be?</span>
+    </div>
+</div>
+
+<!-- Section: Mechanics of Bondage -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">How It Works</span>
         </div>
@@ -458,7 +551,18 @@
             </div>
         </article>
 
-        <!-- Section: Final Rules of Bondage -->
+        
+<!-- Pondering Over: Mechanics of Fruition -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Mechanics of Fruition</span>
+        <span class="pondering-recap">The quantity of karma you attract depends on your activity (Yoga) (8.25). The duration and intensity of the karma depend entirely on your passions (Kashaya) (8.26). When karma finishes giving its result, it naturally falls away (8.23).</span>
+        <span class="pondering-questions">Your movements determine HOW MUCH karma you get, but your emotions determine HOW BAD it hurts. How can you stay emotionally neutral during a busy day?</span>
+    </div>
+</div>
+
+<!-- Section: Final Rules of Bondage -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Rulebook</span>
         </div>
@@ -499,7 +603,18 @@
             </div>
         </article>
 
-        <!-- Chapter End -->
+        
+<!-- Pondering Over: The Rule of Passions -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Rule of Passions</span>
+        <span class="pondering-recap">The final sutras reinforce that the quality of your future experiences is tied directly to the emotional intensity of your present actions. Good passions bring good results; bad passions bring bad results (8.27).</span>
+        <span class="pondering-questions">If your future reality is just an echo of your current emotional state, what kind of future are you broadcasting right now?</span>
+    </div>
+</div>
+
+<!-- Chapter End -->
         <div class="my-16 py-12 text-center border-t border-b border-primary/20">
             <p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे अष्टमोऽध्यायः समाप्तः ॥</p>
             <p class="text-on-surface-variant text-sm mt-3 font-label italic">Thus ends the Eighth Chapter of Tattvarthasutra, also known as Mokshashastra.</p>

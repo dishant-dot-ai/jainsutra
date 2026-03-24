@@ -47,7 +47,67 @@
       .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
       .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
       .sutra-card { border-left: 3px solid #c9a84c; }
+      
       .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      
+      /* Ensure numbers and star icons have exact same width for perfect vertical alignment */
+      .sutra-card > div > span:first-child {
+        width: 3.5rem;
+        display: inline-block;
+      }
+      
+      /* Pondering Over Section Styling */
+      .pondering-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem; /* Matches gap-6 */
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        /* Matches sutra card's 2rem padding + 3px left border */
+        padding: 0 2rem 0 calc(2rem + 3px); 
+      }
+      .pondering-star {
+        font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+        color: #c9a84c;
+        font-size: 2rem;
+        flex-shrink: 0;
+        width: 3.5rem;
+        display: inline-block;
+        padding-top: 0.25rem;
+      }
+      .pondering-content {
+        flex: 1;
+      }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      .pondering-recap {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1d1c17;
+        line-height: 1.625;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      .pondering-questions {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #4d4637;
+        line-height: 1.625;
+        font-style: italic;
+        padding: 1.5rem;
+        background: rgba(201,168,76,0.05);
+        border-left: 2px solid #c9a84c;
+        display: block;
+      }
+
       .nav-button { 
         position: fixed; 
         bottom: 24px; 
@@ -129,7 +189,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -240,7 +300,18 @@
             </div>
         </article>
 
-        <!-- Section: The Upward Journey -->
+        
+<!-- Pondering Over: Attaining Perfection -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Attaining Perfection</span>
+        <span class="pondering-recap">Omniscience (perfect knowledge) happens when the four heavy, destructive karmas are completely wiped out (10.1). When all remaining karmas fall away, the soul is entirely free—this is Moksha (10.2).</span>
+        <span class="pondering-questions">Your soul already has perfect knowledge; it's just covered up. What 'blanket' of confusion can you pull off today to see reality more clearly?</span>
+    </div>
+</div>
+
+<!-- Section: The Upward Journey -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Upward Journey</span>
         </div>
@@ -293,7 +364,18 @@
             </div>
         </article>
 
-        <!-- Chapter End -->
+        
+<!-- Pondering Over: The Ultimate Destination -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Ultimate Destination</span>
+        <span class="pondering-recap">Upon liberation, the soul shoots straight up to the edge of the universe in a single instant (10.5). It stays there forever, perfectly peaceful, retaining its pure qualities but losing all worldly identity (10.4).</span>
+        <span class="pondering-questions">If ultimate freedom means losing your name, your body, and your history, are you actually ready to be free? What are you still holding onto?</span>
+    </div>
+</div>
+
+<!-- Chapter End -->
         <div class="my-16 py-12 text-center border-t border-b border-primary/20">
             <p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे दशमोऽध्यायः समाप्तः ॥</p>
             <p class="text-on-surface-variant text-sm mt-3 font-label italic">Thus ends the Tenth and Final Chapter of Tattvarthasutra, also known as Mokshashastra.</p>

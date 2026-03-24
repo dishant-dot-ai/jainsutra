@@ -47,7 +47,67 @@
       .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
       .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
       .sutra-card { border-left: 3px solid #c9a84c; }
+      
       .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      
+      /* Ensure numbers and star icons have exact same width for perfect vertical alignment */
+      .sutra-card > div > span:first-child {
+        width: 3.5rem;
+        display: inline-block;
+      }
+      
+      /* Pondering Over Section Styling */
+      .pondering-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem; /* Matches gap-6 */
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        /* Matches sutra card's 2rem padding + 3px left border */
+        padding: 0 2rem 0 calc(2rem + 3px); 
+      }
+      .pondering-star {
+        font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+        color: #c9a84c;
+        font-size: 2rem;
+        flex-shrink: 0;
+        width: 3.5rem;
+        display: inline-block;
+        padding-top: 0.25rem;
+      }
+      .pondering-content {
+        flex: 1;
+      }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      .pondering-recap {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1d1c17;
+        line-height: 1.625;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      .pondering-questions {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #4d4637;
+        line-height: 1.625;
+        font-style: italic;
+        padding: 1.5rem;
+        background: rgba(201,168,76,0.05);
+        border-left: 2px solid #c9a84c;
+        display: block;
+      }
+
       .nav-button { 
         position: fixed; 
         bottom: 24px; 
@@ -129,7 +189,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -240,7 +300,18 @@
             </div>
         </article>
 
-        <!-- Divider: Ahimsa Bhavanas -->
+        
+<!-- Pondering Over: The Five Vows -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Five Vows</span>
+        <span class="pondering-recap">We learned the 5 main vows (7.1) and that they can be taken partially or completely (7.2). To keep them strong, there are 5 specific contemplations (bhavanas) for each vow (7.3).</span>
+        <span class="pondering-questions">A vow is just a promise to yourself. Which of these five 'rules of the road' would be the hardest for you to stick to for a whole year?</span>
+    </div>
+</div>
+
+<!-- Divider: Ahimsa Bhavanas -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Observances of Non-violence</span>
         </div>
@@ -325,7 +396,18 @@
             </div>
         </article>
 
-        <!-- Section: Contemplations for Strength -->
+        
+<!-- Pondering Over: Daily Contemplations -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Daily Contemplations</span>
+        <span class="pondering-recap">To protect your vows, you must also meditate on universal friendship, joy at others' success, compassion for the suffering, and neutrality toward the wicked (7.6). You also meditate on the nature of the world and your own body (7.7).</span>
+        <span class="pondering-questions">Is it harder for you to feel compassion for someone who is suffering, or neutrality toward someone who is being deliberately wicked?</span>
+    </div>
+</div>
+
+<!-- Section: Contemplations for Strength -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Strengthening the Vows</span>
         </div>
@@ -378,7 +460,18 @@
             </div>
         </article>
 
-        <!-- Section: Definitions of the Sins -->
+        
+<!-- Pondering Over: The Deep Structure of Vows -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Deep Structure of Vows</span>
+        <span class="pondering-recap">True vows require understanding. We defined violence as severing vitality out of passion (7.8), falsehood as speaking what is not commendable (7.9), and stealing as taking what isn't given (7.10). Infatuation is unchastity (7.11), and attachment itself is possessiveness (7.12).</span>
+        <span class="pondering-questions">If violence is defined by the 'passion' behind it, not just the physical act, how does that change how you judge your own past mistakes?</span>
+    </div>
+</div>
+
+<!-- Section: Definitions of the Sins -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Defining the Sins</span>
         </div>
@@ -443,7 +536,18 @@
             </div>
         </article>
 
-        <!-- Section: The Path of the Votary -->
+        
+<!-- Pondering Over: Defining the Sins -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Defining the Sins</span>
+        <span class="pondering-recap">We explored the detailed definitions of what actually constitutes a sin. It's not just the physical action, but the intent and attachment behind it that truly binds the soul (7.8-7.12).</span>
+        <span class="pondering-questions">If 'attachment is possessiveness' (7.12), what invisible things (opinions, status, memories) are you currently hoarding?</span>
+    </div>
+</div>
+
+<!-- Section: The Path of the Votary -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Life of a Votary</span>
         </div>
@@ -508,7 +612,18 @@
             </div>
         </article>
 
-        <!-- Section: Avoiding Mistakes (Atichara) -->
+        
+<!-- Pondering Over: The Path of the Householder -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Path of the Householder</span>
+        <span class="pondering-recap">A layperson (householder) commits to the minor vows, avoiding unnecessary travel, useless talk, and meaningless violence (7.16-7.17). They also practice fasting and charity as guests to spiritual seekers (7.18).</span>
+        <span class="pondering-questions">How much of your daily activity is 'meaningless'—just scrolling, complaining, or wandering? How could you reign that in?</span>
+    </div>
+</div>
+
+<!-- Section: Avoiding Mistakes (Atichara) -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Transgressions: The Slips</span>
         </div>
@@ -695,7 +810,18 @@
             </div>
         </article>
 
-        <!-- Section: The Heart of Charity -->
+        
+<!-- Pondering Over: Guarding the Vows -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Guarding the Vows</span>
+        <span class="pondering-recap">A vow must be guarded against infractions (atichara). Even if you don't completely break a promise, being careless, negligent, or finding loopholes weakens the vow (7.20-7.32). You must maintain a clean mind, not just a clean record.</span>
+        <span class="pondering-questions">Have you ever found a 'loophole' in a promise you made to yourself? Did it make you feel clever, or did it make you feel weak?</span>
+    </div>
+</div>
+
+<!-- Section: The Heart of Charity -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Science of Giving</span>
         </div>
@@ -724,7 +850,18 @@
             </div>
         </article>
 
-        <!-- Chapter End -->
+        
+<!-- Pondering Over: The Power of Giving -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Power of Giving</span>
+        <span class="pondering-recap">The chapter concludes with Charity (Dana). It is defined as giving one's belongings for mutual benefit (7.33). The true value of a gift depends on the method, the giver, the recipient, and the thing given (7.34).</span>
+        <span class="pondering-questions">Charity is a spiritual exchange. When was the last time you gave something away and felt your own soul get lighter as a result?</span>
+    </div>
+</div>
+
+<!-- Chapter End -->
         <div class="my-16 py-12 text-center border-t border-b border-primary/20">
             <p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे सप्तमोऽध्यायः समाप्तः ॥</p>
             <p class="text-on-surface-variant text-sm mt-3 font-label italic">Thus ends the Seventh Chapter of Tattvarthasutra, also known as Mokshashastra.</p>

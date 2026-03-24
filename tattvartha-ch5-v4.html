@@ -80,9 +80,56 @@
       .sutra-quote { border-left: 1px solid #c9a84c; padding-left: 3rem; }
       .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
       .sutra-card { border-left: 3px solid #c9a84c; }
-      .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
-      .nav-button { 
-        position: fixed; 
+            .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+            /* Pondering Over Section Styling */
+            .pondering-section {
+              display: flex;
+              align-items: flex-start;
+              gap: 1.5rem; /* Gap-6 matching sutra-card */
+              margin-top: 4rem;
+              margin-bottom: 6rem;
+              padding: 0 2rem;
+            }
+            .pondering-star {
+              font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+              color: #c9a84c;
+              font-size: 2rem;
+              flex-shrink: 0;
+              padding-top: 0.25rem;
+            }
+            .pondering-content {
+              flex: 1;
+            }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+            .pondering-recap {
+              font-family: 'Inter', sans-serif;
+              font-size: 1.125rem;
+              font-weight: 600;
+              color: #1d1c17;
+              line-height: 1.625;
+              margin-bottom: 1.5rem;
+              display: block;
+            }
+            .pondering-questions {
+              font-family: 'Inter', sans-serif;
+              font-size: 1rem;
+              color: #4d4637;
+              line-height: 1.625;
+              font-style: italic;
+              padding: 1.5rem;
+              background: rgba(201,168,76,0.05);
+              border-left: 2px solid #c9a84c;
+              display: block;
+            }
+                        .nav-button {         position: fixed; 
         bottom: 24px; 
         z-index: 100;
         background: #ffffff;
@@ -161,7 +208,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -275,14 +322,19 @@ This chapter explains what each substance does, how many space-points it occupie
 </div>
 </article>
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">The universe is made of exactly six substances. Four of them — dharma, adharma, akasha, and pudgala — are non-soul bodies. The fifth is the soul. All six are real, independent entities that persist through change while possessing qualities and undergoing modes. Nothing in existence falls outside this framework.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— If the soul is just one of six substances, what makes it fundamentally different from the other five?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— We call something 'real' if it persists through change. What in your daily life do you treat as real but may actually be a passing mode with no underlying substance?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: The Six Substances -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Six Substances</span>
+        <span class="pondering-recap">We've established the six foundational substances (dravyas) that make up reality: the medium of motion, the medium of rest, space, matter (5.1), and the soul (5.3). They are all eternal, real substances (5.2).</span>
+        <span class="pondering-questions">If your soul is just one substance among six, and the only one that experiences consciousness, how does that perspective change the way you view the physical matter around you?</span>
+    </div>
+</div>
+
 <!-- Divider: Properties of Substances -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Properties of Substances</span>
@@ -338,14 +390,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">Substances are eternal — never created, never destroyed. Dharma, adharma, and space each exist as a single unbroken whole, one of each in the entire universe. Except for matter, all substances are formless and imperceptible. And despite enabling motion and rest for everything else, these three substances are themselves completely immovable.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— Everything in your experience seems temporary. If the underlying substances are eternal, what does that say about what you really are at your deepest level?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— Dharma enables movement without moving. Adharma enables rest without resting. Can you think of something in your life that makes a huge difference to others while remaining quietly unchanged itself?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: Properties of Substances -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Properties of Substances</span>
+        <span class="pondering-recap">These core substances are eternal, fixed in number, and mostly formless (5.4). Matter (pudgala) is the only substance that has a physical form (5.5). All of them, up to space, are continuous wholes extending through the universe (5.6).</span>
+        <span class="pondering-questions">If matter is the ONLY thing in the universe that actually has a physical shape or form, why do we let our "formless" consciousness get so obsessed with collecting it?</span>
+    </div>
+</div>
+
 <!-- Divider: Space-Points of Each Substance -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Space-Points of Each Substance</span>
@@ -401,14 +458,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">Different substances have different scales. The medium of motion, the medium of rest, and each soul contain innumerable space-points. Space is infinite. Matter ranges from one space-point to infinite. And the indivisible atom — the measuring unit itself — has no space-points, because it is the baseline by which space is measured.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— The soul is not a fixed, bounded thing — it occupies innumerable space-points and can expand or contract. Does that change how you think about the limits of what you are?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— The atom cannot be measured because it is the measure. What baseline assumptions in your own life — the things you use to judge everything else — do you rarely stop to examine?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: Dimensions and Space-Points -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Dimensions and Space-Points</span>
+        <span class="pondering-recap">Jain physics measures the size of these substances using "space-points" (pradesha). Space has infinite points (5.9), motion and rest have innumerable points (5.8), and matter can have any number of points down to a single atom (5.10). The soul has innumerable points (5.8) but cannot be broken apart like matter (5.11).</span>
+        <span class="pondering-questions">Your soul has the same number of space-points as the entire universe, packed into your current body. How does it feel to know you carry a universe-sized potential inside you?</span>
+    </div>
+</div>
+
 <!-- Divider: Location of Substances -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Location of Substances</span>
@@ -476,14 +538,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">All substances reside within the universe. Dharma and adharma fill it completely and uniformly. Matter occupies anywhere from one space-point to infinite. Souls occupy an innumerable fraction — yet all souls together fill the universe entirely. And like lamplight filling whatever room it is in, the soul contracts and expands to fit whatever body karma assigns it.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— Dharma and adharma coexist in the same space without merging or losing their identity. What does that suggest about how opposing things can coexist within you?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— Your soul fills your body completely regardless of its size, the way light fills a room. Does the size of your current circumstances actually limit what your soul is?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: Location of Substances -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Location of Substances</span>
+        <span class="pondering-recap">The mediums of motion and rest fill the entire universe perfectly (5.13). Matter exists throughout the universe as well (5.14). But souls can expand or contract to fit whatever body they are in, like the light from a lamp filling a room (5.16).</span>
+        <span class="pondering-questions">If your soul naturally expands to fill the "room" it is given, are you keeping your soul trapped in a tiny room of anxiety, or letting it expand into a large room of peace and understanding?</span>
+    </div>
+</div>
+
 <!-- Divider: Functions of Each Substance -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Functions of Each Substance</span>
@@ -563,14 +630,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">Every substance has a function — not as an active force, but as a passive enabler. Dharma allows movement. Adharma allows rest. Space gives room. Matter constitutes the body, speech, mind, and breath — and delivers pleasure, pain, life, and death through karma. Souls serve one another. And time is the invisible engine behind all change and modification.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— Karma is made of matter and delivers your experiences of pleasure and pain. How does that change your relationship to the good and bad things that happen to you?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— The fundamental function of souls is to assist one another. Looking at your recent interactions — are you functioning as a soul?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: The Function of Substances -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Function of Substances</span>
+        <span class="pondering-recap">Each non-living substance exists to support the soul. Motion supports moving (5.17), rest supports stopping (5.18), and space provides room (5.19). Matter provides our bodies, our breath, our minds (5.20), and even experiences of pleasure, pain, and life itself (5.21). Souls also function to support each other (5.22).</span>
+        <span class="pondering-questions">The universe is built as a support system. Space gives you room, matter gives you a body. Since souls exist to support one another (5.22), who did you support today?</span>
+    </div>
+</div>
+
 <!-- Divider: Characteristics of Matter -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Characteristics of Matter</span>
@@ -650,14 +722,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">Matter is defined by four inseparable qualities: touch, taste, smell, and colour. Beyond these, it has ten further modes including sound, shape, light, and darkness. All matter is either atoms — indivisible and imperceptible — or molecules formed from them. Only the simultaneous process of fission and fusion produces matter visible to the eye.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— Everything you can see, hear, taste, touch, or smell is matter. Your karma is a material substance. What part of your inner life do you imagine is truly non-material — and are you certain?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— Atoms are indestructible and invisible, yet everything visible is built from them. What invisible, indestructible things in your life form the foundation of everything else?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: Matter and its Forms -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Matter and its Forms</span>
+        <span class="pondering-recap">Matter comes in the form of indivisible atoms (anu) and molecules (skandha) (5.25). These molecules can form through combination, division, or both (5.26-5.28). Matter is characterized by touch, taste, smell, and color (5.23), and also produces sound, light, darkness, and shadows (5.24).</span>
+        <span class="pondering-questions">Every physical thing—from a mountain to a sound—is just atoms clustering together and breaking apart. Does seeing the physical world as a temporary "Lego structure" help you let go of attachment to it?</span>
+    </div>
+</div>
+
 <!-- Divider: The Nature of Existence -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Nature of Existence</span>
@@ -713,14 +790,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">A substance is defined by existence itself. Existence means three things happening simultaneously at every moment: something new arises, something old passes away, and the underlying substance persists. Permanence is the indestructibility of essential nature — not unchangingness. And apparently contradictory truths are both valid when seen from different standpoints of the same reality.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— Every moment, something in you is originating, something is passing away, and something is persisting. What is it that persists across all of it?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— Before calling something a contradiction, Anekantavada asks: from which standpoint are you speaking? Is there a conflict in your life this perspective could resolve?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: The Nature of Existence -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Nature of Existence</span>
+        <span class="pondering-recap">Jainism defines "reality" (sat) as that which is characterized by arising, vanishing, and permanence (5.29-5.30). A substance maintains its core identity even as its external modes constantly change. Furthermore, a substance cannot exist without its attributes, and attributes cannot exist without the substance (5.31).</span>
+        <span class="pondering-questions">You are constantly changing (arising and vanishing moods) while remaining the same person (permanence). Can you identify the "permanent" you that is watching the "changing" you right now?</span>
+    </div>
+</div>
+
 <!-- Divider: Atomic Combination -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Atomic Combination</span>
@@ -788,14 +870,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">Atoms combine through two binding properties — greasiness and roughness. Combination cannot happen between the weakest degrees, or between atoms of identical degree. A difference of at least two degrees is required. When combination occurs, the stronger atom transforms the weaker one entirely, producing a new molecule with a nature neither particle had before.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— Atoms only combine when there is sufficient difference between them — not when they are identical. What does this say about the necessity of contrast in creating something genuinely new?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— When a stronger atom transforms a weaker one, both their previous states disappear and something new emerges. What relationships have transformed you into something you could not have become alone?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: The Physics of Atoms -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Physics of Atoms</span>
+        <span class="pondering-recap">Atoms bind together to form molecules based on their properties of "smoothness" and "roughness" (positive and negative charges) (5.32-5.33). Equal opposite charges don't bind, but differing intensities allow them to combine and alter each other (5.34-5.37).</span>
+        <span class="pondering-questions">Just like atoms need specific "charges" to bond, we form relationships based on our emotional "charges." What kind of energy are you putting out, and what kind of people are you naturally binding with?</span>
+    </div>
+</div>
+
 <!-- Divider: Defining Substance, Time, and Transformation -->
 <div class="my-16 text-center">
 <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Defining Substance, Time, and Transformation</span>
@@ -863,14 +950,19 @@ This chapter explains what each substance does, how many space-points it occupie
 
 
 
-<div class="sutra-card bg-surface-container-lowest p-8 rounded-r-xl mb-6">
-  <p class="font-headline font-bold text-primary text-sm uppercase tracking-widest mb-4">Recap &amp; Reflect</p>
-  <p class="text-base text-on-surface-variant leading-relaxed mb-6">A substance is that which possesses permanent qualities and undergoes temporary modes. Time is formally the sixth substance — unique in that each of its atoms stands alone at a single space-point. Qualities are the permanent residents of a substance; modes are its ever-changing conditions. A substance's condition at any given moment is its transformation — always changing, the substance always enduring.</p>
-  <div class="border-t border-primary/10 pt-5 space-y-3">
-  <p class="text-base text-on-surface leading-relaxed italic">— You have permanent qualities as a soul and temporary modes — your current anger, knowledge, joy. Which do you identify with more, and which is more truly you?</p>
-  <p class="text-base text-on-surface leading-relaxed italic">— Time is a substance, not merely a measure. Each instant exists and then is irretrievably gone. What would change in how you live if you took the existence of each single moment seriously?</p>
-  </div>
+
 </div>
+
+<!-- Pondering Over: Substance, Time, and Transformation -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Substance, Time, and Transformation</span>
+        <span class="pondering-recap">The chapter concludes by defining "Substance" as that which has qualities and modes (5.38). Time (Kala) is introduced as the substance that assists in change and continuity (5.39). Finally, "Transformation" (Parinama) is defined as the natural, continuous changing of condition within a substance (5.41-5.42).</span>
+        <span class="pondering-questions">If "Time" is just the universal substance that helps things change, are you using time to change into a better version of yourself, or just letting time change your physical body while your soul stays stuck?</span>
+    </div>
+</div>
+
 <!-- Chapter End -->
 <div class="my-16 py-12 text-center border-t border-b border-primary/20">
 <p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे पञ्चमोऽध्यायः समाप्तः ॥</p>

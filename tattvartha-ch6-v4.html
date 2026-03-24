@@ -47,7 +47,67 @@
       .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
       .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
       .sutra-card { border-left: 3px solid #c9a84c; }
+      
       .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      
+      /* Ensure numbers and star icons have exact same width for perfect vertical alignment */
+      .sutra-card > div > span:first-child {
+        width: 3.5rem;
+        display: inline-block;
+      }
+      
+      /* Pondering Over Section Styling */
+      .pondering-section {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem; /* Matches gap-6 */
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        /* Matches sutra card's 2rem padding + 3px left border */
+        padding: 0 2rem 0 calc(2rem + 3px); 
+      }
+      .pondering-star {
+        font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+        color: #c9a84c;
+        font-size: 2rem;
+        flex-shrink: 0;
+        width: 3.5rem;
+        display: inline-block;
+        padding-top: 0.25rem;
+      }
+      .pondering-content {
+        flex: 1;
+      }
+      .pondering-title {
+        font-family: 'Noto Serif', serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        color: #503d00;
+        line-height: 2;
+        margin-bottom: 1rem;
+        display: block;
+      }
+      .pondering-recap {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #1d1c17;
+        line-height: 1.625;
+        margin-bottom: 1.5rem;
+        display: block;
+      }
+      .pondering-questions {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #4d4637;
+        line-height: 1.625;
+        font-style: italic;
+        padding: 1.5rem;
+        background: rgba(201,168,76,0.05);
+        border-left: 2px solid #c9a84c;
+        display: block;
+      }
+
       .nav-button { 
         position: fixed; 
         bottom: 24px; 
@@ -129,7 +189,7 @@
             <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
-                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="#">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
                 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
             </div>
         </div>
@@ -264,7 +324,19 @@
             </div>
         </article>
 
-        <!-- Section: Factors of Intensity -->
+        
+
+<!-- Pondering Over: The Nature of Activity -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: The Nature of Activity</span>
+        <span class="pondering-recap">We learned that every action of mind, body, and speech is called "Yoga" (activity) and this creates a vibration that pulls in karma (Asrava). Virtuous activity brings good karma (merit), and wicked activity brings bad karma (demerit). But those who are free of passions don't get "sticky" karma, only temporary karma (6.1-6.5).</span>
+        <span class="pondering-questions">If your mind is a magnet, what kind of "dust" did your thoughts pull in today? How does it feel to know that even good actions create karma if you are still attached to the outcome?</span>
+    </div>
+</div>
+
+<!-- Section: Factors of Intensity -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Factors of Intensity</span>
         </div>
@@ -317,7 +389,19 @@
             </div>
         </article>
 
-        <!-- Section: Causes of Knowledge and Perception Karma -->
+        
+
+<!-- Pondering Over: Factors of Intensity -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Factors of Intensity</span>
+        <span class="pondering-recap">The "stickiness" or intensity of karma isn't just about what you did, but how you did it. It depends on your intention, the strength of your passion, the method you used, and whether you felt you were right or wrong (6.6-6.9).</span>
+        <span class="pondering-questions">Think of a time you did the "right thing" but with a terrible attitude. How does this sutra change how you view your intentions versus your outward actions?</span>
+    </div>
+</div>
+
+<!-- Section: Causes of Knowledge and Perception Karma -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Causes of Obscuring Karma</span>
         </div>
@@ -334,7 +418,19 @@
             </div>
         </article>
 
-        <!-- Section: Causes of Feeling Karma -->
+        
+
+<!-- Pondering Over: Obscuring Karmas -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Obscuring Karmas</span>
+        <span class="pondering-recap">Knowledge and Perception karma (the "blindfolds") are caused by criticizing true knowledge, hiding knowledge, refusing to teach others, or disrupting others' learning (6.10).</span>
+        <span class="pondering-questions">Have you ever held back information to keep an advantage over someone else? How does knowing that this act directly obscures your own future clarity change your willingness to share?</span>
+    </div>
+</div>
+
+<!-- Section: Causes of Feeling Karma -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Causes of Feeling Karma</span>
         </div>
@@ -363,7 +459,19 @@
             </div>
         </article>
 
-        <!-- Section: Causes of Deluding Karma -->
+        
+
+<!-- Pondering Over: Feeling Karma -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Feeling Karma</span>
+        <span class="pondering-recap">Pain-producing karma comes from causing grief, agony, and crying in oneself or others (6.11). Pleasure-producing karma comes from compassion, charity, and helping those who are suffering (6.12).</span>
+        <span class="pondering-questions">We all want to feel good. Are the actions you took today planting seeds for future pain, or seeds for future comfort and peace?</span>
+    </div>
+</div>
+
+<!-- Section: Causes of Deluding Karma -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Causes of Deluding Karma</span>
         </div>
@@ -392,7 +500,19 @@
             </div>
         </article>
 
-        <!-- Section: Causes of Life Karma -->
+        
+
+<!-- Pondering Over: Deluding Karma -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Deluding Karma</span>
+        <span class="pondering-recap">Deluding karma (which confuses your belief and conduct) is caused by speaking ill of enlightened beings, true scriptures, or the spiritual community, and by acting out of intense passions like anger and deceit (6.13-6.14).</span>
+        <span class="pondering-questions">When we mock things that are truly good or sacred, we aren't hurting those things—we are just confusing ourselves. What is something sacred in your life that you need to treat with more respect?</span>
+    </div>
+</div>
+
+<!-- Section: Causes of Life Karma -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Causes of Life Karma</span>
         </div>
@@ -481,7 +601,19 @@
             </div>
         </article>
 
-        <!-- Section: Causes of Name and Status Karma -->
+        
+
+<!-- Pondering Over: Life Karma -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Life Karma</span>
+        <span class="pondering-recap">The length and realm of your next life are determined here: extreme violence and attachment lead to hell (6.15), deceit leads to animal life (6.16), slight attachment leads to human life (6.17), and self-control leads to celestial life (6.20).</span>
+        <span class="pondering-questions">If your next "address" is purely decided by the level of your aggression and deceit today, where are you currently packing your bags to go?</span>
+    </div>
+</div>
+
+<!-- Section: Causes of Name and Status Karma -->
         <div class="my-16 text-center">
             <span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Name and Status Karma</span>
         </div>
@@ -558,7 +690,19 @@
             </div>
         </article>
 
-        <!-- Chapter End -->
+        
+
+<!-- Pondering Over: Name, Status, and Obstructive Karma -->
+<div class="pondering-section">
+    <span class="material-symbols-outlined pondering-star">star</span>
+    <div class="pondering-content">
+        <span class="pondering-title">Pondering over: Name, Status, and Obstructive Karma</span>
+        <span class="pondering-recap">A bad body/name (inauspicious Name karma) comes from a crooked mind (6.22), while a good one comes from straightforwardness (6.23). Low status comes from pride and mocking others (6.25), while high status comes from humility (6.26). Obstructive karma comes from blocking others' success or charity (6.27).</span>
+        <span class="pondering-questions">When you secretly hope someone else fails, you are actually building an invisible wall in front of your own future success. Whose success can you celebrate today?</span>
+    </div>
+</div>
+
+<!-- Chapter End -->
         <div class="my-16 py-12 text-center border-t border-b border-primary/20">
             <p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे षष्ठोऽध्यायः समाप्तः ॥</p>
             <p class="text-on-surface-variant text-sm mt-3 font-label italic">Thus ends the Sixth Chapter of Tattvarthasutra, also known as Mokshashastra.</p>
