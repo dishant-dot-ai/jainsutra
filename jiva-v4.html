@@ -4,6 +4,69 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Jiva (Sanskrit: जीव) - JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+    html { scroll-behavior: smooth; }
+    .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+    .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    .nav-hero .nav-logo { color: #ffffff !important; }
+    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+    .nav-hero .nav-link:hover { color: #ffffff !important; }
+    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+    .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+    .sutra-quote-border { border-left: 4px solid #c9a84c; }
+    .asymmetric-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 2rem; }
+    #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+    .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+    .search-section-label:first-child { border-top:none; }
+    .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+    .search-result-item:hover { background:#fef9f1; }
+    .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+    .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+    .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+
 <!-- TopNavBar -->
 <nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
     <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
