@@ -1,36 +1,67 @@
 <!DOCTYPE html>
-<html class="light" lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Tattvartha Sutra: The Path to Liberation | JainAwaken.org</title>
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <script id="tailwind-config">
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tattvarthasutra Chapter 2: Category of the Living | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
         theme: {
           extend: {
             colors: {
-              "primary": "#755b00",
-              "on-primary": "#ffffff",
-              "primary-container": "#c9a84c",
-              "on-primary-container": "#503d00",
-              "surface": "#fef9f1",
-              "on-surface": "#1d1c17",
-              "surface-variant": "#e7e2da",
-              "on-surface-variant": "#4d4637",
-              "outline": "#7e7665",
-              "outline-variant": "#d0c5b2",
-              "secondary": "#625d59",
+              "on-tertiary-fixed-variant": "#35437e",
+              "on-secondary-fixed-variant": "#4a4642",
               "secondary-container": "#e6ded9",
-              "on-secondary-container": "#67625e",
+              "primary-fixed-dim": "#e6c364",
+              "surface-bright": "#fef9f1",
+              "tertiary-fixed": "#dde1ff",
+              "surface": "#fef9f1",
+              "primary-fixed": "#ffe08f",
               "surface-container-low": "#f8f3eb",
-              "surface-container": "#f2ede5",
+              "secondary-fixed": "#e9e1dc",
+              "outline-variant": "#d0c5b2",
+              "outline": "#7e7665",
+              "inverse-on-surface": "#f5f0e8",
+              "on-background": "#1d1c17",
+              "on-secondary": "#ffffff",
+              "on-tertiary-container": "#2e3b77",
+              "error": "#ba1a1a",
+              "on-error": "#ffffff",
+              "on-primary-fixed-variant": "#584400",
+              "surface-dim": "#ded9d2",
               "surface-container-high": "#ece8e0",
+              "primary": "#755b00",
+              "on-primary-container": "#503d00",
+              "inverse-surface": "#32302b",
+              "secondary": "#625d59",
+              "error-container": "#ffdad6",
+              "tertiary-fixed-dim": "#b9c3ff",
+              "on-secondary-container": "#67625e",
+              "on-primary": "#ffffff",
+              "on-primary-fixed": "#241a00",
+              "on-error-container": "#93000a",
+              "surface-tint": "#755b00",
+              "secondary-fixed-dim": "#ccc5c0",
+              "surface-variant": "#e7e2da",
+              "surface-container-lowest": "#ffffff",
+              "on-tertiary-fixed": "#041451",
+              "surface-container-highest": "#e7e2da",
+              "primary-container": "#c9a84c",
+              "inverse-primary": "#e6c364",
+              "on-surface-variant": "#4d4637",
+              "tertiary": "#4d5a98",
+              "background": "#fef9f1",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#1d1c17",
+              "tertiary-container": "#9ba8eb",
+              "surface-container": "#f2ede5",
+              "on-secondary-fixed": "#1e1b18"
             },
             fontFamily: {
               "headline": ["Noto Serif", "serif"],
@@ -42,31 +73,79 @@
         },
       }
     </script>
-    <style>html { scroll-behavior: smooth; }
+<style>
+      html { scroll-behavior: smooth; }
       
-      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
-      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
-      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
-      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; }
-      .nav-button { 
-        position: fixed; 
-        bottom: 24px; 
-        z-index: 100;
-        background: #ffffff;
-        border: 1px solid #C9A84C;
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .burnished-gradient {
+        background: radial-gradient(circle at center, #755b00, #c9a84c);
+      }
+      .sutra-quote {
+        border-left: 1px solid #c9a84c;
+        padding-left: 3rem;
+      }
+      .mesh-bg {
+        background-color: #f8f7f6;
+        background-image: radial-gradient(#C9A84C15 1px, transparent 1px);
+        background-size: 40px 40px;
+      }
+      .sutra-card {
+        border-left: 3px solid #c9a84c;
+      }
+      .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+      .simple-explanation { 
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px dashed rgba(201,168,76,0.3);
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        line-height: 1.7;
+        color: #4d4637;
+      }
+      .simple-explanation b { color: #755b00; font-weight: 600; }
+      .contemplation-box {
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+        background: rgba(117,91,0,0.03);
+        border-left: 2px solid #c9a84c;
+      }
+      .contemplation-box h5 {
+        font-family: 'Noto Serif', serif;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
         color: #755b00;
-        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        opacity: 0;
-        pointer-events: none;
-        transform: translateY(20px);
+        margin-bottom: 0.75rem;
       }
-      .nav-button.visible { 
-        opacity: 1; 
-        pointer-events: auto;
-        transform: translateY(0);
+      .contemplation-box p {
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        color: #1d1c17;
+        font-style: italic;
+        line-height: 1.7;
       }
-      .nav-button:hover { border-color: #C9A84C; color: #503d00; }
-    
+                  .nav-button { 
+                    position: fixed; 
+                    bottom: 24px; 
+                    z-index: 100;
+                    background: #ffffff;
+                    border: 1px solid #C9A84C;
+                    color: #755b00;
+                    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+                    opacity: 0;
+                    pointer-events: none;
+                    transform: translateY(20px);
+                  }
+                  .nav-button.visible { 
+                    opacity: 1; 
+                    pointer-events: auto;
+                    transform: translateY(0);
+                  }
+                  .nav-button:hover { border-color: #C9A84C; color: #503d00; }
+      /* Concept Tags */
+      .concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+      
       /* Search Dropdown */
       
       .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
@@ -76,15 +155,28 @@
       .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
       .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
       .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
-      
+      .concept-tag {
+        display: inline-block;
+        border: 1px solid #C9A84C;
+        background: transparent;
+        color: #1d1c17;
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        border-radius: 100px;
+        padding: 4px 13px;
+        font-weight: 500;
+      }
+                
     
-    
-    .nav-hero .nav-logo { color: #ffffff !important; }
-    .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
-    .nav-hero .nav-link:hover { color: #ffffff !important; }
-    .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
-    .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
-    .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+    . { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+    . .nav-logo { color: #ffffff !important; }
+    . .nav-link { color: rgba(255,255,255,0.8) !important; }
+    . .nav-link:hover { color: #ffffff !important; }
+    . .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+    . .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+    . .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
 
     .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
     .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
@@ -102,10 +194,8 @@
     .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
     .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
     .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
-</style>
-</head>
+</style></head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
-
 <!-- TopNavBar -->
 <nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
     <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
@@ -127,168 +217,1063 @@
         </div>
     </div>
 </nav>
-
 <main class="pt-40">
-    <!-- Hero Section -->
-    <section class="max-w-screen-2xl mx-auto px-12 mb-32">
-        <div class="max-w-4xl">
-            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Masterclass &mdash; Sacred Texts</span>
-            <h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
-                Tattvartha&shy;sutra <span class="text-primary font-normal">(तत्त्वार्थसूत्र)</span>
-            </h1>
-            <p class="text-2xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light italic">
-                The Compendium of Reality. Ten chapters that map the entire Jain universe, the nature of the soul, and the path to ultimate freedom.
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-12 grid grid-cols-12 gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Archives &mdash; Sacred Texts</span>
+<h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+                    Tattvartha&shy;sutra <span class="text-primary font-normal">(तत्त्वार्थसूत्र)</span>
+</h1>
+</div>
+<h2 class="text-5xl font-headline italic text-on-surface-variant leading-tight font-light">
+                "Chapter 2 &mdash; Category of the Living"
+            </h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+                What makes a soul a soul? Chapter 2 dives into the living world &mdash; classifying souls by their senses, bodies, births, and inner qualities. This is where Jain biology meets metaphysics.
             </p>
         </div>
-    </section>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+<div class="aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript with sacred sutras" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbzk7XDqh1rQQfD8cD58TcYiARccg9FHm3LLSomAhxd2vS_OMetrApvWvewalpmzqhvvtm2IF1lmNsvYCEPFPjtoAl7UWNMyduWVAaaLknydKBqlEzHHhdEyWD5JlvrwpomspNdKk7mbbbfVrktrZKB-UjFoUOqmIxllRtsbnVk_pFkGLNKDgHu54EhaOnN6f6WTMH7BFkqe_aA8MqwqjNMvc-JpOb5LsSF0cQktl1FKSMJsn6_v5XzIv3caRCmuHRDhD5F6P9DQ"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+</div>
+</section>
 
-    <!-- Index Section -->
-    <section class="max-w-screen-2xl mx-auto px-12 pb-40">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-primary/10 border border-primary/10">
-            
-            <!-- Chapter 1 -->
-            <a href="tattvartha-ch1-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 01</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">Faith and Knowledge</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">The foundational path to liberation through the Three Jewels: right faith, knowledge, and conduct.</p>
-            </a>
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 mesh-bg border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-12 grid grid-cols-12 gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Jiva&shy;tattva</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant">
+Chapter 2 &mdash; <span class="text-primary font-semibold">Category of the Living</span> &mdash; is the Jain encyclopedia of life itself. It classifies every living being in the universe based on their soul-qualities, senses, minds, bodies, births, and gender. From one-sensed earth-bodies to five-sensed humans and celestials, this chapter maps the entire spectrum of existence.
+</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">
+With 53 sutras, this is the longest chapter we have covered so far. It answers fundamental questions: What makes you alive? What separates a rock from a plant from a human? How do souls travel between lives? What kinds of bodies can a soul have?
+</p>
+<div class="flex flex-wrap gap-4 pt-4">
+<span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">53 Sutras</span>
+<span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Acharya Umasvati</span>
+<span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Simplified by JainAwaken</span>
+</div>
+</div>
+</div>
+</section>
 
-            <!-- Chapter 2 -->
-            <a href="tattvartha-ch2-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 02</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">The Living World</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">The biology of the soul: classifying living beings by their senses, bodies, and inner qualities.</p>
-            </a>
+<!-- Sutras Section -->
+<section class="max-w-screen-xl mx-auto px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyaya 2</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 53 Sutras</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Sanskrit in Devanagari, its English translation, and simplified commentary.</p>
+</div>
 
-            <!-- Chapter 3 -->
-            <a href="tattvartha-ch3-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 03</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">The Lower and Middle Worlds</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">A map of the cosmos, detailing the seven hells and the continents where humans and animals dwell.</p>
-            </a>
+<!-- Divider: Five Dispositions of the Soul -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Five Dispositions of the Soul</span>
+</div>
 
-            <!-- Chapter 4 -->
-            <a href="tattvartha-ch4-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 04</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">The Celestial Realms</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">Exploring the four classes of heavenly beings and the structure of the higher worlds.</p>
-            </a>
+<!-- Sutra 2-1 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">औपशमिकक्षायिकौ भावौ मिश्रश्च जीवस्य स्वतत्त्वमौदयिकपारिणामिकौ च ॥१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul has five types of inner states: those from calming karmas, destroying karmas, a mix of both, the ripening of karmas, and its own inherent nature.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Think of your soul like water in a glass. Mud represents karmas. When the mud settles to the bottom, the water looks clear &mdash; that is the <em>subsidential</em> state (calming). When you pour the mud out entirely, the water is truly pure &mdash; that is the <em>destructional</em> state. A mix of settling and removing is the <em>mixed</em> state. When the mud is actively stirring and making the water cloudy, that is the <em>rising</em> state. And the water itself &mdash; its basic wetness &mdash; is the <em>inherent nature</em> that never changes no matter what the mud does.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your soul has 5 "moods" based on karma. Karma is like mud in water: it can sink to the bottom (calm), be thrown out (clean), be half-clean (mixed), be stirred up (cloudy), or you can just look at the water itself (true nature).</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Is your mind more like settled water or swirling mud right now? What would it take to let the mud settle for just five minutes?</p>
+</div>
+</div>
+</div>
+</article>
 
-            <!-- Chapter 5 -->
-            <a href="tattvartha-ch5-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 05</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">Non-Living Substances</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">The physics of reality: space, time, matter, and the mediums of motion and rest.</p>
-            </a>
+<!-- Sutra 2-2 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">द्विनवाष्टादशैकविंशतित्रिभेदा यथाक्रमम् ॥२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">These five states have 2, 9, 18, 21, and 3 subtypes, respectively.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The calming state has 2 subtypes, the destructional has 9, the mixed has 18, the rising state has 21, and the inherent nature has 3. The next few sutras explain each one.</p>
+<p class="simple-explanation"><b>The simple version:</b> These 5 "moods" break down into even smaller details: 2, 9, 18, 21, and 3. Jainism is super detailed about exactly how your soul is feeling!</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Do you like having everything categorized into specific lists, or does it feel overwhelming? Why do you think the ancient masters were so precise?</p>
+</div>
+</div>
+</div>
+</article>
 
-            <!-- Chapter 6 -->
-            <a href="tattvartha-ch6-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 06</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">The Influx of Karma</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">How our thoughts, words, and actions act as a magnet for karmic matter.</p>
-            </a>
+<!-- Sutra 2-3 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सम्यक्त्वचारित्रे ॥३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The two subtypes of the calming state are: right belief and right conduct.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When certain karmas temporarily settle down, two good things can emerge. Right belief means seeing reality clearly. Right conduct means behaving in a way that moves you toward liberation. Both happen when the karmas that block them are temporarily calmed.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you "press mute" on your bad vibes, two things happen: you start to see the truth clearly and you start making better choices. It’s like a break in the storm.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Think of a moment when life suddenly felt clearer. What "noise" in your head had to stop for that to happen?</p>
+</div>
+</div>
+</div>
+</article>
 
-            <!-- Chapter 7 -->
-            <a href="tattvartha-ch7-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 07</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">The Five Vows</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">Practical ethics for a spiritual life: from non-violence to non-attachment.</p>
-            </a>
+<!-- Sutra 2-4 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञानदर्शनदानलाभभोगोपभोगवीर्याणि च ॥४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The nine subtypes of the destructional state are: knowledge, perception, giving, gaining, enjoyment, re-enjoyment, energy &mdash; plus the two from the previous sutra: belief and conduct.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When karmas are completely destroyed, nine qualities shine through. Perfect knowledge means knowing everything. Perfect perception means seeing everything. The power of giving means infinite generosity. The power of gaining means infinite abundance. Enjoyment and re-enjoyment mean infinite bliss. And infinite energy means limitless spiritual power. These are the qualities of a fully liberated soul.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you completely "delete" your bad karma, 9 amazing powers appear: you know everything, you're always happy, you have infinite energy, and you're perfectly generous.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you could have just ONE of these — infinite knowledge or infinite happiness — which would you pick and why?</p>
+</div>
+</div>
+</div>
+</article>
 
-            <!-- Chapter 8 -->
-            <a href="tattvartha-ch8-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 08</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">Bondage of Karma</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">The mechanics of how karma sticks to the soul and decides our future experiences.</p>
-            </a>
+<!-- Sutra 2-5 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञानाज्ञानदर्शनलब्धयश्चतुस्त्रित्रिपञ्चभेदाः सम्यक्त्वचारित्रसंयमासंयमाश्च ॥५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The mixed state has 18 subtypes: 4 kinds of knowledge, 3 kinds of wrong knowledge, 3 kinds of perception, 5 kinds of attainment, plus right belief, conduct, and partial restraint.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the in-between state. Some karmas are destroyed, some are just calmed. So you get a mix &mdash; like having four types of correct knowledge but also three types of wrong knowledge existing at the same time. It is a work in progress, not fully pure yet but not completely blocked either.</p>
+<p class="simple-explanation"><b>The simple version:</b> This is the "In-Progress" state. You're working on yourself, so you have some clear thoughts and some confused thoughts at the same time. Most of us live here!</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Are you okay with being "a work in progress"? Why do we often feel frustrated that we aren't perfect yet?</p>
+</div>
+</div>
+</div>
+</article>
 
-            <!-- Chapter 9 -->
-            <a href="tattvartha-ch9-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 09</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">Stoppage and Shedding</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">The science of purification: how to block new karma and dissolve the old through discipline.</p>
-            </a>
+<!-- Sutra 2-6 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गतिकषायलिंगमिथ्यादर्शनाज्ञानासंयतासिद्धलेश्याः ॥६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The rising state has 21 subtypes: 4 states of existence, 4 passions, 3 sexes, 1 wrong belief, 1 wrong knowledge, 1 non-restraint, 1 imperfect state, and 6 colorations of the soul.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When karmas are actively producing their effects, 21 things can happen. You end up in one of four states of existence: hell, animal, human, or celestial. You experience four passions: anger, pride, deceit, and greed. You get one of three biological sexes. And your soul takes on one of six colorations called <em>leshya</em> &mdash; from black to white &mdash; depending on how intense your passions are. These are all the results of karmas currently in action.</p>
+<p class="simple-explanation"><b>The simple version:</b> This is when karma is actively "pushing you around." It decides what body you have, what gender you are, and even what "color" your energy is (from dark and angry to bright and calm).</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>The next time you feel a strong emotion, can you pause and ask: "Is this me, or is this just an old karmic pattern pushing me around?"</p>
+</div>
+</div>
+</div>
+</article>
 
-            <!-- Chapter 10 -->
-            <a href="tattvartha-ch10-v4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
-                <div class="flex justify-between items-start">
-                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 10</span>
-                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
-                </div>
-                <h3 class="text-4xl font-headline font-bold text-on-surface">Liberation</h3>
-                <p class="text-on-surface-variant leading-relaxed font-light">The ultimate goal: the soul's upward journey to eternal bliss and perfect knowledge.</p>
-            </a>
+<!-- Sutra 2-7 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जीवभव्याभव्यत्वानि च ॥७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The inherent nature has 3 subtypes: being a soul, having the capacity for liberation, and not having the capacity for liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Every soul has a basic identity that never changes regardless of karmas. First, it is a soul &mdash; a conscious, living entity. Second, it either has the potential to reach liberation someday, or it does not. A <em>bhavya</em> soul can eventually achieve moksha. An <em>abhavya</em> soul, unfortunately, never will. This is not a punishment &mdash; it is simply part of that soul&rsquo;s inherent nature, like how water is always wet.</p>
+<p class="simple-explanation"><b>The simple version:</b> No matter how many lives you’ve had, your soul has a core identity that never changes. You are a soul, and you either have the "seed" of freedom inside you or you don't. It’s just how you are built.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Beyond your job, your hobbies, and your name — what is the one part of "You" that has never changed since you were a child?</p>
+</div>
+</div>
+</div>
+</article>
 
-        </div>
-    </section>
+<!-- Divider: The Mark of the Soul -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Mark of the Soul</span>
+</div>
 
-    <!-- Closing -->
-    <div class="text-center py-24 pb-48">
-        <p class="font-headline text-primary italic text-xl">Jai Jinendra</p>
-    </div>
+<!-- Sutra 2-8 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">उपयोगो लक्षणम् ॥८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Consciousness is the defining mark of the soul.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">How do you know something is alive? Consciousness. The word used here is <em>upayoga</em>, which means active awareness or attentive consciousness. It is what separates a soul from lifeless matter. Just as heat is the defining quality of fire, consciousness is the defining quality of the soul. If it is aware, it has a soul.</p>
+<p class="simple-explanation"><b>The simple version:</b> The one sure sign of a soul is consciousness — awareness. Not just movement or growth, but *knowing*. That’s what makes a soul a soul. If it's awake, it's alive.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Right now, something is reading these words and noticing them. Can you turn your attention toward the "One" doing the noticing?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-9 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स द्विविधोऽष्टचतुर्भेदः ॥९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Consciousness is of two kinds, and these have eight and four subtypes respectively.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The two kinds are knowledge-consciousness and perception-consciousness. Knowledge is detailed awareness &mdash; you see a dog and know its breed, color, and behavior. Perception is general awareness &mdash; you just sense that something is there. Knowledge has 8 subtypes: 5 kinds of right knowledge and 3 kinds of wrong knowledge. Perception has 4 subtypes: eye-perception, non-eye-perception, clairvoyant-perception, and omniscient-perception.</p>
+<p class="simple-explanation"><b>The simple version:</b> Consciousness has two modes: a "spotlight" (knowing details) and "floodlights" (just sensing something is there). One is deep, the other is broad. Both are awareness at different levels.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Do you tend to live in detail-mode or big-picture-mode? Which one do you wish you had more of?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Divider: Types of Souls -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Types of Souls</span>
+</div>
+
+<!-- Sutra 2-10 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संसारिणो मुक्ताश्च ॥१०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Souls are of two kinds: the transmigrating and the liberated.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Every soul in existence falls into one of two categories. Transmigrating souls are still stuck in the cycle of birth and death &mdash; they keep wandering from one body to another across lifetimes. Liberated souls have broken free from this cycle entirely. They have shed all karmas and achieved moksha. The journey of Jainism is the journey from the first category to the second.</p>
+<p class="simple-explanation"><b>The simple version:</b> Every soul is either still "cycling" through lives — like a hamster on a wheel — or it has stepped off the wheel forever. Liberated souls aren’t gone; they’re just completely free.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you knew for a fact that this life is just one of countless lives, what would you do differently starting today?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-11 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">समनस्काऽमनस्काः ॥११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Transmigrating souls are of two kinds: those with a mind and those without a mind.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Having a mind means having the ability to think, reason, and tell right from wrong. Humans and some five-sensed animals have minds. But many living beings operate on instinct alone &mdash; they respond to the world without thinking about it. A plant reacts to sunlight but does not think about it. The mind is what gives a being the power to choose.</p>
+<p class="simple-explanation"><b>The simple version:</b> Having a mind means being able to stop and ask: "Is this a good idea?" Plants and most animals just react. Humans can choose. That’s a superpower — and a big responsibility.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Think of the last time you acted on pure impulse. What would have changed if you had paused for just three seconds?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-12 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संसारिणस्त्रसस्थावराः ॥१२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Transmigrating souls are also of two kinds: the mobile and the stationary.</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><em>Trasa</em> means mobile &mdash; beings that can move around, like animals and humans. <em>Sthavara</em> means stationary &mdash; beings that stay in one place, like plants, earth, water, fire, and air bodies. Mobile beings are mentioned first because they are considered more developed &mdash; they have more senses and more types of consciousness available to them.</p>
+<p class="simple-explanation"><b>The simple version:</b> Plants, water, and fire stay in one spot. Animals and humans move around. Mobile beings have more senses, but both kinds are fully alive and have souls.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Can you feel — even for a moment — that the plant on your desk or the water in your glass is actually alive?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-13 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पृथिव्यप्तेजोवायुवनस्पतयः स्थावराः ॥१३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Earth-bodied, water-bodied, fire-bodied, air-bodied, and plant-bodied beings are the stationary souls.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is one of the most unique ideas in Jainism. Even earth, water, fire, and air contain living souls. A grain of sand has a soul. A drop of water has a soul. A flame has a soul. A gust of wind has a soul. And of course, plants have souls too. These beings have only one sense &mdash; the sense of touch &mdash; and they have four basic life-forces: touch, body-strength, breathing, and lifespan. This is why Jains are so careful about not wasting water, not playing with fire, and not uprooting plants unnecessarily.</p>
+<p class="simple-explanation"><b>The simple version:</b> Earth, water, fire, and air all have souls. They only feel touch — no sight or sound — but they *are* experiencing something. This is why Jains are careful with everything they use.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you truly believed the water you used today had a soul — would you have used it differently?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-14 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.14</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">द्वीन्द्रियादयस्त्रसाः ॥१४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The mobile beings are those having two or more senses.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Once a being has at least two senses, it can move. Two-sensed beings like worms have touch and taste. Three-sensed beings like ants add smell. Four-sensed beings like bees add sight. Five-sensed beings like humans and animals add hearing. The more senses, the more awareness, the more complex the life.</p>
+<p class="simple-explanation"><b>The simple version:</b> Senses are like "unlocking" new levels of a game. Level 1 is just touch. Each new sense adds a whole new way to experience the universe.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Which of your senses do you rely on most? Which one do you almost never pay attention to?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Divider: The Five Senses -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Five Senses</span>
+</div>
+
+<!-- Sutra 2-15 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-15">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पञ्चेन्द्रियाणि ॥१५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The senses are five.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Five senses and no more. Jainism counts only five: touch, taste, smell, sight, and hearing. The mind is not counted as a sense &mdash; it is separate. These five are the windows through which the soul experiences the physical world.</p>
+<p class="simple-explanation"><b>The simple version:</b> There are exactly five "windows" into the physical world: touch, taste, smell, sight, and hearing. The mind isn't a window; it's the person inside the house looking through the windows.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you were born without any of these five windows, how would you know the physical world even exists? What would "reality" feel like?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-16 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-16">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.16</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">द्विविधानि ॥१६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Each sense is of two kinds.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Every sense has a physical side and a non-physical side. The physical sense is the actual organ &mdash; the eyeball, the ear drum, the skin. The non-physical sense is the ability to use it &mdash; the power of sight, the power of hearing. You need both to work. A blind person still has eyeballs but the non-physical power is blocked by karmas.</p>
+<p class="simple-explanation"><b>The simple version:</b> Every sense has two parts: the hardware (the eyeball) and the software (the power to see). You need both for the sense to work. Sometimes the hardware is fine, but the software is blocked.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Are there things in your life where you have all the "hardware" (tools, money, time) but you still lack the "software" (the skill or the inner power) to use them?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-17 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-17">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.17</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">निर्वृत्त्युपकरणे द्रव्येन्द्रियम् ॥१७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The physical sense has two parts: the formation of the organ and the instrument itself.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Take the eye as an example. The formation is the shape &mdash; the soul spreads into the shape of the eye using tiny particles. The instrument includes the eyelids, eyelashes, and everything that helps the eye do its job. Both internal and external parts together make up the physical sense.</p>
+<p class="simple-explanation"><b>The simple version:</b> The physical organ has two parts: the "engine" (the part that actually sees) and the "bodywork" (the eyelids and lashes that protect the engine). Both are needed to keep the sense working.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Think about how much of your day is spent on the "bodywork" (protecting your comfort) versus the "engine" (actually doing the work). Is the balance right?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-18 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-18">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.18</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">लब्ध्युपयोगौ भावेन्द्रियम् ॥१८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The non-physical sense has two parts: attainment and active use.</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><em>Attainment</em> means having the potential for that sense &mdash; the karmas blocking it have been reduced enough. <em>Active use</em> means actually using it right now. You might have the ability to see, but when you are asleep, your sight is not actively being used. Both together make up the non-physical sense.</p>
+<p class="simple-explanation"><b>The simple version:</b> The "inner power" of a sense also has two parts: having the ability to see, and actually opening your eyes to use it. One is your potential, the other is your action.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>What is a talent or "power" you have (attainment) that you haven't put into "active use" lately? Why are you keeping it on the shelf?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-19 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-19">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.19</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्पर्शनरसनघ्राणचक्षुःश्रोत्राणि ॥१९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Touch, taste, smell, sight, and hearing &mdash; these are the five senses.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The order matters. Touch comes first because it is the most basic &mdash; every living being has it. Then taste, then smell, then sight, then hearing. Each new sense is added on top of the previous ones. A worm has touch and taste. An ant adds smell. A bee adds sight. A human adds hearing on top of all four.</p>
+<p class="simple-explanation"><b>The simple version:</b> Here’s the "Senses Power-Up" order: 1. Touch (Basic), 2. Taste, 3. Smell, 4. Sight, 5. Hearing (Advanced). Each one adds a whole new layer to life.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you had to live for one week using only ONE of your senses, which would you pick? What would you miss the most about the other four?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-20 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-20">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.20</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्पर्शरसगन्धवर्णशब्दास्तदर्थाः ॥२०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Touch, taste, smell, color or form, and sound are the objects of these senses.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Each sense has its own object &mdash; what it picks up from the world. The sense of touch detects touch. Taste detects flavor. Smell detects scent. Sight detects color and shape. Hearing detects sound. The sense and its object are like a lock and key &mdash; each one is designed for the other.</p>
+<p class="simple-explanation"><b>The simple version:</b> Each sense is like a key made for a specific lock. Ears are made for sound, and sound is made for ears. They fit together perfectly to help you experience the world.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>At this exact moment, what is the most beautiful "object" (sound, sight, or smell) your senses are picking up? Did you notice it before I asked?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-21 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-21">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.21</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">श्रुतमनिन्द्रियस्य ॥२१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Intelligence, or scriptural knowledge, belongs to the mind &mdash; not to the senses.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The senses can gather raw data &mdash; you see colors, hear sounds, feel textures. But understanding what it all means? That is the job of the mind. Intelligence processes the information from the senses and turns it into real knowledge. The mind can work independently too &mdash; you can think about things you have never directly seen or touched.</p>
+<p class="simple-explanation"><b>The simple version:</b> Senses are like cameras, but the Mind is the director who understands the movie. Cameras just take pictures; it's your mind that figures out what the pictures mean.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Which is more important: seeing a lot of things, or understanding the few things you actually see? Why?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-22 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-22">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.22</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वनस्पत्यन्तानामेकम् ॥२२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Beings up to and including plants have only one sense.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Earth, water, fire, air, and plant souls all share one thing: they only have the sense of touch. That is their entire experience of the world. They can feel heat and cold, hard and soft, but nothing else. No taste, no smell, no sight, no sound. Just touch.</p>
+<p class="simple-explanation"><b>The simple version:</b> A plant’s entire world is feeling. Pressure, warmth, cold, moisture — that’s everything. No color, no sound, no taste. It's a small world, but it's very real to them. And inside, there is a soul just like yours.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you could only feel — no sight, sound, smell, or taste — what would still make your life feel meaningful?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-23 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-23">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.23</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कृमिपिपीलिकाभ्रमरमनुष्यादीनामेकैकवृद्धानि ॥२३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Worms, ants, bees, and humans each have one more sense than the one before.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This gives a ladder of senses. Worms have 2 senses: touch and taste. Ants have 3: touch, taste, and smell. Bees have 4: touch, taste, smell, and sight. Humans and similar beings have all 5: touch, taste, smell, sight, and hearing. Each step up the ladder brings a richer experience of the world.</p>
+<p class="simple-explanation"><b>The simple version:</b> It’s a ladder of awareness. Worms feel and taste. Ants add smell. Bees add sight. Humans add hearing on top of all four. Each new sense opens a whole new dimension of reality.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>What would your world look like if you suddenly gained a 6th sense that let you perceive something completely new (like magnetic fields or radio waves)?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-24 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-24">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.24</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संज्ञिनः समनस्काः ॥२४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The five-sensed beings that have a mind are called <em>samjni</em>.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Not all five-sensed beings have a mind. Some animals have all five senses but operate purely on instinct. Those that also have a mind &mdash; the ability to reason and discriminate between good and bad &mdash; are called <em>samjni</em>. Humans are the prime example. Having a mind is what makes moral choice possible, which is why the human birth is considered so valuable in Jainism.</p>
+<p class="simple-explanation"><b>The simple version:</b> Having all five senses isn’t what makes you "smart" — having a mind is. A cat has five senses but can’t ask "Is this right?" A human can. That ability to choose is what makes being human so rare and important.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Think of the last time your mind stopped you from doing something your impulses wanted. What would have happened if you didn't have that "pause" button?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Divider: How Souls Travel Between Bodies -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">How Souls Travel Between Bodies</span>
+</div>
+
+<!-- Sutra 2-25 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-25">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.25</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">विग्रहगतौ कर्मयोगः ॥२५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When a soul travels from one body to another, only the karmic body vibrates.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When you die, your soul does not carry your physical body to the next life. It only travels with the karmic body &mdash; the invisible body made of karmic particles that has been with you since beginningless time. Think of it like changing clothes. The physical body is left behind, but the karmic body goes with you. The vibration of this karmic body is what powers the transit.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you die, your body stays behind, but your karma travels with you like an invisible backpack. It's the "engine" that moves your soul to its next destination.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you knew your "invisible backpack" was the only thing you could take with you after death, what would you be putting in it today?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-26 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-26">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.26</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अनुश्रेणि गतिः ॥२६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul travels in straight lines through space.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Space in Jain cosmology is made of rows of space-points running in all directions. When a soul moves from one life to the next, it travels along these rows &mdash; in straight lines, not randomly. This applies to both souls and matter. It is an orderly system, like trains running on tracks.</p>
+<p class="simple-explanation"><b>The simple version:</b> The universe is very orderly. Souls don't just wander aimlessly between lives; they travel in perfectly straight lines, following the "grid" of space. Like a GPS for the soul.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Does it make you feel better to think the universe has an underlying "grid" and order, or would you rather it be wild and random? Why?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-27 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-27">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.27</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अविग्रहा जीवस्य ॥२७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The movement of the liberated soul is without any bend.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A liberated soul, free from all karmas, shoots straight up to the top of the universe in a perfectly straight line. No turns, no curves, no obstacles. Why? Because there are no karmic ties pulling it in any direction. It is completely free, so it moves in the most direct path possible.</p>
+<p class="simple-explanation"><b>The simple version:</b> A soul with zero weight (no karma) shoots straight to the top of the universe. Like a bubble released from the bottom of a lake. Nothing pulls it sideways. Nothing holds it back.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>What is pulling you "sideways" right now, away from your most direct path toward what really matters to you?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-28 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-28">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.28</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">विग्रहवती च संसारिणः प्राक् चतुर्भ्यः ॥२८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Transmigrating souls can have bends in their movement, but only up to three instants before reaching their destination.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Unlike liberated souls, worldly souls sometimes need to change direction during transit. Maybe their next birth is not in a straight line from where they died. But there is a limit: the soul can make at most three turns. After the third instant, the movement becomes straight. It is like navigating through a city &mdash; you might turn a few corners, but you eventually get on the highway heading straight to your destination.</p>
+<p class="simple-explanation"><b>The simple version:</b> Most souls have karmic pulls in different directions, so they don’t go in a straight line. They might turn a few corners, but even the most complicated journey has a limit: 3 turns maximum.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Is your life’s direction mostly straight right now, or are you taking a lot of "karmic detours"? What would it take to reduce just one turn?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-29 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-29">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.29</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एकसमयाऽविग्रहा ॥२९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Straight movement takes only one instant.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When there are no bends needed, the soul reaches its next body in a single instant of time. One <em>samaya</em> &mdash; the smallest possible unit of time. Even if the distance is the entire length of the universe, the soul covers it in one instant. That is how fast the transit is when the path is clear.</p>
+<p class="simple-explanation"><b>The simple version:</b> A soul with nothing pulling it can cross the entire universe in a single instant. One tiny moment. That’s how fast pure consciousness moves when nothing is slowing it down.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>What would it feel like to move toward your goals in one clean, committed instant, with absolutely nothing holding you back?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-30 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-30">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.30</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एकं द्वौ त्रीन्वाऽनाहारकः ॥३०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For one, two, or three instants during transit, the soul does not take in any new matter.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">During the journey between bodies, the soul is in a state where it does not absorb any new particles. It is traveling light, so to speak. This gap lasts one, two, or three instants depending on whether the path is straight or has bends. Once it arrives at its new birth-place, it starts building its new body by taking in matter again.</p>
+<p class="simple-explanation"><b>The simple version:</b> During the gap between lives, the soul doesn’t pick up anything new. It’s in a brief "transit zone" — just pure movement. A few instants of total travel, then it starts building a new body.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>When do you experience moments of "pure in-between" in your life — where you've left the old thing but haven't started the new one yet? How do you feel in that space?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Divider: Three Ways of Being Born -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Three Ways of Being Born</span>
+</div>
+
+<!-- Sutra 2-31 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-31">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.31</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सम्मूर्च्छनगर्भोपपादा जन्म ॥३१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Birth happens in three ways: spontaneous generation, from a womb, or in a special bed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Spontaneous generation means the body forms directly from surrounding matter &mdash; no parent, no egg, no womb. Bacteria and many tiny creatures are born this way. Womb-birth is what humans, animals, and many other beings go through. Special-bed birth is for celestial beings and infernal beings &mdash; they just appear fully formed in their new world, as if materializing on a prepared bed.</p>
+<p class="simple-explanation"><b>The simple version:</b> There are 3 ways to enter a new life: 1. Poof! (forming from matter), 2. Growth (womb), and 3. Materializing (special beds for gods and hell-beings). Your past karma decides which "entrance" you take.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you could have chosen your own "entrance" into this life, would you have picked the womb, or would you have rather just appeared fully formed?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-32 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-32">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.32</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सचित्तशीतसंवृतामिश्राश्चैकशस्तद्योनयः ॥३२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">There are nine types of birth-environments based on combinations of: with or without life, cold or hot, and covered or exposed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Every birth-place has three qualities that can go either way. Is the environment alive or lifeless? Is it cold or hot? Is it covered or open? Each combination creates a different type of birth-environment. For example, a mother&rsquo;s womb is alive, warm, and covered. An egg is lifeless, can be hot or cold, and is covered. The nine combinations cover every possible birth-environment in the universe.</p>
+<p class="simple-explanation"><b>The simple version:</b> Birth-places are like "climates" for the soul. They can be hot or cold, alive or lifeless, open or hidden. There are 9 basic recipes for where a soul can start its next body.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Think about the "climate" of your current life. Is it warm and sheltered, or cold and exposed? How does that affect your growth?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-33 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-33">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.33</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जरायुजाण्डजपोतानां गर्भः ॥३३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Womb-birth is of three kinds: with an umbilical cord, from an egg, or without any covering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Humans, cows, and most mammals are born with an umbilical cord connecting them to the mother. Chickens, snakes, and birds hatch from eggs. And some young animals like deer fawns are born fully developed, able to stand and move right away without any membrane or shell covering. These are the three ways womb-birth works.</p>
+<p class="simple-explanation"><b>The simple version:</b> Womb-birth comes in 3 flavors: 1. Connected (humans), 2. Shell (eggs), and 3. Ready-to-go (born fully developed like fawns). All three are just different ways nature helps a soul build its physical home.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Do you feel like you were born "connected" to your past, or "hatched" into a completely new world? Or were you "ready to stand" from day one?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-34 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-34">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.34</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">देवनारकाणामुपपादः ॥३४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Celestial and infernal beings are born in special beds.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gods and hell-beings do not go through pregnancy or eggs. They simply appear. When a soul&rsquo;s karmas send it to heaven or hell, it materializes fully formed in that realm &mdash; like teleporting into a new body. This instant birth is called <em>upapada</em>.</p>
+<p class="simple-explanation"><b>The simple version:</b> In heaven and hell, there are no babies. Souls just "blink" into existence fully grown. One second you're in transit, the next you're there on your new bed, ready to start.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>What would it be like to skip childhood and just start a new phase of life at "100%" strength? What would you miss?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-35 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-35">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.35</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शेषाणां सम्मूर्च्छनम् ॥३५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The rest of the beings are born by spontaneous generation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Every being that is not born from a womb or in a special bed is born by spontaneous generation. This includes all one-sensed beings like earth, water, fire, air, and plant souls. Their bodies form directly from the elements around them, without any parent or birth process.</p>
+<p class="simple-explanation"><b>The simple version:</b> Everything else — plants, water droplets, flames — just forms on its own. When the conditions are right, the matter just clusters around the soul and makes a body. No parents required!</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Does the lack of parents make these beings "less" alive to you? Why do we value "family" births more than "elemental" ones?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Divider: The Five Types of Bodies -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">The Five Types of Bodies</span>
+</div>
+
+<!-- Sutra 2-36 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-36">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.36</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">औदारिकवैक्रियिकाहारकतैजसकार्मणानि शरीराणि ॥३६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">There are five types of bodies: the gross, the transformable, the projectable, the luminous, and the karmic.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The <em>gross body</em> is the physical body you can see and touch &mdash; your flesh and bones. The <em>transformable body</em> lets celestial and infernal beings change their shape and size at will. The <em>projectable body</em> is an extremely rare body that advanced saints can send out to resolve spiritual doubts. The <em>luminous body</em> is a subtle energy body that radiates from the soul. The <em>karmic body</em> is made of karmic particles and travels with you from life to life. Everyone has the last two; the first three depend on your birth and spiritual stage.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your soul wears different "outfits" called bodies. You have your physical body (flesh), but you also have an energy body and an invisible "karma record" body that stays with you forever. Some beings also have shape-shifting bodies!</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If your "karmic body" was visible to everyone, what would it look like right now? Would you be proud of the record it shows?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-37 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-37">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.37</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परं परं सूक्ष्मम् ॥३७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Each body is subtler than the one before it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The gross body is the densest &mdash; you can see it with your eyes. The transformable body is finer. The projectable body is even finer. The luminous body is finer still. And the karmic body is the subtlest of all &mdash; completely invisible, yet it is the one that truly defines your destiny. Think of it like layers getting thinner and thinner, from a brick to paper to silk to mist to something beyond perception.</p>
+<p class="simple-explanation"><b>The simple version:</b> These bodies are like layers of an onion. The outside (physical) is thick and easy to see. The inner layers (energy and karma) get thinner and thinner until they're totally invisible to our eyes.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Why do you think the most powerful parts of our existence (like karma or our soul's light) are the ones that are the hardest to see?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-38 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-38">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.38</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">प्रदेशतोऽसंख्येयगुणं प्राक् तैजसात् ॥३८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Up to the luminous body, each successive body has innumerably more space-points than the previous one.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Even though each body is subtler, it actually occupies more space-points. The transformable body fills innumerably more space-points than the gross body, and the projectable fills innumerably more than the transformable. This does not mean the body is bigger in size &mdash; the atoms just pack more tightly. Like how a heap of cotton and a ball of iron can be the same size but have very different densities.</p>
+<p class="simple-explanation"><b>The simple version:</b> Subtler doesn't mean "less." In fact, these invisible bodies are packed with way more "stuff" (particles) than your physical body. They are incredibly dense energy fields.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Can you think of something small or invisible that is way more powerful than something big and solid? (Think of a virus versus a rock, or a thought versus an action).</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-39 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-39">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.39</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अनन्तगुणे परे ॥३९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The last two bodies have infinitely more space-points than the ones before them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The luminous body has infinitely more space-points than the projectable body. And the karmic body has infinitely more than the luminous body. These numbers are not just &ldquo;very large&rdquo; &mdash; they are literally infinite multiples. This shows how subtle and all-pervading these invisible bodies truly are.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your energy and karmic bodies are infinitely more "packed" than your physical one. Your invisible self is actually much "bigger" and more complex than your visible self.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Do you feel like your inner world (thoughts and feelings) is "bigger" than the room you're sitting in? How can a small brain hold such a giant universe of thoughts?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-40 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-40">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.40</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अप्रतीघाते ॥४०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The last two bodies pass through all obstacles without being blocked.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The luminous and karmic bodies cannot be stopped by walls, mountains, or anything physical. They pass through everything. Just as heat passes through iron, these subtle bodies move through all matter without resistance. This is why the karmic body can follow your soul anywhere &mdash; nothing in the universe can block it.</p>
+<p class="simple-explanation"><b>The simple version:</b> Walls can stop your physical body, but nothing stops your karma and your inner light. They can pass through mountains or even travel to the other side of the universe instantly.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If nothing can block your inner self, why do we often feel "stuck" or "trapped" by our surroundings?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-41 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-41">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.41</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अनादिसम्बन्धे च ॥४१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">These two bodies have been connected to the soul since beginningless time.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The luminous and karmic bodies have been with every transmigrating soul forever. There was never a point when they did not exist. The other three bodies come and go with each lifetime, but these two are permanent companions until the soul achieves complete liberation.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your energy and karma didn't start when you were born. They have been with your soul forever — through every single life you've ever had. They are your oldest companions.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you've been on this journey "forever," what do you think is the one lesson your soul is finally trying to finish learning in this life?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-42 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-42">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.42</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सर्वस्य ॥४२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Every transmigrating soul has these two bodies.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">No exceptions. Every soul that is still in the cycle of birth and death &mdash; from the tiniest one-sensed earth-being to the mightiest celestial &mdash; possesses both the luminous body and the karmic body. These are universal to all worldly souls.</p>
+<p class="simple-explanation"><b>The simple version:</b> No one is an exception. Every single living thing — from a bug to a billionaire — is carrying around these same two invisible bodies.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Does it make you feel more connected to other people (and even animals) knowing that we all carry the same "spiritual equipment" inside?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-43 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-43">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.43</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तदादीनि भाज्यानि युगपदेकस्मिन्नाचतुर्भ्यः ॥४३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Starting from those two, a single soul can have up to four bodies at the same time.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Everyone has the luminous and karmic bodies. Some souls also have a gross body at the same time. Others might also have a transformable body on top of that. The maximum any single soul can have at once is four. The projectable body never exists alongside the transformable body, so five at once is impossible.</p>
+<p class="simple-explanation"><b>The simple version:</b> You can wear up to 4 bodies at once. Think of them like layers of clothing: 2 invisible ones always, plus your physical one, plus maybe a special one if you're a god or a saint.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If your physical body is just one of four "layers," why do we spend 99% of our time only worrying about that one layer?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-44 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-44">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.44</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">निरुपभोगमन्त्यम् ॥४४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The last body, the karmic body, cannot experience any enjoyment.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The karmic body has no senses. It cannot see, hear, taste, smell, or touch anything. It is not meant for experiencing the world. Its only role is to carry the karmic particles that determine your fate. Enjoyment &mdash; hearing music, tasting food, seeing beauty &mdash; requires the gross body and its physical senses.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your karmic body is like a hard drive: it records everything, but it can't "feel" anything. You need your physical body and its senses to actually enjoy a sunset or a good meal.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If your karmic body is just a silent record-keeper, are you making sure the "file" it's recording today is a happy one?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-45 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-45">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.45</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गर्भसम्मूर्च्छनजमाद्यम् ॥४५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The gross body comes from womb-birth and spontaneous generation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The physical body that you can see and touch is formed through either being born from a womb or through spontaneous generation. If you are a human or animal, you got your gross body from a womb. If you are a plant or earth-being, your gross body formed spontaneously from surrounding matter.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your physical body was either grown in a womb (like humans) or just formed on its own from matter (like plants). It's the only "heavy" body we have.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you could pick any physical form for your next life, what would it be? Why that form?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-46 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-46">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.46</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">औपपादिकं वैक्रियिकम् ॥४६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The transformable body comes with special-bed birth.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Celestial and infernal beings who are born through special-bed birth get a transformable body. This body can change its shape, size, and appearance at will. That is why gods in Jain stories can appear in different forms &mdash; their transformable body allows it.</p>
+<p class="simple-explanation"><b>The simple version:</b> Gods and hell-beings have a shape-shifting body. They don't have a fixed form like we do; they can change their look whenever they want.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If your body could change shape to match how you were feeling inside, what would you look like right now?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-47 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-47">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.47</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">लब्धिप्रत्ययं च ॥४७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The transformable body can also arise through special spiritual attainment.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">It is not only celestial beings who get this body. Advanced ascetics who have gained supernatural powers through intense austerities can also manifest a transformable body. This happens through spiritual attainment, not birth.</p>
+<p class="simple-explanation"><b>The simple version:</b> Some super-advanced humans can also get shape-shifting bodies through extreme meditation and discipline. It's like a spiritual "unlockable" skill.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Do you think inner discipline can actually change your physical reality? Have you ever seen someone's appearance change because they changed their mind?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-48 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-48">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.48</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तैजसमपि ॥४८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The luminous body also comes through attainment.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">While every soul has a luminous body, its full power also depends on spiritual attainment. Through supernatural powers gained by intense practice, the luminous body can become more active and powerful.</p>
+<p class="simple-explanation"><b>The simple version:</b> Everyone has an energy body (luminous), but some people can "power it up" through deep practice, making it incredibly bright and strong.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>What "powers up" your energy in real life? What makes your inner light feel like it's shining brighter?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-49 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-49">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.49</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शुभं विशुद्धमव्याघाति चाहारकं प्रमत्तसंयतस्यैव ॥४९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The projectable body &mdash; which is auspicious, pure, and without obstruction &mdash; arises only in a saint of the sixth spiritual stage.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the rarest body of all. Only a saint who has reached the sixth stage of spiritual progress can create it. It is sent out from the saint to go resolve a philosophical doubt or verify a teaching. It is completely pure, completely good, and can pass through anything. Think of it as a spiritual avatar that the saint projects outward for a specific purpose.</p>
+<p class="simple-explanation"><b>The simple version:</b> This is the ultimate "avatar." Extremely holy people can send out a pure, invisible version of themselves to find answers or help others. It's like a spiritual drone that can go anywhere.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you could send a "pure avatar" of yourself anywhere in the world right now to help someone, where would you send it?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Divider: Gender of Beings -->
+<div class="my-16 text-center">
+<span class="inline-block bg-primary/10 text-primary px-8 py-3 rounded-full font-headline text-sm font-bold tracking-[0.15em] uppercase">Gender of Beings</span>
+</div>
+
+<!-- Sutra 2-50 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-50">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.50</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">नारकसम्मूर्च्छिनो नपुंसकानि ॥५०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Infernal beings and spontaneously-generated beings are neuter.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Hell-beings and beings born through spontaneous generation have no male or female gender. They are neuter. This is because their karmas produce the neuter-sex sign. They cannot experience the pleasures that come from male or female gender.</p>
+<p class="simple-explanation"><b>The simple version:</b> Beings in hell and those who just form from matter don't have a gender. They are neutral. This is because their karma doesn't allow for those specific types of experiences.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>How much of your identity is tied to being a "boy" or a "girl"? If that was suddenly gone, who would you be underneath?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-51 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-51">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.51</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">न देवाः ॥५१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Celestial beings are not neuter.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gods enjoy rare pleasures because of their auspicious karmas. They are either male or female, never neuter. This is a direct contrast to infernal beings who are always neuter.</p>
+<p class="simple-explanation"><b>The simple version:</b> Unlike hell-beings, gods are always male or female. Their "good" karma gives them a more complex and varied experience of life.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Do you see variety and difference as a "gift" (like the gods) or as a source of conflict? How can we make difference a good thing?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-52 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-52">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.52</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शेषास्त्रिवेदाः ॥५२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The remaining beings can be of all three genders.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Beings born from a womb &mdash; humans and animals &mdash; can be male, female, or neuter. These three genders have both a physical component and a psychological component. The physical sign comes from name-karma. The psychological sign comes from conduct-deluding karma called quasi-passions.</p>
+<p class="simple-explanation"><b>The simple version:</b> Humans and animals can be male, female, or neutral. Interestingly, Jainism says your body might have one gender while your mind feels like another. It all depends on your specific karma.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>Jainism separated "physical gender" from "inner feeling" thousands of years ago. How does this ancient view change how you see modern discussions about identity?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2-53 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-53">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.53</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">औपपादिकचरमोत्तमदेहासंख्येयवर्षायुषोऽनपवर्त्यायुषः ॥५३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The lifespan of special-bed beings, those with final superior bodies, and those with innumerable years of life cannot be cut short.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Celestial and infernal beings live their full lifespan no matter what &mdash; nothing can kill them early. Similarly, beings who are in their very last body before liberation, and beings who live for innumerable years, have lifespans that cannot be shortened by any external cause. Everyone else can potentially have their life cut short by things like weapons, poison, or accidents.</p>
+<p class="simple-explanation"><b>The simple version:</b> Gods, hell-beings, and people about to become free (Tirthankaras) have "guaranteed" lifespans. Nothing can stop them early. But for the rest of us, life can end at any second. We never know how much time we have left.</p>
+<div class="contemplation-box">
+<h5>Ponder this</h5>
+<p>If you knew for sure your life couldn't be cut short, would you be more or less brave? Since you *don't* know, how should you use today?</p>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Chapter End -->
+<div class="my-16 py-12 text-center border-t border-b border-primary/20">
+<p class="sutra-sanskrit font-headline text-primary text-xl">॥ इति तत्त्वार्थसूत्रापरनाममोक्षशास्त्रे द्वितीयोऽध्यायः समाप्तः ॥</p>
+<p class="text-on-surface-variant text-sm mt-3 font-label italic">Thus ends the Second Chapter of Tattvarthasutra, also known as Mokshashastra.</p>
+</div>
+
+</section>
+
+<!-- Attribution -->
+<section class="bg-[#f2f1f0] py-16 mesh-bg border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-12">
+<div class="max-w-2xl">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Source</span>
+<p class="text-lg leading-relaxed text-on-surface-variant mt-4">
+Sanskrit sutras by <span class="text-primary font-semibold">Acharya Umasvati</span>. English descriptions simplified and adapted by JainAwaken for educational and spiritual purposes.
+</p>
+</div>
+</div>
+</section>
+
+<!-- Closing -->
+<div class="text-center py-12 pb-24">
+<p class="font-headline text-primary italic text-xl">Jai Jinendra</p>
+</div>
 </main>
 
 <!-- Floating Navigation Buttons -->
-<a href="index-v4.html" class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
-    <span class="text-lg">←</span> Home
+<a href="tattvartha-ch1-v4.html" class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    <span class="text-lg">←</span> Chapter 1
 </a>
 
-<a href="#" class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
-    Archives <span class="text-lg">→</span>
+<a href="tattvartha-ch3-v4.html" class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    Chapter 3 <span class="text-lg">→</span>
 </a>
 
 <!-- Footer -->
 <footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
-    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
-        <div class="flex flex-col gap-6 max-w-md">
-            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
-            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
                 Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
             </p>
-            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
-        </div>
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
-            <div class="flex flex-col gap-4">
-                <span class="text-primary/40 mb-2">Explore</span>
-                <a class="hover:text-primary transition-colors" href="index-v4.html">About Us</a>
-                <a class="hover:text-primary transition-colors" href="index-v4.html">Fundamentals</a>
-                <a class="hover:text-primary transition-colors" href="#">Practice</a>
-            </div>
-            <div class="flex flex-col gap-4">
-                <span class="text-primary/40 mb-2">Connect</span>
-                <a class="hover:text-primary transition-colors" href="#">Contact</a>
-                <a class="hover:text-primary transition-colors" href="#">Newsletter</a>
-                <a class="hover:text-primary transition-colors" href="#">Events</a>
-            </div>
-        </div>
-    </div>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Explore</span>
+<a class="hover:text-primary transition-colors" href="#">About Us</a>
+<a class="hover:text-primary transition-colors" href="index-v4.html">Fundamentals</a>
+<a class="hover:text-primary transition-colors" href="#">Practice</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Connect</span>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+<a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+<a class="hover:text-primary transition-colors" href="#">Events</a>
+</div>
+</div>
+</div>
 </footer>
 
 <script>
@@ -301,7 +1286,6 @@
         }
     });
 </script>
-
 
 
 
@@ -403,5 +1387,4 @@
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initSearch) : initSearch();
 })();
 </script>
-
 </body></html>
