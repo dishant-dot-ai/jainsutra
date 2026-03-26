@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 2: Parishaha — On Endurances | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e",
+        "on-secondary-fixed-variant": "#4a4642",
+        "secondary-container": "#e6ded9",
+        "primary-fixed-dim": "#e6c364",
+        "surface-bright": "#fef9f1",
+        "tertiary-fixed": "#dde1ff",
+        "surface": "#fef9f1",
+        "primary-fixed": "#ffe08f",
+        "surface-container-low": "#f8f3eb",
+        "secondary-fixed": "#e9e1dc",
+        "outline-variant": "#d0c5b2",
+        "outline": "#7e7665",
+        "inverse-on-surface": "#f5f0e8",
+        "on-background": "#1d1c17",
+        "on-secondary": "#ffffff",
+        "on-tertiary-container": "#2e3b77",
+        "error": "#ba1a1a",
+        "on-error": "#ffffff",
+        "on-primary-fixed-variant": "#584400",
+        "surface-dim": "#ded9d2",
+        "surface-container-high": "#ece8e0",
+        "primary": "#755b00",
+        "on-primary-container": "#503d00",
+        "inverse-surface": "#32302b",
+        "secondary": "#625d59",
+        "error-container": "#ffdad6",
+        "tertiary-fixed-dim": "#b9c3ff",
+        "on-secondary-container": "#67625e",
+        "on-primary": "#ffffff",
+        "on-primary-fixed": "#241a00",
+        "on-error-container": "#93000a",
+        "surface-tint": "#755b00",
+        "secondary-fixed-dim": "#ccc5c0",
+        "surface-variant": "#e7e2da",
+        "surface-container-lowest": "#ffffff",
+        "on-tertiary-fixed": "#041451",
+        "surface-container-highest": "#e7e2da",
+        "primary-container": "#c9a84c",
+        "inverse-primary": "#e6c364",
+        "on-surface-variant": "#4d4637",
+        "tertiary": "#4d5a98",
+        "background": "#fef9f1",
+        "on-tertiary": "#ffffff",
+        "on-surface": "#1d1c17",
+        "tertiary-container": "#9ba8eb",
+        "surface-container": "#f2ede5",
+        "on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: {
+        "headline": ["Noto Serif", "serif"],
+        "body": ["Inter", "sans-serif"],
+        "label": ["Inter", "sans-serif"]
+      },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.burnished-gradient {
+  background: radial-gradient(circle at center, #755b00, #c9a84c);
+}
+
+.sutra-card {
+  border-left: 3px solid #c9a84c;
+}
+
+.sutra-quote {
+  border-left: 1px solid #c9a84c;
+  padding-left: 3rem;
+}
+
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+
+.sutra-card > div > span:first-child {
+  width: 3.5rem;
+  display: inline-block;
+}
+
+.simple-explanation {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed rgba(201,168,76,0.3);
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4d4637;
+}
+.simple-explanation b { color: #755b00; font-weight: 600; }
+
+/* Concept Tags */
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag {
+  display: inline-block;
+  border: 1px solid #C9A84C;
+  background: transparent;
+  color: #1d1c17;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 100px;
+  padding: 4px 13px;
+  font-weight: 500;
+}
+
+/* Floating Nav */
+.nav-button {
+  position: fixed;
+  bottom: 24px;
+  z-index: 100;
+  background: transparent;
+  border: 1px solid rgba(201,168,76,0.35);
+  color: rgba(201,168,76,0.6);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+.nav-button.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.nav-button:hover {
+  border-color: #C9A84C;
+  color: #C9A84C;
+}
+
+/* Glass Nav */
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+.nav-hero .nav-logo { color: #ffffff !important; }
+.nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+.nav-hero .nav-link:hover { color: #ffffff !important; }
+.nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+.nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+.nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+
+/* Sutra counter */
+.sutra-counter {
+  position: sticky;
+  top: 80px;
+  z-index: 40;
+  background: rgba(254,249,241,0.9);
+  backdrop-filter: blur(10px);
+  padding: 0.5rem 0;
+  transition: opacity 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .sutra-sanskrit { font-size: 1.15rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#FEF9F1]">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Parishaha <span class="text-primary font-normal">(परीषह)</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline italic text-on-surface-variant leading-tight font-light">
+      &ldquo;Chapter 2 &mdash; On Endurances&rdquo;
+    </h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Lord Mahavira teaches the 22 types of hardships (parishaha) a monk must endure with equanimity &mdash; hunger, thirst, cold, heat, insects, nakedness, displeasure, women, wandering, sitting, sleeping, abuse, beating, begging, failure to obtain, disease, thorns, dirt, respect/disrespect, pride of knowledge, lack of faith, and ignorance.
+    </p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <img alt="Ancient Jain manuscript depicting a monk enduring hardships on the spiritual path" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbzk7XDqh1rQQfD8cD58TcYiARccg9FHm3LLSomAhxd2vS_OMetrApvWvewalpmzqhvvtm2IF1lmNsvYCEPFPjtoAl7UWNMyduWVAaaLknydKBqlEzHHhdEyWD5JlvrwpomspNdKk7mbbbfVrktrZKB-UjFoUOqmIxllRtsbnVk_pFkGLNKDgHu54EhaOnN6f6WTMH7BFkqe_aA8MqwqjNMvc-JpOb5LsSF0cQktl1FKSMJsn6_v5XzIv3caRCmuHRDhD5F6P9DQ"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Parishaha</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Parishaha</span> is the second chapter of the Uttaradhyayana Sutra. It describes the 22 types of endurances that aspirants on the spiritual path must bear with patience and equanimity. These are not punishments but tests that purify karma and strengthen resolve.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The chapter begins by asking what kinds of hardships a monk must face, then systematically describes each of the 22 parishahas &mdash; from hunger and thirst to pride of knowledge and ignorance. Through these trials, the aspirant burns away accumulated karma and moves closer to liberation. The teaching emphasizes that enduring these hardships without complaint or attachment is the mark of a true spiritual practitioner.
+      </p>
+      <div class="flex flex-wrap gap-4 pt-4">
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">46 Sutras</span>
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Lord Mahavira</span>
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Simplified by JainAwaken</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<div class="sutra-counter text-center py-3 border-b border-primary/5">
+  <span id="sutra-indicator" class="font-label text-xs tracking-[0.15em] uppercase text-primary/60 font-semibold">Sutra 1 of 46</span>
+</div>
+
+<!-- Sutras Section -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 2</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 46 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Prakrit, English translation, and a simplified commentary.</p>
+  </div>
+
+<!-- Sutra 1 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुयं मे आउसं ! तेणं भगवया एवमक्खायं&mdash; इह खलु बावीसं परीसहा<br/>समणेणं भगवया महावीरेणं कासवेणं पवेइया, जे भिक्खू सोच्चा, णच्चा,<br/>जिच्चा, अभिभूय भिक्खायरियाए परिव्वयंतो पुट्ठो णो विणिहण्णेज्जा । ॥२.१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Thus have I heard: Lord Mahavira, the Kashyapa Gotriya monk, has declared these 22 types of endurances (parishaha). A monk who, having heard, understood, and conquered them, wanders on the path of mendicancy without being defeated by them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This opening sutra sets the framework for the entire chapter. It introduces the concept of 22 parishahas &mdash; hardships or trials that every monk must face and overcome. The phrase &ldquo;thus have I heard&rdquo; signals that this is a transmitted teaching from Lord Mahavira himself. The key message: a monk must not merely know about these hardships but must hear them, internalize them, and conquer them while continuing the spiritual journey without being defeated.</p>
+<p class="simple-explanation"><b>The simple version:</b> Lord Mahavira taught that there are 22 types of tough challenges a monk will face. A true monk hears about them, understands them, and keeps going without giving up &mdash; no matter how hard things get.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Parishaha</span>
+  <span class="concept-tag">Endurance</span>
+  <span class="concept-tag">Mahavira</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कयरे ते खलु बावीसं परीसहा समणेणं भगवया महावीरेणं कासवेणं<br/>पवेइया, जे भिक्खू सोच्चा, णच्चा, जिच्चा, अभिभूय भिक्खायरियाए परिव्वयंतो<br/>पुट्ठो णो विणिहण्णेज्जा ? ॥२.२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">What are those 22 endurances declared by Lord Mahavira, the Kashyapa Gotriya monk, which a monk must hear, understand, and conquer so as not to be defeated while wandering on the mendicant path?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra poses the central question of the chapter. Having established that there are 22 parishahas, the text now asks: what exactly are they? This question-and-answer format is a classic Jain teaching method, creating anticipation and structure for the systematic exposition that follows. The disciple is invited to listen carefully as each parishaha is about to be revealed.</p>
+<p class="simple-explanation"><b>The simple version:</b> The disciple asks: &ldquo;Okay, so what exactly are these 22 hardships that Mahavira talked about?&rdquo; This sets up the detailed list that follows.</p>
+<div class="concept-tags">
+  <span class="concept-tag">22 Parishahas</span>
+  <span class="concept-tag">Inquiry</span>
+  <span class="concept-tag">Teaching Method</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 3 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">इमे ते खलु बावीसं परीसहा समणेणं भगवया महावीरेणं कासवेणं पवेइया,<br/>जे भिक्खू सोच्चा, णच्चा, जिच्चा, अभिभूय भिक्खायरियाए परिव्वयंतो पुट्ठो<br/>णो विणिहण्णेज्जा, तं जहा&mdash; १. दिगिंच्छा परीसहे २. पिवासा परीसहे ३. सीय<br/>परीसहे ४. उसिण परीसहे ५. दंसमसय परीसहे ६. अचेल परीसहे ७. अरइ<br/>परीसहे ८. इत्थी परीसहे ९. चरिया परीसहे १०. णिसीहिया परीसहे ११. सेज्जा<br/>परीसहे १२. अक्कोस परीसहे १३. वह परीसहे १४. जायणा परीसहे १५.<br/>अलाभ परीसहे १६. रोग परीसहे १७. तणफास परीसहे १८. जल्ल परीसहे १९.<br/>सक्कारपुरक्कार परीसहे २०. पण्णा परीसहे २१. अण्णाण परीसहे २२. दंसण<br/>परीसहे। ॥२.३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">These are the 22 endurances: (1) Hunger, (2) Thirst, (3) Cold, (4) Heat, (5) Insect bites, (6) Nakedness, (7) Displeasure, (8) Women, (9) Wandering, (10) Sitting, (11) Sleeping, (12) Abuse, (13) Beating, (14) Begging, (15) Non-obtaining, (16) Disease, (17) Thorny touches, (18) Dirt, (19) Honor and Dishonor, (20) Knowledge, (21) Ignorance, (22) Lack of Faith.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This comprehensive sutra lists all 22 parishahas in sequence. These cover every dimension of monastic difficulty: physical (hunger, thirst, cold, heat, insects, disease, thorns, dirt), social (abuse, beating, honor/dishonor), psychological (displeasure, temptation by women, sleeplessness), and spiritual (pride of knowledge, ignorance, lack of faith). Together they form a complete map of the trials that test a monk&rsquo;s resolve. Each will be elaborated in the sutras that follow.</p>
+<p class="simple-explanation"><b>The simple version:</b> Here is the full list of 22 hardships a monk faces: from basic physical needs like hunger and thirst, to social challenges like insults and beatings, all the way to inner spiritual tests like pride and doubt. Every one of them is a test of character.</p>
+<div class="concept-tags">
+  <span class="concept-tag">22 Parishahas</span>
+  <span class="concept-tag">Complete List</span>
+  <span class="concept-tag">Physical Trials</span>
+  <span class="concept-tag">Spiritual Trials</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 4 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">दिगिंच्छा-परिगए देहे, तवस्सी भिक्खू थामवं ।<br/>ण छिद्दे, ण छिदावए, ण पए ण पयावए ॥२.४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When the body is overcome by hunger, the ascetic monk should endure it with firmness. He should not break his vow, nor cause others to break theirs, nor beg inappropriately, nor cause others to do so.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The first parishaha &mdash; hunger &mdash; is the most fundamental physical trial. When a monk experiences intense hunger, the temptation is to abandon the strict rules about food-gathering. This sutra teaches that the monk must bear the hunger firmly without breaking the code of conduct regarding alms. The four-fold restraint &mdash; not doing wrong oneself, not causing others to do wrong, not begging improperly, and not causing improper begging &mdash; must be maintained even in extreme hunger.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you are starving, don&rsquo;t cheat. Don&rsquo;t break your rules about food, don&rsquo;t get others to break theirs, and don&rsquo;t beg in ways that aren&rsquo;t allowed. Endure the hunger with strength.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Hunger</span>
+  <span class="concept-tag">Fasting</span>
+  <span class="concept-tag">Self-Control</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 5 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">छिण्णावापसु पंथेसु, आउरे सुपिवासिए ।<br/>परिसुक्क मुहाडीणे, तं तितिक्खे परीसहं ॥२.५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">On paths where water sources are cut off, when afflicted by intense thirst, with the mouth and lips completely dried up &mdash; one should endure this parishaha of thirst.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The second parishaha &mdash; thirst &mdash; describes the acute physical suffering of wandering through waterless regions. The imagery is vivid: dried lips, parched mouth, and no water in sight. Yet the monk must not abandon the spiritual path or compromise ethical conduct for the sake of quenching thirst. This parishaha tests the monk&rsquo;s attachment to bodily comfort and their ability to prioritize the soul over the body.</p>
+<p class="simple-explanation"><b>The simple version:</b> Imagine walking through a desert with no water, your mouth completely dry and cracked. Even then, a monk must keep going and not abandon the spiritual path just for a drink. The body suffers, but the soul stays strong.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Thirst</span>
+  <span class="concept-tag">Physical Endurance</span>
+  <span class="concept-tag">Detachment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 6 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">चरंतं विरयं लूहं, सीयं फुसइ एगया ।<br/>णाइवेलं णी गच्छे, सोच्चाणं जिणसासणं ॥२.६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When bitter cold touches the wandering, austere monk, he should not seek shelter at the wrong time or in forbidden places, remembering the teaching of the Jina.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The third parishaha &mdash; cold &mdash; tests the monk&rsquo;s resolve against harsh weather. When freezing cold strikes, the temptation is to seek warmth by breaking monastic rules &mdash; entering houses at wrong times or accepting improper shelter. The sutra instructs the monk to recall the Jina&rsquo;s teaching and remain firm. The cold is temporary; compromising the vow leaves a permanent karmic stain.</p>
+<p class="simple-explanation"><b>The simple version:</b> When it is freezing cold, a monk shouldn&rsquo;t break the rules just to get warm. Remember what the teacher said, tough it out, and keep your vows intact.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Cold</span>
+  <span class="concept-tag">Austerity</span>
+  <span class="concept-tag">Vow Keeping</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 7 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण मे णिवारणं अत्थि, छवित्ताणं ण विज्जइ ।<br/>अहं तु अग्गिं सेवामि, इइ भिक्खू ण चिंतए ॥२.७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A monk should not think: &ldquo;I have no protection, no shelter from the cold &mdash; let me seek fire and warmth.&rdquo; He should not entertain such thoughts of comfort-seeking.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra deepens the teaching on cold parishaha. The battle is not just physical but mental. Even the thought of seeking improper comfort &mdash; like warming oneself by fire against monastic rules &mdash; must be rejected. A monk&rsquo;s victory over parishaha begins in the mind. If the mind entertains thoughts of escape, the body will follow. True endurance is mental firmness first.</p>
+<p class="simple-explanation"><b>The simple version:</b> It is not just about not seeking warmth &mdash; you should not even think about it. The real battle against hardship happens in your mind, not just your body.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Mental Discipline</span>
+  <span class="concept-tag">Cold</span>
+  <span class="concept-tag">Thought Control</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 8 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">उसिणं परियावेणं, परिदाहेण तज्जिए ।<br/>चिंसु वा परिदेवण, सायं णो परिदेवए ॥२.८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When tormented by the burning heat, scorched and afflicted, the monk should not lament or complain &mdash; he should endure it with equanimity.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The fourth parishaha &mdash; heat. Under the blazing sun, with the body burning, the natural reaction is to complain and seek shade improperly. The sutra teaches that lamentation itself is a form of weakness. A monk who endures heat without complaint demonstrates that the soul is master of the body, not the other way around. Equanimity under physical suffering is the hallmark of spiritual strength.</p>
+<p class="simple-explanation"><b>The simple version:</b> When it is scorching hot and you are burning up, don&rsquo;t whine or complain. Bear it quietly. Complaining is itself a sign that the body is controlling you instead of you controlling the body.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Heat</span>
+  <span class="concept-tag">Equanimity</span>
+  <span class="concept-tag">Non-Complaint</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 9 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">उण्हाहितत्तो मेहावी, सिणाणं णो वि पत्थए ।<br/>गायं णो परिसिंचेज्जा, ण वीएज्जा य अप्पयं ॥२.९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even when scorched by heat, the wise monk should not desire a bath, should not sprinkle water on the body, and should not fan himself.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Continuing the heat parishaha, this sutra gets specific about what &ldquo;endurance&rdquo; means in practice. Three comforts are explicitly forbidden: bathing, sprinkling water, and fanning. Each represents a progressively smaller concession to comfort, yet even the smallest is rejected. The point is total acceptance of the present condition without seeking any relief that would compromise monastic conduct.</p>
+<p class="simple-explanation"><b>The simple version:</b> When it is boiling hot, don&rsquo;t take a bath, don&rsquo;t splash water on yourself, don&rsquo;t even fan yourself. Accept the heat completely as it is. Even small comforts can weaken your resolve.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Heat</span>
+  <span class="concept-tag">Total Acceptance</span>
+  <span class="concept-tag">Austerity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 10 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पुट्ठो य दंसमसईहिं, समरे व महामुणी ।<br/>णागो संगामसीसे वा, सूरो अभिहणे परं ॥२.१०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When bitten by mosquitoes, flies, and other insects, the great sage should be like an elephant in battle or a hero who strikes down foes &mdash; firm and unshaken.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The fifth parishaha &mdash; insect bites. The imagery shifts to a warrior metaphor: just as an elephant in battle remains unmoved by arrows and strikes, a monk should remain unmoved by the constant irritation of insect bites. This is a powerful analogy because insect bites are relentless and maddening, testing patience at a deep level. The monk fights this battle not by swatting (which would cause violence) but by enduring with unwavering calm.</p>
+<p class="simple-explanation"><b>The simple version:</b> When mosquitoes and bugs are biting you all over, be like a war elephant &mdash; stand firm and don&rsquo;t flinch. A monk can&rsquo;t swat insects (that would be violence), so the only option is brave endurance.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Insects</span>
+  <span class="concept-tag">Ahimsa</span>
+  <span class="concept-tag">Fortitude</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 11 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण संतसे ण हणे पाणे, भुंजंते मंस-सोणियं ।<br/>उवेहे जं ण पओसए, ण वारिज्जा तिविहेण तं ॥२.११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He should not be agitated, should not kill the creatures feeding on his flesh and blood, and should not prevent them by body, speech, or mind.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra takes the insect parishaha to its extreme. Even when insects are literally feeding on the monk&rsquo;s flesh and blood, the monk must not kill them, must not swat them away, and must not even mentally wish them harm. The three-fold restraint (body, speech, mind) ensures complete non-violence. This represents the pinnacle of ahimsa &mdash; extending compassion even to those causing you pain.</p>
+<p class="simple-explanation"><b>The simple version:</b> Even if bugs are literally eating your skin, you must not harm them in any way &mdash; not with your hands, not with angry words, not even with angry thoughts. That is the ultimate test of non-violence.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Ahimsa</span>
+  <span class="concept-tag">Three-Fold Restraint</span>
+  <span class="concept-tag">Compassion</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 12 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परिजुण्णेहिं वत्थेहिं, होक्खामि त्ति अचेलए ।<br/>अदुवा सचेले होक्खं, इइ भिक्खू ण चिंतए ॥२.१२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When clothes are worn out, the monk should not think: &ldquo;I will remain naked&rdquo; with ego, nor think &ldquo;I will get new clothes&rdquo; &mdash; such thoughts should not arise.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The sixth parishaha &mdash; nakedness (acelaka). When a monk&rsquo;s clothes wear out completely, two temptations arise: pride in going naked (as if it were an achievement) or desire for new clothes. Both are traps. The sutra teaches equanimity toward the body&rsquo;s covering. Whether clothed or unclothed, the monk should remain indifferent, neither proud of austerity nor craving comfort.</p>
+<p class="simple-explanation"><b>The simple version:</b> When your clothes fall apart, don&rsquo;t get proud about being naked (like it makes you more holy) and don&rsquo;t obsess about getting new clothes either. Just accept whatever state you are in without making it a big deal.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Nakedness</span>
+  <span class="concept-tag">Non-Attachment</span>
+  <span class="concept-tag">Equanimity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 13 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एगया अचेलए होइ, सचेले यावि एगया ।<br/>एवं धम्महियं चिंतइ, णाणी णो परिदेवए ॥२.१३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Whether one becomes naked or remains clothed &mdash; in either state, the wise one contemplates what is beneficial for dharma and does not lament.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Building on the previous sutra, this verse clarifies the correct attitude. The external state of the body &mdash; clothed or unclothed &mdash; is irrelevant to spiritual progress. What matters is the inner disposition: contemplating dharma and maintaining equanimity. A wise monk never laments changes in external circumstances because they know the soul is untouched by such things.</p>
+<p class="simple-explanation"><b>The simple version:</b> Clothes or no clothes &mdash; it does not matter. What matters is what is going on inside your mind. Focus on dharma, not on your wardrobe. Do not waste energy complaining about external conditions.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Dharma</span>
+  <span class="concept-tag">Inner Focus</span>
+  <span class="concept-tag">Equanimity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 14 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.14</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गामाणुगामं रीयंतं, अण्णगारं अकिंचणं ।<br/>अरई अणुप्पवेसेज्जा, तं तितिक्खे परीसहं ॥२.१४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When the homeless, possessionless monk wanders from village to village, displeasure and restlessness may arise &mdash; he should endure this parishaha.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The seventh parishaha &mdash; displeasure or restlessness (arati). The wandering life of a monk is inherently unsettling. Moving from village to village with no home, no possessions, and no certainty about the next meal naturally breeds restlessness and dissatisfaction. This sutra acknowledges that feeling but commands the monk to endure it rather than yield to it. Restlessness is the mind&rsquo;s protest against the discipline the soul has chosen.</p>
+<p class="simple-explanation"><b>The simple version:</b> Wandering endlessly with nothing to your name is mentally exhausting. You will feel restless and unhappy sometimes. That is normal &mdash; but you must endure it. Do not let boredom or dissatisfaction push you off the path.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Displeasure</span>
+  <span class="concept-tag">Restlessness</span>
+  <span class="concept-tag">Wandering</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 15 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-15">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अरइं पिट्ठुओ किच्चा, विरए आयरक्खिए ।<br/>णिरारंभे निरारंभे, उवसंते मुणी चरे ॥२.१५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having conquered displeasure, the monk who is detached, self-controlled, free from worldly activities, and at peace should continue wandering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the state after conquering the arati parishaha. The monk who overcomes restlessness becomes truly peaceful &mdash; detached from outcomes, guarding the self, free from all worldly entanglements. The word &ldquo;upasamte&rdquo; (at peace) describes a state of inner calm that comes only after the restlessness has been fully faced and overcome. Peace is not the absence of difficulty but the mastery over it.</p>
+<p class="simple-explanation"><b>The simple version:</b> Once you beat the restlessness, you become truly peaceful. Not fake peace &mdash; real peace that comes from having faced the discomfort and won. Then you can keep walking your path with a calm mind.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Inner Peace</span>
+  <span class="concept-tag">Detachment</span>
+  <span class="concept-tag">Mastery</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 16 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-16">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.16</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संगो एस मणुस्साणं, जाओ लोगम्मि इत्थिओ ।<br/>जस्स एया परिण्णाया, सुकडं तस्स सामण्णं ॥२.१६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Women are the greatest attachment for humans in this world. The monk who has fully understood and conquered this attachment has truly accomplished the monastic life.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The eighth parishaha &mdash; women (itthi). This sutra addresses sexual desire as one of the most powerful attachments in human life. For a male monk, the attraction to women represents the deepest biological and psychological pull away from renunciation. The sutra does not condemn women but identifies the attachment itself as the obstacle. One who fully understands and transcends this attachment has achieved something truly remarkable in monastic practice.</p>
+<p class="simple-explanation"><b>The simple version:</b> Sexual attraction is one of the strongest forces pulling people away from spiritual discipline. A monk who truly understands this and masters it has passed one of the hardest tests there is.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Brahmacharya</span>
+  <span class="concept-tag">Attachment</span>
+  <span class="concept-tag">Self-Mastery</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 17 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-17">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.17</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवमादाय मेहावी, पंकभूया उ इत्थिओ ।<br/>णो ताहिं विणिहण्णेज्जा, चरेज्जउत्तगवेसए ॥२.१७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise monk, understanding that attachment to women is like quicksand, should not be defeated by it but should continue seeking the highest truth.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra uses the metaphor of quicksand (pankabhuya) &mdash; once you step in, it pulls you deeper and deeper. Sexual attachment works the same way: a small indulgence leads to greater entanglement. The wise monk recognizes this trap and stays focused on the ultimate goal (uttagavesa &mdash; seeking the highest). This is not about suppression but about understanding the nature of attachment so thoroughly that it loses its power.</p>
+<p class="simple-explanation"><b>The simple version:</b> Sexual attraction is like quicksand &mdash; the more you indulge, the deeper you sink. A wise person sees this clearly and keeps their eyes on the bigger goal instead of getting trapped.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Quicksand Metaphor</span>
+  <span class="concept-tag">Brahmacharya</span>
+  <span class="concept-tag">Wisdom</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 18 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-18">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.18</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एग एव चरे लाढे, अभिभूय परीसहे ।<br/>गामे वा णगरे वावि, णिगमे वा रायहाणीए ॥२.१८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should wander alone with firmness, having conquered the parishahas &mdash; whether in a village, city, town, or capital.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The ninth parishaha &mdash; wandering (charya). The monk&rsquo;s life involves constant movement through varied environments &mdash; villages, cities, towns, and capitals. Each presents different temptations and difficulties. The key word is &ldquo;alone&rdquo; (ega) &mdash; the monk must rely on inner strength, not on companions or external support. Wandering alone through the world while conquering every hardship is the essence of monastic life.</p>
+<p class="simple-explanation"><b>The simple version:</b> A monk must wander alone through all kinds of places &mdash; small villages, big cities, everywhere &mdash; and handle whatever comes without relying on anyone else. Being spiritually self-sufficient is the key.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Wandering</span>
+  <span class="concept-tag">Solitude</span>
+  <span class="concept-tag">Self-Reliance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 19 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-19">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.19</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">असमाणो चरे भिक्खू, णेव कुज्जा परिग्गहं ।<br/>असंसत्तो गिहत्थेहिं, अणिकेओ परिव्वए ॥२.१९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should wander without any possessions, should not accumulate anything, should remain detached from householders, and should wander without a fixed abode.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Continuing the wandering parishaha, this sutra specifies the conditions of the monk&rsquo;s journey: no possessions, no accumulation, no attachment to the lay community, and no permanent home. Each of these is a form of renunciation that makes the wandering life especially challenging. The temptation to settle down, to accept gifts, to form relationships with supporters &mdash; all must be resisted.</p>
+<p class="simple-explanation"><b>The simple version:</b> While wandering, a monk must own nothing, collect nothing, not get attached to people who help him, and never settle in one place. Complete freedom from everything &mdash; that is the standard.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Non-Possession</span>
+  <span class="concept-tag">Wandering</span>
+  <span class="concept-tag">Detachment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 20 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-20">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.20</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुसाणे सुण्णगारे वा, रुक्ख-मूले व एगओ ।<br/>अकुक्कुओ णिसीएज्जा, ण य वित्तासए परं ॥२.२०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In a cremation ground, an empty house, or at the root of a tree &mdash; the monk should sit alone, without disturbance, and should not frighten others.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The tenth parishaha &mdash; sitting (nisihiya). A monk must sit for meditation and rest in uncomfortable, sometimes frightening places: cremation grounds, abandoned buildings, under trees. The sutra adds an important ethical dimension &mdash; while sitting in these places, the monk must not disturb or frighten anyone nearby. Endurance of sitting parishaha means accepting any location without complaint while also being considerate of others.</p>
+<p class="simple-explanation"><b>The simple version:</b> A monk might have to sit and meditate in a graveyard, an abandoned house, or under a tree. You do not get to pick comfortable spots. Sit wherever you end up and do not scare people around you either.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Sitting</span>
+  <span class="concept-tag">Meditation</span>
+  <span class="concept-tag">Fearlessness</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 21 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-21">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.21</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तत्थ से चित्तुमाणस्स, उवसग्गाभिधारए ।<br/>संकाभीओ ण गच्छेज्जा, उट्ठित्ता अण्णमासणं ॥२.२१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When obstacles and disturbances arise while sitting there, the monk should not become afraid and move to another seat out of fear.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra addresses the mental challenge of the sitting parishaha. When strange noises, animals, or unsettling phenomena occur in isolated places, the instinct is to flee to a more comfortable spot. The monk must resist this impulse. Fear is a form of attachment to bodily safety. By staying put despite disturbances, the monk demonstrates mastery over fear itself &mdash; one of the deepest human instincts.</p>
+<p class="simple-explanation"><b>The simple version:</b> If something scary happens while you are sitting in a lonely place &mdash; strange sounds, animals, whatever &mdash; do not run away. Stand your ground. Overcoming fear is part of the training.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Fearlessness</span>
+  <span class="concept-tag">Sitting</span>
+  <span class="concept-tag">Courage</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 22 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-22">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.22</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">उच्चावयाहिं सेज्जाहिं, तवस्सी भिक्खू थामवं ।<br/>णाइवेलं विहण्णेज्जा, पावदित्ती विहण्णइ ॥२.२२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Whether the sleeping place is high or low, comfortable or rough, the ascetic monk should endure it with firmness &mdash; only one with bad karma is troubled by it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The eleventh parishaha &mdash; sleeping (sejja). The quality of one&rsquo;s sleeping place is a constant source of discomfort for the wandering monk. Hard ground, rocky surfaces, uneven terrain &mdash; all must be accepted without complaint. The sutra adds a profound insight: only one with &ldquo;bad inclination&rdquo; (pavaditti) is troubled by the sleeping place. A spiritually advanced soul is indifferent to whether the bed is soft or hard, high or low.</p>
+<p class="simple-explanation"><b>The simple version:</b> Whether you sleep on a soft surface or hard rocks, do not complain. Only someone with a weak spiritual attitude gets bothered by where they sleep. Your soul does not care about the mattress.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Sleeping</span>
+  <span class="concept-tag">Endurance</span>
+  <span class="concept-tag">Indifference</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 23 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-23">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.23</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पइरिक्कुवस्सनं लद्धुं, कल्लाणं अदुव पावगं ।<br/>किमेगराचं किरिस्सइ, एवं तत्थडहियासए ॥२.२३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Whether one receives praise or blame, good fortune or bad &mdash; the monk should remain firm, thinking: &ldquo;What can one night&rsquo;s experience do to me?&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces a powerful mental technique for enduring the sleeping parishaha. The monk tells himself: &ldquo;It is just one night. What can it do?&rdquo; This perspective-shifting thought reduces the apparent magnitude of suffering. Whether the experience is pleasant or unpleasant, it is temporary. By focusing on the transient nature of discomfort, the monk finds the strength to endure it.</p>
+<p class="simple-explanation"><b>The simple version:</b> When the night is rough, tell yourself: &ldquo;It is just one night. What is the worst that can happen?&rdquo; This simple thought can get you through almost anything. All discomfort is temporary.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Perspective</span>
+  <span class="concept-tag">Impermanence</span>
+  <span class="concept-tag">Mental Technique</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 24 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-24">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.24</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अक्कोसेज्जा परे भिक्खुं, ण तेसिं पडिसंजले ।<br/>सरिसो होइ बालाणं, तं तितिक्खे परीसहं ॥२.२४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When others abuse the monk, he should not retaliate &mdash; for retaliating makes him equal to the fools. He should endure this parishaha of abuse.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The twelfth parishaha &mdash; abuse (akkosa). When people hurl insults, harsh words, and verbal abuse at the monk, the natural instinct is to respond in kind. This sutra warns: retaliating makes you no different from the fools who abused you. A truly disciplined soul remains unshaken by words, understanding that verbal abuse cannot touch the soul &mdash; only the ego. By not retaliating, the monk rises above the level of the abuser.</p>
+<p class="simple-explanation"><b>The simple version:</b> When someone insults you, do not insult them back. If you do, you become just as foolish as they are. The real strength is in staying silent and calm while others lose their composure.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Verbal Abuse</span>
+  <span class="concept-tag">Non-Retaliation</span>
+  <span class="concept-tag">Patience</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 25 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-25">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.25</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सोच्चाणं फरुसा भासा, दारुणा गामकंटगा ।<br/>तुसिणीओ उवेहेज्जा, ण ताओ मणसीकरे ॥२.२५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Hearing the harsh, cruel words of village ruffians, the monk should remain silent and should not take those words to heart.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Continuing the abuse parishaha, this sutra specifies the type of abuse &mdash; harsh, cruel words from village troublemakers (gamakantaga). The monk&rsquo;s response should be two-fold: external silence and internal non-attachment. It is not enough to merely stay quiet while seething inside. The words should not even register in the mind (na tao manasikare). True endurance of abuse means it does not disturb the inner peace at all.</p>
+<p class="simple-explanation"><b>The simple version:</b> When bullies say cruel things, stay quiet and do not let their words get inside your head. True strength is not just keeping your mouth shut but genuinely not being bothered by what they said.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Silence</span>
+  <span class="concept-tag">Inner Peace</span>
+  <span class="concept-tag">Non-Attachment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 26 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-26">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.26</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">हओ ण संजले भिक्खू, मणं पि ण पओसए ।<br/>तितिक्खं परमं णच्चा भिक्खुधम्मं विचिंतए ॥२.२६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When beaten, the monk should not retaliate, should not even feel anger in the mind. Knowing that forbearance is the highest virtue, he should contemplate the duty of a monk.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The thirteenth parishaha &mdash; beating (vaha). Physical violence against the monk is a severe test. The sutra demands not just non-retaliation in action but non-anger in the mind. The monk should remember that forbearance (titikkha) is the supreme dharma. By reflecting on monastic duty while being physically assaulted, the monk transforms suffering into spiritual practice. This is one of the most demanding parishahas.</p>
+<p class="simple-explanation"><b>The simple version:</b> If someone physically hits you, do not hit back and do not even get angry inside. Remember that patience and forgiveness are the highest spiritual values. Turn the pain into a spiritual exercise.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Beating</span>
+  <span class="concept-tag">Forbearance</span>
+  <span class="concept-tag">Non-Anger</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 27 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-27">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.27</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">समणं संजयं दंतं, हणिज्जा कोई मणसिणो ।<br/>पत्थि जीवस्स णासुत्ति, एवं पेहेज्ज संजए ॥२.२७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even if someone beats a monk with intent to kill, the self-controlled one should reflect: &ldquo;The soul cannot be destroyed&rdquo; &mdash; thus should the disciplined monk perceive.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra takes the beating parishaha to its ultimate extreme &mdash; even in the face of mortal violence. The monk&rsquo;s refuge is the fundamental Jain teaching that the soul is eternal and indestructible. No amount of physical violence can destroy the atman. By meditating on this truth, the monk finds the courage to endure even life-threatening situations without anger or fear. This is the deepest application of the knowledge of the soul&rsquo;s immortality.</p>
+<p class="simple-explanation"><b>The simple version:</b> Even if someone is trying to kill you, remember: they can destroy the body but never the soul. The soul is eternal and indestructible. Holding onto this truth gives you the courage to face anything.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Soul Immortality</span>
+  <span class="concept-tag">Fearlessness</span>
+  <span class="concept-tag">Ultimate Test</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 28 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-28">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.28</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">दुक्करं खलु भो णिच्चं, अणगारस्स भिक्खुणो ।<br/>सव्वं से जाइयं होइ, णत्थि किंचि अजाइयं ॥२.२८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Difficult indeed is the daily life of the homeless monk. He must beg for everything &mdash; nothing comes to him unsought.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The fourteenth parishaha &mdash; begging (jayaana). A monk depends entirely on alms for survival. Every meal must be begged for, creating daily dependence on the generosity of strangers. The sutra emphasizes how hard this is &mdash; the word &ldquo;dukkaram&rdquo; (difficult indeed) conveys genuine sympathy for the challenge. Nothing in the monk&rsquo;s life comes automatically; every basic need requires the humbling act of asking.</p>
+<p class="simple-explanation"><b>The simple version:</b> Imagine having to ask strangers for every single meal, every day. Nothing is given to you automatically. That is the life of a monk, and it is really, really hard. It takes enormous humility.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Begging</span>
+  <span class="concept-tag">Humility</span>
+  <span class="concept-tag">Dependence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 29 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-29">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.29</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गोयरग्ग पविट्ठुस्स, पाणी णो सुप्पसारए ।<br/>सेओ ण अगावारसु त्ति, इइ भिक्खू ण चिंतए ॥२.२९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When going for alms, the monk should not extend his hands eagerly. He should not think: &ldquo;I should go to that householder&rsquo;s home.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Continuing the begging parishaha, this sutra specifies the proper attitude during alms-gathering. The monk must not show eagerness or greed when begging. Extending hands eagerly or targeting specific households for their generosity are subtle forms of attachment. The monk begs impartially, accepts whatever comes, and does not strategize about where to get the best food. Begging should be an act of humility, not calculation.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you go asking for food, do not look desperate or greedy. Do not plan which houses to visit because they give better food. Just go humbly and accept whatever comes &mdash; or does not come.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Begging</span>
+  <span class="concept-tag">Non-Greed</span>
+  <span class="concept-tag">Humility</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 30 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-30">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.30</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परेसु घासमेसिज्जा, भोयणे परिणिट्ठिए ।<br/>लद्धे अलद्धे अल्लद्धे वा, णाणुत्तप्पे मुणी चरे ॥२.३०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should seek alms from others. Whether he obtains food or not, the sage should not feel remorse but should continue wandering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The fifteenth parishaha &mdash; non-obtaining (alabbha). Sometimes the monk goes door to door and receives nothing. The temptation is to feel dejected, resentful, or to blame oneself. This sutra teaches the monk to accept the outcome with equanimity &mdash; whether food is obtained or not. The sage does not feel remorse or regret (nanuatappe) but simply continues on the path. Non-attachment to results is the key lesson.</p>
+<p class="simple-explanation"><b>The simple version:</b> Sometimes you ask for food and nobody gives you any. Do not feel sorry for yourself or get upset. Whether you eat today or not, keep going with the same calm attitude. Do not get attached to outcomes.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Non-Obtaining</span>
+  <span class="concept-tag">Equanimity</span>
+  <span class="concept-tag">Non-Attachment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 31 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-31">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.31</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अज्जेवाहं ण लब्भामि, अवि लाभो सुए सिया ।<br/>जो एवं पडिसंचिक्खे, अलाभो तं ण तज्जए ॥२.३१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should reflect: &ldquo;Today I did not obtain, but perhaps tomorrow I will.&rdquo; One who thinks thus is not disturbed by non-obtaining.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra provides a practical mental strategy for enduring the alabbha parishaha. The monk tells himself: &ldquo;Not today &mdash; perhaps tomorrow.&rdquo; This is not wishful thinking but a way of maintaining perspective. By recognizing the temporary nature of today&rsquo;s lack, the monk avoids being overwhelmed by the present difficulty. It is the same principle as in the sleeping parishaha: this too shall pass.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you do not get food today, tell yourself: &ldquo;Maybe tomorrow will be different.&rdquo; This keeps you from spiraling into despair. Today&rsquo;s hardship is just today &mdash; it is not forever.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Perspective</span>
+  <span class="concept-tag">Hope</span>
+  <span class="concept-tag">Impermanence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 32 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-32">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.32</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णच्चा उप्पइयं दुक्खं, वेयणाए दुहट्ठिए ।<br/>अदीणो ठावए पण्णं, पुट्ठो तत्थडहियासए ॥२.३२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Understanding that suffering arises from painful sensations, the monk should remain undaunted, maintain wisdom, and stand firm when afflicted by disease.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The sixteenth parishaha &mdash; disease (roga). Illness is one of the most difficult parishahas because it attacks the body&rsquo;s ability to function. The sutra teaches the monk to understand the origin of pain (veyaanae &mdash; sensations) and to maintain wisdom (panna) even while suffering. The key word is &ldquo;adiino&rdquo; (undaunted) &mdash; the monk does not become dejected or lose heart. Disease tests the body but need not defeat the mind.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you get sick, do not lose heart. Understand that the pain comes from the body, not the soul. Keep your mind sharp and your attitude strong even while the body suffers.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Disease</span>
+  <span class="concept-tag">Wisdom</span>
+  <span class="concept-tag">Resilience</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 33 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-33">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.33</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तेगिच्छं णाभिणंदेज्जा, संचिक्खउत्तगवेसए ।<br/>एवं खु तस्स सामण्णं, जं ण कुज्जा ण कारवे ॥२.३३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should not eagerly seek medical treatment. Reflecting on the highest goal, the monk should understand that true monkhood means not doing or causing to be done what is improper.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra adds nuance to the disease parishaha. While illness is natural, the monk should not become overly focused on seeking treatment, especially if it involves violence (as many ancient medicines used animal products) or compromises monastic conduct. The monk&rsquo;s ultimate focus remains on the highest spiritual goal, not on bodily preservation. This does not mean negligence toward health but a correct prioritization: soul over body.</p>
+<p class="simple-explanation"><b>The simple version:</b> Do not become obsessed with getting treatment when sick. Keep your focus on the spiritual goal. Especially do not seek cures that require breaking your ethical rules. The soul matters more than the body.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Disease</span>
+  <span class="concept-tag">Priorities</span>
+  <span class="concept-tag">Spiritual Focus</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 34 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-34">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.34</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अचेलगस्स तवसा णो, ण विट्ठुस्स, ण विचित्तगवेसए ।<br/>तणफासेणं दुहट्ठिए, पुट्ठो तत्थडहियासए ॥२.३४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The unclothed ascetic, when pricked by thorns and grass, should endure this affliction and remain firm without complaint.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The seventeenth parishaha &mdash; thorny touches (tanaphasa). A naked or lightly clothed monk walking through forests and fields constantly encounters thorns, sharp grass, and prickly plants. Each step can bring pain. Without shoes or protective clothing, the body is exposed to constant irritation. The sutra demands endurance without seeking relief &mdash; the monk accepts the constant pricking as another form of karma being shed.</p>
+<p class="simple-explanation"><b>The simple version:</b> Imagine walking barefoot through thorny bushes every day. It hurts constantly. But a monk must bear it without complaining or trying to avoid it. Every thorn prick is burning away old karma.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Thorns</span>
+  <span class="concept-tag">Physical Pain</span>
+  <span class="concept-tag">Karma Shedding</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 35 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-35">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.35</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आयवस्स णिवाएणं, अउल्ला हवइ वेयणा ।<br/>एवं णच्चा ण सेवंति, तंतुजं तणतुवराहणा ॥२.३५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Through the practice of austerity, the painful sensation becomes bearable. Knowing this, monks do not seek cloth coverings or grass-woven protections.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra reveals an important truth about endurance: with practice, what once seemed unbearable becomes manageable. The body and mind adapt to discomfort through consistent austerity. Knowing this, monks do not seek protective clothing or foot coverings made of grass. The lesson applies broadly: the first time any parishaha strikes, it seems impossible. With repeated practice, the monk grows stronger.</p>
+<p class="simple-explanation"><b>The simple version:</b> Here is the secret: the more you practice enduring discomfort, the easier it gets. Your pain tolerance actually increases with practice. That is why monks do not seek protection &mdash; they know they will adapt.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Adaptation</span>
+  <span class="concept-tag">Practice</span>
+  <span class="concept-tag">Austerity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 36 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-36">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.36</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">किलिण्णगाए मेहावी, पंकभूया उ इत्थिओ ।<br/>चिंसु वा परिदेवण, सायं णो परिदेवए ॥२.३६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise monk, even when the body is dirty and covered in filth, should not lament or complain about it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The eighteenth parishaha &mdash; dirt (jalla). The monk&rsquo;s body inevitably becomes dirty through wandering, sleeping on the ground, and having limited means of cleaning. The sutra commands non-lamentation even about physical uncleanliness. Attachment to cleanliness is still an attachment. The monk who endures dirt without complaint demonstrates that bodily appearance is irrelevant to spiritual purity. Inner cleanliness of the soul matters infinitely more than outer cleanliness of the body.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your body will get dirty &mdash; really dirty &mdash; and you cannot always clean up. Do not obsess over it. Spiritual cleanliness matters way more than physical cleanliness. A clean soul in a dirty body beats a dirty soul in a clean body.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Dirt</span>
+  <span class="concept-tag">Inner Purity</span>
+  <span class="concept-tag">Non-Attachment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 37 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-37">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.37</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वेएज्ज णिज्जरापेही, आरियं धम्मउणुत्तरं ।<br/>जाव सरीरभेट त्ति, जल्लं कारण धारए ॥२.३७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Seeking nirjara (shedding of karma), following the noble and supreme dharma, the monk bears the dirt on his body until the body itself falls away.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra connects the dirt parishaha to the larger goal of nirjara &mdash; the shedding of accumulated karma. Every discomfort endured patiently burns away past karma. The monk bears dirt not out of carelessness but as a deliberate spiritual practice. The phrase &ldquo;until the body falls away&rdquo; (sarira-bheda) indicates a lifetime commitment. This is not a temporary inconvenience but a permanent aspect of the monastic life.</p>
+<p class="simple-explanation"><b>The simple version:</b> The dirt on your body is actually helping your soul. Every moment of discomfort you bear patiently burns away old karma. The monk keeps this up for their entire life &mdash; not as punishment but as purification.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Nirjara</span>
+  <span class="concept-tag">Karma Shedding</span>
+  <span class="concept-tag">Lifetime Practice</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 38 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-38">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.38</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अभिवायणमब्भुट्ठाणं, सामी कुज्जा णिमंतणं ।<br/>जे ताडं पडिसेवंति, ण तेसिं पडिसंजले ॥२.३८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When people offer respect through bowing, rising, and invitations &mdash; the monk should accept these honors without becoming attached to them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The nineteenth parishaha &mdash; honor and dishonor (sakkara-purakkara). This is a dual parishaha: the monk must be unmoved by both respect and disrespect. This sutra addresses the honor side. When people bow, stand up, and invite the monk with reverence, the temptation is to feel proud or to become attached to such treatment. The monk must receive honor with complete equanimity, knowing that respect given to the robe is not personal achievement.</p>
+<p class="simple-explanation"><b>The simple version:</b> When people treat you like a VIP &mdash; bowing, standing up, inviting you respectfully &mdash; do not let it go to your head. Stay humble. The respect is for the path you walk, not for your ego.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Honor</span>
+  <span class="concept-tag">Humility</span>
+  <span class="concept-tag">Non-Attachment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 39 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-39">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.39</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अणुक्कसाई अप्पिच्छे, अण्णाएसी अलोलुए ।<br/>रसेसु णाणुगिज्झेज्जा, पाणुतप्पेज्ज पण्णवं ॥२.३९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should be unassuming, content with little, free from desires, and not greedy. He should not crave tastes, and should conduct himself with wisdom.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Continuing the honor/dishonor parishaha, this sutra describes the qualities that protect the monk from the trap of respect. Being unassuming (anukkasai), content with little (appicche), free from desire (annaesi), and non-greedy (alolue) &mdash; these inner qualities ensure that external honor does not corrupt the monk. The emphasis on not craving tastes links this back to the fundamental practice of sense-control that underlies all parishahas.</p>
+<p class="simple-explanation"><b>The simple version:</b> Stay humble, want very little, do not be greedy, and do not crave delicious food. These qualities protect you from getting corrupted by people&rsquo;s praise and respect.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Contentment</span>
+  <span class="concept-tag">Non-Greed</span>
+  <span class="concept-tag">Wisdom</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 40 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-40">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.40</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">से णूणं मए पुव्वं, कम्माउणफला कडा ।<br/>जेणाहं जेणइ कण्डुइ कण्डुइ ॥२.४०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should reflect: &ldquo;Surely it is because of fruits of karma done by me in previous lives that I now experience these afflictions.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces a crucial mental framework for enduring all parishahas: the understanding of karma. Whatever suffering the monk experiences is the result of past karmic actions. By understanding this, the suffering becomes meaningful rather than random. The monk does not blame others or circumstances but accepts responsibility through the lens of karmic law. This transforms endurance from mere tolerance into purposeful purification.</p>
+<p class="simple-explanation"><b>The simple version:</b> When things are hard, remember: this is your past karma coming back. It is not random bad luck &mdash; it is the universe balancing the accounts. Understanding this makes the suffering meaningful and easier to bear.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Karma</span>
+  <span class="concept-tag">Past Actions</span>
+  <span class="concept-tag">Acceptance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 41 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-41">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.41</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अह पच्छा उडज्जंति, कम्मा णाणफला कडा ।<br/>एवमस्सासि अप्पाणं, णच्चा कम्मविवागयं ॥२.४१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">And the fruits of knowledge-obscuring karma arise later. Thus, knowing the fruition of karma, one should console oneself.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The twentieth parishaha &mdash; knowledge (panna). This addresses the frustration that arises when a monk who has studied extensively still faces ignorance or inability to understand deeper truths. This is caused by jnanavaraniya karma (knowledge-obscuring karma). The monk should understand that this karmic obstruction will eventually lift through continued practice and endurance. Frustration with one&rsquo;s own limitations is itself a parishaha to be endured.</p>
+<p class="simple-explanation"><b>The simple version:</b> Sometimes despite all your studying, you still do not understand things. That is because of knowledge-blocking karma from the past. Do not get frustrated &mdash; keep practicing and it will eventually clear. Your limitations are temporary.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Knowledge</span>
+  <span class="concept-tag">Jnanavaraniya Karma</span>
+  <span class="concept-tag">Patience</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 42 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-42">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.42</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णिरट्ठगम्मि विरओ, मेहुणाओ सुसंबुडो ।<br/>जो सक्खं णाभिजाणामि, धम्मं कल्लाण पावगं ॥२.४२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who is detached, celibate, and well-awakened may still say: &ldquo;I do not clearly comprehend the dharma, whether beneficial or harmful.&rdquo; This is the parishaha of ignorance.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The twenty-first parishaha &mdash; ignorance (annana). Even an advanced practitioner may experience moments of genuine confusion about dharma. Despite being celibate, detached, and awakened, the monk may struggle to distinguish right from wrong in subtle situations. This honest admission of limitation is itself a trial. The sutra teaches that this confusion is also karmic and must be endured with patience rather than leading to despair or abandonment of the path.</p>
+<p class="simple-explanation"><b>The simple version:</b> Even a very advanced monk may sometimes feel completely confused about what is right and wrong. That confusion is also a test. Do not panic or give up &mdash; the fog will lift if you keep going.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Ignorance</span>
+  <span class="concept-tag">Confusion</span>
+  <span class="concept-tag">Perseverance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 43 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-43">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.43</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तवोवहाणं, पडिमं विडिवज्जओ ।<br/>एवं पि विहरओ मे, छउमं ण णियट्ठइ ॥२.४३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Though I perform austerities and observe practices, my delusion does not subside. Even while practicing thus, my impurity is not removed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra captures a deeply honest spiritual crisis. The monk performs all austerities correctly, follows all practices, yet still feels spiritually stuck. Delusion (chhadma) persists despite disciplined effort. This is perhaps the most psychologically devastating parishaha &mdash; the feeling that all effort is in vain. The teaching implicitly instructs: even this despair must be endured. Spiritual progress is not always visible to the practitioner.</p>
+<p class="simple-explanation"><b>The simple version:</b> You do everything right &mdash; all the fasting, all the meditation, all the discipline &mdash; and you still feel spiritually stuck. This feeling of &ldquo;nothing is working&rdquo; is itself a test. Keep going anyway. Progress happens even when you cannot see it.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Spiritual Crisis</span>
+  <span class="concept-tag">Delusion</span>
+  <span class="concept-tag">Perseverance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 44 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-44">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.44</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णत्थि णूणं परे लोए, इट्ठी वावि तवस्सिणो ।<br/>अदुवा वंचिओ मि त्ति, इइ भिक्खू ण चिंतए ॥२.४४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should not think: &ldquo;Perhaps there is no other world, no reward for austerities &mdash; perhaps I have been deceived.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The twenty-second parishaha &mdash; lack of faith (darsana). This is the ultimate spiritual crisis: doubt about the very foundations of the path. The monk begins to wonder if the afterlife exists, if austerities have any real reward, if the entire teaching is a deception. This existential doubt is the most dangerous parishaha because it can destroy all motivation at once. The sutra firmly instructs: do not entertain such thoughts. Faith must be maintained even in the darkest moments of doubt.</p>
+<p class="simple-explanation"><b>The simple version:</b> The worst thought a monk can have is: &ldquo;What if none of this is real? What if I have been wasting my life?&rdquo; That doubt is the final and hardest test. Do not give in to it. Keep the faith even when every part of you wants to quit.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Faith</span>
+  <span class="concept-tag">Doubt</span>
+  <span class="concept-tag">Existential Crisis</span>
+  <span class="concept-tag">Darsana</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 45 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-45">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.45</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अभू जिणा अत्थि जिणा, अदुवा वि भविस्सइ ।<br/>मुसं ते एवमाहंसु, इइ भिक्खू ण चिंतए ॥२.४५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should not think: &ldquo;Perhaps there were no Jinas in the past, or there are none now, or there will be none in the future &mdash; perhaps they spoke falsely.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Continuing the darsana parishaha, this sutra specifically addresses doubt about the Tirthankara lineage. Questioning whether the Jinas existed, exist now, or will exist in the future strikes at the very heart of Jain faith. If the Jinas are not real, the entire path collapses. The sutra forbids even entertaining such thoughts. The Tirthankara tradition is presented as an eternal truth that must be accepted through faith, especially when direct experience of omniscience is not yet attained.</p>
+<p class="simple-explanation"><b>The simple version:</b> Never question whether the great teachers (Jinas) were real or whether they told the truth. That kind of doubt can destroy everything you have built spiritually. Trust the path even when you cannot see the finish line.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Faith in Tirthankaras</span>
+  <span class="concept-tag">Doubt</span>
+  <span class="concept-tag">Trust</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 46 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-46">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.46</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एए परीसहा सव्वे, कासवेण पवेइया ।<br/>जे भिक्खू ण विहण्णेज्जा, पुट्ठो केणइ कण्डुइ ॥२.४६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">All these parishahas have been declared by the Kashyapa (Mahavira). The monk who is not defeated by any of them, no matter when afflicted &mdash; thus do I say.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The concluding sutra of Chapter 2 brings the teaching full circle. All 22 parishahas have been declared by Lord Mahavira himself. The monk who conquers every single one of them &mdash; not just some, but all &mdash; achieves the purpose of the monastic life. The closing &ldquo;thus do I say&rdquo; echoes the authority of the Tirthankara&rsquo;s voice. This is not philosophical speculation but the direct instruction of an omniscient being who has walked this path and reached its end.</p>
+<p class="simple-explanation"><b>The simple version:</b> This is the final word: Mahavira himself listed all these 22 hardships. A true monk conquers every single one of them. No exceptions, no shortcuts. That is the path &mdash; and that is the promise of liberation.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Conclusion</span>
+  <span class="concept-tag">All 22 Parishahas</span>
+  <span class="concept-tag">Mahavira</span>
+  <span class="concept-tag">Liberation</span>
+</div>
+</div>
+</div>
+</article>
+
+  <!-- Chapter End Marker -->
+  <div class="text-center py-16">
+    <div class="inline-flex items-center gap-4">
+      <span class="block w-16 h-px bg-primary/20"></span>
+      <span class="font-headline text-primary text-lg tracking-[0.2em]">॥ अध्ययन-२ सम्पूर्ण ॥</span>
+      <span class="block w-16 h-px bg-primary/20"></span>
+    </div>
+    <p class="font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 2 &mdash; Parishaha</p>
+  </div>
+
+</section>
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="uttaradhyana-ch1.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 1
+</a>
+
+<a href="uttaradhyana-ch3.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 3 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="#">About Us</a>
+        <a class="hover:text-primary transition-colors" href="index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="#">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="#">Contact</a>
+        <a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="#">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Floating nav buttons visibility on scroll
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+
+// Sutra counter update on scroll
+(function() {
+  const indicator = document.getElementById('sutra-indicator');
+  if (!indicator) return;
+  const sutras = document.querySelectorAll('[id^="sutra-"]');
+  const total = sutras.length;
+
+  function updateCounter() {
+    let current = 1;
+    sutras.forEach((el, i) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.5) {
+        current = i + 1;
+      }
+    });
+    indicator.textContent = 'Sutra ' + current + ' of ' + total;
+  }
+
+  window.addEventListener('scroll', updateCounter);
+  updateCounter();
+})();
+</script>
+</body></html>
