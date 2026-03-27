@@ -35,7 +35,6 @@ html { scroll-behavior: smooth; }
 .nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
 .nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
 .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
-.sutra-counter { position: sticky; top: 80px; z-index: 40; background: rgba(254,249,241,0.9); backdrop-filter: blur(10px); padding: 0.5rem 0; transition: opacity 0.3s; }
 .section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
 .section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
 .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
@@ -130,10 +129,6 @@ html { scroll-behavior: smooth; }
 </section>
 
 <!-- Sutra Counter -->
-<div class="sutra-counter text-center py-3 border-b border-primary/5">
-  <span id="sutra-indicator" class="font-label text-xs tracking-[0.15em] uppercase text-primary/60 font-semibold">Sutra 1 of 30</span>
-</div>
-
 <section class="max-w-screen-2xl mx-auto px-6 md:px-12 py-24">
   <div class="max-w-4xl mx-auto space-y-6">
 
@@ -598,27 +593,6 @@ window.addEventListener('scroll', () => {
     buttons.forEach(btn => btn.classList.remove('visible'));
   }
 });
-
-(function() {
-  const indicator = document.getElementById('sutra-indicator');
-  if (!indicator) return;
-  const sutras = document.querySelectorAll('[id^="sutra-"]');
-  const total = 30;
-
-  function updateCounter() {
-    let current = 1;
-    sutras.forEach((el, i) => {
-      const rect = el.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.5) {
-        current = i + 1;
-      }
-    });
-    indicator.textContent = 'Sutra ' + current + ' of ' + total;
-  }
-
-  window.addEventListener('scroll', updateCounter);
-  updateCounter();
-})();
 </script>
 
 </body>

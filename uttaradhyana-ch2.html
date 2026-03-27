@@ -157,16 +157,6 @@ html { scroll-behavior: smooth; }
 .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
 
 /* Sutra counter */
-.sutra-counter {
-  position: sticky;
-  top: 80px;
-  z-index: 40;
-  background: rgba(254,249,241,0.9);
-  backdrop-filter: blur(10px);
-  padding: 0.5rem 0;
-  transition: opacity 0.3s;
-}
-
 @media (max-width: 768px) {
   .nav-button { bottom: 16px; }
   .nav-button.left-btn { left: 12px !important; }
@@ -245,10 +235,6 @@ html { scroll-behavior: smooth; }
 </section>
 
 <!-- Sutra Counter -->
-<div class="sutra-counter text-center py-3 border-b border-primary/5">
-  <span id="sutra-indicator" class="font-label text-xs tracking-[0.15em] uppercase text-primary/60 font-semibold">Sutra 1 of 46</span>
-</div>
-
 <!-- Sutras Section -->
 <section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
   <div class="mb-16">
@@ -1149,25 +1135,5 @@ window.addEventListener('scroll', () => {
 });
 
 // Sutra counter update on scroll
-(function() {
-  const indicator = document.getElementById('sutra-indicator');
-  if (!indicator) return;
-  const sutras = document.querySelectorAll('[id^="sutra-"]');
-  const total = sutras.length;
-
-  function updateCounter() {
-    let current = 1;
-    sutras.forEach((el, i) => {
-      const rect = el.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.5) {
-        current = i + 1;
-      }
-    });
-    indicator.textContent = 'Sutra ' + current + ' of ' + total;
-  }
-
-  window.addEventListener('scroll', updateCounter);
-  updateCounter();
-})();
 </script>
 </body></html>

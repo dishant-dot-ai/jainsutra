@@ -35,11 +35,10 @@ html { scroll-behavior: smooth; }
 .nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
 .nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
 .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
-.sutra-counter { position: sticky; top: 80px; z-index: 40; background: rgba(254,249,241,0.9); backdrop-filter: blur(10px); padding: 0.5rem 0; }
 .section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
-.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
 .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
-.connector-verse { border-left: 3px solid rgba(201,168,76,0.25); background: rgba(201,168,76,0.04); padding: 1rem 1.5rem; margin-bottom: 1rem; border-radius: 0 0.5rem 0.5rem 0; }
+.connector-verse { border-left: 4px solid #c9a84c; padding: 1.25rem 1.75rem; margin: 0.5rem 0 1.5rem; }
 @media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
 </style>
 </head>
@@ -69,31 +68,38 @@ html { scroll-behavior: smooth; }
     <div class="flex flex-col gap-3">
       <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 9</span>
       <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
-        The Renunciation of King Nami <span class="text-primary font-normal">(નમિ-પ્રવ્રજ્યા)</span>
+        Renunciation of King Nami<span class="block text-primary font-normal">नमि-प्रव्रज्या</span>
       </h1>
     </div>
-    <h2 class="text-3xl md:text-5xl font-headline italic text-on-surface-variant leading-tight font-light">
-      &ldquo;Chapter 9 &mdash; On Self-Conquest, Desirelessness, and the Only Victory That Matters&rdquo;
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">
+      On Self-Conquest, Desirelessness, and the Only Victory That Matters
     </h2>
     <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
-      King Nami of Mithila, awakened by past-life memory and a burning fever, renounces his kingdom. Indra arrives in the guise of a Brahmin and poses ten worldly challenges — each one Nami dissolves with the calm clarity of a soul that has already let go. The chapter culminates with Indra dropping his disguise to bow at the feet of the sage he tested.
+      Lord Mahavira narrates the story of King Nami of Mithila — awakened by past-life memory and a burning fever, he renounces his kingdom. Indra arrives in the guise of a Brahmin and poses ten worldly challenges — each one Nami dissolves with the calm clarity of a soul that has already let go. The chapter culminates with Indra dropping his disguise to bow at the feet of the sage he tested.
     </p>
-    <div class="flex gap-8 items-center">
-      <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">62</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
-      <div class="w-px h-10 bg-outline-variant"></div>
-      <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Nami</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Namesake</span></div>
-      <div class="w-px h-10 bg-outline-variant"></div>
-      <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">10 Questions</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Indra's Test</span></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+      <div>
+        <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p>
+        <p class="text-base font-headline font-bold text-on-surface">Lord Mahavira</p>
+      </div>
+      <div>
+        <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Compiled By</p>
+        <p class="text-base font-headline font-bold text-on-surface">Twelve Chief Disciples</p>
+      </div>
+      <div>
+        <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p>
+        <p class="text-base font-headline font-bold text-on-surface">Dishant Shah</p>
+      </div>
     </div>
   </div>
   <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
     <div class="aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
-      <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-surface-container to-surface-container-high">
-        <div class="text-center space-y-4 p-12">
-          <p class="font-headline text-2xl text-primary/60 italic leading-relaxed">जो सहस्सं सहस्साणं, संगामे दुज्जए जिणे ।<br/>एगं जिणेज्ज अप्पाणं, एस से परमो जओ ॥</p>
-          <p class="font-body text-on-surface-variant text-lg">One who conquers a million warriors in battle has won. But one who conquers oneself — that is the supreme victory.</p>
-        </div>
-      </div>
+      <img alt="Lord Mahavira teaching — King Nami's renunciation" class="w-full h-full object-cover hover:scale-100 transition-all duration-1000 scale-105" src="assets/ch9-hero.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">जो सहस्सं सहस्साणं, संगामे दुज्जए जिणे ।<br/>एगं जिणेज्ज अप्पाणं, एस से परमो जओ ॥</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;One who conquers a million warriors in battle has won. But one who conquers oneself — that is the supreme victory.&rdquo;</p>
     </div>
   </div>
 </section>
@@ -103,7 +109,7 @@ html { scroll-behavior: smooth; }
   <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
     <div class="col-span-12 lg:col-span-4">
       <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
-      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Renunciation of King Nami</h3>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Renunciation of King Nami</h3>
     </div>
     <div class="col-span-12 lg:col-span-8 space-y-6">
       <p class="text-lg leading-relaxed text-on-surface-variant">
@@ -112,20 +118,21 @@ html { scroll-behavior: smooth; }
       <p class="text-lg leading-relaxed text-on-surface-variant">
         Across ten probing questions — each one the best argument an ordinary mind can muster against renunciation — Nami answers with parables of devastating clarity: a burning palace with nothing to lose, a fortified city built of inner virtues, a treasury that can never be filled. The chapter culminates with Indra dropping his disguise to bow at the feet of the sage he tested, declaring: <em>जो सहस्सं सहस्साणं... एगं जिणेज्ज अप्पाणं — self-conquest is the supreme victory.</em>
       </p>
-      <div class="flex flex-wrap gap-4 pt-4">
-        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">62 Sutras</span>
-        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Self-Enlightened Nami</span>
-        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Simplified by JainAwaken</span>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        This chapter is part of the <span class="text-primary font-semibold">Uttaradhyayana Sutra</span> — Lord Mahavira's final and supreme teaching, delivered on the last night of his earthly life. Like all chapters of this sutra, it is a teaching imparted by Lord Mahavira himself; the story of Nami is the vessel through which he transmits the wisdom of self-conquest and fearless renunciation.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">62</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Nami</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Namesake</span></div>
+        <div class="w-px h-10 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">10 Questions</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Indra's Test</span></div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Sutra Counter -->
-<div class="sutra-counter text-center py-3 border-b border-primary/5">
-  <span id="sutra-indicator" class="font-label text-xs tracking-[0.15em] uppercase text-primary/60 font-semibold">Sutra 1 of 62</span>
-</div>
-
 <section class="max-w-screen-2xl mx-auto px-6 md:px-12 py-24">
   <div class="max-w-4xl mx-auto space-y-6">
 
@@ -238,7 +245,7 @@ html { scroll-behavior: smooth; }
     </article>
 
     <div class="connector-verse" id="sutra-8">
-      <p class="font-headline text-primary/70 text-sm italic">9.8 — Having heard this question and moved by the intention behind it, Nami the royal sage spoke to Indra in reply—</p>
+      <p class="font-headline text-on-surface text-xl font-semibold">9.8 — Having heard this question and moved by the intention behind it, Nami the royal sage spoke to Indra in reply—</p>
     </div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-9">
@@ -258,7 +265,7 @@ html { scroll-behavior: smooth; }
     <div class="section-divider"><span>Question 2 — The Burning Palace</span></div>
 
     <div class="connector-verse" id="sutra-11">
-      <p class="font-headline text-primary/70 text-sm italic">9.11 — Indra, moved by the answer, pressed further—</p>
+      <p class="font-headline text-on-surface text-xl font-semibold">9.11 — Indra, moved by the answer, pressed further—</p>
     </div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-12">
@@ -275,7 +282,7 @@ html { scroll-behavior: smooth; }
     </article>
 
     <div class="connector-verse" id="sutra-13">
-      <p class="font-headline text-primary/70 text-sm italic">9.13 — Hearing this, Nami replied—</p>
+      <p class="font-headline text-on-surface text-xl font-semibold">9.13 — Hearing this, Nami replied—</p>
     </div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-14">
@@ -294,7 +301,7 @@ html { scroll-behavior: smooth; }
     <!-- Q3 -->
     <div class="section-divider"><span>Question 3 — Defend the Fort First</span></div>
 
-    <div class="connector-verse" id="sutra-17"><p class="font-headline text-primary/70 text-sm italic">9.17 — Indra, further moved, pressed the third challenge—</p></div>
+    <div class="connector-verse" id="sutra-17"><p class="font-headline text-on-surface text-xl font-semibold">9.17 — Indra, further moved, pressed the third challenge—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-18">
       <div class="flex items-start gap-6">
@@ -309,7 +316,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-19"><p class="font-headline text-primary/70 text-sm italic">9.19 — Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-19"><p class="font-headline text-on-surface text-xl font-semibold">9.19 — Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-20">
       <div class="flex items-start gap-6">
@@ -327,7 +334,7 @@ html { scroll-behavior: smooth; }
     <!-- Q4 -->
     <div class="section-divider"><span>Question 4 — Build Palaces First</span></div>
 
-    <div class="connector-verse" id="sutra-23"><p class="font-headline text-primary/70 text-sm italic">9.23 — Indra pressed the fourth question—</p></div>
+    <div class="connector-verse" id="sutra-23"><p class="font-headline text-on-surface text-xl font-semibold">9.23 — Indra pressed the fourth question—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-24">
       <div class="flex items-start gap-6">
@@ -342,7 +349,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-25"><p class="font-headline text-primary/70 text-sm italic">9.25 — Hearing this, Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-25"><p class="font-headline text-on-surface text-xl font-semibold">9.25 — Hearing this, Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-26">
       <div class="flex items-start gap-6">
@@ -360,7 +367,7 @@ html { scroll-behavior: smooth; }
     <!-- Q5 -->
     <div class="section-divider"><span>Question 5 — Subdue the Criminals First</span></div>
 
-    <div class="connector-verse" id="sutra-27"><p class="font-headline text-primary/70 text-sm italic">9.27 — Indra posed the fifth challenge—</p></div>
+    <div class="connector-verse" id="sutra-27"><p class="font-headline text-on-surface text-xl font-semibold">9.27 — Indra posed the fifth challenge—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-28">
       <div class="flex items-start gap-6">
@@ -375,7 +382,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-29"><p class="font-headline text-primary/70 text-sm italic">9.29 — Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-29"><p class="font-headline text-on-surface text-xl font-semibold">9.29 — Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-30">
       <div class="flex items-start gap-6">
@@ -393,7 +400,7 @@ html { scroll-behavior: smooth; }
     <!-- Q6 -->
     <div class="section-divider"><span>Question 6 — Conquer Enemy Kings First</span></div>
 
-    <div class="connector-verse" id="sutra-31"><p class="font-headline text-primary/70 text-sm italic">9.31 — Indra pressed the sixth question—</p></div>
+    <div class="connector-verse" id="sutra-31"><p class="font-headline text-on-surface text-xl font-semibold">9.31 — Indra pressed the sixth question—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-32">
       <div class="flex items-start gap-6">
@@ -408,7 +415,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-33"><p class="font-headline text-primary/70 text-sm italic">9.33 — Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-33"><p class="font-headline text-on-surface text-xl font-semibold">9.33 — Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-34">
       <div class="flex items-start gap-6">
@@ -426,7 +433,7 @@ html { scroll-behavior: smooth; }
     <!-- Q7 -->
     <div class="section-divider"><span>Question 7 — Perform Great Sacrifices First</span></div>
 
-    <div class="connector-verse" id="sutra-37"><p class="font-headline text-primary/70 text-sm italic">9.37 — Indra posed the seventh challenge—</p></div>
+    <div class="connector-verse" id="sutra-37"><p class="font-headline text-on-surface text-xl font-semibold">9.37 — Indra posed the seventh challenge—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-38">
       <div class="flex items-start gap-6">
@@ -441,7 +448,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-39"><p class="font-headline text-primary/70 text-sm italic">9.39 — Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-39"><p class="font-headline text-on-surface text-xl font-semibold">9.39 — Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-40">
       <div class="flex items-start gap-6">
@@ -459,7 +466,7 @@ html { scroll-behavior: smooth; }
     <!-- Q8 -->
     <div class="section-divider"><span>Question 8 — Practice Grihastha Dharma First</span></div>
 
-    <div class="connector-verse" id="sutra-41"><p class="font-headline text-primary/70 text-sm italic">9.41 — Indra posed the eighth challenge—</p></div>
+    <div class="connector-verse" id="sutra-41"><p class="font-headline text-on-surface text-xl font-semibold">9.41 — Indra posed the eighth challenge—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-42">
       <div class="flex items-start gap-6">
@@ -474,7 +481,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-43"><p class="font-headline text-primary/70 text-sm italic">9.43 — Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-43"><p class="font-headline text-on-surface text-xl font-semibold">9.43 — Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-44">
       <div class="flex items-start gap-6">
@@ -492,7 +499,7 @@ html { scroll-behavior: smooth; }
     <!-- Q9 -->
     <div class="section-divider"><span>Question 9 — Fill the Treasury First</span></div>
 
-    <div class="connector-verse" id="sutra-45"><p class="font-headline text-primary/70 text-sm italic">9.45 — Indra posed the ninth challenge—</p></div>
+    <div class="connector-verse" id="sutra-45"><p class="font-headline text-on-surface text-xl font-semibold">9.45 — Indra posed the ninth challenge—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-46">
       <div class="flex items-start gap-6">
@@ -507,7 +514,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-47"><p class="font-headline text-primary/70 text-sm italic">9.47 — Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-47"><p class="font-headline text-on-surface text-xl font-semibold">9.47 — Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-48">
       <div class="flex items-start gap-6">
@@ -525,7 +532,7 @@ html { scroll-behavior: smooth; }
     <!-- Q10 -->
     <div class="section-divider"><span>Question 10 — Regret for Pleasures Given Up</span></div>
 
-    <div class="connector-verse" id="sutra-50"><p class="font-headline text-primary/70 text-sm italic">9.50 — Indra posed the tenth and final challenge—</p></div>
+    <div class="connector-verse" id="sutra-50"><p class="font-headline text-on-surface text-xl font-semibold">9.50 — Indra posed the tenth and final challenge—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-51">
       <div class="flex items-start gap-6">
@@ -540,7 +547,7 @@ html { scroll-behavior: smooth; }
       </div>
     </article>
 
-    <div class="connector-verse" id="sutra-52"><p class="font-headline text-primary/70 text-sm italic">9.52 — Hearing this final challenge, Nami replied—</p></div>
+    <div class="connector-verse" id="sutra-52"><p class="font-headline text-on-surface text-xl font-semibold">9.52 — Hearing this final challenge, Nami replied—</p></div>
 
     <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-53">
       <div class="flex items-start gap-6">
@@ -696,27 +703,6 @@ window.addEventListener('scroll', () => {
     buttons.forEach(btn => btn.classList.remove('visible'));
   }
 });
-
-(function() {
-  const indicator = document.getElementById('sutra-indicator');
-  if (!indicator) return;
-  const sutras = document.querySelectorAll('[id^="sutra-"]');
-  const total = 62;
-
-  function updateCounter() {
-    let current = 1;
-    sutras.forEach((el, i) => {
-      const rect = el.getBoundingClientRect();
-      if (rect.top < window.innerHeight * 0.5) {
-        current = i + 1;
-      }
-    });
-    indicator.textContent = 'Sutra ' + current + ' of ' + total;
-  }
-
-  window.addEventListener('scroll', updateCounter);
-  updateCounter();
-})();
 </script>
 
 </body>
