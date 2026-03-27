@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 8: The Story of Kapila | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e","on-secondary-fixed-variant": "#4a4642","secondary-container": "#e6ded9","primary-fixed-dim": "#e6c364","surface-bright": "#fef9f1","tertiary-fixed": "#dde1ff","surface": "#fef9f1","primary-fixed": "#ffe08f","surface-container-low": "#f8f3eb","secondary-fixed": "#e9e1dc","outline-variant": "#d0c5b2","outline": "#7e7665","inverse-on-surface": "#f5f0e8","on-background": "#1d1c17","on-secondary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff","on-primary-fixed-variant": "#584400","surface-dim": "#ded9d2","surface-container-high": "#ece8e0","primary": "#755b00","on-primary-container": "#503d00","inverse-surface": "#32302b","secondary": "#625d59","error-container": "#ffdad6","tertiary-fixed-dim": "#b9c3ff","on-secondary-container": "#67625e","on-primary": "#ffffff","on-primary-fixed": "#241a00","on-error-container": "#93000a","surface-tint": "#755b00","secondary-fixed-dim": "#ccc5c0","surface-variant": "#e7e2da","surface-container-lowest": "#ffffff","on-tertiary-fixed": "#041451","surface-container-highest": "#e7e2da","primary-container": "#c9a84c","inverse-primary": "#e6c364","on-surface-variant": "#4d4637","tertiary": "#4d5a98","background": "#fef9f1","on-tertiary": "#ffffff","on-surface": "#1d1c17","tertiary-container": "#9ba8eb","surface-container": "#f2ede5","on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border-left: 3px solid #c9a84c; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.sutra-counter { position: sticky; top: 80px; z-index: 40; background: rgba(254,249,241,0.9); backdrop-filter: blur(10px); padding: 0.5rem 0; }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#FEF9F1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 8</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        The Story of Kapila <span class="text-primary font-normal">(કાપિલીય)</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline italic text-on-surface-variant leading-tight font-light">
+      &ldquo;Chapter 8 &mdash; On Non-Violence, Detachment, and the End of Greed&rdquo;
+    </h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Named after Kapila, the Brahmin scholar who renounced greed and attained omniscience, this chapter teaches the complete discipline of the monk's path: non-violence in thought, word, and deed; freedom from all attachment; pure alms practice; and the utter impossibility of satisfying a greedy soul — until the moment it finally lets go.
+    </p>
+    <div class="flex gap-8 items-center">
+      <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">20</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+      <div class="w-px h-10 bg-outline-variant"></div>
+      <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Kapila</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Namesake</span></div>
+      <div class="w-px h-10 bg-outline-variant"></div>
+      <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Teacher</span></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-surface-container to-surface-container-high">
+        <div class="text-center space-y-4 p-12">
+          <p class="font-headline text-3xl text-primary/60 italic leading-relaxed">जहा लाहो तहा लोहो, लाहा लोहो पवड्डइ</p>
+          <p class="font-body text-on-surface-variant text-lg">The more gain there is, the more greed grows — gain only increases greed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Story of Kapila</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Kapiliya</span> — the eighth chapter — is named after Kapila, the Brahmin scholar whose insatiable greed for gold made him unable to stop accumulating — until the moment renunciation broke the cycle entirely. His journey from craving to omniscience is the living proof of this chapter's central teaching.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The chapter lays out the complete discipline of the monk's path: non-violence in thought, word, and deed; freedom from all attachment, even toward those who show warmth; pure alms-seeking practice without settlement; and the utter impossibility of satisfying a greedy soul — until the moment it finally lets go.
+      </p>
+      <div class="flex flex-wrap gap-4 pt-4">
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">20 Sutras</span>
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Lord Mahavira</span>
+        <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-label font-semibold">Simplified by JainAwaken</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<div class="sutra-counter text-center py-3 border-b border-primary/5">
+  <span id="sutra-indicator" class="font-label text-xs tracking-[0.15em] uppercase text-primary/60 font-semibold">Sutra 1 of 20</span>
+</div>
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 py-24">
+  <div class="max-w-4xl mx-auto space-y-6">
+
+    <div class="mb-16">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 8</span>
+      <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 20 Sutras</h3>
+      <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Prakrit, English translation, and a simplified commentary.</p>
+    </div>
+
+    <div class="section-divider" id="section-question"><span>Part I — The Question and Its Answer</span></div>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-1">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.1</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">अधुवे असासयिम्मि, संसारम्मि दुक्खपउराए ।<br/>किं णाम होज्ज तं कम्मयं, जेणाहं दुग्गइं ण गच्छेञ्जा ॥८.१॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">In this impermanent, unstable world overflowing with suffering — what conduct would keep me from falling into lower realms?</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The chapter opens with a seeker's question — direct, personal, and urgent. Not "what is the nature of reality?" but "what must I do?" The words "impermanent" (adhuva) and "unstable" (asasaya) establish that no position in this world — however comfortable — is a reliable refuge. The suffering (dukkha-paduraya — overflowing with suffering) is structural, not accidental. The only real question is: what protects a soul from the lowest consequences?</p>
+          <p class="simple-explanation"><b>The simple version:</b> This world is unstable and full of suffering. What must I actually do to keep from falling into the worst states of existence?</p>
+          <div class="concept-tags"><span class="concept-tag">Opening Question</span><span class="concept-tag">Impermanence</span><span class="concept-tag">Right Conduct</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-2">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.2</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">विजहितु पुव्वसंजोगं, ण सिणेहं किंहिचि कुव्वेञ्जा ।<br/>असिणेह सिणेहकरेहिं, दोसपओसेहिं मुच्चए भिक्खू ॥८.२॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Having abandoned all previous worldly attachments, the monk should form no affection for anything whatsoever. Being free of attachment even toward those who show affection — by this, the monk is freed from all faults and their consequences.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The answer to the opening question begins here: the first move is the abandonment of all pre-existing relational bonds — parents, children, home, possessions. Then the more subtle discipline: even when others show warmth and affection toward the monk, the monk does not allow the warmth to become attachment. This is not coldness — it is the highest form of equanimity: receiving everything with compassion and releasing everything without clinging.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Let go of all old attachments. And then — even when others are warm and loving toward you — don't let new attachment form. This complete freedom from clinging is what frees the monk from all faults.</p>
+          <div class="concept-tags"><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Renunciation</span><span class="concept-tag">Equanimity</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-3">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.3</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">तो णाण-दंसणसमग्गो, हियणिस्सेसाए सव्वजीवाणं ।<br/>तेसिं विमोक्खण्डटाए, भासइ मुणिवरो विगयमोहो ॥८.३॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Then the supreme sage — freed from delusion, endowed with complete knowledge and complete insight — speaks for the ultimate welfare of all beings and for their liberation from the eight types of karma.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">This verse describes the teacher: the omniscient being who has shed every trace of delusion (vigaya-moha) and now speaks not from personal interest but from the pure motivation of universal welfare (hiya-nisesa — total benefit). The eight types of karma are the fundamental categories of karmic bondage in Jain metaphysics, from knowledge-obscuring karma to feeling-producing karma. Liberation from all eight is the complete freedom the teacher points toward.</p>
+          <p class="simple-explanation"><b>The simple version:</b> The supreme sage — completely free of delusion, possessing full knowledge — speaks only to help all beings be freed from every form of karmic bondage.</p>
+          <div class="concept-tags"><span class="concept-tag">Omniscience</span><span class="concept-tag">Eight Karmas</span><span class="concept-tag">Universal Welfare</span></div>
+        </div>
+      </div>
+    </article>
+
+    <div class="section-divider" id="section-discipline"><span>Part II — The Monk's Complete Discipline</span></div>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-4">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.4</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">सव्वं गंथं कलहं च, विप्पजहे तहाविहं भिक्खू ।<br/>सव्वेसु कामजाएसु, पासमाणो ण लिप्पइ ताई ॥८.४॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk, abandoning all bondages — both external and internal — and all conflict, seeing the faults in all sensory pleasures, is not tainted by them; the protector of the six-fold life remains undefiled.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">"Gantha" (bondage) covers both the external — possessions, relationships — and the internal — the passions of anger, pride, deceit, and greed. "Kalaha" (conflict) is not merely quarreling but the entire agitated dimension of a life organized around self-assertion. Seeing the faults in sensory pleasures means perceiving their karmic consequences clearly enough that the pleasures themselves lose their pull. The "protector" (tai — the six-body protector) is the disciplined monk who guards the welfare of all six categories of living beings through complete non-violence.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Let go of all external possessions and all inner passions. Let go of all conflict. See the faults in pleasure clearly — and nothing can defile you.</p>
+          <div class="concept-tags"><span class="concept-tag">External and Internal Bondage</span><span class="concept-tag">Non-Defilement</span><span class="concept-tag">Non-Violence</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-5">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.5</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">भोगामिसदोस विसण्णे, हियणिस्सेयसबुद्धिवोच्चत्थे ।<br/>बाले य मंदिए मूढे, बज्झइ मच्छिया व खेलम्मि ॥८.५॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">The spiritually unaware — lost in the faults of sensory pleasures and indulgences, with their intelligence turned away from true benefit and welfare — foolish, slow-witted, and confused, becomes trapped like a fly caught in mud.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The fly-in-mud image is precise: the fly lands on mud, its legs sink in, and the more it struggles to free itself, the deeper it sinks. The unaware person is identical: entering pleasure, becoming entangled, struggling through craving and addiction, sinking deeper with each attempt to satisfy through more pleasure. The "intelligence turned away from true benefit" (buddi-voccatha) means the capacity to perceive long-term welfare has been overwhelmed by short-term gratification.</p>
+          <p class="simple-explanation"><b>The simple version:</b> The person lost in pleasures — foolish, unable to see clearly — is exactly like a fly that lands in mud and sinks deeper with every struggle. Pleasure looks like landing; entrapment is what actually happens.</p>
+          <div class="concept-tags"><span class="concept-tag">Fly in Mud Analogy</span><span class="concept-tag">Entrapment</span><span class="concept-tag">Sensory Delusion</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-6">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.6</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">दुपरिच्चया इमे कामा, णो सुजहा अधीरपुरिसेहिं ।<br/>अह संति सुव्वया साहू, जे तरंति अतरं विणिय व ॥८.६॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">These sensory pleasures are extremely difficult to give up — cowardly persons cannot easily abandon them. But there are monks who follow excellent vows, who cross the boundless ocean of existence — like skilled merchants navigating perilous seas.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The teaching is honest about the difficulty. It does not romanticize renunciation as easy or natural. Sensory pleasures are genuinely hard to release — the pull of the habitual is powerful, and the coward (adheera) — the person without inner strength — cannot sustain the practice. But the monk with excellent vows (suvvaya — one of beautiful vows) does not rely on ease; they rely on discipline. The merchant who crosses the ocean does not cross because the ocean is calm — they cross because they are skilled, prepared, and committed.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Giving up pleasure is genuinely hard. The weak cannot do it. But the monk with strong vows crosses the ocean of existence — not because it's easy, but because they are prepared and committed.</p>
+          <div class="concept-tags"><span class="concept-tag">Difficulty of Renunciation</span><span class="concept-tag">Excellent Vows</span><span class="concept-tag">Moral Courage</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-7">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.7</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">समणा मु एगे वयमाणा, पाणवहं मिया अयाणंता ।<br/>मंदा णिरयं गच्छंति, बाला पाविायाहिं दिट्टीहिं ॥८.७॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Some who call themselves shramanas (renunciants), yet knowingly allow the slaughter of animals — slow-witted and spiritually unaware, they fall into hellish states through their own sinful views.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">This verse confronts a specific religious hypocrisy current in ancient India: practitioners who claimed the title of shramana while permitting or participating in animal sacrifice. Wearing the garb of renunciation while approving of violence is described not as a minor inconsistency but as a "sinful view" (paviya-ditthi) that directly leads to hellish rebirth. The word "miya" (like animals — deluded) captures the irony: those who kill animals have the spiritual clarity of animals themselves.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Calling yourself a renunciant while permitting animal slaughter is not renunciation — it is sin with a holy name. Such people fall into hell through their own distorted views.</p>
+          <div class="concept-tags"><span class="concept-tag">Religious Hypocrisy</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Sinful Views</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-8">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.8</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">ण हु पाणवहं अणुजाणे, मुच्छेञ्ज कयाइ सव्वदुक्खाणं ।<br/>एवमारिएहिं अक्खायं, जेहिं इमो साहुधम्मो पण्णत्तो ॥८.८॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">One who approves of the killing of living beings can never, at any time, be freed from all suffering. Thus have the noble ones declared — those by whom this teaching of the monk's right conduct was proclaimed.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The verse moves from behavior to attitude: even approving of killing — not doing it personally, but consenting, endorsing, tolerating — is enough to bind the soul to suffering. This is the Jain understanding of karma through approval (anumodana): by lending mental or verbal agreement to violence, one participates in its karmic consequences. The "noble ones" (ariya) who established this teaching are the tirthankaras — the ford-makers who established the path of crossing from bondage to liberation.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Approving of killing — even without doing it yourself — binds you to suffering. This is what the noble teachers have always taught. Consent to violence is itself a form of violence.</p>
+          <div class="concept-tags"><span class="concept-tag">Approval as Karma</span><span class="concept-tag">Non-Violence Absolute</span><span class="concept-tag">Tirthankara Teaching</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-9">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.9</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">पाणे य णाइवाएञ्जा, से सिमए त्ति वुच्चइ ताई ।<br/>तओ से पावयं कम्म, णिज्जाइ उदगं व थलाओ ॥८.९॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not harm living beings is called a true practitioner of right conduct (samaya). Through this, sinful karma flows away from them — just as water naturally flows off high ground.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The positive teaching: the word "samaya" here means both "right conduct" and "the practitioner of self-realization through right conduct" — one who has aligned themselves with the nature of the soul. The flowing-water image is elegant: karma does not need to be violently expelled; in the presence of complete non-violence, it cannot stick. Like water off a hillside, it simply runs away of its own nature. Non-violence is not a burden — it is the path of least karmic resistance.</p>
+          <p class="simple-explanation"><b>The simple version:</b> The one who harms no being is a true practitioner. Through this non-violence, sinful karma doesn't need to be fought off — it simply flows away, like water off a hillside.</p>
+          <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Karma Dissolution</span><span class="concept-tag">Right Conduct</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-10">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.10</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">जगणिस्सिएहिं भूएहिं, तसणामेहिं थावरेहिं च ।<br/>णो तेसिमारभे दंड, मणसा वयसा कायसा चेव ॥८.१०॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Toward all beings dwelling in this world — mobile beings (trasa) and stationary beings (sthavara) — one should initiate no act of violence by mind, by speech, or by body.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The scope of non-violence in Jain ethics is total. "Mobile beings" (trasa) are those with two or more senses — insects, fish, animals, humans. "Stationary beings" (sthavara) are those with one sense — earth, water, fire, air, and plants. All of them are living beings with souls. And the discipline extends across all three channels of action: thought (manas), speech (vacana), and physical action (kaya). Violence in thought alone creates karma.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Every being — moving or still, from elephants to earthworms to water — is alive and deserves protection. Do not harm any of them in thought, word, or deed.</p>
+          <div class="concept-tags"><span class="concept-tag">Universal Non-Violence</span><span class="concept-tag">Three Channels</span><span class="concept-tag">All Beings</span></div>
+        </div>
+      </div>
+    </article>
+
+    <div class="section-divider" id="section-food"><span>Part III — Food Discipline and False Practitioners</span></div>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-11">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.11</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">सुद्धेसणाओ णच्चाणं, तत्थ ठवेञ्ज भिक्खू अप्पाणं ।<br/>जायाए घासमेसिञ्जा, रसगिद्धे ण सिया भिक्खाए ॥८.११॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Knowing the rules of pure alms-seeking, the monk should fix himself entirely within that discipline. He seeks food only for the sake of sustaining his practice of discipline — and must not become attached to the taste of what he receives.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">Alms-seeking purity (suddha-esana) involves multiple rules about what food is acceptable — it must not have been specially prepared for the monk, must not involve harming others to provide it, and must meet several other criteria. Knowing these rules, the monk situates himself within them — they are not restrictions but the architecture of a liberated relationship to food. And even within this pure practice, the danger of taste-attachment (rasa-giddha) remains, and must be specifically guarded against.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Learn the rules of pure alms-seeking and live within them completely. Seek food only to sustain your practice — and never become attached to how food tastes.</p>
+          <div class="concept-tags"><span class="concept-tag">Alms Discipline</span><span class="concept-tag">Taste Non-Attachment</span><span class="concept-tag">Monastic Rules</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-12">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.12</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">पंताणि चेव सेविञ्जा, सीयपिंडं पुराणकुम्मासं ।<br/>अदु बुक्कसं पुलागं वा, जवणट्टाए णिसेवए मंथु ॥८.१२॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should consume plain, simple food — cold rice-balls, old fermented gruel, coarse flour cakes or millet porridge — eating only what is bland and ordinary, solely for the sustenance of the body during the journey of discipline.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">This verse is not about austerity for its own sake but about the complete re-orientation of the relationship to food. Each item listed — cold, old, coarse, bland — is the opposite of desirable or sought-after. The monk does not eat what tastes best; the monk eats what sustains the body's capacity for spiritual practice. Food is fuel, not experience. This clarity about the purpose of eating eliminates an entire dimension of craving from the monk's life.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Cold rice, old gruel, coarse millet — plain, ordinary, bland. The monk eats not for pleasure but to keep the body going on the path. Food is fuel, not experience.</p>
+          <div class="concept-tags"><span class="concept-tag">Simple Food</span><span class="concept-tag">Food as Fuel</span><span class="concept-tag">Non-Indulgence</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-13">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.13</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">जे लक्खणं च सुविणं च, अंगविञ्जं च जे पउञ्जंति ।<br/>ण हु ते समणा वुच्चंति, एवं आयिरिएहिं अक्खायं ॥८.१३॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who practice the reading of bodily marks (physiognomy), the interpretation of dreams, or the science of limb-omens — cannot truly be called shramanas. Thus have the teachers declared.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The verse targets a class of pseudo-renunciants who practiced occult sciences — reading physical marks for auspicious/inauspicious predictions, interpreting dreams, reading body part twitches as omens. These practices were common among certain Brahmanical traditions and itinerant holy men. Using them for livelihood (obtaining food and gifts from householders by telling fortunes) violates the monk's fundamental discipline: the monk lives from pure alms and no other means.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Reading bodily marks, interpreting dreams, telling fortunes from limb-twitches — none of this is the path of a true renunciant. The teachers say so clearly.</p>
+          <div class="concept-tags"><span class="concept-tag">False Practitioners</span><span class="concept-tag">Occult Sciences</span><span class="concept-tag">True Renunciation</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-14">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.14</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">इह जीवियं अणियमत्ता, पब्भट्टा समाहिजोगेहिं ।<br/>ते कामभोग-रसगिद्धा, उववञ्जंति आसुरे काए ॥८.१४॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who in this life do not govern their conduct — who have fallen away from the disciplines of meditative absorption — attached to the taste of sensory pleasures, are reborn in asura (demonic) bodies.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">"Samahi-joga" — the disciplines of meditative absorption — represents the full spectrum of inner spiritual practice: meditation, equanimity, mental stillness, alignment of the three faculties. Falling away from this (pabhatta) while remaining attached to taste and sensory pleasure creates the karma for asura rebirth: the realm of demonic existence, characterized by powerful craving and the capacity to harm others at great scale.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Those who do not discipline themselves — who drift away from meditation and equanimity while staying attached to pleasures — fall into demonic rebirths when they die.</p>
+          <div class="concept-tags"><span class="concept-tag">Meditative Discipline</span><span class="concept-tag">Demonic Rebirth</span><span class="concept-tag">Sensory Attachment</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-15">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.15</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">तत्तो वि य उवट्टित्ता, संसारं बहुं अणुपरियटंति ।<br/>बहुकम्मलेव-लित्ताणं, बोही होइ सुदुल्लहा तेसिं ॥८.१५॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Even after eventually emerging from those demonic states, they continue wandering through existence for a vast length of time. For those thickly smeared with accumulated karma, spiritual awakening (bodhi) becomes exceedingly rare and difficult to attain.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The trajectory of karmic consequence extends far beyond a single lifetime or even a few rebirths. The being encrusted with karma (bahu-kamma-leva-litta — thickly smeared with the residue of many karmas) carries that residue across many rebirths. The word "bodhi" — spiritual awakening, the ignition of the desire for liberation — is what becomes rare. Not liberation itself initially, but even the desire for it, even the capacity to hear the teaching, becomes difficult to generate under such heavy karmic encrustation.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Even after leaving demonic states, the heavily karma-encrusted soul wanders through existence for ages. The hardest thing to regain is not liberation — it's even the desire to seek it.</p>
+          <div class="concept-tags"><span class="concept-tag">Karma Encrustation</span><span class="concept-tag">Spiritual Awakening</span><span class="concept-tag">Rarity of Bodhi</span></div>
+        </div>
+      </div>
+    </article>
+
+    <div class="section-divider" id="section-greed"><span>Part IV — The Nature of Greed and Kapila's Story</span></div>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-16">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.16</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">किसिणं पि जो इमं लोयं, पडिपुण्णं दलेञ्ज इक्कस्स ।<br/>तेणावि से ण संतुस्से, इइ दुप्पूरए इमे आया ॥८.१६॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Even if someone were to give the entire world — filled with all its wealth and prosperity — to a single greedy person, that person would still not be satisfied. So impossible it is to fill the greedy soul.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">This is one of the most powerful statements on greed in any spiritual literature: the problem is not the quantity of what is received but the nature of greed itself. Greed (lobha) is structurally insatiable — not because the world is insufficient but because greed is not a deficit that can be filled. It is a growing hunger that intensifies with feeding. The entire world — every mountain, river, city, and creature — given to one greedy person would not satisfy them. The problem is not outside; it is the nature of wanting itself.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Give a greedy person the entire world — every lake, every mountain, every treasure — and they still would not be satisfied. Greed cannot be filled by giving it more. It only grows.</p>
+          <div class="concept-tags"><span class="concept-tag">Insatiable Greed</span><span class="concept-tag">Nature of Desire</span><span class="concept-tag">Kapila's Teaching</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-17">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.17</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">जहा लाहो तहा लोहो, लाहा लोहो पवड्डइ ।<br/>दो मासकयं कज्जं, कोडीए वि ण णिट्टियं ॥८.१७॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">The more gain there is, the more greed grows — gain itself causes greed to increase. Just as with Kapila: what began as a task worth two months' silver could not be satisfied even by crores of gold coins.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">This verse makes the law of greed precise: each gain does not diminish desire but amplifies it. Kapila's own story illustrates this with painful clarity — he began seeking a modest sum, then the desire grew, and grew, until no conceivable amount could satisfy him. This escalation is not personal weakness; it is the inherent nature of greed (lobha). The only escape is not more gaining but the complete cessation of the gaining-orientation itself — which is what Kapila eventually discovered through renunciation.</p>
+          <p class="simple-explanation"><b>The simple version:</b> Each gain makes you want more. Kapila's modest need for two months' silver turned into a desire that crores of gold could not satisfy. Greed grows with feeding. The only cure is to stop feeding it entirely.</p>
+          <div class="concept-tags"><span class="concept-tag">Greed's Escalation</span><span class="concept-tag">Kapila's Story</span><span class="concept-tag">Renunciation as Cure</span></div>
+        </div>
+      </div>
+    </article>
+
+    <div class="section-divider" id="section-celibacy"><span>Part V — Celibacy and the Closing Teaching</span></div>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-18">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.18</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">णो रक्खसीसु गिज्झेञ्जा, गंडवच्छासु णेगचित्तासु ।<br/>जाओ पुरिसं पलोभित्ता, खेलंति जहा व दासेहिं ॥८.१८॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">One should not become attached to women who are like demonesses — restless-minded, who ensnare men and then play with them as though they were servants.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">This verse is addressed specifically to male monks of Mahavira's time, using the language and imagery of its era. The "demoness" (rakshasi) image points not to women themselves but to the dimension of sexuality and seduction that — from the perspective of the celibate monk's path — can pull the practitioner entirely off course. The deeper teaching is about the destructive power of unchecked sexual attachment, which reduces the practitioner to helplessness ("like servants") and destroys spiritual autonomy.</p>
+          <p class="simple-explanation"><b>The simple version:</b> For the monk on the path of celibacy: sexual entanglement is a snare that destroys spiritual autonomy. One who falls into it is no longer free — no longer themselves.</p>
+          <div class="concept-tags"><span class="concept-tag">Celibacy</span><span class="concept-tag">Spiritual Autonomy</span><span class="concept-tag">Monastic Discipline</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-19">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.19</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">णारीसु णोवगिज्झेञ्जा, इत्थी विप्पजहे अणगारे ।<br/>धम्मं च पेसलं णच्चा, तत्थ ठवेञ्ज भिक्खू अप्पाणं ॥८.१९॥</p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">The houseless monk should never attach to women. Always remaining far from women — understanding the supreme and beautiful dharma — the monk should firmly establish himself in that dharma of celibacy.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The verse clarifies that the previous verse's warning was not about women as persons but about the monk's own susceptibility. The prescription is not to view women with hostility but to remain at a measured distance as a matter of monastic discipline, and to establish the self (appa — the soul) within the "beautiful dharma" (pesala dhamma) of celibacy. The word "pesala" — beautiful, excellent, beneficial — reframes celibacy not as deprivation but as a positive spiritual achievement of great dignity.</p>
+          <p class="simple-explanation"><b>The simple version:</b> The houseless monk maintains respectful distance — not from hatred, but from discipline. Celibacy is not deprivation; it is a beautiful and excellent dharma in which the monk firmly plants himself.</p>
+          <div class="concept-tags"><span class="concept-tag">Celibacy as Beauty</span><span class="concept-tag">Disciplined Distance</span><span class="concept-tag">Soul Establishment</span></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-20">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.20</span>
+        <div class="space-y-4 flex-1">
+          <p class="sutra-sanskrit font-headline">इइ एस धम्मे अक्खाए, कविलेणं च विसुद्धपण्णेणं ।<br/>तरिहिंति जे उ काहिंति, तेहिं आराहिया दुवे लोगा ॥८.२०॥<br/><span class="text-base">—ति बेमि ।</span></p>
+          <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus this dharma has been proclaimed by Kapila — the pure omniscient one. Those who practice it shall cross the ocean of existence. Both worlds — this life and the life beyond — are honored by those who follow it.</p>
+          <p class="text-base text-on-surface-variant leading-relaxed">The closing verse places the teaching's authority in Kapila the omniscient — not Kapila the scholar who craved gold, but Kapila the liberated sage he became. His personal journey from insatiable greed to omniscient liberation is the living proof of this chapter's teaching: the same person who could not be satisfied by crores of gold found complete satisfaction the moment greed itself was abandoned. Those who practice what he teaches "cross the ocean" — they complete the entire journey. Both worlds (duve loga — this world and the next) are honored: a life well-lived, and a liberation well-attained. — Thus I declare (iti bemi).</p>
+          <p class="simple-explanation"><b>The simple version:</b> Kapila — who once could not be satisfied by crores of gold — became the omniscient sage who proclaimed this teaching. Follow it and cross the ocean of existence. Both your life here and your liberation beyond are made whole. Thus it is declared.</p>
+          <div class="concept-tags"><span class="concept-tag">Kapila's Liberation</span><span class="concept-tag">Crossing the Ocean</span><span class="concept-tag">Both Worlds Honored</span></div>
+        </div>
+      </div>
+    </article>
+
+    <div class="text-center py-16">
+      <div class="flex flex-col items-center gap-4">
+        <span class="block w-16 h-px bg-primary/20"></span>
+        <span class="font-headline text-primary text-lg tracking-[0.2em]">॥ अध्ययन-८ सम्पूर्ण ॥</span>
+        <span class="block w-16 h-px bg-primary/20"></span>
+      </div>
+      <p class="font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 8 &mdash; The Story of Kapila</p>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<a href="uttaradhyana-ch7.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 7
+</a>
+<a href="uttaradhyana-ch9.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 9 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="#">About Us</a>
+        <a class="hover:text-primary transition-colors" href="index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="#">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="#">Contact</a>
+        <a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="#">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+
+(function() {
+  const indicator = document.getElementById('sutra-indicator');
+  if (!indicator) return;
+  const sutras = document.querySelectorAll('[id^="sutra-"]');
+  const total = 20;
+
+  function updateCounter() {
+    let current = 1;
+    sutras.forEach((el, i) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.5) {
+        current = i + 1;
+      }
+    });
+    indicator.textContent = 'Sutra ' + current + ' of ' + total;
+  }
+
+  window.addEventListener('scroll', updateCounter);
+  updateCounter();
+})();
+</script>
+
+</body>
+</html>
