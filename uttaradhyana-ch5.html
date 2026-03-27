@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 5: On the Two Types of Death | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e",
+        "on-secondary-fixed-variant": "#4a4642",
+        "secondary-container": "#e6ded9",
+        "primary-fixed-dim": "#e6c364",
+        "surface-bright": "#fef9f1",
+        "tertiary-fixed": "#dde1ff",
+        "surface": "#fef9f1",
+        "primary-fixed": "#ffe08f",
+        "surface-container-low": "#f8f3eb",
+        "secondary-fixed": "#e9e1dc",
+        "outline-variant": "#d0c5b2",
+        "outline": "#7e7665",
+        "inverse-on-surface": "#f5f0e8",
+        "on-background": "#1d1c17",
+        "on-secondary": "#ffffff",
+        "on-tertiary-container": "#2e3b77",
+        "error": "#ba1a1a",
+        "on-error": "#ffffff",
+        "on-primary-fixed-variant": "#584400",
+        "surface-dim": "#ded9d2",
+        "surface-container-high": "#ece8e0",
+        "primary": "#755b00",
+        "on-primary-container": "#503d00",
+        "inverse-surface": "#32302b",
+        "secondary": "#625d59",
+        "error-container": "#ffdad6",
+        "tertiary-fixed-dim": "#b9c3ff",
+        "on-secondary-container": "#67625e",
+        "on-primary": "#ffffff",
+        "on-primary-fixed": "#241a00",
+        "on-error-container": "#93000a",
+        "surface-tint": "#755b00",
+        "secondary-fixed-dim": "#ccc5c0",
+        "surface-variant": "#e7e2da",
+        "surface-container-lowest": "#ffffff",
+        "on-tertiary-fixed": "#041451",
+        "surface-container-highest": "#e7e2da",
+        "primary-container": "#c9a84c",
+        "inverse-primary": "#e6c364",
+        "on-surface-variant": "#4d4637",
+        "tertiary": "#4d5a98",
+        "background": "#fef9f1",
+        "on-tertiary": "#ffffff",
+        "on-surface": "#1d1c17",
+        "tertiary-container": "#9ba8eb",
+        "surface-container": "#f2ede5",
+        "on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: {
+        "headline": ["Noto Serif", "serif"],
+        "body": ["Inter", "sans-serif"],
+        "label": ["Inter", "sans-serif"]
+      },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border-left: 3px solid #c9a84c; }
+.sutra-quote { border-left: 1px solid #c9a84c; padding-left: 3rem; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card > div > span:first-child { width: 3.5rem; display: inline-block; }
+.simple-explanation {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed rgba(201,168,76,0.3);
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4d4637;
+}
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag {
+  display: inline-block;
+  border: 1px solid #C9A84C;
+  background: transparent;
+  color: #1d1c17;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 100px;
+  padding: 4px 13px;
+  font-weight: 500;
+}
+.nav-button {
+  position: fixed;
+  bottom: 24px;
+  z-index: 100;
+  background: transparent;
+  border: 1px solid rgba(201,168,76,0.35);
+  color: rgba(201,168,76,0.6);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider {
+  margin: 2rem 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.section-divider span {
+  font-family: 'Noto Serif', serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #755b00;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.section-divider::before, .section-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(201,168,76,0.3);
+}
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .sutra-sanskrit { font-size: 1.15rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#FEF9F1]">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="tattvartha-index-v4.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Two Deaths<span class="block text-primary font-normal">अकाम-मरण</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On the Two Ways to Die — in Terror or in Serenity</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Lord Mahavira distinguishes between two fundamental ways to die: the unwilled death of the spiritually unaware, who die in terror, and the willing death of the wise, who die in serenity and liberation.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-base font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Compiled By</p><p class="text-base font-headline font-bold text-on-surface">Twelve Chief Disciples</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-base font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <img alt="Ancient Jain manuscript depicting the two paths of death — the terrified unwise and the serene sage" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbzk7XDqh1rQQfD8cD58TcYiARccg9FHm3LLSomAhxd2vS_OMetrApvWvewalpmzqhvvtm2IF1lmNsvYCEPFPjtoAl7UWNMyduWVAaaLknydKBqlEzHHhdEyWD5JlvrwpomspNdKk7mbbbfVrktrZKB-UjFoUOqmIxllRtsbnVk_pFkGLNKDgHu54EhaOnN6f6WTMH7BFkqe_aA8MqwqjNMvc-JpOb5LsSF0cQktl1FKSMJsn6_v5XzIv3caRCmuHRDhD5F6P9DQ"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">अण्णवंसि महोहंसि, एगे तिण्णे दुरुत्तरे ।<br/>तत्थ एगे महापण्णे, इमं पण्हमुदाहरे</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;In the great ocean of worldly existence, some great souls have crossed it. Among them, one of supreme wisdom expounded this teaching.&rdquo;</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Two Deaths</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Akam-Marniya</span> — the fifth chapter — addresses one of the most fundamental questions of spiritual life: how will you die? Jain philosophy teaches that death is not simply an event but a culmination. How one dies is a direct reflection of how one has lived.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The chapter divides all death into two types: <strong>unwilled death</strong> (the death of the spiritually unaware, who die in fear, regret, and anguish, having wasted life on sense pleasures) and <strong>willing death</strong> (the death of the wise, who die in serenity, having prepared themselves through discipline, virtue, and conscious departure). The first half depicts the downward spiral of the unwise — their reasoning, their habits, their terror at the end. The second half shows the path to dying well.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">32</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">2</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Kinds of Death</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Mahavira</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<!-- Sutras Section -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 5</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 32 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Prakrit, English translation, and a simplified commentary.</p>
+  </div>
+
+<div class="section-divider"><span>Opening — The Two Types of Death</span></div>
+
+<!-- Sutra 1 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अण्णवंसि महोहंसि, एगे तिण्णे दुरुत्तरे ।<br/>तत्थ एगे महापण्णे, इमं पण्हमुदाहरे ॥५.१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In the great ocean-like torrent of worldly existence — difficult to cross — some great souls have crossed it. Among them, one of supreme wisdom expounded this teaching.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter opens with a powerful image: the ocean of worldly existence (samsara) is not a gentle stream — it is a great torrent, a flood, "difficult to cross." Most beings are swept along by it. But some — the great ones — have crossed it. And among those great ones, the one of supreme wisdom is Lord Mahavira, who now teaches how that crossing is made possible. The teaching that follows is not philosophy from a distance; it comes from one who has actually crossed.</p>
+<p class="simple-explanation"><b>The simple version:</b> The ocean of worldly life is a powerful, difficult-to-cross torrent. Some great souls have crossed it. Among them, one supremely wise person — Lord Mahavira — shares this teaching about how.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Samsara</span>
+  <span class="concept-tag">Liberation</span>
+  <span class="concept-tag">Mahavira</span>
+  <span class="concept-tag">Opening</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संतिमे य दुवे ठाणा, अक्खाया मरणंतिया ।<br/>अकाम-मरणं चेव, सकाम-मरणं तहा ॥५.२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Here are declared the two types of death-related conditions: unwilled death and willing death.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">With this single sutra, the entire architecture of the chapter is laid out. All death falls into one of two categories. Unwilled death (akam-maran) — the death that happens to you, that you are dragged into unprepared, terrified, regretting. Willing death (sakam-maran) — the death you have prepared for, that you face with serenity, that you choose consciously as the final act of a well-lived spiritual life. The question the chapter is really asking: which of these will yours be?</p>
+<p class="simple-explanation"><b>The simple version:</b> There are exactly two kinds of death. One is unwilled — it drags you into it, unprepared and terrified. The other is willing — you meet it with clarity and serenity. Everything in this chapter is about those two paths.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Unwilled Death</span>
+  <span class="concept-tag">Willing Death</span>
+  <span class="concept-tag">Two Paths</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 3 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">बालाणं तु अकामं तु, मरणं असइं भवे ।<br/>पंडियाण सकामं, तु उक्कोसेण सइं भवे ॥५.३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For the spiritually unaware (bala), unwilled death occurs repeatedly. For the wise (pandita), willing death occurs — at most, once in the highest form.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The contrast is stark. The spiritually unaware die over and over — each life ends in terror, in unpreparedness, in the same patterns repeated. The wise person — through genuine spiritual attainment — dies willingly at most once at the highest level. "At most once" refers to the fully accomplished sage who attains liberation and does not return to the cycle of rebirth at all. The teaching is not pessimistic; it is motivational: you do not have to keep dying like this.</p>
+<p class="simple-explanation"><b>The simple version:</b> The spiritually unaware die an unwilling death again and again across lives. The truly wise die a willing, conscious death — and the highest among them need only do it once, because that death leads to liberation.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Spiritually Unaware</span>
+  <span class="concept-tag">Spiritually Wise</span>
+  <span class="concept-tag">Rebirth</span>
+  <span class="concept-tag">Liberation</span>
+</div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>The Path of Unwilled Death — How the Unwise Live and Die</span></div>
+
+<!-- Sutra 4 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तित्थंग पढमं ठाणं, महावीरेण देसियं ।<br/>काम-गिद्धे जहा बाले, भिंसं कूराइं कुव्वइ ॥५.४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Lord Mahavira declared the first characteristic of unwilled death: the spiritually unaware, addicted to sense pleasures, commits extremely cruel deeds.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The root cause of unwilled death is identified immediately: addiction to sense pleasures. This is not a casual indulgence — the word "giddha" means seized, gripped, addicted. When a person is gripped by the pursuit of pleasure, cruelty follows as a natural consequence. You harm others to get what you want. You harm others to keep what you have. Cruelty is not an aberration — it is the predictable output of a life oriented around sensory gratification.</p>
+<p class="simple-explanation"><b>The simple version:</b> Mahavira names the root cause of dying badly: addiction to sense pleasures. When a person is seized by this addiction, extreme cruelty follows naturally — they'll do anything to get and keep what they want.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Sense Pleasures</span>
+  <span class="concept-tag">Cruelty</span>
+  <span class="concept-tag">Unwilled Death</span>
+  <span class="concept-tag">Root Cause</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 5 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे गिद्धे कामभोगेसु, एगे कूडाय गच्छइ ।<br/>ण मे दिट्ठे परे लोए, चक्खुदिट्टा इमा रई ॥५.५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those addicted to sense pleasures go alone to a place of suffering, saying: "I have not seen the next world — but these pleasures I can see with my own eyes."</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra captures the unwise person's philosophy with painful accuracy. Their argument has the surface logic of empiricism: "I can see these pleasures — they are real, here, now. The next world? I can't see it. So why sacrifice the certain for the uncertain?" This sounds rational until you realize it is not reason but rationalization. The attachment to what is immediately visible drives the reasoning, not the other way around. And the final detail is lonely: they go alone to suffering — the crowd they sought to impress does not follow.</p>
+<p class="simple-explanation"><b>The simple version:</b> The pleasure-addicted person justifies themselves: "I can't see the next world, but I can see these pleasures right now." This sounds logical — but it's just rationalizing what they're already attached to. And they go to suffering alone.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Sense Pleasures</span>
+  <span class="concept-tag">Rationalization</span>
+  <span class="concept-tag">Materialism</span>
+  <span class="concept-tag">Consequences</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 6 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">हत्थागया इमे कामा, कालिया जे अणागया ।<br/>को जाणइ परे लोए, अत्थि वा णत्थि वा पुणो ॥५.६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">&ldquo;These sense pleasures are already in hand; future ones gained through virtue are uncertain. Who knows whether the next world even exists?&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The unwise person extends their argument. "What I have now is real and in my hands. Future rewards through spiritual practice are vague and uncertain. And who can prove there's a next life at all?" This is the logic of the short-sighted: present pleasure is concrete, future consequence is abstract. What they miss is that karma — the mechanism connecting present action to future consequence — is as reliable as gravity. Their skepticism about the next world does not stop karma from functioning.</p>
+<p class="simple-explanation"><b>The simple version:</b> The unwise person argues: "I have pleasures now — they're real and certain. Future spiritual rewards are uncertain. And who can prove the next world exists?" The argument sounds smart, but karma doesn't stop functioning just because you stop believing in it.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Skepticism</span>
+  <span class="concept-tag">Short-sightedness</span>
+  <span class="concept-tag">Karma</span>
+  <span class="concept-tag">Present vs Future</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 7 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जणेण सद्धिं होक्खामि, इइ बाले पगब्भइ ।<br/>काम-भोगाणुराएणं, केसं संपडिवज्जइ ॥५.७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The spiritually unaware person thinks boldly: &ldquo;I'll prosper and rise with everyone.&rdquo; Driven by attachment to sense pleasures, they bring upon themselves immense suffering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The unwise person's third delusion: social ambition fueled by sensory desire. "I'll make it — I'll be like everyone else who is enjoying life." This bold social confidence, built on the foundation of attachment to pleasures, produces the opposite of what was hoped. The karma of pleasure-seeking traps the soul in cycles of craving and suffering. The person who boldly declared they would "prosper with everyone" ends up suffering alone.</p>
+<p class="simple-explanation"><b>The simple version:</b> The unwise person thinks boldly: "I'll enjoy life and rise with everyone else!" But that confidence is built on attachment. Driven by the hunger for pleasure, they bring enormous suffering upon themselves.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Social Ambition</span>
+  <span class="concept-tag">Attachment</span>
+  <span class="concept-tag">Delusion</span>
+  <span class="concept-tag">Consequences</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 8 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तओ से दंडं समारभइ, तसेसु थावरेसु य ।<br/>अट्टाए य अणट्टाए, भूयगामं विहिंसइ ॥५.८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Then they begin inflicting harm on mobile and stationary beings — both for a purpose and pointlessly — causing injury to all living beings.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The logical extension of attachment: violence. "Mobile beings" (trasa) are animals and humans capable of movement and fear; "stationary beings" (sthavara) are plants, microorganisms, and elements. The truly destructive person harms both — and not only for practical reasons but pointlessly, out of habit, cruelty, or indifference. Purposeful harm is bad enough; purposeless harm shows a complete breakdown of ahimsa (non-violence) as a governing principle.</p>
+<p class="simple-explanation"><b>The simple version:</b> Then violence begins — harming animals, plants, other beings — both for personal gain and for no reason at all. This is the natural next step once a person has lost their moral compass through attachment.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Violence</span>
+  <span class="concept-tag">Ahimsa</span>
+  <span class="concept-tag">Karma Accumulation</span>
+  <span class="concept-tag">All Living Beings</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 9 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">हिंसे बाले मुसावाई, माइल्ले पिसुणे सढे ।<br/>भुंजमाणे सुरं मंसं, सेयमेयं ति मण्णइ ॥५.९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The spiritually unaware person — one who commits violence, lies, practices deceit, slanders others, and is a fraud — consumes wine and meat, and thinks: &ldquo;This is the best way to live.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The most chilling element here is not the list of vices but the final phrase: they think this is the best way to live. It is not merely that they fall into bad habits — they have constructed a worldview in which these are virtues or at least neutralities. Violence is strength, deceit is cleverness, slander is social currency. This is the nature of spiritual unawareness: the inversion of values, where harm is normalized and the good life is defined entirely in terms of sensory indulgence.</p>
+<p class="simple-explanation"><b>The simple version:</b> The unwise person commits violence, lies, deceives, slanders — and consumes whatever they want. The real tragedy is the last line: they think this is the best way to live. Their values have become completely inverted.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Violence</span>
+  <span class="concept-tag">Deceit</span>
+  <span class="concept-tag">Inverted Values</span>
+  <span class="concept-tag">Moral Blindness</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 10 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कायसा वयसा मत्ते, वित्ते गिद्धे य इत्थिसु ।<br/>दुहओ मलं संचिणइ, सिसुणागुव्व मट्टियं ॥५.१०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Intoxicated by body, speech and mind — attached to wealth and sensual indulgence — they accumulate karmic impurity from both sides, like a mudskipper gathering mud.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The mudskipper (sisunaga) is a fish that gathers mud inside its mouth and on its body simultaneously — from both directions at once. The image is exact: the unwise person accumulates harmful karma through every channel available — body, speech, and mind — and in every direction — through attachment (raga) and through aversion (dvesha). There is no neutral ground. Every thought, word, and action driven by intoxication and craving adds to the weight.</p>
+<p class="simple-explanation"><b>The simple version:</b> Drunk in body, speech and mind — attached to wealth and sensual indulgence — they pile up karmic impurity from every direction. Like a mudskipper that gathers mud both inside and outside itself, there's no part of their life left clean.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Karma Accumulation</span>
+  <span class="concept-tag">Attachment</span>
+  <span class="concept-tag">Body Speech Mind</span>
+  <span class="concept-tag">Impurity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 11 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तओ पुट्टो आयंकेणं, गिलाणो परितप्पइ ।<br/>पभीओ परलोगस्स, कम्माणुप्पेही अप्पणो ॥५.११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Then, afflicted by a deadly disease, lying sick, they suffer. Terrified of the next world, they remember their own evil deeds with anguish.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The reckoning arrives. The body, abused through years of intoxication, violence, and indulgence, is now struck by fatal illness. Lying helpless, the memories of a poorly lived life flood back. The very next world they denied and dismissed ("who knows if it even exists?") now terrifies them. This is the moment when the karma they accumulated — and refused to believe in — reveals itself with full force. The anguish is not merely physical but spiritual: they cannot undo what they have done.</p>
+<p class="simple-explanation"><b>The simple version:</b> Then comes the reckoning. Struck by fatal illness, lying helpless, they suffer and panic. The next world they dismissed now terrifies them. All their evil deeds come flooding back — and they can't undo a single one.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Karma's Return</span>
+  <span class="concept-tag">Regret</span>
+  <span class="concept-tag">Fear of Death</span>
+  <span class="concept-tag">Consequence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 12 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुया मे णरए ठाणा, असीलाणं च जा गई ।<br/>बालाणं कूरकम्माणं, पगाढा जत्थ वेयणा ॥५.१२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">&ldquo;I have heard of the places of suffering — the destination of the immoral. There the spiritually unaware, those who committed cruel deeds, face intense and profound suffering.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Lying on the deathbed, the unwise person recalls teachings they once heard and dismissed. They had the information; they chose not to act on it. Now, facing the very outcome they were warned about, the knowledge returns — not as comfort but as accusation. This sutra illustrates a painful reality: spiritual knowledge that is not acted upon becomes a source of torment rather than liberation at the moment of death.</p>
+<p class="simple-explanation"><b>The simple version:</b> On their deathbed, they remember warnings they once heard and ignored: "Places of terrible suffering await those who lived immorally and cruelly." They had this knowledge all along — and chose to dismiss it.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Consequences of Immorality</span>
+  <span class="concept-tag">Ignored Teachings</span>
+  <span class="concept-tag">Deathbed Regret</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 13 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तत्थोववाइयं ठाणं, जहा मेयमणुस्सुयं ।<br/>आहाकम्मेहिं गच्छंतो, सो पच्छा परितप्पइ ॥५.१३॥</p>
+<p class="text-lg font-semibold text="on-surface leading-relaxed">The place of arising there is as miserable as I have been told. Going there driven by one's own karma, that being afterwards suffers with bitter regret.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The reality matches the warning exactly. The person's own karma is the vehicle that carries them there — no external force, no divine judgment, no arbitrary fate. Their own accumulated actions take them precisely where those actions lead. And the regret that follows is deepened by the recognition: "I knew. I was told. I chose not to listen." This compounding of consequence and self-awareness is the most severe form of the unwilled death's aftermath.</p>
+<p class="simple-explanation"><b>The simple version:</b> The place of suffering is exactly as terrible as they were told. And it is their own karma — their own actions — that take them there. No one else is responsible. The regret that follows is made worse by knowing they were warned.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Karma</span>
+  <span class="concept-tag">Self-responsibility</span>
+  <span class="concept-tag">Regret</span>
+  <span class="concept-tag">Consequence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 14 & 15 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.14–15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा सागडिओ जाणं, समं हिच्चा महापहं ।<br/>विसमं मग्गमोइण्णो, अक्खे भग्गमि सोयइ ॥५.१४॥<br/>एवं धम्मं विउक्कम्म, अहम्मं पडिवज्जिया ।<br/>बाले मच्चुमुहं पत्ते, अक्खे भग्गे व सोयइ ॥५.१५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a cart-driver who abandons the smooth highway for a rough road grieves when the axle breaks — in the same way, one who abandons right conduct and accepts wrong conduct, reaching death's door, grieves like the broken axle.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The analogy is drawn with great precision. The smooth highway is right conduct (dharma) — the path that has been cleared and tested, on which others have traveled safely. The rough road is wrong conduct (adharma) — it seems like a shortcut or freedom but it destroys the vehicle. The cart-driver doesn't grieve because the road was hard; they grieve because they chose to leave the good road. The unwise person's grief at death is exactly this: a grief of having chosen wrongly when the right path was available.</p>
+<p class="simple-explanation"><b>The simple version:</b> Like a cart-driver who leaves the good highway for a rough road and then grieves when the cart breaks — the person who leaves right conduct for wrong conduct grieves at death's door. The tragedy isn't that the road was hard; it's that they chose to leave the right path.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Right Conduct</span>
+  <span class="concept-tag">Wrong Conduct</span>
+  <span class="concept-tag">Choice</span>
+  <span class="concept-tag">Consequence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 16 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-16">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.16</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तओ से मरणंतम्मि, बाले संतस्सइ भया ।<br/>अकाममरणं मरइ, धुत्ते व किलिणा जिए ॥५.१६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Then at the time of death, the spiritually unaware person trembles with fear. They die an unwilled death — like a gambler who loses everything in a single throw.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The final image is devastating: a gambler who has wagered everything on a single throw and lost. This is the unwilled death — not the peaceful departure of the prepared, but the sudden, total collapse of everything the person had built their life around. The trembling and the terror are not incidental; they are the natural outcome of a life lived without preparation. You cannot begin preparing for death when it arrives at your door.</p>
+<p class="simple-explanation"><b>The simple version:</b> At death, the unwise person trembles with terror. They die an unwilling death — like a gambler who has just lost everything on a single throw. This is the culmination of a life lived without preparation or wisdom.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Unwilled Death</span>
+  <span class="concept-tag">Fear at Death</span>
+  <span class="concept-tag">Unprepared</span>
+  <span class="concept-tag">Culmination</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 17 — Transition -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-17">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.17</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं अकाम-मरणं, बालाणं तु पवेइयं ।<br/>एतो सकाम-मरणं, पंडियाणं सुणेह मे ॥५.१७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This is the unwilled death of the spiritually unaware, as described. Now listen to me about the willing death of the wise.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The pivot point of the chapter. The portrait of the unwise person's death — from their rationalizations to their cruelty to their deathbed terror — is now complete. The text turns its gaze from darkness to light. What follows is not merely contrast for contrast's sake; it is instruction: here is how the other kind of death is prepared for, lived toward, and ultimately achieved.</p>
+<p class="simple-explanation"><b>The simple version:</b> That was the full picture of dying badly. Now — the other path. What does it look like to die well? Listen carefully.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Transition</span>
+  <span class="concept-tag">Willing Death</span>
+  <span class="concept-tag">Teaching Pivot</span>
+</div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>The Path of Willing Death — How the Wise Live and Die</span></div>
+
+<!-- Sutra 18 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-18">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.18</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मरणं पि सपुण्णाणं, जहा मेयमणुस्सुयं ।<br/>विप्पसण्ण-मणाघायं, संजयाणं वुसीमओ ॥५.१८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The death of the meritorious — as heard from the great accomplished ones — is serene and undisturbed in mind, achieved by the disciplined.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Serene" and "undisturbed" are not absence words — they describe an active state of cultivation. This quality of death did not arise at the moment of dying; it is the fruit of years of disciplined practice. The person who dies serenely was not born that way. They built that serenity deliberately, through restraint, through equanimity training, through confronting their own fears while they had time to work with them. Death reveals the interior that was cultivated in life.</p>
+<p class="simple-explanation"><b>The simple version:</b> The death of the truly meritorious — as the great accomplished ones have described it — is serene and undisturbed. This is the fruit of a lifetime of discipline. You can't manufacture this serenity at the last moment; it has to be built over years.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Willing Death</span>
+  <span class="concept-tag">Serenity</span>
+  <span class="concept-tag">Discipline</span>
+  <span class="concept-tag">Cultivation</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 19 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-19">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.19</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण इमं सव्वेसु भिक्खूसु, ण इमं सव्वेसुगारिसु ।<br/>णाणासीला अगारत्था, विसम सीला य भिक्खुणो ॥५.१९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This willing death is not attained by all monks, nor by all householders. Householders follow many varied forms of conduct; monks too follow varied conduct.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">An honest and democratic observation: wearing the robes of a monk does not automatically produce the willing death. Nor does being a householder automatically preclude it. What matters is the quality of conduct, not the outward designation. The teaching refuses to grant automatic spiritual standing to either category. The variation within both groups is real: some monks practice deeply, some superficially; some householders live with genuine virtue, others with none.</p>
+<p class="simple-explanation"><b>The simple version:</b> Honest truth: not every monk achieves willing death, and not every householder is excluded from it. The robes don't guarantee anything. What matters is the actual quality of your conduct — regardless of your outward role.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Honest Appraisal</span>
+  <span class="concept-tag">Quality of Conduct</span>
+  <span class="concept-tag">Monks and Householders</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 20 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-20">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.20</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संति एगेहिं भिक्खूहिं, गारत्था संजमुत्तरा ।<br/>गारत्थेहि य सव्वेहिं, साहवो संजमुत्तरा ॥५.२०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Some householders surpass certain monks in discipline. But among all householders, the fully committed monks are superior in restraint.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Two scales are operating here. At the individual level: a deeply committed householder can surpass a lax monk. At the collective level: the monastic path, practiced fully, represents the highest discipline available. This is not a contradiction — it is a teaching about degrees. The external vow of monkhood creates the optimal conditions for the deepest restraint; but conditions alone do not guarantee results. Both truths must be held simultaneously.</p>
+<p class="simple-explanation"><b>The simple version:</b> A genuinely committed householder can surpass a lukewarm monk. But overall, a monk who actually practices fully represents the highest discipline. External form creates conditions — but conditions alone don't guarantee results.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Discipline</span>
+  <span class="concept-tag">Monastic Path</span>
+  <span class="concept-tag">Householder Path</span>
+  <span class="concept-tag">Genuine Practice</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 21 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-21">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.21</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">चीराजिणं णिगिणिणं, जडी संघाडी मुंडिणं ।<br/>एयाणि वि ण तायंति, दुस्सीलं परियागयं ॥५.२१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Bark-robes, animal skins, nakedness, matted hair, a patched robe, a shaved head — even all of these outer marks cannot protect a person of bad conduct who has taken long-standing vows.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A direct statement about the uselessness of religious symbolism without corresponding inner transformation. Each item listed is associated with a recognized ascetic tradition: bark robes (Jain renunciants), nakedness (Digambara monks), matted hair (various traditions), shaved heads (Buddhist and Jain monks). None of these — alone or combined — provides protection from the karma of bad conduct. The external marks are only meaningful when they are the outer expression of a genuinely transformed interior.</p>
+<p class="simple-explanation"><b>The simple version:</b> Robes, austerities, shaved heads, traditional marks of renunciation — none of these protect a person of bad conduct. Religious symbols mean nothing without the interior transformation they're supposed to represent.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Inner vs Outer</span>
+  <span class="concept-tag">Bad Conduct</span>
+  <span class="concept-tag">Symbols Without Substance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 22 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-22">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.22</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पिंडोलए व दुस्सीले, णरगाओ ण मुच्चइ ।<br/>भिक्खाए वा गिहत्थे वा, सुव्वए कम्मइ दिवं ॥५.२२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A person of bad conduct — whether a wandering beggar or a householder — cannot be freed from hell. But one of good conduct — whether a monk or a householder — goes to the divine realm.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The principle stated unambiguously: the determining factor is conduct, not category. A bad monk and a bad householder share the same outcome. A good monk and a good householder share the same upward trajectory. This democratizes the spiritual path in an important way: the householder is not relegated to a lesser fate simply because of their social role. Virtue is available to both, and so is its fruit.</p>
+<p class="simple-explanation"><b>The simple version:</b> Bad conduct leads to suffering — for monks and householders alike. Good conduct leads to higher realms — for monks and householders alike. What determines your destination is how you lived, not what label you wore.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Conduct Determines Fate</span>
+  <span class="concept-tag">Equality of Paths</span>
+  <span class="concept-tag">Good Conduct</span>
+</div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>The Householder's Practice — How a Lay Person Attains Willing Death</span></div>
+
+<!-- Sutra 23 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-23">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.23</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अगारि सामायंगाणि, सड्डी काएण फासए ।<br/>पोसहं दुहओ पक्खं, एगरायं ण हावए ॥५.२३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The faithful householder should bodily practice the rituals of equanimity and household religious life — observing the fortnightly spiritual fasting on both the dark and bright fortnights, not abandoning even a single night's observance.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The path for the lay practitioner is now specified. "Samayika" (equanimity practice) and the fortnightly "poshadha" (a day of fasting, prayer, and austerity observed on the 8th, 14th, and full-moon days of each lunar fortnight) are the householder's core practices. The emphasis on "bodily" — not just mentally intending but actually performing — is deliberate. And the standard set is exacting: not even a single night should be abandoned. Consistency is the practice.</p>
+<p class="simple-explanation"><b>The simple version:</b> For a faithful householder, the path is consistent practice — equanimity meditation and fortnightly spiritual fasting. The standard is high: not even a single night of observance should be skipped. Intention counts, but actual practice counts more.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Householder Practice</span>
+  <span class="concept-tag">Equanimity</span>
+  <span class="concept-tag">Fortnightly Fasting</span>
+  <span class="concept-tag">Consistency</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 24 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-24">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.24</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवं सिक्खासमावण्णे, गिहवासे वि सुव्वए ।<br/>मुच्चइ छविपव्वाओ, गच्छे जक्ख सलोगयं ॥५.२४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A virtuous householder who is trained and established in this way is freed from the gross physical body and goes to the celestial realm.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The fruit of consistent householder practice: at the end of life, the soul is freed from its physical shell and ascends to a celestial realm. This is not liberation (moksha) — that requires the fuller renunciation of the monastic path — but it is a significant and auspicious outcome. The soul continues its journey from a higher vantage point, with greater clarity and purity, better positioned for eventual liberation.</p>
+<p class="simple-explanation"><b>The simple version:</b> A householder who practices consistently and well — at death, their soul is freed from the physical body and ascends to a celestial realm. Not full liberation yet, but a great and auspicious next step in the journey.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Householder Fruit</span>
+  <span class="concept-tag">Celestial Realm</span>
+  <span class="concept-tag">Ascending Soul</span>
+  <span class="concept-tag">Consistent Practice</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 25 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-25">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.25</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अह जे संवुडे भिक्खू, दोणहं अण्णयरे सिया ।<br/>सव्व दुक्खप्पहीणे वा, देवे वावि महिड्डिए ॥५.२५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">And a monk who is completely restrained may attain one of two outcomes: complete liberation from all suffering, or becoming a deity of great power.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The monk's two possible outcomes are both extraordinary. Liberation (moksha) — the complete and permanent cessation of suffering, beyond all rebirth — is the highest possibility. But even the secondary outcome for a truly restrained monk is remarkable: birth as a powerful celestial being with immense spiritual merit. The point is not to rank these two but to show that genuine monastic restraint does not fail. Its fruit is certain and magnificent in either direction.</p>
+<p class="simple-explanation"><b>The simple version:</b> A truly restrained monk has two possible outcomes — both extraordinary: complete liberation from all suffering, or birth as a deity of great power. Either way, genuine discipline does not fail. The fruit is certain.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Liberation</span>
+  <span class="concept-tag">Monastic Path</span>
+  <span class="concept-tag">Certain Fruit</span>
+  <span class="concept-tag">Two Outcomes</span>
+</div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>The Celestial Realms — Where the Virtuous Ascend</span></div>
+
+<!-- Sutra 26-27 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-26">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.26–27</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">उत्तराइं विमोहाइं, जुइमंताणुपुव्वसो ।<br/>समाइण्णाइं जक्खेहिं, आवासाइं जसंसिणो ॥५.२६॥<br/>दीहाउया इड्डिमंता, सिमिद्धा काम-रूविणो ।<br/>अहुणोववण्ण-संकासा, भुज्जो अच्चिमालिप्पभा ॥५.२७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The celestial abodes above are progressively greater, filled with ever-more-radiant beings — glorious, long-lived, powerful, prosperous, able to take whatever form they desire — shining like newly born celestials, with brilliance like a chain of flames.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The description of the higher celestial realms serves a practical purpose: it shows that the quality of one's spiritual practice directly determines the quality of the next existence. The realms ascend not arbitrarily but in direct correspondence to the refinement of conduct and the reduction of passion (moha) in the previous life. The image of brilliance increasing with each level — "like a chain of flames" — communicates that the soul's inherent luminosity is progressively uncovered as karmic obscurations diminish.</p>
+<p class="simple-explanation"><b>The simple version:</b> The celestial realms ascend in order of greatness — each level more radiant, more powerful, longer-lived than the last. The brilliance grows like a chain of flames. The level you reach directly corresponds to the quality of your spiritual practice.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Celestial Realms</span>
+  <span class="concept-tag">Progressive Ascent</span>
+  <span class="concept-tag">Karma and Destination</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 28 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-28">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.28</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ताणि ठाणाणि गच्छंति, सिक्खित्ता संजमं तवं ।<br/>भिक्खाए वा गिहत्थे वा, जे संति परिणिव्वुडा ॥५.२८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those who go to those celestial places — having practiced discipline and austerity — whether monks or householders — are those who have cooled and extinguished the fire of their passions.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Cooled the fire" — the word parinivvuda (parinirvrta) means extinguished, cooled, pacified. The fire of the passions — anger, pride, deceit, greed — has been systematically brought under control through the combined practice of discipline (sanyam) and austerity (tapa). Again, the sutra specifies: this is available to both monks and householders. What they share is not their external designation but the inner cooling of what was once burning.</p>
+<p class="simple-explanation"><b>The simple version:</b> The people who reach those higher realms are those who practiced discipline and austerity — monks and householders alike — and in doing so, cooled and extinguished the fire of their passions. That inner cooling is the passport.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Discipline</span>
+  <span class="concept-tag">Austerity</span>
+  <span class="concept-tag">Cooling of Passions</span>
+  <span class="concept-tag">Higher Realms</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 29 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-29">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.29</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तेसिं सोच्चा सपुज्जाणं, संजयाण वुसीमओ ।<br/>ण संसंति मरणंते, सीलवंता बहुस्सुया ॥५.२९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard about these venerable, disciplined, accomplished ones — the virtuous and learned do not tremble at the time of death.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The purpose of this entire teaching becomes explicit: to eliminate the trembling at death. For the unwise (sutra 16), death brought terror and convulsions. For the virtuous and learned who have understood this teaching and lived accordingly, death brings no trembling. The word "bahu-ssuta" — learned, or one who has heard much — indicates that the learning is not passive; it is the kind of learning that transforms. You have heard about the great ones, understood their path, followed it. At the end, you share their equanimity.</p>
+<p class="simple-explanation"><b>The simple version:</b> Having truly learned about those great accomplished ones — the virtuous and the genuinely learned do not tremble when death comes. This is the purpose of the whole teaching: to build a death without terror.</p>
+<div class="concept-tags">
+  <span class="concept-tag">No Fear at Death</span>
+  <span class="concept-tag">Virtue and Learning</span>
+  <span class="concept-tag">Purpose of Teaching</span>
+</div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Attaining Willing Death — The Final Preparation</span></div>
+
+<!-- Sutra 30 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-30">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.30</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तुलिया विसेसमादाय, दयाधम्मस्स खंतिए ।<br/>विप्पसीएज्ज मेहावी, तहाभूएण अप्पाणं ॥५.३०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having weighed both types of death and recognized the distinction, the wise person — with compassion as their dharma and patience as their practice — should remain serenely joyful, nurturing the soul in its true nature.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The sequence of this sutra is important. First: compare the two deaths. See clearly what each produces. Then: adopt compassion-dharma (daya-dharma) and patience (khanti) as the foundation. From that foundation: remain serene and joyful (vippasida) — not resigned, not grim, but genuinely at peace. And nurture the soul in its true nature — which is pure, conscious, and free from all karmic entanglement. This is the active preparation for a willing death.</p>
+<p class="simple-explanation"><b>The simple version:</b> Look clearly at both paths — the terrified death and the serene one. Then choose your foundation: compassion and patience. From there, remain genuinely joyful. And keep nurturing your soul toward its true, pure nature. This is how you prepare.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Compassion</span>
+  <span class="concept-tag">Patience</span>
+  <span class="concept-tag">Serenity</span>
+  <span class="concept-tag">Soul Cultivation</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 31 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-31">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.31</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तओ काले अभिप्पेए, सड्डी तालिसमंतिए ।<br/>विणएज्ज लोमहिरसं, भेयं देहस्स कंखए ॥५.३१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Then, when the right time of death approaches, the faithful person — remaining near revered teachers — should remove all fear-inducing trembling and await the separation from the body.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The practical preparation for the final act. "Near revered teachers" — the dying person does not face this alone; the community of wise elders provides a context of support and steadiness. "Remove the trembling" — this is not suppression but genuine fearlessness earned through practice. And "await the separation from the body" — this is the conscious dying process, sometimes called sallekhana or santhara in Jain tradition: a deliberate, gradual, peaceful release of the body, approached without resistance or terror.</p>
+<p class="simple-explanation"><b>The simple version:</b> When the time of death draws near, stay close to wise teachers. Remove all fear-based trembling — not by suppressing it but by having built genuine fearlessness through practice. Then wait for the body's release with full awareness. This is the conscious death.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Conscious Dying</span>
+  <span class="concept-tag">Fearlessness</span>
+  <span class="concept-tag">Teachers and Community</span>
+  <span class="concept-tag">Santhara</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 32 -->
+<article class="sutra-card bg-surface-container-low p-8 rounded-r-xl mb-6 transition-all duration-300 hover:bg-surface-container" id="sutra-32">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.32</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अह कालंमि संपत्ते, आघायाय समुस्सयं ।<br/>सकाम-मरणं मरइ, तिण्हमणण्यरं मुणी ॥५.३२॥ —ति बेमि ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When the time arrives, the sage — through one of three types of willing death — consciously departing from the body — dies a willing death. — Thus do I say.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The three types of willing death (saka-maran) referenced are: (1) the complete voluntary fast unto death (bhakta-pratyakhyana) — renouncing all food while alive in full awareness; (2) the stationary conscious death (ingini-maran) — lying still without assistance, letting the body cease; and (3) the "tree death" (padopagaman) — standing still like a tree, renouncing all four types of food. All three share the essential quality of willingness and full conscious awareness. The sage does not resist death or run from it. They meet it as the final spiritual act of a life deliberately lived. "Thus do I say" — the teaching closes with the same authority with which it opened.</p>
+<p class="simple-explanation"><b>The simple version:</b> When the time comes, the sage — through one of three forms of conscious, willing departure — dies a willing death, fully aware, without resistance. This is the culmination: a death as deliberate and conscious as every spiritual act that preceded it. — So it is said.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Three Forms of Willing Death</span>
+  <span class="concept-tag">Conscious Death</span>
+  <span class="concept-tag">Final Teaching</span>
+  <span class="concept-tag">Liberation</span>
+</div>
+</div>
+</div>
+</article>
+
+  <!-- Chapter End Marker -->
+  <div class="text-center py-16">
+    <div class="inline-flex items-center gap-4">
+      <span class="block w-16 h-px bg-primary/20"></span>
+      <span class="font-headline text-primary text-lg tracking-[0.2em]">॥ अध्ययन-५ सम्पूर्ण ॥</span>
+      <span class="block w-16 h-px bg-primary/20"></span>
+    </div>
+    <p class="font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 5 &mdash; On the Two Types of Death</p>
+  </div>
+
+</section>
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="uttaradhyana-ch4.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 4
+</a>
+
+<a href="uttaradhyana-ch6.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 6 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="#">About Us</a>
+        <a class="hover:text-primary transition-colors" href="index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="#">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="#">Contact</a>
+        <a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="#">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+</script>
+</body></html>
