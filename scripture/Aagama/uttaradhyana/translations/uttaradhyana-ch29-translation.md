@@ -1785,3 +1785,645 @@ Simply put: When the soul finally renounces the body itself, it becomes endowed 
 
 Can I hold the vision of this ultimate destination — infinite knowledge and eternal bliss at the summit of existence — as the guiding star for every practice on the path?
 
+---
+
+## SUTRA 29.41
+
+### 1. PRAKRIT TEXT
+
+सहायपच्चक्खाणेणं भंते ! जीवे किं जणयइ ?
+सहायपच्चक्खाणेणं एगीभावं जणयइ ॥२९.४१॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Sahāyapaccakkhāṇeṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Sahāyapaccakkhāṇeṇaṃ egībhāvaṃ jaṇayai || 29.41 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through sahāya-pratyākhyāna (renunciation of companionship), O Lord, what does the soul generate? Through sahāya-pratyākhyāna, one generates ekībhāva (the state of solitude/oneness).
+
+### 4. ANVAYARTHA
+
+- **sahāyapaccakkhāṇeṇaṃ** — through sahāya-pratyākhyāna (renunciation of all companionship/assistance)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **egībhāvaṃ** — ekībhāva (state of solitude, oneness, self-containment)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+After renouncing the body itself (sutra 40), the next practice is renouncing all companionship. *Sahāya-pratyākhyāna* means giving up reliance on all external companions and helpers. The fruit is *ekībhāva* — absolute solitude and self-containment. The commentary explains that the solitary soul (ekībhāvabhūta) turns entirely inward, dwelling in one-pointed concentration (ekāgratā). In this state, the soul relies on nothing external and abides in pure self-awareness. This is the monk's final withdrawal from all social bonds — even spiritual companionship — to stand alone in the ultimate practice.
+
+### 6. SIMPLY PUT
+
+Simply put: Renouncing all companionship generates the state of complete solitude. The soul turns entirely inward, relying on nothing external, and rests in pure self-awareness and one-pointed concentration.
+
+### 7. CONTEMPLATE
+
+Can I imagine a state of such complete self-sufficiency that the soul needs nothing — not even a companion on the path?
+
+---
+
+## SUTRA 29.42
+
+### 1. PRAKRIT TEXT
+
+भत्तपच्चक्खाणेणं भंते ! जीवे किं जणयइ ?
+भत्तपच्चक्खाणेणं अणेगाइं भवसयाइं णिरुंभइ ॥२९.४२॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Bhattapaccakkhāṇeṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Bhattapaccakkhāṇeṇaṃ aṇegāiṃ bhavasayāiṃ ṇiruṃbhai || 29.42 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through bhakta-pratyākhyāna (renunciation of food), O Lord, what does the soul generate? Through bhakta-pratyākhyāna, one blocks (niruṃbhati) innumerable thousands of births.
+
+### 4. ANVAYARTHA
+
+- **bhattapaccakkhāṇeṇaṃ** — through bhakta-pratyākhyāna (the vow of fasting / renunciation of food)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **aṇegāiṃ** — innumerable (anekāni)
+- **bhavasayāiṃ** — thousands of births (bhava-sahasrāṇi)
+- **ṇiruṃbhai** — blocks, prevents (nirodha)
+
+### 5. COMMENTARY
+
+*Bhakta-pratyākhyāna* is the vow of anaśana — complete renunciation of food and drink. The commentary explains that food sustains not just the body but the entire cycle of embodiment. By renouncing food entirely, the monk cuts the very sustenance of saṃsāra. This is not mere starvation but a spiritually intentional practice performed with full awareness and detachment. Through proper fasting undertaken at the right time and with the right disposition, the soul burns away accumulated karma and closes the doors to innumerable future births.
+
+### 6. SIMPLY PUT
+
+Simply put: The vow of complete fasting blocks innumerable future births. By renouncing food — the very sustenance of embodied existence — the soul severs the root of the cycle of rebirth.
+
+### 7. CONTEMPLATE
+
+What transforms physical fasting into a spiritual practice that can alter the trajectory of countless future births?
+
+---
+
+## SUTRA 29.43
+
+### 1. PRAKRIT TEXT
+
+सब्भावपच्चक्खाणेणं भंते ! जीवे किं जणयइ ?
+सब्भावपच्चक्खाणेणं अणियट्टिं जणयइ । अणियट्टिं पडिवण्णे य अणगारे चत्तारि केवलिकम्मंसे खवेइ, तं जहा— वेयणिज्जं, आउयं, णामं, गोयं । ताओ पच्छा सिज्झइ बुज्झइ मुच्चइ परिणिव्वायइ सव्वदुक्खाणमंत करेइ ॥२९.४३॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Sabbhāvapaccakkhāṇeṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Sabbhāvapaccakkhāṇeṇaṃ aṇiyaṭṭiṃ jaṇayai. Aṇiyaṭṭiṃ paḍivaṇṇe ya aṇagāre cattāri kevali-kammaṃse khavei, taṃ jahā — veyaṇijjaṃ, āuyaṃ, ṇāmaṃ, goyaṃ. Tāo pacchā sijjhai bujjhai muccai pariṇivvāyai savvadukkhāṇamaṃta karei || 29.43 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through sadbhāva-pratyākhyāna (true/sincere renunciation), O Lord, what does the soul generate? Through sadbhāva-pratyākhyāna, one generates anivṛtti (the irreversible state of non-return). Having attained non-return, the houseless monk destroys the four kevali-karmas, namely — vedanīya, āyuṣya, nāma, and gotra. Thereafter, he is perfected (siddha), enlightened (buddha), liberated (mukta), attains complete emancipation (parinirvāṇa), and makes an end of all suffering.
+
+### 4. ANVAYARTHA
+
+- **sabbhāvapaccakkhāṇeṇaṃ** — through sadbhāva-pratyākhyāna (renunciation with complete inner sincerity)
+- **aṇiyaṭṭiṃ** — anivṛtti (the irreversible state of non-return)
+- **jaṇayai** — generates
+- **paḍivaṇṇe** — having attained
+- **aṇagāre** — the houseless monk (anagāra)
+- **cattāri** — four
+- **kevali-kammaṃse** — kevali-karmas (the remaining non-destructive karmas)
+- **khavei** — destroys (kṣaya)
+- **taṃ jahā** — namely, as follows
+- **veyaṇijjaṃ** — vedanīya karma (feeling-producing karma)
+- **āuyaṃ** — āyuṣya karma (lifespan-determining karma)
+- **ṇāmaṃ** — nāma karma (body-determining karma)
+- **goyaṃ** — gotra karma (status-determining karma)
+- **tāo pacchā** — thereafter
+- **sijjhai** — is perfected (siddha)
+- **bujjhai** — is enlightened (buddha)
+- **muccai** — is liberated (mukta)
+- **pariṇivvāyai** — attains complete emancipation (parinirvāṇa)
+- **savvadukkhāṇamaṃta karei** — makes an end of all suffering
+
+### 5. COMMENTARY
+
+This is the climactic sutra of the pratyākhyāna series, describing the complete path to final liberation. *Sadbhāva-pratyākhyāna* means renouncing with such profound inner sincerity (sadbhāva) that the soul reaches the point of no return. The commentary explains that this is not merely renouncing external things but renouncing the very impulse toward worldly existence with complete conviction. From this irreversible state (anivṛtti), the monk destroys the four remaining *aghātiyā* (non-destructive) karmas: vedanīya (feeling), āyuṣya (lifespan), nāma (individuality/body), and gotra (lineage/status). With all eight types of karma destroyed, the soul achieves the four-fold state of liberation: *siddha* (perfected), *buddha* (fully awakened), *mukta* (freed), and *parinirvāṇa* (completely beyond suffering) — making an absolute end of all duḥkha.
+
+### 6. SIMPLY PUT
+
+Simply put: True and sincere renunciation generates the irreversible state from which there is no return to worldly existence. The monk destroys the four remaining karmas — feeling, lifespan, body, and status — and becomes perfected, enlightened, liberated, and forever free from all suffering.
+
+### 7. CONTEMPLATE
+
+What makes renunciation "true" (sadbhāva)? At what point does inner conviction become so complete that the soul's journey to liberation becomes irreversible?
+
+---
+
+## SUTRA 29.44
+
+### 1. PRAKRIT TEXT
+
+पडिरूवयाए णं भंते ! जीवे किं जणयइ ?
+पडिरूवयाए लाघवियं जणयइ । लघुभूए पं जीवे पसत्थलिंगे, विसुद्धसमन्ते, सत्तसमिइसमत्ते, सव्वपाणभूयजीवसत्तेसु वीससणिज्जत्ते, अप्पडिलेहे, जिइंदिए, विउलतवसमिइसमण्णागए याविभवइ ॥२९.४४॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Paḍirūvayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Paḍirūvayāe lāghaviyaṃ jaṇayai. Laghubhūe paṃ jīve pasatthaliṃge, visuddhsamaṃte, sattasamiïsamatte, savvapāṇabhūyajīvasattesu vīsasaṇijjatte, appaḍilehe, jiïṃdiye, viulatavasmiïsamaṇṇāgae yāvibhavai || 29.44 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through pratirūpavatā (emulation of ideal conduct), O Lord, what does the soul generate? Through pratirūpavatā, one generates lāghavīya (lightness/nimbleness). Having become light, the soul possesses praiseworthy marks, pure conduct on all sides, mastery of the seven samitis, trustworthiness among all living beings, non-attachment, conquest of the senses, and endowment with extensive austerity and discipline.
+
+### 4. ANVAYARTHA
+
+- **paḍirūvayāe** — through pratirūpavatā (emulation of ideal monastic conduct)
+- **lāghaviyaṃ** — lāghavīya (lightness, nimbleness, freedom from heaviness)
+- **jaṇayai** — generates
+- **laghubhūe** — having become light/free
+- **pasatthaliṃge** — praśasta-liṅga (possessing praiseworthy monastic marks)
+- **visuddhsamaṃte** — viśuddha-samanta (pure from all sides)
+- **sattasamiïsamatte** — sapta-samiti-samatta (equipped with seven samitis/disciplines)
+- **savvapāṇabhūyajīvasattesu** — toward all living beings (sarva-prāṇa-bhūta-jīva-sattva)
+- **vīsasaṇijjatte** — viśvāsanīyatva (trustworthiness)
+- **appaḍilehe** — apratilepa (non-attachment to food/body)
+- **jiïṃdiye** — jitendriya (having conquered the senses)
+- **viulatavasmiïsamaṇṇāgae** — vipula-tapa-samiti-samanvāgata (endowed with great austerity and discipline)
+- **yāvibhavai** — thus becomes
+
+### 5. COMMENTARY
+
+*Pratirūpavatā* means emulating the ideal conduct prescribed by the Tīrthaṃkaras — adopting the physical and spiritual marks of the true monk in both substance (dravya) and spirit (bhāva). The immediate fruit is *lāghavīya* — a lightness that comes from shedding all pretense and spiritual heaviness. The commentary explains that the soul who practices ideal emulation becomes free from negligence (apramatta), possesses praiseworthy marks (praśasta-liṅga), maintains purity from all sides, masters all seven samitis (disciplines of walking, speaking, begging, placing, disposing, etc.), becomes trustworthy among all beings, remains free from attachment, conquers the senses, and is endowed with great austerity. This sutra marks the transition from the renunciation series to the positive virtues — having renounced everything, the monk now embodies the ideal.
+
+### 6. SIMPLY PUT
+
+Simply put: Emulating ideal monastic conduct generates spiritual lightness and freedom. The soul becomes marked by praiseworthy qualities — mastery of the seven disciplines, trustworthiness toward all beings, sense-conquest, and great austerity.
+
+### 7. CONTEMPLATE
+
+What does it mean to become "light" on the spiritual path? How does emulating the ideal conduct of the great monks transform the very texture of the soul?
+
+---
+
+## SUTRA 29.45
+
+### 1. PRAKRIT TEXT
+
+वेयावच्चेणं भंते ! जीवे किं जणयइ ?
+वेयावच्चेणं तित्थयरनामकम्मं बंधइ ॥२९.४५॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Veyāvacceṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Veyāvacceṇaṃ titthayaranāmakammaṃ baṃdhai || 29.45 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through vaiyāvṛtya (selfless service), O Lord, what does the soul generate? Through vaiyāvṛtya, one binds tīrthaṃkara-nāmakarma (the karma that leads to birth as a Tīrthaṃkara).
+
+### 4. ANVAYARTHA
+
+- **veyāvacceṇaṃ** — through vaiyāvṛtya (selfless service to worthy monks/teachers)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **titthayaranāmakammaṃ** — tīrthaṃkara-nāmakarma (the karma determining birth as a Tīrthaṃkara)
+- **baṃdhai** — binds (acquires)
+
+### 5. COMMENTARY
+
+*Vaiyāvṛtya* is selfless service — attending to the needs of worthy monks, teachers, the sick, and spiritual practitioners. The commentary explains this as one of the most powerful practices in Jain tradition: selfless service generates the binding of *tīrthaṃkara-nāmakarma* — the specific nāma karma that results in future birth as a Tīrthaṃkara (ford-maker, supreme teacher). True service must be performed without expectation of reward, with pure intention (bhāva), and toward those genuinely worthy. Among all karmic fruits, this is among the most extraordinary — through humble service, one earns the destiny of becoming a world-teacher.
+
+### 6. SIMPLY PUT
+
+Simply put: Selfless service to worthy monks binds tīrthaṃkara-nāmakarma — the karma that leads to future birth as a supreme spiritual teacher. Humble service to the worthy earns the highest possible spiritual destiny.
+
+### 7. CONTEMPLATE
+
+How remarkable that humble, selfless service — not grand austerities or heroic renunciations — earns the destiny of becoming a Tīrthaṃkara.
+
+---
+
+## SUTRA 29.46
+
+### 1. PRAKRIT TEXT
+
+सव्वगुणसंपण्णयाए णं भंते ! जीवे किं जणयइ ?
+सव्वगुणसंपण्णयाए णं अपुणरावत्ति जणयइ । अपुणरावत्तिपत्तं णं जीवे सारीरमासाणं दुक्खाणं णो भागी भवइ ॥२९.४६॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Savvaguṇasaṃpaṇṇayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Savvaguṇasaṃpaṇṇayāe ṇaṃ apuṇarāvatti jaṇayai. Apuṇarāvattipattaṃ ṇaṃ jīve sārīramāsāṇaṃ dukkhāṇaṃ ṇo bhāgī bhavai || 29.46 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through sarvaguṇa-saṃpannatā (attainment of all virtues), O Lord, what does the soul generate? Through sarvaguṇa-saṃpannatā, one generates apunarāvṛtti (non-return). Having attained non-return, the soul does not become subject to physical and mental sufferings.
+
+### 4. ANVAYARTHA
+
+- **savvaguṇasaṃpaṇṇayāe** — through sarvaguṇa-saṃpannatā (complete attainment of all virtues)
+- **apuṇarāvatti** — apunarāvṛtti (non-return to worldly existence)
+- **jaṇayai** — generates
+- **apuṇarāvattipattaṃ** — having attained non-return
+- **sārīramāsāṇaṃ** — śārīrika-mānasika (physical and mental)
+- **dukkhāṇaṃ** — sufferings (duḥkhānām)
+- **ṇo bhāgī bhavai** — does not become subject to (no share in)
+
+### 5. COMMENTARY
+
+*Sarvaguṇa-saṃpannatā* is complete attainment of all virtues — a comprehensive state where all spiritual qualities are fully developed. The fruit is *apunarāvṛtti* — the irreversible state from which there is no return to mundane existence. The commentary explains that once the soul attains complete virtue, it transcends all physical (śārīrika) and mental (mānasika) sufferings. This sutra begins a new series describing the specific qualities that collectively constitute spiritual perfection.
+
+### 6. SIMPLY PUT
+
+Simply put: Complete attainment of all virtues generates the state of non-return. The soul transcends all physical and mental suffering and never returns to worldly existence.
+
+### 7. CONTEMPLATE
+
+What would it be like to be so thoroughly established in virtue that the very possibility of suffering is transcended?
+
+---
+
+## SUTRA 29.47
+
+### 1. PRAKRIT TEXT
+
+वीयरागयाए णं भंते ! जीवे किं जणयइ ?
+वीयरागयाए णोहाणुबंधणाणि तण्हाणुबंधणाणि तपच्चइयं च करेइ ॥२९.४७॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Vīyarāgayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Vīyarāgayāe ṇohāṇubaṃdhaṇāṇi taṇhāṇubaṃdhaṇāṇi tapaccaiyaṃ ca karei || 29.47 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through vītarāgatā (freedom from attachment), O Lord, what does the soul generate? Through vītarāgatā, one destroys the bonds of anger (krodha-anubandha) and the bonds of craving (tṛṣṇā-anubandha), and generates the fruit of austerity.
+
+### 4. ANVAYARTHA
+
+- **vīyarāgayāe** — through vītarāgatā (complete freedom from attachment/passion)
+- **ṇohāṇubaṃdhaṇāṇi** — krodha-anubandhanāni (bonds of anger/aversion)
+- **taṇhāṇubaṃdhaṇāṇi** — tṛṣṇā-anubandhanāni (bonds of craving/thirst)
+- **tapaccaiyaṃ** — tapa-pratyaya (fruit of austerity)
+- **ca karei** — and accomplishes/destroys
+
+### 5. COMMENTARY
+
+*Vītarāgatā* is complete absence of attachment and aversion — the state of being beyond all passion. The commentary explains that this freedom destroys two fundamental chains binding the soul: the bonds of anger/aversion (krodha-anubandha) and the bonds of craving/desire (tṛṣṇā-anubandha). Additionally, the vītarāga state generates the true fruit of all austerities (tapas). Without vītarāga, even great austerities bear limited fruit — but with complete detachment, every practice yields its fullest result. Attachment is the root cause of both bondage and suffering; its eradication is the gateway to liberation.
+
+### 6. SIMPLY PUT
+
+Simply put: Freedom from attachment destroys the bonds of anger and craving, and generates the true fruit of all austerity. Without attachment, the soul is free from the two chains that bind it to saṃsāra.
+
+### 7. CONTEMPLATE
+
+If attachment is the root of both anger and craving, what remains when attachment itself is uprooted?
+
+---
+
+## SUTRA 29.48
+
+### 1. PRAKRIT TEXT
+
+खंतीए णं भंते ! जीवे किं जणयइ ?
+खंतीए णं परीसहे जिणेइ ॥२९.४८॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+KhaṃtīE ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+KhaṃtīE ṇaṃ parīsahe jiṇei || 29.48 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through kṣamā (forgiveness/forbearance), O Lord, what does the soul generate? Through kṣamā, one conquers the parīṣahas (afflictions/hardships).
+
+### 4. ANVAYARTHA
+
+- **khaṃtīE** — through kṣamā (forgiveness, forbearance, patience)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **parīsahe** — parīṣaha (the 22 afflictions/hardships that test the monk)
+- **jiṇei** — conquers (jayati)
+
+### 5. COMMENTARY
+
+*Kṣamā* (forbearance) is among the most fundamental dharmas in Jainism. The fruit is the conquest of *parīṣaha* — the 22 kinds of afflictions that test the monk: hunger, thirst, cold, heat, insect bites, nakedness, ennui, women, wandering, sitting, resting, abuse, violence, begging, failure to receive, disease, thorns, dirt, honor, wisdom, ignorance, and disbelief. The commentary explains that kṣamā is not passive endurance but active spiritual strength — the inner equanimity that remains unshaken regardless of what hardship befalls the body or mind.
+
+### 6. SIMPLY PUT
+
+Simply put: Forgiveness and forbearance conquer all afflictions that test the spiritual aspirant. Through kṣamā, the soul develops unshakable inner equanimity against the 22 parīṣahas.
+
+### 7. CONTEMPLATE
+
+Is forgiveness a form of surrender, or is it the highest form of spiritual strength?
+
+---
+
+## SUTRA 29.49
+
+### 1. PRAKRIT TEXT
+
+मुत्तीए णं भंते ! जीवे किं जणयइ ?
+मुत्तीए णं अकिंचणं जणयइ ॥२९.४९॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+MuttīE ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+MuttīE ṇaṃ akiṃcaṇaṃ jaṇayai || 29.49 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through mukti (detachment/non-greed), O Lord, what does the soul generate? Through mukti, one generates akiñcanya (complete possessionlessness).
+
+### 4. ANVAYARTHA
+
+- **muttīE** — through mukti (detachment, freedom from greed)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **akiṃcaṇaṃ** — akiñcanya (complete possessionlessness, owning nothing)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+*Mukti* here refers to freedom from greed and attachment to possessions — the liberating quality of letting go. The fruit is *akiñcanya* — complete possessionlessness, where the soul owns nothing and is attached to nothing. The commentary explains that this is not merely external poverty but an inner state where even the sense of "mine" has been completely dissolved. The soul that achieves akiñcanya stands free from every form of grasping — material, emotional, and intellectual.
+
+### 6. SIMPLY PUT
+
+Simply put: Detachment from greed generates complete possessionlessness. The soul lets go of all sense of "mine" and stands free from every form of grasping.
+
+### 7. CONTEMPLATE
+
+What would remain if I let go of not just possessions, but the very impulse to possess?
+
+---
+
+## SUTRA 29.50
+
+### 1. PRAKRIT TEXT
+
+अज्जवयाए णं भंते ! जीवे किं जणयइ ?
+अज्जवयाए णं काउज्जुयं भाउज्जुयं अविसंवायणं-संपण्णयाए णं जीवे धम्मस्स आराहए भवइ ॥२९.५०॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Ajjavayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Ajjavayāe ṇaṃ kāujjuyaṃ bhāujjuyaṃ avisaṃvāyaṇaṃ-saṃpaṇṇayāe ṇaṃ jīve dhammassa ārāhae bhavai || 29.50 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through ārjava (straightforwardness), O Lord, what does the soul generate? Through ārjava, possessing straightforwardness of body (kāya-ṛjutā) and straightforwardness of speech (bhāṣā-ṛjutā), endowed with non-deception (avisaṃvādana), the soul becomes an upholder (ārādhaka) of dharma.
+
+### 4. ANVAYARTHA
+
+- **ajjavayāe** — through ārjava (straightforwardness, simplicity, non-crookedness)
+- **kāujjuyaṃ** — kāya-ṛjutā (straightforwardness of body)
+- **bhāujjuyaṃ** — bhāṣā-ṛjutā (straightforwardness of speech)
+- **avisaṃvāyaṇaṃ** — avisaṃvādana (non-deception, truthfulness in dealings)
+- **saṃpaṇṇayāe** — saṃpannatā (complete attainment)
+- **dhammassa** — of dharma
+- **ārāhae** — ārādhaka (upholder, practitioner)
+- **bhavai** — becomes
+
+### 5. COMMENTARY
+
+*Ārjava* is straightforwardness — the absence of crookedness in body, speech, and mind. The commentary explains that it operates on two levels: physical (kāya-ṛjutā) — where actions align with intentions — and verbal (bhāṣā-ṛjutā) — where speech matches thought. When both are fully developed and joined with non-deception (avisaṃvādana), the soul becomes a true ārādhaka of dharma. Without ārjava, even devout practice remains compromised by internal contradictions. With it, the entire spiritual life becomes integrated and authentic.
+
+### 6. SIMPLY PUT
+
+Simply put: Straightforwardness of body and speech, combined with non-deception, makes the soul a true upholder of dharma. When intentions, actions, and words are aligned, spiritual practice becomes authentic.
+
+### 7. CONTEMPLATE
+
+Where in my life is there a gap between what I intend, what I say, and what I do?
+
+---
+
+## SUTRA 29.51
+
+### 1. PRAKRIT TEXT
+
+मद्दवयाए णं भंते ! जीवे किं जणयइ ?
+मद्दवयाए अणुस्सियत्तं जणयइ ॥२९.५१॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Maddavayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Maddavayāe aṇussiyattaṃ jaṇayai || 29.51 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through mārdava (humility/gentleness), O Lord, what does the soul generate? Through mārdava, one generates anutsikatva (non-arrogance/freedom from pride).
+
+### 4. ANVAYARTHA
+
+- **maddavayāe** — through mārdava (humility, gentleness, softness of nature)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **aṇussiyattaṃ** — anutsikatva (non-arrogance, freedom from pride, unpretentiousness)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+*Mārdava* is gentleness and humility — the natural softness that comes from dissolving pride. The fruit is *anutsikatva* — complete freedom from arrogance. The commentary discusses how pride (māna) is one of the four fundamental passions. Mārdava directly counters this by cultivating inner gentleness. The soul becomes humble not through forced submission but through genuine recognition of its own nature and the equal spiritual potential of all souls.
+
+### 6. SIMPLY PUT
+
+Simply put: Humility and gentleness generate freedom from all arrogance. The soul becomes genuinely unpretentious — soft in nature, free from pride, and humble in all interactions.
+
+### 7. CONTEMPLATE
+
+Is my humility genuine, or is it a practiced posture? What would true humility — arising from deep self-understanding — look like?
+
+---
+
+## SUTRA 29.52
+
+### 1. PRAKRIT TEXT
+
+भावसच्चेणं णं भंते ! जीवे किं जणयइ ?
+भावसच्चेणं भावविसोहिं जणयइ ॥२९.५२॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Bhāvasacceṇaṃ ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Bhāvasacceṇaṃ bhāvavisohiṃ jaṇayai || 29.52 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through bhāva-satya (truth of inner intention), O Lord, what does the soul generate? Through bhāva-satya, one generates bhāva-viśuddhi (purity of inner disposition).
+
+### 4. ANVAYARTHA
+
+- **bhāvasacceṇaṃ** — through bhāva-satya (truth/sincerity of inner state/intention)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **bhāvavisohiṃ** — bhāva-viśuddhi (purity of inner disposition/intention)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+*Bhāva-satya* is truth at the deepest level — sincerity of intention and inner state. This is the first of three aspects of truth discussed in this chapter. The commentary distinguishes bhāva-satya from verbal truth: it is not merely speaking truthfully but *being* truthful — where one's inner state matches one's outer expression. The fruit is *bhāva-viśuddhi* — purification of the soul's fundamental disposition. When intention itself becomes pure and truthful, the soul's very foundation is cleansed.
+
+### 6. SIMPLY PUT
+
+Simply put: Sincerity of inner intention purifies the soul's fundamental disposition. When the inner state is truthful, the very foundation of the soul becomes pure.
+
+### 7. CONTEMPLATE
+
+Am I truthful not just in what I say, but in what I feel and intend?
+
+---
+
+## SUTRA 29.53
+
+### 1. PRAKRIT TEXT
+
+करणसच्चेणं णं भंते ! जीवे किं जणयइ ?
+करणसच्चे वट्टमाणे णं जीवे जहावाई तहाकारी भवइ ॥२९.५३॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Karaṇasacceṇaṃ ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Karaṇasacce vaṭṭamāṇe ṇaṃ jīve jahāvāī tahākārī bhavai || 29.53 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through karaṇa-satya (truth of action), O Lord, what does the soul generate? Established in karaṇa-satya, the soul becomes one who acts as it speaks — yathā-vādī tathā-kārī (truthful in deed).
+
+### 4. ANVAYARTHA
+
+- **karaṇasacceṇaṃ** — through karaṇa-satya (truth of action/deed)
+- **vaṭṭamāṇe** — being established in / engaged in
+- **jīve** — the soul
+- **jahāvāī** — yathā-vādī (as one speaks)
+- **tahākārī** — tathā-kārī (so one acts)
+- **bhavai** — becomes
+
+### 5. COMMENTARY
+
+*Karaṇa-satya* is truth in action — where deeds match words. While bhāva-satya (sutra 52) concerns inner sincerity, karaṇa-satya concerns outward consistency between speech and action. The commentary explains that the soul established in karaṇa-satya becomes *yathā-vādī tathā-kārī* — "as one speaks, so one acts." This is the mark of integrity: complete alignment between what is said and what is done. The spiritual power of such a person is immense, because their every word carries the weight of guaranteed action.
+
+### 6. SIMPLY PUT
+
+Simply put: Truth of action makes the soul one whose deeds perfectly match their words. As one speaks, so one acts — this is the mark of true integrity.
+
+### 7. CONTEMPLATE
+
+Do my actions consistently reflect my words? Where is the gap between what I promise and what I deliver?
+
+---
+
+## SUTRA 29.54
+
+### 1. PRAKRIT TEXT
+
+जोगसच्चेणं णं भंते ! जीवे किं जणयइ ?
+जोगसच्चेणं जोगं विसोहेइ ॥२९.५४॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Jogasacceṇaṃ ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Jogasacceṇaṃ jogaṃ visohei || 29.54 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through yoga-satya (truth of yoga/discipline), O Lord, what does the soul generate? Through yoga-satya, one purifies the yogas (activities of mind, speech, and body).
+
+### 4. ANVAYARTHA
+
+- **jogasacceṇaṃ** — through yoga-satya (truth applied to the three yogas — mind, speech, body)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **jogaṃ** — yoga (the three activities of mind, speech, body)
+- **visohei** — viśodhayati (purifies)
+
+### 5. COMMENTARY
+
+*Yoga-satya* is the third aspect of truth — truth applied to the three yogas of mind, speech, and body. While bhāva-satya purifies intention and karaṇa-satya aligns words with deeds, yoga-satya purifies the very channels of activity themselves. The commentary explains that when truth pervades all three yogas simultaneously — when the mind thinks truly, the speech speaks truly, and the body acts truly — the yogas themselves become purified instruments of the soul, preventing the binding of new karma through any channel.
+
+### 6. SIMPLY PUT
+
+Simply put: Truth applied to all three activities — mind, speech, and body — purifies those very channels of action. When all three yogas operate in truth, they become pure instruments of the soul.
+
+### 7. CONTEMPLATE
+
+Are my mind, speech, and body all operating from the same truth, or do they sometimes contradict each other?
+
+---
+
+## SUTRA 29.55
+
+### 1. PRAKRIT TEXT
+
+मणगुत्तयाए णं भंते ! जीवे किं जणयइ ?
+मणगुत्तयाए णं जीवे एग्गगं जणयइ । एग्गगचित्ते णं जीवे मणगुत्ते संजमाराहए भवइ ॥२९.५५॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Maṇaguttayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Maṇaguttayāe ṇaṃ jīve eggagaṃ jaṇayai. Eggagacitte ṇaṃ jīve maṇagutte saṃjamārāhae bhavai || 29.55 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through mano-gupti (mind-restraint), O Lord, what does the soul generate? Through mano-gupti, the soul generates ekāgratā (one-pointedness). With concentrated mind, the mind-restrained soul becomes an upholder of saṃyama (self-discipline).
+
+### 4. ANVAYARTHA
+
+- **maṇaguttayāe** — through mano-gupti (restraint/guarding of the mind)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **eggagaṃ** — ekāgra (one-pointed, concentrated)
+- **jaṇayai** — generates
+- **eggagacitte** — ekāgra-citta (with one-pointed mind)
+- **maṇagutte** — mano-gupta (mind-restrained)
+- **saṃjamārāhae** — saṃyama-ārādhaka (upholder of self-discipline)
+- **bhavai** — becomes
+
+### 5. COMMENTARY
+
+*Mano-gupti* is the restraint and guarding of the mind — the first of the three guptis (mind, speech, body). The fruit is *ekāgratā* — one-pointedness. The commentary explains that the mind's natural tendency is to wander, creating new karmic vibrations with every fluctuation. Through mano-gupti, the monk guards the mind from unnecessary and harmful thoughts, channeling mental activity toward spiritual purposes only. Mind-restraint is listed first among the guptis because the mind is the source of both speech and bodily action; its mastery is the foundation for all other restraint.
+
+### 6. SIMPLY PUT
+
+Simply put: Restraining the mind generates one-pointedness. With concentrated mind, the soul becomes a true practitioner of self-discipline. The mind — source of all other activity — is the first channel that must be guarded.
+
+### 7. CONTEMPLATE
+
+How much of my mental activity is truly necessary? What would change if I guarded my mind with the same care I guard my speech?
+
