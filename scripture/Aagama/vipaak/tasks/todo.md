@@ -11,7 +11,7 @@
 - [ ] Chapter 7 — Umbaradatt (scripture pages 102–115)
 - [ ] Chapter 8 — Shaurikadatt (scripture pages 117–124)
 - [ ] Chapter 9 — Devdatta (scripture pages 127–144)
-- [ ] Chapter 10 — Anjushri (scripture pages 146–150)
+- [x] **Chapter 10 — Anjushri (scripture pages 146–152) — DONE**
 
 ## Section 2: Dvitiya Shrutaskandh — Sukha Vipaak Sutra (Second Canon)
 
