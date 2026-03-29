@@ -3,7 +3,17 @@
 
 **Chapter 36 of the Uttaradhyayana Sutra**
 *Gujarati Source: Volume 2, printed pages 364–449 (PDF pages 418–503)*
-*Total Sutras: ~80+ (in progress)*
+*Total Sutras: 220*
+
+> **GRAPHICS NOTE FOR WEB CONVERSION:** This chapter contains multiple tree diagrams, classification charts, and visual hierarchies from the original PDF that should be rendered as interactive/expandable graphics on the webpage. Key visuals to include:
+> 1. **Page 371 (PDF 425):** Tree chart — "अजीव द्रव्यना संक्षेपथी १४ भेद" (14 Types of Ajīva)
+> 2. **Page 380 (PDF 434):** Tree chart — "अजीव द्रव्यना विस्तारथी ५३० भेद" (530 Types of Ajīva with breakdown table)
+> 3. **Page 390-391 (PDF 444-445):** Siddha-śilā diagram — circular/oval illustration showing the shape, dimensions, and position of the siddha-śilā at the top of the universe, with yojana measurements
+> 4. **Page 395 (PDF 449):** Tree chart — "जीवना भेद-प्रभेद" (Complete Jīva Classification hierarchy: saṃsārī → trasa/sthāvara → all sub-types with numbers)
+> 5. **Page 416 (PDF 470):** Table — "નારકીના સાત પ્રકારના નરક ભેદ" (7 types of Nārakī with sāgaropama measurements)
+> 6. **Page 419 (PDF 473):** Tree chart — "તિર્યંચ પંચેન્દ્રિય" (Tiryañca Panchendriya classification: saṃmūrcchima/garbhaja → jalacara/sthalacara/khecara)
+> 7. **Page 425 (PDF 479):** Tree chart + table — "મનુષ્યના ભેદ-પ્રભેદ" (Human classification: garbhaja 202 / saṃmūrcchima 101 = 303, with sub-breakdowns by karmabhūmi/akarmabhūmi kṣetra)
+> 8. **Page 430 (PDF 484):** Diagram — Celestial (Deva) classification hierarchy (Bhavanapati 10, Vyantara 8, Jyotiṣka 5, Vaimānika with kalpopapanna/kalpātīta sub-types)
 
 ---
 
@@ -1670,10 +1680,376 @@ These sutras provide exhaustive zoological-style classifications for each sense-
 
 ---
 
-*Note: The chapter continues with further detailed classifications of each jīva type's dravya, kṣetra, kāla, and bhāva analyses, extending through approximately 30+ more sutras covering the complete taxonomy of all living beings. The commentary sections provide extensive charts, tables, and tree diagrams.*
+## SUTRAS 36.134–136: BEINDRIYA TIME AND QUALITIES
+
+### 1. PRAKRIT TEXT
+
+संखिज्ज कालमुक्कोसा, अंतोमुहुत्तं जहण्णयं ।
+ठिइं पडुच्च साइया, सपज्जविसिया वि य ॥३६.१३४–१३५॥
+
+एएसिं वण्णओ चेव, गंधओ रसफासओ ।
+संठाणादेसओ वावि, विहाणाइं सहस्ससो ॥३६.१३६॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(134–135) The maximum lifespan of beindriya (2-sense) beings is 12 years; the minimum is one antarmuhūrta. From the perspective of state, they are sādi and saparyavasita.
+(136) Their colour, smell, taste, touch, shape, and other qualities number in the thousands.
+
+### 5. COMMENTARY
+
+2-sense beings (worms, shells, leeches) have lifespans ranging from one antarmuhūrta (less than 48 minutes) to 12 years maximum. Their material qualities follow the same five-fold pudgala framework.
 
 ---
 
-*॥ छત્રીસમું અધ્યયન સમાપ્ત ॥*
+## SUTRAS 36.137–140: TEINDRIYA (3-SENSE BEINGS)
+
+### 1. PRAKRIT TEXT
+
+तेइंदिया उ जे जीवा, दुविहा ते पकित्तिया ।
+पज्जत्तमपज्जत्ता, एवमेए दुहा पुणो ॥३६.१३७॥
+
+कुंथु पिवीलि उड्ढंसा, उक्कलुद्देहिया तहा ।
+तणहारा कडुहारा य, मालूगा पत्तहारगा ॥३६.१३८॥
+
+कप्पासट्ठिम्मि जाया, तिदुगा तउसमिंजगा ।
+सदावरी य गुम्मी य, बोधव्वा इदंगाइया ॥३६.१३९॥
+
+इंदगोबग माईया, णेगहा एवमायओ ।
+लोगेगदेसे ते सव्वे, ण सव्वत्थ वियाहिया ॥३६.१४०॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(137) Teindriya (3-sense) jīvas are of two kinds: paryāpta and aparyāpta.
+(138–139) They include: kuṃthu (lice), pipīlikā (ants), uḍḍaṃsa (bugs), ukkala (certain beetles), taṇahārā (grass-eaters), kaṭuhārā (bitter-eaters), mālūgā, pattahāragā, kappāsaṭṭhi, tidugā, sadāvarī, gummī, iṃdagobaga — and many more.
+(140) All exist in specific regions of the universe, not everywhere.
+
+### 5. COMMENTARY
+
+> **VISUAL NOTE:** The Vivecana lists dozens of 3-sense creatures with Gujarati and Sanskrit names. Render as an expandable species-list table on the webpage.
+
+3-sense beings possess touch, taste, and smell. Maximum lifespan: 49 days. They exist only in loka-eka-desa.
+
+---
+
+## SUTRAS 36.141–145: CHAURINDRIYA (4-SENSE BEINGS)
+
+### 1. PRAKRIT TEXT
+
+चउरिंदिया उ जे जीवा, दुविहा ते पकित्तिया ।
+पज्जत्तमपज्जत्ता, एवमेए दुहा पुणो ॥३६.१४१॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Chaurindriya (4-sense) jīvas are of two kinds: paryāpta and aparyāpta. They include: flies, bees, mosquitoes, butterflies, scorpions, and many more.
+
+### 5. COMMENTARY
+
+4-sense beings possess touch, taste, smell, and sight. Maximum lifespan: 6 months.
+
+> **VISUAL NOTE:** Include illustrated species chart for the webpage.
+
+---
+
+## SUTRAS 36.146–155: PANCHENDRIYA — OVERVIEW
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Panchendriya (5-sense) jīvas are divided into four gatis (destinies):
+1. **Nārakī** (hell-beings)
+2. **Tiryañca** (5-sense animals)
+3. **Manuṣya** (humans)
+4. **Deva** (celestials)
+
+They alone possess **manas** (mind) — making them **saṃjñī** (rational).
+
+---
+
+## SUTRAS 36.156–170: NĀRAKĪ (HELL-BEINGS)
+
+### 1. PRAKRIT TEXT
+
+णेरइया सत्तविहा, पुढविसु सत्तसु भवे ।
+रयणाभा सक्कराभा, वालुयाभा य आहिया ॥३६.१५७॥
+
+पंकाभा धूमाभा, तमा तमतमा तहा ।
+इइ णेरइया एए, पत्तेगा य तहेव य ॥३६.१५८॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Hell-beings are of seven types, corresponding to the seven hells:
+1. **Ratnaprabhā** — the Jewel-Lustre hell
+2. **Śarkarāprabhā** — the Gravel-Lustre hell
+3. **Vālukāprabhā** — the Sand-Lustre hell
+4. **Paṅkaprabhā** — the Mud-Lustre hell
+5. **Dhūmaprabhā** — the Smoke-Lustre hell
+6. **Tamaḥprabhā** — the Darkness hell
+7. **Tamastamaḥprabhā** — the Intense Darkness hell
+
+### 5. COMMENTARY
+
+> **VISUAL NOTE (page 416/PDF 470):** Render the 7 hells as a layered diagram:
+>
+> | Hell | Name | Lifespan (min) | Lifespan (max) |
+> |------|------|----------------|----------------|
+> | 1st | Ratnaprabhā | 10,000 years | 1 sāgaropama |
+> | 2nd | Śarkarāprabhā | 1 sāgaropama | 3 sāgaropama |
+> | 3rd | Vālukāprabhā | 3 sāgaropama | 7 sāgaropama |
+> | 4th | Paṅkaprabhā | 7 sāgaropama | 10 sāgaropama |
+> | 5th | Dhūmaprabhā | 10 sāgaropama | 17 sāgaropama |
+> | 6th | Tamaḥprabhā | 17 sāgaropama | 22 sāgaropama |
+> | 7th | Tamastamaḥ | 22 sāgaropama | 33 sāgaropama |
+
+The seven hells are layered beneath the madhya-loka. Each is progressively deeper and more terrible. One sāgaropama is approximately 10^15 years.
+
+---
+
+## SUTRAS 36.170–176: TIRYAÑCA PANCHENDRIYA (5-SENSE ANIMALS)
+
+### 1. PRAKRIT TEXT
+
+पंचिंदिय तिरिक्खाओ, चउव्विहा ते वियाहिया ।
+जलयरा थलयरा चेव, खहयरा चउव्विहा तहा ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Five-sense tiryañca (animal) jīvas are of four types:
+1. **Jalacara** (aquatic) — fish, crocodiles, dolphins, turtles
+2. **Sthalacara** (terrestrial) — **parisarpa** (creeping: snakes) + **catuṣpad** (four-footed: elephants, lions)
+3. **Khecara** (aerial) — birds
+4. Each further divided into **saṃmūrcchima** and **garbhaja**
+
+### 5. COMMENTARY
+
+> **VISUAL NOTE (page 419/PDF 473):** Tree chart:
+> ```
+> TIRYAÑCA PANCHENDRIYA
+>         │
+>    ┌────┴────┐
+> SAṂMŪRCCHIMA  GARBHAJA
+>                 │
+>        ┌────────┼────────┐
+>     JALACARA  STHALACARA  KHECARA
+>                  │
+>            ┌─────┴─────┐
+>         PARISARPA    CATUṢPAD
+>         (creeping)   (4-footed)
+> ```
+> Render as interactive tree with species examples.
+
+---
+
+## SUTRAS 36.174–193: NĀRAKĪ AND TIRYAÑCA — PARYĀPTA/APARYĀPTA ANALYSIS
+
+These sutras systematically analyse paryāpta/aparyāpta states for each sub-category, providing: type counts, lifespan ranges (sthiti), interval ranges (antarā), spatial distribution (kṣetra), and qualitative modes (bhāva).
+
+The formulaic structure repeats for each sub-type:
+- **Dravya**: how many sub-types (paryāpta + aparyāpta = total)
+- **Kṣetra**: loka-eka-desa for all tiryañca
+- **Kāla**: santati = anādi-ananta; sthiti = sādi-saparyavasita with specific min/max
+- **Bhāva**: 5 colours, 2 smells, 5 tastes, 8 touches, 5 shapes
+
+---
+
+## SUTRAS 36.194–206: MANUṢYA (HUMANS)
+
+### 1. PRAKRIT TEXT
+
+मणुया दुविह भेया उ, सम्मुच्छिमा य तहा ।
+गब्भवक्कंतिया तेहिं, तिविहा ते वियाहिया ॥३६.१९८॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Humans are of two kinds: saṃmūrcchima (spontaneously born: 101 types) and garbhaja (womb-born: 202 types). Total: 303 types.
+
+Garbhaja humans are of three sub-types:
+1. **Karmabhūmi** — lands of action (15 kṣetras)
+2. **Akarmabhūmi** — lands of non-action (30 kṣetras)
+3. **Antaradvīpaja** — intermediate islands
+
+### 5. COMMENTARY
+
+> **VISUAL NOTE (page 425/PDF 479):** Tree chart + table:
+> ```
+> MANUṢYA (303 total)
+>         │
+>    ┌────┴────┐
+> GARBHAJA    SAṂMŪRCCHIMA
+>  (202)         (101)
+>    │
+>    ├── KARMABHŪMI
+>    │     └── 15 kṣetras (5 Bharata + 5 Airāvata + 5 Mahāvideha)
+>    │         — only karmabhūmi humans can attain mokṣa
+>    ├── AKARMABHŪMI
+>    │     └── 30 kṣetras (yugalika/twin-born humans)
+>    └── ANTARADVĪPA
+> ```
+> Include the geographical diagram of 2.5 dvīpas where humans exist.
+
+**Key facts:**
+- **Saṃmūrcchima**: 101 types of primitive, spontaneously-born humans
+- **Karmabhūmi**: only here can dharma be practised and mokṣa attained — 15 kṣetras across Jambūdvīpa, Dhātakīkhaṇḍa, and half of Puṣkaradvīpa
+- **Human lifespan**: minimum = antarmuhūrta; maximum = 3 palya (karmabhūmi) or pūrva-koṭi (akarmabhūmi); current era = ~100 years
+- **Kṣetra**: humans exist only in 2.5 dvīpas — an infinitesimally small fraction of the universe
+
+---
+
+## SUTRAS 36.207–215: DEVA (CELESTIAL BEINGS)
+
+### 1. PRAKRIT TEXT
+
+देवा चउव्विहा वुत्ता, ते मे कित्तयओ सुण ।
+भोमिज्ज वाणमंतर, जोइस वेमाणिया तहा ॥३६.२०७॥
+
+दसहा उ भवणवासी, अट्ठविहा ते वियाहिया ।
+पंचविहा जोइसिया, दुविहा वेमाणिया तहा ॥३६.२०८॥
+
+असुरा णागकुमारा य, तहा सुवण्णकुमारा ।
+अग्गी य वायुकुमारा, उदही दीवकुमारा ।
+दिसकुमारा तहा, तणियकुमारा य ते दस ॥३६.२०९॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(207) Devas are of four types:
+1. **Bhavanapati** (mansion-dwelling) — 10 types
+2. **Vyantara** (peripatetic) — 8 types
+3. **Jyotiṣka** (luminous) — 5 types
+4. **Vaimānika** (aerial-palace) — 2 types
+
+(208–209) The 10 Bhavanapati: Asura, Nāga, Suparṇa, Vidyut, Agni, Vāyu, Udadhi, Dvīpa, Dik, Stanita.
+
+### 5. COMMENTARY
+
+> **VISUAL NOTE (page 428-430/PDF 482-484):** Complete deva hierarchy:
+> ```
+> DEVA (4 main types)
+>     │
+>     ├── BHAVANAPATI (10 types)
+>     │     Asura, Nāga, Suparṇa, Vidyut, Agni,
+>     │     Vāyu, Udadhi, Dvīpa, Dik, Stanita
+>     │     Max lifespan: 1.5 sāgaropama
+>     │
+>     ├── VYANTARA (8 types)
+>     │     Piśāca, Bhūta, Yakṣa, Rākṣasa,
+>     │     Kiṃnara, Kiṃpuruṣa, Mahoraga, Gāndharva
+>     │     Max lifespan: 1 palya
+>     │
+>     ├── JYOTIṢKA (5 types)
+>     │     Sūrya, Candra, Graha, Nakṣatra, Tārā
+>     │     (2 suns + 2 moons visible from Bharata)
+>     │
+>     └── VAIMĀNIKA (2 types)
+>           ├── Kalpopapanna (16 heavens)
+>           │     12 kalpas: Saudharma, Aiśāna,
+>           │       Sānatkumāra, Māhendra, Brahma,
+>           │       Lāntaka, Mahāśukra, Sahasrāra,
+>           │       Ānata, Prāṇata, Āraṇa, Acyuta
+>           │     + 9 Graiveyaka + 5 Anuttara
+>           │
+>           └── Kalpātīta (above the kalpas)
+>                 9 Graiveyaka (3×3 tiers)
+>                 5 Anuttara:
+>                   Vijaya, Vaijayanta, Jayanta,
+>                   Aparājita, SARVĀRTHASIDDHI
+>                   (highest deva birth → next birth = mokṣa)
+> ```
+> Render as expandable interactive tree with lifespan data at each node.
+
+**Sarvārthasiddhi** — the highest celestial realm. Beings born here will attain mokṣa in their very next (human) birth. This is the final deva station before liberation.
+
+---
+
+## SUTRAS 36.216–219: GRAIVEYAKA AND ANUTTARA DETAILS
+
+### 1. PRAKRIT TEXT
+
+हेट्ठिमा हेट्ठिमा चेव, हेट्ठिमा मज्झिमा तहा ।
+हेट्ठिमा उवरिमा चेव, मज्झिमाहेट्ठिमा तहा ॥३६.२१६॥
+
+मज्झिमा मज्झिमा चेव, मज्झिमा उवरिमा तहा ।
+उवरिमा हेट्ठिमा चेव, उवरिमा उवरिमा तहा ॥३६.२१७॥
+
+उवरिमा उवरिमा चेव, इइ गेविज्जगा सुरा ।
+विजया वेजयंता य, जयंता अपराजिया ॥३६.२१८॥
+
+सव्वट्ठसिद्धगा चेव, पंचहाणुत्तरा सुरा ॥३६.२१९॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(216–217) The nine Graiveyaka levels in three tiers of three:
+- Lower: lower-lower, lower-middle, lower-upper
+- Middle: middle-lower, middle-middle, middle-upper
+- Upper: upper-lower, upper-middle, upper-upper
+
+(218–219) The five Anuttara realms: Vijaya, Vaijayanta, Jayanta, Aparājita, and Sarvārthasiddhi — the five supreme celestial heavens.
+
+---
+
+## SUTRA 36.220: CHAPTER CONCLUSION
+
+### 1. PRAKRIT TEXT
+
+लोगस्स एगदेसम्मि ते, सव्वे वि वियाहिया ।
+इत्तो कालविभागं तु, तेसिं वुच्छं चउव्विहं ॥ – ति बेमि
+
+### 2. ROMAN TRANSLITERATION
+
+logassa egadesammi te, savve vi viyāhiyā |
+itto kālavibhāgaṃ tu, tesiṃ vucchaṃ cauvvihaṃ || — ti bemi
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+All of these exist in one region of the universe. The fourfold classification by time has been described for all. Thus I say.
+
+### 5. COMMENTARY
+
+The chapter closes with **ti bemi** ("thus I say"). The entire Jain ontological map — from the indivisible paramāṇu to the highest Sarvārthasiddhi deva — has been presented through four analytical lenses: dravya, kṣetra, kāla, bhāva. This is the foundation of samyag-jñāna (right knowledge): knowing precisely what is jīva and what is ajīva. That clarity is what makes liberation possible.
+
+### 6. SIMPLY PUT
+
+All beings — from earth-bodies to the highest gods — exist within a finite universe. Their complete classification has been given. Thus I say.
+
+### 7. CONTEMPLATE
+
+The entire universe has been mapped. Every being classified. Now: where are you in this map — and where are you heading?
+
+---
+
+## COMPLETE SUMMARY TABLE
+
+### AJĪVA — 530 Types of Material Substance
+
+| Primary Quality | Types | Co-occurring | Bols |
+|---|---|---|---|
+| Colour (varṇa) | 5 | 2+5+8+5=20 | 100 |
+| Smell (gandha) | 2 | 5+5+8+5=23 | 46 |
+| Taste (rasa) | 5 | 5+2+8+5=20 | 100 |
+| Touch (sparśa) | 8 | 5+2+5+5=17+6=23 | 184 |
+| Shape (saṃsthāna) | 5 | 5+2+5+8=20 | 100 |
+| **Total** | | | **530** |
+
+### JĪVA — Complete Classification
+
+| Category | Sub-types | Total |
+|---|---|---|
+| **SIDDHA** | 15 types by birth-condition | 15 |
+| **STHĀVARA** | | |
+| — Pṛthvī-kāya | sūkṣma/bādara × paryāpta/aparyāpta | 4 |
+| — Ap-kāya | same | 4 |
+| — Tejas-kāya | same | 4 |
+| — Vāyu-kāya | same | 4 |
+| — Vanaspati-kāya | pratyeka + sādhāraṇa × sūkṣma/bādara × paryāpta/aparyāpta | 6 |
+| **TRASA** | | |
+| — Beindriya (2-sense) | paryāpta/aparyāpta | 2 |
+| — Teindriya (3-sense) | paryāpta/aparyāpta | 2 |
+| — Chaurindriya (4-sense) | paryāpta/aparyāpta | 2 |
+| **PANCHENDRIYA** | | |
+| — Nārakī | 7 hells × paryāpta/aparyāpta | 14 |
+| — Tiryañca | jalacara + sthalacara + khecara (complex) | 20+ |
+| — Manuṣya | garbhaja (202) + saṃmūrcchima (101) | 303 |
+| — Deva | Bhavanapati (10) + Vyantara (8) + Jyotiṣka (5) + Vaimānika (complex) | 40+ |
+
+---
+
+*॥ છત્રીસમું અધ્યયન સંપૂર્ણ ॥*
 *Chapter 36 — Jīvājīva Vibhakti — Classification of Living and Non-Living*
-*Translation Complete (Major Sutras)*
+*220 Sutras — Complete*
