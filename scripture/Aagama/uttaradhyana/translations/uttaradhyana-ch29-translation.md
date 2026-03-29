@@ -2427,3 +2427,742 @@ Simply put: Restraining the mind generates one-pointedness. With concentrated mi
 
 How much of my mental activity is truly necessary? What would change if I guarded my mind with the same care I guard my speech?
 
+---
+
+## SUTRA 29.56
+
+### 1. PRAKRIT TEXT
+
+वयगुत्तयाए णं भंते ! जीवे किं जणयइ ?
+वयगुत्तयाए णं णिव्वियारंत जणयइ । णिव्वियारचित्ते णं जीवे साहणजुत्ते यावि भवइ ॥२९.५६॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Vayaguttayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Vayaguttayāe ṇaṃ ṇivviyāraṃta jaṇayai. Ṇivviyāracitte ṇaṃ jīve sāhaṇajutte yāvi bhavai || 29.56 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through vacana-gupti (speech-restraint), O Lord, what does the soul generate? Through vacana-gupti, one generates nivvikāratā (freedom from speech-disturbances). With undisturbed mind, the soul becomes endowed with spiritual means (sādhana).
+
+### 4. ANVAYARTHA
+
+- **vayaguttayāe** — through vacana-gupti (restraint/guarding of speech)
+- **ṇivviyāraṃta** — nirvikāratā (freedom from disturbance/agitation through speech)
+- **jaṇayai** — generates
+- **ṇivviyāracitte** — nirvikāra-citta (with undisturbed mind)
+- **sāhaṇajutte** — sādhana-yukta (endowed with spiritual means)
+- **bhavai** — becomes
+
+### 5. COMMENTARY
+
+*Vacana-gupti* is the second gupti — restraint and guarding of speech. The commentary explains that speech is a powerful channel of karmic bondage. Careless, excessive, or harmful speech creates constant disturbances in the mind and binds new karma. Through speech-restraint, the monk generates *nirvikāratā* — a calm, undisturbed state where speech no longer agitates the inner self. The soul becomes endowed with the means (sādhana) for deeper spiritual practice, as silence and careful speech create the conditions for inner stillness.
+
+### 6. SIMPLY PUT
+
+Simply put: Restraining speech generates inner calm and freedom from speech-caused disturbances. The soul becomes equipped with the means for deeper spiritual practice through the power of disciplined silence.
+
+### 7. CONTEMPLATE
+
+How much of my speech creates disturbance — in myself and in others? What would disciplined silence reveal?
+
+---
+
+## SUTRA 29.57
+
+### 1. PRAKRIT TEXT
+
+कायगुत्तयाए णं भंते ! जीवे किं जणयइ ?
+कायगुत्तयाए णं संवरं कायगुत्ते पुणो पावासवणिरोहं करेइ ॥२९.५७॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Kāyaguttayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Kāyaguttayāe ṇaṃ saṃvaraṃ kāyagutte puṇo pāvāsavaṇirohaṃ karei || 29.57 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through kāya-gupti (body-restraint), O Lord, what does the soul generate? Through kāya-gupti, one generates saṃvara (stoppage of karmic influx). The body-restrained soul further blocks the influx of pāpa (sinful) karma.
+
+### 4. ANVAYARTHA
+
+- **kāyaguttayāe** — through kāya-gupti (restraint/guarding of the body)
+- **saṃvaraṃ** — saṃvara (stoppage of karmic influx)
+- **kāyagutte** — kāya-gupta (body-restrained)
+- **pāvāsavaṇirohaṃ** — pāpa-āsrava-nirodha (blockage of sinful karmic influx)
+- **karei** — accomplishes
+
+### 5. COMMENTARY
+
+*Kāya-gupti* is the third gupti — restraint and guarding of bodily activity. The commentary explains that the body, through careless movements, causes harm to living beings and binds new karma. Through body-restraint, the monk generates *saṃvara* — the complete stoppage of karmic influx. The body-restrained soul goes further by blocking specifically the influx of *pāpa* (sinful/harmful) karma. Every physical action is performed with complete awareness, ensuring that no unnecessary harm is caused and no new karmic matter enters the soul.
+
+### 6. SIMPLY PUT
+
+Simply put: Restraining the body stops the influx of karma. Through careful, mindful control of all physical movements, the soul blocks the entry of sinful karma and advances toward purity.
+
+### 7. CONTEMPLATE
+
+Am I aware of how my physical actions — even small, unconscious movements — affect other beings and bind my own soul?
+
+---
+
+## SUTRA 29.58
+
+### 1. PRAKRIT TEXT
+
+मणसमाहारणयाए णं भंते ! जीवे किं जणयइ ?
+मणसमाहारणयाए णं एग्गगं जणयइ । एग्गगचित्ते णं जीवे सम्मत्तं विसोहेइ, मिच्छत्तं णिज्जरेइ ॥२९.५८॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Maṇasamāhāraṇayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Maṇasamāhāraṇayāe ṇaṃ eggagaṃ jaṇayai. Eggagacitte ṇaṃ jīve sammattaṃ visohei, micchattaṃ ṇijjarei || 29.58 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through mana-samādhāraṇā (mind-composure), O Lord, what does the soul generate? Through mana-samādhāraṇā, one generates one-pointedness. With concentrated mind, the soul purifies samyaktva (right faith) and sheds mithyātva (wrong faith).
+
+### 4. ANVAYARTHA
+
+- **maṇasamāhāraṇayāe** — through mana-samādhāraṇā (composure/equanimity of mind)
+- **eggagaṃ** — ekāgra (one-pointed)
+- **jaṇayai** — generates
+- **sammattaṃ** — samyaktva (right faith/belief)
+- **visohei** — viśodhayati (purifies)
+- **micchattaṃ** — mithyātva (wrong faith/belief)
+- **ṇijjarei** — nirjarā (sheds/wears away)
+
+### 5. COMMENTARY
+
+*Mana-samādhāraṇā* goes beyond mano-gupti (mind-restraint): while gupti restrains the mind from harmful activity, samādhāraṇā composes and concentrates the mind positively. The fruit is one-pointedness that leads to two results: the purification of *samyaktva* (right faith) and the shedding of *mithyātva* (wrong faith). The commentary explains that mental composure is the foundational practice through which the soul aligns its understanding with reality, dissolving false beliefs and strengthening right perception.
+
+### 6. SIMPLY PUT
+
+Simply put: Mental composure generates concentration that purifies right faith and dissolves wrong belief. Through composed and focused mind, the soul aligns its understanding with truth.
+
+### 7. CONTEMPLATE
+
+What is the difference between merely restraining the mind and truly composing it? Can concentration alone dissolve false beliefs?
+
+---
+
+## SUTRA 29.59
+
+### 1. PRAKRIT TEXT
+
+वयसमाहारणयाए णं भंते ! जीवे किं जणयइ ?
+वयसमाहारणयाए णं णिव्वियारंत जणयइ । णिव्वियारचित्ते णं जीवे वयणगुत्ते संजमाराहए भवइ ॥२९.५९॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Vayasamāhāraṇayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Vayasamāhāraṇayāe ṇaṃ ṇivviyāraṃta jaṇayai. Ṇivviyāracitte ṇaṃ jīve vayaṇagutte saṃjamārāhae bhavai || 29.59 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through vacana-samādhāraṇā (speech-composure), O Lord, what does the soul generate? Through vacana-samādhāraṇā, one generates freedom from speech-disturbance. With undisturbed mind, the speech-restrained soul becomes an upholder of self-discipline.
+
+### 4. ANVAYARTHA
+
+- **vayasamāhāraṇayāe** — through vacana-samādhāraṇā (composure of speech)
+- **ṇivviyāraṃta** — nirvikāratā (freedom from disturbance)
+- **vayaṇagutte** — vacana-gupta (speech-restrained)
+- **saṃjamārāhae** — saṃyama-ārādhaka (upholder of self-discipline)
+- **bhavai** — becomes
+
+### 5. COMMENTARY
+
+*Vacana-samādhāraṇā* is the positive composure of speech — not merely restraining speech but composing it with equanimity and purpose. The commentary explains that while vacana-gupti prevents harmful speech, vacana-samādhāraṇā ensures that whatever speech remains is fully composed, balanced, and purposeful. The soul thus freed from speech-disturbances becomes established as a true upholder of saṃyama (self-discipline).
+
+### 6. SIMPLY PUT
+
+Simply put: Composing speech with equanimity generates inner calm and freedom from verbal agitation. The soul becomes established in self-discipline through the mastery of purposeful, composed speech.
+
+### 7. CONTEMPLATE
+
+Beyond restraining harmful speech, how do I compose my remaining words with purpose and equanimity?
+
+---
+
+## SUTRA 29.60
+
+### 1. PRAKRIT TEXT
+
+कायसमाहारणयाए णं भंते ! जीवे किं जणयइ ?
+कायसमाहारणयाए णं संवरं जणयइ, सुलभबोहिं जणयइ ॥२९.६०॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Kāyasamāhāraṇayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Kāyasamāhāraṇayāe ṇaṃ saṃvaraṃ jaṇayai, sulabhbohiṃ jaṇayai || 29.60 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through kāya-samādhāraṇā (body-composure), O Lord, what does the soul generate? Through kāya-samādhāraṇā, one generates saṃvara (karmic stoppage) and sulabha-bodhi (easily attainable enlightenment).
+
+### 4. ANVAYARTHA
+
+- **kāyasamāhāraṇayāe** — through kāya-samādhāraṇā (composure/equanimity of body)
+- **saṃvaraṃ** — saṃvara (stoppage of karmic influx)
+- **jaṇayai** — generates
+- **sulabhbohiṃ** — sulabha-bodhi (easily attainable enlightenment)
+
+### 5. COMMENTARY
+
+*Kāya-samādhāraṇā* is the composure of bodily activity — every physical action performed with deliberate awareness and equilibrium. Beyond merely restraining the body (kāya-gupti), this is the positive cultivation of physical composure. The fruit is two-fold: *saṃvara* (complete stoppage of karmic influx) and *sulabha-bodhi* (enlightenment that becomes easily accessible). The commentary explains that when the body is fully composed, it ceases to be a source of karmic binding and instead becomes an instrument for liberation.
+
+### 6. SIMPLY PUT
+
+Simply put: Composing the body with full awareness stops karmic influx and makes enlightenment accessible. When every physical action is deliberate and composed, the body becomes an instrument for liberation rather than bondage.
+
+### 7. CONTEMPLATE
+
+What would it mean for every physical movement — sitting, walking, breathing — to be performed with complete awareness and composure?
+
+---
+
+## SUTRA 29.61
+
+### 1. PRAKRIT TEXT
+
+णाणसंपण्णयाए णं भंते ! जीवे किं जणयइ ?
+णाणसंपण्णयाए णं जीवे विसुद्धं णाणं पज्जवेइ ॥२९.६१॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Ṇāṇasaṃpaṇṇayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Ṇāṇasaṃpaṇṇayāe ṇaṃ jīve visuddhaṃ ṇāṇaṃ pajjavei || 29.61 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through jñāna-saṃpannatā (knowledge-attainment), O Lord, what does the soul generate? Through jñāna-saṃpannatā, the soul develops pure knowledge.
+
+### 4. ANVAYARTHA
+
+- **ṇāṇasaṃpaṇṇayāe** — through jñāna-saṃpannatā (attainment/completeness of knowledge)
+- **visuddhaṃ** — viśuddha (pure, purified)
+- **ṇāṇaṃ** — jñāna (knowledge)
+- **pajjavei** — paryāpayati (develops, matures, fills)
+
+### 5. COMMENTARY
+
+*Jñāna-saṃpannatā* is the first of three saṃpannatās (attainments) — knowledge, perception, and conduct. The commentary explains that knowledge is the soul's innate quality, but in the embodied state it is obscured by jñānāvaraṇīya karma. Through right effort, the soul develops progressively pure knowledge. The five types of knowledge (mati, śruta, avadhi, manaḥparyaya, kevala) unfold as karmic obscurations are removed. Knowledge-attainment does not mean accumulating external information but purifying the soul's inherent omniscience.
+
+### 6. SIMPLY PUT
+
+Simply put: Attainment of knowledge purifies the soul's inherent capacity to know. As karmic obscurations are removed, pure knowledge naturally unfolds from within.
+
+### 7. CONTEMPLATE
+
+Is knowledge something we acquire from outside, or is it something we uncover from within by removing what obscures it?
+
+---
+
+## SUTRA 29.62
+
+### 1. PRAKRIT TEXT
+
+दंसणसंपण्णयाए णं भंते ! जीवे किं जणयइ ?
+दंसणसंपण्णयाए णं जीवे विसुद्धं दंसणं पज्जवेइ ॥२९.६२॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Daṃsaṇasaṃpaṇṇayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Daṃsaṇasaṃpaṇṇayāe ṇaṃ jīve visuddhaṃ daṃsaṇaṃ pajjavei || 29.62 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through darśana-saṃpannatā (perception-attainment), O Lord, what does the soul generate? Through darśana-saṃpannatā, the soul develops pure perception.
+
+### 4. ANVAYARTHA
+
+- **daṃsaṇasaṃpaṇṇayāe** — through darśana-saṃpannatā (attainment of perception/vision)
+- **visuddhaṃ** — viśuddha (pure)
+- **daṃsaṇaṃ** — darśana (perception, spiritual vision)
+- **pajjavei** — develops, matures
+
+### 5. COMMENTARY
+
+*Darśana-saṃpannatā* is the attainment of pure perception — the second saṃpannatā. While jñāna concerns detailed knowledge of objects, darśana concerns the fundamental capacity for perception itself. The commentary distinguishes between four types of darśana: cakṣu-darśana (visual), acakṣu-darśana (non-visual), avadhi-darśana (clairvoyant), and kevala-darśana (omniscient). Through right effort, the darśanāvaraṇīya karma is progressively removed and pure perception unfolds.
+
+### 6. SIMPLY PUT
+
+Simply put: Attainment of perception purifies the soul's capacity for spiritual vision. As the karma obscuring perception is removed, pure, undistorted perception naturally arises.
+
+### 7. CONTEMPLATE
+
+What is the difference between knowing something and truly perceiving it? Can perception be purified independently of knowledge?
+
+---
+
+## SUTRA 29.63
+
+### 1. PRAKRIT TEXT
+
+चारित्तसंपण्णयाए णं भंते ! जीवे किं जणयइ ?
+चारित्तसंपण्णयाए णं जीवे विसुद्धं चारित्तं पज्जवेइ ॥२९.६३॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Cārittasaṃpaṇṇayāe ṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Cārittasaṃpaṇṇayāe ṇaṃ jīve visuddhaṃ cārittaṃ pajjavei || 29.63 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through cāritra-saṃpannatā (conduct-attainment), O Lord, what does the soul generate? Through cāritra-saṃpannatā, the soul develops pure conduct.
+
+### 4. ANVAYARTHA
+
+- **cārittasaṃpaṇṇayāe** — through cāritra-saṃpannatā (attainment/completeness of conduct)
+- **visuddhaṃ** — viśuddha (pure)
+- **cārittaṃ** — cāritra (right conduct)
+- **pajjavei** — develops, matures
+
+### 5. COMMENTARY
+
+*Cāritra-saṃpannatā* is the third saṃpannatā — attainment of pure conduct. Together with jñāna and darśana, these three form the *ratnatraya* (three jewels) of Jain practice. The commentary explains that conduct is the practical expression of right knowledge and right perception. Without right conduct, knowledge and perception remain theoretical. Pure conduct encompasses all forms of self-discipline, non-violence, truthfulness, and restraint — practiced not from external compulsion but from inner conviction born of right knowledge and perception.
+
+### 6. SIMPLY PUT
+
+Simply put: Attainment of conduct purifies the soul's behavior and practice. Pure conduct is the practical expression of right knowledge and right perception — completing the three jewels of the Jain path.
+
+### 7. CONTEMPLATE
+
+Knowledge and perception without conduct remain theoretical. How do I translate what I know and see into how I actually live?
+
+---
+
+## SUTRA 29.64
+
+### 1. PRAKRIT TEXT
+
+सोइंदियणिग्गहेणं भंते ! जीवे किं जणयइ ?
+सोइंदियणिग्गहेणं मणुण्णामणुण्णेसु रागदोसणिग्गहं जणयइ, तप्पच्चइयं च णं कम्मं ण बंधइ, पुव्वबद्धं च णिज्जरेइ ॥२९.६४॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Soiṃdiyanigaheṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Soiṃdiyanigaheṇaṃ maṇuṇṇāmaṇuṇṇesu rāgadosaṇiggahaṃ jaṇayai, tappaccaiyaṃ ca ṇaṃ kammaṃ ṇa baṃdhai, puvvabaddhaṃ ca ṇijjarei || 29.64 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through śrotendriya-nigraha (control of the hearing-sense), O Lord, what does the soul generate? Through śrotendriya-nigraha, one generates control over attachment and aversion toward pleasant and unpleasant [sounds]. Due to this, new karma is not bound, and previously bound karma is shed.
+
+### 4. ANVAYARTHA
+
+- **soiṃdiyanigaheṇaṃ** — through śrotendriya-nigraha (control of hearing-sense)
+- **maṇuṇṇāmaṇuṇṇesu** — toward pleasant and unpleasant (manojña-amanojña)
+- **rāgadosaṇiggahaṃ** — rāga-dveṣa-nigraha (control of attachment and aversion)
+- **jaṇayai** — generates
+- **tappaccaiyaṃ** — tat-pratyaya (due to that cause)
+- **kammaṃ ṇa baṃdhai** — karma is not bound (new karma is prevented)
+- **puvvabaddhaṃ** — pūrva-baddha (previously bound karma)
+- **ṇijjarei** — nirjarā (sheds, wears away)
+
+### 5. COMMENTARY
+
+This sutra begins the five-fold indriya-nigraha (sense-control) series. *Śrotendriya-nigraha* is control of the hearing-sense. The commentary explains that sounds — both pleasant and unpleasant — trigger attachment (rāga) and aversion (dveṣa). Through disciplined control of the hearing-sense, the monk generates equanimity toward all sounds, neither craving pleasant sounds nor recoiling from unpleasant ones. This has a dual karmic effect: it prevents the binding of new karma (saṃvara) and actively sheds previously bound karma (nirjarā). The same pattern applies to all five senses.
+
+### 6. SIMPLY PUT
+
+Simply put: Controlling the hearing-sense generates equanimity toward pleasant and unpleasant sounds. This prevents new karma from binding and sheds old karma — a dual spiritual benefit.
+
+### 7. CONTEMPLATE
+
+How do sounds — music, praise, criticism, noise — trigger attachment and aversion in me? Can I listen without reacting?
+
+---
+
+## SUTRA 29.65
+
+### 1. PRAKRIT TEXT
+
+चक्खुंदियणिग्गहेणं भंते ! जीवे किं जणयइ ?
+चक्खुंदियणिग्गहेणं मणुण्णामणुण्णेसु रागदोसणिग्गहं जणयइ, तप्पच्चइयं च णं कम्मं ण बंधइ, पुव्वबद्धं च णिज्जरेइ ॥२९.६५॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Cakkhuṃdiyanigaheṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Cakkhuṃdiyanigaheṇaṃ maṇuṇṇāmaṇuṇṇesu rāgadosaṇiggahaṃ jaṇayai, tappaccaiyaṃ ca ṇaṃ kammaṃ ṇa baṃdhai, puvvabaddhaṃ ca ṇijjarei || 29.65 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through cakṣurindriya-nigraha (control of the sight-sense), O Lord, what does the soul generate? Through cakṣurindriya-nigraha, one generates control over attachment and aversion toward pleasant and unpleasant [sights]. New karma is not bound, and previously bound karma is shed.
+
+### 4. ANVAYARTHA
+
+- **cakkhuṃdiyanigaheṇaṃ** — through cakṣurindriya-nigraha (control of sight-sense)
+- **maṇuṇṇāmaṇuṇṇesu** — toward pleasant and unpleasant sights
+- **rāgadosaṇiggahaṃ** — control of attachment and aversion
+- **kammaṃ ṇa baṃdhai** — karma is not bound
+- **puvvabaddhaṃ ṇijjarei** — previously bound karma is shed
+
+### 5. COMMENTARY
+
+Control of the sight-sense follows the same pattern as hearing-sense control. The commentary explains that visual objects — beautiful and ugly forms — are powerful triggers of attachment and aversion. Controlling the sight-sense means neither pursuing beautiful sights nor recoiling from ugly ones. The monk cultivates equanimity of vision, seeing all forms without reactive attachment or aversion. This generates both saṃvara (prevention of new karma) and nirjarā (shedding of old karma).
+
+### 6. SIMPLY PUT
+
+Simply put: Controlling the sight-sense generates equanimity toward visual forms. Neither pursuing beautiful sights nor recoiling from unpleasant ones, the soul prevents new karma and sheds the old.
+
+### 7. CONTEMPLATE
+
+How much of what I see triggers unconscious reactions of attraction or repulsion? Can I see without grasping?
+
+---
+
+## SUTRA 29.66
+
+### 1. PRAKRIT TEXT
+
+घाणिंदियणिग्गहेणं भंते ! जीवे किं जणयइ ?
+घाणिंदियणिग्गहेणं मणुण्णामणुण्णेसु रागदोसणिग्गहं जणयइ, तप्पच्चइयं च णं कम्मं ण बंधइ, पुव्वबद्धं च णिज्जरेइ ॥२९.६६॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Ghāṇiṃdiyanigaheṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Ghāṇiṃdiyanigaheṇaṃ maṇuṇṇāmaṇuṇṇesu rāgadosaṇiggahaṃ jaṇayai, tappaccaiyaṃ ca ṇaṃ kammaṃ ṇa baṃdhai, puvvabaddhaṃ ca ṇijjarei || 29.66 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through ghrāṇendriya-nigraha (control of the smell-sense), O Lord, what does the soul generate? Through ghrāṇendriya-nigraha, one generates control over attachment and aversion toward pleasant and unpleasant [smells]. New karma is not bound, and previously bound karma is shed.
+
+### 4. ANVAYARTHA
+
+- **ghāṇiṃdiyanigaheṇaṃ** — through ghrāṇendriya-nigraha (control of smell-sense)
+- **maṇuṇṇāmaṇuṇṇesu** — toward pleasant and unpleasant smells
+- **rāgadosaṇiggahaṃ** — control of attachment and aversion
+- **kammaṃ ṇa baṃdhai** — new karma is not bound
+- **puvvabaddhaṃ ṇijjarei** — previously bound karma is shed
+
+### 5. COMMENTARY
+
+Control of the smell-sense is the third indriya-nigraha. The commentary notes that smell has twelve types and sub-types. Pleasant fragrances (sugandha) trigger attraction while unpleasant odors (durgandha) trigger aversion. The monk cultivates equanimity toward all smells, treating fragrant and foul odors with equal detachment. This generates the dual karmic benefit of preventing new bondage and shedding old karma.
+
+### 6. SIMPLY PUT
+
+Simply put: Controlling the smell-sense generates equanimity toward fragrances and foul odors alike. The soul remains unmoved by pleasant or unpleasant smells, preventing new karma and shedding the old.
+
+### 7. CONTEMPLATE
+
+Can I remain equally composed whether surrounded by fragrance or foulness?
+
+---
+
+## SUTRA 29.67
+
+### 1. PRAKRIT TEXT
+
+जिब्भिंदियणिग्गहेणं भंते ! जीवे किं जणयइ ?
+जिब्भिंदियणिग्गहेणं मणुण्णामणुण्णेसु रागदोसणिग्गहं जणयइ, तप्पच्चइयं च णं कम्मं ण बंधइ, पुव्वबद्धं च णिज्जरेइ ॥२९.६७॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Jibbhiṃdiyanigaheṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Jibbhiṃdiyanigaheṇaṃ maṇuṇṇāmaṇuṇṇesu rāgadosaṇiggahaṃ jaṇayai, tappaccaiyaṃ ca ṇaṃ kammaṃ ṇa baṃdhai, puvvabaddhaṃ ca ṇijjarei || 29.67 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through jihvendriya-nigraha (control of the taste-sense), O Lord, what does the soul generate? Through jihvendriya-nigraha, one generates control over attachment and aversion toward pleasant and unpleasant [tastes]. New karma is not bound, and previously bound karma is shed.
+
+### 4. ANVAYARTHA
+
+- **jibbhiṃdiyanigaheṇaṃ** — through jihvendriya-nigraha (control of taste-sense)
+- **maṇuṇṇāmaṇuṇṇesu** — toward pleasant and unpleasant tastes
+- **rāgadosaṇiggahaṃ** — control of attachment and aversion
+- **kammaṃ ṇa baṃdhai** — new karma is not bound
+- **puvvabaddhaṃ ṇijjarei** — previously bound karma is shed
+
+### 5. COMMENTARY
+
+Control of the taste-sense is the fourth indriya-nigraha. The commentary explains that taste (rasa) has five basic varieties and numerous sub-types. The craving for pleasant tastes is one of the strongest attachments for embodied beings. Through taste-sense control, the monk eats without preference or aversion — neither seeking delicious food nor rejecting bland or bitter food. This equanimity toward taste prevents the binding of new karma and actively sheds previously accumulated karma.
+
+### 6. SIMPLY PUT
+
+Simply put: Controlling the taste-sense generates equanimity toward all flavors. Eating without craving or aversion prevents new karma and sheds old karma.
+
+### 7. CONTEMPLATE
+
+How deeply does the craving for pleasant tastes govern my choices? Can I eat with complete equanimity?
+
+---
+
+## SUTRA 29.68
+
+### 1. PRAKRIT TEXT
+
+फासिंदियणिग्गहेणं भंते ! जीवे किं जणयइ ?
+फासिंदियणिग्गहेणं मणुण्णामणुण्णेसु रागदोसणिग्गहं जणयइ, तप्पच्चइयं च णं कम्मं ण बंधइ, पुव्वबद्धं च णिज्जरेइ ॥२९.६८॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Phāsiṃdiyanigaheṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Phāsiṃdiyanigaheṇaṃ maṇuṇṇāmaṇuṇṇesu rāgadosaṇiggahaṃ jaṇayai, tappaccaiyaṃ ca ṇaṃ kammaṃ ṇa baṃdhai, puvvabaddhaṃ ca ṇijjarei || 29.68 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through sparśendriya-nigraha (control of the touch-sense), O Lord, what does the soul generate? Through sparśendriya-nigraha, one generates control over attachment and aversion toward pleasant and unpleasant [touches]. New karma is not bound, and previously bound karma is shed.
+
+### 4. ANVAYARTHA
+
+- **phāsiṃdiyanigaheṇaṃ** — through sparśendriya-nigraha (control of touch-sense)
+- **maṇuṇṇāmaṇuṇṇesu** — toward pleasant and unpleasant touches
+- **rāgadosaṇiggahaṃ** — control of attachment and aversion
+- **kammaṃ ṇa baṃdhai** — new karma is not bound
+- **puvvabaddhaṃ ṇijjarei** — previously bound karma is shed
+
+### 5. COMMENTARY
+
+Control of the touch-sense is the fifth and final indriya-nigraha. The commentary explains that touch (sparśa) has eight types: hard/soft, heavy/light, cold/hot, rough/smooth. Touch is the most fundamental sense — even one-sensed beings possess it. Craving for pleasant touch (soft fabrics, comfortable seats) and aversion to unpleasant touch (heat, cold, pain) are deeply ingrained. Through sparśendriya-nigraha, the monk endures all physical sensations with equanimity, generating the dual benefit of karmic prevention and shedding.
+
+### 6. SIMPLY PUT
+
+Simply put: Controlling the touch-sense generates equanimity toward all physical sensations. Enduring heat, cold, pain, and pleasure alike, the soul prevents new karma and sheds the old.
+
+### 7. CONTEMPLATE
+
+Touch is the most primal sense. Can I endure physical discomfort without aversion, or physical comfort without attachment?
+
+---
+
+## SUTRA 29.69
+
+### 1. PRAKRIT TEXT
+
+कोहविजएणं भंते ! जीवे किं जणयइ ?
+कोहविजएणं खंतिं जणयइ ॥२९.६९॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Kohavijaeṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Kohavijaeṇaṃ khaṃtiṃ jaṇayai || 29.69 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through krodha-vijaya (conquest of anger), O Lord, what does the soul generate? Through krodha-vijaya, one generates kṣamā (forgiveness/forbearance).
+
+### 4. ANVAYARTHA
+
+- **kohavijaeṇaṃ** — through krodha-vijaya (conquest/victory over anger)
+- **bhaṃte** — O Lord
+- **jīve** — the soul
+- **kiṃ jaṇayai** — what does it generate
+- **khaṃtiṃ** — kṣamā (forgiveness, forbearance, patience)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+This begins the four-fold kaṣāya-vijaya (passion-conquest) series. *Krodha-vijaya* is the conquest of anger — the first and most volatile of the four passions. The fruit is *kṣamā* (forgiveness/forbearance). The commentary explains that anger and forgiveness are direct opposites: where anger exists, forgiveness cannot arise, and where forgiveness is established, anger has no foothold. By conquering anger, the soul generates its natural counterpart — forgiveness. This is not suppression but transformation: the energy of anger is transmuted into the strength of forbearance.
+
+### 6. SIMPLY PUT
+
+Simply put: Conquering anger generates forgiveness. When anger is overcome, forbearance naturally arises — not as suppression but as transformation of the anger-energy into spiritual strength.
+
+### 7. CONTEMPLATE
+
+When anger arises, can I recognize it as an opportunity to cultivate its opposite — forgiveness?
+
+---
+
+## SUTRA 29.70
+
+### 1. PRAKRIT TEXT
+
+माणविजएणं भंते ! जीवे किं जणयइ ?
+माणविजएणं मद्दवं जणयइ ॥२९.७०॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Māṇavijaeṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Māṇavijaeṇaṃ maddavaṃ jaṇayai || 29.70 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through māna-vijaya (conquest of pride), O Lord, what does the soul generate? Through māna-vijaya, one generates mārdava (humility/gentleness).
+
+### 4. ANVAYARTHA
+
+- **māṇavijaeṇaṃ** — through māna-vijaya (conquest/victory over pride)
+- **maddavaṃ** — mārdava (humility, gentleness, softness)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+*Māna-vijaya* is the conquest of pride — the second kaṣāya. The fruit is *mārdava* (humility/gentleness). The commentary explains that pride manifests in many forms: pride of birth, knowledge, wealth, austerity, beauty, power, etc. By conquering all forms of pride, the soul generates its opposite — genuine humility and gentleness. The soul ceases to regard itself as superior to others and recognizes the equal spiritual potential of all beings.
+
+### 6. SIMPLY PUT
+
+Simply put: Conquering pride generates genuine humility. When pride in all its forms is overcome, natural gentleness and softness of spirit arise.
+
+### 7. CONTEMPLATE
+
+In what subtle forms does pride still operate in me — pride of knowledge, achievement, or spiritual progress?
+
+---
+
+## SUTRA 29.71
+
+### 1. PRAKRIT TEXT
+
+मायाविजएणं भंते ! जीवे किं जणयइ ?
+मायाविजएणं अज्जवं जणयइ ॥२९.७१॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Māyāvijaeṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Māyāvijaeṇaṃ ajjavaṃ jaṇayai || 29.71 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through māyā-vijaya (conquest of deceit), O Lord, what does the soul generate? Through māyā-vijaya, one generates ārjava (straightforwardness).
+
+### 4. ANVAYARTHA
+
+- **māyāvijaeṇaṃ** — through māyā-vijaya (conquest/victory over deceit)
+- **ajjavaṃ** — ārjava (straightforwardness, simplicity, non-crookedness)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+*Māyā-vijaya* is the conquest of deceit — the third kaṣāya. The fruit is *ārjava* (straightforwardness). The commentary explains that māyā (deceit/deception) is the crookedness of the soul — the tendency to manipulate, dissemble, and present a false face. By conquering deceit, the soul generates ārjava — simplicity and straightforwardness. The soul becomes transparent: what it thinks, it speaks; what it speaks, it does. There is no gap between inner reality and outer presentation.
+
+### 6. SIMPLY PUT
+
+Simply put: Conquering deceit generates straightforwardness. When all crookedness is overcome, the soul becomes transparent — thinking, speaking, and acting in complete alignment.
+
+### 7. CONTEMPLATE
+
+Where does deception still operate in me — even in small, socially acceptable forms?
+
+---
+
+## SUTRA 29.72
+
+### 1. PRAKRIT TEXT
+
+लोभविजएणं भंते ! जीवे किं जणयइ ?
+लोभविजएणं संतोसं जणयइ ॥२९.७२॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Lobhavijaeṇaṃ bhaṃte! Jīve kiṃ jaṇayai?
+Lobhavijaeṇaṃ saṃtosaṃ jaṇayai || 29.72 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through lobha-vijaya (conquest of greed), O Lord, what does the soul generate? Through lobha-vijaya, one generates saṃtoṣa (contentment).
+
+### 4. ANVAYARTHA
+
+- **lobhavijaeṇaṃ** — through lobha-vijaya (conquest/victory over greed)
+- **saṃtosaṃ** — saṃtoṣa (contentment, satisfaction)
+- **jaṇayai** — generates
+
+### 5. COMMENTARY
+
+*Lobha-vijaya* is the conquest of greed — the fourth and most persistent kaṣāya. The commentary notes that greed is the last passion to be conquered, lingering even after anger, pride, and deceit have been subdued. The fruit is *saṃtoṣa* (contentment) — the state of being satisfied with what one has, needing nothing more. When greed is conquered, the soul rests in natural fullness and contentment, desiring nothing and lacking nothing. This completes the kaṣāya-vijaya series: anger conquered by forgiveness, pride by humility, deceit by straightforwardness, and greed by contentment.
+
+### 6. SIMPLY PUT
+
+Simply put: Conquering greed generates contentment. When the last and most persistent passion is overcome, the soul rests in natural fullness — needing nothing, lacking nothing.
+
+### 7. CONTEMPLATE
+
+Greed is the last passion to fall. What would complete contentment — wanting nothing more — actually feel like?
+
+---
+
+## SUTRA 29.73
+
+### 1. PRAKRIT TEXT
+
+पिज्ज-दोस-मिच्छादंसण-विजएणं णाणदंसणचारित्ताराहणयाए अट्ठविहरस्स कम्मस्स खओवसमणेणं अट्ठविहसुद्धिकरणेणं अट्ठाउयं पालइत्ता अंतोमुहुत्तसद्धावसेसाए जोगणिरोहं करेमाणे सुहुमकिरियं अगुरुलघुयं सव्वगाहं जणयइ ।
+एसिपं चहस्सक्खरसूत्रं सव्वदुक्खाणमंत करेइ ।
+ताओ पच्छा सिज्झइ बुज्झइ मुच्चइ परिणिव्वायइ सव्वदुक्खाणमंत करेइ ॥२९.७३॥
+
+⚠️ Prakrit partially reconstructed from शब्दार्थ and Gujarati commentary.
+
+### 2. ROMAN TRANSLITERATION
+
+Pijja-dosa-micchādaṃsaṇa-vijaeṇaṃ ṇāṇadaṃsaṇacārittārāhaṇayāe aṭṭhavihakarassa kammassa khaovsamaṇeṇaṃ aṭṭhavihasuddhikaraṇeṇaṃ aṭṭhāuyaṃ pālaittā aṃtomuhuttasaddhāvasesāe jogaṇirohaṃ karemāṇe suhumakkiriyaṃ agurulahuyaṃ savvagāhaṃ jaṇayai.
+Esipaṃ cahassakkharasuttaṃ savvadukkhāṇamaṃta karei.
+Tāo pacchā sijjhai bujjhai muccai pariṇivvāyai savvadukkhāṇamaṃta karei || 29.73 ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Through the conquest of faults (piṇḍa-doṣa), wrong beliefs (mithyādarśana), and through the worship of knowledge, perception, and conduct (jñāna-darśana-cāritra-ārādhana), through the destruction-cum-subsidence (kṣayopaśama) of the eightfold karma, through eight-fold purification, having observed the eight lifelong vows (aṣṭa-āyuṣya), while ceasing all activities (yoga-nirodha) with only a moment of life remaining, generating subtle activity (sūkṣma-kriyā), neither heavy nor light (aguru-laghu), pervading the entire body (sarva-gāha) — [the soul accomplishes all this].
+
+This is the teaching of the four-lettered sūtra that makes an end of all suffering.
+
+Thereafter, the soul is perfected (siddha), enlightened (buddha), liberated (mukta), attains complete emancipation (parinirvāṇa), and makes an end of all suffering.
+
+### 4. ANVAYARTHA
+
+- **pijja-dosa-micchādaṃsaṇa-vijaeṇaṃ** — through conquest of faults (piṇḍa-doṣa) and wrong belief (mithyā-darśana)
+- **ṇāṇadaṃsaṇacārittārāhaṇayāe** — through worship/practice of knowledge, perception, and conduct
+- **aṭṭhavihakarassa kammassa** — of the eightfold karma
+- **khaovsamaṇeṇaṃ** — through kṣayopaśama (destruction-cum-subsidence)
+- **aṭṭhavihasuddhikaraṇeṇaṃ** — through eightfold purification
+- **aṭṭhāuyaṃ pālaittā** — having observed the eight lifelong vows/disciplines
+- **aṃtomuhuttasaddhāvasesāe** — with only an antarmuhūrta (less than 48 minutes) of life remaining
+- **jogaṇirohaṃ karemāṇe** — while performing yoga-nirodha (cessation of all activities)
+- **suhumakkiriyaṃ** — sūkṣma-kriyā (subtle activity)
+- **agurulahuyaṃ** — aguru-laghu (neither heavy nor light — a unique state)
+- **savvagāhaṃ** — sarva-gāha (pervading the entire body/space)
+- **jaṇayai** — generates
+- **cahassakkharasuttaṃ** — the four-lettered sūtra (catuḥ-akṣara — likely referring to "a-ra-ha-ṃ" / arhaṃ)
+- **savvadukkhāṇamaṃta karei** — makes an end of all suffering
+- **sijjhai bujjhai muccai pariṇivvāyai** — is perfected, enlightened, liberated, completely emancipated
+
+### 5. COMMENTARY
+
+This is the grand concluding sutra of Chapter 29, summarizing the entire path from initial effort to final liberation. It describes the culminating sequence: through conquering all faults and wrong beliefs, through the perfection of the three jewels (knowledge, perception, conduct), through the progressive destruction of all eight types of karma, through the eight-fold purification process, and having maintained lifelong disciplines — the soul reaches its final moments. In the last antarmuhūrta (less than 48 minutes) of life, the soul performs *yoga-nirodha* — the complete cessation of all activities of mind, speech, and body. In this state, the soul passes through *sūkṣma-kriyā* (subtle activity, where only the most refined vibrations remain), then achieves the *aguru-laghu* state (neither heavy nor light — a unique spiritual quality), and finally *sarva-gāha* (pervading its natural space).
+
+The commentary discusses the six causes of *ūrdhva-gati* (upward motion after death): (1) cessation of prior impetus (niḥsargata), (2) liberation from all bonds (nīrāgatā), (3) the upward momentum of right effort (gati-parināma), (4) freedom from obstruction (avagāhana), (5) the soul's natural upward tendency when freed (svabhāva), and (6) the completed spiritual process (pūrva-prayoga).
+
+The reference to "four-lettered sūtra" (catuḥ-akṣara) likely refers to the sacred syllable "a-ra-ha-ṃ" (arhaṃ — the worthy one), representing the essence of the entire teaching.
+
+The sutra concludes with the ultimate four-fold liberation: siddha (perfected), buddha (enlightened), mukta (freed), and parinirvāṇa (completely beyond suffering) — making an absolute, eternal end of all duḥkha.
+
+### 6. SIMPLY PUT
+
+Simply put: This concluding sutra summarizes the entire journey — conquering all faults, perfecting knowledge, perception, and conduct, destroying all eight karmas, and finally ceasing all activity in the last moments of life. The soul then rises to the summit of the universe and becomes perfected, enlightened, liberated, and forever free from all suffering. This is the complete fruit of samyak-parākrama — right effort.
+
+### 7. CONTEMPLATE
+
+This chapter has traced the entire path from the first stirring of spiritual urgency to the final moment of complete liberation. Which practice resonates most deeply with where I stand on my own journey?
+
