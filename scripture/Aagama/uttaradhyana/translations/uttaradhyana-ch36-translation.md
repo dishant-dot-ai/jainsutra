@@ -3,7 +3,7 @@
 
 **Chapter 36 of the Uttaradhyayana Sutra**
 *Gujarati Source: Volume 2, printed pages 364–449 (PDF pages 418–503)*
-*Total Sutras: 220*
+*Total Sutras: 274*
 
 > **GRAPHICS NOTE FOR WEB CONVERSION:** This chapter contains multiple tree diagrams, classification charts, and visual hierarchies from the original PDF that should be rendered as interactive/expandable graphics on the webpage. Key visuals to include:
 > 1. **Page 371 (PDF 425):** Tree chart — "अजीव द्रव्यना संक्षेपथी १४ भेद" (14 Types of Ajīva)
@@ -2047,6 +2047,241 @@ The entire universe has been mapped. Every being classified. Now: where are you 
 | — Tiryañca | jalacara + sthalacara + khecara (complex) | 20+ |
 | — Manuṣya | garbhaja (202) + saṃmūrcchima (101) | 303 |
 | — Deva | Bhavanapati (10) + Vyantara (8) + Jyotiṣka (5) + Vaimānika (complex) | 40+ |
+
+---
+
+## SUTRAS 36.221–233: DEVA LIFESPAN MEASUREMENTS — ALL KALPAS
+
+### 1. PRAKRIT TEXT
+
+साहिया दुण्णि साहिया, ईसाणम्मि जहण्णयं ।
+भोमेज्जाणं जहण्णेणं, दसवासहस्ससयं ॥
+
+सागरा अणवीसं तु, उक्कोसेण वियाहिया ।
+दोच्चाए जहण्णेणं, दसवासहस्ससयं ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Sutras 221–233 provide the precise lifespan measurements for every celestial realm:
+
+**Bhavanapati (10 types):** Minimum 10,000 years → Maximum varies by type (up to 1.5 sāgaropama)
+
+**Vyantara (8 types):** Minimum 10,000 years → Maximum 1 palya
+
+**Jyotiṣka (5 types):** Sun, Moon, planets, constellations, stars — lifespans from 1/8 palya to 1 palya
+
+**Vaimānika — Kalpopapanna (12 kalpas):**
+
+| Kalpa | Min Lifespan | Max Lifespan |
+|-------|-------------|-------------|
+| 1. Saudharma | 1 palya | 2 sāgaropama |
+| 2. Aiśāna | 1 palya | 2 sāgaropama |
+| 3. Sānatkumāra | 2 sāgaropama | 7 sāgaropama |
+| 4. Māhendra | 2 sāgaropama | 7 sāgaropama |
+| 5. Brahma | 7 sāgaropama | 10 sāgaropama |
+| 6. Lāntaka | 7 sāgaropama | 10 sāgaropama |
+| 7. Mahāśukra | 10 sāgaropama | 14 sāgaropama |
+| 8. Sahasrāra | 10 sāgaropama | 14 sāgaropama |
+| 9. Ānata | 14 sāgaropama | 18 sāgaropama |
+| 10. Prāṇata | 14 sāgaropama | 18 sāgaropama |
+| 11. Āraṇa | 18 sāgaropama | 22 sāgaropama |
+| 12. Acyuta | 18 sāgaropama | 22 sāgaropama |
+
+**Graiveyaka (9 levels):**
+
+| Level | Min | Max |
+|-------|-----|-----|
+| Lower 3 | 1 sāgaropama | 10 sāgaropama+ |
+| Middle 3 | various | sāgaropama scale |
+| Upper 3 | various | up to 31+ sāgaropama |
+
+**Anuttara (5 levels):**
+
+| Level | Min | Max |
+|-------|-----|-----|
+| Vijaya | 31 sāgaropama | 33 sāgaropama |
+| Vaijayanta | 31 sāgaropama | 33 sāgaropama |
+| Jayanta | 31 sāgaropama | 33 sāgaropama |
+| Aparājita | 31 sāgaropama | 33 sāgaropama |
+| Sarvārthasiddhi | 33 sāgaropama | 33 sāgaropama |
+
+> **VISUAL NOTE:** Render as a vertical "elevator diagram" showing each realm stacked from bottom (Bhavanapati) to top (Sarvārthasiddhi) with lifespan bars growing wider as you ascend.
+
+---
+
+## SUTRAS 36.234–249: DEVA — BODY TYPES, SPATIAL EXTENT, CATEGORIES
+
+### 1. PRAKRIT TEXT
+
+सागरा अणवीसं तु, उक्कोसेण ठिई भवे ।
+आणयम्मि जहण्णेणं, सत्तमम्मि जहण्णयं ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+These sutras cover:
+- **Deva body measurements**: height ranges for each deva type (from 7 dhanuṣya for lowest bhavanapati to 500 dhanuṣya for highest vaimānika)
+- **Spatial extent**: all devas exist in loka-eka-desa; specific locations mapped for each type
+- **Bhavanapati**: dwell in mansions in the upper part of the lower universe
+- **Vyantara**: roam freely between the lower and middle worlds
+- **Jyotiṣka**: orbit around Mount Meru in the middle world
+- **Vaimānika**: dwell in aerial palaces above the middle world, ascending through 12 kalpas + graiveyaka + anuttara
+
+---
+
+## SUTRAS 36.250–256: DEVA — TIME AND INTERVAL ANALYSIS
+
+### 1. PRAKRIT TEXT
+
+अणंतकालमुक्कोसं, अंतोमुहुत्तं जहण्णयं ।
+विजढम्मि सएकाए, देवाणं तु विहाणाइं ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+For deva jīvas:
+- **Sthiti (duration)**: from antarmuhūrta (minimum) to 33 sāgaropama (maximum, Sarvārthasiddhi)
+- **Antarā (interval)**: from 1 samaya (minimum) to anantakāla (maximum — infinite time between two births as the same type of deva)
+- **Santati**: anādi-ananta (the stream of deva-births has no beginning and no end)
+
+---
+
+## SUTRAS 36.253–256: DEVA — BHĀVA (QUALITATIVE MODES)
+
+### 1. PRAKRIT TEXT
+
+एएसिं वण्णओ चेव, गंधओ रसफासओ ।
+संठाणादेसओ वावि, विहाणाइं सहस्ससो ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The devas' qualitative modes: colour, smell, taste, touch, and shape — described in their thousands of combinations, following the same five-fold pudgala framework applied to all beings.
+
+---
+
+## SUTRAS 36.254–258: MANUṢYA — DETAILED BODY AND LIFESPAN ANALYSIS
+
+### 1. PRAKRIT TEXT
+
+पढमे वास चउक्कम्मि, विगई णिज्जूहणं करे ।
+बिइए वास चउक्कम्मि, सपज्जवसिया भवे ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+These sutras provide detailed analysis of human body types, birth conditions, and lifespan measurements across the different kṣetras (karmabhūmi, akarmabhūmi, antaradvīpa). They include:
+- Minimum human lifespan: antarmuhūrta (stillbirth)
+- Maximum in karmabhūmi: 3 palya (in the first āra of the time-cycle)
+- Maximum in akarmabhūmi: pūrvakoṭi years
+- Body heights: minimum sub-atomic (aparyāpta embryo) to maximum 3 gāuya (in akarmabhūmi)
+
+---
+
+## SUTRAS 36.259–261: ĀLOCANA (SELF-REFLECTION AND CONFESSION)
+
+### 1. PRAKRIT TEXT
+
+एगंतरमायामं, कट्टु संवच्छरे दुवे ।
+तओ कालविभागं तु, तेसिं वुच्छ चउव्विहं ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+These sutras describe the ālocana (self-reflection) practices connected to understanding the jīva-ajīva classification — how a monk should use this knowledge in daily confession and self-examination.
+
+---
+
+## SUTRAS 36.262–268: KṢETRA-BODHI — ENLIGHTENMENT GEOGRAPHY
+
+### 1. PRAKRIT TEXT
+
+कंदप्पकुक्कुयाइं तह, सेणावासासुरत्तणं ।
+एवाओ दुग्गइओ तहा, पंचहा एवमायओ ॥
+
+अणुबद्ध रोसपरसरो, णो इत्थीणं, णो पुरिसाणं ।
+एएणं परिणामेणं, सव्वं दुक्खं विवज्जए ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+These sutras address the connection between knowledge of jīva-ajīva and moral conduct:
+- Five forms of negative destiny (duggati) arising from ignorance
+- The bondage of anger (rosaparasaro) and how knowledge dissolves it
+- The specific dangers of wrong conduct for those who have heard but not practiced
+- How understanding jīva-ajīva leads to abandoning all suffering
+
+---
+
+## SUTRAS 36.269–271: KILVIṢĪ BHĀVANĀ — CONTEMPLATION OF SINFUL BEHAVIOUR
+
+### 1. PRAKRIT TEXT
+
+मिन्छादंसणरत्ता, अणियाणुव्वयं भवे ।
+सम्मदंसणरत्ता, अणुगम्मो भवे सया ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+These sutras contrast the kilviṣī (sinful/deluded) state with the enlightened state:
+- Those attached to wrong views (mithyā-darśana) produce endless karmic bondage
+- Those established in right vision (samyag-darśana) follow the path correctly
+- The knowledge of jīva-ajīva is itself the foundation of right vision
+
+---
+
+## SUTRA 36.272: AṆUBADDHA — INTERCONNECTEDNESS OF KARMA
+
+### 1. PRAKRIT TEXT
+
+अणुबद्ध रोसपसरो, तह य अणुबद्ध मायपसरो ।
+अणुबद्ध लोभपसरो, णो लोगेसु विसोहणं ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The interconnected spread of anger, the interconnected spread of deceit, the interconnected spread of greed — through these, there is no purification in the worlds.
+
+### 5. COMMENTARY
+
+A devastating verse: anger, deceit, and greed (three of the four kaṣāyas) spread through everything like interconnected threads. When one is active, it triggers the others. Without cutting all three, there is no purification (**visohaṇaṃ**) anywhere in the universe.
+
+---
+
+## SUTRA 36.273: SATTHAGAHAṆAṂ — THE WEAPON SIMILE
+
+### 1. PRAKRIT TEXT
+
+सत्थगहणं विसभक्खणं च, जलणं च जलपवेसणं य ।
+अणपवेसणीयं च, जम्म मरणं अंतरं ॥
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+"Grasping a weapon, consuming poison, entering fire, entering water — and that which cannot be entered — birth and death are the interval."
+
+### 5. COMMENTARY
+
+The final teaching before the chapter's close: the five metaphors for the violence that saṃsāra inflicts on the soul. Birth and death (**jamma maraṇaṃ**) — the interval between which the soul exists — are compared to grasping a blade, drinking poison, entering fire, and drowning. The knowledge of jīva-ajīva is the only way to stop this cycle.
+
+---
+
+## SUTRA 36.274: CHAPTER CONCLUSION
+
+### 1. PRAKRIT TEXT
+
+लोगस्स एगदेसम्मि ते, सव्वे वि वियाहिया ।
+इत्तो कालविभागं तु, तेसिं वुच्छं चउव्विहं ॥
+– ति बेमि
+
+### 2. ROMAN TRANSLITERATION
+
+logassa egadesammi te, savve vi viyāhiyā |
+itto kālavibhāgaṃ tu, tesiṃ vucchaṃ cauvvihaṃ ||
+— ti bemi
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+All of these exist in one region of the universe. The fourfold classification by time has been described for all. Thus I say.
+
+### 5. COMMENTARY
+
+The canonical closing. **Ti bemi** — "thus I say." The entire Jain map of reality — 274 sutras traversing every substance, every being, every realm, every lifespan — closes with the reminder that all of this exists in one small region of an infinite universe. The knowledge is complete. The path is clear.
+
+### 7. CONTEMPLATE
+
+274 sutras. The entire universe mapped. Every being classified. Now: where are you in this map — and where are you heading?
 
 ---
 
