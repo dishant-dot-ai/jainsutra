@@ -7,7 +7,7 @@
 - [ ] Chapter 3 — Abhagrasena (scripture pages 48–69)
 - [ ] Chapter 4 — Shakatkumar (scripture pages 71–79)
 - [x] **Chapter 5 — Bruhaspatidat (scripture pages 82–88) — DONE**
-- [ ] Chapter 6 — Nandivardhana (scripture pages 89–100)
+- [x] **Chapter 6 — Nandivardhana (scripture pages 89–101) — DONE**
 - [ ] Chapter 7 — Umbaradatt (scripture pages 102–115)
 - [ ] Chapter 8 — Shaurikadatt (scripture pages 117–124)
 - [ ] Chapter 9 — Devdatta (scripture pages 127–144)
