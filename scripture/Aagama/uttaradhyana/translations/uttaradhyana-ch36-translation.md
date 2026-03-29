@@ -3,23 +3,72 @@
 
 **Chapter 36 of the Uttaradhyayana Sutra**
 *Gujarati Source: Volume 2, printed pages 364–449 (PDF pages 418–503)*
-*Total Sutras: 274*
+*Total Sutras: 220*
 
-> **GRAPHICS NOTE FOR WEB CONVERSION:** This chapter contains multiple tree diagrams, classification charts, and visual hierarchies from the original PDF that should be rendered as interactive/expandable graphics on the webpage. Key visuals to include:
-> 1. **Page 371 (PDF 425):** Tree chart — "अजीव द्रव्यना संक्षेपथी १४ भेद" (14 Types of Ajīva)
-> 2. **Page 380 (PDF 434):** Tree chart — "अजीव द्रव्यना विस्तारथी ५३० भेद" (530 Types of Ajīva with breakdown table)
-> 3. **Page 390-391 (PDF 444-445):** Siddha-śilā diagram — circular/oval illustration showing the shape, dimensions, and position of the siddha-śilā at the top of the universe, with yojana measurements
-> 4. **Page 395 (PDF 449):** Tree chart — "जीवना भेद-प्रभेद" (Complete Jīva Classification hierarchy: saṃsārī → trasa/sthāvara → all sub-types with numbers)
-> 5. **Page 416 (PDF 470):** Table — "નારકીના સાત પ્રકારના નરક ભેદ" (7 types of Nārakī with sāgaropama measurements)
-> 6. **Page 419 (PDF 473):** Tree chart — "તિર્યંચ પંચેન્દ્રિય" (Tiryañca Panchendriya classification: saṃmūrcchima/garbhaja → jalacara/sthalacara/khecara)
-> 7. **Page 425 (PDF 479):** Tree chart + table — "મનુષ્યના ભેદ-પ્રભેદ" (Human classification: garbhaja 202 / saṃmūrcchima 101 = 303, with sub-breakdowns by karmabhūmi/akarmabhūmi kṣetra)
-> 8. **Page 430 (PDF 484):** Diagram — Celestial (Deva) classification hierarchy (Bhavanapati 10, Vyantara 8, Jyotiṣka 5, Vaimānika with kalpopapanna/kalpātīta sub-types)
+---
+
+> ## DESIGN & TRANSLATION NOTES FOR CHAPTER 36
+>
+> This chapter is the most detailed and descriptive in the Uttaradhyayana.
+> It contains extensive classifications, hierarchies, measurements, and
+> lists. Follow these rules when translating AND when converting to web.
+>
+> ### RULE 1: EVERY SUTRA GETS ITS FULL PRAKRIT
+> Do NOT truncate, abbreviate, or summarize the Prakrit verse.
+> Write the complete Devanagari text for every single sutra.
+> Even if a sutra is one line of classification data, it gets
+> the full Prakrit exactly as it appears in the PDF.
+>
+> ### RULE 2: GROUPING — ONLY WHEN STRICTLY NECESSARY
+> Each sutra should be its own entry with all 7 sections.
+> Group consecutive sutras ONLY when:
+> - They form one continuous sentence split across verses
+> - Reading them separately would break meaning/continuity
+> - The PDF commentary itself treats them as one unit
+>
+> When grouping: still show ALL Prakrit verses in full (each
+> with its own verse number), then provide combined translation,
+> anvayartha, and commentary. Never hide or skip a verse.
+>
+> ### RULE 3: VISUALS — RENDER AS TABLES, TREES, OR CHARTS
+> This chapter has classification hierarchies, tree diagrams,
+> measurement tables, and visual layouts from the original PDF.
+> These MUST be represented visually in the translation file
+> using markdown-friendly formats:
+>
+> - **Classification hierarchies** → Markdown tables or
+>   indented tree structures using `-` and indentation
+> - **Measurement/comparison data** → Markdown tables with
+>   columns (Type | Duration | Size | etc.)
+> - **Tree diagrams** → Indented bullet lists showing
+>   parent → child relationships clearly
+>
+> Place each visual immediately after the sutra(s) it belongs to.
+> Label each visual with a clear title describing what it shows.
+>
+> **Visuals from the PDF to include (with source pages):**
+>
+> | # | PDF Page | Description |
+> |---|----------|-------------|
+> | 1 | 371 (PDF 425) | 14 Types of Non-Living Substance — tree chart |
+> | 2 | 380 (PDF 434) | 530 Types of Non-Living Substance — breakdown table |
+> | 3 | 390–391 (PDF 444–445) | Abode of the Liberated — shape, dimensions, position diagram |
+> | 4 | 395 (PDF 449) | Complete Soul Classification — hierarchy tree |
+> | 5 | 416 (PDF 470) | 7 Types of Hell-Beings — table with time measurements |
+> | 6 | 419 (PDF 473) | Five-Sensed Animal Classification — tree chart |
+> | 7 | 425 (PDF 479) | Human Classification — tree + table (303 types) |
+> | 8 | 430 (PDF 484) | Celestial Being Classification — hierarchy diagram |
+>
+> ### RULE 4: COMMENTARY LANGUAGE
+> Commentary must be in plain English. No Prakrit or Sanskrit
+> words. The Anvayartha handles technical terms. Commentary
+> explains meaning. (See translation-prompt.md for full rules.)
 
 ---
 
 ## CHAPTER INTRODUCTION
 
-Chapter 36 is the *Jīvājīva Vibhakti* — the systematic classification (vibhakti) of jīva (living substance) and ajīva (non-living substance). It is the most philosophically detailed chapter in the Uttaradhyayana, presenting the Jain ontological map of reality: the six fundamental substances, their divisions, sub-divisions, and their characteristics in terms of dravya (substance), kṣetra (region/space), kāla (time), and bhāva (mode/quality). This chapter includes charts (vṛkṣas/trees) illustrating the classification hierarchies. The entire universe is analysed into its constituents so that the practitioner can understand clearly what is soul and what is not — the essential knowledge for liberation.
+Chapter 36 is the Classification of Living and Non-Living — the most philosophically detailed chapter in the Uttaradhyayana. It presents the complete Jain map of reality: the six fundamental substances, their divisions and sub-divisions, and their characteristics in terms of substance, region, time, and mode. The chapter includes classification trees and measurement charts showing how the entire universe breaks down into its parts — so the practitioner can understand clearly what is soul and what is not. This is the essential knowledge for liberation.
 
 ---
 
