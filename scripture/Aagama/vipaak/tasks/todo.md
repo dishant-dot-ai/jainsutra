@@ -3,7 +3,7 @@
 ## Section 1: Pratham Shrutaskandh — Dukha Vipaak Sutra (First Canon)
 
 - [ ] Chapter 1 — Mrigaputra (PDF pages 53–55, scripture pages 1–3)
-- [ ] Chapter 2 — Ujjhitak (scripture pages 29–44)
+- [x] **Chapter 2 — Ujjhitak (scripture pages 29–44) — DONE**
 - [ ] Chapter 3 — Abhagrasena (scripture pages 48–69)
 - [ ] Chapter 4 — Shakatkumar (scripture pages 71–79)
 - [x] **Chapter 5 — Bruhaspatidat (scripture pages 82–88) — DONE**
