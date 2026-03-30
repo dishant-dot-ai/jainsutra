@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vipaak Sutra — Duhkhavipak Chapter 1: Mrigaputra | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e","on-secondary-fixed-variant": "#4a4642","secondary-container": "#e6ded9","primary-fixed-dim": "#e6c364","surface-bright": "#fef9f1","tertiary-fixed": "#dde1ff","surface": "#fef9f1","primary-fixed": "#ffe08f","surface-container-low": "#f8f3eb","secondary-fixed": "#e9e1dc","outline-variant": "#d0c5b2","outline": "#7e7665","inverse-on-surface": "#f5f0e8","on-background": "#1d1c17","on-secondary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff","on-primary-fixed-variant": "#584400","surface-dim": "#ded9d2","surface-container-high": "#ece8e0","primary": "#755b00","on-primary-container": "#503d00","inverse-surface": "#32302b","secondary": "#625d59","error-container": "#ffdad6","tertiary-fixed-dim": "#b9c3ff","on-secondary-container": "#67625e","on-primary": "#ffffff","on-primary-fixed": "#241a00","on-error-container": "#93000a","surface-tint": "#755b00","secondary-fixed-dim": "#ccc5c0","surface-variant": "#e7e2da","surface-container-lowest": "#ffffff","on-tertiary-fixed": "#041451","surface-container-highest": "#e7e2da","primary-container": "#c9a84c","inverse-primary": "#e6c364","on-surface-variant": "#4d4637","tertiary": "#4d5a98","background": "#fef9f1","on-tertiary": "#ffffff","on-surface": "#1d1c17","tertiary-container": "#9ba8eb","surface-container": "#f2ede5","on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.25rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.05rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../aagama-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Vipaak Sutra · Duhkhavipak · Chapter 1</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Mrigaputra<span class="block text-primary font-normal">मृगापुत्र</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On Karmic Fruition, the Suffering Born of Past Deeds, and the Soul's Long Journey Home</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      In the first chapter of Duhkhavipak — the Volume of Suffering Fruition — Gautam Swami discovers a child born blind, deaf, mute, and limbless, hidden in an underground chamber by his own mother. Through Mahavir's omniscient knowledge, the child's past life as a cruel tax-collector is revealed, along with the full arc of suffering and liberation that stretches across countless future existences. Across 31 sutras, this chapter demonstrates with devastating precision: every condition has a traceable cause — and no karma lasts forever.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-base font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-base font-headline font-bold text-on-surface">Arya Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-base font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../assets/ch9-hero.jpg" alt="Lord Mahavira teaching Gautama" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-xl md:text-2xl text-primary leading-relaxed">एवं खलु गोयमा ! मियापुत्ते दारए पुरापोराणाणं<br/>दुच्चिण्णाणं दुप्पडिक्कंताणं पावाणं कम्माणं<br/>पावगं फलविवित्तिविसेसेणं पच्चणुभवमाणे विहरइ।</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;This child Mrigaputra is living, experiencing the specific bitter fruit of ancient evil deeds — deeds that were wrongly performed and never atoned for.&rdquo; — Lord Mahavira to Gautama</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Mrigaputra</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Duhkhavipak</span> — the first Shrutaskandha (volume) of the Vipaak Sutra — presents ten case studies of souls experiencing intense suffering in their present lives as the direct, traceable fruit of evil deeds performed in a previous birth. Chapter 1 is the story of <span class="text-primary font-semibold">Mrigaputra</span>: a child born without any functioning senses or limbs, hidden underground by his mother and fed food that immediately transforms to pus and blood within his body.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Gautam Swami — Lord Mahavira's senior-most disciple — discovers this child and, through Mahavira's omniscient knowledge, learns who he was: a tax-collector named Ikaai Rathod who administered five hundred villages with systematic cruelty, lying, oppression, and violence. The chapter traces the full karmic chain: from Ikaai Rathod's evil deeds → sixteen incurable diseases → death → first hell → rebirth as Mrigaputra. And it ends with Mrigaputra's entire future across millions of rebirths — lion, hells, animals, plants, elements — and finally, liberation.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">31</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">7</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-2xl font-headline font-bold text-primary">Prose</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Narrative Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-2xl font-headline font-bold text-primary">Gautama</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">The Inquirer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Section -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Duhkhavipak · Adhyayana 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 31 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, and commentary. These are prose narrative sutras — the living words of Lord Mahavira, transmitted across 2500 years.</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider" id="section-frame"><span>Part I &mdash; The Narrative Frame</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तेणं कालेणं तेणं समएणं चंपा णामं णयरी होत्था । वण्णओ । पुण्णभद्दे चेइए । वण्णओ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Champa; its description follows. There was a garden called Purnabhadra; its description likewise follows.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The canonical opening formula "at that time, at that period" marks the beginning of a sacred transmission. "Time" (kāla) refers to the general era of the fourth descending cycle of the cosmic clock; "period" (samaya) refers specifically to the span of Mahavir's earthly presence. Champa was one of the greatest cities of ancient India — celebrated for wealth, culture, and learning. The garden Purnabhadra, with its yaksha shrine, was its sacred public gathering-space. By opening there, the scripture grounds itself in a real world before the story of hidden suffering begins.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Long ago, in the great city of Champa, there was a beautiful garden — and that is where this story was first told.</p>
+        <div class="concept-tags"><span class="concept-tag">Sacred Setting</span><span class="concept-tag">Champa</span><span class="concept-tag">Canonical Opening</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे सुहंसुहेणं विहरमाणे जेणेव चंपाणयरी जेणेव पुण्णभद्दे चेइए तेणेव उवागच्छइ । परिसा णिग्गया । धम्मं सोच्चा णिसम्म जामेव दिसिं पाउब्भूया तामेव दिसिं पडिगया ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">At that time, the disciple of Mahavir — the monk Arya Sudharmashvami, endowed with noble birth, accompanied by five hundred monks, wandering village to village across the earth with ease and contentment — arrived at Champa's Purnabhadra garden, accepted lodging, and cultivated his soul through restraint and austerity. The assembly came out, heard the teaching, and returned in the direction from which they had come.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Arya Sudharmashvami was the last surviving chief disciple of Mahavir and the living chain through whom Mahavir's teachings passed into the canonical Agamas — he is the transmitter of the Vipaak Sutra itself. "Wandering from village to village with ease and contentment" describes the Jain monk's ideal life: never staying more than a few days in one place, dependent on nothing but the natural world, practicing both restraint (refraining from harm) and austerity. The assembly streaming out to hear teaching, then quietly dispersing — each returning to their own direction — captures the organic, unhurried rhythm of how dharma was transmitted in ancient India.</p>
+        <p class="simple-explanation"><b>The simple version:</b> One of Mahavir's great disciples, Sudharmashvami, arrived in Champa with five hundred monks, taught the dharma, and the crowd listened and went home.</p>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Wandering Monks</span><span class="concept-tag">Dharmic Transmission</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अंतेवासी अज्जजंबू णामं अणगारे सतुस्सहे जाव संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । तए णं अज्जजंबू जायसड्ढे जाव जेणेव अज्जसुहम्मे अणगारे तेणेव उवागए, तिक्खुत्तो आयाहिणं पयाहिणं करेइ, वंदइ णमंसइ जाव पज्जुवासमाणे एवं वयासी —</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">At that time, the disciple of Sudharmashvami — the monk named Arya Jambushvami, full of great energy, dwelling through restraint and austerity — arose filled with faith and longing, approached Sudharmashvami, circumambulated three times clockwise, bowed and saluted reverently, and while sitting in attentive service, spoke thus:</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Arya Jambushvami was Sudharmashvami's direct disciple — the last human being in this cosmic era to attain liberation through knowledge and renunciation. He represents the final living link in the direct chain from Mahavir. The triple clockwise circumambulation is not ritual formality — it embodies vinaya, the virtue of humility before one's teacher, considered a prerequisite for true learning. One does not approach a great teacher merely with curiosity; one prepares the inner vessel through reverence. "Filled with faith and longing" describes the ideal state for receiving wisdom — not skepticism, not passivity, but awakened, faithful yearning.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Sudharmashvami's student Jambushvami came to ask a question — he circled his teacher three times respectfully, bowed deeply, and then asked.</p>
+        <div class="concept-tags"><span class="concept-tag">Jambushvami</span><span class="concept-tag">Discipleship</span><span class="concept-tag">Humility Before Teacher</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जइ णं भंते ! समणेणं भगवया महावीरेणं जाव संपत्तेणं दसमस्स अंगस्स पण्हावागरणस्स अयमट्ठे पण्णत्ते, एक्कारसमस्स णं भंते ! अंगस्स विवागसुयस्स समणेणं भगवया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते ?</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Venerable sir — if the liberated Mahavir has taught the meaning in the tenth scripture, the Prashnavyakarana — then what meaning has he taught in the eleventh scripture, the Vipaak Sutra?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Jambushvami's question is elegantly framed: he first acknowledges what the tenth Anga teaches before asking about the eleventh. The Jain canonical corpus of twelve Angas is a systematic body of knowledge — each scripture serving a distinct purpose. The title "Vipaak Sutra" itself means "scripture of karmic ripening" — vipaak denotes the fruition or maturation of previously accumulated karma. This single question is the frame through which the entire scripture unfolds; every story that follows is Sudharmashvami's answer to it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Jambushvami asked: "The tenth scripture has been explained — now what is the eleventh scripture, the Vipaak Sutra, actually about?"</p>
+        <div class="concept-tags"><span class="concept-tag">Vipaak Sutra</span><span class="concept-tag">Karmic Ripening</span><span class="concept-tag">Scripture's Purpose</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं अज्जसुहम्मे अणगारे जंबुं अणगारं एवं वयासी— एवं खलु जंबू ! समणेणं भगवया महावीरेणं जाव संपत्तेणं एक्कारसमस्स अंगस्स विवागसुयस्स दो सुयक्खंधा पण्णत्ता, तं जहा— दुहिव्वागा य सुहिव्वागा य ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk Sudharmashvami replied: "Know this, Jambushvami! The venerable ascetic Mahavir has taught that the Vipaak Sutra has two volumes — the Volume of Suffering Fruition and the Volume of Happiness Fruition."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The division of the Vipaak Sutra into two equal volumes is itself a profound philosophical statement: karma ripens in both directions. The first volume (Duhkhavipak) presents ten stories of beings experiencing severe suffering as the direct fruit of evil deeds. The second volume (Sukhavipak) presents ten stories of beings experiencing great happiness and prosperity as the fruit of virtuous deeds. Together they demonstrate that karma is not punishment handed out by a god — it is a natural, impersonal law of cause and consequence. What we experience today is the fruition of choices already made; what we choose today is the seed of what is to come.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Sudharmashvami explained: the Vipaak Sutra has two parts — stories of suffering caused by past bad deeds, and stories of happiness caused by past good deeds.</p>
+        <div class="concept-tags"><span class="concept-tag">Two Volumes</span><span class="concept-tag">Duhkhavipak</span><span class="concept-tag">Sukhavipak</span><span class="concept-tag">Karma as Natural Law</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं खलु जंबू ! समणेणं भगवया महावीरेणं जाव संपत्तेणं दुहिव्वागाणं दस अज्झयणा पण्णत्ता, तं जहा—<br/>मियापुत्ते य उज्झियए, अभग्ग सगडे बहुस्सई णंदी ।<br/>ऊंबर सोरियदत्ते य, देवदत्ता य अंजू य ।।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Know this, Jambushvami! The venerable ascetic Mahavir has taught ten chapters in the Volume of Suffering Fruition: Mrigaputra, Ujjhitaka, Abhagna, Shakata, Brihaspati, Nandi, Umbara, Shoriadatta, Devadatta, and Anju."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ten names are given in a single mnemonic verse — the ancient method by which students memorized the structure of large scriptures before writing was in common use. Each name is a protagonist: a real being enduring extraordinary suffering in their present life as the direct consequence of terrible deeds in a previous birth. These are not parables invented for moral instruction — the Jain tradition holds them as actual accounts of real beings, spoken by an omniscient being who perceived their histories directly with perfect knowledge across time.</p>
+        <p class="simple-explanation"><b>The simple version:</b> There are ten stories of suffering — Mrigaputra is first, followed by nine others — each one a real being whose past deeds produced their present pain.</p>
+        <div class="concept-tags"><span class="concept-tag">Ten Chapters</span><span class="concept-tag">Mnemonic Verse</span><span class="concept-tag">Real Accounts</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं खलु जंबू ! तेणं कालेणं तेणं समएणं मियग्गामे णामं णयरे होत्था । वण्णओ । तस्स णं मियग्गामस्स णयरस्स बहिया उत्तरपुरत्थिमे दिसीभाए चंदणपायवे णामं उज्जाणे होत्था । सव्वोउय पुप्फ फल समिद्धे, वण्णओ । तत्थ णं सुधम्मस्स जक्खस्स जक्खायतणे होत्था ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Know this, Jambushvami! At that time, at that period, there was a city called Mrigagram. Outside that city, to the north-east, was a garden called Chandanapādapa — rich with flowers and fruits of every season. In it was a shrine of the yaksha named Sudharm."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">With this sutra, the inner story begins — the actual narrative of Chapter 1 opens within the outer frame of the Jambushvami-Sudharmashvami dialogue. Mrigagram (literally "deer-village") is a real city whose description follows standard canonical patterns. The north-east direction was considered auspicious in both Jain and Vedic traditions — gardens, shrines, and sacred spaces were placed there. The Chandanapādapa garden, fragrant with sandalwood trees, blooming in all seasons, is a beautiful outer setting — which will contrast sharply with the underground suffering about to be revealed within the same city walls.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The story of Mrigaputra takes place in a city called Mrigagram, which had a beautiful garden to the north-east — and this is where everything is about to unfold.</p>
+        <div class="concept-tags"><span class="concept-tag">Mrigagram</span><span class="concept-tag">Sacred Garden</span><span class="concept-tag">Story Begins</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider" id="section-child"><span>Part II &mdash; Mrigaputra — The Born-Blind Child</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तत्थ णं मियग्गामे णयरे विजए णामं खत्तिए राया परिवसइ । तस्स णं विजयस्स खत्तियस्स पुत्ते मियाएदेवीए अत्तए मियापुत्ते णामं दारए होत्था । जाइ अंधे, जाइ मूए, जाइ बहिरे, जाइ पंगुले, हुंडे य वायव्वे य । णत्थि णं तस्स दारगस्स हत्था वा पाया वा कण्णा वा अच्छी वा णासा वा । केवलं से तेसिं अंगोवंगाणं आगिई आगिईमेत्ते । तए णं सा मियादेवी तं मियापुत्तं दारगं रहस्सियंसि भूमिघरंसि रहस्सिएणं भत्तपाणेणं पिंडजागरमाणी पिंडजागरमाणी विहरइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In that city of Mrigagram, there lived a Kshatriya king named Vijay. His son — born of Queen Mrigadevi — was a child named Mrigaputra: blind from birth, mute from birth, deaf from birth, lame from birth, misshapen and afflicted with wind-disease. He had no hands, no feet, no ears, no eyes, no nose — only the faintest outline suggesting where those limbs should have been. And Queen Mrigadevi was secretly nourishing him in a hidden underground chamber.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra delivers its revelation with devastating directness: a child who is blind, deaf, mute, limbless, and deformed — hidden underground by a mother too ashamed or afraid to let the world see him. The phrase "only the faintest outline of where limbs should be" conveys a body that is human in form but barely so — a living sketch of a person. From the Jain perspective, this being is an immortal, conscious soul experiencing the specific fruits of specific past karma, housed in a body that reflects those karmas exactly. The mother's act of hiding him in an underground chamber (bhūmighar — literally "earth-house") while secretly feeding him is not cruelty — it is desperate, devoted concealment. She keeps him alive, but invisible, below the world.</p>
+        <p class="simple-explanation"><b>The simple version:</b> King Vijay's son, Mrigaputra, was born completely helpless — no working limbs or senses — and his mother kept him hidden in a secret room underground.</p>
+        <div class="concept-tags"><span class="concept-tag">Mrigaputra</span><span class="concept-tag">Born Blind and Limbless</span><span class="concept-tag">Underground Chamber</span><span class="concept-tag">Karmic Body</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तत्थ णं मियग्गामे णयरे एगे जाइअंधे पुरिसे परिवसइ । से णं एगेणं सच्चखुएणं पुरिसेणं पुराओ दंडेणं पगडिज्जमाणे पगडिज्जमाणे फुट्टहडाहडसीसे मच्छिया-चंगरपहकरेणं अणिण्णज्जमाण मियग्गामे णयरे गिहे गिहे कालुण-वडियाए वित्ति कप्पेमाणे विहरइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In that same city of Mrigagram there also lived a man who was blind from birth; he was led by a sighted guide walking ahead with a stick — his head crawling with lice and flies, his matted filthy hair buzzing with insects — and thus he made his living going from house to house throughout the city, begging out of pitiable necessity.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The blind beggar appears as a secondary figure alongside Mrigaputra — both are blind from birth, but their conditions differ vastly. Mrigaputra is hidden below ground, completely helpless, tended by his mother; the blind beggar moves through the visible world, guided by another, reduced to begging. The graphic detail of lice swarming his head and flies buzzing around him is the text's honest depiction of severe poverty and disability in the ancient world without any social support. This parallel figure establishes that the city contains multiple souls experiencing difficult karmic conditions simultaneously — visible and hidden, above ground and below it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In the same city, there was another man born blind who had to beg from house to house, led by a helper — his head crawling with flies and lice. His condition was visible to all.</p>
+        <div class="concept-tags"><span class="concept-tag">Blind Beggar</span><span class="concept-tag">Visible Suffering</span><span class="concept-tag">Parallel Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे जाव समोसरिए । परिसा णिग्गया । तए णं से विजए खत्तिए इमीसे कहाए लच्छूए समाणे जहा कुणिए तहा णिग्गए जाव पज्जुवासइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">At that time, at that period, the venerable ascetic Mahavir arrived and established his presence near Mrigagram; the assembly streamed out. Then King Vijay, upon hearing the news — just as King Konika of Champa had done — came out and attended upon Mahavir in reverence.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Mahavir's arrival is the turning point of the entire story. The canonical term "samosarie" — arrived and established his sacred presence — indicates that Mahavir did not merely walk into a city: his presence established a field of omniscient awareness in which hidden truths could surface. The assembly streaming out spontaneously reflects the irresistible pull of his presence. King Vijay's response is compared to King Konika's — a shorthand for perfect Kshatriya reverence: circumambulation, prostration, and attentive service. Mahavir's arrival here is not coincidental — omniscient beings move through the world with full awareness of where their presence will serve the greatest purpose.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Mahavir arrived near Mrigagram. The whole city came out to see him — including King Vijay, who went and sat respectfully before him.</p>
+        <div class="concept-tags"><span class="concept-tag">Mahavir Arrives</span><span class="concept-tag">Sacred Presence</span><span class="concept-tag">King Vijay</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं से जाइअंधे पुरिसे तं महया जणसद्दं सुणेत्ता तं पुरिसं एवं वयासी— किं णं देवाणुप्पिया ! अज्ज मियग्गामे णयरे इंदमहे इ वा खंदमहे इ वा उज्जाण-गिरिजत्ता इ वा, जओ णं बहवे उग्गा भोगा एगदिसिं णिग्गच्छंति ? तए णं से पुरिसे जाइअंधं पुरिसं एवं वयासी— एवं खलु देवाणुप्पिया ! समणे भगवं महावीरे जाव विहरइ । तए णं जाइअंधे पुरिसे एवं वयासी— गच्छामो णं देवाणुप्पिया ! अम्हे वि समणं भगवं महावीरं पज्जुवासामो । तए णं जाइअंधे पुरिसे पुराओ दंडेणं पुरिसेणं पगडिज्जमाणे जेणेव समणे भगवं महावीरे तेणेव उवागच्छइ, तिक्खुत्तो आयाहिणं पयाहिणं करेइ, वंदइ णमंसइ जाव पज्जुवासइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Hearing the great commotion of the crowd, the born-blind man asked his guide: "Dear friend — is there a festival of Indra, or of Skanda, or a garden procession today? Why are so many noblemen streaming in one direction?" His guide replied: "No — the venerable ascetic Mahavir has arrived." The blind man said: "Then let us also go and attend upon Mahavir." And so, led by his guide, the blind man arrived at Mahavir, circumambulated three times, bowed and saluted, and sat in attendance.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The blind beggar's instinct to go and attend Mahavir — despite his helplessness, despite being blind, despite having to be led — is one of the quietly beautiful moments of this chapter. He cannot see the Teacher, but he hears the crowd and trusts his guide toward something greater. There is a teaching embedded here: the inner impulse toward dharma does not require perfect conditions or perfect senses — it requires only the willingness to move in that direction. His three circumambulations and salutation are performed with the same reverence as a king's. In Mahavir's presence, both king and beggar sit equally in the assembly.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The blind beggar heard the crowd and asked what was happening — when he heard it was Mahavir, he said "let's go too" — and was led there and bowed with full reverence.</p>
+        <div class="concept-tags"><span class="concept-tag">Impulse Toward Dharma</span><span class="concept-tag">Faith Without Sight</span><span class="concept-tag">Equal Assembly</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स जेट्ठे अंतेवासी इंदभूई णामं अणगारे जाव विहरइ । तए णं से भगवं गोयमे तं जाइअंधपुरिसं पासइ, पासित्ता जायसड्ढे एवं वयासी— अत्थि णं भंते ! केई पुरिसे जाइअंधे जाइअंधारूवे ? हंता अत्थि । कहं णं भंते ! ? एवं खलु गोयमा ! इहेव मियग्गामे णयरे विजयस्स खत्तियस्स मियाएदेवीए अत्तए मियापुत्ते णामं दारए जाइअंधे जाइअंधारूवे। तए णं से भगवं गोयमे एवं वयासी— इच्छामि णं भंते ! तुब्भेहिं अब्भणुण्णाए समाणे मियापुत्तं दारगं पासित्तए । अहासुहं देवाणुप्पिया !</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Mahavir's senior-most disciple, the monk Indrabhuti (Gautam Swami), saw the born-blind beggar and asked: "Venerable sir, is there anyone who is blind from birth and also of born-blind form — without limbs?" "Yes, there is." "Where, venerable sir?" "In this very city, Gautam — in the family of King Vijay, the child named Mrigaputra." Gautam Swami bowed and said: "Venerable sir, with your permission, I wish to go and see the child Mrigaputra." Mahavir replied: "As you please, beloved of the gods."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Gautam Swami sees the blind beggar moving through the crowd and asks Mahavir a question that goes far deeper than curiosity about that man — his question opens into a hidden reality within the same city. Mahavir's answer is omniscient knowledge made specific: there is a child right here whose condition is even more extreme than the beggar's. Gautam's response — "with your permission, I wish to go and see him" — is the compassionate impulse of a great soul: he is not satisfied by description; he wants to be present with the suffering itself. Mahavir's simple "as you please" is full of trust.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Gautam Swami noticed the blind beggar and asked Mahavir about him — and Mahavir revealed there was actually a child in this very city in a far worse condition, hidden underground, and Gautam immediately asked to go see him.</p>
+        <div class="concept-tags"><span class="concept-tag">Gautam Swami</span><span class="concept-tag">Omniscient Knowledge</span><span class="concept-tag">Compassionate Presence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider" id="section-visit"><span>Part III &mdash; Gautam Swami Visits Mrigaputra</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं से भगवं गोयमे समणेणं भगवया महावीरेणं अब्भणुण्णाए समाणे हट्टुट्टे समणस्स भगवओ महावीरस्स अंतियाओ पडिणिक्खमेइ, पडिणिक्खमित्ता अतुरियं जाव रियं सोहेमाणे जेणेव मियग्गामे णयरे तेणेव उवागच्छइ, जेणेव मियाएदेवीए गिहे तेणेव उवागच्छइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having received Mahavir's permission, Gautam Swami — joyful, with hair standing in delight — departed from Mahavir's presence; departing, he moved unhurriedly, carefully observing the path of proper conduct, and arrived at the city of Mrigagram and at Queen Mrigadevi's house.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The word "haṭṭuṭṭhe" — "joyful, with hair standing in joy" — describes Gautam's inner state as he sets out to visit a child living in hellish conditions. This is not contradiction — for the liberated in heart, the opportunity to be present with suffering, to bring awareness and compassion to a hidden place, is itself a source of deep gladness. The description of his walking — "unhurriedly, carefully observing the path" — refers to the Jain monk's mindful gait (īryāsamiti): walking slowly with eyes cast down to avoid stepping on insects. Even in moving toward a compassionate act, the monk does not abandon mindfulness. Every step is practice.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Gautam Swami, happy to have Mahavir's permission, walked carefully and mindfully through the city and arrived at Mrigadevi's house.</p>
+        <div class="concept-tags"><span class="concept-tag">Mindful Walking</span><span class="concept-tag">Joy in Compassion</span><span class="concept-tag">Monk's Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं सा मियादेवी भगवं गोयमं एज्जमाणं पासइ, पासित्ता हट्टुट्टे एवं वयासी— संदिसंतु णं देवाणुप्पिया ! किमागमणप्पओयणं ? तए णं भगवं गोयमे मियादेविं एवं वयासी— अहं णं देवाणुप्पिए ! तव पुत्तं पासिउं हव्वमागए । तए णं सा मियादेवी मियापुत्तस्स दारगस्स अणुमग्गजायए चत्तारि पुत्ते सव्वालंकार विभूसिए करेइ, करेत्ता भगवओ गोयमस्स पाएसु पाडेइ, एवं वयासी— एए णं भंते ! मम पुत्ते, पासह ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Queen Mrigadevi, seeing Gautam Swami approaching, was overjoyed and said: "Tell me, beloved of the gods — what is the purpose of your coming?" Gautam replied: "Dear lady, I have come to see your son." Then Mrigadevi dressed Mrigaputra's four younger brothers — born after him — in full ornaments and finery, placed them at Gautam Swami's feet, and said: "Venerable sir — these are my sons. Please see them."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Mrigadevi's response is poignant and entirely human: when a holy man says "I have come to see your son," she immediately presents her four beautiful, healthy sons — decked in jewelry and finery — and says "here are my sons." She cannot bring herself to say "Mrigaputra" out loud, cannot acknowledge the hidden child underground. It is an act of denial born of shame and grief. She offers what is beautiful and acceptable in place of what is real and concealed. Gautam Swami sees through it instantly — but his response is not rebuke; it is gentle, precise, and compassionate.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When Gautam said he came to see her son, Mrigadevi brought out her four other healthy sons and showed them off — she couldn't bring herself to mention the child hidden underground.</p>
+        <div class="concept-tags"><span class="concept-tag">Mrigadevi's Denial</span><span class="concept-tag">Shame and Grief</span><span class="concept-tag">Hidden Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं से भगवं गोयमे मियादेविं एवं वयासी— णो खलु देवाणुप्पिए ! अहं एए तव पुत्ते पासिउं हव्वमागए । तत्थ णं जे से तव जेट्ठे मियापुत्ते दारए जाइअंधे जाइअंधारूवे, जं णं तुमं रहस्सियंसि भूमिघरंसि रहस्सिएणं भत्तपाणेणं पिंडजागरमाणी विहरसि, तं णं अहं पासिउं हव्वमागए । तए णं सा मियादेवी एवं वयासी— से के णं गोयमा ! तहारूवे णाणी वा तवस्सी वा, जेणं एसमट्ठे मम ताव रहस्सीकए तुब्भं हव्वमक्खाए ? तए णं भगवं गोयमे एवं वयासी— मम धम्मायरिए समणे भगवं महावीरे — तओ णं अहं जाणामि ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Gautam Swami said: "No, dear lady — I have not come to see those sons. I have come to see your eldest, Mrigaputra — the one born-blind and without limbs — whom you are secretly nourishing in a hidden underground chamber." Mrigadevi said: "Who is the knower of such wisdom that he revealed to you what I have kept so secret?" Gautam replied: "My teacher, the venerable ascetic Mahavir — from him I know."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Gautam's response dismantles Mrigadevi's protective fiction with complete gentleness: he names the hidden child by name, describes his condition exactly, and names the underground chamber. Nothing is hidden from omniscience. Mrigadevi's question — "who is the knower who revealed my secret?" — is itself a moment of awakening: something she has carefully guarded from the world has been seen by someone whose knowledge reaches beyond physical observation. Gautam's answer is simple: "My teacher, Mahavir." In five words, he points to the source of all that follows.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Gautam gently told Mrigadevi he already knew about the hidden child underground — and when she asked how, he said: "My teacher, Mahavir, told me."</p>
+        <div class="concept-tags"><span class="concept-tag">Omniscience Revealed</span><span class="concept-tag">Mahavir's Knowledge</span><span class="concept-tag">Nothing Hidden</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जावं च णं मियादेवी भगवया गोयमेण सड्ढिं एयमट्टुं संलवइ, तावं च णं मियापुत्तस्स दारगस्स भत्तवेला जाया विहोत्था । तए णं सा मियादेवी भगवं गोयमं एवं वयासी— तुब्भे णं भंते ! इहं चेव चिट्ठह, जा णं अहं तुब्भं मियापुत्तं उवदंसेमि — जेणेव भत्तपाणघरे तेणेव उवागच्छइ, वत्थपरियट्टणं करेइ, कट्टुसगडियं गिण्हइ, विउलस्स असण-पाण-खाइम-साइमस्स भरेइ, भरित्ता तं कट्टुसगडियं अणुकड्डुमाणी जेणेव भगवं गोयमे तेणेव उवागच्छइ — एह णं तुब्भे भंते ! मम अणुगच्छह, जा णं अहं तुब्भं मियापुत्तं उवदंसेमि ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">While Mrigadevi was conversing with Gautam Swami, the child Mrigaputra's feeding time arrived. She said: "Please wait here, venerable sir — I will show you Mrigaputra." She went to the kitchen, changed her garments, took a wooden cart, filled it with abundant food — solid food, liquids, sweets, and delicacies — and pulling it back, said: "Please follow me, venerable sir — I will show you Mrigaputra." And Gautam Swami followed behind.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The detail of the wooden cart filled with abundant food is revealing: despite keeping her son hidden, Mrigadevi feeds him bountifully — solid meals, liquids, snacks, delicacies. There is fierce, devoted love in this act. The changing of garments before feeding him suggests a ritual purity in her routine — she prepares as one might prepare for a sacred rite, even in this underground sadness. Gautam Swami follows silently. He does not speak, advise, or preach — he simply follows the mother to the hidden child. This is contemplative presence at its finest: the willingness to go into the difficult place and simply witness.</p>
+        <p class="simple-explanation"><b>The simple version:</b> It was feeding time, so Mrigadevi packed a cart full of food, changed her clothes, and said "follow me" — and Gautam walked quietly behind her.</p>
+        <div class="concept-tags"><span class="concept-tag">Devoted Love</span><span class="concept-tag">Sacred Routine</span><span class="concept-tag">Silent Witness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं सा मियादेवी तं कट्टुसगडियं अणुकड्डुमाणी जेणेव भूमिघरे तेणेव उवागच्छइ, उवागच्छित्ता चउप्पुडेणं वत्थेणं मुहं बंधेइ, मुहं बंधमाणी भगवं गोयमं एवं वयासी— तुब्भे वि य णं भंते ! मुहपोत्तियाए मुहं बंधह । तए णं से भगवं गोयमे मियादेवीए एवं वुत्ते समाणे मुहपोत्तियाए मुहं बंधेइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Arriving at the underground chamber, Mrigadevi bound her face with a four-layered cloth and said to Gautam Swami: "You too, venerable sir — cover your nose and mouth with your mouth-cloth." And Gautam Swami, hearing this, covered his mouth with his muhapatti.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The four-layered cloth Mrigadevi wraps around her face before opening the underground chamber directly signals the terrible stench within. Jain monks carry a muhapatti (small mouth-cloth) as part of their standard equipment — originally to avoid accidentally inhaling small insects, but here used to shield against an overpowering odor. That even a monk trained in extreme austerity needs to cover his nose before entering tells us something about the severity of what lies behind that door. Mrigadevi has done this countless times alone, in secret — covering her face, opening the chamber, feeding her child in stench and darkness. The enormity of her daily act of love becomes fully visible here.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When they reached the underground room, Mrigadevi covered her nose with a thick cloth and told Gautam to cover his too — because the smell inside was overwhelming.</p>
+        <div class="concept-tags"><span class="concept-tag">Underground Chamber</span><span class="concept-tag">Stench of Karma</span><span class="concept-tag">Daily Love in Darkness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं सा मियादेवी परमुही भूमिघरस्स दुवारं विहाडेइ । तए णं गंधे णिग्गच्छइ, से जहाणामए अहिमडे इ वा, गोमडे इ वा, सुणहमडे इ वा, मज्जारमडे इ वा, मणुस्समडे इ वा, महिसमडे इ वा, मूसगमडे इ वा, आसमडे इ वा, हत्थिमडे इ वा, सीहमडे इ वा, वग्गमडे इ वा, दीविगमडे इ वा — मयकुहिय-विणटु-दुरिभि-दुभिगंधे किमिजालाउलसंसत्ते असुहि-विलीण-विगय-बीभच्छ दरिसणिज्जे भवेयारूवे सिया ? णो इणट्ठे समट्ठे — एत्तो अणिट्टतराए चेव अकंततराए चेव अप्पियतराए चेव अमणुण्णतराए चेव गंधे पण्णत्ते । तए णं से मियापुत्ते दारए तस्स विउलस्स असण-पाण-खाइम-साइमस्स गंधेणं अभिभूए समाणे तेसिं विउलंसि असण-पाण-खाइम-साइमंमि मुच्छिए तं विउलं असण-पाण-खाइमं साइमं आसएणं आहारेइ, आहारित्ता खिप्पामेव विद्धंसेइ, तओ पच्छा पूयताए य सोणियताए य परिणमेइ; तं पि य णं से पूयं च सोणियं च आहारेइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Mrigadevi, turning her face away, opened the door of the underground chamber. A smell came out — was it like a dead snake, a dead cow, a dead dog, a dead cat, a dead human, a dead buffalo, a dead rat, a dead horse, a dead elephant, a dead lion, a dead tiger, a dead panther — rotted, swarming with maggots, dissolving, revolting beyond sight? The text declares: No — the smell was far worse than any of those — more repulsive, more unbearable, more disagreeable, more abhorrent than all of them combined. Then the child Mrigaputra — overwhelmed by the smell of the food — consumed it reflexively; and the food immediately transformed, disintegrating into pus and blood — and he consumed even the pus and blood as his nourishment.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is perhaps the most viscerally confronting passage in the chapter — and it is written that way deliberately. The Vipaak Sutra does not flinch. The elaborate list of dead animals — built up carefully and then demolished: no, none of those, not even close — forces the reader to feel the magnitude of what is here. The food turning instantly to pus and blood in his body (the condition called "Agnika" or fire-disease, described in later sutras) is the karmic body made fully visible: he eats, but what he receives is rot. And yet — in the midst of this horror — the child is alive. He feels. He eats. He exists. That is the Jain teaching: no condition, however terrible, extinguishes the soul.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When the underground room opened, the smell was beyond anything imaginable — and inside, Mrigaputra ate the food that was brought, but it turned to pus and blood in his body the moment he swallowed it.</p>
+        <div class="concept-tags"><span class="concept-tag">Karmic Body</span><span class="concept-tag">Agnika Disease</span><span class="concept-tag">Pus and Blood</span><span class="concept-tag">Soul Cannot Be Extinguished</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+</main>
+
+<!-- Part 2 begins -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 pb-24">
+
+  <!-- PART IV -->
+  <div class="section-divider" id="section-inquiry"><span>Part IV &mdash; Gautam's Compassionate Inquiry</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं भगवओ गोयमस्स तं मियापुत्तं दारगं पासित्ता अयमेयारूवे मणोगए संकप्पे समुप्पज्जित्था— अहो णं इमे दारए पुरापोराणाणं दुच्चिण्णाणं दुप्पडिक्कंताणं असुभाणं पावाणं कडाणं कम्माणं पावगं फलविवित्तिविसेसेणं पच्चणुभवमाणे विहरइ । ण मे दिट्टा परगा वा णेरइया वा — पच्चकखं खलु अयं पुरिसे परगपडिरूवयं वेयणं वेदेइ । जेणेव समणे भगवं महावीरे तेणेव उवागच्छइ, वंदइ णमंसइ, एवं वयासी — से णं भंते ! पुरिसे पुव्वभवे के आसी ? किं णामए वा किं गोत्तए वा ? कयरंसि गामंसि वा णयरंसि वा ? किं वा दच्चा, किं वा भोच्चा, किं वा समायरित्ता, केसिं वा पुरापोराणाणं कम्माणं पावगं फलविवित्तिविसेसेणं पच्चणुभवमाणे विहरइ ?</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Seeing Mrigaputra, this thought arose in Gautam Swami's mind: "Alas — this child is experiencing the specific bitter fruit of ancient evil deeds — wrongly performed, never atoned for, impure, sinful. I have never before seen a hell-being directly — but truly, this person is experiencing pain identical to a hell-being right here before my eyes." He went to Mahavir, bowed, and asked: "Venerable sir — who was this person in his previous life? What was his name and lineage? In what village or city did he live? What did he give, what consume, what practice — that he is now experiencing this specific bitter fruition?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Gautam Swami's reaction upon seeing Mrigaputra is itself a teaching: he does not see "a deformed child." He sees a being experiencing the fruition of accumulated karma — and his first instinct is not pity that maintains distance, but inquiry that seeks understanding. His comparison to a hell-being is precise: in Jain cosmology, hell-beings experience the most intense suffering possible without dying; Mrigaputra's pain — the stench, the bodily disintegration, the consumption of pus and blood — mirrors that infernal experience within a human birth. The four questions Gautam asks — "Who was he? What was his name? Where did he live? What did he do?" — are the questions that karmic understanding demands: every effect has a traceable cause.</p>
+        <p class="simple-explanation"><b>The simple version:</b> After seeing Mrigaputra, Gautam went back to Mahavir and said: "That child suffers like someone in hell — please tell me who he was in his past life and what he did to cause this."</p>
+        <div class="concept-tags"><span class="concept-tag">Compassionate Inquiry</span><span class="concept-tag">Hell-Being Comparison</span><span class="concept-tag">Tracing the Cause</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V -->
+  <div class="section-divider" id="section-past"><span>Part V &mdash; Mahavir Reveals the Past: Ikaai Rathod</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">गोयमा ! तेणं कालेणं तेणं समएणं इह जंबूदीवे दीवे भारहे वासे सयदुवारे णामं णयरे होत्था जाव वण्णओ । तत्थ णं सयदुवारे णयरे धणवई णामं राया होत्था । तस्स णं सयदुवारस्स णयरस्स अदूरसामंते दाहिणपुरत्थिमे दिसीभाए विजयवद्धमाणे णामं खेडे होत्था । तस्स णं विजयवद्धमाणस्स खेडस्स पंचगामसयाइं आभोए याविं होत्था । तत्थ णं विजयवद्धमाणे खेडे इक्काई णामं रटुकूडे होत्था, अहम्मिए अहम्माणुए अहम्मिट्ठे अहम्मक्खाई अहम्मपलोई अहम्मपलज्जणे अहम्मसमुदायारे जाव दुप्पडियाणंदे । से णं इक्काई रटुकूडे विजयवद्धमाणस्स खेडस्स पंचगामसयाणं आहेवच्चं जाव पालेमाणे विहरइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Know this, Gautam! At that time, in Jambudvipa, in Bharatavarsha, there was a city called Shatadvara. Near it, to the south-east, was a township called Vijayavardhaman — with five hundred villages in its domain. In that township there was a tax-collector named Ikaai Rathod: irreligious, following irreligion, speaking irreligion, looking through the lens of irreligion, delighting in irreligion, behaving against all righteousness — and deeply hostile to virtuous people. This Ikaai Rathod administered and governed the five hundred villages."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Mahavir's answer locates the past life precisely: a specific city, a specific township, a specific official. Ikaai Rathod was not a demon — he was a government administrator, a regional tax-collector. His evil lay entirely in how he used that position. The cascade of compound words — irreligious in every dimension: following, speaking, looking through, delighting in, behaving through irreligion — shows a soul entirely inverted from the good. He was not merely indifferent to dharma; he was actively, comprehensively opposed to it in every dimension of his life. And he held power over five hundred villages. What he chose to do with that power is what created Mrigaputra.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Mahavir began to tell the story: in a past life, Mrigaputra was a powerful official named Ikaai Rathod who ran five hundred villages — and he was thoroughly, completely evil in every way.</p>
+        <div class="concept-tags"><span class="concept-tag">Past Life Revealed</span><span class="concept-tag">Ikaai Rathod</span><span class="concept-tag">Power Without Dharma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.21</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं से इक्काई रटुकूडे विजयवद्धमाणस्स खेडस्स पंच गामसयाइं बहूहिं करेहि य भरेहि य विद्धीहि य उक्कोडाहि य पराभवेहि य देज्जेहि य भंजेहि य कुंतेहि य लंछपोसेहि य आलीवणेहि य पंथकोट्टिहि य ओवीलेमाणे, विहम्मेमाणे, तज्जेमाणे, तालेमाणे, णिठुणे करेमाणे विहरइ । तए णं से इक्काई रटुकूडे बहूणं राईसर-तलवर-माडंबिय-कोडुंबिय-इभ-सेट्ठि-सेणावइ-सत्थवाहाणं बहुसु कज्जेसु य कारणेसु य मंतेसु य गुज्झेसु य णिच्छएसु य ववहारेसु य सुणमाणे भणइ ण सुणेमि, असुणमाणे भणइ सुणेमि, एवं पस्समाणे, भासमाणे, गिण्हमाणे जाणेमाणे । तए णं से इक्काई रटुकूडे एयकम्मे एयप्पहाणे सुबहुं पावकम्मं किलकलुसं समज्जिणमाणे विहरइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">That Ikaai Rathod oppressed the five hundred villages through heavy taxation, forced levies, illegal surcharges, bribery, humiliation, extortion, destruction of livelihoods, false branding, slander, and highway robbery — oppressing and oppressing, violating, threatening, beating, being merciless. In all affairs and decisions involving noblemen, merchants, generals, and common-folk — when he had heard something, he said "I did not hear"; when he had not heard, he said "I heard"; similarly with seeing, speaking, taking, and knowing. Thus, with this single pursuit — accumulating vast amounts of sinful, defiling karma — he passed his days.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra presents an extraordinary catalog of the specific methods by which Ikaai Rathod oppressed his subjects. What is most striking is the systematic nature of his lying: in every possible dimension of knowing and speaking — hearing, seeing, speaking, receiving, deciding — he said the opposite of truth. This is not casual dishonesty; it is the total inversion of truth as a way of life. In Jain ethics, truthfulness is one of the five great vows precisely because untruth, when practiced systematically, corrupts the very soul. Ikaai Rathod's comprehensive pattern of cruelty and deception produced Mrigaputra: a being in whom every sense organ and limb is absent — a being who cannot see, hear, speak, or move. The fruition is, in the most precise sense, the shape of the crime.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Ikaai Rathod tortured the villages under him in every way imaginable — taking bribes, beating people, lying constantly — and all this evil accumulated into the karma that became Mrigaputra's suffering.</p>
+        <div class="concept-tags"><span class="concept-tag">Systematic Cruelty</span><span class="concept-tag">Lying as a Way of Life</span><span class="concept-tag">Karma Accumulates</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.22</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं तस्स रटुकूडस्स अण्णया कयाइ सरीरगंसि जमगसमगमेव सोलस रोगायंका पाउब्भूया । तं जहा—<br/>सासे कासे जरे दाहे, कुच्छिसूले भगंदरे ।<br/>अरिसे अजीरए दिट्ठी, मद्धसूले अकारए ।।<br/>अच्छिवेयणा कण्णवेयणा कंडू उयरे कोढे ।।<br/>तए णं से इक्काई रटुकूडे सोलसहिं रोगायंकेहिं अभिभूए समाणे कोडुंबिय पुरिसे सद्दावेइ — गच्छह णं तुब्भे देवाणुप्पिया ! विजयवद्धमाणे खेडे सिंगाडग-तिग-चउक्क-चच्चर-महापह-पहेसु महया महया सद्देणं उग्घोसेमाणा — इह खलु इक्काई रटुकूडस्स सरीरगंसि सोलस रोगायंका पाउब्भूया — तं जो णं इच्छइ वेज्जो वा जाव तेगिच्छियपुत्तो वा इक्काई रटुकूडस्स तेसिं सोलसण्हं रोगायंकाणं एगमवि उवसामितए, तस्स णं इक्काई रटुकूडे विउलं अत्थसंपयाणं दलयइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Then, suddenly one day, sixteen incurable diseases arose simultaneously in Ikaai Rathod's body: shortness of breath, cough, fever, burning sensation, abdominal colic, fistula, piles, indigestion, eye disease, headache, loss of appetite, eye-nerve pain, ear pain, itching, stomach disorder, and leprosy. Overwhelmed, he sent servants to announce throughout all the crossroads and highways of Vijayavardhaman: "Whoever — any physician or healer — cures even one of these sixteen diseases shall receive vast wealth."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sixteen diseases arriving simultaneously is the text's way of showing that the karmic fruition is total, not partial. In Jain understanding, the karma of violence, oppression, and harm binds itself to the subtle body in specific forms — each type of evil producing specific forms of physical suffering at the time of fruition. Ikaai Rathod's response — sending servants to announce a reward from every crossroads — is revealing: even in agony, he reaches for power and wealth as the solution. He never looks inward. He never considers what he has done. The announcement is broadcast from every public space — a grand, humiliating spectacle for a man who once commanded five hundred villages.</p>
+        <p class="simple-explanation"><b>The simple version:</b> All of a sudden, sixteen terrible diseases attacked Ikaai Rathod's body at the same time — and he sent servants to announce: anyone who cures even one disease will be richly rewarded.</p>
+        <div class="concept-tags"><span class="concept-tag">Sixteen Diseases</span><span class="concept-tag">Karmic Fruition</span><span class="concept-tag">Looking Outward Not Inward</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.23</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं से विजयवद्धमाणे खेडे इमं एयारूवं उग्घोसणं सोच्चा णिसम्म बहवे वेज्जा य जाव सत्थकोसहत्थगया जेणेव इक्काई रटुकूडस्स गिहे तेणेव उवागच्छइ, इक्काई रटुकूडस्स सरीरगं परामुसंति, तेसिं रोगाणं णिदाणं पुच्छंति, इक्काई रटुकूडस्स बहूहिं अभंगेहि य उवट्टणेहि य सिणेहपाणेहि य वमणेहि य विरेयणेहि य सेयणाहि य अवद्दहणाहि य अणुवासणाहि य वत्थिकम्मेहि य णिरूहेहि य सिरावेहेहि य तच्छणेहि य पच्छणेहि य सिरोवत्थीहि य तप्पणाहि य पुडपागेहि य छल्लीहि य मूलेहि य कंदेहि य फलेहि य बीएहि य सिलियाहि य गुलियाहि य ओसहेहि य भेसज्जेहि य इच्छंति तेसिं सोलसण्हं रोगायंकाणं एगमवि रोगायंकं उवसामितए, णो चेव णं संचाएंति उवसामितए । तए णं ते बहवे वेज्जा य संता तंता परितंता जामेव दिसिं पाउब्भूया तामेव दिसिं पडिगया ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Hearing the announcement, many physicians, scholars, and healers — carrying their instrument-boxes — arrived and examined Ikaai Rathod's body. They attempted to cure even one of the sixteen diseases using every possible treatment: massage, ointments, oily drinks, emetics, purgatives, steam, hot-iron application, enemas, bladder treatment, bloodletting, scraping, scarification, head-oil treatments, heated poultices, bark preparations, roots, bulbs, fruits, seeds, saps, pills, medicines, and medicinal compounds. Despite all efforts, they could not cure even one. Exhausted in body and mind, they all departed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra presents an extensive catalog of ancient Ayurvedic medical treatments — from massage to bloodletting, herbal roots to heated poultices — all deployed, all failing. The text is not anti-medicine; it is making a deeper point: karma-generated suffering cannot be addressed by physical means. These diseases did not arise from physical causes — they arose from the accumulated weight of moral choices. Medicine addresses the body; karma operates at the level of the soul. The parade of exhausted physicians departing is a powerful image: all their skill, all their instruments, all their knowledge — unable to touch even one of sixteen diseases. These particular ailments could not be cured; they could only be experienced and exhausted through the natural unfolding of karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Every doctor and healer in the region came and tried every possible treatment — but not a single one of the sixteen diseases could be cured. They all left defeated and exhausted.</p>
+        <div class="concept-tags"><span class="concept-tag">Medicine Cannot Cure Karma</span><span class="concept-tag">Physical vs Soul-Level Causes</span><span class="concept-tag">All Efforts Fail</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.24</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं से इक्काई रटुकूडे वेज्ज-पडियाइचिक्खए परियारगपरिच्चत्ते णिठ्ठिवण्णोसह-भेसज्जे सोलसरोगायंकेहिं अभिभूए समाणे रज्जे य रट्टे य जाव अंतेउरे य मुच्छिए जाव अज्झोववण्णे रज्जं च रट्टुं च जाव अंतेउरं च आसाएमाणे पीहेमाणे अभिलसमाणे अट्टदुहट्टवसट्टे अट्टाइज्जाइं वाससयाइं परमाउयं पालित्ता कालमासे कालं किच्चा इमीसे रयणप्पभाए पुढवीए उक्कोसेणं सागरोवम टिइएसु णेरइएसु णेरइयताए उववण्णे । से णं तओ अणंतरं उव्वट्टित्ता इहेव मियग्गामे णयरे विजयस्स खत्तियस्स मियाए देवीए कुच्छिसि पुत्ताए उववण्णे ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">That Ikaai Rathod — abandoned by physicians, attendants, and medicines; overwhelmed by sixteen incurable diseases; lost in attachment toward his kingdom, state, and inner chambers; craving, longing, enslaved by pain — having lived out his full lifespan of two hundred and fifty years, died at the appointed time and was born in the first hell, Ratnaprabha, at the highest station of suffering, as a hell-being. Then, immediately upon emerging from there, he was born as a son in the womb of Queen Mrigadevi, wife of King Vijay, right here in the city of Mrigagram.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The death scene of Ikaai Rathod is complete in its tragedy: abandoned by medicine, abandoned by attendants — and yet, in his final moments, his mind is still clutching at his kingdom, wealth, and inner chambers. He is dying and still craving the world he oppressed. He dies without letting go, without remorse, without a single thought for the thousands he harmed. The result: birth in the first hell at the worst possible station. And then, immediately upon completing his hellish existence, he is reborn not in freedom but directly into Mrigagram — into Mrigadevi's womb, as Mrigaputra. The karma was not exhausted; only transformed into a new form of suffering.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Ikaai Rathod died after 250 years, still desperately clinging to his wealth and power, was born in the first hell — and then, coming out, was born again right here as Mrigaputra.</p>
+        <div class="concept-tags"><span class="concept-tag">Death Without Letting Go</span><span class="concept-tag">First Hell</span><span class="concept-tag">Rebirth as Mrigaputra</span><span class="concept-tag">Karma Transforms</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VI -->
+  <div class="section-divider" id="section-rebirth"><span>Part VI &mdash; Mrigaputra's Rebirth and Hidden Life</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं तीसे मियादेवीए सरीरे वेयणा पाउब्भूया, उज्जला जाव दुरहियासा । जप्पभिइं च णं मियापुत्ते दारए मियाए देवीए कुच्छिसि गब्भत्ताए उववण्णे, तप्पभिइं च णं मियादेवी विजयस्स खत्तियस्स अणिट्टा जाव अमणामा जाया विहोत्था ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Then, in Mrigadevi's body, an intense pain arose — blazing, unbearable, deeply distressing. And from the very moment that the child Mrigaputra was conceived in Mrigadevi's womb, from that very moment, Mrigadevi became repugnant, displeasing, and offensive to King Vijay — unwanted and difficult to even look upon.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The moment the karmic being that was Ikaai Rathod entered Mrigadevi's womb, immediate consequences appeared: blazing physical pain in the mother's body, and an inexplicable aversion in the husband. This is not coincidence in the Jain understanding — the presence of a powerful dark karmic field (the accumulated evil karma of Ikaai Rathod now seeking embodiment) creates ripples that disturb the world around it even before birth. The king's sudden aversion to his own queen — with no stated external reason — reflects the karmic atmosphere of the being taking form within her. A soul darkened by generations of harm carries a weight that those nearby feel without knowing why.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The moment Mrigaputra was conceived, Mrigadevi's body was filled with terrible pain — and King Vijay suddenly found her unbearable to be around, without knowing why.</p>
+        <div class="concept-tags"><span class="concept-tag">Karmic Atmosphere</span><span class="concept-tag">Pain at Conception</span><span class="concept-tag">Ripples of Dark Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.26</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं तीसे मियाए देवीए अण्णया कयाइ पुव्वरत्तावरत्त-कालसमयंसि कुडुंबजागरियाए जागरमाणीए इमे एयारूवे अज्झत्थिए समुप्पज्जित्था— एवं खलु अहं विजयस्स खत्तियस्स पुव्विं इट्टा कंता पिया मणुण्णा धेज्जा विसासिया आसी । जप्पभिइं च णं मम इमे गब्भे कुच्छिसि उववण्णे, तप्पभिइं च णं अहं विजयस्स अणिट्टा अमणामा जाया । णेच्छइ णं विजए खत्तिए मम णामं वा गोयं वा गिण्हित्तए, किमंग पुण दंसणं वा परिभोगं वा । तं सेयं खलु ममं एयं गब्भं बहूहिं गब्भसाडणाहि य पाडणाहि य गालणाहि य मारणाहि य साडित्तए — एवं संपेहेइ, संपेहित्ता बहूणं खाराणि य कडुयाणि य तुवराणि य गब्भसाडणाणि य खायमाणी य पीयमाणी य इच्छइ तं गब्भं साडित्तए, णो चेव णं से गब्भे सडइ । तए णं सा मियादेवी जाहे णो संचाएइ तं गब्भं साडित्तए, ताहे संता तंता परितंता अकामिया असयंवसा तं गब्भं दुहं दुहेणं परिवहइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One night, lying awake keeping watch over the household, this thought arose in Mrigadevi: "Truly, I was once dear, beloved, and trusted by King Vijay. But from the moment this being entered my womb, I have become unwanted and offensive to him. He does not even wish to hear my name mentioned. Therefore it is best to destroy this fetus." Having thought so, she ate and drank many sharp, bitter, and abortion-inducing substances — and yet the fetus would not fall. Unable to succeed, she — exhausted, depleted, broken, unwilling yet helpless — carried the fetus in pain, with suffering upon suffering.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Mrigadevi lies awake at midnight thinking about how to destroy the child within her — not out of cruelty, but out of desperation. Her marriage is collapsing; she is being rejected by her husband; she does not know why. She attempts every available means of abortion — chemical, physical, herbal — and fails. The fetus cannot be destroyed. And so Mrigadevi is left carrying a child she fears and resents, in a marriage that has crumbled, in pain she cannot escape. "Suffering upon suffering" is precise: physical pain of pregnancy, emotional pain of rejection, psychological anguish of helplessness. This is not described to judge her — it is described to reveal the full cascade of harm that one evil life can produce: Ikaai Rathod's victims suffered; now Mrigadevi suffers; and the child himself will suffer most of all.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In the middle of the night, Mrigadevi realized her marriage was destroyed since this pregnancy began — she tried to end the pregnancy but couldn't, and ended up carrying the child in deep grief.</p>
+        <div class="concept-tags"><span class="concept-tag">Cascade of Suffering</span><span class="concept-tag">Helplessness</span><span class="concept-tag">Cannot Escape Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-27">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.27</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तस्स णं दारगस्स गब्भगयस्स चेव अट्टु णालीओ अरिंभतरप्पवहाओ, अट्टु णालीओ बाहिरप्पवहाओ, अट्टु पूयप्पवहाओ, अट्टु सोणियप्पवहाओ, दुवे-दुवे कण्णंतरेसु, दुवे दुवे अच्छिअंतरेसु, दुवे दुवे णक्कंतरेसु, दुवे दुवे धमणिअंतरेसु अभिक्खणं अभिक्खणं पूयं च सोणियं च परिस्सवमाणीओ चिठ्ठंति । तस्स णं दारगस्स गब्भगयस्स चेव अग्गिए णामं वाही पाउब्भूए । जे णं से दारए आहारेइ, से णं खिप्पामेव विद्धंसमागच्छइ, पूयताए य सोणियताए य परिणमइ । तं पि य से पूयं च सोणियं च आहारेइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Even in the womb, the child had eight channels flowing inward and eight outward — eight channels flowing with pus and eight with blood — continuously pouring from two openings in each ear, two in each eye, two in each nostril, and two within the heart-arteries. Furthermore, even in the womb, the child was afflicted with the disease called Agnika (fire disease): whatever he consumed was immediately destroyed and transformed into pus and blood — and he consumed even that pus and blood as his nourishment.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The description of sixteen channels of pus and blood flowing continuously — even while still in the womb — extends the suffering backward to before birth itself. There is no safe zone, no period of innocence or comfort. The disease named "Agnika" (fire) causes everything consumed to instantly disintegrate — the body cannot absorb nourishment; everything becomes rot. In Jain karmic theory, this is the embodied consequence of specific forms of harm done in the previous life: Ikaai Rathod systematically destroyed others' nourishment, livelihoods, and sustenance — now inhabits a body in which nourishment itself is destroyed before it can sustain him. The precise correspondence between the nature of the crime and the nature of the suffering is characteristic of how the Vipaak Sutra illuminates karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even before being born, Mrigaputra's body was already in constant pain — everything he received in the womb turned to pus and blood immediately, and he consumed even that.</p>
+        <div class="concept-tags"><span class="concept-tag">Suffering Before Birth</span><span class="concept-tag">Agnika Disease</span><span class="concept-tag">Crime and Fruition Correspond</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-28">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.28</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं सा मियादेवी अण्णया कयाइ णवण्हं मासाणं बहुपुण्णाणं गब्भं पाया, जाइअंधे जाव आगिईमेत्ते । तए णं सा मियादेवी तं दारगं हुंडं अंधरूवं पासइ, पासित्ता भीया तत्था तसिया उव्विग्गा संजायभया अम्मधाईए सद्दावेइ — गच्छह णं देवाणुप्पिया ! तुमं एयं दारगं एगंते उक्कुरुडियाए उज्झाहि । तए णं सा अम्मधाईए मियादेवीए 'तह' ति एयमट्टुं पडिसुणेइ, पडिसुणित्ता जेणेव विजए खत्तिए तेणेव उवागच्छइ — संदेसह णं सामी ! तं दारगं अहमेगंते उज्झामि उदाहु मा ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">After the nine months were complete, Mrigadevi gave birth — and the child was born blind, of born-blind form. Seeing the misshapen, entirely limbless child, she was terrified, trembling, seized with fear, and called her nursemaid: "Go, dear friend — take this child somewhere alone and throw him away in a deserted place." The nursemaid accepted the order and went directly to King Vijay: "My lord — please instruct me: shall I abandon the child somewhere alone, or not?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The birth scene is harrowing. Mrigadevi — who has already tried everything to be rid of this child for months — sees him emerge and is overwhelmed with terror. She orders abandonment immediately. The nursemaid, wisely, does not act on her own authority — she goes directly to the king. This moment is pivotal: the fate of Mrigaputra hangs entirely on what the king decides. There is something quietly significant here: even Mrigadevi — who tried everything to be rid of this child — will later become his devoted protector for decades. Her fear today does not define the whole of her love.</p>
+        <p class="simple-explanation"><b>The simple version:</b> After nine months, Mrigaputra was born — misshapen and helpless — and his terrified mother told the nursemaid to take him away and abandon him somewhere.</p>
+        <div class="concept-tags"><span class="concept-tag">Birth Scene</span><span class="concept-tag">Fear and Abandonment</span><span class="concept-tag">Nursemaid's Wisdom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-29">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.29</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तए णं से विजए खत्तिए तीसे अम्मधाईए अंतिए एयमट्टुं सोच्चा णिसम्म तहेव संभंते उट्ठाए उट्ठेइ, जेणेव मियादेवी तेणेव उवागच्छइ — देवाणुप्पिया ! तुब्भं पढमं गब्भे । तं जइ णं तुब्भे एयं एगंते उक्कुरुडियाए उज्झसि, तओ णं तुब्भं पया णो थिरा भविस्सइ । तो णं तुमं एयं दारगं रहस्सियगंसि भूमिघरंसि रहस्सिएणं भत्तपाणेणं पिंडजागरमाणी पिंडजागरमाणी विहराहि; तो णं तुब्भं पया थिरा भविस्सइ । तए णं सा मियादेवी विजयस्स खत्तियस्स 'तह' ति एयमट्टुं विणएणं पडिसुणेइ, पडिसुणेत्ता तं दारगं रहस्सियगंसि भूमिघरंसि रहस्सिएणं भत्तपाणेणं पिंडजागरमाणी पिंडजागरमाणी विहरइ ।<br/>एवं खलु गोयमा ! मियापुत्ते दारए पुरापोराणाणं जाव पच्चणुभवमाणे विहरइ ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">King Vijay, hearing this from the nursemaid, jumped up startled and went to Mrigadevi: "Dear one — this is your first child. If you throw him away in some deserted place, your future progeny will not be stable. Therefore, keep this child hidden in a secret underground chamber and nourish him secretly with food and water — then your future progeny will be stable." Mrigadevi, receiving this humbly and respectfully, accepted — and from that time kept the child in a hidden underground chamber, secretly nourishing him. "And thus, Gautam — this child Mrigaputra is living, experiencing the bitter fruits of ancient evil karma."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">King Vijay's decision is unexpected: rather than abandoning the child, he instructs Mrigadevi to hide and care for him — and gives a specific reason: the first child, however deformed, must not be abandoned, or future progeny will suffer. It is Vijay, who has emotionally rejected Mrigadevi, who insists on the child's preservation. And Mrigadevi, who tried to abort and then abandon him, becomes his secret protector for life. Mahavir closes this section with the phrase "and thus, Gautam — this child is living, experiencing the fruits of ancient karma." The entire present condition — the underground chamber, the pus, the blindness, the stench — is simply what "experiencing the fruits of ancient karma" looks like when made fully visible.</p>
+        <p class="simple-explanation"><b>The simple version:</b> King Vijay said: "Don't abandon him — keep him hidden and feed him; it's better for our future." Mrigadevi agreed — and that hidden underground life is exactly what Gautam had just witnessed.</p>
+        <div class="concept-tags"><span class="concept-tag">King Vijay's Decision</span><span class="concept-tag">Karma Made Visible</span><span class="concept-tag">Hidden Life Explained</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VII -->
+  <div class="section-divider" id="section-future"><span>Part VII &mdash; The Future of Mrigaputra</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-30">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.30</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मियापुत्ते णं भंते ! दारए इओ कालमासे कालं किच्चा कहिं गमिहिइ ? कहिं उववज्जिहिइ ?</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Venerable sir — when this child Mrigaputra dies at his appointed time, where will he go? Where will he be born?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Gautam's question about Mrigaputra's future is the natural culmination of the entire inquiry. Having understood the past — the evil life of Ikaai Rathod — and witnessed the present — the underground child — Gautam now asks about the future. In Jain thought, no condition is permanent; even the most extreme karmic suffering must eventually be exhausted. The soul continues. The question is not morbid — it is compassionate: Gautam wants to know if there is relief ahead for this being. His question models the complete arc of understanding that dharma requires: past cause, present condition, and future trajectory.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Gautam asked: "After Mrigaputra dies, where does he go next?"</p>
+        <div class="concept-tags"><span class="concept-tag">Future Lives</span><span class="concept-tag">Compassionate Question</span><span class="concept-tag">No Condition Is Permanent</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-31">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.31</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">गोयमा ! मियापुत्ते दारए छव्वीसं वासाइं परमाउयं पालित्ता कालमासे कालं किच्चा इहेव जंबुद्दीवे दीवे भारहे वासे वेयड्डुगिरिपायमूले सीहकुलंसि सीहत्ताए पच्चायाहिइ । से णं तत्थ सीहे भविस्सइ अहम्मिए जाव साहसिए, सुबहुं पावकम्मं समज्जिणइ, कालमासे कालं किच्चा इमीसे रयणप्पभाए पुढवीए उक्कोसं सागरोवम टिइएसु णेरइएसु णेरइयताए उववज्जिहिइ । से णं तओ अणंतरं उव्वट्टित्ता सरिसवेसु उववज्जिहिइ । तत्थ णं कालं किच्चा दोच्चाए पुढवीए उक्कोसियाए तिण्ण सागरोवम टिइएसु उववज्जिहिइ । से णं तओ अणंतरं उव्वट्टित्ता पक्खीसु उववज्जिहिइ । तत्थ वि कालं किच्चा तच्चाए पुढवीए सत्त सागरोवम टिइएसु उववज्जिहिइ । से णं तओ अणंतरं उव्वट्टित्ता सीहेसु । तयाणंतरं चउत्थीए । उरगो, पंचमीए । इत्थीओ, छट्टीए । मणुओ, अहे सत्तमीए । तओ अणंतरं उव्वट्टित्ता से जाइ इमाइं जलयर पंचिंदिय तिरिक्खजोणियाणं मच्छ-कच्छभ-गाह-मगर-सुंसुमाराईणं अडुतेरस जाइकुलकोडिजोणिपमुह सयसहस्साइं, तत्थ णं एगमेगंसि जोणिविहाणंसि अणेगसयसहस्सखुत्तो उद्दाइत्ता तत्थेव भुज्जो भुज्जो पच्चायाइस्सइ । से णं तओ अणंतरं उव्वट्टित्ता चउप्पएसु, उरपरिसप्पेसु, भुयपरिसप्पेसु, खहयरेसु, चउरिंदिएसु, तेइंदिएसु, बेइंदिएसु, वणप्फइए कडुयरुक्खेसु, वाउ-तेउ-आउ-पुढवीसु अणेगसयसहस्सखुत्तो उद्दाइत्ता भुज्जो भुज्जो पच्चायाइस्सइ । से णं तओ अणंतरं उव्वट्टित्ता सुपइट्ठुपुरे णयरे गोणत्ताए पच्चायाहिइ । से णं तत्थ उम्मुक्कबालभावे गंगाए महाणईए खलीणमट्टियं खणमाणे तडीए पेलिलाए समाणे कालगए तत्थेव सुपइट्ठुपुरे णयरे सेट्टिकुलंसि पुमत्ताए पच्चायाहिस्सइ । से णं तत्थ उम्मुक्कबालभावे जोव्वणगमणुप्पत्ते तहारूवाणं थेराणं अंतिए धम्मं सोच्चा णिसम्म मुंडे भवित्ता अगाराओ अणगारियं पव्वइस्सइ । से णं तत्थ अणगारे भविस्सइ, इरियासिमे भासासिमे एसणासिमे, मणगुत्ते वयगुत्ते कायगुत्ते, गुत्तिंदिए, गुत्तबंभयारी । से णं तत्थ बहूइं वासाइं समण्णपरियागं पाउणित्ता आलोयपडिक्कंते समाहिपत्ते कालमासे कालं किच्चा सोहम्मे कप्पे देवत्ताए उववज्जिहिइ । से णं तओ अणंतरं चयं चइत्ता महाविदेहे वासे जाइकुलाइं भवंति अट्ठाइ जाव अपरिभूयाइं, तहप्पगारेसु कुलेसु पुमत्ताए पच्चायाहिइ, एवं जहा दढपइण्णे जाव सिज्झिहिइ ।<br/>एवं खलु जंबू ! समणेणं भगवया महावीरेणं जाव संपत्तेणं दुहिव्वागाणं पढमस्स अज्झयणस्स अयमट्ठे पण्णत्ते । — ति बेमि ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Gautam! Mrigaputra will live twenty-six years; then he will be born as a lion at the foot of Mount Vaitadhya. That lion will be fierce and irreligious, accumulate much evil karma, and be born in the first hell for one ocean-measure period. Coming out, he will be born among reptiles; then the second hell for three ocean-measure periods. Coming out, he will be born among birds; then the third hell for seven ocean-measure periods. Then lions again; the fourth hell; a snake in the fifth; a woman in the sixth; a man; then the seventh and lowest hell. Coming out, he will be born and die across 413 hundred-thousand species-families of aquatic five-sensed beings — fish, tortoises, crocodiles, sea-monsters — millions of times in each species. Then similarly across land animals, crawling creatures, sky-dwellers, four-sensed, three-sensed, two-sensed beings, bitter plants, wind, fire, water, and earth — hundreds of millions of births and deaths. Then as a bull in Supratishthpur; dying, reborn as a merchant's son in that same city. Reaching youth, he will hear the dharma from worthy elder monks, renounce household life, and become a monk — careful in all conduct, guarded in mind, speech, and body, celibate. After many years of monastic practice, having confessed, atoned, and attained equanimity, he will be born as a divine being in the Saudharm heaven. Descending from there, he will be born in Mahavideh Kshetra in a noble family — and there, just as the monk Dridhapratijnna did — he will attain liberation." "Thus, Jambushvami — this is the meaning Mahavir has taught in the first chapter of the Volume of Suffering Fruition. So say I."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This final sutra traces the entire future of Mrigaputra across what can only be called a staggering arc of time and existence: twenty-six years as Mrigaputra, then a lion, then the first hell, then reptiles, then the second hell, then birds, then the third hell — continuing through all seven hells and hundreds of millions of rebirths as aquatic creatures, land animals, plants, and elements — then a bull, then a merchant's son, then a monk, then a celestial being, then liberation in Mahavideh. The Jain vision of the soul's journey is not a short detour but a vast odyssey of cause and consequence, gradually exhausting all accumulated karma and moving toward absolute freedom. The remarkable conclusion: liberation is certain. However long the journey, however many hells and animal births and rebirths, the soul of the being who was Ikaai Rathod, who became Mrigaputra, will ultimately be free. Nothing is permanent. No karma is infinite. The soul's natural state is liberation — and it will find its way there.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Mahavir described Mrigaputra's entire future: 26 years, then a lion life, multiple hells, millions of rebirths as animals and plants — and eventually, in a very distant future, he will become a monk and reach complete liberation. The journey is long, but freedom is guaranteed.</p>
+        <div class="concept-tags"><span class="concept-tag">Liberation Is Certain</span><span class="concept-tag">Soul's Long Journey</span><span class="concept-tag">No Karma Is Infinite</span><span class="concept-tag">Thus I Say</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ अध्ययन-१ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 1 — Mrigaputra &mdash; Duhkhavipak</p>
+  </div>
+
+</section>
+
+<a href="vipaak-index.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> All Chapters
+</a>
+<a href="vipaak-ch2.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 2 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+</script>
+</body>
+</html>
