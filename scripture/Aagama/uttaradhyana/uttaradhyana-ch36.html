@@ -45,6 +45,15 @@ html { scroll-behavior: smooth; }
 .visual-box td { padding: 7px 12px; border: 1px solid rgba(201,168,76,0.2); color: #1d1c17; vertical-align: top; }
 .visual-box tr:nth-child(even) td { background: rgba(201,168,76,0.04); }
 @media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+
+    #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+    .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+    .search-section-label:first-child { border-top:none; }
+    .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+    .search-result-item:hover { background:#fef9f1; }
+    .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+    .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+    .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -62,6 +71,10 @@ html { scroll-behavior: smooth; }
       </div>
     </div>
     <div class="flex items-center gap-8">
+              <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+              </div>
       <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
     </div>
   </div>
@@ -537,7 +550,8 @@ html { scroll-behavior: smooth; }
     <div class="flex items-start gap-6">
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.23–27</span>
       <div class="space-y-4 flex-1">
-        <p class="sutra-sanskrit font-headline">वण्णओ जे भवे किण्हे, भइए से उ गंधओ ।<br/>रसओ फासओ चेव, भइए संठाणओ वि य ॥३६.२३॥<br/><span class="text-base text-on-surface-variant">(Sutras 24–27 follow the same pattern for blue, red, yellow, and white)</span></p>
+        <p class="text-xs italic text-on-surface-variant border-l-2 border-primary/30 pl-3 mb-1">Sutras 36.23–27 are presented together because they form a single enumeration block — five structurally identical verses, one for each colour type — that the Jain commentary treats as one continuous teaching. Each verse's complete Prakrit is shown in full below.</p>
+        <p class="sutra-sanskrit font-headline">वण्णओ जे भवे किण्हे, भइए से उ गंधओ ।<br/>रसओ फासओ चेव, भइए संठाणओ वि य ॥३६.२३॥<br/><br/>वण्णओ जे भवे णीले, भइए से उ गंधओ ।<br/>रसओ फासओ चेव, भइए संठाणओ वि य ॥३६.२४॥<br/><br/>वण्णओ लोहिए जे उ, भइए से उ गंधओ ।<br/>रसओ फासओ चेव, भइए संठाणओ वि य ॥३६.२५॥<br/><br/>वण्णओ पीयए जे उ, भइए से उ गंधओ ।<br/>रसओ फासओ चेव, भइए संठाणओ वि य ॥३६.२६॥<br/><br/>वण्णओ सुक्किले जे उ, भइए से उ गंधओ ।<br/>रसओ फासओ चेव, भइए संठाणओ वि य ॥३६.२७॥</p>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A pudgala-aggregate that is black in colour — within it, smell, taste, touch, and shape are all distributed (fractionally present). The same holds for aggregates that are blue, red, yellow, and white respectively.</p>
         <p class="text-base text-on-surface-variant leading-relaxed">This series establishes the key principle behind the 530-type classification: every quality of a pudgala-aggregate co-exists with all other qualities. A black aggregate also contains smell, taste, touch, and shape — all present in distributed, fractional combinations. Five colour-types × 20 co-occurring quality combinations = 100 of the 530 total types. The teaching is that matter is always multi-qualified: what we perceive as "black" is simultaneously also fragrant/odorous, sweet/bitter, rough/smooth, round/angular.</p>
         <p class="simple-explanation"><b>The simple version:</b> Any pudgala that is black (or blue, red, yellow, white) also has all other qualities — smell, taste, touch, shape — present and distributed within it.</p>
@@ -572,7 +586,8 @@ html { scroll-behavior: smooth; }
     <div class="flex items-start gap-6">
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.30–34</span>
       <div class="space-y-4 flex-1">
-        <p class="sutra-sanskrit font-headline">रसओ तित्तए जे उ, भइए से उ वण्णओ ।<br/>गंधओ फासओ चेव, भइए संठाणओ वि य ॥३६.३०॥<br/><span class="text-base text-on-surface-variant">(Sutras 31–34 repeat the pattern for sharp, astringent, sour, and sweet)</span></p>
+        <p class="text-xs italic text-on-surface-variant border-l-2 border-primary/30 pl-3 mb-1">Sutras 36.30–34 are presented together because they form a single enumeration block — five structurally identical verses, one for each taste type — that the Jain commentary treats as one continuous teaching. Each verse's complete Prakrit is shown in full below.</p>
+        <p class="sutra-sanskrit font-headline">रसओ तित्तए जे उ, भइए से उ वण्णओ ।<br/>गंधओ फासओ चेव, भइए संठाणओ वि य ॥३६.३०॥<br/><br/>रसओ कडुए जे उ, भइए से उ वण्णओ ।<br/>गंधओ फासओ चेव, भइए संठाणओ वि य ॥३६.३१॥<br/><br/>रसओ कसाए जे उ, भइए से उ वण्णओ ।<br/>गंधओ फासओ चेव, भइए संठाणओ वि य ॥३६.३२॥<br/><br/>रसओ अंबिले जे उ, भइए से उ वण्णओ ।<br/>गंधओ फासओ चेव, भइए संठाणओ वि य ॥३६.३३॥<br/><br/>रसओ महुरए जे उ, भइए से उ वण्णओ ।<br/>गंधओ फासओ चेव, भइए संठाणओ वि य ॥३६.३४॥</p>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A pudgala-aggregate that is bitter-tasting — within it, colour, smell, touch, and shape are distributed. The same holds for sharp, astringent, sour, and sweet-tasting aggregates.</p>
         <p class="text-base text-on-surface-variant leading-relaxed">Five taste-types, each accompanied by all other quality families distributed within. Five taste-types × 20 co-occurring quality-types = 100 of the 530 total types. The methodical enumeration reflects the Jain insight that matter is relational and multi-qualified — no quality stands alone, and every experience of a single quality hides a more complex reality beneath. This understanding prevents the reductive mistake of thinking the world is simpler than it is.</p>
         <p class="simple-explanation"><b>The simple version:</b> Pudgalas that are bitter, sharp, astringent, sour, or sweet — in each, all other qualities (colour, smell, touch, shape) are also distributed within it.</p>
@@ -589,7 +604,8 @@ html { scroll-behavior: smooth; }
     <div class="flex items-start gap-6">
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.35–42</span>
       <div class="space-y-4 flex-1">
-        <p class="sutra-sanskrit font-headline">फासओ कक्खडे जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.३५॥<br/><span class="text-base text-on-surface-variant">(Sutras 36–42 repeat the same pattern for soft, heavy, light, cold, hot, smooth, and dry)</span></p>
+        <p class="text-xs italic text-on-surface-variant border-l-2 border-primary/30 pl-3 mb-1">Sutras 36.35–42 are presented together because they form a single enumeration block — eight structurally identical verses, one for each of the eight touch-types — that the Jain commentary treats as one continuous teaching. Each verse's complete Prakrit is shown in full below.</p>
+        <p class="sutra-sanskrit font-headline">फासओ कक्खडे जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.३५॥<br/><br/>फासओ मउए जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.३६॥<br/><br/>फासओ गुरुए जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.३७॥<br/><br/>फासओ लहुए जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.३८॥<br/><br/>फासओ सीयए जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.३९॥<br/><br/>फासओ उण्हए जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.४०॥<br/><br/>फासओ णिद्धए जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.४१॥<br/><br/>फासओ लुक्खए जे उ, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए संठाणओ वि य ॥३६.४२॥</p>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A pudgala-aggregate that is rough in touch — within it, colour, smell, taste, and shape are all distributed. The same holds for soft, heavy, light, cold, hot, smooth, and dry aggregates.</p>
         <p class="text-base text-on-surface-variant leading-relaxed">Eight sutras, one for each of the eight touch-types. Each touch-type aggregate has 5 colours + 2 smells + 5 tastes + 5 shapes = 17 co-occurring quality-types distributed within it. Eight touch-types × 17 = 136 of the 530 total types. Matter is never simply one thing — it always carries multiple qualities simultaneously. The practitioner who understands this sees through the surface label of any experience to its full dimensional reality.</p>
         <p class="simple-explanation"><b>The simple version:</b> Each of the eight types of touch-based pudgalas contains all other qualities — colour, smell, taste, shape — distributed within it.</p>
@@ -606,7 +622,8 @@ html { scroll-behavior: smooth; }
     <div class="flex items-start gap-6">
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.43–47</span>
       <div class="space-y-4 flex-1">
-        <p class="sutra-sanskrit font-headline">परिमंडलसंठाणे, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए फासओ वि य ॥३६.४३॥<br/><span class="text-base text-on-surface-variant">(Sutras 44–47 repeat the pattern for circular, triangular, square, and oblong)</span></p>
+        <p class="text-xs italic text-on-surface-variant border-l-2 border-primary/30 pl-3 mb-1">Sutras 36.43–47 are presented together because they form a single enumeration block — five structurally identical verses, one for each shape-type — that the Jain commentary treats as one continuous teaching completing the 530-type classification. Each verse's complete Prakrit is shown in full below.</p>
+        <p class="sutra-sanskrit font-headline">परिमंडलसंठाणे, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए फासओ वि य ॥३६.४३॥<br/><br/>संठाणओ भवे वट्टे, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए फासओ वि य ॥३६.४४॥<br/><br/>संठाणओ भवे तंसे, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए फासओ वि य ॥३६.४५॥<br/><br/>संठाणओ जे चउरंसे, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए फासओ वि य ॥३६.४६॥<br/><br/>जे आययसंठाणे, भइए से उ वण्णओ ।<br/>गंधओ रसओ चेव, भइए फासओ वि य ॥३६.४७॥</p>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A pudgala-aggregate that is spherical in shape — within it, colour, smell, taste, and touch are distributed. The same holds for circular, triangular, square, and oblong aggregates. This completes the 530-type classification.</p>
         <p class="text-base text-on-surface-variant leading-relaxed">Five shape-types × 20 co-occurring quality-types = 100 more, completing the grand total. The full count: 100 (colour) + 46 (smell) + 100 (taste) + 184 (touch) + 100 (shape) = 530 types of material non-living substance. The classification is exhaustive — every possible primary-quality combination has been enumerated. Nothing is left outside the system. Matter has been fully mapped.</p>
         <p class="simple-explanation"><b>The simple version:</b> Each of the five shape-types of matter contains all other qualities within it. The complete classification gives 530 types of material substance.</p>
@@ -1097,18 +1114,37 @@ html { scroll-behavior: smooth; }
     </div>
   </article>
 
-  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-36-170-193">
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-36-170-176">
     <div class="flex items-start gap-6">
-      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.170–193</span>
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.170–176</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">पंचिंदिय तिरिक्खाओ, चउव्विहा ते वियाहिया ।<br/>जलयरा थलयरा चेव, खहयरा चउव्विहा तहा ॥</p>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">Five-sense animal souls are of four types: aquatic (fish, crocodiles, dolphins, turtles), terrestrial (creeping — snakes; four-footed — elephants, lions), and aerial (birds). Each further divided into spontaneously-born and womb-born.</p>
-        <p class="text-base text-on-surface-variant leading-relaxed">The animal realm encompasses the widest geographic and biological range: from microscopic five-sense creatures to whales, elephants, and eagles. Each is systematically analysed through the four-perspective framework: how many types exist, where they live, how long they live, and what qualities they have. The Jain monk's extreme dietary restrictions and careful movement reflect the awareness that the animal kingdom is populated by souls of immense variety, all deserving of non-harm.</p>
-        <p class="simple-explanation"><b>The simple version:</b> Five-sense animals are classified as aquatic (fish, dolphins), terrestrial (snakes, elephants), and aerial (birds), with spontaneously-born and womb-born in each.</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Five-sense animal souls are of four types: aquatic (fish, crocodiles, dolphins, turtles), terrestrial — creeping (snakes) and four-footed (elephants, lions) — and aerial (birds). Each is further divided into spontaneously-born and womb-born.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The five-sense animal realm is classified first by habitat: water, land, and sky. Terrestrial animals are sub-divided into creeping (snakes, lizards) and four-footed (elephants, lions, cows). Each of the three habitat categories is further divided into spontaneously-born (saṃmūrcchima) and womb-born (garbhaja) — a fundamental Jain biological distinction based on the mode of birth rather than anatomy. The Jain monk's careful movement and dietary practice reflects awareness that all these realms are populated by souls deserving of non-harm.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Five-sense animals are classified as aquatic, terrestrial (creeping or four-footed), and aerial — with spontaneously-born and womb-born in each type.</p>
         <div class="concept-tags">
           <span class="concept-tag">Animals</span>
           <span class="concept-tag">Five-Sense</span>
-          <span class="concept-tag">Classification</span>
+          <span class="concept-tag">Aquatic</span>
+          <span class="concept-tag">Terrestrial</span>
+          <span class="concept-tag">Aerial</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-36-177-193">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.177–193</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एए वण्णओ चेव, गंधओ रसओ फासओ ।<br/>संठाणादेसओ वावि, विहाणाइ सहस्ससो ॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">These sutras apply the four-perspective analysis to every animal sub-type: how many sub-types exist (substance), the regions they inhabit (space), their minimum and maximum lifespans (time), and the full five-fold qualitative modes — colour, smell, taste, touch, and shape (mode).</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This section is the Jain equivalent of a systematic zoological survey — each animal sub-type described from all four analytical angles. From the perspective of time: the stream of animal existence is anādi-ananta (beginningless and endless), but each individual animal life is sādi-saparyavasita (with a beginning and an end). From the perspective of space: all five-sense animals exist only in specific regions of the universe (loka-eka-desa), not everywhere. From the perspective of mode: colour, smell, taste, touch, and shape appear in thousands of combinations across animal forms.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Each type of animal is fully analysed from four angles: what it is, where it lives, how long it lives, and what qualities it has. Every life, however brief, is a complete soul experience.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Four Perspectives</span>
+          <span class="concept-tag">Animal Lifespan</span>
+          <span class="concept-tag">Analysis</span>
           <span class="concept-tag">Ahimsa</span>
         </div>
       </div>
@@ -1392,5 +1428,75 @@ window.addEventListener('scroll', () => {
 });
 </script>
 
+
+<script>
+(function () {
+  var SEARCH_INDEX = [{"file":"uttaradhyana-ch1.html","num":"U1","title":"Uttaradhyana Ch 1 — Vinayashrut — On Discipline","sutras":[{"id":"hero","num":"U1","title":"Vinayashrut — On Discipline"}]},{"file":"uttaradhyana-ch2.html","num":"U2","title":"Uttaradhyana Ch 2 — On Endurances","sutras":[{"id":"hero","num":"U2","title":"On Endurances"}]},{"file":"uttaradhyana-ch3.html","num":"U3","title":"Uttaradhyana Ch 3 — Chaturangiya — Four Supreme Rarities","sutras":[{"id":"hero","num":"U3","title":"Chaturangiya — Four Supreme Rarities"}]},{"file":"uttaradhyana-ch4.html","num":"U4","title":"Uttaradhyana Ch 4 — Impermanent Life","sutras":[{"id":"hero","num":"U4","title":"Impermanent Life"}]},{"file":"uttaradhyana-ch5.html","num":"U5","title":"Uttaradhyana Ch 5 — On the Two Types of Death","sutras":[{"id":"hero","num":"U5","title":"On the Two Types of Death"}]},{"file":"uttaradhyana-ch6.html","num":"U6","title":"Uttaradhyana Ch 6 — The Minor Detachment","sutras":[{"id":"hero","num":"U6","title":"The Minor Detachment"}]},{"file":"uttaradhyana-ch7.html","num":"U7","title":"Uttaradhyana Ch 7 — The Goat Parable","sutras":[{"id":"hero","num":"U7","title":"The Goat Parable"}]},{"file":"uttaradhyana-ch8.html","num":"U8","title":"Uttaradhyana Ch 8 — Story of Kapila","sutras":[{"id":"hero","num":"U8","title":"Story of Kapila"}]},{"file":"uttaradhyana-ch9.html","num":"U9","title":"Uttaradhyana Ch 9 — The Renunciation of King Nami","sutras":[{"id":"hero","num":"U9","title":"The Renunciation of King Nami"}]},{"file":"uttaradhyana-ch10.html","num":"U10","title":"Uttaradhyana Ch 10 — Fallen Leaf","sutras":[{"id":"hero","num":"U10","title":"Fallen Leaf"}]},{"file":"uttaradhyana-ch11.html","num":"U11","title":"Uttaradhyana Ch 11 — Veneration of the Greatly Learned","sutras":[{"id":"hero","num":"U11","title":"Veneration of the Greatly Learned"}]},{"file":"uttaradhyana-ch12.html","num":"U12","title":"Uttaradhyana Ch 12 — Harikeshiya","sutras":[{"id":"hero","num":"U12","title":"Harikeshiya"}]},{"file":"uttaradhyana-ch13.html","num":"U13","title":"Uttaradhyana Ch 13 — Chitt-Sambhutiya","sutras":[{"id":"hero","num":"U13","title":"Chitt-Sambhutiya"}]},{"file":"uttaradhyana-ch14.html","num":"U14","title":"Uttaradhyana Ch 14 — Ishukariya","sutras":[{"id":"hero","num":"U14","title":"Ishukariya"}]},{"file":"uttaradhyana-ch15.html","num":"U15","title":"Uttaradhyana Ch 15 — Sabhikshu","sutras":[{"id":"hero","num":"U15","title":"Sabhikshu"}]},{"file":"uttaradhyana-ch16.html","num":"U16","title":"Uttaradhyana Ch 16 — Foundations of Celibacy","sutras":[{"id":"hero","num":"U16","title":"Foundations of Celibacy"}]},{"file":"uttaradhyana-ch17.html","num":"U17","title":"Uttaradhyana Ch 17 — The Marks of the Fallen Monk","sutras":[{"id":"hero","num":"U17","title":"The Marks of the Fallen Monk"}]},{"file":"uttaradhyana-ch18.html","num":"U18","title":"Uttaradhyana Ch 18 — Sanjayiya","sutras":[{"id":"hero","num":"U18","title":"Sanjayiya"}]},{"file":"uttaradhyana-ch19.html","num":"U19","title":"Uttaradhyana Ch 19 — Mrigaputriya","sutras":[{"id":"hero","num":"U19","title":"Mrigaputriya"}]},{"file":"uttaradhyana-ch20.html","num":"U20","title":"Uttaradhyana Ch 20 — Mahanirgranthiya","sutras":[{"id":"hero","num":"U20","title":"Mahanirgranthiya"}]},{"file":"uttaradhyana-ch21.html","num":"U21","title":"Uttaradhyana Ch 21 — Samudrapaliya","sutras":[{"id":"hero","num":"U21","title":"Samudrapaliya"}]},{"file":"uttaradhyana-ch22.html","num":"U22","title":"Uttaradhyana Ch 22 — Rathanemiya","sutras":[{"id":"hero","num":"U22","title":"Rathanemiya"}]},{"file":"uttaradhyana-ch23.html","num":"U23","title":"Uttaradhyana Ch 23 — The Dialogue of Kesi and Gautama","sutras":[{"id":"hero","num":"U23","title":"The Dialogue of Kesi and Gautama"}]},{"file":"uttaradhyana-ch24.html","num":"U24","title":"Uttaradhyana Ch 24 — Mothers of the Teaching","sutras":[{"id":"hero","num":"U24","title":"Mothers of the Teaching"}]},{"file":"uttaradhyana-ch25.html","num":"U25","title":"Uttaradhyana Ch 25 — The Sacrifice — Yajniya","sutras":[{"id":"hero","num":"U25","title":"The Sacrifice — Yajniya"}]},{"file":"uttaradhyana-ch26.html","num":"U26","title":"Uttaradhyana Ch 26 — Monastic Conduct","sutras":[{"id":"hero","num":"U26","title":"Monastic Conduct"}]},{"file":"uttaradhyana-ch27.html","num":"U27","title":"Uttaradhyana Ch 27 — The Obstinate Ox","sutras":[{"id":"hero","num":"U27","title":"The Obstinate Ox"}]},{"file":"uttaradhyana-ch28.html","num":"U28","title":"Uttaradhyana Ch 28 — Movement on the Path of Liberation","sutras":[{"id":"hero","num":"U28","title":"Movement on the Path of Liberation"}]},{"file":"uttaradhyana-ch30.html","num":"U30","title":"Uttaradhyana Ch 30 — The Path of Austerity","sutras":[{"id":"hero","num":"U30","title":"The Path of Austerity"}]},{"file":"uttaradhyana-ch31.html","num":"U31","title":"Uttaradhyana Ch 31 — Rule of Right Conduct","sutras":[{"id":"hero","num":"U31","title":"Rule of Right Conduct"}]},{"file":"uttaradhyana-ch33.html","num":"U33","title":"Uttaradhyana Ch 33 — The Nature of Karma","sutras":[{"id":"hero","num":"U33","title":"The Nature of Karma"}]},{"file":"uttaradhyana-ch34.html","num":"U34","title":"Uttaradhyana Ch 34 — Lesya — Soul Colorations","sutras":[{"id":"hero","num":"U34","title":"Lesya — Soul Colorations"}]},{"file":"uttaradhyana-ch35.html","num":"U35","title":"Uttaradhyana Ch 35 — The Path of the Homeless Ascetic","sutras":[{"id":"hero","num":"U35","title":"The Path of the Homeless Ascetic"}]},{"file":"uttaradhyana-ch36.html","num":"U36","title":"Uttaradhyana Ch 36 — Jiva-Ajiva Vibhakti","sutras":[{"id":"hero","num":"U36","title":"Jiva-Ajiva Vibhakti"}]},{"file":"../vipaak/vipaak-ch1.html","num":"D1","title":"Duhkha Vipaak Ch 1 — Mrigaputra","sutras":[{"id":"hero","num":"D1","title":"Duhkha Vipaak Ch 1 — Mrigaputra"}]},{"file":"../vipaak/vipaak-ch2.html","num":"D2","title":"Duhkha Vipaak Ch 2 — Ujjhitak","sutras":[{"id":"hero","num":"D2","title":"Duhkha Vipaak Ch 2 — Ujjhitak"}]},{"file":"../vipaak/vipaak-ch3.html","num":"D3","title":"Duhkha Vipaak Ch 3 — Abhagrasena","sutras":[{"id":"hero","num":"D3","title":"Duhkha Vipaak Ch 3 — Abhagrasena"}]},{"file":"../vipaak/vipaak-ch4.html","num":"D4","title":"Duhkha Vipaak Ch 4 — Shakatkumar","sutras":[{"id":"hero","num":"D4","title":"Duhkha Vipaak Ch 4 — Shakatkumar"}]},{"file":"../vipaak/vipaak-ch5.html","num":"D5","title":"Duhkha Vipaak Ch 5 — Bruhaspatidat","sutras":[{"id":"hero","num":"D5","title":"Duhkha Vipaak Ch 5 — Bruhaspatidat"}]},{"file":"../vipaak/vipaak-ch6.html","num":"D6","title":"Duhkha Vipaak Ch 6 — Nandivardhana","sutras":[{"id":"hero","num":"D6","title":"Duhkha Vipaak Ch 6 — Nandivardhana"}]},{"file":"../vipaak/vipaak-ch7.html","num":"D7","title":"Duhkha Vipaak Ch 7 — Umbaradatt","sutras":[{"id":"hero","num":"D7","title":"Duhkha Vipaak Ch 7 — Umbaradatt"}]},{"file":"../vipaak/vipaak-ch8.html","num":"D8","title":"Duhkha Vipaak Ch 8 — Shaurikadatt","sutras":[{"id":"hero","num":"D8","title":"Duhkha Vipaak Ch 8 — Shaurikadatt"}]},{"file":"../vipaak/vipaak-ch9.html","num":"D9","title":"Duhkha Vipaak Ch 9 — Devdatta","sutras":[{"id":"hero","num":"D9","title":"Duhkha Vipaak Ch 9 — Devdatta"}]},{"file":"../vipaak/vipaak-ch10.html","num":"D10","title":"Duhkha Vipaak Ch 10 — Anjushri","sutras":[{"id":"hero","num":"D10","title":"Duhkha Vipaak Ch 10 — Anjushri"}]},{"file":"../vipaak/vipaak-sukhvipak-ch1.html","num":"S1","title":"Sukha Vipaak Ch 1 — Subahukumar","sutras":[{"id":"hero","num":"S1","title":"Sukha Vipaak Ch 1 — Subahukumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch2.html","num":"S2","title":"Sukha Vipaak Ch 2 — Bhadranandi","sutras":[{"id":"hero","num":"S2","title":"Sukha Vipaak Ch 2 — Bhadranandi"}]},{"file":"../vipaak/vipaak-sukhvipak-ch3.html","num":"S3","title":"Sukha Vipaak Ch 3 — Sujatkumar","sutras":[{"id":"hero","num":"S3","title":"Sukha Vipaak Ch 3 — Sujatkumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch4.html","num":"S4","title":"Sukha Vipaak Ch 4 — Suvasankumar","sutras":[{"id":"hero","num":"S4","title":"Sukha Vipaak Ch 4 — Suvasankumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch5.html","num":"S5","title":"Sukha Vipaak Ch 5 — Jindas","sutras":[{"id":"hero","num":"S5","title":"Sukha Vipaak Ch 5 — Jindas"}]},{"file":"../vipaak/vipaak-sukhvipak-ch6.html","num":"S6","title":"Sukha Vipaak Ch 6 — Dhanpati","sutras":[{"id":"hero","num":"S6","title":"Sukha Vipaak Ch 6 — Dhanpati"}]},{"file":"../vipaak/vipaak-sukhvipak-ch7.html","num":"S7","title":"Sukha Vipaak Ch 7 — Mahabhal","sutras":[{"id":"hero","num":"S7","title":"Sukha Vipaak Ch 7 — Mahabhal"}]},{"file":"../vipaak/vipaak-sukhvipak-ch8.html","num":"S8","title":"Sukha Vipaak Ch 8 — Bhadrandiikumar","sutras":[{"id":"hero","num":"S8","title":"Sukha Vipaak Ch 8 — Bhadrandiikumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch9.html","num":"S9","title":"Sukha Vipaak Ch 9 — Mahachandrakumar","sutras":[{"id":"hero","num":"S9","title":"Sukha Vipaak Ch 9 — Mahachandrakumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch10.html","num":"S10","title":"Sukha Vipaak Ch 10 — Varadatt","sutras":[{"id":"hero","num":"S10","title":"Sukha Vipaak Ch 10 — Varadatt"}]},{"file":"../../tattvartha/tattvartha-ch1-v4.html","num":"T1","title":"Tattvartha Ch 1 — Right Faith & Knowledge","sutras":[{"id":"hero","num":"T1","title":"Right Faith & Knowledge"}]},{"file":"../../tattvartha/tattvartha-ch2-v4.html","num":"T2","title":"Tattvartha Ch 2 — Category of the Living","sutras":[{"id":"hero","num":"T2","title":"Category of the Living"}]},{"file":"../../tattvartha/tattvartha-ch3-v4.html","num":"T3","title":"Tattvartha Ch 3 — The Lower World & the Middle World","sutras":[{"id":"hero","num":"T3","title":"The Lower World & the Middle World"}]},{"file":"../../tattvartha/tattvartha-ch4-v4.html","num":"T4","title":"Tattvartha Ch 4 — The Celestial Beings","sutras":[{"id":"hero","num":"T4","title":"The Celestial Beings"}]},{"file":"../../tattvartha/tattvartha-ch5-v4.html","num":"T5","title":"Tattvartha Ch 5 — The Non-Living Substances","sutras":[{"id":"hero","num":"T5","title":"The Non-Living Substances"}]},{"file":"../../tattvartha/tattvartha-ch6-v4.html","num":"T6","title":"Tattvartha Ch 6 — Influx of Karma","sutras":[{"id":"hero","num":"T6","title":"Influx of Karma"}]},{"file":"../../tattvartha/tattvartha-ch7-v4.html","num":"T7","title":"Tattvartha Ch 7 — The Five Vows","sutras":[{"id":"hero","num":"T7","title":"The Five Vows"}]},{"file":"../../tattvartha/tattvartha-ch8-v4.html","num":"T8","title":"Tattvartha Ch 8 — Bondage of Karma","sutras":[{"id":"hero","num":"T8","title":"Bondage of Karma"}]},{"file":"../../tattvartha/tattvartha-ch9-v4.html","num":"T9","title":"Tattvartha Ch 9 — Stoppage and Shedding","sutras":[{"id":"hero","num":"T9","title":"Stoppage and Shedding"}]},{"file":"../../tattvartha/tattvartha-ch10-v4.html","num":"T10","title":"Tattvartha Ch 10 — Liberation","sutras":[{"id":"hero","num":"T10","title":"Liberation"}]}];
+
+  function initSearch() {
+    var input = document.getElementById("search-input");
+    if (!input) return;
+    var wrapper = input.closest(".relative");
+    if (!wrapper) return;
+    var dropdown = document.getElementById("search-dropdown");
+    if (!dropdown) {
+      dropdown = document.createElement("div");
+      dropdown.id = "search-dropdown";
+      wrapper.appendChild(dropdown);
+    }
+    var currentFile = (location.pathname.split("/").pop() || location.href.split("/").pop() || "").replace(/[?#].*$/, "");
+    function highlight(text, query) {
+      if (!query) return text;
+      return text.replace(new RegExp("(" + query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark style='background:#fff3c4;color:inherit;border-radius:2px;'>$1</mark>");
+    }
+    function search(query) {
+      if (query.length < 2) { dropdown.style.display = "none"; return; }
+      var q = query.toLowerCase();
+      var currentMatches = [];
+      var otherMatches = [];
+      SEARCH_INDEX.forEach(function (chapter) {
+        var matches = chapter.sutras.filter(function (s) {
+          return s.title.toLowerCase().includes(q) || String(s.num).toLowerCase().includes(q);
+        }).slice(0, 4);
+        if (!matches.length) return;
+        var isCurrent = chapter.file === currentFile;
+        (isCurrent ? currentMatches : otherMatches).push({ chapter: chapter, matches: matches });
+      });
+      var html = "";
+      if (currentMatches.length) {
+        html += "<div class='search-section-label'>This Chapter</div>";
+        currentMatches.forEach(function (r) {
+          r.matches.forEach(function (s) {
+            html += "<button class='search-result-item' data-local='true' data-id='" + s.id + "'><span class='search-result-num'>" + s.num + "</span><span class='search-result-title'>" + highlight(s.title, query) + "</span></button>";
+          });
+        });
+      }
+      otherMatches.slice(0, 8).forEach(function (r) {
+        html += "<div class='search-section-label'>" + r.chapter.title + "</div>";
+        r.matches.forEach(function (s) {
+          var link = r.chapter.file;
+          if (s.id && s.id !== "hero") link += "#" + s.id;
+          html += "<a class='search-result-item' href='" + link + "'><span class='search-result-num'>" + s.num + "</span><span class='search-result-title'>" + highlight(s.title, query) + "</span></a>";
+        });
+      });
+      if (!html) html = "<div class='search-no-results'>No results for &ldquo;" + query + "&rdquo;</div>";
+      dropdown.innerHTML = html;
+      dropdown.style.display = "block";
+      dropdown.querySelectorAll("[data-local='true']").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var el = document.getElementById(this.dataset.id);
+          if (el) { el.scrollIntoView({ behavior: "smooth", block: "center" }); el.style.outline = "2px solid #C9A84C"; el.style.outlineOffset = "4px"; setTimeout(function () { el.style.outline = ""; el.style.outlineOffset = ""; }, 2000); }
+          dropdown.style.display = "none";
+          input.value = "";
+        });
+      });
+    }
+    input.addEventListener("input", function () { search(this.value.trim()); });
+    input.addEventListener("keydown", function (e) { if (e.key === "Escape") { dropdown.style.display = "none"; input.value = ""; } });
+    document.addEventListener("click", function (e) { if (!wrapper.contains(e.target)) dropdown.style.display = "none"; });
+  }
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initSearch) : initSearch();
+})();
+</script>
 </body>
 </html>

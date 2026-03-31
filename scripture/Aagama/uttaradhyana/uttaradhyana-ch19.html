@@ -45,25 +45,34 @@
 .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
 .foundation-badge { display: inline-block; background: rgba(201,168,76,0.12); border: 1px solid rgba(201,168,76,0.35); color: #755b00; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; border-radius: 4px; padding: 3px 10px; font-weight: 600; margin-top: 0.25rem; margin-bottom: 0.25rem; }
 @media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
-  </style>
+  
+    #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+    .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+    .search-section-label:first-child { border-top:none; }
+    .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+    .search-result-item:hover { background:#fef9f1; }
+    .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+    .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+    .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
   <nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
    <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
     <div class="flex items-center gap-12">
-     <a href="../../../../index-v4.html#hero">
+     <a href="../../../index-v4.html#hero">
       <span class="text-2xl font-headline text-primary tracking-tighter font-bold">
        JainAwaken.org
       </span>
      </a>
      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
-      <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">
+      <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">
        Fundamentals
       </a>
-      <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">
+      <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">
        Navkar
       </a>
-      <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/meditations.html">
+      <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">
        Meditations
       </a>
       <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">
@@ -72,7 +81,11 @@
      </div>
     </div>
     <div class="flex items-center gap-8">
-     <a class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../../fundamentals/donate-v4.html">
+              <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+              </div>
+     <a class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">
       Donate
      </a>
     </div>
@@ -4012,10 +4025,10 @@
       <a class="hover:text-primary transition-colors" href="../../../index-v4.html">
        Fundamentals
       </a>
-      <a class="hover:text-primary transition-colors" href="../../../../fundamentals/navkar-mantra-v4.html">
+      <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">
        Navkar Mantra
       </a>
-      <a class="hover:text-primary transition-colors" href="../../../../fundamentals/meditations.html">
+      <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">
        Meditations
       </a>
      </div>
@@ -4028,5 +4041,75 @@
   document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
 });
   </script>
- </body>
+ 
+<script>
+(function () {
+  var SEARCH_INDEX = [{"file":"uttaradhyana-ch1.html","num":"U1","title":"Uttaradhyana Ch 1 — Vinayashrut — On Discipline","sutras":[{"id":"hero","num":"U1","title":"Vinayashrut — On Discipline"}]},{"file":"uttaradhyana-ch2.html","num":"U2","title":"Uttaradhyana Ch 2 — On Endurances","sutras":[{"id":"hero","num":"U2","title":"On Endurances"}]},{"file":"uttaradhyana-ch3.html","num":"U3","title":"Uttaradhyana Ch 3 — Chaturangiya — Four Supreme Rarities","sutras":[{"id":"hero","num":"U3","title":"Chaturangiya — Four Supreme Rarities"}]},{"file":"uttaradhyana-ch4.html","num":"U4","title":"Uttaradhyana Ch 4 — Impermanent Life","sutras":[{"id":"hero","num":"U4","title":"Impermanent Life"}]},{"file":"uttaradhyana-ch5.html","num":"U5","title":"Uttaradhyana Ch 5 — On the Two Types of Death","sutras":[{"id":"hero","num":"U5","title":"On the Two Types of Death"}]},{"file":"uttaradhyana-ch6.html","num":"U6","title":"Uttaradhyana Ch 6 — The Minor Detachment","sutras":[{"id":"hero","num":"U6","title":"The Minor Detachment"}]},{"file":"uttaradhyana-ch7.html","num":"U7","title":"Uttaradhyana Ch 7 — The Goat Parable","sutras":[{"id":"hero","num":"U7","title":"The Goat Parable"}]},{"file":"uttaradhyana-ch8.html","num":"U8","title":"Uttaradhyana Ch 8 — Story of Kapila","sutras":[{"id":"hero","num":"U8","title":"Story of Kapila"}]},{"file":"uttaradhyana-ch9.html","num":"U9","title":"Uttaradhyana Ch 9 — The Renunciation of King Nami","sutras":[{"id":"hero","num":"U9","title":"The Renunciation of King Nami"}]},{"file":"uttaradhyana-ch10.html","num":"U10","title":"Uttaradhyana Ch 10 — Fallen Leaf","sutras":[{"id":"hero","num":"U10","title":"Fallen Leaf"}]},{"file":"uttaradhyana-ch11.html","num":"U11","title":"Uttaradhyana Ch 11 — Veneration of the Greatly Learned","sutras":[{"id":"hero","num":"U11","title":"Veneration of the Greatly Learned"}]},{"file":"uttaradhyana-ch12.html","num":"U12","title":"Uttaradhyana Ch 12 — Harikeshiya","sutras":[{"id":"hero","num":"U12","title":"Harikeshiya"}]},{"file":"uttaradhyana-ch13.html","num":"U13","title":"Uttaradhyana Ch 13 — Chitt-Sambhutiya","sutras":[{"id":"hero","num":"U13","title":"Chitt-Sambhutiya"}]},{"file":"uttaradhyana-ch14.html","num":"U14","title":"Uttaradhyana Ch 14 — Ishukariya","sutras":[{"id":"hero","num":"U14","title":"Ishukariya"}]},{"file":"uttaradhyana-ch15.html","num":"U15","title":"Uttaradhyana Ch 15 — Sabhikshu","sutras":[{"id":"hero","num":"U15","title":"Sabhikshu"}]},{"file":"uttaradhyana-ch16.html","num":"U16","title":"Uttaradhyana Ch 16 — Foundations of Celibacy","sutras":[{"id":"hero","num":"U16","title":"Foundations of Celibacy"}]},{"file":"uttaradhyana-ch17.html","num":"U17","title":"Uttaradhyana Ch 17 — The Marks of the Fallen Monk","sutras":[{"id":"hero","num":"U17","title":"The Marks of the Fallen Monk"}]},{"file":"uttaradhyana-ch18.html","num":"U18","title":"Uttaradhyana Ch 18 — Sanjayiya","sutras":[{"id":"hero","num":"U18","title":"Sanjayiya"}]},{"file":"uttaradhyana-ch19.html","num":"U19","title":"Uttaradhyana Ch 19 — Mrigaputriya","sutras":[{"id":"hero","num":"U19","title":"Mrigaputriya"}]},{"file":"uttaradhyana-ch20.html","num":"U20","title":"Uttaradhyana Ch 20 — Mahanirgranthiya","sutras":[{"id":"hero","num":"U20","title":"Mahanirgranthiya"}]},{"file":"uttaradhyana-ch21.html","num":"U21","title":"Uttaradhyana Ch 21 — Samudrapaliya","sutras":[{"id":"hero","num":"U21","title":"Samudrapaliya"}]},{"file":"uttaradhyana-ch22.html","num":"U22","title":"Uttaradhyana Ch 22 — Rathanemiya","sutras":[{"id":"hero","num":"U22","title":"Rathanemiya"}]},{"file":"uttaradhyana-ch23.html","num":"U23","title":"Uttaradhyana Ch 23 — The Dialogue of Kesi and Gautama","sutras":[{"id":"hero","num":"U23","title":"The Dialogue of Kesi and Gautama"}]},{"file":"uttaradhyana-ch24.html","num":"U24","title":"Uttaradhyana Ch 24 — Mothers of the Teaching","sutras":[{"id":"hero","num":"U24","title":"Mothers of the Teaching"}]},{"file":"uttaradhyana-ch25.html","num":"U25","title":"Uttaradhyana Ch 25 — The Sacrifice — Yajniya","sutras":[{"id":"hero","num":"U25","title":"The Sacrifice — Yajniya"}]},{"file":"uttaradhyana-ch26.html","num":"U26","title":"Uttaradhyana Ch 26 — Monastic Conduct","sutras":[{"id":"hero","num":"U26","title":"Monastic Conduct"}]},{"file":"uttaradhyana-ch27.html","num":"U27","title":"Uttaradhyana Ch 27 — The Obstinate Ox","sutras":[{"id":"hero","num":"U27","title":"The Obstinate Ox"}]},{"file":"uttaradhyana-ch28.html","num":"U28","title":"Uttaradhyana Ch 28 — Movement on the Path of Liberation","sutras":[{"id":"hero","num":"U28","title":"Movement on the Path of Liberation"}]},{"file":"uttaradhyana-ch30.html","num":"U30","title":"Uttaradhyana Ch 30 — The Path of Austerity","sutras":[{"id":"hero","num":"U30","title":"The Path of Austerity"}]},{"file":"uttaradhyana-ch31.html","num":"U31","title":"Uttaradhyana Ch 31 — Rule of Right Conduct","sutras":[{"id":"hero","num":"U31","title":"Rule of Right Conduct"}]},{"file":"uttaradhyana-ch33.html","num":"U33","title":"Uttaradhyana Ch 33 — The Nature of Karma","sutras":[{"id":"hero","num":"U33","title":"The Nature of Karma"}]},{"file":"uttaradhyana-ch34.html","num":"U34","title":"Uttaradhyana Ch 34 — Lesya — Soul Colorations","sutras":[{"id":"hero","num":"U34","title":"Lesya — Soul Colorations"}]},{"file":"uttaradhyana-ch35.html","num":"U35","title":"Uttaradhyana Ch 35 — The Path of the Homeless Ascetic","sutras":[{"id":"hero","num":"U35","title":"The Path of the Homeless Ascetic"}]},{"file":"uttaradhyana-ch36.html","num":"U36","title":"Uttaradhyana Ch 36 — Jiva-Ajiva Vibhakti","sutras":[{"id":"hero","num":"U36","title":"Jiva-Ajiva Vibhakti"}]},{"file":"../vipaak/vipaak-ch1.html","num":"D1","title":"Duhkha Vipaak Ch 1 — Mrigaputra","sutras":[{"id":"hero","num":"D1","title":"Duhkha Vipaak Ch 1 — Mrigaputra"}]},{"file":"../vipaak/vipaak-ch2.html","num":"D2","title":"Duhkha Vipaak Ch 2 — Ujjhitak","sutras":[{"id":"hero","num":"D2","title":"Duhkha Vipaak Ch 2 — Ujjhitak"}]},{"file":"../vipaak/vipaak-ch3.html","num":"D3","title":"Duhkha Vipaak Ch 3 — Abhagrasena","sutras":[{"id":"hero","num":"D3","title":"Duhkha Vipaak Ch 3 — Abhagrasena"}]},{"file":"../vipaak/vipaak-ch4.html","num":"D4","title":"Duhkha Vipaak Ch 4 — Shakatkumar","sutras":[{"id":"hero","num":"D4","title":"Duhkha Vipaak Ch 4 — Shakatkumar"}]},{"file":"../vipaak/vipaak-ch5.html","num":"D5","title":"Duhkha Vipaak Ch 5 — Bruhaspatidat","sutras":[{"id":"hero","num":"D5","title":"Duhkha Vipaak Ch 5 — Bruhaspatidat"}]},{"file":"../vipaak/vipaak-ch6.html","num":"D6","title":"Duhkha Vipaak Ch 6 — Nandivardhana","sutras":[{"id":"hero","num":"D6","title":"Duhkha Vipaak Ch 6 — Nandivardhana"}]},{"file":"../vipaak/vipaak-ch7.html","num":"D7","title":"Duhkha Vipaak Ch 7 — Umbaradatt","sutras":[{"id":"hero","num":"D7","title":"Duhkha Vipaak Ch 7 — Umbaradatt"}]},{"file":"../vipaak/vipaak-ch8.html","num":"D8","title":"Duhkha Vipaak Ch 8 — Shaurikadatt","sutras":[{"id":"hero","num":"D8","title":"Duhkha Vipaak Ch 8 — Shaurikadatt"}]},{"file":"../vipaak/vipaak-ch9.html","num":"D9","title":"Duhkha Vipaak Ch 9 — Devdatta","sutras":[{"id":"hero","num":"D9","title":"Duhkha Vipaak Ch 9 — Devdatta"}]},{"file":"../vipaak/vipaak-ch10.html","num":"D10","title":"Duhkha Vipaak Ch 10 — Anjushri","sutras":[{"id":"hero","num":"D10","title":"Duhkha Vipaak Ch 10 — Anjushri"}]},{"file":"../vipaak/vipaak-sukhvipak-ch1.html","num":"S1","title":"Sukha Vipaak Ch 1 — Subahukumar","sutras":[{"id":"hero","num":"S1","title":"Sukha Vipaak Ch 1 — Subahukumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch2.html","num":"S2","title":"Sukha Vipaak Ch 2 — Bhadranandi","sutras":[{"id":"hero","num":"S2","title":"Sukha Vipaak Ch 2 — Bhadranandi"}]},{"file":"../vipaak/vipaak-sukhvipak-ch3.html","num":"S3","title":"Sukha Vipaak Ch 3 — Sujatkumar","sutras":[{"id":"hero","num":"S3","title":"Sukha Vipaak Ch 3 — Sujatkumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch4.html","num":"S4","title":"Sukha Vipaak Ch 4 — Suvasankumar","sutras":[{"id":"hero","num":"S4","title":"Sukha Vipaak Ch 4 — Suvasankumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch5.html","num":"S5","title":"Sukha Vipaak Ch 5 — Jindas","sutras":[{"id":"hero","num":"S5","title":"Sukha Vipaak Ch 5 — Jindas"}]},{"file":"../vipaak/vipaak-sukhvipak-ch6.html","num":"S6","title":"Sukha Vipaak Ch 6 — Dhanpati","sutras":[{"id":"hero","num":"S6","title":"Sukha Vipaak Ch 6 — Dhanpati"}]},{"file":"../vipaak/vipaak-sukhvipak-ch7.html","num":"S7","title":"Sukha Vipaak Ch 7 — Mahabhal","sutras":[{"id":"hero","num":"S7","title":"Sukha Vipaak Ch 7 — Mahabhal"}]},{"file":"../vipaak/vipaak-sukhvipak-ch8.html","num":"S8","title":"Sukha Vipaak Ch 8 — Bhadrandiikumar","sutras":[{"id":"hero","num":"S8","title":"Sukha Vipaak Ch 8 — Bhadrandiikumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch9.html","num":"S9","title":"Sukha Vipaak Ch 9 — Mahachandrakumar","sutras":[{"id":"hero","num":"S9","title":"Sukha Vipaak Ch 9 — Mahachandrakumar"}]},{"file":"../vipaak/vipaak-sukhvipak-ch10.html","num":"S10","title":"Sukha Vipaak Ch 10 — Varadatt","sutras":[{"id":"hero","num":"S10","title":"Sukha Vipaak Ch 10 — Varadatt"}]},{"file":"../../tattvartha/tattvartha-ch1-v4.html","num":"T1","title":"Tattvartha Ch 1 — Right Faith & Knowledge","sutras":[{"id":"hero","num":"T1","title":"Right Faith & Knowledge"}]},{"file":"../../tattvartha/tattvartha-ch2-v4.html","num":"T2","title":"Tattvartha Ch 2 — Category of the Living","sutras":[{"id":"hero","num":"T2","title":"Category of the Living"}]},{"file":"../../tattvartha/tattvartha-ch3-v4.html","num":"T3","title":"Tattvartha Ch 3 — The Lower World & the Middle World","sutras":[{"id":"hero","num":"T3","title":"The Lower World & the Middle World"}]},{"file":"../../tattvartha/tattvartha-ch4-v4.html","num":"T4","title":"Tattvartha Ch 4 — The Celestial Beings","sutras":[{"id":"hero","num":"T4","title":"The Celestial Beings"}]},{"file":"../../tattvartha/tattvartha-ch5-v4.html","num":"T5","title":"Tattvartha Ch 5 — The Non-Living Substances","sutras":[{"id":"hero","num":"T5","title":"The Non-Living Substances"}]},{"file":"../../tattvartha/tattvartha-ch6-v4.html","num":"T6","title":"Tattvartha Ch 6 — Influx of Karma","sutras":[{"id":"hero","num":"T6","title":"Influx of Karma"}]},{"file":"../../tattvartha/tattvartha-ch7-v4.html","num":"T7","title":"Tattvartha Ch 7 — The Five Vows","sutras":[{"id":"hero","num":"T7","title":"The Five Vows"}]},{"file":"../../tattvartha/tattvartha-ch8-v4.html","num":"T8","title":"Tattvartha Ch 8 — Bondage of Karma","sutras":[{"id":"hero","num":"T8","title":"Bondage of Karma"}]},{"file":"../../tattvartha/tattvartha-ch9-v4.html","num":"T9","title":"Tattvartha Ch 9 — Stoppage and Shedding","sutras":[{"id":"hero","num":"T9","title":"Stoppage and Shedding"}]},{"file":"../../tattvartha/tattvartha-ch10-v4.html","num":"T10","title":"Tattvartha Ch 10 — Liberation","sutras":[{"id":"hero","num":"T10","title":"Liberation"}]}];
+
+  function initSearch() {
+    var input = document.getElementById("search-input");
+    if (!input) return;
+    var wrapper = input.closest(".relative");
+    if (!wrapper) return;
+    var dropdown = document.getElementById("search-dropdown");
+    if (!dropdown) {
+      dropdown = document.createElement("div");
+      dropdown.id = "search-dropdown";
+      wrapper.appendChild(dropdown);
+    }
+    var currentFile = (location.pathname.split("/").pop() || location.href.split("/").pop() || "").replace(/[?#].*$/, "");
+    function highlight(text, query) {
+      if (!query) return text;
+      return text.replace(new RegExp("(" + query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark style='background:#fff3c4;color:inherit;border-radius:2px;'>$1</mark>");
+    }
+    function search(query) {
+      if (query.length < 2) { dropdown.style.display = "none"; return; }
+      var q = query.toLowerCase();
+      var currentMatches = [];
+      var otherMatches = [];
+      SEARCH_INDEX.forEach(function (chapter) {
+        var matches = chapter.sutras.filter(function (s) {
+          return s.title.toLowerCase().includes(q) || String(s.num).toLowerCase().includes(q);
+        }).slice(0, 4);
+        if (!matches.length) return;
+        var isCurrent = chapter.file === currentFile;
+        (isCurrent ? currentMatches : otherMatches).push({ chapter: chapter, matches: matches });
+      });
+      var html = "";
+      if (currentMatches.length) {
+        html += "<div class='search-section-label'>This Chapter</div>";
+        currentMatches.forEach(function (r) {
+          r.matches.forEach(function (s) {
+            html += "<button class='search-result-item' data-local='true' data-id='" + s.id + "'><span class='search-result-num'>" + s.num + "</span><span class='search-result-title'>" + highlight(s.title, query) + "</span></button>";
+          });
+        });
+      }
+      otherMatches.slice(0, 8).forEach(function (r) {
+        html += "<div class='search-section-label'>" + r.chapter.title + "</div>";
+        r.matches.forEach(function (s) {
+          var link = r.chapter.file;
+          if (s.id && s.id !== "hero") link += "#" + s.id;
+          html += "<a class='search-result-item' href='" + link + "'><span class='search-result-num'>" + s.num + "</span><span class='search-result-title'>" + highlight(s.title, query) + "</span></a>";
+        });
+      });
+      if (!html) html = "<div class='search-no-results'>No results for &ldquo;" + query + "&rdquo;</div>";
+      dropdown.innerHTML = html;
+      dropdown.style.display = "block";
+      dropdown.querySelectorAll("[data-local='true']").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var el = document.getElementById(this.dataset.id);
+          if (el) { el.scrollIntoView({ behavior: "smooth", block: "center" }); el.style.outline = "2px solid #C9A84C"; el.style.outlineOffset = "4px"; setTimeout(function () { el.style.outline = ""; el.style.outlineOffset = ""; }, 2000); }
+          dropdown.style.display = "none";
+          input.value = "";
+        });
+      });
+    }
+    input.addEventListener("input", function () { search(this.value.trim()); });
+    input.addEventListener("keydown", function (e) { if (e.key === "Escape") { dropdown.style.display = "none"; input.value = ""; } });
+    document.addEventListener("click", function (e) { if (!wrapper.contains(e.target)) dropdown.style.display = "none"; });
+  }
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initSearch) : initSearch();
+})();
+</script>
+</body>
 </html>
