@@ -51,6 +51,23 @@ html { scroll-behavior: smooth; }
     .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
     .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
     .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+
+/* ── NEW: Breadcrumb ── */
+#breadcrumb { transition: opacity 0.4s ease, transform 0.4s ease; }
+
+/* ── NEW: Sutra card hover — 180° complement of gold #C9A84C → #4d5a98 ── */
+.sutra-card { transition: border-left-color 0.35s ease, background 0.35s ease, box-shadow 0.35s ease; }
+.sutra-card:hover { border-left-color: #4d5a98 !important; background: rgba(77,90,152,0.028) !important; box-shadow: 0 4px 20px rgba(77,90,152,0.09) !important; }
+
+/* ── NEW: Hero golden text hover — shifts to complementary blue ── */
+.hero-primary-text { transition: color 0.5s ease; }
+.hero-primary-text:hover { color: #4d5a98 !important; }
+
+/* ── NEW: Bottom nav-button selected/hover → complementary blue ── */
+.nav-button:hover { border-color: #4d5a98 !important; color: #4d5a98 !important; }
+
+    #main-nav a { text-decoration: none; }
+    .nav-link { text-decoration: none; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -63,7 +80,7 @@ html { scroll-behavior: smooth; }
         <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
         <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
         <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
-        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors duration-300 underline underline-offset-4 decoration-primary/40" href="../aagama-index.html">Sacred Texts</a>
       </div>
     </div>
     <div class="flex items-center gap-8">
@@ -75,16 +92,28 @@ html { scroll-behavior: smooth; }
     </div>
   </div>
 </nav>
-
+<nav id="breadcrumb" aria-label="Breadcrumb" style="position:fixed;top:64px;left:0;width:100%;z-index:40;">
+  <div style="background:rgba(254,249,241,0.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(201,168,76,0.12);">
+    <div class="max-w-screen-2xl mx-auto px-6 md:px-12" style="display:flex;align-items:center;gap:0.5rem;padding-top:0.45rem;padding-bottom:0.45rem;font-family:'Inter',sans-serif;font-size:11px;letter-spacing:0.04em;">
+      <a href="../../../index-v4.html" class="breadcrumb-link" style="color:#7e7665;text-decoration:none;transition:color 0.2s ease;" onmouseover="this.style.color='#755b00'" onmouseout="this.style.color='#7e7665'">JainAwaken</a>
+      <span style="color:#d0c5b2;margin:0 2px;">›</span>
+      <a href="../aagama-index.html" class="breadcrumb-link" style="color:#7e7665;text-decoration:none;transition:color 0.2s ease;" onmouseover="this.style.color='#755b00'" onmouseout="this.style.color='#7e7665'">Sacred Texts</a>
+      <span style="color:#d0c5b2;margin:0 2px;">›</span>
+      <span style="color:#7e7665;">Uttaradhyayana</span>
+      <span style="color:#d0c5b2;margin:0 2px;">›</span>
+      <span style="color:#755b00;font-weight:600;background:rgba(201,168,76,0.15);padding:2px 10px;border-radius:100px;">Chapter 24</span>
+    </div>
+  </div>
+</nav>
 <main class="pt-40">
 
 <!-- Hero -->
 <section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
   <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
     <div class="flex flex-col gap-3">
-      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 24</span>
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold hero-primary-text">Uttaradhyayana Sutra · Chapter 24</span>
       <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
-        Mothers of the Teaching<span class="block text-primary font-normal">પ્રવચન માતા</span>
+        Mothers of the Teaching<span class="block text-primary font-normal hero-primary-text">પ્રવચન માતા</span>
       </h1>
     </div>
     <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On the eight foundational practices that give birth to and protect the entire spiritual path</h2>
@@ -769,6 +798,14 @@ html { scroll-behavior: smooth; }
 
 <script>
 window.addEventListener('scroll', () => {
+  const bc = document.getElementById('breadcrumb');
+  const hero = document.querySelector('main > section');
+  if (bc && hero) {
+    const past = window.scrollY > hero.offsetHeight * 0.75;
+    bc.style.opacity = past ? '0' : '1';
+    bc.style.transform = past ? 'translateY(-6px)' : 'translateY(0)';
+    bc.style.pointerEvents = past ? 'none' : 'auto';
+  }
   const visible = window.scrollY > 300;
   document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
 });
