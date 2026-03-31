@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 15: Sabhikshu | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e","on-secondary-fixed-variant": "#4a4642","secondary-container": "#e6ded9","primary-fixed-dim": "#e6c364","surface-bright": "#fef9f1","tertiary-fixed": "#dde1ff","surface": "#fef9f1","primary-fixed": "#ffe08f","surface-container-low": "#f8f3eb","secondary-fixed": "#e9e1dc","outline-variant": "#d0c5b2","outline": "#7e7665","inverse-on-surface": "#f5f0e8","on-background": "#1d1c17","on-secondary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff","on-primary-fixed-variant": "#584400","surface-dim": "#ded9d2","surface-container-high": "#ece8e0","primary": "#755b00","on-primary-container": "#503d00","inverse-surface": "#32302b","secondary": "#625d59","error-container": "#ffdad6","tertiary-fixed-dim": "#b9c3ff","on-secondary-container": "#67625e","on-primary": "#ffffff","on-primary-fixed": "#241a00","on-error-container": "#93000a","surface-tint": "#755b00","secondary-fixed-dim": "#ccc5c0","surface-variant": "#e7e2da","surface-container-lowest": "#ffffff","on-tertiary-fixed": "#041451","surface-container-highest": "#e7e2da","primary-container": "#c9a84c","inverse-primary": "#e6c364","on-surface-variant": "#4d4637","tertiary": "#4d5a98","background": "#fef9f1","on-tertiary": "#ffffff","on-surface": "#1d1c17","tertiary-container": "#9ba8eb","surface-container": "#f2ede5","on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.125rem; line-height: 1.75; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 15</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Worthy Monk<span class="block text-primary font-normal">સભિક્ષુ</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">The defining qualities and conduct of a true Jain monk.</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Through 16 precise sutras, each ending with the rhythmic refrain "sa bhikkhū" (he is a bhikshu), Lord Mahavira enumerates the internal and external marks of genuine monkhood—from equanimity in the face of blows to the total rejection of worldly status and arts.
+    </p>    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../assets/ch9-hero.jpg" alt="Chapter 15 Hero Image" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">असिप्पजीवी अगिहे अमित्ते, जिइंदिए सव्वओ विप्पमुक्के ।<br/>अणुक्कसाई लहुअप्पभक्खी, चिण्णाए गिहं एगचरे स भिक्खू</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;He who is without a home, without binding friends or enemies, who has conquered the senses, who is completely free from all bonds, and who wanders alone — he is a bhikshu.&rdquo;</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sabhikshu</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Sabhikshu</span> is the fifteenth chapter of the Uttaradhyayana Sutra. Its name translates to "The (True) Bhikshu," and it serves as a rigorous manifesto for monastic life. Unlike the narrative arc of the previous chapter, this is a thematic enumeration of qualities.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Each of the 16 sutras acts as a definition, stripping away the external trappings of religion to reveal the core of renunciation: equanimity in all conditions, rejection of all transactional relationships, and the total settling of the soul into itself.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">16</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">The Seekers</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Addressed To</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">5</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sections</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 15</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 16 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra defines a characteristic of a true monk, ending with the definitive "sa bhikkhū."</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider" id="section-resolve"><span>Part I — The Resolve and Inner Qualities</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मोणं चरिस्सामि समिच्च धम्मं, सहिए उज्जुकडे णियाणछिण्णे । संथवं जहिज्ज अकामकामे, अण्णायएसी परिव्वए स भिक्खू ॥१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having reflected upon the Dharma, he who resolves "I will practice monkhood," who is endowed with right knowledge and vision, who is straight and free of deceit, who has cut the cord of craving, who has abandoned attachment to relatives, who is free of desire for sense pleasures, and who wanders seeking alms in unknown households — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This opening sutra establishes the inner resolve of a true monk. The word moṇaṃ is rich: it means not merely silence, but the total orientation of a muni — the entire way of being of one who has renounced. The true bhikshu is not one who merely wears robes, but one who has inwardly severed three things: the rope of craving (niyāṇa), the bond of family attachment (saṃthava), and the pull of sense pleasures (akāmakāme).</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk is someone who has genuinely decided to live without craving, without attachment to family, and without desire for pleasure, wandering wherever alms may come without preferences.</p>
+        <div class="concept-tags"><span class="concept-tag">Resolve</span><span class="concept-tag">Right Knowledge</span><span class="concept-tag">No Craving</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">राओवरयं चरेज्ज लाढे, विरए वेयवियाऽऽयरिक्खए । पण्णे अभिभूय सव्वदंसी, जे कम्हि वि ण मुच्छिए स भिक्खू ॥२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who, free from rāga (attachment) and ovara (aversion), wanders in suitable territory, who is restrained from sin, learned in the scriptures and protective of the self, who is wise, who has overcome all trials, who sees all beings equally, and who is not attached to anything whatsoever — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the monk in motion — moving through the world with complete detachment. He has overcome rāga and dveṣa (attraction and repulsion), the two engines of karmic bondage. The phrase savvadaṃsī — "one who sees all" — means he has overcome rāga and dveṣa toward all beings and keeps the purpose of saṃyama always in view.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk moves through the world with no likes or dislikes pulling him — he is learned, self-sufficient, kind to all beings, and completely unattached to anything.</p>
+        <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Self-Protection</span><span class="concept-tag">Detachment</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अक्कोस वहं विइत्तु धीरे, मुणी चरे लाढे णिच्चमायगुत्ते । अव्वग्गमणे असंपिहट्टे, जे किसिणं अहियासए स भिक्खू ॥३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The steadfast muni who, having understood harsh words and blows as the fruit of his own past karma, wanders in worthy territory, always guarding his soul, never agitated in mind, never elated, and who endures all hardships with equanimity — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk does not merely tolerate abuse; he has understood it philosophically — recognizing it as the fruition of his own past karma, not as something done to him by an external enemy. This reframing transforms suffering into a spiritual opportunity. He remains avvaggamaṇe — unagitated — and asaṃpihaṭṭe — unelated.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk accepts insults and even physical harm calmly because he understands that what happens to him is a result of his own past actions, not someone else's fault.</p>
+        <div class="concept-tags"><span class="concept-tag">Forbearance</span><span class="concept-tag">Karma Vision</span><span class="concept-tag">Steadiness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पंतं सयणासणं भइत्ता, सीउण्हं विविहं च दंसमसगं । अव्वग्गमणेऽसंपिहट्टे, जे किसिणं अहियासए स भिक्खू ॥४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who accepts inferior bedding and seating with contentment, who endures cold, heat, and various kinds of insect bites — never agitated in mind, never elated — and who endures all hardships with equanimity — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Where sutra 3 addressed inner trials, this sutra addresses physical hardship. The monk accepts whatever bed or seat is offered, however rough. This is not mere stoicism; it is the recognition that the body is not the self, and therefore its discomforts do not touch what is essential. Neither distressed nor elated, he remains centered.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk is completely okay with a rough bed, extreme weather, and insect bites — he doesn't complain because he knows his body's discomforts are not his ultimate concern.</p>
+        <div class="concept-tags"><span class="concept-tag">Physical Hardship</span><span class="concept-tag">Contentment</span><span class="concept-tag">Body-Soul Distinction</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो सक्कियमिच्छइ ण पूयं, णो वि य वंदणगं कुओ पसंसं । से संजए सुव्वए तवस्सी, सहिए आयगवेसए स भिक्खू ॥५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not desire honor, nor worship, nor even veneration — much less praise — he who is restrained, well-vowed, ascetic, endowed with right knowledge, and a seeker of the self — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra targets the subtlest form of attachment — the desire for respect. Praise is often the most persistent ego-driven motivation in spiritual life. The true bhikshu has uprooted it entirely. He is āyagavesae — a seeker of the self, the ātman — not a seeker of applause.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk does not want to be praised, honored, or even bowed to — he has no interest in what others think of him; his only interest is in the work of his own soul.</p>
+        <div class="concept-tags"><span class="concept-tag">No Praise</span><span class="concept-tag">Seeker of Self</span><span class="concept-tag">Humility</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider" id="section-restraint"><span>Part II — Restraint from Worldly Entanglements</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जेण पुण जहाइ जीवियं, मोहं वा किसिणं णियच्छइ । परणारिं पजहे सया तवस्सी, ण य कोउहलं उवेइ स भिक्खू ॥६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who stays always far from the company of other men's and women's association — by which saṃyama (the life of restraint) is destroyed and all forms of moha (delusion) arise — who, as an ascetic, always abandons contact with women, and does not engage in any frivolity — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The logic here is karmic: association with those who generate attraction-repulsion has the direct effect of destroying saṃyama. The monk who remains vigilant about this association is driven by a clear-eyed understanding of how delusion (mohanīya karma) operates. He also avoids kauhal — frivolity and unnecessary socializing.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk avoids any company or entertainment that could stir up attachment or delusion, because he knows these are the things most likely to pull him away from his path.</p>
+        <div class="concept-tags"><span class="concept-tag">Samyama</span><span class="concept-tag">Avoiding Delusion</span><span class="concept-tag">Focus</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">छिण्णं सरं भोमंतलिक्खं, सुमिणं लक्खण दंड वत्थुविज्जं । अंगियारं सरस्स विजयं, जे विज्जाहिं ण जीवइ स भिक्खू ॥७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not earn his livelihood through any of these arts — the art of cutting cloth and wood, the art of melody and sound, knowledge of omens and ground signs, the knowledge of space and sky, the knowledge of dreams, the knowledge of body marks (physiognomy), the art of sticks and implements, the knowledge of architecture and vastushastra, the art of fire omens, the knowledge of animal and bird language — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Fourteen forbidden arts are listed. They are forbidden because using them to sustain oneself creates worldly dependency and ego-investment. A monk who tells fortunes or practices crafts has made his spiritual practice into a livelihood, which corrupts both. Sustenance must come only from alms received without service rendered in return.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk doesn't use special arts, fortune-telling, or any kind of craft to earn food — he receives only what is freely given as alms, with no strings attached.</p>
+        <div class="concept-tags"><span class="concept-tag">Livelihood</span><span class="concept-tag">Forbidden Arts</span><span class="concept-tag">Purity</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मंतं मूलं विविहं वेज्जचिंतं, वमण विरेयण धूमणेत्तसिणाणं । आउरे सरणं तिगिच्छियं च, तं परिण्णाय परिव्वए स भिक्खू ॥८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having fully understood and renounced mantra practice, herbal-root remedies, various forms of medical treatment, induced vomiting, purgatives, nasal smoke-inhalation procedures for cleansing, bathing, the impulse to seek shelter in a householder's home when ill, and the practice of medical treatment — he who wanders with this understanding is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra extends the principle to medicine. When the body suffers, every instinct pulls toward relief. Yet the monk understands that medical treatment, when used to perpetuate attachment to the body, becomes a form of violence against the path. He does not blindly follow a rule but has genuinely comprehended why these renunciations serve liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk does not use medicine or healing treatments — even when ill — because his entire orientation is toward the soul, not toward preserving the body's comfort.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Medicine</span><span class="concept-tag">Soul Focus</span><span class="concept-tag">Hardship</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">खत्तियगण उग्गरायपुत्ता, माहणभोइय विविहा य सिप्पिणो । णो तेसिं वयइ सिलोगपूयं, तं परिण्णाय परिव्वए स भिक्खू ॥९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not offer words of praise or eulogy to Kshatriya warrior-clans, mighty kings, royal princes, Brahmins, chieftains, or the various craftsmen and artisans — having understood that such praise is not beneficial to the life of saṃyama — he who wanders with this understanding is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk's restraint extends to speech. Flattery of the powerful is done to receive favor—better food, shelter, or protection. This transforms the monk into a sycophant. The Jain monk holds equal vision (samadṛṣṭi) toward all: a mighty king and a humble artisan are equally worthy of the same non-sycophantic presence.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk does not flatter powerful people in order to receive better food or protection; he treats everyone with the same quiet equality.</p>
+        <div class="concept-tags"><span class="concept-tag">Equal Vision</span><span class="concept-tag">No Flattery</span><span class="concept-tag">Speech Restraint</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">गिहिणो जे पव्वइएण दिट्ठा, अप्पव्वइएण व संथुया हविज्जा । तेसिं इहलोइयफलट्ठा, जो संथवं ण करेइ स भिक्खू ॥१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who, after having taken initiation (pravrajyā), does not maintain special familiarity with any of those householders he knew before initiation or became acquainted with after initiation — seeking worldly gains such as clothing, alms-bowl, food, fame, or praise — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This addresses the subtle temptation of using old relationships to secure advantages. A true monk does not cultivate saṃthava — a special familiarity — if motivated by worldly benefit. Every household he approaches is as a pure receiver of whatever is freely given, not as someone leveraging a connection.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk doesn't use old friendships or new relationships to get better food or gifts — every household he visits is approached with the same openness.</p>
+        <div class="concept-tags"><span class="concept-tag">No Transaction</span><span class="concept-tag">Pravrajya</span><span class="concept-tag">Relationship Bounds</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider" id="section-alms"><span>Part III — Equanimity in Receiving Alms</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सयणासण पाणभोयणं, विविहं खाइमं साइमं परेसिं । अदए पडिसेहिए णियंठे, तेत्थ ण पउस्सइ स भिक्खू ॥११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">When the nirgranth monk goes to householders and they do not give him his bed, seat, water, food, various eatables, or palate-pleasing items — or actively refuse him — he does not feel even the slightest dveṣa (aversion or resentment) toward them — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">A monk's life creates constant situations of potential insult. The word paussai means to develop aversion or ill-will. The true monk does not experience this. The householder who refuses is not an enemy. Refusal, when met with equanimity, is itself a kind of practice.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When someone slams the door in a monk's face and refuses to give him anything, the true monk feels absolutely no anger or resentment.</p>
+        <div class="concept-tags"><span class="concept-tag">No Resentment</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Alms Refusal</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जं किंचि आहारपाणगं, विविहं खाइमं साइमं परेसिं लद्धं । जो तं तिविहेण णाणुकंपे, मण वय कायसुसंवुडे स भिक्खू ॥१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever food and water, various eatables or palate-pleasing items are received from householders — he who does not approve of or take delight in them by mind, speech, or body, and who keeps mind, speech, and body fully controlled — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk receives food without craving it or mentally relishing it. This is the practice of non-approval (ananukampā). The Jain term īhādoṣa refers specifically to sensory craving at the moment of receiving food. The truly restrained monk has triply controlled himself: mentally, verbally, and bodily.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk receives food without craving it — he doesn't think "I hope I get more of this" — he simply receives what comes.</p>
+        <div class="concept-tags"><span class="concept-tag">No Craving</span><span class="concept-tag">Ananukampa</span><span class="concept-tag">Triple Control</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आयामगं चेव जवोदणं च, सीयं सोवीर जवोदगं च । णो हीलए पिंडं णीरसं तु, पंतकुलाइं परिव्वए स भिक्खू ॥१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not despise or look down upon plain, tasteless alms — whether it be leftover food, barley-rice, cold food, thin gruel made from curds, or barley-water — and who wanders even to ordinary humble households for alms — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is a gentle rebuke to the pride of the palate. Leftovers and watery gruel were the least valued foods. The monk accepts them without complaint. This is the direct embodiment of aparigraha (non-possessiveness). Contempt for plain food is a form of ego.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk happily accepts the plainest, most tasteless food from the humblest homes without any sense of deserving better.</p>
+        <div class="concept-tags"><span class="concept-tag">Humble Alms</span><span class="concept-tag">No Pride</span><span class="concept-tag">Aparigraha</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IV -->
+  <div class="section-divider" id="section-fearlessness"><span>Part IV — Fearlessness and Doctrinal Equanimity</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सदा विविहा भवंति लोए, दिव्वा माणुस्सगा तहा तिरिच्छा । भीमा भयभेरवा उराला, जो सोच्चा ण विहिज्जइ स भिक्खू ॥१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In this world there always exist various terrifying sounds and extraordinary phenomena — divine, human, and those of animals and birds — extremely frightening, fear-inducing, and overwhelming; he who hears them and is not frightened — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk often encounters terrifying environments alone—cremation grounds or deep forests. His quality is not the absence of perception but the absence of fear in response to perception. This fearlessness is the fruit of a profound inner stability: a being settled into the self is no longer threatened by the world's sounds.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk can hear the most terrifying sounds and remain completely unafraid, because his inner steadiness is deeper than anything the world can produce.</p>
+        <div class="concept-tags"><span class="concept-tag">Fearlessness</span><span class="concept-tag">Inner Stability</span><span class="concept-tag">Solitude</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">वादं विविहं समिच्च लोए, सहिए खेयाणुगए य कोवियप्पा । पण्णे अभिभूय सव्वदंसी, उवसंते अविहेडए स भिक्खू ॥१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who, having understood the various doctrinal debates prevalent in the world, remains stable in knowledge and vision, who is an adherent of the path of saṃyama, who is the supreme knower of the deeper meaning of the scriptures, who is wise, who has overcome all trials with equanimity, who sees all beings with equal vision, who is calmed in passions, and who causes pain to no living being — he is a bhikshu.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The world brims with competing philosophical claims. The monk understands them and is moved by none. He does not use his knowledge to humiliate others. He harms no being, not even through the violence of doctrinal arrogance. This is anekāntatā in practice: knowing many views, being attached to none.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk understands all the different philosophies in the world but is never pulled into debates or ego battles — he is wise and calm with everyone.</p>
+        <div class="concept-tags"><span class="concept-tag">Doctrinal Equanimity</span><span class="concept-tag">Anekanta</span><span class="concept-tag">No Arrogance</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V -->
+  <div class="section-divider" id="section-completion"><span>Part V — Complete Renunciation</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">असिप्पजीवी अगिहे अमित्ते, जिइंदिए सव्वओ विप्पमुक्के । अणुक्कसाई लहुअप्पभक्खी, चिण्णाए गिहं एगचरे स भिक्खू ॥१६॥<br/>— ति बेमि ।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not earn his livelihood through any craft or art, who is without a home, who is without binding friends or enemies, who has conquered the senses, who is completely free from all external and internal bonds, who has mild passions, who eats nourishing but limited food, who has renounced householder life, and who wanders alone — free from rāga and dveṣa — he is a bhikshu. — Thus I say.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This final sutra gathers all threads into a single portrait. The monk has no possessive friendships, no enemies—because he has no attachment generating the distinction. He wanders alone (egacare)—this aloneness is the clarity of being fully settled in the self. The closing "iti bemi" is Lord Mahāvīra's own voice, affirming this direct teaching.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A true monk has no job, no home, no special friends or enemies, eats lightly, walks alone, and is free from every attachment. Lord Mahavira says: this is the path.</p>
+        <div class="concept-tags"><span class="concept-tag">Complete Freedom</span><span class="concept-tag">Egacare</span><span class="concept-tag">Iti Bemi</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ अध्ययन-१५ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 15 &mdash; Sabhikshu</p>
+  </div>
+
+</section></main>
+
+<a href="uttaradhyana-ch14.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 14
+</a>
+<a href="uttaradhyana-ch16.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 17 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Aagama</span>
+        <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../uttaradhyana-index.html">Uttaradhyayana</a>
+        <a class="hover:text-primary transition-colors" href="../vipaak/vipaak-index.html">Vipaak Sutra</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4 hidden">
+        <span class="text-primary/40 mb-2">Legacy</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+</script>
+</body>
+</html>

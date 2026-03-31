@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Meditations | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      html { scroll-behavior: smooth; }
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+      .nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+      .nav-hero .nav-logo { color: #ffffff !important; }
+      .nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+      .nav-hero .nav-link:hover { color: #ffffff !important; }
+      .nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+      .nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+      .nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+      #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+      .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+      .search-section-label:first-child { border-top:none; }
+      .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+      .search-result-item:hover { background:#fef9f1; }
+      .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+      .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+      .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+</style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="meditations.html">Meditations</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../scripture/Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="relative min-h-[680px] flex items-center overflow-hidden bg-surface-container-low pt-20">
+  <div class="max-w-screen-2xl mx-auto px-8 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-12 items-center w-full py-20">
+    <div class="md:col-span-6 z-10 space-y-6">
+      <span class="text-primary font-body tracking-[0.2em] text-sm font-semibold uppercase">Jain Practice</span>
+      <h1 class="font-headline text-5xl md:text-7xl text-on-surface leading-tight font-bold">Meditations<br/><span class="text-primary-container italic font-normal text-4xl md:text-6xl">Still the Mind. Know the Soul.</span></h1>
+      <p class="font-body text-lg text-on-surface-variant max-w-xl leading-relaxed">
+        These meditations are not about relaxation. They are about recognition — the soul seeing its own infinite nature beyond the layers of karma it has accumulated. Sit. Listen. Look inward.
+      </p>
+    </div>
+    <div class="md:col-span-6 relative h-[480px] rounded-xl overflow-hidden shadow-2xl hidden md:block">
+      <img class="w-full h-full object-cover" alt="Jain monk in meditation surrounded by sacred mantras" src="../assets/meditations-monk.png"/>
+      <div class="absolute inset-0 bg-gradient-to-t from-surface/30 to-transparent"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Video Grid Section -->
+<section class="max-w-screen-xl mx-auto px-6 lg:px-12 py-32">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Card 01 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+                        <div class="yt-facade w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;" data-vid="wmBZQvohh6Y">
+                <img src="https://img.youtube.com/vi/wmBZQvohh6Y/maxresdefault.jpg" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 01</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">ENGLISH</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Jain Meditation Guide — Destroying the 4 Ghati Karmas</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Enlightenment</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    A practical guide to meditating in a way that works toward destroying the 4 destructive karmas — the karmas that directly obscure the soul's infinite knowledge, perception, bliss, and power.
+                </p>
+            </div>
+        </div>
+        <!-- Card 02 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+            <a href="https://www.youtube.com/watch?v=UUZ6F3gZDNo" target="_blank" rel="noopener" class="block w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;">
+                <img src="https://img.youtube.com/vi/UUZ6F3gZDNo/maxresdefault.jpg" alt="ॐ ह्रीं श्रीं अर्हम नमः — Aum Hrim Shrim Arham Namah" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </a>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 02</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">UNIVERSAL 🌐</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">ॐ ह्रीं श्रीं अर्हम नमः — Aum Hrim Shrim Arham Namah</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Suresh Wadekar, Mahavir Jain</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    A powerful mantra meditation on the infinite energy of the Siddhas — the liberated souls who have transcended all karma and exist in pure infinite consciousness. No language needed. Just presence.
+                </p>
+            </div>
+        </div>
+        <!-- Card 03 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+                        <div class="yt-facade w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;" data-vid="8TNSULDYfxo">
+                <img src="https://img.youtube.com/vi/8TNSULDYfxo/maxresdefault.jpg" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 03</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">UNIVERSAL 🌐</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Navkar Mantra Meditation</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Nehal Shah</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    Meditation through Navkar Mantra recitation — using the mantra as a gateway to stillness and soul awareness. No language barrier. Just the mantra, just presence.
+                </p>
+            </div>
+        </div>
+        <!-- Card 04 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+                        <div class="yt-facade w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;" data-vid="g3LRQvOGCAM">
+                <img src="https://img.youtube.com/vi/g3LRQvOGCAM/maxresdefault.jpg" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 04</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">UNIVERSAL 🌐</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Logassa — Venerating the 24 Tirthankaras</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Gautam Swami</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    Written by Gautam Swami — the first and most prominent disciple of Mahavira Swami — this ancient stotra venerates all 24 Tirthankaras and invites the soul to absorb their liberated qualities. One of the oldest and most sacred compositions in Jain tradition.
+                </p>
+            </div>
+        </div>
+        <!-- Card 05 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+                        <div class="yt-facade w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;" data-vid="EZp42a-s_vQ">
+                <img src="https://img.youtube.com/vi/EZp42a-s_vQ/maxresdefault.jpg" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 05</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">ENGLISH</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Soul Meditation — After Invoking the Panch Parmeshthi</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By The Meditating Jain</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    Focusing on the soul's true nature after invoking the five supreme beings — Arihant, Siddha, Acharya, Upadhyaya, Sadhu. The Navkar is not just a prayer — it is a launchpad for soul contemplation.
+                </p>
+            </div>
+        </div>
+        <!-- Card 06 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+                        <div class="yt-facade w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;" data-vid="UjbF5WtPcds">
+                <img src="https://img.youtube.com/vi/UjbF5WtPcds/maxresdefault.jpg" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 06</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">ENGLISH</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Meditation on Impermanence — Anitya Bhavna</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Varun Jain</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    Contemplating impermanence — the first of the 12 Bhavnas. Everything in the world is transient. Relationships, bodies, circumstances — all passing. Only the soul is eternal.
+                </p>
+            </div>
+        </div>
+        <!-- Card 07 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+            <a href="https://www.youtube.com/watch?v=vokMOUYjBFg" target="_blank" rel="noopener" class="block w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;">
+                <img src="https://img.youtube.com/vi/vokMOUYjBFg/maxresdefault.jpg" alt="Venerating the Virtues of the Five Supreme Beings" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </a>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 07</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">ENGLISH · GUJARATI</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Venerating the Virtues of the Five Supreme Beings</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Rakesh Jhaveri</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    Contemplating and absorbing the qualities of the Panch Parmeshthi — not just reciting their names but becoming what they represent. Available in both English and Gujarati.
+                </p>
+            </div>
+        </div>
+        <!-- Card 08 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+                        <div class="yt-facade w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;" data-vid="3ujsfUymoSw">
+                <img src="https://img.youtube.com/vi/3ujsfUymoSw/maxresdefault.jpg" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 08</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">UNIVERSAL 🌐</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Navkar Mantra — Seven Chakra Activation</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Music Mantra</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    Navkar Mantra chant designed to activate and align the seven chakras — where Jain mantra meets universal energy work. A powerful entry point for seekers from any background.
+                </p>
+            </div>
+        </div>
+        <!-- Card 09 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+                        <div class="yt-facade w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;" data-vid="sxKgxR3FxZE">
+                <img src="https://img.youtube.com/vi/sxKgxR3FxZE/maxresdefault.jpg" class="w-full h-full object-cover" loading="lazy">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 09</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">UNIVERSAL 🌐</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">Jinoham Stotra — Stotra Chanting</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Jain Media</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    A deeply meditative chanting of Jinoham Stotra — "I am Jina, I am the victorious soul." Sanskrit stotra, no comprehension needed. Pure vibrational experience. The soul recognizing itself as already victorious.
+                </p>
+            </div>
+        </div>
+        <!-- Card 10 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+            <a href="https://www.youtube.com/watch?v=0SICC39wDCM" target="_blank" rel="noopener" class="block w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;">
+                <img src="https://img.youtube.com/vi/0SICC39wDCM/maxresdefault.jpg" alt="मैं पूर्ण हूं — I Am Complete" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </a>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 10</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">HINDI</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">मैं पूर्ण हूं — I Am Complete</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Arun Vijay MS</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    Contemplating the soul's inherent completeness and perfection beyond karma. मैं द्रव्य स्वरूप से पूर्ण हूं — I am complete in my essential nature. मैं गुणों से पूर्ण हूं — I am complete in all my qualities.
+                </p>
+            </div>
+        </div>
+        <!-- Card 11 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+            <a href="https://www.youtube.com/watch?v=vWEr-CG_ZIY" target="_blank" rel="noopener" class="block w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;">
+                <img src="https://img.youtube.com/vi/vWEr-CG_ZIY/maxresdefault.jpg" alt="मैं अनंत हूं — I Am Infinite" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </a>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 11</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">HINDI</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">मैं अनंत हूं — I Am Infinite</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Arun Vijay MS</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    The soul as a source of infinite perception, infinite knowledge, infinite bliss, and infinite energy — infinite and perfect beyond the clouds of karma accumulated on the soul.
+                </p>
+            </div>
+        </div>
+        <!-- Card 12 -->
+        <div class="bg-[#F8F3EB] rounded-lg p-6 flex flex-col gap-6">
+            
+            <a href="https://www.youtube.com/watch?v=UVrWt5X9-s4" target="_blank" rel="noopener" class="block w-full rounded-lg overflow-hidden relative group cursor-pointer" style="aspect-ratio: 16/9;">
+                <img src="https://img.youtube.com/vi/UVrWt5X9-s4/maxresdefault.jpg" alt="मैं देह से भिन्न हूं — I Am Separate From My Body" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center">
+                    <div class="w-16 h-16 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                        <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white ml-1"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                </div>
+            </a>
+            
+            <div class="flex flex-col relative">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="font-body text-[11px] text-[#C9A84C] uppercase tracking-widest font-semibold">Meditation 12</span>
+                    <span class="font-body text-[10px] uppercase tracking-[0.2em] border border-[#C9A84C] text-[#755B00] rounded-full px-3 py-1 font-medium bg-transparent">HINDI</span>
+                </div>
+                <h3 class="font-headline text-[20px] text-[#1D1C17] leading-tight mb-1">मैं देह से भिन्न हूं — I Am Separate From My Body</h3>
+                <p class="font-body text-[13px] text-[#1D1C17]/55 mb-4">By Arun Vijay MS</p>
+                <p class="font-body text-[15px] text-[#1D1C17]/70 leading-[1.7]">
+                    The soul is not the body. The body is in the soul's possession — not the other way around. This meditation guides you to experience that separation directly and permanently.
+                </p>
+            </div>
+        </div>    </div>
+</section>
+
+<!-- Closing Section -->
+<section class="max-w-screen-xl mx-auto px-6 lg:px-12 pb-32 flex flex-col items-center">
+    <div class="bg-[#F8F3EB] border-l-[2px] border-[#C9A84C] py-8 px-10 rounded-r-lg max-w-2xl text-center">
+        <p class="font-headline text-2xl text-[#503d00] italic leading-relaxed">
+            "The soul that knows itself needs nothing else to know."
+        </p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="about.html">About Us</a>
+                <a class="hover:text-primary transition-colors" href="../index-v4.html">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="meditations.html">Practice</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Connect</span>
+                <a class="hover:text-primary transition-colors" href="#">Contact</a>
+                <a class="hover:text-primary transition-colors" href="#">Newsletter</a>
+                <a class="hover:text-primary transition-colors" href="#">Events</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Search Component -->
+<script>
+(function () {
+  var SEARCH_INDEX = [{"file": "index-v4.html", "num": "F", "title": "Fundamentals", "sutras": [{"id": "foundations", "num": "01", "title": "The Foundations of Jainism", "sk": "Jain Fundamentals"}, {"id": "jiva-v4.html", "num": "02", "title": "Jiva \u2014 The Conscious Soul", "sk": "Soul and Consciousness"}, {"id": "ajiva-v4.html", "num": "03", "title": "Ajiva \u2014 Non-living Matter", "sk": "Matter and Space"}, {"id": "six-dravyas-v4.html", "num": "04", "title": "Six Dravyas \u2014 The Universal Substances", "sk": "Six Substances"}, {"id": "karma-v4.html", "num": "05", "title": "Karma \u2014 The Law of Cause and Effect", "sk": "Karmic Physics"}, {"id": "asrav-samvar-nirjara-v4.html", "num": "06", "title": "Asrav, Samvar, Nirjara", "sk": "Influx and Stoppage"}, {"id": "anekantavada-v4.html", "num": "07", "title": "Anekantavada \u2014 Many-sided Reality", "sk": "Multiplicity of Viewpoints"}]},{"file": "navkar-mantra-v4.html", "num": "N", "title": "Navkar Mantra", "sutras": [{"id": "hero", "num": "N1", "title": "The Navkar Mantra \u2014 Universal Salutation", "sk": "Namokar Mantra"}, {"id": "meaning", "num": "N2", "title": "The Meaning of Navkar", "sk": "Significance and Benefits"}]},{"file":"scripture/tattvartha/tattvartha-ch1-v4.html","num":1,"title":"Tattvartha Ch1","sutras":[{"id":"sutra-1","num":"1.1","title":"Right faith, right knowledge, and right conduct — together — form the path to liberation.","sk":"सम्यग्दर्शनज्ञानचारित्राणि मोक्षमार्गः ॥१॥"},{"id":"sutra-2","num":"1.2","title":"Believing in things as they truly are — that is right faith (samyagdarshana).","sk":"तत्त्वार्थश्रद्धानं सम्यग्दर्शनम् ॥२॥"}]}]; // Truncated search index for brevity
+
+  function initSearch() {
+    var input = document.getElementById("search-input");
+    if (!input) return;
+
+    var wrapper = input.closest(".relative");
+    if (!wrapper) return;
+
+    var dropdown = document.getElementById("search-dropdown");
+    if (!dropdown) {
+        dropdown = document.createElement("div");
+        dropdown.id = "search-dropdown";
+        wrapper.appendChild(dropdown);
+    }
+
+    var currentFile = (location.pathname.split("/").pop() || location.href.split("/").pop() || "").replace(/[?#].*$/, "");
+
+    function highlight(text, query) {
+      if (!query) return text;
+      return text.replace(new RegExp("(" + query.replace(/[.*+?^${}()|[\]\]/g, "\$&") + ")", "gi"), "<mark style='background:#fff3c4;color:inherit;border-radius:2px;'>$1</mark>");
+    }
+
+    function search(query) {
+      if (query.length < 2) { dropdown.style.display = "none"; return; }
+      var q = query.toLowerCase();
+      var currentMatches = [];
+      var otherMatches = [];
+
+      SEARCH_INDEX.forEach(function (chapter) {
+        var matches = chapter.sutras.filter(function (s) {
+          return s.title.toLowerCase().includes(q) || s.num.toLowerCase().includes(q) || (s.sk && s.sk.toLowerCase().includes(q));
+        }).slice(0, 4);
+        if (!matches.length) return;
+        var isCurrent = chapter.file === currentFile;
+        (isCurrent ? currentMatches : otherMatches).push({ chapter: chapter, matches: matches });
+      });
+
+      var html = "";
+
+      if (currentMatches.length) {
+        html += "<div class='search-section-label'>Fundamentals</div>";
+        currentMatches.forEach(function (r) {
+          r.matches.forEach(function (s) {
+            html += "<button class='search-result-item' data-local='true' data-id='" + s.id + "'>" +
+              "<span class='search-result-num'>" + s.num + "</span>" +
+              "<span class='search-result-title'>" + highlight(s.title, query) + "</span></button>";
+          });
+        });
+      }
+
+      otherMatches.slice(0, 5).forEach(function (r) {
+        html += "<div class='search-section-label'>" + r.chapter.title + "</div>";
+        r.matches.forEach(function (s) {
+          var link = r.chapter.file;
+          if (s.id && !s.id.includes(".html")) link += "#" + s.id;
+          else if (s.id && s.id.includes(".html")) link = s.id;
+          
+          html += "<a class='search-result-item' href='" + link + "'>" +
+            "<span class='search-result-num'>" + s.num + "</span>" +
+            "<span class='search-result-title'>" + highlight(s.title, query) + "</span></a>";
+        });
+      });
+
+      if (!html) html = "<div class='search-no-results'>No results for &ldquo;" + query + "&rdquo;</div>";
+
+      dropdown.innerHTML = html;
+      dropdown.style.display = "block";
+
+      dropdown.querySelectorAll("[data-local='true']").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var el = document.getElementById(this.dataset.id);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth", block: "center" });
+            el.style.outline = "2px solid #C9A84C";
+            el.style.outlineOffset = "4px";
+            setTimeout(function () { el.style.outline = ""; el.style.outlineOffset = ""; }, 2000);
+          }
+          dropdown.style.display = "none";
+          input.value = "";
+        });
+      });
+    }
+
+    input.addEventListener("input", function () { search(this.value.trim()); });
+    input.addEventListener("keydown", function (e) { if (e.key === "Escape") { dropdown.style.display = "none"; input.value = ""; } });
+    document.addEventListener("click", function (e) { if (!wrapper.contains(e.target)) dropdown.style.display = "none"; });
+  }
+
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initSearch) : initSearch();
+})();
+</script>
+
+<script>
+document.querySelectorAll('.yt-facade').forEach(function(el) {
+    el.addEventListener('click', function() {
+        var vid = el.dataset.vid;
+        el.innerHTML = '<iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/' + vid + '?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+        el.style.position = 'relative';
+    });
+});
+</script>
+</body>
+</html>

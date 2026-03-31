@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Uttaradhyayana Sutra: The Final Teachings | JainAwaken.org</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>html { scroll-behavior: smooth; }
+      
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(201,168,76,0.2); }
+      .index-card.unavailable { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+      
+      .nav-button { 
+        position: fixed; 
+        bottom: 24px; 
+        z-index: 100;
+        background: #ffffff;
+        border: 1px solid #C9A84C;
+        color: #755b00;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+      }
+      .nav-button.visible { 
+        opacity: 1; 
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+      .nav-button:hover { border-color: #C9A84C; color: #503d00; }
+    
+      #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+      .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+      .search-section-label:first-child { border-top:none; }
+      .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+      .search-result-item:hover { background:#fef9f1; }
+      .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+      .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+      .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+      
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+            </div>
+            <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-40">
+    <!-- Hero Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 mb-32">
+        <div class="max-w-4xl">
+            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Aagama Sutra &middot; Eleventh Anga</span>
+            <h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
+                Uttaradhyayana <span class="text-primary font-normal">(उत्तराध्ययन)</span>
+            </h1>
+            <p class="text-2xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light italic">
+                The Final Teachings of Lord Mahavira from his last 48 hours of continuous preaching before attaining Nirvana. Thirty-six chapters mapping the path of renunciation, the mechanics of karma, and the ultimate nature of the soul.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-12 pt-10 border-t border-primary/10">
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Teachings By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Lord Mahavira</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Compiled By</p>
+                <p class="text-lg font-headline font-normal text-on-surface whitespace-nowrap">Arya Sudharmashvami</p>
+                <p class="text-xs text-on-surface-variant font-light mt-1">#5 Chief Disciple of the Lord</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Translated By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Dishant Shah</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Chapters</p>
+                <p class="text-lg font-headline font-normal text-on-surface">36 Total</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Index Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 pb-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+            
+            <!-- Chapter 1 -->
+            <a href="uttaradhyana-ch1.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 01</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">On Discipline</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The foundations of the monastic path and the essential relationship between student and teacher.</p>
+            </a>
+
+            <!-- Chapter 2 -->
+            <a href="uttaradhyana-ch2.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 02</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Victory over Trials</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The twenty-two hardships a seeker must endure without wavering to purify the inner soul.</p>
+            </a>
+
+            <!-- Chapter 3 -->
+            <a href="uttaradhyana-ch3.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 03</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Four-Fold Restraint</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Parsvanath's ancient teaching on moral restraint and the framework of spiritual discipline.</p>
+            </a>
+
+            <!-- Chapter 4 -->
+            <a href="uttaradhyana-ch4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 04</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Impermanent Life</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Contemplations on the transience of all physical things and the urgency of the spiritual journey.</p>
+            </a>
+
+            <!-- Chapter 5 -->
+            <a href="uttaradhyana-ch5.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 05</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Two Types of Death</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A deep analysis of dying with awareness and peace versus dying in desire and ignorance.</p>
+            </a>
+
+            <!-- Chapter 6 -->
+            <a href="uttaradhyana-ch6.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 06</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Minor Detachment</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Teaching through the life and renunciation of the monk Harikishore.</p>
+            </a>
+
+            <!-- Chapter 7 -->
+            <a href="uttaradhyana-ch7.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 07</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Great Attachment</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The famous parable of the goat illustrating the weight of attachment and the wheel of rebirth.</p>
+            </a>
+
+            <!-- Chapter 8 -->
+            <a href="uttaradhyana-ch8.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 08</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Story of Kapila</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The journey of a young Brahmin boy who chose the path of total renunciation and truth.</p>
+            </a>
+
+            <!-- Chapter 9 -->
+            <a href="uttaradhyana-ch9.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 09</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Renunciation of Nami</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A dramatic dialogue between King Nami and the god Indra on the true nature of power.</p>
+            </a>
+
+            <!-- Chapter 10 -->
+            <a href="uttaradhyana-ch10.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 10</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Fallen Leaf</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Impermanence beautifully illustrated through the image of a single leaf in the autumn of life.</p>
+            </a>
+
+            <!-- Chapter 11 -->
+            <a href="uttaradhyana-ch11.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 11</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Value of Learning</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">On the profound spiritual merit and honour due to those who possess deep scriptural wisdom.</p>
+            </a>
+
+            <!-- Chapter 12 -->
+            <a href="uttaradhyana-ch12.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 12</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Story of Harikesh</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A transformative narrative of an untouchable monk whose purity shamed the proud and powerful.</p>
+            </a>
+
+            <!-- Chapter 13 -->
+            <a href="uttaradhyana-ch13.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 13</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Chitt and Sambhuti</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The story of two souls across multiple lifetimes, exploring the Diverging paths of desire and peace.</p>
+            </a>
+
+            <!-- Chapter 14 -->
+            <a href="uttaradhyana-ch14.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 14</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Story of Ishukara</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">How a wise arrowmaker taught King Ishukara the ultimate meaning of time, action, and karma.</p>
+            </a>
+
+            <!-- Chapter 15 -->
+            <a href="uttaradhyana-ch15.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 15</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">True Monk</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Defining the essential qualities and conduct that distinguish a genuine seeker of ultimate truth.</p>
+            </a>
+
+            <!-- Chapter 16 -->
+            <a href="uttaradhyana-ch16.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 16</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Sixteen Causes</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A precise doctrinal analysis of the specific factors that drive the continuous cycle of rebirth.</p>
+            </a>
+
+            <!-- Chapter 17 -->
+            <a href="uttaradhyana-ch17.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 17</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Fallen Monk</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">How inner spiritual corruption manifests in outward signs and improper conduct on the path.</p>
+            </a>
+
+            <!-- Chapter 18 -->
+            <a href="uttaradhyana-ch18.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 18</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Story of Sanjaya</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The narrative of a king-turned-seeker who lost his path and the struggle to find it again.</p>
+            </a>
+
+            <!-- Chapter 19 -->
+            <a href="uttaradhyana-ch19.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 19</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Story of Mrigaputra</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">One of the most detailed accounts of the psychological and emotional journey of renunciation.</p>
+            </a>
+
+            <!-- Chapter 20 -->
+            <a href="uttaradhyana-ch20.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 20</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Great Unattached</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Lord Mahavira's definitive teaching on achieving the state of total inner freedom and detachment.</p>
+            </a>
+
+            <!-- Chapter 21 -->
+            <a href="uttaradhyana-ch21.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 21</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Story of Samudrapala</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A merchant's life on the high seas as a metaphor for navigating the vast ocean of samsara.</p>
+            </a>
+
+            <!-- Chapter 22 -->
+            <a href="uttaradhyana-ch22.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 22</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Story of Rathanemi</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The dramatic story of the 22nd Tirthankara's choice to renounce the world on his wedding day.</p>
+            </a>
+
+            <!-- Chapter 23 -->
+            <a href="uttaradhyana-ch23.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 23</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Kesi and Gautama</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A monumental convergence: Kesi Kumara Sramana, the fourth monastic head of the Parshvanatha lineage, meets Gautama Swami, chief disciple of Mahavira. Through twelve profound questions, they resolve the evolution of the vows and the unity of the spiritual path.</p>
+            </a>
+
+            <!-- Chapter 24 -->
+            <a href="uttaradhyana-ch24.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 24</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Mendicant Conduct</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A systematic guide to the rigorous daily ethical discipline required for the renunciant life.</p>
+            </a>
+
+            <!-- Chapter 25 -->
+            <a href="uttaradhyana-ch25.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 25</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">True Sacrifice</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Redefining the ancient concept of sacrifice as an internal process of total self-purification.</p>
+            </a>
+
+            <!-- Chapter 26 -->
+            <a href="uttaradhyana-ch26.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 26</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Correct Conduct</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Detailed rules for wandering, eating, and speaking in alignment with the vow of non-violence.</p>
+            </a>
+
+            <!-- Chapter 27 -->
+            <a href="uttaradhyana-ch27.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 27</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Path of Non-Action</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Exploring the subtle boundary between karmic fate, direct action, and the soul's free will.</p>
+            </a>
+
+            <!-- Chapter 28 -->
+            <a href="uttaradhyana-ch28.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 28</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Path to Liberation</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The four pillars of freedom: right knowledge, right faith, right conduct, and right austerity.</p>
+            </a>
+
+            <!-- Chapter 29 (SOON) -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 29</span>
+                    <span class="text-[10px] font-label uppercase tracking-widest text-outline px-2 py-1 border border-outline/30 rounded-full">Soon</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Spiritual Carelessness</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Analyzing the subtle inner negligence and distraction that blocks steady spiritual progress.</p>
+            </div>
+
+            <!-- Chapter 30 -->
+            <a href="uttaradhyana-ch30.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 30</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Path of Austerity</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The science of tapas: using disciplined inner heat to burn away accumulated karmic matter.</p>
+            </a>
+
+            <!-- Chapter 31 -->
+            <a href="uttaradhyana-ch31.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 31</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Rules of Restraint</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The thirty-three essential guidelines for maintaining perfect spiritual restraint in daily life.</p>
+            </a>
+
+            <!-- Chapter 32 (SOON) -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 32</span>
+                    <span class="text-[10px] font-label uppercase tracking-widest text-outline px-2 py-1 border border-outline/30 rounded-full">Soon</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Thirty-Two Instructions</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Further practical guidelines for the highly disciplined and focused monastic life.</p>
+            </div>
+
+            <!-- Chapter 33 -->
+            <a href="uttaradhyana-ch33.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 33</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Nature of Karma</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A profound classification of karmic types and their specific vibrational effects on the soul.</p>
+            </a>
+
+            <!-- Chapter 34 -->
+            <a href="uttaradhyana-ch34.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 34</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Soul's Colorations</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The six soul-states (lesyas) and what they reveal about a person's current spiritual health.</p>
+            </a>
+
+            <!-- Chapter 35 -->
+            <a href="uttaradhyana-ch35.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 35</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Homeless Path</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The complete lifestyle and ethical guide for the ascetic living entirely outside of society.</p>
+            </a>
+
+            <!-- Chapter 36 -->
+            <a href="uttaradhyana-ch36.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 36</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Living and Non-Living</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The final, comprehensive classification of the entire Jain cosmological and ontological system.</p>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="../../../index-v4.html" class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    <span class="text-lg">←</span> Home
+</a>
+
+<a href="../sacred-sutras-index.html" class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    All Sutras <span class="text-lg">→</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About Us</a>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="uttaradhyana-index.html">Uttaradhyayana</a>
+                <a class="hover:text-primary transition-colors" href="../../tattvartha/tattvartha-index-v4.html">Tattvartha Sutra</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+<script>
+(function () {
+  var SEARCH_INDEX = [{"file": "../../../index-v4.html", "num": "F", "title": "Fundamentals", "sutras": [{"id": "foundations", "num": "01", "title": "The Foundations of Jainism", "sk": "Jain Fundamentals"}]},{"file":"uttaradhyana-ch1.html","num":1,"title":"On Discipline","sutras":[{"id":"sutra-1","num":"1.1","title":"On Discipline","sk":"विनयश्रुत"}]},{"file":"uttaradhyana-ch2.html","num":2,"title":"Victory over Trials","sutras":[{"id":"sutra-1","num":"2.1","title":"Victory over Trials","sk":"परिषहजय"}]}];
+
+  function initSearch() {
+    var input = document.getElementById("search-input");
+    if (!input) return;
+
+    var wrapper = input.closest(".relative");
+    if (!wrapper) return;
+
+    var dropdown = document.getElementById("search-dropdown");
+    if (!dropdown) {
+        dropdown = document.createElement("div");
+        dropdown.id = "search-dropdown";
+        wrapper.appendChild(dropdown);
+    }
+
+    var currentFile = (location.pathname.split("/").pop() || location.href.split("/").pop() || "").replace(/[?#].*$/, "");
+
+    function highlight(text, query) {
+      if (!query) return text;
+      return text.replace(new RegExp("(" + query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark style='background:#fff3c4;color:inherit;border-radius:2px;'>$1</mark>");
+    }
+
+    function search(query) {
+      if (query.length < 2) { dropdown.style.display = "none"; return; }
+      var q = query.toLowerCase();
+      var currentMatches = [];
+      var otherMatches = [];
+
+      SEARCH_INDEX.forEach(function (chapter) {
+        var matches = (chapter.sutras || []).filter(function (s) {
+          return (chapter.title && chapter.title.toLowerCase().includes(q)) || (s.title && s.title.toLowerCase().includes(q)) || (s.num && s.num.toLowerCase().includes(q)) || (s.sk && s.sk.toLowerCase().includes(q));
+        }).slice(0, 4);
+        if (!matches.length) return;
+        var isCurrent = chapter.file === currentFile;
+        (isCurrent ? currentMatches : otherMatches).push({ chapter: chapter, matches: matches });
+      });
+
+      var html = "";
+
+      if (currentMatches.length) {
+        html += "<div class='search-section-label'>Current Page</div>";
+        currentMatches.forEach(function (r) {
+          r.matches.forEach(function (s) {
+            html += "<button class='search-result-item' data-local='true' data-id='" + s.id + "'>" +
+              "<span class='search-result-num'>" + s.num + "</span>" +
+              "<span class='search-result-title'>" + highlight(s.title, query) + "</span></button>";
+          });
+        });
+      }
+
+      otherMatches.slice(0, 8).forEach(function (r) {
+        html += "<div class='search-section-label'>" + r.chapter.title + "</div>";
+        r.matches.forEach(function (s) {
+          var link = r.chapter.file;
+          html += "<a class='search-result-item' href='" + link + "'>" +
+            "<span class='search-result-num'>" + (s.num || "") + "</span>" +
+            "<span class='search-result-title'>" + highlight(r.chapter.title, query) + "</span></a>";
+        });
+      });
+
+      if (!html) html = "<div class='search-no-results'>No results for &ldquo;" + query + "&rdquo;</div>";
+
+      dropdown.innerHTML = html;
+      dropdown.style.display = "block";
+    }
+
+    input.addEventListener("input", function () { search(this.value.trim()); });
+    input.addEventListener("keydown", function (e) { if (e.key === "Escape") { dropdown.style.display = "none"; input.value = ""; } });
+    document.addEventListener("click", function (e) { if (!wrapper.contains(e.target)) dropdown.style.display = "none"; });
+  }
+
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initSearch) : initSearch();
+})();
+</script>
+
+</body></html>

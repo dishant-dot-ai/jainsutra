@@ -63,10 +63,23 @@ from the Gujarati source.
 Prakrit/Sanskrit terms appear.)
 
 5. COMMENTARY
-Detailed commentary (3-6 sentences)
-translated and synthesized from the
-Gujarati PDF commentary. Written in
-easy, readable English throughout.
+Comprehensive commentary translated
+and synthesized from the Gujarati PDF
+commentary. Written in easy, readable
+English throughout.
+
+WEBPAGE NOTE: This commentary is
+intentionally comprehensive — it is
+the "read more" layer for users who
+want depth. When building the webpage,
+condense the core insight into the
+SIMPLY PUT section. The commentary
+itself should be full and thorough:
+explain the philosophical significance,
+historical context, practical
+implication, and where this verse fits
+within the broader arc of Jain thought.
+Do not artificially limit length here.
 
 STRICT RULE: No Prakrit, Sanskrit,
 or transliterated words in this
@@ -79,12 +92,9 @@ already gives the technical terms;
 the commentary explains the meaning
 in plain language.
 
-Use analogies when helpful. Be
-detailed — explain the philosophical
-significance, the practical
-implication, and the context within
-Jain thought. This is where the
-reader truly understands the verse.
+Use analogies when helpful. This is
+where the reader truly understands
+the verse in its full depth.
 
 6. SIMPLY PUT
 One plain sentence a 15-year-old

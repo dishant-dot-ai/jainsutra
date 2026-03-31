@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 13: Chitt-Sambhutiya | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e","on-secondary-fixed-variant": "#4a4642","secondary-container": "#e6ded9","primary-fixed-dim": "#e6c364","surface-bright": "#fef9f1","tertiary-fixed": "#dde1ff","surface": "#fef9f1","primary-fixed": "#ffe08f","surface-container-low": "#f8f3eb","secondary-fixed": "#e9e1dc","outline-variant": "#d0c5b2","outline": "#7e7665","inverse-on-surface": "#f5f0e8","on-background": "#1d1c17","on-secondary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff","on-primary-fixed-variant": "#584400","surface-dim": "#ded9d2","surface-container-high": "#ece8e0","primary": "#755b00","on-primary-container": "#503d00","inverse-surface": "#32302b","secondary": "#625d59","error-container": "#ffdad6","tertiary-fixed-dim": "#b9c3ff","on-secondary-container": "#67625e","on-primary": "#ffffff","on-primary-fixed": "#241a00","on-error-container": "#93000a","surface-tint": "#755b00","secondary-fixed-dim": "#ccc5c0","surface-variant": "#e7e2da","surface-container-lowest": "#ffffff","on-tertiary-fixed": "#041451","surface-container-highest": "#e7e2da","primary-container": "#c9a84c","inverse-primary": "#e6c364","on-surface-variant": "#4d4637","tertiary": "#4d5a98","background": "#fef9f1","on-tertiary": "#ffffff","on-surface": "#1d1c17","tertiary-container": "#9ba8eb","surface-container": "#f2ede5","on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.125rem; line-height: 1.75; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 13</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Chitta and Sambhuta<span class="block text-primary font-normal">चित्त-संभूतीय</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On Five Lifetimes Together, One Path Diverged: The Story of Chitt and Sambhut</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Two brothers — Chitt and Sambhut — have been born together in five past lives: as servants, as animals, as outcasts, as gods, and now as monk and emperor. When the monk Chitt appears before the emperor Brahmdatt (formerly Sambhut), he narrates their shared history across lifetimes, explains how karma forged their bond and then broke it, and delivers the teaching: he alone experiences his suffering — karma follows only its maker. One renounces, one clings. One reaches liberation, one reaches hell.
+    </p>    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../assets/ch9-hero.jpg" alt="Chitt and Sambhut — two paths from one shared past" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">इक्को सयं पच्चणुहोइ दुक्खं,<br/>कत्तारमेव अणुजाइ कम्मं</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;He alone experiences the suffering himself — karma follows only its maker.&rdquo;</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Chitt-Sambhutiya</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Chitt-Sambhutiya</span> — the thirteenth chapter — narrates the reunion of two souls who have shared five consecutive lifetimes as brothers: as servants (dasas) in Dasarna, as animals (deer) at Mount Kalinjara, as geese on the banks of the Ganga, as outcastes (chandalas) in the kingdom of Kashi, and finally as gods in the divine realm.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        In their sixth lifetime, Sambhut is reborn as Brahmdatt — the Chakravarti (world-emperor) of Hastinapura — while Chitt becomes a wandering monk in Kampilya. When Chitt arrives at Brahmdatt's court, he traces their entire shared history, explains how a single act of desire (niyāna — a wish made at death) created their divergence, and then delivers the unsparing philosophical teaching: karma follows the maker alone. No relative, no friend, no wife or child shares your karma. Only you reap what you have sown. The chapter ends with the sharpest possible contrast: Chitt attains the highest liberation; Brahmdatt descends to the deepest hell.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">35</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Emperor</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Addressed To</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">9</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sections</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 13</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 35 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Prakrit, English translation, and a simplified commentary.</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider" id="section-brothers"><span>Part I &mdash; Five Lifetimes as Brothers</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जाइपराजिओ खलु कासी णियाणं तु हत्थिणपुरिम्म । चुलणीए बंभदत्तो, उववण्णो पउमगुम्माओ ॥१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Indeed, Brahmdatt — having died in Kashi and having made a death-wish (niyāna) — was born in Hastinapura in the house of Queen Chulani, from a lotus cluster (padmagulma).</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter opens mid-story: Brahmdatt, the world-emperor, is not a random birth. He is the soul of Sambhut, who made a niyāna — a wish or intention made at the moment of death — in Kashi. The niyāna locked his rebirth trajectory. He was born to Queen Chulani of Hastinapura and became Brahmdatt, the Chakravarti. The word "paumagulma" (lotus cluster) describes the manner of his divine birth, marking him as extraordinary from the first moment.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Brahmdatt — previously Sambhut — made a wish at death in Kashi and was reborn as the world-emperor of Hastinapura. His ambition from a past life became his present-life destiny.</p>
+        <div class="concept-tags"><span class="concept-tag">Niyāna</span><span class="concept-tag">Rebirth</span><span class="concept-tag">Chakravarti</span><span class="concept-tag">Sambhut</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कंपिल्ले संभूओ चित्तो, पुण जाओ पुरिमतालिम्म । सेट्टिकुलम्मि विसाले, धम्मं सोऊण पव्वइओ ॥२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Chitt, born again as Sambhut in Kampilya, in Purimatal, in a wealthy merchant's family — hearing the Dharma, he renounced and became a monk.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Chitt's trajectory is the opposite of Brahmdatt's. Born to a prominent merchant family in Kampilya, he heard dharma and renounced — immediately. "Dhammam soun pavvaio" — a single sequence: heard, then renounced. No prolonged deliberation. This swift renunciation contrasts sharply with the entire second half of the chapter, where Brahmdatt is invited to renounce and cannot.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Chitt was reborn in a wealthy family in Kampilya. He heard the Dharma — and renounced. One hearing was enough. That is the entire arc of his life in this birth.</p>
+        <div class="concept-tags"><span class="concept-tag">Renunciation</span><span class="concept-tag">Chitt</span><span class="concept-tag">Dharma Hearing</span><span class="concept-tag">Merchant Family</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कंपिल्लम्मि य णयरे, समागया दो वि चित्तसंभूया । सुहदुक्खफलविवागं, कहेंति ते इक्किमक्कस्स ॥३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In the city of Kampilya, both Chitt and Sambhut came together — and they told each other of the fruits and consequences of pleasure and pain.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The reunion is in Kampilya. The two old souls recognize each other and sit together to review the karmic accounting of their shared lifetimes — what pleasure brought, what pain brought, what each life cost. "Sukha-dukha-phala-vivāga" — the ripening of the fruits of pleasure and pain — is the subject of their conversation. This is not nostalgia; it is karmic analysis.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Chitt and Sambhut met again in Kampilya and sat together. They told each other what their past lives had produced — what the pleasure brought and what the suffering brought.</p>
+        <div class="concept-tags"><span class="concept-tag">Reunion</span><span class="concept-tag">Karma Review</span><span class="concept-tag">Pleasure and Pain</span><span class="concept-tag">Kampilya</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चक्कवट्टी महिड्डिओ, बंभदत्तो महायसो । भायरं बहुमाणेण, इमं वयणमब्बवी ॥४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Brahmdatt the Chakravarti — of great power and great fame — with great respect for his brother, spoke these words:</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The emperor speaks first — and the first thing established is the direction of his respect. Despite being the most powerful man in the world ("mahiddio" — of great power, "mahayaso" — of great fame), Brahmdatt addresses the monk with bahūmāna — deep reverence. Power and royalty bow before renunciation. The chapter has not yet begun its argument, but the structure of respect already encodes it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The world-emperor Brahmdatt — powerful and famous — spoke to his brother the monk with deep respect. Imperial power bows first to spiritual life.</p>
+        <div class="concept-tags"><span class="concept-tag">Brahmdatt</span><span class="concept-tag">Respect for the Monk</span><span class="concept-tag">Imperial Humility</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider" id="section-pastlives"><span>Part II &mdash; Past Lives Remembered</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आसिमो भायरा दो वि, अण्णमण्णवसाणुगा । अण्णमण्णमणुरत्ता, अण्णमण्ण हिइसिणो ॥५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"We were both brothers — each following the other's command, attached to one another, each gladdening the other's heart."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Brahmdatt begins the recollection. The bond between the two souls is described through three paired adjectives: they followed each other's will (annamanna-vasanuga), were emotionally attached to each other (annamanna-anurata), and were the cause of each other's joy (annamanna-hiiyasino). This triple description builds the emotional case for why separation is so poignant — these were not casual acquaintances across lifetimes, but deeply bonded souls.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "We were inseparable brothers — we followed each other's lead, cared for each other deeply, and made each other happy." Five lifetimes of genuine brotherly love.</p>
+        <div class="concept-tags"><span class="concept-tag">Brotherhood</span><span class="concept-tag">Past Lives</span><span class="concept-tag">Emotional Bond</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">दासा दसण्णे आसी, मिया कालिंजरे णगे । हंसा मयंगतीरे य, सोवागा कासिभूमिए ॥६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"We were servants (dasas) in Dasarna; deer on Mount Kalinjara; geese on the banks of the Matanga (Ganga); chandalas (outcastes) in the land of Kashi."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Four past lives listed in rapid succession — from servant to animal to bird to outcaste. The arc is not upward; it traces the full variety of karmic circumstances these two souls inhabited together. Servant, deer, geese, chandala — across species, across social strata, across geography. What was constant across all four was their togetherness. Location and form changed; the bond did not.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In four past lives they were together: servants, deer, geese, outcastes. Different bodies, different places, different conditions — always together. The bond outlasted every form.</p>
+        <div class="concept-tags"><span class="concept-tag">Past Lives</span><span class="concept-tag">Rebirth Across Species</span><span class="concept-tag">Five Lifetimes</span><span class="concept-tag">Dasarna</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">देवा य देवलोगम्मि, आसिस अम्हे महिड्डिया । इमा णो छिट्टिया जाई, अण्णमण्णेण जा विणा ॥७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"And in the divine realm, we were gods of great power. In none of these births did we ever exist — any one of us — without the other."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The fifth past life: as gods of great power in the divine realm. This completes the five-lifetime sequence — servant, deer, geese, chandala, god — with the current birth as the sixth. "Ama no chitthiya jati, annamunnena ja vina" — not one of those births passed without the other being present. The bond was the constant across five rebirths and four species. Now they stand on opposite sides of a spiritual divide that cannot be bridged by attachment.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "And even in the divine realm we were gods together. Not one birth, not one life — in none of them were we ever apart." Five lifetimes of unbroken companionship. And now: the divergence.</p>
+        <div class="concept-tags"><span class="concept-tag">Divine Birth</span><span class="concept-tag">Unbroken Bond</span><span class="concept-tag">Five Lives Together</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider" id="section-karma"><span>Part III &mdash; The Fruit of Karma</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कम्मा णियाणप्पगडा, तुमे राय विचिंतिया । तेसिं फलिविवागेण, विप्पओगमुवागया ॥८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O king — karma made manifest through the niyāna (death-wish) was contemplated by you. Through the ripening of the fruit of that karma, separation came."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Chitt now speaks as the monk-teacher. He names the cause of their separation precisely: Brahmdatt (Sambhut in a past life) made a niyāna — a desire-wish at the moment of death — and that desire took form as karma. When that karma ripened, it separated them for the first time in five lifetimes. The niyāna is the pivot of the entire chapter: desire for pleasure, even at the moment of a past life's end, binds the soul to a specific rebirth trajectory.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "O king — you made a wish at death. That wish became karma. And when that karma ripened, it pulled us apart for the first time in five lives." One moment of desire; one lifetime of divergence.</p>
+        <div class="concept-tags"><span class="concept-tag">Niyāna</span><span class="concept-tag">Karma Ripening</span><span class="concept-tag">Separation</span><span class="concept-tag">Desire at Death</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सच्चसोयप्पगडा, कम्मा मए पुरा कडा । ते अज्ज परिभुंजामो, किण्णु चित्ते वि से तहा ॥९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"The karma I made earlier was made manifest through truth-practice. Those karmas I am now enjoying (reaping). Was it not the same way for Chitt?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Brahmdatt reflects on his own karmic situation. His karma came from "sacca-soya" — truth-practice, right action. He is now experiencing those fruits. But the turn of the question — "wasn't it the same for Chitt?" — is revealing: he is looking at the monk's liberation and asking whether Chitt's superior outcome comes from superior past karma. The implicit answer is: yes, and the mechanism for both is identical. What differs is the content of what was planted.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "The karma I made through right action, I am now reaping. And wasn't it the same for Chitt?" The emperor sees that both of them are living the fruit of seeds from the past.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma Reaping</span><span class="concept-tag">Past Actions</span><span class="concept-tag">Comparative Reflection</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वं सुचिण्णं सफलं णराणं, कडाण कम्माण ण मोक्ख अत्थि । अत्थेहिं कामेहिं य उत्तमेहिं, आया ममं पुण्णफलोववेए ॥१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"All well-practiced karma bears fruit for people — there is no release from karma once done. In wealth, in desires, in the highest things — my soul is now receiving the fruit of merit."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a foundational karmic statement: all well-practiced karma is fruitful ("sarvam suchinnam saphalam"). There is no escape from ripened karma — "kadan kammana na mokkha atthi." But the emperor is not describing this as a warning; he is describing it as his own fortunate situation. His wealth and imperial pleasures are the fruit of past merit. He thinks he is in a good position. The monk's subsequent teaching will reframe this entirely.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "All karma that was properly practiced bears fruit — there is no escape from karma once done. My present wealth and pleasures are the fruit of past merit." The emperor sees his fortune as reward — but the monk will show him what it actually costs.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma Infallibility</span><span class="concept-tag">No Escape from Karma</span><span class="concept-tag">Merit Fruit</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जाणासि संभूय महाणुभागं, महिड्डियं पुण्णफलोववेयं । चित्तं पि जाणाहि तहेव रायं, इड्डी जुई तस्स वि य प्पभूया ॥११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"You know Sambhut — of great power, receiving the fruit of merit, of great splendor. Know also that Chitt the king — his power and radiance have become immeasurable."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Brahmdatt speaks about both himself and Chitt in the third person, as if stepping back to compare them objectively. Both have "iddhi" (power, attainment) and "juti" (radiance, splendor). But the emperor's power is worldly — measured in armies and kingdoms. The monk's power, as the verse frames it, is spiritual — measured in the immeasurable. The parallel structure conceals an asymmetry that the rest of the chapter will reveal.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You know Sambhut — powerful, honored, the fruit of merit. Know also that Chitt's power and radiance have become immeasurable." But one power is temporary; the other is not.</p>
+        <div class="concept-tags"><span class="concept-tag">Two Kinds of Power</span><span class="concept-tag">Worldly vs Spiritual</span><span class="concept-tag">Radiance</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IV -->
+  <div class="section-divider" id="section-renunciation"><span>Part IV &mdash; Why the Monk Renounced</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">महत्थरूवा वयणप्पभूया, गाहाणुगीया णरसंगमज्झे । जं भिक्खुणो सीलगुणोववेया, इहं जयंते समणो म्हि जाओ ॥१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"The great-meaning words born of speech, sung in verse, in the midst of human gatherings — those words of the monks, endowed with virtue of character — in this, I conquered. I became a shramana."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Chitt narrates his own turning point: it was the "mahattharupa vayanappahuta" — the great-meaning words generated through speech, sung in verse and heard in human gatherings — the discourse of monks, full of virtue-qualities, that moved him. He uses the word "jayante" — I conquered — as if renunciation were a victory, not a surrender. For Jain monks, the conquest is internal: of attachment, of craving, of the ego. That inner victory is what made him a shramana.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Hearing the dharma teaching — great words, sung in verse, in public — I was conquered by it. I became a monk." Renunciation as victory over the inner enemy, not retreat from the world.</p>
+        <div class="concept-tags"><span class="concept-tag">Dharma Hearing</span><span class="concept-tag">Renunciation as Victory</span><span class="concept-tag">Shramana</span><span class="concept-tag">Virtue Words</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V -->
+  <div class="section-divider" id="section-invitation"><span>Part V &mdash; The Emperor's Invitation</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">उच्चोयए महु कक्के य बंभे, पवेइया आवसहा य रम्मा । इमं गिहं चित्तधणप्पभूयं, पसाहि पंचालगुणोववेयं ॥१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Excellent courts, my Kakka and Brahma palaces, the beautiful residences — adorn this house, full of wealth and riches, endowed with the qualities of the Panchalas."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The emperor makes his offer. He invites the monk to come and live in his palace — specifically naming his court's finest palaces (Ucchoya, Kakka, Brahma) and describing the wealth and beauty available. "Pasahi" — adorn, grace, honor — is the verb: the monk's presence would honor the palace. The invitation is genuine in its hospitality and completely blind to the monk's reality. A monk who has renounced possessions is being offered the most prestigious possessions in the kingdom.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Come live in my palace. My finest courts, my most beautiful residences, my wealth — grace them with your presence." The emperor does not yet see the contradiction in this offer.</p>
+        <div class="concept-tags"><span class="concept-tag">Imperial Invitation</span><span class="concept-tag">Palatial Wealth</span><span class="concept-tag">Hospitality</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णट्टेहिं गीएहि य वाइएहिं, णारीजणाइं परिवारयंतो । भुंजाहि भोगाइं इमाइं भिक्खू, मम रोयइ पव्वजा हु दुक्खं ॥१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Surrounded by dancing women, by songs and music — enjoy these pleasures, O bhikshu. The life of a wandering monk seems to me to be suffering."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The emperor is not being callous — he is being sincere. From within the palace, surrounded by dancers and musicians, the monk's wandering life genuinely appears as suffering. "Pabbaja hu dukkham" — the renunciant life, truly, is pain. He sees homelessness, begging, austerity, and heat and cold as poverty. The monk sees attachment, craving, rebirth, and hell as the real suffering. The chapter's debate is about which perspective is correct.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Enjoy music, dance, and pleasures. Honestly — your monk's life looks like suffering to me." The emperor projects his own values onto the monk's life. The monk will gently, then bluntly, correct him.</p>
+        <div class="concept-tags"><span class="concept-tag">Pleasure Offer</span><span class="concept-tag">Renunciation Misunderstood</span><span class="concept-tag">Two Definitions of Suffering</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VI -->
+  <div class="section-divider" id="section-vairagya"><span>Part VI &mdash; The Monk's Vairagya Teaching</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तं पुव्वणेहेण कयाणुरागं, णराहिवं कामगुणेसु गिद्धं । धम्मस्सिओ तस्स हियाणुपेही, चित्तो इमं वयणमुदाहरित्था ॥१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Chitt — resting in dharma, seeing the true welfare of that king who was deeply attached to sense pleasures out of old affection — spoke these words:</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The verse pauses to describe Chitt's internal state before he responds. He sees: the old affection (pubbaneha) — the bond of five lifetimes. He sees: the king's attachment to sense pleasures (kama-gunnesu giddha). He sees: what is truly for the king's welfare (hiyanupehim). All three together produce the teaching. Chitt does not speak from impatience or indifference — he speaks from the combination of deep love and clear perception. That is what dharma vision looks like.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Chitt saw his old friend — still attached to pleasures from five lifetimes of habit. He saw the king's true welfare clearly. And from that combination of love and insight, he spoke.</p>
+        <div class="concept-tags"><span class="concept-tag">Dharma Vision</span><span class="concept-tag">Love and Clarity</span><span class="concept-tag">True Welfare</span><span class="concept-tag">Vairagya</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वं विलवियं गीयं, सव्वं णट्टुं विडंबियं । सव्वे आभरणा भारा, सव्वे कामा दुहावहा ॥१६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"All singing is wailing. All dancing is mimicry. All ornaments are burdens. All sense pleasures bring suffering."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Four statements, each flipping the emperor's invitation back on itself. The music — wailing. The dance — mimicry, performance, emptiness. The ornaments — not beauty but weight. The pleasures — not delight but the cause of suffering. "Sarve kama duhavaha" is the core claim of the vairagya tradition: desire-objects do not reduce suffering; they generate it. Each sutra item from sutra 14's invitation is now answered with its true nature.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Singing? Wailing. Dancing? Mimicry. Ornaments? Burdens. Pleasures? All of them bring suffering." The monk takes each item of the emperor's invitation and names what it actually is.</p>
+        <div class="concept-tags"><span class="concept-tag">Vairagya</span><span class="concept-tag">True Nature of Pleasure</span><span class="concept-tag">Dispassion</span><span class="concept-tag">Kama Critique</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">बालाभिरामेसु दुहावहेसु, ण तं सुहं कामगुणेसु रायं । विरत्तकामाण तवोधणाणं, जं भिक्खुणं सीलगुणे रयाणं ॥१७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O king — in sense pleasures that delight only the immature and bring suffering, there is no such joy as the joy of monks who are dispassionate, whose wealth is tapas, who delight in virtue of character."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The contrast is made explicit. Sense pleasures are "bala-abhirama" — delightful only to the childish, the spiritually immature. They are simultaneously "duhavaha" — suffering-bearing. The monk's joy is the opposite: belonging to those who are "viratta" (dispassionate), whose wealth is austerity (tavo-dhana), and who delight in virtue (sila-gune rata). Two descriptions of joy; only one is real.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "O king — sense pleasures only delight children and bring suffering. There is no joy there like the joy of monks who have renounced desire, whose wealth is practice, and who delight in virtue."</p>
+        <div class="concept-tags"><span class="concept-tag">Maturity and Pleasure</span><span class="concept-tag">Monk's Joy</span><span class="concept-tag">Tapas as Wealth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णरिंद जाई अहमा णराणं, सोवागजाई दुहओ गयाणं । जहिं वयं सव्वजणस्स वेस्सा, वसीअ सोवाग-णिवेसणेसु ॥१८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O king of men — the lowest birth of all people was the chandala birth — the birth among those who have gone to both extremes of suffering. We lived as outcastes despised by all, in chandala settlements."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk reaches into the shared past to remind the emperor of what they once were. They were chandalas — the outcaste birth, described as "the lowest of all people." They were "vessa" — despised by everyone — and they lived in outcaste settlements. This is a direct appeal to experiential memory: you know what suffering felt like from the inside. You have lived the lowest of conditions. Do not think the pleasures of your present birth are permanent or protective.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "O king — remember when we were chandalas? The lowest birth possible? Despised by everyone, living in outcaste settlements? Do not forget what we were."</p>
+        <div class="concept-tags"><span class="concept-tag">Shared Outcaste Past</span><span class="concept-tag">Memory as Teaching</span><span class="concept-tag">Humility</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तीसे य जाईइ उ पाविआए, वुच्छामु सोवाग णिवेसणेसु । सव्वस्स लोगस्स दुगंछणिज्जा, इहं तु कम्माइं पुरेकडाइं ॥१९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"In that sinful birth — speaking in chandala settlements, despised by all the world — these were karmas done in a former time."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chandala birth was not arbitrary — it was the fruit of karma done previously. "Iham tu kammani purekadam" — here, the karmas done before. The outcaste birth was the ripenening of past actions. This is the monk completing the lesson he began in sutra 18: not only remember what you were, but understand why. The body you inhabit, the social position you hold — these are karma's artifacts, not your identity.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "That low birth — despised by all — came from karma done in even earlier lives. Even our chandala birth was not an accident but a consequence."</p>
+        <div class="concept-tags"><span class="concept-tag">Karma as Origin</span><span class="concept-tag">Outcaste Birth Explained</span><span class="concept-tag">Past Karma Ripening</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VII -->
+  <div class="section-divider" id="section-call"><span>Part VII &mdash; The Call to Renunciation</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सो दाणिसिं राय महाणुभागो, महिड्डुओ पुण्णफलोव्वेओ । चइतु भोगाइं असासयाइं, आयाणहेउं अभिणिक्खमाहि ॥२०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Now, O king — you who are of great power, great splendor, receiving the fruit of merit — abandon these impermanent pleasures. For the sake of the soul, go forth into renunciation."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk's direct call. The language acknowledges the emperor's genuine achievements — "mahānubhāgo, mahiddiyo, punnaphalobbheo" — great power, great splendor, fruit of merit. All real. And then the word: "asasayam" — impermanent. All of this is impermanent. "Ayanaheum" — for the sake of the soul. Go forth. The invitation to renunciation uses the same vocabulary as the emperor's invitation to pleasure in sutra 13-14, but inverts the direction entirely.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "O king — you are powerful, splendid, and have earned all of this. And all of it is impermanent. For the sake of your soul — go forth."</p>
+        <div class="concept-tags"><span class="concept-tag">Call to Renunciation</span><span class="concept-tag">Impermanence</span><span class="concept-tag">Soul's Welfare</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.21</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इह जीविए राय असासयम्मि, धणियं तु पुण्णाइं अकुव्वमाणो । से सोयइ मच्चुमुहोवणीए, धम्मं अकाऊण परिम्मि लोए ॥२१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"In this impermanent life, O king — one who does not accumulate merit heavily — grieves when brought to the mouth of death, having not practiced dharma, in the next world."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The failure mode is named precisely: "dhaniyam tu punnai akuvamano" — one who does not accumulate merit abundantly. "Maccumuhopaniya" — brought to the mouth of death. At that moment, with nothing accumulated, the soul grieves in the next world. "Dhammam akaun parimmi loe" — having not practiced dharma, in the world beyond. The suffering is not now — it is future and certain, as certain as karma itself.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "In this impermanent life — if you don't accumulate merit, you will grieve at the mouth of death, having not practiced dharma, in the next world." The cost of delay is paid later, not now.</p>
+        <div class="concept-tags"><span class="concept-tag">Death's Mouth</span><span class="concept-tag">Impermanent Life</span><span class="concept-tag">Merit Accumulation</span><span class="concept-tag">Next Life</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.22</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जहेह सीहो व मियं गहाय, मच्चू परं णेइ हु अंतकाले । ण तस्स माया व पिया व भाया, कालम्मि तम्मंसहरा हवंति ॥२२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Just as a lion seizes its prey — so does death carry the person away at the final moment. At that time, neither mother, nor father, nor brother can share the burden of that moment."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The image of death as a lion seizing prey is among the most visceral in the Uttaradhyayana. The verb "gahaya" — seized, grabbed — is physical and sudden. At the moment of seizure, every relationship dissolves into non-participation. Mother, father, brother — "na tassa" — not for him/her. They cannot share the load. They stand and watch. What the individual accumulated alone, the individual faces alone.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Death grabs you like a lion grabs prey — sudden, at the end. At that moment, your mother, father, brother — none of them can help carry that weight."</p>
+        <div class="concept-tags"><span class="concept-tag">Death as Lion</span><span class="concept-tag">No Helper at Death</span><span class="concept-tag">Aloneness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.23</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण तस्स दुक्खं विभयंति णाइओ, ण मित्तवग्गा ण सुया ण बंधवा। इक्को सयं पच्चणुहोइ दुक्खं, कत्तारमेव अणुजाइ कम्मं ॥२३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"His relatives do not share his suffering — nor his circle of friends, nor his sons, nor his kin. He alone experiences the suffering himself — karma follows only its maker."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is the chapter's doctrinal apex — the verse whose second line is the chapter's hero quote. Four categories of relationship are listed: relatives (naio), circle of friends (mitta-vagga), sons (suya), kin (bandhava). Not one of them can share the suffering. "Ikko sayam paccanuhoim dukkham" — alone, himself, he experiences suffering. "Kattarameva anujam kammam" — karma follows only the one who made it. The word "kattaram" is precise: only the doer, no one else. Karma is non-transferable.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "None of his relatives, friends, sons, or kin can share what he faces. He alone experiences his suffering. Karma follows only its maker — no one else."</p>
+        <div class="concept-tags"><span class="concept-tag">Karma's Sole Ownership</span><span class="concept-tag">Aloneness at Death</span><span class="concept-tag">No Transfer of Karma</span><span class="concept-tag">Core Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.24</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चिच्चा दुपयं च चउप्पयं च, खेत्तं गिहं धणधण्णं च सव्वं । सकम्मबीओ अवसो पयाइ, परं भवं सुंदर पावगं वा ॥२४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Abandoning bipeds and quadrupeds, fields and house and all wealth and grain — with the seed of one's own karma, helplessly one goes to the next birth — beautiful or sinful."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The list of what gets left behind: two-legged beings (family, servants), four-legged beings (livestock, horses, elephants), fields (land), house, wealth, grain. Everything that constitutes material life is abandoned at death. What travels is only the seed of one's own karma ("sakamma-bijo"). "Avaso" — helplessly, involuntarily — one goes to the next birth. Beautiful (sundara) or sinful (pavaga) — that destination is determined entirely by the karma seed, not by preference or relationship.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You leave everything — family, animals, land, house, wealth, grain. Only the seed of your own karma travels with you, helplessly, to the next birth — beautiful or terrible."</p>
+        <div class="concept-tags"><span class="concept-tag">Leaving Everything</span><span class="concept-tag">Karma Seed</span><span class="concept-tag">Helpless Rebirth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तं इक्कगं तुच्छसरीरगं से, चिईगयं दहिउं पावगेणं । भज्जा य पुत्ता वि य णायओ य, दायारमण्णं अणुसंकमंति ॥२५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"That one — alone, with an empty body — placed on the pyre, burned with fire. Wife, sons, and relatives — they pass to another heir."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sequence after death: the body is burned ("dihum pavagena" — burned with fire on the pyre). The body is alone, empty, a husk. Wife, sons, relatives — they "anusankamanti" — they pass on, migrate to another heir. They find their next anchor. The person you were is replaced by the next heir. Your position, your role, your relationships — all are filled by another. You are not missed structurally; only personally.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Your body, alone and empty, is placed on the pyre and burned. Your wife, your sons, your relatives — they move on to the next heir." The world continues. You do not.</p>
+        <div class="concept-tags"><span class="concept-tag">Cremation</span><span class="concept-tag">World Moves On</span><span class="concept-tag">Empty Body</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.26</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">उवणिज्जइ जीवियमप्पमायं, वण्णं जरा हरइ णरस्स रायं । पंचालराया वयणं सुणाहि, मा कासि कम्माइं महालयाइं ॥२६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Life slips away — it is not to be delayed. Old age steals the beauty of a person, O king. O king of the Panchalas — hear these words. Do not create the karma of great downfall."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk's urgency surfaces directly. Three images in sequence: life slips away ("uvanijai jiviamappamayam" — life is being carried away, incomprehensible in its speed). Old age takes away beauty — even youth is rented. And then the direct address: "O Panchala king, hear me. Do not make karma that will cause great downfall." "Mahalayam" — great downfall, vast descent — this is the fate the monk is trying to prevent. Brahmdatt's present karma trajectory leads to a great downfall.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Life slips away. Old age steals your beauty. O king of the Panchalas — listen. Do not create karma that leads to a great downfall." The monk's warning becomes explicit.</p>
+        <div class="concept-tags"><span class="concept-tag">Impermanence of Life</span><span class="concept-tag">Old Age</span><span class="concept-tag">Warning Against Downfall</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VIII -->
+  <div class="section-divider" id="section-confession"><span>Part VIII &mdash; The Emperor's Confession</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-27">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.27</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अहंपि जाणामि जहेह साहू, जं मे तुमं साहिसि वक्कमेयं । भोगा इमे संगकरा हवंति, जे दुज्जया अज्जो अम्हारिसेहिं ॥२७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"I too know this, O sage — as you tell me these words. These pleasures create attachment — and they are hard to abandon for people like us, O noble one."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Brahmdatt's answer is the most honest in the chapter — and the most heartbreaking. He says: "I know." He doesn't dispute a word. He doesn't argue the point. "Aham pi janami" — I too know this. And then the confession: "these pleasures create attachment (sangakara), and they are hard to abandon (dujjaya) for people like us." "Amharisehim" — for people like us. He includes himself in the category of those who know but cannot act.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "I know, O monk — everything you say is true. These pleasures create attachment. And they are hard to give up for people like me." He knows. He cannot act. That gap is the tragedy.</p>
+        <div class="concept-tags"><span class="concept-tag">Knowing but Not Acting</span><span class="concept-tag">Attachment</span><span class="concept-tag">Emperor's Confession</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-28">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.28</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">हत्थिणपुरिम्मि चित्ता, दट्टूणं णरवइं महिड्डियं । कामभोगेसु गिद्धेण, णियाणमसुहं कडं ॥२८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In Hastinapura, Chitt — seeing the great power of the king — made an inauspicious niyāna (death-wish), greedily attached to sense pleasures.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The flashback reveals the origin of Brahmdatt's trajectory. In Hastinapura, in a past life, Chitt (in that birth Sambhut's companion) saw the king's power and was seized by desire — by attachment to sense pleasures. At the moment of dying, he made a niyāna: a wish to be born as such a king. That single moment of desire-at-death became the karma that shaped the present birth. "Asuhum" — inauspicious. The wish that felt good at the time was spiritually poisonous.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "In a past life in Hastinapura, seeing the power of the king, he made a death-wish out of craving for pleasures. That inauspicious wish became the seed of this life."</p>
+        <div class="concept-tags"><span class="concept-tag">Origin of the Niyāna</span><span class="concept-tag">Death-Wish</span><span class="concept-tag">Desire as Trap</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-29">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.29</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तस्स मे अपिडक्कंतस्स, इमं एयारिसं फलं । जाणमाणो वि जं धम्मं, कामभोगेसु मुच्छिओ ॥२९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Of me — unable to escape it — this is the fruit of that kind. Even while knowing dharma, I was intoxicated by sense pleasures."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The emperor names his condition with terrible clarity: "janaman api" — even knowing dharma, knowing the teaching, knowing what leads where. "Kamabhogesu mucchiyo" — intoxicated by sense pleasures. The word "mucchiyo" is powerful: it means fainted, unconscious, stupefied — as if under the influence of a drug. Knowledge did not protect him. The intoxication of pleasure was stronger than understanding. This is the mechanism of spiritual failure: not ignorance, but knowing-yet-unable.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "This is my fruit — and I cannot escape it. Even knowing dharma, even understanding — I was intoxicated by pleasure. Knowledge wasn't enough." Knowing and doing are two different things.</p>
+        <div class="concept-tags"><span class="concept-tag">Knowing Dharma but Failing</span><span class="concept-tag">Intoxication of Pleasure</span><span class="concept-tag">Spiritual Failure</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-30">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.30</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णागो जहा पंकजलावसण्णो, दट्टुं थलं णाभिसमेइ तीरं । एवं वयं कामगुणेसु गिद्धा, ण भिक्खुणो मग्गमणुव्वयामो ॥३०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Just as an elephant sunk in muddy water — seeing dry land — cannot reach the shore. So too, we who are greedily attached to sense pleasures cannot follow the path of the monk."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The elephant-in-mud metaphor is among the most vivid confessions in the entire Uttaradhyayana. The elephant sees the dry land. It sees the shore. And yet it cannot reach it — because it is already submerged in mud. The emperor's situation is identical: he can see the monk's path. He sees renunciation. He understands its value. But "kamagunesu gidda" — greed-attachment to pleasures — holds him in the mud. Vision without traction is the definition of his tragedy.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Like an elephant in mud — it can see the shore but cannot reach it. That is us. We can see the monk's path. But we are stuck in pleasure's mud and cannot walk it."</p>
+        <div class="concept-tags"><span class="concept-tag">Elephant in Mud Metaphor</span><span class="concept-tag">Seeing but Unable to Act</span><span class="concept-tag">Attachment as Trap</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IX -->
+  <div class="section-divider" id="section-final"><span>Part IX &mdash; Final Words and Divergent Ends</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-31">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.31</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अच्चेइ कालो तूरंतं राइओ, ण याविं भोगा पुरिसाण णिच्चा । उविच्च भोगा पुरिसं चयंति, दुमं जहा खीणफलं व पक्खी ॥३१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Time passes swiftly, nights pass — pleasures are not permanent for people. When pleasures are exhausted, they abandon the person — just as birds leave a tree whose fruit is depleted."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk does not respond to the emperor's confession with approval or sympathy — he continues the teaching. Time rushes. Nights pass. Pleasures are temporary ("na tavim bhoga purissanam nicca"). And when the merit that generated those pleasures is exhausted, the pleasures abandon the person — not the other way around. The person does not leave the pleasures; the pleasures leave the person. Like birds abandoning a fruitless tree. This is a chilling image: you will not choose to leave — you will be left.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Time rushes. Nights pass. Pleasures aren't permanent — when their fruit is gone, they leave you. Just like birds leave a tree when the fruit runs out. They won't wait for you."</p>
+        <div class="concept-tags"><span class="concept-tag">Impermanence of Pleasure</span><span class="concept-tag">Pleasures Abandon You</span><span class="concept-tag">Birds and Fruitless Tree</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-32">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.32</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जइ तं सि भोगे चइउं असत्तो, अज्जाइं कम्माइं करेहि राय । धम्मे ठिओ सव्वपयाणुकंपी, तो होहिसि देवो इओ विउव्वी ॥३२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"If you are incapable of abandoning pleasures, O king — then at least practice auspicious karma today. Established in dharma, compassionate toward all living beings — then you will be reborn as a god from here."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk offers an alternative path for those who cannot fully renounce: "ajjaim kammim karehi" — begin doing auspicious karma now. Even if complete renunciation is impossible, dharmic living with compassion toward all beings will lead to a divine birth in the next life. This is the monk's practical concession — not an abandonment of the teaching, but a graded path. Even partial progress moves the soul upward.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "If you truly cannot give up pleasures — then at least do auspicious karma, be compassionate to all beings, stand in dharma. Even that will take you to a divine birth." A minimum viable path for those who cannot go all the way.</p>
+        <div class="concept-tags"><span class="concept-tag">Graded Path</span><span class="concept-tag">Auspicious Karma</span><span class="concept-tag">Compassion</span><span class="concept-tag">Divine Rebirth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-33">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.33</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण तुज्झ भोगे चइऊण बुद्धी, गिद्धो सि आरम्भ परिग्गहेसु । मोह कओ इत्तउ विप्पलावो, गच्छामि रायं आमंतिओसि ॥३३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"There is no intention in you to abandon pleasures — you are attached to violence and possessiveness. This is all illusion — so far, only chatter. I am going, O king — I have spoken to you."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk's departure is blunt. "Na tujha bhoge caium buddhi" — there is no intention (buddhi) in you to abandon pleasures. After the emperor's confession in sutra 27 — "I know, but I can't" — the monk has been patient. Now he names it precisely: no intention, attachment to violence and possessions (arambha-pariggaha). "Moha kao" — this is all illusion. "Vipalavo" — empty chatter. "I am going." The monk does not wait for conversion. He spoke. He will leave.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You have no intention of giving up pleasure. You are attached to violence and possessions. This has all been empty chatter driven by illusion. I am going, O king — I have spoken."</p>
+        <div class="concept-tags"><span class="concept-tag">No Intention to Renounce</span><span class="concept-tag">Monk's Departure</span><span class="concept-tag">Illusion</span><span class="concept-tag">Blunt Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-34">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.34</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पंचालराया वि य बंभदत्तो, साहुस्स तस्स वयणं अकाउं । अणुत्तरे भुंजिय कामभोगे, अणुत्तरे सो णरए पविट्ठो ॥३४॥</p>
+        <p class="text-lg font="semibold text-on-surface leading-relaxed">The Panchala king Brahmdatt — not acting on the words of that monk — enjoying the highest sense pleasures — entered the deepest hell.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The consequence is rendered in a single verse. "Akau" — not acting, not following. The monk spoke; the king heard; the king did not act. "Anuttare bhunjiya kamabhoge" — enjoying the highest (anuttara) sense pleasures. And "anuttare so nare pavittho" — he entered the deepest (anuttara) hell. The same word — "anuttara" (supreme, ultimate) — describes both what he enjoyed and where he ended up. The highest pleasures led directly to the deepest hell. Karma is mathematically precise.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Brahmdatt did not act on the monk's words. He enjoyed the highest pleasures. And he entered the deepest hell." The same word — "anuttara" — describes both. The highest pleasure, the deepest fall.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma's Consequence</span><span class="concept-tag">Deepest Hell</span><span class="concept-tag">Anuttara</span><span class="concept-tag">Highest Pleasure Lowest End</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-35">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.35</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चित्तो वि कामेहिं विरत्तकामो, उदग्ग चारित्ततवो महेसी । अणुत्तरं संजम पालइत्ता, अणुत्तरं सिद्धिगइं गओ ॥३५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">And Chitt too — dispassionate from desires, of elevated conduct and tapas, a great seer — having practiced the highest restraint — attained the highest state of liberation. — Thus I say.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The final verse completes the symmetry. "Viratta-kamo" — dispassionate from desires. "Udagga-carittaI-tavo" — elevated conduct and tapas, the supreme practitioner. "Anuttaram sanjam palattitta" — having practiced the highest restraint (anuttara samyama). "Anuttaram siddhi-gaim gao" — attained the highest state of liberation (anuttara siddhi-gati). Again: "anuttara" appears twice — the highest restraint produced the highest liberation. The same word that described Brahmdatt's highest pleasures and deepest hell now describes Chitt's highest practice and highest destination. The chapter is perfect in its symmetry. Two souls. One word. Opposite destinations.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "And Chitt — dispassionate, elevated in practice and tapas — having kept the highest restraint — attained the highest liberation." One word for Brahmdatt: deepest hell. One word for Chitt: highest liberation. Same word — anuttara — for both, pointing in opposite directions.</p>
+        <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">Highest Restraint</span><span class="concept-tag">Anuttara Siddhi</span><span class="concept-tag">Chitt's Attainment</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ अध्ययन-१३ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 13 &mdash; Chitt-Sambhutiya</p>
+  </div>
+
+  </section></main>
+
+
+
+<a href="uttaradhyana-ch12.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 12
+</a>
+<a href="uttaradhyana-ch14.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 14 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Aagama</span>
+        <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../uttaradhyana-index.html">Uttaradhyayana</a>
+        <a class="hover:text-primary transition-colors" href="../vipaak/vipaak-index.html">Vipaak Sutra</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4 hidden">
+        <span class="text-primary/40 mb-2">Legacy</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+</script>
+</body>
+</html>

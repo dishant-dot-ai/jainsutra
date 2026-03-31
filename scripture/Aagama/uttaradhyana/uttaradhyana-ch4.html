@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 4: Impermanent Life | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e",
+        "on-secondary-fixed-variant": "#4a4642",
+        "secondary-container": "#e6ded9",
+        "primary-fixed-dim": "#e6c364",
+        "surface-bright": "#fef9f1",
+        "tertiary-fixed": "#dde1ff",
+        "surface": "#fef9f1",
+        "primary-fixed": "#ffe08f",
+        "surface-container-low": "#f8f3eb",
+        "secondary-fixed": "#e9e1dc",
+        "outline-variant": "#d0c5b2",
+        "outline": "#7e7665",
+        "inverse-on-surface": "#f5f0e8",
+        "on-background": "#1d1c17",
+        "on-secondary": "#ffffff",
+        "on-tertiary-container": "#2e3b77",
+        "error": "#ba1a1a",
+        "on-error": "#ffffff",
+        "on-primary-fixed-variant": "#584400",
+        "surface-dim": "#ded9d2",
+        "surface-container-high": "#ece8e0",
+        "primary": "#755b00",
+        "on-primary-container": "#503d00",
+        "inverse-surface": "#32302b",
+        "secondary": "#625d59",
+        "error-container": "#ffdad6",
+        "tertiary-fixed-dim": "#b9c3ff",
+        "on-secondary-container": "#67625e",
+        "on-primary": "#ffffff",
+        "on-primary-fixed": "#241a00",
+        "on-error-container": "#93000a",
+        "surface-tint": "#755b00",
+        "secondary-fixed-dim": "#ccc5c0",
+        "surface-variant": "#e7e2da",
+        "surface-container-lowest": "#ffffff",
+        "on-tertiary-fixed": "#041451",
+        "surface-container-highest": "#e7e2da",
+        "primary-container": "#c9a84c",
+        "inverse-primary": "#e6c364",
+        "on-surface-variant": "#4d4637",
+        "tertiary": "#4d5a98",
+        "background": "#fef9f1",
+        "on-tertiary": "#ffffff",
+        "on-surface": "#1d1c17",
+        "tertiary-container": "#9ba8eb",
+        "surface-container": "#f2ede5",
+        "on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: {
+        "headline": ["Noto Serif", "serif"],
+        "body": ["Inter", "sans-serif"],
+        "label": ["Inter", "sans-serif"]
+      },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.burnished-gradient {
+  background: radial-gradient(circle at center, #755b00, #c9a84c);
+}
+
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+
+.sutra-quote {
+  border-left: 1px solid #c9a84c;
+  padding-left: 3rem;
+}
+
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+
+.sutra-card > div > span:first-child {
+  width: 3.5rem;
+  display: inline-block;
+}
+
+.sutra-card p.text-base { font-size: 1.125rem; line-height: 1.75; }
+.simple-explanation {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed rgba(201,168,76,0.3);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #4d4637;
+}
+.simple-explanation b { color: #755b00; font-weight: 600; }
+
+/* Concept Tags */
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag {
+  display: inline-block;
+  border: 1px solid #C9A84C;
+  background: transparent;
+  color: #1d1c17;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 100px;
+  padding: 4px 13px;
+  font-weight: 500;
+}
+
+/* Floating Nav */
+.nav-button {
+  position: fixed;
+  bottom: 24px;
+  z-index: 100;
+  background: transparent;
+  border: 1px solid rgba(201,168,76,0.35);
+  color: rgba(201,168,76,0.6);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+.nav-button.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.nav-button:hover {
+  border-color: #C9A84C;
+  color: #C9A84C;
+}
+
+/* Glass Nav */
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+.nav-hero .nav-logo { color: #ffffff !important; }
+.nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+.nav-hero .nav-link:hover { color: #ffffff !important; }
+.nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+.nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+.nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+
+/* Sutra counter */
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .sutra-sanskrit { font-size: 1.15rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Impermanent Life<span class="block text-primary font-normal">असंस्कृत</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On the Shortness of Life, the Weight of Karma, and the Urgency to Practise</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Lord Mahavira teaches that life is fleeting, karma is inescapable, and wealth offers no protection. The chapter is a fierce call to vigilance &mdash; to wake up before old age and death foreclose the opportunity for liberation.
+    </p>    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <img alt="Ancient Jain manuscript depicting the urgency of spiritual practice and the impermanence of life" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbzk7XDqh1rQQfD8cD58TcYiARccg9FHm3LLSomAhxd2vS_OMetrApvWvewalpmzqhvvtm2IF1lmNsvYCEPFPjtoAl7UWNMyduWVAaaLknydKBqlEzHHhdEyWD5JlvrwpomspNdKk7mbbbfVrktrZKB-UjFoUOqmIxllRtsbnVk_pFkGLNKDgHu54EhaOnN6f6WTMH7BFkqe_aA8MqwqjNMvc-JpOb5LsSF0cQktl1FKSMJsn6_v5XzIv3caRCmuHRDhD5F6P9DQ"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">असंखयं जीवियं मा पमायए,<br/>जरोवणीयस्स हु णत्थि ताणं</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;Life is immeasurably short — do not be negligent. For one carried toward old age, there is truly no protection.&rdquo;</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Impermanent Life</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Asanskrut</span> — the fourth chapter of the Uttaradhyayana Sutra — confronts a truth most people spend their lives avoiding: life is short, the body is fragile, and karma waits for no one. The chapter also goes by the name <em>Pramad-Viveka</em> (Discernment Against Negligence), pointing to its central lesson.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Through 13 tightly woven sutras, Lord Mahavira dismantles the illusions that keep people spiritually asleep &mdash; the illusion that wealth protects, that family will share your karma, that there will always be more time. Each verse sharpens the urgency: practice now, while the body still cooperates and the mind still has its faculties.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">13</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Mahavira</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">4</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapter</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<!-- Sutras Section -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+    <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 4</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 13 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Prakrit, English translation, and a simplified commentary.</p>
+  </div>
+
+<!-- Sutra 1 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">असंखयं जीवियं मा पमायए, जरोवणीयस्स हु णत्थि ताणं ।<br/>एवं वियाणाहि जणे पमत्ते, किण्णू विहिंसा अजया गहिति ॥४.१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Life is immeasurably short — do not be negligent. For one being carried toward old age, there is truly no protection. Knowing this about the negligent person, why would sin not seize the one who is unrestrained?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This opening verse establishes the chapter's core thesis: life is fleeting and old age provides no shelter. The word "immeasurably short" is not poetic exaggeration — it is a precise observation that the moments available for spiritual practice are finite and dwindling. The rhetorical question at the end is pointed: if you are negligent and unrestrained, harmful actions will naturally accumulate, and their consequences cannot be escaped. This is not a threat — it is cause and effect.</p>
+<p class="simple-explanation"><b>The simple version:</b> Life is incredibly short. Old age comes for everyone, and when it does, nothing protects you. A careless, unrestrained person naturally falls into sinful actions — and those consequences will come back, without exception. Don't be that person.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Impermanence</span>
+  <span class="concept-tag">Vigilance</span>
+  <span class="concept-tag">Old Age</span>
+  <span class="concept-tag">Non-negligence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे पावकम्मेहिं धणं मणुस्सा, समाययंति अमइं गहाय ।<br/>पहाय ते पासपयिट्टिए णरे, वेराणुबद्धा णरयं उर्वेति ॥४.२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those people who accumulate wealth through sinful actions, seized by foolishness — those people, caught in the snare of attachment and bound by enmity, descend into hell.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The image of a snare (pasa) is exact: greed traps just as a physical snare traps an animal. Wealth accumulated through harmful deeds creates a double bind — the soul is entangled in attachment to what was gained, and in enmity toward those harmed in the gaining. The very thing sought for security becomes the mechanism of downfall. Wealth cannot offer what it promises.</p>
+<p class="simple-explanation"><b>The simple version:</b> When people use sinful means to gather wealth, foolishness is driving them. That wealth becomes a trap — binding them in attachment and hatred. The result: they descend into deep suffering.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Sinful Actions</span>
+  <span class="concept-tag">Wealth</span>
+  <span class="concept-tag">Karma</span>
+  <span class="concept-tag">Consequences</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 3 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तेणे जहा संधिमुहे गहीए, सकम्मुणा किच्चइ पावकारी ।<br/>एवं पया पेच्च इहं च लोए, कडाण कम्माण ण मोक्ख अत्थि ॥४.३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a thief caught at the scene of a break-in is punished for his own deeds, so too, here and in the next world, there is no liberation from the karma already committed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A thief caught in the act cannot deny what he has done — the evidence is right there. Karma works the same way. What has been committed leaves an imprint on the soul that cannot be argued away, bribed away, or wished away. This is not punishment from an external judge; it is the inexorable law of cause and effect operating across lifetimes. The teaching is sobering precisely because it removes every fantasy of escape.</p>
+<p class="simple-explanation"><b>The simple version:</b> Like a thief caught red-handed who cannot escape his punishment — a person cannot escape the results of bad karma, not in this life and not in the next. There's no way around what you've already done.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Karma</span>
+  <span class="concept-tag">Accountability</span>
+  <span class="concept-tag">Cause and Effect</span>
+  <span class="concept-tag">No Escape</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 4 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संसारमावण्ण परस्स अट्टा, साहारणं जं च करेइ कम्मं ।<br/>कम्मस्स ते तस्स उ वेयकाले, ण बंधवा बंधवयं उर्वेति ॥४.४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For one immersed in worldly existence, working for another's sake — whatever shared karma is committed — when the time comes to experience that karma, no relative comes to share in it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra addresses one of the most persistent human delusions: that harmful actions done "for the family" are somehow excused or shared. A person may lie, cheat, or harm to provide for loved ones. But karma is individual and non-transferable. When its fruit ripens, the person faces it utterly alone. The family for whom all this was done cannot step in. This is not cruelty — it is the structure of reality as Jain philosophy understands it.</p>
+<p class="simple-explanation"><b>The simple version:</b> People often do wrong things thinking they're doing it for their family. But when karma matures, no family member can share in that suffering — you face it completely alone. No one can take your karma for you.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Samsara</span>
+  <span class="concept-tag">Individual Karma</span>
+  <span class="concept-tag">Family Illusion</span>
+  <span class="concept-tag">Accountability</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 5 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वित्तेण ताणं ण लभे पमत्ते, इम्मिम्म लोए अदुवा परत्था ।<br/>दीवप्पणट्टे व अणंत मोहे, णेयाउयं दट्टुमदट्टुमेव ॥४.५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The negligent person finds no protection through wealth — neither in this world nor in the next. Like a lamp extinguished in endless delusion, they cannot see the path of right conduct — whether looked for or not.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Wealth is the ultimate false refuge — it creates the illusion of security while leaving the soul entirely exposed. The image of an extinguished lamp in endless delusion is precise: you are surrounded by darkness of your own making. You cannot see the right path not because it is hidden, but because your vision has been disabled by attachment. Even if you search, you cannot find what you have lost the capacity to perceive.</p>
+<p class="simple-explanation"><b>The simple version:</b> Wealth won't protect a careless person — not now, not after death. Like a lamp snuffed out in total darkness, a person lost in delusion can't see the right path — even if they try to look for it.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Wealth</span>
+  <span class="concept-tag">Delusion</span>
+  <span class="concept-tag">Negligence</span>
+  <span class="concept-tag">False Protection</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 6 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुत्तेसु याविं पडिबुद्धजीवी, णो वीससे पंडिए आसुपण्णे ।<br/>घोरा मुहुत्ता अबलं सरीरं, भारंड-पक्खी व चरेऽप्पमत्तो ॥४.६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise and sharp-minded person who lives awakened even among the sleeping — should not grow complacent. Hours are terrifying; the body is weak. Move through life with vigilance, like the bharanda bird.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The bharanda — a mythical two-headed bird from Jain lore — is a classic image for discernment and vigilance. Each head must eat carefully, because what one head takes in affects the whole bird. The monk who is already wise must not let that wisdom become complacency. Time passes in frighteningly small increments; the body that carries the practice is fragile. The instruction is precise: stay awake while others sleep, and move as carefully as a creature whose survival depends on every choice.</p>
+<p class="simple-explanation"><b>The simple version:</b> Even a wise, sharp person shouldn't get complacent. Every hour counts — the body is weak and time moves fast. Stay as alert and careful as the bharanda bird, which can never afford to be careless.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Vigilance</span>
+  <span class="concept-tag">Impermanence of the Body</span>
+  <span class="concept-tag">Wisdom</span>
+  <span class="concept-tag">Non-negligence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 7 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">चरे पयाइं परिसंकमाणो, जं किंचि पासं इह मण्णमाणो ।<br/>लाभंतरे जीविय वृहइत्ता, पच्छा परिण्णाय मलावधंसी ॥४.७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Walk step by step with caution, being wary of whatever snares exist in this world. Having sustained life through the period of worldly gain, afterwards — knowing fully — destroy the impurities.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Wary of snares" is not about paranoia — it is discernment: the practitioner moves through the world seeing attachments, temptations, and traps for what they are. During the worldly years of earning and family life, walk wisely. Then, in the mature stage of spiritual life, use that accumulated understanding to systematically destroy the karmic impurities (mala) gathered along the way. The teaching honors both phases of life rather than demanding sudden renunciation.</p>
+<p class="simple-explanation"><b>The simple version:</b> Walk carefully through life, watching for all the traps around you. In the years of earning and living, be wise. Then, when you're ready, use that full understanding to destroy the karmic impurities you've gathered.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Discernment</span>
+  <span class="concept-tag">Karmic Purification</span>
+  <span class="concept-tag">Vigilance</span>
+  <span class="concept-tag">Spiritual Path</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 8 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">छंदं णिरोहेण उवेइ मोक्खं, आसे जहा सिक्खिय-वम्मधारी ।<br/>पुव्वाइं वासाइं चरेऽप्पमत्तो, तम्हा मुणी खिप्पमुवेइ मोक्खं ॥४.८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">By restraining desire, one attains liberation — like a well-trained horse carrying its armor. Practicing vigilance in the earlier years, therefore the sage swiftly attains liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A war horse trained from youth carries its armor without struggle — the weight that would break an untrained animal is effortless for it. Similarly, the monk who begins practice early, cultivating restraint and vigilance before habits harden, moves toward liberation with a swiftness that later-starters cannot match. The analogy carries a practical insight: training the mind in youth is not sacrifice — it is investment in speed.</p>
+<p class="simple-explanation"><b>The simple version:</b> Restraining your desires is the road to liberation. Like a well-trained horse that carries its heavy armor with ease, a monk who starts practicing from a young age reaches liberation quickly — the training makes the path lighter.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Restraint of Desire</span>
+  <span class="concept-tag">Liberation</span>
+  <span class="concept-tag">Early Practice</span>
+  <span class="concept-tag">Non-negligence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 9 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स पुव्वमेवं ण लभेज्ज पच्छा, एसोवमा सासयवाइयाणं ।<br/>विसीयइ सिढिले आउयम्मि, कालोवणीए सरीरस्स भेए ॥४.९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">What one does not attain before cannot be attained after. This teaching is for those who claim there is permanence. When life loosens and death approaches, the body breaks apart.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra is a direct refutation of "I'll do it later" — the oldest spiritual procrastination. The window for practice is open now; once it closes through old age, illness, or death, the opportunity does not reopen in the same form. Addressed specifically to those who argue for the soul's permanence: even if the soul is eternal, the current opportunity is not. The body that carries the practice is fragile and finite. Don't wait for it to begin breaking down before you begin.</p>
+<p class="simple-explanation"><b>The simple version:</b> What you don't do now, you won't be able to do later. This is for people who say "there's always time." Once the body starts to loosen and death approaches, it's too late. Start now, while you can.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Urgency</span>
+  <span class="concept-tag">Impermanence</span>
+  <span class="concept-tag">No Delay</span>
+  <span class="concept-tag">Opportunity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 10 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">खिप्पं ण सक्केइ विवेगमेउं, तम्हा समुद्राय पहाय कामे ।<br/>समिच्च लोयं समया महेसी, आयाणरक्खी चरेऽप्पमत्तो ॥४.१०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One deeply immersed in worldly life cannot quickly attain discernment. Therefore, after carefully understanding the world and calmly renouncing desires — understanding it thoroughly — the great seeker, protecting the soul, should move with vigilance.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Someone deeply entangled in attachments cannot suddenly become discerning — the grooves of habit run too deep. The teaching prescribes a sequence: first, understand the world clearly for what it is (not in bitterness or aversion, but with calm seeing). Then, from that clarity, renounce desires — calmly, not in panic. Then protect the soul from further karmic accumulation. Move through life with vigilance. This is the path of the great seeker (maheshi).</p>
+<p class="simple-explanation"><b>The simple version:</b> Someone too tangled in worldly life can't suddenly become wise and free. So: understand the world clearly first, then give up desires calmly, protect your soul, and walk carefully. That's how the great spiritual seekers actually live.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Discernment</span>
+  <span class="concept-tag">Renunciation</span>
+  <span class="concept-tag">Soul-protection</span>
+  <span class="concept-tag">Vigilance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 11 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मुहुं मुहुं मोह गुणे जयंतं, अणेग-रूवा समणं चरंतं ।<br/>फासा फुसंति असमंजसं च, ण तेसु भिक्खू मणसा पडुस्से ॥४.११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Repeatedly conquering the qualities of delusion, the monk who wanders in many forms — is touched by difficult sense contacts. The monk should not be mentally disturbed by these.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The practitioner on the path faces delusion repeatedly and in many forms — pride, attachment, aversion, confusion. Physical sense contacts (sparsha) — touch, sound, sight, discomfort, pleasure — keep arising. The teaching draws a precise distinction: the arising of these contacts is inevitable and not in your control. The mind's response to them is in your control. Equanimity is not the absence of experience; it is an unshaken response to experience as it unfolds.</p>
+<p class="simple-explanation"><b>The simple version:</b> A wandering monk fights delusion over and over, in all kinds of forms. Difficult sense experiences will keep touching them — that can't be avoided. The teaching: don't let those experiences disturb your mind.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Equanimity</span>
+  <span class="concept-tag">Delusion</span>
+  <span class="concept-tag">Sense Contact</span>
+  <span class="concept-tag">Mental Steadiness</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 12 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मंदा य फासा बहु लोहिणज्जा, तहप्पगारेसु मणं ण कुज्जा ।<br/>रक्खेज्ज कोहं विणएज्ज माणं, मायं ण सेवेज्ज पहेज्ज लोहं ॥४.१२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Soft, pleasant experiences are greatly corrupting. In such circumstances, do not engage the mind. Guard against anger, subdue pride, do not indulge in deceit, and abandon greed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The four fundamental passions of Jain philosophy appear explicitly here: anger (krodha), pride (mana), deceit (maya), and greed (lobha) — the four kashayas. The sutra's insight is counterintuitive: it is the <em>pleasant</em> sense experiences, not the harsh ones, that are most corrupting. Harsh experiences test resolve. Pleasant ones seduce it. They feed pride ("I deserve this"), deceit ("I'll maneuver to get more"), and greed ("I want more of this"). Guard the mind especially when things feel good.</p>
+<p class="simple-explanation"><b>The simple version:</b> Pleasant, soft experiences are actually the most dangerous — they corrupt the soul quietly. In those moments, don't let your mind get pulled in. Control anger. Crush pride. Avoid deceit. Abandon greed. These four are the core enemies.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Four Passions</span>
+  <span class="concept-tag">Anger</span>
+  <span class="concept-tag">Pride</span>
+  <span class="concept-tag">Deceit</span>
+  <span class="concept-tag">Greed</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 13 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जेडसंखया तुच्छ परप्पवाई, ते पिज्ज-दोसाणुगया परज्झा ।<br/>एए अहम्मे ति बुगुंछमाणो, कंखे गुणे जाव सरीरभेओ ॥४.१३॥ —ति बेमि ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those who speak empty words and are drawn by attachment and aversion are destroyed by others. Knowing these as contrary to right conduct — being genuinely repelled by them — aspire for virtues until the very breaking of the body. — Thus do I say.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The closing sutra is both a warning and a call to arms. Those who speak hollow words and live as slaves to likes and dislikes — the fundamental pair of attachment (raga) and aversion (dvesha) — become dependent on external circumstances and are eventually undone by them. The teaching goes beyond mere avoidance: feel genuine repulsion toward these patterns, not resignation or suppression. Then, from that clear seeing, aspire continuously for virtue — not until you feel like it, but until the body itself dissolves. The phrase "thus do I say" seals the teaching with the authority of direct transmission.</p>
+<p class="simple-explanation"><b>The simple version:</b> People who talk emptily and live chasing likes and avoiding dislikes end up destroyed by others. See those patterns for what they are — against right conduct. Feel genuine disgust for them. Then keep aspiring for virtue until your very last breath. That is the teaching. — So it is said.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Attachment and Aversion</span>
+  <span class="concept-tag">Right Conduct</span>
+  <span class="concept-tag">Virtues</span>
+  <span class="concept-tag">Final Teaching</span>
+  <span class="concept-tag">Liberation</span>
+</div>
+</div>
+</div>
+</article>
+
+  <!-- Chapter End Marker -->
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ अध्ययन-४ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 4 &mdash; The Impermanent Life</p>
+  </div>
+  </section>
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="uttaradhyana-ch3.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 3
+</a>
+
+<a href="uttaradhyana-ch5.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 5 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Aagama</span>
+        <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../uttaradhyana-index.html">Uttaradhyayana</a>
+        <a class="hover:text-primary transition-colors" href="../vipaak/vipaak-index.html">Vipaak Sutra</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4 hidden">
+        <span class="text-primary/40 mb-2">Legacy</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Floating nav buttons visibility on scroll
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+
+// Sutra counter update on scroll
+</script>
+</body></html>

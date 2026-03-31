@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 3: Chaturangiya — The Four Supreme Rarities | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e","on-secondary-fixed-variant": "#4a4642","secondary-container": "#e6ded9","primary-fixed-dim": "#e6c364","surface-bright": "#fef9f1","tertiary-fixed": "#dde1ff","surface": "#fef9f1","primary-fixed": "#ffe08f","surface-container-low": "#f8f3eb","secondary-fixed": "#e9e1dc","outline-variant": "#d0c5b2","outline": "#7e7665","inverse-on-surface": "#f5f0e8","on-background": "#1d1c17","on-secondary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff","on-primary-fixed-variant": "#584400","surface-dim": "#ded9d2","surface-container-high": "#ece8e0","primary": "#755b00","on-primary-container": "#503d00","inverse-surface": "#32302b","secondary": "#625d59","error-container": "#ffdad6","tertiary-fixed-dim": "#b9c3ff","on-secondary-container": "#67625e","on-primary": "#ffffff","on-primary-fixed": "#241a00","on-error-container": "#93000a","surface-tint": "#755b00","secondary-fixed-dim": "#ccc5c0","surface-variant": "#e7e2da","surface-container-lowest": "#ffffff","on-tertiary-fixed": "#041451","surface-container-highest": "#e7e2da","primary-container": "#c9a84c","inverse-primary": "#e6c364","on-surface-variant": "#4d4637","tertiary": "#4d5a98","background": "#fef9f1","on-tertiary": "#ffffff","on-surface": "#1d1c17","tertiary-container": "#9ba8eb","surface-container": "#f2ede5","on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.125rem; line-height: 1.75; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 3</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Four Supreme Rarities<span class="block text-primary font-normal">ચતુરંગીય</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On the four supreme rarities that together open the path to liberation</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Among all beings wandering through samsara, four conditions rarely converge: human birth, hearing true dharma, faith in it, and the will to act. This chapter — the third of the Uttaradhyayana Sutra — names these four as the only doorway to liberation, and traces the soul's long journey from the depths of samsara to the summit of eternal freedom.</p>    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden bg-surface-container flex items-center justify-center border border-outline-variant/30">
+      <img src="assets/ch3-hero.jpg" alt="Chaturangiya — The Four Supreme Rarities"
+           class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+      <div class="hidden w-full h-full items-center justify-center flex-col gap-4 p-8">
+        <span class="font-headline text-5xl text-primary/30">🪷</span>
+        <p class="text-center font-headline text-on-surface/40 text-sm">Image: The Four Supreme Rarities — a soul's ascent from samsara to liberation</p>
+      </div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">चत्तारि परमंगाणि, दुल्लहाणीह जंतुणो ।<br/>माणुसत्तं सुई सद्धा, संजमम्मि य वीरियं ॥</p>
+      <p class="mt-3 text-base text-on-surface-variant italic font-light leading-relaxed">"Four supreme attributes are exceedingly rare for a living being in this world: human birth, hearing the dharma, faith in it, and effort in self-restraint."</p>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Chaturangiya</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Chaturangiya</span> — "of four limbs" — is the third chapter of the Uttaradhyayana Sutra, one of the twelve Angas of the Jain canon. It opens with what may be the most quietly devastating observation in all of Jain scripture: human birth, hearing dharma, faith, and effort in self-restraint are not merely good things — they are each, individually, nearly impossible to obtain. To have all four at once is rarer still.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The chapter moves in a great arc: from the vast churning of souls through samsara — through hells, heavens, insect-lives, royal births — down to the single soul that, gradually, through lifetimes of accumulated purification, obtains all four rarities at once and uses them to become a Siddha forever. The closing verse, sealed with Mahavira's own words "iti bemi" (thus I say), is a direct call: now that you know how rare this moment is — act.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">20</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-2xl font-headline font-bold text-primary">Disciples</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Addressed To</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">4</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span>
+        </div>
+      </div>
+      <div class="pt-6 border-t border-outline-variant/40">
+        <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-4">Chapter Structure</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">I</span>
+            <span class="text-sm text-on-surface font-body">The Four Rare Supreme Attributes (1–7)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">II</span>
+            <span class="text-sm text-on-surface font-body">Hearing Dharma and Faith (8–9)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">III</span>
+            <span class="text-sm text-on-surface font-body">Effort in Self-Restraint (10)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">IV</span>
+            <span class="text-sm text-on-surface font-body">The Fruit of All Four (11–20)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutras -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 3</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 20 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, and commentary. These are the living words of Bhagavan Mahavira, transmitted across 2500 years.</p>
+  </div>
+
+  <div class="section-divider" id="section-four-rarities"><span>Part I — The Four Rare Supreme Attributes</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चत्तारि परमंगाणि, दुल्लहाणीह जंतुणो ।<br/>माणुसत्तं सुई सद्धा, संजमम्मि य वीरियं ॥३.१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Four supreme attributes are exceedingly rare for a living being in this world: human birth, hearing the dharma, faith in it, and effort in self-restraint.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">These four are called "parama-anga" (supreme limbs) because they are the nearest and most essential causes of liberation. Among all beings wandering through the endless cycle of samsara, obtaining even one of these is extraordinarily rare — to obtain all four simultaneously is the rarest of the rare. "Parama" emphasizes that these are not ordinary qualities but the highest prerequisites for spiritual progress. Hearing dharma means exposure to the authentic teachings of the Tirthankara tradition, not mere worldly learning. Faith means genuine conviction in the truth of dharma, not blind belief. Effort means sustained spiritual willpower, not mere physical strength.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Out of all the beings in existence, getting four things at once is incredibly rare — being born human, getting to hear true spiritual teachings, actually believing in them, and having the willpower to live by them.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Human Birth</span>
+          <span class="concept-tag">Rarity</span>
+          <span class="concept-tag">Dharma</span>
+          <span class="concept-tag">Liberation</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">समावण्णाण संसारे, णाणा-गोत्तासु जाइसु ।<br/>कम्मा णाणा-विहा कट्टु, पुत्तो विस्संभिया पया ॥३.२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having entered the cycle of samsara and taken birth in various lineages and species, living beings — performing diverse kinds of karma — have wandered extensively, having been separated from their true nature.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra sets the stage for understanding why the four attributes are so rare. Beings have been wandering through samsara since beginningless time, accumulating diverse karmas that propel them into countless species and lineages. The word "vishvambhiya" suggests that beings have traversed every corner of existence — there is no birth-form they have not experienced. This vast, endless wandering makes the convergence of the four rare attributes all the more precious when it finally occurs.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Every soul has been wandering through countless lives — born as gods, humans, animals, insects — doing all kinds of deeds, scattered across every possible form of existence since time without beginning.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Samsara</span>
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Wandering</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगया देवलोएसु, णरएसु वि एगया ।<br/>एगया आसुरे काये, अहाकम्मेहिं गच्छइ ॥३.३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Sometimes a being goes to the celestial realms, sometimes to the hells, and sometimes into demonic forms — all according to its karmas.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra illustrates the soul's helpless wandering through the four major categories of existence. Driven by karma, the same soul that once enjoyed celestial pleasures may find itself in hellish suffering, or take birth in a demonic form. The repetition of "egaya" (sometimes) emphasizes the randomness and unpredictability of karmic outcomes — the soul has no control over where it will go next. This instability is precisely what makes the human birth, where spiritual progress is possible, so precious.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The same soul bounces around — sometimes born as a god in heaven, sometimes suffering in hell, sometimes in a demon's body — wherever its past actions send it.</p>
+        <!-- [VISUAL FLAG #3.1 — A single soul shown in three panels: radiant in a celestial realm, suffering in a dark hell pit, and crouching in a demonic form — illustrating the same soul's helpless drift across realms driven by karma] -->
+        <div class="concept-tags">
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Rebirth</span>
+          <span class="concept-tag">Celestial Realms</span>
+          <span class="concept-tag">Hell</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगया खत्तिओ होइ, ताओ चंडाल बुक्कसो ।<br/>ताओ कीडपयंगो य, ताओ कुंथू पिवीलिया ॥३.४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Sometimes one is born a warrior-king, and from there a chandala or an outcast; from there an insect or a moth, and from there a louse or an ant.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This verse dramatically illustrates the extreme swings of karmic fortune even within the human and sub-human realms. A soul that was once a powerful warrior-king can, in its very next birth, be born as a chandala — and from there sink further into insect life as a worm, louse, or ant. The previous sutra showed macro-level wandering across realms; this sutra shows the micro-level volatility even within adjacent births. No worldly status is permanent; only spiritual progress carries forward across lives.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A soul can go from being a powerful king in one life to a street sweeper in the next, then to a tiny worm, then to a louse — karma doesn't care about your status.</p>
+        <!-- [VISUAL FLAG #3.2 — A descending staircase showing a crowned warrior-king at the top, then a ragged outcast, then a worm, then a tiny ant at the bottom — illustrating the soul's dramatic karmic fall across births] -->
+        <div class="concept-tags">
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Rebirth</span>
+          <span class="concept-tag">Impermanence</span>
+          <span class="concept-tag">Social Status</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवमावट्ट जोणीसु, पाणिणो कम्मकिव्विसा ।<br/>एवमावट्टजोणीसु, पाणिणो कम्मकिव्विसा ॥३.५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus revolving through various birth-forms, beings poisoned by karma do not find peace in samsara.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ The second line of this sutra is partially obscured in the source PDF; the Prakrit above is based on the visible text. The powerful metaphor of "kamma-kivvisa" (karma-poison) compares karma to a venom that has infected the soul, keeping it trapped in an endless cycle of births. Just as a poisoned person cannot think clearly or act freely, a karma-afflicted soul cannot break free on its own. The word "avatta" (revolving) suggests not linear progression but circular repetition — the soul goes round and round without advancing, like a bullock tied to a grinding wheel.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Souls keep spinning through life after life — poisoned by their own past actions — unable to find any lasting peace or escape from the cycle.</p>
+        <!-- [VISUAL FLAG #3.3 — A bullock blindfolded and tied to a grinding wheel, walking in an endless circle — representing the soul revolving through samsara, poisoned by karma, never advancing] -->
+        <div class="concept-tags">
+          <span class="concept-tag">Samsara</span>
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Suffering</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कम्म-संगेहिं सम्मूढा, दुक्खिया बहुवेयणा ।<br/>अमाणुसासु जोणीसु, विणिहम्मंति पाणिणो ॥३.६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Deluded by the attachment to karma, afflicted and experiencing manifold suffering, beings are cast into non-human birth-forms.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The word "sammudha" (deluded) is key — it is not that beings choose suffering, but that they are so confused by karmic attachment that they cannot see clearly. This delusion leads to actions that further bind them, creating a vicious cycle. The phrase "bahu-veyana" (manifold suffering) reminds us that sub-human births carry not just one type of pain but many — physical, mental, and existential. Being "cast" (vinihammanti) into these births implies helplessness; the soul does not choose but is thrown by the force of its own accumulated karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When souls are blinded by attachment to their actions, they suffer greatly and keep getting thrown into animal, plant, and other non-human lives where the suffering is even worse.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Delusion</span>
+          <span class="concept-tag">Suffering</span>
+          <span class="concept-tag">Non-attachment</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कम्माणं तु पहाणाए, आणुपुव्वी कयाइ उ ।<br/>जीवा सोहिमणुप्पत्ता, आचयंति मणुस्सयं ॥३.७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">When karmas gradually diminish and a sequence of purification occurs, souls attain a degree of inner clarity and thereby obtain human birth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">After the bleak picture of sutras 2–6, this verse offers a ray of hope. Human birth is not random — it occurs when karmas gradually shed and the soul undergoes a process of purification. The word "anupurvi" (in sequence) is significant: liberation doesn't happen in a sudden leap but through a gradual unfolding. Even amidst the vast ocean of samsara, the soul's inherent tendency toward purity eventually surfaces. This is why Jain philosophy never considers any soul permanently lost — every soul has the potential to rise. Human birth is the fruit of this rising.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When the weight of past karma slowly lightens and the soul becomes a little purer, it finally gets the chance to be born as a human being — the one birth from which real spiritual progress is possible.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Purification</span>
+          <span class="concept-tag">Human Birth</span>
+          <span class="concept-tag">Hope</span>
+          <span class="concept-tag">Karma</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider" id="section-hearing-faith"><span>Part II — Hearing Dharma and Faith</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">माणुसत्तं च लद्धं सुई, धम्मस्स चेव दुल्लहा ।<br/>जं सोच्चा पडिवज्जंति, तवं खंतिमहिंसयं ॥३.८॥</p>
+        <p class="text-sm text-outline italic mb-1">⚠️ Prakrit reconstructed from standard scholarly sources (page boundary in source PDF)</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having obtained human birth, hearing the dharma is itself exceedingly rare — for those who hear it and then adopt austerity, patience, and non-violence are rarer still.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Even after obtaining the rare human birth, hearing authentic dharma is itself another layer of rarity. The sutra then adds a third filter: among those who hear dharma, how many actually adopt its practices — austerity (the 12 types of self-discipline), patience (enduring hardship without resentment), and non-violence (abstention from harm in thought, word, and deed)? Each stage is a further winnowing. Millions are born human; fewer hear true dharma; fewer still practice what they hear.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Being born human is rare enough, but actually hearing real spiritual teachings is even rarer — and among those who hear, only a handful actually put it into practice through self-discipline, patience, and non-violence.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Hearing Dharma</span>
+          <span class="concept-tag">Practice</span>
+          <span class="concept-tag">Non-violence</span>
+          <span class="concept-tag">Austerity</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आहच्च सवणं लद्धुं, सद्धा परमदुल्लहा ।<br/>सोच्चा णेयाउयं मग्गं, बहवे परिभस्सइ ॥३.९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Even after obtaining the hearing of dharma, faith is supremely rare to attain. Having heard the righteous path, many still fall away from it.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is one of the most psychologically penetrating verses in the chapter. It acknowledges a painful truth: hearing dharma is not enough. Many people hear the teachings, intellectually understand the path, and yet fail to develop genuine faith (conviction). The word "paribhassai" (fall away) suggests that without deep inner conviction, knowledge alone is unstable — like a vessel without an anchor, the person drifts away from the path they once understood. Faith here is not blind belief but an unshakeable inner conviction that transforms one's entire orientation toward life and liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even among people who hear genuine spiritual truth, developing real faith — deep, unshakeable belief — is the rarest thing. Many hear the right path and still wander away from it.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Faith</span>
+          <span class="concept-tag">Conviction</span>
+          <span class="concept-tag">Hearing Dharma</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider" id="section-effort"><span>Part III — Effort in Self-Restraint</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सुइं च लद्धुं सद्धं च, वीरियं पुण दुल्लहं ।<br/>बहवे रोयमाणा वि, णो तं पडिवज्जए ॥३.१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Even after obtaining hearing and faith, effort in self-restraint is yet more rare. Many desire it earnestly, yet they cannot adopt it.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra completes the ascending hierarchy of rarity: human birth → hearing dharma → faith → and now the rarest of all, actually putting self-restraint into practice. The word "royamana" (weeping/longing) is striking — it describes people who genuinely want to practice dharma, who feel the pull toward renunciation, yet cannot bring themselves to take the step. This may be due to worldly attachments, family obligations, fear, or simply the overwhelming difficulty of sustained self-discipline. The Uttaradhyayana acknowledges this human struggle honestly, without judgment — recognizing that desire alone is not enough; spiritual heroism (virya) is required.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The hardest part isn't hearing the truth or even believing it — it's actually living it. Many people desperately want to practice self-restraint but still can't manage to do it.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Effort</span>
+          <span class="concept-tag">Self-Restraint</span>
+          <span class="concept-tag">Practice</span>
+          <span class="concept-tag">Renunciation</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider" id="section-fruit"><span>Part IV — The Fruit of Attaining the Four Attributes</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">माणुसत्तंमि आयाओ, जो धम्मं सोच्च सद्दहे ।<br/>तवस्सी वीरियं लद्धुं, संवुडे णिद्धुणो रयं ॥३.११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who, having come into human birth, hears the dharma and develops faith — that one, becoming an ascetic and obtaining spiritual effort, becomes restrained and shakes off the dust of karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra marks the transition from describing rarity to describing the fruit. The soul that obtains all four rare attributes now begins the actual work of liberation. "Samvude" (restrained) refers to the stopping of new karmic influx. "Niddhuno rayam" (shaking off the dust of karma) refers to the shedding of accumulated karma through austerity. Together, stopping new karma and shedding old karma are the two active processes that lead to liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The person who is born human, hears the truth, believes it, and then actually commits to spiritual discipline — that person stops accumulating new karma and begins shaking off the old, like dusting off a garment.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Liberation</span>
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Austerity</span>
+          <span class="concept-tag">Restraint</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सोही उज्जुयभूयस्स, धम्मो चिट्ठइ ।<br/>णिव्वाणं परमं जाइ, चयसित्तिप्प पावए ॥३.१२॥</p>
+        <p class="text-sm text-outline italic mb-1">⚠️ First line appears as a half-verse in the source PDF; verification from additional scholarly editions recommended</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Dharma remains stable only in one who is pure and upright in nature. Such a one attains the supreme state of nirvana — the eternal cessation of karmic bondage.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">A critical insight: dharma does not remain stable in everyone equally. It endures only in the soul that is fundamentally "ujjuya-bhuta" — straight, honest, and simple in nature. Crookedness, deceit, and pretense are enemies of spiritual progress. The word "chitthai" (remains stable) suggests dharma is like a seed — it grows only in prepared soil. A crooked mind may hear dharma and even practice it temporarily, but it will not take root. The reward for such uprightness is supreme liberation, the final end of all karmic bondage.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Real spiritual truth only sticks with honest, straightforward people. If you're genuinely sincere, you'll reach the highest liberation — but if you're crooked inside, the teachings won't hold.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Purity</span>
+          <span class="concept-tag">Dharma</span>
+          <span class="concept-tag">Nirvana</span>
+          <span class="concept-tag">Uprightness</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">विग्गिंच कम्मुणो हेउं, जसं संचिणु खंतिए ।<br/>पाढवं सरीरं हिच्चा, उड्ढं पक्कमइ दिसं ॥३.१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Cut off the causes of karma! Accumulate the glory of patience! Abandoning this physical body, one ascends to the highest realm.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a call to action — an imperative addressed directly to the spiritual aspirant. The two commands are complementary: cutting off the causes of new karma, and accumulating the merit that comes from patient endurance. The promise is concrete: one who does this leaves behind the physical body and ascends upward — a reference to the liberated soul rising to the highest point of the universe, beyond all realms of birth and death. The "physical body" specifically means the gross material body, emphasizing that the soul's true nature is not this body.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Stop doing the things that create karma. Build your strength through patience. When you leave this body behind, your soul will rise to the highest place.</p>
+        <!-- [VISUAL FLAG #3.4 — A luminous soul rising upward from an abandoned physical body on the ground, ascending toward a radiant point at the apex of the universe representing the realm of liberated souls] -->
+        <div class="concept-tags">
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Patience</span>
+          <span class="concept-tag">Liberation</span>
+          <span class="concept-tag">Renunciation</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">विसालिसेहिं सीलेहिं, जक्खा उत्तर-उत्तरा ।<br/>महासुक्का व दिप्पंता, मण्णंता अपुणच्चवं ॥३.१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Through diverse virtuous conduct, one ascends to progressively higher celestial states — shining like a great radiant light, believing oneself to be beyond rebirth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Through the practice of various virtues and moral disciplines, the soul ascends to celestial states, becoming a radiant divine being. The phrase "uttara-uttara" (higher and higher) indicates the hierarchy of celestial realms — from the lower heavens upward through the higher abodes. The beings there shine brilliantly and even believe they are beyond rebirth. Yet this belief is mistaken — even celestial life is impermanent. Only through the complete path of the four attributes does one reach true permanence.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Through good conduct, souls rise to higher and higher heavenly realms, glowing with brilliance. They even start thinking they'll never fall from there — but they're wrong, because even heavenly life doesn't last forever.</p>
+        <!-- [VISUAL FLAG #3.5 — A stacked diagram of progressively higher and more luminous celestial realms, with glowing divine beings at each tier, each one brighter than the last] -->
+        <div class="concept-tags">
+          <span class="concept-tag">Virtue</span>
+          <span class="concept-tag">Celestial Realms</span>
+          <span class="concept-tag">Impermanence</span>
+          <span class="concept-tag">Rebirth</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अप्पिया देवकामाणं, कामरूव विउव्विणो ।<br/>उड्ढं कप्पेसु चिट्ठंति, पुव्वा वासया बहू ॥३.१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Enjoying the desires of the gods, assuming forms at will, they dwell in the upper celestial realms for vast periods of time.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the celestial life in detail. Celestial beings enjoy pleasures unimaginable to humans, can assume any form they wish through their supernatural power, and dwell in the upper heavens for immeasurably long periods — measured in purvas, where one purva equals over seventy quintillion years. Yet even this astronomically long celestial life is finite. The sutra builds toward the crucial point: even this glorious existence must end.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In heaven, beings enjoy every pleasure imaginable, can shapeshift at will, and live for unimaginably long periods — but even that eventually runs out.</p>
+        <!-- [VISUAL FLAG #3.6 — A radiant divine being in a celestial palace, surrounded by beautiful forms shifting and morphing — illustrating the supernatural power of celestial beings to assume any desired form] -->
+        <div class="concept-tags">
+          <span class="concept-tag">Celestial Realms</span>
+          <span class="concept-tag">Impermanence</span>
+          <span class="concept-tag">Divine Pleasure</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तत्थ ठिच्चा जहाताणं, जक्खा आउक्खए चुया ।<br/>उवेंति मणुएसु जोणिं, दसंगेहिभिजायइ ॥३.१६॥</p>
+        <p class="text-sm text-outline italic mb-1">⚠️ Second line partially difficult to read in the source PDF; verification recommended</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having dwelt there, when the gods' lifespan expires, they fall from those realms and are born among humans, endowed with ten kinds of good fortune.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The cycle continues: even the most radiant celestial beings, when their lifespan expires, must descend. But because of their accumulated merit, they are not born in lowly states — they take birth among humans with ten types of good fortune. These ten blessings typically include noble family, wealth, good health, beauty, long life, wisdom, good company, fame, and favorable circumstances for spiritual practice. This human birth, enriched by prior celestial merit, becomes the ideal launching pad for the final journey to liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When the gods' time in heaven runs out, they don't go to a bad place — they're born as privileged humans with every advantage: wealth, health, good family, and the perfect setup for spiritual growth.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Rebirth</span>
+          <span class="concept-tag">Human Birth</span>
+          <span class="concept-tag">Merit</span>
+          <span class="concept-tag">Good Fortune</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">खेत्तं वत्थुं हिरण्णं च, पसवो दास पोरुसं ।<br/>चत्तारि काम खंधाणि, तत्थ से उववज्जइ ॥३.१७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Fields, property, gold, cattle, servants, and attendants — the four categories of worldly enjoyment — all these arise for such a one.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The "four categories of worldly enjoyment" encompass all material prosperity. In Jain classification, these are: wealth that brings sustenance (fields, gold), animate possessions (cattle, servants), dwelling and property, and means of power and influence. The sutra does not condemn these — it describes them as the natural fruit of prior merit. The person born with the ten-fold fortune naturally obtains all worldly comforts. The teaching's deeper point will emerge later: even amidst such abundance, the wise person chooses renunciation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In that fortunate human birth, the person naturally gets everything — land, wealth, gold, animals, helpers — all four categories of worldly comfort fall into their lap.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Merit</span>
+          <span class="concept-tag">Worldly Prosperity</span>
+          <span class="concept-tag">Karma</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मित्तवं णायवं होइ, उच्चागोए य वण्णवं ।<br/>अप्पायंके महापण्णे, अभिजाए जसोबले ॥३.१८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Such a one is blessed with friends, kinsmen, noble lineage, fine complexion, freedom from disease, great wisdom, high birth, fame, and strength.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra catalogs the social and personal blessings that accompany the fortunate birth: genuine friendships, a supportive family, high social standing, physical beauty, robust health, exceptional intelligence, noble birth, widespread fame, and great strength. Each is the fruit of specific types of past meritorious karma. Importantly, these blessings create the ideal conditions for encountering and practicing dharma. A healthy, wise, well-supported person is in the best position to hear teachings, develop faith, and sustain the effort of self-restraint.</p>
+        <p class="simple-explanation"><b>The simple version:</b> That person is born with everything going for them — friends, family, good looks, health, intelligence, reputation, and strength. It's the perfect setup for a meaningful life.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Merit</span>
+          <span class="concept-tag">Blessings</span>
+          <span class="concept-tag">Good Fortune</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">भोच्चा माणुस्सए भोए, अप्पडिरूवे अहाउयं ।<br/>पुव्वं विसुद्ध-सद्धम्मे, केवलं बोहि बुज्झिया ॥३.१९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having experienced the unparalleled pleasures of human life as they arise, and having purified oneself through the true dharma, one attains kevala-jnana — absolute enlightenment.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the culmination of the spiritual journey. The fortunate soul, having lived through its human pleasures naturally and without excessive attachment, turns toward dharma and ultimately attains absolute, omniscient knowledge — the hallmark of a fully liberated soul. The phrase "purified through true dharma" emphasizes that liberation comes not through mere austerity but through the authentic, pure dharma of the Jina tradition. This absolute knowledge is not intellectual — it is the direct, unmediated perception of all reality simultaneously.</p>
+        <p class="simple-explanation"><b>The simple version:</b> After experiencing the good things of human life and practicing true spiritual discipline, the soul finally reaches the ultimate goal — complete, all-knowing enlightenment, seeing everything as it truly is.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Enlightenment</span>
+          <span class="concept-tag">Liberation</span>
+          <span class="concept-tag">Dharma</span>
+          <span class="concept-tag">Omniscience</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चउरंगं दुल्लहं णच्चा, संजमं पडिवज्जिया ।<br/>तवसा धुयकम्मंसे, सिद्धे हवइ सासए ॥३.२०॥<br/><span class="text-base not-italic text-outline">–ति बेमि ।</span></p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Knowing the four-fold rarity, one who adopts self-restraint and through austerity shakes off all karma — that one becomes a Siddha forever. — Thus I say.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter concludes with its most powerful verse. The phrase "knowing" (nacca) is deliberate — the journey begins with awareness. One who truly understands how rare these four attributes are will not waste the opportunity. Through sustained self-restraint and austerity, all karma is completely destroyed. The result is the state of Siddha — the eternally liberated, perfected soul that dwells at the summit of the universe in infinite knowledge, infinite perception, infinite bliss, and infinite energy. The closing "iti bemi" (thus I say) is Bhagavan Mahavira's traditional seal, marking these as his own words to his disciples — a direct voice across 2500 years.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Once you truly understand how rare and precious these four gifts are, and you use them to practice self-restraint and shed your karma — you become a liberated soul, forever free. This is what Mahavira himself says.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Liberation</span>
+          <span class="concept-tag">Siddha</span>
+          <span class="concept-tag">Karma</span>
+          <span class="concept-tag">Austerity</span>
+          <span class="concept-tag">Mahavira's Words</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ तृतीयं अध्ययनं समाप्तम् ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 3 — Chaturangiya — Uttaradhyayana Sutra</p>
+  </div>
+
+</section>
+
+</main>
+
+<a href="uttaradhyana-ch2.html" class="nav-button left-btn flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" style="left:24px">
+  &larr; Ch 2
+</a>
+<a href="uttaradhyana-ch4.html" class="nav-button right-btn flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" style="right:24px">
+  Ch 4 &rarr;
+</a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of non-absolutism and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="uttaradhyana-index.html">Uttaradhyayana</a>
+        <a class="hover:text-primary transition-colors" href="../vipaak/vipaak-index.html">Vipaak Sutra</a>
+        <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>

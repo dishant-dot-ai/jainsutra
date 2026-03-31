@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sacred Sutras: The Jain Canonical Library | JainAwaken.org</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>html { scroll-behavior: smooth; }
+      
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+      
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+
+      /* Book Styling */
+      .book-container {
+        perspective: 1200px;
+        transition: all 0.5s ease;
+      }
+      .book-card {
+        width: 280px;
+        height: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+      }
+      .book-container:hover .book-card {
+        transform: rotateY(-10deg) translateY(-10px);
+      }
+      .book-cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 4px 12px 12px 4px;
+        box-shadow: 
+          5px 5px 20px rgba(0,0,0,0.1),
+          inset 2px 0 10px rgba(0,0,0,0.05);
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        z-index: 2;
+        border: 1px solid rgba(201,168,76,0.2);
+        overflow: hidden;
+      }
+      .book-cover::after {
+        content: '';
+        position: absolute;
+        top: 0; left: 12px; bottom: 0;
+        width: 2px;
+        background: rgba(0,0,0,0.05);
+        box-shadow: 1px 0 3px rgba(0,0,0,0.1);
+      }
+      .book-spine {
+        position: absolute;
+        width: 40px;
+        height: 100%;
+        left: -20px;
+        top: 0;
+        background: #f2ede5;
+        transform: rotateY(-90deg);
+        transform-origin: right;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid rgba(201,168,76,0.1);
+      }
+      .book-pages {
+        position: absolute;
+        width: 100%;
+        height: 98%;
+        top: 1%;
+        left: 5px;
+        background: #fff;
+        transform: translateZ(-20px);
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+        border-radius: 0 8px 8px 0;
+      }
+      
+      .manuscript-hero {
+        background: url('../../assets/manuscript.jpg') center/cover no-repeat;
+      }
+      .manuscript-hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(254, 249, 241, 0.88);
+        z-index: 1;
+      }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors duration-300" href="sacred-sutras-index.html">Sacred Sutras</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <a href="../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative py-40 overflow-hidden manuscript-hero border-b border-primary/10">
+        <div class="max-w-screen-2xl mx-auto px-12 relative z-10 text-center">
+            <span class="text-primary font-headline italic tracking-[0.3em] text-sm uppercase font-semibold mb-6 block">JainAwaken &mdash; Canonical Library</span>
+            <h1 class="text-7xl md:text-9xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+                Sacred <span class="text-primary font-normal italic">Sutras</span>
+            </h1>
+            <p class="text-4xl font-headline text-primary mt-4 font-light tracking-widest uppercase">पवित्र सूत्र</p>
+            <p class="text-xl text-on-surface-variant max-w-2xl mx-auto mt-12 leading-relaxed font-light">
+                The ancient canonical scriptures of the Jain tradition. Precise technology for the soul, preserved for millennia, now translated with absolute clarity.
+            </p>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 py-32">
+        <div class="flex flex-wrap justify-center gap-24 lg:gap-32">
+            
+            <!-- Book 1: Tattvartha -->
+            <div class="book-container">
+              <a href="../tattvartha/tattvartha-index-v4.html" class="block no-underline">
+                <div class="book-card">
+                  <div class="book-spine" style="background: #4d5a98;"></div>
+                  <div class="book-pages"></div>
+                  <div class="book-cover" style="border-top: 8px solid #4d5a98;">
+                    <span class="text-[10px] font-label uppercase tracking-widest text-on-surface/40 mb-4">Philosophy</span>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface leading-tight mb-2">Tattvartha Sutra</h3>
+                    <p class="text-primary font-headline italic text-sm mb-8">That Which Is</p>
+                    <div class="mt-auto">
+                      <p class="text-[10px] font-label uppercase tracking-widest text-on-surface/60 border-t border-outline/10 pt-4">10 Chapters · 344 Sutras</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="mt-8 text-center max-w-[280px]">
+                <p class="text-xs font-label uppercase tracking-widest text-primary font-bold mb-2">The Bedrock</p>
+                <p class="text-sm text-on-surface-variant font-light leading-relaxed">The complete metaphysics of the Jain universe in concentrated sutra form.</p>
+              </div>
+            </div>
+
+            <!-- Book 2: Uttaradhyayana -->
+            <div class="book-container">
+              <a href="uttaradhyana/uttaradhyana-index.html" class="block no-underline">
+                <div class="book-card">
+                  <div class="book-spine" style="background: #755b00;"></div>
+                  <div class="book-pages"></div>
+                  <div class="book-cover" style="border-top: 8px solid #755b00;">
+                    <span class="text-[10px] font-label uppercase tracking-widest text-on-surface/40 mb-4">Aagama Sutra</span>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface leading-tight mb-2">Uttaradhyayana Sutra</h3>
+                    <p class="text-primary font-headline italic text-sm mb-8">The soul of Jainism</p>
+                    <div class="mt-auto">
+                      <p class="text-[10px] font-label uppercase tracking-widest text-on-surface/60 border-t border-outline/10 pt-4">36 Chapters · Verse & Dialogue</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="mt-8 text-center max-w-[280px]">
+                <p class="text-xs font-label uppercase tracking-widest text-primary font-bold mb-2">The Final Word</p>
+                <p class="text-sm text-on-surface-variant font-light leading-relaxed">Lord Mahavira's last teachings on immense humility, karma, and liberation.</p>
+              </div>
+            </div>
+
+            <!-- Book 3: Vipaak -->
+            <div class="book-container">
+              <a href="vipaak/vipaak-index.html" class="block no-underline">
+                <div class="book-card">
+                  <div class="book-spine" style="background: #625d59;"></div>
+                  <div class="book-pages"></div>
+                  <div class="book-cover" style="border-top: 8px solid #625d59;">
+                    <span class="text-[10px] font-label uppercase tracking-widest text-on-surface/40 mb-4">Aagama Sutra</span>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface leading-tight mb-2">Vipaak Sutra</h3>
+                    <p class="text-primary font-headline italic text-sm mb-8">The ripening of action</p>
+                    <div class="mt-auto">
+                      <p class="text-[10px] font-label uppercase tracking-widest text-on-surface/60 border-t border-outline/10 pt-4">20 Chapters · Stories of Consequence</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div class="mt-8 text-center max-w-[280px]">
+                <p class="text-xs font-label uppercase tracking-widest text-primary font-bold mb-2">The Consequences</p>
+                <p class="text-sm text-on-surface-variant font-light leading-relaxed">Twenty vivid accounts demonstrating exactly how karma ripens across lifetimes.</p>
+              </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../index-v4.html">About Us</a>
+                <a class="hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Practice</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+                <a class="hover:text-primary transition-colors" href="../tattvartha/tattvartha-index-v4.html">Tattvartha Sutra</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body></html>

@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 1: Vinayashrut — On Discipline | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e",
+        "on-secondary-fixed-variant": "#4a4642",
+        "secondary-container": "#e6ded9",
+        "primary-fixed-dim": "#e6c364",
+        "surface-bright": "#fef9f1",
+        "tertiary-fixed": "#dde1ff",
+        "surface": "#fef9f1",
+        "primary-fixed": "#ffe08f",
+        "surface-container-low": "#f8f3eb",
+        "secondary-fixed": "#e9e1dc",
+        "outline-variant": "#d0c5b2",
+        "outline": "#7e7665",
+        "inverse-on-surface": "#f5f0e8",
+        "on-background": "#1d1c17",
+        "on-secondary": "#ffffff",
+        "on-tertiary-container": "#2e3b77",
+        "error": "#ba1a1a",
+        "on-error": "#ffffff",
+        "on-primary-fixed-variant": "#584400",
+        "surface-dim": "#ded9d2",
+        "surface-container-high": "#ece8e0",
+        "primary": "#755b00",
+        "on-primary-container": "#503d00",
+        "inverse-surface": "#32302b",
+        "secondary": "#625d59",
+        "error-container": "#ffdad6",
+        "tertiary-fixed-dim": "#b9c3ff",
+        "on-secondary-container": "#67625e",
+        "on-primary": "#ffffff",
+        "on-primary-fixed": "#241a00",
+        "on-error-container": "#93000a",
+        "surface-tint": "#755b00",
+        "secondary-fixed-dim": "#ccc5c0",
+        "surface-variant": "#e7e2da",
+        "surface-container-lowest": "#ffffff",
+        "on-tertiary-fixed": "#041451",
+        "surface-container-highest": "#e7e2da",
+        "primary-container": "#c9a84c",
+        "inverse-primary": "#e6c364",
+        "on-surface-variant": "#4d4637",
+        "tertiary": "#4d5a98",
+        "background": "#fef9f1",
+        "on-tertiary": "#ffffff",
+        "on-surface": "#1d1c17",
+        "tertiary-container": "#9ba8eb",
+        "surface-container": "#f2ede5",
+        "on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: {
+        "headline": ["Noto Serif", "serif"],
+        "body": ["Inter", "sans-serif"],
+        "label": ["Inter", "sans-serif"]
+      },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.burnished-gradient {
+  background: radial-gradient(circle at center, #755b00, #c9a84c);
+}
+
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+
+.sutra-quote {
+  border-left: 1px solid #c9a84c;
+  padding-left: 3rem;
+}
+
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+
+.sutra-card > div > span:first-child {
+  width: 3.5rem;
+  display: inline-block;
+}
+
+.sutra-card p.text-base { font-size: 1.125rem; line-height: 1.75; }
+.simple-explanation {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed rgba(201,168,76,0.3);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #4d4637;
+}
+.simple-explanation b { color: #755b00; font-weight: 600; }
+
+/* Concept Tags */
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag {
+  display: inline-block;
+  border: 1px solid #C9A84C;
+  background: transparent;
+  color: #1d1c17;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 100px;
+  padding: 4px 13px;
+  font-weight: 500;
+}
+
+/* Floating Nav */
+.nav-button {
+  position: fixed;
+  bottom: 24px;
+  z-index: 100;
+  background: transparent;
+  border: 1px solid rgba(201,168,76,0.35);
+  color: rgba(201,168,76,0.6);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+.nav-button.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.nav-button:hover {
+  border-color: #C9A84C;
+  color: #C9A84C;
+}
+
+/* Glass Nav */
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-hero { background: transparent; backdrop-filter: none; border-color: transparent !important; }
+.nav-hero .nav-logo { color: #ffffff !important; }
+.nav-hero .nav-link { color: rgba(255,255,255,0.8) !important; }
+.nav-hero .nav-link:hover { color: #ffffff !important; }
+.nav-hero .nav-search { background: rgba(255,255,255,0.12) !important; color: #ffffff; }
+.nav-hero .nav-search::placeholder { color: rgba(255,255,255,0.5) !important; }
+.nav-hero .nav-search-icon { color: rgba(255,255,255,0.5) !important; }
+
+/* Sutra counter */
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .sutra-sanskrit { font-size: 1.15rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Reverence to the Teacher<span class="block text-primary font-normal">विनयश्रुत</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On Discipline, Humility, and the Foundation of Spiritual Practice</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Lord Mahavira delivers his first teaching to his chief disciple Gautam Swami — revealing how true discipline, humility before teachers, mastery over senses, and devoted conduct are the very foundation of all spiritual progress.
+    </p>    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <img alt="Ancient Jain manuscript depicting Mahavira teaching Gautam Swami" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbzk7XDqh1rQQfD8cD58TcYiARccg9FHm3LLSomAhxd2vS_OMetrApvWvewalpmzqhvvtm2IF1lmNsvYCEPFPjtoAl7UWNMyduWVAaaLknydKBqlEzHHhdEyWD5JlvrwpomspNdKk7mbbbfVrktrZKB-UjFoUOqmIxllRtsbnVk_pFkGLNKDgHu54EhaOnN6f6WTMH7BFkqe_aA8MqwqjNMvc-JpOb5LsSF0cQktl1FKSMJsn6_v5XzIv3caRCmuHRDhD5F6P9DQ"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">संजोगा विप्पमुक्कस्स,<br/>अणगारस्स भिक्खुणो</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;Of the monk who is free from all attachments — I shall explain the discipline. Listen to me in order.&rdquo;</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Vinayashrut</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The <span class="text-primary font-semibold">Uttaradhyayana Sutra</span> is one of the most important Agam texts in Jainism. It contains the final sermons of Lord Mahavira, delivered to his chief disciple Gautam Swami. The text spans 36 chapters covering ethics, conduct, cosmology, and the path to liberation.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Chapter 1 &mdash; <span class="text-primary font-semibold">Vinayashrut</span> (On Discipline) &mdash; contains 48 sutras that lay out the fundamental importance of vinaya (humility, discipline, and reverence) in spiritual life. It teaches how a disciple should conduct themselves, the ten forms of discipline toward teachers, proper alms-gathering, right use of time, and the dangers of negligence.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">48</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Gautam</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Addressed To</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Vinaya</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Core Principle</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<!-- Sutras Section -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 48 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Prakrit, English translation, and a simplified commentary.</p>
+  </div>
+
+<!-- Sutra 1 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संजोगा विप्पमुक्कस्स, अणगारस्स भिक्खुणो ।<br/>विणयं पाउकरिस्सामि, आणुपुव्वि सुणेह मे ॥१.१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I shall explain the discipline of the monk who is free from all attachments and possessions &mdash; listen to me in order.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This opening sutra sets the stage for the entire chapter. The speaker (Lord Mahavira addressing Gautam Swami) announces the subject: the discipline required of a monk who has renounced all worldly attachments. The word &ldquo;vinaya&rdquo; encompasses humility, reverence, proper conduct, and devoted obedience to the spiritual path. The instruction to &ldquo;listen in order&rdquo; emphasizes that this teaching has a systematic progression &mdash; each principle builds upon the previous one.</p>
+<p class="simple-explanation"><b>The simple version:</b> This is the beginning of a teaching about how a monk &mdash; someone who has given up all worldly things &mdash; should behave with discipline and humility. The teacher says: &ldquo;I&rsquo;m going to explain this step by step, so listen carefully.&rdquo;</p>
+<div class="concept-tags">
+  <span class="concept-tag">Vinaya</span>
+  <span class="concept-tag">Renunciation</span>
+  <span class="concept-tag">Discipline</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 2 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आणाणिदेसकरे, गुरुवावयकारए ।<br/>इंगियागारसंपण्णे, से विणीए त्ति बुच्चइ ॥१.२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who follows instructions, serves the teacher, and possesses proper conduct of the senses &mdash; that person is called &ldquo;disciplined.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra defines what it means to be truly disciplined. Three qualities are essential: following the guru&rsquo;s instructions with faith, serving the teacher through devoted action, and having complete mastery over one&rsquo;s senses and outward behavior. This is not mere obedience but a willing, intelligent surrender to the path of self-purification. If you do all three, you earn the title &ldquo;disciplined.&rdquo;</p>
+<p class="simple-explanation"><b>The simple version:</b> A truly disciplined person does three things: follows what the teacher says, takes care of the teacher, and controls their own senses and behavior. If you do all three, you earn the title &ldquo;disciplined.&rdquo;</p>
+<div class="concept-tags">
+  <span class="concept-tag">Guru Seva</span>
+  <span class="concept-tag">Sense Control</span>
+  <span class="concept-tag">Obedience</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 3 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आणाऽणिदेसकरे, गुरुणमणुवावयकारए ।<br/>पंडिणीए असंबुद्धे, &lsquo;अविणीए&rsquo; त्ति बुच्चइ ॥१.३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not follow instructions, does not serve the teacher, and lacks awareness despite being learned &mdash; that person is called &ldquo;undisciplined.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the mirror image of the previous sutra. Even someone who is outwardly learned can be spiritually undisciplined if they refuse to follow guidance, neglect service to the teacher, and lack true inner awareness. Being &ldquo;learned&rdquo; without humility is not enough &mdash; intellectual accomplishment without disciplined conduct is spiritually hollow.</p>
+<p class="simple-explanation"><b>The simple version:</b> Just because someone is smart or educated doesn&rsquo;t make them disciplined. If they ignore their teacher&rsquo;s guidance and don&rsquo;t serve others, they&rsquo;re called &ldquo;undisciplined&rdquo; &mdash; no matter how much they know.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Avinaya</span>
+  <span class="concept-tag">Humility</span>
+  <span class="concept-tag">Knowledge vs Wisdom</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 4 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा सुणी पूइकण्णी, गिणक्कसिज्जइ सव्वसो ।<br/>एवं दुस्सीलपण्णीए, मुहरी गिणक्कसिज्जइ ॥१.४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a dog with diseased ears is despised everywhere, so too is a person of bad character despised despite being a monk.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A vivid analogy drives home the importance of good conduct. Just as a dog afflicted with diseased ears is shunned by everyone, a monk who lacks proper discipline and character is similarly looked down upon by the wise. The outer robes of renunciation mean nothing if the inner character is corrupt. Character matters more than title.</p>
+<p class="simple-explanation"><b>The simple version:</b> Imagine a dog with infected, smelly ears &mdash; everyone avoids it. In the same way, if a monk has bad behavior, no one respects them, no matter what robes they wear. Character matters more than title.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Character</span>
+  <span class="concept-tag">Conduct</span>
+  <span class="concept-tag">Analogy</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 5 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कण-कुंडगं चइत्ताणं, विदुं पुंजइ सूयरो ।<br/>एवं सीलं चइत्ताणं, दुस्सीले रमइ मिए ॥१.५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a cook who leaves behind good grain and collects only husks, so does a person of poor character &mdash; they abandon virtue and embrace vice.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Another powerful analogy: imagine a cook who throws away perfectly good grain and instead keeps only the worthless husks. Similarly, when a person abandons good conduct and virtues but indulges in bad habits and misconduct, they are making the same foolish choice &mdash; rejecting what is truly valuable and clinging to what is worthless.</p>
+<p class="simple-explanation"><b>The simple version:</b> A cook who throws out the rice and keeps the husks is making a terrible trade. In the same way, a person who gives up good behavior and embraces bad habits is throwing away what&rsquo;s truly valuable.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Virtue</span>
+  <span class="concept-tag">Vice</span>
+  <span class="concept-tag">Discernment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 6 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुणियाभावं सागणस्स, सूयरस्स णरस्स य ।<br/>विणए ठवेज्ज अप्पाणं, इच्छंतो हियमप्पणो ॥१.६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard and understood the nature of the dog and the cook, one who desires their own welfare should establish themselves in discipline.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra concludes the opening analogies. Having presented the examples of the diseased dog (Sutra 4) and the foolish cook (Sutra 5), the teaching now draws the moral: anyone who truly desires their own spiritual welfare should learn from these warnings and firmly establish themselves in the practice of discipline. The emphasis on &ldquo;one who desires their own good&rdquo; makes clear that discipline is not a punishment but a pathway to self-benefit.</p>
+<p class="simple-explanation"><b>The simple version:</b> After hearing what happens to those without discipline &mdash; despised like a sick dog, foolish like a bad cook &mdash; anyone who cares about their own well-being should commit to living with true discipline.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Self-Welfare</span>
+  <span class="concept-tag">Learning from Examples</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 7 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तम्हा विणयमेसिज्जा, सीलं पंडिलभे जओ ।<br/>बुद्धपुत्त गिणागट्टी, ण गिणक्कसिज्जइ कण्हुई ॥१.७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Therefore, one should seek discipline and acquire good character &mdash; a wise disciple who does so will never be despised anywhere.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The conclusion of the opening section: one should actively seek and practice discipline. The term <em>buddhaputta</em> (wise disciple) refers to an awakened practitioner who follows their teacher&rsquo;s guidance. Such a person, established in both discipline and good character, will never be looked down upon. The effort of discipline brings the reward of universal respect and spiritual standing.</p>
+<p class="simple-explanation"><b>The simple version:</b> The bottom line: make discipline and good character your priority. If you do, you&rsquo;ll be respected everywhere you go &mdash; nobody will look down on you.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Discipline</span>
+  <span class="concept-tag">Respect</span>
+  <span class="concept-tag">Good Character</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 8 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गिणसंते सियाऽमुहरी, बुद्धाणं अंतिए सया ।<br/>अट्टजुत्ताणि सिक्खिज्जा, गिरट्टाणि उ वज्जए ॥१.८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A disciple should always remain near the wise, learn what is meaningful, and avoid what is mere empty talk.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra prescribes the ideal attitude of a disciple. One should remain close to the wise &mdash; not merely physically but in attentiveness and receptivity. From their teachings, the disciple should absorb only what is substantive and meaningful, while avoiding attachment to mere intellectual debate or empty philosophical talk. True learning serves spiritual transformation, not intellectual vanity.</p>
+<p class="simple-explanation"><b>The simple version:</b> Stay close to wise people. Learn things that actually matter and are useful for your growth. Don&rsquo;t waste time on empty debates or talk that sounds impressive but has no real value.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Satsang</span>
+  <span class="concept-tag">Purposeful Learning</span>
+  <span class="concept-tag">Discernment</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 9 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अणुसासिओ ण कुप्पिज्जा, खंत्ति सेविज्ज पंडिए ।<br/>कदं कडे त्ति भासिज्जा, अकडं णो कडे त्ति य ॥१.९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When taught or corrected by the teacher, one should not become angry. One should practice patience. What has been done, say &ldquo;it is done&rdquo;; what has not been done, do not claim &ldquo;it is done.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Two vital principles of discipleship: First, when a guru corrects or admonishes you, respond with patience, not anger &mdash; correction is a gift. Second, practice absolute honesty &mdash; if you have completed a task, say so; if you haven&rsquo;t, do not pretend you have. Without truthfulness, no genuine progress is possible.</p>
+<p class="simple-explanation"><b>The simple version:</b> When someone corrects you, don&rsquo;t get upset &mdash; be patient. And always be honest: if you did something, say you did. If you didn&rsquo;t, don&rsquo;t pretend you did. Honesty and patience are the foundation of learning.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Kshama</span>
+  <span class="concept-tag">Honesty</span>
+  <span class="concept-tag">Patience</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 10 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मा य चंडालियं कासी, बहुयं मा य आलवे ।<br/>कालेण य अहिज्जित्ता, तओ झाइज्ज एगओ ॥१.१०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Do not be deceitful, do not talk excessively, and at the proper time, practice meditation in solitude.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Three practical directives: avoid any form of deceit or cunning, refrain from excessive or idle talk, and use the appropriate time for meditation in solitude. Excessive talking dissipates spiritual energy, and deceit destroys the foundation of trust upon which the spiritual community rests.</p>
+<p class="simple-explanation"><b>The simple version:</b> Three rules: Don&rsquo;t be sneaky or dishonest. Don&rsquo;t talk too much. And make time each day to sit quietly by yourself and meditate. These keep your mind clear and your path straight.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Truthfulness</span>
+  <span class="concept-tag">Silence</span>
+  <span class="concept-tag">Meditation</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 11 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आहुच्च चंडालियं कट्टु, ण गिण्हविज्ज कयाइ वि ।<br/>कडं कडे त्ति भासिज्जा, अकडं णो कडे त्ति य ॥१.११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even if on some occasion one commits a wrong, it should not be repeated. What is done, acknowledge honestly; what is not done, do not falsely claim.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra acknowledges human imperfection: even a sincere disciple may occasionally err. The key teaching is twofold &mdash; never repeat the mistake (a single error is a lesson; a repeated error is negligence), and always speak truthfully about what you have and have not done. The repetition of this honesty principle across multiple sutras underscores how fundamental truthfulness is to the entire discipline.</p>
+<p class="simple-explanation"><b>The simple version:</b> Everyone makes mistakes &mdash; that&rsquo;s human. But the key is: don&rsquo;t make the same mistake twice. And always be honest about it. Admitting a mistake is the first step to never repeating it.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Non-Repetition</span>
+  <span class="concept-tag">Honesty</span>
+  <span class="concept-tag">Self-Correction</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 12 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मा गलियस्सेव कसं, वयणमिच्छे पुणो पुणो ।<br/>कसं व दट्ठुमाइण्णे, पावगं परिवज्जए ॥१.१२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Do not be like a donkey that needs to be whipped again and again. Having seen the whip once, one should abandon wrongdoing.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A donkey only moves when whipped, and even then requires repeated beatings. A wise disciple should not be like this. When the guru corrects you once, that should be enough. The truly intelligent person understands the message from minimal correction and immediately abandons the wrongdoing. Quick receptivity to correction is a mark of spiritual maturity.</p>
+<p class="simple-explanation"><b>The simple version:</b> Don&rsquo;t be like a stubborn donkey that only moves when hit over and over. A wise person sees one warning and immediately changes their behavior. You shouldn&rsquo;t need to be told the same thing a hundred times.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Receptivity</span>
+  <span class="concept-tag">Quick Learning</span>
+  <span class="concept-tag">Correction</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 13 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अणासवा थूलवया कुसीला, मिडंपि चंडं पकरेंति सीसा ।<br/>चित्ताणुया लहु दक्खोववेया, पसायए ते हु दुरासयं पि ॥१.१३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even when teachers appear harsh, speak strongly, or act sternly, they do so out of compassion to uplift even the most difficult students &mdash; understanding this, one should remain devoted.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A profound teaching on the guru-disciple relationship. Teachers may sometimes appear harsh, speak bluntly, or demand strict standards, but such behavior comes from compassion, not cruelty. Like a surgeon who causes momentary pain to heal a deeper wound, the guru&rsquo;s sternness serves the disciple&rsquo;s ultimate good.</p>
+<p class="simple-explanation"><b>The simple version:</b> Sometimes a good teacher is tough on you &mdash; not because they dislike you, but because they care. They push you hard precisely because they want you to grow. Understanding this makes it easier to accept tough guidance with gratitude.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Guru-Disciple</span>
+  <span class="concept-tag">Compassionate Discipline</span>
+  <span class="concept-tag">Trust</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 14 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.14</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णापुट्टो वागरे किंचि, पुट्टो वा णालियं वए ।<br/>कोहं असच्चं कुव्विज्जा, धारिज्जा पियमप्पियं ॥१.१४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When unasked, do not speak unnecessarily; when asked, do not speak untruth. One should not give in to anger or falsehood, and should accept both the pleasant and the unpleasant equally.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Four rules of conduct are layered here: do not speak unsolicited, when asked always speak the truth, never act from anger or resort to falsehood, and accept both praise and criticism with equanimity. This sutra addresses the disciplined management of speech, emotion, and reaction &mdash; all central to anyone seeking inner balance.</p>
+<p class="simple-explanation"><b>The simple version:</b> Don&rsquo;t volunteer your opinion when no one asks. When asked, be truthful. Never let anger or lies drive your actions. And learn to handle both good and bad experiences with the same calm steadiness.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Right Speech</span>
+  <span class="concept-tag">Equanimity</span>
+  <span class="concept-tag">Self-Restraint</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 15 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अप्पा चेव दमेयव्वो, अप्पा हु खलु दुद्दमो ।<br/>हवइ किच्चाणं सरणं, भूयाणं जगई जहा ॥१.१५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The self alone must be tamed, for the self is truly difficult to tame. One who tames the self becomes a refuge for all beings, just as the earth is.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">One of the most powerful sutras in this chapter. The self is both the subject and object of discipline &mdash; you must tame yourself, and it is the hardest thing to tame. No external enemy is as formidable as one&rsquo;s own untamed mind and desires. But the reward is equally vast: one who conquers the self becomes like the earth itself &mdash; a stable, supportive foundation for all beings. True strength lies in conquering oneself.</p>
+<p class="simple-explanation"><b>The simple version:</b> The hardest thing you will ever try to control is yourself &mdash; your mind, your habits, your reactions. But if you succeed, you become like solid ground that everyone can rely on. Self-mastery is the ultimate achievement.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Self-Mastery</span>
+  <span class="concept-tag">Atma</span>
+  <span class="concept-tag">Inner Strength</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 16 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.16</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वरं मे अप्पा दंतो, संजमेण तवेण य ।<br/>माहं परेहिं वहेहि वहेहि य ॥१.१६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Better that I tame myself through self-restraint and austerity than be subdued by others through force.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A declaration of spiritual sovereignty. It is far better to discipline oneself through one&rsquo;s own effort &mdash; through restraint and austerity &mdash; than to be forcibly brought under control by circumstances, suffering, or others. Self-imposed discipline is noble; forced compliance carries no spiritual merit. Liberation is entirely a self-directed process.</p>
+<p class="simple-explanation"><b>The simple version:</b> It&rsquo;s always better to discipline yourself by choice than to have life force discipline upon you. When you control yourself willingly, that&rsquo;s strength. When the world has to control you, that&rsquo;s defeat.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Self-Restraint</span>
+  <span class="concept-tag">Tapa</span>
+  <span class="concept-tag">Personal Agency</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 17 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.17</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पडिणीयं च बुद्धाणं, वाया अदुव कम्मुणा ।<br/>आवी वा जइ वा रहस्से, जेव कुज्जा कयाइ वि ॥१.१७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One should serve the wise through speech and action &mdash; whether openly or in private &mdash; consistently, at all times.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">True discipline is not situational. One should honor and serve the wise consistently &mdash; through both words and deeds, and regardless of whether anyone is watching. The mention of &ldquo;openly or in private&rdquo; is significant: a truly disciplined person does not behave differently when unobserved. This integrity &mdash; the alignment of public and private conduct &mdash; is a hallmark of genuine spiritual development.</p>
+<p class="simple-explanation"><b>The simple version:</b> Serve and respect your teachers with both your words and your actions &mdash; and do it the same way whether people are watching or not. Real discipline doesn&rsquo;t change when no one&rsquo;s looking.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Consistency</span>
+  <span class="concept-tag">Integrity</span>
+  <span class="concept-tag">Service</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 18 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.18</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण पक्खओ ण पुरओ, णेव किच्चाण पिट्ठुओ ।<br/>ण जुंजे ऊरुणा ऊरुं, सवणे णो पडिस्सुणे ॥१.१८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A disciple should not sit beside the teacher, nor in front, nor behind. Should not sit with thigh touching thigh, and should not fall asleep while listening.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the physical etiquette of a disciple in the teacher&rsquo;s presence. The rules about seating position reflect deep reverence. Physical closeness without permission shows a lack of respect, and falling asleep while the guru teaches is the ultimate sign of disrespect. These are not arbitrary rules but expressions of the inner attitude of reverence.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you&rsquo;re with your teacher, show respect through your body language: sit properly, maintain appropriate distance, and above all &mdash; stay alert and awake when they&rsquo;re teaching. How you sit says a lot about how you listen.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Etiquette</span>
+  <span class="concept-tag">Reverence</span>
+  <span class="concept-tag">Attentiveness</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 19 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.19</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णेव पल्हत्थियं कुज्जा, पक्खपिंडं व संजए ।<br/>पाए पसारिए वावि, ण चिट्ठे गुरुणंतिए ॥१.१९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A disciplined one should not sit with arms on knees, nor with legs gathered to the side, nor stretch out legs in the presence of the teacher.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Specific sitting postures are identified as inappropriate before the teacher. Sitting with arms crossed over the knees suggests lethargy, and stretching out legs shows casualness. The body&rsquo;s posture influences the mind&rsquo;s receptivity &mdash; an alert, respectful posture creates an alert, respectful mind.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you&rsquo;re in front of your teacher, don&rsquo;t slouch, don&rsquo;t stretch out, and don&rsquo;t sit lazily. Your body position affects your mind &mdash; sit upright and alert to learn better.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Posture</span>
+  <span class="concept-tag">Mindfulness</span>
+  <span class="concept-tag">Respect</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 20 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.20</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आयरिएहिं वाहिंतो, तुसिणीओ ण कयाइ वि ।<br/>कयारे य गिणागट्टी, पसायपेही गिणागट्टी, उवचिट्ठे गुरुं सया ॥१.२०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When elders are speaking, one should remain silent and not interrupt. With qualities of good conduct and a gaze of reverence, one should always attend upon the teacher.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra addresses the urge to interrupt or assert oneself while the teacher speaks. The instruction is clear &mdash; remain silent when elders are teaching. But silence alone is not enough; the disciple&rsquo;s entire bearing should express attentiveness &mdash; good conduct, a reverent gaze, and constant attendance. This combined outer and inner discipline creates the optimal conditions for receiving wisdom.</p>
+<p class="simple-explanation"><b>The simple version:</b> When your teacher is speaking, listen quietly and don&rsquo;t interrupt. Look at them with respect and attention. Being truly present &mdash; in body and mind &mdash; while someone wise speaks is one of the highest forms of respect.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Active Listening</span>
+  <span class="concept-tag">Silence</span>
+  <span class="concept-tag">Reverence</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 21 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.21</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आलवंते लवंते वा, ण गिणसीएज्ज कयाइ वि ।<br/>चइऊण्णं चीरो, जओ जत्त पडिस्सुणे ॥१.२१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One should never be disrespectful to the teacher &mdash; whether they are speaking or in conversation. The disciple should remain standing if needed and serve them constantly.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Respect for the teacher must be maintained at all times &mdash; whether the guru is formally teaching, casually speaking, or engaged in any conversation. The disciple should be ready to stand and serve at any moment, remaining attentive for extended periods if needed. This is an expression of spiritual discipline, recognizing that the teacher is the conduit through which higher knowledge flows.</p>
+<p class="simple-explanation"><b>The simple version:</b> Never disrespect your teacher, whether they&rsquo;re giving a formal lesson or just chatting. Be ready to serve at any moment, and stay attentive for as long as needed.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Constant Respect</span>
+  <span class="concept-tag">Attentiveness</span>
+  <span class="concept-tag">Service</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 22 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.22</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आसणगओ ण पुच्छिज्जा, णेव सेज्जागओ कया ।<br/>आसणगओ सेज्जागओ, पुच्छिज्जा पंजलीउड्डो ॥१.२२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One should not ask questions of the teacher while sitting or lying down. When asking, one should stand with hands folded in respect.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The proper way to ask a question is to rise, fold one&rsquo;s hands in the traditional gesture of respect (<em>anjali mudra</em>), and then pose the question. This formality is not about hierarchy for its own sake &mdash; it cultivates an attitude of genuine seeking and humility within the student. The way you ask shows how much you value the answer.</p>
+<p class="simple-explanation"><b>The simple version:</b> Don&rsquo;t casually ask your teacher questions while lounging around. Stand up, put your hands together respectfully, and then ask. The way you ask shows how much you value the answer.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Anjali Mudra</span>
+  <span class="concept-tag">Humility</span>
+  <span class="concept-tag">Questioning</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 23 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.23</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवं विणय-जुत्तस्स, सुयं अत्थं च तदुभयं ।<br/>पुच्छमाणस्स सीसस्स, वागरिज्ज जहासुयं ॥१.२३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When a disciplined student asks with proper humility, the teacher should explain both the scripture and its meaning, as it has been heard and understood.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra shifts focus to the teacher&rsquo;s duty. When a truly disciplined student asks with proper reverence, the teacher is obligated to teach fully &mdash; explaining both the literal text and its deeper meaning. This reciprocity &mdash; student&rsquo;s discipline earning the teacher&rsquo;s complete knowledge &mdash; is the essence of the Jain educational tradition.</p>
+<p class="simple-explanation"><b>The simple version:</b> When a respectful and disciplined student asks a genuine question, the teacher should hold nothing back. They should explain both what the text says and what it means. The student brings humility, the teacher brings complete honesty.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Teaching Duty</span>
+  <span class="concept-tag">Reciprocity</span>
+  <span class="concept-tag">Sutra &amp; Artha</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 24 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.24</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मुसं परिहरे भिक्खू, ण य ओहारिणीं वए ।<br/>भासा-दोसं परिहरे, मायं च परिवज्जए सया ॥१.२४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A monk should avoid falsehood, should not speak harshly, should avoid faults of speech, and should always shun deceit.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Four speech-related disciplines are outlined: avoid lying, avoid harsh or hurtful speech, avoid all faults of speech (gossip, backbiting, exaggeration), and always shun deceit. Speech is one of the three channels of activity through which karma is generated. Mastering speech is a critical component of spiritual discipline and directly impacts one&rsquo;s karmic burden.</p>
+<p class="simple-explanation"><b>The simple version:</b> Watch your words carefully. Don&rsquo;t lie, don&rsquo;t be harsh, don&rsquo;t gossip, and never be deceitful. Your words can create or destroy &mdash; a disciplined person chooses them wisely at all times.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Right Speech</span>
+  <span class="concept-tag">Satya</span>
+  <span class="concept-tag">Maya</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 25 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.25</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण लवेज्ज पुट्टो सावज्जं, ण णिरट्ठुं न मम्मयं ।<br/>अप्पणट्टा परट्टा परट्टा वा, ण गिरट्ठुं ण संलवे ॥१.२५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One should not speak what is sinful, nor what is meaningless, nor what is spoken out of pride &mdash; neither for oneself nor for others should one engage in purposeless talk.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Speech should pass through multiple filters: Is it free from harm? Does it have purpose? Is it free from ego? This sutra covers speech that is harmful, purposeless, and egotistical. The prohibition applies whether one speaks for oneself or on behalf of others. This comprehensive control of speech conserves spiritual energy and prevents the accumulation of speech-related karmas.</p>
+<p class="simple-explanation"><b>The simple version:</b> Before you speak, check: Is it harmful? Is it pointless? Is it driven by ego? If the answer to any of these is yes, stay quiet. Purposeless talk &mdash; even harmless-seeming chatter &mdash; wastes the energy you need for real growth.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Speech Discipline</span>
+  <span class="concept-tag">Ego</span>
+  <span class="concept-tag">Purposeful Living</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 26 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.26</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">समरेसु अगारेसु, संधिसु य महापहे ।<br/>एगो एगित्थिए सद्धिं, णेव चिट्ठे ण संलवे ॥१.२६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In homes, on roads, at crossroads, or on highways &mdash; a monk should not stand alone with a single woman, nor converse privately with her.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra addresses the vow of celibacy by prescribing practical safeguards. A monk should not be alone with a woman in private settings &mdash; this is not a commentary on women but a protective measure for the monk&rsquo;s vow. The principle is one of prevention: it is easier to avoid temptation than to resist it once it arises.</p>
+<p class="simple-explanation"><b>The simple version:</b> A monk should avoid being alone with a woman in private &mdash; not because there&rsquo;s anything wrong with women, but because it&rsquo;s easier to avoid a tempting situation entirely than to fight it once you&rsquo;re in it. Prevention is wiser than resistance.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Brahmacharya</span>
+  <span class="concept-tag">Boundaries</span>
+  <span class="concept-tag">Prevention</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 27 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-27">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.27</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जं मे बुद्धा अणुसासंति, सीएण फरुसेण वा ।<br/>मम लाभो त्ति पेहाए, पयओ तं पडिस्सुणे ॥१.२७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever the wise teach me &mdash; whether gently or harshly &mdash; I should regard it as my gain, and with devotion, accept it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A transformative perspective on receiving correction. Whether the teacher uses gentle words or sharp ones, the disciple should see both as spiritual gain. This reframing turns every correction into a gift. When a student can genuinely see harsh correction as their own profit, they have transcended the ego&rsquo;s need to be right and embraced the deeper need to grow.</p>
+<p class="simple-explanation"><b>The simple version:</b> Whether your teacher speaks softly or sharply, treat every word as a gift that makes you better. It&rsquo;s easy to accept kind guidance &mdash; the real test is treating tough words as equally valuable. Both are for your growth.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Receptivity</span>
+  <span class="concept-tag">Growth Mindset</span>
+  <span class="concept-tag">Devotion</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 28 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-28">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.28</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अणुसासणमोवायं, दुक्कडस्स य चोयणं ।<br/>हियं तं मण्णए पण्णो, वेस्सं तं होइ असाहुणो ॥१.२८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Instruction, guidance, and pointing out faults &mdash; the wise consider these as beneficial. But the unwise consider them as hurtful.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra draws a clear line between the wise and the unwise. The very same act &mdash; instruction, advice, correction of mistakes &mdash; is perceived completely differently depending on spiritual maturity. The wise person sees correction as medicine that heals; the unwise person sees it as poison that hurts. The difference is not in the teaching but in the attitude of the listener.</p>
+<p class="simple-explanation"><b>The simple version:</b> When someone points out your mistakes, how you react reveals your maturity. A wise person thinks, &ldquo;Thank you, that helps me improve.&rdquo; A foolish person thinks, &ldquo;How dare you?&rdquo; Same words, completely different responses.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Wisdom vs Ignorance</span>
+  <span class="concept-tag">Correction</span>
+  <span class="concept-tag">Perception</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 29 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-29">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.29</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">हियं विगवभया बुद्धा, फरुसं पि अणुसासणं ।<br/>वेस्सं तं होइ असाहूणं, खंति-सोहिकरं पयं ॥१.२९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">What is truly beneficial &mdash; even if spoken harshly &mdash; the wise teacher delivers out of compassion and for the student&rsquo;s purification. But the undisciplined student sees it as hostile.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The teacher&rsquo;s harsh correction is motivated by compassion, not hostility. The teaching is intended to purify the student through the cultivation of patience. It is like bitter medicine &mdash; unpleasant but curative. The undisciplined student fails to see past the surface harshness and reacts with resentment, thus missing the healing entirely.</p>
+<p class="simple-explanation"><b>The simple version:</b> A good teacher may use strong words, but there&rsquo;s no personal agenda behind it &mdash; only a desire to help you grow. The words may sting, but they purify. Those who don&rsquo;t understand this miss the medicine because they can&rsquo;t get past the bitter taste.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Compassionate Correction</span>
+  <span class="concept-tag">Kshama</span>
+  <span class="concept-tag">Purification</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 30 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-30">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.30</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आसणे उवचिट्ठेज्जा, अणुच्चे अकुए थिरे ।<br/>आसणे गिणसीएज्जा अप्पकुक्कुए ॥१.३०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One should sit on a seat that is low, humble, and stable. One should sit in a way that occupies minimal space and does not disturb others.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The choice of seating reflects inner qualities. A disciple should choose a low, stable seat &mdash; not an elevated or luxurious one. This is training in humility. Sitting low keeps the body grounded and the mind humble. The seat should be stable, and the disciple should occupy minimal space. Each physical discipline mirrors an inner spiritual quality: humility, stability, and non-disturbance.</p>
+<p class="simple-explanation"><b>The simple version:</b> Choose a simple, low, steady seat. Don&rsquo;t take up more space than you need. Don&rsquo;t fidget. The way you sit reflects the state of your mind &mdash; humble, stable, and undisturbing.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Humility</span>
+  <span class="concept-tag">Simplicity</span>
+  <span class="concept-tag">Stability</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 31 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-31">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.31</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कालेण गिणक्खमे भिक्खू, कालेण य पडिक्कमे ।<br/>अकालं च विवज्जित्ता, कालं कालं समायरे ॥१.३१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A monk should beg for alms at the right time, return at the right time, avoid improper times, and conduct all activities at their proper times.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Time-discipline is essential for the monastic life. Begging for alms should happen only during the prescribed period. The broader principle is that every activity has its appropriate time, and a disciplined person honors this natural order. This structured approach prevents the chaos that arises from acting on impulse rather than principle.</p>
+<p class="simple-explanation"><b>The simple version:</b> Everything has its right time. Eat at the right time, study at the right time, rest at the right time. A disciplined life means respecting the rhythm of time instead of acting on random impulse.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Time Discipline</span>
+  <span class="concept-tag">Gochari</span>
+  <span class="concept-tag">Daily Routine</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 32 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-32">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.32</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परिवाडिए ण चिट्ठिज्जा, भिक्खू दत्तेसणं चरे ।<br/>पडिरूवेण एसित्ता, मियं कालं समायरे ॥१.३२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A monk should not linger at doorsteps during alms-collection. Having received proper alms through right means, one should use it with moderation at the proper time.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Detailed guidance on alms-collection etiquette. A monk should not loiter at doorsteps, implying greed or creating discomfort for householders. The food received should be obtained through proper, ethical means and consumed in moderation, at the designated time. This sutra establishes the dignity and restraint that should characterize even the most basic act of sustenance.</p>
+<p class="simple-explanation"><b>The simple version:</b> When seeking food or help, don&rsquo;t hang around begging insistently. Accept what is freely given through honest means, use it moderately, and move on. Dignity matters even in receiving.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Alms Ethics</span>
+  <span class="concept-tag">Moderation</span>
+  <span class="concept-tag">Dignity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 33 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-33">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.33</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णाइदूरमणासण्णे, अण्णेसिं चक्खुपहे ।<br/>एगो एगित्थिए सद्धिं, गिणसीएज्जा अप्पकुक्कुए ॥१.३३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One should not stay too far away nor too close. In the sight of others, if one must speak with a woman, let it be brief and with minimal exchange.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Revisiting the theme of Sutra 26 with more nuanced guidance. If interaction is unavoidable, it should happen in the open, visible to others, and be kept minimal. The &ldquo;not too far, not too close&rdquo; principle is practical &mdash; too far creates secrecy, too close creates impropriety. This middle path protects both parties and maintains the integrity of monastic discipline.</p>
+<p class="simple-explanation"><b>The simple version:</b> If you must interact in a situation that could be misunderstood, keep it visible, keep it brief, and keep it appropriate. Not too close, not too far &mdash; just the right, transparent distance.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Boundaries</span>
+  <span class="concept-tag">Transparency</span>
+  <span class="concept-tag">Middle Path</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 34 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-34">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.34</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णाइउच्चे व णीए वा, णासण्णे णाइदूरओ ।<br/>फासुयं फासुयं करे, गुहस्थो ले मारे करे ॥१.३४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Neither too high nor too low, neither too near nor too far &mdash; in all things, the wise one acts with balance and moderation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra captures a universal principle of balance. In all matters &mdash; seating, proximity, speech, behavior &mdash; the disciplined person avoids extremes. Not too high (arrogance), not too low (self-degradation); not too near (inappropriate closeness), not too far (cold detachment). This middle path of moderation is a recurring theme in Jain ethics and applies to every aspect of life.</p>
+<p class="simple-explanation"><b>The simple version:</b> The secret to almost everything is balance. Don&rsquo;t be too much of anything. Not too loud, not too quiet. Not too close, not too distant. Find the middle path in all things.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Madhyasthya</span>
+  <span class="concept-tag">Balance</span>
+  <span class="concept-tag">Moderation</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 35 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-35">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.35</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अप्पपाणेऽप्पबीयम्मि पडिच्छण्णम्मि संबुडे ।<br/>समयं संजए शुंजे जयं अपरिसाडियं ॥१.३५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In a place with few living beings, well-sheltered, and peaceful &mdash; the disciplined one should meditate diligently at the proper time without negligence.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Practical guidance for meditation practice. The ideal setting has few living creatures (minimizing the risk of harming them, as per ahimsa), few distractions, proper shelter, and a peaceful atmosphere. Within this setting, the practitioner should meditate with full vigilance and zero negligence. Meditation is not passive relaxation but active, alert inner work.</p>
+<p class="simple-explanation"><b>The simple version:</b> Find a quiet, clean, peaceful spot with few distractions. Meditate there at the right time with full attention &mdash; not lazily or half-heartedly. Good meditation needs a good environment and serious effort.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Meditation</span>
+  <span class="concept-tag">Ahimsa</span>
+  <span class="concept-tag">Vigilance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 36 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-36">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.36</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुकडि त्ति सुपक्कित्ति, सुच्छिण्णे सुहडे मडे ।<br/>सुणिट्ठिए त्ति, सावज्ज वज्जए मुणी ॥१.३६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard well, practiced well, and studied well &mdash; the sage should establish their learning firmly and abandon all that is harmful.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the complete cycle of learning: hear properly, practice repeatedly, study deeply, grasp thoroughly, and establish firmly. Only when knowledge is truly mastered can one turn to the practical application &mdash; abandoning all harmful actions with confidence. The progression from hearing to mastery mirrors the traditional Jain method of learning.</p>
+<p class="simple-explanation"><b>The simple version:</b> Learning isn&rsquo;t just hearing something once. You have to listen carefully, practice it, study it deeply, really understand it, and make it part of you. Only then can you truly let go of bad habits &mdash; because now you know better from the inside out.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Mastery</span>
+  <span class="concept-tag">Practice</span>
+  <span class="concept-tag">Shruta</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 37 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-37">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.37</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">रमए पंडिए सासं, हयं भयं व वाहए ।<br/>बालं सम्मइ सासंतो, गलियस्सं व वाहए ॥१.३७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise one accepts teachings as a good horse responds to gentle guidance, while the foolish one must be driven like a stubborn donkey.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A beautiful comparison using two animals. A well-bred horse responds to the lightest touch of the rein &mdash; it cooperates willingly. A donkey, however, resists at every step and must be constantly prodded. Similarly, a wise disciple accepts teachings readily and joyfully, while a foolish one requires constant repetition and pushing.</p>
+<p class="simple-explanation"><b>The simple version:</b> A wise person is like a fine horse &mdash; one gentle nudge and they understand. A foolish person is like a stubborn donkey &mdash; they need to be pushed over and over. Which one are you?</p>
+<div class="concept-tags">
+  <span class="concept-tag">Wisdom vs Folly</span>
+  <span class="concept-tag">Receptivity</span>
+  <span class="concept-tag">Analogy</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 38 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-38">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.38</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">खड्डुड्डुया मे चवेडा मे, अक्कोसा य वहा य मे ।<br/>कल्लाणमणुसासंतो, पावदित्ति त्ति मण्णइ ॥१.३८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The teacher instructs through scolding, striking, reproaching &mdash; the wise disciple understands that this is for their welfare and considers it a blessing.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The culmination of the teaching on accepting correction. The guru may scold, reproach, or discipline &mdash; but the mature disciple receives all of these as acts of welfare. The phrase <em>pavaditti</em> (earning merit) transforms being corrected from a humiliation into a spiritual achievement. This requires extraordinary trust in the teacher and extraordinary humility in the student.</p>
+<p class="simple-explanation"><b>The simple version:</b> When a caring teacher scolds you, corrects you, or challenges you &mdash; a wise person thinks: &ldquo;This is for my own good.&rdquo; Instead of feeling hurt, they feel grateful. That&rsquo;s the highest level of being a student.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Gratitude</span>
+  <span class="concept-tag">Correction as Blessing</span>
+  <span class="concept-tag">Trust</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 39 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-39">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.39</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पुत्तो मे भाय त्ति, साहू कल्लाण मण्णइ ।<br/>पावदित्ति उ अप्पाणं, सासं दासित्ति मण्णइ ॥१.३९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The teacher thinks: &ldquo;This is my child, this is my student&rdquo; &mdash; and out of that welfare-intention teaches. The disciple should consider such teaching as a gift.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra reveals the teacher&rsquo;s inner motivation. The guru sees the disciple as their own child &mdash; someone to be nurtured, protected, and guided with parental affection. Their corrections come from caring, not malice. The disciple, in turn, should recognize this and treat every teaching as a precious gift. This mutual understanding creates the ideal environment for spiritual transmission.</p>
+<p class="simple-explanation"><b>The simple version:</b> A true teacher looks at you like a parent looks at their child &mdash; with care and a desire for your well-being. When you understand this, every lesson becomes a gift you&rsquo;re grateful to receive.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Teacher&rsquo;s Love</span>
+  <span class="concept-tag">Spiritual Parenting</span>
+  <span class="concept-tag">Gift of Knowledge</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 40 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-40">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.40</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण कोवए आयरियं, अप्पाणं पि ण कोवए ।<br/>बुद्धोवचाई ण सिया तोत्तगवेसए ॥१.४०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One should not anger the teacher, nor should one anger oneself. The wise disciple should not act against the teacher&rsquo;s instructions.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A dual instruction on anger management: do not provoke the teacher to anger through disobedience, and do not allow yourself to become angry either. The addition of &ldquo;do not anger oneself&rdquo; is significant &mdash; self-directed frustration and guilt can be as spiritually damaging as anger directed at others. Follow the guidance given and keep peace both outwardly and inwardly.</p>
+<p class="simple-explanation"><b>The simple version:</b> Don&rsquo;t make your teacher upset through bad behavior, and don&rsquo;t beat yourself up with anger either. Both kinds of anger are destructive. Follow the guidance given to you and keep peace both outwardly and inwardly.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Anger Management</span>
+  <span class="concept-tag">Self-Compassion</span>
+  <span class="concept-tag">Obedience</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 41 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-41">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.41</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आयरियं कुविय, पत्तिएण पसायए ।<br/>विज्ज्णवेज्ज पंजलिउड्डो, वएज्ज ण पुणो त्ति य ॥१.४१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">If the teacher becomes displeased, one should appease them with faith and devotion, folding hands and saying: &ldquo;I shall not repeat this.&rdquo;</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When a mistake has been made and the teacher is displeased, the sutra prescribes a clear course of action: approach with genuine faith and devotion, stand with hands folded in reverence, and make a sincere commitment: &ldquo;I will not repeat this.&rdquo; This is a genuine act of atonement. The key elements are sincerity, humility, and commitment to non-repetition.</p>
+<p class="simple-explanation"><b>The simple version:</b> If you&rsquo;ve upset someone you respect, go to them with real humility, apologize sincerely, and promise to do better. The three steps: be genuine, be humble, and commit to change. That&rsquo;s how you repair trust.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Prayaschitta</span>
+  <span class="concept-tag">Atonement</span>
+  <span class="concept-tag">Sincerity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 42 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-42">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.42</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">धम्मविज्जं च वावहारं, बुद्धेहिं आयरियं सया ।<br/>तमायरंतो ववहारं, गरहं णाभिगच्छइ ॥१.४२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who learns right conduct and proper behavior from the wise teacher and practices it accordingly will never face reproach.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra connects learning with practice. It is not enough to merely learn about dharma &mdash; one must actually live it out. The reward for faithful practice is freedom from reproach: no one can criticize someone whose knowledge and behavior are aligned. The gap between knowledge and conduct always becomes visible.</p>
+<p class="simple-explanation"><b>The simple version:</b> Learn good values from wise people, then actually live by them. When your actions match your knowledge, nobody can find fault with you. The gap between &ldquo;knowing&rdquo; and &ldquo;doing&rdquo; is where all criticism lives.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Knowledge &amp; Practice</span>
+  <span class="concept-tag">Dharma</span>
+  <span class="concept-tag">Integrity</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 43 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-43">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.43</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मणोगयं वक्कगयं, जाणित्ता ऽ वरियस्स उ ।<br/>जहोवइट्ठं सुकयं, तं परिगिज्झ उवट्ठए ॥१.४३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Understanding the teacher&rsquo;s wishes through their mind and speech, the disciple should fulfill those wishes respectfully and serve accordingly.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra elevates service to an art form. The ideal disciple does not merely follow explicit instructions but intuits the teacher&rsquo;s unspoken wishes through careful observation of their words and demeanor. This requires deep attuneness that develops only through sustained, devoted attention. The ability to anticipate and fulfill needs before being asked is the hallmark of an advanced disciple.</p>
+<p class="simple-explanation"><b>The simple version:</b> The best kind of service is anticipating what someone needs before they have to ask. Pay close attention to your teacher&rsquo;s words and even their unspoken mood &mdash; then act on what you understand. This is service at its deepest level.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Intuitive Service</span>
+  <span class="concept-tag">Attunement</span>
+  <span class="concept-tag">Devotion</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 44 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-44">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.44</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वित्ते अचोइए गिण्हिं, सुचोइए सया ।<br/>जहोवइट्ठं सुकयं, किच्चाइं कुव्वइ सया ॥१.४४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Without being prompted and after being properly guided, one should always perform tasks well, fulfilling duties faithfully at all times.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Building on the previous sutra, this one emphasizes initiative combined with obedience. The ideal disciple acts proactively &mdash; doing what needs to be done without waiting to be asked. But they also respond gracefully when guided. The word <em>saya</em> (always) appears twice, emphasizing consistency. This is not occasional effort but a permanent way of being &mdash; attentive, proactive, and faithful.</p>
+<p class="simple-explanation"><b>The simple version:</b> The best student doesn&rsquo;t wait to be told what to do &mdash; they see what&rsquo;s needed and do it. When they are given guidance, they follow through perfectly. Always proactive, always reliable.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Initiative</span>
+  <span class="concept-tag">Proactive Service</span>
+  <span class="concept-tag">Reliability</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 45 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-45">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.45</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णच्चा णमइ मेहावी, लोए कित्ती से जायए ।<br/>हवइ किच्चाणं सरणं, भूयाणं जगई जहा ॥१.४५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise one who knows and bows with humility &mdash; fame arises for them in the world. They become a refuge for all beings, just as the earth is.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra reveals a beautiful paradox: true humility leads to genuine fame. The wise person who, despite their knowledge, chooses to bow and remain humble, naturally earns the world&rsquo;s respect. This is not fame sought through self-promotion but earned through character. The earth metaphor returns from Sutra 15 &mdash; such a person becomes as fundamental and supportive as the ground itself.</p>
+<p class="simple-explanation"><b>The simple version:</b> The person who knows a lot but still stays humble gains true respect &mdash; the kind that comes naturally, not through self-promotion. Knowledge plus humility makes you someone the whole world can depend on.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Humility</span>
+  <span class="concept-tag">True Fame</span>
+  <span class="concept-tag">Refuge</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 46 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-46">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.46</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पुज्जा जस्स पसीयंति, संबुद्धा पुव्वसंथुया ।<br/>पसण्णा लाभइस्संति, विउलं अट्ठियं सुयं ॥१.४६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those whose teachers are pleased with them, and who have been praised by the wise &mdash; they will abundantly gain meaningful scripture knowledge.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A sutra about the fruits of discipline. When the teacher is genuinely pleased with a student&rsquo;s conduct and devotion, the floodgates of knowledge open. Pleased teachers share their deepest insights without reservation. The term <em>viulam atthiyam suyam</em> (abundant meaningful knowledge) suggests not just quantity but quality &mdash; the real, transformative teachings that teachers share only with those they trust.</p>
+<p class="simple-explanation"><b>The simple version:</b> When your teachers are truly happy with you, they share their deepest wisdom with you freely. Your discipline earns you access to knowledge that can&rsquo;t be found in any book &mdash; it has to be given by a pleased teacher.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Teacher&rsquo;s Grace</span>
+  <span class="concept-tag">Earned Knowledge</span>
+  <span class="concept-tag">Transmission</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 47 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-47">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.47</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स पुज्जसत्थे सुविणीयसंपया, मणोरुई चिट्टइ कम्मसंपया ।<br/>तवोसमाहि-संवुडे, महज्जुई पंच वयाई पालिया ॥१.४७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who is well-disciplined in the teacher&rsquo;s presence, steady in mind, established in meditation and austerity, and who observes the five great vows &mdash; such a one shines.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This penultimate sutra paints the portrait of the ideal practitioner. They are disciplined before the teacher, mentally steady, engaged in meaningful spiritual action, established in both austerity and meditation, and faithful to the five great vows (non-violence, truthfulness, non-stealing, celibacy, non-possessiveness). Such a person radiates spiritual power. This is the culmination of all the teachings in this chapter.</p>
+<p class="simple-explanation"><b>The simple version:</b> The complete practitioner has it all: discipline before teachers, a calm and steady mind, a practice of austerity and meditation, and faithful observance of the five great vows. Such a person doesn&rsquo;t just walk the path &mdash; they glow with it.</p>
+<div class="concept-tags">
+  <span class="concept-tag">Five Great Vows</span>
+  <span class="concept-tag">Tapa</span>
+  <span class="concept-tag">Samadhi</span>
+  <span class="concept-tag">Radiance</span>
+</div>
+</div>
+</div>
+</article>
+
+<!-- Sutra 48 -->
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-48">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.48</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स देवगंधव्व-मणुस्सपूइए, स चइत्तु देहं मलपंकपुव्वयं ।<br/>सिद्धे जा हवइ सासए, सिक्खिज्जा गिरट्ठाणि उ वज्जए ।<br/>-त्ति बेमि ॥१.४८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Worshipped by gods, celestial beings, and humans, one who abandons this body of impurity attains the eternal state of the Siddha. Learn this and abandon all that is purposeless &mdash; thus do I declare.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The majestic conclusion of Chapter 1. The disciplined practitioner described throughout this chapter ultimately attains the highest state &mdash; becoming a Siddha, a fully liberated soul, worshipped by all beings in the universe. The body, described as &ldquo;full of impurity,&rdquo; is left behind, and the soul achieves its eternal, pure nature. The chapter closes with <em>tti bemi</em> (&ldquo;thus I say&rdquo;), marking the authoritative voice of Lord Mahavira. The final instruction: learn what is meaningful, discard what is empty.</p>
+<p class="simple-explanation"><b>The simple version:</b> The reward of all this discipline? Ultimate liberation. The soul that practices everything taught in this chapter eventually leaves behind the impure body and becomes a Siddha &mdash; an eternally free, pure soul, respected by every being in the universe. This is Lord Mahavira saying: &ldquo;This is the truth. Learn it. Live it. Let go of everything else.&rdquo;</p>
+<div class="concept-tags">
+  <span class="concept-tag">Siddha</span>
+  <span class="concept-tag">Liberation</span>
+  <span class="concept-tag">Moksha</span>
+  <span class="concept-tag">Tti Bemi</span>
+</div>
+</div>
+</div>
+</article>
+
+  <!-- Chapter End Marker -->
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ अध्ययन-१ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 1 &mdash; Vinayashrut</p>
+  </div>
+  </section>
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="uttaradhyana-index.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Index
+</a>
+
+<a href="uttaradhyana-ch2.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 2 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Aagama</span>
+        <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../uttaradhyana-index.html">Uttaradhyayana</a>
+        <a class="hover:text-primary transition-colors" href="../vipaak/vipaak-index.html">Vipaak Sutra</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4 hidden">
+        <span class="text-primary/40 mb-2">Legacy</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Floating nav buttons visibility on scroll
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+
+// Sutra counter update on scroll
+</script>
+
+</body></html>

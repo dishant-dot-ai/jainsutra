@@ -128,6 +128,8 @@ Sometimes a being goes to the celestial realms, sometimes to the hells, and some
 
 This sutra illustrates the soul's helpless wandering through the four major categories of existence (gati). Driven by karma, the same soul that once enjoyed celestial pleasures may find itself in hellish suffering, or take birth in a demonic form. The repetition of "egaya" (sometimes) emphasizes the randomness and unpredictability of karmic outcomes — the soul has no control over where it will go next. This instability is precisely what makes the human birth, where spiritual progress is possible, so precious.
 
+📷 Visual Aid: A single soul shown in three panels — radiant in a celestial realm, suffering in a dark hell pit, and crouching in a demonic form — illustrating the same soul's helpless drift across realms driven by karma.
+
 **6. SIMPLY PUT**
 
 Simply put: The same soul bounces around — sometimes born as a god in heaven, sometimes suffering in hell, sometimes in a demon's body — wherever its past actions send it.
@@ -170,6 +172,8 @@ Sometimes one is born a warrior-king, and from there a chandala or an outcast; f
 
 This verse dramatically illustrates the extreme swings of karmic fortune even within the human and sub-human realms. A soul that was once a powerful kshatriya king can, in its very next birth, be born as a chandala — and from there sink further into insect life as a worm, louse, or ant. The use of "asura" and "deva" in the previous sutra showed macro-level wandering across realms; this sutra shows the micro-level volatility even within adjacent births. No worldly status is permanent; only spiritual progress carries forward.
 
+📷 Visual Aid: A descending staircase showing a crowned warrior-king at the top, then a ragged outcast, then a worm, then a tiny ant at the bottom — illustrating the soul's dramatic karmic fall across births.
+
 **6. SIMPLY PUT**
 
 Simply put: A soul can go from being a powerful king in one life to a street sweeper in the next, then to a tiny worm, then to a louse — karma doesn't care about your status.
@@ -208,6 +212,8 @@ Thus revolving through various birth-forms, beings poisoned by karma do not find
 **5. COMMENTARY**
 
 This sutra summarizes the relentless churning described in the previous verses. The powerful metaphor of "kamma-kivvisa" (karma-poison) compares karma to a venom that has infected the soul, keeping it trapped in an endless cycle of births. Just as a poisoned person cannot think clearly or act freely, a karma-afflicted soul cannot break free from samsara on its own. The word "avaṭṭa" (revolving) suggests not linear progression but circular repetition — the soul goes round and round without advancing, like a bullock tied to a grinding wheel.
+
+📷 Visual Aid: A bullock blindfolded and tied to a grinding wheel, walking in an endless circle — representing the soul revolving through samsara, poisoned by karma, never advancing.
 
 **6. SIMPLY PUT**
 
@@ -576,6 +582,8 @@ Cut off the causes of karma! Accumulate the glory of patience! Abandoning this p
 
 This is a call to action — an imperative addressed directly to the spiritual aspirant. The two commands are complementary: "vigginca" (cut off!) targets the causes of new karma, while "sancinu" (accumulate!) targets the merit that comes from patient endurance. The promise is concrete: one who does this leaves behind the physical body and ascends upward (uddham) — a reference to the liberated soul rising to Siddha-loka, the highest point of the universe. The "physical body" (padhavam sariram) specifically means the gross audārika sharira, emphasizing that the soul's true nature is not this body.
 
+📷 Visual Aid: A luminous soul rising upward from an abandoned physical body on the ground, ascending toward a radiant point at the apex of the universe representing Siddha-loka.
+
 **6. SIMPLY PUT**
 
 Simply put: Stop doing the things that create karma. Build your strength through patience. When you leave this body behind, your soul will rise to the highest place.
@@ -617,6 +625,8 @@ Through diverse virtuous conduct, one ascends to progressively higher celestial 
 **5. COMMENTARY**
 
 Through the practice of various virtues and moral disciplines (shila), the soul ascends to celestial states, becoming a radiant deva. The phrase "uttara-uttara" (higher and higher) indicates the hierarchy of celestial realms — from the Saudharma heaven upward through the 16 heavens, the Graiveyaka, and the Anuttara realms. The beings there shine brilliantly and even believe they are beyond rebirth (apunachavam). Yet this belief is mistaken — even celestial life is impermanent. Only through the complete path of the four attributes does one reach true permanence.
+
+📷 Visual Aid: A stacked diagram of progressively higher and more luminous celestial realms, with glowing divine beings at each tier, each one brighter than the last — illustrating the soul's ascent through the hierarchy of heavens.
 
 **6. SIMPLY PUT**
 
@@ -660,6 +670,8 @@ Enjoying the desires of the gods, assuming forms at will, they dwell in the uppe
 **5. COMMENTARY**
 
 This sutra describes the celestial life in more detail. Devas enjoy pleasures unimaginable to humans, can assume any form they wish through their supernatural power (vikriya), and dwell in the upper kalpas (heavenly realms) for immeasurably long periods — measured in purvas, where one purva equals 70,56,00,00,00,00,00,000 years. Yet even this astronomically long celestial life is finite. The sutra builds toward the crucial point that will come in the next verse: even this glorious existence must end.
+
+📷 Visual Aid: A radiant divine being in a celestial palace, surrounded by beautiful forms shifting and morphing — illustrating the deva's supernatural power to assume any desired form while enjoying the pleasures of the upper heavens.
 
 **6. SIMPLY PUT**
 

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 12: Harikeshiya | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e","on-secondary-fixed-variant": "#4a4642","secondary-container": "#e6ded9","primary-fixed-dim": "#e6c364","surface-bright": "#fef9f1","tertiary-fixed": "#dde1ff","surface": "#fef9f1","primary-fixed": "#ffe08f","surface-container-low": "#f8f3eb","secondary-fixed": "#e9e1dc","outline-variant": "#d0c5b2","outline": "#7e7665","inverse-on-surface": "#f5f0e8","on-background": "#1d1c17","on-secondary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff","on-primary-fixed-variant": "#584400","surface-dim": "#ded9d2","surface-container-high": "#ece8e0","primary": "#755b00","on-primary-container": "#503d00","inverse-surface": "#32302b","secondary": "#625d59","error-container": "#ffdad6","tertiary-fixed-dim": "#b9c3ff","on-secondary-container": "#67625e","on-primary": "#ffffff","on-primary-fixed": "#241a00","on-error-container": "#93000a","surface-tint": "#755b00","secondary-fixed-dim": "#ccc5c0","surface-variant": "#e7e2da","surface-container-lowest": "#ffffff","on-tertiary-fixed": "#041451","surface-container-highest": "#e7e2da","primary-container": "#c9a84c","inverse-primary": "#e6c364","on-surface-variant": "#4d4637","tertiary": "#4d5a98","background": "#fef9f1","on-tertiary": "#ffffff","on-surface": "#1d1c17","tertiary-container": "#9ba8eb","surface-container": "#f2ede5","on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.125rem; line-height: 1.75; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 12</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Harikeshi<span class="block text-primary font-normal">हारिकेशीय</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On Caste, True Merit, and the Monk Whom Even the Gods Served</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Lord Mahavira narrates the story of Harikeshbal — a monk born to the lowest caste who practiced such fierce tapasya that a Guardian Deity (Yaksha) became his devoted servant. When Brahmin priests at a royal fire-sacrifice mocked, expelled, and then beat him, the Guardian Deity's (Yaksha's) retribution shook the earth. The chapter moves from vivid confrontation to a profound philosophical debate: who is truly worthy of alms? And what is the real fire-sacrifice, and the real sacred bath?
+    </p>    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../assets/ch9-hero.jpg" alt="Harikeshbal Muni at the yajna" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">सक्खं खु दीसइ तवोविसेसो,<br/>ण दीसइ जाइविसेस कोई</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">&ldquo;Truly, the excellence of tapas is visible for all to see — but the excellence of caste is nowhere to be seen.&rdquo;</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chapter Introduction -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Harikeshiya</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Harikeshiya</span> — the twelfth chapter — tells the story of Harikeshbal, a monk born to a chandala family in Mathura who did six months of severe penance under a tinduk tree in Varanasi. The Guardian Deity (Yaksha) who dwelled in that tree became so moved by his practice that it vowed to serve and protect him.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        When Harikeshbal went seeking alms at King Rudradev's great yajna, the Brahmin priests mocked his appearance, called him unfit to be seen, and ultimately ordered students to beat him out. The Guardian Deity's (Yaksha's) intervention — entering the monk's body to debate the Brahmins and then unleashing divine retribution on the attackers — forces a complete reversal: those who called him a dust-ghost prostrate themselves at his feet. The chapter closes with the monk redefining the very nature of fire-sacrifice and sacred bathing: the true yajna burns inside, and the true tirtha is dharma itself.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">47</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Brahmins</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Addressed To</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">9</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sections</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutra Counter -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 12</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 47 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Prakrit, English translation, and a simplified commentary.</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider" id="section-monk"><span>Part I &mdash; The Monk of Lowest Birth, the Highest Virtues</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सोवाग-कुल-संभूओ, गुणुत्तरधरो मुणी । हरिएसबलो णाम, आसी भिक्खू जिइंदिओ ॥१२.१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Born of the lineage of a soapmaker (chandala), yet bearing the highest of virtues — there was a monk named Harikeshbal, a bhikshu with complete mastery over the senses.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter opens with a striking paradox. Harikeshbal is born of a chandala family — the lowest in the caste hierarchy — yet he "bears the highest of virtues" (gunuttara-dharo). The scripture places caste and virtue in direct contrast from the very first line, announcing its central argument before the story even begins. The word order is deliberate: birth first, virtues second — to show that the two are independent facts about the same person.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk Harikeshbal was born to the lowest caste — yet he carried the highest virtues. The chapter announces its argument in its opening line: birth and worth are two different things.</p>
+        <div class="concept-tags"><span class="concept-tag">Birth and Virtue</span><span class="concept-tag">Caste</span><span class="concept-tag">Harikeshbal</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इरिएसण-भासाए, उच्चार-समिइसु य । जओ आयाणिणक्खेवे, संजओ सुसमाहिओ ॥१२.२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Disciplined in the carefulness of movement (iryā samiti), in speech-carefulness, in elimination — careful in the taking up and putting down of objects — restrained and well-concentrated.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra catalogues Harikeshbal's practice using the formal vocabulary of Jain monastic discipline. The five samitis (carefulness-codes) govern the monk's moment-to-moment conduct: careful walking, careful speaking, careful handling of items. "Well-concentrated" (susamahio) marks the depth of his inner stillness — this is not just rule-following, it is absorbed discipline.</p>
+        <p class="simple-explanation"><b>The simple version:</b> He was meticulous in every movement, every word, every action — all day, every day. This is what Jain monastic discipline looks like in practice.</p>
+        <div class="concept-tags"><span class="concept-tag">Five Samitis</span><span class="concept-tag">Restraint</span><span class="concept-tag">Monastic Discipline</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मणगुत्तो वयगुत्तो, कायगुत्तो जिइंदिओ । भिक्खट्टा बंभइज्जिम्म, जण्णवाड उवटिओ ॥१२.३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Guarded in mind, guarded in speech, guarded in body, with the senses conquered — seeking alms, he arrived at the Brahmin fire-sacrifice ground.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The three guptis (guardedness codes) complete the monk's triple armor alongside the samitis. Mind-guarded, speech-guarded, body-guarded — with full sense-conquest on top. With this double layer of discipline, he walks into a fire-sacrifice arena where he, as a chandala monk, is completely unwelcome. His discipline does not stop at the arena's gate.</p>
+        <p class="simple-explanation"><b>The simple version:</b> He was fully guarded in thought, word, and deed — and then walked right into a Brahmin fire-sacrifice to seek alms. His monastic discipline went with him everywhere, into every situation.</p>
+        <div class="concept-tags"><span class="concept-tag">Three Guptis</span><span class="concept-tag">Brahmin Yajna</span><span class="concept-tag">Alms-Seeking</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तं पासिऊणमेज्जंतं, तवेण परिसोसियं । पंतोवहिइवगरणं, उवहसंति अणारिया ॥१२.४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Seeing him approach — emaciated by penance, wearing minimal and worn garments — the ignoble ones mocked him.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">His body bears the visible marks of tapas: thinned, dried out, wearing the barest rags. This is the opposite of the Brahmin priests who dress in white, anoint themselves with oil, and perform elaborate ritual. The word "anariya" — ignoble, uncivilized — is the scripture's own judgment on the mockers, placed here before we even hear what they say.</p>
+        <p class="simple-explanation"><b>The simple version:</b> His penance showed on his body — he was thin, wearing almost nothing. The ignoble ones saw this and laughed. The scripture calls them "ignoble" before recording a single word they say.</p>
+        <div class="concept-tags"><span class="concept-tag">Tapas</span><span class="concept-tag">Mockery</span><span class="concept-tag">Ignoble Conduct</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जाइमयपिडत्थद्धा, हिंसगा अजिइंदिया । अबम्भचारिणो वाला, इमं वयणमब्बवी ॥१२.५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Those arrogant with the intoxication of birth-pride, who cause harm, who have not conquered the senses, who are not celibate — those foolish ones spoke these words:</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Before recording the insults, the scripture indicts the speakers with precise labels: intoxicated by jati-mada (birth-pride), violent (himsaga), without sense-control (ajitindriya), not celibate. Every quality they are about to project onto the chandala monk — lowness, impurity, unworthiness — belongs, by the scripture's own accounting, to themselves. The irony is complete before a word of their speech is heard.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Before we hear the insults, we're told who the speakers are: arrogant about their birth, violent, sensually undisciplined, not celibate. They are about to call the monk unworthy — but the list describes them.</p>
+        <div class="concept-tags"><span class="concept-tag">Birth-Pride</span><span class="concept-tag">Jati-mada</span><span class="concept-tag">Irony</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider" id="section-mockery"><span>Part II &mdash; The Brahmins' Mockery</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कयरे आगच्छइ दित्तरूवे, काले विकराले फोक्कणासे । ओमचेलए पंसुपिसायभूए, संकरदूसं परिहिरय कंठे ॥१२.६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"What is this dark, disfigured, flat-nosed thing that comes? In the lowest rags, like a dust-ghost — wearing around his neck cloth fit for a cremation ground!"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The insults attack his body (dark, flat-nosed, disfigured), his clothes (the minimal rags a Jain monk wears), and even the cloth around his neck — which they call shankaradusha, "cremation-ground-waste." Every mark of monastic simplicity is reframed as filth. The description is vivid precisely so the reader can feel the full force of caste contempt. He is wearing exactly what a monk should wear — and they describe it as pollution.</p>
+        <p class="simple-explanation"><b>The simple version:</b> They called him dark, ugly, dressed in cremation rags, like a dust-ghost. Every mark of his monastic simplicity they turned into a reason to despise him.</p>
+        <div class="concept-tags"><span class="concept-tag">Caste Contempt</span><span class="concept-tag">Appearance Mockery</span><span class="concept-tag">Birth-Pride</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कयरे तुमं इय अदंसणिज्जे, काए व आसा इहमागओ सि । ओमचेलया पंसुपिसायभूया, गच्छखलाहि किमहं ठिओसि ॥१२.७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"What are you — this thing unfit to be seen? What body or hope brings you here? You dust-ghost in the lowest rags — go away, you wretch! Why are you standing here?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The insult escalates to "adarshaniya" — literally "unfit to be seen," the extreme expression of untouchability. They question his very right to stand in their space. The profound irony: the monk who has truly seen the nature of existence stands before men who are spiritually blind — and they say he is not worth seeing.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You are not even fit to be seen. What are you doing here? Leave." The men who are spiritually blind tell the man with true vision that he is not worth seeing.</p>
+        <div class="concept-tags"><span class="concept-tag">Untouchability</span><span class="concept-tag">Expulsion</span><span class="concept-tag">Irony of Sight</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider" id="section-yaksha"><span>Part III &mdash; The Guardian Deity (Yaksha) Speaks</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जक्खो तहिं तिंदुयरुक्खवासी, अणुकंपओ तस्स महामुणिस्स । पच्छायइत्ता णियगं सरीरं, इमाई वयणाइमुदाहरित्था ॥१२.८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The Guardian Deity (Yaksha) who dwelled in that tinduk (ebony) tree — filled with compassion for that great ascetic — entered his body and spoke these words:</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The divine protector arrives — not with fire or thunder, but with compassion (anukampa). He enters the monk's body to speak through him. The Guardian Deity (Yaksha) had lived in the tinduk tree under which Harikeshbal practiced six months of penance, watching the monk's extraordinary discipline unfold day by day. That witness created a devotion so deep the Guardian Deity (Yaksha) became his protector.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The Guardian Deity (Yaksha) who had watched this monk practice for six months was moved by compassion. He entered the monk's body and prepared to answer the Brahmins himself.</p>
+        <div class="concept-tags"><span class="concept-tag">Guardian Deity (Yaksha)</span><span class="concept-tag">Divine Protection</span><span class="concept-tag">Compassion</span><span class="concept-tag">Tinduk Tree</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">समणो अहं संजओ बंभयारी, विरओ धणपयण परिग्गहाओ । परप्पवित्तस्स उ भिक्खकाले, अण्णस्स अट्टा इहमागओमि ॥१२.९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"I am a shramana — restrained, celibate, withdrawn from wealth and all possessions. I have come here at alms-time for the merit of another — to give you the benefit of giving."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Guardian Deity (Yaksha) speaking through the monk answers the Brahmins' "what are you?" with a precise definition: shramana (one who strives), restrained (sanjayo), celibate (brahmacharya), free of all possessions. And the purpose of coming is inverted: he has not come to take — he has come to give them the opportunity to receive merit by giving. The giver benefits more than the receiver.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "I am a shramana — celibate, possessionless, disciplined. I have come so that *you* can earn merit by giving. The charity benefits the giver."</p>
+        <div class="concept-tags"><span class="concept-tag">Shramana</span><span class="concept-tag">Celibacy</span><span class="concept-tag">Benefit of Giving</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">वियरिज्जइ खज्जइ भुज्जइ य, अण्णं पभूयं भवयाणमेयं । जाणाहि मे जायणजीविणु ति, सेसावसेसं लहद तवस्सी ॥१२.१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"This abundant food is being distributed, eaten, and enjoyed — it belongs to all of you. Know me as one who lives by begging — the ascetic takes only what remains after all others have eaten."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The claim is made minimal and clear: he wants only the leftovers after everyone else has eaten. He is not asserting a rightful share or claiming precedence — he is asking for scraps. Even this, the Brahmins will refuse. The word "tapassi" (ascetic) is placed at the end — the one who takes the last and least.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "I just want what is left after everyone else has eaten. I am last in line." Even this modest request will be denied.</p>
+        <div class="concept-tags"><span class="concept-tag">Alms Protocol</span><span class="concept-tag">Modesty</span><span class="concept-tag">Ascetic Discipline</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">उवक्खडं भोयण माहणाणं, अत्तटिृयं सिद्धमिहेगपक्खं । ण उ वयं एरिसमण्णपाणं, दाहामु तुझं किमिहं ठिओ सि ॥१२.११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"This food has been prepared by the Brahmins, for our own use, well-prepared here for one side only. We will not give such food and water to you — why are you still standing here?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The refusal is explicit. The food is ours, prepared for us, and you are not in our category. They have not yet engaged with any question of merit, virtue, or spiritual qualification. The criterion is purely categorical: you are not a Brahmin, therefore you receive nothing.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "This food is ours — prepared for us, by us. We won't give any of it to you. Why are you still standing here?" The first argument: you're the wrong category of person.</p>
+        <div class="concept-tags"><span class="concept-tag">Caste-Based Denial</span><span class="concept-tag">Exclusion</span><span class="concept-tag">Food Refusal</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IV -->
+  <div class="section-divider" id="section-debate"><span>Part IV &mdash; The Debate: Who Is the True Merit-Field?</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">थलेसु बीयाइं ववंति कासगा, तहेव णिण्णेसु य आससाए । एयाए सद्धाए दलाह मज्झं, आराहए पुण्णमिणं खु खेत्तं ॥१२.१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Just as farmers sow seeds on dry ground and also on low-lying ground with hope — with that same faith, give to me. Truly, this field (the monk's soul) is a merit-fulfilling field."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Guardian Deity (Yaksha) shifts to agricultural metaphor — the very economic language Brahmins use for ritual donations. A farmer sows seeds in hope of harvest. The monk's soul is a field: donate here and watch merit grow. The comparison is direct: the monk's soul is a better merit-field than any Brahmin ritual fire. And the farmer's faith is the model — you give with hope, not certainty.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "A farmer plants seeds in any field with hope of a harvest. Plant your charity here — this monk's soul is a merit-field worth sowing."</p>
+        <div class="concept-tags"><span class="concept-tag">Merit-Field Metaphor</span><span class="concept-tag">Agriculture</span><span class="concept-tag">Charity</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">खेताणि अम्हं विज्याणि लोए, जिहिं पकिण्णा विरुहंति पुण्णा । जे माहणा जाइ-विज्जोववेया, ताइं तु खेताइं सुपेसलाइं ॥१२.१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Our fields are known in the world — those in which merit-seeds grow when sown. Brahmins endowed with birth and learning — those are the excellent fields."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Brahmins push back with their own counter-argument: our merit-fields are established by tradition. A Brahmin with proper birth (jati) and Vedic learning (vijja) — that is the recognized merit-field of the entire Vedic tradition. Give to us. We are the proven ground. This is their strongest argument stated in their own language.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Our fields are proven — Brahmins with good birth and Vedic learning. Give to us. We are the proper merit-field." The Brahmins state their best case.</p>
+        <div class="concept-tags"><span class="concept-tag">Brahmin Merit-Field</span><span class="concept-tag">Birth and Learning</span><span class="concept-tag">Counter-Argument</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कोहो य माणो य वहो य जेसिं, मोसं अदत्तं च परिग्गहं च । ते माहणा जाइविज्जाविहूणा, ताइं तु खेताइं सुपावयाइं ॥१२.१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Those who have anger and pride and violence, lying, taking what is not given, and possessiveness — those Brahmins are truly bereft of both birth and learning. Those are the corrupted fields."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Guardian Deity (Yaksha) turns the Brahmins' own argument back on them. They defined excellence by birth and Vedic learning. Fine — but a Brahmin who has anger, pride, violence, untruth, theft, and possessiveness (the six great ethical failures) is "bereft of both birth and learning" regardless of lineage. The field that produces no virtue grows no merit. Their own categories destroy their own claim.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You list birth and learning as qualifications. But what about anger? Pride? Violence? Lying? Theft? A Brahmin with those qualities is bereft of both birth and learning. That is a corrupted field."</p>
+        <div class="concept-tags"><span class="concept-tag">Six Vices</span><span class="concept-tag">True Brahminhood</span><span class="concept-tag">Ethical Disqualification</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तुडभेत्थ भो भारधरा गिराणं, अट्टुं ण जाणाह अहिज्ज वेए । उच्चावयाइं मुणिणो चरंति, ताइं तु खेताइं सुपेसलाइं ॥१२.१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Oh, you who bear the heavy burden of sacred words but do not know their meaning, even while studying the Vedas — monks practice equally with all beings, high and low. Those are the excellent fields."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The critique sharpens: the Brahmins carry Vedic words as a "burden" (bharadhara) without understanding their meaning (artham na janatha). Meanwhile, monks practice uniform ethical conduct — they do not rank beings by birth, they apply equal non-harm to all. The monk who lives this equality is the true excellent field. Words versus living truth.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You carry Vedic words as a burden but don't understand them. Monks live the truth — they practice equally with all beings. That is the excellent field."</p>
+        <div class="concept-tags"><span class="concept-tag">Vedic Hypocrisy</span><span class="concept-tag">Monastic Equality</span><span class="concept-tag">Understanding vs. Recitation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अज्झावयाणं पडिकूलभासी, पभासे किण्णु सगासिं अम्हं । अवि एवं विणस्सउ अण्णपाणं, ण य णं दाहामु तुमं णियंठा ॥१२.१६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Why does this one speak against our teachers? What is he saying to us? Even if this food perishes — we will not give it to you, O Nirgrantha!"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Brahmins' philosophical argument has collapsed but their pride has not. They shift from debate to dismissal. "Nirgrantha" — meaning "one without knots of attachment" — is technically the highest compliment for a Jain monk, but here it is used as a slur. The food can rot. They will not give it to a chandala monk. Pride defeats reason entirely.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Why is he arguing against our teachers? We don't care what he says — even if the food rots, we won't give it to a Jain. Case closed." Pride wins over reason.</p>
+        <div class="concept-tags"><span class="concept-tag">Pride Defeating Reason</span><span class="concept-tag">Dismissal</span><span class="concept-tag">Nirgrantha</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">समिईहि मज्झं सुसमाहियस्स, गुत्तीहिं गुत्तस्स जिइंदियस्स । जइ मे ण दाहित्य अहेसिणिज्जं, किमज्ज जण्णाण लहित्थ लाहं ॥१२.१७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"If you will not give what is due — to me who is restrained by the samitis, guarded by the guptis, with senses conquered — then what gain has your yajna attained today?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Guardian Deity (Yaksha) delivers the decisive philosophical blow. The entire purpose of a yajna is to generate spiritual merit by giving to a worthy recipient. If you refuse the most qualified recipient possible — a monk fully practicing all five samitis and three guptis, with complete sense-mastery — then your fire-sacrifice is empty. You lit the fire and earned nothing. The yajna defeats itself.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "I am the most qualified recipient possible. If you won't give to me, what did your entire fire-sacrifice actually accomplish? What merit did you earn today?"</p>
+        <div class="concept-tags"><span class="concept-tag">Empty Ritual</span><span class="concept-tag">True Yajna</span><span class="concept-tag">Spiritual Merit</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V -->
+  <div class="section-divider" id="section-assault"><span>Part V &mdash; The Assault and Princess Bhadra</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">के इत्थ खत्ता उवजोइया वा, अज्झावया वा सह खंडिएहिं । एयं खु दंडेण फलेण हंता, कंठिम्म घेतूण खलिज्ज जो णं ॥१२.१८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Who is the treasurer here, who the attendants, who the teachers with the students? Let someone seize this one by the neck with stick or club, beat him, and throw him out!"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Argument failed. Force follows. King Rudradev — who presides over the yajna — orders his personnel to physically assault and expel the monk. This is the caste system's final argument: when words fail, violence. It is not the Brahmins alone now — it is royal authority ordering the beating of a mendicant monk seeking alms.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Argument over. Someone grab him by the neck and beat him out." When the debate is lost, caste violence is the last resort.</p>
+        <div class="concept-tags"><span class="concept-tag">Caste Violence</span><span class="concept-tag">Royal Authority</span><span class="concept-tag">Force</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अज्झावयाणं वयणं सुणित्ता, उद्धाइया तत्थ बहू कुमारा । दंडेहिं वित्तेहिं कसेहिं चेव, समागया तं इसिं तालयंति ॥१२.१९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Hearing the teachers' words, many students rushed forward — with sticks, straps, and whips — and came together striking that rishi.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The students are "uddhaiya" — they fly at the instruction. The violence is collective, sanctioned by authority, ritualized almost — many against one. The monk who has practiced complete bodily guardedness (kayagutto) now stands receiving blows while remaining in equanimity. The Guardian Deity (Yaksha) has not yet acted. The monk's stillness is itself the teaching.</p>
+        <p class="simple-explanation"><b>The simple version:</b> At the teachers' word, the students swarmed him with sticks, straps, and whips. Many against one monk who stood without breaking.</p>
+        <div class="concept-tags"><span class="concept-tag">Mob Violence</span><span class="concept-tag">Monastic Equanimity</span><span class="concept-tag">Student Obedience</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">रण्णो तहिं कोसिलयस्स धूया, भद्द ति णामेण अणिंदियंगी । तं पासिया सण्य हम्ममाणं, कुद्धे कुमारे परिणिव्ववेइ ॥१२.२०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The daughter of King Kosala, named Bhadra — of irreproachable form — seeing him being struck, pacified the enraged students.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Princess Bhadra enters. She has a personal history with this monk — the Guardian Deity (Yaksha) once caused her to be afflicted when she threw mud at the monk, and she was only healed when the monk refused to accept her as a wife despite her father's offer. She is the one voice of recognition in the mob. "Anindiyangī" — of irreproachable form — contrasts with the monk they are calling ugly and repulsive.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Princess Bhadra stepped forward and stopped the students. She recognized this monk from a prior encounter — she knew exactly who he was.</p>
+        <div class="concept-tags"><span class="concept-tag">Princess Bhadra</span><span class="concept-tag">Intervention</span><span class="concept-tag">Recognition</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.21</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">देवाभिओगेण णिओइएणं, दिण्णा मु रण्णा मणसा ण झाया । णरिंद देविंदसिभंविंदिएणं, जेणामि वंता इसिणा स एसो ॥१२.२१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"By divine command I was assigned and given by the king, though not truly accepted in his heart — by one equal to lord of men, lord of heaven, and lord of creation — by that rishi. This is that rishi."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Bhadra reveals the backstory to King Rudradev: this monk is the same one who, when her father offered her to him, refused — because he was an absolute celibate. The Guardian Deity (Yaksha) had created a prior test for the king, but the monk himself never accepted. She testifies to his celibacy by citing it as established fact, not hearsay.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "This is the monk who turned me down when my own father offered me to him. He is a celibate — completely beyond desire." Bhadra identifies him by his integrity.</p>
+        <div class="concept-tags"><span class="concept-tag">Celibacy</span><span class="concept-tag">Prior Story</span><span class="concept-tag">Bhadra's Testimony</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.22</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एसो हु सो उग्गतवो महप्पा, जिइंदिओ संजओ बंभयारी । जो मे तया णेच्छइ दिज्जमाणिं, पिउणा सयं कोसिलएण रण्णा ॥१२.२२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"This is truly that fierce ascetic, great-souled, with senses conquered, restrained, celibate — who did not desire me when I was being offered by my own father, King Kosala himself."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Bhadra restates the case with full force. The man they are beating — ugly, low-caste, dressed in rags — turned down a princess offered by a king. His celibacy and self-mastery are not claims or descriptions. They are proven facts from an event that King Rudradev's own court can verify.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "A king offered me to him. He didn't want me. That is the kind of monk he is." This is proof of character, not description.</p>
+        <div class="concept-tags"><span class="concept-tag">Proven Celibacy</span><span class="concept-tag">Self-Control</span><span class="concept-tag">Royal Testimony</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.23</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">महाजसो एस महाणुभागो, घोरव्वओ घोरपरक्कमो य । मा एवं हीलेह अहीलिणिज्जं, मा सव्वे तेणं भे णिढ्ढहेज्जा ॥१२.२३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"This one is of great glory, great power, of fierce vows and fierce valor — do not disrespect one who is not to be disrespected. Do not let him burn all of you."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Bhadra's tone shifts from testimony to warning. She has seen the Guardian Deity's (Yaksha's) power from personal experience. She knows this monk is protected by a being capable of terrible force. Her warning is entirely practical: stop, before this situation goes much further. It already has further to go.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "He is powerful — his vows, his discipline, his divine protector. Don't touch him. He could burn all of you." The warning comes from direct experience.</p>
+        <div class="concept-tags"><span class="concept-tag">Warning</span><span class="concept-tag">Tapas Power</span><span class="concept-tag">Divine Protection</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.24</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एयाइं तीसे वयणाइं सोच्चा, पत्तीइ भद्दाइ सुभासियाइं । इसिस्स वेयावडियट्टुयाए, जक्खा कुमारे विणिवारयंति ॥१२.२४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Hearing those well-spoken words of the lady Bhadra — for the service of the rishi — the Guardian Deities (Yakshas) restrained the students.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Guardian Deities (Yakshas) act immediately after Bhadra speaks. Her intervention and theirs move together in purpose: to protect the monk. "Veyavadiya" — service of the rishi — is what drives the Guardian Deities (Yakshas). This is a hierarchy of devotion: the Guardian Deity (Yaksha) serves the monk, and Bhadra speaks truth on behalf of the monk. Both are moved by recognition of who he is.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Bhadra spoke. The Guardian Deities (Yakshas) heard. The students were stopped. Service to the monk is the Guardian Deities' (Yakshas') entire purpose.</p>
+        <div class="concept-tags"><span class="concept-tag">Guardian Deity (Yaksha) Service</span><span class="concept-tag">Divine Intervention</span><span class="concept-tag">Bhadra's Role</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ते घोरूवा ठिय अंतलिक्खे, असुरा तहिं तं जणं तालयंति । ते भिण्णदेहे रुहिरं वमंते, पासिंतु भद्दा इणमाहु भुज्जो ॥१२.२५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Those terrifying forms — the asuras standing in the sky — struck that assembly. Seeing them with bodies pierced, vomiting blood, Bhadra spoke again:</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The divine retribution is visceral: asuras hang in the sky and strike. The students who beat the monk now have broken bodies and are vomiting blood. This graphic reversal is the scripture's declaration: those who assault an ascetic pay precisely in kind. Bhadra witnesses this consequence and speaks further.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The divine beings struck back — the students who beat the monk were now broken and bleeding. Bhadra saw this and spoke again.</p>
+        <div class="concept-tags"><span class="concept-tag">Divine Retribution</span><span class="concept-tag">Consequence</span><span class="concept-tag">Asuras</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VI -->
+  <div class="section-divider" id="section-wrath"><span>Part VI &mdash; The Guardian Deity's (Yaksha's) Wrath</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.26</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">गिरिं णहेहिं खणह, अयं दंतेहिं खायह । जायतेयं पाएहिं हणह, जे भिक्खुं अवमण्णह ॥१२.२६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Dig a mountain with your fingernails. Chew iron with your teeth. Strike living fire with your bare feet. But do not disrespect a bhikshu."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Bhadra's triple image escalates in absurdity to prove a precise point: the impossible is more survivable than disrespecting a monk. Mountain against fingernails, iron against teeth, fire against bare feet — the hardest possible materials against the softest human instruments. Each is survivable in comparison to what happens when you mock a fully realized ascetic.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Try to scratch a mountain with your fingernails. Bite through iron. Walk into fire. All of those are more survivable than disrespecting a monk."</p>
+        <div class="concept-tags"><span class="concept-tag">Consequences of Disrespect</span><span class="concept-tag">Monk's Sanctity</span><span class="concept-tag">Triple Warning</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-27">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.27</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आसीविसो उग्गतवो महेसी, घोरव्वओ घोरपरक्कमो य । अगणिं व पक्खंद पयंगसेणा, जे भिक्खुयं भत्तकाले वहेह ॥१२.२७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"He is like a venomous serpent — a great sage of fierce asceticism, fierce vows, and fierce valor. Like moths flying into fire — those who strike a bhikshu during alms-time will be destroyed."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Two metaphors converge: the monk as venomous serpent (dangerous to touch), and the students as moths flying into flame (destroyed by their own action). The timing is emphasized — "bhattakale" (during alms-time) — because assaulting a monk at this sacred moment compounds the offense beyond ordinary calculation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "He is like a venomous snake — don't touch him. And you who attacked him during alms-time — you are like moths flying straight into fire."</p>
+        <div class="concept-tags"><span class="concept-tag">Venomous Serpent Metaphor</span><span class="concept-tag">Moth-Flame Metaphor</span><span class="concept-tag">Sacred Alms-Time</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-28">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.28</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सीसेण एयं सरणं उवेह, समागया सव्वजणेण तुभे । जइ इच्छह जीवियं वा धणं वा, लोगं पि एसो कुविओ डहेज्जा ॥१२.२८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Bow your heads and seek refuge — all of you, gathered together. If you wish for life or wealth — this one, if fully angered, could burn even the world."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The warning becomes explicit command: bow now. The consequence stated is maximum — not just your lives but "the world" could be burned by an angered ascetic of this magnitude. This is the traditional Indic understanding of tapasya as accumulating tejas — a vast heat and force beyond ordinary reckoning, stored in the body through years of penance.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Bow your heads. All of you. Right now. If you want to survive — this monk, if fully angered, could burn the entire world. This is your one chance."</p>
+        <div class="concept-tags"><span class="concept-tag">Tapas Power</span><span class="concept-tag">Seek Refuge</span><span class="concept-tag">Cosmic Consequences</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-29">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.29</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अवहेडिय पिट्टिसउत्तमंगे, पसारियाबाहु अकम्मचेट्टे । णिठभेरियच्छे रुहिरं वमंते, उड़ुमुहे णिग्गयजीह णेत्ते ॥१२.२९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">With backs broken and heads bowed, arms outstretched, unable to perform any action — with eyes open wide, vomiting blood, faces upturned, tongues protruding:</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The visual image of the students caught by the Guardian Deity's (Yaksha's) force is deliberately harrowing: broken backs, outstretched arms, protruding tongues, eyes wide and rolling. This is total physical helplessness — the violent mob reduced to complete incapacity. The verse holds this image without comment, letting the reversal register fully before the scene shifts.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Backs broken. Faces up. Eyes open. Tongues out. Vomiting blood. The boys who beat the monk were now completely helpless, unable to move.</p>
+        <div class="concept-tags"><span class="concept-tag">Divine Punishment</span><span class="concept-tag">Physical Reversal</span><span class="concept-tag">Helplessness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VII -->
+  <div class="section-divider" id="section-salutation"><span>Part VII &mdash; The Miracle Salutation</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-30">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.30</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ते पासिया खंडियं कट्टुभूए, विमणो विसण्णो अह माहणो सो । इसिं पसाएइ सभारियाओ, हीलं च णिंदं च खमाह भंते ॥१२.३०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Seeing them reduced to helplessness, the Brahmin (Rudradev) became despondent and troubled. He took his wife and appealed to the rishi: "O Lord! Forgive the disrespect and the contempt."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The reversal is complete. The king who ordered the beating comes with his wife to beg forgiveness. "Vimanno visanno" — despondent, troubled — captures the collapse of a man whose power has been exposed as nothing before genuine spiritual force. The formal address "Bhante" (O Lord) is a full reversal of "go away, you wretch" from sutra 7.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The king saw his students broken and was shaken. He came with his wife to beg forgiveness from the monk he had ordered beaten.</p>
+        <div class="concept-tags"><span class="concept-tag">Reversal</span><span class="concept-tag">Remorse</span><span class="concept-tag">Formal Submission</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-31">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.31</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">बालेहिं मूढेहिं अयाणएहिं, जं हीलिया तस्स खमाह भंते । महप्पसाया इसिणो हवंति, ण हु मुणी कोवपरा हवंति ॥१२.३१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O Lord! Forgive the disrespect done by these foolish, ignorant children. Great rishis are supremely gracious — monks are truly not given to anger."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The king's appeal is careful: he does not ask for special mercy as personal favor. He appeals to the nature of rishis themselves — they are gracious by their very nature, they do not stay angry. He is asking Harikeshbal to be what he already is, not to make an exception. This is a deeper form of request than simple begging.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Forgive these ignorant children. You are a rishi — compassionate by nature. Monks don't stay angry." He appeals to what the monk is, not just to his mercy.</p>
+        <div class="concept-tags"><span class="concept-tag">Nature of the Monk</span><span class="concept-tag">Forgiveness</span><span class="concept-tag">Compassion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-32">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.32</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पुव्विं च इणिह च अणागयं च, मणप्पओसो ण मे अत्थि कोई । जक्खा हु वेयावडियं करेंति, तम्हा हु एए णिहया कुमारा ॥१२.३२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"There was no anger in my mind before, now, or in the future — not toward anyone. It is the Guardian Deity (Yaksha) who serves me that acts — it was through him alone that the boys were brought to this state."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk's response is startling in its purity: he was not angry. Not before the beating, not during it, not now. He did not command or wish for the Guardian Deity's (Yaksha's) violence. The Guardian Deity (Yaksha) acted from its own compassion and devotion. The monk's equanimity — which the Brahmins could not see past his surface to find — was real throughout every moment of the assault.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "I was never angry — at any point. I did not do this. The Guardian Deity (Yaksha) who protects me acted on his own. I hold no anger toward anyone."</p>
+        <div class="concept-tags"><span class="concept-tag">True Equanimity</span><span class="concept-tag">No Anger</span><span class="concept-tag">Guardian Deity (Yaksha) Acting Independently</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-33">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.33</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अत्थं च धम्मं च वियाणमाणा, तुभे ण वि कुप्पह भूइपण्णा । तुभं तु पाए सरणं उवेमो, समागया सव्व जणण अम्ह ॥१२.३३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">(Rudradev said:) "You, who fully know the meaning of scriptures and the nature of dharma — you of auspicious intelligence, you never grow angry. All of us, having come together, accept refuge at your feet."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The king makes a formal declaration of spiritual surrender. "Sharanam uvemo" — we take refuge — is the language of disciples before a teacher. The yajna that was meant to generate merit through Brahmin ritual has produced this instead: a king, his wife, and his entire court taking refuge at a chandala monk's feet. The chapter's central reversal arrives in its fullest form.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You know the scriptures and their meaning. You have wisdom and never anger. All of us take refuge at your feet." The yajna's real result: a king becomes a student.</p>
+        <div class="concept-tags"><span class="concept-tag">Refuge</span><span class="concept-tag">Spiritual Surrender</span><span class="concept-tag">True Dharma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-34">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.34</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अच्चेमु ते महाभाग, ण ते किंचि ण अच्चिमो । भुंजाहि सालिमं कूरं, णाणावंजण संजुयं ॥१२.३४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O Mahabhaga (Great One), we worship you. There is nothing of yours that we do not worship. Eat this rice prepared with many condiments."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Mahabhaga" — great-souled, great-fortuned one — from the same mouths that called him "dust-ghost" and "unfit to be seen." They now offer the finest rice with full condiments, and declare that there is nothing about him — not even the dust of his feet — that they do not worship. The reversal of address is the reversal of the entire chapter.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "O Great One, we worship you entirely. Please eat this finest rice." The words "O Great One" from the same mouths that called him a dust-ghost.</p>
+        <div class="concept-tags"><span class="concept-tag">Complete Reversal</span><span class="concept-tag">Worship</span><span class="concept-tag">Alms Offered</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-35">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.35</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इमं च मे अत्थि पभूयमण्णं, तं भुंजसु अम्ह अणुग्गहट्टा । बाढं ति पडिच्छइ भत्तपाणं, मासस्स उ पारणए महप्पा ॥१२.३५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"This is our abundant food — receive it, to bless us." The great one, saying "very well," accepts food and water — breaking his month-long fast.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk accepts. Simply. "Badham" — very well. No grudge, no extended forgiveness ritual, no lecture. He receives alms as a monk should. The detail given is striking: this moment breaks his month-long fast. He had fasted for an entire month. He came to this very yajna purely to seek alms. He is now received by his attackers as a great one.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk said "very well" and accepted their food. He was breaking a month-long fast. The same people who beat him now fed him — and he accepted simply, without a word of reproach.</p>
+        <div class="concept-tags"><span class="concept-tag">Simple Acceptance</span><span class="concept-tag">Month-Long Fast</span><span class="concept-tag">Grace</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART VIII -->
+  <div class="section-divider" id="section-glory"><span>Part VIII &mdash; The Glory of the Tapasvi Muni</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-36">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.36</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तिहयं गंधोदय-पुप्फवासं, दिव्वा तिहिं वसुहारा य घुट्टा । पहयाओ दुंदुहीओ सुरेहिं, आगासे अहो दाणं च घुट्टुं ॥१२.३६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">At that moment — when the tapasvi muni received food — the gods showered fragrant water and flowers, struck divine dundubhis (celestial drums), and in the sky the proclamation rang: "Aho dana! Aho dana!" — "Excellent gift! Excellent gift!"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The cosmos itself responds. Gods shower flowers; celestial drums thunder; the heavens ring with proclamation. This is the Jain universe's declaration that the moment just completed — a chandala monk fed by a yajna Brahmin after being beaten — was one of the most meritorious acts of giving in that entire fire-sacrifice. The yajna found its purpose at last.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The moment the monk received food, the heavens erupted: flowers rained, divine drums thundered, the sky rang with "Excellent gift!" The cosmos confirmed what the Brahmins had just learned.</p>
+        <div class="concept-tags"><span class="concept-tag">Divine Confirmation</span><span class="concept-tag">Cosmic Response</span><span class="concept-tag">True Dana</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-37">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.37</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सक्खं खु दीसइ तवोविसेसो, ण दीसइ जाइविसेस कोई । सोवागपुत्तं हरिएस साहुं, जस्सेरिस्सा इड्डि महाणुभागा ॥१२.३७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Truly, the excellence of tapas is visible for all to see — but the excellence of caste is nowhere to be seen. Look at Harikesh the muni, son of a soapmaker — of such magnificent power and glory."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The proclamation of the gods — or the commentary of witnesses — delivers the chapter's explicit moral. What is visible? The monk's tapas-power, divine protection, celestial flowers, thundering drums. What is not visible? Any distinction of caste. The proof is standing right there: a chandala's son, and magnificent divine glory surrounding him. The argument that began in sutra 1 is now sealed by the cosmos itself.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "See it with your own eyes: tapas is visible — caste is not. Look at this son of a soapmaker and the glory surrounding him. That is the proof."</p>
+        <div class="concept-tags"><span class="concept-tag">Tapas Over Caste</span><span class="concept-tag">Divine Proclamation</span><span class="concept-tag">Chapter's Core Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IX -->
+  <div class="section-divider" id="section-bath"><span>Part IX &mdash; Bhav-Guardian Deity (Yaksha): The True Fire and the True Bath</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-38">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.38</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">किं माहणा जोइं समारभंता, उदएण सोहिं बहिया विमग्गहा । जं मग्गहा बाहिरियं विसोहिं, ण तं सुद्दिढुं कुसला वयंति ॥१२.३८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O Brahmins — kindling the fire and seeking external purification in water — why do you search for purification that is outside? What the wise call true purification is not what you are looking for."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The monk now turns teacher. King Rudradev asked how to properly conduct a yajna — and the answer begins with a question that undermines the entire premise: why are you looking outside? External fire and external water do not purify the soul. The "kusala" (knowers of truth) define purification differently — and what they call true purification, no river or fire can provide.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "You light fire. You pour water. You search for purity in external things. The wise do not call that purification."</p>
+        <div class="concept-tags"><span class="concept-tag">Inner vs. Outer Purity</span><span class="concept-tag">True Purification</span><span class="concept-tag">Ritual Critique</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-39">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.39</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कुसं च जूवं तण कट्टुमिंगं, सायं च पायं उदगं फुसंता । पाणाइं भूयाइं विहेडयंता, भुज्जो वि मंदा पगरेह पावं ॥१२.३९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O dull-minded ones — touching kusha grass, the sacrificial post, straw, and wood; morning and evening touching water — all while harming water-beings, earth-beings, and fire-beings — you accumulate more sin again and again."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The critique is precise: Brahmin rituals involve touching and burning living matter — kusha grass, wood, all containing single-sensed beings. Morning and evening they touch water, disturbing water-beings. The rituals intended to purify actually accumulate himsa and therefore karma. The Brahmins are generating sin in the very name of purity.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Your rituals — touching grass, burning wood, pouring water — harm living beings at every step. You are generating more karma, not less. The ritual meant to purify creates more pollution."</p>
+        <div class="concept-tags"><span class="concept-tag">Ritual Himsa</span><span class="concept-tag">Single-Sensed Beings</span><span class="concept-tag">Karma Accumulation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-40">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.40</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कहं चरे भिक्खु वयं जयामो, पावाइं कम्माइं पणुल्लयामो । अक्खाहि णे संजय जक्खपूइया, कहं सुजट्टुं कुसला वयंति ॥१२.४०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">(Rudradev asked:) "How should we practice, O bhikshu? How should we conduct a yajna? How do we remove sinful karma? O restrained one, worshipped by Guardian Deities (Yakshas) — tell us how the wise say a true yajna should be performed."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The king asks sincerely. The address "yaksha-pujiya" (worshipped by the Guardian Deity/Yaksha) acknowledges the monk's divine stature from the very same king who ordered him beaten. The yajna that was supposed to be conducted by Brahmins for the king is now being redefined by the very monk they tried to expel. The questioner has become the student.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Tell us — how do we practice? How do we conduct a real yajna? How do we remove karma? You who are worshipped even by Guardian Deities (Yakshas) — tell us what the wise say."</p>
+        <div class="concept-tags"><span class="concept-tag">Sincere Inquiry</span><span class="concept-tag">True Yajna</span><span class="concept-tag">King as Student</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-41">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.41</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">छज्जीवकाए असमारभंता, मोसं अदत्तं च असेवमाणा । परिग्गहं इत्थिओ माण-मायं, एयं परिण्णाय चरिता दता ॥१२.४१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Not causing harm to the six categories of living beings, not practicing lying or theft, not accepting possessiveness, women, pride, or deceit — one who has renounced these and practices self-restraint: that is the truly endowed one (datta)."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The five great vows of Jain monastic life are here presented as the true definition of "datta" — one who is truly endowed, truly worthy of receiving gifts. The Brahmins defined worthiness by birth; the monk defines it by ethical conduct: non-harm across all six life-categories, non-lying, non-stealing, non-possession, celibacy, non-pride, non-deceit. This is the redefinition of the merit-field argument from sutras 12–17, now made explicit.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Not harming any living being, not lying, not stealing, not clinging to possessions, women, pride, or deceit — that is the truly endowed one. That is who is truly worthy of gifts."</p>
+        <div class="concept-tags"><span class="concept-tag">Five Vows</span><span class="concept-tag">True Worthiness</span><span class="concept-tag">Non-Harm</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-42">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.42</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सुसंवुडो पंचहिं संवरेहिं, इह जीवियं अणवकंखमाणो । वोसट्टुकाओ सुइचत्तदेहो, महाजयं जयइ जण्णसिट्टुं ॥१२.४२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Fully restrained by the five restraints (samvaras), not desiring worldly life, having abandoned bodily care, with a pure heart — he wins the great victory, and performs the supreme yajna."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The five samvaras are the five great controls of monastic life. "Not desiring worldly life" — the monk who does not cling to survival itself. "Having abandoned bodily care" — no attachment to comfort, appearance, or health. "Pure heart" — inner substance cleansed. This person performs "jannasiththum" — the best yajna, the supreme ritual. Not outside. Inside.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Fully restrained, without desire for survival, without care for the body, pure at heart — he wins the greatest victory. That is the true yajna."</p>
+        <div class="concept-tags"><span class="concept-tag">Five Samvaras</span><span class="concept-tag">Non-Attachment to Body</span><span class="concept-tag">True Victory</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-43">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.43</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">के ते जोई, के य ते जोइठाणे, का ते सुया, किं च ते कारिसंगं । एहा य ते कयरा, संति भिक्खु, कयरेण होमेण हुणासि जोई ॥१२.४३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">(Rudradev asked:) "What is your fire? What is your fire-place? What is your ghee? What is your fuel? What is your peace-formula? And with what kind of offering do you perform the fire-ritual, O bhikshu?"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Having grasped the principle — the true yajna is inner — the king asks for the specific Jain equivalents of each ritual element of the Brahmin yajna. He lists every component: fire, fire-place, ghee, fuel, peace-chant, homa-offering. He wants the complete map of the inner ritual. This is not resistance — it is genuine inquiry from a man whose world has just been restructured.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Tell us the exact equivalents. Your fire? Your fire-place? Your ghee? Your fuel? Your peace-chant? With what do you perform your homa? Give us the whole map."</p>
+        <div class="concept-tags"><span class="concept-tag">Inner Yajna Map</span><span class="concept-tag">Ritual Equivalency</span><span class="concept-tag">Genuine Inquiry</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-44">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.44</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तवो जोई जीवो जोइठाणं, जोगा सुया सरीरं कारिसंगं । कम्मेहा संजमजोग संति, होमं हुणामि इसिणं पसत्थं ॥१२.४४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Tapas is my fire. The soul is my fire-place. The three yogas (mind, speech, body) are my ghee. The body is my fuel. Karma-removal is my peace-formula, the union of restraint is my offering. I perform the homa praised by the rishis."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The complete inner yajna map: tapas burns as the true fire; the soul is where it burns; mind-speech-body actions are the clarified butter fed into it; the body itself is the fuel being consumed; karma-removal is the peace-formula; and the entire discipline of restraint is the offering. This is the yajna that the ancient rishis themselves praised — not the external one. Not fire, but the fire of discipline. Not water, but the water of truth.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Tapas is my fire. My soul is the fire-place. My actions of mind, speech, body are the ghee. My body is the fuel. Karma-removal is my peace-formula. Self-restraint is my offering. That is the yajna the rishis praise."</p>
+        <div class="concept-tags"><span class="concept-tag">Inner Yajna Mapping</span><span class="concept-tag">Tapas as Fire</span><span class="concept-tag">Soul as Fire-Place</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-45">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.45</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">के ते हरए के य ते संतितित्थे, कहिंसि णहाओ व रयं जहासि । आइक्ख णे संजय जक्खपूइया, इच्छामो णाउं भवओ सगासे ॥१२.४५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">(Rudradev asked:) "What is your lake? What is your peace-tirtha (sacred bathing place)? Where have you bathed to shed the dust of karma? Tell us, O restrained one, worshipped by Guardian Deities (Yakshas) — we desire to know."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Brahmins bathe in sacred rivers to purify. The king continues the inner-correspondence conversation: what is the monk's equivalent lake, the monk's equivalent sacred bathing spot? And the framing of karma as "dust to be washed off" is itself a step forward in understanding — the king now speaks in the monk's terms, not his own.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "And what is your sacred lake? Where do you bathe away karma? Tell us — we want to know where you shed the dust of karma."</p>
+        <div class="concept-tags"><span class="concept-tag">Sacred Bathing</span><span class="concept-tag">Tirtha</span><span class="concept-tag">Karma as Dust</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-46">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.46</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">धम्मे हरए बंभे संतितित्थे, अणाविले अत्तपसण्णलेसे । जहिंसि णहाओ विमलो विसुद्धो, सुसीइभूओ पजहामि दोसं ॥१२.४६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Dharma is my lake. Brahmacharya is my peace-tirtha — pure, unturbid, with purified consciousness. Having bathed there, I am spotless and pure — fully cooled — and I remove every fault."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The inner bath: dharma as the lake, brahmacharya as the sacred bathing place. The water is described as "anavila" — completely unturbid, unclouded. "Attapasannalese" — with purified, auspicious lesha (thought-color of the soul). In this water, the monk bathes his soul — not his body — and comes out "vimalo vishuddho" (spotless, purified) and "sushitibhuo" (fully cooled — the traditional metaphor for passions extinguished). From this bath, every fault is removed.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "Dharma is my lake. Brahmacharya is my sacred bathing spot. Pure, clear, cloudless. I bathe my soul there — and come out spotless, purified, completely cooled. Every fault removed."</p>
+        <div class="concept-tags"><span class="concept-tag">Inner Tirtha</span><span class="concept-tag">Dharma as Lake</span><span class="concept-tag">Brahmacharya</span><span class="concept-tag">Soul Purification</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-47">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.47</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एयं सिणाणं कुसलेहिं दिट्टुं, महासिणाणं इसिणं पसत्थं । जहिंसि ण्हाया विमला विसुद्धा, महारिसी उत्तमं ठाणं पत्ते ॥१२.४७॥<br/>— ति बेमि ।।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This bathing is seen by the wise — the knowers of truth — as the great sacred bath, praised by the rishis. Having bathed there, the great rishis are spotless and pure — and they have attained the highest state. — Thus I say.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter closes with the Tirthankara's seal. This inner bath — in dharma and brahmacharya — is not the monk's personal invention. It is what the knowers of truth (kusala) have always seen, and what the ancient rishis have always praised. Those who bathe in this inner tirtha emerge purified and attain the highest state — liberation. The final "iti bemi" (thus I say) is Lord Mahavira's own declaration: these are my words, this is my teaching.</p>
+        <p class="simple-explanation"><b>The simple version:</b> "The wise have always seen this. The rishis have always praised this. The great ones who bathed in this inner tirth came out pure and attained the highest state. Thus speaks the Lord."</p>
+        <div class="concept-tags"><span class="concept-tag">Great Inner Bath</span><span class="concept-tag">Liberation</span><span class="concept-tag">Tirthankara's Seal</span><span class="concept-tag">Thus I Say</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ अध्ययन-१२ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 12 &mdash; Harikeshiya</p>
+  </div>
+
+  </section>
+</main>
+
+<a href="uttaradhyana-ch11.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 11
+</a>
+<a href="uttaradhyana-ch13.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 13 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+        Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+      </p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Aagama</span>
+        <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../uttaradhyana-index.html">Uttaradhyayana</a>
+        <a class="hover:text-primary transition-colors" href="../vipaak/vipaak-index.html">Vipaak Sutra</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4 hidden">
+        <span class="text-primary/40 mb-2">Legacy</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Newsletter</a>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Events</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const buttons = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) {
+    buttons.forEach(btn => btn.classList.add('visible'));
+  } else {
+    buttons.forEach(btn => btn.classList.remove('visible'));
+  }
+});
+</script>
+</body>
+</html>

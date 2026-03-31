@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Uttaradhyayana Sutra Chapter 16: Foundations of Celibacy | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed-variant": "#35437e","on-secondary-fixed-variant": "#4a4642","secondary-container": "#e6ded9","primary-fixed-dim": "#e6c364","surface-bright": "#fef9f1","tertiary-fixed": "#dde1ff","surface": "#fef9f1","primary-fixed": "#ffe08f","surface-container-low": "#f8f3eb","secondary-fixed": "#e9e1dc","outline-variant": "#d0c5b2","outline": "#7e7665","inverse-on-surface": "#f5f0e8","on-background": "#1d1c17","on-secondary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff","on-primary-fixed-variant": "#584400","surface-dim": "#ded9d2","surface-container-high": "#ece8e0","primary": "#755b00","on-primary-container": "#503d00","inverse-surface": "#32302b","secondary": "#625d59","error-container": "#ffdad6","tertiary-fixed-dim": "#b9c3ff","on-secondary-container": "#67625e","on-primary": "#ffffff","on-primary-fixed": "#241a00","on-error-container": "#93000a","surface-tint": "#755b00","secondary-fixed-dim": "#ccc5c0","surface-variant": "#e7e2da","surface-container-lowest": "#ffffff","on-tertiary-fixed": "#041451","surface-container-highest": "#e7e2da","primary-container": "#c9a84c","inverse-primary": "#e6c364","on-surface-variant": "#4d4637","tertiary": "#4d5a98","background": "#fef9f1","on-tertiary": "#ffffff","on-surface": "#1d1c17","tertiary-container": "#9ba8eb","surface-container": "#f2ede5","on-secondary-fixed": "#1e1b18"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.sutra-card p.text-base { font-size: 1.125rem; line-height: 1.75; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.foundation-badge { display: inline-block; background: rgba(201,168,76,0.12); border: 1px solid rgba(201,168,76,0.35); color: #755b00; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; border-radius: 4px; padding: 3px 10px; font-weight: 600; margin-top: 0.25rem; margin-bottom: 0.25rem; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Uttaradhyayana Sutra · Chapter 16</span>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Foundations of Celibacy<span class="block text-primary font-normal">બ્રહ્મચર્ય સમાધિસ્થાન</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On the ten specific supports that protect and sustain the vow of celibacy</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Celibacy is not a single vow but a structure — ten interlocking supports, each guarding a specific gateway through which the mind can be pulled toward desire. This chapter names each one with exact precision: where to sleep, what to speak, where to look, what to hear, what to eat, what to remember. Together they form a complete architecture of inner protection.</p>    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden bg-surface-container flex items-center justify-center border border-outline-variant/30">
+      <img src="assets/ch16-hero.jpg" alt="Foundations of Celibacy"
+           class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+      <div class="hidden w-full h-full items-center justify-center flex-col gap-4 p-8">
+        <span class="font-headline text-5xl text-primary/30">🪷</span>
+        <p class="text-center font-headline text-on-surface/40 text-sm">Image: Foundations of Celibacy — the ten stations of inner protection</p>
+      </div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">एस धम्मे धुवे णिच्चे, सासए जिणदेसिए ।<br/>सिद्धा सिज्झंति चाणेणं, सिज्झिस्संति तहावरे ॥</p>
+      <p class="mt-3 text-base text-on-surface-variant italic font-light leading-relaxed">"This dharma is eternal, permanent, everlasting — proclaimed by the Jina. Through it, siddhas have attained, are attaining, and will forever attain liberation."</p>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Brahmacharya Samadhistan</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Chapter 16</span> of the Uttaradhyayana Sutra is a practical manual for the monastic life. It identifies ten specific foundations (<span class="text-primary font-semibold">samādhisthāna</span>) that protect and sustain brahmacharya — the vow of celibacy. The chapter opens in the canonical question-and-answer format, then presents each foundation with a precise structure: what the monk must avoid, and exactly why. For each of the ten, the same chain of seven dangers is traced — doubt, desire, wavering, collapse, madness, disease, and finally falling from the Dharma entirely.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The ten foundations address every channel of perception: dwelling space, speech, proximity, gaze, sound, memory, food, adornment, and finally all five senses at once. The chapter then restates all ten in verse, adds the devastating simile of poison hidden in the palm-fruit, and closes with one of the most majestic declarations in the entire canon: even gods, demons, and celestial musicians bow before the one who lives this path — because what the brahmacharī does is genuinely difficult, and in doing it, he surpasses them all.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">29</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-2xl font-headline font-bold text-primary">Monks</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Addressed To</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">10</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Foundations</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">4</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span>
+        </div>
+      </div>
+      <div class="pt-6 border-t border-outline-variant/40">
+        <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-4">Chapter Structure</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">I</span>
+            <span class="text-lg text-on-surface font-body">Opening & Introduction (1–2)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">II</span>
+            <span class="text-lg text-on-surface font-body">Ten Foundations — Prose (3–12)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">III</span>
+            <span class="text-lg text-on-surface font-body">Ten Foundations — Verse (13–22)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-xs font-bold text-on-surface-variant font-label flex-shrink-0">IV</span>
+            <span class="text-lg text-on-surface font-body">Summary, Glory & Eternal Dharma (23–29)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutras -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 16</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 29 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Presented in two forms: twelve prose canonical statements (the ten foundations) followed by seventeen verse gāthās restating and expanding the same teaching. These are the living words of Bhagavan Mahavira, transmitted across 2500 years.</p>
+  </div>
+
+  <div class="section-divider" id="section-intro"><span>Part I — Opening &amp; Introduction</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सुयं मे आउसं ! तेणं भगवया एवमक्खायं इह खलु थेरेहिं भगवंतेहिं दस बंभचेर समाहिठाणा पण्णत्ता, जे भिक्खू सोच्चा, णिसम्म, संजमबहुले, संवरबहुले, समाहिबहुले, गुत्ते, गुत्तिंदिए, गुत्तबंभयारी सया अप्पमत्ते विहरेज्जा।</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">I have heard, O long-lived one! — thus it has been declared by the Bhagavān: "The venerable elders — the Bhagavants — have proclaimed ten foundations of brahmacharya, which the bhikshu, having heard and held in the heart, should practice — abounding in restraint, abounding in the stopping of karma, abounding in meditative stability, guarded in mind-speech-body, guarded in the senses, guarded in celibacy, always vigilant."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This opening sutra is the canonical framing statement — it follows the standard formula "suyam me ausam" (I have heard, O long-lived one), which marks transmitted sacred teaching. Sudharmā Swāmī, narrating to Jambū Swāmī, declares that the venerable elders have proclaimed ten foundations for protecting celibacy. Notably, the sutra gives the fruits before the list — a deliberate pedagogical choice: first understand what you will gain, then receive the teaching that gets you there.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Lord Mahavira's senior disciples taught ten specific rules for protecting celibacy — and a monk who truly follows them will naturally grow in self-control, inner calm, and spiritual alertness.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Brahmacharya</span>
+          <span class="concept-tag">Canon</span>
+          <span class="concept-tag">Oral Transmission</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कयरे खलु ते थेरेहिं भगवंतेहिं दस बंभचेरसमाहिठाणा पण्णत्ता? इमे खलु ते थेरेहिं भगवंतेहिं दस बंभचेरसमाहिठाणा पण्णत्ता — तं जहा:</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Which indeed are those ten brahmacharya foundations proclaimed by the venerable elder Bhagavants?" — "These indeed are those ten brahmacharya foundations proclaimed by the venerable elder Bhagavants — namely:"</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra follows the standard canonical question-and-answer format — the question is posed and immediately answered. This formal structure is not rhetorical; it reflects the oral transmission tradition of the Jain Āgamas. The teaching was transmitted in dialogue form between teacher and student, and the text preserves that pedagogical structure intact. The word "khalu" (indeed, certainly) appears in both question and answer, lending the exchange a quality of mutual affirmation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The student asks "what are the ten?" and the teacher answers "here they are" — this back-and-forth is how sacred knowledge was passed down for thousands of years.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Oral Tradition</span>
+          <span class="concept-tag">Canon</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider" id="section-foundations"><span>Part II — The Ten Foundations (Prose)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">विवित्ताइं सयणासणाइं सेवित्ता हवइ, से णिग्गंथे। णो इत्थी पसु पंडग संसत्ताइं सयणासणाइं सेवित्ता हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 1 — Discernment of Dwelling</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who uses solitary beds and seats — free from women, animals, and neuters — he is a nirgranth. He who uses beds and seats occupied by them — he is not a nirgranth. Because for the brahmacharya practitioner who resides in such places, there may arise doubt, desire, or wavering regarding celibacy; or a fall; or madness; or long-term disease; or he may fall away from the Dharma of the Kevalis.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The first foundation is discernment about where one sleeps and dwells. The sutra names seven specific dangers that arise from proximity to the opposite sex: doubt, desire, wavering, collapse, madness, disease, and ultimately falling from the Dharma itself. These seven are not hypothetical — they trace a precise psychological and physiological chain. Proximity generates subtle mental agitation, which becomes craving, which creates inner conflict, which eventually breaks celibacy, leading to mental disorder, physical disease, and spiritual ruin.</p>
+        <!-- [VISUAL FLAG #16.1 — A seven-step descending chain showing: doubt → desire → wavering → collapse → madness → disease → dharma-fall, illustrating the precise psychological progression the sutra describes] -->
+        <p class="simple-explanation"><b>The simple version:</b> A monk must be careful about where he sleeps and rests — staying in places free from distraction is not uptightness, it's protection of his life's purpose.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Brahmacharya</span>
+          <span class="concept-tag">Environment</span>
+          <span class="concept-tag">Restraint</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो इत्थीणं कहं किहित्ता हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 2 — Restraint of Speech About the Opposite Sex</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not engage in talk about the opposite sex — that one is a nirgranth. Because for the brahmacharya practitioner who engages in such talk, there may arise the same chain of seven dangers — ending in falling away from the Dharma of the Kevalis. This applies equally: monks refrain from talk about women; nuns refrain from talk about men.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The second foundation addresses speech — specifically, conversation about the opposite sex: their appearance, manners, beauty, and behavior. The principle applies to all monastics equally: a monk avoids talk about women, a nun avoids talk about men. Even seemingly innocent conversation of this kind is identified as dangerous. The reason is psychological: attention and speech shape thought. When a monastic lingers in descriptions of the opposite sex, the mind begins to be colored by those impressions. Where speech goes, attention follows; and where attention lingers, desire grows.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monastic avoids conversations about the opposite sex — their looks, stories, or behavior — because where your words go, your mind follows. Monks guard against talk about women; nuns guard against talk about men.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Speech</span>
+          <span class="concept-tag">Brahmacharya</span>
+          <span class="concept-tag">Restraint</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो इत्थीहिं सद्धिं सणिसेज्जागए विहरित्ता हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 3 — Avoidance of Shared Seating</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not live having sat together on the same seat as the opposite sex — that one is a nirgranth. Because for the brahmacharya practitioner who shares seating with the opposite sex, the same seven dangers may arise. This applies equally: monks avoid shared seating with women; nuns avoid shared seating with men.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The third foundation is physical proximity — specifically, shared seating. The commentary gives two interpretations: first, the obvious — do not sit simultaneously on the same seat; second, subtler — do not sit on a seat the opposite sex has recently vacated, even if they are no longer there. This may seem extreme to a modern reader, but it reflects a thorough understanding of how sense perception triggers association, and how association triggers desire. The point is not distrust — it is a monastic's careful management of their own perceptual field.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monastic avoids sharing seats with the opposite sex — not out of disrespect, but because deep practice reveals exactly how easily the mind can be pulled by physical proximity. Monks guard this with women; nuns guard this with men.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Brahmacharya</span>
+          <span class="concept-tag">Physical Proximity</span>
+          <span class="concept-tag">Restraint</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो इत्थीणं इंदियाइं मणोहराइं, मणोरमाइं आलोएत्ता, णिज्झाएत्ता हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 4 — Restraint of Gaze</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not gaze at or contemplate the beautiful and charming forms of the opposite sex — that one is a nirgranth. Because for the brahmacharya practitioner who gazes and lingers, the seven dangers may arise. Monks guard the gaze toward women; nuns guard the gaze toward men.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The fourth foundation moves from space to perception — the gaze. The sutra distinguishes two stages: looking (gazing) and contemplating (dwelling upon after seeing). A monastic may unavoidably catch a glimpse — eyes receive images involuntarily — but the contemplation that follows looking is a choice. It is this lingering of attention on the pleasant form of the opposite sex that the fourth foundation prohibits. Desire does not begin in action — it begins in sustained attention. Managing the gaze is managing the first link in the chain of desire.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monastic doesn't stare at or dwell on attractive features of the opposite sex — what the mind lingers on becomes what the heart wants.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Gaze</span>
+          <span class="concept-tag">Attention</span>
+          <span class="concept-tag">Desire</span>
+          <span class="concept-tag">Brahmacharya</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो इत्थीणं कूइयं, रुइयं, गीयं, हसियं, थणियं, कंदियं सोच्चा हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 5 — Restraint of Hearing</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not deliberately listen to the cooing, crying, singing, laughing, whispering, or calling of the opposite sex — that one is a nirgranth. Because listening to these sounds may give rise to the seven dangers in the brahmacharya practitioner. Monks guard the ear toward women's voices; nuns guard the ear toward men's voices.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The fifth foundation targets the ear. Six specific sounds are listed, each capable of stirring emotional attachment: sweet murmuring, weeping (which evokes protective instincts), singing, laughing, whispering (which creates intimacy), and calling out. Each sound bypasses rational thought and directly stimulates emotional response. The point is not to be deaf to the world, but to remain the master of where one's attention dwells when such sounds inevitably arise.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monastic doesn't linger on the intimate sounds of the opposite sex — cooing, crying, singing, laughing, whispering, calling. Each sound has the power to stir desire through the ear alone.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Hearing</span>
+          <span class="concept-tag">Sense Restraint</span>
+          <span class="concept-tag">Brahmacharya</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो इत्थीणं पुव्वभुत्तासियाणि, सहभुत्तासियाणि, ससयणासणभोयणपडिलेहणाणि समणुस्सरित्ता हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 6 — Not Recalling Past Pleasures</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not recall past indulgences with the opposite sex — shared meals, shared beds, shared pleasures — that one is a nirgranth. This applies equally to all monastics: monks guarding against memories involving women, nuns guarding against memories involving men.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sixth foundation targets internal memory. Even in total physical isolation, the mind can replay past experiences with devastating effect. The commentary specifies: memories of past physical intimacy, shared meals (a deeply bonding activity), sitting together, and sleeping arrangements. Each memory carries emotional charge that can reactivate desire. The brahmacharī must be vigilant not just about present stimuli but about the mind's tendency to revisit the past — for desire can ignite from memory alone, with no external trigger at all.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monastic doesn't let the mind dwell on memories of past pleasures with the opposite sex — past meals, past intimacy, past companionship. Even memory is a doorway for desire.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Memory</span>
+          <span class="concept-tag">Mind</span>
+          <span class="concept-tag">Brahmacharya</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो पणीयं, खज्जभोयणं, सप्पिं माहणसे, मिट्ठे, कडुहारे, अइभोयणं भुंजित्ता हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 7 — Avoiding Rich Food</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not eat rich, delicious food — butter, sweets, sharp spices, or excessive amounts — he is a nirgranth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The seventh foundation connects food directly to desire. Rich food increases bodily heat and energy, which the body channels into sexual impulse. Five problematic food categories are identified: excessively sweet, excessively oily or buttery, excessively spiced, food eaten in excess, and food eaten at improper times. The monk eats for sustenance, not for pleasure. When food becomes a pleasure source, it becomes a gateway to other pleasures — the body that is accustomed to being gratified through taste will seek gratification through other senses as well.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monk avoids rich, stimulating food — sweets, ghee, heavy spices, overeating — because rich food directly inflames desire in the body.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Food</span>
+          <span class="concept-tag">Sense Restraint</span>
+          <span class="concept-tag">Brahmacharya</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">धम्मलद्धं मियं काले, जत्तत्थं पणिहाणवं ।<br/>णाइमत्तं तु भुंजेज्जा, बंभचेरे रओ सया ॥</p>
+        <div class="foundation-badge">Foundation 8 — Proper Eating</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Food obtained through righteous means, measured in quantity, at the proper time, for sustenance alone, with mindful intention — only that much should a brahmacharī eat, never excessively.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The eighth foundation is the positive counterpart to the seventh's prohibition. Five conditions define proper eating: righteously procured alms (not sought for pleasure), measured quantity (not more than needed), proper time (not at night, not at irregular hours), for sustenance only (not for taste), and with mindful awareness. This is the Jain middle path for food: not starvation, not indulgence — purposeful, conscious eating that keeps the body functional without feeding desire.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Eat only righteous food, in measured amounts, at proper times, for sustenance — never for pleasure, never excessively. Every meal is a spiritual act.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Food</span>
+          <span class="concept-tag">Mindfulness</span>
+          <span class="concept-tag">Middle Path</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो गत्तभूसणं, अंगुलीओ, कडगं, कुंडलं, कंचुयं, तिलगं, अंजणं, विलेवणं धारेत्ता हवइ, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 9 — Avoiding Adornment</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not wear body-ornaments — rings, bracelets, earrings, display garments, tilaka, kohl, or paste — he is a nirgranth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ninth foundation addresses self-display. Adorning the body is an implicit invitation — it signals availability and attracts attention. Even a monk who avoids all contact with the world cannot maintain celibacy if he treats his own body as an object of beauty. The body is a vehicle for dharma, not a display case. The monk's appearance should communicate renunciation, not attraction — it is itself a teaching to those who see him.</p>
+        <p class="simple-explanation"><b>The simple version:</b> No ornaments, no cosmetics, no body decoration — the monk's body serves dharma, not display.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Non-attachment</span>
+          <span class="concept-tag">Renunciation</span>
+          <span class="concept-tag">Brahmacharya</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो सद्दे, रूवे, गंधे, रसे, फासे — पंचविहे कामगुणे, णिच्चसो परिवज्जए, से णिग्गंथे।</p>
+        <div class="foundation-badge">Foundation 10 — Restraint of All Five Senses</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He who perpetually avoids the five types of sense-pleasure — sound, form, smell, taste, and touch — he is a nirgranth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tenth and broadest foundation: guard all five senses simultaneously. The nine previous foundations each addressed a specific channel — dwelling, speech, proximity, gaze, hearing, memory, food, adornment. This tenth encompasses all five at once. The five sense-pleasures are the channels through which external objects stimulate internal passion. Each sense is a doorway; the tenth foundation instructs: guard every doorway, perpetually (niccaso — without interruption, without exception, without rest). This is not a rule to be applied situationally — it is a continuous orientation of consciousness.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Guard all five senses — hearing, sight, smell, taste, touch — against every form of sense-pleasure. Not sometimes. Perpetually.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Sense Restraint</span>
+          <span class="concept-tag">Brahmacharya</span>
+          <span class="concept-tag">Vigilance</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider" id="section-verse"><span>Part III — Ten Foundations in Verse</span></div>
+
+  <p class="text-base text-on-surface-variant mb-8 max-w-2xl italic">The following ten gāthās restate each of the ten foundations in verse form. They are more compact by design — the prose sutras above carry the full explanation.</p>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.13</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">जं विवित्तमणाइण्णं, रहियं इत्थी जणोहिओ ।<br/>बंभचेरे रओ भिक्खू, सिंगारत्थं ण धारए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 1: Dwelling</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Secluded, free from distraction, separated from the opposite sex — a monastic devoted to brahmacharya should not maintain anything for the sake of adornment.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This verse condenses the first foundation: the dwelling must be secluded, unfrequented, and free from the proximity of the opposite sex. The phrase "not for the sake of adornment" extends the teaching — even the space one inhabits should communicate renunciation, not attraction. The verse form makes the principle portable: a monastic can carry it as a mnemonic, recalling the full prose teaching in a single breath.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Live in seclusion, away from the opposite sex, and keep nothing around you for appearance's sake. Your dwelling is a statement of your practice.</p>
+        <div class="concept-tags"><span class="concept-tag">Dwelling</span><span class="concept-tag">Seclusion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.14</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">मण्णपल्हायजणाणिं, कामरागविवड्ढणिं ।<br/>बंभचेरे रओ भिक्खू, थीकहं तु विवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 2: Speech</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Talk about the opposite sex — which pleases the mind and increases desire — a monastic devoted to brahmacharya should completely abandon.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This verse isolates the mechanism: such talk gives the mind pleasure (manorama) and feeds desire (kāmarāga). The verse does not prohibit all speech — only the category of speech that warms the mind toward sensory attachment. Language shapes thought; thought shapes desire; desire shapes action. The second foundation cuts the chain at its earliest verbal link.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Talk about the opposite sex feels pleasant — that's exactly why it's dangerous. A monastic abandons it completely, knowing pleasure is the bait.</p>
+        <div class="concept-tags"><span class="concept-tag">Speech</span><span class="concept-tag">Desire</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.15</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">समं च संथवं थीहिं, संकहं, बंभचेरे रओ ।<br/>बंभचेरे रओ भिक्खू, णिच्चसो परिवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 3: Proximity</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Socializing with the opposite sex, familiar conversation — a brahmacharī should perpetually avoid. Monks guard this with women; nuns guard this with men.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The third verse targets familiarity itself — the easy, comfortable socializing and intimate conversation that binds people emotionally. Physical proximity was already addressed in the prose; here the emphasis is on social proximity: the closeness that grows through shared laughter, private conversation, and habitual togetherness. The word "perpetually" (niccaso) is the key — this is not situational avoidance but a permanent orientation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Comfortable socializing with the opposite sex creates emotional bonds that undermine celibacy. Avoid it — not sometimes, but always.</p>
+        <div class="concept-tags"><span class="concept-tag">Proximity</span><span class="concept-tag">Brahmacharya</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.16</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">अंगपच्चंग-संठाणं, चारुल्लविय-पेहियं ।<br/>बंभचेरे रओ थीणं, चक्खुगिज्झं विवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 4: Gaze</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Beautiful forms and limbs of the opposite sex — a brahmacharī must not gaze upon with craving eyes. Monks guard the gaze toward women's forms; nuns guard the gaze toward men's forms.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The verse adds the word "craving" (gijjha) — greedy, grasping attention — to distinguish ordinary seeing from the kind of gaze the fourth foundation prohibits. Eyes open involuntarily; craving is the intentional act of dwelling on what was seen. This is not blindness — it is sovereignty over one's own attention.</p>
+        <p class="simple-explanation"><b>The simple version:</b> You can't always control what you see. You can control whether you linger on it. The fourth foundation guards the second moment — not the glance, but the gaze.</p>
+        <div class="concept-tags"><span class="concept-tag">Gaze</span><span class="concept-tag">Sense Restraint</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.17</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">कूइयं रुइयं गीयं, हसियं थिणिय-कंदियं ।<br/>बंभचेरे रओ भिक्खू, सोयगिज्झं विवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 5: Hearing</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The intimate sounds of the opposite sex — cooing, crying, singing, laughing, whispering, calling — a brahmacharī should not listen to with ear-craving. Monks guard the ear toward women's voices; nuns guard the ear toward men's voices.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The verse parallels the gaze verse in structure: it is not any hearing that is prohibited but "ear-craving" — the deliberate, lingering, pleasure-seeking attention to sound. Sound reaches the ear before the will can intercede; what the will controls is whether the mind opens to receive it. The five sounds listed — cooing, crying, singing, laughing, whispering — each bypass reason and speak directly to emotion.</p>
+        <p class="simple-explanation"><b>The simple version:</b> You can't always avoid hearing. You can choose not to savour it. The fifth foundation guards the deliberate, craving ear — not the unavoidable ear.</p>
+        <div class="concept-tags"><span class="concept-tag">Hearing</span><span class="concept-tag">Sense Restraint</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.18</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">हासं किड्डं रइ दप्पं, सहभुत्तासियाणि य ।<br/>बंभचेरे रओ थीणं, णिच्चसो परिवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 6: Memory</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Fun, play, passion, pride, and memories of shared pleasures with the opposite sex — a brahmacharī should perpetually avoid recalling. This applies to all monastics: monks guard against memories of women; nuns guard against memories of men.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This verse names five categories of memory: shared laughter (hāsa), shared play (kiḍḍā), shared passion (rai), pride in past attractions (dappa), and shared pleasures (sabhuttāsiyāni). Each is a different emotional flavour of the same poison. The mind that returns to these memories is indulging in a form of intimacy that physical separation cannot prevent. Memory is the most private and unguarded doorway to desire.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even in total isolation, the mind can travel back to old pleasures. The sixth foundation guards the inner world — not just the outer one.</p>
+        <div class="concept-tags"><span class="concept-tag">Memory</span><span class="concept-tag">Non-attachment</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.19</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">पणीयं भत्तपाणं तु, खिप्पं मयविवड्ढणं ।<br/>बंभचेरे रओ भिक्खू, णिच्चसो परिवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 7: Avoiding Rich Food</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Rich food and drink — which quickly increases desire — a brahmacharī should perpetually avoid.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The verse distils the seventh foundation to a single causal link: rich food increases desire (mada-vivaddhana — desire-increasing). The Jain physiological understanding is precise — the body converts sensory stimulation, including the pleasure of rich food, into sexual energy. What is eaten in the morning becomes the condition of the mind by afternoon. The brahmacharī controls appetite at the source.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Rich food stokes the body's fire. A monastic eats simply to keep the inner fire manageable — not to add fuel to it.</p>
+        <div class="concept-tags"><span class="concept-tag">Food</span><span class="concept-tag">Desire</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.20</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">धम्मलद्धं मियं काले, जत्तत्थं पणिहाणवं ।<br/>णाइमत्तं तु भुंजेज्जा, बंभचेरे रओ सया ॥</p>
+        <div class="foundation-badge">Verse — Foundation 8: Proper Eating</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Righteous food, measured, at proper time, for sustenance, with mindful intention — only that much should a brahmacharī eat, never excessively.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This verse is the positive counterpart to 16.19 — not what to avoid, but how to eat rightly. Five qualities define a proper meal: obtained through righteous means, measured in amount, timed correctly, eaten for sustenance alone, and consumed with awareness. Together these five transform every meal from a pleasure event into a spiritual act. The brahmacharī who eats this way is practicing celibacy even at the dining mat.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Eating can be a spiritual practice. Righteous food, right amount, right time, right intention — every meal becomes a form of meditation.</p>
+        <div class="concept-tags"><span class="concept-tag">Food</span><span class="concept-tag">Mindfulness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.21</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">विभूसं परिवज्जेज्जा, सरीरपरिमंडणं ।<br/>बंभचेरे रओ भिक्खू, णिच्चसो परिवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 9: No Adornment</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Body-adornment and decoration — a brahmacharī should perpetually avoid.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ninth verse is the most compact of all: two concepts, one command. Vibhūsa (ornament) and sarīra-parimaṇḍana (body-beautification) are different facets of the same impulse — the desire to be attractive. The brahmacharī has renounced not just sexual activity but the entire social performance of physical desirability. The body is a vessel for consciousness, not a canvas for attracting attention.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Adornment is communication — it says "look at me." A monastic has renounced that message entirely. The unadorned body is its own statement.</p>
+        <div class="concept-tags"><span class="concept-tag">Adornment</span><span class="concept-tag">Renunciation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-4 transition-all duration-300" id="gatha-16-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.22</span>
+      <div class="space-y-3 flex-1">
+        <p class="sutra-sanskrit font-headline">सद्दे रूवे य गंधे य, रसे फासे तहेव य ।<br/>पंचविहे कामगुणे, णिच्चसो परिवज्जए ॥</p>
+        <div class="foundation-badge">Verse — Foundation 10: All Five Senses</div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Sound, form, smell, taste, touch — all five sense-pleasures — should be perpetually guarded against.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tenth verse is the broadest: all five senses, all at once, perpetually. The nine foundations before this each addressed a specific channel. This tenth seals the whole system. The five senses are listed in their traditional order: sound (sadda), form (rūva), smell (gandha), taste (rasa), touch (phāsa). No sense is exempted; no moment is excepted. The brahmacharī is not someone who avoids particular triggers — they have reoriented their entire sensory life toward liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The tenth foundation doesn't target a specific sense — it guards all five, all the time. Not a rule for special situations. A way of being.</p>
+        <div class="concept-tags"><span class="concept-tag">Sense Restraint</span><span class="concept-tag">Vigilance</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider" id="section-summary"><span>Part IV — Summary, Duty &amp; Eternal Dharma</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="gatha-16-11-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.23–25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आलओ थीजणाइण्णो, थीकहा य मणोरमा ।<br/>संथवो चेव णारीणं, तांसि इंदिय दरिसणं ॥<br/><br/>कूइयं रुइयं गीयं, हास भुत्तासियाणि य ।<br/>पणीयं भत्तपाणं च, अइमायं पाणभोयणं ॥<br/><br/>गत्तभूसणमिहुं च, कामभोगा य दुज्जया ।<br/>णरस्सउत्त गवेसिस्स, विसं तालउडं जहा ॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Dwelling among women, delightful talk, socializing, gazing — cooing, crying, singing, laughter, memories — rich food, excessive eating — body-adornment, sense-indulgence: all of these, for the one who seeks sense-pleasure, are like poison in the palm-fruit.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">These three gāthās summarize all ten foundations and deliver the chapter's most devastating simile: <em>visaṃ tālauḍaṃ jahā</em> — "like poison in the palm-fruit." The toddy fruit looks sweet and nourishing from the outside but conceals a slow poison within. Each of the pleasures listed — dwelling near women, talking about them, gazing, listening, remembering, eating richly, adorning the body — appears harmless or even pleasant. Yet each gradually erodes the capacity for celibacy and liberation, exactly as the hidden poison destroys the one who eats the fruit.</p>
+        <!-- [VISUAL FLAG #16.2 — A beautiful palm fruit cut open to reveal dark poison inside — illustrating the poison-in-the-palm-fruit simile for sense pleasures that appear attractive but destroy from within] -->
+        <p class="simple-explanation"><b>The simple version:</b> Everything that looks pleasurable about sensory life is like a beautiful fruit that's poisoned inside — sweet to taste, deadly in effect.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Sense Pleasure</span>
+          <span class="concept-tag">Danger</span>
+          <span class="concept-tag">Brahmacharya</span>
+          <span class="concept-tag">Summary</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="gatha-16-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.26</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">दुज्जए कामभोगे य, णिच्चसो परिवज्जए ।<br/>संकाठाणि सव्वाणि, वज्जेज्जा पणिहाणवं ॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Difficult-to-conquer sense-pleasures should be perpetually avoided. All dangerous situations should be abandoned with mindful intention.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This gāthā directly acknowledges what every honest practitioner knows: sense-pleasures are genuinely difficult to conquer (dujjaya). The text does not pretend the path is easy. But it responds to this difficulty not with discouragement but with a command: precisely because they are difficult, avoid them perpetually and with full mindful intention. Half-measures will not work against forces this strong. The answer to difficulty is not accommodation — it is complete, conscious, intentional avoidance.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Sense-pleasures are hard to overcome — the text admits this honestly. The answer isn't to try harder occasionally. It's to avoid dangerous situations entirely, every time, with full awareness.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Vigilance</span>
+          <span class="concept-tag">Mindfulness</span>
+          <span class="concept-tag">Brahmacharya</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="gatha-16-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.27</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">धम्माराणे चरे भिक्खू, धिइमं धम्मसारही ।<br/>धम्माराणे रए दंते, बंभचेरे समाहिए ॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Let the monk dwell in the garden of dharma — patient, a chariot of dharma. Delighting in dharma's garden, self-controlled, established in celibacy.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter's final turn is not prohibition but invitation: <em>dharmārāma</em> — the garden of dharma. This phrase deliberately echoes the pleasure-gardens of kings and celestial beings. The message is deliberate: dharma is meant to be a source of genuine delight, not grim endurance. Study, meditation, austerity, contemplation — these are the flowers in the brahmacharī's garden. The monk who replaces sense-pleasure with dharma-delight has not lost something but discovered something infinitely richer.</p>
+        <!-- [VISUAL FLAG #16.3 — A serene garden of meditation with a monk seated peacefully amidst flowering trees, contrasting with the poison-fruit image — illustrating dharma as the true source of delight] -->
+        <p class="simple-explanation"><b>The simple version:</b> Instead of sense-pleasures, the monk finds his joy in dharma itself — in study, meditation, and austerity. Dharma is not a prison. It is a garden.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Dharma</span>
+          <span class="concept-tag">Joy</span>
+          <span class="concept-tag">Renunciation</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="gatha-16-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.28</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">देव-दाणव-गंधव्वा, जक्ख-रक्खस-किण्णरा ।<br/>बंभयारिं णमंसंति, दुक्करं जे करंति तं ॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Devas, Dānavas, Gandharvas, Yakshas, Rakshasas, and Kinneras — all bow to the brahmacharī. They honour those who do what is genuinely difficult.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Even the most powerful beings in the universe bow before the brahmacharī — because <em>dukkaraṃ</em>, what the brahmacharī does is genuinely difficult. The celestial beings listed here — gods, demons, celestial musicians, nature spirits — are themselves subject to desire. They live in realms of extraordinary pleasure and power. Yet a human being who conquers desire from within surpasses them all. There is a hierarchy here that transcends birth-realm: the one who has mastered the inner world stands above even the gods who merely inhabit comfortable outer worlds.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even the most powerful beings in existence — gods, demons, celestial spirits — bow to the one who lives in celibacy. Why? Because what he does is genuinely difficult, and in doing it, he surpasses them all.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Brahmacharya</span>
+          <span class="concept-tag">Celibacy</span>
+          <span class="concept-tag">Liberation</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="gatha-16-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.29</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एस धम्मे धुवे णिच्चे, सासए जिणदेसिए ।<br/>सिद्धा सिज्झंति चाणेणं, सिज्झिस्संति तहावरे ॥<br/><span class="text-base not-italic text-outline">– ति बेमि ।</span></p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This dharma is eternal, permanent, everlasting — proclaimed by the Jina. Through it, siddhas have attained liberation, are attaining it, and will forever attain it. — Thus I say.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The closing verse declares the universality and eternity of this dharma. Three words land with total finality: <em>dhuve</em> (firm, unshakeable), <em>nicce</em> (eternal), <em>sāsae</em> (everlasting). The triple-time formula — past, present, future — emphasizes that this is not a teaching for a particular age or culture but a timeless truth about the nature of liberation. The closing "iti bemi" (thus I say) seals the chapter with Bhagavan Mahavira's own authority — a direct voice across 2500 years confirming: this path has worked before, it is working now, and it will work for everyone who walks it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> This path is eternal, proven, and proclaimed by the highest authority. Countless souls have already walked it to liberation. It works. — Thus says Mahavira himself.</p>
+        <div class="concept-tags">
+          <span class="concept-tag">Liberation</span>
+          <span class="concept-tag">Eternal Dharma</span>
+          <span class="concept-tag">Mahavira's Words</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-16">
+    <div class="section-divider"><span>॥ अध्ययन-१६ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 16 &mdash; Brahmacharya Samadhistan</p>
+  </div>
+
+</section>
+
+</main>
+
+<a href="uttaradhyana-ch15.html" class="nav-button left-btn flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" style="left:24px">
+  &larr; Ch 15
+</a>
+<a href="uttaradhyana-ch17.html" class="nav-button right-btn flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" style="right:24px">
+  Ch 17 &rarr;
+</a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of non-absolutism and the purification of the soul.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="uttaradhyana-index.html">Uttaradhyayana</a>
+        <a class="hover:text-primary transition-colors" href="../vipaak/vipaak-index.html">Vipaak Sutra</a>
+        <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
