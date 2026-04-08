@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 7: Khuddabhaviya | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#755b00","on-primary":"#ffffff","primary-container":"#c9a84c","on-primary-container":"#503d00","surface":"#fef9f1","on-surface":"#1d1c17","surface-variant":"#e7e2da","on-surface-variant":"#4d4637","outline":"#7e7665","outline-variant":"#d0c5b2","surface-container-low":"#f8f3eb","surface-container":"#f2ede5","surface-container-high":"#ece8e0","tertiary":"#4d5a98","on-tertiary":"#ffffff","error":"#ba1a1a"},fontFamily:{"headline":["Noto Serif","serif"],"body":["Inter","sans-serif"],"label":["Inter","sans-serif"]},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"}}}}
+</script>
+<style>
+html{scroll-behavior:smooth}
+.burnished-gradient{background:radial-gradient(circle at center,#755b00,#c9a84c)}
+.sutra-card{border:1px solid rgba(201,168,76,0.25);border-left:3px solid #c9a84c;background:white}
+.sutra-sanskrit{font-size:1.35rem;line-height:2;color:#503d00}
+.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size:1.1rem;line-height:1.7;color:#4d4637}
+.simple-explanation b{color:#755b00;font-weight:600}
+.concept-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:1rem}
+.concept-tag{display:inline-block;border:1px solid #C9A84C;color:#1d1c17;font-family:'Inter',sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;border-radius:100px;padding:4px 13px;font-weight:500}
+.nav-button{position:fixed;bottom:24px;z-index:100;background:transparent;border:1px solid rgba(201,168,76,0.35);color:rgba(201,168,76,0.6);transition:all 0.5s cubic-bezier(0.4,0,0.2,1);opacity:0;pointer-events:none;transform:translateY(20px)}
+.nav-button.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+.nav-button:hover{border-color:#C9A84C;color:#C9A84C}
+.glass-nav{background:rgba(248,247,246,0.85);backdrop-filter:blur(20px)}
+.section-divider{margin:2.5rem 0 1.5rem;display:flex;align-items:center;gap:1rem}
+.section-divider span{font-family:'Noto Serif',serif;font-size:0.875rem;text-transform:uppercase;letter-spacing:0.2em;color:#755b00;font-weight:600;white-space:nowrap}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:rgba(201,168,76,0.3)}
+#main-nav a{text-decoration:none}.nav-link{text-decoration:none}
+@media(max-width:768px){.nav-button{bottom:16px}.nav-button.left-btn{left:12px!important}.nav-button.right-btn{right:12px!important}.sutra-sanskrit{font-size:1.15rem}}
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body bg-white">
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 7</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Seeds of Lower Rebirth<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">खुद्दभविय (Khuddabhaviya)</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">Where Does Carelessness Lead?</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">A systematic account of the lower rebirths that result from harming living beings — earth-bodies, water-bodies, fire-bodies, air-bodies, insects, animals. Every act of violence plants a seed. A practitioner who protects even the smallest life is walking away from these forms of existence.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">सव्वे पाणा सव्वे भूता, सव्वे जीवा सव्वे सत्ता ।<br>ण हंतव्वा ण अज्जावेयव्वा, ण परिघेत्तव्वा ॥७.१॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"All breathing beings, all existing beings, all living beings, all sentient beings — none should be slain, none enslaved, none harmed." — Sutrakritanga 7.1</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Khuddabhaviya</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">Chapter 7 of the Sutrakritanga opens with the most absolute statement of non-violence in the text: every breathing, existing, living, and sentient being must not be slain, enslaved, or harmed. From this foundation, the chapter builds a systematic and vivid account of the lower forms of existence into which souls are reborn when they violate this principle. Earth-bodies, water-bodies, fire-bodies, air-bodies, vegetation — all are inhabited by living souls. Two-sensed worms, three-sensed lice, four-sensed flies, five-sensed animals — every level of conscious existence is mapped, and the corresponding rebirths for those who harm them are specified.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The chapter's purpose is not to frighten but to motivate clarity. The final movement pivots to the path away: restraint, austerity, humility, the triple rule of non-violence (don't do it, don't cause others to do it, don't approve it), the four passions to dissolve, and the urgency of taking up this teaching now without delay. The chapter closes with a direct address to Gautama — and through him, to every seeker — to embrace liberation as the supreme happiness beyond which nothing more remains.</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">25</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 7 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 25 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I — The Seeds of Lower Rebirth (1–10)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-1">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.1</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">सव्वे पाणा सव्वे भूता, सव्वे जीवा सव्वे सत्ता ।<br>ण हंतव्वा ण अज्जावेयव्वा, ण परिघेत्तव्वा ॥७.१॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">savve pāṇā savve bhūtā, savve jīvā savve sattā | ṇa haṃtavvā ṇa ajjāveyavvā, ṇa parigheṭṭavvā || 7.1 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">All breathing beings, all existing beings, all living beings, all sentient beings — none should be slain, none enslaved, none harmed.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>savve</em> = all | <em>pāṇā</em> = breathing beings, those with breath | <em>bhūtā</em> = existing beings, those that have come into being | <em>jīvā</em> = living beings, souls | <em>sattā</em> = sentient beings, those with consciousness | <em>ṇa haṃtavvā</em> = should not be slain | <em>ṇa ajjāveyavvā</em> = should not be enslaved | <em>ṇa parigheṭṭavvā</em> = should not be harmed</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This opening sutra is among the most complete and absolute statements of non-violence in all of world literature. Four different terms for living beings are used — breathing beings, existing beings, living beings, and sentient beings — to leave no gaps: every category of conscious existence is covered. Three forms of harm are then prohibited with equal absoluteness: killing (the most obvious), enslaving or coercing (forcing beings against their will), and seizing or harming (causing injury short of death). The triple prohibition covers the spectrum from lethal harm to subtle coercion. This verse is the foundation of all that follows in this chapter — the descriptions of lower rebirths are not presented to create fear but to show what happens when this absolute teaching is violated. Every lower form of existence described in the following sutras is the natural consequence of a soul that has failed to live by this principle.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Every living thing — every creature that breathes, exists, or feels — must not be killed, forced, or harmed in any way.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Is there any living being in your daily life that you harm or coerce while telling yourself it doesn't count?</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">All Living Beings</span><span class="concept-tag">Triple Prohibition</span><span class="concept-tag">Foundation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-2">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.2</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे इमं वयणं बुज्झे, वयणं सव्वपाणहियं ।<br>से णं पंडिए आहिए, जे ण हिंसइ किंचण ॥७.२॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">je imaṃ vacaṇaṃ bujjhe, vacaṇaṃ savvapāṇahiyaṃ | se ṇaṃ paṃḍie āhie, je ṇa hiṃsai kiṃcaṇa || 7.2 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">One who understands this teaching — the teaching beneficial for all living beings — that person is called a wise one, who harms nothing whatsoever.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>je</em> = one who | <em>imaṃ</em> = this | <em>vacaṇaṃ</em> = teaching, word | <em>bujjhe</em> = understands | <em>savvapāṇahiyaṃ</em> = beneficial for all living beings | <em>se ṇaṃ</em> = that person | <em>paṃḍie</em> = wise, learned | <em>āhie</em> = is called | <em>je</em> = who | <em>ṇa hiṃsai</em> = does not harm | <em>kiṃcaṇa</em> = anything, whatsoever</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Wisdom is defined here not by the quantity of knowledge accumulated but by a single criterion: not harming anything. This is the Jain reversal of the common understanding of "being smart" — the most educated, most philosophically sophisticated person who still causes harm has not understood the teaching. The one who "understands" the word means one who has absorbed it deeply enough that it changes behavior. Understanding that is not behavioral is not understanding at all in this context — it is mere information. The phrase "beneficial for all living beings" connects the teaching of non-violence not to ascetic self-denial but to universal benefit: practicing non-violence does not just benefit the practitioner's soul; it actively protects and benefits every being the practitioner encounters.</p>
+  <p class="simple-explanation"><b>Simply put:</b> A truly wise person is not someone with lots of knowledge — it is someone who has understood the teaching deeply enough that they genuinely don't harm anything.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Is there a gap between your understanding of non-violence as a concept and your actual daily practice of it?</p>
+  <div class="concept-tags"><span class="concept-tag">Wisdom</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Understanding</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-3">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.3</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे पुण पाणे विहिंसंति, अप्पबुद्धा असंजया ।<br>ते दुग्गइं पावमेंति, रोयंति बहुदुक्खिया ॥७.३॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">je puṇa pāṇe vihiṃsaṃti, appubuddhā asaṃjayā | te duggaiṃ pāvameti, royaṃti bahudukkiyā || 7.3 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who harm living beings — lacking wisdom, without restraint — they fall into bad destinations and weep, struck by much suffering.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>je puṇa</em> = those who again, who indeed | <em>pāṇe</em> = living beings | <em>vihiṃsaṃti</em> = harm, injure | <em>appubuddhā</em> = lacking wisdom, with small understanding | <em>asaṃjayā</em> = without restraint, uncontrolled | <em>te</em> = they | <em>duggaiṃ</em> = bad destinations, unfortunate rebirths | <em>pāvameti</em> = fall into, reach | <em>royaṃti</em> = weep, cry | <em>bahudukkiyā</em> = struck by much suffering, greatly afflicted</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The causal mechanism of lower rebirth is stated directly: harming living beings leads to bad rebirths, which involve suffering. The two qualities of the violent person are noted — lack of wisdom and lack of restraint. These are not separate deficiencies but deeply connected: wisdom would show you that harm is self-destructive because of karma, and restraint would prevent you from acting on impulses even when wisdom is temporarily clouded. The violent person weeps in their next existence — the suffering experienced in lower rebirths is the direct karmic echo of the suffering one caused in previous lives. This is not punishment administered by an external judge but the natural consequence of karmic law: the soul experiences what it inflicted.</p>
+  <p class="simple-explanation"><b>Simply put:</b> People who harm other beings — because they lack wisdom and self-control — end up reborn in miserable places, experiencing exactly the kind of suffering they caused.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Have you ever caused suffering and then experienced a similar suffering yourself later? Did you connect the two?</p>
+  <div class="concept-tags"><span class="concept-tag">Karma</span><span class="concept-tag">Bad Rebirth</span><span class="concept-tag">Wisdom</span><span class="concept-tag">Restraint</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-4">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.4</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">पुढवी-उदग-अग्गी वाऊ, वणस्सई तसे तहा ।<br>एए जीवा समा सव्वे, णो हंतव्वा कयाइ वि ॥७.४॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">puḍhavī-udaga-aggī vāū, vaṇassaī tase tahā | ee jīvā samā savve, ṇo haṃtavvā kayāi vi || 7.4 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Earth beings, water beings, fire beings, air beings, vegetation, and mobile beings — all these living beings are equal; they should never be killed.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>puḍhavī</em> = earth-body beings | <em>udaga</em> = water-body beings | <em>aggī</em> = fire-body beings | <em>vāū</em> = air-body beings | <em>vaṇassaī</em> = vegetation beings, plant-bodies | <em>tase</em> = mobile beings, beings with two or more senses | <em>tahā</em> = also, likewise | <em>ee</em> = these | <em>jīvā</em> = living beings, souls | <em>samā</em> = equal | <em>savve</em> = all | <em>ṇo haṃtavvā</em> = should not be killed | <em>kayāi vi</em> = ever, at any time</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces the comprehensive Jain classification of living beings that is central to the chapter's teaching about lower rebirths. Jain philosophy recognizes that life extends far beyond the animal kingdom that is visible to the naked eye. The earth beneath your feet contains earth-body souls; water is teeming with water-body souls; fire contains fire-body souls; air carries air-body souls; every plant and blade of grass is alive with a plant soul; and all mobile creatures (animals, insects, humans) complete the full range. All of these beings are declared "equal" — equal in their capacity for suffering, equal in their desire not to be harmed, equal in their fundamental nature as souls. This equality is the foundation of Jain non-violence: there is no hierarchy of lives that makes some worth protecting and others expendable.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Life exists in the earth, water, fire, air, plants, and all moving creatures — every single one of them is equal as a living being and should never be killed.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: What lives do you currently consider too small or too simple to matter — and what would change if you took their equal status seriously?</p>
+  <div class="concept-tags"><span class="concept-tag">Six Categories of Life</span><span class="concept-tag">Equality</span><span class="concept-tag">Non-Violence</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-5">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.5</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एइंदिय-दुइंदिया, तिइंदिय-चउरिंदिया ।<br>पंचिंदिया वि णो हिंसे, एसो संजमलक्खणो ॥७.५॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">eiṃdiya-duiṃdiyā, tiiṃdiya-cauriṃdiyā | paṃciṃdiyā vi ṇo hiṃse, eso saṃjamalakkhaṇo || 7.5 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">One-sensed beings, two-sensed beings, three-sensed beings, four-sensed beings — even five-sensed beings should not be harmed: this is the mark of restraint.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>eiṃdiya</em> = one-sensed beings (earth, water, fire, air, plants — sense of touch only) | <em>duiṃdiyā</em> = two-sensed beings (worms, etc. — touch and taste) | <em>tiiṃdiyā</em> = three-sensed beings (lice, ants — touch, taste, smell) | <em>cauriṃdiyā</em> = four-sensed beings (flies, mosquitoes — touch, taste, smell, sight) | <em>paṃciṃdiyā</em> = five-sensed beings (animals, humans — all five senses) | <em>vi</em> = even, also | <em>ṇo hiṃse</em> = should not harm | <em>eso</em> = this | <em>saṃjamalakkhaṇo</em> = the mark of restraint, the sign of self-control</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The Jain classification of living beings by the number of senses they possess is one of the most comprehensive and ecologically sophisticated taxonomies in ancient Indian thought. At the most basic level are one-sensed beings — they have only the sense of touch. Moving up through two-sensed (worms, shellfish), three-sensed (lice, ants), and four-sensed beings (flies, mosquitoes, bees), the taxonomy reaches five-sensed beings (all animals and humans with a full sensory apparatus). Crucially, the teaching does not say "don't harm the more complex beings" — it explicitly says "even five-sensed beings" and works downward, implying the reverse direction of ethical concern. Restraint (saṃyama) is defined as the practice of protecting beings across all levels of this taxonomy. A monk who carefully avoids stepping on ants but has no problem harming larger animals has not understood restraint.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Whether a being has one sense or five senses, it should not be harmed — that total protection of all life is what true self-restraint actually means.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Where does your protection of life stop — at what level of smallness or simplicity do you stop caring?</p>
+  <div class="concept-tags"><span class="concept-tag">Five Senses Taxonomy</span><span class="concept-tag">Restraint</span><span class="concept-tag">All Life</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-6">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.6</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">पाणाइवायपेल्लिओ, जीवो पच्चायाइ दुग्गइं ।<br>तम्हा पाणाइवायं तु, पंडिए परिवज्जए ॥७.६॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">pāṇāivāyapellio, jīvo paccāyāi duggaiṃ | tamhā pāṇāivāyaṃ tu, paṃḍie parivajjae || 7.6 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul driven by the killing of living beings returns to bad destinies; therefore the wise one completely avoids the killing of living beings.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>pāṇāivāya</em> = killing of living beings | <em>pellio</em> = driven, propelled | <em>jīvo</em> = the soul | <em>paccāyāi</em> = returns, goes back | <em>duggaiṃ</em> = to bad destinies, unfortunate rebirths | <em>tamhā</em> = therefore | <em>pāṇāivāyaṃ tu</em> = the killing of living beings | <em>paṃḍie</em> = the wise one | <em>parivajjae</em> = completely avoids, fully renounces</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The causal logic of rebirth is laid out with clarity: killing is the cause; bad rebirth is the effect; and the wise person, understanding this, avoids killing. The word "driven" (pellio) is significant — it suggests not that the soul chooses its bad rebirth but that it is propelled there by the momentum of the karma accumulated through violence. Just as a ball thrown hard in one direction continues in that direction, a soul that has accumulated heavy violence karma is propelled toward the kinds of existence that correspond to that karma. This is not a moral punishment imposed by a judge; it is the natural movement of the soul toward the form of existence that matches its accumulated quality. The wise person understands this mechanism and therefore does not kill — not out of fear but out of genuine understanding.</p>
+  <p class="simple-explanation"><b>Simply put:</b> A soul that causes harm gets pushed into miserable rebirths by the momentum of that harm — which is why a wise person avoids causing any harm at all.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: How much of your good behavior is motivated by genuine understanding of consequences versus fear of punishment versus actual compassion?</p>
+  <div class="concept-tags"><span class="concept-tag">Karma</span><span class="concept-tag">Rebirth</span><span class="concept-tag">Wisdom</span><span class="concept-tag">Ahimsa</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-7">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.7</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे पुण जीवा इह पाणिणो, ते सव्वे अहियासिया ।<br>ण ते वि मरणं इच्छंति, सव्वे जीवणमाहिया ॥७.७॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">je puṇa jīvā iha pāṇiṇo, te savve ahiyāsiyā | ṇa te vi maraṇaṃ icchaṃti, savve jīvaṇamāhiyā || 7.7 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">All the living beings here — all those that breathe — are capable of suffering; none of them wish for death; all of them cherish life.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>je puṇa</em> = those who | <em>jīvā</em> = living beings | <em>iha</em> = here, in this world | <em>pāṇiṇo</em> = breathing, with breath | <em>te savve</em> = all of them | <em>ahiyāsiyā</em> = capable of suffering, experience-bearers | <em>ṇa te vi</em> = nor do they | <em>maraṇaṃ</em> = death | <em>icchaṃti</em> = wish for, desire | <em>savve</em> = all | <em>jīvaṇam</em> = life | <em>āhiyā</em> = cherish, value</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra provides the emotional and experiential ground for non-violence: every living being that breathes is capable of suffering, desires to live, and does not want to die. This is an empirically observable fact, not a metaphysical claim that requires faith. Watch any creature when threatened — it tries to escape, to live, to avoid what would kill it. This universal desire for life is the deepest common ground between all living beings and the human practitioner. The practitioner who has genuinely perceived this shared quality in all beings cannot treat other lives as disposable. The word "cherish" for life (jīvaṇamāhiyā) is particularly moving — not merely that beings survive but that they value their existence, hold it dear.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Every creature that breathes can suffer, loves life, and does not want to die — this simple fact is the most basic reason to never harm them.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: When you see a creature trying to escape or survive, can you genuinely feel its desire to live as equal to your own?</p>
+  <div class="concept-tags"><span class="concept-tag">Universal Life</span><span class="concept-tag">Compassion</span><span class="concept-tag">Desire for Life</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-8">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.8</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">पुढवीकाइया बहवे, णिरयेसु उववज्जइ ।<br>जो पुढवीं पिट्टइ घाई, बाला अ जे ण बुज्झई ॥७.८॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">puḍhavīkāiyā bahave, ṇirayesu uvavajjai | jo puḍhavīṃ piṭṭai ghāī, bālā a je ṇa bujjhai || 7.8 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">One who strikes and destroys earth-body beings in great numbers is reborn in hell; such a person is a fool, one who has not understood.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>puḍhavīkāiyā</em> = earth-body beings | <em>bahave</em> = in great numbers, many | <em>ṇirayesu</em> = in hells | <em>uvavajjai</em> = is reborn, arrives | <em>jo</em> = who | <em>puḍhavīṃ</em> = the earth | <em>piṭṭai</em> = strikes, beats | <em>ghāī</em> = destroys, killer | <em>bālā</em> = fool, child-like in understanding | <em>a</em> = and | <em>je</em> = who | <em>ṇa bujjhai</em> = has not understood, does not comprehend</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The chapter now begins its systematic description of lower rebirths by starting with the most basic form of life — earth-body beings. In Jain understanding, the earth itself is alive. Soil contains innumerable one-sensed souls whose entire experience is the sense of touch. Someone who compulsively digs, strikes, or destroys earth — perhaps through thoughtless construction, excavation, or simply violent disturbance of soil — is destroying great numbers of living beings and accumulating corresponding karma. The rebirth in hell is not poetic metaphor but literal Jain cosmology: the soul that has accumulated such karma through indiscriminate harm is reborn in hellish conditions. The description of such a person as a "fool" (bālā) indicates not moral wickedness but spiritual immaturity — they have not understood the first principle.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Even the earth is full of living beings — someone who constantly destroys them carelessly ends up in hellish rebirths because they never understood that life is everywhere.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: How do you treat the ground you walk on, the soil you dig in — as dead matter, or as something teeming with life?</p>
+  <div class="concept-tags"><span class="concept-tag">Earth-Body Beings</span><span class="concept-tag">Hell Rebirth</span><span class="concept-tag">Spiritual Immaturity</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-9">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.9</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">उदगंसि वि जीवा अत्थि, ते ण हिंसिज्ज कयाइ वि ।<br>तज्जोणिसु वि जायंते, जे ण जाणंति बालया ॥७.९॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">udagaṃsi vi jīvā atthi, te ṇa hiṃsijja kayāi vi | tajjoṇisu vi jāyaṃte, je ṇa jāṇaṃti bālayā || 7.9 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">In water also there are living beings; they should never be harmed; those fools who do not know this are born in those very wombs.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>udagaṃsi vi</em> = in water also | <em>jīvā</em> = living beings | <em>atthi</em> = there are | <em>te</em> = they | <em>ṇa hiṃsijja</em> = should not be harmed | <em>kayāi vi</em> = ever | <em>tajjoṇisu vi</em> = in those very wombs, in that very birth-place | <em>jāyaṃte</em> = are born | <em>je</em> = those who | <em>ṇa jāṇaṃti</em> = do not know | <em>bālayā</em> = the fools</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Water is recognized as containing living beings — the water-body souls are one-sensed beings that exist throughout all water. This understanding predates modern microbiology by millennia but resonates with it: we now know that every drop of natural water contains vast numbers of microorganisms. The karmic consequence described here is particularly fitting: those who harm water-body beings are reborn as water-body beings themselves, experiencing existence as one of those tiny creatures they previously destroyed without thought. This principle — rebirth in the form of life you have violated — runs throughout the chapter. It is not punishment but the natural resonance between the kind of karma accumulated and the kind of existence that karma produces.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Water is full of living beings too — harm them carelessly and you may be reborn as one of those very creatures, experiencing their existence from the inside.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: When you pour away water, boil it, or waste it — are you aware that you are affecting living beings?</p>
+  <div class="concept-tags"><span class="concept-tag">Water-Body Beings</span><span class="concept-tag">Karmic Resonance</span><span class="concept-tag">Lower Rebirth</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-10">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.10</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">वणस्सईसु जीवा अत्थि, ते ण हिंसिज्ज कयाइ वि ।<br>तज्जोणिसु वि जायंते, जे ण जाणंति बालया ॥७.१०॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">vaṇassaīsu jīvā atthi, te ṇa hiṃsijja kayāi vi | tajjoṇisu vi jāyaṃte, je ṇa jāṇaṃti bālayā || 7.10 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">In vegetation also there are living beings; they should never be harmed; those fools who do not know this are born in those very wombs.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>vaṇassaīsu</em> = in vegetation, in plant bodies | <em>jīvā</em> = living beings | <em>atthi</em> = there are | <em>te</em> = they | <em>ṇa hiṃsijja</em> = should not be harmed | <em>kayāi vi</em> = ever | <em>tajjoṇisu vi</em> = in those very wombs/birth-forms | <em>jāyaṃte</em> = are born | <em>je</em> = those | <em>ṇa jāṇaṃti</em> = do not know | <em>bālayā</em> = the fools</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Plants are living beings with souls — this is a central and distinctive tenet of Jain philosophy. Unlike most ethical frameworks that grant moral consideration only to sentient animals, Jainism extends the circle of concern to all vegetation. Every tree, every grass blade, every flowering plant contains a living soul with the sense of touch. This is why Jain monks eat only once a day, avoid eating root vegetables (which require killing the entire plant), and take great care to minimize harm to vegetation. The modern science of plant communication — the discovery that plants respond to stimuli, have electrical signals, and in complex ways "experience" their environment — is consonant with this ancient teaching. Careless destruction of vegetation creates karmic bonds to plant-body rebirth.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Plants are alive too — every tree and blade of grass contains a living being, and careless destruction of plants has karmic consequences just like harming animals.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: How much vegetation do you destroy in your daily life without a second thought — and does knowing it is alive change how you see that?</p>
+  <div class="concept-tags"><span class="concept-tag">Plant-Body Beings</span><span class="concept-tag">Vegetation</span><span class="concept-tag">Karma</span></div>
+  </div></div></article>
+
+  <div class="section-divider"><span>Part II — The Sufferings of Small Existences (11–18)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-11">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.11</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अग्गिकाइयजीवाणं, अग्गी दुक्खं पवेदए ।<br>तज्जोणिसु वि जायंते, जे ण जाणंति बालया ॥७.११॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">aggikāiyajīvāṇaṃ, aggī dukkhaṃ pavеdае | tajjoṇisu vi jāyaṃte, je ṇa jāṇaṃti bālayā || 7.11 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">For fire-body living beings, fire itself is the suffering experienced; those fools who do not know this are born in those very wombs.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>aggikāiya</em> = fire-body | <em>jīvāṇaṃ</em> = of living beings | <em>aggī</em> = fire | <em>dukkhaṃ</em> = suffering | <em>pavеdае</em> = is experienced, is felt | <em>tajjoṇisu vi</em> = in those very birth-forms | <em>jāyaṃte</em> = are born | <em>je</em> = those | <em>ṇa jāṇaṃti</em> = do not know | <em>bālayā</em> = the fools</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Fire-body beings are described as souls that exist within the element of fire itself. In Jain understanding, fire is not merely a chemical reaction but an environment inhabited by one-sensed living beings. The remarkable point made here is that fire itself constitutes suffering for these beings — they exist within the very element that destroys other forms of life. To be a fire-body being is to exist in a state of constant burning, constant dissolution. The person who casually plays with fire, who lights unnecessary fires, who burns things without cause, is accumulating karma through harm to these beings and may find themselves reborn in this form. The teaching is ecological in its scope: no element of the natural world is a dead, exploitable resource; every element is a community of living beings.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Even fire contains living beings — and a person who carelessly burns things may be reborn as a fire-being, existing within fire itself as a form of constant suffering.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: How do you relate to fire — as a tool, as a living element, or something in between?</p>
+  <div class="concept-tags"><span class="concept-tag">Fire-Body Beings</span><span class="concept-tag">Elemental Life</span><span class="concept-tag">Rebirth</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-12">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.12</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">वाउकाइयजीवाणं, वाऊ दुक्खं पवेदए ।<br>तज्जोणिसु वि जायंते, जे ण जाणंति बालया ॥७.१२॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">vāukāiyajīvāṇaṃ, vāū dukkhaṃ pavеdае | tajjoṇisu vi jāyaṃte, je ṇa jāṇaṃti bālayā || 7.12 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">For air-body living beings, air itself is the suffering experienced; those fools who do not know this are born in those very wombs.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>vāukāiya</em> = air-body | <em>jīvāṇaṃ</em> = of living beings | <em>vāū</em> = air | <em>dukkhaṃ</em> = suffering | <em>pavеdае</em> = is experienced | <em>tajjoṇisu vi</em> = in those very birth-forms | <em>jāyaṃte</em> = are born | <em>je</em> = those | <em>ṇa jāṇaṃti</em> = do not know | <em>bālayā</em> = the fools</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Air-body beings are the souls that inhabit the element of air — wind, breath, atmosphere. For these beings, the constant movement and disturbance of air is itself their mode of existence and suffering. The Jain monk takes extreme care not to generate unnecessary air movement — not waving hands carelessly, being mindful of where one breathes. The parallel structure used in sutras 7.8 through 7.12 creates a pedagogical rhythm: in each element, there are living beings; those who harm these beings are reborn in those forms; existence in those forms involves the particular suffering of that element. The cumulative effect is to build a complete picture of how violence toward any element of nature creates binding with that element at the level of one's next existence.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Air has living beings in it too — careless people who disturb them without thought may eventually be reborn as an air-body being, experiencing existence as a soul within wind.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: How gently do you move through the world — or do you cut through air, water, and earth as if they were empty space?</p>
+  <div class="concept-tags"><span class="concept-tag">Air-Body Beings</span><span class="concept-tag">Elemental Life</span><span class="concept-tag">Mindful Movement</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-13">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.13</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">दुइंदियत्ते उववण्णो, जो जीवो पावकम्मुणा ।<br>कीमि-कुंथु-पिपीलिया, होइ सो खलु तादिसो ॥७.१३॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">duiṃdiyatte uvavaṇṇo, jo jīvo pāvakammuṇā | kīmi-kuṃthu-pipīliyā, hoi so khalu tādiso || 7.13 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul born into two-sensed existence through evil karma — that one becomes a worm, an insect, or an ant, just such a being as that.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>duiṃdiyatte</em> = in the state of two-sensed beings | <em>uvavaṇṇo</em> = born, arisen | <em>jo</em> = which | <em>jīvo</em> = soul | <em>pāvakammuṇā</em> = through evil karma | <em>kīmi</em> = worm | <em>kuṃthu</em> = insect, small creature | <em>pipīliyā</em> = ant | <em>hoi</em> = becomes | <em>so</em> = that | <em>khalu</em> = indeed, truly | <em>tādiso</em> = such a one, of that nature</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The chapter moves from one-sensed elemental beings to two-sensed beings — worms, insects, and ants that possess both touch and taste. This rebirth is described as the result of evil karma — the accumulated consequences of harmful actions over many lifetimes. The worm and the ant are not randomly chosen examples; they represent forms of existence that involve constant vulnerability, constant effort for minimal survival, exposure to being stepped on, eaten, washed away, burned. A human being who has lived carelessly and harmed many creatures may find themselves reborn as an ant — tiny, fragile, living moment to moment at the mercy of everything around them. The teaching is not meant to provoke revulsion at worms and ants but to awaken empathy: these beings may be former humans whose choices led them here.</p>
+  <p class="simple-explanation"><b>Simply put:</b> A soul that has done lots of harmful things in its life can be reborn as a worm or an ant — small, vulnerable, and unable to understand why.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: When you see a worm or an ant, can you hold the possibility that it is a soul on a long journey that passed through higher forms of consciousness?</p>
+  <div class="concept-tags"><span class="concept-tag">Two-Sensed Beings</span><span class="concept-tag">Evil Karma</span><span class="concept-tag">Empathy</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-14">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.14</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">तीइंदियत्ते उववण्णो, जो जीवो पावकम्मुणा ।<br>कुंथु-किडि-जलूया वा, होइ सो खलु तादिसो ॥७.१४॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">tīiṃdiyatte uvavaṇṇo, jo jīvo pāvakammuṇā | kuṃthu-kiḍi-jalūyā vā, hoi so khalu tādiso || 7.14 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul born into three-sensed existence through evil karma — that one becomes a louse, a beetle, or a leech, just such a being as that.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>tīiṃdiyatte</em> = in the state of three-sensed beings | <em>uvavaṇṇo</em> = born | <em>jo</em> = which | <em>jīvo</em> = soul | <em>pāvakammuṇā</em> = through evil karma | <em>kuṃthu</em> = louse | <em>kiḍi</em> = beetle, small insect | <em>jalūyā</em> = leech | <em>vā</em> = or | <em>hoi</em> = becomes | <em>so</em> = that | <em>khalu</em> = indeed | <em>tādiso</em> = such a one</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Three-sensed beings possess touch, taste, and smell. Lice, beetles, and leeches are representative examples. The louse in particular — living on a host body, feeding on blood, subject to being picked off and killed at any moment — represents an existence of extreme dependence and vulnerability. The leech, similarly, exists in intimate proximity to its food source with no guarantee of survival. These beings experience a world of smell as well as touch and taste, giving them slightly more richness of experience than two-sensed beings, but their lives are still profoundly limited. The soul trapped in such a form has limited capacity to accumulate good karma and break free. The chapter paints this as a genuine moral warning: actions have long-term consequences across many lives, not just in this one.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Harmful karma can land a soul in the body of a louse or a leech — completely dependent on other beings, vulnerable to being destroyed at any moment.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: How many lives beyond this one are shaped by what you are choosing right now — and does that awareness change anything?</p>
+  <div class="concept-tags"><span class="concept-tag">Three-Sensed Beings</span><span class="concept-tag">Long-Term Consequences</span><span class="concept-tag">Karma</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-15">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.15</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">चउरिंदियत्ते उववण्णो, जो जीवो पावकम्मुणा ।<br>मच्छियं-मसयं-किमी वा, होइ सो खलु तादिसो ॥७.१५॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">cauriṃdiyatte uvavaṇṇo, jo jīvo pāvakammuṇā | macciyaṃ-masayaṃ-kimī vā, hoi so khalu tādiso || 7.15 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul born into four-sensed existence through evil karma — that one becomes a fly, a mosquito, or a gnat, just such a being as that.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>cauriṃdiyatte</em> = in the state of four-sensed beings | <em>uvavaṇṇo</em> = born | <em>jo</em> = which | <em>jīvo</em> = soul | <em>pāvakammuṇā</em> = through evil karma | <em>macciyaṃ</em> = fly | <em>masayaṃ</em> = mosquito | <em>kimī</em> = gnat, small flying insect | <em>vā</em> = or | <em>hoi</em> = becomes | <em>so</em> = that | <em>khalu</em> = indeed | <em>tādiso</em> = such a one</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Four-sensed beings possess touch, taste, smell, and sight — they can see and respond to light, have more complex navigation abilities, but still lack hearing. Flies, mosquitoes, and gnats represent this category. These creatures live brief lives — measured in days or weeks — in conditions of constant danger and uncertainty. A mosquito's entire existence is spent searching for blood to feed its eggs, constantly at risk from the slapping hands of its intended hosts, the webs of spiders, the beaks of birds. Having sight adds a dimension of experience but also a dimension of fear — seeing threats coming but often unable to escape them. The human soul reborn here loses nearly all of the capacities that would allow self-directed spiritual practice.</p>
+  <p class="simple-explanation"><b>Simply put:</b> A soul can be reborn as a fly or a mosquito — brief life, constant danger, no capacity to understand or practice anything — that is where harmful karma can lead.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: What would it mean to live a life in which all capacity for conscious choice and spiritual practice was simply not available to you?</p>
+  <div class="concept-tags"><span class="concept-tag">Four-Sensed Beings</span><span class="concept-tag">Brief Existence</span><span class="concept-tag">Karma</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-16">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.16</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">पंचिंदियतिरिक्खत्ते, उववण्णो पावकम्मुणा ।<br>मच्छ-कच्छभ-सप्पो वा, सीह-वग्घ-सियालो वा ॥७.१६॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">paṃciṃdiyatirikkhatthe, uvavaṇṇo pāvakammuṇā | maccha-kacchabha-sappo vā, sīha-vaggha-siyālo vā || 7.16 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Born into the five-sensed animal realm through evil karma — one becomes a fish, a tortoise, or a snake, or a lion, a tiger, or a jackal.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>paṃciṃdiya</em> = five-sensed | <em>tirikkha</em> = animal, beast | <em>tthe</em> = in the state, in the form | <em>uvavaṇṇo</em> = born | <em>pāvakammuṇā</em> = through evil karma | <em>maccha</em> = fish | <em>kacchabha</em> = tortoise | <em>sappo</em> = snake | <em>sīha</em> = lion | <em>vaggha</em> = tiger | <em>siyālo</em> = jackal</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Five-sensed animal births are described here through a range of examples — from the fish (aquatic, cold-blooded, often prey) to the tortoise (armored but slow, vulnerable to being flipped and dried out) to the snake (feared but persecuted) to the large predators: lion, tiger, and jackal. Even in these apparently powerful forms, existence is defined by constant threat, hunger, and the need to kill in order to survive. The predatory animals are particularly significant — in order to live, they must themselves kill, accumulating karma that will produce further difficult rebirths. The tiger must hunt; the jackal must scavenge; neither can choose otherwise. Their existence is a trap within a trap: biological necessity forces them to accumulate the very karma that keeps them bound.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Rebirth as an animal — from a fish to a lion — comes from harmful karma; and even powerful animals live trapped lives, unable to practice their way free.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: If you were an animal, which one would match your current dominant instincts — and what does that reveal?</p>
+  <div class="concept-tags"><span class="concept-tag">Animal Rebirth</span><span class="concept-tag">Five-Sensed Beings</span><span class="concept-tag">Trap of Existence</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-17">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.17</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एवं खु जीवा बहवे, संसारे परिवट्टिया ।<br>णो लभंति विमोक्खं ते, जे ण जाणंति बालया ॥७.१७॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">evaṃ khu jīvā bahave, saṃsāre parivāṭṭiyā | ṇo labhaṃti vimоkkhaṃ te, je ṇa jāṇaṃti bālayā || 7.17 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus many souls wander in the cycle of existence; those fools who do not understand do not attain liberation.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>evaṃ khu</em> = thus indeed | <em>jīvā</em> = souls | <em>bahave</em> = many | <em>saṃsāre</em> = in the cycle of existence | <em>parivāṭṭiyā</em> = wander, revolve | <em>ṇo labhaṃti</em> = do not attain | <em>vimоkkhaṃ</em> = liberation, release | <em>te</em> = they | <em>je</em> = who | <em>ṇa jāṇaṃti</em> = do not understand | <em>bālayā</em> = the fools</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra steps back from the detailed catalog of lower rebirths to make the larger point: this endless cycling through forms — from earth-body to water-body to insect to animal and back again — is the default condition of souls who do not wake up. The word "revolve" (parivāṭṭiyā) describes the circular, repetitive nature of this existence — not linear progress but cycling, spinning, returning. Fools do not attain liberation because they do not understand the mechanism. If you don't know that your actions produce corresponding rebirths, you keep acting carelessly and the cycle continues. Understanding breaks the cycle — not understanding as mere information but understanding that reaches down and changes behavior at its root.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Most souls just keep going around and around — from one form of existence to another — because they never wake up enough to understand what is happening or how to stop it.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: In what ways are you currently going around in circles in your own life — repeating the same patterns and not understanding why?</p>
+  <div class="concept-tags"><span class="concept-tag">Samsara</span><span class="concept-tag">Cycle of Rebirth</span><span class="concept-tag">Liberation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-18">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.18</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयाइं दुक्खठाणाइं, बहूइं संति लोयओ ।<br>तम्हा दुक्खं ण उज्झाए, जो इच्छइ सोक्खमप्पणो ॥७.१८॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">eyāiṃ dukkhaṭhāṇāiṃ, bahūiṃ saṃti loyao | tamhā dukkhaṃ ṇa ujjhāe, jo icchai sokkhamappaṇo || 7.18 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">These are the many stations of suffering in the world; therefore, one who desires happiness for the self should not abandon (the awareness of) suffering.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>eyāiṃ</em> = these | <em>dukkhaṭhāṇāiṃ</em> = stations of suffering, places of suffering | <em>bahūiṃ</em> = many | <em>saṃti</em> = are | <em>loyao</em> = in the world | <em>tamhā</em> = therefore | <em>dukkhaṃ</em> = suffering | <em>ṇa ujjhāe</em> = should not abandon, should not dismiss | <em>jo</em> = who | <em>icchai</em> = desires | <em>sokkham</em> = happiness | <em>appaṇo</em> = for oneself, for the self</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra makes a striking philosophical point: those who want to be genuinely happy should not turn away from the reality of suffering. This goes against the instinct to avoid thinking about suffering — to keep things pleasant, to not think too hard about all the forms of difficult existence cataloged in this chapter. But the teaching reverses this: you cannot find genuine happiness while remaining ignorant of the full scope of suffering in existence. The awareness of these many stations of suffering is not depressing — it is motivating. It shows you exactly what you are trying to move away from and why the practice matters. The person who understands the reality of lower rebirths is far more motivated to practice carefully than someone who has never been confronted with this catalog.</p>
+  <p class="simple-explanation"><b>Simply put:</b> There is a lot of suffering in the world across many forms of existence — and if you genuinely want to be happy, you should not close your eyes to this reality but let it motivate real practice.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Do you tend to avoid thinking about suffering because it is uncomfortable — and could that avoidance itself be keeping you from genuine freedom?</p>
+  <div class="concept-tags"><span class="concept-tag">Suffering</span><span class="concept-tag">Awareness</span><span class="concept-tag">Motivation</span></div>
+  </div></div></article>
+
+  <div class="section-divider"><span>Part III — The Path Away (19–25)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-19">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.19</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">तम्हा एसो विणीयत्था, संजमेण तवेण य ।<br>विणएण य संपण्णो, मोक्खं एसेज्ज पंडिए ॥७.१९॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">tamhā eso viṇīyatthā, saṃjameṇa taveṇa ya | viṇaeṇa ya saṃpaṇṇo, mokkhaṃ esejja paṃḍie || 7.19 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Therefore, the wise one who has understood the meaning, endowed with restraint, austerity, and humility — let such a person seek liberation.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>tamhā</em> = therefore | <em>eso</em> = this one | <em>viṇīyatthā</em> = one who has understood the meaning, who has grasped the teaching | <em>saṃjameṇa</em> = with restraint | <em>taveṇa ya</em> = and with austerity | <em>viṇaeṇa ya</em> = and with humility | <em>saṃpaṇṇo</em> = endowed, equipped | <em>mokkhaṃ</em> = liberation | <em>esejja</em> = should seek, let them seek | <em>paṃḍie</em> = the wise one</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">After the vivid catalog of lower rebirths, the chapter pivots to the path out. Three qualities are named as the equipment for liberation: restraint (not harming beings), austerity (disciplined reduction of desires), and humility (the absence of ego and pride). The order is significant — restraint comes first because non-violence is the foundation; austerity deepens the practice; and humility is what prevents the practitioner from becoming proud of their spiritual accomplishments, which would itself be a form of ego-driven karma. The "wise one who has understood the meaning" is the person who has taken in the teaching of this chapter not as philosophical information but as a direct motivation to change. Having seen clearly where carelessness leads, they now commit to the path away from it.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Knowing all this, the wise person equipped with self-restraint, genuine discipline, and humility should now actively seek liberation — not someday, but now.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: What would it mean for you to actively seek liberation right now — not as a distant goal but as the actual project of your daily life?</p>
+  <div class="concept-tags"><span class="concept-tag">Restraint</span><span class="concept-tag">Austerity</span><span class="concept-tag">Humility</span><span class="concept-tag">Liberation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-20">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.20</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">ण कुज्जा पाणिणं हिंसं, ण वि हिंसावए परं ।<br>ण व अणुमोएज्ज हिंसं, एवं दुक्खं ण बंधए ॥७.२०॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">ṇa kujjā pāṇiṇaṃ hiṃsaṃ, ṇa vi hiṃsāvae paraṃ | ṇa va aṇumoejja hiṃsaṃ, evaṃ dukkhaṃ ṇa baṃdhae || 7.20 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Do not cause harm to living beings, do not cause another to harm them, and do not approve of harm to them — in this way, suffering is not bound.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>ṇa kujjā</em> = do not do, should not cause | <em>pāṇiṇaṃ</em> = of living beings | <em>hiṃsaṃ</em> = harm | <em>ṇa vi hiṃsāvae</em> = nor cause another to harm | <em>paraṃ</em> = another | <em>ṇa va aṇumoejja</em> = nor approve | <em>hiṃsaṃ</em> = harm | <em>evaṃ</em> = in this way | <em>dukkhaṃ</em> = suffering | <em>ṇa baṃdhae</em> = is not bound, does not accumulate</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The triple rule of non-violence — don't do it, don't cause others to do it, don't approve of it — covers the complete range of involvement in harm. The Jain analysis recognizes that harm can be committed directly (killing with one's own hands), instrumentally (hiring or ordering another to do it), or mentally (approving, celebrating, or tacitly endorsing when others harm). All three forms bind suffering to the soul. By contrast, the person who avoids all three is not accumulating karmic suffering-seeds. This is the practical application of the teaching that emerges from the entire catalog of lower rebirths: avoid all three forms of harm and the machinery that produces those lower rebirths is deactivated.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Don't harm any living being yourself, don't ask others to harm them, and don't approve when harm happens — do all three and you stop accumulating the suffering that leads to terrible rebirths.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Which of the three is hardest for you — the direct harm, the delegated harm, or the quiet approval?</p>
+  <div class="concept-tags"><span class="concept-tag">Triple Non-Violence</span><span class="concept-tag">Karma</span><span class="concept-tag">Practical Ethics</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-21">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.21</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अकोहो अमाणो अमाओ, अलोहो सच्चवाईया ।<br>सोहित्ता अप्पाणमप्पणा, मुच्चइ सव्वबंधणा ॥७.२१॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">akоho amāṇo amāo, aloho saccavāīyā | sohittā appāṇamappṇā, muccai savvabaṃdhaṇā || 7.21 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Free from anger, free from pride, free from deceit, free from greed, one who speaks truth — having purified the self by the self, one is freed from all bondage.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>akоho</em> = free from anger | <em>amāṇo</em> = free from pride | <em>amāo</em> = free from deceit, free from illusion | <em>aloho</em> = free from greed | <em>saccavāīyā</em> = one who speaks truth | <em>sohittā</em> = having purified | <em>appāṇam</em> = the self | <em>appṇā</em> = by the self | <em>muccai</em> = is freed | <em>savvabaṃdhaṇā</em> = from all bondage</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The four inner enemies are named directly: anger, pride, deceit, and greed. In Jain philosophy these are called the four passions (kashayas) — they are not minor character flaws but the fundamental forces that keep the soul in bondage. Anger generates karma through its destructive force; pride generates karma through the false sense of self-importance that it maintains; deceit generates karma through its systematic misrepresentation of reality (including self-deception); and greed generates karma through its insatiable grasping. Truth-speaking is added as the positive virtue that counteracts all four — a person who is committed to complete honesty cannot sustain anger, pride, deceit, or greed for long. The purification of the self by the self, noted here again, reinforces that liberation is self-accomplished.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Drop anger, pride, deceit, and greed — speak truth — and through your own inner work, you become free from all the chains that keep you trapped.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Of these four — anger, pride, deceit, greed — which is your most persistent inner companion right now?</p>
+  <div class="concept-tags"><span class="concept-tag">Four Passions</span><span class="concept-tag">Self-Purification</span><span class="concept-tag">Truth</span><span class="concept-tag">Liberation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-22">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.22</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जो हु जाणाइ संसारं, दुक्खं च बहुविहं अहो ।<br>सो णं ण रज्जइ संसारे, विणएण उ संजए ॥७.२२॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">jo hu jāṇāi saṃsāraṃ, dukkhaṃ ca bahuvihaṃ aho | so ṇaṃ ṇa rajjai saṃsāre, viṇaeṇa u saṃjae || 7.22 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">One who truly knows the cycle of existence and its many forms of suffering — that one is not attached to the cycle, and is restrained through humility.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>jo hu</em> = one who truly | <em>jāṇāi</em> = knows | <em>saṃsāraṃ</em> = the cycle of existence | <em>dukkhaṃ</em> = suffering | <em>ca</em> = and | <em>bahuvihaṃ</em> = of many kinds | <em>aho</em> = indeed, oh | <em>so ṇaṃ</em> = that one | <em>ṇa rajjai</em> = is not attached, does not delight | <em>saṃsāre</em> = in the cycle | <em>viṇaeṇa</em> = through humility | <em>u</em> = indeed | <em>saṃjae</em> = is restrained, is controlled</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">True knowledge of the cycle of existence — not as a concept but as a vivid, felt reality — naturally produces non-attachment. The person who has genuinely understood the catalog of lower rebirths described in this chapter, who has appreciated the suffering involved in existence as an earth-body, a worm, an insect, an animal, will not romanticize or cling to the cycle of existence. The cycle is not pleasurable once you see it clearly; it is exhausting, unpredictable, and saturated with forms of suffering at every level. This clear-seeing produces humility (viṇaya) — the antidote to the pride that would make a person insist on staying in the cycle on their own terms. The humble, clear-seeing person naturally lets go of the cycle's appeal.</p>
+  <p class="simple-explanation"><b>Simply put:</b> When you truly understand how much suffering runs through every form of existence, you naturally stop being attached to the cycle — and that understanding itself becomes a form of genuine humility.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: Do you sometimes find the cycle of existence — with its pleasures, relationships, and experiences — seductive enough that part of you doesn't really want to be free?</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Samsara</span><span class="concept-tag">Humility</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-23">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.23</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">गोयमा! भव-भयभीया, मुत्तिमग्गमणुत्तरं ।<br>पडिवज्जह णिव्वाणं, जं णत्थि परमं सुहं ॥७.२३॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">Goyamā! bhava-bhayabhīyā, muttimaggamaṇuttaraṃ | paḍivajjaha ṇivvāṇaṃ, jaṃ natthi paramaṃ suhaṃ || 7.23 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">O Gautama! Fearful of the fear of existence, take up the unsurpassed path of liberation — nirvana — which is the supreme happiness beyond which there is nothing.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>Goyamā</em> = O Gautama (address to Indrabhuti Gautama, Mahavira's chief disciple) | <em>bhava-bhayabhīyā</em> = fearful of the fear of existence | <em>muttimaggam</em> = path of liberation | <em>aṇuttaraṃ</em> = unsurpassed | <em>paḍivajjaha</em> = take up, accept, embrace | <em>ṇivvāṇaṃ</em> = nirvana, liberation | <em>jaṃ</em> = which | <em>natthi</em> = there is not | <em>paramaṃ</em> = supreme | <em>suhaṃ</em> = happiness, peace</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The teaching is now directed personally — addressed to Gautama (Indrabhuti), Mahavira's principal disciple, and through him to every sincere seeker. The phrase "fearful of the fear of existence" is remarkable: it means not paralyzed by fear but motivated by a clear-eyed understanding of what existence entails. This is not anxiety but wisdom-motivated urgency. The unsurpassed path is nirvana — not simply a better rebirth, not simply less suffering, but the supreme happiness that has nothing beyond it. This is the positive vision: liberation is not mere extinction of suffering but the attainment of the highest peace. The description of nirvana as "supreme happiness" counters the misunderstanding that liberation is bleak or empty — it is the fullest possible state of the soul.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Understanding how much suffering runs through all forms of existence, embrace the unsurpassed path of liberation — nirvana is the ultimate happiness, beyond which nothing more can be sought.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: What is your honest relationship with the goal of liberation — is it genuinely what you are working toward, or is it a background aspiration that your daily choices do not actually reflect?</p>
+  <div class="concept-tags"><span class="concept-tag">Nirvana</span><span class="concept-tag">Gautama</span><span class="concept-tag">Supreme Happiness</span><span class="concept-tag">Liberation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-24">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.24</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">संजओ संविभागी य, संविभागो परो तवो ।<br>समभावेण जो जीवे, से हु सग्गं च विंदई ॥७.२४॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">saṃjao saṃvibhāgī ya, saṃvibhāgo paro tavo | samabhāveṇa jo jīve, se hu saggaṃ ca viṃdai || 7.24 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The one who is restrained and shares (what they have), sharing is the supreme austerity; one who lives with equanimity attains both the celestial realm and (beyond).</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>saṃjao</em> = restrained, disciplined | <em>saṃvibhāgī</em> = one who shares | <em>saṃvibhāgo</em> = sharing | <em>paro</em> = supreme | <em>tavo</em> = austerity | <em>samabhāveṇa</em> = with equanimity, with equal-minded attitude | <em>jo</em> = one who | <em>jīve</em> = lives | <em>se hu</em> = that one indeed | <em>saggaṃ</em> = heavenly realm, celestial | <em>ca</em> = and | <em>viṃdai</em> = attains, finds</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces sharing (saṃvibhāga) as a practice alongside restraint and equanimity. The declaration that sharing is "the supreme austerity" is striking — austerity is usually associated with self-denial, but here the greatest austerity is the outward act of sharing. This reflects a deep insight: the most effective way to reduce attachment is to actively give things away. The person who shares freely has loosened the grip of possession in a way that a person who merely avoids acquiring new things has not. The combination of restraint (not harming), sharing (active generosity), and equanimity (inner balance regardless of circumstances) constitutes the complete practical path. Equanimity in particular is described as the quality that leads to the best possible next existence — both celestial rebirths and ultimately liberation.</p>
+  <p class="simple-explanation"><b>Simply put:</b> The one who is self-restrained, generous with what they have, and lives with inner balance — that person moves toward the best possible forms of existence.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: When did you last give something away not out of obligation or social pressure but out of genuine generosity and lightness?</p>
+  <div class="concept-tags"><span class="concept-tag">Sharing</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Austerity</span><span class="concept-tag">Generosity</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-7-25">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.25</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयं सुणित्ता णिसमिच्च धम्मं, अहिंसगं सव्वपाणहियं ।<br>पडिवज्जह खिप्पमेव धम्मं, इइ बेमि ॥७.२५॥</p>
+  <p class="text-sm text-on-surface-variant italic leading-relaxed">eyaṃ suṇittā nisamicca dhammaṃ, ahiṃsagaṃ savvapāṇahiyaṃ | paḍivajjaha khippameva dhammaṃ, iti bemi || 7.25 ||</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard and understood this teaching of non-violence, beneficial for all living beings — take up this teaching quickly. — iti bemi (Thus I say.)</p>
+  <p class="text-base text-on-surface-variant leading-relaxed"><span class="font-semibold text-on-surface">Anvayartha:</span> <em>eyaṃ</em> = this | <em>suṇittā</em> = having heard | <em>nisamicca</em> = having understood, having absorbed | <em>dhammaṃ</em> = teaching | <em>ahiṃsagaṃ</em> = of non-violence | <em>savvapāṇahiyaṃ</em> = beneficial for all living beings | <em>paḍivajjaha</em> = take up, embrace | <em>khippameva</em> = quickly, without delay | <em>dhammaṃ</em> = the teaching | <em>iti bemi</em> = thus I say</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The final sutra closes the chapter with an urgency that has been building since the beginning: "take it up quickly." The word khippa — quickly, without delay — carries a specific charge. The teaching of this chapter — the catalog of lower rebirths, the causes of suffering, the path away — is precisely the kind of teaching that benefits from being absorbed and acted upon now, not stored as future knowledge. The human birth is described elsewhere as extraordinarily rare and precious; to have this birth and this teaching available simultaneously is doubly rare. To receive it and then delay implementing it is to waste a profound opportunity. The traditional closing formula "Thus I say" anchors the teaching in the authentic transmission from Mahavira through Sudharma.</p>
+  <p class="simple-explanation"><b>Simply put:</b> Having truly understood this teaching of non-violence — which benefits every living being — take it up now, without delay. — Thus I say.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed italic border-l-2 border-primary/30 pl-4 mt-2">Contemplate: What teaching have you fully understood intellectually but keep postponing putting into actual practice — and how much longer will you wait?</p>
+  <div class="concept-tags"><span class="concept-tag">Urgency</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Commitment</span></div>
+  </div></div></article>
+
+</section>
+
+<a href="sutrakritang-ch6.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 6</a>
+<a href="sutrakritang-ch8.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 8 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll',()=>{const v=window.scrollY>300;document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('visible',v))});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body></html>

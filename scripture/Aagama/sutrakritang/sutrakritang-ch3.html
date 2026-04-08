@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 3: Consciousness | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","surface-container-low": "#f8f3eb","surface-container": "#f2ede5","surface-container-high": "#ece8e0",
+        "tertiary": "#4d5a98","tertiary-container": "#9ba8eb","on-tertiary": "#ffffff","error": "#ba1a1a",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.1rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+
+<main class="pt-40">
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 3</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Consciousness<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">Cetana</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">The soul that knows is different from the matter it knows.</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The soul is conscious; matter is not. The earth, water, fire, and air that make up the body are not the self. The self is the pure knowing awareness that inhabits the body. Understanding this distinction is the foundation of genuine non-attachment and the doorway to liberation.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">चेयणं परिजाणिया, अचेयणं च जाणिया।<br/>एवं जे बुज्झइ धीरो, स मुच्चइ न बज्झइ॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"Understanding what is conscious and what is unconscious — the wise one who thus comprehends is freed and not bound." — Sutrakritanga 3</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Cetana</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">The third chapter addresses one of the deepest questions in Jain philosophy: what is the soul, and what is it not? The teaching systematically distinguishes consciousness — the knowing, aware soul — from all forms of matter, including the four classical elements (earth, water, fire, air) and the body they compose. Several philosophical schools of the period taught that the soul is identical to the body or to some material element. This chapter refutes each version of that claim.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The practical consequence of this distinction is non-attachment. When the monk truly understands that he is the conscious knowing principle — not the body, not the mind, not the accumulated personality — he naturally stops clinging to these material things. The chapter closes with the universal teaching: understanding the soul in oneself is understanding the soul in all beings, which is the philosophical root of non-violence.</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">26</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 3 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 26 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I — Consciousness and Matter Distinguished</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चेयणं परिजाणिया, अचेयणं च जाणिया। ॥३.१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood what is conscious and having understood what is unconscious — one is freed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter opens with its central distinction: consciousness versus unconsciousness, soul versus matter. In Jain philosophy, the soul is by definition conscious — it knows, it experiences, it is aware. Matter is by definition unconscious — it does not know; it is known. Confusing the two is the root of bondage. Identifying the conscious self with an unconscious body, with unconscious sensations, with unconscious social roles — this confusion generates attachment, and attachment generates karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The soul is the knower; the body is what is known. Mixing up the two is where suffering begins.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul</span><span class="concept-tag">Matter</span><span class="concept-tag">Consciousness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जो य जीवो सो अजीवो, एयं नाणं न विज्जइ। ॥३.२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">That which is the soul is not the non-soul — this knowledge does not reside in the ignorant.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra states what sounds obvious but is, in practice, deeply counterintuitive: the soul is not the body. The soul is not the emotions. The soul is not the accumulated opinions and preferences and habits that make up the personality. All of these are material in the Jain sense — they are processes of matter interacting with matter. Only the knowing awareness at the center is the soul. The ignorant person does not have this knowledge — not because they haven't heard the teaching, but because they haven't realized it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The soul and the body are genuinely different things. Most people live as though they are the same — that confusion is ignorance.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul vs Non-Soul</span><span class="concept-tag">Ignorance</span><span class="concept-tag">Knowledge</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आया अणायाए मिस्से, मिस्सं नाणी विभावए। ॥३.३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul is mingled with non-soul — the knowing one distinguishes them.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces a crucial nuance: the soul and matter are intermixed in ordinary experience, not neatly separated. The soul is embedded in a body, surrounded by karmic matter, expressed through material faculties like speech and action. The task of the monk is not to physically separate soul from body — that is impossible while alive — but to distinguish them in understanding. The knowing one sees through the mixture to what is soul and what is matter.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In everyday life, soul and matter are mixed together. The monk's job is to see clearly which is which — not to physically separate them.</p>
+        <div class="concept-tags"><span class="concept-tag">Mixture</span><span class="concept-tag">Discernment</span><span class="concept-tag">Wisdom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न सो आया जो गिण्हइ, न सो आया जो मुयइ। ॥३.४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul is not that which grasps; the soul is not that which releases.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a subtle and important sutra. Grasping and releasing are functions of karma and the senses — they are material processes. The soul itself neither grasps nor releases; it is the pure knowing that witnesses these processes. When a person grasps at a pleasant object, it is the karmic and sensory apparatus that grasps — not the soul. The soul that is confused with the grasping identifies with it. The soul that is understood as distinct remains the witness.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The soul doesn't grab or let go — it knows. Grabbing and letting go are what the material self does. The real self watches.</p>
+        <div class="concept-tags"><span class="concept-tag">Pure Witness</span><span class="concept-tag">Grasping</span><span class="concept-tag">Soul Nature</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चेयणा सा ण माइया, पडिलेहाए जाणिया। ॥३.५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Consciousness is not measurable — it is known through direct insight.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Matter can be measured, quantified, weighed, counted. Consciousness cannot. The soul is not a quantity of anything. It is pure knowing awareness. This means that consciousness cannot be confirmed through the methods used to verify material things. It is known through a different kind of knowing — direct inner insight, the immediate awareness of awareness itself. This sutra points toward the meditative dimension of Jain practice.</p>
+        <p class="simple-explanation"><b>The simple version:</b> You can't measure the soul the way you measure a stone. It is known by turning awareness inward, not outward.</p>
+        <div class="concept-tags"><span class="concept-tag">Consciousness</span><span class="concept-tag">Direct Insight</span><span class="concept-tag">Immeasurable</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">परमाणुं न जाणंति, ण य जाणंति दव्वियं। ॥३.६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">They do not know the ultimate particle, nor do they know the nature of substance.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra critiques those who reduce everything to matter — materialist thinkers who claim the universe is nothing but particles. Even if one knew every particle in the universe, one would still not have explained consciousness, because consciousness is not a particle. The Jain view holds that the universe contains two fundamental categories: matter (including what we would call energy and physical phenomena) and soul (consciousness). Neither is reducible to the other.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even complete knowledge of the physical world doesn't explain why there is experience at all. The soul is a different kind of thing.</p>
+        <div class="concept-tags"><span class="concept-tag">Materialism Refuted</span><span class="concept-tag">Soul Realism</span><span class="concept-tag">Philosophy</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चेयणं जाण अप्पाणं, अचेयणं च जाणिया। ॥३.७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Know the self as conscious; know the non-self as unconscious.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra restates the core distinction in the form of a direct instruction. "Know" here means more than intellectual acknowledgment — it means realize, embody, act from. The monk who truly knows himself as conscious — as pure knowing awareness — and knows everything else as unconscious matter, has the foundation for genuine non-attachment. There is nothing in the material world to identify with, because the self is clearly something altogether different.</p>
+        <p class="simple-explanation"><b>The simple version:</b> You are the one who is aware. Everything else — including your body, your thoughts, your feelings — is what you are aware of. Know the difference.</p>
+        <div class="concept-tags"><span class="concept-tag">Self-Knowledge</span><span class="concept-tag">Consciousness</span><span class="concept-tag">Non-Attachment</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण य मे कायसंपएसे, नाणं दसणं च विज्जइ। ॥३.८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Knowledge and perception do not reside in the body — they are properties of the soul alone.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra makes the philosophical point explicit: knowing and perceiving are not functions of the brain or the nervous system in the Jain view. They are properties of the soul. The body is the instrument through which the soul engages with the material world, but the knowing is the soul's own. When the body dies, the soul's capacity to know does not die — it continues, embodied in a new form, until it reaches liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Knowing and seeing are what the soul does, not what the body does. The body is a vehicle; the soul is the driver.</p>
+        <div class="concept-tags"><span class="concept-tag">Knowledge</span><span class="concept-tag">Perception</span><span class="concept-tag">Soul Property</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जो उवलंभए आया, सो मुच्चइ न बज्झइ। ॥३.९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The one who realizes the soul is freed and not bound.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Realizes" — not merely understands but directly experiences — the soul as distinct from matter. This realization is the turning point of the spiritual life. Before it, all practice is preparation. After it, liberation is inevitable. The monk who has this realization acts without clinging to results, speaks without craving approval, and endures hardship without resentment, because he knows himself to be the soul — and the soul is untouched by any of these things.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The moment you truly realize what you are — the soul — freedom begins. Everything else follows from that.</p>
+        <div class="concept-tags"><span class="concept-tag">Realization</span><span class="concept-tag">Liberation</span><span class="concept-tag">Freedom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं भेयं विजाणिया, धम्मे ठाइज्ज पंडिए। ॥३.१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus knowing this distinction, the learned one should stand firm in the teaching.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The first section closes with a call to action: knowing the distinction between soul and matter, stand firm in it. Don't just understand it theoretically and then live as if the body is the self again the moment hardship arises. "Standing firm in the teaching" means making this understanding the stable orientation of one's life — the lens through which every sensation, every interaction, every moment of practice is viewed.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Understanding the soul-matter distinction is the beginning, not the end. The monk must live from this understanding, not just know it.</p>
+        <div class="concept-tags"><span class="concept-tag">Steadfastness</span><span class="concept-tag">Teaching</span><span class="concept-tag">Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II — The Four Elements Are Not the Soul</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पुढवी आउ तेउ वाऊ, एए चत्तारि धाउणो। ॥३.११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Earth, water, fire, and air — these are the four elements.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The four-element theory was common to several Indian philosophical traditions of the era. Here the Jain text introduces it in order to systematically refute the claim that the soul is identical to any element or to the elements combined. The elements are material substances; the soul is not material. The distinction will be developed in the sutras that follow.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Earth, water, fire, air — these four are what the physical world is made of. The soul is none of them.</p>
+        <div class="concept-tags"><span class="concept-tag">Four Elements</span><span class="concept-tag">Matter</span><span class="concept-tag">Foundation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न आया पुढवीकाए, न आया आउकाए। ॥३.१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul is not the earth-body; the soul is not the water-body.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Some philosophical schools taught that the soul is identical to the body, and since the body is made of earth and water (and fire and air), the soul would be identical to these elements. The Jain refutation is direct: the elements are unconscious; the soul is conscious. An unconscious thing cannot become conscious by being arranged in a particular way — the Jain argument holds that consciousness must have an independent origin.</p>
+        <p class="simple-explanation"><b>The simple version:</b> You are not made of earth and water. The part of you that knows — that is aware — is not a material element.</p>
+        <div class="concept-tags"><span class="concept-tag">Earth</span><span class="concept-tag">Water</span><span class="concept-tag">Soul Distinct</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न आया तेउकाए, न आया वाउकाए। ॥३.१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul is not the fire-body; the soul is not the air-body.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The refutation continues through all four elements. Fire and air were sometimes proposed as particularly close to consciousness — fire because it is active and consuming, air because it is invisible and all-pervasive. But the Jain teaching holds that neither heat nor movement is consciousness. The soul is distinct from all material processes, however subtle or energetic they may be.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Not fire, not air, not any physical thing — the soul is none of these. It is something categorically different.</p>
+        <div class="concept-tags"><span class="concept-tag">Fire</span><span class="concept-tag">Air</span><span class="concept-tag">Soul Distinct</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एएहिं धाउहिं भिन्ने, आया अण्णो विभाविए। ॥३.१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Distinct from these four elements, the soul is understood as something altogether different.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Altogether different" is a strong philosophical claim. The soul does not emerge from the elements, is not a property of the elements combined, and is not reducible to them. This position — called soul-realism — is one of the defining features of Jain philosophy. The soul has its own existence, its own qualities, its own modes of development and liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The soul is not a by-product of matter. It is its own kind of thing, with its own existence.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Realism</span><span class="concept-tag">Independent Soul</span><span class="concept-tag">Jain Philosophy</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सरीरसामग्गि नाम, न सो आया ति नाणिणो। ॥३.१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The assemblage of the body — that is not the soul, say the knowers.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra addresses a more sophisticated materialist claim: that the soul is not one element but the system of elements working together — the body as a whole. The knowers, the realized teachers, say no: the body-as-system is still material, still unconscious, still subject to birth and death and decay. The soul is not the system. The soul is what uses and inhabits the system.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even the whole body put together is not the soul. The soul is what lives in the body, not what the body is.</p>
+        <div class="concept-tags"><span class="concept-tag">Body-System</span><span class="concept-tag">Materialism Refuted</span><span class="concept-tag">Soul</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न देहो न इंदिया, न मणो न य आसवा। ॥३.१६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Not the body, not the senses, not the mind, not the influxes — none of these is the soul.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra expands the list of what the soul is not. Even the mind — the thinking, reasoning, remembering, imagining faculty — is not the soul in Jain philosophy. The mind is a subtle material faculty. The soul is what uses the mind, not what the mind is. Similarly, the influxes of karma — the tendencies and passions that drive action — are not the soul but the soul's temporary condition. This precise negative definition clears away every layer of misidentification.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The soul is not your body, not your senses, not your thoughts, not your emotional tendencies. It is what remains when you see through all of those.</p>
+        <div class="concept-tags"><span class="concept-tag">Neti Neti</span><span class="concept-tag">Mind</span><span class="concept-tag">Soul Identity</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जो चेव जाणए भावे, सो आया ति निच्छए। ॥३.१७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">That which knows the states of existence — that, it is established, is the soul.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">After all the negative definitions, here is the positive one: the soul is that which knows. It is the knowing itself — not any particular content of knowledge, not any particular object known, but the pure knowing awareness that underlies all experience. This is both philosophically precise and practically useful: when you want to find the soul, you look not at any object of experience but at the awareness that makes experience possible.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The soul is the knowing. Whatever it is in you that is aware — that is the soul.</p>
+        <div class="concept-tags"><span class="concept-tag">Pure Knowing</span><span class="concept-tag">Soul Defined</span><span class="concept-tag">Awareness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एयं जाणिय आया, बाहिरं नाणुसोयइ। ॥३.१८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having known the soul thus, one does not follow after external things.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The practical consequence of knowing the soul is non-attachment to externals. When you know yourself to be the pure knowing awareness, you do not need objects to complete you. You do not follow after wealth, status, pleasure, or approval, because you have found what you were actually looking for in all those pursuits — the awareness that was already there. The monk who knows the soul rests in that knowing rather than chasing what is outside.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When you know what you really are, you stop chasing things outside yourself. The restless search ends.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Externals</span><span class="concept-tag">Inner Fulfillment</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III — The Path of Correct Understanding</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे बुज्झइ अप्पाणं, से बुज्झइ परं च। ॥३.१९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who understands the self also understands others.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a remarkable statement about the relationship between self-knowledge and knowledge of others. When one truly understands the soul as the conscious knowing principle, one understands that every other being also has this same conscious principle at their core. This is the philosophical root of the Jain commitment to non-violence: every living being is a soul in the process of trying to find liberation. Understanding this makes harm to others the same as harm to oneself.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Know yourself and you know everyone. Every living being has the same soul — the same conscious knowing — at their center.</p>
+        <div class="concept-tags"><span class="concept-tag">Self-Knowledge</span><span class="concept-tag">Universal Soul</span><span class="concept-tag">Non-Violence Root</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जो आया सो परो आया, एयं सम्मं विजाणिया। ॥३.२०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">What is the soul of oneself is also the soul of others — truly understanding this.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra makes the universality of the soul explicit. Not "similar souls" or "souls of the same kind" — the soul-nature is the same. The specific contents of karma and personality differ from soul to soul, but the conscious, knowing principle itself is the same quality in every living being. This insight — when genuinely realized rather than merely repeated — dissolves the felt distinction between self and other that underlies all violence and exploitation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Your soul and every other soul are the same kind of thing. What matters to you matters to them. What hurts you hurts them.</p>
+        <div class="concept-tags"><span class="concept-tag">Universal Consciousness</span><span class="concept-tag">Oneness</span><span class="concept-tag">Compassion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.21</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">समयाए सव्वभूएसु, दंडं न निक्खिवे। ॥३.२१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Seeing all beings equally, one should lay down the stick — causing no harm to any.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Laying down the stick" is a vivid image of renouncing violence in thought, word, and action. The monk who has understood the soul-nature of all beings cannot pick up the stick — cannot harm, cannot threaten, cannot even wish harm — because to harm another is to harm what is essentially the same as oneself. Seeing equally does not mean ignoring difference; it means recognizing the shared consciousness beneath all the differences.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When you see yourself in every being, violence becomes impossible. You put down the weapon because there is no "enemy" anymore.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Equal Seeing</span><span class="concept-tag">Ahimsa</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.22</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न य आया कत्ता कम्मस्स, न य भोत्ता अहंकारे। ॥३.२२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The soul is not the doer of karma; it is not the experiencer through ego.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra presents one of the most subtle teachings in Jain philosophy. In the ignorant state, the soul appears to be both the doer (creating karma through action driven by passion) and the experiencer (suffering the results through the sense of "I"). But in reality, in its pure nature, the soul is neither. The doing and the experiencing belong to the karmic-material complex — the soul's pure mode is knowing, not doing and experiencing in the bondage-creating sense.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In its true nature, the soul doesn't create karma and doesn't suffer karma. It's only the confused soul — wrapped in ego — that does. The pure soul just knows.</p>
+        <div class="concept-tags"><span class="concept-tag">Pure Soul</span><span class="concept-tag">Ego</span><span class="concept-tag">Non-Doer</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.23</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अहंकार निवत्तिया, परिण्णाय समाहिए। ॥३.२३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">With ego dissolved, having fully understood, he remains composed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Ego" in the Jain sense is not the healthy sense of self-respect or agency — it is the specific confusion that identifies the soul with the body, with social roles, with accumulated possessions and relationships. When this specific confusion dissolves through correct understanding, what remains is not emptiness but pure knowing, established in equanimity. The monk does not lose himself — he finds himself, without the distorting overlay of ego.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When ego is dissolved, what's left is pure, clear awareness. Not nothing — something much cleaner and freer than before.</p>
+        <div class="concept-tags"><span class="concept-tag">Ego Dissolution</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Pure Awareness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.24</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न जाइ न जरा न मच्चू, आयाए नत्थि णिच्छए। ॥३.२४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">There is no birth, no old age, no death — this is the established truth of the soul.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The soul does not actually undergo birth, aging, and death — those are processes of the body. The soul transmigrates, takes new embodiments, and ultimately reaches liberation — but the soul itself is not born and does not die. In liberation, the soul exists in its pure state, free from all embodiment. This sutra is pointing toward the soul's immortality — not the continuation of the personality, but the persistence of the pure conscious principle.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The real you doesn't age or die. The body does. The soul continues, until it reaches final liberation.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Immortality</span><span class="concept-tag">Birth and Death</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एस मग्गे विसोहीए, जेण मुच्चंति मेहावी। ॥३.२५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the path of purification by which the wise are freed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter identifies its teaching as "the path of purification." Purification means the progressive removal of karmic matter from the soul — not making the soul better (the soul is already perfect in its nature) but uncovering what the soul already is. The wise are freed through this path: through understanding the distinction between soul and matter, practicing non-attachment, enduring sensation without reaction, and thereby exhausting accumulated karma without creating new karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The path is purification — not improving the soul but uncovering it. Remove what's in the way, and what remains is freedom.</p>
+        <div class="concept-tags"><span class="concept-tag">Purification</span><span class="concept-tag">The Path</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.26</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं चेयणियं नाऊण, जाणिया सव्वसंपहू। ॥३.२६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, having understood the chapter on consciousness, one knows all things fully. — iti bemi</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The closing "iti bemi" seals the chapter with the traditional affirmation of the Tirthankaric transmission. The claim — that understanding the soul-matter distinction amounts to knowing all things fully — is the Jain view that the fundamental philosophical problem of existence is the confusion of soul and matter. Resolve that confusion through genuine understanding, and the entire structure of bondage, karma, and liberation becomes transparent. Nothing further need be added.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Understand the soul, understand everything. The teacher has spoken.</p>
+        <div class="concept-tags"><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Completion</span><span class="concept-tag">Transmission</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+</main>
+
+<a href="sutrakritang-ch2.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 2</a>
+<a href="sutrakritang-ch4.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 4 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body></html>

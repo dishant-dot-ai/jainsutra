@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 14: Gramadharma | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#755b00","on-primary":"#ffffff","primary-container":"#c9a84c","on-primary-container":"#503d00","surface":"#fef9f1","on-surface":"#1d1c17","surface-variant":"#e7e2da","on-surface-variant":"#4d4637","outline":"#7e7665","outline-variant":"#d0c5b2","surface-container-low":"#f8f3eb","surface-container":"#f2ede5","surface-container-high":"#ece8e0","tertiary":"#4d5a98","on-tertiary":"#ffffff","error":"#ba1a1a"},fontFamily:{"headline":["Noto Serif","serif"],"body":["Inter","sans-serif"],"label":["Inter","sans-serif"]},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"}}}}
+</script>
+<style>
+html{scroll-behavior:smooth}
+.burnished-gradient{background:radial-gradient(circle at center,#755b00,#c9a84c)}
+.sutra-card{border:1px solid rgba(201,168,76,0.25);border-left:3px solid #c9a84c;background:white}
+.sutra-sanskrit{font-size:1.35rem;line-height:2;color:#503d00}
+.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size:1.1rem;line-height:1.7;color:#4d4637}
+.simple-explanation b{color:#755b00;font-weight:600}
+.concept-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:1rem}
+.concept-tag{display:inline-block;border:1px solid #C9A84C;color:#1d1c17;font-family:'Inter',sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;border-radius:100px;padding:4px 13px;font-weight:500}
+.nav-button{position:fixed;bottom:24px;z-index:100;background:transparent;border:1px solid rgba(201,168,76,0.35);color:rgba(201,168,76,0.6);transition:all 0.5s cubic-bezier(0.4,0,0.2,1);opacity:0;pointer-events:none;transform:translateY(20px)}
+.nav-button.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+.nav-button:hover{border-color:#C9A84C;color:#C9A84C}
+.glass-nav{background:rgba(248,247,246,0.85);backdrop-filter:blur(20px)}
+.section-divider{margin:2.5rem 0 1.5rem;display:flex;align-items:center;gap:1rem}
+.section-divider span{font-family:'Noto Serif',serif;font-size:0.875rem;text-transform:uppercase;letter-spacing:0.2em;color:#755b00;font-weight:600;white-space:nowrap}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:rgba(201,168,76,0.3)}
+#main-nav a{text-decoration:none}.nav-link{text-decoration:none}
+@media(max-width:768px){.nav-button{bottom:16px}.nav-button.left-btn{left:12px!important}.nav-button.right-btn{right:12px!important}.sutra-sanskrit{font-size:1.15rem}}
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body bg-white">
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 14</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Village Religion<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">ग्रामधर्म</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">The Monk Who Moves Through the World</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Through village and city, through forest and mountain cave — the monk's practice is tested not in protected solitude but in the full complexity of human settlement. This chapter teaches the complete code for the wandering monk's village conduct, the proper form of the alms round, and the householder's duty in receiving the monk. Equanimity is not a mood — it is a way of moving.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">ग्रामं च णयरं च, रण्णं च गिरिकंदरं।<br>समयाए विहरेज्जासि, मुणी दंतो ससंजमो॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"Through village and city, through forest and mountain cave — the restrained, disciplined sage wanders with equanimity." — Sutrakritanga 14</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Gramadharma</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">Chapter 14 of the Sutrakritanga takes the monk out of the forest and into the village — and in doing so, tests everything the practice has built. The chapter opens with the wandering monk's complete geographic range: village, city, forest, and mountain cave. Through all of them, the same character is required. The first movement addresses village conduct — how the monk enters settlements without forming bonds, seeks alms without preference, chooses sleeping locations without attachment, and behaves consistently regardless of who is watching.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The second movement covers the alms round in precise detail: the monk's motive, the manner of receiving food, the emotional discipline required when offerings are generous or poor, and the ethical care that keeps the alms relationship from drifting into dependency. The third movement turns to the householder's side of the encounter — what it means to give with genuine understanding, how discernment makes generosity spiritually effective, and how the householder's own path is a real version of the teaching. The chapter closes by returning to the image it opened with: the monk moving lightly through all environments, restrained and virtuous everywhere.</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">44</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 14 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 44 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I — The Monk Enters the Village (1–12)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-1">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.1</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">गामं च णयरं च, रण्णं च गिरिकंदरं।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Village and city, forest and mountain cave.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The chapter opens by naming the full range of environments the wandering monk will move through. Village and city represent the human world with its complexity of relationships, social pressures, and daily commerce. Forest and mountain cave represent the solitary environments of deep practice. The monk moves through all of these with equanimity — the practice is not protected by being limited to conducive environments but tested by moving through all environments.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk's equanimity must hold in every environment. If it only works in peaceful solitude, it is not yet real equanimity.</p>
+  <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">All Environments</span><span class="concept-tag">Wandering</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-2">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.2</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">समयाए विहरेज्जासि, मुणी दंतो ससंजमो।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The restrained, disciplined monk wanders with equanimity.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The featured verse's teaching: the movement through all these environments is done "with equanimity" — not with the effort of maintaining equanimity, but with equanimity as the mode of movement itself. The monk is described as "restrained" and "disciplined" — these are qualities that have been built through years of practice, not attitudes assumed for the current walk. The disciplined person enters the village the same way they would enter the forest: the environment changes, the monk does not.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Equanimity is not something you maintain — it is something you are. At this stage, the environment simply cannot disturb it.</p>
+  <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Restraint</span><span class="concept-tag">Discipline</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-3">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.3</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">गामाणुगामं दूइज्जइ, न य गेहे पडिबज्झए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He moves from village to village and is not attached to any household.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Movement from village to village prevents the accumulation of specific bonds. Each new village is approached fresh — without the history of past favors, without the expectation of future hospitality, without the social debt that builds up when a monk stays too long in one place. The instruction "not attached to any household" names the specific danger of prolonged village residence: particular families become "his" families, and the monk has begun to re-enter the possessive structure of household life.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Moving on regularly prevents the formation of specific bonds. The monk who has "his families" in a village has begun to have possessions again.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Wandering</span><span class="concept-tag">Household Bonds</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-4">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.4</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">सव्वत्थ समए होज्जा, एयं सील सुव्वए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should be composed everywhere — this is the excellent vow of virtue.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">"Everywhere" encompasses both the easy and the difficult environments. The "excellent vow of virtue" is the commitment to maintain composure not just when it is natural to be composed but also when the environment is testing. The social chaos of a busy village market, the demands of a hospitable family, the provocations of hostile residents — all of these are included in "everywhere." The vow is an advance commitment to composure in conditions that have not yet been tested.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Composure as a vow means committing to it before you know how hard it will be. That is what makes it a genuine vow.</p>
+  <div class="concept-tags"><span class="concept-tag">Composure</span><span class="concept-tag">Virtue</span><span class="concept-tag">Vow</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-5">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.5</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">णाइसंगे घरे वसे, ण य गिद्धे रसे रए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not associate excessively with relatives in households, nor is he attached to tastes and pleasures.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The two specific temptations of village life are named together: the pull of family bonds and the pull of food pleasure. Monastic rules about food exist because the pleasure of eating is among the most immediate and powerful sensory attachments. The warm meal, prepared with skill and offered with affection by people who care about the monk — this is precisely the combination that softens the edge of renunciation. The instruction names the temptation clearly.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The two most common ways monks lose their edge in villages are family bonds and food pleasure. Both are named as specific dangers.</p>
+  <div class="concept-tags"><span class="concept-tag">Family Bonds</span><span class="concept-tag">Food Attachment</span><span class="concept-tag">Village Temptation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-6">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.6</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">समुट्ठिए पाणभोयणे, पगासे चेव भिक्खए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should seek food when it is offered openly and publicly.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The instruction about how to seek food in a village is practical monastic regulation. The monk should accept food that is offered in the open, visible to all — not food prepared specially in a back room, not food that involves a private transaction between the monk and a particular householder. Public, open offering maintains the integrity of the alms relationship: the householder gives freely, the monk receives what is offered without special request, and the exchange is transparent to the community.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Transparency in receiving alms protects both the monk and the householder. Hidden arrangements corrupt the relationship.</p>
+  <div class="concept-tags"><span class="concept-tag">Alms</span><span class="concept-tag">Transparency</span><span class="concept-tag">Integrity</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-7">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.7</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अप्पं च तत्थ भुंजेज्ज, जहा वा सेसयं न सिया।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should eat little there, so that no remainder is left.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The instruction to eat only what will leave no remainder is a teaching about precise sufficiency. The monk eats what the body needs, not what the appetite wants. Calculating the correct amount requires honest self-knowledge: how much does this body need to maintain practice? The answer is less than most people eat and precisely what leaves no surplus. The surplus that is returned to the householder creates obligation; the surplus left in the forest causes harm to animals who fight over it.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Eat exactly what you need — no more. The practice of precise sufficiency is itself a discipline.</p>
+  <div class="concept-tags"><span class="concept-tag">Sufficiency</span><span class="concept-tag">Non-Possession</span><span class="concept-tag">Food Discipline</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-8">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.8</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न य तत्थ वसेज्जासि, जत्थ नारी अयाणमाणे।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not stay where women are not properly regulated.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The instruction about where to stay the night is about the conditions that support the continuation of the celibacy vow. The concern is not with women as such but with environments where the social conditions make the celibacy vow difficult to maintain. The monk chooses sleeping locations with the same deliberateness that he chooses all other aspects of his practice. Environment is not neutral — it shapes what is easy and what is difficult.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Choosing your environment carefully is part of maintaining your practice. The monk does not leave this to chance.</p>
+  <div class="concept-tags"><span class="concept-tag">Celibacy</span><span class="concept-tag">Environment</span><span class="concept-tag">Deliberate Living</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-9">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.9</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">सयणासणजोगिए, विविक्ते अणुपालए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should tend to sleeping and sitting in seclusion.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Seclusion for rest is not anti-social — it is the monk's recognition that rest itself is practice. The quality of sleep is different in a crowded household than in a quiet forest or empty space. The monk needs the seclusion not for comfort but because the inner processes of practice continue during sleep and are enhanced by quiet. Sleeping in the middle of household noise and activity disrupts the inner work that the waking practice has set in motion.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Even sleep is part of the practice. The conditions of rest shape the quality of the waking practice.</p>
+  <div class="concept-tags"><span class="concept-tag">Seclusion</span><span class="concept-tag">Rest as Practice</span><span class="concept-tag">Inner Work</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-10">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.10</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">ण कुज्झे णो य हासेज्ज, ण य किज्जइ किंचिणं।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not become angry, not laugh excessively, not be idle.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Three specific behavioral guidelines for village residence are given. Anger in the village is particularly dangerous because it creates enemies, disrupts the relationships needed for alms, and generates karma. Excessive laughter signals loss of the monk's gravity and signals to the community that the monk is not seriously practicing. Idleness wastes the rare opportunity that village residence provides for the teaching to reach householders. All three undermine the monk's function.</p>
+  <p class="simple-explanation"><b>The simple version:</b> How a monk behaves in the village teaches as much as anything he says. Anger, frivolity, and laziness all communicate that the practice is not real.</p>
+  <div class="concept-tags"><span class="concept-tag">Anger</span><span class="concept-tag">Gravity</span><span class="concept-tag">Vigilance</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-11">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.11</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न कलहं न विरोहं च, न य मिच्छं पगासए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not create quarrels or opposition, nor declare falsehood.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The social texture of village life involves ongoing conflicts — family disputes, neighbor disagreements, community divisions. The monk who enters these conflicts has entered the village's social structure as a participant rather than as a witness. The instruction is to remain outside these dynamics not through indifference but through deliberate non-participation. Similarly, declaring falsehood in any context — even the comfortable social falsehoods of polite village interaction — violates the truth vow.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk does not take sides in village disputes and does not tell comfortable lies. Both require a kind of courage.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Conflict</span><span class="concept-tag">Truth</span><span class="concept-tag">Non-Participation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-12">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.12</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एवं विहरइ भिक्खू, गामे णयरे य सव्वओ।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus the monk wanders through village and city in all directions.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The summary of Part I describes the monk's movement as complete — through all directions, through all kinds of human settlements, with the consistent character described in the preceding eleven sutras. The monk does not have a "village mode" and a "forest mode" that are different — the practice is the same everywhere. The monk who behaves differently in the village than in the forest has not yet integrated the practice into a stable identity.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk is the same person in every place. Consistency of conduct across all environments is the test of genuine practice.</p>
+  <div class="concept-tags"><span class="concept-tag">Consistency</span><span class="concept-tag">Integrated Practice</span><span class="concept-tag">Identity</span></div>
+  </div></div></article>
+
+  <div class="section-divider"><span>Part II — Alms and Interaction (13–24)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-13">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.13</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">भिक्खाचरिए चरमाणे, गिहत्थे एज्ज भिक्खए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Going on the alms round, he approaches the householder for food.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The alms round is the monk's daily engagement with the village. It is not begging in the degrading sense — it is a formal interaction that has specific rules for both parties and that, when performed correctly, is a mutual teaching. The monk's approach communicates: I am practicing non-possessiveness completely enough to depend on whatever this household offers today. The householder's response is the practice of generosity. Both are practicing simultaneously.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The alms round is a practice for both the monk and the householder. It is not a charity transaction but a mutual spiritual exercise.</p>
+  <div class="concept-tags"><span class="concept-tag">Alms Round</span><span class="concept-tag">Generosity</span><span class="concept-tag">Mutual Practice</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-14">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.14</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">णो अप्पयाए णो परोयाए, पिंडं भिक्खए से।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should seek alms neither for himself alone nor for others alone.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The monk's alms-seeking is for the sustenance of the practice, not for personal enjoyment or social relationship management. Seeking alms "for himself alone" would suggest personal appetite-satisfaction as the motive. Seeking alms "for others alone" would suggest the monk is acting as a food-distribution service for dependents, which would contradict non-possessiveness. The alms round is motivated purely by the need to sustain the body for the continuation of practice.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Alms are accepted to sustain practice, not to satisfy hunger or please others. Motive matters in how the alms round is conducted.</p>
+  <div class="concept-tags"><span class="concept-tag">Motive</span><span class="concept-tag">Non-Possessiveness</span><span class="concept-tag">Practice Sustenance</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-15">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.15</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जं च लद्धं सुद्धासुद्धं, तं भुंजेज्जासि संजए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever is received, pure or mixed, the restrained one should eat it.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The monk accepts whatever is given without inspection for quality. Rejecting food because it is not preferred, returning to the same household because their food was particularly good last time, or seeking the house where the best cook lives — all of these introduce the subtle forms of food attachment that the practice aims to eliminate. "Pure or mixed" refers to the quality and mix of food items. The monk's standard for accepting food is whether it meets the requirements of non-harm, not whether it meets personal preference.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Accepting what comes without selecting what you like is itself a practice. The alms bowl is not a menu.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Preference</span><span class="concept-tag">Acceptance</span><span class="concept-tag">Food Discipline</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-16">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.16</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">ण य रोसे ण य हरिसे, जं पिंडं लभई मुणी।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should not feel resentment or joy over whatever alms he receives.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The emotional instruction is symmetrical: no resentment when the offering is poor, no joy when it is generous. Both responses — resentment at scarcity and joy at abundance — represent the operation of preference and aversion in relation to food. The monk who receives a handful of stale grain with the same inner state as he receives a generous fresh meal has actually achieved something significant: he has separated the nourishment function of food from the pleasure function.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Neither complaint nor celebration over food. Whatever comes is accepted because the practice continues either way.</p>
+  <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Aversion</span><span class="concept-tag">Attachment</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-17">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.17</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">ण य पिंडट्ठियाए पव्वइए, धम्मट्ठियाए पव्वइए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He did not go forth for the sake of food; he went forth for the sake of the teaching.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra names the motive for the monk's entire life. He is not a person who could not support himself and found that monkhood provided meals. He went forth — left home, family, property, security — for the sake of the teaching: to understand, to practice, and to reach liberation. Food is a maintenance requirement of the path, not its purpose. Keeping this fundamental motive clear prevents the subtle corruption of the practice by comfort-seeking.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk's reason for renouncing is liberation, not security. Remembering this keeps the practice from drifting into religious comfort-seeking.</p>
+  <div class="concept-tags"><span class="concept-tag">Renunciation Motive</span><span class="concept-tag">Liberation</span><span class="concept-tag">Teaching</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-18">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.18</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">पाणेसु य समिए भिक्खू, एसणाए य संजए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk is careful about living beings and restrained in seeking food.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Carefulness about living beings in the context of food-seeking means examining food carefully before accepting it: does it contain living organisms? Was it prepared by killing? Does accepting it contribute to harm? This is the practical application of non-violence to the alms round. The monk does not simply accept whatever is placed in the bowl — he examines it. This examination is not finicky personal preference; it is the ethical rigor of the non-violence vow.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk checks his food not for quality but for harm. Non-violence extends to what goes into the body.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Ethical Rigor</span><span class="concept-tag">Living Beings</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-19">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.19</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न सयं पयासए किंचि, न अण्णं पयावए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not prepare anything himself, does not have others prepare anything.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The monk neither cooks for himself nor asks others to cook for him. Both activities would involve the monk in the karma of food preparation — the harm caused by cutting, washing, and heating, all of which involves living organisms. The monk accepts only food that was already being prepared for the household's own consumption. This rule is both ethically precise (minimizing the monk's causal involvement in harm) and practically protective (preventing the householder from becoming a dependent-like cook for the monk).</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk eats only what was already being made, not what was made for him. This minimizes harm and maintains proper boundaries.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Cooking</span><span class="concept-tag">Karma</span><span class="concept-tag">Food Preparation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-20">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.20</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य तत्थ सुद्धासण, ते य भुंजे मुणी तहा।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever pure seats are there, the monk uses them accordingly.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The instruction about seating is another layer of the monk's careful movement through the householder's space. Pure seats — those not shared with conditions that would compromise the monk's practice (proximity to passionate activity, to domestic intimacy, to contexts that would blur the monk's social distinction from the household) — are used without hesitation. The monk does not demand special accommodation but accepts appropriate seating with discernment.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Even where you sit in a householder's home is part of the monk's careful navigation of village space.</p>
+  <div class="concept-tags"><span class="concept-tag">Discernment</span><span class="concept-tag">Household Space</span><span class="concept-tag">Practice Integrity</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-21">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.21</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न कयाइ गाहावइकुलं, पवेसेज्जासि अकाले।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not enter the householder's home at an inappropriate time.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The timing of a monk's visit to a household is regulated by what the household needs to be doing at various times. Early morning when the family is waking, late evening when they are preparing for sleep, times when the household is engaged in intimate family activity — these are not times for the monk to appear seeking alms. Respecting the household's schedule is a form of non-imposition: the monk's needs do not override the householder's life.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk's needs do not take priority over the householder's life. Appropriate timing is a form of respect.</p>
+  <div class="concept-tags"><span class="concept-tag">Timing</span><span class="concept-tag">Respect</span><span class="concept-tag">Non-Imposition</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-22">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.22</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न य पडिग्गहिं निक्खिवे, णो य दाणं न गेण्हए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not set down his alms bowl to beg, nor refuse what is offered.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Two extremes are avoided. Setting down the bowl to beg — in the manner of a beggar presenting an empty vessel and waiting for it to be filled — is too passive and creates a specific social expectation. Refusing what is offered — being selective in a way that insults the offering or creates disappointment for a genuinely generous household — is also wrong. The monk accepts what is properly offered, received in the right manner.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Neither passive begging nor selective rejection is the right approach. The alms round is an active, respectful exchange with specific protocols.</p>
+  <div class="concept-tags"><span class="concept-tag">Alms Protocol</span><span class="concept-tag">Middle Way</span><span class="concept-tag">Respect</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-23">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.23</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">इत्थीओ पुरिसे भिक्खू, सव्वे य गाहावइकुले।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Women, men, monks — all in the householder's household.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The monk's non-discriminatory approach to the household is being described. The monk accepts from women exactly as from men, from the head of the household exactly as from the servants. The social hierarchy of the household — which in ancient Indian society was elaborate and carefully maintained — is not the monk's hierarchy. All members of the household are equally beings with souls, equally capable of generosity, and equally worthy of the respect that the monk's presence offers.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk does not rank people within the household by social status. All beings are equal before the practice.</p>
+  <div class="concept-tags"><span class="concept-tag">Equality</span><span class="concept-tag">Non-Discrimination</span><span class="concept-tag">All Beings</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-24">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.24</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न य तत्थ रए होज्जा, एवं भिक्खाचरिए विहरे।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not be attached to any of them — thus he conducts the alms round.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The summary instruction for the alms round is non-attachment. The monk moves through the household as through any other environment — present, respectful, receiving what is offered — without forming bonds of preference. The family that has been particularly generous, the household where the conversation was stimulating, the home where the food was excellent — none of these should become "special" to the monk. Each visit is complete in itself.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk leaves every household as he entered it — unattached. The alms round produces no favorites.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Completeness</span><span class="concept-tag">Alms Round</span></div>
+  </div></div></article>
+
+  <div class="section-divider"><span>Part III — The Householder's Duty (25–35)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-25">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.25</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">गाहावई य जाणेज्जा, धम्मलद्धिं परं भवे।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The householder should know that what is given to the monk is spiritual gain in future lives.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The householder's perspective is now addressed directly. Giving to a genuine monk is not simply a social generosity or an act of community support — it is a specific spiritual action with specific karmic consequences. The teaching asserts that supporting a practitioner of genuine non-violence and restraint generates merit-karma that ripens in future lives as favorable conditions for one's own practice. Understanding this transforms generosity from charity into investment in one's own liberation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Giving to a genuine monk is not charity — it is an action with spiritual consequences for the giver. Understanding this changes how the giving is done.</p>
+  <div class="concept-tags"><span class="concept-tag">Householder Path</span><span class="concept-tag">Generosity</span><span class="concept-tag">Merit Karma</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-26">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.26</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एसो धम्मो गाहावइणो, जे भिक्खुं पज्जुवासइ।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the householder's duty — to serve the monk with reverence.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The householder's duty is described as "serving with reverence" — which is a much richer action than simply handing over food. Reverence acknowledges what the monk represents: the teaching made visible, the possibility of liberation walking through the village. The monk's presence is the village's contact with the path. The householder who understands this serves the monk as one who understands what the monk is, not merely as one who feels obligated to give to the ascetic who appears at the door.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The householder who understands what the monk represents gives differently than one who doesn't. Informed giving is reverent giving.</p>
+  <div class="concept-tags"><span class="concept-tag">Householder Duty</span><span class="concept-tag">Reverence</span><span class="concept-tag">Understanding</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-27">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.27</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अवक्कमे य सम्माए, पूएज्जासि जहारिहं।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should move aside respectfully and honor the monk as deserved.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The physical act of moving aside when a monk approaches is a form of acknowledgment — the monk's path is not the householder's path, and the householder's instinctive recognition of this difference is expressed in making way. Honoring "as deserved" calibrates the reverence to the monk's actual practice, not to his social status. A monk of great accomplishment deserves great reverence; a monk in early stages deserves appropriate respect. The householder who has discernment can make this distinction.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Show reverence that is calibrated to what the monk has actually accomplished. Blanket reverence for all robes misses the point; calibrated reverence honors genuine practice.</p>
+  <div class="concept-tags"><span class="concept-tag">Discernment</span><span class="concept-tag">Reverence</span><span class="concept-tag">Genuine Practice</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-28">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.28</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">आसणं च पाणियं च, एसणाए सुद्धं दइज्ज।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">A seat, water, and food that is pure in the right way — these he should give.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The householder's offering is specified: a clean place to sit, water for drinking, and food that has been prepared in a way consistent with the monk's vows. "Pure in the right way" means food that does not violate non-violence — not freshly killed, not containing living organisms that were harmed specifically for preparation. The householder who knows what the monk can accept, and prepares accordingly, participates in the monk's practice rather than inadvertently compromising it.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Giving appropriately requires knowing what the monk can accept. Good intention alone is not enough — informed giving is more valuable.</p>
+  <div class="concept-tags"><span class="concept-tag">Appropriate Giving</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Informed Generosity</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-29">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.29</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">ण य अपत्थियाए दइज्ज, दइज्ज पत्थिए सया।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not give to one who is not deserving; he should always give to one who is deserving.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The householder is given a discriminating instruction: discern who is genuinely practicing before giving. This is not permission for stinginess — it is a teaching about the spiritual mechanism of giving. When giving is directed toward genuine practice, it generates specific merit. When giving is indiscriminate — offered to anyone wearing religious dress regardless of their conduct — the merit is diluted or absent. The householder's discernment is itself a spiritual practice.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Giving well requires discernment. The householder who can distinguish genuine practice from performance is more effective in their giving.</p>
+  <div class="concept-tags"><span class="concept-tag">Discernment</span><span class="concept-tag">Merit</span><span class="concept-tag">Spiritual Giving</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-30">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.30</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">गाहावइकुलं जे पट्ठिए, से य जाणइ धम्मट्ठियाए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He who is established in the householder's household — he knows what is established in the teaching.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The householder who has genuinely understood the teaching is a householder established in the teaching even while remaining in the household. The two are not incompatible. The householder's teaching is not the same as the monk's teaching — it involves partial vows, family duties, and the management of household dharma — but it is a genuine expression of the same fundamental values. A householder established in the teaching is a householder who has understood what their own version of the path requires.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The householder's path is real, not a consolation prize. Living the teaching from within a household is possible and is itself a form of the path.</p>
+  <div class="concept-tags"><span class="concept-tag">Householder Path</span><span class="concept-tag">Teaching</span><span class="concept-tag">Lay Practice</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-31">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.31</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">से य जाणइ विमोक्खं, बंधणं च तहेव य।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He knows liberation and bondage as well.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The householder who has genuinely understood the teaching knows liberation and bondage — not merely as abstract doctrine but as lived experience of increasing freedom and the recognition of what still binds. This knowledge of liberation and bondage is not the monk's exclusive domain; it is available to any being who genuinely practices and observes what the practice produces. The householder's path produces this knowledge at its own level and in its own time.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Understanding bondage and liberation is not limited to monks. Any genuine practitioner begins to see these realities in their own life.</p>
+  <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">Bondage</span><span class="concept-tag">Lived Knowledge</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-32">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.32</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य लोगे गुणमाहिए, ते धम्मं चरंति साहवो।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who are established in virtue in the world — they walk the teaching, those good ones.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The "good ones" are not a specific class — not monks only, not Brahmin-born only, not any particular social group. They are anyone who is genuinely established in virtue: non-violence, truth, restraint. These people are walking the teaching regardless of what community they belong to, what tradition they identify with, what social role they occupy. Virtue is the marker of the path, not institutional affiliation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The path is identified by its qualities, not by its institutional labels. Anyone walking in genuine virtue is on the path.</p>
+  <div class="concept-tags"><span class="concept-tag">Virtue</span><span class="concept-tag">Universal Path</span><span class="concept-tag">Non-Sectarian</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-33">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.33</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयं धम्मं परिण्णाय, गाहावई सम्मं पडिवेयए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood this teaching, the householder correctly receives it.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">"Correctly receives" means the householder takes in the teaching not as an external set of rules but as understanding that changes their behavior from within. The householder who has correctly received the teaching does not need to be reminded to give to the monk, does not need social pressure to maintain their household vows, does not require constant instruction. The correct reception of the teaching is its internalization — from external doctrine to internal guide.</p>
+  <p class="simple-explanation"><b>The simple version:</b> "Receiving" the teaching means making it an internal guide, not just an external rule. When it is internal, you don't need reminders.</p>
+  <div class="concept-tags"><span class="concept-tag">Internalization</span><span class="concept-tag">Teaching Reception</span><span class="concept-tag">Inner Guide</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-34">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.34</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयं गाहावइकुलं, समयाए विहरेज्जासि।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">In this way he wanders among the householder households with equanimity.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The monk's equanimity in the midst of household life is the chapter's consistent theme. The household is full of attachment — love, grief, desire, anxiety, pride. Moving through household after household with equanimity means the monk encounters all of these without being moved. Not without compassion — equanimity and compassion are not in conflict — but without the monk's inner state being destabilized by what he observes and receives.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Equanimity in the presence of others' attachments is not coldness — it is steadiness. The monk remains steady so that he can be useful to those who are not.</p>
+  <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Compassion</span><span class="concept-tag">Steadiness</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-35">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.35</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयमेव समाचरे, जो इच्छइ कुसले भवे।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">This alone one should practice, whoever desires to be skilled.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The instruction is total: this practice, these precepts, this manner of conducting the alms round and village residence — this is the complete content of what must be done by whoever desires genuine skill on the path. The word "skilled" connects practice to competence: being a skilled practitioner means knowing how to move through the world in a way that minimizes harm and maximizes the conditions for liberation. This is learned through practice, not through observation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Skill on the path comes from actually doing it. Knowing the instructions is not the same as being practiced in them.</p>
+  <div class="concept-tags"><span class="concept-tag">Skill</span><span class="concept-tag">Practice</span><span class="concept-tag">Competence</span></div>
+  </div></div></article>
+
+  <div class="section-divider"><span>Part IV — Returning to the Path (36–44)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-36">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.36</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयं सोच्चा परिण्णाय, मग्गमेयं समाचरे।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard and understood this, he should follow this path.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The transition to Part IV marks the return to the overarching theme: after all the specific instructions about village conduct and alms and householder duty, the practice is one path. Hearing is the beginning; understanding is the internalization; following is the living expression. The sequence is not optional — skipping understanding and jumping to following produces mechanical observance. Completing all three produces genuine practice.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The sequence is: hear, understand, follow. Skipping the middle step turns practice into performance.</p>
+  <div class="concept-tags"><span class="concept-tag">Hearing</span><span class="concept-tag">Understanding</span><span class="concept-tag">Following</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-37">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.37</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">सव्वपाणभूएसु, समयाए विहरमाणए।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Toward all living beings — wandering with equanimity.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The scope of equanimity returns to its full extent: all living beings. The monk's equanimity in the village is not just toward the householders who give well or poorly, praise or criticize. It extends to all beings encountered — the animals in the street, the insects in the path, the microorganisms in the water, the plants trodden underfoot. Equanimity in the full sense includes the complete field of life as the object of the monk's consistent awareness and care.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Equanimity toward all living beings — not just toward people who treat you well or badly. All life falls within the practice's scope.</p>
+  <div class="concept-tags"><span class="concept-tag">All Living Beings</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Universal Compassion</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-38">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.38</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एसो धम्मे महेसिणो, ण अन्नो कत्थइ विज्जइ।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the teaching of the great seeker; there is no other anywhere.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The exclusive claim is deliberate: this teaching, not any other, is the complete path. This is not sectarian dismissal of other traditions — it is the statement that what has been described (non-violence, right vision, restraint, non-possessiveness) is the complete path. Any path that includes these is, to that extent, the path. Any path that claims to lead to liberation while excluding them cannot arrive at the destination it names.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Non-violence, right vision, and restraint are not optional components of the path. They are the path. Everything else is peripheral.</p>
+  <div class="concept-tags"><span class="concept-tag">Complete Path</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Great Seeker</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-39">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.39</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अभिसमागम्म मग्गं, से लहुइज्जमाणे।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having arrived at the path, he moves lightly.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">"Moving lightly" returns as the description of the monk who has arrived at the path and is actually walking it. The weight of possession, attachment, anxiety, possessiveness, and the constant management of reputation and relationship — all of this is what makes the ordinary person's movement through life heavy. The monk who has set these down moves with a lightness that is visible and unmistakable. The path itself removes weight.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The path removes burden. The monk who is genuinely walking it is visibly lighter than one who is not.</p>
+  <div class="concept-tags"><span class="concept-tag">Lightness</span><span class="concept-tag">Freedom</span><span class="concept-tag">Genuine Practice</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-40">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.40</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न य मुसं भासेज्जासि, न य भासेज्ज वयणं गाढं।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not speak falsehood, should not speak harsh words.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The return to basic speech precepts in the final part of the chapter is a reminder that all the specific instructions about village conduct rest on the foundation of the basic vows. The monk who has managed the complexities of the alms round, the householder interactions, and the village social environment must still return to the simplest precepts: speak truth, speak gently. The complicated situations are navigated by the same basic character that the simple precepts have built.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The complex situations are handled by the same character built in the simple ones. Honesty and gentleness are the foundation, not special techniques.</p>
+  <div class="concept-tags"><span class="concept-tag">Truth</span><span class="concept-tag">Gentle Speech</span><span class="concept-tag">Foundation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-41">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.41</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">न य मुसं भासे लोगे, न कोहे न य माणे।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not speak falsehood in the world, nor act from anger or pride.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The three internal drivers of wrong speech and action are named: falsehood (the habit of representing things inaccurately), anger (the passion that produces harsh action in the moment), and pride (the self-inflation that distorts how one presents oneself). The monk returning from the village encounters all three as temptations: the comfortable social lie, the flare of irritation at a difficult householder, the subtle pride in being recognized as an advanced practitioner. All three are to be guarded against.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The most common corruptions of speech are lies, anger, and pride. All three must be watched carefully.</p>
+  <div class="concept-tags"><span class="concept-tag">Falsehood</span><span class="concept-tag">Anger</span><span class="concept-tag">Pride</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-42">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.42</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयाइं परिण्णाय, सव्वाइं परिहरेज्ज सो।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Understanding all these, he should abandon all of them.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Understanding again precedes abandonment. The monk who has observed how falsehood operates in the village, how anger arises in the difficult interaction, how pride inflates in the moment of praise — this monk understands what needs to be abandoned specifically and concretely. Abstract commitment to abandon these things without this specific understanding produces fragile resolve. Understanding produces the strong resolve that holds under the pressure of the actual situations.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Understanding the specific forms that bad habits take makes it possible to abandon them. Vague resolution doesn't survive contact with specific temptation.</p>
+  <div class="concept-tags"><span class="concept-tag">Understanding</span><span class="concept-tag">Abandonment</span><span class="concept-tag">Resolve</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-43">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.43</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">तं च मग्गं समाहिया, एयं सोच्चा परिण्णाय।</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Composed in that path, having heard and understood this.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The monk who has heard the teaching about village conduct, understood it, and is now composedly walking the path — this monk carries the teaching through the village not as a burden of rules but as the natural expression of his character. Composed in the path means the path is not an external constraint but an internal structure. The monk moves through the village from the inside of the teaching rather than measuring each action against an external standard.</p>
+  <p class="simple-explanation"><b>The simple version:</b> When you are truly inside the path, it feels like freedom, not constraint. The rules have become character.</p>
+  <div class="concept-tags"><span class="concept-tag">Composure</span><span class="concept-tag">Inner Path</span><span class="concept-tag">Character</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-14-44">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.44</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एवं चरइ मुणी लहुई, सव्वत्थ संजए ससीले। — iti bemi</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus the monk moves lightly, restrained and virtuous everywhere. — Thus I say.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The chapter closes with the image that opened it and ran through it: the monk moving lightly, with restraint and virtue, through every environment. "Everywhere" confirms that the teaching is universal — village, city, forest, mountain cave, householder's home, empty road. The monk's character is the same in all of them. This consistency is the final teaching: the path is not situational but constitutive. The monk who embodies the path carries it with him into every situation, and the situation is transformed by his presence. Thus I say.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The monk's character transforms the village by being in it. Genuine practice is the most powerful teaching. — Thus I say.</p>
+  <div class="concept-tags"><span class="concept-tag">Lightness</span><span class="concept-tag">Virtue</span><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Everywhere</span></div>
+  </div></div></article>
+
+</section>
+
+<a href="sutrakritang-ch13.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 13</a>
+<a href="sutrakritang-ch15.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 15 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll',()=>{const v=window.scrollY>300;document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('visible',v))});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body></html>

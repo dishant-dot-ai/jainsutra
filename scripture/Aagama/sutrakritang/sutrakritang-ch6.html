@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 6: Dharma-Katha | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#755b00","on-primary":"#ffffff","primary-container":"#c9a84c","on-primary-container":"#503d00","surface":"#fef9f1","on-surface":"#1d1c17","surface-variant":"#e7e2da","on-surface-variant":"#4d4637","outline":"#7e7665","outline-variant":"#d0c5b2","surface-container-low":"#f8f3eb","surface-container":"#f2ede5","surface-container-high":"#ece8e0","tertiary":"#4d5a98","on-tertiary":"#ffffff","error":"#ba1a1a"},fontFamily:{"headline":["Noto Serif","serif"],"body":["Inter","sans-serif"],"label":["Inter","sans-serif"]},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"}}}}
+</script>
+<style>
+html{scroll-behavior:smooth}
+.burnished-gradient{background:radial-gradient(circle at center,#755b00,#c9a84c)}
+.sutra-card{border:1px solid rgba(201,168,76,0.25);border-left:3px solid #c9a84c;background:white}
+.sutra-sanskrit{font-size:1.35rem;line-height:2;color:#503d00}
+.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size:1.1rem;line-height:1.7;color:#4d4637}
+.simple-explanation b{color:#755b00;font-weight:600}
+.concept-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:1rem}
+.concept-tag{display:inline-block;border:1px solid #C9A84C;color:#1d1c17;font-family:'Inter',sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;border-radius:100px;padding:4px 13px;font-weight:500}
+.nav-button{position:fixed;bottom:24px;z-index:100;background:transparent;border:1px solid rgba(201,168,76,0.35);color:rgba(201,168,76,0.6);transition:all 0.5s cubic-bezier(0.4,0,0.2,1);opacity:0;pointer-events:none;transform:translateY(20px)}
+.nav-button.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+.nav-button:hover{border-color:#C9A84C;color:#C9A84C}
+.glass-nav{background:rgba(248,247,246,0.85);backdrop-filter:blur(20px)}
+.section-divider{margin:2.5rem 0 1.5rem;display:flex;align-items:center;gap:1rem}
+.section-divider span{font-family:'Noto Serif',serif;font-size:0.875rem;text-transform:uppercase;letter-spacing:0.2em;color:#755b00;font-weight:600;white-space:nowrap}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:rgba(201,168,76,0.3)}
+#main-nav a{text-decoration:none}.nav-link{text-decoration:none}
+@media(max-width:768px){.nav-button{bottom:16px}.nav-button.left-btn{left:12px!important}.nav-button.right-btn{right:12px!important}.sutra-sanskrit{font-size:1.15rem}}
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body bg-white">
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 6</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        The Story of Dharma<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">धम्म-कहा</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">What Is True Religion?</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">A monk asks the most fundamental question: what is the religion that actually produces liberation? The answer comes without hesitation — non-violence, truth, non-stealing, celibacy, and non-possession. Then every false substitute — sacrifice, ritual, bathing, chanting — is shown to fail because it involves harm or replaces inner purification with outer performance.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">अहिंसा समया दंडो, एसो धम्मो सणातणो ।<br>एत्थ वट्टंति धीरा, मुच्चते जे जियप्पभू ॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"Non-violence and equanimity — this is the eternal law. The wise ones who practice this are freed, those who have conquered the self." — Sutrakritanga 6.25</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Dharma-Katha</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">Chapter 6 of the Sutrakritanga is a dialogue chapter structured around the most important question a seeker can ask: what is true religion? A monk poses the question directly — what teaching actually frees someone from bondage, destroys evil karma, and ends suffering? The answer is the five great vows: non-violence, truth, non-anger, celibacy, and non-possession. These are declared the eternal religion taught by every liberated being across time.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The chapter's second movement is equally important: a systematic critique of every false substitute for true religion. Animal sacrifice, fire offerings, ritual bathing, mantra recitation, Vedic scholarship, external asceticism, and fear-driven worship of gods are all examined and found insufficient — not because they are meaningless, but because they involve harm, or substitute outer performance for inner purification. The chapter concludes with the five great vows elaborated individually, and the famous verse declaring non-violence and equanimity as the eternal law through which the brave and self-conquered attain liberation.</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">27</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 6 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 27 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I — What Is True Religion? (1–10)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-1">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.1</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">किं तं धम्मं समाइक्खसि, जेण मुच्चेज्ज बंधणा ।<br>पावकम्मं च हासेज्जा, दुक्खाण अंतमाहिए ॥६.१॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">What is that religion you speak of, by which one would be freed from bondage, by which evil karma would be destroyed, and the end of suffering attained?</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This opening sutra frames the entire chapter as a direct question: what is true religion? The questioner is an earnest seeker who wants a clear answer — not ritual, not tradition, not authority, but the specific path that actually breaks the chains of karma and ends suffering. The question is profoundly practical. It does not ask "what is philosophically true" but "what actually works — what produces freedom?" Religion is evaluated by its results. Does it lead to liberation? Does it reduce harmful karma? Does it end suffering? If not, it is not the true path. The seeker asks all three in sequence — freedom from bondage, reduction of evil karma, and the end of suffering — because in Jain understanding these are three phases of the same process.</p>
+  <p class="simple-explanation"><b>The simple version:</b> A seeker asks: "Tell me what true religion is — the kind that actually frees a person from being trapped, destroys harmful actions, and ends suffering."</p>
+  <div class="concept-tags"><span class="concept-tag">True Religion</span><span class="concept-tag">Liberation</span><span class="concept-tag">Karma</span><span class="concept-tag">Seeking</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-2">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.2</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अहिंसा सच्चमक्कोहो, बंभचेरं अपरिग्गहो ।<br>एसो धम्मो समाइट्ठो, जिणेहिं पत्तेयबुद्धिहिं ॥६.२॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Non-violence, truth, non-anger, celibacy, and non-possession — this is the religion declared by the Jinas and the independently enlightened ones.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The answer comes immediately and clearly: five ethical commitments constitute true religion as declared by all who have ever attained liberation. Non-violence is listed first because it is the foundation — all other restraints flow from the commitment not to harm. Truth is second because deception is a subtle form of violence against others' trust. Non-anger matters because anger is the emotion that most quickly destroys spiritual progress. Celibacy refers to complete restraint of sensory indulgence. Non-possession is the deepest root of continued rebirth. The teaching is attributed not only to Mahavira but to all Jinas and all independently enlightened beings across time — this is not a new invention but the eternal discovery of every liberated soul.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The teacher answers: "Non-violence, truth, non-anger, celibacy, and non-possession — these five are the real religion, declared by every liberated being who ever lived."</p>
+  <div class="concept-tags"><span class="concept-tag">Five Vows</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Truth</span><span class="concept-tag">Eternal Law</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-3">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.3</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयाइं पंच सिक्खाइं, आयरित्ता महव्वया ।<br>जे समाहिमणुप्पत्ता, ते सिद्धा परिणिव्वुया ॥६.३॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having practiced these five trainings as great vows, those who have attained inner stillness — they are the accomplished ones, the completely liberated.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra gives the proof that the five disciplines are the true path: every single being who has ever attained liberation did so by practicing these five as complete vows. The word "great vows" is important — the Jain tradition distinguishes between the minor vows of lay practitioners and the great vows of fully renounced monastics. The connection between the five vows and liberation is presented as a causal certainty: practice these five fully, attain inner stillness, and liberation follows. The inner stillness described here refers not just to meditative calm but to the complete settling of the agitated mind that results from having no more unresolved karma generating internal turbulence.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Everyone who has ever truly become liberated did so by completely following these five disciplines as full vows and reaching a state of inner peace.</p>
+  <div class="concept-tags"><span class="concept-tag">Great Vows</span><span class="concept-tag">Liberation</span><span class="concept-tag">Inner Stillness</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-4">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.4</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">तस्स धम्मस्स सुद्धस्स, सम्मं पालेउकामेहिं ।<br>ण याए ण य दायव्वं, ण य परिग्गहधारणं ॥६.४॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">For those who wish to correctly practice this pure religion, there should be no killing, no giving permission to kill, and no holding of possessions.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra specifies the practical behavior that flows from accepting the five vows as one's religion. The teaching recognizes three levels of involvement in harm: doing it yourself, ordering or encouraging others to do it, and the indirect violence of possessiveness which motivates harm in the world. All three are prohibited for the sincere practitioner. The qualification "those who wish to practice this pure religion correctly" acknowledges that not everyone will choose this path, but those who do must follow all three dimensions of non-harm without compromise. You cannot claim to follow the religion of non-violence while encouraging slaughter or stockpiling goods that create conditions for exploitation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> If you really want to follow this pure religion, you must not hurt living beings, must not tell others to hurt them, and must not hold onto unnecessary possessions.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Non-Possession</span><span class="concept-tag">Three Forms of Harm</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-5">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.5</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">सव्वे जीवा वि इच्छंति, जीविउं ण मरिज्जिउं ।<br>तम्हा पाणिवहं घोरं, निग्गंथा वज्जयंति णं ॥६.५॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">All living beings wish to live and not to die; therefore, the unattached ones completely avoid the terrible act of killing living beings.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra offers the foundational moral reasoning behind non-violence: every living being shares the same basic wish — to live and not to die. This is not a philosophical argument from abstract principles but an appeal to what anyone can directly observe. You yourself want to live; so does every creature you encounter. The desire for life is universal and equal. It does not vary by species, size, or intelligence. A worm fleeing a shoe does not want to die any more than you do. The monks described here as "unattached ones" avoid killing because they have genuinely understood this equality of all life — their own developed compassion makes violence unthinkable.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Every living being — from insects to humans — wants to keep living and does not want to die, so monks who truly understand this never harm anything.</p>
+  <div class="concept-tags"><span class="concept-tag">Universal Life</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Equality of Beings</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-6">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.6</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य कामभोगरत्ता, ते ण मुच्चंति बंधणा ।<br>जे यरागदोससंजुत्ता, ते ण पावंति मुत्तिं ॥६.६॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who are attached to sensual pleasures are not freed from bondage; those who are joined to attraction and aversion do not attain liberation.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The teaching identifies the two psychological roots of continued bondage: attraction and aversion. These are the core mechanism of karmic accumulation. When the mind moves toward what it wants and away from what it dislikes, it is actively generating new karma with every movement. Sensual pleasure is the most obvious example. But the teaching applies equally to aversion: the person who is fastidiously disgusted by unpleasant things is equally bound as the person who craves luxuries. Liberation requires the dissolution of both directions — neither craving nor revulsion, but equanimity.</p>
+  <p class="simple-explanation"><b>The simple version:</b> People who are hooked on pleasures and driven by likes and dislikes stay trapped — they never get free.</p>
+  <div class="concept-tags"><span class="concept-tag">Attachment</span><span class="concept-tag">Aversion</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Bondage</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-7">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.7</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">मा हु पमायं कुणह, पमत्तस्स ण विज्जए ।<br>धम्मो ण पाविए तं तु, जो पमाए रओ मुणी ॥६.७॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Do not commit negligence — for the negligent one, the path is not found; that monk who is given over to negligence does not attain the teaching.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Negligence is called the single greatest obstacle on the spiritual path — more dangerous even than outright wickedness. The negligent monk may nominally follow the rules, recite the prayers, wear the robes, but his mind wanders and his practice is mechanical. Such a person will not find the true teaching even if it is placed directly in front of him. Jain practice demands constant wakefulness: every step taken carefully, every word chosen with awareness, every bite of food taken with mindfulness. A monk absorbed in daydream or spiritual complacency has effectively left the path even while appearing to be on it.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Don't be careless or asleep in your practice — a monk who spaces out and drifts through the day will never truly find what he is looking for.</p>
+  <div class="concept-tags"><span class="concept-tag">Vigilance</span><span class="concept-tag">Negligence</span><span class="concept-tag">Wakefulness</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-8">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.8</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एगो कुज्जा सया धम्मं, एगस्स फलमोहए ।<br>एगस्स सव्वसंकप्पा, एगो भुंजइ कम्मफलं ॥६.८॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">One alone should always practice the teaching, for the fruits and rewards are for the individual alone; all intentions belong to the individual alone, and one alone experiences the fruits of karma.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra establishes the radical individuality of spiritual practice. No one can practice for you, save you, or transfer their merit to you. The fruits of religious discipline — and equally the consequences of negligence — fall to the individual alone. Just as you alone experience pain and pleasure in your own body, you alone experience the karmic results of your own actions and intentions. The word "intentions" is especially significant: not just your actions but your mental movements, your wishes and plans, are your own and no one else's. This teaching counters the idea that a teacher, god, priest, or community can carry a person to liberation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> You have to do your own spiritual work — no one else can do it for you, and you alone will experience the results of your own actions and intentions.</p>
+  <div class="concept-tags"><span class="concept-tag">Personal Effort</span><span class="concept-tag">Karma</span><span class="concept-tag">Individual Responsibility</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-9">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.9</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अत्थाभिलासिणो मूढा, धम्माभिलासिणो सुई ।<br>अत्थं च धम्ममाइक्खे, को हु धम्मं विआणए ॥६.९॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who desire material gain are confused; those who desire the teaching are wise; one who teaches both gain and teaching — who among them truly knows the teaching?</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra draws a sharp distinction between two orientations: toward material gain and toward spiritual truth. The word for "confused" used here means genuinely deluded — the person who pursues wealth, comfort, and pleasure is not merely making a different choice; they are fundamentally confused about what will actually bring peace. The wise person desires the teaching itself as the end, not as a means. The final question cuts deeper: a teacher who presents both the path of material gain and liberation as equal options cannot truly know liberation. True knowledge of the teaching is incompatible with giving it equal value alongside worldly pursuits.</p>
+  <p class="simple-explanation"><b>The simple version:</b> People who chase wealth are confused about what matters; those who seek the true teaching are wise — and any teacher who mixes the two together probably doesn't fully understand the teaching.</p>
+  <div class="concept-tags"><span class="concept-tag">Wisdom</span><span class="concept-tag">Right Priority</span><span class="concept-tag">True Teaching</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-10">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.10</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">धम्मो वोच्चिय सो धम्मो, जो समाहिकरो मुणी ।<br>जहा सीओदगं वारि, उवसंतं तहा मुणी ॥६.१०॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">That which brings inner stillness — that truly is religion for the monk; just as cool water is calm, so is the monk who is at peace.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra offers the experiential test for true religion: does it produce inner calm? Water is calm when there is no agitation from wind or current, and a monk's mind is calm when there is no agitation from desires, fears, or passions. Religion that produces drama, excitement, or emotional frenzy — even in service of noble goals — is not the true teaching in the Jain understanding. True practice produces a progressive quieting. The monk who has genuinely internalized the five vows finds that the mind gradually loses its turbulence, settles like undisturbed water, becomes clear. This clarity is both the mark that you are on the right path and the precondition for the final breakthrough to liberation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> True religion is whatever actually makes your mind peaceful and still — like calm, cool water — not what makes you excited or dramatic.</p>
+  <div class="concept-tags"><span class="concept-tag">Inner Peace</span><span class="concept-tag">Equanimity</span><span class="concept-tag">True Practice</span></div>
+  </div></div></article>
+
+  <div class="section-divider"><span>Part II — The Failure of Ritual (11–18)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-11">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.11</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य यण्णविही भणिया, सा ण धम्मस्स सोहणी ।<br>पाणाइवायसंजुत्ता, मोसेण य समागया ॥६.११॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The method of sacrifice that is described — it is not purifying for religion; it is combined with the killing of living beings and accompanied by untruth.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The chapter now turns to critique. Having established what true religion is, the teaching examines what is false religion — and the first target is animal sacrifice. Elaborate Vedic rituals involving the slaughter of horses and cattle were actively practiced and considered the height of religious merit. The Jain response is blunt: any practice involving the killing of living beings cannot be religion, cannot purify, and cannot lead to liberation — regardless of what scriptures authorize it. The addition of "untruth" is also significant: the claim that killing animals in a ritual context produces spiritual merit is itself a fundamental misrepresentation of cause and effect in the universe.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Animal sacrifice is not religion — it involves killing living beings, which means it's actually the opposite of what leads to liberation.</p>
+  <div class="concept-tags"><span class="concept-tag">False Religion</span><span class="concept-tag">Ritual Critique</span><span class="concept-tag">Non-Violence</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-12">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.12</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य अग्गिं जुहंति ते, पावकम्मंति णो कुसलं ।<br>पाणाइवायसंजुत्तं, हिंसापरिणयाणयं ॥६.१२॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who perform fire sacrifices — they accumulate evil karma, not skillfulness; it is combined with the killing of living beings and its natural result is violence.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Fire sacrifice was among the most prestigious religious acts in ancient India. Priests would pour clarified butter, grain, and sometimes animals into a sacred fire while reciting hymns, believing this would please the gods and produce spiritual merit. The Jain teaching categorically rejects this: fire itself contains living beings — fire-body souls — and the act of burning anything destroys those beings. Karma follows action, not intention alone — the harm done is real harm and produces real consequences regardless of the religious intent behind it.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Performing fire sacrifices actually creates bad karma, not good — because fire involves burning living things, which is violence no matter what religious reason you give.</p>
+  <div class="concept-tags"><span class="concept-tag">Fire Sacrifice</span><span class="concept-tag">Evil Karma</span><span class="concept-tag">Ritual Critique</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-13">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.13</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य तित्थेसु न्हाइयव्वा, सोही णो तेसिं भवे ।<br>अप्पणो सोहणं भणंति, धोयपावस्स णो हवे ॥६.१३॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who bathe at sacred fords — purification does not come to them; they say it cleanses the self, but the evil is not washed away.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Ritual bathing at sacred rivers was — and remains — among the most widely practiced forms of religious observance in India. The belief that immersion in sacred water cleanses spiritual impurity is ancient and deeply held. The Jain teaching addresses this directly: karma is not a physical substance on the surface of the body that can be washed away with water. It is the result of actions, intentions, and mental states — and it can only be dissolved through their opposites. No amount of ritual bathing removes the karma accumulated through years of harmful living. The teaching corrects the dangerous delusion that external acts can undo internal accumulation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Bathing in a holy river does not actually wash away bad karma — your actions and intentions created it, and only changing your actions can remove it.</p>
+  <div class="concept-tags"><span class="concept-tag">Ritual Bathing</span><span class="concept-tag">Inner Purification</span><span class="concept-tag">Karma</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-14">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.14</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य मंता जवे भणंति, ते ण मुच्चंति बंधणा ।<br>आगमं णो जवंति ते, वयणं भणिया तु एवं ॥६.१४॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who recite mantras and chants — they are not freed from bondage; they do not go beyond the scripture through mere recitation; thus it has been said.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Mantra recitation was considered by many traditions to be supremely powerful — some schools held that correctly pronouncing certain sacred syllables could directly produce liberation. The Jain teaching firmly rejects this: words are sounds, and sounds do not dissolve karma. A person can recite the most sacred formulae flawlessly for decades and remain completely bound if their actions and mental states continue to generate karma. This does not mean words have no value — speech is a form of action and can be used wisely or badly. But mechanical recitation of scriptural formulas as a substitute for genuine ethical transformation misses the point entirely.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Repeating sacred chants or mantras by themselves does not free you from being trapped — words alone, without real change in how you live, don't do the job.</p>
+  <div class="concept-tags"><span class="concept-tag">Mantra</span><span class="concept-tag">Ritual Critique</span><span class="concept-tag">Genuine Practice</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-15">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.15</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे बंभणा वेयजाणया, ते ण मुच्चंति बंधणा ।<br>णाण-दंसण-चरित्तेण, णिव्वाणं पावए णरो ॥६.१५॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">The brahmins who know the Vedas — they are not freed from bondage; a person attains liberation through right knowledge, right vision, and right conduct.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra states the Jain position with great clarity: Vedic knowledge — however extensive, however precisely memorized — does not produce liberation. The brahmins who had dedicated their lives to mastering the four Vedas were the most respected intellectual and spiritual authorities of the time. The teaching says: this mastery does not free you. What frees you is the triple jewel — right knowledge, right vision, and right conduct. These three are not separate paths but three interlocked dimensions of a single transformation: knowledge without conduct is incomplete; conduct without knowledge is blind; vision without both is sentimental.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Knowing all the holy scriptures by heart doesn't free you — what frees you is understanding reality correctly, seeing it clearly, and actually living in the right way.</p>
+  <div class="concept-tags"><span class="concept-tag">Three Jewels</span><span class="concept-tag">Right Knowledge</span><span class="concept-tag">Right Conduct</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-16">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.16</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">जे य णग्गा य मुंडिया, सीयाउरे अणागया ।<br>ण ते वि लभंते मोक्खं, जे अब्भंतरसोहिणो ॥६.१६॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who are naked and tonsured, who endure cold and heat — even they do not attain liberation, if they are not purified within.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This is perhaps the most striking sutra in the chapter because it turns the critique inward — toward ascetic practitioners who follow external forms of renunciation without genuine inner transformation. Nudity and tonsure were marks of the most extreme renunciant traditions; enduring cold and heat without complaint was considered proof of spiritual advancement. The teaching is clear: these external forms, however arduous and impressive, do not by themselves produce liberation. This is not a rejection of ascetic practice but a warning against confusing the means with the end.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Even someone who walks around naked, shaves their head, and endures extreme discomfort doesn't get liberated if they haven't cleaned up what's going on inside.</p>
+  <div class="concept-tags"><span class="concept-tag">Inner Purity</span><span class="concept-tag">Asceticism</span><span class="concept-tag">Outer vs Inner</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-17">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.17</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">देवताओ य जे मण्णे, देवयाओ भयाणुगे ।<br>ण ते पावंति णिव्वाणं, देवपूया अणत्थिया ॥६.१७॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who propitiate gods, who follow gods out of fear — they do not attain liberation; worship of gods is without benefit for this purpose.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Fear-driven propitiation of gods — offering prayers and rituals to avoid divine punishment or gain divine favor — was widespread in ancient India and remains so today. The Jain teaching is that this approach, however sincere, cannot produce liberation because gods themselves are not liberated. The gods of Indian cosmology are beings in the middle of their own karmic journeys. They enjoy great power and pleasure but are still bound by karma and will eventually exhaust their divine lifespans. Worship of them may produce mundane benefits but cannot address the fundamental problem: only you can dissolve your own karma through your own ethical transformation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Praying to and worshipping gods out of fear or to ask for favors does not lead to liberation — the gods themselves are still in the cycle, and they can't free you from yours.</p>
+  <div class="concept-tags"><span class="concept-tag">God Worship</span><span class="concept-tag">Fear vs Understanding</span><span class="concept-tag">Self-Effort</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-18">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.18</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एवं णाऊण मेहावी, धम्मट्ठो परिव्वए ।<br>विऊ विणएण संपण्णो, सोहे अप्पाणमप्पणा ॥६.१८॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood all this, the wise one, established in the teaching, wanders forth; the learned one, endowed with humility, purifies the self by the self.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra marks the conclusion of the critique section and the return to the positive path. Having understood all the ways that religion can be falsified — through ritual, sacrifice, bathing, chanting, scholarship, external asceticism, and god-propitiation — the truly wise person renounces all these substitutes and walks the genuine path. The key phrase is "purifies the self by the self." This is the central insight: no external agent, no ritual, no god purifies the soul. The soul purifies itself through its own disciplined effort. The word "humility" appears here as the mark of genuine wisdom — the person who has truly understood is not proud of that understanding but humble before the enormity of the work still to be done.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Once you truly understand all this, you renounce the false paths, walk with humility, and do the real work — which is purifying yourself through your own effort, not through any ritual or outside help.</p>
+  <div class="concept-tags"><span class="concept-tag">Self-Purification</span><span class="concept-tag">Humility</span><span class="concept-tag">True Path</span></div>
+  </div></div></article>
+
+  <div class="section-divider"><span>Part III — The Five Great Vows (19–27)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-19">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.19</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अहिंसा परमो धम्मो, सव्वेसिं उवदेसिया ।<br>उवओगं च कित्तेइ, सव्वपाणहियंकरो ॥६.१९॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Non-violence is the supreme religion, instructed for all; it is proclaimed as the foremost practice, beneficial to all living beings.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Non-violence is elevated here to the highest position — not merely one of five vows but the supreme religion itself. This reflects the internal logic of Jain ethics: every other vow flows from non-violence. Truth is a form of non-violence toward others' trust; non-stealing honors others' possessions; celibacy avoids exploiting living beings for pleasure; non-possession removes the hoarding that necessitates harm. The phrase "instructed for all" is remarkable — this is not a teaching for monks alone. Non-violence, at its applicable level, is the universal path. The teaching is "beneficial for all living beings" — not only for the practitioner but for every being whose life is spared by that practice.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Non-violence is the highest religion of all — taught to everyone, good for all living beings, not just for monks.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Supreme Religion</span><span class="concept-tag">Universal Teaching</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-20">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.20</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">सच्चं पि परमो धम्मो, मोसं च विवज्जए ।<br>णिरवज्जेण भासेण, सच्चं भासेइ पंडिए ॥६.२०॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Truth also is the supreme religion; one should avoid falsehood; through blameless speech, the wise one speaks truth.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Truth is presented here as equally supreme — non-violence and truth are co-equals at the pinnacle of Jain ethics. The word for truth in Jain ethics carries a more comprehensive meaning than simple factual accuracy — it includes internal honesty, fidelity to what you have committed to, and speech genuinely aimed at the good of the listener. The qualification "blameless speech" introduces an important nuance: not all technically true statements are right speech. A true statement that unnecessarily causes pain, humiliates someone, or serves ego rather than genuine communication violates the spirit of this vow even if it avoids literal falsehood.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Truth is also the highest religion — avoid all falsehood, and speak only what is true and genuinely harmless.</p>
+  <div class="concept-tags"><span class="concept-tag">Truth</span><span class="concept-tag">Blameless Speech</span><span class="concept-tag">Honesty</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-21">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.21</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अदत्तादाणविरओ, परिग्गहं च विज्जए ।<br>णिग्गंथो अणगारो वा, एसो धम्मो सणातणो ॥६.२१॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Refraining from taking what is not given, and non-possession — whether one is an unattached monk or a householder, this is the eternal law.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Non-stealing and non-possession are paired as two aspects of the same ethical reality. Not taking what is not given is the negative form (don't take others' things); non-possession is the positive form (hold nothing beyond what is genuinely necessary). Together they define an entire orientation toward material reality: seeing things as belonging to their users temporarily, not as possessions to be accumulated. The phrase "eternal law" — the same phrase other traditions use for their own universal law — is deliberately claimed here for the Jain five vows. And crucially, this law applies to both monks and householders.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Don't take what isn't yours, and don't hold onto more than you need — this applies to everyone, monks and householders alike, and it's the eternal law.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Stealing</span><span class="concept-tag">Non-Possession</span><span class="concept-tag">Eternal Law</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-22">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.22</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">बंभचेरं परं तवं, बंभचेरं उत्तमं सुयं ।<br>बंभचेरं परो धम्मो, बंभचेरं परायणं ॥६.२२॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Celibacy is the supreme austerity; celibacy is the highest scripture; celibacy is the supreme religion; celibacy is the supreme refuge.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">Celibacy receives the most emphatic treatment in this chapter — declared four times as supreme in four different domains: austerity, scripture, religion, and refuge. This intensity reflects the Jain understanding that sensual desire is the most powerful engine of karmic attachment and rebirth. Complete continence — which in Jain monasticism means not only abstaining from sexual acts but training the entire mind to be unattracted — represents the master practice that subsumes all others. The monk who has genuinely achieved celibacy has proven mastery over desire itself, which is the fundamental obstacle to liberation.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Complete restraint of desire — celibacy in the deepest sense — is described as the greatest austerity, the highest teaching, the true religion, and the ultimate shelter all in one.</p>
+  <div class="concept-tags"><span class="concept-tag">Celibacy</span><span class="concept-tag">Desire</span><span class="concept-tag">Supreme Austerity</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-23">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.23</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">तवसा धुयकम्मंसा, झाणजोगेण संजया ।<br>संती उवसमं पत्ता, सिद्धा भवंति णिव्वुया ॥६.२३॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Through austerity, having shaken off karma, restrained through the practice of meditation, having attained peace and equanimity — they become accomplished ones, fully liberated.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the full sequence of liberation: austerity shakes karma loose from the soul; meditation provides the focused restraint needed to stop new karma while the old is being shed; peace and equanimity are the experiential result of this progressive unburdening; and the final state is full liberation. The word "shaking off karma" is vivid — karma is described as particles that cling to the soul and cloud its natural luminosity. Austerity creates a kind of heat that burns away these clinging particles. Meditation maintains the inner environment in which this dissolution can occur without interference from new karmic influx.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Through discipline and deep meditation, you gradually shed the accumulated baggage of past actions, become peaceful, and eventually become completely free.</p>
+  <div class="concept-tags"><span class="concept-tag">Austerity</span><span class="concept-tag">Meditation</span><span class="concept-tag">Liberation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-24">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.24</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एए धम्मा पकासिया, वित्थरेण सुणेह मे ।<br>जे पुव्वेहिं परिण्णाया, जाणए तिहुयणजिया ॥६.२४॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">These teachings have been illuminated; hear them from me in full; they were known by the ancient ones — know them, O conquerors of the three worlds.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The teaching pauses to situate what has been said within the larger tradition: these are not new teachings invented by Mahavira but the eternal truths known by all the liberated ones of every age. The "ancient ones" refers to the earlier Tirthankaras who discovered and transmitted the same truths. The phrase "conquerors of the three worlds" is an address to the monastic community — monks who have accepted the great vows are, in a sense, conquerors not through war but through complete inner mastery of the three realms of existence. The call to "hear them in full" implies that what has been given is itself a summary and the full teaching awaits deeper exploration.</p>
+  <p class="simple-explanation"><b>The simple version:</b> These teachings were known by all the great ones before Mahavira — they are not new. Listen carefully and fully absorb them.</p>
+  <div class="concept-tags"><span class="concept-tag">Eternal Teaching</span><span class="concept-tag">Ancient Wisdom</span><span class="concept-tag">Tirthankaras</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-25">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.25</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">अहिंसा समया दंडो, एसो धम्मो सणातणो ।<br>एत्थ वट्टंति धीरा, मुच्चते जे जियप्पभू ॥६.२५॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Non-violence and equanimity — this is the eternal law. The wise and courageous ones practice this; those who have conquered the self are freed.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">This is the chapter's featured verse — the fullest statement of the Jain teaching in compressed form. Non-violence is the ethical dimension — how you act toward other beings. Equanimity is the psychological dimension — how you stand inside yourself toward all experiences, without preference, aversion, or disturbance. Together they describe a person who neither harms others nor is disturbed by the world. The "brave and steady ones" are those who actually practice this — it requires genuine courage to maintain non-violence and equanimity in a world that constantly offers provocations and temptations. And the freed ones are those who have conquered the self — not an external enemy but the internal tyrant of ego, desire, and passion.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Non-violence and inner balance together are the eternal religion. The brave people who actually practice this — and who have conquered their own inner passions — become truly free.</p>
+  <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Eternal Law</span><span class="concept-tag">Liberation</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-26">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.26</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एवं खु णायपुत्तेण, भगवया देसिया समा ।<br>धम्मो एसो वियाहिओ, सव्वदुक्खप्पहीणओ ॥६.२६॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus indeed was the teaching presented with equanimity by the blessed Lord, the son of the Nāya clan; this religion is declared as the one that removes all suffering.</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The sutra attributes the entire teaching to Mahavira — "the son of the Nāya clan" is a specific genealogical title identifying him as belonging to the Kshatriya clan of the Jnatri family. That the Lord taught this with equanimity is noted because it models the very quality being taught: Mahavira did not deliver these truths with passion or drama but with the settled composure of one who has completely realized them. The description of this religion as "the remover of all suffering" is the ultimate claim — not the reducer of suffering but the complete remover. This is liberation: the complete cessation of suffering at its root.</p>
+  <p class="simple-explanation"><b>The simple version:</b> The Lord Mahavira taught all of this with complete inner peace — and this religion he taught is the one that removes all suffering completely.</p>
+  <div class="concept-tags"><span class="concept-tag">Mahavira</span><span class="concept-tag">Liberation</span><span class="concept-tag">End of Suffering</span></div>
+  </div></div></article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-6-27">
+  <div class="flex items-start gap-6">
+  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.27</span>
+  <div class="space-y-4 flex-1">
+  <p class="sutra-sanskrit font-headline">एयं सुणित्ता धम्माओ, सिद्धिमग्गमणुत्तरं ।<br>आयाणमेयं कप्पिस्सं, इइ बेमि ॥६.२७॥</p>
+  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard this from the teaching — the unsurpassed path to liberation — I will make this my own practice. — iti bemi (Thus I say.)</p>
+  <p class="text-base text-on-surface-variant leading-relaxed">The final sutra is a declaration of personal commitment — the seeker who began by asking "what is true religion?" now closes by saying: "I have heard it. I accept it. I will practice it." This is the structure the Sutrakritanga consistently uses: teaching is not passive information but a call to action. The hearing is followed by the decision. The declaration "Thus I say" is the traditional closing formula of the Sutrakritanga, attributed to the compiler Sudharma Swami, affirming that this is authentic teaching from the lineage of Mahavira. The entire arc of the chapter arrives here at the moment of personal acceptance and commitment.</p>
+  <p class="simple-explanation"><b>The simple version:</b> Having understood the supreme path to liberation from this teaching, I commit to making it my own practice. — Thus I say.</p>
+  <div class="concept-tags"><span class="concept-tag">Commitment</span><span class="concept-tag">Personal Practice</span><span class="concept-tag">Iti Bemi</span></div>
+  </div></div></article>
+
+</section>
+
+<a href="sutrakritang-ch5.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 5</a>
+<a href="sutrakritang-ch7.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 7 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll',()=>{const v=window.scrollY>300;document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('visible',v))});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body></html>

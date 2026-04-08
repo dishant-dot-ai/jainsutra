@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 1: The Doctrine (Samaya) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.1rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+
+<!-- Nav -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 1</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        The Doctrine<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">समय</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">On true doctrine versus false doctrine — the foundation of liberation</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The opening chapter of the Sutrakritanga establishes the foundational teaching: that liberation depends entirely on right understanding of doctrine. Mahavira systematically refutes twelve wrong philosophical positions — from materialism and fatalism to agnosticism and body-soul identity — and shows why only the Jain path of non-violence, restraint, and right knowledge leads to freedom.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">बुद्धिं जियाइं, बन्धणं परिजाणिया ।<br/>किमाहु बन्धणं वीरो? एगं वा जाणइ तिउट्टिं ॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"Let the wise one attain understanding and know the bonds of karma fully — what does the Hero call bondage, and what single truth, when known, breaks bondage completely?" — Sutrakritanga 1.1</p>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Doctrine</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Samaya</span> — the first chapter of the Sutrakritanga — is one of the most philosophically dense chapters in the entire Jain canon. The word "Samaya" means doctrine, right understanding, or the true path. The chapter opens by asking what a wise person must know, and proceeds to answer by systematically refuting every major wrong philosophical position of Mahavira's time.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The chapter is divided into four sections. The first refutes materialism, body-soul identity, and karma denial. The second addresses fatalism, agnosticism, and Buddhist views. The third examines wrong views about God, creation, and liberation. The fourth concludes with the contrast between false monks who behave like householders and true monks who practice non-violence and equanimity. It closes with Mahavira's signature: "Thus I say."</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">88</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Gathas</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">4</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sections</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutras -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 1 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 88 Gathas</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <!-- Section 1 -->
+  <div class="section-divider"><span>Section 1 — Causes of Bondage and Wrong Views (Gathas 1–27)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">बुद्धिं जियाइं, बन्धणं परिजाणिया ।<br/>किमाहु बन्धणं वीरो? एगं वा जाणइ तिउट्टिं ॥१.१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Let the wise one attain understanding and know the nature of bondage fully — what does the Hero call bondage, and what single truth, when known, breaks bondage completely?</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This opening sutra frames the entire chapter as a question: what must a wise person understand to become free? The questioner is Jambu Swami; the teacher is Sudharma Swami transmitting Mahavira's words. The word "buddhi" here does not mean ordinary intelligence — it refers to enlightened self-understanding, the awakening to one's own nature as a soul distinct from matter. Bondage is not physical restraint but the karmic entanglement that keeps the soul cycling through births. The Hero — a title for Mahavira — is asked to define it. The structure of the question is itself the answer's shape: there is one truth, one understanding, that when fully grasped, breaks all bondage.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The chapter opens with a question — what does the enlightened teacher say bondage is, and what single insight, when truly understood, sets you free?</p>
+        <div class="concept-tags"><span class="concept-tag">Bondage</span><span class="concept-tag">Right Knowledge</span><span class="concept-tag">Opening Question</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">चित्तमंतमचित्तं वा, परिगिह्ह किसामिव ।<br/>अण्णं वा अणुजाणाइ, एवं दुक्खा न मुच्चइ ॥१.२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who possesses conscious beings or unconscious things — even the least trifle — or who approves of others possessing them, is not freed from suffering.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra defines the first cause of bondage: possession. The definition is remarkably comprehensive — it includes both living possessions (servants, animals) and non-living ones (gold, land, goods), and even the mental act of consenting to another's possession. The phrase "even a trifle" closes every loophole: there is no threshold below which possession is harmless. The Jain understanding of possession is not merely physical accumulation but the internal attitude of attachment — the feeling that something belongs to "me." As long as that attitude exists, liberation is impossible, because the attachment generates fresh karma moment by moment.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Clinging to anything — people, objects, wealth — or even silently approving of others clinging keeps you trapped in suffering, no matter how small the thing you're clinging to.</p>
+        <div class="concept-tags"><span class="concept-tag">Possession</span><span class="concept-tag">Attachment</span><span class="concept-tag">Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सयं तिवायए पाणे, अदुवा अण्णेहिं घायए ।<br/>हणंतं वाऽणुजाणाइ, वेरं वड्ढेइ अप्पणो ॥१.३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who himself kills living beings, or causes others to kill them, or approves of the killing, increases enmity toward himself.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra identifies violence as the second root cause of bondage, and gives it the same triple structure used for possession: doing it oneself, having others do it, or approving of it. Violence is not simply a moral wrong but a self-multiplying force. Every act of violence creates karmic enmity that rebounds on the perpetrator across future lives. The word "toward himself" makes the injury reflexive: one who destroys others destroys their own prospect of liberation. This is not a punishment imposed from outside — it is the natural mechanics of karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Whether you kill directly, hire someone else to kill, or simply agree with killing — you are increasing the weight of harm that comes back to you.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Karma</span><span class="concept-tag">Enmity</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जस्स कुलसमुप्पण्णे, जेहिं वा संवसे नरे ।<br/>ममाइ लुप्पइ बाले, अण्णमण्णेहिं मुच्छिए ॥१.४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The ignorant one is afflicted by attachment to those in whose family he is born and among whom he lives — deeply ensnared in mutual craving.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Having established possession and violence as root causes of bondage, the sutra now examines the psychological mechanism underneath both: the sense of "mine." The family one is born into and the community one inhabits become the primary field of this possessive attachment. The term "the ignorant one" is not a moral judgment but a technical term — it refers to the soul that has not yet awakened to its own independent nature and therefore projects its identity onto external relationships. The mutual nature of this entanglement is significant: everyone in a family network is simultaneously clinging to and being clung to by others.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The unawakened person suffers because they are deeply attached to family and community — everyone clinging to each other in a web that keeps them all bound.</p>
+        <div class="concept-tags"><span class="concept-tag">Attachment</span><span class="concept-tag">Family</span><span class="concept-tag">Bondage</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">वित्तं सोयरिया चेव, सव्वमेयं न ताणए ।<br/>संखाए जीवियं चेव, कम्मुणा उ तिउट्टइ ॥१.५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Wealth and kinsmen — all of this — do not protect one; knowing life to be brief, the wise one breaks free from karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra makes the argument for renunciation in compressed form: nothing external offers real protection. Wealth cannot buy off death or karma. Kinsmen cannot carry your karmic burden. The sutra frames this not as pessimism but as clear-sighted realism — and crucially, it leads to action. The one who knows the brevity of life and the unreliability of external refuge does not collapse into despair; they break free from karma. The verb "breaks free" is the same used in 1.1 — the chapter is building a vocabulary of liberation that requires understanding bondage before one can leave it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> No amount of money or family relationships can protect you from death or karma — and knowing this is what motivates a person to actually do the work of becoming free.</p>
+        <div class="concept-tags"><span class="concept-tag">Impermanence</span><span class="concept-tag">Renunciation</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे गंथे विउक्कम्म, एगे समण-माहणा ।<br/>यायंता विउस्सिट्ठा, सत्ता कामेहिं माणवा ॥१.६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some ascetics and priests, having abandoned one set of entanglements, are still deeply addicted to pleasures — attached and deluded in their own doctrines.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">With this sutra begins the critique of rival paths. Even those who have formally renounced — the ascetics and priests of other traditions — may abandon certain external entanglements while remaining deeply bound by inner ones. The word "knots" refers to structural binding points in the soul's relationship with matter. To cut one knot while leaving others intact is not liberation. This sutra introduces the theme that dominates the rest of the chapter: the difference between genuine inner freedom and the performance of renunciation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Some religious people give up certain things on the outside but remain deeply attached to pleasure and to their own doctrines on the inside — and that inner attachment is still bondage.</p>
+        <div class="concept-tags"><span class="concept-tag">Rival Paths</span><span class="concept-tag">Inner Freedom</span><span class="concept-tag">Renunciation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पुढवी आउ तेऊ वाऊ, वणस्सइ तसा य जे ।<br/>ते जीवा ते य अजीवा, इइ केइ वियाणइ ॥१.७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Earth, water, fire, air, vegetation, and mobile beings — some say these are both souls and non-souls.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra begins the systematic refutation of wrong philosophical views. The view being examined here identifies the five material elements plus mobile beings as both souls and non-souls — a materialist-idealist hybrid that confuses the categories of self and matter. From the Jain perspective, this error is philosophically disastrous: if you cannot distinguish soul from matter, you cannot know what bondage is, and therefore cannot know what liberation requires. The chapter will spend many sutras unpacking why each wrong view is wrong — not as academic exercise but because wrong understanding directly causes continued bondage.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Some philosophers teach that the elements of nature are both souls and non-souls — a confused view that makes it impossible to understand what needs to be freed and from what.</p>
+        <div class="concept-tags"><span class="concept-tag">Materialism</span><span class="concept-tag">Wrong Views</span><span class="concept-tag">Soul</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पुढवी आउ तेऊ वाऊ, वणस्सइ तसा य जे ।<br/>एते जीवा ममाहंसु, तं सव्वं नायग-ब्भुणो ॥१.८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Earth, water, fire, air, vegetation, and mobile beings — these are all souls, say some; but this everything-is-soul view is not recognized by the knower of the path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This refutes the extreme monist view — that everything is soul. This was a position held by some Vedantic and Upanishadic thinkers. From the Jain standpoint, while it is true that conscious souls exist in all six categories, those souls are not identical to the material substances they inhabit. Collapsing the distinction between soul and matter makes karma unintelligible — if everything is already soul, what is it that karma binds? The refutation is not that these beings lack souls, but that identifying the soul with the material element is the error.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The idea that everything is just one universal soul sounds spiritual, but it actually makes it impossible to understand karma or liberation — because it erases the distinction between the soul and what traps it.</p>
+        <div class="concept-tags"><span class="concept-tag">Monism</span><span class="concept-tag">Wrong Views</span><span class="concept-tag">Soul and Matter</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अत्थि पाणा विसेसेण, नाणत्तं च विजाणइ ।<br/>जीवो देहो त्ति एगत्तं, तं पि नायग-ब्भुणो ॥१.९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Living beings exist in their specific forms, and one should know their diversity — but the view that the soul and the body are one thing is also not recognized by the knower of the path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This refutes the body-soul identity view — the materialist teaching that the self is nothing more than the living body. This was held by the Carvaka materialists. The sutra makes two points simultaneously: yes, living beings exist in diverse specific forms (affirming that souls are real and plural), and no, the soul is not simply the body. The body is material and perishable; the soul is immaterial and does not perish with the body. Confusing them means failing to understand what continues after death, what karma attaches to, and therefore what liberation means.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The idea that you are just your body — that there is nothing more to you than flesh and blood — is a mistake that makes liberation literally unthinkable.</p>
+        <div class="concept-tags"><span class="concept-tag">Body-Soul Identity</span><span class="concept-tag">Materialism</span><span class="concept-tag">Wrong Views</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे अकिरियं वयंति भो, जीव-अजीव-वागरे ।<br/>ते नासिया दुविहे ठाणे, उभये दुक्खं पावंति ॥१.१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who teach non-action — who say there is no moral consequence to action — regarding soul and non-soul: they are lost in both realms and experience suffering in both.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This refutes the doctrine that actions have no moral consequence, that karma does not accumulate, that there is nothing that binds or frees. This teaching destroyed the entire foundation of ethical conduct. If actions have no fruits, there is no reason to practice restraint, no reason for compassion, no basis for liberation. The consequence described here is direct: such a person is lost in both this life and the next. They suffer without understanding why, and without any path out, because their philosophy has eliminated the very concept of a path.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People who teach that your actions have no consequences end up suffering in both this life and the next — because once you believe nothing matters, you have no map for getting free.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma Denial</span><span class="concept-tag">Wrong Views</span><span class="concept-tag">Consequence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे य आया न मुयंति, जे य मुत्ता न पुणरागच्छंति ।<br/>एयं मग्गं विजाणित्ता, एयं धम्मं तु नायग-ब्भुणो ॥१.११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some souls do not become freed; those who are freed do not return — knowing this path, knowing this doctrine, is what the knower of the path recognizes.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces the positive counterpart to the refutations: the true doctrine holds that liberation is real, possible, and irreversible. Some souls — those following wrong doctrine — remain bound and do not attain freedom. Those who do attain freedom never return to the cycle of births. This irreversibility is a defining feature of Jain liberation. The sutra creates a sharp contrast with fatalist and nihilist views: liberation requires right knowledge and right effort, and once attained, it is complete and permanent.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Some souls stay trapped, and those who do get free never come back — and understanding this clearly is at the heart of true doctrine.</p>
+        <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">Irreversibility</span><span class="concept-tag">True Doctrine</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे नत्थि परो लोगो, न किंचि अकरोहि ते ।<br/>अप्पाणं पि य नासंति, मिच्छद्दिट्ठी नरा भवे ॥१.१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some say there is no other world, "do nothing" — they destroy even themselves, for wrong-viewing persons exist in delusion.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is the soul-denial position: there is no afterlife, no self that continues, therefore no consequences to one's actions. This nihilistic view is directly linked to moral nihilism — if there is nothing after death, why restrain oneself at all? The consequence stated here is the strongest yet: they destroy even themselves. This is not merely a statement about future karmic consequence — it is a statement about the present. A person who lives without recognizing their own soul does not merely fail to liberate it; they actively harm it through every unguarded act of passion and violence.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People who say there's no such thing as an afterlife or a continuing self — and therefore nothing matters — end up destroying themselves, because that belief removes every reason to live with care.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Denial</span><span class="concept-tag">Nihilism</span><span class="concept-tag">Wrong Views</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण कत्थ नत्थि आयाओ, एवं तिउट्टई तसा ।<br/>ण होइ केइ नत्थित्तं, एवं जाणाहि पंडिए ॥१.१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">There is nowhere no soul — thus mobile beings are freed; there is no such thing as non-existence — thus know, O wise one.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Having refuted soul denial, the text now affirms the positive: the soul exists everywhere — in every mobile being. This is not pantheism but the Jain view that souls are present throughout nature in different degrees of development. The second line makes an even broader claim: there is no such thing as absolute non-existence. This is the Jain doctrine of existence — nothing simply vanishes. This metaphysical point directly implies that your actions, your karma, and your soul are all real and persistent, which is why the path of liberation is both necessary and possible.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Souls exist everywhere, and nothing truly ceases to exist — so know this, and understand why your choices have real and lasting effects.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Existence</span><span class="concept-tag">Metaphysics</span><span class="concept-tag">Reality</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आउट्टमाणे पडिसाहरेज्जा, अप्पाणमेव अहिगिच्च धीरे ।<br/>जे केइ लोए वयमाणे नरा वा, नारी वा तेसिं सच्चं विजाणासु ॥१.१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">When turned aside from the path, the resolute one should draw himself back — attending to himself alone — and among all people speaking in the world, men or women, know truly among them.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">After a long sequence of philosophical refutations, this sutra pivots to practice: what does a monk actually do when surrounded by competing teachings? He turns inward — attending to himself alone. This phrase does not mean selfishness; it means the spiritual self-reliance that is the foundation of the Jain path. No teacher, no external authority, can do the inner work for you. Simultaneously, the monk must maintain discernment — he lives among the world's voices and must know what is true. Equanimity is not withdrawal from discernment; it is discernment that is no longer disturbed.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When you get pulled off course, draw yourself back — focus on your own inner work — but keep your eyes open and keep discerning what is true among all the voices around you.</p>
+        <div class="concept-tags"><span class="concept-tag">Self-Reliance</span><span class="concept-tag">Discernment</span><span class="concept-tag">Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">से दाणि पंडिए वि य, आया मे दिट्ठ-पुव्वगं ।<br/>तिव्वेहिं सल्लेहिं विद्धे, न सुहं पावइ साहिए ॥१.१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Now even one who considers himself learned — "I have seen the soul before" — pierced by sharp thorns of passion, does not attain happiness as stated.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a sharp caution against intellectual pride. The person who says "I have seen the soul" — who has had some experience or understanding of their own nature — but who remains pierced by the thorns of passion, does not attain liberation. Knowledge without the transformation of conduct is incomplete. This is the core Jain position that recurs throughout the chapter: right knowledge must be accompanied by right conduct. A monk who can quote the texts but is still driven by anger, pride, greed, or desire has not yet traveled the path he is describing.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Just knowing about the soul — even having studied or experienced it — does not free you if you are still driven by strong passions. Knowledge without transformation is not enough.</p>
+        <div class="concept-tags"><span class="concept-tag">Intellectual Pride</span><span class="concept-tag">Passion</span><span class="concept-tag">Knowledge vs Conduct</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">संसारभयं च पेहाय, दुक्खं चेव जाणिया ।<br/>आउट्टमाणे पडिसाहरेज्जा, आरंभाओ विरमेज्जासि ॥१.१६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having seen the fear of the cycle of births and knowing suffering, one who is drawn aside should pull back — and should cease from all harm-causing activity.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra provides the motivation that makes withdrawal from worldly activity intelligible: seeing the nature of the cycle of births, not merely intellectually knowing about it. The Jain path is fundamentally experiential — you must see the fear and the suffering clearly enough that withdrawal from harmful activity becomes natural rather than forced. The sutra pairs seeing with knowing and knowing with acting — a complete epistemological sequence. Ceasing from worldly enterprise and harm-causing action is the behavioral expression of the understanding developed over the previous sutras.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When you truly see the suffering that comes from living without awareness, you naturally want to stop doing things that cause harm — not because someone told you to, but because you see clearly.</p>
+        <div class="concept-tags"><span class="concept-tag">Renunciation</span><span class="concept-tag">Suffering</span><span class="concept-tag">Motivation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे केइ लोए परियाए संति, तेसिं अकिरिया-मग्गो ण अत्थि ।<br/>कम्मेहिं तेहिं बद्धा ते नरा, आउट्टमाणा परिहारिया न सिक्खिया ॥१.१७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever doctrines exist in the world — for none of them does the path of non-action exist; those men are bound by those very karmas, having been turned away, they have not learned renunciation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a comprehensive statement: across all doctrines and traditions in the world, the path of inaction — the idea that karma does not bind — does not exist as a real option. Those who follow such doctrines are bound by the very karmas they deny. "They have not learned renunciation" is the key: renunciation is not merely giving up possessions but the deep learning of how to cease generating karma. This cannot be bypassed through philosophical argument; it requires practice, conduct, and transformation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> No matter what tradition you follow, the idea that your actions have no consequences is simply not how reality works — those who believe it end up bound by the very karma they pretend doesn't exist.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma</span><span class="concept-tag">Wrong Paths</span><span class="concept-tag">Renunciation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जं सव्वे पाणा सव्वे भूया, सव्वे जीवा सव्वे सत्ता ।<br/>न हंतव्वा न अज्जाणेयव्वा, न परिग्गहेयव्वा न परिताविया ॥१.१८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">All living beings, all beings with life-force, all souls, all sentient creatures — they should not be killed, should not be commanded to be killed, should not be possessed, should not be tormented.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is one of the most important sutras in the chapter — a comprehensive statement of non-violence that serves as both the summary of the refutations and the positive statement of Jain ethics. The fourfold enumeration covers every possible category of living being without exception. The fourfold prohibition (not killing, not commanding, not possessing, not tormenting) matches the four ways harm can be done. The scope is absolute and admits no exceptions — not for ritual, not for food, not for livelihood. This sutra is the ethical foundation from which the entire Jain way of life is derived.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Every single living being — no matter what kind — should not be killed, ordered killed, owned, or made to suffer. This is the whole foundation of Jain ethics in one verse.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Jain Ethics</span><span class="concept-tag">All Beings</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एस धम्मे धुवे नीए, सासए जिणभासिए ।<br/>तं परिण्णाय मेहावी, नो पमाए मणीसिए ॥१.१९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the doctrine — permanent, certain, eternal, spoken by the Conquerors — knowing this fully, the wise one, the thoughtful one, should not be negligent.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">After the long sequence of refutations, this sutra offers a moment of affirmation: this is the doctrine. The Jain teaching is described with three qualities — permanent, certain, and eternal. These directly counter the philosophical uncertainty of the rival schools: agnosticism (which doubts knowability), skepticism (which holds no position firm), and relativism (which makes truth time-bound). The closing call to non-negligence is characteristic of the Agamic texts — vigilance is not just an ethical virtue but a metaphysical necessity.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The Jain teaching — that all beings should be protected and that right conduct is the path to freedom — is permanent and certain. Knowing this, don't be lazy about it.</p>
+        <div class="concept-tags"><span class="concept-tag">True Doctrine</span><span class="concept-tag">Vigilance</span><span class="concept-tag">Eternal Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">लोगो लोगे सुपइट्ठिए, अपट्ठिओ परलोगंसि ।<br/>दुल्लहे खलु बोहिलाभे, मा पमाए कहिंचि ॥१.२०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One is well-established in this world but not established in the other world — right understanding is indeed difficult to attain; do not be negligent in any respect.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra contains the teaching on the preciousness of right understanding. A person may be financially secure, socially established, physically comfortable — and yet completely unestablished in the only world that matters for liberation. Right understanding is not automatic, not inherited, and not guaranteed by social position. The vast majority of souls cycle endlessly through births without ever attaining the clarity needed to begin the path. This makes the opportunity of a human birth with the capacity for right understanding extraordinarily rare and precious.</p>
+        <p class="simple-explanation"><b>The simple version:</b> You may be comfortable and settled in this life, but you have no security in what comes next — and the real understanding that leads to freedom is genuinely rare. Don't waste the chance.</p>
+        <div class="concept-tags"><span class="concept-tag">Right Understanding</span><span class="concept-tag">Rare Opportunity</span><span class="concept-tag">Human Birth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.21</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अणाइणिय-णाइया, बहुसो संसाराभिमुहे ।<br/>परिभमेह ससरीरे, जणयाओ जीवे ॥१.२१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">⚠️ The soul, without beginning and without known origin, has wandered many times through the cycle of birth and death, taking on bodies, born from various wombs.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ This sutra introduces the beginninglessness of the cycle of existence — a fundamental Jain teaching. The soul has no starting point; it has always existed and has always been cycling. This has a profound psychological implication: there is no original innocent state to return to. Liberation is not a return but a first-time attainment of freedom that was always possible but never achieved. The wandering described here — through countless bodies, countless wombs — is not cruel fate but the natural result of the soul's ongoing entanglement with karma. This sutra grounds the urgency of the chapter: each human birth is a rare window of opportunity in an otherwise endless cycle.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Your soul has been wandering through births since before time began — there is no start to this cycle. Every human life is a chance to finally end it.</p>
+        <div class="concept-tags"><span class="concept-tag">Beginningless Cycle</span><span class="concept-tag">Samsara</span><span class="concept-tag">Soul</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.22</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">बहुणि वासाणि भमित्तु जीवो, गब्भाण माऊण गिलाऊण वाहिं ।<br/>जाई-जरा-मरणं पुणो पुणो, दुक्खेण बद्धे ण सुहं पावइ ॥१.२२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having wandered for many lifetimes, the soul — enduring the torments of the womb, illness, and disease — again and again undergoes birth, old age, and death, bound by suffering, not attaining happiness.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the mechanics of cyclic suffering in visceral terms. The three sufferings of the womb, illness, and disease are paired with the three stages of birth, old age, and death. What distinguishes the Jain version is the causal emphasis: the soul is bound by suffering, not merely experiencing it. Suffering is not accidental; it is the direct product of karmic bondage. And as long as that bondage is not addressed, the cycle repeats endlessly without real happiness ever being found.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Life after life, the soul goes through the suffering of the womb, sickness, aging, and death — and as long as it remains bound by karma, it never finds real happiness.</p>
+        <div class="concept-tags"><span class="concept-tag">Suffering</span><span class="concept-tag">Cycle of Birth</span><span class="concept-tag">Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.23</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे इमे सुद्धिमग्गे वयंति, तेसिं नायरियं लद्धं ।<br/>ण वि ते कम्म-मूलं परिण्णाय, मुच्छा-परिग्गहं चयंति ॥१.२३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">⚠️ Those who speak of a path of purification — they have not attained the teaching of the Knower; for they have not fully understood the root of karma and do not abandon attachment-based possession.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ This is a pointed critique aimed at rival ascetic traditions that speak of "purification" without addressing the root cause. The target may include certain Brahmanical or other renunciate schools that engaged in purification rituals without eliminating craving-attachment. The distinction is precise: external purification practices do not cut the root of karma if the inner attitude of attachment remains. The root of karma — wrong belief, lack of restraint, negligence, passions, and activity — must be reached. Surface purification without inner transformation is insufficient.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People who talk about "purifying themselves" through rituals or practices but never let go of craving and clinging haven't actually understood what creates karma.</p>
+        <div class="concept-tags"><span class="concept-tag">Rival Paths</span><span class="concept-tag">Purification</span><span class="concept-tag">Root of Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.24</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे समण-माहणे विउसिट्ठे, जे लोगं पेच्चाभिणंदंति ।<br/>संसारमेव अनुपरियट्टंति, एवं आहु से लोग-निच्छए ॥१.२४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some ascetics and brahmins, tightly bound, who rejoice in the world and in what comes after — they only go around in the cycle of birth and death; thus says one who has mastered the world.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Even formal renunciates who still rejoice in the world — finding satisfaction in worldly pleasures and heavenly rewards — are merely continuing the cycle. This includes rejoicing in the afterlife rewards of ritual action — the heavenly enjoyments promised by the Vedic tradition. From the Jain perspective, heaven is still the cycle. A monk who practices austerity in order to enjoy heavenly pleasures has substituted one form of desire for another. Only the complete cessation of rejoicing in continued existence — in any form — leads out of the cycle.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even religious people who practice austerities but still look forward to enjoying heaven or rebirth are just taking a different route around the same cycle — they haven't escaped it.</p>
+        <div class="concept-tags"><span class="concept-tag">Worldly Attachment</span><span class="concept-tag">Heaven as Samsara</span><span class="concept-tag">Wrong Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">णो हिंसए किंचण पाणे, जाणंतो विरए समाहिए ।<br/>धुण्णिय-कम्मे विगय-मोहे, अविट्ठकम्मे जिणे वियाणिया ॥१.२५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who does not harm any living being — knowing, restrained, composed — shaking off karma, free of delusion, with no remaining karma, is known as a Conqueror.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">After the long arc of refutations, this sutra presents the positive portrait: what does a truly liberated person look like? The description has five elements: non-violence in conduct, right knowledge, restraint, composure, freedom from delusion, and the complete exhaustion of karma. The title "Conqueror" (Jina) is the source of the word "Jain" — the tradition of those who follow the Conquerors. What is conquered? Not the world, not enemies, but the inner forces of passion, delusion, and karma. This sutra is the positive culmination of Section 1.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A Conqueror — the ideal of the Jain path — is someone who harms nothing, knows truly, lives with restraint and peace, and has burned off all their karma through right living.</p>
+        <div class="concept-tags"><span class="concept-tag">Conqueror</span><span class="concept-tag">Liberation</span><span class="concept-tag">Ideal Monk</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.26</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे केइ लोगंसि विप्परियासं, णाऊण तिण्णे तिभवं जहाइ ।<br/>मग्गंसि ठिए उवसंते, एस मग्गे इइ वुत्तं ॥१.२६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whoever knows the confusion in the world, who has crossed over and has abandoned the three realms of existence, who stands on the path and is at peace — this is the path, thus it has been declared.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra marks a formal transition — a closing declaration for the first major section. The structure of the true path is made explicit: knowing the world's confusion (right understanding), crossing over the three realms (transcending the cycle), abandoning all forms of worldly existence, standing on the path (right conduct), and arriving at peace. The phrase "this is the path, thus it has been declared" carries the weight of Mahavira's authority. The path is not speculative; it has been walked and declared.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The person who sees through the world's confusion, crosses beyond the cycle of births, stands on the true path, and lives in peace — that is what the true path looks like.</p>
+        <div class="concept-tags"><span class="concept-tag">True Path</span><span class="concept-tag">Three Realms</span><span class="concept-tag">Declaration</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-27">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.27</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">से दाणि पंडिए वि य, पज्जत्ते पालिया-भत्तिए ।<br/>उवसंते परिव्वए, समाहिट्ठे परिग्गहं जहाइ ॥१.२७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Now the wise one — fulfilled, devoted to pure sustenance — at peace, wandering as a renunciant, composed, abandons all possessions.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The final sutra of Section 1 completes the portrait begun in 1.25. It is a picture of the fully-practicing monk: he is wise, content, careful about food, internally at peace, wandering without attachment to any fixed place, and completely free of possessiveness. Each of these qualities corresponds to a category of conduct elaborated through the preceding sutras. The sutra closes the section on a note of embodied practice — the teaching is not merely philosophical but lived, visible, and daily.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The wise monk who has understood all this lives simply, eats carefully, stays peaceful, keeps moving (not getting attached to any place), and holds on to nothing.</p>
+        <div class="concept-tags"><span class="concept-tag">Monk Ideal</span><span class="concept-tag">Non-Possession</span><span class="concept-tag">Equanimity</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Section 2 -->
+  <div class="section-divider"><span>Section 2 — Fatalism, Agnosticism, and Views on Suffering (Gathas 28–59)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-28">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.28</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">नियइवाइं च ते तेसिं, जे नियइं वयंति भो ।<br/>पुरिसक्कारेण णत्थि किंचि, तेसिं णायरियं ण लद्धं ॥१.२८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Those fatalists — those who teach fate — say that through personal effort nothing can be achieved; they have not attained the teaching of the Knower.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Section 2 opens with the refutation of fatalism — the doctrine that all events are absolutely predetermined by fate and that human effort is powerless. This was the teaching of the Ajivika school. The Jain rejection of fatalism is total: if nothing can be achieved through personal effort, the entire path of liberation is meaningless. The concept of personal effort is central to Jain ethics — one's choices genuinely matter and genuinely determine one's trajectory. Karma shapes circumstances, but effort transforms those circumstances.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People who believe that everything is fated — that your effort makes no difference — have not understood the teaching. If fate decides everything, then there's no point in trying to become free.</p>
+        <div class="concept-tags"><span class="concept-tag">Fatalism</span><span class="concept-tag">Personal Effort</span><span class="concept-tag">Wrong Views</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-29">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.29</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">नियइवाइणो खलु ते बाला, मोहेण य कम्मेण य पविट्ठा ।<br/>जे उ सुक्कस्स कम्मस्स फलं, अणुभवंति अप्पणो ॥१.२९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Fatalists are indeed unwise, entered into delusion and karma — but those who experience the fruit of pure karma do so through their own effort.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra makes explicit the counter-position to fatalism: the fruit of positive karma is experienced by those who generated it through their own effort. The Jain position is not that fate plays no role — past karma does shape one's circumstances — but that present effort genuinely matters and can transform those circumstances. The fatalist, immersed in delusion, fails to see this. What is particularly pointed: fatalists are said to be immersed in karma even while denying karma's significance. Their very belief in fate is a consequence of deluded views.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Fatalists are fooled by their own confusion — the good results that come from living well come from your own sincere effort, not from fate.</p>
+        <div class="concept-tags"><span class="concept-tag">Personal Effort</span><span class="concept-tag">Karma Fruit</span><span class="concept-tag">Agency</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-30">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.30</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वे पाणा सव्वे भूया, अत्थं च दुक्खं च विजाणिया ।<br/>संसारे य परिभमिया, जाइ-जरा-मरणेण य ॥१.३०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">All living beings, all creatures — knowing both benefit and suffering — wander in the cycle of births through birth, old age, and death.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra affirms the universal scope of suffering as experienced by all beings, regardless of philosophical position. All living beings, from the simplest to the most complex, experience both what they seek as beneficial and what comes as suffering. The cycle of birth, old age, and death is not a human problem but a universal one. This universality is the basis of compassion — if every being suffers, then the practice of non-violence is not merely a rule but a recognition of shared condition.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Every living being — not just humans — goes through birth, aging, and death, experiencing both good and bad. This is a fact about all life, not just yours.</p>
+        <div class="concept-tags"><span class="concept-tag">Universal Suffering</span><span class="concept-tag">Compassion</span><span class="concept-tag">All Beings</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-31">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.31</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे इमं जाणिया धम्मं, धीरे पंडिए विलोइया ।<br/>ण करेज्जा पावं कम्मं, ण वि अणुमाणे ॥१.३१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whoever knows this doctrine — the resolute one, the wise one, who has seen clearly — should not perform harmful karma, and should not approve of it either.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The connection between knowledge and conduct is made explicit here: knowing the doctrine is not enough unless it produces a change in behavior. The monk who genuinely knows the Jain teaching will both avoid performing harmful action and will withdraw his approval from others who do it. Mental and verbal approval of harm generates karma even without physical participation. Right understanding must produce right action — and right restraint from action — to be real.</p>
+        <p class="simple-explanation"><b>The simple version:</b> If you truly understand the teaching, you won't do harmful things — and you won't even silently agree when others do them.</p>
+        <div class="concept-tags"><span class="concept-tag">Knowledge and Conduct</span><span class="concept-tag">Approval</span><span class="concept-tag">Non-Harming</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-32">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.32</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अ-णाणिणो उत्तमत्थमेयं, ण याणंति दुक्खाण मोक्खं ।<br/>एवं आहु से लोग-निच्छए, तस्स ण होइ धम्मो ॥१.३२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The ignorant do not know this highest truth — they do not know liberation from suffering; thus says one who has mastered the world — for such a one there is no doctrine.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ignorant person — one without right knowledge — fails at the most fundamental level: they do not know what liberation is, and therefore cannot pursue it. "There is no doctrine for such a one" does not mean the doctrine is unavailable; it means they are not living within the doctrine's framework. Right doctrine is not just a set of beliefs; it is a way of life oriented toward liberation. Without that orientation, the outward forms of religious life remain empty.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People without real understanding don't even know what freedom from suffering means — and because of that, their religious behavior has no real doctrine underneath it.</p>
+        <div class="concept-tags"><span class="concept-tag">Ignorance</span><span class="concept-tag">Liberation</span><span class="concept-tag">True Doctrine</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-33">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.33</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अन्नाणिणो मिच्छ-दिट्ठी, आया-पसत्था य कम्म-भरिया ।<br/>एएसिं णिरयगं गच्छंति, जे ण जाणंति धम्ममेयं ॥१.३३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The ignorant, the wrong-viewing, those who praise themselves and are laden with karma — those who do not know this doctrine go to a state of suffering.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Three qualities cluster together here: ignorance, wrong views, and self-praise. The third — self-praise — might seem surprising in this list, but in the Jain analysis it is the social expression of the inner vice of pride, one of the four passions that drive karma accumulation. The religious person who claims spiritual superiority while actually being laden with karma is precisely the target of this critique. The consequence — a state of suffering — is direct and proportional.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People who are ignorant, hold wrong views, and boast about their spiritual standing while actually loaded with karma — they head toward greater suffering, not freedom.</p>
+        <div class="concept-tags"><span class="concept-tag">Spiritual Pride</span><span class="concept-tag">Wrong Views</span><span class="concept-tag">Consequence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-34">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.34</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे अन्नाणी अबोहिए, मिच्छद्दंसण-संजुए ।<br/>से बंधणं जाण धुवं, सुद्धप्पा मुच्चइ कम्मणो ॥१.३४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whoever is ignorant and without right understanding, joined with wrong perception — know certainly that this is bondage; the pure soul is freed from karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra offers one of the cleanest definitions of bondage in the chapter: the combination of ignorance, absence of right understanding, and wrong perception constitutes bondage — certainly and definitively. The contrast with the second half is equally clean: the pure soul is freed from karma. The word "pure" in the Jain context refers not to ritual purity but to the soul's natural state unclouded by karma and wrong views. Liberation is the soul returning to its own pure nature — not acquiring something new but removing the obscurations.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Ignorance plus wrong views equals bondage — that's certain. And the soul that becomes clear and pure is what frees itself from karma.</p>
+        <div class="concept-tags"><span class="concept-tag">Bondage Defined</span><span class="concept-tag">Pure Soul</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-35">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.35</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एएसिं च मतं हवइ, जे पावकम्मं कुव्वंति ।<br/>विप्पकंतं समाइण्णं, तं पि णायरियं ण लद्धं ॥१.३५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">⚠️ Such is the view of those who perform harmful karma — one who has deviated and has fallen into confusion — even that teaching has not attained the understanding of the Knower.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ This sutra continues the critique of those who perform harmful acts while holding themselves to be on a spiritual path. The two descriptors — deviated and confused — describe both the behavioral and the philosophical dimensions of the problem. Such people's teaching has not reached the Knower's level because right teaching and harmful practice are incompatible. The Jain position is that doctrine and conduct are not separate domains — what one teaches about reality should be directly reflected in how one lives.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People who keep performing harmful actions while claiming to be on a spiritual path have gone astray and are confused — their teaching hasn't reached the level of true understanding.</p>
+        <div class="concept-tags"><span class="concept-tag">Harmful Conduct</span><span class="concept-tag">Deviation</span><span class="concept-tag">Doctrine and Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-36">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.36</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण ताणिया मेहुणं गच्छे, अणट्ठं वा ण गिह्हिया ।<br/>मा समारंभं कुज्जा, एस धम्मे सुसाहिए ॥१.३६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Let not the restrained one go toward sensual indulgence, and let him not take what is not given — let him not engage in harmful enterprise; this is the doctrine, well-established.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra specifies three of the five major restraints for monks: celibacy, non-stealing, and non-harming through enterprise. These are not arbitrary rules but the specific practices that prevent the three major categories of karma generated through desire, taking, and doing harm. The Jain monastic code is precise: each restraint addresses a specific mechanism of karma generation. This sutra is a positive statement of practice within the broader philosophical discussion of wrong views.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monk who truly practices: no sexual indulgence, no taking what isn't given, no involvement in harmful projects. That's the teaching, clearly stated.</p>
+        <div class="concept-tags"><span class="concept-tag">Restraints</span><span class="concept-tag">Five Vows</span><span class="concept-tag">Monk Conduct</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-37">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.37</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">दट्टु दुक्खाण भीरू, पालयंता उ संजमं ।<br/>रागं च दोसं च छित्त्वा, भिक्खू आयाणमाचरे ॥१.३७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who fears suffering, who maintains restraint, who has cut through attachment and aversion — let him practice the discipline of the path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The two central obstacles to liberation — attachment and aversion — are named here and must be cut through, not merely reduced. The monk's conduct flows from this inner cutting: when attachment and aversion are gone, restraint is not a burden but the natural expression of clarity. The phrase "having seen suffering, one who fears it" is not timidity but discernment. One who sees clearly what suffering is and where it comes from is naturally motivated to live in a way that does not generate more of it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk who has seen suffering clearly, lives with restraint, and has cut through both clinging and hatred — that monk is on the true path.</p>
+        <div class="concept-tags"><span class="concept-tag">Attachment</span><span class="concept-tag">Aversion</span><span class="concept-tag">Discipline</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-38">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.38</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">बहवे अस्थि लोगंसि, पन्न-वाई महेसिणो ।<br/>ते अण्णोण्णं पसंसंति, नो मे सच्चं विजाणिया ॥१.३८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">There are many great teachers in the world, speakers of wisdom — they praise each other, but my truth is not known by them.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces the perspective of Mahavira himself. There is no shortage of teachers and traditions in the world — many who praise each other and establish mutual credibility. But mutual praise among teachers does not constitute access to truth. The Jain critique is not that other traditions have nothing of value; it is that the specific truth Mahavira teaches — about the soul, karma, and the precise mechanics of liberation — is not accessible to those who remain attached to their own doctrines. Truth is not arrived at by consensus among scholars but by the direct experience of the liberated.</p>
+        <p class="simple-explanation"><b>The simple version:</b> There are many teachers in the world who praise each other — but mutually agreeing doesn't make something true. The truth Mahavira teaches is not reached through intellectual debate.</p>
+        <div class="concept-tags"><span class="concept-tag">Truth</span><span class="concept-tag">Rival Teachers</span><span class="concept-tag">Direct Knowledge</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-39">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.39</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">लोगेण सद्धिं संजोगं, सव्वतो परिवज्जिया ।<br/>आयाणे संजयभावे, मुणी अप्पाणमाहिए ॥१.३९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having abandoned in all ways the entanglement with the world, the sage, established in restraint, attends to himself alone.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The word "entanglement with the world" refers to the adhesive involvement with worldly things that generates karma. The sage abandons this completely, not partially, from all directions. The phrase "attends to himself alone" is the practical expression of this: the sage's primary and ultimately his only responsibility is the cultivation of his own soul. This is not selfishness — it is the recognition that no one can do this work for another, and that a soul in the process of purification best serves others by completing that purification.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The sage who completely untangles himself from the world's demands and focuses entirely on his own inner cultivation — that is the Jain ideal of the practicing monk.</p>
+        <div class="concept-tags"><span class="concept-tag">Withdrawal</span><span class="concept-tag">Self-Cultivation</span><span class="concept-tag">Sage Ideal</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-40">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.40</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एस पंथे अणुगंतव्वे, जे इमं जाणिया धम्मं ।<br/>ण से भीए ण उव्विग्गे, ण अब्भासाइ विप्पमत्ते ॥१.४०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the path to be followed by one who knows this doctrine — he is not afraid, not agitated, not negligent even in minor matters.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The psychological portrait of the practicing monk is here given three qualities: fearlessness, non-agitation, and total non-negligence. Fearlessness comes from having understood the true nature of things. Non-agitation means the monk is not thrown off by challenges or provocations. Total non-negligence is perhaps the most demanding: the Jain path holds that even small careless acts generate karma, and therefore attention must be maintained constantly, not just in dramatic moments.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The person who truly follows this path is not afraid, not rattled, and never careless — even about small things. That combination is the mark of someone actually walking the path.</p>
+        <div class="concept-tags"><span class="concept-tag">Fearlessness</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Vigilance</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-41">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.41</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अ-णाण-जणिओ भीरू, आइण्णो उ महामुणी ।<br/>सव्वदुक्खाण पारगए, लोगमेगे वियाणिया ॥१.४१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The great sage, cautious of what is born of ignorance, who has crossed over all suffering — one who knows the world, this single knower.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The great sage is defined by two qualities: he is cautious of everything born of ignorance, and he has crossed over all suffering. The first quality is the means; the second is the result. Anything produced by ignorance — any thought, speech, or action arising from wrong understanding — is to be approached with caution, because ignorance-born acts generate binding karma. The sage who has internalized this caution completely has crossed to the other shore. Being called "one who knows the world" connects this sage to the tradition of those who have fully understood the world's nature.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The great sage is careful about everything that comes from ignorance — and by being careful, he has crossed over all suffering.</p>
+        <div class="concept-tags"><span class="concept-tag">Great Sage</span><span class="concept-tag">Ignorance</span><span class="concept-tag">Crossing Over</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-42">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.42</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अक्खे वि य विद्धसे, से धीरे से महामुणी ।<br/>अप्पाणमाहिए धिल्लो, संखाए परिभासिया ॥१.४२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Even struck by the axle-pin (deeply wounded), he is resolute — that great sage, attending to himself, steadfast, is described as one who has understood.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The image of being struck by a sharp instrument and yet remaining resolute is a test of the sage's equanimity under extreme physical hardship. Even in such a state, the great sage remains resolute and turns inward. The capacity to maintain equanimity under extreme provocation — pain, insult, loss — is the practical demonstration of having truly "understood." This is not stoic suppression of feeling but the transformation of the inner relationship to experience that comes through genuine practice.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even deeply wounded, the great sage stays steady and turns inward — that's what it means to have truly understood the teaching, not just memorized it.</p>
+        <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Hardship</span><span class="concept-tag">True Understanding</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-43">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.43</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण से आसाए ण से णिरासाए, ण हरिसे ण वि देवए सोए ।<br/>एगंत-दुक्खे य एगंत-सुक्खे, मज्झत्थभावे ठिए अविग्गहे ॥१.४३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He is neither hopeful nor despairing, neither elated nor lamenting in sorrow — in complete suffering and in complete happiness alike, standing in equanimity, without agitation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra gives the clearest formulation of equanimity in the chapter. The sage's equanimity is not coldness or indifference — it is stability of being that is unaffected by the extremes of experience. He does not hope for good outcomes (thereby creating attachment) nor despair at bad ones (thereby creating aversion). In the depths of suffering and in the heights of happiness, the inner state remains the same. This is the equanimity that is the precondition for liberation — because liberation requires the complete cessation of the reactive swing between attraction and repulsion.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The sage is not swinging between hope and despair, joy and grief — whether life goes wonderfully or terribly, he stays in the same steady place inside.</p>
+        <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Middle State</span><span class="concept-tag">Non-Reaction</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-44">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.44</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">लाभे य अलाभे य, से विराए विमुच्चिए ।<br/>जोगे अप्पडिबद्धे, एस मग्गे अणुत्तरे ॥१.४४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In gain and in loss alike — he is detached, freed — in activity not bound to outcomes; this is the path, the highest.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The equal treatment of gain and loss is a practical application of the equanimity described in the previous sutra. Whether the monk's begging round produces food or not, whether a teaching is received well or poorly, whether circumstances favor his practice or obstruct it — the inner state is the same. Being "in activity, not bound" is particularly important: the sage acts fully and completely, but is not bound to the results of acting. This is the Jain version of acting without grasping at outcomes.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Whether things go well or poorly — whether you gain or lose — staying detached and unbound is the highest path.</p>
+        <div class="concept-tags"><span class="concept-tag">Gain and Loss</span><span class="concept-tag">Detachment</span><span class="concept-tag">Highest Path</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-45">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.45</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं अहापि विजाणिया, से विरागी विमुच्चिए ।<br/>मोक्खमग्गे अणुत्तरे, जिणे वुत्तं अणागयं ॥१.४५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, knowing even a little, he is detached and freed — on the highest path to liberation, as declared by the Conqueror for the future.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The phrase "even knowing a little" is gracious and significant. Liberation does not require perfect, complete knowledge before one begins. Even partial right understanding, when combined with genuine detachment, sets one on the highest path. This is an invitation rather than a demand: begin where you are. The path has been declared by the Conqueror not merely for the present generation but for all future time. The teaching is not historically limited but universally valid across all ages.</p>
+        <p class="simple-explanation"><b>The simple version:</b> You don't need to understand everything perfectly before beginning — even a little genuine understanding, combined with real letting go, sets you on the highest path.</p>
+        <div class="concept-tags"><span class="concept-tag">Beginning the Path</span><span class="concept-tag">Partial Understanding</span><span class="concept-tag">Universal Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-46">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.46</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अण्णाणी बाले कुव्वइ, जे सव्वं लोगमेव मण्णई ।<br/>सव्वं च णं परिण्णाय, दुक्खं से णत्थि निव्वुइ ॥१.४६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The ignorant, unwise one acts, thinking the entire world is just this — but one who has fully understood everything, for him there is no suffering: that is liberation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The contrast here is between two orientations to reality. The ignorant person acts on the assumption that this visible, material world is all there is. This assumption limits all their seeking to the material plane and makes liberation literally inconceivable. The one who has fully understood — who sees the full scope of reality including the soul, karma, and the path — reaches a state where suffering ceases. The word for liberation here (peace, cooling) refers to the complete cooling of the fires of passion and karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The person who thinks this material world is all there is keeps acting in ways that produce suffering. The person who understands the full picture reaches freedom.</p>
+        <div class="concept-tags"><span class="concept-tag">Materialism</span><span class="concept-tag">Full Understanding</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-47">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.47</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं णाणं च दंसणं च, चरणं च समाहिया ।<br/>अहिगम्म जिण-वयणे, एस मग्गे उ जिण-भासिए ॥१.४७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus right knowledge and right perception and right conduct together — having attained the words of the Conqueror, this is the path declared by the Conqueror.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a landmark sutra in Jain philosophy: the explicit naming of the Three Jewels — right knowledge, right perception, and right conduct. Together these three constitute the complete path to liberation. The sequence is deliberate: right perception (the fundamental orientation of the soul toward truth) comes before right knowledge (the specific understanding of reality) which grounds right conduct (the daily practice that generates no new karma). All three must be present together — any one alone is insufficient. This sutra is the positive heart of the entire chapter.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Right faith, right knowledge, and right conduct together — that is the complete path the Conqueror declared.</p>
+        <div class="concept-tags"><span class="concept-tag">Three Jewels</span><span class="concept-tag">Complete Path</span><span class="concept-tag">Right Knowledge</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-48">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.48</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">बंधणाणि य मोक्खाणि य, सच्चं णाणं परिण्णाय ।<br/>से भिक्खू संजए सुसमाहिए, इच्छं पिंडं परिहरिए ॥१.४८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having fully understood true knowledge — what bondage is and what liberation is — that monk, restrained and well-composed, avoids food obtained through desire.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra connects the highest philosophical understanding directly to the most practical daily matter: food. A monk who has truly understood the distinction between bondage and liberation will naturally avoid food obtained through desire. The specificity of this application is characteristically Jain: liberation philosophy is not abstract but has direct behavioral implications at the level of every meal. The monk's restraint in food is a mirror of his inner state.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monk who truly understands bondage and liberation becomes careful even about food — avoiding any food that was obtained through wanting or asking.</p>
+        <div class="concept-tags"><span class="concept-tag">Food Ethics</span><span class="concept-tag">Restraint</span><span class="concept-tag">Daily Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-49">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.49</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एसो सामायारं धम्मं, जिणेहिं उवदिट्ठं ।<br/>तं च णं पुच्छिउं णासे, अहिगम्म जिण-सासणे ॥१.४९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the conduct-doctrine taught by the Conquerors — one should ask about it and not destroy it, having attained the teaching of the Conquerors.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The code of right conduct is described here as something taught by all the Conquerors — plural — indicating that the ethical path is not the invention of Mahavira but the consistent teaching of all Tirthankaras. The instruction to "ask about it and not destroy it" underscores the transmission imperative: the teaching must be actively sought, carefully learned, and faithfully preserved. Right conduct is a living transmission, not a static text.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The code of right conduct was taught by all the great Conquerors — seek to understand it carefully, and protect it rather than letting it be lost.</p>
+        <div class="concept-tags"><span class="concept-tag">Right Conduct</span><span class="concept-tag">Transmission</span><span class="concept-tag">Tirthankara Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-50">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.50</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण मज्जेज्जा ण हिंसेज्जा, ण मुसं वत्तुमरिहइ ।<br/>ण विहिंसे पाणिणो, ण कुज्जा पावकम्म किंचण ॥१.५०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Let him not be intoxicated, let him not harm, let him not speak falsehood — let him not injure living beings, let him not perform any harmful karma whatsoever.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is a compressed code of monastic ethics: no intoxication, no harm, no falsehood, no injury to living beings, and absolutely no harmful karma of any kind. The four prohibitions correspond to the first four of the five great restraints. The phrase "any, whatsoever" closes every loophole. This is not a graduated code with exceptions; it is an absolute standard. Intoxication specifically clouds the clarity needed for right conduct, making it the precondition for other failures.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk's code in one verse: no getting intoxicated, no harming, no lying, no injuring anyone, no harmful action at all — none.</p>
+        <div class="concept-tags"><span class="concept-tag">Five Vows</span><span class="concept-tag">Absolute Standard</span><span class="concept-tag">Non-Intoxication</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-51">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.51</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं लोगंसि संखाए, सव्वभावे अभिण्णाय ।<br/>जे आरंभाओ विरए, तस्स णत्थि कत्थवि भयं ॥१.५१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus understanding the world, having recognized all states of being — one who is restrained from all harmful enterprise: for him there is no fear anywhere.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The freedom from fear described here is not the absence of dangerous circumstances but the transformation of one's relationship to those circumstances. The monk who genuinely understands all states of being and has withdrawn from all harmful activity has nothing left to fear. Fear is generated by the uncertainty that comes from attachment: we fear losing what we are attached to. The monk who has let go completely has no such attachment, and therefore no such fear. This is freedom as an inner state, not an outer condition.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Once you truly understand how the world works and stop participating in harmful action, you have nothing left to fear — anywhere.</p>
+        <div class="concept-tags"><span class="concept-tag">Fearlessness</span><span class="concept-tag">Understanding</span><span class="concept-tag">Freedom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-52">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.52</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं चरित्तसंपन्ने, णाण-दंसण-समाहिए ।<br/>से णं जाणाहि पंडिए, एस मग्गे इइ वुत्तं ॥१.५२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus endowed with right conduct, composed in right knowledge and right perception — know that one as wise: this is the path, thus it has been declared.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Three Jewels appear again in a closing declarative: the one who possesses all three — right conduct, right knowledge, right perception — is the truly wise one. This contrasts with the earlier uses of "wise one" where the scholar who knows the teachings but acts wrongly was shown to be not truly wise. Wisdom in the Jain sense is not academic achievement but the integration of understanding and living. The closing seal "thus it has been declared" functions as formal confirmation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The truly wise person is the one who combines right conduct, right knowledge, and right faith together — not just one of them. That is the path.</p>
+        <div class="concept-tags"><span class="concept-tag">Three Jewels</span><span class="concept-tag">True Wisdom</span><span class="concept-tag">Integration</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-53">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.53</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण छिंदे ण भिंदे ण दहेज्जा, अप्पसत्थं विगंचिया ।<br/>नायव्वा सव्व-जीवे य, जाणित्तू ण समारभे ॥१.५३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Let him not cut, not split, not burn — having abandoned what brings little benefit; all souls should be known, and knowing them, let him not initiate harm.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Three forms of physical harm — cutting, splitting, burning — are specifically named because they represent the most common forms of harm in daily activities. From the Jain perspective, each of these activities injures earth, water, fire, and plant souls. The instruction to "abandon what brings little benefit" is a cost-benefit analysis in favor of the living: if the benefit is minor and the harm is real, the benefit is not justification enough. This sutra is among the most ecologically specific in the Jain canon.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Don't cut, split, or burn anything for trivial reasons. All souls deserve to be known and respected — once you know them, you won't want to start harming them.</p>
+        <div class="concept-tags"><span class="concept-tag">Ecology</span><span class="concept-tag">Daily Harm</span><span class="concept-tag">All Souls</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-54">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.54</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एसे आयाण-मग्गे बुइए, अदुवा देसे बुइए णाय-वाए ।<br/>से हु णाए सच्च-वाए, एसे धम्मे जिण-भासिए ॥१.५४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This has been declared as the path of discipline — or declared partially in the teaching of the Knower; truly he is the Knower, the speaker of truth — this is the doctrine declared by the Conqueror.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ This closing sutra of a major section serves as a formal seal of the teaching. The phrase "or declared in part" is an acknowledgment of the vast scope of the Jain teaching: what is given here is a partial declaration, not the totality. The Knower is Mahavira — the title also alludes to his clan name. He is the speaker of truth, meaning his teaching is not speculation but direct knowledge from the other side of delusion. The phrase "declared by the Conqueror" is here given its most explicit justification.</p>
+        <p class="simple-explanation"><b>The simple version:</b> All that has been declared here is the path — the Conqueror, who conquered all delusion, speaks from direct knowledge and declares it as the true doctrine.</p>
+        <div class="concept-tags"><span class="concept-tag">Mahavira</span><span class="concept-tag">Direct Knowledge</span><span class="concept-tag">Seal of Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-55">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.55</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">से दाणि पंडिए वि य, जाणिया सव्वसो दुक्खं ।<br/>परिण्णाय समाहिट्ठे, एस मग्गे अणुत्तरे ॥१.५५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Now even the wise one — having known suffering in all its forms, having fully understood it, composed — this is the highest path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The repetition of the formula "now even the wise one" throughout this chapter creates a rhythmic structure that functions almost like a refrain, drawing the reader back to practical implication. Here it is coupled with the complete knowledge of suffering. The full understanding of suffering — its origin, its mechanisms, its forms across all six categories of beings — is the motivational foundation of the path. Composure is both the means and the result: you need some equanimity to investigate suffering honestly, and the honest investigation deepens your equanimity.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The wise person who has really understood suffering in all its forms and stays composed — they are walking the highest path.</p>
+        <div class="concept-tags"><span class="concept-tag">Understanding Suffering</span><span class="concept-tag">Composure</span><span class="concept-tag">Highest Path</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-56">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.56</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">बुद्धे य बोहेज्जा, ण पुणो संकप्पं वावए ।<br/>एवं णाणं च दंसणं च, एस मग्गे अणुत्तरे ॥१.५६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The enlightened one should enlighten others — and not again set intentions in motion; thus right knowledge and right perception: this is the highest path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Two instructions are given here: the enlightened one should help awaken others, and should not set intentions in motion again. The second instruction is about karma generation through purposive mental action: even the act of intending — forming deliberate plans driven by desire — generates karma. The monk who has attained right knowledge and right perception lives in a state where actions arise from wisdom rather than intention. The permission to awaken others is important: sharing right knowledge is itself a form of the highest conduct.</p>
+        <p class="simple-explanation"><b>The simple version:</b> If you have found understanding, help awaken others — and stop generating intentions driven by wanting. That is how right knowledge and right faith become the highest path.</p>
+        <div class="concept-tags"><span class="concept-tag">Enlightenment</span><span class="concept-tag">Intention</span><span class="concept-tag">Teaching Others</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-57">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.57</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एस खलु लोग-सारे, तित्थगरेहिं उवदिट्ठे ।<br/>अत्तिए जह णाम कामुओ, एवं लोगे वि एस सारे ॥१.५७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This indeed is the essence of the world, taught by the Tirthankara — just as the sensual one craves benefit, so in this world this is the essence.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The word "essence" is powerful: just as a person addicted to sense pleasure craves and pursues what gives pleasure, the monk should be equally ardent in pursuing the true essence of the world — the teaching. The comparison is not dismissive of the worldly person but uses their intensity as a mirror: that same energy of pursuit, redirected toward liberation, is what is required. The Tirthankara — the ford-maker, the one who makes a crossing across the ocean of the cycle — has shown this essence.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The Tirthankara's teaching is the true treasure of the world — pursue it with at least as much energy as you currently spend pursuing what you want.</p>
+        <div class="concept-tags"><span class="concept-tag">Tirthankara</span><span class="concept-tag">World's Essence</span><span class="concept-tag">Pursuit</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-58">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.58</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">संबुद्धे कुसले धीरे, आवकहाए सुसंजए ।<br/>ण सेवे कामभोगे, अणिए दुक्खसंभवे ॥१.५८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The fully enlightened one — skilled, resolute, thoroughly restrained, having understood — should not indulge in sense pleasures, which are impermanent and the origin of suffering.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The two characteristics of sense pleasure given here — impermanence and being the origin of suffering — are the philosophical justification for avoidance, not merely a moral rule. To indulge in what is impermanent is to set oneself up for the suffering of loss; to pursue the origin of suffering is to actively generate the conditions for future pain. The skilled monk sees this clearly and does not require external discipline to avoid pleasure — clarity is itself the deterrent.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The truly wise person, who sees clearly that sense pleasures are fleeting and are the root of suffering, naturally stops seeking them — not because of rules, but because of understanding.</p>
+        <div class="concept-tags"><span class="concept-tag">Sense Pleasure</span><span class="concept-tag">Impermanence</span><span class="concept-tag">Understanding</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-59">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.59</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">परिण्णाय चरे लोगं, समणे मोणमायरे ।<br/>जे दंता सुसमाहिया, ते सिद्धिं पडिवज्जइ ॥१.५९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood, let the monk move through the world, practicing the silence of the sage — those who are disciplined and well-composed attain liberation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The word "silence" here refers not merely to the absence of speech but to the entire inner discipline of the sage — their silence encompasses control of thought, speech, and body. Having understood the world's nature, the monk does not withdraw from the world but moves through it with this inner silence intact. Those who are disciplined and composed — two qualities that have recurred throughout the chapter — attain liberation. This sutra closes Section 2 with a positive affirmation: the path works, the destination is real.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk who truly understands, who moves through the world with inner silence and discipline, who stays composed — that monk attains liberation.</p>
+        <div class="concept-tags"><span class="concept-tag">Sage's Silence</span><span class="concept-tag">Inner Discipline</span><span class="concept-tag">Liberation Attained</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Section 3 -->
+  <div class="section-divider"><span>Section 3 — Wrong Views on Food, Creation, and Liberation (Gathas 60–75)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-60">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.60</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अणट्ठकामा हु णं बाला, परिव्वयंति संसारे ।<br/>अणाइया दुक्ख-समुद्दे, भव-सागरं न तरंति ॥१.६०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The unwise ones, craving what has no real purpose, wander in the cycle — beginninglessly in the ocean of suffering, they do not cross the ocean of existence.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Section 3 opens with a meditation on purposeless desire. The unwise pursue things that have no real benefit for the soul — sensory pleasures, social status, worldly security — and in doing so, wander endlessly. The ocean metaphor is one of the most persistent in the Agamic texts: existence is an ocean that can be crossed only with the right vessel of right conduct, and those without it simply drift. The word "beginninglessly" restates the theme from 1.21: the cycle has no starting point, which is why the urgency of the present opportunity is so great.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The unwise keep chasing things that don't actually help their soul — and so they wander endlessly in suffering without ever crossing to the other side.</p>
+        <div class="concept-tags"><span class="concept-tag">Purposeless Desire</span><span class="concept-tag">Ocean of Existence</span><span class="concept-tag">Wandering</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-61">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.61</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अन्नं पिंडं परिणाय, जे भिक्खू सुद्धसंजए ।<br/>आहाकम्म-विमुत्ते, से भिक्खू तं ण भुंजए ॥१.६१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who has understood what appropriate food is — purely restrained, free from food-causing harm — such a monk does not consume what violates this standard.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The concept of harm generated through the act of eating is unique to Jain ethics. Because even plant life has souls, eating is inherently an act involving harm to living beings, and therefore must be carefully regulated. The monk who has understood what appropriate food means — food that was not prepared specifically for him, that does not involve deliberate harm, that is consumed in the right quantity and manner — lives in a way that minimizes this unavoidable harm. This begins a series examining wrong views about food and liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk who truly understands what appropriate eating means, and who lives with pure restraint, will not eat things that violate those standards — because he understands the harm they cause.</p>
+        <div class="concept-tags"><span class="concept-tag">Food Ethics</span><span class="concept-tag">Harm in Eating</span><span class="concept-tag">Restraint</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-62">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.62</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आहाकम्म-पउत्तं च, अणेसणिज्जं च भोयणं ।<br/>से भिक्खू तं विरिंचिया, मोक्खं मग्गे अणुत्तरे ॥१.६२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Food produced through harm-causing activity, and food that is not worthy of seeking — the monk, having abandoned that, is on the highest path to liberation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Two categories of food are specifically identified as incompatible with the path: food produced through harmful activity and food that is intrinsically not worthy of seeking — food acquired through improper means. The monk who abandons both is described as being on the highest path to liberation. This is not asceticism for its own sake but the specific recognition that careless eating is one of the most pervasive ways in which a monk might unknowingly continue to generate karma even after renouncing the more obvious forms of harm.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk gives up food that was produced harmfully and food that shouldn't be sought — and that discipline itself is part of the highest path to liberation.</p>
+        <div class="concept-tags"><span class="concept-tag">Food Discipline</span><span class="concept-tag">Liberation Path</span><span class="concept-tag">Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-63">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.63</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सुत्ते आहाकम्मकए, जे य गाहावई-कुले ।<br/>सो भिक्खू अणुवाहार-मेव, विरिंचिया संजए ॥१.६३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">⚠️ As stated in the teaching regarding food prepared for guests, in the householder's family — that monk, avoiding even such incidental food, is truly restrained.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ This sutra addresses a subtle but important category: food specially prepared for a visiting monk in a householder's home. In the Jain monastic code, a monk is not to accept food that was prepared specifically for him, because such preparation necessarily involves some activity and harm specifically on behalf of the monk. Even this incidental harm — less obvious than direct violence — is to be avoided by the truly restrained monk. The sutra establishes a high standard: even socially acceptable offerings of special food must be declined if they generate karma.</p>
+        <p class="simple-explanation"><b>The simple version:</b> ⚠️ Even food specially prepared for a visiting monk by a generous family is to be avoided — the truly disciplined monk won't accept food that was made specifically for him.</p>
+        <div class="concept-tags"><span class="concept-tag">Special Food</span><span class="concept-tag">Subtle Harm</span><span class="concept-tag">Monastic Code</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-64">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.64</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">किच्चावाइणं च लोगंसि, जे कत्तारं वयंति भो ।<br/>नाणाहि कत्तारं लोगे, कहं सो मुच्चइ बंधणाओ ॥१.६४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Those in the world who teach that everything is done by a Creator — by knowing (their view of) the Creator of the world, how can such a one be freed from bondage?</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This begins the refutation of the doctrine that a divine Creator is the cause of all worldly events. The Jain critique is precise: if a Creator made everything, then the soul's bondage is the Creator's doing, and its liberation would also require the Creator's action. This eliminates personal effort and personal responsibility from the equation. A person who believes liberation depends on a divine actor rather than on their own karma and conduct cannot take the steps required for liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> If you believe a Creator made everything and controls everything — including your bondage — then it's not clear how you are supposed to do the work of freeing yourself.</p>
+        <div class="concept-tags"><span class="concept-tag">Creationism</span><span class="concept-tag">Divine Causation</span><span class="concept-tag">Personal Effort</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-65">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.65</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">लोग-मूलए लोगं पस्सह, को ईसरो को य किंचि करेज्ज ।<br/>देव-सिद्धिं कप्पिउं, अप्पाणं चेव साहए ॥१.६५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">See the world from the world's own root — what God, and what would he do? Having conceived of divine perfection, one must work out one's own liberation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is the Jain philosophical response to theism — not a denial of divine perfection but a reorientation of its significance. The liberated souls exist in a state of divine perfection, but this perfection was achieved through their own effort, not granted by an external deity. The world has its own roots — it is self-existing and self-sustaining, governed by the laws of karma rather than divine will. In the Jain universe, no entity has the power to intervene in another's karma. Liberation is therefore entirely the work of the self on the self.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The world runs on its own laws. Even if you imagine divine perfection as your ideal, the work of reaching it is entirely your own — no one can do it for you.</p>
+        <div class="concept-tags"><span class="concept-tag">Self-Effort</span><span class="concept-tag">Jain Theism</span><span class="concept-tag">World's Own Laws</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-66">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.66</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अत्थि एगे पवयणं वयंति, लोगं च सव्वं णिच्च-भावियं ।<br/>एगे य लोगं अणिच्च-भावियं, दुवे वि एए णायरियं ण लद्धं ॥१.६६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some declare the entire world to be permanent by nature; others declare the world to be impermanent by nature — neither of these two has attained the teaching of the Knower.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is the Jain doctrine of qualified truth in embryo. The absolutist positions — "everything is eternal" (held by the Vedantic tradition) and "everything is impermanent" (the Buddhist position) — are both partial. The Jain analysis holds that reality is both permanent and impermanent in different respects: the soul is permanent in its essential nature but impermanent in its modes. To seize on one aspect and declare it the whole truth is to fall into a one-sided view that does not capture reality fully.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Some say everything lasts forever; others say nothing lasts at all. The Jain teaching says both are half-truths — reality is more subtle than either extreme.</p>
+        <div class="concept-tags"><span class="concept-tag">Permanent Impermanent</span><span class="concept-tag">One-Sided Views</span><span class="concept-tag">Conditional Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-67">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.67</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">लोगो निच्चो य अणिच्चो य, एवमाहु जिणा पुव्वे ।<br/>जह णाम रुक्खो कट्ठे, पत्ते पुफे फले तहा ॥१.६७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The world is both permanent and impermanent — thus the Conquerors declared previously — just as a tree is permanent in its wood but impermanent in its leaves, flowers, and fruits.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tree metaphor is one of the most elegant illustrations in the Agamic texts. A tree is permanent in its essential wood-nature — it persists through seasons — but impermanent in its modes: leaves fall and grow, flowers bloom and fade, fruits appear and are consumed. Similarly, the soul is permanent in its essential existence but undergoes continuous modification in its states, karmic coatings, and modes of experience. The Conquerors are invoked in the plural to indicate this is not Mahavira's unique invention but the consistent teaching of all Tirthankaras.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Reality is both permanent and changing — like a tree that stays a tree while its leaves and flowers constantly change. The Conquerors have always taught this middle understanding.</p>
+        <div class="concept-tags"><span class="concept-tag">Tree Metaphor</span><span class="concept-tag">Substance and Mode</span><span class="concept-tag">Middle View</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-68">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.68</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अत्थि एगे वयंति भो, सासए मोक्ख-वाइणो ।<br/>अत्थि एगे ण मुच्चंति, दुवे वि एए ण जाणिया ॥१.६८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some say liberation is eternal — some say liberation does not exist — both of these two do not know the truth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Two further wrong views about liberation: that liberation is just a form of eternal existence in some heavenly realm (making liberation indistinguishable from a very long samsaric life), and that liberation does not exist at all (a nihilistic view). The Jain teaching is that liberation is real and final — it involves the permanent cessation of karma and the soul's attainment of its own natural, infinitely conscious state. It is not "eternal" in the sense of endless samsaric time, and it is not nothing. Both extremes fail to understand what liberation actually is.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Some think liberation just means eternal enjoyment in heaven. Others think there's no such thing as liberation. Both are wrong — the truth about freedom is more specific and more radical than either view.</p>
+        <div class="concept-tags"><span class="concept-tag">Liberation Views</span><span class="concept-tag">Wrong Extremes</span><span class="concept-tag">True Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-69">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.69</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे आहु जीव-संबंधो, एगे णत्थि णिरामिसो ।<br/>एगे आहु अकत्तारो, दुवे वि एए ण जाणिया ॥१.६९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">⚠️ Some say there is a soul-connection — some say there is no connection without attachment; some say souls are non-doers — both of these do not know.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ This sutra addresses the question of the soul's agency. Some teach that the soul is inherently conditioned by its material involvement. Others hold that the soul cannot truly act and is therefore a non-agent — a view associated with certain Sankhya and Vedantic positions where the soul merely witnesses while nature acts. Both views fail: the Jain position is that the soul is genuinely an active agent whose choices generate karma, but that this agency is not unlimited and can be transformed through right conduct.</p>
+        <p class="simple-explanation"><b>The simple version:</b> ⚠️ Some say the soul just gets swept along by matter; some say it doesn't actually do anything. Both are wrong — the soul is a real agent whose choices genuinely matter.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Agency</span><span class="concept-tag">Non-Doer</span><span class="concept-tag">Wrong Views</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-70">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.70</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे आहु परिणाए, एगे आहु अपरिणाए ।<br/>एगे आहु अहकम्मए, दुवे वि एए ण जाणिया ॥१.७०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">⚠️ Some say the soul transforms — some say it does not transform; some say one's own karma alone determines — both of these do not know.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ This sutra addresses the question of the soul's transformation. One extreme holds that the soul transforms completely — effectively changing its nature. The other holds that the soul is utterly unchanging and is therefore unaffected by anything — making karma impossible to explain. The Jain position is nuanced: the soul's essential nature does not change, but its modes — its states, its karmic load, its experiential quality — do change. Both extremes miss this distinction between substance and mode.</p>
+        <p class="simple-explanation"><b>The simple version:</b> ⚠️ Some say the soul is always changing; some say it never changes. Both are half-right. The soul's essence stays the same while its states and karma load constantly change.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Transformation</span><span class="concept-tag">Substance vs Mode</span><span class="concept-tag">Wrong Views</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-71">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.71</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे आहु अस्सिए जीवे, सो चेव होइ नाणादी ।<br/>एगे आहु अणस्सिए जीवे, दुवे वि एए ण जाणिया ॥१.७१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some say the soul is dependent on something — that same soul possesses knowledge and other qualities; some say the soul is independent — both of these do not know.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">⚠️ The "dependent soul" view might refer to those who hold that the soul's qualities depend on material factors. The "independent soul" view might refer to absolute idealists who see the soul as wholly self-contained. The Jain view is that the soul is independent in its essential nature but that its present condition — how much of its natural omniscience is expressed — is conditioned by its karmic load, which is removable through practice. Neither absolute dependence nor absolute independence captures this.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Saying the soul is completely dependent on matter, or completely independent of everything — both miss the truth. The soul has its own nature but is currently conditioned by karma it can remove.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Dependence</span><span class="concept-tag">Karma Conditioning</span><span class="concept-tag">Wrong Views</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-72">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.72</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे आहु अत्थिए जीवे, एगे आहु णत्थिए जीवे ।<br/>एगे आहु अव्वत्तव्वे, दुवे वि एए ण जाणिया ॥१.७२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some say the soul exists — some say the soul does not exist — some say it is inexpressible — both or all of any two of these, held as absolute, do not know.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a crucial sutra in Jain epistemology. The three positions — soul exists, soul does not exist, soul is inexpressible — each capture a partial truth. The Jain doctrine of conditional predication would say: the soul exists from the perspective of its essential being; it does not exist as a permanent self-identical entity across all modes; and its full nature may be difficult to express in any single statement. What is wrong is to take any one of these positions as the absolute and complete truth, including the "inexpressible" position when held as an absolute claim.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Three different answers about whether the soul exists — exists, doesn't exist, can't be described — and all three miss the full truth when held as absolute positions.</p>
+        <div class="concept-tags"><span class="concept-tag">Soul Existence</span><span class="concept-tag">Conditional Predication</span><span class="concept-tag">Partial Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-73">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.73</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे आहु सासए जीवे, एगे आहु असासए जीवे ।<br/>एगे आहु सासासाए, दुवे वि एए ण जाणिया ॥१.७३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Some say the soul is eternal — some say the soul is non-eternal — some say it is both eternal and non-eternal — all of these as absolute claims do not know the full truth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This repeats the structure of the previous sutra for the specific question of the soul's eternity. From the Jain perspective, the soul is eternal in substance but non-eternal in its modes. Even the "both" position, held as an absolute claim rather than as a contextual description, misses the precision of the qualified-predication analysis. The point of this series of sutras is to demonstrate that philosophical positions seized on and held absolutely will always fail — reality requires qualified statements to be expressed with accuracy.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Eternal, non-eternal, or both — each as an absolute claim about the soul misses something. The full truth requires understanding how and in what respect each partial answer is correct.</p>
+        <div class="concept-tags"><span class="concept-tag">Eternal Soul</span><span class="concept-tag">Non-Eternal</span><span class="concept-tag">Qualified Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-74">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.74</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एए सव्वे वि य एए, मिच्छ-दंसण-संपया ।<br/>अबोहिं पावंति तेण, ते सव्वे नरएसु य ॥१.७४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">All of these — all such people — seized by wrong perception, thereby attain further wrong understanding, and all of them end up in states of suffering.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">After the extended series of philosophical refutations, this sutra provides the summary consequence: all those who hold wrong views, regardless of the specific wrong view, end up in states of suffering. Wrong perception is identified as the root cause — it generates wrong understanding, which generates wrong conduct, which generates suffering. This is the logical structure the entire chapter has been building. Wrong understanding is not harmless; it is an active force that shapes the soul's trajectory.</p>
+        <p class="simple-explanation"><b>The simple version:</b> All these wrong views — no matter which specific one — lead to greater confusion and greater suffering. Wrong understanding is not harmless; it has real consequences.</p>
+        <div class="concept-tags"><span class="concept-tag">Wrong Perception</span><span class="concept-tag">Consequence</span><span class="concept-tag">Suffering</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-75">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.75</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे विप्परिणमंति एए, मिच्छत्त-परिणया भवंति ।<br/>ते ण जाणंति दुक्ख-मोक्खं, एस मग्गे इइ वुत्तं ॥१.७५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who are transformed by these wrong views, who are shaped by wrong orientation — they do not know liberation from suffering; this is the path, thus it has been declared.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This closing sutra of the philosophical refutation section is remarkable for its psychological observation: people are transformed by wrong views — the views shape the person, not merely inform them. Wrong orientation is not merely an incorrect idea but a fundamental disposition that determines how one processes all experience. A person shaped by wrong orientation cannot see liberation clearly because their entire perceptual apparatus is distorted. Only right orientation can begin to restore clear seeing.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Wrong views don't just give you incorrect information — they change how you see everything, making liberation invisible to you. That's why right orientation matters so much.</p>
+        <div class="concept-tags"><span class="concept-tag">Wrong Orientation</span><span class="concept-tag">Transformation by Views</span><span class="concept-tag">Path Declared</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Section 4 -->
+  <div class="section-divider"><span>Section 4 — True Conduct Versus False Conduct (Gathas 76–88)</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-76">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.76</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">उड्ढं अहो य तिरियं च, सव्वओ तसा-थावरे ।<br/>ण हिंसेज्जा ण हंतव्वे, एस धम्मे विसोहिए ॥१.७६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Above, below, and sideways — in all directions — mobile and immobile beings should not be harmed, should not be killed; this is the doctrine, purified.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Section 4 opens with the broadest possible formulation of non-violence: all directions and all categories of life. The technical Jain classification of mobile and immobile beings extends protection to every living thing — one-sensed beings (earth, water, fire, air, plant souls) through five-sensed beings. Most traditions protect only the most visible, sentient creatures. Jain ethics extends protection to every living thing in every direction. This universality is the defining characteristic of Jain ethics and the most demanding aspect of the monastic life.</p>
+        <p class="simple-explanation"><b>The simple version:</b> In all directions, every living thing — those that move and those that stay still — should not be harmed. The Jain teaching is completely without exceptions.</p>
+        <div class="concept-tags"><span class="concept-tag">Universal Non-Violence</span><span class="concept-tag">All Directions</span><span class="concept-tag">Mobile Immobile</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-77">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.77</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पाण-भूय-जीव-सत्ते, एगे देव-वाइणो ।<br/>न किंचि दुक्खं काउं, परिव्वएज्जासि मुणी ॥१.७७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">For all living beings, all creatures, all souls, all sentient ones — some speak of them as divine — the monk should wander without causing any suffering whatsoever.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The phrase "some speak of them as divine" is an interesting acknowledgment: some traditions attribute divine status to all beings, which provides their own internal justification for non-violence. Regardless of the theological framework — whether you see all beings as divine, as fellow souls, or simply as beings that feel pain — the practical conclusion is the same: the monk wanders without causing suffering. The Jain path achieves the same behavioral conclusion through different reasoning than the divine-nature view, but does not dismiss the value of that insight in motivating compassion.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Whether or not you see all beings as divine, the monk's practice is to move through the world without causing suffering to any of them.</p>
+        <div class="concept-tags"><span class="concept-tag">Divine Beings</span><span class="concept-tag">Non-Causing Suffering</span><span class="concept-tag">Monk's Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-78">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.78</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे परो य अपरो वा, सेहे संजए धुवे ।<br/>परियाय-बुद्धी भवे, सव्व-भूएसु मेहावी ॥१.७८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whether toward others or toward himself — established, restrained, steady — the wise one has understanding of the cycle of all beings, toward all beings.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra introduces the quality of discernment of the cyclic nature of all beings. The wise monk understands that every being he encounters is cycling through births just as he is, that every being has occupied every possible position in the cycle relative to every other being. This understanding produces neither special attachment to those close to him nor special aversion to those distant — because from the perspective of the long arc of existence, everyone has been everything to everyone. This is not sentimentality but the natural result of clear seeing.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The wise monk treats himself and all others the same — because he understands that all beings are cycling through the same process of birth and rebirth together.</p>
+        <div class="concept-tags"><span class="concept-tag">Cyclic Understanding</span><span class="concept-tag">Universal Equality</span><span class="concept-tag">Wisdom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-79">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.79</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">पण्णासयाए य वट्टमाणे, से भिक्खू सुद्धसंजए ।<br/>ण विग्गहं कुज्जा कयाइ, भिक्खू आयाणमाचरे ॥१.७९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Moving about with wisdom, the monk — purely restrained — should never enter into conflict, the monk should practice the discipline of the path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The prohibition on conflict covers more than physical fighting — it includes verbal disputes, philosophical arguments aimed at winning rather than illuminating, and interpersonal conflict of any kind. The monk who moves about with wisdom naturally avoids conflict, not because he is passive but because he has no ego investment in outcomes that would make him defensive or aggressive. This sutra is particularly relevant in the context of the preceding philosophical discussions: having understood the errors of rival teachings, the monk does not attack those teachers personally but simply practices the true path.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The wise monk never gets into arguments or conflicts — not out of weakness, but because he has nothing to defend and nothing to attack.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Conflict</span><span class="concept-tag">Wisdom</span><span class="concept-tag">Discipline</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-80">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.80</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">नो दंडे आयरे भिक्खू, नो गारत्थिय-माणवे ।<br/>अंजली-कडे विणए, परिव्वएज्जासि मुणी ॥१.८०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Let not the monk practice the rod, let him not act like a householder's man — with folded hands in reverence, the monk should wander.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The contrast between the true monk and the "householder's man" is the central theme of Section 4. The monk should not use power over others, should not behave with the social conventions of a worldly person, and should not carry the pride and self-assertion of someone with social standing. The image of folded hands and reverence is not merely about outward gesture but about the inner attitude of humility that the monk embodies — the opposite of the self-assertion that drives worldly behavior.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk doesn't dominate or punish anyone, and doesn't behave like a worldly social climber — he walks with folded hands and genuine humility.</p>
+        <div class="concept-tags"><span class="concept-tag">Humility</span><span class="concept-tag">Non-Dominance</span><span class="concept-tag">True Monk</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-81">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.81</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे खलु पव्वइए मुणी, ण भुंजे वि य कडुय-तित्तयं ।<br/>मद्दव-भावेण संजए, एस मग्गे अणुत्तरे ॥१.८१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who has truly renounced does not eat even what is bitter or pungent — restrained with a disposition of gentleness; this is the highest path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Pungent and bitter foods (onion, garlic, hot peppers, etc.) are avoided in Jain monastic practice because such foods are believed to stimulate the passions — they increase desire, agitation, and restlessness, making meditation and equanimity more difficult to maintain. The disposition of gentleness is the inner quality that corresponds to the outer food practice: a gentle inner disposition is both cultivated by and expressed in gentle dietary choices. This sutra is specific and practical — the highest path shows itself in the smallest daily choices.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The truly renounced monk avoids even pungent or bitter foods — not just for health but because gentle living shows in every small choice, including what you eat.</p>
+        <div class="concept-tags"><span class="concept-tag">Gentle Disposition</span><span class="concept-tag">Food Practice</span><span class="concept-tag">Daily Choices</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-82">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.82</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अकिंचणे अनासत्ते, निम्मले धुय-संसए ।<br/>आत्म-गुत्ते सया जागरे, एस मग्गे सुसाहिए ॥१.८२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Possessing nothing, unattached, pure, with doubts shaken off — self-guarded, always vigilant — this is the doctrine, well-established.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Six qualities of the true monk are given here in compressed sequence: possessing nothing, unattached, pure, free of doubt, self-guarded, and always vigilant. These form a progressive deepening: possessing nothing is the outer condition; being unattached is the inner attitude; purity is the resulting clarity; freedom from doubt is the epistemological security; self-guarding is the active practice; and always-vigilance is the continuous state that holds the entire structure together. This is a verified, tested path.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The true monk: no possessions, no attachment, inner purity, no doubt, self-watching, always alert. That is the well-established path.</p>
+        <div class="concept-tags"><span class="concept-tag">Six Qualities</span><span class="concept-tag">Non-Possession</span><span class="concept-tag">Vigilance</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-83">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.83</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वत्थ विरए भिक्खू, सव्वत्थ विगय-मोहे ।<br/>सव्व-दुक्खाण पारगए, एस मग्गे अणुत्तरे ॥१.८३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who is restrained in all things, free of delusion in all things, who has crossed over all suffering — this is the highest path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The threefold "in all things" is the key to this sutra. It is not enough to be restrained in most things, free of delusion in some things, past some suffering. The Jain path requires completeness — total restraint, complete freedom from delusion, total crossing of suffering. This completeness is not perfectionism in the ordinary sense but the recognition that partial liberation is still bondage. As long as any remnant of delusion remains, any attachment continues, any karma is still being generated — the soul is not yet free.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk who is restrained about everything, free from all delusion, past all suffering — that is the highest path. Nothing partial, nothing halfway.</p>
+        <div class="concept-tags"><span class="concept-tag">Complete Restraint</span><span class="concept-tag">Complete Freedom</span><span class="concept-tag">Highest Path</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-84">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.84</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ण अट्ठिं ण य पट्ठिं, ण वि देहे मनोरमे ।<br/>आयाण-मग्गे अट्ठिए, से भिक्खू भाविए सया ॥१.८४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Without craving, without desire for what is pleasing, and without attachment to the delightful body — established on the path of discipline, the monk is always cultivated.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The reference to the body as something not to be attached to is significant: the monk's practice extends to the absence of attachment to his own physical form. Vanity, comfort-seeking, and identification with the body as "my beautiful body" are all forms of subtle attachment that perpetuate karma. The monk who has severed even this attachment is "always cultivated." The word "cultivated" refers to the inner development that is the real meaning of spiritual practice — not the acquisition of outer achievements.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk doesn't crave anything, doesn't desire what's pleasant, and doesn't even identify with or feel attached to his own body. He is always developing inwardly.</p>
+        <div class="concept-tags"><span class="concept-tag">Body Attachment</span><span class="concept-tag">Inner Cultivation</span><span class="concept-tag">No Craving</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-85">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.85</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे तारिसे भिक्खू, जितिंदिए जिए-मणे ।<br/>धुय-पाव-कम्मंसे, ण मुच्चए से कयाइ ॥१.८५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who is like that — with senses conquered, with mind conquered, having shaken off harmful karma — is never bound again.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Conquest of the senses and conquest of the mind are two distinct achievements that together constitute the inner transformation required for liberation. The senses pull outward toward objects; the mind generates intentions, plans, and desires. A monk who has conquered both has effectively dismantled the two primary mechanisms by which karma is generated. Combined with the prior shaking-off of harmful karma, the monk who embodies all three is described as one who will never be bound again — a statement of irreversible liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk who has conquered his senses, conquered his mind, and shaken off harmful karma — that monk is never bound again.</p>
+        <div class="concept-tags"><span class="concept-tag">Sense Conquest</span><span class="concept-tag">Mind Conquest</span><span class="concept-tag">Irreversible Freedom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-86">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.86</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं अहा-समाहिए, सव्वसो विगय-मोहे ।<br/>सव्व-दुक्खाण पारगए, सिद्धिं पडिवज्जइ ॥१.८६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, composed in accordance with the teaching, with delusion completely removed, having crossed over all suffering — one attains liberation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra completes the positive description of the liberated soul. The phrase "composed in accordance with the teaching" is important: liberation is not achieved through random effort or self-invented practice but through the specific discipline taught by the Conquerors. The three conditions — composure in the teaching, complete removal of delusion, crossing of all suffering — are sequential: the teaching produces composure, composure enables the removal of delusion, and the removal of delusion enables the crossing of all suffering. Liberation is the natural result of this sequence, not a grace or a gift.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When you truly follow the teaching, all delusion falls away, all suffering is crossed — and liberation is attained.</p>
+        <div class="concept-tags"><span class="concept-tag">Liberation Attained</span><span class="concept-tag">Composure</span><span class="concept-tag">Delusion Removed</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-87">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.87</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एस खलु लोग-सारे, एस धम्मे जिण-भासिए ।<br/>एस मग्गे अणुत्तरे, एसो अट्ठे सनातणे ॥१.८७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This indeed is the essence of the world — this is the doctrine declared by the Conqueror — this is the highest path — this is the truth, eternal.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The penultimate sutra serves as a fourfold seal of the entire chapter. Four declarations are made in sequence: this teaching is the world's essence, this is the doctrine spoken by the Conqueror, this is the highest path, and this is the eternal truth. The word "eternal" is deliberately chosen — it is a term associated with the Vedic tradition's claim to eternal truth, here used for the Jain teaching: the Jain path is not new to Mahavira but is the eternal truth rediscovered and re-declared by each Tirthankara in each cycle of time.</p>
+        <p class="simple-explanation"><b>The simple version:</b> This teaching is the essence of the world — declared by the Conqueror, the highest path, eternal truth. Four seals in one verse.</p>
+        <div class="concept-tags"><span class="concept-tag">Fourfold Seal</span><span class="concept-tag">Eternal Truth</span><span class="concept-tag">World's Essence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-88">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.88</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एस धम्मे धुवे नीए, आणाए अरिहंताणं ।<br/>समयं जाणाहि एयं, इइ बेमि ॥१.८८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the doctrine — permanent, certain — by the authority of the Arihantas; know this Samaya (true doctrine) — thus I say.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The final sutra closes the entire chapter with Mahavira's signature phrase: <em>iti bemi</em> — Thus I say. This phrase appears at the conclusion of every major section of the Sutrakritanga and is the traditional marker of Mahavira's direct declaration. The content of the closing is precise: the doctrine is permanent and certain — not a theory, not a possibility, but an established certainty. It is given under the authority of the Arihantas — those who have conquered the inner enemies of attachment, aversion, and delusion. The word Samaya in the closing refers both to the doctrine and to the chapter's title: "Know this Samaya" — the subject of the entire first adhyayana is encapsulated in its own name.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The doctrine is permanent and certain, coming from those who have conquered their inner enemies. Know this teaching — <em>Thus says Mahavira. — iti bemi</em></p>
+        <div class="concept-tags"><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Arihantas</span><span class="concept-tag">Samaya</span><span class="concept-tag">Final Seal</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+</main>
+
+<!-- Floating Nav -->
+<a href="sutrakritang-ch2.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 2 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body>
+</html>

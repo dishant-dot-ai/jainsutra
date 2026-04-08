@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 4: Rejection of Error | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","surface-container-low": "#f8f3eb","surface-container": "#f2ede5","surface-container-high": "#ece8e0",
+        "tertiary": "#4d5a98","tertiary-container": "#9ba8eb","on-tertiary": "#ffffff","error": "#ba1a1a",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.1rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+.interpretive-note { background: rgba(201,168,76,0.08); border: 1px solid rgba(201,168,76,0.3); border-left: 4px solid #c9a84c; border-radius: 0.5rem; padding: 1.5rem 2rem; margin-bottom: 2rem; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+
+<main class="pt-40">
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 4</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Rejection of Error<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">Striparinnaya</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">Attachment is the obstacle. The freed monk is free from all of it.</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Addressed to monks, this chapter is an extended meditation on why sensory attachment — in its most intense form — is the primary obstacle to liberation. The vivid metaphors of fire, serpent, and flood are not about persons but about the monk's own mind. The chapter ends with the fully liberated monk who sees all beings equally.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">अग्गिव्व इत्थी दाहिणी, सप्पिणी वा महाविसा।<br/>न तेण संगं कुव्वेज्जा, जो मुक्खं पत्थयाइ सो॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"Like fire she burns, like a great poisonous serpent — one who desires liberation should not attach to this." — Sutrakritanga 4</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Striparinnaya</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">The fourth chapter addresses the monastic community directly on the subject of the most powerful form of sensory attachment. The Jain philosophical reading of this chapter sees it as a warning against all intense sensory craving — the specific object is the strongest example that would have been familiar to the male monastic audience, but the principle is universal. Modern Jain scholars read it as a teaching on the monk's inner state, not as a statement about women as inherently dangerous.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The chapter is rich with metaphors — fire, poisonous serpent, deep water, strong current, tangled rope — all pointing to the same reality: strong attachment captures the mind completely, makes disciplined practice impossible, and pulls the soul back into the cycle of rebirth. The chapter ends by affirming the fully freed monk, who sees all beings equally, loves none and hates none, and is complete in himself.</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">32</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 4 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 32 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <div class="interpretive-note">
+    <p class="text-sm font-semibold text-primary uppercase tracking-widest mb-2">Interpretive Note</p>
+    <p class="text-base text-on-surface-variant leading-relaxed">The Jain philosophical reading of this chapter sees "woman" as a metaphor for all objects of intense sensory craving. This chapter is about the monk's mind and its attachments, not about women as inherently dangerous. Modern Jain scholars read it as a warning against all intense attachment in its most powerful form. The vivid metaphors — fire, serpent, poison, deep water — are rhetorical devices aimed at conveying the gravity of the obstacle that attachment represents on the path to liberation.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I — The Danger of Attachment</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मा पमायए भिक्खू, इत्थिसु संगमाचरे। ॥४.१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should not be negligent — he should not practice attachment toward women.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter opens with a direct address to the monk. "Negligence" in Jain practice is a serious category — it refers to allowing the mind to wander into the channels of craving without noticing. Attachment to women is introduced as the primary example of the kind of deep, persistent attachment that the monk must be most vigilant against. This chapter functions as an extended training in vigilance about the strongest form of sensory craving.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk must stay alert. The strongest form of attachment is also the most dangerous threat to practice.</p>
+        <div class="concept-tags"><span class="concept-tag">Vigilance</span><span class="concept-tag">Attachment</span><span class="concept-tag">Negligence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">संसारे वड्ढए मग्गो, अत्थि खु इत्थियाणि सो। ॥४.२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The path through women increases wandering in the cycle of birth and death.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Wandering" — the cycle of repeated births — is increased by attachment, because attachment generates karma, and karma is what drives the soul into rebirth. The sutra is pointing at the mechanism: attachment of this kind binds the soul more tightly to the material world. It is not a moral judgment on women but a description of what happens to the monk's consciousness and karma-accumulation when this form of attachment is indulged.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Strong attachment pulls the soul deeper into the cycle of rebirth. The monk who cultivates this attachment is moving away from liberation.</p>
+        <div class="concept-tags"><span class="concept-tag">Rebirth</span><span class="concept-tag">Karma Accumulation</span><span class="concept-tag">Bondage</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">रूवं दट्ठुं पसीयइ, सद्दे सोच्चा पवज्जए। ॥४.३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Seeing a form he becomes pleased; hearing a voice he is captivated.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra describes the specific sequence by which attachment operates through the senses. It begins with perception — seeing, hearing — and moves to a pleasurable response that then deepens into captivation. This is the chain the monk must observe in himself: not to refuse to see or hear, but to notice when perception is moving toward captivation, and to pause at that threshold. The observing of the chain is itself a form of freedom.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Attachment doesn't arrive all at once. It starts with a look, then a sound, then a pull of pleasure. The monk learns to see the chain before it fastens.</p>
+        <div class="concept-tags"><span class="concept-tag">Sensory Chain</span><span class="concept-tag">Captivation</span><span class="concept-tag">Awareness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">फासे पुरिसं मज्जए, गंधं घाइत्तु लुब्भए। ॥४.४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Touch intoxicates a man; smelling fragrance he becomes greedy.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra continues through the sensory chain — touch and smell are described as particularly powerful because they bypass the more reflective faculties and operate directly on the body's desire-response. "Intoxicates" is the right word: sensory pleasure of this kind clouds the monk's clarity the way alcohol clouds a drinker's judgment. The result is greed — the wanting of more. This wanting is the karma-binding state that the chapter is warning against.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Touch and smell are powerful — they can intoxicate. The monk must remain clear-headed in the face of the strongest sensory pulls.</p>
+        <div class="concept-tags"><span class="concept-tag">Touch</span><span class="concept-tag">Intoxication</span><span class="concept-tag">Greed</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">रसं पिच्चा तसिज्जए, अत्थिरो मणसो भवे। ॥४.५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Tasting, he becomes thirsty; his mind becomes unstable.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Thirsty" after tasting is the image of craving that grows from indulgence. This is the opposite of what craving promises — it promises satisfaction but delivers an intensified desire for more. The monk who gives the mind to sensory pleasure does not find peace through it; he finds an increasingly unstable mind that oscillates between craving and frustration. This instability is itself the problem, quite apart from the karma it generates.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Giving in to craving doesn't satisfy it — it makes it stronger. The monk who tastes and wants more is further from peace, not closer.</p>
+        <div class="concept-tags"><span class="concept-tag">Craving</span><span class="concept-tag">Instability</span><span class="concept-tag">Mind</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इंदियाणं वसं गओ, न सो सक्को विमुच्चिउं। ॥४.६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who has come under the power of the senses cannot free himself.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra states a stark reality: once fully enslaved to sensory craving, freedom becomes impossible without extraordinary effort. This is why the chapter is addressed to monks — people who have committed to the extraordinary effort needed to reverse this enslavement. The warning is precisely because the danger is real. Many monks fall back into worldly life because they underestimate how powerful the pull of sensory craving, especially in its strongest forms, actually is.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Sensory enslavement is hard to escape. That is why the warning is so serious.</p>
+        <div class="concept-tags"><span class="concept-tag">Sense Power</span><span class="concept-tag">Enslavement</span><span class="concept-tag">Warning</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">असंजए पावकम्मे, बद्धे दुक्खेण मुच्चए। ॥४.७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The one without restraint accumulates harmful karma and is freed from it only with great suffering.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The connection between lack of restraint and future suffering is made explicit. Karma created through unrestrained sensory indulgence must eventually be experienced — and the experiencing of it is painful. The monk who lacks restraint is not merely failing in a present moment; he is writing the script of future suffering for himself. This forward-looking perspective is designed to motivate genuine restraint, not out of self-hatred but out of clear understanding of consequences.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Unrestrained living now means compelled suffering later. The monk's restraint is not punishment — it's wisdom about how karma works.</p>
+        <div class="concept-tags"><span class="concept-tag">Restraint</span><span class="concept-tag">Future Karma</span><span class="concept-tag">Consequences</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इत्थियाण संगेण, विज्जइ बंधणं बहुं। ॥४.८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Through attachment to women, much bondage arises.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Much bondage" indicates not just some karma but a heavy accumulation. This is because the kind of craving described in this chapter is not mild or passing — it is deep, body-rooted, and persistent. It generates karma through thought (fantasizing, craving), speech (persuasion, flattery), and action. All three modalities of karma-binding operate simultaneously in the grip of this attachment. Hence the bondage is particularly dense.</p>
+        <p class="simple-explanation"><b>The simple version:</b> This type of attachment creates more karma than almost anything else. Mind, speech, and body are all caught up in it at once.</p>
+        <div class="concept-tags"><span class="concept-tag">Dense Bondage</span><span class="concept-tag">Three Channels</span><span class="concept-tag">Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न तेण सक्किज्जइ धम्मो, न सील न बंभचेर। ॥४.९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">By such a one, the teaching cannot be practiced, nor celibacy, nor moral conduct.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The incompatibility of this attachment with the full Jain monastic path is stated directly. The three pillars of the monk's life — following the teaching, maintaining celibacy, practicing moral conduct — all collapse when this attachment takes hold. This is not an incidental incompatibility. The monk's path requires a mind undivided in its commitment to liberation. An attachment this powerful divides the mind at its root.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A monk captured by this attachment can no longer practice properly. The whole path requires full commitment.</p>
+        <div class="concept-tags"><span class="concept-tag">Three Pillars</span><span class="concept-tag">Celibacy</span><span class="concept-tag">Incompatibility</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अहिंसा न य पालेज्जा, सच्चं चेव समाहिं। ॥४.१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He cannot maintain non-violence, truth, or inner composure.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The three virtues that are the foundation of Jain practice — non-violence, truthfulness, and equanimity — are all undermined by this attachment. Violence follows from the possession instinct; deception follows from the self-justifying nature of craving; composure is destroyed by the turbulence of desire. The monk cannot live the path while maintaining this attachment, because the attachment works against each of the path's core commitments.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Attachment to this kind destroys non-violence, honesty, and calm — the three things the monk needs most. You can't have both.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Truthfulness</span><span class="concept-tag">Equanimity Destroyed</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मणो उद्दव्वए तेण, चावलं व कि विज्जइ। ॥४.११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The mind is agitated by it — it becomes like a fickle, unsteady thing.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The image of the mind rendered fickle — like a bird startled from a branch, like water disturbed by wind — captures the experiential reality of being caught in strong craving. The monk's mind, which should be a stable instrument for practice and contemplation, becomes reactive, unstable, and ungovernable. It is this loss of the mind's stability that makes practice impossible — not a moral failure but a practical one.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Strong craving makes the mind wild and unstable. The monk cannot practice with a wild mind.</p>
+        <div class="concept-tags"><span class="concept-tag">Mental Agitation</span><span class="concept-tag">Instability</span><span class="concept-tag">Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तं विणासेइ सव्वाई, बंभचेरस्स कारणं। ॥४.१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">It destroys all the causes of celibacy and renunciant life.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"All the causes" means the virtues, the practices, the commitments, and the inner orientation that make celibate renunciant life possible and meaningful. This attachment is described as systemically destructive — it does not just weaken the monk in one area; it undermines the foundations of the entire way of life. This is why the chapter returns to this point repeatedly: the warning is proportional to the danger.</p>
+        <p class="simple-explanation"><b>The simple version:</b> This attachment doesn't just cause one problem — it destroys the whole basis of the monk's life. The danger is total.</p>
+        <div class="concept-tags"><span class="concept-tag">Systemic Destruction</span><span class="concept-tag">Renunciation</span><span class="concept-tag">Foundation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II — The Metaphors of Bondage</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अग्गिव्व इत्थी दाहिणी, सप्पिणी वा महाविसा। ॥४.१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Like fire she burns; like a great poisonous serpent she strikes.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter's featured verse appears here as part of a sustained run of metaphors. Fire burns without distinction — it consumes whatever it touches. The poisonous serpent strikes with hidden venom. Both images capture the way intense attachment operates: it appears attractive but contains destruction. The monk who approaches fire without understanding its nature is burned. The monk who does not understand the nature of this attachment is bound more tightly than before the approach.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The metaphors of fire and serpent are not about women. They are about what attachment does to the monk's mind and karma.</p>
+        <div class="concept-tags"><span class="concept-tag">Fire Metaphor</span><span class="concept-tag">Serpent</span><span class="concept-tag">Destruction</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">गाढे जले व डुब्बइ, महाओघे व वुज्झए। ॥४.१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Like one who drowns in deep water; like one carried away by a great flood.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Deep water and flooding current are images of being overwhelmed — the loss of control, the helplessness of the one who has been caught. The monk who is carried away by this attachment is no longer steering. He is being taken by the force of the current. The only safe response is not to enter the river in the first place — or, if already in, to swim with every available strength toward the shore.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Being caught in strong attachment is like being swept away in a flood. Preventing it is far easier than reversing it.</p>
+        <div class="concept-tags"><span class="concept-tag">Flood Metaphor</span><span class="concept-tag">Helplessness</span><span class="concept-tag">Overwhelmed</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">ओरे ठाइ धम्माओ, दूरमग्गं पलाइए। ॥४.१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He remains on the near shore of the teaching; he has fled far from the right path.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The "near shore" is the shore of worldly existence — the side one is trying to leave. The monk captured by attachment is not progressing toward the far shore of liberation; he has turned around and is moving back into the current of rebirth. "The right path" is not just moral correctness but the path that leads where he committed to go. Attachment has reversed his direction.</p>
+        <p class="simple-explanation"><b>The simple version:</b> This attachment turns the monk around. Instead of moving toward liberation, he's moving back toward the world.</p>
+        <div class="concept-tags"><span class="concept-tag">Reversal</span><span class="concept-tag">Near Shore</span><span class="concept-tag">Lost Path</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">संसारसागरे मज्जे, न उत्तरइ महाभए। ॥४.१६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He drowns in the ocean of rebirth; in great fear he cannot cross over.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ocean of rebirth is the vast, terrifying, apparently boundless domain of repeated birth and death. The monk who is captured by attachment drowns in it — not because of a momentary weakness but because the attachment has anchored him there. "Great fear" points to the existential terror of continued rebirth — the endless rounds of suffering, death, and birth in new forms. This is what the monk committed to escaping. Attachment prevents the escape.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Rebirth is the real danger — not women. Attachment is the anchor that keeps the monk from crossing to the other side.</p>
+        <div class="concept-tags"><span class="concept-tag">Ocean of Rebirth</span><span class="concept-tag">Drowning</span><span class="concept-tag">Liberation Blocked</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जहा पडिभए वणे, मिगे सीहेण संभमे। ॥४.१७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Like a deer in a terrible forest, trembling at the approach of a lion.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The deer fleeing the lion is the image of a consciousness in a state of panic — reactive, instinctual, unable to act from wisdom. The monk who has allowed attachment to take hold no longer acts from his commitment to liberation; he acts from craving, from fear, from impulse. He is the deer, and his unmastered desires are the lion. The contemplative stillness that makes liberation possible is shattered by this kind of inner disorder.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Unmastered craving makes the monk as frightened and reactive as a hunted animal. Steady practice requires a steady mind.</p>
+        <div class="concept-tags"><span class="concept-tag">Deer and Lion</span><span class="concept-tag">Fear</span><span class="concept-tag">Reactivity</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">रज्जु व्व संकिलिट्ठा, सुक्का व चंदणे लया। ॥४.१८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Like a rope that is tangled; like a dried vine wound round sandalwood.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tangled rope cannot be used for its purpose — it is worse than useless, an impediment that takes time and effort to undo. The dried vine wound around sandalwood is so entangled with the tree that separating them may damage both. These images of entanglement capture what deep attachment does to the monk's inner life: it wraps around the clarity and resolve that are needed for liberation and entangles them.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Attachment tangles what needs to be clear and straight. The monk's path requires a mind free of these knots.</p>
+        <div class="concept-tags"><span class="concept-tag">Entanglement</span><span class="concept-tag">Tangled Rope</span><span class="concept-tag">Clarity Lost</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न य मुच्चइ वेगेण, जो गिद्धे इत्थिसु भवे। ॥४.१९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who is greedy for women cannot be freed quickly.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Cannot be freed quickly" is an honest acknowledgment: the path is possible even from within deep attachment, but it is much longer and harder. The sutra does not say liberation is impossible, but it says this is a serious obstacle that lengthens the journey by many lifetimes. The urgency throughout this chapter comes from this fact — every lifetime spent in bondage to this attachment is another lifetime of suffering that did not need to happen.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Deep attachment to this kind delays liberation by lifetimes. The urgency of the teaching is proportional to what is at stake.</p>
+        <div class="concept-tags"><span class="concept-tag">Delayed Liberation</span><span class="concept-tag">Urgency</span><span class="concept-tag">Lifetimes</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">कंचणं रयणं गावो, खित्तं वत्थुं धणं च। ॥४.२०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Gold, jewels, cows, fields, property, wealth —</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra begins a list of all the things the householder values and clings to, setting up the contrast with the monk who renounces all of these. The list is not finished here — the next sutra completes it. The point is that attachment to women is named alongside all material attachments as part of the same category: things the world values that bind the soul to the world.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk has already renounced gold and property. The teaching is that emotional attachments are no different — they bind just as surely.</p>
+        <div class="concept-tags"><span class="concept-tag">Material Possessions</span><span class="concept-tag">Renunciation</span><span class="concept-tag">Categories</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.21</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इत्थियो च परिग्गहो, सव्वे एए पसज्जइ। ॥४.२१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Women — and all these possessions — are objects of clinging to which one becomes attached.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra completes the list and makes the point: attachment to women is placed in the category of "possessions to which one becomes attached" — the same category as gold and land. This is the philosophical move that places the chapter's teaching within the broader Jain doctrine of non-possession. The monk who has renounced all material possessions must equally renounce all emotional possessions. Attachment is attachment regardless of its object.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Attachment to a person and attachment to gold are the same kind of problem. The monk must be free of both.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Possession</span><span class="concept-tag">Equal Attachment</span><span class="concept-tag">Same Problem</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.22</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एएहिं संगं कुव्वंतो, बंधणे उप्पयइ। ॥४.२२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Making attachment to these, one falls into bondage.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra is categorical: attachment, in any form, to any object on this list, generates bondage. There is no safe or moderate form of this attachment for the monk. The householder may practice non-attachment while maintaining family and possessions — Jain ethics has a distinct path for householders. But the monk who has taken full renunciant vows must live the total non-attachment that is the only path to full liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Any attachment produces bondage. For the monk, this is not negotiable.</p>
+        <div class="concept-tags"><span class="concept-tag">Bondage</span><span class="concept-tag">Categorical</span><span class="concept-tag">Total Renunciation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III — The Freed Monk</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.23</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एयं विण्णाय पंडिए, इत्थीहिं न पसज्जए। ॥४.२३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The learned one, understanding this, does not become attached to women.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The shift from warning to affirmation begins here. The monk who has understood — truly understood, not just intellectually acknowledged — does not become attached. This is described as the natural consequence of understanding, not as the result of willpower or suppression. Just as a person who truly understands that a particular food is poisonous does not need to suppress the desire to eat it — the understanding itself removes the craving.</p>
+        <p class="simple-explanation"><b>The simple version:</b> True understanding removes the craving. The monk who really sees what attachment does doesn't need to fight it — it simply falls away.</p>
+        <div class="concept-tags"><span class="concept-tag">Understanding Frees</span><span class="concept-tag">Natural Non-Attachment</span><span class="concept-tag">Wisdom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.24</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">समदंसी अणागारे, न रज्जइ न दुस्सइ। ॥४.२४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The homeless one who sees equally is neither attracted nor repelled.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Homeless" is the standard Jain term for the fully renunciant monk — one who has left home in every sense, including the inner home of preferences and aversions. Seeing equally means that the monk does not experience persons — any persons — through the lens of attraction and repulsion. This is not coldness; it is clarity. The monk can be genuinely compassionate toward all persons without being pulled toward some and pushed away from others.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The freed monk sees everyone equally — not attracted to some, not repelled by others. Equal seeing is the fruit of freedom.</p>
+        <div class="concept-tags"><span class="concept-tag">Equal Seeing</span><span class="concept-tag">Homeless</span><span class="concept-tag">Freedom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न य आकंखए कामे, न दारेसु पलंबए। ॥४.२५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not desire pleasures; he does not hang upon anyone.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Hanging upon" is a beautiful and precise image — the attachment that makes one dependent on another person's presence, approval, or company for one's own peace. The freed monk does not hang. He stands in his own being, rooted in his understanding of the soul, without needing external support. This is not isolation — the monk interacts fully with the world. But he is not dependent on those interactions for his inner stability.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The freed monk doesn't need anything from anyone. He is complete in himself.</p>
+        <div class="concept-tags"><span class="concept-tag">Self-Complete</span><span class="concept-tag">Non-Dependence</span><span class="concept-tag">Inner Stability</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.26</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न वि राइ न वि देसइ, सव्वे समेव पासइ। ॥४.२६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not love nor does he hate — he sees all beings equally.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Loves" and "hates" here refer to the partial, attached, reactive forms of these — not genuine compassionate love, which the monk has for all, but preferential love that clings and possessive love that possesses. The monk who sees all beings equally sees the soul-nature in each one, and from that seeing arises a pure, non-clinging care that is not distorted by preference.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Equal seeing means no favorites and no enemies. Just the same compassionate attention for every living being.</p>
+        <div class="concept-tags"><span class="concept-tag">No Favorites</span><span class="concept-tag">No Enemies</span><span class="concept-tag">Equal Care</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-27">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.27</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इंदियाणि जिए धीरो, न य दोसे पवज्जइ। ॥४.२७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having conquered the senses, the steadfast one does not fall into fault.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Conquest of the senses" is the summary of what the entire chapter has been building toward. The monk who has conquered the senses has removed the vehicles through which attachment operates. This is not the destruction of the senses but their correct orientation — the senses functioning as instruments of the soul rather than as masters of it. From this position, falling into fault becomes unlikely, because the mechanisms by which fault arises have been corrected.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Mastered senses mean no more falling into the traps described in this chapter. The monk is finally in charge of his own inner life.</p>
+        <div class="concept-tags"><span class="concept-tag">Sense Mastery</span><span class="concept-tag">Freedom from Fault</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-28">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.28</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">धम्मेण उवसंपन्ने, धम्मे ठाइज्ज पंडिए। ॥४.२८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Accomplished in the teaching, the learned one should stand firm in the teaching.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Accomplished" and "standing firm" are two different states. Being accomplished means having genuinely internalized the practice. Standing firm means maintaining it continuously — not relaxing back into old patterns when circumstances become comfortable or familiar. The repetition of "teaching" emphasizes that this firmness is not a personal achievement to be proud of but a relationship with the path that must be maintained.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk who has learned the teaching must keep practicing it, not just know it. Understanding and living are two different things.</p>
+        <div class="concept-tags"><span class="concept-tag">Standing Firm</span><span class="concept-tag">Ongoing Practice</span><span class="concept-tag">Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-29">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.29</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न य संगं करे भिक्खू, सव्वभूएसु पंचसु। ॥४.२९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should not make attachment with any of the five kinds of beings.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The "five kinds of beings" refers to the Jain classification of living beings by their number of senses: one-sensed beings (earth, water, fire, air, plant life), two-sensed, three-sensed, four-sensed, and five-sensed beings (including humans and animals with all five senses). The monk's non-attachment must be universal — not merely toward humans but toward all forms of life. The instruction extends the chapter's teaching from the specific case to the universal principle.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Non-attachment is not just toward people. The monk's freedom from clinging extends to all living beings.</p>
+        <div class="concept-tags"><span class="concept-tag">Five Kinds of Beings</span><span class="concept-tag">Universal</span><span class="concept-tag">Non-Attachment</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-30">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.30</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जो संगं न करे भिक्खू, सो सुज्झइ न बज्झइ। ॥४.३०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who does not make attachment is purified and not bound.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is the positive formulation of the chapter's central teaching. Non-attachment purifies — it removes the karmic residue that clouds the soul's natural clarity. And it does not bind — no new karma is generated. The double movement of purification (removing old karma) and non-binding (not creating new karma) is the two-sided mechanism of liberation that the chapter has been describing throughout.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Non-attachment cleans up old karma and prevents new karma. Both sides of the liberation equation.</p>
+        <div class="concept-tags"><span class="concept-tag">Purification</span><span class="concept-tag">Non-Binding</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-31">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.31</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एयं विण्णाय भिक्खू, न कुव्वे संगमप्पियं। ॥४.३१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood this, the monk should not make attachment dear to himself.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Making attachment dear" means treating attachment as comfortable, familiar, acceptable — the emotional softening that happens when craving is tolerated rather than seen clearly. The monk who has understood this teaching sees attachment for what it is: a source of bondage, a reversal of direction, a weight that prevents crossing to liberation. Keeping that understanding alive — making it the operative truth rather than a distant principle — is what the sutra recommends.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Don't get comfortable with attachment. The monk who understands its nature stays alert to it.</p>
+        <div class="concept-tags"><span class="concept-tag">Vigilance</span><span class="concept-tag">Living Understanding</span><span class="concept-tag">Alertness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-32">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.32</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं सिरिपरिण्णाय, जाणिया सव्वसंपहू। ॥४.३२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, having understood the teaching on rejection of error, one knows all things fully. — iti bemi</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The closing "iti bemi" seals the chapter. The declaration that understanding this chapter amounts to knowing all things fully reflects the Jain view that the obstacle of attachment is the central problem of existence. The monk who has understood and is free from attachment — in its most powerful and persistent form — has removed the primary obstacle to liberation. From that freedom, the rest of the path unfolds naturally.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Overcome the strongest attachment and you have overcome the main obstacle. The teacher has spoken.</p>
+        <div class="concept-tags"><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Completion</span><span class="concept-tag">Main Obstacle Cleared</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+</main>
+
+<a href="sutrakritang-ch3.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 3</a>
+<a href="sutrakritang-ch5.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 5 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body></html>

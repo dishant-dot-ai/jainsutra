@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 5: Equal Seeing | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","surface-container-low": "#f8f3eb","surface-container": "#f2ede5","surface-container-high": "#ece8e0",
+        "tertiary": "#4d5a98","tertiary-container": "#9ba8eb","on-tertiary": "#ffffff","error": "#ba1a1a",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.1rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+
+<main class="pt-40">
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 5</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Equal Seeing<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">Napumsaka</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">Attachment is the problem — always, in every form, toward every being.</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">A shorter parallel to Chapter 4, this chapter universalizes the teaching on non-attachment. Desire is the obstacle regardless of its object. The monk who sees all beings equally — without attraction or aversion — is already close to liberation.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">सव्वेसु चेव जीवेसु, समदंसी हवेज्ज जो।<br/>अगारम्मि अणागारे, तस्स मोक्खो न दूरओ॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"One who sees equally in all living beings — in household and homeless — for such a one, liberation is not far." — Sutrakritanga 5</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Napumsaka</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">The fifth chapter is a shorter companion to Chapter 4. It addresses monks regarding attachment toward persons of the third gender — those who are neither fully male nor female in the Jain classification. The teaching is identical in structure: attachment is the problem, regardless of its object. The Jain tradition recognized three genders, and the teaching on non-attachment is explicitly extended to all three.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The chapter's central contribution is universalization. By the end of Chapter 5, the teaching on non-attachment covers all possible forms of sensory craving directed toward persons. The chapter closes with the teaching on equal seeing — seeing the soul-nature equally in every living being, in every social position. This equal seeing is the positive vision of liberation that emerges after all forms of attachment have been understood and relinquished.</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">12</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 5 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 12 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I — The Teaching Extended</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जहा इत्थीसु संगम्मि, तहा नपुंसएसु वि। ॥५.१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Just as in the case of attachment to women, so too in the case of attachment to persons of the third gender.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter opens by establishing its relationship to Chapter 4. The teaching is not being introduced fresh — it is being extended. Whatever was said about the danger of attachment in Chapter 4 applies equally here. The Jain philosophical tradition recognized three genders — male, female, and napumsaka — and the teaching on non-attachment is explicitly applied to all three. The principle is that attachment is the problem, and its object does not change the nature of the problem.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The same teaching applies here as in the previous chapter. The object of attachment changes; the nature of attachment does not.</p>
+        <div class="concept-tags"><span class="concept-tag">Extension</span><span class="concept-tag">Same Principle</span><span class="concept-tag">Universal</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">मा पमायए भिक्खू, नपुंसएसु संगमे। ॥५.२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk should not be negligent — he should not practice attachment toward persons of the third gender.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The direct address to the monk repeats the opening of Chapter 4, signaling that this is a parallel warning rather than a new or different one. Negligence — the allowing of the mind to wander into channels of craving without awareness — is the same failure whether it arises in response to one type of person or another. The monk's vigilance must be complete and impartial, covering every form that attachment might take.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk must be equally alert to all forms of attachment. There is no version of this that is acceptable or harmless.</p>
+        <div class="concept-tags"><span class="concept-tag">Vigilance</span><span class="concept-tag">All Forms</span><span class="concept-tag">Negligence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">संसारे वड्ढए मग्गो, नपुंसाणमवि सो। ॥५.३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The path through this attachment also increases wandering in the cycle of birth and death.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The mechanics of karma-binding are the same regardless of the object of attachment. Craving generates karma; karma drives rebirth; rebirth is suffering. The particular object of craving does not change this chain of causation. The sutra is making a universality claim: the teaching about attachment is not conditional on any specific type of person or relationship. It applies wherever attachment arises.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Attachment of this kind binds the soul to rebirth, regardless of who the attachment is toward. The karma mechanism doesn't distinguish.</p>
+        <div class="concept-tags"><span class="concept-tag">Rebirth</span><span class="concept-tag">Karma Mechanism</span><span class="concept-tag">Universal Law</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न तेण सक्किज्जइ धम्मो, न सील न बंभचेर। ॥५.४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">By such a one, the teaching cannot be practiced, nor celibacy, nor moral conduct.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a direct parallel to Chapter 4's teaching: the monk who is captured by this form of attachment cannot maintain the three pillars of the monastic path. The repetition across chapters is deliberate — the Sutra is establishing that these pillars are incompatible with attachment in any form. Celibacy is not merely physical continence; it is a total orientation of the mind away from sensory craving, and any form of this craving undermines it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Any strong attachment — whatever its form — destroys the monk's ability to practice. The specifics don't matter; the principle holds.</p>
+        <div class="concept-tags"><span class="concept-tag">Three Pillars</span><span class="concept-tag">Celibacy</span><span class="concept-tag">Practice Destroyed</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">इंदियाणि अजिए भिक्खू, बज्झए न य मुच्चए। ॥५.५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who has not conquered the senses is bound and not freed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Conquest of the senses is the necessary precondition for liberation. This sutra states the negative formulation: without that conquest, the monk remains bound. Bound by what? By the unmastered senses that respond to pleasant and unpleasant stimuli with craving and aversion, generating karma with every unmonitored reaction. The unmastered monk may follow the outer form of monastic life — wearing the robes, keeping the schedule — but without inner mastery, liberation is not occurring.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Outer forms of practice are not enough. Without inner mastery of the senses, the monk is still bound.</p>
+        <div class="concept-tags"><span class="concept-tag">Sense Mastery</span><span class="concept-tag">Bound</span><span class="concept-tag">Inner vs Outer</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एयं विण्णाय पंडिए, नपुंसएसु न पसज्जए। ॥५.६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The learned one, understanding this, does not become attached to persons of the third gender.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Understanding — genuine, transformative understanding, not intellectual acknowledgment — is the medicine for attachment in all its forms. The learned one who truly understands the chapter does not need rules and prohibitions backed by social pressure; the understanding itself removes the craving. This is the Jain teaching on right knowledge as the root of right practice: when you truly see the nature of attachment, attachment loses its power.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Real understanding removes the attachment. The monk who truly sees what's happening doesn't need to fight it — it dissolves.</p>
+        <div class="concept-tags"><span class="concept-tag">Understanding Frees</span><span class="concept-tag">Right Knowledge</span><span class="concept-tag">Natural Freedom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II — Equal Seeing</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वेसु चेव जीवेसु, समदंसी हवेज्ज जो। ॥५.७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who sees equally in all living beings — for such a one, liberation is not far.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The chapter's featured verse introduces the positive teaching. Equal seeing — seeing the soul-nature in every living being without the distortions of preference and aversion, of attraction and repulsion — is itself a description of liberation beginning to happen. The monk who has cultivated equal seeing has removed the primary engine of karma-binding: the differential response to experience that craves some beings and rejects others.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Equal seeing in all beings — that is what liberation looks like from the inside. The monk who sees this way is already close to freedom.</p>
+        <div class="concept-tags"><span class="concept-tag">Equal Seeing</span><span class="concept-tag">Liberation Near</span><span class="concept-tag">All Beings</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अगारम्मि अणागारे, सव्वेसु समभावए। ॥५.८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In the householder and in the homeless, he maintains equanimity toward all.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra specifies the scope of equal seeing: it extends across the social categories of householder (the person living ordinary worldly life) and homeless (the renunciant monk). The monk does not see himself as superior to householders or other monks as his peers and worldly people as below. He sees the soul-nature in each, living in different circumstances but all engaged in the long journey toward liberation. Equanimity here is not condescension but genuine recognition.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The freed monk doesn't rank people by their spiritual status. He sees the soul in everyone, wherever they are on the path.</p>
+        <div class="concept-tags"><span class="concept-tag">Householder</span><span class="concept-tag">Homeless</span><span class="concept-tag">No Hierarchy</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न पिए न य दोस्सए, न रज्जए न विरज्जए। ॥५.९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He has no favorites and no enemies — he is neither attracted nor repelled.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Favorites and enemies are the two poles of partial seeing — the seeing that is filtered through personal preference. The monk with no favorites and no enemies is not emotionally flat; he is emotionally clear. He can engage with everyone fully, can be genuinely helpful and compassionate, precisely because he is not distorted by the turbulence of attraction and repulsion that compromises the quality of his attention.</p>
+        <p class="simple-explanation"><b>The simple version:</b> No favorites, no enemies — just clear, undistorted attention for every person. This is what equal seeing feels like in practice.</p>
+        <div class="concept-tags"><span class="concept-tag">No Favorites</span><span class="concept-tag">No Enemies</span><span class="concept-tag">Clear Attention</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आयाणं च परं चेव, एगत्तं संपजाणए। ॥५.१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He recognizes the oneness of self and other.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Oneness of self and other" does not mean that the individual souls merge into one — Jain philosophy maintains that souls remain distinct even in liberation. It means that the conscious, knowing principle — the soul — is the same kind of thing in every living being. Recognizing this oneness removes the felt distinction between self and other that motivates all harm: if what I am is what you are, harming you is harming what I am.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The soul in me is the same kind of thing as the soul in you. That recognition makes harm to others impossible.</p>
+        <div class="concept-tags"><span class="concept-tag">Oneness</span><span class="concept-tag">Self and Other</span><span class="concept-tag">Non-Violence Root</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वेसिं च जीवाणं, सुहं एइच्छए तहा। ॥५.११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">For all living beings equally, he wishes happiness.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Universal goodwill — wishing happiness for all living beings without exception — is the emotional counterpart of equal seeing. It is active rather than passive: not just the absence of ill-will but the presence of genuine care. This goodwill is possible because the monk sees the soul-nature in every being, and the soul in every being is, in its deepest nature, oriented toward freedom and peace. To wish all beings happiness is to wish them all liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The freed monk doesn't just avoid harming others — he genuinely wants good for all beings. Equal seeing produces equal care.</p>
+        <div class="concept-tags"><span class="concept-tag">Universal Goodwill</span><span class="concept-tag">All Beings</span><span class="concept-tag">Compassion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं नपुंसयं नाऊण, जाणिया सव्वसंपहू। ॥५.१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, having understood the chapter on the third gender, one knows all things fully. — iti bemi</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The closing "iti bemi" seals the chapter. The parallel with Chapter 4 and the earlier chapters is complete: the teaching on non-attachment has been universalized. Attachment is the problem regardless of its object — regardless of who it is directed toward, regardless of what form it takes, regardless of the social or personal circumstances in which it arises. The monk who has understood this universality has understood the complete teaching on attachment. Equal seeing is the door, and liberation is not far.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The teaching is universal: attachment is the problem, always, in every form. When you see this completely, you know everything that needs to be known. The teacher has spoken.</p>
+        <div class="concept-tags"><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Universal Teaching</span><span class="concept-tag">Completion</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+</main>
+
+<a href="sutrakritang-ch4.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 4</a>
+<a href="sutrakritang-ch6.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 6 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body></html>

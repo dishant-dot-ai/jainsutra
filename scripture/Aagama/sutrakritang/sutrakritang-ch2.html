@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sutrakritanga Chapter 2: Sensation | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","surface-container-low": "#f8f3eb","surface-container": "#f2ede5","surface-container-high": "#ece8e0",
+        "tertiary": "#4d5a98","tertiary-container": "#9ba8eb","on-tertiary": "#ffffff","error": "#ba1a1a",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.1rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+</style>
+</head>
+<body class="text-on-surface font-body bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+  <div class="relative group hidden lg:block">
+    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+    <div id="search-dropdown"></div>
+  </div>
+  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+</div>
+  </div>
+</nav>
+
+<main class="pt-40">
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="sutrakritang-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Sutrakritanga</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 2</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Sensation<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">Vedaniyam</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">Karma ripens into experience. The wise one endures it all with equanimity.</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Every pleasure and every pain is the ripening of past karma. The monk who truly understands this does not crave pleasures or flee pains — he meets all sensation with steady, knowing equanimity, burning away karma without creating more.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+    <div class="w-full rounded-xl bg-surface-container-high p-10 md:p-16 flex flex-col gap-6 shadow-inner">
+      <p class="sutra-sanskrit font-headline text-center leading-relaxed">जे य दुक्खा जे य सुहा, ते य कम्मसमुप्पया।<br/>तेसिं परिण्णाय धीरो, समाहितो न हासए॥</p>
+      <p class="text-base text-on-surface-variant mt-2 font-light italic text-center">"Whatever pains and whatever pleasures arise — they are the results of karma. The wise one, having understood them, remains composed and does not grieve." — Sutrakritanga 2</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Vedaniyam</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">The second chapter of the Sutrakritanga opens one of the Jain teaching's most important inquiries: what is sensation, and how should a monk relate to it? The answer is grounded in karma theory. Every experience of pleasure or pain is the ripening of past karma — nothing more, nothing less. This understanding transforms sensation from a thing to be chased or escaped into a passing result that can simply be endured.</p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">The chapter uses the metaphor of fire consuming wood — every moment of patient endurance burns away old karma without adding new karma. The monk who practices equanimity toward sensation is not suppressing experience; he is consuming his karmic fuel. The skilled physician metaphor captures the approach: understand the cause of the disease (karma), and treat it at the root.</p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">25</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 2 · Book 1</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 25 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I — The Nature of Sensation</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे केइ दुक्खा संसारे, ते सव्वे कम्मसंभवा। ॥२.१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever sufferings exist in the world — all of them arise from karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Sutra opens by anchoring suffering in its cause: karma. Nothing that hurts is random, accidental, or divinely willed. Every form of pain — physical, emotional, circumstantial — is the ripening of past action. This is not fatalism but diagnosis. Understanding the cause correctly is the first step toward eliminating it. The teacher places the entire domain of experience within the framework of cause and effect, which is the Jain philosophical foundation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> All suffering has a reason — past actions ripening into present experience. Nothing painful is meaningless or random.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma</span><span class="concept-tag">Suffering</span><span class="concept-tag">Causation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे केइ सुहा संसारे, ते वि कम्मसमुप्पया। ॥२.२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever pleasures exist in the world — they too arise from karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The teaching is symmetric: pleasure is also karma-born. This is the point that distinguishes Jain teaching from ordinary religious thinking, which often treats pleasure as divine reward. Pleasure is not the goal; it is simply the ripening of merit-karma. Since it arose from karma, it will also end when that karma is exhausted. The wise person sees pleasure exactly as they see pain — as a passing result of past cause.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Pleasures are also karma ripening. They are not rewards to pursue — they are temporary results that will pass.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma</span><span class="concept-tag">Pleasure</span><span class="concept-tag">Impermanence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">तम्हा वेयणं जाणइ, धीरो लोगस्स पारगू। ॥२.३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Therefore the wise one who has crossed to the other shore understands sensation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Crossing to the other shore" is a classical metaphor for liberation — moving from the turbulent near bank of worldly existence to the stable far shore of freedom. The one who has truly crossed understands sensation for what it is: a result, not a reality to cling to or flee. This understanding is not intellectual alone; it changes how the monk lives, breathes, and responds to everything that happens to the body and mind.</p>
+        <p class="simple-explanation"><b>The simple version:</b> True understanding of sensation means not being controlled by it. The wise person sees sensation as a guest — it arrives, it departs.</p>
+        <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">Understanding</span><span class="concept-tag">Wisdom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सुहं वा जइ वा दुक्खं, तं तितिक्खेज्ज पंडिए। ॥२.४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whether it is pleasure or pain, the learned one should endure it.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The word "endure" here does not mean passive suffering. It means active, aware tolerance — the capacity to stay present with sensation without being swept away by it. The word used for "learned" connects this to knowledge: the one who truly knows endures, because they understand what they are enduring. Endurance without understanding is mere stoicism. Endurance with understanding is practice.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk's job is to stay steady through both pleasure and pain, not suppressing sensation but not chasing or fleeing it either.</p>
+        <div class="concept-tags"><span class="concept-tag">Endurance</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जहा पुरिसे वाहिए रोगेण, कुसले वेज्जे चिकिच्छए। ॥२.५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a man afflicted by disease is treated by a skilled physician — so too the soul afflicted by karma is treated by understanding.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The metaphor of the physician is powerful in Jain teaching. The teacher is the physician, the teaching is the medicine, and karma is the disease. A skilled physician does not deny the disease exists, does not pretend it is something other than what it is, and does not simply offer comfort — the physician diagnoses and treats. Likewise, the path to liberation requires correct diagnosis: sensation is karma-born, karma is caused by attachment, attachment is ended by understanding and restraint.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk approaches suffering like a good doctor approaches illness — not by hiding from it, but by understanding its cause and treating it at the root.</p>
+        <div class="concept-tags"><span class="concept-tag">Physician Metaphor</span><span class="concept-tag">Karma</span><span class="concept-tag">Understanding</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">से जाणइ दुक्खस्स मूलं, कम्मं जाणइ बंधणं। ॥२.६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He knows the root of suffering; he knows karma as bondage.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Knowledge is operational here — it is not theoretical awareness but the understanding that changes behavior. To know that suffering has karma as its root is to know that creating more karma will create more suffering. To know karma as bondage is to stop adding to one's chains. This sutra marks the transition from diagnosis to practice: once the cause is known, the path is clear.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Knowing the root of suffering — karma — changes how you live. You stop adding to the very thing that causes pain.</p>
+        <div class="concept-tags"><span class="concept-tag">Root Cause</span><span class="concept-tag">Bondage</span><span class="concept-tag">Knowledge</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न सोयइ न हरिसइ, समलोट्ठकंचणे। ॥२.७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not grieve nor does he rejoice — he sees a lump of clay and a lump of gold as equal.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The image of clay and gold is among the most important in Jain renunciant teaching. Gold is what the world values most; clay is what the world considers worthless. The monk who has genuinely understood the nature of sensation does not assign these values. Not because both are worthless — but because both are equally impermanent, equally material, equally unable to touch the soul's nature. This equanimity is not indifference; it is clarity.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk doesn't get excited by gold or depressed by mud. He sees through the labels the world puts on things.</p>
+        <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Clay and Gold</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अट्ठिमंसचम्मपत्थडे, देहे नत्थि ममत्तणं। ॥२.८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In the body — a framework of bone, flesh, and skin — there is no ownership.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The body is described anatomically and without sentiment. It is a temporary structure, not a self. The monk's non-attachment to the body is not self-hatred — it is accurate perception. The body will become ill, will age, will die. The one who identifies deeply with the body will suffer proportionally with every change the body undergoes. The monk who sees the body clearly is free to use it well without being enslaved to it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The body is a temporary structure. The monk uses it without clinging to it.</p>
+        <div class="concept-tags"><span class="concept-tag">Body</span><span class="concept-tag">Non-Ownership</span><span class="concept-tag">Impermanence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे इंदिएहिं विजिए, से न विज्जइ वेयणाए। ॥२.९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">One who has conquered the senses is not overwhelmed by sensation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Conquest of the senses does not mean destroying them — the senses continue to function in a realized monk. It means the monk is not driven by them. When the eyes see, the monk is not pulled by craving. When the body feels pain, the monk is not shattered by it. This freedom from being driven by the senses is what makes endurance of sensation possible. Sensation continues; enslavement to sensation ends.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Mastering the senses means sensation doesn't master you. Pain and pleasure still happen — but they don't run your life.</p>
+        <div class="concept-tags"><span class="concept-tag">Sense Control</span><span class="concept-tag">Mastery</span><span class="concept-tag">Freedom</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अग्गिणा जलइ कट्ठं, कम्मं सो वि झाविए। ॥२.१०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Just as fire burns away wood — so too does the monk burn away his karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is a central metaphor in Jain soteriology. Karma accumulates like wood — it is fuel for the fire of future experience. The ascetic's practice — endurance, non-attachment, restraint — is itself a kind of fire that burns the accumulated karma without adding new fuel. The monk who endures sensation without craving or aversion is actually consuming their karmic fuel faster than they are adding to it. This is the mechanics of liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Every moment of patient endurance burns away old karma. The monk's practice is a controlled fire that clears the fuel of past action.</p>
+        <div class="concept-tags"><span class="concept-tag">Fire Metaphor</span><span class="concept-tag">Karma Exhaustion</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II — The Monk's Response</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आउरस्स न भे दुक्खं, ण य हिट्ठइ वेयणा। ॥२.११॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">For one who is immersed in practice, there is no fear of suffering; sensation does not disturb him.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Immersed in practice" describes a monk who has made restraint habitual — not through gritting teeth but through genuine internalization. For such a one, suffering loses its sting. This is not numbness; it is the result of years of practice in which the monk has learned to meet sensation without the reactive layer of fear and craving. When that reactive layer is gone, sensation itself is neutral — a signal, not a threat.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Steady practice removes the fear from suffering. The monk who has trained well can face pain without panic.</p>
+        <div class="concept-tags"><span class="concept-tag">Practice</span><span class="concept-tag">Fearlessness</span><span class="concept-tag">Steadiness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">परिस्सहे य अभिभूए, न वित्तिं अज्जुवागए। ॥२.१२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Overpowered by hardship, he does not seek escape into comfort.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Jain path specifically trains the monk against the impulse to seek relief. When the body is cold, the monk does not rush to warmth. When hungry, the monk does not break the fast early. This is not cruelty to the body — it is training the mind to observe the impulse to escape without immediately acting on it. Over time this builds a kind of inner space between impulse and action, and liberation is found in that space.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When things are hard, the monk doesn't immediately run toward comfort. He trains himself to stay steady.</p>
+        <div class="concept-tags"><span class="concept-tag">Hardship</span><span class="concept-tag">Restraint</span><span class="concept-tag">Training</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न रोसेइ न पसीयइ, समसुहदुक्खे विहरइ। ॥२.१३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not become angry nor does he become pleased — he lives with pleasure and pain treated equally.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the lived reality of equanimity. It is not that the monk feels nothing — the text does not claim that. It is that his inner state does not spike into anger when things go badly or into elation when things go well. He inhabits a stable middle ground. This stability is itself transformative: it allows clear seeing, compassionate action, and the absence of the karmically binding reactions of rage and greed.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk doesn't fly into anger or get swept up in excitement. He stays even — and that evenness itself is liberation in progress.</p>
+        <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Anger</span><span class="concept-tag">Stability</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">आहारगहणे पमत्ते, तस्स बंधो न विज्जइ। ॥२.१४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">In taking food without heedlessness, bondage does not arise for him.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Even something as ordinary as eating is a site of practice. Taking food with awareness — eating because the body needs fuel, not because the mind craves pleasure — is a form of non-attachment in action. Heedlessness in eating means eating driven by craving, by habit, by distraction. The monk eats with full attention, knowing why he eats and eating accordingly. No new karma is generated by this conscious, minimal, purposeful action.</p>
+        <p class="simple-explanation"><b>The simple version:</b> How you eat matters as much as what you eat. Eating with awareness and without craving generates no new bondage.</p>
+        <div class="concept-tags"><span class="concept-tag">Mindful Eating</span><span class="concept-tag">Awareness</span><span class="concept-tag">Non-Bondage</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वे पाणा न हंतव्वा, न य वाए वियाहिया। ॥२.१५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">No living beings should be harmed; this is what the Lord declared.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Non-violence is the foundational practice that underlies all the others. It is placed here in the middle of the chapter on sensation because the insight connects: if all sensation arises from karma, and if karma is generated through harmful action, then the most direct way to stop accumulating painful karma is to stop harming. Non-violence is not an ethical ideal added on top of the path — it is structurally required by the karma theory that the whole chapter rests on.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Non-violence is the practical consequence of understanding karma. If harm creates karma, and karma creates suffering, then the monk who understands this stops harming.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Ahimsa</span><span class="concept-tag">Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एगे नाणी समभावे, दुक्खं सहइ अक्खोभे। ॥२.१६॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The one who is truly wise remains in equanimity, enduring suffering without agitation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Without agitation" is precise: the monk's surface may be still, but the sutra points to the absence of inner turbulence. Agitation is the internal storm of resistance — the part of us that says "this should not be happening." When that storm is calmed by understanding, what remains is the capacity to endure fully without breaking. This is not heroic suppression; it is the natural result of having understood the nature of sensation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Real wisdom shows up in how calmly you face hard things. The monk's inner stillness is not performance — it is understanding made visible.</p>
+        <div class="concept-tags"><span class="concept-tag">Wisdom</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Inner Peace</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे य इट्ठा जे य अणिट्ठा, सव्वे कम्मस्स फलिया। ॥२.१७॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whatever is pleasant and whatever is unpleasant — both are the fruits of karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra restates the core teaching with deliberate symmetry: both poles of experience, the attractive and the aversive, are equally karma-born. This symmetry is the teaching. Most people flee unpleasantness and pursue pleasantness. The monk who truly understands both are karma-born has no need to flee or pursue. Both will arise according to their karmic causes. Both will pass when those causes are exhausted. The monk can simply be present.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Pleasures and pains are both just karma playing out. Neither is worth chasing; neither is worth running from.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma Fruit</span><span class="concept-tag">Symmetry</span><span class="concept-tag">Equanimity</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जे धीरे से ण संरंभे, तितिक्खाए उवट्ठिए। ॥२.१८॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The steadfast one is not rash — he stands established in endurance.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Rashness is the failure mode of impatience: acting impulsively to escape a difficult sensation, or to grasp at a pleasant one. The monk who is "established in endurance" has made endurance not a temporary strategy but a stable orientation. He is steady because steadiness has become his natural posture, not because he is suppressing an impulse to act otherwise. This is the fruit of long practice.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The trained monk doesn't react rashly. His patience is not effort — it has become who he is.</p>
+        <div class="concept-tags"><span class="concept-tag">Steadfastness</span><span class="concept-tag">Endurance</span><span class="concept-tag">Patience</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III — Liberation from Sensation</span></div>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जो य वेयणं जाणइ, से मोक्खस्स पारगे। ॥२.१९॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The one who truly knows sensation has reached the shore of liberation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Truly knows" is doing all the work here. Many people know intellectually that sensation is impermanent. Few have so thoroughly understood this that they no longer react to sensation with craving and aversion. The one who has reached this lived knowledge — not just the concept but the transformation — is already at the threshold of liberation. Knowledge of sensation, at this depth, is itself the liberating insight.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Really understanding sensation — not just knowing about it — is itself liberation. The insight goes all the way through.</p>
+        <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">Knowledge</span><span class="concept-tag">Threshold</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">वेयणा खविया जस्स, न से पुणो उवज्जइ। ॥२.२०॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">For one whose sensation-karma has been exhausted, it does not arise again.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the mechanics of final liberation. Karma is exhausted — completely burnt away — through practice without the addition of new karma. When the last of the sensation-producing karma is consumed, sensation as a vehicle of bondage ends. The soul does not become incapable of experience in liberation; rather, it is freed from the compelled experience of karmic ripening. This is the highest aim of the path.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When all past karma burns away, the cycle ends. No more compelled sensation — just the soul in its pure nature.</p>
+        <div class="concept-tags"><span class="concept-tag">Karma Exhaustion</span><span class="concept-tag">Final Liberation</span><span class="concept-tag">Soul</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.21</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">अप्पाणं संजमे धीरो, सुद्धभावेण भावए। ॥२.२१॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The wise one restrains himself and cultivates purity of being.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Restraint and purity are the two practical pillars described here. Restraint means the active practice of not adding karma through harmful thoughts, speech, and action. Purity of being means cultivating the soul's inherent qualities — clarity, peace, compassion — rather than the reactive patterns of attachment and aversion. Together, these practices create the conditions in which liberation becomes possible.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The monk's practice has two sides: stopping harm and growing purity. Both together move him toward freedom.</p>
+        <div class="concept-tags"><span class="concept-tag">Restraint</span><span class="concept-tag">Purity</span><span class="concept-tag">Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.22</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">न भाए न य उव्वेगे, न रागे न विसाए। ॥२.२२॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Neither fear nor anxiety, neither attachment nor despair — he lives beyond these.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra catalogs the four reactions that normally accompany sensation: fear of pain, anxiety about what may come, attachment to pleasure, and despair when pleasure ends. The monk who has genuinely understood sensation has moved beyond all four. These are not suppressed — they have been understood so clearly that they no longer arise. This is the emotional freedom that comes with the deep knowledge described in the previous sutras.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When you truly understand sensation, the emotional turbulence it normally causes simply stops. Not by force — by understanding.</p>
+        <div class="concept-tags"><span class="concept-tag">Freedom</span><span class="concept-tag">Fear</span><span class="concept-tag">Attachment</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.23</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">जो य भिक्खू परिण्णाय, कम्मं न संचिणाइ। ॥२.२३॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who has fully understood does not accumulate karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Non-accumulation of karma is the practical outcome of understanding. Every action taken without craving and aversion generates no new binding karma. The monk who has internalized the teaching of this chapter — that all sensation is karma-born, that sensation is to be endured with equanimity, that endurance itself burns karma — is no longer adding to his burden. He is only consuming the old karma without creating new karma, moving steadily toward freedom.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Real understanding stops the accumulation of new karma. The monk lives without adding to his debt.</p>
+        <div class="concept-tags"><span class="concept-tag">Non-Accumulation</span><span class="concept-tag">Karma</span><span class="concept-tag">Liberation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.24</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">सव्वदुक्खाण मोक्खस्स, मग्गो एसो वियाहिए। ॥२.२४॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">This is declared to be the path to liberation from all suffering.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sutra explicitly names what the entire chapter has been building toward: this path of understanding sensation, cultivating equanimity, enduring without craving or aversion — this is the path to complete liberation from all forms of suffering. Not a path among many options, but the path as taught by the Tirthankara himself. The declaration carries the weight of the entire Jain philosophical tradition.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Everything taught in this chapter is the path to freedom. This is not theory — this is the way.</p>
+        <div class="concept-tags"><span class="concept-tag">The Path</span><span class="concept-tag">Liberation</span><span class="concept-tag">Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.25</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit font-headline">एवं वेयणियं नाऊण, जाणिया सव्वसंपहू। ॥२.२५॥</p>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, having understood the chapter on sensation, one knows all things fully. — iti bemi</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The closing formula "iti bemi" — "thus I speak" — is the traditional seal placed at the end of a Jain sutra, affirming that what has been taught comes from the tradition of the Tirthankaras as transmitted through the line of teachers. The sutra also makes a remarkable claim: understanding this chapter on sensation is a kind of complete understanding. This is because sensation is the interface between karma and the soul — understanding it correctly means understanding the whole mechanism of bondage and liberation.</p>
+        <p class="simple-explanation"><b>The simple version:</b> This chapter is complete. The teacher has spoken. Whoever truly understands sensation understands the whole teaching.</p>
+        <div class="concept-tags"><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Completion</span><span class="concept-tag">Transmission</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+</main>
+
+<a href="sutrakritang-ch1.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 1</a>
+<a href="sutrakritang-ch3.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 3 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+<script src="../../../js/sutrakritang-search.js"></script>
+</body></html>
