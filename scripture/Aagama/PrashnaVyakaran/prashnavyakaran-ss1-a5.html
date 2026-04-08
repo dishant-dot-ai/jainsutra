@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Prashnavyakaran — SS1 · Adhyayan 5: Parigraha (Possessiveness) | JainAwaken.org</title>
+<meta name="description" content="The fifth and final gate of karma influx — Parigraha (possessiveness). Thirty names, every being from Indra to ordinary man grasping for more, the house of all sufferings, and the five closing verse-sutras that seal the entire First Shrutaskandha. Prashnavyakaran Sutra, SS1, Adhyayan 5."/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative group hidden lg:block">
+        <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="prashnavyakaran-index.html" class="text-on-surface-variant hover:text-primary transition-colors underline">Prashnavyakaran</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Adhyayan 5</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Possessiveness<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">परिग्रह</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">The Fifth and Final Gate — The House of All Sufferings, from Indra to Every Living Being</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The fifth Aashrav-dvar and the root that drives all the others. Thirty names mapping how attachment operates from gathering to hoarding to burden to conflict to the soul's bondage. Every being — even Indra, even the Chakravarti — caught in its grip. The Sanskrit verse: wealth is suffering to earn, to guard, when it arrives, when it leaves. And then five closing verse-sutras that seal the entire First Shrutaskandha: the path from Aashrav to Samvar, the free medicine, the promise of supreme Siddhi.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <img src="../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">मोक्खाओ दूरगया — इति बेमि ।</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">"Far removed from liberation — Thus I declare." — Lord Mahavira (on souls who practice Parigraha)</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Possessiveness — परिग्रह</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Adhyayan 5 is uniquely structured. Its five sutras describe the final Aashravdvar, and then five closing verse-sutras conclude the entire First Shrutaskandha. The chapter is both an ending and a hinge — closing the description of what the soul must stop, and pointing directly toward what the soul must begin.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The teaching of Parigraha is not that things are evil. It is that <span class="text-primary font-semibold">grasping binds</span>. The monk who owns nothing and the emperor who owns everything are both capable of Parigraha — one in the physical form of accumulation, one in the inner attachment of the mind. The sutra names both: Indra in his heaven, the Chakravarti on his throne, kings in their palaces, ordinary human beings in their households — all caught in the same mechanism. All dying unsatisfied. All far from liberation. The five closing verses then turn the entire teaching toward its conclusion: close the five gates, embrace the five restraints, attain <em>paramasiddhi</em> — supreme liberation.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div><span class="text-3xl font-headline font-bold text-primary">5 + 5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras + Closing Verses</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">5th Adharma-Dvar</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Final Gate of Evil</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Champa</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Setting</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Prashnavyakaran &middot; SS1 &middot; Adhyayan 5</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 5 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt. Five closing verse-sutras follow, sealing the entire First Shrutaskandha.</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider"><span>Part I &mdash; The Fifth Gate: Nature of Parigraha</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">जंबू ! परिग्गहे य पंचमे सदेव-मणुआ-असुरस्स लोगस्स पत्थिणिज्जे हिरण्ण-सुवण्ण-रयण-मणि-मोत्तिय-संख-सिल-पवाल-रत्तरयण-कंत-फलिह-भूमिघर-धण-धण्ण-दास-दासी-हत्थि-अस्स-गो-महिस-उट्ट-खर-अय-मेस वत्थ-पायरण-सयण-सयणासण-जाण-जुग्गविभव-भोग-उपभोग-समिद्धीए रायाणो वि रज्जोवभोगसुहेहिं अतित्ता चेव कालं करेंति ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Sweeping Portrait — Kings Die Unsatisfied</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">O Jambu! The fifth gate of karma-influx is Parigraha — desired by all beings of this world including gods, humans, and asuras. It encompasses: silver, gold, gems, jewels, pearls, conch shells, precious stones, coral, red gems, magnets, crystal, land, homes, wealth, grain, male servants, female servants, elephants, horses, cows, buffaloes, camels, donkeys, goats, sheep, clothing, ornaments, beds, seats, vehicles, carriages, riches, enjoyments, and luxuries of every kind. Even kings, despite enjoying all the pleasures of their kingdoms, die without satisfaction.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Parigraha is the fifth and final Aashravdvar — and, as Sutra 5.4 will show, it is also the root that drives the other four. Every form of accumulation that human civilization has ever organized its energy around is named in a single sweeping catalog: precious metals and gems (silver, gold, coral, crystal), living property (elephants, horses, cattle, camels, servants), food stores (grain, wealth), domestic comforts (beds, seats, garments), and the full spectrum of luxuries.<br/><br/>This list is not exhaustive by accident — it is a mirror. The listener recognizes their own world in it. Every category present, from the grandest (land, elephants, kingdom) to the most ordinary (clothing, seats), is the object of Parigraha.<br/><br/>The sutra's final statement is devastating in its simplicity: <em>even kings — with all of this — die without satisfaction.</em> Not the poor. Not the ignorant. Kings. Those who have, by definition, more than anyone. They die <em>atittah</em> — unsatisfied — just as the six categories of beings in Adhyayan 4 died with <em>avittata kamanam</em>.<br/><br/>The Parigraha-tree metaphor from the vivechan deepens this: the roots are endless craving (trishna), the trunk is greed (lobha) producing conflict and anger, the branches are the anxieties of the mind, and the fruits are karma-consequences. A tree that grows by consuming the soul's peace and produces only suffering. The teaching is not that things are evil — it is that <em>grasping</em> is what binds. The monk who owns nothing and the emperor who owns everything are both capable of Parigraha; one in the physical form of accumulation, one in the attachment of the mind.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Everything the world runs after — gold, property, animals, servants, vehicles, luxuries — is Parigraha. And no matter how much a person gets, they still die wanting more. Even a king with a whole kingdom dies unsatisfied. The fifth gate of karma-influx is this: the endless reaching for more.</p>
+        <div class="concept-tags"><span class="concept-tag">Fifth Gate</span><span class="concept-tag">Complete Catalog</span><span class="concept-tag">Kings Die Unsatisfied</span><span class="concept-tag">Parigraha-Tree</span><span class="concept-tag">Grasping Binds</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider"><span>Part II &mdash; Thirty Names and the Universal Practice</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">परिग्गहे णेगविहे पण्णत्ते — परिग्गहे संचए चए उवचए णिहाणे संभारे संकरे आदारे पिंडे दव्वसारे महिच्छे पडिबंधे लोहत्तए महड्ढिए उवगरणे संरक्खणे भारे संपउप्पायए कालिकंदे पवित्थरे अणत्थे संथवे अगुत्ती आयासे अवियोगे अमुत्ती तिसिणा अणत्थए आसत्ती असंतोसे इति ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Thirty Names — From Gathering to Dissatisfaction</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Parigraha has been described in many forms: (1) Parigraha — general possessiveness; (2) Sanchaya — deliberate accumulation; (3) Chaya — collection; (4) Upachaya — adding to what already exists; (5) Nidhana — hoard, buried treasure; (6) Sambhar — ongoing procurement; (7) Sankar — entanglement of possessions; (8) Adar — reverence directed toward wealth; (9) Pinda — aggregate lump of possessions; (10) Dravyasar — "essence" mistakenly found in material things; (11) Mahicha — great desire; (12) Pratibandha — bondage of the soul to things; (13) Lohatma — iron-heartedness born of greed; (14) Mahardhi — great affluence; (15) Upakaran — instruments of accumulation; (16) Sanrakshana — protecting and guarding possessions; (17) Bhar — burden that possessions impose; (18) Sampautpaydak — that which generates more wanting; (19) Kalikranda — conflict and strife of the age; (20) Pravistara — spreading and expansion; (21) Anart — futility and purposelessness; (22) Sanstav — glorification of wealth; (23) Agutti — ungoverned grasping; (24) Ayas — the labor driven by greed; (25) Aviyog — inseparability, inability to let go; (26) Amutti — bondage of the soul; (27) Trishna — craving and thirst; (28) Anarthaka — without true meaning; (29) Asakti — excessive attachment; (30) Asantosh — perpetual dissatisfaction.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The thirty names of Parigraha form a progressive anatomy of how attachment works, moving from the external act inward to the soul-state it produces. The arc is precise and complete.<br/><br/><strong>Gathering Phase (Names 1–10):</strong> From the basic act of possessiveness through active accumulation, addition, hoarding, and procurement — and then names 7–10 reveal the internal distortions: the entanglement of one thing with another (Sankar), the misplacing of reverence onto material things (Adar), the clumping of wealth into an undifferentiated mass (Pinda), and the fatal error of treating material things as the "essence" of life (Dravyasar).<br/><br/><strong>Protection Phase (Names 11–16):</strong> Great desire (Mahicha) produces bondage (Pratibandha), which produces iron-heartedness (Lohatma) — the soul that grasps with enough force becomes hard, unable to feel. Accumulation (Mahardhi) requires instruments (Upakaran) and constant vigilance (Sanrakshana). The joy of having is replaced by the anxiety of keeping.<br/><br/><strong>Burden and Conflict Phase (Names 17–21):</strong> Possessions become burdens (Bhar). They generate more wanting (Sampautpaydak — perhaps the most truthful name: that which produces more generation of desire). They cause the conflicts of an entire age (Kalikranda). They spread outward, demanding more and more space and energy (Pravistara). And in the end they are futile (Anart) — all that labor for nothing real.<br/><br/><strong>Soul-State Phase (Names 22–30):</strong> The internal collapse: glorifying wealth (Sanstav), ungoverned grasping (Agutti), the exhausting labor of it all (Ayas), inability to release (Aviyog), the soul's bondage (Amutti), craving (Trishna), meaninglessness (Anarthaka), clinging (Asakti), and finally — name 30 — Asantosh: perpetual dissatisfaction. The house built from Parigraha is built out of dissatisfaction and ends in dissatisfaction. The first name and the last form a closed loop: Parigraha generates Asantosh generates more Parigraha.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Parigraha has thirty names because it works in thirty ways — gathering, hoarding, protecting, burdening, causing conflict, creating craving, and ending in dissatisfaction. The last name is the truest: Asantosh — never satisfied. That is Parigraha's final product and its first cause.</p>
+        <div class="concept-tags"><span class="concept-tag">Thirty Names</span><span class="concept-tag">Sampautpaydak</span><span class="concept-tag">Asantosh — Final Product</span><span class="concept-tag">Four-Phase Arc</span><span class="concept-tag">Bhar — The Burden</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-5-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">से केहिं परिग्गहे सेविज्जइ ? परिग्गहे सेविज्जइ — भवणवासीहिं देवेहिं य, वाणमंतरेहिं देवेहिं य, जोइसियेहिं देवेहिं य, वेमाणियेहिं देवेहिं य, इंदेहिं वि, चक्कवट्टीहिं वि, रायाणो वि, सव्वजीवेहिं परिग्गहे सेविज्जइ ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">By Whom Is Parigraha Practiced? — All Living Beings</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">By whom is Parigraha practiced? Parigraha is practiced by the Bhavan-vasi gods, the Vyantara gods, the Jyotishka gods, the Vaimanika gods, even by Indras, even by Chakravartis, even by kings — and by all living beings.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The question this sutra poses — <em>by whom is it practiced?</em> — is answered with a list that leaves no one out, ascending deliberately from the lowest heavens to the highest.<br/><br/>The four categories of gods are named in order: Bhavan-vasi (lower-universe mansions), Vyantara (spirit-beings of the middle realm), Jyotishka (sun, moon, stars as conscious beings), and Vaimanika (the highest heavens). Then: <em>Indra</em> — the king of the gods, the highest being in any heaven — practices Parigraha. Then the Chakravarti. Then kings in general. Then <em>savvajīvehiṃ</em> — all living beings.<br/><br/>The sutra confirms Sutra 5.1: even kings die unsatisfied. Now we understand why — because even Indra, with a heaven full of divine abundance, is practicing Parigraha. The problem is not a human problem. Not a poverty problem or a wealth problem. It is a consciousness problem. It exists wherever there is a self that grasps.<br/><br/>Parigraha here carries four defining qualities: <em>ananta</em> (endless, no natural end point), <em>asharana</em> (without refuge, gives no real security), <em>duranta</em> (difficult to end, deeply habituated), <em>anitya</em> (impermanent, all accumulated possessions will eventually be lost). These four qualities together form the anatomy of why Parigraha can never deliver what it promises: it has no end, provides no security, resists change, and holds things that will not last. The soul that anchors its security to it anchors to sand.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even gods practice Parigraha. Even Indra — the king of the heavens — is caught in it. The sutra says: all living beings practice Parigraha. If even those with the most divine abundance are not free, what hope is there in grasping more? The only exit is to stop grasping, not to grasp more successfully.</p>
+        <div class="concept-tags"><span class="concept-tag">Savvajīvehiṃ — All Beings</span><span class="concept-tag">Even Indra</span><span class="concept-tag">Four Qualities: Ananta Asharana Duranta Anitya</span><span class="concept-tag">Consciousness Problem</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider"><span>Part III &mdash; Parigraha as Root of the Other Four</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">परिग्गहस्स अट्ठाए पुरिसा बावत्तरि-कला-सिक्खिया, इत्थियाओ चउसट्ठि-कला-सिक्खियाओ, सव्वे वि य हिंसं मुसावायं अदत्तादाणं अबंभचेरियं सेवंति — एस परिग्गहस्स दोसो ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Seventy-Two Arts, Sixty-Four Arts — All in Service of Accumulation</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">For the sake of Parigraha, men are trained in seventy-two arts; women are trained in sixty-four arts. And all — despite this learning — commit violence, falsehood, theft, and unchastity. This is the fault of Parigraha.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra delivers one of the most compressed and precise diagnoses in the entire chapter — and one of the most important structural observations in the whole of Shrutaskandh 1.<br/><br/>Men learn 72 arts. Women learn 64 arts. The classical lists include music, mathematics, architecture, medicine, martial arts, diplomacy, poetry, painting, crafts, languages — the full spectrum of human capability and culture. And the sutra's point: <em>all of this is in service of Parigraha.</em> The training of civilization is, underneath, a training in how to accumulate more effectively.<br/><br/>Then: <em>despite</em> all this cultivation, despite this investment in human development, people still commit the other four Aashravs — Himsa (violence), Mrushavad (falsehood), Adattadan (theft), Abrahmacharya (unchastity). They commit them <em>for</em> the possessions. They commit them <em>to protect</em> the possessions. They commit them <em>because of</em> the possessions.<br/><br/>This is why Parigraha is not simply the fifth Aashrav alongside the other four — it is the root that makes the other four grow. Take away grasping, and the motivation for most violence, most falsehood, most theft, and much unchastity collapses. The five Aashravs are not independent; they are a root with four branches.<br/><br/>The Sanskrit verse from the vivechan seals the teaching:<br/><br/><em>अर्थनामार्जने दुःखं, अर्जितां च रक्षणे । आये दुःखं व्यये दुःखं, धिग् अहो दुःखभाजनम् ।।</em><br/><br/>"Wealth is suffering to earn, suffering to protect; suffering when it arrives, suffering when it goes. Shame — it is nothing but a vessel of suffering." Parigraha is <em>savvadukhasannilayam</em> — the home in which all sufferings live.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People spend their lives acquiring skills — and then use all of them to gather more and protect what they have, committing violence, lies, theft, and unchastity in the process. This is Parigraha's fault: it is the root that drives the other four Aashravs. Wealth is suffering to earn, to guard, when it arrives, when it leaves. It is a house built entirely of suffering.</p>
+        <div class="concept-tags"><span class="concept-tag">72 Arts and 64 Arts</span><span class="concept-tag">Root of Other Four Aashravs</span><span class="concept-tag">Savvadukhasannilayam</span><span class="concept-tag">Wealth as Vessel of Suffering</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IV -->
+  <div class="section-divider"><span>Part IV &mdash; The Fruit and the Closing Seal</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">एवं परिग्गहे सेवंता जीवा चउगइ-सुहदुहभागी होंति, पलिओवमेहिं सागरोवमेहिं परिवट्टंता, थोव-सुहा बहु-दुक्खा, मोक्खाओ दूरगया — इति बेमि ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Far from Liberation — Iti Bemi</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, souls who practice Parigraha become sharers in pleasure and suffering across all four states of existence, cycling through palyopama upon palyopama and sagaropama upon sagaropama — receiving little pleasure and great suffering — far removed from liberation. Thus I declare.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is the conclusion — not merely of Adhyayan 5, but of the entire First Shrutaskandha of Prashnavyakaran.<br/><br/>The timeframe given — <em>palyopama upon palyopama, sagaropama upon sagaropama</em> — places the soul's wandering on a scale that dwarfs imagination. A palyopama is the time it would take to empty a vessel of hair-fine strands, packed in a cube of one hundred yojanas, removing one strand every hundred years. A sagaropama is ten crore times ten crore palyopamas. The sutra says souls cycle through this for palyopamas compounded upon palyopamas.<br/><br/>In all of this: <em>thova-suha, bahu-dukha</em> — a little pleasure, enormous suffering. The ratio holds constant. More time, more suffering, more births, more loss — and always the same thin sliver of temporary pleasure that keeps the cycle running.<br/><br/>Then two words that are the most precise in the sutra: <em>mokkhāo dūragayā</em> — far from liberation. Not forever separated. Not impossibly distant. Far. Every act of grasping adds distance. Every act of releasing reduces it.<br/><br/><em>Iti bemi</em> — Thus I declare. This is Mahavira's seal. Not tradition received from others. Not inference. The declaration of one who has seen the mechanism of karma directly and transmitted it through the unbroken chain: Mahavira → Sudharmaji → Jambu → us.<br/><br/>The First Shrutaskandha — the Aashravdvar, the five gates of karma-influx — is complete. All five gates have been named, described, anatomized, and condemned. The soul that keeps these gates open accumulates karma. The soul that closes them begins the path to Siddhi. The five closing verse-sutras that follow now articulate that path.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Those who practice Parigraha wander through all four states of existence for palyopama upon palyopama — a little pleasure, great suffering — and remain far from liberation. Iti bemi — Thus I declare. The fifth Aashrav is complete. The five gates of karma-influx have been fully described.</p>
+        <div class="concept-tags"><span class="concept-tag">Thova-Suha Bahu-Dukha</span><span class="concept-tag">Mokkhāo Dūragayā</span><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Palyopama Scale</span><span class="concept-tag">SS1 Conclusion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V — Upasanhar -->
+  <div class="section-divider"><span>Part V &mdash; Aashravdvar Upasanhar: Five Closing Verse-Sutras</span></div>
+
+  <div class="mb-6 px-2">
+    <p class="text-base text-on-surface-variant leading-relaxed italic">These five verse-sutras conclude the entire First Shrutaskandha, summarizing the teaching of all five Aashravdvars (Himsa, Mrushavad, Adattadan, Abrahmacharya, Parigraha) and pointing toward the path of liberation.</p>
+  </div>
+
+  <article class="sutra-card p-8" id="sutra-u-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">U.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">पंच एए अहम्मदारा कम्मस्स आसवणहेउभूया, समये समये आसवंति कम्मं चउगइ-संसार-परिभमणं ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Karma Every Moment — The Five Gates Never Rest</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">These five are the gates of unrighteousness — the causes of karma-influx. Moment by moment they cause karma to flow in, leading to wandering through the four-state cycle of samsara.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed"><em>Samaye samaye</em> — moment by moment. Not once a day. Not in large dramatic transgressions. Every moment a being remains in contact with these five Aashravs, karma is flowing in. The Jain understanding of karma is not transactional (do bad thing, receive bad result) but continuous: every moment of unmindfulness is a moment of influx. The image of <em>āsavaṇa</em> — "flowing in," as water into a leaking boat — is exact. The boat does not sink in one dramatic flood. It sinks from the unnoticed trickle that never stops. The five gates are not closed between sins and open during them — they are open every moment the soul is oriented toward them. Closing them requires not intermittent effort but sustained reorientation of the entire being.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Every moment these five gates are open, karma flows in — not just in big sins, but in every unmindful moment. The wandering through four states of existence is the accumulated result of moment-by-moment influx.</p>
+        <div class="concept-tags"><span class="concept-tag">Samaye Samaye</span><span class="concept-tag">Continuous Influx</span><span class="concept-tag">Leaking Boat</span><span class="concept-tag">Five Gates</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-u-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">U.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">दुविहा वि ते अणेगजम्मिणो जे य धम्मं ण सुणंति लोगम्मि, जे य सुणित्ता ण करेंति सुबहुकालं परिभमंति ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Two Kinds of Wanderers — Those Who Don't Hear, and Those Who Hear and Don't Act</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Both kinds of beings are born many times: those who do not hear dharma in the world, and those who, having heard it, do not practice it. Both wander for a very long time.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The verse identifies two categories of wanderers — and the second is the more confronting. The first (those who never hear dharma) is expected: they wander because the teaching never reached them. But the second heard the teaching and still did not act. Their wandering is not shorter because of their knowledge — it may in fact be longer, because knowledge without transformation is a form of squandering the rarest condition: a human birth within proximity of dharma. One who knows and does not do has received the medicine and not taken it. The word <em>subahukalāṃ</em> — "for a very long time" — applies equally to both. Ignorance wanders. Informed inaction wanders just as long.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Two groups wander through many births: those who never heard dharma, and those who heard it but never practiced it. Hearing is not enough. The wandering of the second category is not due to ignorance — it is due to inaction.</p>
+        <div class="concept-tags"><span class="concept-tag">Two Kinds of Wanderers</span><span class="concept-tag">Heard But Did Not Act</span><span class="concept-tag">Knowledge Without Transformation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-u-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">U.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अणेगविहं धम्मं सुणइ मिच्छदिट्ठी पुणो पुणो, ण य से सम्मं परिणमइ जह ओसहं रोगि-पुरिसस्स ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Mithyadrishti — Medicine Held But Not Taken</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The mithyadrishti (one with wrong view) hears dharma in many forms, again and again, but it does not transform rightly within him — just as medicine does not transform rightly in a sick person who does not take it.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The verse gives a clinical image. A sick person holds the medicine. The medicine is real. The illness is real. But without <em>pariṇama</em> — the inner transformation, the actual metabolizing of the teaching — nothing changes. Mithyadrishti is not a lack of dharma-exposure. It is a disposition of the mind that hears without receiving, listens without applying. <em>Puṇo puṇo</em> — again and again — emphasizes the pattern: this is not one failed hearing but a habitual response of not-transforming. The person who hears the same teaching a hundred times and remains the same each time is not unlucky. They are practicing a specific relationship with dharma: intellectual contact without metabolic change. The medicine must be taken, not just held.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The one with wrong view hears dharma many times — but it doesn't actually change them. Like a sick person holding medicine but never taking it. Hearing is not transformation. The medicine has to be taken.</p>
+        <div class="concept-tags"><span class="concept-tag">Mithyadrishti</span><span class="concept-tag">Pariṇama — Inner Transformation</span><span class="concept-tag">Medicine Not Taken</span><span class="concept-tag">Puṇo Puṇo</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-u-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">U.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">जिणवयणं खलु सव्वदुक्ख-णासणं अमिय-सरिसं महासाहु, किं कुज्जा तस्स जो ण गिण्हइ मुहल्लियं ओसहं ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Free Medicine — What Can Be Done for One Who Won't Take It?</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The words of Jina are truly the destroyer of all suffering, like nectar, of great benefit — what can be done for one who does not take this medicine that is freely given?</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The verse opens with <em>khalu</em> — truly, certainly — the word of absolute confidence. The Jina's words are <em>savvadukkha-ṇāsaṇaṃ</em>: the destroyer of <em>all</em> suffering. Not some suffering. All. They are <em>amiya-sarisa</em>: like amrit, the nectar of deathlessness. They are <em>mahāsāhu</em>: of enormous benefit, supremely valuable. And then the turn that changes everything: <em>muhaLLiyaṃ</em> — freely given, offered without cost, available to anyone who will take it.<br/><br/>And yet: <em>jo ṇa giṇhai</em> — one who does not take it.<br/><br/><em>Kiṃ kujjā?</em> — what can be done?<br/><br/>The verse does not condemn. It does not threaten. It expresses something closer to genuine helplessness — the helplessness of the teacher who has done everything possible and finds the student still unmoving. Even the greatest medicine, freely given, cannot be administered by force. The Jina has done everything that can be done. The transmission is complete. The rest rests entirely with the one who receives it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The Jina's words destroy all suffering — like nectar, freely offered to anyone who wants them. But what can anyone do for the person who simply will not take the free medicine? The teaching is available. The taking is up to you.</p>
+        <div class="concept-tags"><span class="concept-tag">Savvadukkha-Ṇāsaṇaṃ</span><span class="concept-tag">Amiya-Sarisa — Like Nectar</span><span class="concept-tag">Muhaḷḷiyaṃ — Freely Given</span><span class="concept-tag">Teacher's Helplessness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-u-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">U.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">पंच य एए समवारिऊण आसवदारा मणेण सव्वेण, पंच सामाइज्जा समवारित्ता मोक्खं पावंति परमसिद्धिं ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Path to Supreme Siddhi — Close Five, Embrace Five</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those who close these five gates of Aashrav with their entire mind, and embrace the five Samvars (restraints) — they attain liberation, they attain supreme Siddhi.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The entire First Shrutaskandha — which opened with Himsa as the first gate of karma-influx — closes here with the direct declaration of what follows the closing of all five gates: <em>moksha</em> — liberation — and <em>paramasiddhi</em> — supreme Siddhi, the state of the perfected soul.<br/><br/><em>Maṇeṇa savveṇa</em> — with the entire mind, with complete heart. Not partially. Not selectively. Not publicly closed while privately grasped. The five gates must be closed with the totality of one's being. This phrase is the demand of authentic spiritual practice: not performance, not intellectual agreement, but the whole heart committed.<br/><br/>The five Samvars that replace the five Aashravs are the five Great Vows: Ahimsa Mahavrat (Great Vow of Non-Violence), Satya Mahavrat (Great Vow of Truth), Achaurya Mahavrat (Great Vow of Non-Stealing), Brahmacharya (Great Vow of Celibacy), and Aparigraha Mahavrat (Great Vow of Non-Possessiveness). The First Shrutaskandha described what the soul must stop. The Second Shrutaskandha will describe what it must begin. Together they form the complete teaching of the Prashnavyakaran: the diagnosis and the cure.<br/><br/>The verse is a promise — not a conditional, not a perhaps. <em>They attain liberation.</em> The path is known. The gates are identified. The restraints are named. What remains is only the doing.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Close the five gates of Aashrav with your whole heart. Embrace the five Samvars. The result: liberation. Supreme Siddhi. This is not a promise for later — it is the direct teaching of what happens when a soul fully turns from Aashrav to Samvar. The First Shrutaskandha ends here.</p>
+        <div class="concept-tags"><span class="concept-tag">Five Samvars</span><span class="concept-tag">Maṇeṇa Savveṇa</span><span class="concept-tag">Moksha — Liberation</span><span class="concept-tag">Paramasiddhi</span><span class="concept-tag">SS1 Complete</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="mt-20 pt-10 border-t border-primary/10 text-center">
+    <p class="font-headline text-2xl text-primary">॥ पंचमं अहम्मदारं समत्तं ॥</p>
+    <p class="text-base text-on-surface-variant mt-3 font-light italic">The Fifth Gate of Unrighteousness is Complete</p>
+    <p class="font-headline text-xl text-primary mt-6">॥ पढमं सुयक्खंधं समत्तं ॥</p>
+    <p class="text-base text-on-surface-variant mt-3 font-light italic">The First Shrutaskandha is Complete</p>
+  </div>
+
+</section>
+
+</main>
+
+<footer class="bg-surface-container-high border-t border-outline-variant/30 py-16 mt-20">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+    <div class="col-span-12 lg:col-span-4">
+      <a href="../../../index-v4.html"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <p class="text-sm text-on-surface-variant mt-4 leading-relaxed max-w-xs">A living resource for the study of Jain philosophy, ethics, and the path to liberation.</p>
+    </div>
+    <div class="col-span-6 lg:col-span-2">
+      <h4 class="text-xs uppercase tracking-widest font-semibold text-primary mb-4">Navigate</h4>
+      <ul class="space-y-2 text-sm text-on-surface-variant">
+        <li><a href="../../../index-v4.html#foundations" class="hover:text-primary transition-colors">Fundamentals</a></li>
+        <li><a href="../sacred-sutras-index.html" class="hover:text-primary transition-colors">Sacred Sutras</a></li>
+        <li><a href="../../../fundamentals/donate-v4.html" class="hover:text-primary transition-colors">Support the Work</a></li>
+      </ul>
+    </div>
+    <div class="col-span-6 lg:col-span-2">
+      <h4 class="text-xs uppercase tracking-widest font-semibold text-primary mb-4">This Text</h4>
+      <ul class="space-y-2 text-sm text-on-surface-variant">
+        <li><a href="prashnavyakaran-index.html" class="hover:text-primary transition-colors">Prashnavyakaran Index</a></li>
+        <li><a href="prashnavyakaran-ss1-a4.html" class="hover:text-primary transition-colors">← Adhyayan 4: Abrahmacharya</a></li>
+      </ul>
+    </div>
+    <div class="col-span-12 lg:col-span-4 flex flex-col justify-end">
+      <p class="text-xs text-on-surface-variant/60 leading-relaxed">Translated from the Ardhamagadhi Prakrit. Commentary draws on the traditional Gujarati Vivechan. For scholarly citations, consult the original Agamic sources.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating nav buttons -->
+<a href="prashnavyakaran-ss1-a4.html" class="nav-button left-btn rounded-full px-5 py-2.5 text-sm font-headline font-semibold tracking-wide" style="left:24px;" aria-label="Previous chapter">← Adhyayan 4</a>
+
+<script>
+// Search index
+const SEARCH_INDEX = [
+  { id: "sutra-5-1",  num: "5.1",  title: "The Sweeping Portrait — Kings Die Unsatisfied" },
+  { id: "sutra-5-2",  num: "5.2",  title: "Thirty Names — From Gathering to Dissatisfaction" },
+  { id: "sutra-5-3",  num: "5.3",  title: "By Whom Is Parigraha Practiced? — All Living Beings" },
+  { id: "sutra-5-4",  num: "5.4",  title: "Seventy-Two Arts, Sixty-Four Arts — All in Service of Accumulation" },
+  { id: "sutra-5-5",  num: "5.5",  title: "Far from Liberation — Iti Bemi" },
+  { id: "sutra-u-1",  num: "U.1",  title: "Karma Every Moment — The Five Gates Never Rest" },
+  { id: "sutra-u-2",  num: "U.2",  title: "Two Kinds of Wanderers — Those Who Don't Hear, and Those Who Hear and Don't Act" },
+  { id: "sutra-u-3",  num: "U.3",  title: "The Mithyadrishti — Medicine Held But Not Taken" },
+  { id: "sutra-u-4",  num: "U.4",  title: "The Free Medicine — What Can Be Done for One Who Won't Take It?" },
+  { id: "sutra-u-5",  num: "U.5",  title: "The Path to Supreme Siddhi — Close Five, Embrace Five" },
+];
+
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) {
+    searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>';
+  } else {
+    searchDropdown.innerHTML = results.map(s =>
+      `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`
+    ).join('');
+  }
+  searchDropdown.style.display = 'block';
+});
+
+document.addEventListener('click', function(e) {
+  if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+    searchDropdown.style.display = 'none';
+  }
+});
+
+searchDropdown.addEventListener('click', function() {
+  searchDropdown.style.display = 'none';
+  searchInput.value = '';
+});
+
+// Floating nav visibility
+const navBtns = document.querySelectorAll('.nav-button');
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 300) {
+    navBtns.forEach(b => b.classList.add('visible'));
+  } else {
+    navBtns.forEach(b => b.classList.remove('visible'));
+  }
+}, { passive: true });
+</script>
+<script src="../../../js/prashnavyakaran-search.js"></script>
+</body>
+</html>

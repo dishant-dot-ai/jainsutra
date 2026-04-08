@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 5: Sukrishna Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 5</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Sukrishna Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">सुकण्ह कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">The Midpoint — Where Repetition Becomes Meditation</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Sukrishna Kumar — son of King Shrenika's queen Sukrishni — is the fifth of ten brothers, and the fifth chapter is the midpoint of the Nirayavali's great arc. "Su" means auspicious; "Krishna" means dark. Auspiciously dark. Five chapters in, the teaching is no longer merely being heard. It is being absorbed.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं सुकण्हा ण सुकण्हं कुमारं, णो चेव णं तुमं सुकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Sukrishni — Sukrishna Kumar is gone. You will not see Sukrishna Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sukrishna Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The fifth chapter — the midpoint of ten. Half the story has been told. Half remains. The teaching deepens at the center.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The fifth adhyayan sits at the exact center of the Nirayavali Varga. Four chapters have already demonstrated the pattern; five chapters remain. <span class="text-primary font-semibold">Sukrishna Kumar</span> — whose name combines "su" (auspicious) with "Krishna" (dark) — is the midpoint figure: his story is both a repetition of what came before and a preparation for what follows.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        At the midpoint of a series of ten, something shifts in how the teaching is received. The first few chapters deliver the teaching through novelty. The middle chapters deliver it through depth. By the fifth iteration, the listener is no longer surprised. They are being asked to sit with the truth — not just hear it. The opening formula, the battle, the grief, the journey, the acceptance — these are not information anymore. They are a landscape the mind knows by heart. And knowing the landscape by heart is when the journey through it becomes contemplation.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Midpoint</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Fifth of Ten</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 5</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Opening That Has Become a Doorway</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Five times this opening has been spoken. The listener — if this text was being recited in an oral sitting — would feel the opening now as a mantra feels: not as information to be processed but as a door through which the mind passes into a particular space. The city, the garden, the tree, the stone slab — they are no longer being introduced. They are being invoked. The Jain oral tradition understood what meditative traditions have always understood: a repeated opening trains the mind to arrive in a specific state. By the fifth repetition, the mind of a serious listener would reach Rajagriha before the speaker did. The setting anticipates the teaching. The ground is ready. The fifth chapter enters on this foundation.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The fifth chapter opens with the same sacred geography — Rajagriha, Gunasila, the Ashoka tree, the stone slab. By now this opening has become a doorway.</div>
+        <div class="contemplate-prompt">What repeated opening — a breath, a phrase, a ritual — do I use to enter a state where I can receive what is difficult?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Opening as Doorway</span><span class="concept-tag">Mantra Quality</span><span class="concept-tag">Meditative Arrival</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-5-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sudharmashvami — The Midpoint Arrival</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, Arya Sudharmashvami — accompanied by five hundred monks, wandering village to village — arrived at Rajagriha; accepted suitable lodging; dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">At the midpoint of the ten chapters, Sudharmashvami's arrival takes on a particular resonance. He has now arrived five times. He will arrive five more times. His arrival never changes — always with five hundred monks, always by the same wandering path, always accepting only what is suitable, always cultivating the soul through the same restraint and the same austerity. The princes' story changes ten times. The teacher's story never changes. There is something deeply important in this contrast: the dharma being transmitted here is not a series of variations. It is the same truth, spoken into the same void of human suffering, from the same ground of realized stillness. Sudharmashvami at the midpoint is the same Sudharmashvami as at the beginning. The teaching does not age.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sudharmashvami arrived again at Rajagriha, taught, and the crowd went home — the fifth faithful arrival, unchanged.</div>
+        <div class="contemplate-prompt">What in my practice or understanding is still the same at the midpoint of a long journey that it was at the beginning — and is that constancy a strength or a limitation?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Teaching Does Not Age</span><span class="concept-tag">Dharma Unchanged</span><span class="concept-tag">Midpoint</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Jambu's Question — The Fifth Asking</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे ... उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू ... उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Jambu, seated reverently near Sudharmashvami, asked: "What meaning did Mahavir set forth in the Upanga Sutra?" Sudharmashvami replied: "Five sections: the Nirayavali, the Kalpavamsika, the Pushpika, the Pushpachulika, and the Vrishni Dasha."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The fifth asking. By now the question and answer are so well established that they function as a kind of invocation — not a request for new information but a ritual entry into the space where information becomes understanding. The Jain tradition calls this "abhyasa" — repeated practice that transforms the quality of engagement. Jambu does not ask because he has forgotten the answer. He asks because the act of asking, combined with the act of receiving the answer, is itself a form of cultivation. At the midpoint of ten chapters, the listener who has been following carefully is not just five chapters into a series — they are five layers deep into a teaching. The asking and the answering are the digging.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked about the Upanga's content for the fifth time, and Sudharmashvami answered with the five sections for the fifth time.</div>
+        <div class="contemplate-prompt">Is there a question I have been asking for years — and am I asking it with the same fresh sincerity as the first time, or has it become mechanical?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Abhyasa — Repeated Practice</span><span class="concept-tag">Five Sections</span><span class="concept-tag">Asking as Cultivation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-5-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Named — The Center of the Verse</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir set forth ten adhyayanas: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, and Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">In the gāthā verse, Sukrishna's name appears in the second line — "Kaṇhe Sukaṇhe tahā Mahākaṇhe." He is fifth in the list, sitting at the center of the first line of the second couplet. The verse has a rhythmic structure: the first couplet names the Kāla trio and the first Krishna, the second names Sukrishna and Mahakrishna, and the subsequent lines name the remaining four. At the midpoint of the verse, as at the midpoint of the series, the eye falls on Sukrishna. The auspicious darkness in the center. In Jain symbolism, the middle is not a neutral position — it is the place of balance, of the pivot. The soul at the midpoint of its journey has already come far, and still has far to go.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The verse names all ten chapters again — Sukrishna Kumar is fifth, sitting at the center of the full series.</div>
+        <div class="contemplate-prompt">At the midpoint of something important — a project, a practice, a relationship — what does it feel like to acknowledge that half is done and half remains?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Sukrishna — Fifth</span><span class="concept-tag">Midpoint of the Verse</span><span class="concept-tag">Balance and Pivot</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Sukrishna Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Sukrishni and Prince Sukrishna Kumar</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । ... तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया सुकण्हा णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं सुकण्हाए देवीए पुत्ते सुकण्हे णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — in Champa, King Konik ruled. Also in Champa was Queen Sukrishni — a niece of King Shrenika and step-mother-side aunt of King Konik — beautiful, with delicate hands and feet. Her son was Prince Sukrishna Kumar, handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The name "Sukrishni" — "su" (auspicious, good) + "krishnā" (dark one) — is the middle name of the middle series. In Jain texts, the word "su" before a quality does not merely mean the quality is present — it means the quality is present in its highest, most refined form. Sukrishni is not just dark; she is auspiciously, beautifully dark. Her son Sukrishna carries this refined darkness. And the text, as always, does not allow the refinement to interfere with the consequence. Sukrishna Kumar will go to the same war, fall to the same arrow, and be reborn in the same hell. The "su" prefix — as beautiful and as well-intentioned as it is — adds nothing to the arithmetic of karma. Actions determine destiny. Naming does not.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, one of King Shrenika's queens was named Sukrishni — "the auspiciously dark one" — and her son was the handsome Prince Sukrishna Kumar.</div>
+        <div class="contemplate-prompt">Where in my life do I add a "su" — an "auspicious," a "beautiful," a "well-intentioned" — to something that remains what it is regardless of that prefix?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Sukrishni</span><span class="concept-tag">Sukrishna Kumar</span><span class="concept-tag">Prefix Cannot Change Consequence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-5-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukrishna Kumar Goes to Battle</h4>
+        <p class="sutra-sanskrit">तए णं से सुकण्हे कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Sukrishna Kumar — with three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in garudavyuha formation, as the eleventh division of Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Five identical military descents. The exact same army — three thousand elephants, three thousand chariots, three thousand cavalry — assembles and sets out five times over. By the fifth, the listener does not need to count the forces. They already know. The garudavyuha formation, the same eleven-division structure, the same descent into the same battle. What does it mean when the same action is about to be performed for the fifth time with the same result? The Nirayavali answers this not in words but in structure: it just does it again. The absence of commentary here is the commentary. The text does not say "and once again Sukrishna Kumar made the same mistake." It simply shows him making it. This is the karma of unconscious repetition made literary.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sukrishna Kumar led the same enormous army as his four brothers before him to the same great battle.</div>
+        <div class="contemplate-prompt">Is there a choice I keep making — without realizing I am making it again — that is producing the same consequence every time?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Fifth Descent</span><span class="concept-tag">Unconscious Repetition</span><span class="concept-tag">Karma of Pattern</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Sukrishni Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukrishni's Night — The Fifth Watch</h4>
+        <p class="sutra-sanskrit">तए णं तीसे सुकण्हा देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते सुकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, सुकण्हे णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Sukrishni — lying awake keeping vigil — had this thought arise: "My son Sukrishna Kumar has gone to the Rathamushala battle. Will he win? Will he live? Will I see Sukrishna Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Five mothers. Five nights. The Nirayavali has now shown us five women lying awake in the dark, cycling through the same unanswerable questions. A reader encountering this for the first time might be tempted to skim this sutra — "the same as before." But the Agama tradition insists: do not skim. Each mother's vigil is her own. Sukrishni's night is not Kali's night, even though the text uses the same words. The suffering of a specific person is always specific, always total, always irreducible — no matter how many other people are simultaneously experiencing the same thing. The universality of the grief is a theological point. The particularity of each woman experiencing it is a human fact. The Nirayavali holds both.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Queen Sukrishni lay awake at night worrying about her son in battle — the same grief as the four mothers before her, entirely her own.</div>
+        <div class="contemplate-prompt">When I know that many people are suffering the same thing I am suffering — does that universality comfort me, or does it somehow feel like it takes something away from my experience?</div>
+        <div class="concept-tags"><span class="concept-tag">Maternal Grief</span><span class="concept-tag">Universal and Particular</span><span class="concept-tag">Five Nights</span><span class="concept-tag">Irreducible Suffering</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-5-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukrishni Journeys to Lord Mahavir</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे सुकण्हा देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, वंदइ णमंसइ, पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the venerable Mahavir had alighted in Champa. The assembly came out. Queen Sukrishni, hearing this news, resolved to go attend him — prepared herself, traveled to the Purnabhadra garden, arrived at Mahavir, circumambulated three times, bowed and paid homage, and sat reverently before him with joined palms.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The fifth mother makes the fifth journey. By now the sequence — hearing, resolving, preparing, traveling, descending, walking, circumambulating, bowing, sitting — is a full meditation in its own right. Each step is named. No step is skipped. The Agama commentators note that the detailed enumeration of each step in the journey to a teacher is intentional: it teaches that the approach to truth is itself practice. You do not teleport to understanding. You prepare yourself. You travel. You descend from your vehicle. You walk toward the teaching on foot. You circle it three times before you ask your question. The approach is the preparation. Sukrishni's journey is five times in one sitting — and still, the text names each step in full.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived in Champa. Sukrishni prepared herself, traveled to the garden, and sat reverently before Mahavir with joined palms.</div>
+        <div class="contemplate-prompt">Do I take all the steps of approaching a deep truth — or do I try to jump to the answer without the preparation that makes receiving the answer possible?</div>
+        <div class="concept-tags"><span class="concept-tag">Journey as Practice</span><span class="concept-tag">Each Step Named</span><span class="concept-tag">Preparation</span><span class="concept-tag">Pradakshina</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-5-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahavir Teaches — And Tells the Midpoint Truth</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे सुकण्हा देवीए, तीसे य महिमहालियाए परिसाए धम्मं परिक्काहेइ ... एवं खलु भंते मम पुत्ते सुकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते सुकण्हे णं कुमारे अहं जीवमाणं पासिस्सं ? तव पुत्ते सुकण्हे कुमारे ... चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं सुकण्हा ण सुकण्हं कुमारं, णो चेव णं तुमं सुकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir gave the full teaching to Queen Sukrishni and the vast assembly. Sukrishni asked: "My son Sukrishna Kumar has gone to the Rathamushala battle. Will I see him alive?" Mahavir replied: "Your son Sukrishna Kumar was killed by King Chetaka with a single fatal blow. Sukrishni — Sukrishna Kumar is gone. You will not see Sukrishna Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">At the midpoint of the ten chapters, Mahavir speaks the same truth for the fifth time. The teaching before the news. The question from the mother's joined palms. The blunt, compassionate reply. By now the listener knows what Mahavir will say before he says it. And this knowing — this anticipation of the exact words — is the beginning of genuine understanding. Understanding that can predict the consequence before it is stated is understanding that has absorbed the principle behind the statement. A listener who has been genuinely present for all five chapters hears this fifth answer not as information but as confirmation: yes, it is still so. The law has not changed. The teaching has held. The consequence is what it is.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir gave his teaching, and Sukrishni asked about her son. Mahavir told her: Sukrishna Kumar was killed by Chetaka's single arrow. He is gone.</div>
+        <div class="contemplate-prompt">When I already know what the truth will say before it says it — am I bored, or have I reached a point of genuine understanding?</div>
+        <div class="concept-tags"><span class="concept-tag">Midpoint Truth</span><span class="concept-tag">Anticipation of Principle</span><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Genuine Understanding</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-5-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukrishni's Acceptance — The Center Holds</h4>
+        <p class="sutra-sanskrit">तए णं सा सुकण्हा देवी ... महया पुत्तसोहणं अप्फुण्णा समाणी परसुणियत्ता विवम्पगलया धरणीयलंसि सव्वंगेहिं सण्णिवाडिया ।
+तए णं सा सुकण्हा देवी मुहुत्तंतरेणं आसत्था समाणी उट्ठाए उट्ठेइ, एवं वयासी — एवमेइयं भंते तच्छमेइयं भंते सच्चे णं भंते एसंठे — धम्मियं जाणप्पवरं दुरुहेइ, जामेव दिसं पाउब्भूया तामेव दिसं पडिगया ।
+भंते त्ति भगवं गोयमे एवं वयासी — सुकण्हे णं भंते कुमारे चेडएणं रण्णा जीवियाओ वावरोविए समाणे कहं गए, कहं उवउण्णे ?
+गोयमा त्ति समणे भगवं महावीरे एवं वयासी — एवं खलु गोयमा सुकण्हे कुमारे ... चउत्थीए पंकप्पभाए पुरवीए हेमाभे णरए दससागरोवमट्ठिइए सु णेरइए सु णेरइयत्ताए उवउण्णे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then Queen Sukrishni — overwhelmed by grief, like a creeper cut by an axe — fell to the ground with all her limbs. After a moment she recovered, rose, bowed to Mahavir, and said: "It is so, venerable one. It is true. It is exactly as you have said." She mounted her chariot and returned. Then Gautam asked: "Where was Sukrishna Kumar reborn?" Mahavir replied: "Sukrishna Kumar was reborn in the fourth earth, Pankprabha, in the Hemabha abode, for ten ocean-measure time units."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Five collapses. Five recoveries. Five declarations of "it is exactly as you have said." Five departures. And five times Gautam's question receives the same answer: fourth hell, Pankprabha, Hemabha, ten sāgaropama. The auspiciously dark Krishna Kumar now rests in the fourth hell alongside the dark one, the good-dark one, the great-dark one, and the plain Krishna. Five names, five mothers, five griefs, five acceptances — and one single consequence. The center of the Nirayavali holds without exception. The arc is exactly half complete. The teaching has been stated five times; it will be stated five more. What has the midpoint shown us? That the truth neither accumulates exceptions as it repeats, nor does it wear out.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sukrishni collapsed, recovered, accepted the truth, and went home. Gautam asked where Sukrishna Kumar was reborn — and Mahavir answered: the fourth hell, for ten ocean-measure lifetimes.</div>
+        <div class="contemplate-prompt">At the halfway point of something I am committed to — what has the first half taught me about what the second half requires?</div>
+        <div class="concept-tags"><span class="concept-tag">Fifth Collapse and Rising</span><span class="concept-tag">Midpoint Confirmed</span><span class="concept-tag">Pankprabha</span><span class="concept-tag">Truth Does Not Wear Out</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-12">
+    <div class="section-divider"><span>॥ अध्ययन-५ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 5 — Sukrishna Kumar &mdash; Nirayavali Varga 1</p>
+  </div>
+
+</section>
+
+<a href="nirayavali-varga1-ch4.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 4</a>
+<a href="nirayavali-varga1-ch6.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 6 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-16 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-12">
+    <div class="flex flex-col gap-4 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-10 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../nirayavali-index.html">Nirayavali</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-5-1", num: "5.1", title: "The Opening That Has Become a Doorway", keywords: "rajagriha gunasila doorway mantra meditative arrival" },
+  { id: "sutra-5-2", num: "5.2", title: "Sudharmashvami — The Midpoint Arrival", keywords: "sudharmashvami midpoint teaching unchanged dharma" },
+  { id: "sutra-5-3", num: "5.3", title: "Jambu's Question — The Fifth Asking", keywords: "jambu upanga abhyasa repeated practice cultivation" },
+  { id: "sutra-5-4", num: "5.4", title: "The Ten Named — The Center of the Verse", keywords: "ten chapters sukrishna fifth midpoint verse balance" },
+  { id: "sutra-5-5", num: "5.5", title: "Queen Sukrishni and Prince Sukrishna Kumar", keywords: "champa sukrishni sukrishna kumar auspicious dark su prefix" },
+  { id: "sutra-5-6", num: "5.6", title: "Sukrishna Kumar Goes to Battle", keywords: "rathamushala battle fifth descent unconscious repetition karma" },
+  { id: "sutra-5-7", num: "5.7", title: "Sukrishni's Night — The Fifth Watch", keywords: "sukrishni grief mother vigil universal particular suffering" },
+  { id: "sutra-5-8", num: "5.8", title: "Sukrishni Journeys to Lord Mahavir", keywords: "mahavir sukrishni journey steps preparation pradakshina" },
+  { id: "sutra-5-9", num: "5.9", title: "Mahavir Teaches — And Tells the Midpoint Truth", keywords: "midpoint truth anticipation principle chetaka understanding" },
+  { id: "sutra-5-10", num: "5.10", title: "Sukrishni's Acceptance — The Center Holds", keywords: "collapse recovery acceptance pankprabha hemabha midpoint confirmed" }
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+if (searchInput) {
+  searchInput.addEventListener('input', function() {
+    const q = this.value.toLowerCase().trim();
+    if (!q) { searchDropdown.style.display = 'none'; return; }
+    const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.keywords.toLowerCase().includes(q) || s.num.includes(q));
+    if (results.length === 0) { searchDropdown.innerHTML = '<div class="search-no-results">No results found</div>'; }
+    else { searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join(''); }
+    searchDropdown.style.display = 'block';
+  });
+  document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+}
+window.addEventListener('scroll', () => {
+  const btns = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) btns.forEach(b => b.classList.add('visible'));
+  else btns.forEach(b => b.classList.remove('visible'));
+});
+</script>
+</body>
+</html>

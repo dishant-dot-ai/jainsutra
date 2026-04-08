@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sachitra Jain Ramayana: The Illustrated Jain Epic | JainAwaken.org</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#8b2635",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9616e",
+              "on-primary-container": "#5a0010",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      .burnished-gradient { background: linear-gradient(135deg, #c9616e, #8b2635); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#8b263515 1px, transparent 1px); background-size: 40px 40px; }
+      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(139,38,53,0.2); }
+      .backstory-card { background: linear-gradient(135deg, #fef0f2 0%, #f8f3eb 100%); }
+      .backstory-card:hover { background: linear-gradient(135deg, #fce4e7 0%, #f2ede5 100%); border-color: rgba(139,38,53,0.3); }
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+      #main-nav a { text-decoration: none; }
+      .nav-link { text-decoration: none; }
+      .section-label { font-family: 'Noto Serif', serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.25em; color: #8b2635; font-weight: 700; }
+    </style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#8b2635]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors duration-300" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-40">
+    <!-- Hero Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 mb-20">
+        <div class="max-w-4xl">
+            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Jain Epic &middot; Sachitra (Illustrated)</span>
+            <h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
+                Jain <span class="text-primary font-normal">Ramayana</span>
+            </h1>
+            <p class="text-2xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light max-w-3xl">
+                The Ramayana as the Jain tradition tells it — not a story of gods and demons, but a profound map of souls in motion. Ram, Sita, Ravana, Hanuman: not archetypes, but beings of real karmic history, moving toward or away from liberation with every choice.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-12 pt-10 border-t border-primary/10">
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Author</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Aacharyashri Muktisagar Soorijji</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Translated By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Dishant Shah</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Structure</p>
+                <p class="text-lg font-headline font-normal text-on-surface">8 Backstories + 34 Chapters</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Tradition</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Jain · Illustrated Edition</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Read -->
+    <section class="bg-[#fef0f2] border-y border-primary/10 py-12 mb-16">
+        <div class="max-w-screen-2xl mx-auto px-12">
+            <p class="text-sm font-label uppercase tracking-widest text-primary font-bold mb-3">How to Read This Epic</p>
+            <p class="text-on-surface-variant max-w-3xl leading-relaxed">The <strong class="text-on-surface">Backstories</strong> come first — they reveal the past lives and cosmic origins of the characters before the main story begins. Read them to understand <em>why</em> these souls are in the positions they occupy. Then follow the <strong class="text-on-surface">Chapters</strong> in sequence. Each chapter builds on the last.</p>
+        </div>
+    </section>
+
+    <!-- Index Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 pb-40">
+
+        <!-- Backstories -->
+        <div class="mb-16">
+            <div class="flex items-center gap-4 mb-8">
+                <span class="section-label">The Backstories — Cosmic Origins</span>
+                <div class="flex-1 h-px bg-primary/15"></div>
+                <span class="text-xs font-label text-on-surface/40 uppercase tracking-widest">Read these first</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+
+                <a href="ramayana-backstory-1.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 01</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The Origins of the Rakshasa Clan</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">How the demon clan came to be — not by curse, but by karma accumulated across many lifetimes of pride and passion.</p>
+                </a>
+
+                <a href="ramayana-backstory-2.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 02</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Past Lives of Chandanti & Abhayant</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The karmic histories of key figures reveal why these particular souls arrived in the Ramayana's world.</p>
+                </a>
+
+                <a href="ramayana-backstory-3.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 03</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Past Lives of Dasharatha & Ram</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Why a king, a monk, and a prince are bound by karma — and what they each carried into this extraordinary birth.</p>
+                </a>
+
+                <a href="ramayana-backstory-4.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 04</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Past Lives of Ravana's Kin</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Ravana, Kumbhakarna, Shurpanakha — and Vibhishana, the exception. One family, four very different karmic paths.</p>
+                </a>
+
+                <a href="ramayana-backstory-5.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 05</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The Origins of the Vanar Clan</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The Vanars were not monkeys — they were a people. Their origins, and why Hanuman's soul was built for exactly this mission.</p>
+                </a>
+
+                <a href="ramayana-backstory-6.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 06</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Past Lives of Bharat & Suvarankanta</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The soul who would govern in Ram's name — where he came from, and why the throne never truly tempted him.</p>
+                </a>
+
+                <a href="ramayana-backstory-7.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 07</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The Elephant Bhuvnalankara</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Even an elephant has a karmic history. The Jain vision is radical: every being is on the same journey toward liberation.</p>
+                </a>
+
+                <a href="ramayana-backstory-8.html" class="index-card backstory-card p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Backstory 08</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Past Lives of Ram, Sita & Ravana</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The complete cosmic picture: where the principal souls come from, where they are going, and what the Ramayana means in the arc of their liberation.</p>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- Main Chapters -->
+        <div>
+            <div class="flex items-center gap-4 mb-8">
+                <span class="section-label">The Epic — 34 Chapters</span>
+                <div class="flex-1 h-px bg-primary/15"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+
+                <a href="ramayana-ch1.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 01</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Liberation of King Anjar</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The king of Ayodhya sets down his crown to walk the final path — and in doing so, passes the throne to a son who will become the father of the Ramayana's hero.</p>
+                </a>
+
+                <a href="ramayana-ch2.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 02</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Dasharatha's Royal Household</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Three queens of different natures share one palace and one hope — and the prayers that will bring four extraordinary souls into the world.</p>
+                </a>
+
+                <a href="ramayana-ch3.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 03</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Narada's Spiritual Devotion</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The wandering sage who sees the karmic web — and quietly ensures that the souls who need to meet each other, do.</p>
+                </a>
+
+                <a href="ramayana-ch4.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 04</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Vibhishana — Path to Liberation</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Born a Rakshasa, oriented toward liberation from birth. The story of the one soul in Lanka who chose differently — before the war ever began.</p>
+                </a>
+
+                <a href="ramayana-ch5.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 05</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Kaikeyi's Swayamvar</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">A princess of Kekeya chooses her husband — and saves a king's life on the battlefield. The boon is given. The boon is stored. Everything that follows flows from this moment.</p>
+                </a>
+
+                <a href="ramayana-ch6.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 06</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Sita's Birth — A Miraculous Arrival</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">A plough breaks the earth and reveals a child in a golden box. King Janaka holds her and understands, immediately, that she was not his to possess — only his to protect.</p>
+                </a>
+
+                <a href="ramayana-ch7.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 07</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">King Janaka's Concern</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Who can be a worthy husband for a soul of Sita's standing? The philosopher-king trusts the sages, waits, and sets the terms of the test.</p>
+                </a>
+
+                <a href="ramayana-ch8.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 08</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Janakpur's Gift — The Bow of Shiva</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Even Ravana could not lift it. The bow that waited for one specific soul — and the wound that Ravana's failure left in him, festering for years.</p>
+                </a>
+
+                <a href="ramayana-ch9.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 09</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Sita's Swayamvar</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">She moved through the assembly of kings and placed the garland. Not a choice made in that moment — a recognition made across many lifetimes.</p>
+                </a>
+
+                <a href="ramayana-ch10.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 10</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The Sacred Trust of Character</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The coronation is prepared. The city rejoices. In one woman's chambers, a servant plants a seed that will change everything by morning.</p>
+                </a>
+
+                <a href="ramayana-ch11.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 11</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">King Dasharatha's Boon to Kaikeyi</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The boon is called in. The king begs. The demands are named. Ram listens and says four words that define who he is: "I will go."</p>
+                </a>
+
+                <a href="ramayana-ch12.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 12</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Ram and Sita's Journey into the Forest</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">She refused to stay. He refused to let her come. She won the argument. Three souls walk into the forest, and Ayodhya stands at the city's edge watching them go.</p>
+                </a>
+
+                <a href="ramayana-ch13.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 13</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Bharat's Coronation & Refusal</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Bharat returns home to find a father dead and a throne he does not want. He takes Ram's sandals to the forest and places them on the throne instead.</p>
+                </a>
+
+                <a href="ramayana-ch14.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 14</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Ayodhya's King in Grief</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Dasharatha dies calling his son's name. The Jain account of a righteous man undone by the one attachment he could not master.</p>
+                </a>
+
+                <a href="ramayana-ch15.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 15</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Gokiran's Service to Sages</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Not all heroes fight. Some carry water. The forest-dweller who found liberation through the humblest form of practice.</p>
+                </a>
+
+                <a href="ramayana-ch16.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 16</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Meeting Jatayu</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The oldest bird in the forest had known Ram's father. He made a promise to watch over these three. He kept it with his last breath.</p>
+                </a>
+
+                <a href="ramayana-ch17.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 17</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Sita's Abduction</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The golden deer. The drawn line. The monk who was not a monk. Ravana's chariot rising through the sky — and Sita, in his grip, already practising the equanimity she will need for everything that follows.</p>
+                </a>
+
+                <a href="ramayana-ch18.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 18</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The Battle of Two Sushivas</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Two brothers, one throne, years of misunderstanding calcified into war. The alliance that Ram needed was built on another man's injustice.</p>
+                </a>
+
+                <a href="ramayana-ch19.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 19</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Hanuman Carries the Message</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">He leaped across an ocean in the dark. He found her. He set Lanka ablaze with his burning tail. He came back. The impossible made ordinary by absolute devotion.</p>
+                </a>
+
+                <a href="ramayana-ch20.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 20</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The War Begins</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Vibhishana crosses the lines. The bridge is built. The armies meet. And in the Ashoka garden, Sita hears the sounds she has been waiting for.</p>
+                </a>
+
+                <a href="ramayana-ch21.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 21</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Lakshman Falls Wounded</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The one moment in the Ramayana when Ram's equanimity broke completely. Hanuman's impossible journey for the life-restoring herb.</p>
+                </a>
+
+                <a href="ramayana-ch22.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 22</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Ravana in Disguise — Slain by Lakshman</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">In the Jain telling, Ram does not kill Ravana. This difference is everything. The Balabhadra does not kill — the Vasudeva does. And in his dying moments, Ravana finally sees clearly.</p>
+                </a>
+
+                <a href="ramayana-ch23.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 23</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The Fate of Kumbhakarna</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">He told Ravana he was wrong, then fought his war anyway. The Jain meditation on loyalty without dharma — and the soul it produces.</p>
+                </a>
+
+                <a href="ramayana-ch24.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 24</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Entry into Lanka & Return to Ayodhya</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Sita walks toward Ram. Vibhishana is crowned. The Pushpak chariot flies homeward. Ayodhya erupts. The sandals come off the throne. The right king is crowned at last.</p>
+                </a>
+
+                <a href="ramayana-ch25.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 25</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Bharat and Kaikeyi's Renunciation</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">A mother who understood, finally, what she had done. A son who had been practising renunciation across fourteen years without knowing it. Both choosing the path that was always waiting.</p>
+                </a>
+
+                <a href="ramayana-ch26.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 26</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">The Abandonment of Pregnant Sita</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The hardest chapter. Ram's worst decision. The Jain tradition does not soften it. A righteous soul making an unrighteous choice — and the extraordinary woman who survived it.</p>
+                </a>
+
+                <a href="ramayana-ch27.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 27</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Sita in the Lotus Forest</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">She raised two sons in a forest hermitage with the equanimity of someone who has understood that what the world cannot give, practice can. The lotus lake. The luminous practitioner.</p>
+                </a>
+
+                <a href="ramayana-ch28.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 28</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Ram's Repentance</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">He knew what he had done. He carried it every day in the only way a righteous soul can carry a wrong: with clarity, without excuse, and with the quiet practice of amending.</p>
+                </a>
+
+                <a href="ramayana-ch29.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 29</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Birth of Lav and Kush</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">Father and sons met on a battlefield, without knowing each other. Sita offered forgiveness on her own terms — and then walked away from what she was being offered.</p>
+                </a>
+
+                <a href="ramayana-ch30.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 30</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Sita's Fire Ordeal & Renunciation</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The world demanded one last proof. She gave it. Then she set down the identity the world was so desperate to confirm — and took the renunciant's vows instead.</p>
+                </a>
+
+                <a href="ramayana-ch31.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 31</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Hanuman's Renunciation & Lakshman's Death</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The greatest warrior sets down his weapons and takes the monk's vows. The most devoted brother completes his chapter — with courage, and honesty, in his elder's arms.</p>
+                </a>
+
+                <a href="ramayana-ch32.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 32</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Ram's Wandering After Lakshman's Death</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">A king walks into the forest he knew from his exile years, alone with the full weight of everything his life has contained — and emerges knowing what comes next.</p>
+                </a>
+
+                <a href="ramayana-ch33.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 33</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Ramchandra's Renunciation & Liberation</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The city of Ayodhya came in thousands to watch its king take the monk's vows. They had always known this was coming. The Balabhadra soul completed its arc. Ram arrived.</p>
+                </a>
+
+                <a href="ramayana-ch34.html" class="index-card bg-[#f8f7f6] p-10 flex flex-col gap-5">
+                    <div class="flex justify-between items-start">
+                        <span class="section-label">Chapter 34</span>
+                        <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                    </div>
+                    <h3 class="text-3xl font-headline font-bold text-on-surface">Future Lives of Lakshman, Sita & Ravana</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light text-sm">The Jain epic does not end with "happily ever after." It ends with a vision of where every soul in the story is going next. No one is permanently lost. Everyone is still on the journey.</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About Us</a>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="../../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Epics</span>
+                <a class="hover:text-primary transition-colors" href="ramayana-index.html">Jain Ramayana</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

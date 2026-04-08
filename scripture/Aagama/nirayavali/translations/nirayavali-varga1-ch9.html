@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 9: Pitrisena Krishna Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 9</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Pitrisena Krishna Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">पिउसेणकण्ह कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">The Ancestral Army — What We Inherit and What We Owe</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Pitrisena Krishna Kumar — son of King Shrenika's queen Pitrisenadevi — is the ninth of ten brothers. "Pitrisena" means "army of the fathers." He inherits not just a name but a path, a war, a karma. The Nirayavali asks: what does inheritance actually obligate us to?</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं पिउसेणा ण पिउसेणकण्हं कुमारं, णो चेव णं तुमं पिउसेणकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Pitrisenadevi — Pitrisena Krishna Kumar is gone. You will not see Pitrisena Krishna Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Pitrisena Krishna Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The ninth chapter — one from the end. The one who carries the fathers' army into the fathers' war. The Jain understanding of karma does not excuse inherited patterns.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The ninth adhyayan introduces a new kind of name: not a quality like "great" or "brave" or "beautiful," but a lineage reference. <span class="text-primary font-semibold">Pitrisena Krishna Kumar</span> — "the divine dark one of the ancestral army" — carries in his name the explicit acknowledgment that his path was inherited. "Pitrisena" means "army of the fathers." He fights because his fathers fought. He goes to the war because the lineage demands it.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The Jain understanding of karma does not excuse inherited patterns. One may have been born into a family of warriors, raised to value military victory, given a name that means "ancestral army" — and still the consequence of participating in violence is the same. The inherited pattern is not destiny. It is an obstacle that the soul must eventually recognize and transcend. The ninth chapter arrives at the edge of the arc's completion with this insight: knowing where a pattern came from does not dissolve its consequences.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Ninth of Ten</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">The Ancestral Army</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 9</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-9-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Nine Times — The Ground That Holds Everything Equally</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Nine times. The opening is now as steady as the heartbeat of the text itself. Rajagriha, Gunasila, the Ashoka tree, the stone slab. One more chapter after this, and the Varga will close. The sacred geography that has held all nine stories — and will hold the tenth — does not tire, does not change, does not grow impatient. This is what it means for a place to be sacred: it holds everything that comes to it with equal steadiness. Grief and truth and teaching — all received by the same ground.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The ninth chapter opens at the same sacred geography — Rajagriha, Gunasila, the Ashoka tree, the stone slab. Nine times. One more to go.</div>
+        <div class="contemplate-prompt">As something approaches its end — a project, a season, a relationship — what is the steady ground that will remain after it is complete?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Ninth Repetition</span><span class="concept-tag">Sacred Steadiness</span><span class="concept-tag">Approaching Completion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-9-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ninth Transmission — Patient Practice at Its Completion</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, Arya Sudharmashvami — accompanied by five hundred monks, wandering village to village — arrived at Rajagriha; accepted suitable lodging; dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ninth assembly. The teaching given for the ninth time. In one more chapter, the Varga will be complete — and the transmission of all ten stories will have been accomplished. This is the work of sacred literature: patient, repetitive, persistent — arriving at the destination not through a single dramatic act but through the accumulated practice of transmission. Nine assemblies. Nine dispersals. The teaching has been sent into the world nine times from this sutra. The tenth will close the series.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sudharmashvami arrived, the ninth assembly gathered and dispersed — the same steady transmission, nearly complete.</div>
+        <div class="contemplate-prompt">What work in my life requires patient, repetitive practice to accomplish — and am I giving it that patience, or rushing toward the dramatic conclusion?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Ninth Assembly</span><span class="concept-tag">Patient Transmission</span><span class="concept-tag">Near Completion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-9-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">What Have We Inherited — Examined or Unexamined?</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे ... उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू ... उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Jambu asked what Mahavir taught in the Upanga. Answer: five sections — Nirayavali, Kalpavamsika, Pushpika, Pushpachulika, Vrishni Dasha.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Nine times the five sections are named. The last two names in the verse of ten brothers — Piuseṇakaṇha and Mahāsenakaṇha — carry a new kind of compound name: not qualities but family/lineage references. "Pitrisena" means "army of the fathers." The ninth and tenth brothers carry names that point backward, to what was handed down to them. They inherited their fate, in a sense, from the lineage they were born into. The question this naming raises: what have I inherited — not just a name but patterns, loyalties, compulsions — that I have not yet examined?</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked and the five sections were named for the ninth time — with only one more telling to go.</div>
+        <div class="contemplate-prompt">What have I inherited — not just material inheritance but patterns, loyalties, compulsions — that I have not yet examined as carefully as I should?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Five Sections</span><span class="concept-tag">Inherited Patterns</span><span class="concept-tag">Lineage Names</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-9-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Named — The Ninth, Explicitly Named as Ninth</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The ten adhyayanas: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Piuseṇakaṇhe ṇavame" — Piusena-Kaṇha is the ninth. The verse names him explicitly as "ninth." The final two brothers — the ninth and the tenth — are named with their ordinal position given directly in the verse. The verse itself knows it is reaching its conclusion. "Pitrisena" means "army of the fathers combined with the divine dark" — a name that carries both military inheritance and divine resonance. The verse has descended to the final pair. After the ninth comes only one more.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The verse of ten names is sung again — Pitrisena Krishna Kumar (Piuseṇakaṇha) is explicitly named as ninth.</div>
+        <div class="contemplate-prompt">As I approach the end of something — a chapter, a decade, a phase of life — what have I learned that I did not know at the beginning?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Piuseṇakaṇha — Ninth</span><span class="concept-tag">Ordinal Position Named</span><span class="concept-tag">Approaching the End</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Pitrisena Krishna Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-9-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Pitrisenadevi and Prince Pitrisena Krishna Kumar</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । ... तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया पिउसेणा णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं पिउसेणाए देवीए पुत्ते पिउसेणकण्हे णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — in Champa, King Konik ruled. Also in Champa was Queen Pitrisenadevi (Piuseṇā) — a niece of King Shrenika — beautiful, with delicate hands and feet. Her son was Prince Pitrisena Krishna Kumar (Piuseṇakaṇha Kumāra), handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Pitrisena" — army of the fathers. This name speaks directly to what the Nirayavali has been showing for nine chapters: the ten brothers were not acting in isolation when they went to war. They were carrying out the inherited obligations of their lineage, the military loyalty of their clan. The ninth brother's name acknowledges this directly — he is the one whose army is his fathers' army, who fights because his fathers fought. The Jain understanding of karma is clear on this: the inherited pattern is not destiny. It is an obstacle that the soul must eventually recognize and choose to transcend.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, Queen Pitrisenadevi — "she of the ancestral army" — was one of Shrenika's queens, and her son was Prince Pitrisena Krishna Kumar.</div>
+        <div class="contemplate-prompt">What have I inherited from my family or culture that I am acting on without having chosen — and what would it mean to examine that inheritance consciously?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Pitrisenadevi</span><span class="concept-tag">Pitrisena Krishna Kumar</span><span class="concept-tag">Inherited Pattern</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-9-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ancestral Army Marches to the Ancestral War</h4>
+        <p class="sutra-sanskrit">तए णं से पिउसेणकण्हे कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Pitrisena Krishna Kumar — with three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in garudavyuha formation as the eleventh division of Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ninth brother who carries "ancestral army" in his name marches with the ancestral army into the ancestral war. "Pitrisena" — army of the fathers — marches to fulfill what his fathers set in motion. The Rathamushala war was not started by these ten princes. They were drawn into it. They marched because Konik marched, because the lineage demanded it, because "Pitrisena" is who they had been told they were. The karma of inherited violence is still karma. Knowing the source of a pattern does not change its consequence — only choosing differently can do that.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Pitrisena Krishna Kumar — "the ancestral army" — marched to battle with the same force as all his brothers, inheriting the same path.</div>
+        <div class="contemplate-prompt">What battles am I fighting that I inherited rather than chose — and have I ever asked whether they are actually mine to fight?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Ninth March</span><span class="concept-tag">Inherited War</span><span class="concept-tag">Karma of Inheritance</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Pitrisenadevi Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-9-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Nine Mothers — The Ancestral Army Cannot Keep This Vigil Away</h4>
+        <p class="sutra-sanskrit">तए णं तीसे पिउसेणा देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते पिउसेणकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, पराजिणिस्सइ णो पराजिणिस्सइ, पिउसेणकण्हे णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Pitrisenadevi — lying awake keeping household vigil — had this thought arise within her: "My son Pitrisena Krishna Kumar has gone to war. Will he win? Will he live? Will I see Pitrisena Krishna Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Nine mothers lying awake. The one whose name carries the weight of ancestral armies lies awake with the same fear as the one whose name simply means "dark." Nine nights of the same vigil. The Nirayavali has now demonstrated this through nine different names, nine different nights, nine identical vigils. The teaching is complete before the tenth chapter. What the tenth chapter will do is close the arc — give the series its ending, the tenth proof of the principle, the completion of the pattern.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Pitrisenadevi lay awake in the same fear as every mother before her — nine nights of the same grief, the ancestral army no protection.</div>
+        <div class="contemplate-prompt">What would it take for me to stop maintaining the same fearful vigil and instead take the fear to someone who can help me understand it?</div>
+        <div class="concept-tags"><span class="concept-tag">Household Vigil</span><span class="concept-tag">Ninth Night</span><span class="concept-tag">Nine Mothers</span><span class="concept-tag">Universal Fear</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-9-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Teaching Cannot Be Received by Proxy</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे पिउसेणा देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, करेत्ता वंदइ णमंसइ, वंदित्ता णमंसित्ता थिया चेव सपरिवारा सुस्सूसमाणी णमंसमाणी अभिमुहा विणयणं पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir arrived in Champa. The assembly came out. Pitrisenadevi, hearing the news, prepared herself and went to Mahavir; she circumambulated him three times, bowed in reverence, and sat before him with joined palms, attending with full devotion.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Nine journeys to the feet of the teacher. Nine preparations, nine circumambulations, nine bowings, nine sittings in reverence. The path is now worn deep by repetition. And still — the ninth mother makes the journey. She does not say: "eight other mothers have already done this, I know the answer." She goes herself. She circumambulates herself. She bows herself. She sits herself. The teaching cannot be received by proxy. Nine times this has been demonstrated. The wisdom inherited from someone else's journey is not the same as the wisdom earned from one's own.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived in Champa, and Pitrisenadevi went to him herself — prepared, reverent, present.</div>
+        <div class="contemplate-prompt">Is there wisdom I have heard about from others many times but have never gone to receive directly myself — and why not?</div>
+        <div class="concept-tags"><span class="concept-tag">Mahavir Arrives</span><span class="concept-tag">Circumambulation</span><span class="concept-tag">Ninth Journey</span><span class="concept-tag">Cannot Be Received by Proxy</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-9-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ninth Verdict — Ancestral Credit Does Not Substitute for Individual Karma</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे पिउसेणा देवीए ... धम्मं परिक्काहेइ जाव आणाए आराहए भवइ । तए णं सा पिउसेणा देवी ... एवं वयासी — एवं खलु भंते मम पुत्ते पिउसेणकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते किं जिस्सइ णो जिस्सइ जाव पिउसेणकण्हे णं कुमारे अहं जीवमाणं पासिस्सं? तव पुत्ते पिउसेणकण्हे कुमारे जाव चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं पिउसेणा ण पिउसेणकण्हं कुमारं, णो चेव णं तुमं पिउसेणकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir taught the dharma to Pitrisenadevi and the full assembly. Pitrisenadevi, having absorbed the teaching, asked: "My son Pitrisena Krishna Kumar has gone to battle. Will he win? Will I see him alive?" Mahavir replied: "Your son Pitrisena Krishna Kumar was killed by King Chetaka with a single fatal blow. Pitrisenadevi — you will not see Pitrisena Krishna Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"You will not see the ancestral army's bearer alive." The inherited military tradition, the ancestral loyalty, the fathers' army — none of it protected him. Chetaka's arrow found the ninth son of Shrenika the same as it found the first. This is the Nirayavali's patient argument against the belief that ancestral tradition, inherited status, or accumulated family merit can substitute for individual karmic accountability. Each soul faces the consequences of its own actions — not its fathers' virtue.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Pitrisenadevi asked and received the same answer: her son was killed by Chetaka, and she would not see him alive.</div>
+        <div class="contemplate-prompt">Do I rely on inherited spiritual credit — family piety, ancestral merit, religious lineage — to protect me from consequences that only my own actions can address?</div>
+        <div class="concept-tags"><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Ninth Verdict</span><span class="concept-tag">Individual Karmic Accountability</span><span class="concept-tag">Ancestral Merit Does Not Transfer</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-9-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Hemabha — Nine Brothers, Three Generations</h4>
+        <p class="sutra-sanskrit">तए णं सा पिउसेणा देवी ... एवं वयासी — सुयं मे आउसो तहेव जाव जाणामि णं एवं खलु मम पुत्ते पिउसेणकण्हे कुमारे कालमासे कालं किच्चा कहिं गए कहिं उववण्णे? तव पुत्ते पिउसेणकण्हे कुमारे कालमासे कालं किच्चा णेरइयत्ताए उवावण्णे जाव पंकप्पभाए पुढवीए हेमाभे णामं णिरए दस सागरोवमाइं ठिई ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Queen Pitrisenadevi, having accepted the news, asked: "I have heard, Lord — and I accept. Where has my son Pitrisena Krishna Kumar's soul gone? Where was he reborn?" Mahavir answered: "Your son Pitrisena Krishna Kumar has been reborn as a hellish being — in the fourth earth Pankprabha, in the hell called Hemabha, for a duration of ten sāgaropama."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Nine brothers in Hemabha. The pattern is complete in all essentials. The tenth chapter will confirm it — but the truth has been established nine times over. Nine data points is not a coincidence. It is a law. Pitrisenadevi will follow the path of liberation. Her grandson will take ordination and go to heaven. Her son is in Hemabha. Three generations, three paths, three different karmic directions — all arising from the same lineage, the same household, the same inherited war. The same family can, within three generations, exhaust one karmic direction and begin another.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Pitrisenadevi accepted the truth and asked where her son went. The same answer: fourth hell, Hemabha, ten sāgaropama. Nine brothers — one destination.</div>
+        <div class="contemplate-prompt">When I look at three generations of my own family — grandparents, parents, self — what karmic patterns have I inherited, and which ones am I prepared to be the one who changes them?</div>
+        <div class="concept-tags"><span class="concept-tag">Pankprabha Earth</span><span class="concept-tag">Hemabha Hell</span><span class="concept-tag">Ten Sāgaropama</span><span class="concept-tag">Three Generations — Three Directions</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<section class="bg-[#f2f1f0] py-16 border-t border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline text-lg text-on-surface-variant italic">"The one who carries 'ancestral army' in his name marches with the ancestral army to the ancestral war — and descends to the same fourth hell as the brother whose name simply means 'dark.' Nine verdicts. One principle: the karma of inherited violence is still karma. Knowing where a pattern came from does not dissolve its consequences. Only choosing differently can do that."</p>
+    <p class="text-sm text-primary mt-4 font-semibold uppercase tracking-widest">— Nirayavali Sutra, Varga 1, Chapter 9</p>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-16">
+  <div class="text-center mb-10">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Continue the Varga</span>
+    <h3 class="text-3xl font-headline font-bold text-on-surface mt-3">Navigate the Nirayavali</h3>
+  </div>
+  <div class="flex flex-wrap justify-center gap-3">
+    <a href="../nirayavali-index.html" class="border border-primary/30 text-primary font-headline text-sm px-5 py-2.5 rounded-full hover:bg-primary/5 transition-colors">← Chapter Index</a>
+    <a href="nirayavali-varga1-ch1.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 1: Kala Kumar</a>
+    <a href="nirayavali-varga1-ch2.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 2: Sukala Kumar</a>
+    <a href="nirayavali-varga1-ch3.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 3: Mahakala Kumar</a>
+    <a href="nirayavali-varga1-ch4.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 4: Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch5.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 5: Sukrishna Kumar</a>
+    <a href="nirayavali-varga1-ch6.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 6: Mahakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch7.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 7: Virakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch8.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 8: Ramakrishna Kumar</a>
+    <span class="border border-primary bg-primary/5 text-primary font-headline text-sm px-5 py-2.5 rounded-full font-bold">Ch 9: Pitrisena Krishna Kumar</span>
+    <a href="nirayavali-varga1-ch10.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 10: Mahasena Krishna Kumar</a>
+  </div>
+</section>
+
+<footer class="bg-on-surface text-surface/70 py-16 mt-8">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+      <span class="text-xl font-headline text-surface font-bold tracking-tighter">JainAwaken.org</span>
+      <p class="mt-3 text-sm leading-relaxed">Bringing the Jain Agamas to life through faithful translation and accessible commentary.</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">This Chapter</p>
+      <p class="text-sm">Nirayavali Sutra — Varga 1, Chapter 9<br/>Pitrisena Krishna Kumar (Piuseṇakaṇha Kumāra)<br/>Translated by Dishant Shah</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">Navigate</p>
+      <div class="flex flex-col gap-2 text-sm">
+        <a href="../../sacred-sutras-index.html" class="hover:text-surface transition-colors">Sacred Sutras Index</a>
+        <a href="../nirayavali-index.html" class="hover:text-surface transition-colors">Nirayavali Index</a>
+        <a href="nirayavali-varga1-ch10.html" class="hover:text-surface transition-colors">Next: Chapter 10 →</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<button class="nav-button left-btn px-5 py-3 font-headline text-sm rounded-full" id="prev-btn" onclick="location.href='nirayavali-varga1-ch8.html'" style="left:24px;">← Chapter 8</button>
+<button class="nav-button right-btn px-5 py-3 font-headline text-sm rounded-full" id="next-btn" onclick="location.href='nirayavali-varga1-ch10.html'" style="right:24px;">Chapter 10 →</button>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-9-1", num: "9.1", title: "Nine Times — The Ground That Holds Everything Equally" },
+  { id: "sutra-9-2", num: "9.2", title: "The Ninth Transmission — Patient Practice at Its Completion" },
+  { id: "sutra-9-3", num: "9.3", title: "What Have We Inherited — Examined or Unexamined?" },
+  { id: "sutra-9-4", num: "9.4", title: "The Ten Named — The Ninth, Explicitly Named as Ninth" },
+  { id: "sutra-9-5", num: "9.5", title: "Queen Pitrisenadevi and Prince Pitrisena Krishna Kumar" },
+  { id: "sutra-9-6", num: "9.6", title: "The Ancestral Army Marches to the Ancestral War" },
+  { id: "sutra-9-7", num: "9.7", title: "Nine Mothers — The Ancestral Army Cannot Keep This Vigil Away" },
+  { id: "sutra-9-8", num: "9.8", title: "The Teaching Cannot Be Received by Proxy" },
+  { id: "sutra-9-9", num: "9.9", title: "The Ninth Verdict — Ancestral Credit Does Not Substitute for Individual Karma" },
+  { id: "sutra-9-10", num: "9.10", title: "Hemabha — Nine Brothers, Three Generations" },
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) { searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>'; searchDropdown.style.display = 'block'; return; }
+  searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join('');
+  searchDropdown.style.display = 'block';
+});
+document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+window.addEventListener('scroll', function() {
+  const y = window.scrollY;
+  document.getElementById('prev-btn').classList.toggle('visible', y > 300);
+  document.getElementById('next-btn').classList.toggle('visible', y > 300);
+});
+</script>
+</body>
+</html>

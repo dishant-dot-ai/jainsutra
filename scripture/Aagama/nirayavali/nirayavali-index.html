@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Nirayavali Sutra — The Ten Warriors of Hell | JainAwaken.org</title>
+    <meta name="description" content="Nirayavali Sutra — the stories of ten royal warriors who fell in the Rathamushala battle and the hell rebirths that followed. Jain Agama, karma, war, Shrenika, Rathamushala, King Chetaka."/>
+    <meta name="keywords" content="Nirayavali, Jain Agama, karma, hell, Shrenika, Rathamushala, Kala Kumar, warriors, Chetaka, karmic consequence"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>html { scroll-behavior: smooth; }
+
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(201,168,76,0.2); }
+      .index-card.unavailable { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+
+      .section-header {
+        grid-column: 1 / -1;
+        padding: 3rem 3rem 2.5rem;
+        background: #f8f7f6;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .section-header::before,
+      .section-header::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: rgba(201,168,76,0.35);
+      }
+
+      .nav-button {
+        position: fixed;
+        bottom: 24px;
+        z-index: 100;
+        background: #ffffff;
+        border: 1px solid #C9A84C;
+        color: #755b00;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+      }
+      .nav-button.visible {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+      .nav-button:hover { border-color: #C9A84C; color: #503d00; }
+
+      #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+      .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+      .search-section-label:first-child { border-top:none; }
+      .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+      .search-result-item:hover { background:#fef9f1; }
+      .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+      .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+      .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+
+    #main-nav a { text-decoration: none; }
+    .nav-link { text-decoration: none; }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search warriors, karma..." type="text"/>
+            </div>
+            <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-40">
+    <!-- Hero Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 mb-32">
+        <div class="max-w-4xl">
+            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Jain Aagama &middot; Supplementary Scripture</span>
+            <h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
+                Nirayavali <span class="text-primary font-normal">(निरयावली)</span>
+            </h1>
+            <p class="text-2xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light">
+                Ten royal sons of King Shrenika. One terrible battle. Ten descents into hell. The Nirayavali Sutra tells the stories of warriors who stood at the threshold of dharmic knowledge — some having heard Mahavira himself — and chose the battlefield anyway. The karma was precise, and it did not forget.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-12 pt-10 border-t border-primary/10">
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Teachings By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Lord Mahavira</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Compiled By</p>
+                <p class="text-lg font-headline font-normal text-on-surface whitespace-nowrap">Arya Sudharmashvami</p>
+                <p class="text-xs text-on-surface-variant font-light mt-1">#5 Chief Disciple of the Lord</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Translated By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Dishant Shah</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Chapters</p>
+                <p class="text-lg font-headline font-normal text-on-surface">10 — Varga 1</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Index Grid -->
+    <section class="max-w-screen-2xl mx-auto px-12 pb-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="font-headline font-bold text-primary tracking-[0.18em] uppercase text-sm whitespace-nowrap">Varga 1 &mdash; Nirayavali &mdash; Warriors of the Rathamushala Battle</span>
+            </div>
+
+            <!-- Chapter 1 -->
+            <a href="nirayavali-varga1-ch1.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 01</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Kala Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Kali and King Shrenika. Falls in the Rathamushala battle, slain by Chetaka's unerring arrow. Reborn in the fourth hell for ten ocean-measure lifetimes.</p>
+            </a>
+
+            <!-- Chapter 2 -->
+            <a href="nirayavali-varga1-ch2.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 02</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Sukala Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Sukali. The same battlefield, the same arrow, the same karmic descent — showing that war's consequences are not accidents but outcomes written in the nature of action itself.</p>
+            </a>
+
+            <!-- Chapter 3 -->
+            <a href="nirayavali-varga1-ch3.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 03</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Mahakala Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Mahakali. How the pull of royal duty and warrior's pride can overwhelm even those born near greatness — and what karma quietly accumulates in the gap.</p>
+            </a>
+
+            <!-- Chapter 4 -->
+            <a href="nirayavali-varga1-ch4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 04</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Krishna Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Krishnaa. The fourth warrior prince — born into a family that revered Mahavira, yet drawn by loyalty and lineage into the battle that sealed his fate.</p>
+            </a>
+
+            <!-- Chapter 5 -->
+            <a href="nirayavali-varga1-ch5.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 05</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Sukrishna Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Sukrishna. Loyalty to king versus loyalty to dharma — and what happens when the warrior's code and the soul's code point in opposite directions.</p>
+            </a>
+
+            <!-- Chapter 6 -->
+            <a href="nirayavali-varga1-ch6.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 06</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Mahakrishna Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Mahakrishna. Pride, royal blood, and the bitterness of a harvest that does not care how noble the planter believed himself to be.</p>
+            </a>
+
+            <!-- Chapter 7 -->
+            <a href="nirayavali-varga1-ch7.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 07</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Virakrishna Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Virakrishna. The story of a warrior's courage turned inward — how the bravery admired on the battlefield becomes, in the Jain framework, exactly what binds.</p>
+            </a>
+
+            <!-- Chapter 8 -->
+            <a href="nirayavali-varga1-ch8.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 08</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Ramakrishna Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Ramakrishna. How even proximity to the sacred — being raised in the household of a great king-devotee — does not automatically transmit its merit to those who choose violence.</p>
+            </a>
+
+            <!-- Chapter 9 -->
+            <a href="nirayavali-varga1-ch9.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 09</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Pitrisena Krishna Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Pitrisena. The ninth warrior's descent — showing that the logic of karma is not cruel but simply accurate: it records what happened, and it ripens in proportion.</p>
+            </a>
+
+            <!-- Chapter 10 -->
+            <a href="nirayavali-varga1-ch10.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 10</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Mahasena Krishna Kumar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Son of Queen Mahasena. The final account — the tenth warrior, the tenth hell journey. Together the ten stories form a single, irrefutable teaching: the path of violence is the path away from liberation.</p>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="../sacred-sutras-index.html" class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    <span class="text-lg">&larr;</span> Sacred Sutras
+</a>
+
+<a href="nirayavali-varga1-ch1.html" class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    Chapter 1 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About Us</a>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="nirayavali-index.html">Nirayavali</a>
+                <a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+<script>
+(function () {
+  var SEARCH_INDEX = [
+    {"file":"nirayavali-varga1-ch1.html","num":1,"title":"Kala Kumar","sutras":[{"id":"sutra-1","num":"1.1","title":"Kala Kumar","sk":"કાલ કુમાર"},{"id":"sutra-2","num":"1.2","title":"Arya Sudharmashvami Arrives","sk":"Rajagriha Rathamushala"},{"id":"sutra-3","num":"1.3","title":"The Setting — Rajagriha","sk":"Shrenika Konik Chetaka"},{"id":"sutra-4","num":"1.4","title":"Queen Kali Approaches Mahavira","sk":"kali queen hell niraya"},{"id":"sutra-5","num":"1.5","title":"Kala Kumar Falls in Battle","sk":"war battle slain violence karma"}]},
+    {"file":"nirayavali-varga1-ch2.html","num":2,"title":"Sukala Kumar","sutras":[{"id":"sutra-1","num":"2.1","title":"Sukala Kumar","sk":"સુકાલ કુમાર"},{"id":"sutra-2","num":"2.2","title":"Queen Sukali and the Battle","sk":"Sukali Rathamushala warrior"}]},
+    {"file":"nirayavali-varga1-ch3.html","num":3,"title":"Mahakala Kumar","sutras":[{"id":"sutra-1","num":"3.1","title":"Mahakala Kumar","sk":"મહાકાલ કુમાર"},{"id":"sutra-2","num":"3.2","title":"Queen Mahakali's Grief","sk":"Mahakali hell warrior karma"}]},
+    {"file":"nirayavali-varga1-ch4.html","num":4,"title":"Krishna Kumar","sutras":[{"id":"sutra-1","num":"4.1","title":"Krishna Kumar","sk":"કૃષ્ણ કુમાર"},{"id":"sutra-2","num":"4.2","title":"Battle and Rebirth","sk":"Krishnaa hell Pankprabha warrior"}]},
+    {"file":"nirayavali-varga1-ch5.html","num":5,"title":"Sukrishna Kumar","sutras":[{"id":"sutra-1","num":"5.1","title":"Sukrishna Kumar","sk":"સુકૃષ્ણ કુમાર"},{"id":"sutra-2","num":"5.2","title":"Loyalty and Its Consequences","sk":"Sukrishna dharma war karma"}]},
+    {"file":"nirayavali-varga1-ch6.html","num":6,"title":"Mahakrishna Kumar","sutras":[{"id":"sutra-1","num":"6.1","title":"Mahakrishna Kumar","sk":"મહાકૃષ્ણ કુમાર"},{"id":"sutra-2","num":"6.2","title":"Pride and the Battlefield","sk":"Mahakrishna battle hell Shrenika"}]},
+    {"file":"nirayavali-varga1-ch7.html","num":7,"title":"Virakrishna Kumar","sutras":[{"id":"sutra-1","num":"7.1","title":"Virakrishna Kumar","sk":"વીરકૃષ્ણ કુમાર"},{"id":"sutra-2","num":"7.2","title":"The Warrior's Courage Binds","sk":"Virakrishna courage war karma niraya"}]},
+    {"file":"nirayavali-varga1-ch8.html","num":8,"title":"Ramakrishna Kumar","sutras":[{"id":"sutra-1","num":"8.1","title":"Ramakrishna Kumar","sk":"રામકૃષ્ણ કુમાર"},{"id":"sutra-2","num":"8.2","title":"Proximity to the Sacred","sk":"Ramakrishna Mahavira devotee karma battle"}]},
+    {"file":"nirayavali-varga1-ch9.html","num":9,"title":"Pitrisena Krishna Kumar","sutras":[{"id":"sutra-1","num":"9.1","title":"Pitrisena Krishna Kumar","sk":"પિતૃસેન કૃષ્ણ કુમાર"},{"id":"sutra-2","num":"9.2","title":"The Logic of Karma","sk":"Pitrisena hell consequence battle Chetaka"}]},
+    {"file":"nirayavali-varga1-ch10.html","num":10,"title":"Mahasena Krishna Kumar","sutras":[{"id":"sutra-1","num":"10.1","title":"Mahasena Krishna Kumar","sk":"મહાસેન કૃષ્ણ કુમાર"},{"id":"sutra-2","num":"10.2","title":"The Final Warrior","sk":"Mahasena ten warriors Nirayavali conclusion"}]}
+  ];
+
+  function initSearch() {
+    var input = document.getElementById("search-input");
+    if (!input) return;
+
+    var wrapper = input.closest(".relative");
+    if (!wrapper) return;
+
+    var dropdown = document.getElementById("search-dropdown");
+    if (!dropdown) {
+        dropdown = document.createElement("div");
+        dropdown.id = "search-dropdown";
+        wrapper.appendChild(dropdown);
+    }
+
+    var currentFile = (location.pathname.split("/").pop() || location.href.split("/").pop() || "").replace(/[?#].*$/, "");
+
+    function highlight(text, query) {
+      if (!query) return text;
+      return text.replace(new RegExp("(" + query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark style='background:#fff3c4;color:inherit;border-radius:2px;'>$1</mark>");
+    }
+
+    function search(query) {
+      if (query.length < 2) { dropdown.style.display = "none"; return; }
+      var q = query.toLowerCase();
+      var currentMatches = [];
+      var otherMatches = [];
+
+      SEARCH_INDEX.forEach(function (chapter) {
+        var matches = (chapter.sutras || []).filter(function (s) {
+          return (chapter.title && chapter.title.toLowerCase().includes(q)) || (s.title && s.title.toLowerCase().includes(q)) || (s.num && s.num.toLowerCase().includes(q)) || (s.sk && s.sk.toLowerCase().includes(q));
+        }).slice(0, 4);
+        if (!matches.length) return;
+        var isCurrent = chapter.file === currentFile;
+        (isCurrent ? currentMatches : otherMatches).push({ chapter: chapter, matches: matches });
+      });
+
+      var html = "";
+
+      if (currentMatches.length) {
+        html += "<div class='search-section-label'>Current Page</div>";
+        currentMatches.forEach(function (r) {
+          r.matches.forEach(function (s) {
+            html += "<button class='search-result-item' data-local='true' data-id='" + s.id + "'>" +
+              "<span class='search-result-num'>" + s.num + "</span>" +
+              "<span class='search-result-title'>" + highlight(s.title, query) + "</span></button>";
+          });
+        });
+      }
+
+      otherMatches.slice(0, 8).forEach(function (r) {
+        html += "<div class='search-section-label'>" + r.chapter.title + "</div>";
+        r.matches.forEach(function (s) {
+          var link = r.chapter.file;
+          html += "<a class='search-result-item' href='" + link + "'>" +
+            "<span class='search-result-num'>" + (s.num || "") + "</span>" +
+            "<span class='search-result-title'>" + highlight(r.chapter.title, query) + "</span></a>";
+        });
+      });
+
+      if (!html) html = "<div class='search-no-results'>No results for &ldquo;" + query + "&rdquo;</div>";
+
+      dropdown.innerHTML = html;
+      dropdown.style.display = "block";
+    }
+
+    input.addEventListener("input", function () { search(this.value.trim()); });
+    input.addEventListener("keydown", function (e) { if (e.key === "Escape") { dropdown.style.display = "none"; input.value = ""; } });
+    document.addEventListener("click", function (e) { if (!wrapper.contains(e.target)) dropdown.style.display = "none"; });
+  }
+
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initSearch) : initSearch();
+})();
+</script>
+
+</body></html>

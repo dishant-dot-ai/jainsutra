@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Prashnavyakaran — SS1 · Adhyayan 3: Adattadan (Stealing) | JainAwaken.org</title>
+<meta name="description" content="The third gate of karma influx — Adattadan (taking what is not given). Thirty names, every type of thief from king to pirate, the ocean of samsara, the terrible fruits of theft. Prashnavyakaran Sutra, Shrutaskandh 1, Adhyayan 3."/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative group hidden lg:block">
+        <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="prashnavyakaran-index.html" class="text-on-surface-variant hover:text-primary transition-colors underline">Prashnavyakaran</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Adhyayan 3</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Stealing<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">अदत्तादान</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">The Third Gate — Greed in Every Form, from Street Thief to King with Armies</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The third Aashrav-dvar: taking what is not given. Thirty names for its nature. A complete taxonomy of thieves — from pickpocket to sea pirate to king waging war. The miserable life of the criminal, the horror of capture and punishment, the ocean of samsara, and Mahavira's closing seal. The most socially comprehensive chapter in SS1.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <img src="../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">लोहमूलं चिरपरिचियमणुगयं दुरंतं तइयं अहम्मदारं ।</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">"Rooted in greed, ever-accompanying, an ancient companion of the soul, endless — this is the third gate of unrighteousness." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Stealing — अदत्तादान</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Adhyayan 3 is the most socially comprehensive chapter of Shrutaskandh 1. It begins with the individual thief and expands outward with increasing moral courage: kings who wage war for plunder are placed in the same category as the street criminal. Forest bandits, sea pirates, and town looters are each examined in turn. The chapter refuses the social hierarchy that would separate "respectable" acquisition from crime — all forms of taking what is not one's own share the same karmic root: <span class="text-primary font-semibold">unbreakable greed</span>.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The chapter reaches its philosophical apex in Sutra 3.18 — the ocean of samsara. This vast extended metaphor describes the totality of cyclic existence as a boundless, storm-racked sea without a far shore, through which 8.4 million forms of birth churn endlessly. Taking what is not given binds the soul to this ocean across hundreds of thousands of lifetimes. The only escape: treat another's wealth as dust, and accept death before stealing. <em>iti bemi</em> — Thus I say.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div><span class="text-3xl font-headline font-bold text-primary">20</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">3rd Adharma-Dvar</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Third Gate of Evil</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Champa</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Setting</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Prashnavyakaran &middot; SS1 &middot; Adhyayan 3</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 20 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider"><span>Part I &mdash; The Third Gate: Nature of Stealing</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">जंबू ! तइयं च अदिण्णादाणं हर–दह–मरणभय–कलुस–तासण–परसं–तिग–अभेज्ज–लोभ–मूलं कालिवसमसंसियं अहोऽच्छिण्णतण्हपत्थाणपत्थो अकित्तिकरणं अण्णज्जं छिद्रमंतर–विहुर–वसण–मग्गण–उस्सव–मत्त–पमत्त–पसुत्त–वंचणकिखवणघायणपरं अणिहुयपरिणामं तक्करजणबहुमयं अकलुण रायपुरिसरिक्खयं सया साहुगरहिणज्जं पियजण–मित्तजणभेयविपीइकारगं रागदोसबहुलं पुणो य उप्पूरसमरसंगामडमरकिलिकलहवेहकरणं दुग्गइविणिवायवरुणं भवपुण्णभवकरं चिरपरिचियमणुगयं दुरंतं । तइयं अहम्मदारं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Sweeping Portrait — Greed's Endless Thirst</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">O Jambu! The third gate of unrighteousness is the act of taking what is not given — its roots are robbery, burning, fear of death, moral pollution, terror, wounding, and unbreakable greed; associated with the dark inauspicious hour; it is the endlessly parched path of thirst never quenched; it destroys one's good name; it is crooked; it seeks out gaps, isolation, misfortune, festival times, the intoxicated, the careless, and the sleeping — ever watching, deceiving, bent on injury; its consequence is shameless; it is celebrated among criminals; it is merciless; it brings the scrutiny and punishment of royal officers; it is always condemned by saints; it creates division and enmity between loved ones; it multiplies attachment and aversion; it causes bloodshed, battles, tumults, and distress; it increases downward rebirths; it fills life after life; it is an ancient companion, ever-following, and endless — this is the third gate of unrighteousness.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The opening sutra of Adhyayan 3 follows the same formal pattern established in the first two: a single sweeping portrait of the third gate. But this chapter's portrait contains a phrase that is unique: *"the endlessly parched path of thirst never quenched."* This is the psychological X-ray of greed. Before a single act of theft occurs, the mind is already in a specific state — burning with unsatisfied craving, restless, scanning for gaps and weaknesses, targeting the intoxicated, the sleeping, the careless. The thief's consciousness is not described as criminal but as diseased: it cannot rest, cannot be satisfied, and so it perpetually searches.<br/><br/>The three most striking details of this opening portrait: (1) The thief targets the most vulnerable — those in misfortune, intoxicated, or sleeping. This is not opportunism; it is a portrait of cowardice. The thief is never stronger than the one they rob; they wait until the other is weakest. (2) Theft is "celebrated among criminals" — every moral inversion creates its own culture. (3) It is described as an ancient companion of the soul — not a new habit but something carried across countless lifetimes. The path to liberation requires not just behavioral change but a radical severing of this ancient bond.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Taking what belongs to someone else — whether sneaking, snatching, or making war — starts with the same restless hunger inside, and ends in the same place: more suffering, for everyone, across more lifetimes than we can count.</p>
+        <div class="concept-tags"><span class="concept-tag">Adattadan</span><span class="concept-tag">Unbreakable Greed</span><span class="concept-tag">Thirst Never Quenched</span><span class="concept-tag">Targets the Vulnerable</span><span class="concept-tag">Ancient Companion</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider"><span>Part II &mdash; Thirty Names and the Catalog of Thieves</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">तस्स य णामाणि गोण्णाणि होंति तीसं, तं जहा– चोरिक्कं, परहडं, अदत्तं, कूरिकडं, परलाभो, असंजमो, परधणम्मि गेही, लोलिक्कं, तक्करत्तणं, अवहारो, हत्थलहुत्तणं, पावकम्मकरणं, तेणिक्कं, हरणविप्पणासो, आइदयणा, लुंपणा धणाणं, अपच्चओ, अवीलो, अक्खेवो, खेवो, विक्खेवो, कूडया, कुलमसी य, कंखा, लालप्पणपत्थणा य, आससणाय वसणं, इच्छामुच्छा य, तण्हागेही, णियडीकम्मं, अप्परच्छं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Thirty Names — A Complete Taxonomy of Taking</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thirty synonymous names: (1) Corikka — secret theft; (2) Parahaḍa — seizure by force; (3) Adatta — the ungiven; (4) Kūrikaḍa — act of the cruel; (5) Paralābha — appropriating another's labor; (6) Asañjama — lack of restraint; (7) Paradhaṇammi Gehī — greed for another's wealth; (8) Lolika — covetousness; (9) Takkaraṭṭaṇa — the thief's craft; (10) Avahāra — taking without consent; (11) Hattha-lahuttaṇa — nimbleness of hands; (12) Pāvakamma-karaṇa — sinful action; (13) Teṇika — thief-nature; (14) Haraṇa-vippaṇāsa — seizing and destroying; (15) Āidayaṇā — taking another's wealth; (16) Luṃpaṇā — plunder; (17) Apaccaya — destroyer of trust; (18) Avīla — pain-causer; (19) Akkhepa — violation of rightful claims; (20) Khepa — forcible taking; (21) Vikкhepa — seizing and scattering; (22) Kūḍayā — fraud through false weights; (23) Kulamasī — staining the lineage; (24) Kaṃkhā — intense craving; (25) Lālappaṇa-patthaṇā — craving for ill-gotten gains; (26) Āsasaṇāya-vasaṇa — terrifying addiction; (27) Icchā-mucchā — obsessive infatuation; (28) Taṇhā-gehī — thirst-greed; (29) Niyaḍī-kamma — action through cunning; (30) Apparaccha — done while evading notice.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">These thirty names form a complete taxonomy of taking-what-is-not-yours. Several deserve particular attention. *Asañjama* — lack of restraint — classifies theft not as a criminal act but as a spiritual condition: the inability to hold one's desires in check. Before anything is stolen, the thief has already failed the inner test of restraint. *Apaccaya* — destroyer of trust — captures the social dimension beyond the stolen object. Trust is the invisible infrastructure of civilization. When it breaks, everyone becomes a little more guarded, a little less open.<br/><br/>*Kūḍayā* — fraud through false weights and measures — deliberately extends Adattadan into the economic sphere. The Jain scripture is directly naming commercial dishonesty as theft. The merchant who cheats customers using inaccurate scales is a thief, no different in moral quality from the burglar who enters at night. *Kulamasī* — staining the lineage — recognizes that the thief's sin does not stay with the thief alone; children inherit the stigma, parents are disgraced. The list ends with "and there are many more besides" — these thirty names, exhaustive as they are, cannot fully capture the breadth of what Adattadan encompasses.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Theft has thirty different names because it takes thirty different shapes — but whether you sneak, grab, cheat, or manipulate, you're doing the same thing: taking what belongs to someone else without permission.</p>
+        <div class="concept-tags"><span class="concept-tag">Thirty Names</span><span class="concept-tag">Asañjama — Lack of Restraint</span><span class="concept-tag">Apaccaya — Distrust</span><span class="concept-tag">Commercial Fraud as Theft</span><span class="concept-tag">Stained Lineage</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">ते पुण करेंति चोरियं तक्करा परदव्वहरा छेया, कयकरणलद्धलक्खा साहसिया लहुस्सगा अइमहिच्छलोभगत्था दढरओवीलका य गेहिया अहिमरा... कुलिंगी उविहिया वाणियगा य कूडतुलकूडमाणी कूडकाहावणोवजीविया... जूयकरा खंडरक्खत्थीचोरपुरिसचोर–संधिच्छेया य... एए अण्णे य एवमाई परस्स दव्वाहि जे अविरया ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Full Catalog of Thieves — Every Kind, Every Method</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those who commit theft include: skilled and experienced criminals, the bold and daring, those bound by excessive greed; those who exploit property divisions and royal corruption; village-robbers, city-robbers, highway-robbers, border-thieves; those who violate holy pilgrimage sites; gamblers; city-guards who themselves steal; thieves of women and men; wall-borers; perfume fraudsters; cattle-thieves, elephant-thieves, slave-thieves; solo thieves, those who travel in gangs; those who hide stolen goods; those expert at evading detection; those trained in many methods of theft — and all others who are not restrained from taking what belongs to others.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra catalogs who commits theft — not one type but an entire taxonomy spanning every social level. The list moves from individual criminals (the bold, the greedy, the violent) to specialized operators (the wall-borer, the perfume fraudster, the cattle thief) to institutional corruption (the city-guard who steals) to collective criminals (village-robbers, city-robbers, sea pirates). This systematic coverage makes a theological point: Adattadan is not confined to those we label "criminals." It lives in every context where human greed finds a method.<br/><br/>The inclusion of gamblers (*jūyakarā*) is notable. Gambling is framed as a form of taking — seeking money without honest labor, through chance or deception. The mention of "city-guards who steal" is historically significant: the system supposed to prevent theft is itself practicing it. Power entrusted to protect can be turned into the most organized form of plunder. The final phrase — "and all others who are not restrained from taking what belongs to others" — makes the catalog universal. Anyone who is <em>not restrained</em> falls within this category, regardless of how respectable their method appears.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Theft comes in dozens of forms — sneaking, grabbing, gambling, cheating, or using official power to exploit others — and everyone who takes what doesn't belong to them, in any of these ways, is practicing the same ancient wrong.</p>
+        <div class="concept-tags"><span class="concept-tag">Taxonomy of Thieves</span><span class="concept-tag">Gambling as Theft</span><span class="concept-tag">Corrupt Officials</span><span class="concept-tag">Universal Scope</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider"><span>Part III &mdash; Kings, Armies, Forest Bandits, Sea Pirates, Town Looters</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">विउलबलपरिग्गहा य बहवे रायाणो परधणम्मि गिद्धा सए व दव्वे असंतुद्धा परिवसए अभिहणंति ते लुद्धा परधणस्स कज्जे चउरंगिभत्त–बलसमग्गा णिच्छिय वरजोहजुद्धसिद्धिय अहमहमितदिप्पिएहिं सेण्णेहिं संपरिवुडा पउम–सगड–सूइ–चक्क–सागर–गरुलवूहाइएहिं अणिएहिं उत्थरंता अभिभूय हरंति परधणाइं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Kings Waging War for Plunder — Organized Theft at Scale</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Many kings, possessing vast armies and great wealth, yet insatiably greedy for another's wealth and unsatisfied with their own possessions, attack neighboring kingdoms — equipped with the fourfold army (elephant corps, chariot corps, cavalry, infantry), surrounded by soldiers with firm resolve and warrior pride burning with competitive spirit, advancing in formations of the lotus, wagon, needle, wheel, ocean, and eagle — overpowering the enemy and seizing their wealth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra makes a declaration of extraordinary moral courage: kings who wage war for the plunder of other kingdoms are thieves. The most powerful human beings of ancient society — sovereigns commanding vast armies, acclaimed as heroes — are placed by this scripture in the same category as the street thief of the previous sutra.<br/><br/>The mechanism is precise: these kings already possess immense wealth. They have armies, treasure, fertile lands, loyal subjects. Yet the craving mind, once fired, cannot be extinguished by acquisition. Each conquest satisfies temporarily and then leaves a larger hunger. "Where there is gain, there is greed" — the fire of desire is fed by fuel, not quenched by it.<br/><br/>The battle formations described — lotus, wagon, needle, wheel, ocean, eagle — are the classic military formations of ancient Indian warfare. Their inclusion is not glorification but documentation: all this elaborate military science, all this discipline and strategic genius, is being deployed in the service of taking what belongs to someone else. The greatest armies in human history have most often been instruments of organized theft at the largest scale.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Even the most powerful king, with every treasure already at his feet, is just a thief on a bigger scale if he sends his army to take what belongs to others — because greed cannot be satisfied by getting more.</p>
+        <div class="concept-tags"><span class="concept-tag">Kingly Greed</span><span class="concept-tag">War as Theft</span><span class="concept-tag">Insatiable Craving</span><span class="concept-tag">Battle Formations</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अवरे रणसीसलद्धलक्खा संगामंसि अइवयंति सण्णद्धबद्धपरियर... माढिवर–वम्मगुंडिया, आविद्धजालिया... करकरंचिय–सुणिसिय–सरविरसचडकरगमुयंत–घणचंडवेगधारा... णिम्मल णिक्किउट्टखंग पहरंतकांत तोमर चक्क गया परसु मूसल–लंगल सूल लउल भिंडमालसब्बल पट्टिस चम्मेटु दुघण... महारणसंखभेरि–वरतूर–पउरपडुपडहायणिणाय–गंभीरणंदिय... हय गय रह जोह तुरिय... कायर णर णयण हिययवाउलकरे ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Weapons Catalog — All This Ingenuity in Service of Greed</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Others, renowned for battlefield glory, advance into combat — armored with chain-mail over chest, head, and face; releasing arrows with tremendous velocity; wielding in their left hands shields and in their right hands bright polished swords; striking with javelins, discuses, maces, battle-axes, pestles, plowshares, lances, clubs, spears, shields, heavy iron balls, hammers, bludgeons — projectiles flashing like lightning through the sky; accompanied by the great din of war-conches, kettledrums, and massive resounding drums; while troops of horses, elephants, chariots, and foot-soldiers fill the hearts of the cowardly with terror and agitation.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is a breathtaking catalog of over twenty distinct weapons used in ancient Indian warfare. The scripture deliberately enters the world of martial culture and names what it really is: organized theft at its most deadly scale. The battle formations, the elaborate weaponry, the proud warriors — all of it deployed in the service of taking what belongs to someone else.<br/><br/>The closing image strikes the keynote: all of this — all this power and weaponry and military might — ultimately fills "the hearts of the cowardly with terror." The battlefield creates fear. It creates widows and orphans and burning villages. The victorious army returns with plundered treasure, and the souls of everyone involved — aggressor and defender alike — accumulate karmic debt. War, the scripture insists, is what greed looks like when it is given armies.</p>
+        <p class="simple-explanation"><b>The simple version:</b> All the weapons, armor, battle formations, and military might of an ancient king's army exist for one purpose — to take what belongs to someone else. War, at its root, is theft with armies.</p>
+        <div class="concept-tags"><span class="concept-tag">Weapons Catalog</span><span class="concept-tag">Martial Culture Exposed</span><span class="concept-tag">Fear of Battle</span><span class="concept-tag">Karmic Debt of War</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">विलुलियउक्कड–वर–मउड–तिरीड–कुंडलोदुदाम... छेलिय विघुट्टुक्कुट्ट–कंटकयसद्भीमगज्जिए... सप्पहारणुज्जयकरे अमिरसवसतिव्वरत्त णिद्धारितच्छे वेरिदिट्टि... रुहिरकयभूमिकइम... गिद्धमंडल भमंतच्छायंधकारगंभीरे । वसुवसुहविकंपितव्वं पच्चखपिउवणं परमरुद्बीहणगं... अहिवयंति संगामसंकडं परधणं महंतं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Horror of the Battlefield — The Earth Turns Crimson</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Crowns and diadems loosened, banners flying — filled with the neighing of horses, the rumbling of elephants, the thundering of chariots, terrible battle-cries and lion-shouts; warriors gnashing their teeth, biting through lips in ferocious determination; swords drawn in furious haste, slashing elephant trunks; the earth turned into a crimson swamp; bodies torn at the belly, intestines spilling; vital points struck, quivering; blow after terrible blow; warriors fainting and rolling in pitiful helplessness. Vultures circling in dense dark shadow, crows dancing overhead. The earth itself trembles. This is the horrifying chaos of battle that those greedy for others' wealth have entered — for the sake of great plunder.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.6 is one of the most vivid passages in the entire Prashnavyakaran — an unflinching portrait of the horror of the battlefield. The scripture's strategy is deliberate: after describing the weapons (Sutra 3.5), it shows what those weapons do to human bodies. The split bellies, the crimson earth, the circling vultures, the severed hands, the screaming — all of this is what human beings create when they go to war "for another's wealth."<br/><br/>The final phrase is the devastating punch line: all of this carnage exists because of the desire to take what belongs to others. The Prashnavyakaran steps into the world of martial culture and refuses the romanticism. It does not deny that war happens or that warriors are real. It simply insists on showing what war actually looks like — the blood, the screaming, the earth churned to mud — and reminding the listener that this is what the desire to take what belongs to others produces. The image of vultures circling is especially significant in Jain cosmology: the battlefield is not a place of glory but a feeding-ground for scavengers.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The battlefield — all the noise, all the weapons, all the dying — exists because some people could not stop wanting what belonged to someone else. War is what greed looks like at its largest scale.</p>
+        <div class="concept-tags"><span class="concept-tag">Battlefield Horror</span><span class="concept-tag">Crimson Earth</span><span class="concept-tag">Vultures</span><span class="concept-tag">Anti-War Teaching</span><span class="concept-tag">Greed's Ultimate Cost</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अवरे पाइक्कचोरसंघा सेणावइ–चोरवंद–पागडिका य अडवी–देसदुग्गवासी कालहिरत–रत्तपीतसुक्किल–अणेगसयचिंध पट्टबद्धा परिवसए अभिहणंति लुद्धा धणस्स कज्जे ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Forest Bandits — The Same Greed at Smaller Scale</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">There are also bands of foot-soldier thieves — with their commanders, their recognizable emblems — living in forests and inaccessible regions; wearing on their foreheads bands in black, red, yellow, and white of hundreds of different emblems; these greedy ones attack neighboring territories for the sake of wealth.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">After the grand sweep of kings and armies, this sutra turns to forest-based criminal bands — the dacoits and bandits who lived in the jungles and mountain-passes of ancient India, beyond the reach of royal law. What is notable is the organizational detail: structured groups, commanders (*seṇāvai*), recognizable emblems (*ciṃdha*), clear territorial operation. The forest dacoit is simply the scale-model version of the king from Sutra 3.4 — the same greed, the same willingness to harm others, operating at smaller geographic scale and lower social approval. The same impulse to organize human violence that builds armies also builds gangs. The detail of colored headbands confirms that organized criminality develops its own insignia and identity, exactly as armies do.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The bandits living in the forest are just a smaller version of the kings making war — same greed, same willingness to hurt people, just operating at a different scale.</p>
+        <div class="concept-tags"><span class="concept-tag">Forest Bandits</span><span class="concept-tag">Organized Crime</span><span class="concept-tag">Dacoit Bands</span><span class="concept-tag">Same Greed Different Scale</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">रयणागरसागरं उम्मीसहस्समाला–उलाउल–वितोयपोत–कलकलेंत–किलियं... महामगरमच्छ–कच्छभोहार–गाह–तिमि–सुंसुमार–सावयसमाहय... कायरजणहियकंपणं घोरमारसंतं महभयं भयंकरं... लवणसिलिलपुण्णं... उप्पाइयपवण–धणिय–णोलिलय उवरुविरतरंगदिरय... जख्ख–रक्खस–कुहंड–पिसायरुसिय–तञ्जायउवसग्गसहस्ससंकुलं... समुद्दमज्झे हणंति, गंतुण जणस्स पोए परदव्वहरा णरा ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sea Pirates — Braving the Monster-Filled Ocean for Plunder</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The ocean — treasure-mine of gems — its thousands of waves tossing in confusion, churned by deep currents; filled with enormous crocodiles, vast turtles, gharials, timi-fish, sharks colliding and fighting; causing the hearts of the timid to shake; terrible, fearful, boundless, without a far shore; filled with spirits — yakshas, rakshasas, kuhanda-demons and pishacha-spirits; bounded by saltwater — yet those greedy persons who take what belongs to others cross it, in their boats, go to the middle of the sea — they attack and plunder the ships of merchants sailing there.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.8 is one of the most poetically ambitious passages in the Prashnavyakaran. It describes the ocean in extraordinary, terrifying detail — not as a wonder of nature but as a setting of lethal danger — to make a single moral point: sea-pirates are so consumed by greed that they venture into this immense, monster-haunted, storm-wracked expanse to attack the ships of merchants.<br/><br/>The sutra's technique is cumulative: wave after wave of detail about the ocean's dangers — each worse than the last — building to the final clause: "and even so, those who take what belongs to others cross it, go to the middle of the sea, and plunder the ships of merchants." The entire terrifying ocean description exists to amplify the moral statement — <em>the attachment to another's wealth is so powerful that it drives people into this.</em> The mention of yaksha and rakshasa spirits in the ocean connects to the ancient Indian understanding of the sea as spiritually dangerous territory — and yet the sea-pirate ventures there anyway, for greed. The Jain merchant community was heavily engaged in maritime commerce, making this sutra immediately relevant to its original audience.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The greed for what belongs to others is so powerful that some people will brave a terrifying, monster-filled ocean just to attack and rob the ships of honest merchants.</p>
+        <div class="concept-tags"><span class="concept-tag">Sea Pirates</span><span class="concept-tag">Ocean of Danger</span><span class="concept-tag">Greed Defeats Fear</span><span class="concept-tag">Maritime Commerce</span><span class="concept-tag">Samsara Metaphor</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">णिरणुकंपा णिरवयक्खा गामागर–णगर–खेड–कब्बड–मडंब दोणमुह पट्टण सम–णिगमजणवए य धणसिम्मद्धे हणंति थिरहिय्य–छिण्णलज्जा बंदिग्गह–गोगहे य गिण्हंति दारुणमई णिक्किकवा णियं हणंति छिंदंति गेहसंधि णिक्किखत्ताणि य हरंति धणधण्णदव्वजायाणि जणवय–कुलाणं णिग्घिणमई परस्स दव्वाहिं जे अविरया ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Town Looters — No Compassion, No Consequence</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those without compassion and without regard for consequences — attacking wealthy villages, towns, hamlets, small settlements, river-port towns, trading settlements, and entire countries — with hardened hearts they kill, utterly without shame; they seize people and take their cattle; these pitiless ones, with their brutal intelligence, kill their victims' own kin, break open the joints of their homes, clear out the contents, and carry away the accumulated wealth and grain of entire families and communities.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.9 describes the town-looters — those who attack settled communities in systematic fashion to strip them of wealth, grain, cattle, and people. The list of eleven types of settlements is drawn from the canonical Jain classification of human habitations: from the tiny isolated hamlet to the full commercial port city. The point is that no type of human settlement is spared — the looter attacks every kind.<br/><br/>Two phrases stand at the center: *ṇiraṇukampā* (without compassion) and *ṇiravayakkhā* (without regard for consequences). Compassion is the recognition of the other person's suffering. Consequence-awareness is the recognition that one's actions have effects beyond the immediate moment. Strip both away, and any act becomes possible. The detail of "seizing people and taking cattle" alongside property reminds us that ancient raiding was not merely economic — human beings were taken as slaves; cattle were the primary form of agricultural wealth. To raid a village was to destroy its entire productive capacity for years to come.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When people lose all compassion and all concern for consequences, there is no settlement too small to raid, no family too poor to plunder, and no person too helpless to seize.</p>
+        <div class="concept-tags"><span class="concept-tag">Town Looters</span><span class="concept-tag">Without Compassion</span><span class="concept-tag">Without Consequence</span><span class="concept-tag">Every Settlement</span><span class="concept-tag">Human Trafficking</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IV -->
+  <div class="section-divider"><span>Part IV &mdash; The Thief's Life, Capture, and Punishment</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">तहेव केई अदिण्णादाणं गवेसमाणा कालाकालेसु संचरंता चियकापज्जलिय–सरस–दर–दञ्च कड्डियकलेवरे रुहिरलित्तवयण... सुसाणवण–सुण्णघर लेण–अंतरावण–गिरिकंदर–विसमसावयसमाकुलासु वसहीसु किलिस्संता सीयातव–सोसियसरीरा दरुच्छवी... दुल्लहभक्खण–पाणभोयणा पिवासिया झुंझिया किलंता मंस–कुणिमकंदमूल जं किंचि कयाहारा उव्विग्गा असरणा अडवीवासं उवेंति वालसयसंकिणज्जं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Criminal's Life — Living in the Spaces of Death</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Some who are searching for what is not given wander at all hours — near burning funeral pyres with fresh corpses, their faces smeared with blood, roaming like witch-demons; to the horrible shrieking of jackals, to the fearful hooting of owls, to the wailing of vetala-spirits; in dwellings crowded with danger — cremation grounds, abandoned houses, caves, mountain-ravines, wild forests inhabited by violent animals. There they suffer, bodies dried out by cold and heat; finding food and water with utmost difficulty, tormented by thirst and hunger, eating whatever they can — flesh, rotten roots, anything; anxious and shelterless, they take up dwelling in the forest, among a hundred dangers, surrounded by scorpions and snakes.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the lived reality of the active thief — not the king with armies but the individual criminal living on the margins, hiding in cremation grounds and forest caves, surviving on whatever can be scraped together. The portrait is not romanticized. The thief who has committed to a life of taking what is not theirs ends up in the most miserable of circumstances even in this life — before any supernatural consequence arrives.<br/><br/>They live in places the rest of society avoids: cremation grounds stinking of death, abandoned buildings, animal-infested forests. Their bodies deteriorate from exposure. They cannot find food or water easily. They eat whatever they can — meat, rotten roots, anything. They live in constant fear of animals, police, other criminals, and supernatural beings believed to inhabit cremation grounds. The thief cannot follow natural rhythms of sleep and waking, rest and activity — the demands of hiding and hunting mean that time itself becomes disturbed. This temporal dislocation is another form of suffering the scripture documents. The criminal's life, which may have begun as bold opportunism, degrades steadily. While stealing, they are simultaneously building the hellish rebirths that await them after this life.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The thief's life — before any punishment comes — is already a kind of punishment: hiding in cremation grounds, eating whatever they can find, living in fear, their body slowly breaking down.</p>
+        <div class="concept-tags"><span class="concept-tag">Criminal's Life</span><span class="concept-tag">Cremation Grounds</span><span class="concept-tag">This-Life Suffering</span><span class="concept-tag">No Rest</span><span class="concept-tag">Temporal Dislocation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अयसकरा तक्करा भयंकरा कास हरामोत्ति अज्ज दव्वं इति सामत्थं करेंति गुज्झं । बहुयस्स जणस्स कज्जकरणेसु विग्घकरा मत्तपमत्तपसुत्त–वीसत्थ–छिद्धघाई वसणभुदएसु हरणबुद्धी... पावकम्मकारी असुभपरिणाया य दुक्खभागी णिच्चाविल दुहमणिव्वुइमणा इहलोए चेव किलिस्संता परदव्वहरा णरा वसणसयसमावण्णा ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Plotting Mind — Always Turbid, Never at Rest</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those who cause infamy, terrifying criminals, secretly plot together: "Whose wealth shall we take? Whose shall we seize today?" — scheming in hidden council. They obstruct the work of many people; they attack those who are intoxicated, careless, sleeping, or vulnerable; they strike with minds bent entirely on taking — these roguish ones, exceeding the bounds established by kings, avoided by virtuous persons — performing sinful karma, producing inauspicious outcomes, sharers of suffering; their minds always turbid and troubled, unable to find peace; suffering in this very world, those who take others' wealth fall into a hundred misfortunes.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra offers a rare glimpse inside the criminal mind — the active plotting, the target selection, the scheming in secret. "Whose wealth shall we take today?" The sutra quotes the thief's actual thought process, revealing its utter banality. There is no heroism, no romantic rebellion — only the grubby calculation of predation.<br/><br/>The target selection — the intoxicated, the sleeping, the careless, the vulnerable — matches precisely what modern criminology calls opportunistic crime. The thief is not powerful; they specifically seek out those who cannot defend themselves in that moment.<br/><br/>The closing description of the thief's inner state is profound: "always turbid, minds unable to find peace." This is the immediate, this-life fruit of a criminal career — not comfort or security but constant agitation. The phrase "obstructing the work of many people" captures a dimension easily missed: when a thief strikes, they disrupt not just their immediate victim but everyone connected to that victim's work. The one who lives by taking others' peace can never find their own.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Before the thief is caught, before punishment comes, before the next life — the thief's own mind is already a kind of hell: always planning, always suspicious, always turbid, never at rest.</p>
+        <div class="concept-tags"><span class="concept-tag">Criminal Mind</span><span class="concept-tag">Always Plotting</span><span class="concept-tag">Targets Vulnerable</span><span class="concept-tag">Turbid Mind</span><span class="concept-tag">This-Life Hell</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">तहेव केइ परस्स दव्वं गवेसमाणा गहिया य हया य बद्धरुद्धा य तुरियं अइधाडिया पुरवरं समिप्पिया चोरगहचारभडचाडुकराण... खरफरुसवयणतज्जण–गलच्छल्लुच्छल्लणाहिं विमणा, चारगवसिहिं पवेसिया णिरयवसहिसिरिसं तत्थिव गोमियप्पहार दूमणिणभच्छण–कडुयवयण–भेसणगभयाभिभूया... उक्कोडालंचपासमग्गणपरायणेहिं दुक्खसमुदीरणेहिं विविहेहिं बंधणेहिं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Capture and Prison — A Hell That Resembles Hell</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Some who are searching for what is not theirs — having been caught, struck, and tightly bound — are quickly dragged to the great city and handed over to thief-catchers and constables; those officials beat them with harsh verbal abuse, threatening and pulling them roughly by the neck — their spirits broken and dejected; they are thrust into a prison that resembles the dwelling of hell; there they receive the prison-master's blows, are subjected to verbal humiliation, overwhelmed by terrible, frightening abuse; their clothing stripped and replaced with filthy torn rags; entirely at the mercy of officials who seek bribes at every turn, raising sufferings of every kind through the various bonds of the prison-master.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">With Sutra 3.12, the scripture turns from the thief's actions to the consequences — beginning with capture and imprisonment. The central theological statement is contained in "prison resembling the dwelling of hell" (*ṇiraya-vasahi-sirisaṃ*). The text is not merely making a metaphor — it is saying that the prison experience, with its humiliation, physical suffering, deprivation, and fear, is a direct preview of and analog for the hellish rebirths that await after death. The detail of officials seeking bribes (*ukkoḍā-laṃca-pāsa*) is historically significant and morally telling: the system supposed to punish wrongdoing is itself corrupt, practicing the same Adattadan it claims to punish. The principle of karma operates: the person who once stripped others' wealth is now stripped of everything.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The thief who is caught loses everything — freedom, dignity, clothing, even the ability to speak freely — and finds themselves in a prison that feels exactly like the hell they're heading toward anyway.</p>
+        <div class="concept-tags"><span class="concept-tag">Capture</span><span class="concept-tag">Prison as Hell Preview</span><span class="concept-tag">Corrupt Officials</span><span class="concept-tag">Karmic Symmetry</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">किं ते ? हडि–णिगड–बालरज्जुय–कुडंग–वरत्त–लोहसंकल–हत्थंदुय वज्झपट्ट–दामक–णिक्कोडणेहिं... मंदपुण्णा । संपुड–कवाड–लोहपंजर–भूमिघर–णिरोह–कूव–चारग–कीलग–जुय–चक्कवित्तबंधण–खंभालण–उद्धचलण... उरखोडी–दिण्ण–गाढपेल्लण–अंडिगसंभगसंसुलिगा गलकालकलोहदंड–उर–उदर वत्थि–पट्टि परिपीलिया मत्थंत हिययसंचुणियंगमंगा आणत्तिकिंकरेहिं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Instruments of Torture — Twenty-Two Methods of Suffering</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those with little good karma are bound with ankle-irons, leg-shackles, hair-rope, wooden stocks, leather straps, iron chains, handcuffs, binding-cloth, neck-rope, and constriction-devices. Further harassed through locked compartments, iron-barred cells, underground rooms, pits, pillory-posts, wheel-restraint, upward-leg-binding — then bound with intense force around the chest and head, gasping for breath; wrapped at the head, bound at the thighs with flat-board bonds, pierced with hot iron skewers, stabbed with needles; receiving a hundred causes of suffering through acrid, bitter, and sharp substances; with heavy black iron rods pressing on chest, abdomen, bladder, and spine until the bones are crushed to pulp — all by order of the officials.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.13 catalogs the specific instruments and methods of torture and imprisonment used in ancient India — a list so detailed and specific that it functions as a historical document of penal practices. The Jain ethical tradition does not shy away from this material. The scripture's strategy throughout this Adhyayan is to show consequences in full, without romanticization. Every specific instrument is named — the hair-rope that cuts when pulled tight, the hot iron skewer, the underground pit, the heavy iron rod pressed against vital organs. The phrase "those with little good karma" (*maṃda-puṇṇā*) is theologically important: it is not saying criminals suffer by chance. It is saying the depth of their suffering reflects the state of their karmic account. The accumulation of twenty-two distinct types of torture creates an overwhelming effect: the reader cannot dismiss the reality being described. This is what Adattadan produces, in this very body, in this very lifetime.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The punishment for theft in ancient times was not just prison — it was a systematic experience of physical suffering designed to show, in this body, what the thief made others feel.</p>
+        <div class="concept-tags"><span class="concept-tag">Torture Instruments</span><span class="concept-tag">Karmic Symmetry</span><span class="concept-tag">Historical Document</span><span class="concept-tag">Little Good Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अदंतितिदया वसट्टा बहुमोहमोहिया परधणम्मि लुद्धा फासिंदियविसयतिव्वगिद्धा... गहिया य जे णरगणा, पुणरवि ते कम्मदुवियद्धा उवणीया रायकिंकराण तेसिं वहसत्थग पाढयाण... लंचसयगेण्हगाण कूडकवडमाया णियडी–आयरण पणिहि–वंचणिवसारयाण बहुविहअलियसयजंपणाण, परलोयपरमुहाण णिरयगइ गामियाण तेहिं आणत्तजीवदंडा तुरियं उघाडिया पुरवरे सिंघाडग–तिय–चउक्क–चच्चर–चडुमुहमहापहपहेसु वेत–दंड–लउड–कट्टुलेट्टु–पत्थर... मुडि–लया–पायपिण्ह–जाणु–कोप्पर–पहार–संभग–महियगत्ता ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Corrupt Officials — One Set of Karma Punishing Another</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those whose passions are uncontrolled, slaves to desire, deeply deluded, greedily attached to another's wealth — these human beings are caught. Twice-made wretched by their karma, they are brought before the king's officers — those experts in delivering punishment, agents of agitation, who accept bribes of hundreds, who operate through fraud and deception, who speak a hundred kinds of lies, who are entirely turned away from the next life and headed toward hellish rebirth; by those officials, the condemned — sentenced to death — are quickly brought out to the city's crossroads, squares, and highways; and there their bodies are beaten and broken with cane-rods, clubs, stones, fists, kicks to the feet, blows to the knees and elbows — crushed, shattered, and hurled to the ground.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.14 introduces a dimension the previous sutras did not: the corruption of the officials themselves. Not only does the thief suffer — they suffer at the hands of people who are, spiritually speaking, in the same boat. The royal officers who punish thieves are described with devastating irony: they accept bribes, operate through fraud and deception, speak a hundred lies, have no care for the next life, and are themselves headed toward hellish rebirth. The scripture is making a precise point: the system of punishment, as operated by corrupt officials, is not justice — it is one set of karma-bound beings inflicting suffering on another set of karma-bound beings, for their own gain. The officials' karma and the thief's karma are of the same quality; they have simply landed on opposite sides of a power dynamic. The public nature of the punishment — at crossroads, squares, and major intersections — is historically documented: public punishment served as deterrence, and the criminal was made a spectacle.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The officials who punish thieves are themselves corrupt, greedy, and headed toward hell — showing that when greed poisons a person, it doesn't matter what side of the courtroom they're on.</p>
+        <div class="concept-tags"><span class="concept-tag">Corrupt Officials</span><span class="concept-tag">Same Karma Different Side</span><span class="concept-tag">Public Punishment</span><span class="concept-tag">Three Root Causes</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अट्टारसकम्मकाराणा जाइयंगमंगा कलुणा सुक्कोट्टुकंठ–गलक–तालु–जीहा जायंता पाणीयं विगयजीवियासा तण्हाइया वरागा तं पि य ण लभंति वज्झपुरिसेहिं धाडियंता । तत्थ... सुरत्तकणवीर–गहियविमुक्कगुण–वज्झदूय... मरणभयुप्पण्णसेयआयतणेहुतुपियकिलण्णगत्ता... कागणिमंसाणि–खाइयंता... वज्झणेवत्थिया पणेज्जंति णयरमज्झेण किवणकलुणा अत्ताणा असरणा अणाहा अबंधवा विपेक्खंता दिसोदिसि मरणभयुव्विगा आघायणपडिदुआर–संपाविया अधण्णा सूलग्गविलग्गभिण्णदेहा ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Death Procession — Alone, Without Refuge</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">For the eighteen types of causes of theft, those condemned to death — pitiful creatures with their throats and tongues gone dry — begging for water, with all life-hope cut off, tormented by thirst — cannot even get water; hustled by executioners. There, seized with harsh drums beating, fastened with a garland of bright red oleander flowers around the neck as the death-mark; bodies drenched with the sweat of mortal fear; heads dyed red as the color of the condemned; all hope severed; their bodies cut piece by piece, while crows eat their meat — dressed in the garment of the condemned and led through the middle of the city — the pitiable wretched ones, <em>without refuge, without support, without care, without family,</em> looking in all directions in mortal terror — brought to the execution ground — their bodies pierced and split on the point of the stake.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.15 describes capital punishment in ancient India with a vividness that is deliberately overwhelming. Every phase is documented: the drying of the throat in thirst, the red garland of death hung around the neck, the drums beating the news of the execution, the procession through the city, the crowds of onlookers, the cutting of the body piece by piece, and the final impalement.<br/><br/>The theological phrase at the center: "without refuge, without support, without care, without family" (*asaraṇā aṇāhā abaṃdhavā*). This is one of the most important phrases in all of Jain religious vocabulary — used in Jain death-meditations to describe the dying person's ultimate aloneness. Its use here equates the moment of capital punishment with the most naked existential condition a person can face. The thief who once targeted others' vulnerability now faces the same absolute helplessness they imposed on others. The karmic symmetry is exact and complete.</p>
+        <p class="simple-explanation"><b>The simple version:</b> At the moment of execution, the thief — alone, without family, without water, without hope — faces the most nakedly real moment a human being can face: that they are entirely alone with what they have done.</p>
+        <div class="concept-tags"><span class="concept-tag">Capital Punishment</span><span class="concept-tag">Asarana — Without Refuge</span><span class="concept-tag">Death Procession</span><span class="concept-tag">Ultimate Aloneness</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">ते य तत्थ कीरंति... उल्लंविज्जंति रुक्खासालासु... पव्वयकडगा पमुच्चंते... गयचलणमलणिम्मिहिया कीरंति पावकारी अट्टारसखंडिया... उक्कत्तकण्णोट्टुणासा उप्पाडियणयण–दंसणवसणा जिब्भिदियछिया छिण्णकण्णसिरा... जावज्जीवबंधणा य कीरंति... कासंता वाहिया य आमाभिभूयगत्ता परूढ–णह–केस–मंसु–रोमा छगमुत्तमिणियगम्मि खुत्ता... विगसुणगसियालकोलमज्जारवंदसंसडासगतुंडपक्खिगण... विलुत्तगत्ता... सुट्टु कयं जं मउत्ति पावो तुट्टेणं जणेण हम्ममाणा लज्जावणगा य होंति सयणस्स वि य दीहकालं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">After Death — Eaten by Scavengers, Shame on the Family</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Some are hung from trees and wooden frames; others are hurled from mountain peaks onto level rock; others are ground under elephants' feet; some cut into eighteen pieces; ears, lips, and noses cut off, eyes torn out, tongues cut at the roots, hands and feet amputated; some sentenced to lifelong imprisonment — tightly shackled, stripped of all vitality, abandoned by friends and family, hopeless, starved, ill, their bodies overwhelmed by disease, forced against their will to sleep in goat excrement. Those thrown into pits are torn away piece by piece by kites, dogs, jackals, boars, birds — their bodies putrefy. The crowd says: "It is well done — the sin has met its fruit" — beaten by the enraged, they become a source of shame to their family for a long time.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra extends the catalog of punishments and tracks what happens after death. The final sequence — body thrown into a pit, eaten by animals and birds — echoes Sutra 3.10, where the living thief hid near cremation grounds and ate rotten meat in desperation. The wheel has come full circle: the one who haunted the spaces of death in life becomes food for the scavengers of those spaces in death. The symmetry is deliberately constructed by the scripture as a karmic teaching: you become what you practice.<br/><br/>The crowd's response — "It is well done — the sin has met its fruit" — is one of the most human details in the entire Prashnavyakaran. The public feels satisfied. They say the criminal got what they deserved. And within the framework of the sutra's teaching, this is not incorrect — karma does operate. But the scripture never loses sight of the suffering itself. The wretched person in the pit being eaten alive is still a being with a soul, however buried under the karmic weight they've accumulated. The lasting shame on the family is the final consequence noted: individual karma extends its impact into the social world.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The punishments for theft in ancient times were not just legal consequences — they were the beginning of a karmic arc that continues through death, into the next life, and shapes the lives of the family left behind.</p>
+        <div class="concept-tags"><span class="concept-tag">Punishments</span><span class="concept-tag">Karmic Circle</span><span class="concept-tag">Crowd's Response</span><span class="concept-tag">Family Shame</span><span class="concept-tag">Compassion and Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V -->
+  <div class="section-divider"><span>Part V &mdash; The Ocean of Samsara and the Closing Seal</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-17">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.17</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">मया संता पुणो परलोग–समावण्णा णरए गच्छंति णिरभिरामे अंगार–पलित्त–ककप्पअच्चत्थसीयवेयणअस्साउदिण्णसययदुक्खसयसमिभद्दुए, तओ वि उव्भूट्टिया समाणा पुणो वि पवज्जंति तिरियजोणिं तहिं पि णिरयोवमं अणुहवंति वेयणं, ते अणंतकालेण जइ णाम कहिं वि मणुयभावं लभंति... तत्थ वि य भवंतऽणारिया णीयकुलसमुप्पण्णा... मिच्छत्तसुइवपण्णा य होंति... कोसिकारकीडोव्व अप्पगं अट्टुकम्मंतंतुघणबंधणेण ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Hell, Animal Birth, the Degraded Human Life — The Silk-Worm's Prison</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those sinners, having passed through this life, proceed to the next world — entering hell, without beauty, like burning coals alternating extreme heat and cold, relentlessly delivering a hundred forms of pain simultaneously; then, having risen from that, they again enter the animal realm, and there too experience suffering comparable to hell; they gain a human birth only after an immeasurable period of time, after hundreds of thousands of journeys through hell and animal births. And even there — in that human birth so difficult to obtain — they arise in low families, ignoble and cruel, fallen into wrong understanding; and so they bind themselves yet again, like the silk-worm that wraps itself in its own thread, with the dense and heavy bonds of the eight types of karma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the post-death consequences in three movements: hell, then animal births across millions of lifetimes, then the degraded human birth — and the danger of that human birth being wasted on the same old tendencies.<br/><br/>The animal realm described after hell is called "comparable to hell" — a startling claim. The Jain valuation of human birth as precious rests precisely here: only in a human birth does the soul have the combination of intelligence, mobility, and access to Dharma that makes liberation possible. The animal life of constant fear, hunger, predation, and total inability to reflect is not much better than hell.<br/><br/>The silk-worm image at the end is one of the most beautiful metaphors in the Prashnavyakaran. The silk-worm (*kosikāra*) spins its own cocoon — it produces the very silk thread that imprisons it, and eventually it dies inside its own creation. The sinner, in exactly the same way, through their own actions creates the karma that binds them more tightly with each cycle. They are not imprisoned by an external force; they manufacture their own prison from the inside. Even the rare human birth regained after millions of cycles is likely to be wasted — because the tendencies accumulated across those millions of lives are so deep that even a human birth is spent in low families, animal-like behavior, and the same sensory craving.</p>
+        <p class="simple-explanation"><b>The simple version:</b> After death, the thief goes to hell; after hell, to animal births across millions of lifetimes; and when a human birth finally comes again, it arrives so degraded and so burdened with old habits that even that rare chance is likely to be wasted.</p>
+        <div class="concept-tags"><span class="concept-tag">Hell</span><span class="concept-tag">Animal Birth</span><span class="concept-tag">Silk-Worm Metaphor</span><span class="concept-tag">Human Birth Precious</span><span class="concept-tag">Eight Karma Types</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-18">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.18</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">एवं णरग–तिरय–णर–अमर–गमण–पेरंतचक्कवालं जम्मजरामरणकरणगंभीरदुक्खपक्खुभियपउरसिलिलं संजोगवियोगवीची–चिंतापसंग–पसिरय–वह–बंध–महल्लविपुलकल्लोलं... अवमाणणफेणं... रागदोसबंधणबहुविहसंकपिविउलदगरयरयंधकारं मोहमहावत्त भोगभममाण... संसारसागरं... चुलसीइजोणिसयसहस्सगुविलं अणालोकमंधयारं अणंतकालं णिच्चं उत्तथसुण्णभयसण्णसंपउत्ता वसंति उव्विग्गवासवसिहिं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ocean of Samsara — 8.4 Million Births, Boundless and Terrifying</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus — the cycle of going through hell, the animal realm, the human realm, and the heavenly realm, spinning on its wheel without end: the ocean of samsara, deep with the suffering of birth, old age, and death; its waves are union and separation; its foam is humiliation; its depths are the abysses of the passions; accumulating the waters of hundreds of thousands of lifetimes; boundless, terrifying, endlessly frightening; the great whirlpool of delusion spinning around floating pleasures — this is the ocean of samsara. It is filled with 8.4 million kinds of birth-forms, dark as a place without light, where those bound by sinful karma live in agitation for endless time, always terrified, in a state of constant fear, oppressed in the dwellings of their own accumulated tendencies.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.18 is the longest sutra in Adhyayan 3 and one of the most philosophically ambitious passages in the Prashnavyakaran. It describes the ocean of samsara in a sustained, breathtaking extended metaphor: the waves are union and separation — the two fundamental patterns of cyclic existence. The foam is humiliation. The sharks are the passions. The storm-winds are limitless desire. The dark depths are the hell-realms. The predators are carelessness.<br/><br/>The most spiritually important phrase is at the end: those bound by sinful karma "live in agitation for endless time, always terrified." This is the existential condition of the unawakened soul — not suffering a specific punishment but simply being <em>in</em> the ocean, always unsafe, always moving, always afraid. Liberation is not a reward for good behavior; it is simply the shore, the end of the ocean, the place of rest that the soul has always been moving toward but has not yet reached.<br/><br/>The detail of 8.4 million birth-forms (*culasīi-joṇi*) is the Jain canonical count of all types of living beings across all realms. Every one of these birth-forms is available as a destination. The vast panorama of possible existence — each one limiting, each one temporary, each one a form of suffering — is what makes human birth so precious: it is the one form in which all five senses AND reason AND access to spiritual teaching combine.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Samsara — the cycle of birth and death — is like an ocean without a far shore: its waves are the constant gaining and losing of what we love, and no matter how hard we swim, we cannot escape it through exhausted effort alone.</p>
+        <div class="concept-tags"><span class="concept-tag">Samsara Ocean</span><span class="concept-tag">8.4 Million Births</span><span class="concept-tag">Waves of Union and Separation</span><span class="concept-tag">Always Terrified</span><span class="concept-tag">Liberation as Shore</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-19">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.19</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">आसापास–पडिबद्धपाणा अत्थोपायाण–काम–सोक्खे य लोयसारे होंति अपच्चंतगा य सुट्टु वि य उज्जमंता, तदिवसुज्जुत्त–कम्मकय–दुक्खसंठिव–सित्थिपंडसंचयपरा, पक्खीण दव्वसारा, णिच्चं अधुव–धण–धण्णकोस–परिभोगविवज्जिया, रहिय–कामभोग–परिभोगसव्वसोक्खा परसिरि–भोगोवभोगणिस्साणमग्गणपरायणा वरागा अकामियाए विणोति दुक्खं, णेव सुहं णेव णिव्वुइं उवलभंति अच्चंतविउलदुक्खसयसंपलित्ता परस्स दव्वहिं जे अविरया ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Craver's This-Life Fruit — Fruitless Effort, Perpetual Wanting</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those whose very life-breath is bound with the snare of hope — who consider wealth-acquisition, sensory pleasure, and happiness to be the essence of the world — are fruitless despite all their effort; spending each day in drudgery, accumulating only the dry chaff of activity with little actual gain, their essential resources depleted; always deprived of the enjoyment of unstable wealth, grain, and treasure; devoid of all sensory pleasures and happiness; wretched ones, perpetually oriented toward seeking what other people possess and enjoy — suffering involuntarily, experiencing neither happiness nor peace, consumed entirely by boundless suffering — these are those who are not restrained from taking what belongs to others.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sutra 3.19 describes the final and most psychologically precise form of the fruits of Adattadan: the person who is addicted to coveting another's wealth lives in a state of perpetual frustrated wanting — even in the present life, before any supernatural consequence arrives. They work hard. They scheme. But the result is dry chaff — effort without genuine fruit, because the orientation of the mind toward <em>what belongs to others</em> is fundamentally self-defeating.<br/><br/>*Sitthi-paṃḍa-saṃcaya-parā* — "accumulating only dried chaff." The person works day after day, but what they gather has no nutritional value. Their essential resources (not just financial but spiritual, relational, psychological) are depleted. They cannot enjoy what they have, because their attention is always on what someone else has. Research on comparative thinking and well-being consistently shows that people who measure happiness against others' possessions report lower well-being regardless of their absolute wealth. The Jain scripture identified this dynamic 2,500 years ago. The phrase "neither happiness nor peace" (*ṇeva suhaṃ ṇeva ṇivvuiṃ*) encapsulates it: the craver of another's wealth achieves neither the ordinary happiness of the world nor the deeper peace of the spiritual path — caught in between, unable to rest.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The person who can never stop wanting what belongs to others ends up with the worst outcome of all: exhausted from striving, gaining nothing of substance, unable to enjoy what they have, and never at peace.</p>
+        <div class="concept-tags"><span class="concept-tag">Perpetual Wanting</span><span class="concept-tag">Dry Chaff</span><span class="concept-tag">Comparison Suffering</span><span class="concept-tag">Neither Happiness Nor Peace</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-20">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.20</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">एसो सो अदिण्णादाणस्स फलिववागो, इहलोइओ अप्पसुहो बहुदुक्खो महभओ बहुरयप्पगाढो दारुणो कक्कसो असाओ वाससहस्सेहिं मुच्चइ, ण य अवेयलत्ता अत्थि उ मोक्खोत्ति ।
+एवमाहंसु णायकुल–पंदणो महप्पा जिणो उ वीरवरणामधेज्जो कहेसी य अदिण्णादाणस्स फलिववागं । एयं तं तइयं पि अदिण्णादाणं... लोहमूलं... चिरपरिचियमणुगयं दुरंतं । ति बेमि ॥
+॥ तइयं अहम्मदारं समत्तं ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Closing Seal — Treat Another's Wealth as Dust</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">This is the fruit-consequence of taking what is not given: in this world it brings little happiness and much suffering; it is greatly fearful, deeply entangled in dense karmic matter, terrible, harsh, and painful; it is released only after thousands of years — and there is no liberation without experiencing its full consequence. Thus spoke the great soul of the Jnatri lineage — Jina, known as Vira (Mahavira) — declaring the fruit-consequence of taking what is not given. This, then, is the third gate of unrighteousness — rooted in greed — ancient companion, ever-following, endless. Thus I say. ॥ The Third Gate of Unrighteousness is Complete ॥</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The concluding sutra delivers the summary verdict in the most compressed form: the fruit-consequence of Adattadan is little happiness, much suffering, great fear, deep karmic entanglement, thousands of years before the karma is exhausted — and it cannot be bypassed without being fully experienced.<br/><br/>The phrase *aveyalattā atthi u mokkhotti* — "not without tasting it can there be freedom from it" — is the theological core of the entire Adhyayan. This is not a moralistic statement ("you'll be punished for stealing"). It is a cosmological one: karma is not a penalty imposed from outside but a bondage woven from within, and it must be lived through completely before the soul is free. There is no shortcut, no mercy, no forgiveness that exempts the soul from the full experience. This is why Jain ethics is so uncompromising: the consequences of action are not adjusted by intention, remorse, or prayer after the fact — they are woven into the fabric of reality itself.<br/><br/>The closing attribution to Mahavira — "ornament of the Jnatri lineage, great-souled Jina, known as Vira" — places the entire teaching under the direct authority of the liberated one. Sudharmashvami transmits what the fully omniscient Tirthankar declared, not from speculation but from direct perception of reality. <em>iti bemi</em> — "Thus I say" — is the most minimal and most profound statement in all Jain scripture.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The consequence of stealing cannot be escaped without being fully experienced — which means the only real way out is never to enter: renounce the desire to take what is not yours, and treat another's wealth as dust.</p>
+        <div class="concept-tags"><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Mahavira's Authority</span><span class="concept-tag">No Liberation Without Experience</span><span class="concept-tag">Treat Wealth as Dust</span><span class="concept-tag">Jnatri Clan</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="mt-20 pt-10 border-t border-primary/10 text-center">
+    <p class="font-headline text-2xl text-primary">॥ तइयं अहम्मदारं समत्तं ॥</p>
+    <p class="text-base text-on-surface-variant mt-3 font-light italic">The Third Gate of Unrighteousness is Complete</p>
+  </div>
+
+</section>
+
+</main>
+
+<footer class="bg-surface-container-high border-t border-outline-variant/30 py-16 mt-20">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+    <div class="col-span-12 lg:col-span-4">
+      <a href="../../../index-v4.html"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <p class="text-sm text-on-surface-variant mt-4 leading-relaxed max-w-xs">A living resource for the study of Jain philosophy, ethics, and the path to liberation.</p>
+    </div>
+    <div class="col-span-6 lg:col-span-2">
+      <h4 class="text-xs uppercase tracking-widest font-semibold text-primary mb-4">Navigate</h4>
+      <ul class="space-y-2 text-sm text-on-surface-variant">
+        <li><a href="../../../index-v4.html#foundations" class="hover:text-primary transition-colors">Fundamentals</a></li>
+        <li><a href="../sacred-sutras-index.html" class="hover:text-primary transition-colors">Sacred Sutras</a></li>
+        <li><a href="../../../fundamentals/donate-v4.html" class="hover:text-primary transition-colors">Support the Work</a></li>
+      </ul>
+    </div>
+    <div class="col-span-6 lg:col-span-2">
+      <h4 class="text-xs uppercase tracking-widest font-semibold text-primary mb-4">This Text</h4>
+      <ul class="space-y-2 text-sm text-on-surface-variant">
+        <li><a href="prashnavyakaran-index.html" class="hover:text-primary transition-colors">Prashnavyakaran Index</a></li>
+        <li><a href="prashnavyakaran-ss1-a2.html" class="hover:text-primary transition-colors">← Adhyayan 2: Mrushavad</a></li>
+        <li><a href="prashnavyakaran-ss1-a4.html" class="hover:text-primary transition-colors">Adhyayan 4: Abrahmacharya →</a></li>
+      </ul>
+    </div>
+    <div class="col-span-12 lg:col-span-4 flex flex-col justify-end">
+      <p class="text-xs text-on-surface-variant/60 leading-relaxed">Translated from the Ardhamagadhi Prakrit. Commentary draws on the traditional Gujarati Vivechan. For scholarly citations, consult the original Agamic sources.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating nav buttons -->
+<a href="prashnavyakaran-ss1-a2.html" class="nav-button left-btn rounded-full px-5 py-2.5 text-sm font-headline font-semibold tracking-wide" style="left:24px;" aria-label="Previous chapter">← Adhyayan 2</a>
+<a href="prashnavyakaran-ss1-a4.html" class="nav-button right-btn rounded-full px-5 py-2.5 text-sm font-headline font-semibold tracking-wide" style="right:24px;" aria-label="Next chapter">Adhyayan 4 →</a>
+
+<script>
+// Search index
+const SEARCH_INDEX = [
+  { id: "sutra-3-1",  num: "3.1",  title: "The Sweeping Portrait — Greed's Endless Thirst" },
+  { id: "sutra-3-2",  num: "3.2",  title: "Thirty Names — A Complete Taxonomy of Taking" },
+  { id: "sutra-3-3",  num: "3.3",  title: "The Full Catalog of Thieves — Every Kind, Every Method" },
+  { id: "sutra-3-4",  num: "3.4",  title: "Kings Waging War for Plunder — Organized Theft at Scale" },
+  { id: "sutra-3-5",  num: "3.5",  title: "The Weapons Catalog — All This Ingenuity in Service of Greed" },
+  { id: "sutra-3-6",  num: "3.6",  title: "The Horror of the Battlefield — The Earth Turns Crimson" },
+  { id: "sutra-3-7",  num: "3.7",  title: "Forest Bandits — The Same Greed at Smaller Scale" },
+  { id: "sutra-3-8",  num: "3.8",  title: "Sea Pirates — Braving the Monster-Filled Ocean for Plunder" },
+  { id: "sutra-3-9",  num: "3.9",  title: "Town Looters — No Compassion, No Consequence" },
+  { id: "sutra-3-10", num: "3.10", title: "The Criminal's Life — Living in the Spaces of Death" },
+  { id: "sutra-3-11", num: "3.11", title: "The Plotting Mind — Always Turbid, Never at Rest" },
+  { id: "sutra-3-12", num: "3.12", title: "Capture and Prison — A Hell That Resembles Hell" },
+  { id: "sutra-3-13", num: "3.13", title: "The Instruments of Torture — Twenty-Two Methods of Suffering" },
+  { id: "sutra-3-14", num: "3.14", title: "The Corrupt Officials — One Set of Karma Punishing Another" },
+  { id: "sutra-3-15", num: "3.15", title: "The Death Procession — Alone, Without Refuge" },
+  { id: "sutra-3-16", num: "3.16", title: "After Death — Eaten by Scavengers, Shame on the Family" },
+  { id: "sutra-3-17", num: "3.17", title: "Hell, Animal Birth, the Degraded Human Life — The Silk-Worm's Prison" },
+  { id: "sutra-3-18", num: "3.18", title: "The Ocean of Samsara — 8.4 Million Births, Boundless and Terrifying" },
+  { id: "sutra-3-19", num: "3.19", title: "The Craver's This-Life Fruit — Fruitless Effort, Perpetual Wanting" },
+  { id: "sutra-3-20", num: "3.20", title: "The Closing Seal — Treat Another's Wealth as Dust" },
+];
+
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) {
+    searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>';
+  } else {
+    searchDropdown.innerHTML = results.map(s =>
+      `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`
+    ).join('');
+  }
+  searchDropdown.style.display = 'block';
+});
+
+document.addEventListener('click', function(e) {
+  if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+    searchDropdown.style.display = 'none';
+  }
+});
+
+searchDropdown.addEventListener('click', function() {
+  searchDropdown.style.display = 'none';
+  searchInput.value = '';
+});
+
+// Floating nav visibility
+const navBtns = document.querySelectorAll('.nav-button');
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 300) {
+    navBtns.forEach(b => b.classList.add('visible'));
+  } else {
+    navBtns.forEach(b => b.classList.remove('visible'));
+  }
+}, { passive: true });
+</script>
+<script src="../../../js/prashnavyakaran-search.js"></script>
+</body>
+</html>

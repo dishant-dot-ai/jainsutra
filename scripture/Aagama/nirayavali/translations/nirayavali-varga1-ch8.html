@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 8: Ramakrishna Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 8</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Ramakrishna Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">रामकण्ह कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">Two Names in One — and Still the Same Fourth Hell</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Ramakrishna Kumar — son of King Shrenika's queen Ramakrishnādevi — is the eighth of ten brothers. "Rāma" means beautiful, joy-giving. "Krishna" means divine dark. Two of India's most luminous names in one prince. Eight times Chetaka's arrow has fallen. Eight times the same hell has received a son of Shrenika. The accumulation is the teaching.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं रामकण्हा ण रामकण्हं कुमारं, णो चेव णं तुमं रामकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Ramakrishnādevi — Ramakrishna Kumar is gone. You will not see Ramakrishna Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Ramakrishna Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The eighth chapter — the most luminously-named prince. Rāma and Kaṇha combined. The same arrow. The same hell.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The eighth adhyayan introduces the most resonant compound name in the series: "Rāma-Kaṇha" — Rama and Krishna together in one prince. <span class="text-primary font-semibold">Ramakrishna Kumar</span> carries the names of the two halves of the cosmic hero-pair recognized in the Jain tradition: Balarama (Baladeva) and Vasudeva-Krishna — the two companions of every world-age whose intertwined fate shapes the cosmic narrative.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        To carry both names is to carry the brightest possible compound resonance. "Rāma" — the one who gives joy, the beautiful one. "Kaṇha" — the divine dark, the mysterious one. Eight times the Nirayavali has built toward this: the most luminous name, and still the same consequence. The teaching is now not building toward a revelation — it is demonstrating one, irrefutably, for the eighth time.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Eighth of Ten</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Rāma and Kaṇha Combined</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 8</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-8-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Tuning Fork — Eight Returns to Sacred Ground</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Eight times this opening has been spoken. Eight returns to Rajagriha, Gunasila, the Ashoka tree, the stone slab. In the tradition of Jain recitation, such repetition is not experienced as redundancy but as ritual. Each return to this opening is a return to the conditions under which sacred knowledge is received: a fixed place, a living teacher, a willing student. By the eighth repetition, the opening functions like a tuning fork — it sets the listener at the right frequency before the story begins. The frequency it sets is: readiness to hear what is true, however difficult it might be.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The eighth chapter opens at the same sacred place — steady, unchanged, tuning the listener for what is to come.</div>
+        <div class="contemplate-prompt">What frequency do I need to be at to receive difficult truth — and what brings me there?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Tuning Fork</span><span class="concept-tag">Eighth Repetition</span><span class="concept-tag">Readiness for Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-8-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Eighth Assembly — How Dharma Spreads</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, Arya Sudharmashvami — accompanied by five hundred monks, wandering village to village — arrived at Rajagriha; accepted suitable lodging; dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The eighth assembly. Most of the assembly will not stay — most of them have homes to return to, duties, lives. But the teaching travels back with them, changed into whatever form each listener can carry. This is how dharma spreads: one assembly at a time, one listener at a time, no single teaching taking hold everywhere but the sum of all teachings gradually shifting what people understand to be true. Eight assemblies. Eight transmissions. The teaching has been carried into the world eight times from this sutra alone.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sudharmashvami arrived, taught, and the eighth assembly dispersed — carrying the teaching back with them.</div>
+        <div class="contemplate-prompt">Of all the teachings I have received in my life, how many have I truly carried back with me — and what have I done with them?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Eighth Assembly</span><span class="concept-tag">How Dharma Spreads</span><span class="concept-tag">Teaching Carried Outward</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-8-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Nirayavali — The Name That Rings Like a Bell</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे ... उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू ... उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Jambu asked what Mahavir taught in the Upanga. Answer: five sections — Nirayavali, Kalpavamsika, Pushpika, Pushpachulika, Vrishni Dasha.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Eight times the five Vargas are named. By now the name "Nirayavali" — the first Varga, meaning "the row of hells" — has acquired something of the quality of a bell. Every time the five Vargas are named and Nirayavali comes first, the listener is briefly reminded: this is a text about what the hells contain. Not abstractly — specifically. Ten princes. This particular fourth hell. These specific ten sāgaropama. The naming of the Varga at the start of each chapter keeps the ending visible from the beginning — and by the eighth chapter, the listener knows the ending before it arrives.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked about the five sections; they were named for the eighth time — "Nirayavali" now ringing with its full meaning.</div>
+        <div class="contemplate-prompt">When I know how a story ends — what happens in me as I watch the middle of the story playing out anyway?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Nirayavali — Row of Hells</span><span class="concept-tag">Eight Times Named</span><span class="concept-tag">End Visible from Beginning</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-8-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Named — Rāma and Kaṇha in the Verse</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The ten adhyayanas: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Rāmakaṇhe" — Ramakrishna, the eighth name. "Rāma" — the supremely beautiful, the joy-giving one. In the Jain tradition, Rama is also counted among the sixty-three great beings of the cosmic cycle (as Balarama, the elder companion). To carry "Rāma" in a name is to carry beauty, delight, and divine association. "Rāma-Kaṇha" — the beautifully divine dark. Eight times this verse has been sung. By now even the casual listener can finish it before the speaker does. That anticipation — knowing what comes next — is what the Nirayavali is building: the felt sense that consequence is inevitable, known in advance, built into the structure of choice.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The ten names are recited again — Ramakrishna Kumar (Rāmakaṇha) is the eighth, meaning "the joyful divine dark" or "the beautiful dark one."</div>
+        <div class="contemplate-prompt">What beauty or joy do I associate with things that are actually leading me toward harm — and how does that beauty make the harm harder to see?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Rāmakaṇha — Eighth</span><span class="concept-tag">Rāma and Kaṇha Combined</span><span class="concept-tag">Beauty Cannot Change Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Ramakrishna Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-8-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Ramakrishnādevi and Prince Ramakrishna Kumar</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । ... तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया रामकण्हा णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं रामकण्हाए देवीए पुत्ते रामकण्हे णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — in Champa, King Konik ruled. Also in Champa was Queen Ramakrishnādevi (Rāmakaṇhā) — a niece of King Shrenika — beautiful, with delicate hands and feet. Her son was Prince Ramakrishna Kumar (Rāmakaṇha Kumāra), handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Rāma and Kaṇha — two names that together span two of the great divine traditions of ancient India. One prince carries both. In the Jain understanding, Rama (Baladeva) and Krishna (Vasudeva) are the two halves of the great cosmic hero-pair of each half-cycle. Rāma-Kaṇha carries the echo of both. And yet: the names of the great do not protect the individual who carries only their echo. The prince with the most luminous compound name descends to the same fourth hell as the prince whose name simply means "dark." The Nirayavali has patience for irony.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, Queen Ramakrishnādevi — carrying both the names of Rama and Krishna — was one of Shrenika's queens, and her son was the handsome Prince Ramakrishna Kumar.</div>
+        <div class="contemplate-prompt">What is the most inspiring combination of qualities or names I carry — and do I actually live up to it, or do I coast on its resonance?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Ramakrishnādevi</span><span class="concept-tag">Ramakrishna Kumar</span><span class="concept-tag">Echo of the Great</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-8-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Rāma-Kaṇha Marches — The Cosmic Names Enter the Same War</h4>
+        <p class="sutra-sanskrit">तए णं से रामकण्हे कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Ramakrishna Kumar — with three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in garudavyuha formation as the eleventh division of Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The combined name "Rāma-Kaṇha" brings together the two halves of the cosmic hero-pair. But in this story, the combined name goes to the same war as the other names. The garudavyuha formation does not know whose name it serves. The arrows do not read names. The war is indifferent to divine resonance. This is the Nirayavali's deepest point: the cosmic order is impartial. Karma does not make exceptions for famous names, however beautifully combined. Eight brothers have now taken this march. Eight identical armies. Eight identical formations. The impartiality of the law is as large as the series demonstrating it.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Ramakrishna Kumar marched to the same battle with the same army — the eighth of ten brothers to take this path.</div>
+        <div class="contemplate-prompt">Are there areas of my life where I rely on my lineage, my associations, or my inherited prestige to do what only my own actions can actually do?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Eighth March</span><span class="concept-tag">Cosmic Impartiality</span><span class="concept-tag">Actions Not Names</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Ramakrishnādevi Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-8-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Eight Mothers — The Grief Does Not Know Grand Names</h4>
+        <p class="sutra-sanskrit">तए णं तीसे रामकण्हा देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते रामकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, पराजिणिस्सइ णो पराजिणिस्सइ, रामकण्हे णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Ramakrishnādevi — lying awake keeping household vigil — had this thought arise within her: "My son Ramakrishna Kumar has gone to war. Will he win? Will he live? Will I see Ramakrishna Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Rāmakaṇhā, carrying the greatest compound name among the ten queens, lies awake in the same darkness as Kali with her single-syllable name. The darkness of maternal fear is not calibrated by the beauty or magnitude of a name. Every mother in this text lies awake in the same dark, holds the same question, falls into the same grief. The Nirayavali has made this point so many times now that it has moved beyond point-making into pure demonstration. Eight times: this is what love and fear do. Eight times: the same night, the same vigil, the same grief. The grief is universal — the names are not.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Ramakrishnādevi lay awake with the same fear — eight mothers, one darkness, one grief.</div>
+        <div class="contemplate-prompt">What luminous name or identity do I carry into the dark — and does it actually light the dark, or does the dark persist regardless?</div>
+        <div class="concept-tags"><span class="concept-tag">Household Vigil</span><span class="concept-tag">Eighth Night</span><span class="concept-tag">Names and Fear</span><span class="concept-tag">Universal Grief</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-8-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Eight Journeys to the Teacher — The Path Is Always Open</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे रामकण्हा देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, करेत्ता वंदइ णमंसइ, वंदित्ता णमंसित्ता थिया चेव सपरिवारा सुस्सूसमाणी णमंसमाणी अभिमुहा विणयणं पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir arrived in Champa. The assembly came out. Ramakrishnādevi, hearing the news, prepared herself and went to Mahavir; she circumambulated him three times, bowed in reverence, and sat before him with joined palms, attending with full devotion.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Eight mothers. Eight journeys to the feet of the teacher. Each one unique. Each one identical in structure. The journey is now as familiar as the opening of the text. And in that familiarity something new emerges: the realization that this path — from personal darkness to the feet of the teacher — is always available. It is not reserved for queens, or for the mothers of warriors, or for the luminously-named. It is the path that the grief-carrying human being can always take. Prepare. Travel. Circumambulate. Bow. Sit. Listen. This is the formula that brings relief.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived in Champa, and Ramakrishnādevi went to him — prepared, reverent, ready to receive whatever was true.</div>
+        <div class="contemplate-prompt">Is the path toward truth always available to me — and what stops me from taking it when I most need it?</div>
+        <div class="concept-tags"><span class="concept-tag">Mahavir Arrives</span><span class="concept-tag">Circumambulation</span><span class="concept-tag">Eighth Journey</span><span class="concept-tag">Path Always Open</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-8-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Eighth Verdict — The Most Beautiful Name, the Same Arrow</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे रामकण्हा देवीए ... धम्मं परिक्काहेइ जाव आणाए आराहए भवइ । तए णं सा रामकण्हा देवी ... एवं वयासी — एवं खलु भंते मम पुत्ते रामकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते किं जिस्सइ णो जिस्सइ जाव रामकण्हे णं कुमारे अहं जीवमाणं पासिस्सं? तव पुत्ते रामकण्हे कुमारे जाव चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं रामकण्हा ण रामकण्हं कुमारं, णो चेव णं तुमं रामकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir taught the dharma to Ramakrishnādevi and the full assembly. Ramakrishnādevi, having absorbed the teaching, asked: "My son Ramakrishna Kumar has gone to battle. Will he win? Will I see him alive?" Mahavir replied: "Your son Ramakrishna Kumar was killed by King Chetaka with a single fatal blow. Ramakrishnādevi — you will not see Ramakrishna Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"You will not see Rāma-Kaṇha alive." The most beautifully named of the eight princes — the one whose name combines the two greatest divine resonances in the ancient tradition — has fallen to the same arrow as the first. This is the Nirayavali's patience: it does not rush this point. It lets it accumulate chapter by chapter, name by name, until the point becomes undeniable. The law of karma is impartial to names. The fourth hell does not read names. The ten sāgaropama are the same for all. Even for the most luminously-named.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Ramakrishnādevi asked and received the same answer: her son was killed by Chetaka, and she would not see him alive.</div>
+        <div class="contemplate-prompt">What is it that I keep hoping will make me the exception to a consequence I've watched others face again and again?</div>
+        <div class="concept-tags"><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Eighth Verdict</span><span class="concept-tag">Impartiality of Karma</span><span class="concept-tag">No Exceptions</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-8-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Hemabha — Eight Brothers, One Irrefutable Truth</h4>
+        <p class="sutra-sanskrit">तए णं सा रामकण्हा देवी ... एवं वयासी — सुयं मे आउसो तहेव जाव जाणामि णं एवं खलु मम पुत्ते रामकण्हे कुमारे कालमासे कालं किच्चा कहिं गए कहिं उववण्णे? तव पुत्ते रामकण्हे कुमारे कालमासे कालं किच्चा णेरइयत्ताए उवावण्णे जाव पंकप्पभाए पुढवीए हेमाभे णामं णिरए दस सागरोवमाइं ठिई ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Queen Ramakrishnādevi, having accepted the news, asked: "I have heard, Lord — and I accept. Where has my son Ramakrishna Kumar's soul gone? Where was he reborn?" Mahavir answered: "Your son Ramakrishna Kumar has been reborn as a hellish being — in the fourth earth Pankprabha, in the hell called Hemabha, for a duration of ten sāgaropama."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Eight brothers in Hemabha. The fourth hell. Ten sāgaropama each. The Nirayavali, by the eighth chapter, has built a case that cannot be argued with — not through logic but through accumulation. Eight times the same consequence. By now it is not news. It is the settled reality of the universe this text describes. Two more brothers remain. The tenth chapter will close the arc. But already, with eight chapters told, the teaching is complete. The Nirayavali could have told this story once. It told it ten times because one telling is not enough to shift what is embedded in the human tendency to believe in exceptions.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Ramakrishnādevi accepted the truth and asked where her son went. The same answer: fourth hell, Hemabha, ten sāgaropama. Eight brothers — one destination.</div>
+        <div class="contemplate-prompt">How many times does the same truth have to arrive before I stop looking for exceptions and simply begin to live differently?</div>
+        <div class="concept-tags"><span class="concept-tag">Pankprabha Earth</span><span class="concept-tag">Hemabha Hell</span><span class="concept-tag">Ten Sāgaropama</span><span class="concept-tag">Accumulated Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<section class="bg-[#f2f1f0] py-16 border-t border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline text-lg text-on-surface-variant italic">"Rāma and Kaṇha in one prince — the most luminously-named of all ten brothers. Chetaka's arrow does not read names. The fourth hell does not grade on beauty. Eight verdicts have now been given, each one the same. The case is not yet closed — two more brothers remain — but by now the principle is not a pattern. It is a law."</p>
+    <p class="text-sm text-primary mt-4 font-semibold uppercase tracking-widest">— Nirayavali Sutra, Varga 1, Chapter 8</p>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-16">
+  <div class="text-center mb-10">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Continue the Varga</span>
+    <h3 class="text-3xl font-headline font-bold text-on-surface mt-3">Navigate the Nirayavali</h3>
+  </div>
+  <div class="flex flex-wrap justify-center gap-3">
+    <a href="../nirayavali-index.html" class="border border-primary/30 text-primary font-headline text-sm px-5 py-2.5 rounded-full hover:bg-primary/5 transition-colors">← Chapter Index</a>
+    <a href="nirayavali-varga1-ch1.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 1: Kala Kumar</a>
+    <a href="nirayavali-varga1-ch2.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 2: Sukala Kumar</a>
+    <a href="nirayavali-varga1-ch3.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 3: Mahakala Kumar</a>
+    <a href="nirayavali-varga1-ch4.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 4: Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch5.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 5: Sukrishna Kumar</a>
+    <a href="nirayavali-varga1-ch6.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 6: Mahakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch7.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 7: Virakrishna Kumar</a>
+    <span class="border border-primary bg-primary/5 text-primary font-headline text-sm px-5 py-2.5 rounded-full font-bold">Ch 8: Ramakrishna Kumar</span>
+    <a href="nirayavali-varga1-ch9.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 9: Pitrisena Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch10.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 10: Mahasena Krishna Kumar</a>
+  </div>
+</section>
+
+<footer class="bg-on-surface text-surface/70 py-16 mt-8">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+      <span class="text-xl font-headline text-surface font-bold tracking-tighter">JainAwaken.org</span>
+      <p class="mt-3 text-sm leading-relaxed">Bringing the Jain Agamas to life through faithful translation and accessible commentary.</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">This Chapter</p>
+      <p class="text-sm">Nirayavali Sutra — Varga 1, Chapter 8<br/>Ramakrishna Kumar (Rāmakaṇha Kumāra)<br/>Translated by Dishant Shah</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">Navigate</p>
+      <div class="flex flex-col gap-2 text-sm">
+        <a href="../../sacred-sutras-index.html" class="hover:text-surface transition-colors">Sacred Sutras Index</a>
+        <a href="../nirayavali-index.html" class="hover:text-surface transition-colors">Nirayavali Index</a>
+        <a href="nirayavali-varga1-ch9.html" class="hover:text-surface transition-colors">Next: Chapter 9 →</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<button class="nav-button left-btn px-5 py-3 font-headline text-sm rounded-full" id="prev-btn" onclick="location.href='nirayavali-varga1-ch7.html'" style="left:24px;">← Chapter 7</button>
+<button class="nav-button right-btn px-5 py-3 font-headline text-sm rounded-full" id="next-btn" onclick="location.href='nirayavali-varga1-ch9.html'" style="right:24px;">Chapter 9 →</button>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-8-1", num: "8.1", title: "The Tuning Fork — Eight Returns to Sacred Ground" },
+  { id: "sutra-8-2", num: "8.2", title: "The Eighth Assembly — How Dharma Spreads" },
+  { id: "sutra-8-3", num: "8.3", title: "Nirayavali — The Name That Rings Like a Bell" },
+  { id: "sutra-8-4", num: "8.4", title: "The Ten Named — Rāma and Kaṇha in the Verse" },
+  { id: "sutra-8-5", num: "8.5", title: "Queen Ramakrishnādevi and Prince Ramakrishna Kumar" },
+  { id: "sutra-8-6", num: "8.6", title: "Rāma-Kaṇha Marches — The Cosmic Names Enter the Same War" },
+  { id: "sutra-8-7", num: "8.7", title: "Eight Mothers — The Grief Does Not Know Grand Names" },
+  { id: "sutra-8-8", num: "8.8", title: "Eight Journeys to the Teacher — The Path Is Always Open" },
+  { id: "sutra-8-9", num: "8.9", title: "The Eighth Verdict — The Most Beautiful Name, the Same Arrow" },
+  { id: "sutra-8-10", num: "8.10", title: "Hemabha — Eight Brothers, One Irrefutable Truth" },
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) { searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>'; searchDropdown.style.display = 'block'; return; }
+  searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join('');
+  searchDropdown.style.display = 'block';
+});
+document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+window.addEventListener('scroll', function() {
+  const y = window.scrollY;
+  document.getElementById('prev-btn').classList.toggle('visible', y > 300);
+  document.getElementById('next-btn').classList.toggle('visible', y > 300);
+});
+</script>
+</body>
+</html>

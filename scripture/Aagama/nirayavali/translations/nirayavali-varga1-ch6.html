@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 6: Mahakrishna Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 6</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Mahakrishna Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">महाकण्ह कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">Six Layers Deep — Where Accumulation Becomes Law</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Mahakrishna Kumar — son of King Shrenika's queen Mahakrishnādevi — is the sixth of ten brothers. "Mahā" means great; "Krishna" means dark. The greatest of the dark ones. Six chapters in, the teaching is no longer building toward a revelation. It is the revelation.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं महाकण्हा ण महाकण्हं कुमारं, णो चेव णं तुमं महाकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Mahakrishnādevi — Mahakrishna Kumar is gone. You will not see Mahakrishna Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Mahakrishna Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The sixth chapter — past the midpoint. The pattern is no longer building. It has arrived. It is the law.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The sixth adhyayan crosses past the midpoint. Five chapters have fully established the pattern; four more will complete it. <span class="text-primary font-semibold">Mahakrishna Kumar</span> — "the great divine dark one" — carries the largest name in the Kāla-series: "Mahā" (great) combined with "Kaṇha" (divine dark). His mother Mahakrishnādevi carries the same greatness. And yet: by the sixth chapter, the listener understands that greatness in a name does not change what the law of karma delivers.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Six repetitions of the same pattern produces something the first five repetitions could not: the felt sense of law. One, two, three times feels like a pattern. Four, five times feels like a trend. Six times feels like a governing principle. The Nirayavali is not simply retelling a story — it is etching a principle into the architecture of the listener's understanding, so deeply that it cannot be argued away later. By the sixth chapter, the opening formula, the march, the grief, and the verdict are not events in a story. They are axioms.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Sixth of Ten</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Past the Midpoint</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 6</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-6-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Arrival as Experience — The Sixth Opening</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Six times the same opening has been spoken. The listener who has stayed through all six chapters now hears this opening not as description but as arrival — they arrive at Rajagriha the moment the sutra begins. This is what sustained sacred recitation does to a text: it transforms description into experience. The words "Rajagriha, Gunasila, the Ashoka tree, the stone slab" are no longer just words. They are the place itself. The six repetitions have done what no single telling could: they have made the geography of the teaching the geography of the listener's mind.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The sixth chapter opens at the same sacred place — Rajagriha, Gunasila, the Ashoka tree, the stone slab. By now this is not description but arrival.</div>
+        <div class="contemplate-prompt">What places in my life have become sacred through repeated return — and what do I carry to them, and what do I receive?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Description as Experience</span><span class="concept-tag">Sacred Geography</span><span class="concept-tag">Sixth Repetition</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-6-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Transmission Chain — Lineage as Guarantee</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, Arya Sudharmashvami — Mahavir's disciple, accompanied by five hundred monks — arrived at Rajagriha; accepted suitable lodging; dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The transmission chain: Mahavir → Sudharmashvami → Jambu → the text we are reading. This chain is stated again at the opening of the sixth chapter. A sacred text does not trust its own permanence. It keeps reaffirming its source, its transmitter, its lineage — because a teaching detached from its lineage becomes a rumor. The five hundred monks are not merely a number — they are the living redundancy system of sacred knowledge. No single memory failure can lose what five hundred people carry. The transmission of the sixth chapter is as reliable as the first.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sudharmashvami arrived with five hundred monks, taught, and the assembly dispersed — as in every previous chapter.</div>
+        <div class="contemplate-prompt">Do I know the source of what I believe — or have the beliefs become detached from their origins, handed down without a chain?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Transmission Chain</span><span class="concept-tag">Five Hundred Monks</span><span class="concept-tag">Living Memory</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-6-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Jambu's Question — The Well That Does Not Empty</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे ... उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू ... उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Jambu asked Sudharmashvami what Mahavir taught in the Upanga. Answer: five sections — Nirayavali, Kalpavamsika, Pushpika, Pushpachulika, Vrishni Dasha.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Six times the five Vargas are named. Six times Jambu has asked the same question. What is being transmitted here is not just the content but the form of inquiry itself: the willingness to ask, and the faithfulness to ask the same fundamental question every time without assuming it has already been answered. Sacred knowledge is not a box you open once and close. It is a well you return to repeatedly — and the sixth return reveals something the first five visits could not, because the sixth visit comes with the weight of all five prior visits carried in the body of the questioner.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked what Mahavir taught in the Upanga; Sudharmashvami named the five sections for the sixth time.</div>
+        <div class="contemplate-prompt">What fundamental question do I keep returning to — and has returning to it multiple times revealed something I couldn't see the first time?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Five Sections</span><span class="concept-tag">Sacred Inquiry</span><span class="concept-tag">Returning to the Well</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-6-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Named — The Second "Mahā" in the Series</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The ten adhyayanas: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Mahākaṇhe" — Mahakrishna, the sixth name in the verse. "Mahā" = great, and "Kaṇha" = divine dark. This is the second name in the series that carries "Mahā" — the first being Mahakala (great dark-time). As if the text is building toward something larger with each "Mahā" prefix. Mahakala: great dark. Mahakrishna: great divine dark. Two brothers whose names carry the word "great" — and yet their story is identical to the brothers whose names carry "su" (auspicious) or no prefix at all. The verse has now been sung six times. By now the listener knows it before the speaker completes it. That anticipation is the teaching landing.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The ten names are recited again — Mahakrishna Kumar (Mahākaṇha) is the sixth, meaning "the greatly divine dark."</div>
+        <div class="contemplate-prompt">What does it mean to carry greatness in a name — and whether any of it matters when the moment of consequence arrives?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Mahākaṇha — Sixth</span><span class="concept-tag">Second Mahā in Series</span><span class="concept-tag">Anticipated Consequence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Mahakrishna Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-6-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Mahakrishnādevi and Prince Mahakrishna Kumar</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । ... तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया महाकण्हा णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं महाकण्हाए देवीए पुत्ते महाकण्हे णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — in Champa, King Konik ruled. Also in Champa was Queen Mahakrishnādevi (Mahākaṇhā) — a niece of King Shrenika, a step-mother-side aunt of King Konik — beautiful, with delicate hands and feet. Her son was Prince Mahakrishna Kumar (Mahākaṇha Kumāra), handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Mahakrishnādevi carries the largest name so far among the queens — "Mahā-Kaṇhā," the greatly divine dark. In the Jain cosmological tradition, the great Kaṇha (Vasudeva Krishna) is one of the most powerful beings of any cosmic cycle. To call a queen "the great Kaṇhā" is to give her a name that resonates with cosmic power. Her son carries the same name in masculine form. And yet: the cosmic resonance of names does not echo into the karma that matters. In battle, in death, in rebirth — what matters is not what you were called but what you did.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, Queen Mahakrishnādevi — "the greatly divine dark" — was one of Shrenika's queens, and her son was the handsome Prince Mahakrishna Kumar.</div>
+        <div class="contemplate-prompt">What do I call myself — what names, labels, or identities do I carry — and how much do they actually reflect what I do, rather than what I wish I were?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Mahakrishnādevi</span><span class="concept-tag">Mahakrishna Kumar</span><span class="concept-tag">Cosmic Name — Karmic Reality</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-6-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Great One Marches — and the Law Does Not Read Titles</h4>
+        <p class="sutra-sanskrit">तए णं से महाकण्हे कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Mahakrishna Kumar — with three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in garudavyuha formation as the eleventh division of Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Mahā" — great — and the army is still three thousand elephants, still three thousand chariots, still the eleventh division. The war does not know that this prince carries a great name. The arrow will not know it either. This is one of the Nirayavali's quiet arguments against pride: greatness measured by name or status or lineage does not translate into protection from consequences. The law of karma does not read titles. Six brothers have now entered this same battle. The text does not vary the army's size, the formation, or the division number for the great one. Everything is identical. The identity of the name and the identity of the consequence make the teaching unmistakable.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahakrishna Kumar — "the great divine dark" — marched to the same battle with the same army as all five brothers before him.</div>
+        <div class="contemplate-prompt">What do I think my status or reputation protects me from — and is that belief actually tested by reality?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Three Thousand Elephants</span><span class="concept-tag">Karma Ignores Titles</span><span class="concept-tag">Sixth March</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Mahakrishnādevi Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-6-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Sixth Night — One Grief, Many Names</h4>
+        <p class="sutra-sanskrit">तए णं तीसे महाकण्हा देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते महाकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, पराजिणिस्सइ णो पराजिणिस्सइ, महाकण्हे णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Mahakrishnādevi — lying awake keeping household vigil — had this thought arise within her: "My son Mahakrishna Kumar has gone to war. Will he win? Will he not win? Will he live? Will he not live? Will I see Mahakrishna Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The sixth mother lying awake in the dark. By now the listener knows her grief before it is described. The words arrive almost as confirmation of what was already known: yes, another mother, another night, another shapeless fear. But the text insists on naming her, on saying "this Queen Mahākaṇhā" — because the text is making the case that her grief is real and specific, not merely a narrative device. Each mother's darkness is the same darkness and is also entirely her own. The greatest name in the queens' series lies awake with the same fear as the queen whose name simply meant "dark."</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahakrishnādevi lay awake in the same fear for her son that the five mothers before her had felt — the same sleepless vigil.</div>
+        <div class="contemplate-prompt">Is there something I lie awake worrying about that, if I heard someone else describe their identical worry, I would immediately want to comfort — and why don't I offer that same comfort to myself?</div>
+        <div class="concept-tags"><span class="concept-tag">Household Vigil</span><span class="concept-tag">Maternal Fear</span><span class="concept-tag">Sixth Night</span><span class="concept-tag">Same Grief — Many Names</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-6-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Path Toward Truth — Always Available</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे महाकण्हा देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, करेत्ता वंदइ णमंसइ, वंदित्ता णमंसित्ता थिया चेव सपरिवारा सुस्सूसमाणी णमंसमाणी अभिमुहा विणयणं पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir arrived in Champa. The assembly came out. Queen Mahakrishnādevi, hearing the news, prepared herself and went to Mahavir; she circumambulated him three times, bowed in reverence, and sat before him with joined palms, attending with full devotion.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Mahā" — great — and yet she makes the same small human gestures: she hears the news, she prepares herself, she rides to the garden, she walks to the teacher, she circumambulates, she bows, she sits. Greatness does not mean she is above the need for this. It means the need for this is great — the same for all of them, regardless of prefix. Six mothers have now made this journey. Each one is unique. Each one is the same. The path toward truth does not vary based on who is walking it.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahakrishnādevi heard Mahavir had arrived and went to him — preparing, circumambulating, bowing, sitting in reverent attendance.</div>
+        <div class="contemplate-prompt">When I am facing something I cannot resolve alone, what prevents me from making the simple human gesture of going toward help?</div>
+        <div class="concept-tags"><span class="concept-tag">Mahavir Arrives</span><span class="concept-tag">Circumambulation</span><span class="concept-tag">Sixth Journey</span><span class="concept-tag">Path to Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-6-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Sixth Verdict — The Teaching Has Become a Law</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे महाकण्हा देवीए ... धम्मं परिक्काहेइ जाव आणाए आराहए भवइ । तए णं सा महाकण्हा देवी ... एवं वयासी — एवं खलु भंते मम पुत्ते महाकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते किं जिस्सइ णो जिस्सइ जाव महाकण्हे णं कुमारे अहं जीवमाणं पासिस्सं? तव पुत्ते महाकण्हे कुमारे जाव चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं महाकण्हा ण महाकण्हं कुमारं, णो चेव णं तुमं महाकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir taught the dharma to Mahakrishnādevi and the full assembly. Mahakrishnādevi, having absorbed the teaching, asked: "My son Mahakrishna Kumar has gone to battle. Will he win? Will I see him alive?" Mahavir replied: "Your son Mahakrishna Kumar was killed by King Chetaka with a single fatal blow. Mahakrishnādevi — you will not see Mahakrishna Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"You will not see Mahākaṇha alive." Six times. The teaching is not new at this point — it is deepening. The listener who has heard this verdict six times no longer hears it as news. They hear it as law. The Nirayavali wants the listener to carry this law in their bones — not as a fact about princes who lived long ago, but as a living principle about violence, consequence, and the structure of karma. Each "you will not see him alive" is addressed not just to the queen in the story but to everyone who is listening. The dharma teaching before the verdict is what makes the verdict bearable. Without it, this is only grief. With it, it is understanding.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahakrishnādevi asked and received the same answer: her son was killed by Chetaka, and she would not see him alive.</div>
+        <div class="contemplate-prompt">What verdict has been delivered to me repeatedly — in different situations, through different people — that I have still not fully absorbed?</div>
+        <div class="concept-tags"><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Sixth Verdict</span><span class="concept-tag">Teaching Before the Blow</span><span class="concept-tag">Karma as Law</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-6-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Hemabha — Six Brothers, One Abode, One Duration</h4>
+        <p class="sutra-sanskrit">तए णं सा महाकण्हा देवी ... एवं वयासी — सुयं मे आउसो तहेव जाव जाणामि णं एवं खलु मम पुत्ते महाकण्हे कुमारे कालमासे कालं किच्चा कहिं गए कहिं उववण्णे? तव पुत्ते महाकण्हे कुमारे कालमासे कालं किच्चा णेरइयत्ताए उवावण्णे जाव पंकप्पभाए पुढवीए हेमाभे णामं णिरए दस सागरोवमाइं ठिई ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Queen Mahakrishnādevi, having accepted the news, asked: "I have heard, Lord — and I accept. Where has my son Mahakrishna Kumar's soul gone? Where was he reborn?" Mahavir answered: "Your son Mahakrishna Kumar has been reborn as a hellish being — in the fourth earth Pankprabha, in the hell called Hemabha, for a duration of ten sāgaropama."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Suyaṃ me āuso" — "I have heard, and I accept." Six women have spoken these words. Composed, grounded, not broken. The dharma teaching prepared each of them to receive loss without collapse. Six brothers. The same hell. The same abode. The same duration. The teaching is now embedded so deeply in the listener's awareness that the words "Pankprabha, Hemabha, ten sāgaropama" have become the text's deepest refrain — not a lament but a law. Mahakrishnādevi goes on to the path of liberation. Her son is in Hemabha. Her grandson will take ordination and go to heaven. Three generations. Three different directions. The karma of each soul is its own.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahakrishnādevi accepted her son's death and asked where his soul went. The same answer: fourth hell, Hemabha, ten sāgaropama. Six brothers — one destination.</div>
+        <div class="contemplate-prompt">What path am I on — and is it one that leads toward liberation, or toward a consequence I have not yet fully seen?</div>
+        <div class="concept-tags"><span class="concept-tag">Pankprabha Earth</span><span class="concept-tag">Hemabha Hell</span><span class="concept-tag">Ten Sāgaropama</span><span class="concept-tag">Three Generations</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<section class="bg-[#f2f1f0] py-16 border-t border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline text-lg text-on-surface-variant italic">"The law of karma does not read titles. The fourth hell received Mahakrishna Kumar — the greatly divine dark — the same as it received Kala Kumar, the simply dark. Six times the same consequence has now been declared. It is no longer news. It is the structure of the universe this text describes."</p>
+    <p class="text-sm text-primary mt-4 font-semibold uppercase tracking-widest">— Nirayavali Sutra, Varga 1, Chapter 6</p>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-16">
+  <div class="text-center mb-10">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Continue the Varga</span>
+    <h3 class="text-3xl font-headline font-bold text-on-surface mt-3">Navigate the Nirayavali</h3>
+  </div>
+  <div class="flex flex-wrap justify-center gap-3">
+    <a href="../nirayavali-index.html" class="border border-primary/30 text-primary font-headline text-sm px-5 py-2.5 rounded-full hover:bg-primary/5 transition-colors">← Chapter Index</a>
+    <a href="nirayavali-varga1-ch1.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 1: Kala Kumar</a>
+    <a href="nirayavali-varga1-ch2.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 2: Sukala Kumar</a>
+    <a href="nirayavali-varga1-ch3.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 3: Mahakala Kumar</a>
+    <a href="nirayavali-varga1-ch4.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 4: Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch5.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 5: Sukrishna Kumar</a>
+    <span class="border border-primary bg-primary/5 text-primary font-headline text-sm px-5 py-2.5 rounded-full font-bold">Ch 6: Mahakrishna Kumar</span>
+    <a href="nirayavali-varga1-ch7.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 7: Virakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch8.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 8: Ramakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch9.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 9: Pitrisena Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch10.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 10: Mahasena Krishna Kumar</a>
+  </div>
+</section>
+
+<footer class="bg-on-surface text-surface/70 py-16 mt-8">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+      <span class="text-xl font-headline text-surface font-bold tracking-tighter">JainAwaken.org</span>
+      <p class="mt-3 text-sm leading-relaxed">Bringing the Jain Agamas to life through faithful translation and accessible commentary.</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">This Chapter</p>
+      <p class="text-sm">Nirayavali Sutra — Varga 1, Chapter 6<br/>Mahakrishna Kumar (Mahākaṇha Kumāra)<br/>Translated by Dishant Shah</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">Navigate</p>
+      <div class="flex flex-col gap-2 text-sm">
+        <a href="../../sacred-sutras-index.html" class="hover:text-surface transition-colors">Sacred Sutras Index</a>
+        <a href="../nirayavali-index.html" class="hover:text-surface transition-colors">Nirayavali Index</a>
+        <a href="nirayavali-varga1-ch7.html" class="hover:text-surface transition-colors">Next: Chapter 7 →</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<button class="nav-button left-btn px-5 py-3 font-headline text-sm rounded-full" id="prev-btn" onclick="location.href='nirayavali-varga1-ch5.html'" style="left:24px;">← Chapter 5</button>
+<button class="nav-button right-btn px-5 py-3 font-headline text-sm rounded-full" id="next-btn" onclick="location.href='nirayavali-varga1-ch7.html'" style="right:24px;">Chapter 7 →</button>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-6-1", num: "6.1", title: "The Opening That Has Become a Doorway — Sacred arrival at Rajagriha" },
+  { id: "sutra-6-2", num: "6.2", title: "The Transmission Chain — Lineage as Guarantee" },
+  { id: "sutra-6-3", num: "6.3", title: "Jambu's Question — The Well That Does Not Empty" },
+  { id: "sutra-6-4", num: "6.4", title: "The Ten Named — The Second Mahā in the Series" },
+  { id: "sutra-6-5", num: "6.5", title: "Queen Mahakrishnādevi and Prince Mahakrishna Kumar" },
+  { id: "sutra-6-6", num: "6.6", title: "The Great One Marches — and the Law Does Not Read Titles" },
+  { id: "sutra-6-7", num: "6.7", title: "The Sixth Night — One Grief, Many Names" },
+  { id: "sutra-6-8", num: "6.8", title: "The Path Toward Truth — Always Available" },
+  { id: "sutra-6-9", num: "6.9", title: "The Sixth Verdict — The Teaching Has Become a Law" },
+  { id: "sutra-6-10", num: "6.10", title: "Hemabha — Six Brothers, One Abode, One Duration" },
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) { searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>'; searchDropdown.style.display = 'block'; return; }
+  searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join('');
+  searchDropdown.style.display = 'block';
+});
+document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+window.addEventListener('scroll', function() {
+  const y = window.scrollY;
+  document.getElementById('prev-btn').classList.toggle('visible', y > 300);
+  document.getElementById('next-btn').classList.toggle('visible', y > 300);
+});
+</script>
+</body>
+</html>

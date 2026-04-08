@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chapter 9: Sita's Swayamvar — Jain Ramayana | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#755b0015 1px, transparent 1px); background-size: 40px 40px; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+.scene-card { border: 1px solid rgba(117,91,0,0.18); border-left: 4px solid #755b00; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.scene-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.08); }
+.scene-prose { font-family: 'Noto Serif', serif; font-size: 1.1rem; line-height: 1.9; color: #1d1c17; }
+.jain-lens { border-top: 1px dashed rgba(117,91,0,0.25); margin-top: 1.25rem; padding-top: 1.25rem; font-family: 'Inter', sans-serif; font-size: 0.95rem; line-height: 1.7; color: #4d4637; }
+.jain-lens b { color: #755b00; font-weight: 600; }
+.scene-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.scene-tag { display: inline-block; border: 1px solid #755b00; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(117,91,0,0.2); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(117,91,0,0.35); color: rgba(117,91,0,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #755b00; color: #755b00; }
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .scene-prose { font-size: 1rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#755b00]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="nav-link text-primary font-bold transition-colors duration-300" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-24">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 09</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Sita's Swayamvar
+        <span class="block text-primary font-normal text-3xl md:text-4xl mt-2">સીતાનો સ્વયંવર</span>
+      </h1>
+    </div>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Sita enters the great hall and passes Ravana without pausing. She comes to Ram — the young prince who strung the bow with ease — and recognises what her soul has been waiting for.
+    </p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center">
+    <div class="w-full aspect-[4/3] relative rounded-xl overflow-hidden bg-surface-container-high shadow-2xl">
+      <img alt="Illustrated page depicting Sita's Swayamvar ceremony in Mithila" class="w-full h-full object-contain" src="assets/images/page-035.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/10 to-transparent pointer-events-none"></div>
+    </div>
+  </div>
+</section>
+
+<!-- About This Chapter -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sita's Swayamvar</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Sita enters the great hall and passes Ravana without pausing. She comes to Ram — the young prince who strung the bow with ease — and recognises what her soul has been waiting for.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Four princes marry four princesses in a single magnificent ceremony. The Ramayana has found its centre.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Union</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Core Theme</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Mithila</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Setting</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">6</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Scenes</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">pp. 22&ndash;25</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Book Pages</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Scene Cards -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 9 · Scene by Scene</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sita's Swayamvar</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each scene is a self-contained moment in the story — read straight through, or pause at each card to reflect.</p>
+  </div>
+
+  <!-- Part I -->
+  <div class="section-divider"><span>Part I &mdash; The Garland</span></div>
+
+  <article class="scene-card p-8" id="scene-9-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">Sita Enters the Hall</h4>
+        <p class="scene-prose">The swayamvar hall of Mithila was filled to its great capacity. Kings, princes, chieftains, and warriors from across the known world had come — drawn by the fame of Janaka's daughter, drawn by the challenge of the bow. Sita entered. She moved through the hall with the composure of someone who understood exactly what was happening and was not overwhelmed by it. She carried the jayamala — the garland of victory — in her hands. The entire hall watched her. Every prince straightened. Every king leaned forward.</p>
+        <p class="scene-prose">Ravana was there. The king of Lanka, the most powerful ruler in the world — he sat among the assembled suitors with the confidence of a man who had never been refused anything. He had come to Mithila not to compete but to collect. Sita, in his mind, was already his.</p>
+        <div class="scene-tags"><span class="scene-tag">Sita</span><span class="scene-tag">Swayamvar Hall</span><span class="scene-tag">Jayamala</span><span class="scene-tag">Ravana Present</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-9-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">Past Ravana, to Ram</h4>
+        <p class="scene-prose">Sita walked past Ravana. She did not pause. She did not glance. She moved through the hall with the sureness of someone guided by something deeper than politics or appearance — guided by the recognition that happens when a soul encounters what it has been looking for across lifetimes. She came to Ram. The young prince of Ayodhya sat quietly, without display, without the anxious energy that filled the other suitors. He was calm. He was present.</p>
+        <p class="scene-prose">When Sita placed the garland around his neck, the hall understood that something had happened beyond the politics of alliance or the mechanics of a swayamvar. Two souls had recognised each other. The hall erupted. Janaka wept — not with relief, exactly, but with something that had no other name: the deep exhale of a man whose long vigil of love and concern has been answered.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> Soul recognition — <b>atma-parichay</b> — is not metaphor in Jain cosmology. Souls accumulate karmic connections across births. Sita and Ram, the text implies, have been in proximity before — in other lives, other forms. This moment is not a beginning. It is a return. The looking is brief because the recognition is deep.</p>
+        <div class="scene-tags"><span class="scene-tag">Recognition</span><span class="scene-tag">Garland Given</span><span class="scene-tag">Soul Connection</span><span class="scene-tag">Janaka's Joy</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Part II -->
+  <div class="section-divider"><span>Part II &mdash; The Wedding</span></div>
+
+  <article class="scene-card p-8" id="scene-9-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">Four Princes, Four Brides</h4>
+        <p class="scene-prose">The Ramayana, even in its moments of joy, moves with a certain fullness. Dasharatha arrived from Ayodhya with his full retinue, and the celebrations expanded to include not one wedding but four. Ram married Sita. Lakshman married Urmila, Sita's sister. Bharat married Mandavi, a niece of Janaka's. Shatrughna married Shrutakirti. Four princes of Ayodhya, four princesses of Mithila — the two great households joined in a ceremony the texts describe as one of the most magnificent events of that age.</p>
+        <p class="scene-prose">The wedding rituals were conducted with the full precision of Jain dharmic practice — prayers offered to the Jinas, vows taken, the blessings of the monks and nuns invoked for the new couples. In that ancient hall, the bonds were formed that would carry these eight souls through everything that was coming — the joy and the exile, the war and the return, the long arc of their shared karma.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> The Jain account notes that the ceremonies honoured the Jinas rather than Vedic deities. This is a consistent thread: the Ramayana is set within a Jain cosmological world where the enlightened ones — not gods — are the highest objects of reverence, even in royal celebrations.</p>
+        <div class="scene-tags"><span class="scene-tag">Four Weddings</span><span class="scene-tag">Mithila</span><span class="scene-tag">Jain Ceremony</span><span class="scene-tag">Two Dynasties Joined</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-9-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">Days of Celebration</h4>
+        <p class="scene-prose">The celebrations lasted for days. The streets were full. The food was endless. The music went through the nights and into the mornings. Kaushalya wept with joy — every mother weeps when she watches her son marry well, and Ram had married beyond anything she could have hoped for. Dasharatha, for a brief time, forgot everything that had ever troubled him. He sat in the middle of his family's happiness and felt that life had been, on balance, extraordinarily good to him. He did not know what was coming. Nobody in that celebration hall did. The happiness was real and it was full.</p>
+        <div class="scene-tags"><span class="scene-tag">Celebration</span><span class="scene-tag">Kaushalya's Joy</span><span class="scene-tag">Dasharatha's Peace</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-9-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">The Return to Ayodhya</h4>
+        <p class="scene-prose">The wedding party returned to Ayodhya in a procession that stretched for miles. Ayodhya received them with the kind of joy that only a city which has waited and hoped and prayed can produce. The streets were lined with people. The rooftops were crowded. Flowers fell like rain. For a moment — and it was a moment the Ramayana pauses to savour — everything was as it should have been. The kingdom was whole. The royal household was complete. The future seemed clear and full of dharmic promise.</p>
+        <p class="scene-prose">Ram and Sita, in those early days, were everything that a marriage between two extraordinary souls should be — Ram's steadiness matched by Sita's grace, his strength balanced by her wisdom, his dharmic resolve deepened by her presence. But the Ramayana is not a story that stays in one place. Even as Ayodhya celebrated, the forces that would tear this household apart were already gathering — in the corridors of the palace, in the unspoken ambitions that lived alongside the genuine love.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> The text's awareness of coming suffering within the moment of joy is itself a teaching: <b>the impermanence of even the most beautiful arrangements</b>. The Ramayana does not let the reader forget that this is a temporary station on a longer journey. The joy is real. The joy is not permanent. Both things are true.</p>
+        <div class="scene-tags"><span class="scene-tag">Return to Ayodhya</span><span class="scene-tag">Impermanence</span><span class="scene-tag">Joy and Shadow</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-9-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">A Palace Made Complete</h4>
+        <p class="scene-prose">The palace of Ayodhya, which had already been a place of dharmic governance and royal dignity, became something more with the presence of these four couples. It became a living example of what a household could be when it was governed by righteousness and animated by love.</p>
+        <p class="scene-prose">And Ram and Sita — what did they know, in those days of celebration? The Jain tradition presents them as souls who had met before, in different forms, in different lives, and who recognised one another now with the deep recognition of souls that have made the same journey for a very long time. Their marriage was not an ending. It was the next stage of a story that had been going on much longer than either of their present lives.</p>
+        <div class="scene-tags"><span class="scene-tag">Ram and Sita</span><span class="scene-tag">Karmic Companions</span><span class="scene-tag">Dharmic Household</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- Closing -->
+<section class="py-16 border-t border-primary/10">
+  <div class="max-w-3xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline italic text-lg text-on-surface-variant leading-relaxed">
+      And so Ram and Sita came together — two souls of extraordinary standing, drawn to each other across the great pattern of their karma, arriving in the same place at the same time, recognised by one another and by those around them as exactly right. The Ramayana had found its centre. Everything else — the joy that remained and the suffering that was coming — would radiate from this still point.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- Floating Nav Buttons -->
+<a href="ramayana-ch8.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 8
+</a>
+<a href="ramayana-ch10.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 10 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="ramayana-index.html">Jain Ramayana</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+
+</body>
+</html>

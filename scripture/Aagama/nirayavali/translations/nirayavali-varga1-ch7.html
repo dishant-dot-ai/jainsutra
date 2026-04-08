@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 7: Virakrishna Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 7</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Virakrishna Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">वीरकण्ह कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">The Brave One Falls — On Heroism and Its Direction</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Virakrishna Kumar — son of King Shrenika's queen Virakrishnādevi — is the seventh of ten brothers. "Vīra" means heroic, brave. "Krishna" means dark. Even the brave and heroic divine dark one falls to the same arrow. The Nirayavali asks not whether you are brave, but what your bravery is pointed toward.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं वीरकण्हा ण वीरकण्हं कुमारं, णो चेव णं तुमं वीरकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Virakrishnādevi — Virakrishna Kumar is gone. You will not see Virakrishna Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Virakrishna Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The seventh chapter — the brave one. Heroism in violence produces the karmic consequence of violence, regardless of the heroism in the act.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The seventh adhyayan introduces a name never carried before in the series: "Vīra" — hero, brave, valiant. <span class="text-primary font-semibold">Virakrishna Kumar</span> is not just another variation on darkness. He is the brave and heroic divine dark one. In the Jain tradition, "Vīra" is one of the epithets of Mahavir himself — the great hero, the brave one who crossed the ocean of worldly existence.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        And yet: the brave prince takes the same road as all his brothers. His bravery was not false — the text does not suggest he was a coward. He marched with genuine valor, a full force, and a warrior's purpose. But bravery directed at violence carries the karma of violence regardless of how genuinely brave the act was. The seventh chapter asks a question that cuts deeper than "was this person brave?" — it asks: "was this bravery pointed in the right direction?"
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Seventh of Ten</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">The Brave One</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 7</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-7-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ashoka Tree — What Stands While Everything Passes</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Seven times now, the same ground. The listener has become a resident of Rajagriha. Gunasila is as familiar as one's own courtyard. The Ashoka tree — that tree which never changes, which stood before all these stories began and will stand after — marks the spot where truth is transmitted. In the Jain tradition, Ashoka trees are associated with the birth of Tirthankaras. Under the Ashoka, the sacred is spoken. Here, the sacred is the account of tragedy — which is not less sacred for being tragic. Seven brothers' stories, one unchanging tree.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The seventh chapter begins at the same place — Rajagriha, Gunasila, the Ashoka tree, the stone slab. Seven times. The ground is steady.</div>
+        <div class="contemplate-prompt">What stands in my life like the Ashoka tree — unchanging while everything around it passes away?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Ashoka Tree</span><span class="concept-tag">Seventh Repetition</span><span class="concept-tag">Sacred Unchanging Ground</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-7-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sudharmashvami — The Teaching Carried in the Body</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, Arya Sudharmashvami — accompanied by five hundred monks, wandering village to village — arrived at Rajagriha; accepted suitable lodging; dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The five hundred monks — their number has not diminished through the telling. This is the living institution of Jain monasticism: a community of practitioners who carry the teaching collectively so that no single memory failure can lose it. The teaching is not stored in a library. It is stored in five hundred walking, breathing, practicing beings. What would it mean to carry a teaching not as stored information but as embodied understanding — so that it could not be lost by forgetting, only by abandoning the practice itself?</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sudharmashvami arrived with five hundred monks, taught, and the assembly dispersed — the same as every time before.</div>
+        <div class="contemplate-prompt">What would it mean to carry a teaching in my body, in my life, not just in my memory — so that it could not be lost by forgetting?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Five Hundred Monks</span><span class="concept-tag">Embodied Teaching</span><span class="concept-tag">Living Transmission</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-7-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Jambu's Question — The Larger Context</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे ... उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू ... उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Jambu asked what Mahavir taught in the Upanga. Answer: five sections — Nirayavali, Kalpavamsika, Pushpika, Pushpachulika, Vrishni Dasha.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Seven times the five sections are named. The listener now carries these names as fluently as their own. Notice the final name: "Vrishni Dasha" — the ten Vrishni heroes — is the last Varga, and it concerns the Vrishni heroes, among them the great Kaṇha (Vasudeva Krishna). It is the fitting end of a scripture whose middle chapters describe the tragic arc of ten princes who carried "Kaṇha" in their names. The full Upanga keeps its largest cosmic context visible even while the immediate story is as small and personal as a mother's sleepless night.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked about the Upanga's five sections; Sudharmashvami named them — for the seventh time.</div>
+        <div class="contemplate-prompt">What larger context do I lose sight of when I am absorbed in the immediate story in front of me?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Five Sections</span><span class="concept-tag">Vrishni Dasha</span><span class="concept-tag">Larger Context</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-7-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Named — Vīra, the Seventh Name</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The ten adhyayanas: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Vīrakaṇhe" — Virakrishna, the seventh name. "Vīra" means hero, brave, valiant. In the Jain tradition, "Vira" is one of the epithets of Mahavir himself. A prince named Vīra-Kaṇha carries both "the brave" and "the divine dark" in his name. And yet: bravery in battle, when that battle is woven through with the karma of violence, does not protect. The hero descends to hell the same as the one who carries no heroic title. The Nirayavali is not against bravery — it is asking us to examine what we call brave and what that bravery actually costs.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The ten names are recited again — Virakrishna Kumar (Vīrakaṇha) is the seventh, meaning "the brave divine dark."</div>
+        <div class="contemplate-prompt">What do I call bravery in my own life — and am I willing to examine whether that bravery is leading somewhere I actually want to go?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Vīrakaṇha — Seventh</span><span class="concept-tag">Heroism and Direction</span><span class="concept-tag">Mahavir's Epithet</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Virakrishna Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-7-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Virakrishnādevi and Prince Virakrishna Kumar</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । ... तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया वीरकण्हा णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं वीरकण्हाए देवीए पुत्ते वीरकण्हे णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — in Champa, King Konik ruled. Also in Champa was Queen Virakrishnādevi (Vīrakaṇhā) — a niece of King Shrenika — beautiful, with delicate hands and feet. Her son was Prince Virakrishna Kumar (Vīrakaṇha Kumāra), handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"Vīra" — brave, heroic. The queen carries heroism in her name. Her son carries heroism in his. And both of them are drawn into the orbit of the same tragedy. The name "Vīra" does not indicate that this prince was uniquely brave among the ten brothers; the text does not rank them by courage. All ten went to the same battle. All ten fell. The point is not that heroism is false — it is that heroism directed at violence carries a cost that no amount of heroic spirit can neutralize.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, Queen Virakrishnādevi — "the brave divine dark" — was one of Shrenika's queens, and her son was Prince Virakrishna Kumar.</div>
+        <div class="contemplate-prompt">Is the heroism I admire in myself pointed in a direction that will actually take me somewhere I want to go?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Virakrishnādevi</span><span class="concept-tag">Virakrishna Kumar</span><span class="concept-tag">Heroism and Consequence</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-7-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Brave Prince Marches — Bravery and Its Direction</h4>
+        <p class="sutra-sanskrit">तए णं से वीरकण्हे कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Virakrishna Kumar — with three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in garudavyuha formation as the eleventh division of Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The brave prince marches to war. His bravery is not in question — the text does not suggest he was a coward or unwilling. He went with full force, commanded three thousand elephants, entered the eagle formation, descended into battle as the eleventh division. His bravery was real — and it led him to the same end as six brothers before him. This is the Nirayavali's point: it is not the absence of bravery that causes the consequence. It is the direction the bravery chose. In the Jain tradition, the highest bravery is the non-violence of the monk who renounces everything — not the violence of the warrior who carries everything into battle.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Virakrishna Kumar marched to battle with the full army — the seventh of ten brothers to take the same path.</div>
+        <div class="contemplate-prompt">Am I brave in the directions that actually matter — in honesty, in restraint, in non-harm — or only in directions that are publicly celebrated?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Seventh March</span><span class="concept-tag">Brave But Misdirected</span><span class="concept-tag">Direction of Valor</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Virakrishnādevi Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-7-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Brave Queen Lies Awake — Bravery Does Not Extinguish Fear</h4>
+        <p class="sutra-sanskrit">तए णं तीसे वीरकण्हा देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते वीरकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, पराजिणिस्सइ णो पराजिणिस्सइ, वीरकण्हे णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Virakrishnādevi — lying awake keeping household vigil — had this thought arise within her: "My son Virakrishna Kumar has gone to war. Will he win? Will he live? Will I see Virakrishna Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The brave queen lies awake afraid. Her name carries "Vīra" — hero — and she is awake in the dark with a mother's fear, not a hero's confidence. This is not a contradiction. Bravery is not the absence of fear. Bravery is what one does with fear. Virakrishnādevi carries her fear to Mahavir — which is its own form of bravery. She does not numb it. She does not distract herself. She follows the fear to its source and asks what is true. This may be the highest bravery the text describes in this Varga.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Virakrishnādevi lay awake with the same fear as the six mothers before her — the brave queen in the same dark.</div>
+        <div class="contemplate-prompt">What would it mean to be brave with my fear rather than brave in spite of it — to take the fear itself to someone who can help me understand it?</div>
+        <div class="concept-tags"><span class="concept-tag">Household Vigil</span><span class="concept-tag">Brave Queen — Human Fear</span><span class="concept-tag">Seventh Night</span><span class="concept-tag">Fear as the Path</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-7-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Bravery Directed Toward Truth</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे वीरकण्हा देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, करेत्ता वंदइ णमंसइ, वंदित्ता णमंसित्ता थिया चेव सपरिवारा सुस्सूसमाणी णमंसमाणी अभिमुहा विणयणं पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir arrived in Champa. The assembly came out. Virakrishnādevi, hearing the news, prepared herself and went to Mahavir; she circumambulated him three times, bowed in reverence, and sat before him with joined palms, attending with full devotion.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The brave queen goes to the feet of the teacher. Bravery used well: directed toward truth, toward the teacher who holds what is real, toward the willingness to hear an answer that might be devastating. Seven mothers have now made this journey. Each one is unique. Each one is the same. The path toward truth does not change based on who is walking it — the brave and the timid, the great-named and the simply-named, all arrive the same way: prepared, circumambulating, bowing, sitting, listening.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived in Champa, and Virakrishnādevi went to him — the same preparation, circumambulation, and reverent attendance.</div>
+        <div class="contemplate-prompt">In what direction am I directing my bravery right now — and is it toward truth, or away from it?</div>
+        <div class="concept-tags"><span class="concept-tag">Mahavir Arrives</span><span class="concept-tag">Circumambulation</span><span class="concept-tag">Seventh Journey</span><span class="concept-tag">Bravery Toward Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-7-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Seventh Verdict — Precision, Not Cruelty</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे वीरकण्हा देवीए ... धम्मं परिक्काहेइ जाव आणाए आराहए भवइ । तए णं सा वीरकण्हा देवी ... एवं वयासी — एवं खलु भंते मम पुत्ते वीरकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते किं जिस्सइ णो जिस्सइ जाव वीरकण्हे णं कुमारे अहं जीवमाणं पासिस्सं? तव पुत्ते वीरकण्हे कुमारे जाव चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं वीरकण्हा ण वीरकण्हं कुमारं, णो चेव णं तुमं वीरकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir taught the dharma to Virakrishnādevi and the full assembly. Virakrishnādevi, having absorbed the teaching, asked: "My son Virakrishna Kumar has gone to battle. Will he win? Will I see him alive?" Mahavir replied: "Your son Virakrishna Kumar was killed by King Chetaka with a single fatal blow. Virakrishnādevi — you will not see Virakrishna Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">"You will not see the brave one alive." The name "Vīra" — hero — does not change the verdict. Mahavir is not cruel in saying this. He is precise. The brave queen asked a direct question. The omniscient teacher gave a direct answer. This is what truth-telling looks like: it does not soften the blow, but it does not amplify the pain either. It simply states what is. Seven times this verdict has been given. The teaching before the verdict is what allows the queen to receive it without collapse — she is prepared, not protected.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Virakrishnādevi asked and received the same answer: Virakrishna Kumar was killed by Chetaka, and she would not see him alive.</div>
+        <div class="contemplate-prompt">When I ask someone for the truth, am I actually prepared to hear it — or am I hoping for confirmation of what I want to believe?</div>
+        <div class="concept-tags"><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Seventh Verdict</span><span class="concept-tag">Truth-Telling</span><span class="concept-tag">Prepared Not Protected</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-7-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Hemabha — Seven Brothers, One Consequence</h4>
+        <p class="sutra-sanskrit">तए णं सा वीरकण्हा देवी ... एवं वयासी — सुयं मे आउसो तहेव जाव जाणामि णं एवं खलु मम पुत्ते वीरकण्हे कुमारे कालमासे कालं किच्चा कहिं गए कहिं उववण्णे? तव पुत्ते वीरकण्हे कुमारे कालमासे कालं किच्चा णेरइयत्ताए उवावण्णे जाव पंकप्पभाए पुढवीए हेमाभे णामं णिरए दस सागरोवमाइं ठिई ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Queen Virakrishnādevi, having accepted the news, asked: "I have heard, Lord — and I accept. Where has my son Virakrishna Kumar's soul gone? Where was he reborn?" Mahavir answered: "Your son Virakrishna Kumar has been reborn as a hellish being — in the fourth earth Pankprabha, in the hell called Hemabha, for a duration of ten sāgaropama."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Seven brothers in Hemabha. The fourth hell has received seven of Shrenika's sons, all of them arriving through the same war, all of them staying for the same ten sāgaropama. The Nirayavali does not gloat over this. It states it. This is not punishment handed down by a judge. It is a consequence arising from conditions. The conditions were: mass warfare, dying with a warrior's mind-state, accumulating the karma of violence at scale. Virakrishnādevi, the brave queen, accepts this — and follows the same path as the six brave women before her: toward renunciation, toward ordination, toward liberation.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Virakrishnādevi accepted the truth and asked where her son went. Same answer: fourth hell, Hemabha, ten sāgaropama. Seven brothers — one destination.</div>
+        <div class="contemplate-prompt">If bravery is not about outcomes but about the direction you choose — what is the bravest direction I could choose right now?</div>
+        <div class="concept-tags"><span class="concept-tag">Pankprabha Earth</span><span class="concept-tag">Hemabha Hell</span><span class="concept-tag">Ten Sāgaropama</span><span class="concept-tag">Consequence Not Punishment</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<section class="bg-[#f2f1f0] py-16 border-t border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline text-lg text-on-surface-variant italic">"The brave queen asked a direct question. The omniscient teacher gave a direct answer. Seven verdicts have now been spoken. The brave one falls the same as the dark one. The teaching before the verdict is what makes it bearable. Bravery directed toward truth is the bravery that leads somewhere worth going."</p>
+    <p class="text-sm text-primary mt-4 font-semibold uppercase tracking-widest">— Nirayavali Sutra, Varga 1, Chapter 7</p>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-16">
+  <div class="text-center mb-10">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Continue the Varga</span>
+    <h3 class="text-3xl font-headline font-bold text-on-surface mt-3">Navigate the Nirayavali</h3>
+  </div>
+  <div class="flex flex-wrap justify-center gap-3">
+    <a href="../nirayavali-index.html" class="border border-primary/30 text-primary font-headline text-sm px-5 py-2.5 rounded-full hover:bg-primary/5 transition-colors">← Chapter Index</a>
+    <a href="nirayavali-varga1-ch1.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 1: Kala Kumar</a>
+    <a href="nirayavali-varga1-ch2.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 2: Sukala Kumar</a>
+    <a href="nirayavali-varga1-ch3.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 3: Mahakala Kumar</a>
+    <a href="nirayavali-varga1-ch4.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 4: Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch5.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 5: Sukrishna Kumar</a>
+    <a href="nirayavali-varga1-ch6.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 6: Mahakrishna Kumar</a>
+    <span class="border border-primary bg-primary/5 text-primary font-headline text-sm px-5 py-2.5 rounded-full font-bold">Ch 7: Virakrishna Kumar</span>
+    <a href="nirayavali-varga1-ch8.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 8: Ramakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch9.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 9: Pitrisena Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch10.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 10: Mahasena Krishna Kumar</a>
+  </div>
+</section>
+
+<footer class="bg-on-surface text-surface/70 py-16 mt-8">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+      <span class="text-xl font-headline text-surface font-bold tracking-tighter">JainAwaken.org</span>
+      <p class="mt-3 text-sm leading-relaxed">Bringing the Jain Agamas to life through faithful translation and accessible commentary.</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">This Chapter</p>
+      <p class="text-sm">Nirayavali Sutra — Varga 1, Chapter 7<br/>Virakrishna Kumar (Vīrakaṇha Kumāra)<br/>Translated by Dishant Shah</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">Navigate</p>
+      <div class="flex flex-col gap-2 text-sm">
+        <a href="../../sacred-sutras-index.html" class="hover:text-surface transition-colors">Sacred Sutras Index</a>
+        <a href="../nirayavali-index.html" class="hover:text-surface transition-colors">Nirayavali Index</a>
+        <a href="nirayavali-varga1-ch8.html" class="hover:text-surface transition-colors">Next: Chapter 8 →</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<button class="nav-button left-btn px-5 py-3 font-headline text-sm rounded-full" id="prev-btn" onclick="location.href='nirayavali-varga1-ch6.html'" style="left:24px;">← Chapter 6</button>
+<button class="nav-button right-btn px-5 py-3 font-headline text-sm rounded-full" id="next-btn" onclick="location.href='nirayavali-varga1-ch8.html'" style="right:24px;">Chapter 8 →</button>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-7-1", num: "7.1", title: "The Ashoka Tree — What Stands While Everything Passes" },
+  { id: "sutra-7-2", num: "7.2", title: "Sudharmashvami — The Teaching Carried in the Body" },
+  { id: "sutra-7-3", num: "7.3", title: "Jambu's Question — The Larger Context" },
+  { id: "sutra-7-4", num: "7.4", title: "The Ten Named — Vīra, the Seventh Name" },
+  { id: "sutra-7-5", num: "7.5", title: "Queen Virakrishnādevi and Prince Virakrishna Kumar" },
+  { id: "sutra-7-6", num: "7.6", title: "The Brave Prince Marches — Bravery and Its Direction" },
+  { id: "sutra-7-7", num: "7.7", title: "The Brave Queen Lies Awake — Fear and Bravery" },
+  { id: "sutra-7-8", num: "7.8", title: "Bravery Directed Toward Truth" },
+  { id: "sutra-7-9", num: "7.9", title: "The Seventh Verdict — Precision, Not Cruelty" },
+  { id: "sutra-7-10", num: "7.10", title: "Hemabha — Seven Brothers, One Consequence" },
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) { searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>'; searchDropdown.style.display = 'block'; return; }
+  searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join('');
+  searchDropdown.style.display = 'block';
+});
+document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+window.addEventListener('scroll', function() {
+  const y = window.scrollY;
+  document.getElementById('prev-btn').classList.toggle('visible', y > 300);
+  document.getElementById('next-btn').classList.toggle('visible', y > 300);
+});
+</script>
+</body>
+</html>

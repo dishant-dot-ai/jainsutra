@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 3: Mahakala Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 3</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Mahakala Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">महाकाल कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">Great Darkness Does Not Exempt One from the Consequence</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Mahakala Kumar — son of King Shrenika's queen Mahakali — is the third of ten brothers to descend into the Rathamushala war, the third to fall to Chetaka's unerring arrow, and the third to be reborn in the fourth hell. His name means "great darkness" — and greatness in this context changes nothing. The teaching deepens with each repetition.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं महाकाली ण महाकालं कुमारं, णो चेव णं तुमं महाकालं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Mahakali — Mahakala Kumar is gone. You will not see Mahakala Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Mahakala Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The third of ten parallel stories — by now the listener knows the outcome before the story begins. And the teaching is not lessened. It deepens.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Mahakala Kumar</span> is the son of King Shrenika and Queen Mahakali — the third in Shrenika's line of ten queens. "Mahā" means great; "kāla" means dark, time, or death. The name carries the weight of greatness and the shadow of time in one syllable. And the text does not allow greatness to alter the arc. The great darkness walks to the same war, falls to the same arrow, descends to the same hell.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        By the third chapter, the Nirayavali has established its rhythm. The listener already knows what is coming. This knowing is not a flaw in the narrative — it is the teaching itself. When you already know what the consequence will be, and the action still happens, what does that say about the nature of karma? The third iteration asks this question more sharply than the first two.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Gautama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">The Inquirer</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 3</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Familiar Ground — Now Settled in the Mind</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The same ground. The same garden. The same tree. The same stone slab. By the third chapter, the reader knows this opening as well as one knows the approach to a familiar shrine. This familiarity is not accidental — sacred texts repeat their openings precisely so that the listener's mind arrives at the teaching already settled, already at rest in a known place. Rajagriha, Gunasila, the Ashoka tree — they are no longer just geographical coordinates. They are an invitation to stillness before the truth arrives. The constancy of the sacred setting against the backdrop of repeated tragedy is itself a teaching: what endures is not the individuals who come and go — it is the ground of truth from which every teaching arises. The stone slab beneath the Ashoka tree will be here long after Mahakala Kumar has gone to hell and come back again.</p>
+        <div class="simple-explanation"><b>The simple version:</b> This chapter begins with the same sacred geography — Rajagriha, Gunasila, the Ashoka tree, the stone slab — steady and unchanged as the third story begins.</div>
+        <div class="contemplate-prompt">What provides the steady, unchanging ground in my life from which I can encounter difficult truths — and am I giving that ground enough of my attention?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Gunasila Garden</span><span class="concept-tag">Familiar Ground</span><span class="concept-tag">What Endures</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sudharmashvami — Third Arrival, Same Transmission</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the monk Arya Sudharmashvami — disciple of Mahavir, endowed with noble birth, accompanied by five hundred monks, wandering village to village — arrived at Rajagriha; accepted suitable lodging; dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The third arrival of Sudharmashvami is now deeply familiar — yet the teaching notes something important. Sudharmashvami is not arriving at Rajagriha for the third time as if he were on a tour. Each chapter is a separate occasion of transmission: a different day, a different assembly, a different story to be told. His five hundred monks are not hearing the same story for the third time — they are the living memory system that holds all ten stories simultaneously. Each arrival is complete in itself. The sacred does not require novelty. It requires presence. The assembly that streams out to receive the teaching on this occasion is the same assembly that will hear the story of Mahakala Kumar — a story that will not save them from repeating the same mistakes in their own lives unless they truly receive it.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sudharmashvami arrived again at Rajagriha with his five hundred monks, taught, and the assembly came out and returned — just as in the previous two chapters.</div>
+        <div class="contemplate-prompt">Is there a teaching I have encountered many times but still have not truly received — because I was present for the words but not for what they require of me?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Each Arrival Complete</span><span class="concept-tag">Presence</span><span class="concept-tag">Living Memory</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Jambu Asks — The Third Invitation to the Frame</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे समचउरंससंठाणसंठिए जाव संखित्तविउल तेउलेस्से अज्जसुहम्मस्स अणगारस्स अदूरसामंते उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू ... उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Jambu — seated near Sudharmashvami in reverential posture — asked: "Venerable one, what meaning did Lord Mahavir set forth in the Upanga Sutra?" Sudharmashvami replied: "The five sections: the Nirayavali, the Kalpavamsika, the Pushpika, the Pushpachulika, and the Vrishni Dasha."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The dialogue between Jambu and Sudharmashvami is asked for the third time. For the third time, the same five sections are named. By now, this exchange is a mantra — not information being transmitted for the first time, but a container being held steady so that what is placed within it can be received. The Jain oral tradition understood something that modern education often forgets: the frame around knowledge is as important as the knowledge itself. A truth delivered without a frame is a stone thrown into water — it causes a splash and sinks. A truth delivered within a steady frame is a lamp placed on a stand — it illuminates everything around it. Jambu asking the same question and Sudharmashvami answering the same answer is the frame being placed on the stand.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked his teacher the same question as before, and received the same answer — the five sections of the Upanga, named in the same order.</div>
+        <div class="contemplate-prompt">What is the steady frame in my practice that allows the knowledge I encounter to actually illuminate something — rather than just passing through me without landing?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Five Upanga Sections</span><span class="concept-tag">Frame and Knowledge</span><span class="concept-tag">Mantra Quality</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Named Again — Mahakala Is Third</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir has set forth ten adhyayanas: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, and Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">In the verse, Mahakala's name appears third — right after Kala and Sukala. Three names: dark, auspiciously-dark, and greatly-dark. The progression within just the first three names is telling: darkness in its plain form, darkness made auspicious, darkness made great. The text is not inviting us to judge these names — it is showing us that naming a thing, however elaborately, does not change what it is. A prince whose name means "great darkness" goes to the same war, meets the same arrow, inhabits the same hell. Greatness of name, like greatness of birth, does not alter the trajectory established by one's actions.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The verse names all ten chapters again — Mahakala Kumar is third, right after his two brothers.</div>
+        <div class="contemplate-prompt">What in my life do I call by an impressive name — and does that name actually change the nature of what it describes?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Mahakala — Third</span><span class="concept-tag">Names Don't Change Nature</span><span class="concept-tag">Gāthā Verse</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Mahakala Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Mahakali and Prince Mahakala Kumar</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । ... तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया महाकाली णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं महाकालीए देवीए पुत्ते महाकाले णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — in Champa of Bharatavarsha, in the time of King Konik, there was a queen named Mahakali — a niece of King Shrenika and step-mother-side aunt of King Konik — beautiful, with delicate hands and feet. Her son was Prince Mahakala Kumar, handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Mahakali's name carries the prefix "mahā" — great, vast, the superlative of being. In Indian tradition, Mahakali is an ancient name of immense power, associated with the Goddess of time and transformation. Shrenika's third queen shares this powerful name. Her son Mahakala Kumar carries "great-time" or "great-dark" as his identity. And yet the Nirayavali is silent on this resonance — it treats Mahakala Kumar exactly as it treated Kala Kumar and Sukala Kumar. No name, however ancient or powerful, changes the arithmetic of karma. Three brothers, three queens, three versions of the same tragic story — the Nirayavali is constructing its argument stone by stone. By the time we reach the third stone, the foundation is visible: karma operates universally, without exceptions for birth, name, or magnitude.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, one of King Shrenika's queens was named Mahakali — "the great dark one" — and her son was the handsome Prince Mahakala Kumar.</div>
+        <div class="contemplate-prompt">Do I carry a name, a legacy, or an identity that I expect to protect me from the consequences of how I actually live?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Mahakali</span><span class="concept-tag">Mahakala Kumar</span><span class="concept-tag">Karma Is Universal</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahakala Kumar Goes to Battle</h4>
+        <p class="sutra-sanskrit">तए णं से महाकाले कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Mahakala Kumar — with three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in garudavyuha formation, as the eleventh division of King Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">For the third time, three thousand elephants, three thousand chariots, three thousand cavalry, three crore foot soldiers march to the Rathamushala. The numbers do not change. The formation does not change. The outcome will not change. What is the Nirayavali doing by repeating this formula with such exactness? It is showing us that karma is a structure, not an accident. The ten brothers are not ten different stories — they are ten iterations of the same causal chain. Each iteration makes the chain more visible. By the third time, the listener can feel the weight of what repetition means: this is not individual misfortune. This is a law.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahakala Kumar led the same enormous army as his two brothers before him to the same great battle.</div>
+        <div class="contemplate-prompt">If I see myself repeating the same pattern for the third time — entering the same kind of situation, making the same kind of choice — what would it take for me to stop?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Karma as Structure</span><span class="concept-tag">Repetition as Law</span><span class="concept-tag">Three Iterations</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Mahakali Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahakali's Night of Grief</h4>
+        <p class="sutra-sanskrit">तए णं तीसे महाकाली देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते महाकाले कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, महाकाले णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Mahakali — lying awake keeping vigil over her household — had this thought arise: "My son Mahakala Kumar has gone to the Rathamushala battle. Will he win? Will he live? Will I see Mahakala Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Three mothers. Three nights of lying awake. Three identical spirals of fear. The name "Mahakali" suggests a woman of immense strength — the "great dark one." And here she is, in the dark, lying awake, her great strength unable to do anything for her son who has already gone where she cannot follow. The text does not treat Mahakali's grief as lesser or greater than Kali's or Sukali's. The grief is the same. The love is the same. The helplessness is the same. In this, the Nirayavali is making a subtle but important point: the capacity for suffering that comes from attachment is not proportional to one's greatness, one's name, or one's position. The mother of the prince named "great darkness" is as helpless in the face of her love as the mother of the prince named simply "darkness."</p>
+        <div class="simple-explanation"><b>The simple version:</b> Queen Mahakali lay awake at night worrying about her son — will he win, survive, will I ever see him again? She fell into deep sadness.</div>
+        <div class="contemplate-prompt">Is the greatness I cultivate in myself making me less susceptible to suffering from attachment — or is it just a larger version of the same helplessness?</div>
+        <div class="concept-tags"><span class="concept-tag">Maternal Grief</span><span class="concept-tag">Attachment Is Universal</span><span class="concept-tag">Greatness No Immunity</span><span class="concept-tag">Vigil</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahakali Journeys to Lord Mahavir</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे महाकाली देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, वंदइ णमंसइ, पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the venerable Mahavir had alighted in Champa. The assembly came out. Queen Mahakali, hearing this news, resolved to go attend him — prepared herself, traveled to the Purnabhadra garden, arrived at Mahavir, circumambulated him three times, bowed and paid homage, and sat reverently before him with joined palms.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The third mother makes the third journey. Mahakali hears that Mahavir has arrived, and the text tells us she immediately resolves to go. By now the sequence is clear: grief drives the mothers to truth. The Agama commentators note that this is not just a biographical detail — it is a soteriological pattern. It is precisely the mothers who have the most at stake, the most to lose, the deepest attachment, who find their way to the teacher. Not despite their grief, but through it. Mahakali carries the name of great power. And she uses that power — all of it — to get herself to the feet of the one who can tell her what is actually true. This is what power is for.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived in Champa. Mahakali prepared herself, traveled to the garden, and sat reverently before Mahavir with joined palms.</div>
+        <div class="contemplate-prompt">Am I using my strength, my resources, my advantages to move toward truth — or am I using them to avoid it?</div>
+        <div class="concept-tags"><span class="concept-tag">Journey to the Teacher</span><span class="concept-tag">Grief as Catalyst</span><span class="concept-tag">Power Toward Truth</span><span class="concept-tag">Pradakshina</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-3-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahavir Teaches — And Tells the Third Truth</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे महाकाली देवीए, तीसे य महिमहालियाए परिसाए धम्मं परिक्काहेइ ... एवं खलु भंते मम पुत्ते महाकाले कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते महाकाले णं कुमारे अहं जीवमाणं पासिस्सं ? तव पुत्ते महाकाले कुमारे ... चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं महाकाली ण महाकालं कुमारं, णो चेव णं तुमं महाकालं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir gave the full teaching to Queen Mahakali and the vast assembly. Then Mahakali asked: "My son Mahakala Kumar has gone to the Rathamushala battle. Will I see him alive?" Mahavir replied: "Your son Mahakala Kumar was killed by King Chetaka with a single fatal blow. Mahakali — Mahakala Kumar is gone. You will not see Mahakala Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">For the third time, Mahavir delivers the teaching first — the full dharma-discourse — before he answers the mother's question. The teaching is not a formality before the news. It is the preparation for the news. By the time Mahakali hears "he is gone," she has already received the framework within which that news can be understood: actions have consequences, attachment creates suffering, those who practice the dharma will find their way through. The teaching given before the news is Mahavir's compassion made structural. And then the news: the same words, the same arrow, the same finality. Mahakala Kumar, whose name carries "great-time," has met the great time — the time of his death — at the hands of King Chetaka, in the middle of a war he did not choose to start.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir gave his teaching, and Mahakali asked about her son. Mahavir told her: Mahakala Kumar was killed in battle by a single arrow. He is gone. You will not see him alive.</div>
+        <div class="contemplate-prompt">When I am about to receive news that will change everything, what is the preparation that would allow me to receive it without being destroyed by it?</div>
+        <div class="concept-tags"><span class="concept-tag">Teaching Before News</span><span class="concept-tag">Compassion Made Structural</span><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Great Time</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-3-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahakali's Acceptance — The Third Collapse and Rising</h4>
+        <p class="sutra-sanskrit">तए णं सा महाकाली देवी ... महया पुत्तसोहणं अप्फुण्णा समाणी परसुणियत्ता विवम्पगलया धरणीयलंसि सव्वंगेहिं सण्णिवाडिया ।
+तए णं सा महाकाली देवी मुहुत्तंतरेणं आसत्था समाणी उट्ठाए उट्ठेइ, एवं वयासी — एवमेइयं भंते तच्छमेइयं भंते सच्चे णं भंते एसंठे — धम्मियं जाणप्पवरं दुरुहेइ, जामेव दिसं पाउब्भूया तामेव दिसं पडिगया ।
+भंते त्ति भगवं गोयमे एवं वयासी — महाकाले णं भंते कुमारे चेडएणं रण्णा जीवियाओ वावरोविए समाणे कालमासे कालं किच्चा कहं गए, कहं उवउण्णे ?
+गोयमा त्ति समणे भगवं महावीरे एवं वयासी — एवं खलु गोयमा महाकाले कुमारे ... चउत्थीए पंकप्पभाए पुरवीए हेमाभे णरए दससागरोवमट्ठिइए सु णेरइए सु णेरइयत्ताए उवउण्णे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then Queen Mahakali — overwhelmed by the great grief of her son's loss, like a creeper cut by an axe, her color drained — fell to the ground with all her limbs. After a moment she recovered, rose, bowed to Mahavir, and said: "It is so, venerable one. It is true. It is exactly as you have said." She mounted her chariot and returned in the direction she had come. Then Gautam asked: "Where was Mahakala Kumar reborn?" Mahavir replied: "Mahakala Kumar was reborn in the fourth earth, Pankprabha, in the Hemabha abode, for ten ocean-measure time units."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Three collapses. Three recoveries. Three declarations of "it is exactly as you have said." Three departures. Three times Gautam asks the same question. Three times the same answer arrives: fourth hell, Pankprabha, Hemabha abode, ten sāgaropama. By the third iteration, this sequence has become something beyond narrative — it has become a teaching about the structure of truth itself. Truth does not change to accommodate the person receiving it. It does not become gentler for the queen named "great darkness." It does not become harsher for the son named "great time." It is what it is. And those who encounter it — collapse, recover, accept, and go home — are already on the path toward liberation. The collapse is not the failure. The recovery and acceptance are the beginning.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahakali collapsed, recovered, accepted the truth, and went home. Gautam asked where Mahakala Kumar was reborn — and Mahavir answered: the fourth hell, for ten ocean-measure lifetimes.</div>
+        <div class="contemplate-prompt">In the sequence of collapse, recovery, and acceptance — which stage am I most likely to skip? And what is the cost of skipping it?</div>
+        <div class="concept-tags"><span class="concept-tag">Third Collapse and Rising</span><span class="concept-tag">Truth Does Not Change</span><span class="concept-tag">Pankprabha</span><span class="concept-tag">Ten Sāgaropama</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-12">
+    <div class="section-divider"><span>॥ अध्ययन-३ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 3 — Mahakala Kumar &mdash; Nirayavali Varga 1</p>
+  </div>
+
+</section>
+
+<a href="nirayavali-varga1-ch2.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 2</a>
+<a href="nirayavali-varga1-ch4.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 4 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-16 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-12">
+    <div class="flex flex-col gap-4 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-10 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../nirayavali-index.html">Nirayavali</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-3-1", num: "3.1", title: "The Familiar Ground — Now Settled in the Mind", keywords: "rajagriha gunasila ashoka ground endures setting" },
+  { id: "sutra-3-2", num: "3.2", title: "Sudharmashvami — Third Arrival, Same Transmission", keywords: "sudharmashvami monks wandering presence transmission" },
+  { id: "sutra-3-3", num: "3.3", title: "Jambu Asks — The Third Invitation to the Frame", keywords: "jambu upanga five sections frame knowledge mantra" },
+  { id: "sutra-3-4", num: "3.4", title: "The Ten Named Again — Mahakala Is Third", keywords: "ten chapters mahakala third verse gatha names karma" },
+  { id: "sutra-3-5", num: "3.5", title: "Queen Mahakali and Prince Mahakala Kumar", keywords: "champa mahakali mahakala kumar queen prince great dark" },
+  { id: "sutra-3-6", num: "3.6", title: "Mahakala Kumar Goes to Battle", keywords: "rathamushala battle karma structure repetition law" },
+  { id: "sutra-3-7", num: "3.7", title: "Mahakali's Night of Grief", keywords: "mahakali sleepless grief mother attachment great dark" },
+  { id: "sutra-3-8", num: "3.8", title: "Mahakali Journeys to Lord Mahavir", keywords: "mahavir mahakali journey pradakshina truth power" },
+  { id: "sutra-3-9", num: "3.9", title: "Mahavir Teaches — And Tells the Third Truth", keywords: "teaching news chetaka arrow killed truth compassion" },
+  { id: "sutra-3-10", num: "3.10", title: "Mahakali's Acceptance — The Third Collapse and Rising", keywords: "collapse recovery acceptance pankprabha hemabha ten sagaropama" }
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+if (searchInput) {
+  searchInput.addEventListener('input', function() {
+    const q = this.value.toLowerCase().trim();
+    if (!q) { searchDropdown.style.display = 'none'; return; }
+    const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.keywords.toLowerCase().includes(q) || s.num.includes(q));
+    if (results.length === 0) { searchDropdown.innerHTML = '<div class="search-no-results">No results found</div>'; }
+    else { searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join(''); }
+    searchDropdown.style.display = 'block';
+  });
+  document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+}
+window.addEventListener('scroll', () => {
+  const btns = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) btns.forEach(b => b.classList.add('visible'));
+  else btns.forEach(b => b.classList.remove('visible'));
+});
+</script>
+</body>
+</html>

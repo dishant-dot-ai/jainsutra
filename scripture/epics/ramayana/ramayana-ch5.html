@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chapter 5: Kaikeyi's Swayamvar — Jain Ramayana | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#755b0015 1px, transparent 1px); background-size: 40px 40px; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+.scene-card { border: 1px solid rgba(117,91,0,0.18); border-left: 4px solid #755b00; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.scene-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.08); }
+.scene-prose { font-family: 'Noto Serif', serif; font-size: 1.1rem; line-height: 1.9; color: #1d1c17; }
+.jain-lens { border-top: 1px dashed rgba(117,91,0,0.25); margin-top: 1.25rem; padding-top: 1.25rem; font-family: 'Inter', sans-serif; font-size: 0.95rem; line-height: 1.7; color: #4d4637; }
+.jain-lens b { color: #755b00; font-weight: 600; }
+.scene-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.scene-tag { display: inline-block; border: 1px solid #755b00; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(117,91,0,0.2); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(117,91,0,0.35); color: rgba(117,91,0,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #755b00; color: #755b00; }
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .scene-prose { font-size: 1rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#755b00]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="nav-link text-primary font-bold transition-colors duration-300" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-24">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 05</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Kaikeyi's Swayamvar
+        <span class="block text-primary font-normal text-3xl md:text-4xl mt-2">કેકેયીનો સ્વયંવર</span>
+      </h1>
+    </div>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      A warrior princess chooses her king, saves his life on the battlefield, and receives two boons that will change the course of the Ramayana forever.
+    </p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center">
+    <div class="w-full aspect-[4/3] relative rounded-xl overflow-hidden bg-surface-container-high shadow-2xl">
+      <img alt="Illustrated page depicting Kaikeyi's swayamvar ceremony" class="w-full h-full object-contain" src="assets/images/page-022.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/10 to-transparent pointer-events-none"></div>
+    </div>
+  </div>
+</section>
+
+<!-- About This Chapter -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Warrior Princess</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Kaikeyi was not merely beautiful — she was a warrior princess who saved Dasharatha's life on the battlefield. In gratitude, he offered her <span class="text-primary font-semibold">two boons</span>. She stored them away. Those stored boons would become the hinge on which the entire Ramayana turns.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        This chapter introduces the queens of Ayodhya and the fourteen auspicious dreams that herald the arrival of extraordinary souls.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Destiny</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Core Theme</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Kekeya & Ayodhya</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Setting</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">5</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Scenes</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">pp. 9&ndash;15</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Book Pages</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Scene Cards -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 5 · Scene by Scene</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Kaikeyi's Swayamvar</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each scene is a self-contained moment in the story — read straight through, or pause at each card to reflect.</p>
+  </div>
+
+  <!-- Part I -->
+  <div class="section-divider"><span>Part I &mdash; The Swayamvar</span></div>
+
+  <article class="scene-card p-8" id="scene-5-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">The Princess of Kekeya</h4>
+        <p class="scene-prose">The kingdom of Kekeya was one of the great kingdoms of the ancient world — prosperous, well-governed, possessed of a royal family whose reputation for courage and intelligence extended across the known lands. And at its centre, in the Kekeya palace, there grew up a princess who was all of this in concentrated form: bold, brilliant, beautiful, trained in the arts of statecraft and the arts of war — a princess named Kaikeyi, whose name would become one of the most debated in the entire Ramayana.</p>
+        <div class="scene-tags"><span class="scene-tag">Kaikeyi</span><span class="scene-tag">Kekeya</span><span class="scene-tag">Warrior Princess</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-5-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">The Garland Falls on Dasharatha</h4>
+        <p class="scene-prose">Kaikeyi's father arranged for his daughter a swayamvar — the ceremony in which a princess chooses her own husband from among the assembled princes and kings who come to court her. It was an honour offered to women of noble families, a recognition that the choice of a life partner was too important to be made without the woman's own voice.</p>
+        <p class="scene-prose">Kings and princes came from across the known world. Kaikeyi moved through the assembly with the composure of a woman who had already made up her mind about what she was looking for, and was simply waiting to find it. When Dasharatha of Ayodhya entered the assembly, Kaikeyi saw what she was looking for. She placed the garland around his neck, and the ceremony was complete.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> The swayamvar — the right of a noble woman to choose her own husband — is presented without commentary in the text, but its inclusion reflects a Jain cultural value: that women of intelligence and character make consequential choices, and those choices carry weight in the cosmic unfolding.</p>
+        <div class="scene-tags"><span class="scene-tag">Swayamvar</span><span class="scene-tag">Choice</span><span class="scene-tag">Marriage</span><span class="scene-tag">Dasharatha</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Part II -->
+  <div class="section-divider"><span>Part II &mdash; The Battle and the Boon</span></div>
+
+  <article class="scene-card p-8" id="scene-5-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">Kaikeyi Takes the Reins</h4>
+        <p class="scene-prose">Dasharatha, not long after his marriage to Kaikeyi, was called to assist in a war against a powerful enemy. At a critical moment, Dasharatha was wounded and rendered unconscious in his chariot. His charioteer, overwhelmed, could not manage the horses. The battle was turning. It was at this moment that Kaikeyi took the reins. She had been trained in the management of horses and chariots — she was a Kekeyan princess, and Kekeyan princesses were educated in the arts of warfare alongside the arts of statecraft. She drove the chariot out of danger, kept Dasharatha safe, and when he recovered — she had helped turn the tide.</p>
+        <p class="scene-prose">Dasharatha looked at his wife with an awe that he had never felt before. Here was a woman not merely of beauty and intelligence but of genuine courage — a woman who had acted when action was required, without hesitation, without waiting for permission.</p>
+        <div class="scene-tags"><span class="scene-tag">Battlefield</span><span class="scene-tag">Courage</span><span class="scene-tag">Kaikeyi Saves Dasharatha</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-5-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">Two Boons</h4>
+        <p class="scene-prose">In his gratitude and his admiration, Dasharatha made an offer that kings make only when they are moved beyond the usual boundaries of calculation. He offered Kaikeyi two boons — two wishes, to be named at any time she chose, to be granted without question.</p>
+        <p class="scene-prose">Kaikeyi accepted the offer graciously. And then she waited. She did not name her boons immediately. She stored them — these two promises, backed by a king's honour — away in the treasury of her mind. For what purpose she would use them, she did not yet know. She simply understood that such promises, from such a man, were too significant to spend carelessly.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> The boons are not a trap or a curse — they are a moment of genuine human gratitude crystallised into a promise. What Kaikeyi does with them later will be shaped by forces she cannot yet see. Karma is not only in our actions, but in the conditions our actions create for the future.</p>
+        <div class="scene-tags"><span class="scene-tag">Two Boons</span><span class="scene-tag">Promise</span><span class="scene-tag">Karma Seeds</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Part III -->
+  <div class="section-divider"><span>Part III &mdash; The Queens in Waiting</span></div>
+
+  <article class="scene-card p-8" id="scene-5-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">The Fourteen Dreams</h4>
+        <p class="scene-prose">Back in Ayodhya, in the months before the birth of their children, each queen began to experience the signs of what was coming. The Jain tradition records that Queen Kaushalya experienced the fourteen great dreams that accompany the birth of a Tirthankar, Chakravarti, or great Balabhadra soul — a white elephant, a white bull, a lion, the goddess Shri, a garland of flowers, the moon, the sun, a great banner, a full vessel, a lotus lake, the celestial ocean, a celestial chariot, a heap of jewels, and a fire without smoke. The court astrologers could barely contain their excitement: the child this queen was carrying was no ordinary soul.</p>
+        <p class="scene-prose">Kaikeyi too had dreams — vivid, powerful, full of omens of a child of great capability. Sumitra dreamed of twins — two brilliant lights moving together through the sky. The palace was alive with anticipation. Something extraordinary was coming.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> The <b>fourteen dreams</b> are a precise Jain cosmological signal — they announce the arrival of a great soul. Kaushalya's dreams confirm Ram's designation as Balabhadra. The dreams are not superstition; they are the universe's announcement that a soul of cosmic consequence has chosen its entry point.</p>
+        <div class="scene-tags"><span class="scene-tag">Fourteen Dreams</span><span class="scene-tag">Kaushalya</span><span class="scene-tag">Balabhadra</span><span class="scene-tag">Auspicious Signs</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- Closing -->
+<section class="py-16 border-t border-primary/10">
+  <div class="max-w-3xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline italic text-lg text-on-surface-variant leading-relaxed">
+      And so the stage was set — the boon was given and stored, the queens were waiting, and the city of Ayodhya, brilliant and just, was about to receive into its heart the four souls who would make the Ramayana not just the story of Ayodhya, but the story of the world.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- Floating Nav Buttons -->
+<a href="ramayana-ch4.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 4
+</a>
+<a href="ramayana-ch6.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 6 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="ramayana-index.html">Jain Ramayana</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+
+</body>
+</html>

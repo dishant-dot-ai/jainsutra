@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 10: Mahasena Krishna Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 10 &middot; Final</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Mahasena Krishna Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">महासेणकण्ह कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">The Greatest Army — and the Arc Closes</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Mahasena Krishna Kumar — son of King Shrenika's queen Mahasenādevi — is the tenth and final of ten brothers. "Mahāsena" means the great army. The largest possible military name. And still: the same Chetaka, the same Hemabha, the same ten sāgaropama. The Nirayavali Varga 1 is complete.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं महासेणा ण महासेणकण्हं कुमारं, णो चेव णं तुमं महासेणकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Mahasenādevi — Mahasena Krishna Kumar is gone. You will not see Mahasena Krishna Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Mahasena Krishna Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The tenth and final chapter of Varga 1. The greatest army, the largest military name, and the same tenth destination. The arc closes completely.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The tenth and final adhyayan of Nirayavali Varga 1. <span class="text-primary font-semibold">Mahasena Krishna Kumar</span> — "the great army's divine dark one" — carries the largest military name of the entire series: "Mahā" (great) + "senā" (army) + "Kaṇha" (divine dark). The sequence of queens in this Varga traces an arc of names that has grown from simple to compound to cosmic. It ends here, at "Mahāsena" — the greatest army.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The Nirayavali has saved its grandest name for last — and given it the same ending as all the others. Ten verdicts. Ten times "you will not see him alive." Ten times the fourth hell. One teaching, told ten times, because one telling is not enough to shift what is embedded in the human tendency to believe in exceptions. The arc that began with Kāla — the dark one — closes with Mahāsena-Kaṇha, the great army's dark one. The first and last carry the same consequence. The law is complete.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Tenth of Ten</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Varga 1 Complete</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 10 &middot; Final</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-10-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Ten Times — Homecoming</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Ten times. The opening that began with the first chapter now completes its full arc. Rajagriha, Gunasila, the Ashoka tree, the stone slab — these have been the frame for all ten stories. They have not changed. They have not tired. They will persist after this tenth telling is complete, holding the ground where all ten truths were spoken. Sacred texts end where they began because the ground of truth is not changed by what truth has been spoken there. The city endures. The garden endures. The teaching endures. After ten times, what was a description has become an invocation. The listener who has stayed through all ten chapters arrives here with the accumulated weight of nine prior stories. The tenth opening is not redundant — it is homecoming.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The tenth and final chapter opens at the same place that held all nine stories before it. Ten times. The ground unchanged.</div>
+        <div class="contemplate-prompt">At the end of a long journey — through ten stories, ten names, ten losses — what does it feel like to arrive at the same ground you started from, and find that it is unchanged?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Tenth Repetition</span><span class="concept-tag">Homecoming</span><span class="concept-tag">Ground Unchanged</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-10-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Final Transmission — Ten Stories Fully Carried</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, Arya Sudharmashvami — accompanied by five hundred monks, wandering village to village — arrived at Rajagriha; accepted suitable lodging; dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tenth assembly. The tenth teaching. The tenth dispersal. Sudharmashvami has arrived ten times in this Varga, carrying the same five hundred monks, the same restraint and austerity, the same cultivated soul. What has been transmitted through ten repetitions of this frame is not just information — it is a structure of understanding. The Varga is complete when this tenth chapter ends. Sudharmashvami will then carry the entire Nirayavali Varga in living memory, ten stories fully transmitted, ready to be retold again to the next assembly, in the next village, on the next wandering path.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sudharmashvami arrived for the tenth and final time in this Varga, taught, and the assembly dispersed — the last of ten transmissions.</div>
+        <div class="contemplate-prompt">What teaching have I received repeatedly throughout my life, and only now — at a kind of ending — am I beginning to truly understand?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Tenth Assembly</span><span class="concept-tag">Ten Stories Carried</span><span class="concept-tag">Transmission Complete</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-10-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Names Are Now Part of the Listener</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे ... उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू ... उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Jambu asked what Mahavir taught in the Upanga. Answer: five sections — Nirayavali, Kalpavamsika, Pushpika, Pushpachulika, Vrishni Dasha.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tenth and final naming of the five Vargas in this Varga. Ten times Jambu has asked. Ten times Sudharmashvami has named the five sections. The five names — Nirayavali, Kalpavamsika, Pushpika, Pushpachulika, Vrishni Dasha — are now permanently resident in the listener's mind. They require no effort to recall. This is the achievement of ten chapters of repetition: the structure of the whole Upanga has been made effortless to carry. When the listener encounters the word "Nirayavali" in any future context, they will know: it is the first Varga, the row of hells, the ten princes, the one law stated ten times.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked for the tenth and final time, and the five sections were named — the last time in this Varga.</div>
+        <div class="contemplate-prompt">What knowledge, asked about and answered ten times, has now become part of me rather than something I have to recall?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Five Sections</span><span class="concept-tag">Tenth Asking</span><span class="concept-tag">Knowledge Effortlessly Carried</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-10-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Verse Completes — Mahāsena, Named as Tenth</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The ten adhyayanas: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tenth singing of this verse. All ten names have been heard in this verse ten times. "Kāle Sukāle Mahākāle, Kaṇhe Sukaṇhe tahā Mahākaṇhe, Vīrakaṇhe ya bodhdhavve, Rāmakaṇhe tahaiva ya, Piuseṇakaṇhe ṇavame, dasame Mahāseṇakaṇhe u." Ten names, one verse, ten chapters. "Mahāsena" — the great army — is the last name in the verse, explicitly designated as the tenth. The names have grown from simple darkness to compound greatness to cosmic resonance — and the verse closes with the grandest military name of all. This verse has been sung in full ten times. After the tenth singing, it is complete.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The verse of ten names is sung for the tenth and final time — Mahasena Krishna Kumar closes the list as the tenth.</div>
+        <div class="contemplate-prompt">The greatest army and the darkest dark: at the end of a series of ten, what does it mean that the largest name leads to the same place as the smallest?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Mahāseṇakaṇha — Tenth</span><span class="concept-tag">Verse Complete</span><span class="concept-tag">Arc Closes</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Mahasena Krishna Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-10-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Mahasenādevi and Prince Mahasena Krishna Kumar</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । ... तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया महासेणा णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं महासेणाए देवीए पुत्ते महासेणकण्हे णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — in Champa, King Konik ruled. Also in Champa was Queen Mahasenādevi (Mahāseṇā) — a niece of King Shrenika — beautiful, with delicate hands and feet. Her son was Prince Mahasena Krishna Kumar (Mahāseṇakaṇha Kumāra), handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The last of ten queens. The last of ten sons. Mahāseṇā — she of the great army. Her son Mahāseṇakaṇha — the great army's divine dark one. The sequence of queens in this Varga traces an arc of names: from Kāli (simply dark) through increasingly complex compound names, to Mahāseṇā (the great army). The names have grown. The ending has not changed. The Nirayavali concludes its series with the mother who carries "great army" — as if to say: the largest possible military claim, the most powerful name — and still the consequence is the same fourth hell, the same Hemabha, the same ten sāgaropama. Size does not change the law.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, Queen Mahasenādevi — "she of the great army" — was the last of Shrenika's queens in this Varga, and her son was the handsome Prince Mahasena Krishna Kumar.</div>
+        <div class="contemplate-prompt">At the end of a series of ten — what does the last story teach that the first story could not, on its own, have made you understand?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Mahasenādevi</span><span class="concept-tag">Mahasena Krishna Kumar</span><span class="concept-tag">Last of Ten</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-10-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Great Army Marches — Numerical Equality as Final Argument</h4>
+        <p class="sutra-sanskrit">तए णं से महासेणकण्हे कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Mahasena Krishna Kumar — with three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in garudavyuha formation as the eleventh division of Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tenth march. "Mahāseṇa" — the great army — marches with the same three thousand elephants as "Kāla" — the dark one. The numbers have not varied once in ten chapters. Not one extra elephant, not one additional chariot, not one larger formation for the one who carries the greatest military name. Ten men with ten identical forces, ten identical formations, ten identical entrances into the same battle. Ten identical deaths. Ten identical rebirths. The law does not grade on name size. The Nirayavali's final argument is made not in words but in identical numbers: the great army is three thousand elephants, the same as the dark one.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahasena Krishna Kumar — "the great army" — marched to the same battle with the same force as all nine brothers. The last of the ten.</div>
+        <div class="contemplate-prompt">If I knew that my largest, most powerful effort would lead to exactly the same outcome as my simplest action in the wrong direction — what would that change about the choices I am making now?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Tenth March</span><span class="concept-tag">Numerical Equality</span><span class="concept-tag">Law Does Not Grade</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Mahasenādevi Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-10-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Ten Mothers — The Greatest Force, the Most Human Fear</h4>
+        <p class="sutra-sanskrit">तए णं तीसे महासेणा देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते महासेणकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, पराजिणिस्सइ णो पराजिणिस्सइ, महासेणकण्हे णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Mahasenādevi — lying awake keeping household vigil — had this thought arise within her: "My son Mahasena Krishna Kumar has gone to war. Will he win? Will he live? Will I see Mahasena Krishna Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Ten mothers. Ten nights of lying awake. One fear. "Mahāseṇā" — the great army — lies awake in the dark asking "will I see my son alive?" in exactly the same words as "Kāli" — the dark one — in the very first chapter. No military title, no great name, no great army in the mother's own name can lighten the darkness of this particular night. Ten times: a mother awake in the dark, afraid for her son. Ten times, the same question arising. The same love. The same fear. The same night. The Nirayavali's witness to maternal love: it is equal across all names, all stations, all the gradations of nobility.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahasenādevi lay awake with the same fear as every mother in this Varga — the tenth and final night of this universal grief.</div>
+        <div class="contemplate-prompt">What does it mean that the greatest force and the simplest dark arrive at the same human grief — and what does that tell me about what actually matters?</div>
+        <div class="concept-tags"><span class="concept-tag">Household Vigil</span><span class="concept-tag">Tenth Night</span><span class="concept-tag">Ten Mothers — One Fear</span><span class="concept-tag">Maternal Love Equal Across All Names</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-10-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Tenth Journey — The Most Human Gesture, Unadorned</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे महासेणा देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, करेत्ता वंदइ णमंसइ, वंदित्ता णमंसित्ता थिया चेव सपरिवारा सुस्सूसमाणी णमंसमाणी अभिमुहा विणयणं पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir arrived in Champa. The assembly came out. Mahasenādevi, hearing the news, prepared herself and went to Mahavir; she circumambulated him three times, bowed in reverence, and sat before him with joined palms, attending with full devotion.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The tenth journey. The tenth preparation. The tenth circumambulation. The tenth bowing. The tenth sitting in reverence. The great army mother makes the same small human gestures as the simply-dark mother. This is the final statement of the text on this point: there is no variation in how human beings come to truth. They come the same way. They prepare themselves, they travel, they circumambulate, they bow, they sit, they listen. No military greatness, no beautiful name, no inherited tradition changes the form of this approach. The approach to truth is the same for all.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived, and Mahasenādevi went to him — the same preparation, the same circumambulation, the same reverence as all ten mothers.</div>
+        <div class="contemplate-prompt">What is the most human, most unadorned gesture I can make toward truth — stripped of all the titles and forces I carry — and is that the gesture I am making?</div>
+        <div class="concept-tags"><span class="concept-tag">Mahavir Arrives</span><span class="concept-tag">Circumambulation</span><span class="concept-tag">Tenth Journey</span><span class="concept-tag">Truth Approached the Same Way</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-10-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Tenth and Final Verdict — The Law, Fully Stated</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे महासेणा देवीए ... धम्मं परिक्काहेइ जाव आणाए आराहए भवइ । तए णं सा महासेणा देवी ... एवं वयासी — एवं खलु भंते मम पुत्ते महासेणकण्हे कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते किं जिस्सइ णो जिस्सइ जाव महासेणकण्हे णं कुमारे अहं जीवमाणं पासिस्सं? तव पुत्ते महासेणकण्हे कुमारे जाव चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं महासेणा ण महासेणकण्हं कुमारं, णो चेव णं तुमं महासेणकण्हं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir taught the dharma to Mahasenādevi and the full assembly. Mahasenādevi, having absorbed the teaching, asked: "My son Mahasena Krishna Kumar has gone to battle. Will he win? Will I see him alive?" Mahavir replied: "Your son Mahasena Krishna Kumar was killed by King Chetaka with a single fatal blow. Mahasenādevi — you will not see Mahasena Krishna Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Ten verdicts. Ten times "you will not see him alive." Ten times Chetaka's single fatal arrow. Ten princes. One hell. One abode. One duration. This is Mahavir speaking ten times, through ten chapters, through ten mothers, to make one point: the karma of mass violence is impartial to name, beauty, greatness, ancestry, and force. No prince in this Varga received a different verdict. But this is also Mahavir teaching the dharma before every verdict. Before each mother receives the devastating answer, she receives the teaching. The teaching does not remove the loss — it gives it meaning. "Your son is gone" becomes, through the dharma framework, not an ending but a location. His soul's journey continues. Her journey continues. The grandson's journey is toward ordination and heaven. Three generations. Three paths. The law is complete. The teaching has done its work.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahasenādevi asked and received the same final answer: Mahasena Krishna Kumar was killed by Chetaka. She would not see him alive. The tenth and last of ten.</div>
+        <div class="contemplate-prompt">What is the teaching I need to receive before I can accept the hardest truth in my life — and have I received it yet, or am I still asking for the truth before I am prepared to hold it?</div>
+        <div class="concept-tags"><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Tenth and Final Verdict</span><span class="concept-tag">Teaching Before the Blow</span><span class="concept-tag">The Law Is Complete</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-10-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Hemabha — Ten Brothers, One Law, Three Generations</h4>
+        <p class="sutra-sanskrit">तए णं सा महासेणा देवी ... एवं वयासी — सुयं मे आउसो तहेव जाव जाणामि णं एवं खलु मम पुत्ते महासेणकण्हे कुमारे कालमासे कालं किच्चा कहिं गए कहिं उववण्णे? तव पुत्ते महासेणकण्हे कुमारे कालमासे कालं किच्चा णेरइयत्ताए उवावण्णे जाव पंकप्पभाए पुढवीए हेमाभे णामं णिरए दस सागरोवमाइं ठिई ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Queen Mahasenādevi, having accepted the news, asked: "I have heard, Lord — and I accept. Where has my son Mahasena Krishna Kumar's soul gone? Where was he reborn?" Mahavir answered: "Your son Mahasena Krishna Kumar has been reborn as a hellish being — in the fourth earth Pankprabha, in the hell called Hemabha, for a duration of ten sāgaropama."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Ten brothers. One hell. One abode. One duration. The Nirayavali Varga 1 is complete. The arc of the ten chapters can now be seen in its entirety: ten sons of King Shrenika, each going to the Rathamushala war, each falling to Chetaka's single arrow, each descending to the fourth hell — Pankprabha earth, Hemabha abode, ten sāgaropama. Ten mothers, each lying awake in the dark, each going to Mahavir, each receiving the teaching and then the truth, each accepting the truth with composure. Ten grandsons, each ultimately taking ordination, ascending to heaven. Ten mothers ultimately attaining liberation. Three generations, three directions. The generation of war: fourth hell. The grandsons: heaven through ordination and non-violence. The grandmothers who absorbed the truth: liberation. The Nirayavali does not end in despair. It ends in demonstration: the same family can, within three generations, exhaust one karmic direction and turn toward another. The war is over. The hell has received all ten. The mothers have found the path. The teaching has been spoken in full. What follows the complete understanding of this Varga — for the listener who has truly absorbed it — is the beginning of a different kind of life.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahasenādevi accepted the truth and asked where her son went. The same final answer: fourth hell, Pankprabha earth, Hemabha abode, ten sāgaropama. Ten brothers — one destination. Varga 1 complete.</div>
+        <div class="contemplate-prompt">Looking at the full arc — ten brothers, ten mothers, ten destinations, one teaching repeated ten times — what do you understand now that you could not have understood from just the first chapter?</div>
+        <div class="concept-tags"><span class="concept-tag">Pankprabha Earth</span><span class="concept-tag">Hemabha Hell</span><span class="concept-tag">Ten Sāgaropama</span><span class="concept-tag">Varga 1 Complete</span><span class="concept-tag">Three Generations — Three Directions</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<section class="bg-[#f2f1f0] py-16 border-t border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12">
+    <div class="text-center mb-10">
+      <p class="font-headline text-lg text-on-surface-variant italic max-w-3xl mx-auto">"Ten brothers. One hell. One abode. One duration. The Nirayavali does not end in despair — it ends in demonstration. The same family can, within three generations, exhaust one karmic direction and turn toward another. The war is over. The mothers have found the path. The grandsons have found the path. The teaching has done its work."</p>
+      <p class="text-sm text-primary mt-4 font-semibold uppercase tracking-widest">— Nirayavali Sutra, Varga 1 — Complete</p>
+    </div>
+    <div class="border-t border-primary/10 pt-10">
+      <h4 class="text-xl font-headline font-bold text-on-surface text-center mb-6">The Ten Sons of King Shrenika in Hemabha</h4>
+      <div class="overflow-x-auto">
+        <table class="w-full max-w-3xl mx-auto text-sm font-body">
+          <thead><tr class="border-b border-primary/20"><th class="text-left py-2 px-3 text-primary font-semibold">#</th><th class="text-left py-2 px-3 text-primary font-semibold">Prince</th><th class="text-left py-2 px-3 text-primary font-semibold">Mother</th><th class="text-left py-2 px-3 text-primary font-semibold">Destination</th></tr></thead>
+          <tbody>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">1</td><td class="py-2 px-3">Kala Kumar</td><td class="py-2 px-3">Kali</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">2</td><td class="py-2 px-3">Sukala Kumar</td><td class="py-2 px-3">Sukali</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">3</td><td class="py-2 px-3">Mahakala Kumar</td><td class="py-2 px-3">Mahakali</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">4</td><td class="py-2 px-3">Krishna Kumar</td><td class="py-2 px-3">Krishnadevi</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">5</td><td class="py-2 px-3">Sukrishna Kumar</td><td class="py-2 px-3">Sukrishnādevi</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">6</td><td class="py-2 px-3">Mahakrishna Kumar</td><td class="py-2 px-3">Mahakrishnādevi</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">7</td><td class="py-2 px-3">Virakrishna Kumar</td><td class="py-2 px-3">Virakrishnādevi</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">8</td><td class="py-2 px-3">Ramakrishna Kumar</td><td class="py-2 px-3">Ramakrishnādevi</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr class="border-b border-outline-variant/30"><td class="py-2 px-3 font-bold text-primary">9</td><td class="py-2 px-3">Pitrisena Krishna Kumar</td><td class="py-2 px-3">Pitrisenadevi</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+            <tr><td class="py-2 px-3 font-bold text-primary">10</td><td class="py-2 px-3 font-bold">Mahasena Krishna Kumar</td><td class="py-2 px-3 font-bold">Mahasenādevi</td><td class="py-2 px-3 text-on-surface-variant">4th hell, Pankprabha, Hemabha, 10 sāgaropama</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-16">
+  <div class="text-center mb-10">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Varga 1 — Complete</span>
+    <h3 class="text-3xl font-headline font-bold text-on-surface mt-3">Navigate the Nirayavali</h3>
+  </div>
+  <div class="flex flex-wrap justify-center gap-3">
+    <a href="../nirayavali-index.html" class="border border-primary/30 text-primary font-headline text-sm px-5 py-2.5 rounded-full hover:bg-primary/5 transition-colors">← Chapter Index</a>
+    <a href="nirayavali-varga1-ch1.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 1: Kala Kumar</a>
+    <a href="nirayavali-varga1-ch2.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 2: Sukala Kumar</a>
+    <a href="nirayavali-varga1-ch3.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 3: Mahakala Kumar</a>
+    <a href="nirayavali-varga1-ch4.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 4: Krishna Kumar</a>
+    <a href="nirayavali-varga1-ch5.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 5: Sukrishna Kumar</a>
+    <a href="nirayavali-varga1-ch6.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 6: Mahakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch7.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 7: Virakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch8.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 8: Ramakrishna Kumar</a>
+    <a href="nirayavali-varga1-ch9.html" class="border border-outline-variant text-on-surface-variant font-headline text-sm px-5 py-2.5 rounded-full hover:border-primary/30 transition-colors">Ch 9: Pitrisena Krishna Kumar</a>
+    <span class="border border-primary bg-primary/5 text-primary font-headline text-sm px-5 py-2.5 rounded-full font-bold">Ch 10: Mahasena Krishna Kumar</span>
+  </div>
+</section>
+
+<footer class="bg-on-surface text-surface/70 py-16 mt-8">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+      <span class="text-xl font-headline text-surface font-bold tracking-tighter">JainAwaken.org</span>
+      <p class="mt-3 text-sm leading-relaxed">Bringing the Jain Agamas to life through faithful translation and accessible commentary.</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">This Chapter</p>
+      <p class="text-sm">Nirayavali Sutra — Varga 1, Chapter 10 (Final)<br/>Mahasena Krishna Kumar (Mahāseṇakaṇha Kumāra)<br/>Translated by Dishant Shah</p>
+    </div>
+    <div>
+      <p class="text-xs uppercase tracking-widest font-semibold text-surface/50 mb-3">Navigate</p>
+      <div class="flex flex-col gap-2 text-sm">
+        <a href="../../sacred-sutras-index.html" class="hover:text-surface transition-colors">Sacred Sutras Index</a>
+        <a href="../nirayavali-index.html" class="hover:text-surface transition-colors">Nirayavali Index</a>
+        <a href="nirayavali-varga1-ch1.html" class="hover:text-surface transition-colors">← Back to Chapter 1</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<button class="nav-button left-btn px-5 py-3 font-headline text-sm rounded-full" id="prev-btn" onclick="location.href='nirayavali-varga1-ch9.html'" style="left:24px;">← Chapter 9</button>
+<button class="nav-button right-btn px-5 py-3 font-headline text-sm rounded-full" id="next-btn" onclick="location.href='../nirayavali-index.html'" style="right:24px;">Chapter Index →</button>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-10-1", num: "10.1", title: "Ten Times — Homecoming" },
+  { id: "sutra-10-2", num: "10.2", title: "The Final Transmission — Ten Stories Fully Carried" },
+  { id: "sutra-10-3", num: "10.3", title: "The Names Are Now Part of the Listener" },
+  { id: "sutra-10-4", num: "10.4", title: "The Verse Completes — Mahāsena, Named as Tenth" },
+  { id: "sutra-10-5", num: "10.5", title: "Queen Mahasenādevi and Prince Mahasena Krishna Kumar" },
+  { id: "sutra-10-6", num: "10.6", title: "The Great Army Marches — Numerical Equality as Final Argument" },
+  { id: "sutra-10-7", num: "10.7", title: "Ten Mothers — The Greatest Force, the Most Human Fear" },
+  { id: "sutra-10-8", num: "10.8", title: "The Tenth Journey — The Most Human Gesture, Unadorned" },
+  { id: "sutra-10-9", num: "10.9", title: "The Tenth and Final Verdict — The Law, Fully Stated" },
+  { id: "sutra-10-10", num: "10.10", title: "Hemabha — Ten Brothers, One Law, Three Generations" },
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) { searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>'; searchDropdown.style.display = 'block'; return; }
+  searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join('');
+  searchDropdown.style.display = 'block';
+});
+document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+window.addEventListener('scroll', function() {
+  const y = window.scrollY;
+  document.getElementById('prev-btn').classList.toggle('visible', y > 300);
+  document.getElementById('next-btn').classList.toggle('visible', y > 300);
+});
+</script>
+</body>
+</html>

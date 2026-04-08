@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 1: Kala Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 1</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Kala Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">काल कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">The Battle, the Mother's Grief, and the Fourth Hell</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Kala Kumar — son of King Shrenika's queen Kali — marches to the Rathamushala war at King Konik's side. His mother waits. One arrow from King Chetaka ends it. Lord Mahavir reveals the truth; Queen Kali collapses, recovers, and accepts. The prince is reborn in the fourth hell for ten ocean-measure lifetimes. Ten sutras. One arc.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं काली ण कालं कुमारं, णो चेव णं तुमं कालं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Kali — Kala Kumar is gone. You will not see Kala Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Kala Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The first of ten parallel stories — each one a different son of King Shrenika, each one the same lesson.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The <span class="text-primary font-semibold">Nirayavali</span> — "a row of hell-bound souls" — opens the fifth Upanga of the Jain canon. Its first Varga (section) tells the stories of ten princes: all sons of the great King Shrenika (Bimbisara), each born to a different queen, each carrying his mother's name as his own. All ten march to the same battle. All ten fall to the same arrow. All ten descend to the same hell.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Chapter 1 follows <span class="text-primary font-semibold">Kala Kumar</span> — son of Queen Kali — from his departure to the Rathamushala war through his death at King Chetaka's hand and his rebirth in the fourth hell, Pankprabha. His mother's nightlong vigil, her journey to Lord Mahavir, her collapse upon hearing the truth, and her ultimate acceptance — these are not background details. They are the heart of the teaching.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Gautama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">The Inquirer</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sutras -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 1</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt — the living words of Lord Mahavira, transmitted across 2,500 years.</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-1-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Sacred City and Garden</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [full description as in the Aupapatika Sutra]. There was a garden called Gunasila [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The canonical opening formula "at that time, at that period" appears in virtually every Jain Agama and signals both the historical moment — the living era of Lord Mahavir — and the cosmic moment within the descending cycle of time when such teachings were possible. Rajagriha (modern Rajgir in Bihar) was the ancient capital of Magadha, ruled by King Shrenika (Bimbisara), Mahavir's great royal devotee. Rather than repeat the city's full description from the Aupapatika Sutra, the text abbreviates with "vaṇṇao" — "the description is to be known." The Gunasila garden was directly outside Rajagriha and is one of the most sacred sites in Jain history: Mahavir held hundreds of assemblies there, and the last Ganadhar Sudharmashvami attained liberation there. The stone slab beneath the Ashoka tree — flat, polished, black as collyrium — was not just a seat but a sacred threshold, the site where the teaching was first transmitted and where the chain of the Agamas began.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Long ago, in a wealthy city called Rajagriha, there was a famous garden with a giant Ashoka tree and a smooth stone platform — and this is where the story we are about to hear was first told.</div>
+        <div class="contemplate-prompt">Do I rush past the place where sacred teachings arise — or do I pause to feel the ground beneath my feet as something that holds meaning?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Gunasila Garden</span><span class="concept-tag">Sacred Setting</span><span class="concept-tag">Canonical Opening</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-1-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sudharmashvami Arrives and Teaches</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, the disciple of the venerable ascetic Mahavir — the monk Arya Sudharmashvami, endowed with noble birth and lineage, as described for Keshi, accompanied by five hundred monks, wandering from village to village across the earth — arrived at the city of Rajagriha; having accepted lodging suitable to his practice, he dwelt there cultivating his soul through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Arya Sudharmashvami was the fifth and last surviving Ganadhar — the chief disciples who directly received Mahavir's teachings. All the other Gandharas attained liberation during Mahavir's lifetime. Sudharmashvami survived Mahavir by twelve years and transmitted the teachings to his own disciple Jambu Swami. He is the living link through which all the Jain Agamas — including this text — were preserved. His wandering with five hundred monks from village to village is not mere travel — it is a living embodiment of the dharma. The monk owns nothing, stays nowhere for long, harms no being. The entire assembly of Rajagriha coming out to receive the teaching — then quietly returning — captures how sacred knowledge once moved through ancient India: not through books but through the living voice of one who had realized what he taught.</p>
+        <div class="simple-explanation"><b>The simple version:</b> One of Mahavir's top disciples, Sudharmashvami, arrived at Rajagriha with five hundred monks, gave a teaching to the gathered crowd, and the crowd went home.</div>
+        <div class="contemplate-prompt">When I encounter someone living with real integrity, do I go out to meet them — or do I wait for them to come to me?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Five Hundred Monks</span><span class="concept-tag">Wandering Life</span><span class="concept-tag">Dharmic Transmission</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-1-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Jambu Asks — The Five Upanga Sections</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे समचउरंससंठाणसंठिए जाव संखित्तविउल तेउलेस्से अज्जसुहम्मस्स अणगारस्स अदूरसामंते उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the disciple of Sudharmashvami — the monk Jambu, with a body of perfectly proportioned form and a concentrated yet expansive aura — was seated not far from Sudharmashvami, knees upright, head bowed, dwelling in reverential attendance. Then Jambu, filled with growing faith, asked: "Venerable one, what meaning is set forth in the Upanga Sutra by Lord Mahavir?" Sudharmashvami replied: "The liberated Mahavir has set forth five sections in the Upanga Sutra: the Nirayavali, the Kalpavamsika, the Pushpika, the Pushpachulika, and the Vrishni Dasha."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra establishes the structural frame within which the entire Nirayavali sits. The conversation between Jambu Swami and Sudharmashvami is not literary device — it is the actual mechanism by which the Agamas were preserved. The five sections of the Upanga cover a spectrum of karmic consequence: the Nirayavali describes hell-bound souls (who failed through violence), the Kalpavamsika describes celestial beings (who succeeded partially through merit), and the Vrishni Dasha describes the fate of Vrishni warriors. Together they map the full range of outcomes — from the darkest hells to the highest heavens — teaching by example rather than doctrine alone. Jambu's posture — kneeling, head bowed, not too close — is itself a teaching: the body expresses what the mind intends: humility, full attention, and the absence of ego.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir's disciple's disciple, Jambu, sat respectfully near his teacher and asked what the secondary canonical texts contain. His teacher answered: five sections — stories of hell-bound souls, celestial beings, and others.</div>
+        <div class="contemplate-prompt">Do I approach sacred knowledge with genuine curiosity and humility — or with the hidden assumption that I already understand it?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Upanga Sutra</span><span class="concept-tag">Five Sections</span><span class="concept-tag">Discipleship</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-1-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Adhyayanas — Named in Verse</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir has set forth ten adhyayanas (chapters) in the first Nirayavali section: Kala, Sukala, Mahakala; Krishna, Sukrishna, and Mahakrishna; then Vira-Krishna — this must be known; and likewise Rama-Krishna; the ninth is Piusena-Krishna; and the tenth is Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The ten chapters all tell the same essential story ten times — not as repetition, but as deepening. Each chapter follows one of the ten sons of King Shrenika, each born to a different queen. The queens are named Kali, Sukali, Mahakali, Krishni, Sukrishni, Mahakrishni, and so on — ten queens, each with one son, the son carrying a variant of his mother's name. Each son makes the same fatal error: becoming entangled in Konik's war, fighting with violence, dying in battle, descending to hell. Ten separate lives, one shared trajectory. The teaching is that the consequence of violence is not an exception — it is the rule. The verse format of this list is significant: this is one of the few places the Agama uses poetry (gāthā form) rather than prose. The verse existed before this commentary and was quoted here — it is part of the oldest stratum of the text.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Lord Mahavir taught ten stories in this first section — each about one of King Shrenika's ten sons, each of whom ended up in hell because of his involvement in war.</div>
+        <div class="contemplate-prompt">When I look at the same mistake being made ten times by ten different people, what does that tell me about how karma works — not as punishment but as pattern?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Gāthā Verse</span><span class="concept-tag">Karmic Pattern</span><span class="concept-tag">Nirayavali Structure</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider"><span>Part III &mdash; Kala Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-1-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Kali and Prince Kala Kumar Introduced</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । रिद्धिथिमियसमिद्धे वण्णओ । पुण्णभद्दे चेइए वण्णओ । तत्थ णं चंपाए णयरीए सेणियस्स रण्णो पुत्ते चेल्लणाए देवीए अत्तए कूणिए णामं राया होत्था वण्णओ । तस्स णं कूणियस्स रण्णो पउमावी णामं देवी होत्था जाव विहरइ । तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया काली णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं कालीए देवीए पुत्ते काले णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — at that time, in this Jambudvipa, in Bharatavarsha, there was a city called Champa [description as in Aupapatika]. There was the Purnabhadra garden-shrine. In Champa ruled King Konik — son of King Shrenika, born of Queen Chelana. His queen was Padmavati. Also in Champa was Queen Kali — a niece of King Shrenika and step-mother-side aunt of King Konik — beautiful, with delicate hands and feet. Her son was Prince Kala Kumar, handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra establishes the family web at the center of the story. At its heart is Champa — capital of Anga, distinct from Rajagriha. After Konik imprisoned his father Shrenika and seized the throne, he moved his capital to Champa. This shift carries the weight of all that came before: the betrayal of a son against a father. Queen Kali is not the primary queen — she is one of Shrenika's ten lesser queens, each bearing sons who are princes but not heirs. Her son Kala Kumar therefore commands real power (three thousand elephants) but is not the king. His loyalty to Konik is the loyalty of a soldier-son. The phrase "delicate hands and feet" — applied to both queen and prince — signals nobility, refinement, and the good karma of past lives expressed in this body. And yet: all that refinement, all that royal privilege, none of it will protect Kala Kumar from the consequences he is about to set in motion.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In the city of Champa, King Konik (son of the famous Shrenika) ruled. One of Shrenika's many queens was named Kali, and her son — Prince Kala Kumar — was a handsome, refined young man.</div>
+        <div class="contemplate-prompt">How much of what I consider "my advantages" — birth, beauty, connections, privilege — am I counting on to protect me from consequences that may be unavoidable?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">King Konik</span><span class="concept-tag">Queen Kali</span><span class="concept-tag">Kala Kumar</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-1-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Kala Kumar Descends into the Rathamushala Battle</h4>
+        <p class="sutra-sanskrit">तए णं से काले कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Kala Kumar — taking three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in a garudavyuha formation, as the eleventh division of King Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The Rathamushala war was one of the defining events of Mahavir's era — the conflict between King Konik of Anga and the Lichchhavi confederation led by King Chetaka of Vaishali, who was Konik's own maternal grandfather. The war began over a white elephant and a pearl necklace that Konik demanded back; Padmavati's jealousy ignited it, Konik's ambition sustained it, and eighteen kings of the Lichchhavi confederation joined Chetaka to resist. The scale of Kala Kumar's force — three thousand elephants, three thousand chariots, three thousand cavalry — is an ancient formula of royal military might. Against them stood Chetaka's confederation, whose power was not in numbers but in one thing: Chetaka's own unerring arrow. One arrow. That is all it will take. The word for Kala Kumar's setting out — "oyāe" — means to go down into something heavy, to descend irreversibly. He is not yet dead. But the moment he enters the Rathamushala war, his fate is sealed.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Kala Kumar led a massive army — thousands of elephants, chariots, horses, and soldiers — to fight a great battle alongside King Konik against a rival king.</div>
+        <div class="contemplate-prompt">When have I entered a conflict driven by someone else's ambition — and did I recognize in that moment that I was no longer in control of where it would lead?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala War</span><span class="concept-tag">Garudavyuha Formation</span><span class="concept-tag">King Chetaka</span><span class="concept-tag">Violence and Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IV -->
+  <div class="section-divider"><span>Part IV &mdash; Kali Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-1-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Kali's Sleepless Night</h4>
+        <p class="sutra-sanskrit">तए णं तीसे काली देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते काले कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, पराजिणिस्सइ णो पराजिणिस्सइ, काले णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Kali — while lying awake keeping watch over her household — had this thought arise within her: "My son Kala Kumar has gone to the Rathamushala battle with three thousand war elephants and all the rest. Will he win or not win? Will he live or not live? Will he be victorious or not? Will I see Kala Kumar alive?" With her mind weighed down, she fell into deep, anguished grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is one of the most humanly immediate in the entire chapter. The scene shifts entirely away from armies and battles — to a woman lying awake in the dark, thinking of her son. No armies. No kings. No cosmic doctrine. Just a mother's mind cycling through questions that have no answers. The Agama commentators note that Kali's state of mind — "arta-dhyana," the anguished meditation of grief — is spiritually harmful in Jain ethics. It is not a sin to love one's child. But when the mind becomes consumed with fear and clinging, it generates negative karma. Kali's grief is not presented as noble suffering — it is presented honestly, as the natural condition of attachment. Yet it is precisely this grief that will drive her to Lord Mahavir. Her pain becomes a door. When the ordinary supports of life collapse, she turns toward the only truth that can hold: the omniscient teacher who knows what has actually happened. Attachment creates suffering. But suffering, honestly faced, can become the beginning of awakening.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Queen Kali was lying awake at night worrying about her son at war — will he win? Will he survive? Will I ever see him again? She fell into deep grief.</div>
+        <div class="contemplate-prompt">When I am consumed by anxiety about someone I love, do I find myself turning toward the truth — or cycling endlessly through the questions I cannot answer?</div>
+        <div class="concept-tags"><span class="concept-tag">Maternal Grief</span><span class="concept-tag">Arta-Dhyana</span><span class="concept-tag">Attachment</span><span class="concept-tag">Suffering as a Door</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-1-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Kali Journeys to Lord Mahavir</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे काली देवी इमीसे कहाए लद्धट्ठाए समाणीए ... तं गच्छामि णं समणं भगवं महावीरं जाव पज्जुवासामि — इत्ति कट्ठु ... सा काली देवी ण्हाया जाव धम्मियं जाणप्पवरं दुरुहेइ, दुरुहित्ता चंपं णयरं मज्झं-मज्झेणं णिग्गच्छइ, णिग्गच्छित्ता जेणेव पुण्णभद्दे चेइए जेणेव समणे भगवं महावीरे तेणेव उवागच्छइ । समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, वंदइ णमंसइ, पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the venerable ascetic Mahavir had alighted in Champa. The assembly came out. Queen Kali, hearing this news and resolving within herself: "The benefit of attending such a teacher is immeasurable — I shall go to the venerable Mahavir and ask my question" — called her attendants, had her finest religious chariot prepared, bathed and adorned herself appropriately, passed through the middle of Champa in her chariot, arrived at the Purnabhadra garden, descended from the chariot, walked to Mahavir, circumambulated him three times clockwise, bowed and paid homage, and sat reverently before him with joined palms.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is a masterpiece of narrative economy: it captures an entire sequence — anxiety, decision, preparation, journey, arrival, reverence — in compressed but vivid strokes. Kali does not go to Mahavir because she has already accepted that her son is dead. She goes because she has a question she cannot answer, and she has recognized that this teacher might answer it. The act of going to a liberated teacher while carrying grief is itself a kind of courage. She does not know what she will hear. She dresses appropriately — not to impress, but as an expression of respect. The transition from chariot to foot is meaningful in Jain narrative: one walks toward liberation. The circumambulation and joined palms are not mere ritual — they are the body saying what words cannot adequately say: I come with nothing. I am open. Whatever you tell me, I will receive.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived in Champa. Kali heard the news, decided to go ask him about her son, traveled by chariot through the city, found Mahavir in the garden, bowed three times, and sat before him with joined palms, ready to listen.</div>
+        <div class="contemplate-prompt">When I am suffering and don't know the truth, what is my instinct — to avoid it, to seek comfort in familiar stories, or to go toward the one voice that might actually tell me what is real?</div>
+        <div class="concept-tags"><span class="concept-tag">Journey to the Teacher</span><span class="concept-tag">Pradakshina</span><span class="concept-tag">Mahavir's Arrival</span><span class="concept-tag">Courageous Seeking</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V -->
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-1-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahavir Teaches — Then Reveals the Truth</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे काली देवीए, तीसे य महिमहालियाए परिसाए धम्मं परिक्काहेइ जाव एयस्स धम्मस्स सिक्खाए उवट्टिए समणोवासे वा समणोवासिया वा आणाए आराहए भवइ ।
+तए णं सा काली देवी ... एवं वयासी — एवं खलु भंते मम पुत्ते काले कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते काले णं कुमारे अहं जीवमाणं पासिस्सं ?
+काली त्ति समणे भगवं महावीरे एवं वयासी — एवं खलु काली तव पुत्ते काले कुमारे ... चेडगस्स रण्णो सपक्खं सपडिदिसं रहेणं पडिरहं हव्वमागए । तए णं से चेडए राया कालं कुमारं एज्जमाणं पासइ, पासित्ता आसुरत्ते वेसाहं ठाणं ठाइ, आय्यकण्णायं उसुं करेइ, करेत्ता कालं कुमारं एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं काली ण कालं कुमारं, णो चेव णं तुमं कालं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir proclaimed the full teaching to Queen Kali and the vast assembly — those who practice this dharma will be fulfilled in the Lord's command. Then Kali, having heard the teaching, spoke: "My son Kala Kumar has gone to the Rathamushala battle. Will I see him alive?" Mahavir replied: "Kali — your son Kala Kumar, fighting in the battle and slaying enemy heroes, came face to face with King Chetaka chariot against chariot. King Chetaka, seeing him approach — instantly furious — took his stance at the Vishakha position, drew his arrow to his ear, and with one shot, one lethal blow, brought Kala Kumar's life to an end. Kali — Kala Kumar is gone. You will not see Kala Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra contains one of the most powerful moments in the entire chapter. Mahavir delivers his teaching — a full dharma-discourse — and only then does Kali ask her question. The commentators note something philosophically significant: why does an omniscient being answer a question about a specific death? Two reasons are given. First: Mahavir's answer is not a prediction — it is direct omniscient perception. He does not calculate. He simply sees. Second: Mahavir foresaw that this news, painful as it is, would become the seed of Kali's liberation. Her grief will break open her attachment to the world. What looks like destruction will become awakening. King Chetaka's arrow is described as "amogha" — unfailing, never missing. In a battle of hundreds of thousands, one arrow finds its mark with perfect precision. This is karma made visible: Kala Kumar's own past violence returning to him through Chetaka's hand. No personal malice, no cosmic punishment — simply the precision of cause and consequence. Mahavir's final words are blunt beyond comfort: "You will not see Kala Kumar alive." This is compassion that trusts the listener to hold the truth.</p>
+        <div class="simple-explanation"><b>The simple version:</b> After Mahavir gave his teaching, Kali asked about her son. Mahavir told her plainly: Kala Kumar fought bravely, came face-to-face with King Chetaka, and was killed by a single arrow. He is gone. You will not see him alive.</div>
+        <div class="contemplate-prompt">When I finally hear the truth I have been dreading, what changes in me — and what do I do with what remains?</div>
+        <div class="concept-tags"><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Omniscient Knowledge</span><span class="concept-tag">Compassionate Truth-Telling</span><span class="concept-tag">Karma as Precision</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-1-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Kali's Collapse, Acceptance, and the Hell Rebirth</h4>
+        <p class="sutra-sanskrit">तए णं सा काली देवी समणस्स भगवओ महावीरस्स अंतियं एयमत्थं सोच्चा णिसम्म महया पुत्तसोहणं अप्फुण्णा समाणी परसुणियत्ता विवम्पगलया धरणीयलंसि सव्वंगेहिं सण्णिवाडिया ।
+तए णं सा काली देवी मुहुत्तंतरेणं आसत्था समाणी उट्ठाए उट्ठेइ, उट्ठित्ता समणं भगवं महावीरं वंदइ णमंसइ, एवं वयासी — एवमेइयं भंते तच्छमेइयं भंते अवितच्छमेइयं भंते असंदिद्धमेइयं भंते सच्चे णं भंते एसंठे — इत्ति कट्ठु धम्मियं जाणप्पवरं दुरुहेइ, जामेव दिसं पाउब्भूया तामेव दिसं पडिगया ।
+भंते त्ति भगवं गोयमे एवं वयासी — काले णं भंते कुमारे चेडएणं रण्णा एगाहिचं कूडाहिचं जीवियाओ वावरोविए समाणे कालमासे कालं किच्चा कहं गए, कहं उवउण्णे ?
+गोयमा त्ति समणे भगवं महावीरे एवं वयासी — एवं खलु गोयमा काले कुमारे चेडएणं रण्णा एगाहिचं कूडाहिचं जीवियाओ वावरोविए समाणे कालमासे कालं किच्चा चउत्थीए पंकप्पभाए पुरवीए हेमाभे णरए दससागरोवमट्ठिइए सु णेरइए सु णेरइयत्ताए उवउण्णे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then Queen Kali, having heard this news — overwhelmed by the great grief of her son's loss, like a campaka creeper cut by an axe, her color drained — fell to the ground with all her limbs. After a moment she recovered, rose, bowed to Mahavir, and said: "It is so, venerable one. It is true. It is not otherwise. It is without doubt. It is exactly as you have said." She bowed again, mounted her chariot, and returned in the direction she had come. Then Gautam Swami asked: "Where did Kala Kumar go? Where was he reborn?" Mahavir replied: "Gautam — Kala Kumar was reborn as a hell being in the fourth earth, Pankprabha, in the hell-abode called Hemabha, with a lifespan of ten ocean-measure time units."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The final sutra moves in three stages: Kali's collapse and recovery, her acceptance and departure, and Gautam's question with Mahavir's precise answer. Kali falls like a campaka creeper cut by an axe — the campaka is a flowering vine, fragrant and delicate. Cut at the base, it does not slowly wilt; it falls all at once. This is what the truth does to her: it severs the root of everything she was standing on. Her world collapses in one moment. And then, after a moment, she gets up. She bows. She says: "It is exactly as you said." She does not argue, does not bargain, does not rationalize. She accepts. In Jain understanding, this acceptance — this willingness to receive truth as it is — is the beginning of liberation. The Gujarati commentary notes that Kali eventually took monastic vows and attained liberation; this moment of radical acceptance was the seed. Gautam's question provides the doctrinal capstone: fourth hell, abode named Hemabha, duration ten sāgaropama. Mahavir does not say "he is at peace." He says: he is in the fourth hell for an incomprehensibly long time. The chapter has moved through battle, motherly love, grief, truth, and acceptance — all in ten sutras — arriving here: the specific karmic consequence of a life spent in royal violence. The hell is not punishment. It is the precise experience of the suffering caused by that violence, now encountered from within.</p>
+        <div class="simple-explanation"><b>The simple version:</b> When Kali heard that her son was dead, she collapsed from grief. But she recovered, accepted the truth completely, thanked Mahavir, and went home. Then Gautam asked Mahavir where Kala Kumar was reborn — and Mahavir answered: in the fourth hell, for ten ocean-measure lifetimes.</div>
+        <div class="contemplate-prompt">What would it mean for me to say "it is exactly as you said" — to accept a painful truth completely, without bargaining, without revision — and then get up and go home?</div>
+        <div class="concept-tags"><span class="concept-tag">Collapse and Recovery</span><span class="concept-tag">Radical Acceptance</span><span class="concept-tag">Fourth Hell — Pankprabha</span><span class="concept-tag">Ten Sāgaropama</span><span class="concept-tag">Gautam's Inquiry</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-12">
+    <div class="section-divider"><span>॥ अध्ययन-१ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 1 — Kala Kumar &mdash; Nirayavali Varga 1</p>
+  </div>
+
+</section>
+
+<a href="../nirayavali-index.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter Index</a>
+<a href="nirayavali-varga1-ch2.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 2 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-16 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-12">
+    <div class="flex flex-col gap-4 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-10 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../nirayavali-index.html">Nirayavali</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-1-1", num: "1.1", title: "The Sacred City and Garden — Rajagriha, Gunasila", keywords: "rajagriha gunasila ashoka garden stone slab setting" },
+  { id: "sutra-1-2", num: "1.2", title: "Sudharmashvami Arrives and Teaches", keywords: "sudharmashvami five hundred monks wandering teaching assembly" },
+  { id: "sutra-1-3", num: "1.3", title: "Jambu's Inquiry — The Five Upanga Sections", keywords: "jambu upanga five sections nirayavali kalpavamsika pushpika vrishni" },
+  { id: "sutra-1-4", num: "1.4", title: "The Ten Adhyayanas Listed in Verse", keywords: "ten chapters kala sukala mahakala krishna verse gatha" },
+  { id: "sutra-1-5", num: "1.5", title: "Queen Kali and Prince Kala Kumar Introduced", keywords: "champa konik kali kala kumar queen prince shrenika" },
+  { id: "sutra-1-6", num: "1.6", title: "Kala Kumar Descends into the Rathamushala Battle", keywords: "rathamushala battle elephants army garudavyuha chetaka war" },
+  { id: "sutra-1-7", num: "1.7", title: "Queen Kali's Sleepless Night of Grief", keywords: "kali sleepless vigil grief anguish mother attachment anxiety" },
+  { id: "sutra-1-8", num: "1.8", title: "Kali Journeys to Lord Mahavir", keywords: "mahavir champa kali chariot purnabhadra pradakshina joined palms" },
+  { id: "sutra-1-9", num: "1.9", title: "The Teaching and Mahavir's Revelation", keywords: "teaching dharma chetaka arrow vishakha killed truth omniscient" },
+  { id: "sutra-1-10", num: "1.10", title: "Acceptance, Departure, and the Fourth Hell", keywords: "collapse recovery acceptance pankprabha hemabha ten sagaropama gautam hell" }
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+if (searchInput) {
+  searchInput.addEventListener('input', function() {
+    const q = this.value.toLowerCase().trim();
+    if (!q) { searchDropdown.style.display = 'none'; return; }
+    const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.keywords.toLowerCase().includes(q) || s.num.includes(q));
+    if (results.length === 0) {
+      searchDropdown.innerHTML = '<div class="search-no-results">No results found</div>';
+    } else {
+      searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join('');
+    }
+    searchDropdown.style.display = 'block';
+  });
+  document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+}
+window.addEventListener('scroll', () => {
+  const btns = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) btns.forEach(b => b.classList.add('visible'));
+  else btns.forEach(b => b.classList.remove('visible'));
+});
+</script>
+</body>
+</html>

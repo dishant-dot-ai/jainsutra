@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Prashnavyakaran — SS1 · Adhyayan 2: Mrushavad (Falsehood) | JainAwaken.org</title>
+<meta name="description" content="The second gate of karma influx — Mrushavad (falsehood). Thirty names, who speaks it, wrong philosophies exposed as lies, the terrible fruits of false speech. Prashnavyakaran Sutra, Shrutaskandh 1, Adhyayan 2."/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.125rem; line-height: 1.7; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative group hidden lg:block">
+        <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb">
+        <a href="prashnavyakaran-index.html" class="text-on-surface-variant hover:text-primary transition-colors underline">Prashnavyakaran</a>
+        <span class="text-outline">/</span>
+        <span class="text-primary font-semibold uppercase tracking-[0.2em]">Adhyayan 2</span>
+      </nav>
+      <h1 class="text-5xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Falsehood<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">मृषावाद</span>
+      </h1>
+    </div>
+    <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">The Second Gate — What Falsehood Is, Who Speaks It, and the Ancient Companion It Becomes</h2>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The second Aashrav-dvar: false speech in all its forms. Thirty names for its nature. A catalog of who speaks it. An extraordinary critique of wrong philosophies as the deepest form of falsehood. The full spectrum of harmful speech — from social slander to military command to religious ritual violence. And the terrible fruits that follow the soul across lifetimes.</p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+      <img src="../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+    </div>
+    <div class="mt-8 text-center">
+      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">चिरपरिचियमणुगयं दुरंतं बिइयं अहम्मदारं ।</p>
+      <p class="text-base text-on-surface-variant mt-3 font-light italic">"Ever-accompanying, an ancient companion since beginningless time, endless — this is the second gate of unrighteousness." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Falsehood — मृषावाद</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Adhyayan 2 is philosophically richer and more surprising than Adhyayan 1. While the first chapter cataloged the creatures and circumstances of violence, the second chapter takes an unexpected turn: more than half its sutras are devoted to exposing <span class="text-primary font-semibold">wrong philosophical views as forms of false speech</span>. Nihilism, atheism, creation theories, accident theory, fate theory, determinism — all are systematically addressed and refuted as misrepresentations of reality that mislead souls.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The deepest teaching of this chapter is contained in Sutra 2.12: <em>even true statements constitute false speech if they cause harm to living beings.</em> Truth is not merely factual accuracy — it is speech that serves the welfare of life. A statement that leads to the killing of beings is violent speech (himsaga vachan), and violent speech is false speech, even when every word of it is accurate. This elevates the Jain understanding of truth from a simple correspondence theory to a relational and ethical one. <em>iti bemi</em> — thus Mahavira seals it.
+      </p>
+      <div class="flex gap-8 items-center pt-4">
+        <div><span class="text-3xl font-headline font-bold text-primary">16</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">2nd Adharma-Dvar</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Second Gate of Evil</span></div>
+        <div class="w-px h-12 bg-outline-variant"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Champa</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Setting</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Prashnavyakaran &middot; SS1 &middot; Adhyayan 2</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 16 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <!-- PART I -->
+  <div class="section-divider"><span>Part I &mdash; The Second Gate: Nature of Falsehood</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.1</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">जंबू ! बिइयं अलियवयणं लहुसग-लहुचवल-भणियं भयंकरं दुहकरं अयसकरं वेरकरगं अरइ-रइ-रागदोस-मणसंकिलेस-वियरणं अलियणियडिसाइ-जोयबहुलं णीयजण-णिसेवियं णिस्संसं अप्पच्चयकारगं परमसाहुगरहिणज्जं परपीलाकारगं परमकिण्हलेस्ससेवियं दुग्गइविणिवायविवडुणं भवपुण्णभवकरं चिरपरिचिय-मणुगयं दुरंतं बिइयं अहम्मदारं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Sweeping Portrait — False Speech as Ancient Companion</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">O Jambu! The second gate of unrighteousness is false speech — spoken lightly and impulsively, it is terrible, pain-causing, infamy-creating, and enmity-generating; it produces dispassion, passion, attachment, hatred, and mental agitation; it is connected with the deceitful and the false; it is filled with sinful use of speech; it is practiced by base people; it is merciless; it destroys credibility; it is condemned by the supreme saints; it torments others; it is associated with the darkest karmic coloring; it multiplies downward rebirths; it fills life after life; it is ever-accompanying and endless — this is the second gate of unrighteousness.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The first sutra of Adhyayan 2 announces its subject in the same formal style used for Himsa: a single sweeping description addressed directly to Jambu Swami. The description is not merely a definition but a complete moral portrait. False speech begins not in the mouth but in the character: it is spoken by the frivolous and the impulsive — those who are light in virtue, restless in mind, hasty in tongue. A person of depth, patience, and self-awareness does not speak falsely. Only one who has lost connection with their own inner truth reaches out for outer falsehood.<br/><br/>The sutra catalogs what false speech produces in the soul: the alternation between passion and dispassion, the churning of attachment and aversion, and above all, mental agitation — the restless, clouded state from which no clarity and no liberation can emerge. It ends with a cosmological sweep: false speech is entangled with the darkest karmic matter — the krishna leshya — and it sends the soul downward through birth after birth. It is not an occasional slip. It is an old companion, carried across countless lifetimes. This is why it is "endless" — because one who has embraced it finds it follows them wherever they go, until it is consciously renounced and fully paid for.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Lying is not just a bad habit — it is a chain that follows your soul through life after life, pulling you down into suffering, keeping you in the company of the worst people, and keeping you far from liberation.</p>
+        <div class="concept-tags"><span class="concept-tag">Mrushavad</span><span class="concept-tag">Adharma-Dvar</span><span class="concept-tag">Krishna Leshya</span><span class="concept-tag">Ancient Companion</span><span class="concept-tag">Mental Agitation</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART II -->
+  <div class="section-divider"><span>Part II &mdash; Thirty Names and Who Speaks Falsehood</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.2</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">तस्स य णामाणि गोण्णाणि होंति तीसं । तं जहा- अलियं, सढं, अणज्जं, मायामोसो, असंतगं, कूडकवडमवत्युगं च, णिरत्थयमवत्थयं च, विद्देसगरहिणज्जं, अणुज्जगं, कक्कणा य, वंचणा य, मिच्छापच्छाकडं च, साई उ, उच्छण्णं, उक्कूलं च, अट्टं, अब्भक्खाणं च, किव्विसं, वलयं, गहणं च, मम्मणं च, णूमं, णिययी, अपच्चओ, असम्मओ, असच्चसंधत्तणं, विवक्खो, अवहीयं, उविहिअसुद्धं, अवलोवोत्ति य ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Thirty Names — A Thirty-Faceted Mirror of Falsehood</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The thirty meaningful synonymous names of falsehood are: (1) Alika — the untrue; (2) Satha — the deceitful; (3) Anarya — the ignoble; (4) Mayamusha — deceit-falsehood; (5) Asatka — the non-existent; (6) Kudakapatavastuka — fraud layered on fraud; (7) Nirarthakamavastava — the meaningless and baseless; (8) Vidvesha-garhaniiya — the hateful and condemnable; (9) Anujjuka — the insincere; (10) Kalkana — sinful pollutant; (11) Vanchana — deception; (12) Mithyapashchat-kruta — falsehood requiring more falsehood to sustain; (13) Sati — the untrustworthy; (14) Uchchhanna — the concealing; (15) Utkula — the deviant; (16) Arta — pain-giving; (17) Abhyakhyana — false accusation; (18) Kilbisha — sin and wickedness; (19) Valaya — the twisted and coiled; (20) Gahana — the impenetrable; (21) Manmana — the murky; (22) Numa — the virtue-concealer; (23) Nikruti — the self-concealer; (24) Apratyaya — the untrustworthy among good people; (25) Asamata — the unacceptable; (26) Asatya-sanghata — the untruth-increaser; (27) Vipaksha — the truth-opponent; (28) Aupadhika — the abode of deceit; (29) Upadhi-ashuddha — deceit-impure; (30) Apalopa — the annihilator of reality.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">These thirty names are not a mere list — they are a thirty-faceted mirror that reveals the full nature of false speech. Some names focus on the speaker: Alika (the untrue person), Satha (the crooked), Anarya (the ignoble). Falsehood begins in character, not in words. Some names focus on the structure of falsehood itself: Kudakapatavastuka reveals that one lie always requires more lies to cover it — fraud layered on fraud. Nirarthakamavastava reveals that false speech is ultimately purposeless, a word disconnected from reality. Others focus on what falsehood does to its practitioner: Asatya-sanghata shows that it multiplies the tradition of falsehood within the speaker's life, making each lie easier than the last.<br/><br/>The final name, Apalopa — annihilator of reality — is perhaps the deepest. Sustained falsehood does not merely deceive others; it destroys the speaker's own capacity to perceive truth. The chronic liar lives in a world of their own construction, no longer able to distinguish what is true from what they have invented.</p>
+        <p class="simple-explanation"><b>The simple version:</b> There are thirty different ways falsehood harms you — it makes you crooked, untrustworthy, an enemy of truth, unable to see reality clearly, and eventually cut off from all good people and good company.</p>
+        <div class="concept-tags"><span class="concept-tag">Thirty Names</span><span class="concept-tag">Apalopa — Annihilator</span><span class="concept-tag">Fraud Layered on Fraud</span><span class="concept-tag">Character Before Words</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.3</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">तं च पुण वयंति केई अलियं पावा असंजया अविरया कवडकुडिलकडुय-चडुलभावा कुद्धा लुद्धा भया य हस्सडिया य सक्खी चोरा चारभडा खंडरक्खा जियजुयकरा य गिहियगहणा कक्ककूरगकारगा, कुलिंगी उविहिया वाणियगा य कूडतुलकूडमाणी कूडकाहावणोवजीविया पडगार-कलायकारुइज्जा वंचणपरा चारियचाडुयार-णगरगुतिय-परिचारगा दुट्ठवाइसुयगअणबलभिणिया य पुव्वकालिय-वयणदच्छा साहसिया लहुस्सगा असच्चा गारिवया असच्चट्ठावणाहिचित्ता उच्चच्छंदा अणिग्गहा अणियत्ता छंदेणमुक्कवाया भवंति अलियाहिं जे अविरया ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Catalog of False Speakers — Anger, Greed, Fear, Mockery</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Who speaks falsehood? The sinful, the unrestrained, those without even partial vows, those who are by nature deceitful, crooked, harsh, and restless; the angry, the greedy, the fearful, and the mockers; false witnesses, thieves, mercenaries, debt-collectors, gamblers, those who seize others' possessions; those in the garb of false religions, those engaged in prohibited conduct; merchants who use fraudulent weights and measures; counterfeiters; actors and entertainers; those expert at cheating; spies, informers, and assistants to city security; those swayed by the wicked and weak-minded; the rash, the frivolous, the false, the arrogant; those whose mind is set on establishing falsehood; the unbridled, the completely uncontrolled, the undisciplined — those who speak freely by whim without thought.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is a taxonomy of the false-speaker: not abstract moralizing but a concrete catalog, profession by profession, character type by character type. The commentary identifies four root causes of false speech — and every false statement traces back to one of them:<br/><br/><strong>Anger</strong> dissolves discrimination. In its grip, a person loses the ability to assess what is true before speaking. <strong>Greed</strong> is perhaps the most common cause: when the object of desire is great enough, truth becomes an obstacle. <strong>Fear</strong> drives the soul to invent a protective fiction — the person who has done wrong lies to avoid consequences. <strong>Mockery and humor</strong> is the subtlest: the entertainer who exaggerates for effect, the storyteller who invents — even this binds, because the root of entertainment built on falsehood is still false speech.<br/><br/>The catalog ends with the fundamentally uncontrolled — those who speak freely by impulse, without reflection, without any internal governor. For them, falsehood is not even a choice: it is simply what comes out when the mouth opens.</p>
+        <p class="simple-explanation"><b>The simple version:</b> People lie when they're angry, greedy, frightened, or just trying to be funny — and the more uncontrolled your character, the more naturally falsehood flows from you.</p>
+        <div class="concept-tags"><span class="concept-tag">Four Causes of Lying</span><span class="concept-tag">Anger</span><span class="concept-tag">Greed</span><span class="concept-tag">Fear</span><span class="concept-tag">False Witnesses</span><span class="concept-tag">False Religious Garb</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART III -->
+  <div class="section-divider"><span>Part III &mdash; Wrong Philosophies as Falsehood</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.4</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अवरे णत्थिगवाइणो वामलोयवाई भणंति- सुण्णं ति । णत्थि जीवो । ण जाइ इह परे वा लोए । ण य किंचिवि फुसइ पुण्णपावं । णत्थि फलं सुकयदुक्कयाणं पंचमहाभूयं सरीरं भासंतिह वायजोगजुत्तं । पंच य खंधे भणंति केइ, मणं य मणजीविया वदंति, वाउजीवोत्ति एवमाहंसु, सरीरं साइयं सणिधणं, इहे भवे एगभवे, तस्स विप्पणासम्मि सव्वणासोत्ति, एवं जंपंति मुसावाई ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Nihilism — No Soul, No Karma, No Consequence</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">The nihilists who hold contrary-world views proclaim: "All is void. There is no soul. One does not go to this world or the next. Nothing whatsoever touches merit or sin. There is no fruit of virtuous or sinful deeds. The body is made of five great elements and speaks through the power of the life-breath." Some speak of five aggregates; some say the mind alone is the soul; some say the life-breath is the soul. "The body has a beginning and an end; in this one existence, when this body perishes, everything perishes" — thus say the false-speakers. Therefore, they conclude: there is no fruit in charity, vows, restraint, or celibacy; killing, stealing, lying — nothing in these matters. There are no realms of rebirth. There is no liberation. Therefore, engage in all activities pleasing to the senses as fully as possible.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This remarkable sutra classifies wrong philosophical doctrines as forms of false speech. The nihilists — those who deny the soul, karma, rebirth, and any moral order — are not merely described as mistaken; they are identified as false-speakers, practitioners of Mrushavad.<br/><br/>The philosophical schools addressed are precisely identified: <em>Shunyavad</em> (the world is like a dream — empty); <em>Anatmavad</em> (consciousness arises from the combination of five elements and perishes when they dissolve); <em>Buddhist Skandhavad</em> (five aggregates, all momentary, each moment ceasing and a successor arising); and <em>Vayujivavad</em> (the life-breath is the soul; when breathing ceases, everything ceases). All these views are logically untenable: if everything is void, are the nihilists themselves void? A material object cannot have experiences — only a conscious soul can feel happiness and suffering. If everything is momentary, what transmits the continuity of experience? The logical contradictions are built into the views themselves. Most importantly: from these positions, the invitation to unbounded sensory indulgence follows logically — which is precisely why the text treats them as spiritually the most dangerous form of falsehood.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Some philosophers teach that there is no soul, no karma, no afterlife, and no point in being good — this teaching is itself a form of falsehood, because it leads people away from the truth about how existence actually works.</p>
+        <div class="concept-tags"><span class="concept-tag">Nihilism — Natthikavad</span><span class="concept-tag">No-Soul Theory</span><span class="concept-tag">Buddhist Skandhas</span><span class="concept-tag">Philosophy as False Speech</span><span class="concept-tag">Sensory License</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.5</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">इमं वि बितियं कुदंसणं असभाववाइणो पण्णवेंति मूढा — संभूओ अंडगाओ लोगो । संयभुणा सयं य णिम्मिओ । एवं एयं अलियं पयंपिति ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Egg-Origin Theory and Self-Creation</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">A second wrong view, propounded by the non-existence-advocates, those deluded ones: "The world was born from an egg. The world created itself by itself." In this way they proclaim this falsehood.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This brief sutra addresses cosmological creation theories as forms of false speech. The two positions examined: (1) the egg-origin theory — the world hatched from a cosmic egg (described in the Chandogyopanishad tradition, where a golden egg hatched into earth and sky from which all creation emerged); and (2) the self-creation theory — the world spontaneously created itself, or was created by a self-existent deity who willed creation out of his own being (as in the Manusmriti tradition, where Brahma himself emerged from a golden egg).<br/><br/>The logical analysis is unsparing: if the world had not yet begun, where did the egg come from? Eggs require earth, water, fire, air, and space to form — if those elements were absent, the egg could not exist. The self-creation theory is equally problematic: where was the creator before the world existed? Who gave him the desire to create? The Jain philosophical position stated as background: the world is beginningless and endless. Its substance undergoes no absolute creation or destruction. What we call creation and destruction are merely the transformation of substances that have always existed.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The idea that the universe was born from a cosmic egg or created by a god who spontaneously willed it into existence does not hold up logically — the world has always existed, changing form but never truly beginning or ending.</p>
+        <div class="concept-tags"><span class="concept-tag">Egg-Origin Theory</span><span class="concept-tag">Self-Creation</span><span class="concept-tag">Beginningless World</span><span class="concept-tag">Cosmological Falsehood</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.6</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">पयावइणा इस्सरेण य कयं ति केई । एवं विण्हुमयं किसणमेव य जगं ति केई । एवमेगे वयंति मोसं- एगे आया अकारओ वेदओ य सुकयस्स दुक्कयस्स य करणाणि कारणाणि सव्वहा सव्विहिं च णिच्चो य णिक्किओ णिग्गुणो य अणुवलेवओ ति विय एवमाहंसु असभावं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Creator-God, Vishnu-Permeation, and Advaita Monism</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Some say: "This world was created by Prajapati, by Ishvara." Some say: "This entire world is pervaded by Vishnu; it is all Krishna alone." And some proclaim as falsehood: "The soul is one alone, without beginning, it witnesses merit and sin; in all ways and in all forms it is eternal, inactive, without qualities, and untouched by anything" — thus they proclaim a false nature of reality.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Three further philosophical positions are classified as forms of false speech:<br/><br/><strong>Prajapati/Ishvara-creation theory:</strong> The Jain critique is direct: if a compassionate Ishvara created the world, why does he send some souls to hell and others to heaven? Why does the same god give pain to some beings and pleasure to others? If this is his "play" (lila), what separates him from a heartless child? These logical contradictions reveal this view as spiritually false.<br/><br/><strong>Vishnumaya / Krishna-permeation theory:</strong> If everything is Vishnu, then vice and virtue, liberation and bondage, the saint and the sinner are all equally Vishnu. How then is any distinction possible? How does liberation make sense if everything is already the divine?<br/><br/><strong>Ekatmavad — Advaita Monism:</strong> The Vedantic position that there is one eternal, attributeless, inactive witness soul — the Brahman/Atman. The Jain response: if the soul is truly one, then the death of any one being should be the death of all; the birth of any one being should be the birth of all. But experience clearly shows one being happy while another suffers; one born while another dies. This directly proves that souls are many, distinct, and separately responsible for their own journeys.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Believing that a creator-god made the world, or that everything is God, or that there is only one all-pervading soul — these do not account for the clearly observable fact that individual souls are distinct and each responsible for their own liberation.</p>
+        <div class="concept-tags"><span class="concept-tag">Creator-God Theory</span><span class="concept-tag">Vishnumaya</span><span class="concept-tag">Advaita Monism</span><span class="concept-tag">Individual Soul</span><span class="concept-tag">Responsibility</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.7</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">जं वि इहं किंचि जीवलोए दीसइ सुकयं वा दुकयं वा एयं जदिच्छाए वा सहावेण वाव दइवतप्पभावओ वाव भवइ । णत्येत्थ किंचि कयगं तत्तं लक्खणविहाणिणयतीए कारियं, एवं केइ जंपंति । इंडिय-रस-सायागारवपरा बहवे करणालसा परूवेंति धम्मवीमंसएणं मोसं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Accident, Nature, Fate, and Determinism — Four Excuses</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Whatever good deed or evil deed is seen in this world of living beings — it all happens either by chance, or by inherent natural necessity, or by the power of fate. Nothing here is accomplished through any deliberate act guided by prescribed signs and conduct — thus some proclaim. Many who are absorbed in the pleasures of the senses, attached to tastes and honors, lazy in taking action, teach this as falsehood in the name of philosophical examination of dharma.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Four worldviews that deny meaningful self-effort are each examined and rejected:<br/><br/><strong>Yadrcchavad (Accident theory):</strong> Whatever happens does so spontaneously and randomly — like a crow sitting on a branch and a fruit falling at the same moment. The problem: coincidence cannot be a cause. Every event has genuine antecedent conditions; apparent coincidences always have explanations when examined carefully.<br/><br/><strong>Svabhavavad (Nature theory):</strong> Everything happens according to its inherent nature — thorns are sharp by nature, fire burns by nature. But who produced the nature? If nature is self-sufficient and unchangeable, then no amount of effort should change anything. But experience shows that effort does change outcomes.<br/><br/><strong>Daivavad (Fate/Destiny theory):</strong> When fate is favorable one gains one's goal without effort; when unfavorable no effort produces results. But those who preach fate still work hard — a direct refutation by their own behavior.<br/><br/>The text notes pointedly: those who teach these one-sided doctrines are often people absorbed in sensory pleasures and lazy about difficult action. The philosophy of "it doesn't matter anyway" conveniently serves their desire to avoid effort. The Jain position: all five factors — time, inherent nature, prior karma, ordering, and self-effort — work together. Self-effort is the modifiable one; which is precisely what makes dharma — and liberation — possible.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Saying "it all happens by chance," or "it's just fate," or "that's just how things are" — these are philosophies people use to escape responsibility for their actions, and they are all forms of falsehood.</p>
+        <div class="concept-tags"><span class="concept-tag">Accident Theory</span><span class="concept-tag">Nature Theory</span><span class="concept-tag">Fate Theory</span><span class="concept-tag">Determinism</span><span class="concept-tag">Self-Effort</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART IV -->
+  <div class="section-divider"><span>Part IV &mdash; False Speech in the World</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.8</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अवरे अहम्मो रायदुट्टुं अभक्खाणं भणंति अलियं- चोरोत्ति अचोरयं करेंतं, डामरिउत्ति वि य एमेव उदासीणं, दुस्सीलोत्ति य परदारं गच्छइत्ति मइलिंति सीलकलियं, अयं वि गुरुतपओत्ति । अण्णे एमेव भणंति उवहणंता मित्तकलत्ताइं सेवंति अयं वि लुत्तधम्मो, इमोवि विस्संभवाइओ पावकम्मकारी अगम्मगामी अयं दुरप्पा बहुएसु च पावगेसु जुत्तोत्ति एवं जंपंति मच्छरी ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">False Accusation — Weaponizing Words Against the Innocent</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Others, through unrighteous false accusations, speak falsehood against kings or persons in power — calling one who has not stolen "a thief"; calling a neutral, peaceful person "a troublemaker"; calling a person of good character "immoral and adulterous" and thereby defaming the virtuous; calling someone "guilty of a grave transgression." Others similarly, to destroy the reputation of friends and spouses, say: "This one is irreligious"; "This one is of false trust, a doer of sinful acts, one who visits forbidden women, this degraded soul is involved in many sins" — thus speak the jealous.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra moves from philosophical false speech to political and social false speech — the false accusation. The examples are carefully chosen: accusing the innocent of theft; labeling a neutral observer a troublemaker; defaming the chaste; making false accusations of moral transgression against an honorable person. All represent the weaponization of speech — using words not to communicate truth but to harm.<br/><br/>Jealousy (macchar) is identified as a key motive. The jealous person cannot bear the good name of another. When they cannot attack the reputation through truth, they attack it through falsehood — destroying friendships, breaking trust between spouses, corrupting the community's understanding of who is virtuous and who is not. There is also the dimension of political damage: false accusers approach kings and rulers to harm the innocent, turning authority against those who do not deserve punishment.<br/><br/>The sutra closes with a devastating image: skilled practitioners of false accusation "wrap themselves in the seed of accusation" — karmically binding themselves in layers of dense bondage. Every false word, even spoken for momentary advantage, plants a seed that grows into enormous suffering across future lives.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Spreading false rumors, making false accusations, and using words as weapons against innocent people is one of the worst forms of lying — it destroys others and wraps you in your own karmic chains.</p>
+        <div class="concept-tags"><span class="concept-tag">False Accusation</span><span class="concept-tag">Jealousy</span><span class="concept-tag">Political Harm</span><span class="concept-tag">Karmic Seed</span><span class="concept-tag">Weaponized Words</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.9</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">णिक्खवे अवहरंति परस्स अत्थिम्मि गढियगिद्धा अभिजुंजंति य परं असंतएहिं । लुद्धा य करेंति कूडसिक्खत्तणं असच्चा अत्थालियं च कण्णालियं च भोमालियं च तह गवालियं च गरुयं भणंति अहरगइगमणं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">False Testimony — Lying for Wealth, Land, and Honor</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Deeply entrapped by greed for another's wealth, they seize it like a deposit and attack others with non-existent accusations. The greedy, in their falsehood, engage in false witnessing: they give false testimony about wealth, false testimony about daughters, false testimony about land, and false testimony about cattle — and they speak seriously about downward rebirth through such acts.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra focuses on a particularly damaging form of falsehood: the use of false testimony to seize the wealth, dignity, or rights of others. Greed — already identified as one of the four root causes of falsehood — is here shown in its full destructive operation through the legal and commercial systems of society.<br/><br/>The examples are precise: false testimony about money (claiming a debt was not repaid, or claiming a debt never owed); false testimony about daughters (false claims in matters of marriage, inheritance, or dowry — in a society where a daughter's honor determined her entire future); false testimony about land (property disputes settled by perjury); false testimony about cattle (commercial livestock fraud). These are not imaginary scenarios but the everyday frauds of any society where wealth transfers through witnesses and oaths.<br/><br/>The sutra then extends to slander of caste, lineage, and character — perhaps the most devastating in a social context where these determined marriage, livelihood, and social standing. The closing phrase — "stained by impure intentions" — points to the source: this false speech does not emerge from error. It comes from a soul already darkened, already bent toward taking what is not its own. The speech is the symptom; the impure intention is the disease.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Lying to get someone's money, land, or good name — giving false testimony in disputes — is a particularly serious form of falsehood that leaves heavy karmic marks and creates misery across many lifetimes.</p>
+        <div class="concept-tags"><span class="concept-tag">False Testimony</span><span class="concept-tag">Greed</span><span class="concept-tag">Property Fraud</span><span class="concept-tag">Impure Intention</span><span class="concept-tag">Social Slander</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.10</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अलियाहिसंधि-सण्णिविट्ठा असंतगुणुदीरया य संतगुणणासगा य हिंसाभूओ- वघाइयं अलियं संपत्ता वयणं सावज्जमकुसलं साहुगरहिणज्जं अहम्मजणणं भणंति, अणभिगय-पुण्णपावा पुणो वि अहिगरण-किरिया-पवत्तगा बहुविहं अणत्थं अवमद्दं अप्पणो परस्स य करेंति ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Double-Harm Speaker — Praising What Does Not Exist, Erasing What Does</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those who are wholly absorbed in the intention of falsehood; who proclaim virtues that do not exist in others and who destroy virtues that do exist; who have themselves become as violence — having obtained words of violent falsehood that are sinful, unskillful, condemned by the saints, and generators of unrighteousness — they speak them; ignorant of merit and sin, they again and again promote the activities of conflict, causing manifold harm and disgrace to themselves and to others.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra addresses the double-harm false speaker: the person who simultaneously destroys others and themselves through the same act of false speech. What makes this type particularly destructive is the intentionality — these are not accidental false speakers but people whose very consciousness is organized around falsehood as a goal.<br/><br/>Two specific behaviors are identified: (1) proclaiming virtues that do not exist — false praise, inflation of reputation, glorifying those who deserve no glory; and (2) destroying virtues that do exist — suppressing the truth of another's good qualities, concealing what is genuinely admirable. Both behaviors have the same root: the speaker's entire mental orientation is toward producing a false version of reality. They have, in the text's striking phrase, "become as violence" — their false speech is itself a form of harm as real as a physical blow.<br/><br/>A profound observation: those whose consciousness is full of falsehood constantly try to mask truth and expose falsehood instead. They hide their own faults, glorify others' faults, and conceal others' virtues. The moment the intention of falsehood arises in the mind, karma begins to bind — the false statement, when finally uttered, is merely the tip of an already-growing iceberg of accumulated defilement.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When a person is so deeply committed to lying that they praise what doesn't exist and erase what does, they have become violence itself in the form of words — and they destroy both their targets and themselves.</p>
+        <div class="concept-tags"><span class="concept-tag">Double-Harm</span><span class="concept-tag">Violent Speech</span><span class="concept-tag">Praise of Non-Existent</span><span class="concept-tag">Erasure of Virtue</span><span class="concept-tag">Intentional Falsehood</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-11">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.11</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">एमेव जंपमाणा महिससुकरे य साहिंति घायगाणं, ससयपसयरोहिए य साहिंति वागुराणं, तित्तिर-वट्टग-लावगे य किवंजल-कवोयगे य साहिंति साउणीणं, झस-मगर-कच्छभे य साहिंति मच्छियाणं, संखंके खुल्लए य साहिंति मगराणं, अयगर-गोणसमंडलिदव्वीकरे मउली य साहिंति वालवीणं, गोहा-सेहग-सल्लग-सरडगे य साहिंति लुद्धगाणं, गयकुलवाणरकुले य साहिंति पासियाणं, सुग-बरिहण-मयणसाल-कोइल-हंसकुले सारसे य साहिंति पोसगाणं... धण-धण्ण-गवेलए य साहिंति तक्कराणं, गामागर-णगरपट्टणे य साहिंति चारियाणं, पारघाइय पंथघाइयाओ य साहिंति गंठिभेयाणं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Informer's Web — Every Creature Betrayed</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Speaking thus, they tell hunters about buffalo and pigs; they tell trappers about rabbits, deer, and fawns; they tell fowlers about partridge, quail, dove, and pigeon; they tell fishers about fish, crocodiles, and tortoises; to snake-catchers they tell about pythons, water-snakes, and hooded serpents; to gamblers they tell about elephants and monkeys; to animal-keepers they tell about parrots, peacocks, mynah birds, koels, swans, and sarus cranes; to thieves they tell about wealth, grain, and cattle; to spies they tell about villages and towns; to highway robbers they tell about pack-contents and pockets; to miners they tell about deposits of gems and precious stones.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra is one of the most powerful in the chapter — not through abstract philosophy, but through a relentless catalog that makes the point unmissable: false speech does not exist in isolation. Every piece of information given to a harmful actor enables and perpetuates harm.<br/><br/>The sutra covers the full range of living beings that are betrayed: aquatic creatures (fish, tortoises, conch-shell beings), reptiles (pythons, water-snakes, monitor lizards), birds (partridge, quail, doves, peacocks, swans), mammals (rabbits, deer, monkeys, elephants, buffalo, pigs), and finally the wealth and natural resources of the land. Nothing is exempt. Every category of life is included in the web of harm that false speech enables.<br/><br/>This reveals something profound about the moral structure of speech: the speaker is not merely transmitting neutral information. Every word spoken to a hunter about where buffalo are grazing makes the speaker a partner in the killing of those buffalo. Every tip given to a thief about where wealth is stored makes the speaker a partner in the theft. Speech creates consequences that extend far beyond the moment of utterance. The implied teaching: silence, in the right moment, is also truth.</p>
+        <p class="simple-explanation"><b>The simple version:</b> When you tell a hunter where the animals are, or a thief where the wealth is — you are a partner in everything that follows, and your words are as harmful as any weapon.</p>
+        <div class="concept-tags"><span class="concept-tag">Information Enables Harm</span><span class="concept-tag">Partnership in Violence</span><span class="concept-tag">All Living Beings</span><span class="concept-tag">Silence as Truth</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-12">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.12</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">जंताइं विसाइं मूलकम्मं आहेवण-आविंधण-अभिओग-मंतोसहिप्पओगे चोरिय-परदार-गमण-बहुपावकम्मकरणं उक्खंधे, गामघाइयाओ वणदहण-तलाग-भेयणाणि बुद्धिविसविणासणाणि वसीकरणमाइयाइं भयमरण-किलेसदोसजणणाणि भावबहुसंकिलिट्टुमलिणाणि भूयघाओवघाइयाइं सच्चाइं वि ताइं हिंसगाइं वयणाइं उदाहरंति ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Even True Statements Can Be False Speech — The Highest Principle</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Those who expound — even when factually true — words about instruments of poison; about the use of mantras and medicines for subjugation and coercion; about many sinful acts including theft and unchastity; about the destruction of villages; about the burning of forests, breaking of ponds; about destroying intelligence through poison; about fascination practices; about generating fear and death; about killing and harming living beings — these words, <em>even if true</em>, are violent words, and they speak them.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra contains the most philosophically important teaching in the entire chapter: <em>even true statements can be false speech if they cause harm to living beings.</em><br/><br/>The conventional understanding of falsehood is simple: a lie is something untrue. But this sutra breaks that understanding open. Instructions for using poison to trap animals, teachings about how to use mantras to subjugate others, technical knowledge about how to burn forests — all of these may be factually accurate, technically correct, and yet they are classified as harmful speech (himsaga vachan) and therefore as a form of false speech.<br/><br/>The Vivechan quotes the decisive principle: <em>"Sadbhyo hitam satyam"</em> — that which benefits good beings is truth. Truth is not merely a matter of factual correspondence to reality. It is a matter of whether the utterance serves the welfare of living beings or harms them. A statement that causes the killing of beings is violent speech, and violent speech is false speech, regardless of its factual content.<br/><br/>This has enormous practical implications: the Jain test of whether to speak is not "Is this true?" but "Is this true and harmless?" Only speech that passes both tests qualifies as right speech. Even accurate military intelligence given to an aggressor is false speech. Even correct medical information given to someone planning to poison another is false speech. The factual content is irrelevant; the consequence to living beings determines the moral character of the utterance.</p>
+        <p class="simple-explanation"><b>The simple version:</b> A statement doesn't have to be false to be a lie — if what you say causes harm to living beings, it counts as harmful speech, no matter how accurate it is.</p>
+        <div class="concept-tags"><span class="concept-tag">Truth That Harms</span><span class="concept-tag">Himsaga Vachan</span><span class="concept-tag">Sadbhyo Hitam Satyam</span><span class="concept-tag">Factual vs Ethical Truth</span><span class="concept-tag">Right Speech</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-13">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.13</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">पुट्टा वा अपुट्टा वा परत्तियवावडा य असिमिक्खयभासिणो उवदिसंति, सहसा उट्टा गोणा गवया दमंतु, परिणयवया अस्सा हत्थी गवेलग-कुक्कुडा य किंजंतु... गहणाइं वणाइं खेत्त-खिलभूमिवल्लराइं उत्तणघणसंकडाइं डज्झंतु सूडिज्जंतु य, रुक्खा भिज्जंतु... उच्छू दुज्जंतु, पीलिज्जंतु य तिला... खेताइं कसह, कसावेह य... साली वीही जवा य लुच्चंतु मलिज्जंतु उप्पिण्णज्जंतु य लहुं य परिवसंतु य कोटुगारं ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Unreflective Commander — Orders That Unleash Harm</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Whether asked or unasked, those absorbed in causing harm to others and who speak without weighing their words give instructions: "Quickly tame the bulls, oxen, and bison; control the aged horses and elephants; buy and sell them. Dense forests and wasteland — burn them, cut them down. Let trees be split for implements and equipment. Crush the sugarcane; press the sesame; plow the fields; settle villages in the wilderness. Thresh the rice, barley, and wheat; clean it; put it in the storehouse."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This sutra catalogs false speech in daily domestic, agricultural, and commercial life. Where sutra 2.11 addressed false speech that enables explicit violence, this sutra addresses the quieter but equally real violence of daily exploitation: of animals, laborers, forests, and land.<br/><br/>The instructions cataloged sound, in fact, like the ordinary commands of daily life in any agrarian society: work the cattle, buy and sell livestock, cultivate the fields, fill the storehouse. The sutra does not condemn productivity or family life. What it condemns is the unreflective, unlimited issuing of such commands — by people who speak "without weighing their words" — who do not pause to consider what their words unleash. Old horses and elephants are pressed into service despite their age; forests are burned wholesale; workers are treated as instruments rather than as living beings.<br/><br/>The text notes pointedly: these instructions are given "whether asked or unasked." The truly unreflective person does not even wait to be consulted — they simply issue commands wherever they go, for whatever purpose occurs to them. The spiritual principle: every command issued over another living being carries responsibility. One who orders the burning of a forest is responsible for every living being that dies in that fire.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Ordering people to harm animals, burn forests, or work without rest — whether or not anyone asked your opinion — makes you responsible for all the suffering your words set in motion.</p>
+        <div class="concept-tags"><span class="concept-tag">Unreflective Commands</span><span class="concept-tag">Animal Exploitation</span><span class="concept-tag">Forest Destruction</span><span class="concept-tag">Responsibility of Orders</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-14">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.14</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">अप्पमहउक्कोसगा य हम्मंतु पोयसत्था, सेण्णा णिज्जाउ, जाउ डमरं, घोरा वट्टंतु य संगामा... संतिकम्माणि कुणह, सिस-रवि-गहोवराग-विसमेसु... देह य सीसोवहारे, विविहोसहिमज्जमंस-भक्खण-पाण-मल्लाणुलेवणपईवजलि-उज्जलसुगंधि-धूवागार-पुप्फ-फल-संमिद्धे पायच्छित्ते करेह, पाणाइवायकरणेणं बहुविहेणं... एवं विहं करेंति अलियं मणेण वायाए कम्मुणा य अकुसला अणज्जा अलियाणा ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">Military Commands and Violent Ritual — False Speech at Scale</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">"Let fleets of ships be destroyed. Let the army march. Let upheaval begin. Let terrible wars be waged." And in the domain of religion: "Perform propitiatory rites; during planetary eclipses offer protective charms and head-offerings; in elaborate expiations with various medicines, liquor, flesh, food, drink, garlands, lamps, and fragrant incense — with the killing of living beings in various ways — ward off inauspicious dreams and evil omens. Cut off someone's livelihood. Give no charity to anyone. It is good that he was killed." Giving such instructions, thus they commit falsehood through mind, speech, and body.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is the longest and most complex sutra in the chapter. False speech is shown operating in two vast domains that touch enormous numbers of people: military-political commands and religious-ritual instructions.<br/><br/><strong>The military dimension:</strong> Commands to destroy ships, mobilize armies, and begin battles are false speech when they issue from anger, fear, ambition, or political manipulation rather than genuine necessity. Those who give such commands without reflection or moral grounding become responsible for the suffering that follows.<br/><br/><strong>The religious and ceremonial dimension:</strong> This is perhaps the more subtle and important critique. The sutra catalogs practices prevalent in ancient society: astrological timing of ceremonies, elaborate rituals for warding off inauspicious influences, animal sacrifice as expiation, head-offerings to deities, the use of elaborate rituals involving meat, liquor, and blood. All of these are classified as false speech precisely because they involve the killing of living beings, the exploitation of fear and superstition, and the promotion of practices that actually increase harm rather than diminishing it. Wise people recognize such false religious instructions — propitiatory rituals involving violence — as forms of Mrushavad.<br/><br/>The closing lines characterize those who perpetuate all these forms: they are "unskillful," "ignoble," "immersed in false doctrines," finding "pleasure in false stories" — acting through all three channels: mind, speech, and body — committing falsehood not occasionally but as a way of being in the world.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Giving commands for war, ordering harmful religious rituals, using religious language to promote violence or exploitation — all of this counts as harmful false speech, because it uses authority to cause suffering while pretending to serve a higher purpose.</p>
+        <div class="concept-tags"><span class="concept-tag">Military Command</span><span class="concept-tag">Religious Ritual Violence</span><span class="concept-tag">Animal Sacrifice</span><span class="concept-tag">Mind Speech Body</span><span class="concept-tag">Authority and Harm</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- PART V -->
+  <div class="section-divider"><span>Part V &mdash; The Fruit and the Closing Seal</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-15">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.15</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">तस्स य अलियस्स फलिववागं अयाणमाणा वडूंति महब्भयं अविस्सामवेयणं दीहकालं बहुदुक्खसंकडं णरयतिरियजोणिं । तेण य अलिएण समणुबद्धा आइढा पुणभवंधयारे भमंति भीमे दुग्गइवसिहमुवगया । ते य दीसंति इह दुग्गया दुरंता परवस्सा अत्थभोगपरिवज्जिया असुहिया फुडियच्छवि-बीभच्छ-विवण्णा, खरफरुससिवरतज्झामडुसिरा, लल्लविफलवाया, काकस्सरा हीणभिण्णघोसा जडबहिरंधया य, लोयगरहिणज्जा भिच्चा, दुम्मेहा लोय-वेय-अज्झप्पसमयसुइवज्जिया ।</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Fruits — Hell, Animal Birth, Degraded Human Life</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Ignorant of the terrible fruit of their false speech, they fall into the greatly fearful, endlessly tormenting, long-lasting, suffering-dense realms of hell and animal births. Bound by that falsehood, seized, they wander in the terrible darkness of repeated births, having arrived at miserable states of existence. And in this world too, they are seen as wretched, endlessly suffering, totally dependent; deprived of wealth; their skin cracked and blistered; heads rough and scorch-dried; their speech limp and fruitless; with the voice of crows; with broken, fractured voices; dull, deaf, and blind; condemned by the world; forced to serve those of lower status; dull-witted; devoid of worldly learning, scripture, and inner understanding — bereft of all religious intelligence.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">This is emotionally the most powerful sutra in the chapter — a comprehensive portrait of what false speech produces, unfolding in two stages: the long-term consequences in future lives, and the visible consequences in the current life.<br/><br/><strong>In future lives:</strong> The false-speaker falls into hellish and animal births — "greatly fearful, endlessly tormenting, long-lasting, suffering-dense." The commentary makes a specific and striking point: those who misused the faculty of speech are reborn in forms where they have no speech capacity at all — in single-sensed life forms without voice, or as stammerers and mute beings in human life. The punishment fits the crime with karmic precision.<br/><br/><strong>In the current life:</strong> Even before future births, the false-speaker's condition reflects the degradation: cracked and blistered skin; a crow-like voice, harsh and unwelcome to others; broken speech unable to articulate clearly; deafness and blindness; dependence on others; servitude to those of lower status; condemnation by all; poverty.<br/><br/>Most significantly: they are "devoid of all learning" — unable to access worldly wisdom, scripture, or inner spiritual understanding; "bereft of religious intelligence." This is perhaps the deepest consequence of sustained falsehood: it destroys the very capacity for discernment. A life lived in falsehood gradually loses the ability to perceive what is real — until the soul stands before the possibility of liberation without the tools to recognize it or reach for it.</p>
+        <p class="simple-explanation"><b>The simple version:</b> Those who lie throughout their lives are eventually reborn without the ability to speak, or into conditions of constant disrespect and suffering — and in this very life, they experience isolation, condemnation, and a deep loss of their ability to understand what is real.</p>
+        <div class="concept-tags"><span class="concept-tag">Hell Rebirth</span><span class="concept-tag">Animal Birth</span><span class="concept-tag">Crow's Voice</span><span class="concept-tag">Loss of Discernment</span><span class="concept-tag">Karmic Fruit</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-16">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.16</span>
+      <div class="space-y-4 flex-1">
+        <p class="sutra-sanskrit">एसो सो अलियवयणस्स फलिवावाओ इहलोइओ परलोइओ अप्पसुहो बहुदुक्खो महब्भओ बहुरयप्पगाढो दारुणो कक्काओ असाओ वास-सहस्सेहिं मुच्चइ, ण अवेइत्ता अत्थि हु मोक्खोत्ति ।
+एवमाहंसु णायकुलणंदणो महप्पा जिणो उ वीरवरणामधेज्जो कहेसी य अलियवयणस्स फलिवावागं ।
+एयं तं बिईयं पि अलियवयणं लहुसग-लहु-चवल-भणियं भयंकरं दुहकरं अयसकरं वेरकरगं... चिरपरिचियमणुगयं दुरंतं । ति बेमि ॥
+॥ बिइयं अहम्मदारं समत्तं ॥</p>
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Closing Seal — Mahavira's Authority and the Iti Bemi</h4>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">This is the fruit-ripening result of false speech — in this world and in the next — it has little happiness, much suffering, is greatly fearful, deeply entrenched in the densest karmic matter, terrifying, harsh, without pleasure; one is freed from it only after thousands of years of experiencing it. Without fully experiencing its fruit, there is no liberation — truly, there is no liberation. Thus has spoken the great soul, the supreme Jina, whose excellent name is Vira (Mahavira), born as the jewel of the Jnata clan. This — that second false speech also — spoken lightly and impulsively, terrible, pain-causing, infamy-creating, enmity-generating, ever-accompanying, endless. Thus I say. ॥ The Second Gate of Unrighteousness is Complete ॥</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The final sutra brings the chapter to its formal close with three interlocking movements: a summary of the karmic fruit, an invocation of Mahavira's authority, and a repetition of the opening description of false speech — now heard differently after everything that has been taught.<br/><br/><strong>The fruit summarized:</strong> The consequence of false speech is described in stark, unambiguous terms: little happiness, much suffering, entrenched in the densest karmic matter, harsh, without pleasure — lasting thousands of years. The most important phrase: "without fully experiencing its fruit, there is no liberation." The consequence of each action must be experienced in full. There is no escaping the fruit; there is only exhausting it through experience — or, far better, never producing it.<br/><br/><strong>The invocation of Mahavira:</strong> The sutra explicitly names the source: "the great soul, the supreme Jina, whose excellent name is Vira, born as the jewel of the Jnata clan." In Jain tradition, the authority of a teaching rests entirely on the perfection of the one who gives it. Mahavira speaks not from speculation, not from tradition alone, but from direct omniscient knowledge of reality. His description of the fruit of false speech is not an opinion — it is a statement of cosmic fact.<br/><br/><strong>The closing repetition:</strong> The chapter ends by repeating, almost word for word, the opening description of false speech from sutra 2.1. This is a deliberate literary and spiritual device. Having spent the entire chapter unfolding the full depth and breadth of falsehood — its 30 names, its practitioners, its philosophical expressions, its social forms, its terrible fruits — the reader now hears those opening words again with completely different ears. <em>iti bemi</em> — Thus I say — is Mahavira's personal seal on the teaching.</p>
+        <p class="simple-explanation"><b>The simple version:</b> The teaching on falsehood ends with Mahavira's own authority: the consequences of lying last for thousands of years, and you cannot be free until you have experienced every bit of it — so the wisest thing is simply to stop, completely and forever.</p>
+        <div class="concept-tags"><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Mahavira's Authority</span><span class="concept-tag">Karmic Fruit — Thousands of Years</span><span class="concept-tag">No Liberation Without Experience</span><span class="concept-tag">Jnata Clan</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="mt-20 pt-10 border-t border-primary/10 text-center">
+    <p class="font-headline text-2xl text-primary">॥ बिइयं अहम्मदारं समत्तं ॥</p>
+    <p class="text-base text-on-surface-variant mt-3 font-light italic">The Second Gate of Unrighteousness is Complete</p>
+  </div>
+
+</section>
+
+</main>
+
+<footer class="bg-surface-container-high border-t border-outline-variant/30 py-16 mt-20">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+    <div class="col-span-12 lg:col-span-4">
+      <a href="../../../index-v4.html"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <p class="text-sm text-on-surface-variant mt-4 leading-relaxed max-w-xs">A living resource for the study of Jain philosophy, ethics, and the path to liberation.</p>
+    </div>
+    <div class="col-span-6 lg:col-span-2">
+      <h4 class="text-xs uppercase tracking-widest font-semibold text-primary mb-4">Navigate</h4>
+      <ul class="space-y-2 text-sm text-on-surface-variant">
+        <li><a href="../../../index-v4.html#foundations" class="hover:text-primary transition-colors">Fundamentals</a></li>
+        <li><a href="../sacred-sutras-index.html" class="hover:text-primary transition-colors">Sacred Sutras</a></li>
+        <li><a href="../../../fundamentals/donate-v4.html" class="hover:text-primary transition-colors">Support the Work</a></li>
+      </ul>
+    </div>
+    <div class="col-span-6 lg:col-span-2">
+      <h4 class="text-xs uppercase tracking-widest font-semibold text-primary mb-4">This Text</h4>
+      <ul class="space-y-2 text-sm text-on-surface-variant">
+        <li><a href="prashnavyakaran-index.html" class="hover:text-primary transition-colors">Prashnavyakaran Index</a></li>
+        <li><a href="prashnavyakaran-ss1-a1.html" class="hover:text-primary transition-colors">← Adhyayan 1: Himsa</a></li>
+        <li><a href="prashnavyakaran-ss1-a3.html" class="hover:text-primary transition-colors">Adhyayan 3: Adattadan →</a></li>
+      </ul>
+    </div>
+    <div class="col-span-12 lg:col-span-4 flex flex-col justify-end">
+      <p class="text-xs text-on-surface-variant/60 leading-relaxed">Translated from the Ardhamagadhi Prakrit. Commentary draws on the traditional Gujarati Vivechan. For scholarly citations, consult the original Agamic sources.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating nav buttons -->
+<a href="prashnavyakaran-ss1-a1.html" class="nav-button left-btn rounded-full px-5 py-2.5 text-sm font-headline font-semibold tracking-wide" style="left:24px;" aria-label="Previous chapter">← Adhyayan 1</a>
+<a href="prashnavyakaran-ss1-a3.html" class="nav-button right-btn rounded-full px-5 py-2.5 text-sm font-headline font-semibold tracking-wide" style="right:24px;" aria-label="Next chapter">Adhyayan 3 →</a>
+
+<script>
+// Search index
+const SEARCH_INDEX = [
+  { id: "sutra-2-1",  num: "2.1",  title: "The Sweeping Portrait — False Speech as Ancient Companion" },
+  { id: "sutra-2-2",  num: "2.2",  title: "Thirty Names — A Thirty-Faceted Mirror of Falsehood" },
+  { id: "sutra-2-3",  num: "2.3",  title: "The Catalog of False Speakers — Anger, Greed, Fear, Mockery" },
+  { id: "sutra-2-4",  num: "2.4",  title: "Nihilism — No Soul, No Karma, No Consequence" },
+  { id: "sutra-2-5",  num: "2.5",  title: "The Egg-Origin Theory and Self-Creation" },
+  { id: "sutra-2-6",  num: "2.6",  title: "Creator-God, Vishnu-Permeation, and Advaita Monism" },
+  { id: "sutra-2-7",  num: "2.7",  title: "Accident, Nature, Fate, and Determinism — Four Excuses" },
+  { id: "sutra-2-8",  num: "2.8",  title: "False Accusation — Weaponizing Words Against the Innocent" },
+  { id: "sutra-2-9",  num: "2.9",  title: "False Testimony — Lying for Wealth, Land, and Honor" },
+  { id: "sutra-2-10", num: "2.10", title: "The Double-Harm Speaker — Praising What Does Not Exist" },
+  { id: "sutra-2-11", num: "2.11", title: "The Informer's Web — Every Creature Betrayed" },
+  { id: "sutra-2-12", num: "2.12", title: "Even True Statements Can Be False Speech — The Highest Principle" },
+  { id: "sutra-2-13", num: "2.13", title: "The Unreflective Commander — Orders That Unleash Harm" },
+  { id: "sutra-2-14", num: "2.14", title: "Military Commands and Violent Ritual — False Speech at Scale" },
+  { id: "sutra-2-15", num: "2.15", title: "The Fruits — Hell, Animal Birth, Degraded Human Life" },
+  { id: "sutra-2-16", num: "2.16", title: "The Closing Seal — Mahavira's Authority and the Iti Bemi" },
+];
+
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+
+searchInput.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { searchDropdown.style.display = 'none'; return; }
+  const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.num.includes(q));
+  if (!results.length) {
+    searchDropdown.innerHTML = '<div class="search-no-results">No sutras found</div>';
+  } else {
+    searchDropdown.innerHTML = results.map(s =>
+      `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`
+    ).join('');
+  }
+  searchDropdown.style.display = 'block';
+});
+
+document.addEventListener('click', function(e) {
+  if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+    searchDropdown.style.display = 'none';
+  }
+});
+
+searchDropdown.addEventListener('click', function() {
+  searchDropdown.style.display = 'none';
+  searchInput.value = '';
+});
+
+// Floating nav visibility
+const navBtns = document.querySelectorAll('.nav-button');
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 300) {
+    navBtns.forEach(b => b.classList.add('visible'));
+  } else {
+    navBtns.forEach(b => b.classList.remove('visible'));
+  }
+}, { passive: true });
+</script>
+<script src="../../../js/prashnavyakaran-search.js"></script>
+</body>
+</html>

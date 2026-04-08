@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nirayavali Sutra — Chapter 2: Sukala Kumar | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.sutra-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.07); }
+.sutra-sanskrit { font-family: 'Noto Serif', serif; font-size: 1.15rem; line-height: 2.1; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 0.975rem; line-height: 1.75; color: #4d4637; }
+.simple-explanation b { color: #755b00; font-weight: 600; }
+.contemplate-prompt { margin-top: 0.75rem; padding: 0.875rem 1rem; background: rgba(117,91,0,0.04); border-radius: 0.375rem; font-family: 'Noto Serif', serif; font-size: 0.925rem; font-style: italic; color: #503d00; line-height: 1.7; }
+.contemplate-prompt::before { content: "Contemplate: "; font-style: normal; font-weight: 600; font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #c9a84c; display: block; margin-bottom: 0.25rem; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:380px; max-width:500px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:400px; overflow-y:auto; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#fef9f1]">
+
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="text-primary font-bold transition-colors duration-300" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <div class="relative hidden lg:block">
+        <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+        <input id="search-input" class="bg-surface-container border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search sutras..." type="text"/>
+        <div id="search-dropdown"></div>
+      </div>
+      <a href="../../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-32">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-8 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali Sutra &middot; Varga 1 &middot; Chapter 2</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Sukala Kumar<span class="block text-primary font-normal text-3xl md:text-4xl mt-2">सुकाल कुमार</span>
+      </h1>
+    </div>
+    <h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-snug font-light">The Second Son, the Same Arrow, the Same Hell</h2>
+    <p class="text-lg text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Prince Sukala Kumar — son of King Shrenika's queen Sukali — follows the same path as his brother Kala Kumar. The same battle. The same arrow. The same fourth hell. The same mother's grief, the same journey to Mahavir, the same collapse and acceptance. The Nirayavali proves its teaching by repeating it: the consequence of violence is not an exception — it is the rule.</p>
+    <div class="grid grid-cols-3 gap-6 pt-2 border-t border-primary/10">
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Imparted By</p><p class="text-sm font-headline font-bold text-on-surface">Lord Mahavira</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Transmitted By</p><p class="text-sm font-headline font-bold text-on-surface">Sudharmashvami</p></div>
+      <div><p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-1">Translated By</p><p class="text-sm font-headline font-bold text-on-surface">Dishant Shah</p></div>
+    </div>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-6">
+    <div class="w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden">
+      <img src="../../../../assets/manuscript.jpg" alt="Ancient Jain manuscript" class="w-full h-full object-cover grayscale-[0.15] hover:grayscale-0 transition-all duration-1000"/>
+    </div>
+    <div class="text-center max-w-xl">
+      <p class="font-headline text-lg md:text-xl text-primary leading-relaxed">तं सुकाली ण सुकालं कुमारं, णो चेव णं तुमं सुकालं कुमारं जीवमाणं पासिहिसि ।</p>
+      <p class="text-sm text-on-surface-variant mt-2 font-light italic">"Sukali — Sukala Kumar is gone. You will not see Sukala Kumar alive." — Lord Mahavira</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#f2f1f0] py-20 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sukala Kumar</h3>
+      <p class="text-sm text-on-surface-variant mt-3 leading-relaxed">The second of ten parallel stories — the same truth, the second proof.</p>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-5">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        The canonical note for every chapter after the first states: <span class="text-primary font-semibold font-italic">"jahā Kālakumāre tad eva niravasesaṃ bhāṇiyavvaṃ"</span> — "As told for Kala Kumar, so all is to be told without remainder." The Nirayavali does not summarize. It repeats. Each of the ten chapters is as full as the first — the same setting, the same transmission frame, the same journey, the same outcome. Only the names change.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        <span class="text-primary font-semibold">Sukala Kumar</span> is the son of King Shrenika and Queen Sukali — the second in Shrenika's line of ten queens. His name carries "su" (auspicious) before "kāla" (dark, time) — a name that tries to dignify darkness. It does not protect him. The Rathamushala battle does not spare the sons of queens named for auspiciousness any more than it spares the sons of queens named for darkness alone.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div><span class="text-3xl font-headline font-bold text-primary">10</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-3xl font-headline font-bold text-primary">5</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">10 Sāgaropama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Hell Duration</span></div>
+        <div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+        <div><span class="text-2xl font-headline font-bold text-primary">Gautama</span><br/><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">The Inquirer</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+  <div class="mb-14">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Nirayavali &middot; Varga 1 &middot; Adhyayana 2</span>
+    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-3">The 10 Sutras</h3>
+    <p class="text-lg text-on-surface-variant mt-3 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, English translation, commentary, and a contemplative prompt.</p>
+  </div>
+
+  <div class="section-divider"><span>Part I &mdash; The Setting</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Same Sacred Ground Opens Again</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं रायगिहे णामं णयरे होत्था । रिद्धिथिमियसमिद्धे वण्णओ । गुणसीले चेइए वण्णओ । असोवरपायवे वण्णओ । पुढविसीलापट्टे वण्णओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, at that period, there was a city called Rajagriha — prosperous and thriving [description as in the Aupapatika Sutra]. There was the Gunasila garden [description likewise]. There was a foremost Ashoka tree [description likewise]. There was a stone slab upon the earth [description likewise].</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The same sacred setting opens this chapter as opened the last — Rajagriha, Gunasila garden, the great Ashoka tree, the stone slab. This is not casual repetition. Each of the ten chapters of the Nirayavali Varga begins with this identical opening because the teaching arises from the same source, in the same place, through the same transmission chain. The canon does not vary the setting between chapters because the setting is not incidental — it is the ground. What changes between chapters is only what arrives at that ground: a different mother, a different son, a different name — but the same story, the same truth, the same ending. This structural sameness is itself a teaching: the consequences of violence do not depend on who you are or what your name means. They are universal.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Just as in the first chapter, this story begins at the same holy city and garden where Mahavir's teachings were transmitted.</div>
+        <div class="contemplate-prompt">What in my life provides the steady ground from which I can actually hear difficult truths — and what would happen if that ground were absent?</div>
+        <div class="concept-tags"><span class="concept-tag">Rajagriha</span><span class="concept-tag">Gunasila Garden</span><span class="concept-tag">Structural Sameness</span><span class="concept-tag">Canonical Opening</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sudharmashvami — The Living Memory System</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणस्स भगवओ महावीरस्स अंतेवासी अज्जसुहम्मे णामं अणगारे जाइसंपण्णे कुलसंपण्णे जहा केसी जाव पंचहिं अणगारसईहिं सड्ढिं संपरिवुढे पुढवीं चरमाणे गामाणुगामं दूइज्जमाणे जेणेव रायगिहे णयरे जाव अहापडिरूवं उग्गहं ओगिण्हित्ता संजमेणं तवसा अप्पाणं भावेमाणे विहरइ । परिसा णिग्गया । धम्मो कहिओ । परिसा पडिगया ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the disciple of the venerable Mahavir — the monk Arya Sudharmashvami, endowed with noble birth and lineage, accompanied by five hundred monks, wandering from village to village — arrived at Rajagriha; having accepted suitable lodging, he dwelt through restraint and austerity. The assembly came out. The teaching was given. The assembly returned.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sudharmashvami's arrival and teaching appear in each of the ten chapters for a specific reason: the transmitter of this knowledge must be identified at the outset of every transmission. The Nirayavali was not discovered in a library — it was heard, remembered, and re-spoken. Sudharmashvami's arrival is the moment the chain of transmission is made visible. His five hundred monks represent not an army but a living memory system: five hundred minds holding five hundred stories, wandering from place to place so that no corner of the known world would be without someone who carried the teaching. Each time the chapter opens with Sudharmashvami's arrival, the Agama is reminding us: this knowledge has a living source. It did not fall from the sky. It moved from teacher to disciple, from mouth to ear, from generation to generation.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The same great monk Sudharmashvami arrived at Rajagriha, gave his teaching to the gathered crowd, and the crowd went home — just as described in Chapter 1.</div>
+        <div class="contemplate-prompt">Who are the people in my life who carry and transmit sacred knowledge — and am I receiving it from them with the same openness as the assembly that came out to hear Sudharmashvami?</div>
+        <div class="concept-tags"><span class="concept-tag">Sudharmashvami</span><span class="concept-tag">Living Transmission</span><span class="concept-tag">Five Hundred Monks</span><span class="concept-tag">Oral Tradition</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part II &mdash; The Inquiry</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Jambu Asks Again — The Frame Refreshed</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं अज्जसुहम्मस्स अणगारस्स अंतेवासी जंबू णामं अणगारे समचउरंससंठाणसंठिए जाव संखित्तविउल तेउलेस्से अज्जसुहम्मस्स अणगारस्स अदूरसामंते उज्जुं जाणू अहोसिरे जाव विहरइ । तए णं से जंबू जायसड्ढे जाव पज्जुवासमाणे एवं वयासी — उवंगणं भंते समणेणं भगया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते? एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पंच वग्गा पण्णत्ता, तं जहा: णिरयावलियाओ, कप्पवंसियाओ, पुप्फियाओ, पुप्फचूलियाओ, वण्हिदसाओ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the monk Jambu — seated near Sudharmashvami, attending reverently — asked: "Venerable one, what meaning did the liberated Mahavir set forth in the Upanga Sutra?" Sudharmashvami replied: "The liberated Mahavir set forth five sections: the Nirayavali, the Kalpavamsika, the Pushpika, the Pushpachulika, and the Vrishni Dasha."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The same question that opened the first chapter opens this one — Jambu asking, Sudharmashvami answering. The repetition of this frame in each chapter reminds the listener that every story in the Nirayavali Varga was transmitted through this same dialogue. The question is asked ten times. The frame is refreshed ten times. This is how sacred texts were preserved in an oral culture: through repetition so exact that no version could deviate without being corrected by the memory of those who held all the others. The very act of asking the same question again — and receiving the same full answer — is itself a form of practice. The disciple does not assume that asking once was enough. The teacher does not assume that answering once was sufficient.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Jambu asked his teacher what the secondary scriptures contain, and his teacher named the five sections — the same exchange as in Chapter 1.</div>
+        <div class="contemplate-prompt">Do I ask the same deep questions again and again, or do I assume that asking once was enough?</div>
+        <div class="concept-tags"><span class="concept-tag">Jambu Swami</span><span class="concept-tag">Five Upanga Sections</span><span class="concept-tag">Oral Preservation</span><span class="concept-tag">Repetition as Practice</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">The Ten Adhyayanas — Sukala Is Second</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू समणेणं भगया महावीरेणं जाव संपत्तेणं उवंगणं पढमस्स वग्गस्स णिरयावलियाणं दस अज्झयणा पण्णत्ता । तं जहा —
+काले सुकाले महाकाले, कण्हे सुकण्हे तहा महाकण्हे ।
+वीरकण्हे य बोध्दव्वे, रामकण्हे तहेव य ॥
+पिउसेणकण्हे णवमे, दसमे महासेणकण्हे उ ॥</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Mahavir has set forth ten adhyayanas in the first Nirayavali section: Kala, Sukala, Mahakala, Krishna, Sukrishna, Mahakrishna, Virakrishna, Ramakrishna, Piusena-Krishna, and Mahasena-Krishna.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Here in the second chapter, Sukala's name appears in the verse itself — second in the list, immediately after Kala. This verse is recited in its entirety at the start of each adhyayan, as if to remind both speaker and listener that this one story is part of ten. No chapter stands alone. The same ten sons, the same war, the same consequence — recited in sequence like beads on a single thread. Sukala Kumar is not just the second son. He is the second proof of the same lesson. When a truth must be spoken ten times before it lands, the text is not being repetitive — it is being honest about how resistant the human mind is to lessons it does not want to learn. Each recitation of this verse is a small act of humility: I have not yet fully learned this. Say it again.</p>
+        <div class="simple-explanation"><b>The simple version:</b> The ten chapters of this section are named again — Sukala Kumar is second in the list, right after his brother Kala.</div>
+        <div class="contemplate-prompt">When the same truth has to be said ten times before it lands — what does that tell me about how resistant I am to lessons I don't want to learn?</div>
+        <div class="concept-tags"><span class="concept-tag">Ten Adhyayanas</span><span class="concept-tag">Sukala — Second</span><span class="concept-tag">Gāthā Verse</span><span class="concept-tag">Pattern of Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part III &mdash; Sukala Kumar</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-5">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.5</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Queen Sukali and Prince Sukala Kumar Introduced</h4>
+        <p class="sutra-sanskrit">एवं खलु जंबू तेणं कालेणं तेणं समएणं इहेव जंबुद्दीवे दीवे भारहेवासे चंपा णामं णयरी होत्था । रिद्धिथिमियसमिद्धे वण्णओ । पुण्णभद्दे चेइए वण्णओ । तत्थ णं चंपाए णयरीए सेणियस्स रण्णो पुत्ते चेल्लणाए देवीए अत्तए कूणिए णामं राया होत्था वण्णओ । तस्स णं कूणियस्स रण्णो पउमावी णामं देवी होत्था जाव विहरइ । तत्थ णं चंपाए णयरीए सेणियस्स रण्णो भंजा कूणियस्स रण्णो चुल्लमाउया सुकाली णामं देवी होत्था, सूमालपाणिपाया जाव सुरूवा । तीसे णं सुकालीए देवीए पुत्ते सुकाले णामं कुमारे होत्था, सूमालपाणिपाया जाव सुरूवे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Thus, Jambu — at that time, in Champa of Bharatavarsha, King Konik ruled — son of Shrenika, born of Chelana. His queen was Padmavati. Also in Champa was Queen Sukali — a niece of King Shrenika and step-mother-side aunt of King Konik — beautiful, with delicate hands and feet. Her son was Prince Sukala Kumar, handsome and delicately formed.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">The name "Sukali" contains "su" — meaning auspicious, beautiful, good — prefixed to "kali/kala" which means dark or time. The name suggests someone who carries darkness with grace, or who turns what is dark into something beautiful. Her son Sukala Kumar shares this auspicious darkness in his name. And yet: a name that carries the word "auspicious" does not protect against the consequences of actions. No name, however beautiful, no queen, however refined, can alter what karma has ordained. Sukali, like Kali before her, is described with the same formula of physical grace — delicate hands, delicate feet. This physical description in the Agamas is not vanity — it signals that these women were not rough or ordinary. They were raised in luxury, surrounded by refinement, removed from violence. Their sons were the same. And still: violence finds its way into the lives of the refined just as surely as into rougher lives.</p>
+        <div class="simple-explanation"><b>The simple version:</b> In Champa, one of King Shrenika's lesser queens was named Sukali — her name means "auspiciously dark" — and her son was the handsome Prince Sukala Kumar.</div>
+        <div class="contemplate-prompt">Do I believe that my upbringing, my refinement, or my good qualities protect me from the consequences of harmful actions I take or enable?</div>
+        <div class="concept-tags"><span class="concept-tag">Champa</span><span class="concept-tag">Queen Sukali</span><span class="concept-tag">Sukala Kumar</span><span class="concept-tag">Refinement No Protection</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-6">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.6</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukala Kumar Enters the Battle</h4>
+        <p class="sutra-sanskrit">तए णं से सुकाले कुमारे अण्णया कयाइ तिण्हं दंतिसहस्सेहिं, तिण्हं रहसहस्सेहिं, तिण्हं आससहस्सेहिं, तिण्हं मणुयकोडीहिं, गडलवूहे एक्कारसमेणं खंडेणं कूणिएणं रण्णा सड्ढं रहमुसलं संगामं ओयाए ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain day, Sukala Kumar — taking three thousand war elephants, three thousand chariots, three thousand cavalry, and three billion foot soldiers — set out in a garudavyuha formation, as the eleventh division of King Konik's army, to fight the Rathamushala battle.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sukala Kumar goes to war with the same force as his brother Kala Kumar — three thousand elephants, three thousand chariots, three thousand cavalry, three crore foot soldiers. The numbers are not different. The formation is not different. The army's loyalty to Konik is not different. Ten brothers, ten identical military divisions, one shared fate. This is one of the text's quietest arguments: when you enter violence as part of a system — when you are a cog in an army's wheel — your individual virtue or refinement does not individualize the consequence. The karma of mass violence operates through you regardless of your personal goodness. Sukala Kumar's name means "auspiciously dark" — there is nothing auspicious about what happens next. He will descend, like his brother, into the battle that has already been decided by the past lives of everyone involved.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sukala Kumar took the same enormous army as his brother Kala Kumar and marched into the same great battle.</div>
+        <div class="contemplate-prompt">When I participate in systems of harm — institutional, social, structural — do I count on my personal goodness to exempt me from the consequences?</div>
+        <div class="concept-tags"><span class="concept-tag">Rathamushala Battle</span><span class="concept-tag">Systemic Violence</span><span class="concept-tag">Garudavyuha</span><span class="concept-tag">Karma Is Not Individual</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part IV &mdash; Sukali Rani</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-7">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.7</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukali's Night of Watching</h4>
+        <p class="sutra-sanskrit">तए णं तीसे सुकाली देवी अण्णया कयाइ कुडुंबजागरियं जागरमाणीए अयमेयारूवे अज्झत्थिए जाव समुप्पजित्था — एवं खलु मं पुत्ते सुकाले कुमारे तिण्हं दंतिसहस्सेहिं जाव ओयाए । से मण्णे किं जिस्सइ णो जिस्सइ, जीविस्सइ णो जीविस्सइ, पराजिणिस्सइ णो पराजिणिस्सइ, सुकाले णं कुमारे अहं जीवमाणं पासिस्सं ? ओहियमण जाव झियाइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then, on a certain night, Queen Sukali — lying awake keeping vigil over her household — had this thought arise: "My son Sukala Kumar has gone to the Rathamushala battle with three thousand elephants. Will he win or not? Will he live or not? Will I see Sukala Kumar alive?" Her mind grew heavy and she fell into deep grief.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Ten mothers. Ten nights of lying awake. Ten sons gone to battle. The Nirayavali does not vary the description of maternal grief between chapters — not because the author lacked imagination, but because the grief is the same. Sukali's night of watching is Kali's night. The words are the same. The fear is the same. The love is the same. This uniformity is itself the teaching: grief at the possible loss of a child is not made more or less by the mother's name, her beauty, her queenly status, or which of Shrenika's wives she was. The suffering of attachment is universal. And the path through that suffering — toward Mahavir, toward truth — is also the same for all ten of them. A second mother, in the same dark, asking the same unanswerable questions. The Nirayavali insists: this is not a unique tragedy. It is the condition of attachment.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Queen Sukali lay awake one night worrying about her son in battle — wondering if he would win, survive, or if she would ever see him again. She fell into deep sadness.</div>
+        <div class="contemplate-prompt">Is there someone in my life whose absence or danger causes me this kind of sleepless anxiety — and what does that attachment tell me about where my heart lives?</div>
+        <div class="concept-tags"><span class="concept-tag">Maternal Grief</span><span class="concept-tag">Attachment</span><span class="concept-tag">Universal Suffering</span><span class="concept-tag">Vigil</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-8">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.8</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukali Journeys to Lord Mahavir</h4>
+        <p class="sutra-sanskrit">तेणं कालेणं तेणं समएणं समणे भगवं महावीरे समोसरिए । परिसा णिग्गया । तए णं तीसे सुकाली देवी इमीसे कहाए लद्धट्ठाए समाणीए ... समणं भगवं महावीरं तिक्खुत्तो आयाहिण-पयाहिण करेइ, करेत्ता वंदइ णमंसइ, वंदित्ता णमंसित्ता थिया चेव सपरिवारा सुस्सूसमाणी णमंसमाणी अभिमुहा विणयणं पंजलिउडा पज्जुवासइ ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">At that time, the venerable Mahavir had alighted in Champa. The assembly came out. Queen Sukali, hearing this news, resolved to go attend him and ask her question — prepared herself, traveled to the Purnabhadra garden, arrived at Mahavir, circumambulated him three times clockwise, bowed and paid homage, and sat reverently before him with joined palms.</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sukali's journey to Mahavir mirrors Kali's in every detail. She too hears that Mahavir has arrived. She too reasons: the benefit of attending such a teacher is immeasurable. She too prepares herself, takes her chariot, passes through Champa. She too descends, walks, circumambulates, bows, sits. The repetition between chapters is not laziness — it is the texture of how ten different women all found the same door. Each came from her own anxiety, her own grief, her own darkness. Each arrived at the same feet. The Nirayavali is teaching something important about the path to truth: it is not unusual. It does not require a unique circumstance or a special kind of person. Any mother, in any grief, can find her way to the teacher — if she is willing to go toward truth rather than away from it.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir arrived in Champa. Sukali prepared herself, traveled to the garden, and sat reverently before Mahavir with joined palms, ready to hear whatever was true.</div>
+        <div class="contemplate-prompt">When I go toward truth — toward a teacher, a conversation, a difficult realization — am I really open to what I might hear, or have I already decided what I want the answer to be?</div>
+        <div class="concept-tags"><span class="concept-tag">Journey to the Teacher</span><span class="concept-tag">Pradakshina</span><span class="concept-tag">Openness</span><span class="concept-tag">Ten Mothers, One Door</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="section-divider"><span>Part V &mdash; The Teaching and Its Fruit</span></div>
+
+  <article class="sutra-card p-8" id="sutra-2-9">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.9</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Mahavir Teaches — Then Tells the Truth</h4>
+        <p class="sutra-sanskrit">तए णं समणे भगवं महावीरे सुकाली देवीए, तीसे य महिमहालियाए परिसाए धम्मं परिक्काहेइ जाव एयस्स धम्मस्स सिक्खाए उवट्टिए समणोवासे वा समणोवासिया वा आणाए आराहए भवइ । ... एवं खलु भंते मम पुत्ते सुकाले कुमारे तिण्हं दंतिसहस्सेहिं जाव रहमुसलं संगामं ओयाए । से णं भंते सुकाले णं कुमारे अहं जीवमाणं पासिस्सं ? तव पुत्ते सुकाले कुमारे जाव चेडगस्स रण्णो एगाहिचं कूडाहिचं जीवियाओ वावरोवेइ । तं सुकाली ण सुकालं कुमारं, णो चेव णं तुमं सुकालं कुमारं जीवमाणं पासिहिसि ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then the venerable Mahavir proclaimed the full teaching to Queen Sukali and the vast assembly. Sukali, having heard the teaching, asked: "My son Sukala Kumar has gone to the Rathamushala battle. Will I see him alive?" Mahavir replied: "Your son Sukala Kumar was killed by King Chetaka with a single fatal blow. Sukali — Sukala Kumar is gone. You will not see Sukala Kumar alive."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Mahavir's answer to Sukali is almost word-for-word identical to his answer to Kali. The same arrow, the same death, the same blunt declaration: you will not see him alive. And yet it must have been entirely different for Sukali to hear it — because it was her son, her grief, her night of watching, her journey through the city, her joined palms. The universality of the teaching does not erase the particularity of the person receiving it. The commentators note that Mahavir gave this same teaching ten times — to ten different mothers, in ten separate encounters. He did not tire of it. He did not reduce it to an announcement. He gave the full dharma-discourse first each time, then received the question, then answered with complete honesty. This is what genuine compassion looks like in the face of suffering: not softening the truth, not accelerating past it, but staying present with it from beginning to end.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Mahavir gave his teaching to Sukali and the crowd. Then Sukali asked about her son — and Mahavir told her plainly: Sukala Kumar was killed in battle. He is gone. You will not see him alive.</div>
+        <div class="contemplate-prompt">When I have to deliver difficult news to someone who loves the person involved — how do I hold both the truth and the person at the same time?</div>
+        <div class="concept-tags"><span class="concept-tag">Truth-Telling</span><span class="concept-tag">Compassion Without Softening</span><span class="concept-tag">Chetaka's Arrow</span><span class="concept-tag">Universal Teaching</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="sutra-card p-8" id="sutra-2-10">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.10</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-lg">Sukali's Collapse, Acceptance, and the Hell Rebirth</h4>
+        <p class="sutra-sanskrit">तए णं सा सुकाली देवी समणस्स भगवओ महावीरस्स अंतियं एयमत्थं सोच्चा णिसम्म महया पुत्तसोहणं अप्फुण्णा समाणी परसुणियत्ता विवम्पगलया धरणीयलंसि सव्वंगेहिं सण्णिवाडिया ।
+तए णं सा सुकाली देवी मुहुत्तंतरेणं आसत्था समाणी उट्ठाए उट्ठेइ, एवं वयासी — एवमेइयं भंते तच्छमेइयं भंते सच्चे णं भंते एसंठे — धम्मियं जाणप्पवरं दुरुहेइ, जामेव दिसं पाउब्भूया तामेव दिसं पडिगया ।
+भंते त्ति भगवं गोयमे एवं वयासी — सुकाले णं भंते कुमारे चेडएणं रण्णा एगाहिचं कूडाहिचं जीवियाओ वावरोविए समाणे कालमासे कालं किच्चा कहं गए, कहं उवउण्णे ?
+गोयमा त्ति समणे भगवं महावीरे एवं वयासी — एवं खलु गोयमा सुकाले कुमारे चेडएणं रण्णा एगाहिचं कूडाहिचं जीवियाओ वावरोविए समाणे कालमासे कालं किच्चा चउत्थीए पंकप्पभाए पुरवीए हेमाभे णरए दससागरोवमट्ठिइए सु णेरइए सु णेरइयत्ताए उवउण्णे ।</p>
+        <p class="text-base font-semibold text-on-surface leading-relaxed">Then Queen Sukali — overwhelmed by the great grief of her son's loss, like a creeper cut by an axe, her color drained — fell to the ground with all her limbs. After a moment she recovered, rose, bowed to Mahavir, and said: "It is so, venerable one. It is true. It is exactly as you have said." She mounted her chariot and returned in the direction she had come. Then Gautam asked: "Where was Sukala Kumar reborn?" Mahavir replied: "Sukala Kumar was reborn as a hell being in the fourth earth, Pankprabha, in the Hemabha abode, with a lifespan of ten ocean-measure time units."</p>
+        <p class="text-base text-on-surface-variant leading-relaxed">Sukali collapses exactly as Kali did. She recovers exactly as Kali did. She accepts exactly as Kali did. She says the same words. She mounts the same type of chariot and returns in the same direction. This is not the text failing to individualize Sukali — it is the text insisting on something important: that the response to truth, when one genuinely encounters it, follows a universal arc. Collapse. Recovery. Acceptance. Departure. The doctrinal capstone then arrives: Sukala Kumar, like Kala Kumar, was reborn in the fourth hell, Pankprabha, in the Hemabha abode, for ten sāgaropama. The two brothers fought side by side, fell to the same arrow, and arrived at the same destination. This is not coincidence — it is the precision of karma operating through parallel lives. The law of cause and consequence does not vary between individuals who commit the same class of actions. Names change. The consequence does not.</p>
+        <div class="simple-explanation"><b>The simple version:</b> Sukali collapsed when she heard the news, then got up, accepted the truth, bowed to Mahavir, and went home. Gautam then asked Mahavir where Sukala Kumar was reborn — and Mahavir answered: the same fourth hell as his brother, for ten ocean-measure lifetimes.</div>
+        <div class="contemplate-prompt">When I have collapsed under the weight of a painful truth and then recovered — what changed in me between the falling and the rising?</div>
+        <div class="concept-tags"><span class="concept-tag">Universal Arc of Acceptance</span><span class="concept-tag">Fourth Hell — Pankprabha</span><span class="concept-tag">Ten Sāgaropama</span><span class="concept-tag">Parallel Karma</span></div>
+      </div>
+    </div>
+  </article>
+
+  <div class="text-center py-12">
+    <div class="section-divider"><span>॥ अध्ययन-२ सम्पूर्ण ॥</span></div>
+    <p class="text-center font-headline italic text-on-surface-variant/60 mt-4 text-sm">End of Chapter 2 — Sukala Kumar &mdash; Nirayavali Varga 1</p>
+  </div>
+
+</section>
+
+<a href="nirayavali-varga1-ch1.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 1</a>
+<a href="nirayavali-varga1-ch3.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 3 <span class="text-lg">&rarr;</span></a>
+
+<footer class="w-full py-16 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-12">
+    <div class="flex flex-col gap-4 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring Jain philosophy through a modern lens.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-10 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="../nirayavali-index.html">Nirayavali</a>
+      </div>
+      <div class="flex flex-col gap-3">
+        <span class="text-primary/40 mb-1">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const SEARCH_INDEX = [
+  { id: "sutra-2-1", num: "2.1", title: "The Same Sacred Ground Opens Again", keywords: "rajagriha gunasila ashoka garden sameness setting" },
+  { id: "sutra-2-2", num: "2.2", title: "Sudharmashvami — The Living Memory System", keywords: "sudharmashvami monks wandering transmission oral tradition" },
+  { id: "sutra-2-3", num: "2.3", title: "Jambu Asks Again — The Frame Refreshed", keywords: "jambu upanga five sections repetition oral preservation" },
+  { id: "sutra-2-4", num: "2.4", title: "The Ten Adhyayanas — Sukala Is Second", keywords: "ten chapters sukala second verse gatha karma pattern" },
+  { id: "sutra-2-5", num: "2.5", title: "Queen Sukali and Prince Sukala Kumar Introduced", keywords: "champa sukali sukala kumar queen prince shrenika auspicious" },
+  { id: "sutra-2-6", num: "2.6", title: "Sukala Kumar Enters the Battle", keywords: "rathamushala battle elephants army systemic violence karma" },
+  { id: "sutra-2-7", num: "2.7", title: "Sukali's Night of Watching", keywords: "sukali sleepless vigil grief mother attachment universal" },
+  { id: "sutra-2-8", num: "2.8", title: "Sukali Journeys to Lord Mahavir", keywords: "mahavir champa sukali chariot pradakshina openness" },
+  { id: "sutra-2-9", num: "2.9", title: "Mahavir Teaches — Then Tells the Truth", keywords: "teaching dharma truth chetaka arrow killed compassion" },
+  { id: "sutra-2-10", num: "2.10", title: "Sukali's Collapse, Acceptance, and the Hell Rebirth", keywords: "collapse recovery acceptance pankprabha hemabha ten sagaropama gautam" }
+];
+const searchInput = document.getElementById('search-input');
+const searchDropdown = document.getElementById('search-dropdown');
+if (searchInput) {
+  searchInput.addEventListener('input', function() {
+    const q = this.value.toLowerCase().trim();
+    if (!q) { searchDropdown.style.display = 'none'; return; }
+    const results = SEARCH_INDEX.filter(s => s.title.toLowerCase().includes(q) || s.keywords.toLowerCase().includes(q) || s.num.includes(q));
+    if (results.length === 0) { searchDropdown.innerHTML = '<div class="search-no-results">No results found</div>'; }
+    else { searchDropdown.innerHTML = results.map(s => `<a class="search-result-item" href="#${s.id}"><span class="search-result-num">${s.num}</span><span class="search-result-title">${s.title}</span></a>`).join(''); }
+    searchDropdown.style.display = 'block';
+  });
+  document.addEventListener('click', function(e) { if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.style.display = 'none'; });
+}
+window.addEventListener('scroll', () => {
+  const btns = document.querySelectorAll('.nav-button');
+  if (window.scrollY > 300) btns.forEach(b => b.classList.add('visible'));
+  else btns.forEach(b => b.classList.remove('visible'));
+});
+</script>
+</body>
+</html>

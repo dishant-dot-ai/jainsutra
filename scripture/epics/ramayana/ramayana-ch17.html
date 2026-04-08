@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chapter 17: Sita's Abduction — Jain Ramayana | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#755b0015 1px, transparent 1px); background-size: 40px 40px; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+.scene-card { border: 1px solid rgba(117,91,0,0.18); border-left: 4px solid #755b00; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.scene-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.08); }
+.scene-prose { font-family: 'Noto Serif', serif; font-size: 1.1rem; line-height: 1.9; color: #1d1c17; }
+.jain-lens { border-top: 1px dashed rgba(117,91,0,0.25); margin-top: 1.25rem; padding-top: 1.25rem; font-family: 'Inter', sans-serif; font-size: 0.95rem; line-height: 1.7; color: #4d4637; }
+.jain-lens b { color: #755b00; font-weight: 600; }
+.scene-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.scene-tag { display: inline-block; border: 1px solid #755b00; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(117,91,0,0.2); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(117,91,0,0.35); color: rgba(117,91,0,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #755b00; color: #755b00; }
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .scene-prose { font-size: 1rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#755b00]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="nav-link text-primary font-bold transition-colors duration-300" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-24">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <nav class="flex items-center gap-2 text-xs font-label" aria-label="Breadcrumb"><a href="ramayana-index.html" class="text-on-surface-variant hover:text-primary transition-colors">Jain Ramayana</a><span class="text-outline">/</span><span class="text-primary font-semibold uppercase tracking-[0.2em]">Chapter 17</span></nav>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Sita's Abduction
+        <span class="block text-primary font-normal text-3xl md:text-4xl mt-2">સીતાનો અપહરણ</span>
+      </h1>
+    </div>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      A golden deer. A crossed line. An old bird's last flight. And a soul of such spiritual standing that even now, even in this, the practice of a lifetime holds.
+    </p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center">
+    <div class="w-full aspect-[4/3] relative rounded-xl overflow-hidden bg-surface-container-high shadow-2xl">
+      <img alt="Illustrated page depicting Sita's abduction by Ravana" class="w-full h-full object-contain" src="assets/images/page-059.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/10 to-transparent pointer-events-none"></div>
+    </div>
+  </div>
+</section>
+
+<!-- About This Chapter -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Pivot of the Epic</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Ravana did not come for Sita in a straightforward way. He sent a golden deer. He came in a monk's disguise. He waited for the one moment when the boundary was crossed.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Jatayu gave everything to stop him. Sita, carried away above the clouds, held herself with the full force of the equanimity she had spent her lifetime cultivating.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Equanimity</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Core Theme</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Forest &amp; Lanka</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Setting</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">7</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Scenes</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">pp. 46&ndash;50</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Book Pages</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Narrative Content -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 17</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sita's Abduction</h3>
+  </div>
+
+  <div class="max-w-3xl mx-auto">
+
+    <!-- Part I -->
+    <div class="section-divider"><span>Part I &mdash; The Plan</span></div>
+
+    <article class="scene-card p-8" id="scene-17-1">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17.1</span>
+        <div class="space-y-4 flex-1">
+          <h4 class="font-headline font-bold text-on-surface text-xl">Ravana Does Not Come Directly</h4>
+          <p class="scene-prose">Ravana did not come for Sita in a straightforward way. That would have required him to face the obstacle of Ram and Lakshman directly — and while Ravana was not afraid of combat, he was intelligent, and intelligence told him that a direct assault on two warriors of their calibre, on their home ground, was not a guaranteed victory. So he planned. He sent Maricha — a demon of extraordinary ability, capable of transforming his appearance — into the forest with specific instructions: become a golden deer, something so beautiful and so strange that no woman could see it without wanting it.</p>
+          <p class="jain-lens"><b>The Jain lens:</b> Ravana's intelligence is not a virtue here — it is his most dangerous quality. The Jain tradition is clear-eyed about this: brilliance in the service of ego and desire does not redeem those qualities. It amplifies their damage. Ravana's cleverness makes him more dangerous, not less culpable. Knowledge without dharma is the most combustible combination.</p>
+          <div class="scene-tags">
+            <span class="scene-tag">Ravana</span>
+            <span class="scene-tag">Maricha</span>
+            <span class="scene-tag">Deception</span>
+            <span class="scene-tag">Ego</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Part II -->
+    <div class="section-divider"><span>Part II &mdash; The Golden Deer</span></div>
+
+    <article class="scene-card p-8" id="scene-17-2">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17.2</span>
+        <div class="space-y-4 flex-1">
+          <h4 class="font-headline font-bold text-on-surface text-xl">Too Beautiful to Be Real</h4>
+          <p class="scene-prose">The golden deer appeared at the edge of the hermitage clearing at a moment of ordinary afternoon calm. Sita saw it. It was beautiful in the way that things which do not belong to the natural world are beautiful — a beauty that announces itself as excessive, as more than what nature produces on its own. She called to Ram with the uncomplicated delight of a woman who has seen something extraordinary and wants to share it.</p>
+          <p class="scene-prose">Ram looked at the deer. Something in him recognised that it was wrong — that this deer was not what it appeared to be. He looked at Lakshman and Lakshman felt the same wrongness. But Sita's delight was real. And Ram, who loved Sita with a love that made her desires his concern, went after the deer. He told Lakshman: do not leave Sita alone. Under any circumstances.</p>
+          <p class="jain-lens"><b>The Jain lens:</b> The golden deer is an object of <b>maya</b> — deception dressed as beauty. The Jain tradition recognises this as one of the most potent forms of karmic binding: the thing that is wrong but appears right, the beautiful thing that draws the soul away from its better judgment. Ram suspects. He goes anyway, because Sita's joy matters to him. Love and wisdom, in this moment, are briefly in tension.</p>
+          <div class="scene-tags">
+            <span class="scene-tag">Sita</span>
+            <span class="scene-tag">Ram</span>
+            <span class="scene-tag">Maya</span>
+            <span class="scene-tag">Deception</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Part III -->
+    <div class="section-divider"><span>Part III &mdash; The Boundary</span></div>
+
+    <article class="scene-card p-8" id="scene-17-3">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17.3</span>
+        <div class="space-y-4 flex-1">
+          <h4 class="font-headline font-bold text-on-surface text-xl">The Line That Should Not Be Crossed</h4>
+          <p class="scene-prose">Maricha led Ram on a chase through the forest — always just ahead, always just out of reach. And then, when the distance was sufficient, Maricha cried out in Ram's voice — a perfect imitation calculated to penetrate a woman's heart and a brother-in-law's protective instinct — a cry of distress, as if Ram were in danger.</p>
+          <p class="scene-prose">Sita heard the cry. She looked at Lakshman with the terror of a woman who loves her husband and has just heard what sounds like his distress call from deep in the forest. She told Lakshman to go. He hesitated. He told her that the cry sounded wrong. Sita could not hear this. She was already in the grip of the specific fear that a loving person feels when they believe someone they love is in danger. Lakshman went. But before he left, he drew a protective line around the hermitage. He told Sita: do not step beyond this line.</p>
+          <p class="jain-lens"><b>The Jain lens:</b> The moment of Lakshman's departure presents Sita with an impossible choice: follow the instructions she was given, or respond to what sounds like her husband's need. The Jain tradition does not condemn her for what follows. It recognises that love, which is a virtue, can become the instrument through which harm enters. This is not Sita's failure. It is the nature of attachment operating on even a great soul.</p>
+          <div class="scene-tags">
+            <span class="scene-tag">Lakshman</span>
+            <span class="scene-tag">Sita</span>
+            <span class="scene-tag">Lakshman Rekha</span>
+            <span class="scene-tag">Love and Danger</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="scene-card p-8" id="scene-17-4">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17.4</span>
+        <div class="space-y-4 flex-1">
+          <h4 class="font-headline font-bold text-on-surface text-xl">The Monk at the Boundary</h4>
+          <p class="scene-prose">Ravana came then — not as himself, but in the disguise of a wandering monk, a mendicant, approaching the hermitage with the humble pace and downcast eyes appropriate to a renunciant seeking alms. Sita looked at this monk from inside the protective boundary. She was moved — as a sincere practitioner of the Jain path, she was deeply respectful of monks and renunciants. It was against the grain of everything she believed to turn away someone in a monk's guise. The monk asked her for water. He asked her for food.</p>
+          <p class="scene-prose">Sita reached across the boundary to offer what he asked for. In that moment — in the moment of the crossing of the line — Ravana revealed himself. The disguise dropped. The ten heads were suddenly present. And before Sita could react, Ravana had seized her and was rising with her into the sky, moving at a speed that made the forest below blur and then disappear.</p>
+          <p class="jain-lens"><b>The Jain lens:</b> Ravana's use of a monk's disguise is the most calculated of his crimes in this chapter. He weaponised Sita's dharma — her genuine reverence for renunciants — against her. The Jain tradition is precise about this: he did not simply deceive a woman. He used the form of the sacred to commit a violation. This is the heaviest karma of the abduction.</p>
+          <div class="scene-tags">
+            <span class="scene-tag">Ravana</span>
+            <span class="scene-tag">Sita</span>
+            <span class="scene-tag">Disguise</span>
+            <span class="scene-tag">Desecration</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Illustration -->
+    <div class="max-w-3xl mx-auto my-12 rounded-xl overflow-hidden shadow-sm border border-primary/10">
+      <img alt="Illustrated page depicting Jatayu's battle with Ravana" class="w-full" src="assets/images/page-060.jpg"/>
+    </div>
+
+    <!-- Part IV -->
+    <div class="section-divider"><span>Part IV &mdash; Jatayu's Last Stand</span></div>
+
+    <article class="scene-card p-8" id="scene-17-5">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17.5</span>
+        <div class="space-y-4 flex-1">
+          <h4 class="font-headline font-bold text-on-surface text-xl">Not Calculating — Keeping a Promise</h4>
+          <p class="scene-prose">Jatayu saw. From his position in the high sky, the old bird saw what was happening. He did not hesitate. He was old, and Ravana was immensely powerful, and the calculation of physical ability was not one that favoured the bird. But Jatayu was not making a calculation. He was keeping a promise.</p>
+          <p class="scene-prose">He dove. He struck at Ravana with everything his ancient body possessed — his talons, his wings, his weight, his fierce old energy. He called out to Ravana to stop, to set Sita down, to understand what he was doing. Ravana did not stop. He fought back with a ferocity entirely beyond Jatayu's capacity to withstand. The fight was terrible and brief. Jatayu was struck down, his wings broken, falling from the sky.</p>
+          <p class="jain-lens"><b>The Jain lens:</b> Jatayu's action is the exact opposite of calculation — it is the soul acting from its deepest commitment regardless of outcome. The Jain tradition recognises this as a rare and precious quality: not fearlessness exactly, but the courage that comes from knowing that some things matter more than survival. Jatayu had made a promise. He was keeping it.</p>
+          <div class="scene-tags">
+            <span class="scene-tag">Jatayu</span>
+            <span class="scene-tag">Ravana</span>
+            <span class="scene-tag">Courage</span>
+            <span class="scene-tag">Sacrifice</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Part V -->
+    <div class="section-divider"><span>Part V &mdash; Above the Clouds</span></div>
+
+    <article class="scene-card p-8" id="scene-17-6">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17.6</span>
+        <div class="space-y-4 flex-1">
+          <h4 class="font-headline font-bold text-on-surface text-xl">Sita's Practice Holds</h4>
+          <p class="scene-prose">Sita watched from Ravana's chariot as Jatayu fell. She wept — not for herself, though she was terrified, but for this ancient bird who had spent the last of his strength on her behalf. She scattered her ornaments as she was carried away — dropping them deliberately onto the forest below, so that they might be found, so that someone might know which direction she had been taken.</p>
+          <p class="scene-prose">The chariot of Lanka moved south across the sky. Sita, held prisoner above the clouds, looked back at the receding forest where everything she loved was still present — and then forward, at the sea they were crossing, and the island kingdom growing on the horizon — and held herself, in the privacy of her own mind, with the full force of the equanimity she had spent her lifetime cultivating. She was afraid. She was. But she was also something else: a soul of such advanced standing that even now, even here, the practice of her lifetime held.</p>
+          <p class="jain-lens"><b>The Jain lens:</b> Sita's inner composure in the chariot above Lanka is the moment that reveals her true spiritual standing. She is not performing courage. She is not suppressing her fear. She is holding both the fear and the equanimity simultaneously — the mark of a soul that has genuinely practised. This is <b>samabhav</b> at its most tested: not the absence of difficulty, but the presence of steadiness within it.</p>
+          <div class="scene-tags">
+            <span class="scene-tag">Sita</span>
+            <span class="scene-tag">Samabhav</span>
+            <span class="scene-tag">Equanimity</span>
+            <span class="scene-tag">Spiritual Standing</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Illustration -->
+    <div class="max-w-3xl mx-auto my-12 rounded-xl overflow-hidden shadow-sm border border-primary/10">
+      <img alt="Illustrated page depicting Ram's return to the empty hermitage" class="w-full" src="assets/images/page-061.jpg"/>
+    </div>
+
+    <!-- Part VI -->
+    <div class="section-divider"><span>Part VI &mdash; Ram Returns</span></div>
+
+    <article class="scene-card p-8" id="scene-17-7">
+      <div class="flex items-start gap-6">
+        <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17.7</span>
+        <div class="space-y-4 flex-1">
+          <h4 class="font-headline font-bold text-on-surface text-xl">The Empty Clearing</h4>
+          <p class="scene-prose">Ram found the deer at the moment of its death — Maricha, dying, the transformation dropping. Ram understood immediately. He turned and ran back toward the hermitage. He found it empty. The feeling that came over Ram in that moment — standing at the edge of the empty clearing, looking at the space where Sita had been and was no longer — is described in the Jain tradition with a directness that does not flinch from the human reality of it. He was devastated. He searched. He called her name. The forest gave back nothing.</p>
+          <p class="scene-prose">He found Jatayu — fallen, broken-winged, still alive. The old bird told Ram what he had seen, pointed with a broken wing in the direction Ravana had flown. He spoke his last words to the son of the man he had loved. And then Jatayu died — in Ram's arms, in the forest, having given everything he had for a promise he kept to the last breath. Ram performed the funeral rites for Jatayu with all the care of a son performing the rites for his own father. He wept. Then he stood up. He looked south. The search had begun.</p>
+          <p class="jain-lens"><b>The Jain lens:</b> Ram's grief is real and the tradition does not minimise it. But what follows the grief — the standing up, the looking south, the beginning of the search — is the quality that defines him. A soul at Ram's level of development does not collapse in grief. It feels the grief fully, and then acts. <b>Dhairya</b> — steadiness, courage — is not the absence of feeling. It is what the soul does with feeling once it has been fully acknowledged.</p>
+          <div class="scene-tags">
+            <span class="scene-tag">Ram</span>
+            <span class="scene-tag">Jatayu</span>
+            <span class="scene-tag">Grief</span>
+            <span class="scene-tag">Dhairya</span>
+            <span class="scene-tag">The Search Begins</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- Closing -->
+<section class="py-16 border-t border-primary/10">
+  <div class="max-w-3xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline italic text-lg text-on-surface-variant leading-relaxed">
+      And somewhere over the southern sea, Sita was being carried to Lanka. She was not helpless — she was never helpless — but she was a prisoner, and what lay ahead of her was a test that no amount of preparation could fully prepare a soul for, even a soul as advanced as hers.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- Floating Nav Buttons -->
+<a href="ramayana-ch16.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 16
+</a>
+<a href="ramayana-ch18.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 18 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="ramayana-index.html">Jain Ramayana</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+
+</body>
+</html>

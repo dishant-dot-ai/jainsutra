@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Jain Mahabharat — The Jain Epic | JainAwaken.org</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#3d2e00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(201,168,76,0.2); }
+
+      .section-header {
+        grid-column: 1 / -1;
+        padding: 3rem 3rem 2.5rem;
+        background: #f8f7f6;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .section-header::before,
+      .section-header::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: rgba(201,168,76,0.35);
+      }
+
+      .nav-button {
+        position: fixed;
+        bottom: 24px;
+        z-index: 100;
+        background: #ffffff;
+        border: 1px solid #C9A84C;
+        color: #755b00;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+      }
+      .nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+      .nav-button:hover { border-color: #C9A84C; color: #503d00; }
+
+      #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:540px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:440px; overflow-y:auto; }
+      .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+      .search-section-label:first-child { border-top:none; }
+      .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+      .search-result-item:hover { background:#fef9f1; }
+      .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+      .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+      .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+      #main-nav a { text-decoration: none; }
+      .nav-link { text-decoration: none; }
+    </style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors duration-300" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+                <input id="search-input" class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Search chapters, characters…" type="text"/>
+            </div>
+            <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-40">
+    <!-- Hero Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 mb-32">
+        <div class="max-w-4xl">
+            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Jain Epic &middot; Pravachan Series</span>
+            <h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
+                Jain <span class="text-primary font-normal">Mahabharat</span>
+            </h1>
+            <p class="text-2xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light max-w-3xl">
+                The Mahabharata as the Jain tradition sees it — not a war of kingdoms, but a collision of karmas. Krishna, Bhishma, Karna, Draupadi, Duryodhana: each a soul bound by choices made across lifetimes, each illuminating a different facet of dharma, attachment, and the long road to liberation.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-12 pt-10 border-t border-primary/10">
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Author</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Pt. Chandrashekhar Vijayaji</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Translated By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Dishant Shah</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Structure</p>
+                <p class="text-lg font-headline font-normal text-on-surface">48 Chapters · 2 Volumes</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Publisher</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Kamal Prakashan Trust</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Index Grid -->
+    <section class="max-w-screen-2xl mx-auto px-12 pb-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+
+            <!-- Part 1 Header -->
+            <div class="section-header">
+                <span class="font-headline font-bold text-primary tracking-[0.18em] uppercase text-sm whitespace-nowrap">Part One &mdash; Characters &amp; Background &mdash; Chapters 1 to 26</span>
+            </div>
+
+            <a href="translations/mahabharat-ch1.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 01</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Introduction — The Four Anuyogs</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The four categories of Jain literature and how the Mahabharata fits within the dharmic framework of Jain thought.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch2.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 02</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Jain Lens on Mahabharata's Era</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">When did the Mahabharata take place? The Jain perspective on the cosmic era and the souls who lived it.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch3.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 03</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Ramayana and Mahabharata</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A comparison of the two great Indian epics through a Jain lens — their themes, their souls, their different lessons.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch4.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 04</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Shri Krishna</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Not god, but Vasudeva Narayana — a human soul at the height of accumulated merit, navigating an impossible age with extraordinary grace.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch5.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 05</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Bhishma</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The patriarch who swore a terrible oath and spent a century paying for it — his dharma, his dilemmas, and his end.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch6.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 06</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Duryodhana</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The great antagonist examined without hatred — what was Duryodhana truly, and what ordinary pride can become at scale.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch7.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 07</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Karna</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The tragic hero — generous, valiant, and loyal to the wrong cause. The Jain understanding of karma and the inevitability of fate.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch8.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 08</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Vidur</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The wise counsellor who spoke truth to power and was ignored — Vidur's righteous voice in a court that had already chosen catastrophe.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch9.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 09</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Dronacharya and Ashwathama</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Master and son — how attachment to one's own can blind even the greatest teacher. Drona's brilliance and his fatal flaw.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch10.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 10</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Draupadi</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A complete study — her past lives, her five marriages, her humiliation, her resolve, and her ultimate liberation.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch11.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 11</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Maharaja Shantanu — Background</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The story begins before Bhishma's oath — with Shantanu, the Kuru king whose desire for Satyavati set everything in motion.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch12.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 12</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Bhishma's Unparalleled Filial Devotion</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The terrible oath — Devavrata becomes Bhishma. How a son's love for his father created the conditions for an entire war.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch13.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 13</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Vichitravirya's Desire</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The weak king whose passions left a dynasty without an heir — and the extraordinary measures taken to continue it.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch14.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 14</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Kaurava Family</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">How the hundred sons of Dhritarashtra came to be — and the karmic roots of this extraordinary and destructive family.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch15.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 15</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Killing of Kansa</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Krishna's earliest act of dharmic duty — the slaying of the tyrant Kansa — and what Jain thought says about action in the face of evil.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch16.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 16</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Poison Seeds of Jealousy</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">How envy took root in the Kaurava court — the slow, invisible poison that made war inevitable long before any army assembled.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch17.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 17</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Eklavya</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The devoted student who taught himself everything and was asked to give up his greatest gift — caste, sacrifice, and the cost of hierarchy.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch18.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 18</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Karna — Son of Kunti or Son of Radha?</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The question of Karna's identity — abandoned at birth, raised in love, and defined by a secret that shaped every relationship he had.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch19.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 19</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Draupadi's Swayamvar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The fish, the eye, the arrow — and the marriage that bound five brothers to one extraordinary woman.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch20.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 20</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Draupadi's Past Lives</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Why did Draupadi have five husbands? The Jain answer lies not in fate but in the karmic choices of her previous incarnations.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch21.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 21</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Fire Fanned by the Divine Palace</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Duryodhana visits Indraprastha — and the humiliation he feels there ignites the jealousy that will consume an age.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch22.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 22</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Dice Game and the Disrobing</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Yudhishthira's catastrophic gambling, Draupadi's humiliation, and the vow of revenge that made war inevitable.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch23.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 23</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Departure for Exile</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Thirteen years in the forest — what the wilderness taught the Pandavas about themselves, and each other.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch24.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 24</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Treacherous Duryodhana</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">During the exile, Duryodhana's schemes continue. What addiction to power does to a soul that once had potential.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch25.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 25</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Demoness Hidimba</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Bhima encounters Hidimba and her monstrous brother — transformation, love, and the unexpected places dharma can be found.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch26.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 26</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Killing of Baka and Departure</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Bhima slays the demon Baka and the Pandavas move on — drawing ever closer to their destiny at Kurukshetra.</p>
+            </a>
+
+            <!-- Part 2 Header -->
+            <div class="section-header">
+                <span class="font-headline font-bold text-primary tracking-[0.18em] uppercase text-sm whitespace-nowrap">Part Two &mdash; The War &amp; Its Aftermath &mdash; Chapters 27 to 48</span>
+            </div>
+
+            <a href="translations/mahabharat-ch27.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 27</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Dharma is My Nature</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Yudhishthira and Draupadi — two temperaments, one dharma. What a truly dharmic life looks like from the inside.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch28.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 28</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Venom Born from a Lotus</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Ghatotkacha — born from an unusual union, powerful beyond measure, and destined for a sacrifice his parents could not foresee.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch29.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 29</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Pinnacles of Two Natures</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A direct comparison of virtue and vice at their heights — what the noble and the ignoble look like when taken to their logical extremes.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch30.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 30</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Demoness Kutya</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A rakshasi threatens the Pandavas in the forest — desire, protection, and the power of dharmic resolve under pressure.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch31.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 31</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Life in Disguise — The Incognito Year</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The thirteenth year of exile — what happens when great souls must pretend to be less than they are.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch32.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 32</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Krishna as Emissary</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">One last attempt at peace — Krishna goes to Hastinapura. His diplomacy, his patience, and the moment he knew war could not be avoided.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch33.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 33</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Recognize Them — Destroyers of Society!</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A Jain critique of the political mind — what Duryodhana represents as a social archetype, and how such figures recur across every age.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch34.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 34</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">War Preparations</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Armies assembling, alliances forming, battle lines drawn at Kurukshetra — the last quiet before eighteen days that remade the world.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch35.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 35</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Arjuna's Grief</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Arjuna looks across at his relatives and teachers — and his bow falls. The moment that called forth the Gita.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch36.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 36</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">First Day — Commander Bhishma</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The war begins. The old warrior who did not choose this war takes command — and fights it with everything he has.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch37.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 37</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Mid-War — Commander Drona (Five Days)</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Drona commands. Abhimanyu falls in the chakravyuha. The war enters its most brutal and morally complex phase.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch38.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 38</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Twilight of War — Commander Karna (Two Days)</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Karna finally commands the Kaurava army. His duel with Arjuna, the fall of his chariot wheel, and his end.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch39.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 39</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Final Act — Commander Shalya (One Day)</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The last day of battle. Duryodhana is alone. The war ends not with glory but with grief on every side.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch40.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 40</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">A Jain Perspective on the War</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Was it dharmic? Was it necessary? What do the Jain tradition and the souls involved ultimately draw from Kurukshetra?</p>
+            </a>
+
+            <a href="translations/mahabharat-ch41.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 41</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Killing of Jarasandha</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Krishna, Bhima, and Arjuna challenge the powerful king Jarasandha — strategy, strength, and the Jain view of political violence.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch42.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 42</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Bhishma Muni's Final Hours</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">On his bed of arrows, Bhishma teaches — and accepts diksha. The warrior who became a monk at the very moment of his dying.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch43.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 43</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Neminatha — Marriage, Renunciation, and Liberation</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Krishna's cousin, the 22nd Tirthankara — who turned from his own wedding at the sight of slaughter and chose the monk's path.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch44.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 44</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Draupadi's Abduction and Gajasukumala</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Draupadi is abducted and the Pandavas give chase — interwoven with the story of Gajasukumala, the monk who endured the unendurable.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch45.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 45</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Dharmatma Krishna</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">A final portrait of Krishna as a dharmic soul — his generosity, his equanimity, and the Jain understanding of who he truly was.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch46.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 46</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">The Burning of Dwarka and Krishna's End</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The fall of the Yadavas, the destruction of Dwarka, and Krishna's death — the natural completion of a great soul's arc through the world.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch47.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 47</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">Baladev's Renunciation, Neminatha's Nirvana, and the Pandavas' Diksha</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The age closes with monks, not kings. Baladev renounces. Neminatha attains nirvana. The Pandavas take diksha. Liberation was always the destination.</p>
+            </a>
+
+            <a href="translations/mahabharat-ch48.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 48</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-3xl font-headline font-bold text-on-surface">A Note from the Author</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Pt. Chandrashekhar Vijayaji's closing words — his hope for the reader, and his vision of what Jain scripture offers a modern world.</p>
+            </a>
+
+        </div>
+    </section>
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="../../Aagama/sacred-sutras-index.html" class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    <span class="text-lg">&larr;</span> Sacred Sutras
+</a>
+<a href="translations/mahabharat-ch1.html" class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    Chapter 1 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.</p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About Us</a>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="../ramayana/ramayana-index.html">Jain Ramayana</a>
+                <a class="hover:text-primary transition-colors" href="mahabharat-index.html">Jain Mahabharat</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) { buttons.forEach(btn => btn.classList.add('visible')); }
+        else { buttons.forEach(btn => btn.classList.remove('visible')); }
+    });
+</script>
+
+<script>
+(function () {
+  var SEARCH_INDEX = [
+    {file:"translations/mahabharat-ch1.html",num:1,title:"Introduction — The Four Anuyogs",sutras:[{id:"ch1",num:"Ch. 01",title:"Introduction — The Four Anuyogs",sk:"anuyog bhumika pratham chaturanuyog dharma framework literature"}]},
+    {file:"translations/mahabharat-ch2.html",num:2,title:"The Jain Lens on Mahabharata's Era",sutras:[{id:"ch2",num:"Ch. 02",title:"The Jain Lens on Mahabharata's Era",sk:"era samay kaal third ara time cycle neminath cosmic yug"}]},
+    {file:"translations/mahabharat-ch3.html",num:3,title:"Ramayana and Mahabharata",sutras:[{id:"ch3",num:"Ch. 03",title:"Ramayana and Mahabharata",sk:"ramayana comparison epic ram krishna dharma difference"}]},
+    {file:"translations/mahabharat-ch4.html",num:4,title:"Shri Krishna",sutras:[{id:"ch4",num:"Ch. 04",title:"Shri Krishna",sk:"krishna vasudeva narayana govind dwarka yadava baladev"}]},
+    {file:"translations/mahabharat-ch5.html",num:5,title:"Bhishma",sutras:[{id:"ch5",num:"Ch. 05",title:"Bhishma",sk:"bhishma devavrata ganga pitamah oath celibacy shantanu"}]},
+    {file:"translations/mahabharat-ch6.html",num:6,title:"Duryodhana",sutras:[{id:"ch6",num:"Ch. 06",title:"Duryodhana",sk:"duryodhan kaurava jealousy pride ego ambition destruction"}]},
+    {file:"translations/mahabharat-ch7.html",num:7,title:"Karna",sutras:[{id:"ch7",num:"Ch. 07",title:"Karna",sk:"karna kaunteya radheya surya kunti archer tragedy loyal"}]},
+    {file:"translations/mahabharat-ch8.html",num:8,title:"Vidur",sutras:[{id:"ch8",num:"Ch. 08",title:"Vidur",sk:"vidur wisdom counsel dharma dhritarashtra truth power"}]},
+    {file:"translations/mahabharat-ch9.html",num:9,title:"Dronacharya and Ashwathama",sutras:[{id:"ch9",num:"Ch. 09",title:"Dronacharya and Ashwathama",sk:"drona dronacharya ashwathama teacher son attachment brahmin"}]},
+    {file:"translations/mahabharat-ch10.html",num:10,title:"Draupadi",sutras:[{id:"ch10",num:"Ch. 10",title:"Draupadi",sk:"draupadi panchali wife five husbands past lives karma liberation"}]},
+    {file:"translations/mahabharat-ch11.html",num:11,title:"Maharaja Shantanu — Background",sutras:[{id:"ch11",num:"Ch. 11",title:"Maharaja Shantanu — Background",sk:"shantanu ganga satyavati hastinapur kuru background purvabhumika"}]},
+    {file:"translations/mahabharat-ch12.html",num:12,title:"Bhishma's Unparalleled Filial Devotion",sutras:[{id:"ch12",num:"Ch. 12",title:"Bhishma's Unparalleled Filial Devotion",sk:"bhishma oath celibacy father shantanu pita bhakti devavrata"}]},
+    {file:"translations/mahabharat-ch13.html",num:13,title:"Vichitravirya's Desire",sutras:[{id:"ch13",num:"Ch. 13",title:"Vichitravirya's Desire",sk:"vichitravirya amba ambika ambalika desire lust kamvasana"}]},
+    {file:"translations/mahabharat-ch14.html",num:14,title:"The Kaurava Family",sutras:[{id:"ch14",num:"Ch. 14",title:"The Kaurava Family",sk:"kaurava dhritarashtra gandhari hundred sons family birth karma"}]},
+    {file:"translations/mahabharat-ch15.html",num:15,title:"The Killing of Kansa",sutras:[{id:"ch15",num:"Ch. 15",title:"The Killing of Kansa",sk:"kansa krishna mathura tyrant killing vadh slaying"}]},
+    {file:"translations/mahabharat-ch16.html",num:16,title:"The Poison Seeds of Jealousy",sutras:[{id:"ch16",num:"Ch. 16",title:"The Poison Seeds of Jealousy",sk:"jealousy irshya envy kaurava pandava enmity poison seeds"}]},
+    {file:"translations/mahabharat-ch17.html",num:17,title:"Eklavya",sutras:[{id:"ch17",num:"Ch. 17",title:"Eklavya",sk:"eklavya drona archery thumb sacrifice caste nishad"}]},
+    {file:"translations/mahabharat-ch18.html",num:18,title:"Karna — Son of Kunti or Son of Radha?",sutras:[{id:"ch18",num:"Ch. 18",title:"Karna — Son of Kunti or Son of Radha?",sk:"karna kunti radha identity abandoned surya kaunteya radheya"}]},
+    {file:"translations/mahabharat-ch19.html",num:19,title:"Draupadi's Swayamvar",sutras:[{id:"ch19",num:"Ch. 19",title:"Draupadi's Swayamvar",sk:"draupadi swayamvar arjun fish eye contest marriage"}]},
+    {file:"translations/mahabharat-ch20.html",num:20,title:"Draupadi's Past Lives",sutras:[{id:"ch20",num:"Ch. 20",title:"Draupadi's Past Lives",sk:"draupadi purvabhav past lives karma five husbands jain rebirth"}]},
+    {file:"translations/mahabharat-ch21.html",num:21,title:"The Fire Fanned by the Divine Palace",sutras:[{id:"ch21",num:"Ch. 21",title:"The Fire Fanned by the Divine Palace",sk:"indraprastha maya sabha palace duryodhan jealousy fire"}]},
+    {file:"translations/mahabharat-ch22.html",num:22,title:"The Dice Game and the Disrobing",sutras:[{id:"ch22",num:"Ch. 22",title:"The Dice Game and the Disrobing",sk:"jugar dice gambling vastraharan draupadi humiliation disrobing"}]},
+    {file:"translations/mahabharat-ch23.html",num:23,title:"Departure for Exile",sutras:[{id:"ch23",num:"Ch. 23",title:"Departure for Exile",sk:"vanvas exile forest thirteen years aranyak pandava"}]},
+    {file:"translations/mahabharat-ch24.html",num:24,title:"The Treacherous Duryodhana",sutras:[{id:"ch24",num:"Ch. 24",title:"The Treacherous Duryodhana",sk:"duryodhan treachery vishwasghat betrayal exile schemes"}]},
+    {file:"translations/mahabharat-ch25.html",num:25,title:"The Demoness Hidimba",sutras:[{id:"ch25",num:"Ch. 25",title:"The Demoness Hidimba",sk:"hidimba hidimb bhima rakshasi forest demon love"}]},
+    {file:"translations/mahabharat-ch26.html",num:26,title:"The Killing of Baka and Departure",sutras:[{id:"ch26",num:"Ch. 26",title:"The Killing of Baka and Departure",sk:"baka vadh bakavadh demon village bhima departure"}]},
+    {file:"translations/mahabharat-ch27.html",num:27,title:"Dharma is My Nature",sutras:[{id:"ch27",num:"Ch. 27",title:"Dharma is My Nature",sk:"dharma yudhishthira draupadi svabhav nature patience virtue"}]},
+    {file:"translations/mahabharat-ch28.html",num:28,title:"Venom Born from a Lotus",sutras:[{id:"ch28",num:"Ch. 28",title:"Venom Born from a Lotus",sk:"ghatotkacha bhima son rakshasa lotus kamalmanthi"}]},
+    {file:"translations/mahabharat-ch29.html",num:29,title:"The Pinnacles of Two Natures",sutras:[{id:"ch29",num:"Ch. 29",title:"The Pinnacles of Two Natures",sk:"good evil virtue vice pinnacle noble ignoble svabhav"}]},
+    {file:"translations/mahabharat-ch30.html",num:30,title:"The Demoness Kutya",sutras:[{id:"ch30",num:"Ch. 30",title:"The Demoness Kutya",sk:"kutya rakshasi forest demon dharma protection desire"}]},
+    {file:"translations/mahabharat-ch31.html",num:31,title:"Life in Disguise — The Incognito Year",sutras:[{id:"ch31",num:"Ch. 31",title:"Life in Disguise — The Incognito Year",sk:"gupta vas incognito virat ajnata thirteenth year disguise"}]},
+    {file:"translations/mahabharat-ch32.html",num:32,title:"Krishna as Emissary",sutras:[{id:"ch32",num:"Ch. 32",title:"Krishna as Emissary",sk:"krishna doot envoy emissary hastinapura peace vishtikar"}]},
+    {file:"translations/mahabharat-ch33.html",num:33,title:"Recognize Them — Destroyers of Society!",sutras:[{id:"ch33",num:"Ch. 33",title:"Recognize Them — Destroyers of Society!",sk:"samashti society politics power tyrant destroyers olakhi lo"}]},
+    {file:"translations/mahabharat-ch34.html",num:34,title:"War Preparations",sutras:[{id:"ch34",num:"Ch. 34",title:"War Preparations",sk:"yudh war kurukshetra army alliance senapati preparations"}]},
+    {file:"translations/mahabharat-ch35.html",num:35,title:"Arjuna's Grief",sutras:[{id:"ch35",num:"Ch. 35",title:"Arjuna's Grief",sk:"arjuna vishad grief bow kurukshetra gita relatives dilemma"}]},
+    {file:"translations/mahabharat-ch36.html",num:36,title:"First Day — Commander Bhishma",sutras:[{id:"ch36",num:"Ch. 36",title:"First Day — Commander Bhishma",sk:"bhishma senapati commander first day war battle kurukshetra"}]},
+    {file:"translations/mahabharat-ch37.html",num:37,title:"Mid-War — Commander Drona (Five Days)",sutras:[{id:"ch37",num:"Ch. 37",title:"Mid-War — Commander Drona (Five Days)",sk:"drona dronacharya chakravyuha abhimanyu jayadratha five days"}]},
+    {file:"translations/mahabharat-ch38.html",num:38,title:"Twilight of War — Commander Karna (Two Days)",sutras:[{id:"ch38",num:"Ch. 38",title:"Twilight of War — Commander Karna (Two Days)",sk:"karna senapati duel arjun chariot wheel fall two days"}]},
+    {file:"translations/mahabharat-ch39.html",num:39,title:"Final Act — Commander Shalya (One Day)",sutras:[{id:"ch39",num:"Ch. 39",title:"Final Act — Commander Shalya (One Day)",sk:"shalya madraj last day duryodhan end war final"}]},
+    {file:"translations/mahabharat-ch40.html",num:40,title:"A Jain Perspective on the War",sutras:[{id:"ch40",num:"Ch. 40",title:"A Jain Perspective on the War",sk:"jain view violence war dharma karma ahimsa perspective"}]},
+    {file:"translations/mahabharat-ch41.html",num:41,title:"The Killing of Jarasandha",sutras:[{id:"ch41",num:"Ch. 41",title:"The Killing of Jarasandha",sk:"jarasandha krishna bhima arjuna vadh magadha killing"}]},
+    {file:"translations/mahabharat-ch42.html",num:42,title:"Bhishma Muni's Final Hours",sutras:[{id:"ch42",num:"Ch. 42",title:"Bhishma Muni's Final Hours",sk:"bhishma dying deathbed arrows kaldharma diksha monk muni"}]},
+    {file:"translations/mahabharat-ch43.html",num:43,title:"Neminatha — Marriage, Renunciation, and Liberation",sutras:[{id:"ch43",num:"Ch. 43",title:"Neminatha — Marriage, Renunciation, and Liberation",sk:"neminath 22nd tirthankara rajimati wedding renunciation kaivalya girnar"}]},
+    {file:"translations/mahabharat-ch44.html",num:44,title:"Draupadi's Abduction and Gajasukumala",sutras:[{id:"ch44",num:"Ch. 44",title:"Draupadi's Abduction and Gajasukumala",sk:"draupadi abduction gajasukumal monk austerity samata"}]},
+    {file:"translations/mahabharat-ch45.html",num:45,title:"Dharmatma Krishna",sutras:[{id:"ch45",num:"Ch. 45",title:"Dharmatma Krishna",sk:"krishna dharma righteous soul liberation renunciation generous"}]},
+    {file:"translations/mahabharat-ch46.html",num:46,title:"The Burning of Dwarka and Krishna's End",sutras:[{id:"ch46",num:"Ch. 46",title:"The Burning of Dwarka and Krishna's End",sk:"dwarka dahan burning krishna death passing avsan yadava"}]},
+    {file:"translations/mahabharat-ch47.html",num:47,title:"Baladev's Renunciation, Neminatha's Nirvana, and Pandavas' Diksha",sutras:[{id:"ch47",num:"Ch. 47",title:"Baladev's Renunciation, Neminatha's Nirvana, and Pandavas' Diksha",sk:"baldev baladev renunciation neminath nirvana pandava diksha liberation"}]},
+    {file:"translations/mahabharat-ch48.html",num:48,title:"A Note from the Author",sutras:[{id:"ch48",num:"Ch. 48",title:"A Note from the Author",sk:"author lekhak closing note chandrashekhar vijayaji"}]}
+  ];
+
+  function initSearch() {
+    var input = document.getElementById("search-input");
+    if (!input) return;
+    var wrapper = input.closest(".relative");
+    if (!wrapper) return;
+    var dropdown = document.getElementById("search-dropdown");
+    if (!dropdown) {
+      dropdown = document.createElement("div");
+      dropdown.id = "search-dropdown";
+      wrapper.appendChild(dropdown);
+    }
+
+    function highlight(text, query) {
+      if (!query) return text;
+      return text.replace(new RegExp("(" + query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark style='background:#fff3c4;color:inherit;border-radius:2px;'>$1</mark>");
+    }
+
+    function search(query) {
+      if (query.length < 2) { dropdown.style.display = "none"; return; }
+      var q = query.toLowerCase();
+      var hits = SEARCH_INDEX.filter(function(ch) {
+        return ch.title.toLowerCase().includes(q) ||
+          (ch.sutras[0] && ch.sutras[0].sk && ch.sutras[0].sk.toLowerCase().includes(q)) ||
+          String(ch.num).includes(q);
+      }).slice(0, 10);
+
+      if (!hits.length) {
+        dropdown.innerHTML = "<div class='search-no-results'>No results for &ldquo;" + query + "&rdquo;</div>";
+        dropdown.style.display = "block";
+        return;
+      }
+
+      var html = "<div class='search-section-label'>Chapters</div>";
+      hits.forEach(function(ch) {
+        html += "<a class='search-result-item' href='" + ch.file + "'>" +
+          "<span class='search-result-num'>Ch. " + String(ch.num).padStart(2,'0') + "</span>" +
+          "<span class='search-result-title'>" + highlight(ch.title, query) + "</span></a>";
+      });
+      dropdown.innerHTML = html;
+      dropdown.style.display = "block";
+    }
+
+    input.addEventListener("input", function() { search(this.value.trim()); });
+    input.addEventListener("keydown", function(e) { if (e.key === "Escape") { dropdown.style.display = "none"; input.value = ""; } });
+    document.addEventListener("click", function(e) { if (!wrapper.contains(e.target)) dropdown.style.display = "none"; });
+  }
+
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initSearch) : initSearch();
+})();
+</script>
+
+</body>
+</html>

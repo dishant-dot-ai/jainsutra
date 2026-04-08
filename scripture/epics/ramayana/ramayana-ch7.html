@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chapter 7: King Janaka's Concern — Jain Ramayana | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00", "on-primary": "#ffffff", "primary-container": "#c9a84c", "on-primary-container": "#3d2e00",
+        "surface": "#fef9f1", "on-surface": "#1d1c17", "surface-variant": "#e7e2da", "on-surface-variant": "#4d4637",
+        "outline": "#7e7665", "outline-variant": "#d0c5b2", "secondary": "#625d59", "secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e", "surface-container-low": "#f8f3eb", "surface-container": "#f2ede5", "surface-container-high": "#ece8e0",
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: linear-gradient(135deg, #c9a84c, #755b00); }
+.mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#755b0015 1px, transparent 1px); background-size: 40px 40px; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+.scene-card { border: 1px solid rgba(117,91,0,0.18); border-left: 4px solid #755b00; background: white; border-radius: 0.5rem; margin-bottom: 1.5rem; transition: box-shadow 0.2s; }
+.scene-card:hover { box-shadow: 0 4px 24px rgba(117,91,0,0.08); }
+.scene-prose { font-family: 'Noto Serif', serif; font-size: 1.1rem; line-height: 1.9; color: #1d1c17; }
+.jain-lens { border-top: 1px dashed rgba(117,91,0,0.25); margin-top: 1.25rem; padding-top: 1.25rem; font-family: 'Inter', sans-serif; font-size: 0.95rem; line-height: 1.7; color: #4d4637; }
+.jain-lens b { color: #755b00; font-weight: 600; }
+.scene-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.scene-tag { display: inline-block; border: 1px solid #755b00; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(117,91,0,0.2); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(117,91,0,0.35); color: rgba(117,91,0,0.6); transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #755b00; color: #755b00; }
+@media (max-width: 768px) {
+  .nav-button { bottom: 16px; }
+  .nav-button.left-btn { left: 12px !important; }
+  .nav-button.right-btn { right: 12px !important; }
+  .scene-prose { font-size: 1rem; }
+}
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6] mesh-bg">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#755b00]/10">
+  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+    <div class="flex items-center gap-12">
+      <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
+      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+        <a class="nav-link text-primary font-bold transition-colors duration-300" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+      </div>
+    </div>
+    <div class="flex items-center gap-8">
+      <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-40">
+
+<!-- Hero Section -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-24">
+  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+    <div class="flex flex-col gap-3">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 07</span>
+      <h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        King Janaka's Concern
+        <span class="block text-primary font-normal text-3xl md:text-4xl mt-2">જનક રાજની ચિંતા</span>
+      </h1>
+    </div>
+    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">
+      Sita is of marriageable age, and Janaka — philosopher-king of Mithila — knows that this extraordinary soul cannot be given to just any man. The wrong match would be a cosmic misalignment.
+    </p>
+  </div>
+  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center">
+    <div class="w-full aspect-[4/3] relative rounded-xl overflow-hidden bg-surface-container-high shadow-2xl">
+      <img alt="Illustrated page depicting King Janaka contemplating Sita's marriage" class="w-full h-full object-contain" src="assets/images/page-030.jpg"/>
+      <div class="absolute inset-0 bg-gradient-to-tr from-surface/10 to-transparent pointer-events-none"></div>
+    </div>
+  </div>
+</section>
+
+<!-- About This Chapter -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+    <div class="col-span-12 lg:col-span-4">
+      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Test of the Bow</h3>
+    </div>
+    <div class="col-span-12 lg:col-span-8 space-y-6">
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Sita is of marriageable age, and Janaka — philosopher-king of Mithila — knows that this extraordinary soul cannot be given to just any man. The wrong match would be a <span class="text-primary font-semibold">cosmic misalignment</span>.
+      </p>
+      <p class="text-lg leading-relaxed text-on-surface-variant">
+        Janaka devises the test of the great bow: not a test of mere physical strength, but of the dharmic standing that produces power beyond ordinary force.
+      </p>
+      <div class="flex gap-8 items-center pt-4 flex-wrap">
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Faith</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Core Theme</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">Mithila</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Setting</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">4</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Scenes</span>
+        </div>
+        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+        <div class="flex flex-col gap-1">
+          <span class="text-3xl font-headline font-bold text-primary">pp. 17&ndash;18</span>
+          <span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Book Pages</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Scene Cards -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+
+  <div class="mb-16">
+    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 7 · Scene by Scene</span>
+    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">King Janaka's Concern</h3>
+    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each scene is a self-contained moment in the story — read straight through, or pause at each card to reflect.</p>
+  </div>
+
+  <!-- Part I -->
+  <div class="section-divider"><span>Part I &mdash; The Philosopher-King's Concern</span></div>
+
+  <article class="scene-card p-8" id="scene-7-1">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.1</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">No Ordinary Daughter</h4>
+        <p class="scene-prose">Sita was of marriageable age. This was the simple fact around which all of King Janaka's concern revolved — not anxiety, exactly, not the fretting of an overprotective parent, but the genuine, deep concern of a man who understood that this particular daughter, this soul of extraordinary standing, could not be given to just any man. The wrong match would not merely be a social inconvenience. It would be a cosmic misalignment.</p>
+        <p class="scene-prose">Janaka had watched his daughter grow. Her patience was not the patience of someone who had nothing to say — it was the patience of someone who had understood that most arguments are not worth having. Her courage was not the courage of someone who lacked imagination — it was the courage of someone who had fully imagined the consequences of cowardice and chosen differently. Her spiritual practice was not the observance of a dutiful daughter — it was the genuine seeking of a soul that had already, in past lives, come far along the path.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> Janaka recognises Sita's soul-quality because he is a <b>philosopher-king</b> — a ruler whose governance is shaped by the same perception that shapes his spiritual practice. His concern is not parental anxiety; it is the responsibility of a custodian who understands what has been placed in his care.</p>
+        <div class="scene-tags"><span class="scene-tag">Sita</span><span class="scene-tag">Janaka</span><span class="scene-tag">Soul Recognition</span><span class="scene-tag">Mithila</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-7-2">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.2</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">Proposals Rejected</h4>
+        <p class="scene-prose">Janaka had received proposals from many directions. Princes and kings had sent their ambassadors with elaborate descriptions of their wealth, their lineages, their military achievements. Each time, he had come to the same conclusion: that the man before him, however excellent he might be by worldly standards, was not the right match. Not because of any specific deficiency, but because the quality of resonance that Janaka was waiting for was simply not there.</p>
+        <p class="scene-prose">He had prayed about this. He had consulted sages. And from those consultations had emerged a consistent answer: that Sita's husband would be a Balabhadra soul — a soul of great dharmic standing, already far advanced on the path to liberation. He would prove himself not through his lineage or his wealth, but through a feat that no ordinary man could accomplish.</p>
+        <div class="scene-tags"><span class="scene-tag">Suitors Rejected</span><span class="scene-tag">Dharmic Discernment</span><span class="scene-tag">Balabhadra</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Part II -->
+  <div class="section-divider"><span>Part II &mdash; The Test of the Bow</span></div>
+
+  <article class="scene-card p-8" id="scene-7-3">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.3</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">The Bow of Dharma</h4>
+        <p class="scene-prose">The feat that Janaka had in mind was the great bow. In the armoury of Mithila there resided a bow of extraordinary size and weight — the Bow of Shiva, as it was called in the popular telling. In the Jain tradition, it was a bow of such immense weight that ordinary men could not even lift it, let alone string it. It had been in the possession of Mithila for generations, a symbol of the kingdom's ancient power, treated with reverence as a sacred object.</p>
+        <p class="scene-prose">Janaka had come to a decision: the man who could lift this bow and string it — that man would be Sita's husband. The bow was not a test of mere physical strength. It was a test of the convergence of physical ability, spiritual standing, and the righteous power that accumulates in a soul that has lived well and practised dharma faithfully across many births.</p>
+        <p class="jain-lens"><b>The Jain lens:</b> The bow tests what Jain philosophy calls <b>bala</b> — strength that is moral in origin. The Jain account is explicit: Ravana's physical power cannot string this bow, because his power is in service of ego, not dharma. The bow distinguishes between the two.</p>
+        <div class="scene-tags"><span class="scene-tag">The Great Bow</span><span class="scene-tag">Dharmic Power</span><span class="scene-tag">Test of Character</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="scene-card p-8" id="scene-7-4">
+    <div class="flex items-start gap-6">
+      <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.4</span>
+      <div class="space-y-4 flex-1">
+        <h4 class="font-headline font-bold text-on-surface text-xl">The Swayamvar Announced</h4>
+        <p class="scene-prose">Janaka had this conviction: that the right man would know what to do, instinctively, when he stood before the bow. And that he would do it. He announced the swayamvar of Sita. The invitations went out across the known world. The terms were stated clearly: only the man who could string the great bow would be considered as a suitor.</p>
+        <p class="scene-prose">Kings and princes began preparing their journeys to Mithila. And in Ayodhya, in the court of the sage Vishwamitra, two young princes — Ram and Lakshman — were about to receive an invitation of their own. The bow waited in its armoury, heavy with the weight of destiny. Sita waited in her chambers, performing her morning practice with the serenity of a soul that trusts completely that what is meant to come will come.</p>
+        <div class="scene-tags"><span class="scene-tag">Swayamvar Announced</span><span class="scene-tag">Ram and Lakshman</span><span class="scene-tag">Vishwamitra</span></div>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- Closing -->
+<section class="py-16 border-t border-primary/10">
+  <div class="max-w-3xl mx-auto px-6 md:px-12 text-center">
+    <p class="font-headline italic text-lg text-on-surface-variant leading-relaxed">
+      The bow waited in its armoury, heavy with the weight of destiny. Sita waited in her chambers, performing her morning practice with the serenity of a soul that trusts completely that what is meant to come will come. And Janaka waited — his concern not gone, but transformed, by prayer and by the counsel of the sages, into something closer to faith.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- Floating Nav Buttons -->
+<a href="ramayana-ch6.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  <span class="text-lg">&larr;</span> Chapter 6
+</a>
+<a href="ramayana-ch8.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">
+  Chapter 8 <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+    <div class="flex flex-col gap-6 max-w-md">
+      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.</p>
+      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Scripture</span>
+        <a class="hover:text-primary transition-colors" href="../../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+        <a class="hover:text-primary transition-colors" href="ramayana-index.html">Jain Ramayana</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Explore</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+      </div>
+      <div class="flex flex-col gap-4">
+        <span class="text-primary/40 mb-2">Connect</span>
+        <a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a>
+        <a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+
+</body>
+</html>
