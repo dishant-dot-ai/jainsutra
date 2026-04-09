@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -496,12 +496,10 @@
        <p class="sutra-sanskrit font-headline">
         वज्जिरसहसंघयणो, समचउरंसो झसोयरो । तस्स राईमई कण्णं, भज्जं जायइ केसवो ॥२२.६॥
        </p>
-       <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Of vajra-ṛṣabha-nārāca constitution, samacaturasra form, and fish-belly shaped abdomen — Keśava (Kṛṣṇa) sought for him Rāīmatī (Rājematī) as wife.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Ariṣṭanemi possessed the vajra-ṛṣabha-nārāca constitution — the highest of six bodily types in Jain thought, with bones interlocked like diamonds, capable of enduring even the most intense tapas without physical harm. His samacaturasra (perfectly proportioned) and fish-belly abdomen mark the ideal Tīrthaṃkara body. That Kṛṣṇa arranged the marriage to Rājematī, daughter of King Ugrasena, is narratively important on two levels: it shows the depth of Kṛṣṇa's care for his cousin, and it positions Kṛṣṇa as the central human witness who will see the renunciation happen. The matchmaker becomes the liberation-witness.
        </p>
@@ -665,12 +663,10 @@
        <p class="sutra-sanskrit font-headline">
         अह ऊसिएण छत्तेण, चामराहि य सोहिए । दसारचक्केण य सो, सव्वओ परिवारिओ ॥२२.११॥
        </p>
-       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Then adorned with a raised royal umbrella and fly-whisks, and surrounded on all sides by the ten-fold Daśāra (Yādava) clan — he shone greatly.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The royal insignia completes the image of perfect worldly sovereignty: the raised umbrella (chattra) symbolizes sovereignty and divine protection; the fly-whisks (chāmara) are the mark of a king being served at the highest level. The "daśāra-chakra" — the ten Yādava clans — encircles Ariṣṭanemi on all sides, a living ring of the most powerful dynasty of the era. The procession is at its most magnificent, every layer of worldly honor simultaneously present. The text needs this completeness: what follows is not a renunciation born of failure or loss, but the freely chosen departure of someone who has everything and sees through it all.
        </p>
@@ -801,12 +797,10 @@
        <p class="sutra-sanskrit font-headline">
         जीवियंतं तु संपत्ते, मंसट्टा भिक्खयव्वए । पासित्ता से महापण्णे, सारहिं इणमब्बवी ॥२२.१५॥
        </p>
-       <p class="principle-def">Direct insight into reality transcends mere intellectual knowledge.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Prajna · Wisdom</span></div><p class="principle-def">Direct insight into reality transcends mere intellectual knowledge.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Seeing living beings at the end of their lives, to be slaughtered as meat for flesh-eaters, the great-minded one asked his sārathi:
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Prajna · Wisdom</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         "Mahāprajña" — great wisdom — is the word used for Ariṣṭanemi in this moment. He asks the question not because he doesn't know the answer but because asking it aloud creates a record, a public moment of confrontation with what is actually happening. The driver represents the ordinary consciousness that sees the same thing and finds it entirely normal — "of course we're feeding the guests, my lord." For the ordinary mind, animal slaughter for a feast is simply how celebrations work. For the awakened mind, it is a chain of violence directly linked to the celebration that bears his name. The contrast between the two states of consciousness is the point.
        </p>
@@ -900,12 +894,10 @@
        <p class="sutra-sanskrit font-headline">
         सोऊण तस्स वयणं, बहुपाणीविणासणं । चिंतेइ से महापण्णे, साणुक्कोसे जिएहिं उ ॥२२.१८॥
        </p>
-       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Hearing his words — which spoke of the destruction of many beings — the great-minded, compassionate one began to think deeply about the lives of these creatures.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         "Sānukkosa" means accompanied by deep compassion and inner pain. "Anukampā" is the Jain term for the resonance of one soul with another's suffering — literally, "feeling with." Ariṣṭanemi is not just sad for the animals; he enters into a state of deep reflective pain about the very structure of the worldly celebration he is at the center of. His chintā — his deep thinking — leads him to confront a disturbing truth: the joy and the suffering are not separate events. The feast requires the slaughter; the celebration is built on the destruction of other lives. This structural violence is invisible to ordinary consciousness but inescapable to the mahāprajña.
        </p>
@@ -972,12 +964,10 @@
        <p class="sutra-sanskrit font-headline">
         सो कुंडलाण जुयलं, सुत्तगं च महायसो । आभरणाणि य सव्वाणि, सारहिस्स पणामए ॥२२.२०॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The greatly glorious one removed his earring-pair, his pearl-string necklace, and all his ornaments — and handed them to the sārathi.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The ornaments come off. Earrings, pearl necklace, and all the remaining jewelry — removed, handed to the driver. This is not a symbolic gesture; it is the literal, physical beginning of renunciation. Each object is returned to the person who represents the world those objects belong to. In Jain ritual, this act of removing ornaments is part of the dīkṣā ceremony to this day. Ariṣṭanemi is not waiting to reach Raivataka mountain before beginning; the renunciation begins right here, on the elephant's back, in the middle of the wedding procession. The world's greatest procession becomes the setting for the world's most complete departure from worldly life.
        </p>
@@ -1103,12 +1093,10 @@
        <p class="sutra-sanskrit font-headline">
         अह सो सुगंधगंधिए, तुरियं मउकुंचिए । सयमेव लुंचइ केसे, पंच मुट्ठीहिं समाहिओ ॥२२.२४॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Then the samādhistha Ariṣṭanemi — fragrant as sweet scent, with soft curling hair — himself plucked his hair by five handfuls.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         "Keśa-luñcana" — plucking one's own hair by five handfuls — is one of the most recognizable acts in the Jain dīkṣā ceremony. It is the physical completion of the renunciation: the body that was bathed, adorned, and celebrated is now voluntarily stripped of the last markers of social identity and beauty. Ariṣṭanemi does it "samameva" — himself, without assistance — symbolizing that this is entirely his own act, arising from his own inner resolve. He remains in samādhi throughout — deeply absorbed, undisturbed by physical pain. The hair of the fragrant, curling-haired bridegroom falls away. What remains is the Jina.
        </p>
@@ -1138,12 +1126,10 @@
        <p class="sutra-sanskrit font-headline">
         वासुदेवो य णं भणइ, लुत्तकेसं जिइंदियं । इच्छिय-मणोरहं तुरियं, पावसु तं दमीसरा ॥२२.२५॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Vāsudeva (Kṛṣṇa) said to him — the hair-plucked, sense-conquering one: "O Master of the senses! Quickly attain your desired goal (liberation)."
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Kṛṣṇa's response contains not a trace of grief, resentment, or effort to turn Ariṣṭanemi back. He addresses him as "Damīsara" — Master of the Senses — the very title that captures what Ariṣṭanemi now fully embodies. His blessing is complete and immediate: "quickly attain your desired goal." Kṛṣṇa, who has spent the entire episode as matchmaker, procession-organizer, and witness, now reveals his deepest quality: he recognizes the higher path even while he himself remains bound to rule the world. In the Jain understanding, this recognition is itself a form of merit — the powerful man who bows before the renunciant.
        </p>
@@ -1173,12 +1159,10 @@
        <p class="sutra-sanskrit font-headline">
         णाणेण दंसणेणं च, चरित्तेण तवेण य । खंतीए मुत्तीए चेव, वड्डुमाणो भवाहि य ॥२२.२६॥
        </p>
-       <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "May you grow in knowledge, vision, conduct, austerity, forbearance, and liberation."
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Kṛṣṇa's six-fold blessing is a complete summary of the Jain path: jñāna (right knowledge), darśana (right vision/faith), cāritra (right conduct), tapas (austerity), kṣānti (forbearance), and mukti (liberation). These are not six separate things; they are six aspects of a single process of purification. Together they map the entire trajectory from the first moment of true seeing all the way to final liberation. This verse is still used in Jain ritual today as a formal benediction for those taking monastic initiation — Kṛṣṇa's farewell to Ariṣṭanemi becoming the universal blessing for every soul that chooses the path.
        </p>
@@ -1245,12 +1229,10 @@
        <p class="sutra-sanskrit font-headline">
         सोऊण य रायकण्णा, पव्वज्जं सा जिणस्स उ । णीहासा य णिराणंदा, सोगेण उ समुच्छिया ॥२२.२८॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Hearing of the Jina's renunciation, the royal daughter (Rājematī) became joyless, joyless — and fainted in grief.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Rājematī's grief is total and the text does not soften it or rush past it. "Nīhāsā" — without laughter, without joy. She was a bride fully prepared for marriage, adorned and celebrated; the shock of hearing that her groom has renounced the world and become a monk is enormous. She faints. The text is honest about this: profound spiritual stories are not painless. The grief is real and it is given its full space. But as in all great Jain narrative, what matters is what the prepared soul does with its pain. This grief, fully felt, will very soon transform itself into the clearest and most courageous resolution of the entire chapter.
        </p>
@@ -1280,12 +1262,10 @@
        <p class="sutra-sanskrit font-headline">
         राईमई विचिंतेइ, धिरत्थु मम जीवियं । जाहं तेण परिच्चत्ता, सेयं पव्वइउं मम ॥२२.२९॥
        </p>
-       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Rājematī reflected: "Fie on my worldly life! Since I have been renounced by him, it is best that I too take dīkṣā."
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         "Dhirattu" — shame or fie — is a powerful word that she turns not against Ariṣṭanemi but against herself, against her own clinging to worldly life. This is the inner pivot. She reasons clearly: the person she had chosen as her partner has recognized that the world is not worth staying for. If his assessment is right — and she trusts it completely — then her own continued investment in worldly life is equally pointless. She does not feel abandoned; she feels released. The one who could have been her anchor in the world has instead shown her the direction of the shore beyond it. Her decision to take dīkṣā is not heartbreak seeking consolation — it is conviction following conviction.
        </p>
@@ -1709,13 +1689,11 @@
        <p class="sutra-sanskrit font-headline">
         पक्खंदे जलियं जोइं, धूमकेउं दुरासयं । णेच्छति वंतयं भोतुं, कुले जाया अगंधणे ॥२२.४२॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "One born in the Agaṃdha clan would not wish to consume vomited food — just as one would not jump into a blazing, smoke-belching fire."
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The "vomited food" metaphor is devastating. Renunciation is the expulsion of harmful attachment; returning to it is re-consuming vomit. This is a radical statement on the irreversibility of a true vow.
        </p>
@@ -1745,12 +1723,10 @@
        <p class="sutra-sanskrit font-headline">
         धिरत्थु ते जसोकामी, जो तं जीवियकारणा । वंतं इच्छिस आवेउं, सेयं ते मरणं भवे ॥२२.४३॥
        </p>
-       <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "Shame on you, O seeker of fame! For the sake of (biological) life, you wish to re-consume what was vomited — for you, death would be better."
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         "Dhirattu" — shame. She speaks the truth without softening it. In Jain values, it is better to lose the body (death) than to lose the soul's purity (re-consuming the renounced pleasures).
        </p>
@@ -1844,12 +1820,10 @@
        <p class="sutra-sanskrit font-headline">
         कोहं माणं णिगिणिहत्ता, माया लोभं च सव्वसो । इंदियाइं वसे काउं, अप्पाणं उवसंहरे ॥२२.४७॥
        </p>
-       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "Completely subduing anger, pride, deceit, and greed — bringing the senses under control — gather yourself into yourself."
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         She names the four kaṣāyas (passions) that bind the soul. The summary of the entire teaching: "Gather yourself into yourself." The dispersed self must be recalled to its own center.
        </p>
@@ -1980,12 +1954,10 @@
        <p class="sutra-sanskrit font-headline">
         उग्गं तवं चरित्ताणं, जाया दोणिण वि केवली । सव्वं कम्मं खवित्ताणं, सिद्धिं पत्ता अणुत्तरं ॥२२.५०॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Practicing intense austerities, both became kevalīs. Having destroyed all karmas, they attained the supreme siddhi (liberation).
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Both. This is the remarkable conclusion: both Rājematī and Rathanemi attain liberation. One never fell; one fell and returned. Jainism reserves liberation for the persistent, not just the perfect.
        </p>

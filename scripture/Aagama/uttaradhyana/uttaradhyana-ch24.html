@@ -71,24 +71,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -730,10 +730,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">24.26</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">एयाओ पंच समिईओ, चरणस्स य पवत्तणे ।<br/>गुत्ती णियत्तणे वुत्ता, असुभत्थेसु सव्वसो ॥२४.२६॥</p>
-        <p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div><p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">The five forms of carefulness are for proper conduct in action. The three forms of self-control are declared for complete withdrawal from all unwholesome things.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This crucial verse draws the fundamental distinction between the two categories of practice. The five forms of carefulness (samiti) govern how the monk acts when action is necessary — they are about doing things rightly. The three forms of self-control (gupti) govern restraint from all that is unwholesome — they are about not doing what is harmful. This distinction is vital: a spiritual path cannot consist only of restraint (that would lead to paralysis), nor only of careful action (that would leave harmful impulses unchecked). Both are needed. The five forms of carefulness ensure that the monk's necessary activities are done without causing harm. The three forms of self-control ensure that the monk's instruments of engagement are not deployed for unnecessary or harmful purposes. Together, they form the complete discipline: act when needed but only with full awareness; restrain yourself from everything else.</p>
         <!-- [VISUAL FLAG #24.26 — A two-column visual: on the left, five arrows pointing outward (samiti — active carefulness in engagement); on the right, three barriers pointing inward (gupti — self-control, withdrawal from the unwholesome)] -->
         <p class="simple-explanation"><b>The simple version:</b> Carefulness is about doing necessary things the right way. Self-control is about not doing unnecessary things at all. You need both — one without the other is incomplete.</p>
@@ -753,10 +751,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">24.27</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">एसा पवयणमाया, जे सम्मं आवरे मुणी ।<br/>सो खिप्पं सव्वसंसारा, विप्पमुच्चइ पंडिए ॥ <span class="text-base not-italic text-outline">ति बेमि ।</span></p>
-        <p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div><p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the mother of the teaching. The sage who properly observes it is quickly liberated from the entire cycle of rebirth — thus I say.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The final verse brings the entire chapter to its conclusion with a powerful promise. The eight practices described in this chapter — five forms of carefulness and three forms of self-control — are not merely rules of conduct. They are the very foundation that gives birth to liberation. The word "quickly" (khippaṃ) is significant: it suggests that these practices, when followed properly and completely, are the most direct path to freedom from the cycle of birth and death. The closing formula "iti bemi" (thus I say) marks these as the words of the enlightened teacher himself, lending them the highest authority. The chapter began by calling these eight practices the "mothers" of the teaching, and it ends by declaring their ultimate fruit: complete liberation. A mother gives life — these eight practices give spiritual life, the life that never ends.</p>
         <p class="simple-explanation"><b>The simple version:</b> Follow these eight foundational practices properly, and you will be freed from the cycle of suffering — this is the direct promise of the enlightened teacher himself.</p>
         <div class="concept-tags">

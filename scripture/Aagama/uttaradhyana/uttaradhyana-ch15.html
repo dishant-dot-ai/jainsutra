@@ -69,24 +69,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -188,10 +188,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.1</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">मोणं चरिस्सामि समिच्च धम्मं, सहिए उज्जुकडे णियाणछिण्णे । संथवं जहिज्ज अकामकामे, अण्णायएसी परिव्वए स भिक्खू ॥१॥</p>
-        <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Having reflected upon the Dharma, he who resolves "I will practice monkhood," who is endowed with right knowledge and vision, who is straight and free of deceit, who has cut the cord of craving, who has abandoned attachment to relatives, who is free of desire for sense pleasures, and who wanders seeking alms in unknown households — he is a bhikshu.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This opening sutra establishes the inner resolve of a true monk. The word moṇaṃ is rich: it means not merely silence, but the total orientation of a muni — the entire way of being of one who has renounced. The true bhikshu is not one who merely wears robes, but one who has inwardly severed three things: the rope of craving (niyāṇa), the bond of family attachment (saṃthava), and the pull of sense pleasures (akāmakāme).</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk is someone who has genuinely decided to live without craving, without attachment to family, and without desire for pleasure, wandering wherever alms may come without preferences.</p>
         <div class="concept-tags"><span class="concept-tag">Resolve</span><span class="concept-tag">Right Knowledge</span><span class="concept-tag">No Craving</span></div>
@@ -204,11 +202,9 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.2</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">राओवरयं चरेज्ज लाढे, विरए वेयवियाऽऽयरिक्खए । पण्णे अभिभूय सव्वदंसी, जे कम्हि वि ण मुच्छिए स भिक्खू ॥२॥</p>
-        <p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div><p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who, free from rāga (attachment) and ovara (aversion), wanders in suitable territory, who is restrained from sin, learned in the scriptures and protective of the self, who is wise, who has overcome all trials, who sees all beings equally, and who is not attached to anything whatsoever — he is a bhikshu.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra describes the monk in motion — moving through the world with complete detachment. He has overcome rāga and dveṣa (attraction and repulsion), the two engines of karmic bondage. The phrase savvadaṃsī — "one who sees all" — means he has overcome rāga and dveṣa toward all beings and keeps the purpose of saṃyama always in view.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk moves through the world with no likes or dislikes pulling him — he is learned, self-sufficient, kind to all beings, and completely unattached to anything.</p>
         <div class="concept-tags"><span class="concept-tag">Equanimity</span><span class="concept-tag">Self-Protection</span><span class="concept-tag">Detachment</span></div>
@@ -221,10 +217,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.3</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">अक्कोस वहं विइत्तु धीरे, मुणी चरे लाढे णिच्चमायगुत्ते । अव्वग्गमणे असंपिहट्टे, जे किसिणं अहियासए स भिक्खू ॥३॥</p>
-        <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">The steadfast muni who, having understood harsh words and blows as the fruit of his own past karma, wanders in worthy territory, always guarding his soul, never agitated in mind, never elated, and who endures all hardships with equanimity — he is a bhikshu.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The monk does not merely tolerate abuse; he has understood it philosophically — recognizing it as the fruition of his own past karma, not as something done to him by an external enemy. This reframing transforms suffering into a spiritual opportunity. He remains avvaggamaṇe — unagitated — and asaṃpihaṭṭe — unelated.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk accepts insults and even physical harm calmly because he understands that what happens to him is a result of his own past actions, not someone else's fault.</p>
         <div class="concept-tags"><span class="concept-tag">Forbearance</span><span class="concept-tag">Karma Vision</span><span class="concept-tag">Steadiness</span></div>
@@ -237,10 +231,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.4</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">पंतं सयणासणं भइत्ता, सीउण्हं विविहं च दंसमसगं । अव्वग्गमणेऽसंपिहट्टे, जे किसिणं अहियासए स भिक्खू ॥४॥</p>
-        <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who accepts inferior bedding and seating with contentment, who endures cold, heat, and various kinds of insect bites — never agitated in mind, never elated — and who endures all hardships with equanimity — he is a bhikshu.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">Where sutra 3 addressed inner trials, this sutra addresses physical hardship. The monk accepts whatever bed or seat is offered, however rough. This is not mere stoicism; it is the recognition that the body is not the self, and therefore its discomforts do not touch what is essential. Neither distressed nor elated, he remains centered.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk is completely okay with a rough bed, extreme weather, and insect bites — he doesn't complain because he knows his body's discomforts are not his ultimate concern.</p>
         <div class="concept-tags"><span class="concept-tag">Physical Hardship</span><span class="concept-tag">Contentment</span><span class="concept-tag">Body-Soul Distinction</span></div>
@@ -253,10 +245,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.5</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">णो सक्कियमिच्छइ ण पूयं, णो वि य वंदणगं कुओ पसंसं । से संजए सुव्वए तवस्सी, सहिए आयगवेसए स भिक्खू ॥५॥</p>
-        <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not desire honor, nor worship, nor even veneration — much less praise — he who is restrained, well-vowed, ascetic, endowed with right knowledge, and a seeker of the self — he is a bhikshu.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra targets the subtlest form of attachment — the desire for respect. Praise is often the most persistent ego-driven motivation in spiritual life. The true bhikshu has uprooted it entirely. He is āyagavesae — a seeker of the self, the ātman — not a seeker of applause.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk does not want to be praised, honored, or even bowed to — he has no interest in what others think of him; his only interest is in the work of his own soul.</p>
         <div class="concept-tags"><span class="concept-tag">No Praise</span><span class="concept-tag">Seeker of Self</span><span class="concept-tag">Humility</span></div>
@@ -272,10 +262,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.6</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">जेण पुण जहाइ जीवियं, मोहं वा किसिणं णियच्छइ । परणारिं पजहे सया तवस्सी, ण य कोउहलं उवेइ स भिक्खू ॥६॥</p>
-        <p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div><p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who stays always far from the company of other men's and women's association — by which saṃyama (the life of restraint) is destroyed and all forms of moha (delusion) arise — who, as an ascetic, always abandons contact with women, and does not engage in any frivolity — he is a bhikshu.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The logic here is karmic: association with those who generate attraction-repulsion has the direct effect of destroying saṃyama. The monk who remains vigilant about this association is driven by a clear-eyed understanding of how delusion (mohanīya karma) operates. He also avoids kauhal — frivolity and unnecessary socializing.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk avoids any company or entertainment that could stir up attachment or delusion, because he knows these are the things most likely to pull him away from his path.</p>
         <div class="concept-tags"><span class="concept-tag">Samyama</span><span class="concept-tag">Avoiding Delusion</span><span class="concept-tag">Focus</span></div>
@@ -288,10 +276,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.7</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">छिण्णं सरं भोमंतलिक्खं, सुमिणं लक्खण दंड वत्थुविज्जं । अंगियारं सरस्स विजयं, जे विज्जाहिं ण जीवइ स भिक्खू ॥७॥</p>
-        <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not earn his livelihood through any of these arts — the art of cutting cloth and wood, the art of melody and sound, knowledge of omens and ground signs, the knowledge of space and sky, the knowledge of dreams, the knowledge of body marks (physiognomy), the art of sticks and implements, the knowledge of architecture and vastushastra, the art of fire omens, the knowledge of animal and bird language — he is a bhikshu.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">Fourteen forbidden arts are listed. They are forbidden because using them to sustain oneself creates worldly dependency and ego-investment. A monk who tells fortunes or practices crafts has made his spiritual practice into a livelihood, which corrupts both. Sustenance must come only from alms received without service rendered in return.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk doesn't use special arts, fortune-telling, or any kind of craft to earn food — he receives only what is freely given as alms, with no strings attached.</p>
         <div class="concept-tags"><span class="concept-tag">Livelihood</span><span class="concept-tag">Forbidden Arts</span><span class="concept-tag">Purity</span></div>
@@ -304,10 +290,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.8</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">मंतं मूलं विविहं वेज्जचिंतं, वमण विरेयण धूमणेत्तसिणाणं । आउरे सरणं तिगिच्छियं च, तं परिण्णाय परिव्वए स भिक्खू ॥८॥</p>
-        <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Having fully understood and renounced mantra practice, herbal-root remedies, various forms of medical treatment, induced vomiting, purgatives, nasal smoke-inhalation procedures for cleansing, bathing, the impulse to seek shelter in a householder's home when ill, and the practice of medical treatment — he who wanders with this understanding is a bhikshu.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra extends the principle to medicine. When the body suffers, every instinct pulls toward relief. Yet the monk understands that medical treatment, when used to perpetuate attachment to the body, becomes a form of violence against the path. He does not blindly follow a rule but has genuinely comprehended why these renunciations serve liberation.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk does not use medicine or healing treatments — even when ill — because his entire orientation is toward the soul, not toward preserving the body's comfort.</p>
         <div class="concept-tags"><span class="concept-tag">Non-Medicine</span><span class="concept-tag">Soul Focus</span><span class="concept-tag">Hardship</span></div>
@@ -333,10 +317,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.10</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">गिहिणो जे पव्वइएण दिट्ठा, अप्पव्वइएण व संथुया हविज्जा । तेसिं इहलोइयफलट्ठा, जो संथवं ण करेइ स भिक्खू ॥१०॥</p>
-        <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who, after having taken initiation (pravrajyā), does not maintain special familiarity with any of those householders he knew before initiation or became acquainted with after initiation — seeking worldly gains such as clothing, alms-bowl, food, fame, or praise — he is a bhikshu.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This addresses the subtle temptation of using old relationships to secure advantages. A true monk does not cultivate saṃthava — a special familiarity — if motivated by worldly benefit. Every household he approaches is as a pure receiver of whatever is freely given, not as someone leveraging a connection.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk doesn't use old friendships or new relationships to get better food or gifts — every household he visits is approached with the same openness.</p>
         <div class="concept-tags"><span class="concept-tag">No Transaction</span><span class="concept-tag">Pravrajya</span><span class="concept-tag">Relationship Bounds</span></div>
@@ -378,10 +360,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.13</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">आयामगं चेव जवोदणं च, सीयं सोवीर जवोदगं च । णो हीलए पिंडं णीरसं तु, पंतकुलाइं परिव्वए स भिक्खू ॥१३॥</p>
-        <p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div><p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not despise or look down upon plain, tasteless alms — whether it be leftover food, barley-rice, cold food, thin gruel made from curds, or barley-water — and who wanders even to ordinary humble households for alms — he is a bhikshu.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra is a gentle rebuke to the pride of the palate. Leftovers and watery gruel were the least valued foods. The monk accepts them without complaint. This is the direct embodiment of aparigraha (non-possessiveness). Contempt for plain food is a form of ego.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk happily accepts the plainest, most tasteless food from the humblest homes without any sense of deserving better.</p>
         <div class="concept-tags"><span class="concept-tag">Humble Alms</span><span class="concept-tag">No Pride</span><span class="concept-tag">Aparigraha</span></div>
@@ -410,10 +390,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.15</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">वादं विविहं समिच्च लोए, सहिए खेयाणुगए य कोवियप्पा । पण्णे अभिभूय सव्वदंसी, उवसंते अविहेडए स भिक्खू ॥१५॥</p>
-        <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who, having understood the various doctrinal debates prevalent in the world, remains stable in knowledge and vision, who is an adherent of the path of saṃyama, who is the supreme knower of the deeper meaning of the scriptures, who is wise, who has overcome all trials with equanimity, who sees all beings with equal vision, who is calmed in passions, and who causes pain to no living being — he is a bhikshu.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The world brims with competing philosophical claims. The monk understands them and is moved by none. He does not use his knowledge to humiliate others. He harms no being, not even through the violence of doctrinal arrogance. This is anekāntatā in practice: knowing many views, being attached to none.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk understands all the different philosophies in the world but is never pulled into debates or ego battles — he is wise and calm with everyone.</p>
         <div class="concept-tags"><span class="concept-tag">Doctrinal Equanimity</span><span class="concept-tag">Anekanta</span><span class="concept-tag">No Arrogance</span></div>
@@ -429,10 +407,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.16</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">असिप्पजीवी अगिहे अमित्ते, जिइंदिए सव्वओ विप्पमुक्के । अणुक्कसाई लहुअप्पभक्खी, चिण्णाए गिहं एगचरे स भिक्खू ॥१६॥<br/>— ति बेमि ।</p>
-        <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">He who does not earn his livelihood through any craft or art, who is without a home, who is without binding friends or enemies, who has conquered the senses, who is completely free from all external and internal bonds, who has mild passions, who eats nourishing but limited food, who has renounced householder life, and who wanders alone — free from rāga and dveṣa — he is a bhikshu. — Thus I say.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This final sutra gathers all threads into a single portrait. The monk has no possessive friendships, no enemies—because he has no attachment generating the distinction. He wanders alone (egacare)—this aloneness is the clarity of being fully settled in the self. The closing "iti bemi" is Lord Mahāvīra's own voice, affirming this direct teaching.</p>
         <p class="simple-explanation"><b>The simple version:</b> A true monk has no job, no home, no special friends or enemies, eats lightly, walks alone, and is free from every attachment. Lord Mahavira says: this is the path.</p>
         <div class="concept-tags"><span class="concept-tag">Complete Freedom</span><span class="concept-tag">Egacare</span><span class="concept-tag">Iti Bemi</span></div>

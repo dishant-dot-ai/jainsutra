@@ -74,24 +74,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -179,10 +179,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.1</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">जीवाजीवविभत्तिं, सुणेह मे एगमणा इओ ।<br/>जं जाणिऊण भिक्खू, सम्मं जयइ संजमे ॥३६.१॥</p>
-        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Listen to this classification of living and non-living with a one-pointed mind. The monk who truly knows this strives correctly in restraint.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The opening verse sets the entire purpose of the chapter: this is not academic philosophy but practical liberation knowledge. The word <em>egamaṇā</em> — one-pointed mind — demands full attention, because half-understood knowledge leads to half-correct conduct. The monk who knows precisely what is a living soul and what is not can act with the precision that non-violence requires. Restraint (saṃyama) practiced without this knowledge is blind; with it, it becomes the exact science of liberation.</p>
         <p class="simple-explanation"><b>The simple version:</b> Listen carefully. A monk who truly understands what is living and what is non-living will practice restraint correctly.</p>
         <div class="concept-tags">
@@ -539,10 +537,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.19</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">रसओ परिणया जे उ, पंचहा ते पकित्तिया ।<br/>तित्तए कडुए चेव, कसाए अंबिले महुरे ॥३६.१९॥</p>
-        <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Pudgalas transformed by taste are of five kinds: bitter, sharp/pungent, astringent, sour, and sweet.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">Five tastes in Jain physics, with a crucial philosophical resonance: the word kaṣāya (astringent) is the same term used for the four passions of the soul — anger, pride, deceit, and greed. The astringent quality of matter (dry, clinging, contracting) mirrors exactly the clinging nature of the soul's passions. This deliberate vocabulary links Jain physics to Jain ethics — the outer world of taste and the inner world of passion are described in the same language.</p>
         <p class="simple-explanation"><b>The simple version:</b> Pudgalas that have taste are of five kinds: bitter, sharp, astringent (clinging), sour, and sweet.</p>
         <div class="concept-tags">
@@ -770,11 +766,9 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.49</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">संसारत्था य सिद्धा य, दुविहा जीवा वियाहिया ।<br/>सिद्धाणेगविहा वुत्ता, तं मे कित्तयओ सुण ॥३६.४९॥</p>
-        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Living souls are said to be of two kinds: worldly (those still bound in the cycle of birth and death) and liberated (those who have attained permanent freedom). The liberated are of many kinds — listen as I enumerate them.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The primary division of soul: those still bound in the cycle of birth and death (saṃsārī), and those who have fully destroyed all karma and attained permanent liberation (siddha). Every soul in the universe is either one or the other — there is no third option. The text describes the liberated first — the goal before the journey. This is pedagogically significant: know the destination clearly before describing the long road that leads there.</p>
         <p class="simple-explanation"><b>The simple version:</b> Jīvas are of two kinds: worldly (still bound in the cycle of birth and death) and liberated (freed from all karma forever).</p>
         <div class="concept-tags">
@@ -926,10 +920,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.69</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">संसारत्था उ जे जीवा, दुविहा ते वियाहिया ।<br/>तसा य थावरा चेव, थावरा तिविहा तहि ॥३६.६९॥</p>
-        <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">The worldly souls are said to be of two kinds: mobile (those capable of voluntary movement, with 2–5 senses) and immobile (those with only the sense of touch, fixed in place). The immobile are of three main types.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The great biological division in Jain ontology: mobile (trasa) and immobile (sthāvara). Mobile beings have 2 to 5 senses and can move voluntarily. Immobile beings have only the single sense of touch — they cannot choose to move. This classification is the foundation of Jain biology and the basis of the ethics of non-violence: even earth, water, fire, air, and plants contain living souls. Harming them carelessly is a violation of life, even if the soul cannot cry out.</p>
         <p class="simple-explanation"><b>The simple version:</b> Worldly souls are of two kinds: mobile (with 2 to 5 senses, capable of movement) and immobile (with 1 sense only, fixed in place). Even earth and water are alive.</p>
         <div class="concept-tags">
@@ -1418,10 +1410,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.272</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">अणुबद्ध रोसपसरो, तह य अणुबद्ध मायपसरो ।<br/>अणुबद्ध लोभपसरो, णो लोगेसु विसोहणं ॥</p>
-        <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">The interconnected spread of anger, the interconnected spread of deceit, the interconnected spread of greed — through these, there is no purification in any world.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">A devastating verse about the interconnected nature of passion. Anger, deceit, and greed spread through everything like a web — when one is active, it pulls the others. A moment of anger breeds a defensive lie (deceit), which breeds hunger for justification (greed for vindication). Without cutting all three, purification is impossible in any realm — not in hell, not in the celestial heavens, not in any human life. This is why knowledge alone is insufficient: it must be accompanied by the patient, total uprooting of all four passions.</p>
         <p class="simple-explanation"><b>The simple version:</b> Anger, deceit, and greed are interconnected — they spread together. Without cutting all three, there is no purification anywhere in any world.</p>
         <div class="concept-tags">
@@ -1439,10 +1429,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36.273</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">सत्थगहणं विसभक्खणं च, जलणं च जलपवेसणं य ।<br/>अणपवेसणीयं च, जम्म मरणं अंतरं ॥</p>
-        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Grasping a weapon, consuming poison, entering fire, entering water, and entering that which cannot be entered — birth and death are the interval between these.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">Five devastating similes for the condition of saṃsāra: the cycle of birth and death is compared to grasping a blade (injuring yourself as you hold it), swallowing poison (slow internal destruction), entering fire (consuming yourself), drowning, and attempting to enter what is impossible to enter. Between each death and the next birth, the soul is wounded again and again. The knowledge of jīva-ajīva — clearly knowing what you are and what you are not — is the only tool that can stop this cycle. This is why the chapter opened: "Listen with a one-pointed mind."</p>
         <p class="simple-explanation"><b>The simple version:</b> The cycle of birth and death is like grasping a weapon, swallowing poison, entering fire, and drowning — repeated endlessly. Clear knowledge of what you truly are is the only way out.</p>
         <div class="concept-tags">

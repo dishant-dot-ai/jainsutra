@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -307,12 +307,10 @@
         <br/>
         जमायरंतो भिक्खू, दुक्खाणंतकरे भवे ॥३५.१॥
        </p>
-       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         With concentrated mind, listen from me to the path shown by the Omniscient; the monk who practices it becomes the ender of suffering.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This opening verse establishes the purpose and tone of the entire chapter. The speaker invites monks to listen with undivided, single-pointed attention to the path of the homeless ascetic as taught by the Omniscient One. The promise is direct and unambiguous: the monk who actually practices this path becomes the one who brings all suffering to its end.
        </p>
@@ -347,13 +345,11 @@
         <br/>
         इमे संगे वियाणिज्जा, जेहिं सज्जंति माणवा ॥३५.२॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The monk who has renounced household life and taken refuge in renunciation should recognize these attachments by which human beings become entangled.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Having introduced the path, this verse identifies the first fundamental challenge: the pull of domestic relationships. The instruction is to "recognize"—to clearly see the nature of these connections as bonds that generate fresh karmic entanglement. Awareness of the trap is the first step toward freedom from it.
        </p>
@@ -388,13 +384,11 @@
         <br/>
         इच्छाकामं च लोभं च, संजओ परिवज्जए ॥३५.३॥
        </p>
-       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Likewise, the disciplined monk should completely abandon violence, falsehood, stealing, the practice of non-celibacy, sensual desires, and greed.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This verse presents the core ethical foundation—the five great vows in their active form. Violence, falsehood, theft, non-celibacy, and possessiveness are recognized as the root causes of continued bondage. True discipline means uprooting these at the level of intention, not merely restraining overt behavior.
        </p>
@@ -545,12 +539,10 @@
         <br/>
         तत्थ संकप्पए वासं, भिक्खू परमसंजए ॥३५.७॥
        </p>
-       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The supremely disciplined monk should resolve to stay in a place that is free from living organisms, free from disturbances, and free from the trouble caused by women and others.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The ideal dwelling must be safe for tiny life forms, quiet for the monk's practice, and free from social distractions. Choosing such a place is a matter of wisdom and intention, reflecting a deep commitment to maintaining the highest standards of discipline.
        </p>
@@ -622,12 +614,10 @@
         <br/>
         तम्हा गिहसमारंभं, संजओ परिवज्जए ॥३५.९॥
        </p>
-       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Because house-building causes harm to mobile beings and stationary beings, subtle beings and gross beings — therefore the disciplined monk should completely refrain from the undertaking of house construction.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This verse cataloguing precisely which categories of life are harmed. Construction injures everything from visible animals to microscopic earth-bodied beings. A monk's compassion for all life requires total abstinence from involvement in any building activity.
        </p>
@@ -815,12 +805,10 @@
         <br/>
         कयविक्कयम्मि वट्टंतो, भिक्खू ण भवइ तारिसो ॥३५.१४॥
        </p>
-       <p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div><p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One who buys becomes a customer; one who sells becomes a merchant; one engaged in buying and selling is not the kind of monk described in the scriptures.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Commerce and monkhood are mutually exclusive. Market activity involves calculation, competition, and pursuit of gain—all of which oppose spiritual detachment. A person cannot be both a market participant and a monk who has truly renounced the world.
        </p>
@@ -892,13 +880,11 @@
         <br/>
         लाभालाभम्मि संतुट्टे, पिंडवायं चरे मुणी ॥३५.१६॥
        </p>
-       <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The monk should seek communal alms, collecting a little from many non-censured households as prescribed in scripture, remaining content whether he receives food or not.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Collecting small portions from many homes prevents special attachments and avoids burdening any single family. Most importantly, the monk must maintain equanimity, remaining genuinely content whether he receives food or nothing at all.
        </p>
@@ -933,12 +919,10 @@
         <br/>
         ण रसट्टाए भुंजिज्जा, जवणट्टाए महामुणी ॥३५.१७॥
        </p>
-       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Not gluttonous, not greedy for tastes, with the tongue-faculty under control, free from infatuation — the great sage should eat not for savoring but for the sustenance of his journey of restraint.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         A monk eats for maintenance, not pleasure. He treats food as fuel for his spiritual journey, keeping his tongue and taste-cravings under control. He doesn't anticipate meals or linger over them, maintaining a functional relationship with nourishment.
        </p>
@@ -973,12 +957,10 @@
         <br/>
         इडुईसक्कारसम्माणं, मणसा वि ण पत्थए ॥३५.१८॥
        </p>
-       <p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div><p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Ceremonial reception with forehead markings, auspicious welcome arrangements, reverential salutation, worship with fine offerings, and all forms of honor, reception, and respect — the monk should not desire even these in his mind.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Detachment must extend even to social esteem and honor. Craving for respect is a subtle but persistent desire. A truly free monk is inwardly indifferent to whether he is publicly honored or completely ignored, seeking no recognition for his path.
        </p>
@@ -1018,13 +1000,11 @@
         <br/>
         वोसटुकाए विहरेज्जा, जाव कालस्स पज्जओ ॥३५.१९॥
        </p>
-       <p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div><p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Free from ulterior motive, free from all possessions, with the body inwardly relinquished, the monk should meditate on pure, flawless contemplation and wander thus until the time of death arrives.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This describes the highest daily practice: pure, flawless meditation. The meditator has no ulterior motives, no possessions, and no identification with the body. This state is maintained continuously until the final moment of death arrives.
        </p>
@@ -1059,13 +1039,11 @@
         <br/>
         जहिऊण माणुसं बोंदिं, पहू दुक्खा विमुच्चइ ॥३५.२०॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         When the time of natural death arrives, having relinquished all food and abandoned the human body, the capable monk is freed from all suffering.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The final act is the conscious relinquishment of food as death approaches. Approached with calm mastery, this is the final liberation from physical life. The powerful monk leaves the body behind, bringing all suffering to a permanent end.
        </p>
@@ -1100,13 +1078,11 @@
         <br/>
         संपत्तो केवलं णाणं, सासयं परिणव्वुए ॥ ति बेमि ॥३५.२१॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Free from possessiveness, free from ego, free from attachment and aversion, free from all inflow of karma — having attained complete, perfect knowledge, such a being attains eternal liberation. Thus I say.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The ultimate fruit is the state of perfect inner freedom. Without ego or attachment, the soul attains omniscience—perfect, unbounded knowledge. This is followed permanently by eternal liberation. Thus I say—the teacher's seal of truth.
        </p>

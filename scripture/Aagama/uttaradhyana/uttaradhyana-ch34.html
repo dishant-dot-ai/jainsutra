@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -415,12 +415,10 @@
        <p class="sutra-sanskrit font-headline">
         जीमूय णिद्धसंकासा, गवलरिडुग-सण्णिभा । खंजण णयण णिभा, किण्हलेसा उ वण्णओ ॥३४.४॥
        </p>
-       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Resembling a dark rain-cloud, similar to a buffalo's horn, like collyrium (kajal) in appearance — such is the color of the black lesya.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The black lesya represents the most impure state of the soul, colored by the deepest passions of anger, pride, deceit, and greed in their most intense forms. The analogies (rain-cloud, buffalo horn, kajal) emphasize its absolute darkness.
        </p>
@@ -593,12 +591,10 @@
        <p class="sutra-sanskrit font-headline">
         संखंककुंद संकासा, खीरपूर समप्पभा । रययहार संकासा, सुक्कलेसा उ वण्णओ ॥३४.९॥
        </p>
-       <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Resembling a conch shell and jasmine, with the luster of milk, like a pearl necklace — such is the color of the white lesya.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The sukla (white) lesya is the purest state. It belongs to souls engaged in the highest spiritual practices — complete self-restraint and equanimity. It represents the closest state to liberation, radiant and unblemished.
        </p>
@@ -1096,12 +1092,10 @@
        <p class="sutra-sanskrit font-headline">
         इस्सा अमरिस अतवो, अविज्जमाया अहीरिया । गेही पओसे य सढे, पमत्ते रसलोलुए य ॥३४.२३॥
        </p>
-       <p class="caution-def">Lack of spiritual vision perpetuates the cycle of rebirth.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Avijja · Ignorance</span></div><p class="caution-def">Lack of spiritual vision perpetuates the cycle of rebirth.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Envy, intolerance, greed, ignorance, deceit, shamelessness — a householder who is angry, deceitful, negligent, and addicted to sensory pleasures.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Avijja · Ignorance</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This sutra lists the vices that feed the dark lesyas: envy, greed, deceit, shamelessness, and addiction to sensory pleasure. These qualities are common in those deeply immersed in worldly life (gehi).
        </p>
@@ -1239,13 +1233,11 @@
        <p class="sutra-sanskrit font-headline">
         णीयाविच्ची अचवले, अमाई अकुऊहले । विणीयविणए दंते, जोगवं उवहाणवं ॥३४.२७॥
        </p>
-       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div><p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Free from curiosity, steady, without pride, without restlessness — disciplined, humble, self-controlled, engaged in spiritual practice and meditation.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This describes the positive qualities that produce auspicious lesyas: steadiness, humility, discipline, and devotion to meditation. These virtues progressively brighten the soul's coloration.
        </p>
@@ -1278,12 +1270,10 @@
        <p class="sutra-sanskrit font-headline">
         पियधम्मे दढधम्मे, अवज्ज भीरुहिएसए । अवज्ज कोहमाणे य, पयणुए मायालोभे य पयणुए ॥३४.२८॥
        </p>
-       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Devoted to dharma, firm in dharma, afraid of sin, compassionate — one who has subdued anger and pride, and subdued deceit and greed.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The subduing of the four great passions — anger, pride, deceit, and greed — is essential for spiritual advancement. The ideal practitioner is firm in dharma and afraid of sin.
        </p>
@@ -1316,12 +1306,10 @@
        <p class="sutra-sanskrit font-headline">
         पयणु कोहमाणे य, मायालोभे य पयणुए । तहा पयणुवाई य, उवसंते जिइंदिए ॥३४.२९॥
        </p>
-       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Having subdued anger and pride, and subdued deceit and greed — such a one is calm, with passions subsided, and senses conquered.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Genuine inner calm (upashanta) and mastery over the senses (jita-indriya) go beyond mere suppression of passions. This tranquility corresponds to the purest lesyas.
        </p>
@@ -1389,12 +1377,10 @@
        <p class="sutra-sanskrit font-headline">
         अट्ट रुद्दाणि वज्जित्ता, धम्म-सुक्काणि झायए । पसंतचित्ते दंतप्पा, समिए गुत्तिसु य गुत्तिसु ॥३४.३१॥
        </p>
-       <p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div><p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Having abandoned the harsh and terrible (meditations), one who meditates on the virtuous and pure — with a tranquil mind, self-controlled, careful in conduct (samiti), and guarded in the three guards (gupti).
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Pure meditation (dharma and shukla dhyana) replaces harmful thoughts. Combined with careful conduct (samiti) and guarding mind, speech, and body (gupti), this produces highest purity.
        </p>
@@ -1427,12 +1413,10 @@
        <p class="sutra-sanskrit font-headline">
         सरागे वीयरागे वा, उवसंते जिइंदिए । एयजोग समाउत्तो, सुक्कलेसं तु परिणमे ॥३४.३२॥
        </p>
-       <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Whether with slight attachment or free from attachment, calm and with senses conquered — engaged in such practices, one transforms into the white (sukla) lesya.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The white (sukla) lesya belongs to the most advanced souls, whether still progressing (saraga) or fully perfected (vitaraga). It is the hallmark of complete spiritual freedom.
        </p>
@@ -1680,12 +1664,10 @@
        <p class="sutra-sanskrit font-headline">
         मुहुत्तद्धं तु जहण्णा, तेतीसं सागरामुहुत्तहिया । उक्कोसा होइ ठिई, णायव्वा सुक्कलेसाए ॥३४.३९॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The minimum duration is half a muhurta; the maximum is thirty-three sagaropamas minus one muhurta — such should be known as the duration of the white lesya.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Even the purest state has a defined duration within samsara. This serves as a reminder that all states are transient; only final liberation (moksha) is permanent.
        </p>
@@ -1718,12 +1700,10 @@
        <p class="sutra-sanskrit font-headline">
         एसा खलु लेसाणं, ओहेणं वण्णिया होइ । चउसु वि गइसु एत्थ, लेसाणं तिण्णि तिण्णि उ ॥३४.४०॥
        </p>
-       <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         This indeed is the general description of the lesyas; in each of the four destinies, there are three and three lesyas.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This transition introduces how lesyas relate to the four destinies (gati). The soul's coloration directly determines which realm it will enter after death.
        </p>
@@ -2396,12 +2376,10 @@
        <p class="sutra-sanskrit font-headline">
         लेस्साहि सव्वाहिं, चरिमे समयम्मि परिणयाहिं तु । ण हु कस्सइ उववाओ, परे भवे होइ जीवस्स ॥३४.५९॥
        </p>
-       <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         With all the lesyas in their final moment of transformation — for none is there birth in any other existence without these (lesyas of the soul).
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The lesya at the final moment of life (carama samaya) is what determines the next birth. The spiritual state at the time of death is of paramount importance.
        </p>
@@ -2434,12 +2412,10 @@
        <p class="sutra-sanskrit font-headline">
         अंतोमुहुत्तम्मि गए, अंतोमुहुत्तम्मि सेसए चेव । लेस्साहिं परिणयाहिं तु, जीवा गच्छंति परलोयं ॥३४.६०॥
        </p>
-       <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Having passed within an antarmuhurta, and with an antarmuhurta remaining — souls, characterized by their lesyas, proceed to the next world.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         In the transition between lives (paraloka), the soul carries its lesya as its constant companion. It is the coloring that accompanies the soul across the threshold of death.
        </p>

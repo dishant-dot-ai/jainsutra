@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -525,12 +525,10 @@
         <br/>
         वज्झ-मंडण-सोभागं, वज्झं पासइ वज्झगं ॥२१.८॥
        </p>
-       <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One day, standing at the palace balcony, he saw a criminal being led to the execution stake — adorned with the marks of a death sentence.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The pivot of the entire chapter arrives in a single image: a condemned man being walked through the streets below the palace, marked with the ritualized signs of his death sentence. The text uses the word "adorned" with sharp irony — the condemned man is "adorned" with the marks of his execution just as Samudrapāla is adorned with his jewelry and royal garments above. It is the darkest possible counterpoint: ornaments of life up high, ornaments of death down below. He is watching from the balcony, the highest point of worldly security and comfort, and below him moves the starkest possible symbol of karmic consequence made visible — what bad karma produces, displayed in public. In Jain biography and narrative literature, this kind of vivid confrontation with reality — called pratibodha, an awakening shock — is the moment when a soul that has been preparing across many lifetimes finally receives the decisive signal. It is not the cause of the awakening; it is the trigger of an awakening that was already overdue. Samudrapāla was ready; the sight of the condemned man was simply the key that opened the already-prepared door.
        </p>
@@ -602,12 +600,10 @@
         <br/>
         आपुच्छ अम्मापियरो, पव्वइए अणगारियं ॥२१.१०॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Right there, the fortunate Samudrapāla attained perfect awakening and supreme saṃvega. Taking his parents' permission, he took dīkṣā into the homeless monastic life.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Complete awakening — sambodhi — arrived right there, in that moment on the palace balcony. This is the text's most radical claim: liberation-oriented insight can arrive in an instant, when the soul is truly ready. The Jain understanding is that Samudrapāla's preparation across many previous lives — accumulating the right karmas, the right dispositions, the right family environment — made this single moment possible. Awakening does not come from nowhere; it comes from everything. Before taking dīkṣā — the formal monastic initiation — he seeks his parents' permission. This is not hesitation or uncertainty; it is the final act of householder responsibility, the last courtesy of a son who respects the bonds of family while simultaneously recognizing that those bonds cannot hold him. The asking of permission is itself a teaching: even in the act of departure, the monk-to-be maintains the ethical quality that made him ready for departure. After that bow, the life of the palace — with all its beauty, all its pleasure, all its abundance — is over. The ocean of saṃsāra is what remains to be crossed. And Samudrapāla was born ready.
        </p>
@@ -647,13 +643,11 @@
         <br/>
         परियायधम्मं चाभिरोयएज्जा, वयाणि सीलाणि परीसहे य ॥२१.११॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div><p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Having abandoned complete attachment — the great affliction, total delusion, and all that is fearful — he became devoted to the path of renunciation, the vows, the precepts, and patient endurance of hardships.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         With sutra 11, the chapter pivots sharply from narrative to teaching. The story of Samudrapāla's awakening is complete — we watched a merchant's son born at sea, raised in spiritual formation, and struck by liberation-insight in an instant. Now, Mahāvīra himself is speaking: these sutras are his direct instructions on what the monastic life actually looks like from the inside. Renunciation is not simply the absence of worldly life; it is a structured, active practice with three named pillars. The mahāvratas are the five "great vows" — the complete commitments that define Jain monasticism (non-violence, truth, non-stealing, celibacy, non-possession). The śīlas are the supporting precepts of discipline that govern daily conduct in detail. And parīṣaha-sahana is the patient, willing endurance of physical and mental hardship — not as torture but as the very mechanism by which old karma is burned away. This is not a soft or purely contemplative path. The muni first releases "great attachment, total delusion, and all that is fearful" — these three are the raw fuel of saṃsāra — and only from that cleared ground can the ordered, alive practice of genuine renunciation begin.
        </p>
@@ -688,12 +682,10 @@
         <br/>
         पडिवज्जिया पंच महव्वयाणि, चरिज्ज धम्मं जिणदेसियं विदू ॥२१.१२॥
        </p>
-       <p class="principle-def">Mastery over sexual desire liberates immense spiritual energy.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Brahmacharya · Celibacy</span></div><p class="principle-def">Mastery over sexual desire liberates immense spiritual energy.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The wise muni accepted the five great vows — ahiṃsā (non-violence), truth, non-stealing, brahmacharya, and non-possession — and practiced the Dharma as taught by the Jinas.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Brahmacharya · Celibacy</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The five mahāvratas are the structural backbone of Jain monastic life, and sutra 12 enumerates all five explicitly: ahiṃsā (non-violence toward all beings — not just humans but every sentient creature down to single-sensed organisms), satya (truth in all speech, with no exaggeration or concealment), asteya (not taking anything that is not freely given), brahmacharya (complete celibacy of body, speech, and mind), and aparigraha (total non-possession — owning nothing). Together these five form an integrated architecture of non-harm and ethical integrity that governs every dimension of the monk's life. They are not arbitrary rules imposed from outside; they are grounded in the direct, omniscient insight of the Jinas who have seen — with complete clarity, unclouded by karma — exactly how karma attaches to a soul, exactly what causes suffering, and exactly how binding can be stopped. Brahmacharya and aparigraha in particular are often misunderstood as mere self-denial. In Jain understanding they are the practical expression of recognizing the soul's inherent completeness: nothing needs to be added. To live by these vows is not to follow someone else's rules; it is to align one's existence with directly perceived spiritual truth.
        </p>
@@ -765,12 +757,10 @@
         <br/>
         सीहो व सद्देण ण संतसेज्जा, वयजोग सुच्चा ण असभमाहु ॥२१.१४॥
        </p>
-       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The muni wanders through the land at the proper time, knowing his own strength and weakness. Like a lion, he is not frightened by harsh sounds; and having heard words of suffering, he does not respond with cruel or improper speech.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Before a monk moves through the world, self-knowledge — knowing one's own "bala-abala," one's genuine strength and genuine weakness in the present moment — is essential. Without honest self-assessment, discipline collapses precisely when pressure increases. "Kālena kālaṃ" (at the proper time) also signals that the monk does not wander recklessly: timing and discernment in movement are part of the path. The lion simile here does more than evoke raw courage; it describes a specific quality of presence. The lion does not startle at loud sounds; it is not jerked around by stimuli that would scatter ordinary creatures. It moves through the world with deliberate, self-possessed stability. The monk cultivates this same unshakeable quality — specifically toward verbal provocations from others. Insults, harsh words, the cruelty of people who resent his presence — none of these cause him to retaliate with "asabha" speech (cruel, improper, degrading words). This is not passive weakness; it is an active extension of the mahāvrata of ahiṃsā into the subtlest layer of social interaction. In Jain teaching, verbal violence — words intended to harm, demean, or wound — creates karma just as physical harm does. The restrained tongue is as important as the restrained hand.
        </p>
@@ -953,12 +943,10 @@
         <br/>
         मेरुव्व वाएण अकंपमाणो, परीसहे आयगुत्ते सहेज्जा ॥२१.१९॥
        </p>
-       <p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div><p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
         <p class="text-lg font-semibold text-on-surface legendary leading-relaxed">
         Always abandoning attachment, aversion, and delusion, the wise bhikshu endures hardships self-protected and unshaken, like Mount Meru unaffected by wind.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Rāga (attachment and craving), dveṣa (aversion and hatred), and moha (delusion — the fundamental confusion about what the self truly is) are the three fundamental roots through which karma attaches to the soul. In Jain analysis, every harmful action in every lifetime throughout beginningless saṃsāra traces back to one of these three, or to some combination of them. The wise bhikshu — "viyakkhaṇo," the discerning one, the one who sees through illusion — releases all three not just occasionally when it is convenient, but "sayayaṃ" (always, continuously, without interruption). This is not an ideal to aspire to some day; it is the living quality of practice in each moment. The simile of Mount Meru is not decorative; it is theologically precise. Meru is the great cosmic mountain at the center of the Jain universe — utterly unmoved by wind, unchanging amid all cosmic cycles. The monk who has established his inner axis in ātmagupta — "self-protected," literally guarded by the soul's own awareness — does not need any external armor, external reassurance, or external approval. He is protected by the soul's own clarity from the inside, the soul's own natural light shining through as karma thins. In Jainism, this clarity — ātman as pure consciousness, bliss, and knowledge — is the soul's actual natural state, which karma has been obscuring. Endurance in practice progressively removes that covering.
        </p>
@@ -1030,13 +1018,11 @@
         <br/>
         परमट्टपएिहं चिट्ठु, छिण्णसोए अममे अकिंचणे ॥२१.२१॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Bearing both arati and rati equally, having abandoned worldly associations, detached, contemplating the self — he stands established in the supreme goal, with grief severed, free of possessiveness and all attachment.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Arati and rati are two Prakrit words that name the two opposing pulls that constantly tug at the renunciant's inner life. Arati is the discomfort that sometimes rises in the life of renunciation — the physical tiredness, the monotony, the longing for ease or warmth or familiar comfort. It is the inner voice that says "this is hard; perhaps I should not have chosen this." Rati is the opposite pull: the magnetic attraction of worldly pleasures, the vivid memory of sensory enjoyment, the temptation to return to the life that was left behind. Both are forms of restlessness. The monk who can bear both equally — without fleeing into comfort when arati arises, and without being seduced by rati when it beckons — has achieved a genuine and stable inner equilibrium. He is no longer being moved by the world's pushes and pulls. The text says he "ciṭṭhu" — stands established — in the supreme goal. This is not someone walking toward liberation from far away; it is someone who already dwells in what liberation is. The final cluster of qualities describes this present state with precision: "acchinna-sota" means grief has been severed at its root (not suppressed but genuinely cut); "amama" means having no sense of "mine-ness," no possessiveness about anything; and "akiñcana" means having literally nothing to hold onto — complete non-attachment. These are not future aims. They are this monk's present condition.
        </p>
@@ -1071,12 +1057,10 @@
         <br/>
         इसिहिं चिण्णाइं महायसेहिं, काएण फासेज्ज परीसहाइं ॥२१.२२॥
        </p>
-       <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The monk should resort to secluded dwellings — free from attachment, without seeds or household companions — as practiced by the great-famed sages, and with his body endure the hardships that come.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The monk's choice of dwelling is not a matter of comfort or convenience; it must serve his practice and protect the conditions necessary for deep inner work. "Vivitt layanāi" — secluded resting places — describes locations where the basic conditions for meditative life exist: quiet, undisturbed, away from crowds and the noise of household activity. "Niruvaleya" (free from attachment — specifically free from the soil's attachment to growing things, meaning places without vegetation the monk might harm by walking on) and "asaṃthaḍa" (without seeds and without household companions) specify the additional Jain requirements for the monk's resting place. These are not punitive restrictions. They are conditions that protect two things: the outer environment (non-violence toward the small lives in rich, seeded soil) and the inner environment (freedom from the social and emotional pulls of household life, even in diluted form). The monk cannot do the deep tapas (austerity and energy-practice) and dhyāna (meditation) needed for liberation while embedded in domestic entanglements. He protects the inner space by protecting the outer conditions. And when hardships arise even in these deliberately chosen places — as they always will — the monk meets them "kāeṇa" (with the body itself), enduring them directly rather than fleeing. The great-famed sages of the tradition, the text notes, walked this same path. There is lineage in this discipline.
        </p>
@@ -1111,12 +1095,10 @@
         <br/>
         अणुत्तरे णाणधरे जसंसी, ओभासइ सूरिए वंतलिक्खे ॥२१.२३॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Attaining the highest knowledge, the great sage practices the supreme collection of virtues. That glorious, supreme knowledge-bearer shines in the assembly like the sun in the sky.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This sutra is the culmination of the entire teaching section that began at sutra 11 — the arc that described renunciation, the five mahāvratas, compassion, fearlessness, equanimity, endurance, and proper dwelling. The monk who has traversed all of these disciplines has now attained "saṇṇāna-ṇāna" — "saṃjñāna-jñāna" — the highest, most fully integrated knowing. This is not the ordinary accumulated learning of study; it is the direct illumination of awareness that arises when karma has been sufficiently removed to let the soul's inherent luminosity emerge clearly. In the Jain framework, the soul's nature is pure knowledge (jñāna) and perception (darśana); what obscures it is karma. Remove enough karma, and what was always there shines through. This fully formed monk then practices the "anuttara dharma-saṃcaya" — the supreme collection of virtues — which in Jainism means the full, active expression of that omniscient awareness in every detail of daily life. The sun simile chosen here is precise and illuminating in its own right: the sun does not try to shine; it does not perform luminosity as an act of will. It shines because of what it fundamentally is. The fully realized monk illuminates every assembly he enters — "vantarikha," the open sky — not by performing wisdom or demonstrating knowledge but simply by being what he has become. His mere presence is teaching. The knowledge lives in him, not in words about him.
        </p>
@@ -1151,12 +1133,10 @@
         <br/>
         तरित्ता समुद्दं च महाभवोघं, समुदपाले अपुणागमगं गए ॥ ति बेमि ॥२१.२४॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Having destroyed both types of karmas — merit and sin — completely free from all karmas, Samudrapāla crossed the great ocean of saṃsāra and attained the non-returning destination: liberation. Thus I say.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The final verse closes Samudrapāla's story with a symmetry so precise it reads like a poem about poetry. He destroyed both types of karma — pāpa (sin, inauspicious karma that brings painful results) and puṇya (merit, auspicious karma that brings pleasant results). This is one of the most distinctive and philosophically rigorous points in Jain teaching, and it must be understood clearly: in Jainism, even good karma must be destroyed to reach liberation. Puṇya — the karma earned through generosity, worship, ethical conduct, and religious practice — still binds the soul to the cycle of rebirth. It creates more pleasant conditions for future births, perhaps even heavenly births, but it does not free the soul. Freedom requires the complete absence of all karma without exception — not just the bad kind. The soul must become "nirañgaṇa" — completely stainless, without any mark or stain — to be finally free. Having achieved this total purity, Samudrapāla crossed the great "mahā-bhavaugha" — the vast flood of existence, the endless churning sea of rebirth. The name-symmetry here is deliberate and beautiful: Samudrapāla was born at sea, carried across the ocean in his mother's womb. He completes his existence by crossing the ultimate ocean — saṃsāra itself — and never returning. "Apunāgamaga" — to the non-returning destination. "Iti bemi" — Thus I say — is Mahāvīra's seal on the entire teaching. The story is complete. The ocean is crossed.
        </p>

@@ -69,24 +69,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -201,10 +201,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.2</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">इरिएसण-भासाए, उच्चार-समिइसु य । जओ आयाणिणक्खेवे, संजओ सुसमाहिओ ॥१२.२॥</p>
-        <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Disciplined in the carefulness of movement (iryā samiti), in speech-carefulness, in elimination — careful in the taking up and putting down of objects — restrained and well-concentrated.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra catalogues Harikeshbal's moment-to-moment monastic practice using the precise formal vocabulary of Jain monastic discipline, which is important because it establishes exactly what kind of person is about to walk into the Brahmin fire-sacrifice arena. The five samitis (carefulness-codes) are the second architectural layer of Jain monastic conduct after the five great vows. They govern the monk's awareness in every ordinary activity throughout the day: iryā samiti — careful walking, watching every step to avoid treading on any living being; bhāṣā samiti — speaking with full care, ensuring no word is unnecessary, harsh, deceptive, or careless; eṣaṇā samiti — careful receiving of alms, checking food for living beings before accepting it; ādāna-nikṣepā samiti — careful picking up and putting down of objects, without speed or carelessness that might harm beings. Together with the three guptis that follow in sutra 3, these create eight overlapping systems of awareness that protect the soul from generating new karma through action. Each sounds simple when described but requires truly constant and wakeful attention that ordinary people rarely attempt to sustain for even an hour. The word "susamāhio" — well-concentrated, genuinely absorbed — is the key word of this sutra. Harikeshbal is not performing these disciplines mechanically as an external checklist or doing them out of obligation while his mind is elsewhere. He is genuinely, deeply absorbed in them — they have become his natural way of being, not a spiritual performance. This distinction between mechanical rule-following and genuine absorbed practice is crucial throughout the Uttaradhyayana. The commentary here firmly establishes that when Harikeshbal walks into the Brahmin fire-sacrifice arena in the next sutra, he carries this entire living architecture of discipline with him — and it does not leave him at the entrance gate.</p>
         <p class="simple-explanation"><b>The simple version:</b> He was meticulous in every movement, every word, every action — all day, every day. This is what Jain monastic discipline looks like in practice.</p>
         <div class="concept-tags"><span class="concept-tag">Five Samitis</span><span class="concept-tag">Restraint</span><span class="concept-tag">Monastic Discipline</span></div>
@@ -230,10 +228,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.4</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">तं पासिऊणमेज्जंतं, तवेण परिसोसियं । पंतोवहिइवगरणं, उवहसंति अणारिया ॥१२.४॥</p>
-        <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Seeing him approach — emaciated by penance, wearing minimal and worn garments — the ignoble ones mocked him.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">His body bears the visible marks of sustained tapas: thinned, dried out by months of fasting and austerity ("taṇḍulopahāre" — parched like dried grain, no excess flesh remaining), wearing the barest minimal rags that a Jain monk is permitted to carry. This physical appearance is the exact opposite of the Brahmin priests who dress in freshly laundered white ritual garments, anoint themselves with fragrant oils and pastes, and perform elaborate, meticulous preparatory rites for the yajna in order to project an image of ceremonial purity. To Brahmin eyes thoroughly trained by tradition to associate purity with elaborate dress, external cleanliness, and impressive ritual preparation, the monk's appearance reads automatically as poverty, pollution, and spiritual disqualification. The social conditioning is total and instantaneous — they see rags and thinness and they categorize him as not-sacred without a moment of genuine perception. But the scripture's own judgment does not wait for the Brahmins to speak. The word "anariya" — ignoble, uncivilized, literally "not-Arya" — is already applied to the mockers in this very sutra, before they have said a single insulting word. This is fully deliberate. The Brahmin tradition prided itself above all others on being the most "Arya" — the most noble, most civilized, most sacred class in society. The scripture performs a perfect reversal: the very people who invoke the label "Arya" most frequently are, in this precise moment, anariya — ignoble in their inner character. Their outward purity of white garments and ritual oils conceals inner impurity of heart. The monk's outward thinness and worn clothing conceals inner fullness of virtue. The moral labels have been quietly, completely inverted before a single word of insult is spoken.</p>
         <p class="simple-explanation"><b>The simple version:</b> His penance showed on his body — he was thin, wearing almost nothing. The ignoble ones saw this and laughed. The scripture calls them "ignoble" before recording a single word they say.</p>
         <div class="concept-tags"><span class="concept-tag">Tapas</span><span class="concept-tag">Mockery</span><span class="concept-tag">Ignoble Conduct</span></div>
@@ -246,10 +242,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.5</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">जाइमयपिडत्थद्धा, हिंसगा अजिइंदिया । अबम्भचारिणो वाला, इमं वयणमब्बवी ॥१२.५॥</p>
-        <p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div><p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Those arrogant with the intoxication of birth-pride, who cause harm, who have not conquered the senses, who are not celibate — those foolish ones spoke these words:</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra is structured as a formal judicial indictment delivered by the scripture itself. Before any Brahmin opens their mouth to speak a single word of insult, the text delivers a complete and detailed character assessment of the speakers. Four precise charges are laid: (1) jāti-mada-piḍatthaddha — made arrogant through intoxication with birth-pride. The word mada here is extremely specific: it is the intoxication of someone who has drunk too much alcohol. These people are not merely proud — they are drunk on the idea of their caste superiority, in a state of impaired judgment where normal reasoning has been replaced by the stupor of inherited status. (2) Hiṃsagā — violent. They participate in and facilitate animal sacrifice at every yajna; they are causing the deaths of living beings daily in the name of purity and religious merit. From a Jain perspective, this alone is the most serious possible violation of the first and most fundamental principle. (3) Ajitindriya — without conquered senses. The very quality that defines Harikeshbal's attainment — jitindriya (senses conquered), stated proudly in sutra 1 — is precisely what these Brahmins lack. They have not conquered their sense organs; their desires and aversions are fully operative. (4) Not celibate (abambhacārino) — meaning they engage in sexual life, which from a Jain monastic standpoint means they have not taken on the full spiritual discipline they claim to represent. With all four charges now formally on the record, what follows is a brilliant reversal: every quality these Brahmins are about to project onto the monk — impurity, unworthiness, spiritual pollution, disqualification — belongs to them by the scripture's own accounting. The technique here is philosophically devastating: by reading this sutra carefully, we already know who the genuinely impure party is before a single insult is spoken. The moral verdict is given to the reader first. What follows is merely the evidence confirming it.</p>
         <p class="simple-explanation"><b>The simple version:</b> Before we hear the insults, we're told who the speakers are: arrogant about their birth, violent, sensually undisciplined, not celibate. They are about to call the monk unworthy — but the list describes them.</p>
         <div class="concept-tags"><span class="concept-tag">Birth-Pride</span><span class="concept-tag">Jati-mada</span><span class="concept-tag">Irony</span></div>
@@ -362,16 +356,14 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.13</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">खेताणि अम्हं विज्याणि लोए, जिहिं पकिण्णा विरुहंति पुण्णा । जे माहणा जाइ-विज्जोववेया, ताइं तु खेताइं सुपेसलाइं ॥१२.१३॥</p>
-        <p class="wrong-view-def">The Brahmin tradition held that charitable donations must go to Brahmins of proper birth and Vedic learning (jāti + vijjā) to generate spiritual merit — no other recipient is valid.</p>
-        </div>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Our fields are known in the world — those in which merit-seeds grow when sown. Brahmins endowed with birth and learning — those are the excellent fields."</p>
-<div class="wrong-view-banner">
+        <div class="wrong-view-banner">
           <div class="wrong-view-header">
             <span class="wrong-view-badge">Wrong View Refuted</span>
             <span class="wrong-view-name">Brahminism (Brāhmaṇa-dharma) · Jāti-based merit-field</span>
           </div>
-          
-        
+          <p class="wrong-view-def">The Brahmin tradition held that charitable donations must go to Brahmins of proper birth and Vedic learning (jāti + vijjā) to generate spiritual merit — no other recipient is valid.</p>
+        </div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"Our fields are known in the world — those in which merit-seeds grow when sown. Brahmins endowed with birth and learning — those are the excellent fields."</p>
         <p class="text-base text-on-surface-variant leading-relaxed">The Brahmins accept the agricultural metaphor and immediately fight within it. They say: "Our fields are known (vijyāṇi loe) — these are the recognized fields in the world." Two qualifications make a Brahmin a valid merit-field: jāti (correct birth in a Brahmin lineage) and vijjā (Vedic learning). Both are required. "Supesalāiṃ" — excellent fields. This is actually the Brahmins' strongest argument, stated plainly: we are the proven recipients with a long established tradition of merit-generation for donors. Every major Vedic text from the Ṛgveda onwards endorses giving to properly born and educated Brahmins as the highest act of charity. The Guardian Deity (Yaksha) does not dismiss this tradition flippantly — the response in the next two sutras (14–15) will accept the categories of "birth" and "learning" as valid metrics, and then show that the Brahmins before him fail on both counts by their own definitions.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Our fields are proven — Brahmins with good birth and Vedic learning. Give to us. We are the proper merit-field." The Brahmins state their best case.</p>
         <div class="concept-tags"><span class="concept-tag">Brahmin Merit-Field</span><span class="concept-tag">Birth and Learning</span><span class="concept-tag">Counter-Argument</span></div>
@@ -384,10 +376,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.14</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">कोहो य माणो य वहो य जेसिं, मोसं अदत्तं च परिग्गहं च । ते माहणा जाइविज्जाविहूणा, ताइं तु खेताइं सुपावयाइं ॥१२.१४॥</p>
-        <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Those who have anger and pride and violence, lying, taking what is not given, and possessiveness — those Brahmins are truly bereft of both birth and learning. Those are the corrupted fields."</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This is the philosophical masterstroke of the debate. The Guardian Deity (Yaksha) does not reject the Brahmins' categories — he accepts them and uses them as the instrument of refutation. "You say the excellent field has birth and learning. Fine. Now look at what these Brahmins here actually have: kodhā ca māṇo ca vahā ca mosam adattam ca pariggaham ca." Six qualities are listed: anger, pride, violence, lying, taking what is not given (theft in ritual context), possessiveness. These are not minor flaws — these are the six core ethical failures in the Jain ethical system, corresponding directly to the transgressions of the five great vows. The verdict: "te māhaṇā jātivijaāvihūṇā" — those Brahmins are bereft of both birth and learning. The word "vihūṇā" (bereft, empty) is exact: it is not that they have partial birth-quality or partial learning-quality. They are empty of both, regardless of their lineage certificates or their ability to recite Vedic verses. Because "birth" and "learning" in the deepest sense are about what kind of being you have become — and a being with six ethical failures has not become noble, regardless of parentage.</p>
         <p class="simple-explanation"><b>The simple version:</b> "You list birth and learning as qualifications. But what about anger? Pride? Violence? Lying? Theft? A Brahmin with those qualities is bereft of both birth and learning. That is a corrupted field."</p>
         <div class="concept-tags"><span class="concept-tag">Six Vices</span><span class="concept-tag">True Brahminhood</span><span class="concept-tag">Ethical Disqualification</span></div>
@@ -413,10 +403,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.16</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">अज्झावयाणं पडिकूलभासी, पभासे किण्णु सगासिं अम्हं । अवि एवं विणस्सउ अण्णपाणं, ण य णं दाहामु तुमं णियंठा ॥१२.१६॥</p>
-        <p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div><p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Why does this one speak against our teachers? What is he saying to us? Even if this food perishes — we will not give it to you, O Nirgrantha!"</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The Brahmins' philosophical argument has collapsed but their pride has not. They shift from debate to dismissal. "Nirgrantha" — meaning "one without knots of attachment" — is technically the highest compliment for a Jain monk, but here it is used as a slur. The food can rot. They will not give it to a chandala monk. Pride defeats reason entirely.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Why is he arguing against our teachers? We don't care what he says — even if the food rots, we won't give it to a Jain. Case closed." Pride wins over reason.</p>
         <div class="concept-tags"><span class="concept-tag">Pride Defeating Reason</span><span class="concept-tag">Dismissal</span><span class="concept-tag">Nirgrantha</span></div>
@@ -565,10 +553,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.27</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">आसीविसो उग्गतवो महेसी, घोरव्वओ घोरपरक्कमो य । अगणिं व पक्खंद पयंगसेणा, जे भिक्खुयं भत्तकाले वहेह ॥१२.२७॥</p>
-        <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"He is like a venomous serpent — a great sage of fierce asceticism, fierce vows, and fierce valor. Like moths flying into fire — those who strike a bhikshu during alms-time will be destroyed."</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">Two metaphors converge: the monk as venomous serpent (dangerous to touch), and the students as moths flying into flame (destroyed by their own action). The timing is emphasized — "bhattakale" (during alms-time) — because assaulting a monk at this sacred moment compounds the offense beyond ordinary calculation.</p>
         <p class="simple-explanation"><b>The simple version:</b> "He is like a venomous snake — don't touch him. And you who attacked him during alms-time — you are like moths flying straight into fire."</p>
         <div class="concept-tags"><span class="concept-tag">Venomous Serpent Metaphor</span><span class="concept-tag">Moth-Flame Metaphor</span><span class="concept-tag">Sacred Alms-Time</span></div>
@@ -581,10 +567,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.28</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">सीसेण एयं सरणं उवेह, समागया सव्वजणेण तुभे । जइ इच्छह जीवियं वा धणं वा, लोगं पि एसो कुविओ डहेज्जा ॥१२.२८॥</p>
-        <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Bow your heads and seek refuge — all of you, gathered together. If you wish for life or wealth — this one, if fully angered, could burn even the world."</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The warning becomes explicit command: bow now. The consequence stated is maximum — not just your lives but "the world" could be burned by an angered ascetic of this magnitude. This is the traditional Indic understanding of tapasya as accumulating tejas — a vast heat and force beyond ordinary reckoning, stored in the body through years of penance.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Bow your heads. All of you. Right now. If you want to survive — this monk, if fully angered, could burn the entire world. This is your one chance."</p>
         <div class="concept-tags"><span class="concept-tag">Tapas Power</span><span class="concept-tag">Seek Refuge</span><span class="concept-tag">Cosmic Consequences</span></div>
@@ -626,10 +610,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.31</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">बालेहिं मूढेहिं अयाणएहिं, जं हीलिया तस्स खमाह भंते । महप्पसाया इसिणो हवंति, ण हु मुणी कोवपरा हवंति ॥१२.३१॥</p>
-        <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"O Lord! Forgive the disrespect done by these foolish, ignorant children. Great rishis are supremely gracious — monks are truly not given to anger."</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The king's appeal is careful: he does not ask for special mercy as personal favor. He appeals to the nature of rishis themselves — they are gracious by their very nature, they do not stay angry. He is asking Harikeshbal to be what he already is, not to make an exception. This is a deeper form of request than simple begging.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Forgive these ignorant children. You are a rishi — compassionate by nature. Monks don't stay angry." He appeals to what the monk is, not just to his mercy.</p>
         <div class="concept-tags"><span class="concept-tag">Nature of the Monk</span><span class="concept-tag">Forgiveness</span><span class="concept-tag">Compassion</span></div>
@@ -642,10 +624,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.32</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">पुव्विं च इणिह च अणागयं च, मणप्पओसो ण मे अत्थि कोई । जक्खा हु वेयावडियं करेंति, तम्हा हु एए णिहया कुमारा ॥१२.३२॥</p>
-        <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"There was no anger in my mind before, now, or in the future — not toward anyone. It is the Guardian Deity (Yaksha) who serves me that acts — it was through him alone that the boys were brought to this state."</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The monk's response is startling in its purity: he was not angry. Not before the beating, not during it, not now. He did not command or wish for the Guardian Deity's (Yaksha's) violence. The Guardian Deity (Yaksha) acted from its own compassion and devotion. The monk's equanimity — which the Brahmins could not see past his surface to find — was real throughout every moment of the assault.</p>
         <p class="simple-explanation"><b>The simple version:</b> "I was never angry — at any point. I did not do this. The Guardian Deity (Yaksha) who protects me acted on his own. I hold no anger toward anyone."</p>
         <div class="concept-tags"><span class="concept-tag">True Equanimity</span><span class="concept-tag">No Anger</span><span class="concept-tag">Guardian Deity (Yaksha) Acting Independently</span></div>
@@ -700,10 +680,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.36</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">तिहयं गंधोदय-पुप्फवासं, दिव्वा तिहिं वसुहारा य घुट्टा । पहयाओ दुंदुहीओ सुरेहिं, आगासे अहो दाणं च घुट्टुं ॥१२.३६॥</p>
-        <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">At that moment — when the tapasvi muni received food — the gods showered fragrant water and flowers, struck divine dundubhis (celestial drums), and in the sky the proclamation rang: "Aho dana! Aho dana!" — "Excellent gift! Excellent gift!"</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The cosmos itself responds. Gods shower flowers; celestial drums thunder; the heavens ring with proclamation. This is the Jain universe's declaration that the moment just completed — a chandala monk fed by a yajna Brahmin after being beaten — was one of the most meritorious acts of giving in that entire fire-sacrifice. The yajna found its purpose at last.</p>
         <p class="simple-explanation"><b>The simple version:</b> The moment the monk received food, the heavens erupted: flowers rained, divine drums thundered, the sky rang with "Excellent gift!" The cosmos confirmed what the Brahmins had just learned.</p>
         <div class="concept-tags"><span class="concept-tag">Divine Confirmation</span><span class="concept-tag">Cosmic Response</span><span class="concept-tag">True Dana</span></div>
@@ -716,10 +694,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.37</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">सक्खं खु दीसइ तवोविसेसो, ण दीसइ जाइविसेस कोई । सोवागपुत्तं हरिएस साहुं, जस्सेरिस्सा इड्डि महाणुभागा ॥१२.३७॥</p>
-        <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Truly, the excellence of tapas is visible for all to see — but the excellence of caste is nowhere to be seen. Look at Harikesh the muni, son of a soapmaker — of such magnificent power and glory."</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The proclamation of the gods — or the commentary of witnesses — delivers the chapter's explicit moral. What is visible? The monk's tapas-power, divine protection, celestial flowers, thundering drums. What is not visible? Any distinction of caste. The proof is standing right there: a chandala's son, and magnificent divine glory surrounding him. The argument that began in sutra 1 is now sealed by the cosmos itself.</p>
         <p class="simple-explanation"><b>The simple version:</b> "See it with your own eyes: tapas is visible — caste is not. Look at this son of a soapmaker and the glory surrounding him. That is the proof."</p>
         <div class="concept-tags"><span class="concept-tag">Tapas Over Caste</span><span class="concept-tag">Divine Proclamation</span><span class="concept-tag">Chapter's Core Teaching</span></div>
@@ -735,16 +711,14 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.38</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">किं माहणा जोइं समारभंता, उदएण सोहिं बहिया विमग्गहा । जं मग्गहा बाहिरियं विसोहिं, ण तं सुद्दिढुं कुसला वयंति ॥१२.३८॥</p>
-        <p class="wrong-view-def">The Vedic ritual tradition taught that lighting the sacred fire (agni) and bathing in sacred rivers (tīrtha-snāna) purifies a person from sin and generates spiritual merit for the next life.</p>
-        </div>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O Brahmins — kindling the fire and seeking external purification in water — why do you search for purification that is outside? What the wise call true purification is not what you are looking for."</p>
-<div class="wrong-view-banner">
+        <div class="wrong-view-banner">
           <div class="wrong-view-header">
             <span class="wrong-view-badge">Wrong View Refuted</span>
             <span class="wrong-view-name">Vedic Ritualism (Karma-kāṇḍa) · External fire and water purify the soul</span>
           </div>
-          
-        
+          <p class="wrong-view-def">The Vedic ritual tradition taught that lighting the sacred fire (agni) and bathing in sacred rivers (tīrtha-snāna) purifies a person from sin and generates spiritual merit for the next life.</p>
+        </div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O Brahmins — kindling the fire and seeking external purification in water — why do you search for purification that is outside? What the wise call true purification is not what you are looking for."</p>
         <p class="text-base text-on-surface-variant leading-relaxed">The monk now turns teacher. King Rudradev asked how to properly conduct a yajna — and the answer begins with a question that undermines the entire premise: why are you looking outside? External fire and external water do not purify the soul. The "kusala" (knowers of truth) define purification differently — and what they call true purification, no river or fire can provide.</p>
         <p class="simple-explanation"><b>The simple version:</b> "You light fire. You pour water. You search for purity in external things. The wise do not call that purification."</p>
         <div class="concept-tags"><span class="concept-tag">Inner vs. Outer Purity</span><span class="concept-tag">True Purification</span><span class="concept-tag">Ritual Critique</span></div>
@@ -757,16 +731,14 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.39</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">कुसं च जूवं तण कट्टुमिंगं, सायं च पायं उदगं फुसंता । पाणाइं भूयाइं विहेडयंता, भुज्जो वि मंदा पगरेह पावं ॥१२.३९॥</p>
-        <p class="wrong-view-def">The Vedic agni-hotra system prescribed touching kusha grass, sacrificial posts, and burning plant and animal matter in daily rituals, believing this external practice accumulated spiritual merit rather than karma.</p>
-        </div>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O dull-minded ones — touching kusha grass, the sacrificial post, straw, and wood; morning and evening touching water — all while harming water-beings, earth-beings, and fire-beings — you accumulate more sin again and again."</p>
-<div class="wrong-view-banner">
+        <div class="wrong-view-banner">
           <div class="wrong-view-header">
             <span class="wrong-view-badge">Wrong View Refuted</span>
             <span class="wrong-view-name">Vedic Animal Sacrifice / Agni-hotra (Yajna-karma) · Ritual touching and burning purify the soul</span>
           </div>
-          
-        
+          <p class="wrong-view-def">The Vedic agni-hotra system prescribed touching kusha grass, sacrificial posts, and burning plant and animal matter in daily rituals, believing this external practice accumulated spiritual merit rather than karma.</p>
+        </div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"O dull-minded ones — touching kusha grass, the sacrificial post, straw, and wood; morning and evening touching water — all while harming water-beings, earth-beings, and fire-beings — you accumulate more sin again and again."</p>
         <p class="text-base text-on-surface-variant leading-relaxed">The critique is precise: Brahmin rituals involve touching and burning living matter — kusha grass, wood, all containing single-sensed beings. Morning and evening they touch water, disturbing water-beings. The rituals intended to purify actually accumulate himsa and therefore karma. The Brahmins are generating sin in the very name of purity.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Your rituals — touching grass, burning wood, pouring water — harm living beings at every step. You are generating more karma, not less. The ritual meant to purify creates more pollution."</p>
         <div class="concept-tags"><span class="concept-tag">Ritual Himsa</span><span class="concept-tag">Single-Sensed Beings</span><span class="concept-tag">Karma Accumulation</span></div>
@@ -792,10 +764,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.41</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">छज्जीवकाए असमारभंता, मोसं अदत्तं च असेवमाणा । परिग्गहं इत्थिओ माण-मायं, एयं परिण्णाय चरिता दता ॥१२.४१॥</p>
-        <p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div><p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Not causing harm to the six categories of living beings, not practicing lying or theft, not accepting possessiveness, women, pride, or deceit — one who has renounced these and practices self-restraint: that is the truly endowed one (datta)."</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The five great vows of Jain monastic life are here presented as the true definition of "datta" — one who is truly endowed, truly worthy of receiving gifts. The Brahmins defined worthiness by birth; the monk defines it by ethical conduct: non-harm across all six life-categories, non-lying, non-stealing, non-possession, celibacy, non-pride, non-deceit. This is the redefinition of the merit-field argument from sutras 12–17, now made explicit.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Not harming any living being, not lying, not stealing, not clinging to possessions, women, pride, or deceit — that is the truly endowed one. That is who is truly worthy of gifts."</p>
         <div class="concept-tags"><span class="concept-tag">Five Vows</span><span class="concept-tag">True Worthiness</span><span class="concept-tag">Non-Harm</span></div>
@@ -808,10 +778,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.42</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">सुसंवुडो पंचहिं संवरेहिं, इह जीवियं अणवकंखमाणो । वोसट्टुकाओ सुइचत्तदेहो, महाजयं जयइ जण्णसिट्टुं ॥१२.४२॥</p>
-        <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Fully restrained by the five restraints (samvaras), not desiring worldly life, having abandoned bodily care, with a pure heart — he wins the great victory, and performs the supreme yajna."</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The five samvaras are the five great controls of monastic life. "Not desiring worldly life" — the monk who does not cling to survival itself. "Having abandoned bodily care" — no attachment to comfort, appearance, or health. "Pure heart" — inner substance cleansed. This person performs "jannasiththum" — the best yajna, the supreme ritual. Not outside. Inside.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Fully restrained, without desire for survival, without care for the body, pure at heart — he wins the greatest victory. That is the true yajna."</p>
         <div class="concept-tags"><span class="concept-tag">Five Samvaras</span><span class="concept-tag">Non-Attachment to Body</span><span class="concept-tag">True Victory</span></div>
@@ -837,10 +805,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.44</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">तवो जोई जीवो जोइठाणं, जोगा सुया सरीरं कारिसंगं । कम्मेहा संजमजोग संति, होमं हुणामि इसिणं पसत्थं ॥१२.४४॥</p>
-        <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Tapas is my fire. The soul is my fire-place. The three yogas (mind, speech, body) are my ghee. The body is my fuel. Karma-removal is my peace-formula, the union of restraint is my offering. I perform the homa praised by the rishis."</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The complete inner yajna map: tapas burns as the true fire; the soul is where it burns; mind-speech-body actions are the clarified butter fed into it; the body itself is the fuel being consumed; karma-removal is the peace-formula; and the entire discipline of restraint is the offering. This is the yajna that the ancient rishis themselves praised — not the external one. Not fire, but the fire of discipline. Not water, but the water of truth.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Tapas is my fire. My soul is the fire-place. My actions of mind, speech, body are the ghee. My body is the fuel. Karma-removal is my peace-formula. Self-restraint is my offering. That is the yajna the rishis praise."</p>
         <div class="concept-tags"><span class="concept-tag">Inner Yajna Mapping</span><span class="concept-tag">Tapas as Fire</span><span class="concept-tag">Soul as Fire-Place</span></div>
@@ -866,10 +832,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.46</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">धम्मे हरए बंभे संतितित्थे, अणाविले अत्तपसण्णलेसे । जहिंसि णहाओ विमलो विसुद्धो, सुसीइभूओ पजहामि दोसं ॥१२.४६॥</p>
-        <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">"Dharma is my lake. Brahmacharya is my peace-tirtha — pure, unturbid, with purified consciousness. Having bathed there, I am spotless and pure — fully cooled — and I remove every fault."</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The inner bath: dharma as the lake, brahmacharya as the sacred bathing place. The water is described as "anavila" — completely unturbid, unclouded. "Attapasannalese" — with purified, auspicious lesha (thought-color of the soul). In this water, the monk bathes his soul — not his body — and comes out "vimalo vishuddho" (spotless, purified) and "sushitibhuo" (fully cooled — the traditional metaphor for passions extinguished). From this bath, every fault is removed.</p>
         <p class="simple-explanation"><b>The simple version:</b> "Dharma is my lake. Brahmacharya is my sacred bathing spot. Pure, clear, cloudless. I bathe my soul there — and come out spotless, purified, completely cooled. Every fault removed."</p>
         <div class="concept-tags"><span class="concept-tag">Inner Tirtha</span><span class="concept-tag">Dharma as Lake</span><span class="concept-tag">Brahmacharya</span><span class="concept-tag">Soul Purification</span></div>
@@ -882,10 +846,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.47</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">एयं सिणाणं कुसलेहिं दिट्टुं, महासिणाणं इसिणं पसत्थं । जहिंसि ण्हाया विमला विसुद्धा, महारिसी उत्तमं ठाणं पत्ते ॥१२.४७॥<br/>— ति बेमि ।।</p>
-        <p class="principle-def">Mastery over sexual desire liberates immense spiritual energy.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Brahmacharya · Celibacy</span></div><p class="principle-def">Mastery over sexual desire liberates immense spiritual energy.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">This bathing is seen by the wise — the knowers of truth — as the great sacred bath, praised by the rishis. Having bathed there, the great rishis are spotless and pure — and they have attained the highest state. — Thus I say.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Brahmacharya · Celibacy</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The chapter closes with the Tirthankara's seal. This inner bath — in dharma and brahmacharya — is not the monk's personal invention. It is what the knowers of truth (kusala) have always seen, and what the ancient rishis have always praised. Those who bathe in this inner tirtha emerge purified and attain the highest state — liberation. The final "iti bemi" (thus I say) is Lord Mahavira's own declaration: these are my words, this is my teaching.</p>
         <p class="simple-explanation"><b>The simple version:</b> "The wise have always seen this. The rishis have always praised this. The great ones who bathed in this inner tirth came out pure and attained the highest state. Thus speaks the Lord."</p>
         <div class="concept-tags"><span class="concept-tag">Great Inner Bath</span><span class="concept-tag">Liberation</span><span class="concept-tag">Tirthankara's Seal</span><span class="concept-tag">Thus I Say</span></div>

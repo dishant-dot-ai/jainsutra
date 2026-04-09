@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -344,12 +344,10 @@
        <p class="sutra-sanskrit font-headline">
         इंदियग्गाम णिग्गाही, मग्गगामी महामुणी । गामाणुगामं रीयंतो, पत्तो वाणारसिं पुरिं ॥२५.२॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         That great muni, who had conquered the group of senses and was walking the path of liberation, traveling from village to village, arrived one day at the city of Varanasi.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Jayaghosha is described with two of the most concentrated epithets in the Jain vocabulary of spiritual achievement: indriya-grāma-niggāhī (conqueror of the entire cluster of senses) and mārga-gāmī (one traveling the path of liberation). Varanasi (Banaras) is chosen with intent: it was the supreme center of Vedic Brahmanical learning and sacrifice, the city of ritual fire.
        </p>
@@ -382,12 +380,10 @@
        <p class="sutra-sanskrit font-headline">
         वाणारसीए बहिया, उज्जाणम्मि मणोरमे । फासुए सेज्जसंथारे, तत्थ वासमुवागए ॥२५.३॥
        </p>
-       <p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div><p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Outside the city of Varanasi, in a delightful garden where there was a prāsuka (pure, fit) bed and seating, he took up his residence there.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         A Jain monk's residence must be prāsuka — free of living organisms, acceptable under the vows of non-violence. Jayaghosha does not enter the busy city to rest; he stays on its outskirts in a garden. The contrast with Vijayaghosha's yajna-śālā (sacrifice hall) inside the city will be sharp: the monk, unattached, outside; the householder-priest, attached, inside.
        </p>
@@ -600,13 +596,11 @@
        <p class="sutra-sanskrit font-headline">
         सो तत्थ एवं पडिसिद्धो, जायगेण महामुणी । ण वि रुट्टो ण वि तुट्टो, उत्तमट्टु गवेसओ ॥२५.९॥
        </p>
-       <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The great muni, having been thus refused by the yajñika, was neither angered nor pleased — he remained the seeker of the highest purpose (liberation).
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This sutra is a model of equanimity (samatā). A monk who has fasted for a month is turned away from his own brother's door — yet he is neither angry nor dejected. The phrase uttamaṭṭhu gaveṃsao ("seeker of the highest purpose") explains why: Jayaghosha's purpose is ātman, not alms.
        </p>
@@ -639,13 +633,11 @@
        <p class="sutra-sanskrit font-headline">
         जण्णटुं पाणहेउं वा, ण वि णिव्वाहणाय वा । तेसिं विमोक्खणट्टाए, इमं वयणमब्बवी ॥२५.१०॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Avijja · Ignorance</span></div><p class="caution-def">Lack of spiritual vision perpetuates the cycle of rebirth.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Not for the sake of yajna, not for water, not even for sustaining life — but to liberate them from ignorance and false knowledge, he spoke these words:
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Jayaghosha clarifies his own motivation for speaking: it is not the food, not even life — it is liberation of the other. This is the Jain definition of the highest compassion: dharmopadēśa (teaching of truth) for the liberation of another soul. He is not arguing to win; he is speaking to free his brother from misconception.
        </p>
@@ -858,12 +850,10 @@
        <p class="sutra-sanskrit font-headline">
         अग्गिहुत्तमुहा वेया, जण्णट्टी वेयसां मुहं । णक्खत्ताण मुहं चंदो, धम्माणं कासवो मुहं ॥२५.१६॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Agnihotra is the chief of the Vedas; the yajñārthī (the one performing yajna for liberation) is the chief among those who know the Vedas; the Moon is the chief of the nakshatras; and Kāśyapa (Mahavira) is the chief of the dharmas.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Jayaghosha answers with precision. Agnihotra is the core of Vedic religion. The yajñārthī — one seeking liberation, not rewards — is the best of scholars. The Moon leads the stars. Most significantly: Kashyap-gotriya Mahavira is the chief of dharmas. Jayaghosha names his own teacher, bridging two worlds through their shared lineage.
        </p>
@@ -931,12 +921,10 @@
        <p class="sutra-sanskrit font-headline">
         अजाणगा जण्णवाई, विज्जा माहणसंपया । मूढा सज्झायतवसा, भासच्छणा इवग्िणो ॥२५.१८॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The yajna-vādis (those who advocate external sacrifice) are ignorant of liberation-knowledge; they are like fire covered with ash: appearing calm outside, but burning within.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The simile is precise: fire covered with ash appears extinguished but still burns inside. External ritualists appear serene, but their inner passions (kaṣāya) are unsubdued. Their practice stirs rather than settles the inner flame.
        </p>
@@ -1009,13 +997,11 @@
        <p class="sutra-sanskrit font-headline">
         जो ण सज्जइ आगंतुं, पव्वयंतो ण सोयइ । रमए अज्जवयणम्मि, तं वयं बूम माहणं ॥२५.२०॥
        </p>
-       <p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div><p class="principle-def">Release from desire is the gateway to spiritual awakening.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One who does not become attached to those who come to him, who does not grieve when leaving, who delights in the words of the āryas — that one we call a true Brahmin.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Detachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The true Brahmin is defined by non-attachment in both directions: neither grasping when something arrives, nor lamenting when it departs. This is vairāgya (detachment) as a lived quality, coupled with a genuine inner delight in truth.
        </p>
@@ -1048,12 +1034,10 @@
        <p class="sutra-sanskrit font-headline">
         जायरूवं जहामट्टुं, णिढुंतमल पावगं । रागदोसभयाईयं, तं वयं बूम माहणं ॥२५.२१॥
        </p>
-       <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One like pure gold refined by fire — purified of all impurities — who has transcended rāga (attachment), dveṣa (aversion), and fear — that one we call a true Brahmin.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         When gold is rubbed on a touchstone and exposed to fire, its purity is revealed. The monk — through restraint and austerity — undergoes precisely this process. Raga, dvesha, and bhaya (fear) are the fundamental impurities of the soul.
        </p>
@@ -1086,12 +1070,10 @@
        <p class="sutra-sanskrit font-headline">
         तवस्सियं किसं दंतं, अविचय मंस सोणियं । सुव्वयं पत्तणिव्वाणं, तं वयं बूम माहणं ॥२५.२२॥
        </p>
-       <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One who is a practitioner of tapas, emaciated, controlled, whose flesh and blood have dried, who observes beautiful vows, who has reached nirvāṇa — that one we call a true Brahmin.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This sutra gives a physical description of the monk's body as evidence of inner transformation. The body is lean from fasting, the senses are mastered — this is the body of one who has "offered" their physical self in the inner yajna.
        </p>
@@ -1159,12 +1141,10 @@
        <p class="sutra-sanskrit font-headline">
         कोहा वा जइ वा हासा, लोहा वा जइ वा भया । मुसं ण वयइ जो उ, तं वयं बूम माहणं ॥२५.२४॥
        </p>
-       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One who does not speak falsehood — whether out of anger, or jesting, or greed, or fear — that one we call a true Brahmin.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Truth-telling (satya) is tested in difficult moments. Anger, humor, greed, and fear are the full spectrum of human falsehood. A true Brahmin maintains satya even under these pressures.
        </p>
@@ -1302,12 +1282,10 @@
        <p class="sutra-sanskrit font-headline">
         अलोलुयं मुहाजीवी, अणगारं अकिंचणं । असंसत्तं गिहत्थेसु, तं वयं बूम माहणं ॥२५.२८॥
        </p>
-       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One who is free of greed, who lives by mere alms, who is homeless, who possesses nothing, who is not entangled with householders — that one we call a true Brahmin.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Mudhajivi means one who receives alms without calculation of return. A monk who is completely without possessions (akinchana) and stays unentangled from householder affairs lives non-attachment in the body.
        </p>
@@ -1340,12 +1318,10 @@
        <p class="sutra-sanskrit font-headline">
         जहित्ता पुव्वसंजोगं, णाइसंगे य बंधवे । जो ण सज्जइ भोगेसु, तं वयं बूम माहणं ॥२५.२९॥
        </p>
-       <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One who has abandoned all previous bonds, who has released attachment to relatives, who does not cling to pleasures — that one we call a true Brahmin.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This completes the eleven-quality portrait. Releasing attachment to relatives is precisely what Jayaghosha has done. He speaks to his brother not from ego but from a state of total freedom.
        </p>
@@ -1453,12 +1429,10 @@
        <p class="sutra-sanskrit font-headline">
         समयाए समणो होइ, बंभचेरेण बंभणो । णाणेण य मुणी होइ, तवेण होइ तावसो ॥२५.३२॥
        </p>
-       <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         One becomes a śramaṇa by equanimity (samatā); one becomes a Brahmin by brahmacarya; one becomes a muni by knowledge (jñāna); one becomes a tapasvin by tapas.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The inner definition of each title: samatā makes a śramaṇa; brahmacarya (abiding in the self) makes a Brahmin; jñāna makes a muni; and tapas makes a tapasvin. This is the true meaning of spiritual attainment.
        </p>
@@ -1561,12 +1535,10 @@
        <p class="sutra-sanskrit font-headline">
         एवं गुण समाउत्ता, जे भवंति दिउत्तमा । ते समत्था समुद्धतुं, परमप्पाणमेव य ॥२५.३५॥
        </p>
-       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Those who are endowed with these qualities and are the best among the twice-born — they are truly capable of lifting up their own self and others to the highest.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Jayaghosha completes his answer: those endowed with the eleven qualities are the ones truly capable of liberation. They, and only they, deserve the name "best of the twice-born." The argument is closed with precision.
        </p>
@@ -1604,12 +1576,10 @@
        <p class="sutra-sanskrit font-headline">
         एवं तु संसए छिण्णे, विजयघोसे य माहणे । समुदाय तयं तं तु, जयघोसं महामुणिं ॥२५.३६॥
        </p>
-       <p class="caution-def">Lack of spiritual vision perpetuates the cycle of rebirth.</p></div>
+       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Avijja · Ignorance</span></div><p class="caution-def">Lack of spiritual vision perpetuates the cycle of rebirth.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         In this way, as the doubt of Vijayaghosha the Brahmin was completely dispelled, he took the teaching of the great muni Jayaghosha fully into his heart.
        </p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Avijja · Ignorance</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Doubt (saṃśaya) has been cut away. Vijayaghosha's recognition is complete: the muni he dismissed is his elder brother and teacher. Truth does not force; it patiently dispels the mist of ignorance.
        </p>
@@ -1747,13 +1717,11 @@
        <p class="sutra-sanskrit font-headline">
         ण कज्जं मज्झ भिक्खेण, खिप्पं णिक्खमसू दिया । मा भमिहिसि भयावट्टे, घोरे संसारसागरे ॥२५.४०॥
        </p>
-       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "I have no need for your alms. O Brahmin! Quickly take the initiation of renunciation. Do not wander in the terrifying ocean of saṃsāra."
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Jayaghosha declines the alms and instead urges immediate renunciation. He has seen the ripeness of his brother's soul. Samsara is a terrifying ocean with whirlpools (bhayavatte) of birth and death.
        </p>
@@ -1856,12 +1824,10 @@
        <p class="sutra-sanskrit font-headline">
         एवं लग्गंति दुम्मेहा, जे णरा कामलालसा । विरत्ता उ ण लग्गंति, जहा से सुक्कगोलए ॥२५.४३॥
        </p>
-       <p class="principle-def">Detachment from worldly desires allows the soul to perceive its true nature.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Non-Attachment</span></div><p class="principle-def">Detachment from worldly desires allows the soul to perceive its true nature.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The foolish who are enamored of sense-pleasures get stuck. But the detached do not stick — just like the dry clay ball.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vairāgya · Non-Attachment</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Ritual activity, if performed with desire and passion, keeps the ball wet. Only the genuine inner withdrawal (vairagya) dries the ball. The detached do not stick to the cycle of rebirth.
        </p>
@@ -1931,12 +1897,10 @@
         <br/>
         — ति बेमि ।
        </p>
-       <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Having destroyed all past karmas through saṃyama and tapas, both Jayaghosha and Vijayaghosha attained the unsurpassed siddhi. — Thus I speak.
        </p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
-        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The chapter closes with the brothers exhausting all karma (nirjarā) and attaining the Siddha state. Restraint (samyama) and austerity (tapas) are the twin pillars of liberation. Ti bemi is Mahavira's closing seal.
        </p>

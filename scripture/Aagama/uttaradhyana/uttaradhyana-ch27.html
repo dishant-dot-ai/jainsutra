@@ -71,24 +71,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -221,10 +221,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.1</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">थेरे गणहरे गग्गे, मुणी आसी विसारए ।<br/>आइण्णे गणिभाविम्म, समाहिं पडिसंधए ॥ १ ॥</p>
-        <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">The elder Garg was a learned monk, a leader of a group of disciples, endowed with the full virtues of a true teacher, and a diligent guardian of inner equanimity.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">Elder Garg Muni is introduced here as a fully accomplished teacher — a stainless elder, a holder of a large community of monks, and a scholar versed in all canonical texts. The commentary notes that "sthavira" carries three meanings: one ordained for twenty or more years (dīkṣā-sthavira), one learned in the Sthānāṅga and Samavāyāṅga scriptures (śruta-sthavira), and one sixty or more years of age (vaya-sthavira). Garg Muni embodied all three. As a gaṇadhara, he held and guided a community of 500 disciples. Yet the most essential quality singled out here is his inner equanimity: he himself dwelt in perfect stillness and worked tirelessly to bring his disciples into that same stillness. A true teacher is not merely knowledgeable — he models the very state he is trying to cultivate in others. Garg Muni is presented as that ideal: learned, communal, and serene.</p>
         <p class="simple-explanation"><b>The simple version:</b> Garg Muni was a wise, experienced elder monk who led 500 disciples and kept his own mind perfectly calm and steady.</p>
         <div class="concept-tags">
@@ -242,16 +240,14 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.2</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">वहणे वहमाणस्स, कंतारं अइवत्तइ ।<br/>जोए वहमाणस्स, संसारो अइवत्तइ ॥ २ ॥</p>
-        <p class="principle-def">A disciple who surrenders to the teacher's guidance and applies himself steadily to the path of restraint crosses the ocean of worldly existence — just as a trained ox pulls its master safely through the jungle.</p>
-        </div>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">A well-trained ox, when yoked and pulling, crosses the jungle; likewise, a well-disciplined disciple, when engaged in the practice of restraint, crosses the ocean of worldly existence.</p>
-<div class="principle-banner">
+        <div class="principle-banner">
           <div class="principle-header">
             <span class="principle-badge">Jain Principle</span>
             <span class="principle-name">Monastic Discipline · Saṃsāra-Crossing</span>
           </div>
-          
-        
+          <p class="principle-def">A disciple who surrenders to the teacher's guidance and applies himself steadily to the path of restraint crosses the ocean of worldly existence — just as a trained ox pulls its master safely through the jungle.</p>
+        </div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">A well-trained ox, when yoked and pulling, crosses the jungle; likewise, a well-disciplined disciple, when engaged in the practice of restraint, crosses the ocean of worldly existence.</p>
         <!-- [VISUAL FLAG: Split illustration — on one side, a steady ox pulling a cart safely through dark forest; on the other, a monk walking a clear path through a chaotic world — capturing the chapter's central metaphor of discipline as the vehicle across saṃsāra] -->
         <p class="text-base text-on-surface-variant leading-relaxed">The image of the gentle ox opening this chapter is instructive. A well-trained ox, when placed in the yoke, does not resist — it applies itself steadily, and through that single-pointed effort carries its master safely through the most frightening terrain. The jungle (kaṃtāra) is a traditional metaphor for the difficult and dangerous world of cyclic existence. A disciple who is truly gentle — submissive to the teacher's guidance, free of arrogance — applies himself to the path of restraint with exactly that steady pull. The result is not gradual improvement but actual transcendence: he crosses the ocean of worldly bondage entirely. The teaching here is about surrender to a process, not passive resignation. The ox doesn't debate the jungle; it walks through it. The disciplined practitioner doesn't debate the path; he practices it. This verse is placed first to contrast everything that follows — the vicious ox in all its forms.</p>
         <p class="simple-explanation"><b>The simple version:</b> Just as a good ox pulls a cart safely through the jungle, a well-disciplined student who follows the path crosses the painful cycle of rebirths.</p>
@@ -270,16 +266,14 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.3</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">खलुंके जो उ जोएइ, विहम्माणो किलिस्सइ ।<br/>असमाहिं च वेएइ, तोत्तओ य से भज्जइ ॥ ३ ॥</p>
-        <p class="caution-def">Attempting to guide a student who is essentially crooked in nature exhausts the teacher, destroys the teacher's inner equanimity, and ultimately breaks the very instruments of correction — with no benefit to anyone.</p>
-        </div>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whoever yokes a vicious ox experiences only exhaustion and torment, is left without inner peace, and finds that even the whip eventually breaks in the attempt.</p>
-<div class="caution-banner">
+        <div class="caution-banner">
           <div class="caution-header">
             <span class="caution-badge">Caution</span>
             <span class="caution-name">The Obstinate Disciple · Karmic Toll on the Teacher</span>
           </div>
-          
-        
+          <p class="caution-def">Attempting to guide a student who is essentially crooked in nature exhausts the teacher, destroys the teacher's inner equanimity, and ultimately breaks the very instruments of correction — with no benefit to anyone.</p>
+        </div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Whoever yokes a vicious ox experiences only exhaustion and torment, is left without inner peace, and finds that even the whip eventually breaks in the attempt.</p>
         <p class="text-base text-on-surface-variant leading-relaxed">This verse introduces the central image of the chapter: the khaluṃka, an ox so obstinate and vicious that it cannot be trained. The commentaries explain the word through multiple meanings: one who goes the wrong way even after being directed, one who can never be corrected, one essentially crooked in nature. When the charioteer tries to yoke such an ox, the ox's resistance doesn't merely cause inconvenience — it causes the charioteer real harm. He is worn down by the effort, loses his own composure, and in the end even the whip with which he tried to guide the ox breaks. This is the teacher's situation with an irredeemably obstinate disciple. No matter how much a teacher tries — through instruction, guidance, even mild correction — the result is the teacher's own suffering. The instrument of teaching itself is worn out in the attempt. This verse sets up the extended analogy of the following five sutras, each of which catalogs a specific way a vicious ox behaves.</p>
         <p class="simple-explanation"><b>The simple version:</b> Trying to control an impossibly stubborn ox only exhausts the driver and breaks his whip — just as an undisciplined student only wears out his teacher.</p>
         <div class="concept-tags">
@@ -297,11 +291,9 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.4</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">एगं डसइ पुच्छिम्म, एगं विंधइ अभिक्खणं ।<br/>एगं भंजइ सिमलं, एगो उप्पह-पट्टुआओ ॥ ४ ॥</p>
-        <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">One vicious ox bites another's tail; another repeatedly stabs with its iron horns; one smashes the yoke; and another bolts off the road entirely.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This verse begins a detailed catalogue of the many ways an obstinate ox misbehaves — and by analogy, the ways undisciplined disciples derail the spiritual journey. Each behavior represents a different failure mode. The ox that bites another's tail creates discord in the community — the troublemaker who undermines harmony among fellow monks. The one that repeatedly stabs with its iron horns represents the disciple who is chronically hurtful, always wounding others through sharp words or aggressive behavior. The one that breaks the yoke represents the disciple who destroys the structural framework of monastic life — rules, routines, the bonds of community discipline. The one that bolts off the road represents the disciple who abandons the path altogether. Each failure is specific, observable, and damaging not just to the ox itself but to the entire team and the charioteer. In community life, one person's indiscipline has ripple effects on everyone.</p>
         <p class="simple-explanation"><b>The simple version:</b> Just as vicious oxen cause all kinds of damage — biting, stabbing, smashing the yoke, running away — undisciplined monks cause many kinds of harm to the spiritual community.</p>
         <div class="concept-tags">
@@ -319,10 +311,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.5</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">एगो पडइ पासेणं, णिवेसइ णिविज्जइ ।<br/>उक्कुहइ उप्फिडइ, सढे बालगिविं वए ॥ ५ ॥</p>
-        <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">One ox falls to its side; another sits down stubbornly in the road; one leaps up and kicks; another bucks; and one vicious ox spots a young cow and bolts after her.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The catalogue of obstinate ox behaviors continues with equally vivid examples. Falling sideways represents the disciple who collapses under the demands of practice — not from inability but from unwillingness, feigning weakness to avoid discipline. Sitting down stubbornly in the road represents the disciple who simply refuses to move — the one who will not follow instructions no matter what is said. Kicking and bucking represents the disciple who reacts violently or aggressively when guidance is offered. Most striking is the last image: the ox that spots a young cow and bolts after it. This is the disciple who abandons all spiritual purpose the moment temptation calls — the one whose senses overcome his vows when an attractive distraction appears. The range of these images covers every mode of failure: passive, active, and reactive. The teacher standing at the center of all this chaos is helpless, no matter how skilled or patient.</p>
         <p class="simple-explanation"><b>The simple version:</b> Some vicious oxen fall, some refuse to move, some kick, and some just run after distractions — showing all the ways a spiritually undisciplined person fails.</p>
         <div class="concept-tags">
@@ -340,10 +330,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.6</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">माई मुद्धेण पडइ, कुद्धे गच्छइ पडिप्पहं ।<br/>मयलक्खेण चिट्टुइ, वेगेण य पहावइ ॥ ६ ॥</p>
-        <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">One ox deceitfully bows its head and falls to the ground; when angered, it runs the wrong way; one lies perfectly still pretending to be dead; and another charges forward at full speed.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This verse introduces the most psychologically subtle of the vicious ox types: the deceitful one. The ox that bows its head as if in submission and then collapses represents the disciple who performs false humility — who appears to comply but does not. This is more dangerous than open rebellion because it is invisible until it is too late. The ox that runs in the opposite direction when provoked represents the disciple who, under the pressure of instruction, does exactly the wrong thing — a perverse reactivity where every attempt to guide produces the opposite result. The one that plays dead represents the disciple who feigns incapacity — "I am too weak, too unwell" — to avoid any demand. And the one that bolts at full speed represents the disciple whose energy is enormous but entirely misdirected. All four types in this verse share a common feature: their failures masquerade as something else. Deceit is the most insidious obstacle to a teacher's work, and this verse names it plainly.</p>
         <p class="simple-explanation"><b>The simple version:</b> Some students fake humility, some do the opposite of what they're told, some pretend they can't do anything, and some run full speed in the wrong direction.</p>
         <div class="concept-tags">
@@ -361,10 +349,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.7</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">छिण्णाले छिंदइ सेल्लिं, दुदंतो भंजए जुगं ।<br/>से वि य सुस्सुयाइत्ता, उज्जिहित्ता पलायए ॥ ७ ॥</p>
-        <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A vicious ox snaps the rope that binds it; the uncontrollable one breaks the yoke; and even after all this, snorting and bellowing with fright, it shakes itself free and flees.</p>
-<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This verse brings the ox analogy to its climactic conclusion: the most dangerous obstinate ox, one that dismantles every physical restraint placed upon it. First the rope — the symbolic bond of discipline and commitment — is snapped. Then the yoke — the structural framework that makes coordinated effort possible — is smashed. Finally, with a terrifying bellow designed to frighten and scatter everything around it, the ox tosses its harness aside and flees. The parallel in monastic life is the disciple who, step by step, undoes every form of accountability: first the inner vows, then the external structure, and finally abandons the community entirely with dramatic and disruptive behavior. The bellowing and snorting before flight represents the disciple who creates maximum noise and disturbance on the way out — blame, accusation, defiance — before departing. Their departure is never quiet; it fractures something that others depended on.</p>
         <p class="simple-explanation"><b>The simple version:</b> The worst kind of vicious ox breaks every rope and yoke that holds it, makes a huge frightening noise, and then runs away completely.</p>
         <div class="concept-tags">
@@ -382,16 +368,14 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.8</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">खलुंका जारिसा जुज्जा, दुस्सीसा वि हु तारिसा ।<br/>जोइया धम्मजाणिम्म, भज्जंति धिइदुब्बला ॥ ८ ॥</p>
-        <p class="caution-def">Disciples who lack inner fortitude (dhīti) damage the entire vehicle of dharma — every form of indiscipline ultimately traces back to this single root weakness of insufficient patience and willpower.</p>
-        </div>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">Just as obstinate oxen yoked together bring chaos and grief to the charioteer, so undisciplined disciples yoked to the chariot of dharma — being weak in resolve — break apart and cause destruction.</p>
-<div class="caution-banner">
+        <div class="caution-banner">
           <div class="caution-header">
             <span class="caution-badge">Caution</span>
             <span class="caution-name">Weakness of Resolve · Dhīti-Dubbala</span>
           </div>
-          
-        
+          <p class="caution-def">Disciples who lack inner fortitude (dhīti) damage the entire vehicle of dharma — every form of indiscipline ultimately traces back to this single root weakness of insufficient patience and willpower.</p>
+        </div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">Just as obstinate oxen yoked together bring chaos and grief to the charioteer, so undisciplined disciples yoked to the chariot of dharma — being weak in resolve — break apart and cause destruction.</p>
         <!-- [VISUAL FLAG: A dharma-chariot diagram with the path of liberation as the road, the charioteer as the teacher, and multiple oxen labeled with the failure types from sutras 4–7 — some pulling, some bolting, some lying down — to visualize how inner weakness breaks the collective vehicle of practice] -->
         <p class="text-base text-on-surface-variant leading-relaxed">This verse draws the explicit conclusion of the long ox analogy. The comparison is made directly: obstinate oxen and undisciplined disciples are of the same type and produce the same result — destruction of the vehicle they are part of. The "chariot of dharma" is a rich metaphor: the path is the vehicle that carries souls toward liberation, and its power depends on those inside it pulling together with discipline and resolve. When a disciple yoked to this vehicle lacks resolve (dhīti-dubbala — weakness of patience and willpower), he doesn't just fail personally; he damages the collective structure. The word dhīti specifically refers to patience, steadiness under pressure, and the sustained ability to remain firm without breaking down. The root cause of all the behaviors described in sutras 3–7 is named here: insufficient inner fortitude. Every form of indiscipline traces back to this single weakness.</p>
         <p class="simple-explanation"><b>The simple version:</b> Undisciplined disciples damage the spiritual path the same way vicious oxen destroy the cart — because they don't have the inner strength to hold steady.</p>
@@ -414,10 +398,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.9</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">इड्ढीगारिवए एगे, एगेत्थ रसगारवे ।<br/>सायागारिवए एगे, एगे सुचिरकोहणे ॥ ९ ॥</p>
-        <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Elder Garg reflects: some of my disciples are proud of their supernatural accomplishments; some are attached to rich and flavorful food; some are proud of their comfort and ease; and some remain chronically irritable and angry.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">With sutra 9, the chapter shifts from the ox analogy to Elder Garg's direct inner reflection on his specific disciples. Four distinct failure types are named. The disciple proud of supernatural powers is the one who has developed spiritual capabilities but turned them into ego rather than selflessness — he uses his attainments to feel superior rather than to serve. The one attached to rich food has not renounced sensory pleasure at the level of taste; he goes to great lengths to obtain flavorful food, a clear violation of the spirit of renunciation. The one proud of comfort seeks ideal conditions — the right temperature, the right companions — and is never satisfied. And the chronically angry disciple is perhaps the most damaging in community life: a person whose anger persists not for a moment but for extended periods, poisoning every interaction. These four cover the primary passion of anger and the primary forms of ego (pride of power, pleasure, and ease).</p>
         <p class="simple-explanation"><b>The simple version:</b> Some monks are proud of their powers, some obsess over food, some crave comfort, and some stay angry for a very long time.</p>
         <div class="concept-tags">
@@ -489,10 +471,8 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.13</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">पेसिया पलिउंचंति, ते परियंति समंतओ ।<br/>रायवेट्टिं च मण्णंता, करेंति भिउडिं मुहे ॥ १३ ॥</p>
-        <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">When sent on errands, they return without completing the task; they wander in all directions; and considering their service as some kind of forced royal labor imposed upon them, they make frowning, resentful faces.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra closes the catalogue of undisciplined behaviors with a particularly human picture: the resentful subordinate. When given a task, these disciples do not refuse outright — that would be too obvious. Instead, they fail to complete it, return without result, and wander wherever they please in between. More revealing is their inner attitude: they experience service to the teacher as a form of forced labor, like peasants conscripted into royal service (rāya-veṭṭi). This comparison is devastating in its precision. The disciple who sees loving service as forced conscription has fundamentally misunderstood the relationship. He experiences the teacher's assignments not as opportunities for growth or acts of devotion, but as oppression. The scowling face upon return is the visible expression of this inner resentment — and it signals to the teacher that the relationship has broken down entirely.</p>
         <p class="simple-explanation"><b>The simple version:</b> When given tasks, these monks come back without finishing, wander around freely, and wear angry faces as if serving their teacher is some kind of punishment.</p>
         <div class="concept-tags">
@@ -551,16 +531,14 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.16</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">जारिसा मम सीसाओ, तारिसा गलिगद्दहा ।<br/>गलिगद्दहे जहित्ताणं, दढं पगिणहइ तवं ॥ १६ ॥</p>
-        <p class="principle-def">Liberation requires releasing even the teacher's attachment to his own disciples — renouncing futile bonds is not failure but the liberation of one's energy for one's own spiritual journey.</p>
-        </div>
-        <p class="text-lg font-semibold text-on-surface leading-relaxed">"My disciples are just like lazy, stubborn donkeys." Abandoning those lazy donkeys, he firmly took up the path of austerity and practice.</p>
-<div class="principle-banner">
+        <div class="principle-banner">
           <div class="principle-header">
             <span class="principle-badge">Jain Principle</span>
             <span class="principle-name">Non-Attachment · Aparigraha in Teacher-Disciple Bond</span>
           </div>
-          
-        
+          <p class="principle-def">Liberation requires releasing even the teacher's attachment to his own disciples — renouncing futile bonds is not failure but the liberation of one's energy for one's own spiritual journey.</p>
+        </div>
+        <p class="text-lg font-semibold text-on-surface leading-relaxed">"My disciples are just like lazy, stubborn donkeys." Abandoning those lazy donkeys, he firmly took up the path of austerity and practice.</p>
         <p class="text-base text-on-surface-variant leading-relaxed">This sutra brings the decisive action: Elder Garg releases his disciples. The image shifts from the obstinate ox to the lazy donkey — a different animal conveying the same failure of wasted effort combined with stubborn refusal to move. The commentary notes that just as a donkey keeps being urged forward but cannot be properly directed, these disciples kept receiving instruction but could not be guided. Garg Muni's inner dialogue reaches its conclusion: these disciples are like lazy donkeys; they will not move forward no matter how much effort is spent on them. His response is not anger or punishment but renunciation: he abandons attachment to them. This is the deeply Jain moment in the chapter. Liberation requires releasing even the most natural attachments — including the teacher's attachment to his own disciples. Upon releasing this attachment, Garg Muni does not become passive; he firmly (daḍhaṃ) takes up austerity. The renunciation of failed attachment becomes fuel for intensified personal practice. The letting go is not loss — it is the liberation of his own energy for his own journey.</p>
         <p class="simple-explanation"><b>The simple version:</b> Elder Garg compares his disciples to lazy stubborn donkeys, lets go of his attachment to them, and throws himself fully into austerity and solitary practice.</p>
         <div class="concept-tags">
@@ -580,11 +558,9 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27.17</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">मिउ-मद्दव-संपण्णो, गंभीरो सुसमाहिओ ।<br/>विहरइ महिं महप्पा, सीलभूएण अप्पणा ॥ <span class="text-base not-italic text-outline">ति बेमि ।</span></p>
-        <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Endowed with gentleness and tenderness, serious and perfectly equanimous, the great-souled Elder Garg wandered the earth — his own soul itself having become his virtue. — Thus I say.</p>
-<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
-        
         <p class="text-base text-on-surface-variant leading-relaxed">The final verse of Chapter 27 offers a radiant portrait of what Elder Garg became after releasing his attachment to his undisciplined disciples. The language is entirely transformed: where before there was exhaustion, confusion, and a soul being dragged downward, now there is gentleness (miu), depth (gaṃbhīra), and perfect stillness (susamāhia). The qualities listed — softness, tenderness, seriousness, equanimity — are not the virtues of one who has given up, but of one who has been fully freed. The phrase "his own soul itself having become his virtue" (sīlabhūeṇa appoṇā) is the most beautiful in the chapter. In Jain philosophy, virtue is ultimately not a set of rules to be followed but a quality of the soul in its pure state. Garg Muni, having removed the obstacle of his attachment to difficult disciples, now embodies virtue rather than merely practicing it. He wanders the earth as a great-souled being — moving freely, anchored entirely in himself, at peace. The closing "ti bemi" (thus I say) echoes through the Uttaradhyana as the author's seal: these are the living words transmitted across 2,500 years.</p>
         <p class="simple-explanation"><b>The simple version:</b> After letting go, Elder Garg became gentle, deep, and perfectly at peace — a great soul wandering the earth with virtue as his very nature.</p>
         <div class="concept-tags">
