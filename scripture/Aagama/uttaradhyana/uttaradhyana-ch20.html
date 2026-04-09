@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -318,10 +318,12 @@
        <p class="sutra-sanskrit font-headline">
         सिद्धाणं णमो किच्चा, संजयाणं च भावओ । अत्थधम्मगइतच्चं, अणुसिट्टुं सुणेह मे ॥२०.१॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Having bowed in devotion to the Siddhas and to the restrained ones, listen to me as I teach truly the path of dharma leading to liberation.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This mangala verse opens the chapter with a dual salutation — to the Siddhas (those who have already reached the summit of liberation) and to the saṃyata (restrained monastics still on the path). The word bhāvao signals that this is not a ritual bow but a bow of genuine inner devotion. The sutra then announces its purpose: to teach the true path (attha-dhamma-gati) — the way of the soul, the way of dharma, and the way to liberation.
        </p>
@@ -354,10 +356,12 @@
        <p class="sutra-sanskrit font-headline">
         पभूयरयणो राया, सेणिओ मगहाहिवो । विहारजत्तं णिज्जाओ, मंडिकुच्छिस चेइए ॥२०.२॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         King Śreṇika, the lord of Magadha, wealthy in jewels and riches, set out from the city for a stroll to the Maṇḍikukṣi garden.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         King Śreṇika (Bimbisāra) is the epitome of worldly wealth and power — "pabhūyarayaṇo," overflowing with jewels. The setting — a powerful king entering a royal pleasure garden — frames the contrast for the encounter to come. He is "sanātha" in the worldly sense, possessing everything a human could desire.
        </p>
@@ -425,10 +429,12 @@
        <p class="sutra-sanskrit font-headline">
         तत्थ सो पासइ साहुं, संजयं सुसमाहियं । णिसण्णं रुक्खमूलम्मि, सुकुमालं सुहोइयं ॥२०.४॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div><p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
+       <p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         There he saw a monk — restrained, perfectly composed in meditation — seated at the foot of a tree, delicate and radiant with well-being.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The first glimpse of Anāthī Muni. He has no throne, no roof, no possessions — yet he is "susamāhiya" (perfectly composed). His body radiates a peace and health ("sukumālaṃ") that arrests the king's gaze. The tree provides his only shelter, yet he possesses a radiance the palace lacks.
        </p>
@@ -496,10 +502,12 @@
        <p class="sutra-sanskrit font-headline">
         अहो वण्णो अहो रूवं, अहो अज्जस्स सोमया । अहो खंती अहो मुत्ती, अहो भोगे असंगया ॥२०.६॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+       <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "Wonderful is his complexion! Wonderful is his form! Wonderful is this noble one's serenity! Wonderful his patience! Wonderful his freedom from desire! Wonderful his non-attachment to pleasures!"
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The king recognises six qualities, moving from outer to inner: complexion, form, serenity, patience, freedom from craving, and non-attachment. The king's spontaneous "aho" (wonderful!) signals a moment of awakening. He sees what he has been missing in his own life of luxury.
        </p>
@@ -602,10 +610,12 @@
        <p class="sutra-sanskrit font-headline">
         अणाहो मि महाराय, णाहो मज्झ ण विज्जइ । अणुकंपगं सुहिं वावि, कंचि णाभिसमेमहं ॥२०.९॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "O Mahārāja, I am without a master (anātha). No master exists for me. I could not find a single compassionate friend to protect me — and so I took initiation."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The answer that defines the chapter: "I am anātha." This doesn't mean a lack of family or wealth, but a deeper truth: in the hour of real suffering, no external person can protect the soul. Suffering is personal; the isolation of pain is the first lesson of karma.
        </p>
@@ -638,10 +648,12 @@
        <p class="sutra-sanskrit font-headline">
         तओ सो पहसिओ राया, सेणिओ मगहाहिवो । एवं ते इंदिमंतस्स, कहं णाहो ण विज्जइ ॥२०.१०॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Then King Śreṇika, lord of Magadha, laughed and said: "How can one with such beauty and power as yours have no master?"
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The king laughs — the laugh of a worldly mind that cannot yet comprehend the depth of the monk's claim. To the king, beauty and power are the definition of protection. He sees only the surface, setting the stage for his own awakening.
        </p>
@@ -674,10 +686,12 @@
        <p class="sutra-sanskrit font-headline">
         होमि णाहो भयंताणं, भोगे भुंजाहि संजया । मित्त-णाईपरिवुडो, माणुस्सं खु सुदुल्लहं ॥२०.११॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "I will be your master, O Venerable One. O restrained one, enjoy pleasures surrounded by friends and relatives — for human birth is indeed very rare."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The king offers himself as a patron and master. He uses the classic argument: life is rare, so enjoy it. Ironically, Jainism also teaches life is rare — but as a reason for liberation, not indulgence. The king repeats a truth but draws the wrong conclusion.
        </p>
@@ -820,10 +834,12 @@
        <p class="sutra-sanskrit font-headline">
         एरिसे संपयग्गम्मि, सव्वकाम समिप्पिए । कहं अणाहो भवइ, मा हु भंते ! मुसं वए ॥२०.१५॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "In such abundant prosperity, with all desires fulfilled — how can one be anātha? Please, O Bhagavan, do not speak falsely!"
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The king is so bewildered he almost accuses the monk of lying. "Savvakāma samippe" — all desires fulfilled. In the worldly view, this is safety. The monk is dismantling the idea that getting what you want equals being protected.
        </p>
@@ -966,10 +982,12 @@
        <p class="sutra-sanskrit font-headline">
         पढमे वए महाराय, अउला मे अच्छिवेयणा । अहोत्था विउलो दाहो, सव्वगत्तेसु य पित्थवा ॥२०.१९॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "O Mahārāja, in my youth — my first period of life — I developed an unparalleled, unbearable pain in my eyes. And O earthly lord, an intense burning spread through my entire body."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         In his youth — the "time of pleasures" mentioned by the king — he was struck by severe eye pain and fever. Suffering doesn't wait for a convenient time. Wealth cannot prevent the arrival of one's own karma in the form of illness.
        </p>
@@ -1037,10 +1055,12 @@
        <p class="sutra-sanskrit font-headline">
         तियं मे अंतरिच्छं च, उत्तमंगं च पीडइ । इंदासणिसमा घोरा, वेयणा परमदारुणा ॥२०.२१॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "It afflicted my waist, my chest, and my head. The pain was like Indra's thunderbolt — terrible, supremely dreadful."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The pain was total, affecting the lower, middle, and upper body. Like Indra's thunderbolt ("iṃdāsaṇisamā"), it struck through his entire being. This total-body suffering stripped away every capacity for normal life or pleasure.
        </p>
@@ -1108,10 +1128,12 @@
        <p class="sutra-sanskrit font-headline">
         ते मे तिगिच्छं कुव्वंति, चाउप्पायं जहाइयं । ण य दुक्खा विमोयंति, एसा मज्झ अणाहया ॥२०.२३॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "They performed for me the four-fold treatment — the best available. Yet they could not free me from suffering. This was my anāthā."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The best medicine ("cāuppāyaṃ") failed. This is the first definition of anāthā: the realization that even the best care cannot remove personal karma. "Esā majjha aṇāhayā" — this was my masterless-state. Help was there, but it couldn't reach the pain.
        </p>
@@ -1144,10 +1166,12 @@
        <p class="sutra-sanskrit font-headline">
         पिया मे सव्वसारं पि, दिज्जाहि ममकारणा । ण य दुक्खा विमोएइ, एसा मज्झ अणाहया ॥२०.२४॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "My father was ready to give away all his wealth for my sake. Yet he could not free me from pain. This was my anāthāness."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         His father was willing to spend everything — "savvasāraṃ" (his entire treasury). Total parental devotion was present. But wealth has no power over the soul's suffering. This is the second level of anāthā: the limits of parental protection.
        </p>
@@ -1250,10 +1274,12 @@
        <p class="sutra-sanskrit font-headline">
         भइणीओ मे महाराय, सगा जेट्टु कणिट्टुगा । ण य दुक्खा विमोयंति, एसा मज्झ अणाहया ॥२०.२७॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "My sisters too, O Mahārāja — elder and younger, my own — could not free me from pain. This was my anāthāness."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Sisters complete the family circle. The repetition of "esā majjha aṇāhayā" hammers home the same nail: in the depths of suffering, you are alone. No matter how crowded the room is with loving family, only you experience your pain.
        </p>
@@ -1391,10 +1417,12 @@
        <p class="sutra-sanskrit font-headline">
         तओऽहं एवमाहंसु, दुक्खमा हु पुणो पुणो । वेयणा अणुभविउं जे, संसारम्मि अणंताए ॥२०.३१॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "Then I thought thus: truly it is painful to experience, again and again, the sufferings that come in the infinite cycle of saṃsāra."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The inner turning point. Amidst the helpless love and pain, he reflects: "This has happened before, and will happen again." He sees the structural feature of an infinite cycle of rebirth ("aṇaṃtāe saṃsārammi"). This realization is the seed of renunciation.
        </p>
@@ -1427,11 +1455,13 @@
        <p class="sutra-sanskrit font-headline">
         सइं च जइ मुच्वेज्जा, वेयणा विउला इओ । खंतो दंतो णिरारंभो, पव्वइए अणगारियं ॥२०.३२॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "If I were ever freed from this intense suffering, I would — patient, self-controlled, and free from violent action — take initiation into the homeless life of a monk."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The vow. If the pain ends, he will take initiation. But he defines the *kind* of monk he will be: "khaṃto" (patient), "daṃto" (disciplined), and "ṇirāraṃbho" (non-violent). He prepares inwardly while still in the furnace of pain.
        </p>
@@ -1464,10 +1494,12 @@
        <p class="sutra-sanskrit font-headline">
         एवं च चिंतइत्ताणं, पसुत्तो मि णराहिवा । परियट्टंतीए राईए, वेयणा मे खयं गया ॥२०.३३॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "O lord of men, having thought thus, I fell asleep — and as the night passed, my suffering disappeared and I became well."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         As soon as the resolution was firm, the pain ended. The karma was exhausted. The night passed ("pariyaṭṭaṃtīe rāīe"), and with it, the suffering. This wasn't a medical cure, but a karmic opening that followed his inner change.
        </p>
@@ -1535,10 +1567,12 @@
        <p class="sutra-sanskrit font-headline">
         तओऽहं णाहो जाओ, अप्पणो य परस्स य । सव्वेसिं चेव भूयाणं, तसाणं थावराण य ॥२०.३५॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div><p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
+       <p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "After taking initiation, I became the master — of myself and of others; of all living beings, both mobile and immobile."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The great reversal. By renouncing the world and harm, the one who was "anātha" (masterless) became a "nātha" (protector) for all. Real protection is the commitment to non-violence toward every being, moving or still. He is now truly sanātha.
        </p>
@@ -1576,10 +1610,12 @@
        <p class="sutra-sanskrit font-headline">
         अप्पा णई वेयरणी, अप्पा मे कूडसामली । अप्पा कामदुहा धेणु, अप्पा मे णंदणं वणं ॥२०.३६॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "The self is the Vaitaraṇī river (of suffering). The self is the Kūṭaśālmali tree (of torture). The self is the wish-fulfilling cow (of joy). The self is the Nandana forest (of delight)."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The self creates its own cosmos. Two images of hell (Vaitaraṇī river, Kūṭaśālmali tree) and two of heaven (Kāmadhenu cow, Nandana forest) are assigned to the self. Your experiences of suffering or joy are the results of your own actions. No external power assigns them.
        </p>
@@ -1652,10 +1688,12 @@
        <p class="sutra-sanskrit font-headline">
         इमा हु अण्णा वि अणाहया णिवा, तमेगचित्तो णिणुओ सुणेहि । णियंठधम्मं लिहयाण वि जहा, सीयंति एगे बहुकायरा णरा ॥२०.३८॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "O king, there is also another kind of anāthā. Listen to it steadily with a focused mind — how even after accepting the Nirgrantha dharma, many people of weak resolve become lax."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         A more subtle teaching on anāthā: those who take the path but become "bahukāyarā" (of weak resolve). Even in robes, one can be unprotected if one's discipline is slack. This is a warning to practitioners against the comfort of form over substance.
        </p>
@@ -1688,10 +1726,12 @@
        <p class="sutra-sanskrit font-headline">
         जो पव्वइत्ताण महव्वयाइं, सम्मं च णो फासयइ पमाया । अणिग्गहप्पा य रसेसु गिद्धे, ण मूलओ छिण्णइ बंधणं से ॥२०.३९॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Pamada · Negligence</span></div><p class="caution-def">Indifference to spiritual practice wastes the precious human birth.</p></div>
+       <p class="caution-def">Indifference to spiritual practice wastes the precious human birth.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "One who, after taking initiation and the great vows, does not properly observe them through negligence — who has no self-mastery and is attached to tastes — cannot cut the bonds of karma at the root."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Pamada · Negligence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The profile of the lapsed monk: no self-mastery and addiction to tastes ("rasesu giddhe"). Negligence ("pamāyā") prevents the cutting of karmic bonds. Partial or symbolic practice does not lead to liberation; the root remains untouched.
        </p>
@@ -1759,10 +1799,12 @@
        <p class="sutra-sanskrit font-headline">
         चिरं पि से मुंडरुई भवित्ता, अथिरव्वए तव-णियमेहिं भट्टे । चिरं पि अप्पाण किलेसइत्ता, ण पारए होइ हु संपराए ॥२०.४१॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "Even one who has lived long with a shaved head — unstable in vows and fallen from austerities and disciplines, who has tortured oneself for a long time — truly cannot cross the ocean of saṃsāra."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         A shaved head ("muṃḍaruī") is just an external sign. If the vows are unstable ("athiravvae"), years of physical hardship mean nothing. Torturing the body without inner discipline is not liberation — it's just extra suffering.
        </p>
@@ -1830,10 +1872,12 @@
        <p class="sutra-sanskrit font-headline">
         कुसील लिंगं इह धारइत्ता, इसिज्झयं जीविय बूहइत्ता । असंजए संजय लप्पमाणे, विणिचाय-मागच्छइ से चिरंपि ॥२०.४३॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "One who wears the ascetic's marks in this life while sustaining their livelihood through the sage's symbols — being undisciplined yet calling themselves disciplined — comes to ruin, however long they persist."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Spiritual fraud: using the symbols of a sage ("isijjhayaṃ") as a means of livelihood ("jīviya būhaittā"). This is the lowest form of laxness — wearing the robes for food and respect while ignoring the discipline. It leads to certain ruin.
        </p>
@@ -1866,10 +1910,12 @@
        <p class="sutra-sanskrit font-headline">
         विसं तु पीयं जह कालकूडं, हणाइ सत्थं जह कुग्गहीयं । एसो वि धम्मो विसओवण्णो, हणाइ वेयाल इवाविवण्णो ॥२०.४४॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+       <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "Just as the kālakūṭa poison drunk destroys life, just as a weapon grasped the wrong way kills the one who holds it — so too does dharma, when pervaded by sensory attachment, destroy — like an uncontrolled demon."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         A terrifying warning: dharma practised with sensory attachment ("visaovṇṇo") becomes destructive. Like a weapon held by the blade, it harms the practitioner. It becomes a "veyāla" — an uncontrolled demon — causing spiritual destruction.
        </p>
@@ -1937,10 +1983,12 @@
        <p class="sutra-sanskrit font-headline">
         तमंतमेणेव उ से असीले, सया दुही विप्परियासुवेइ । संधावइ णरग तिरिक्ख जोणिं, मोणं विराहितु असाहुरूवे ॥२०.४६॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "Shrouded in darkness by immorality — that vessel-monk always experiences inverted states of suffering. Violating the silence (mona) of monasticism, appearing as a monk without being one, he wanders into hell and animal births."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The pseudo-monk violates "moṇaṃ" — the inner silence and essence of monasticism. Pursuing ease through fraud, he finds the reverse: constant suffering and rebirth in lower realms. The "deepest darkness" is his chosen state.
        </p>
@@ -1973,10 +2021,12 @@
        <p class="sutra-sanskrit font-headline">
         उद्देसियं कीयगडं णियागं, ण मुंचइ किंचि अणेसिणज्जं । अग्गी विव सव्वभक्खी भवित्ता, इतो चुए गच्छइ कट्टु पावं ॥२०.४७॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div><p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
+       <p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "One who accepts food prepared specifically for them, purchased for them, or obtained by invitation — who does not abandon anything that is impure alms — becomes like fire, consuming everything, and after completing their life here, goes to a bad destination loaded with sin."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Strict food rules: no specially prepared or purchased alms. A monk who eats indiscriminately like fire ("aggī viva") violates the core of non-violence. He accumulates "pāvaṃ" (sinful karma) and faces a dark future.
        </p>
@@ -2009,10 +2059,12 @@
        <p class="sutra-sanskrit font-headline">
         ण तं अरी कंठछेत्ता करेइ, जं से करे अप्पिणया दुरप्पा । से णाहइ मच्चुमुहं तु पत्ते, पच्छाणुतावेण दयाविहूणो ॥२०.४८॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+       <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "An enemy who severs the throat cannot do to one what one's own corrupt soul does to oneself. When such a person reaches the face of death — that compassionless one realises it only through belated regret."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         An enemy kills only once. A corrupt soul ("durappā") destroys lifetimes. The tragedy is "pacchāṇutāveṇa" — the realization comes only at death's door, when it's too late. To be "dayāvihūṇo" is to have no compassion even for one's own soul.
        </p>
@@ -2045,10 +2097,12 @@
        <p class="sutra-sanskrit font-headline">
         णिरट्टिया णग्गरुई उ तस्स, जे उत्तमट्टुं विवज्जासमेइ । इमे वि से णत्थि परे वि लोए, दुहओ वि से झिज्जइ तत्थ लोए ॥२०.४९॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div><p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
+       <p class="principle-def">Voluntarily releasing worldly attachments leads to spiritual freedom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "For one who abandons the highest purpose — even the inclination toward mere nudity (external monasticism) is meaningless. Neither this world nor the next is achieved; one is consumed by failure in both."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tyaga · Renunciation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Abandoning "uttamaṭṭuṃ" (the highest purpose — liberation) makes even extreme renunciation like nudity ("ṇaggaruī") worthless. It is a double failure: no peace in this world, and no liberation in the next.
        </p>
@@ -2121,10 +2175,12 @@
        <p class="sutra-sanskrit font-headline">
         सोच्चाण मेहावि सुभासियं इमं, अणुसासणं णाणगुणोववेयं । मग्गं कुसीलाण जहाय सव्वं, महाणियंठाण वए पहेणं ॥२०.५१॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+       <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "O wise one, having heard this well-spoken teaching — endowed with the qualities of knowledge — abandoning completely the path of the lax, walk the path of the great Nirgrantha ones."
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The exhortation: hear the truth and abandon the path of laxity ("ku-śīla"). Walk instead with the "Mahāṇiyaṃṭhāṇa" — the Great Nirgranthas who have cut all knots of attachment. This is the positive call to action after the warnings.
        </p>
@@ -2157,10 +2213,12 @@
        <p class="sutra-sanskrit font-headline">
         चरित्तमायारगुणिण्णिए तओ, अणुत्तरं संजम पालियाणं । णिरासवे संखिवयाण कम्मं, उवेइ ठाणं विउलुत्तमं धुवं ॥२०.५२॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "One who is endowed with the qualities of right conduct and proper ācarā, who has maintained the supreme restraint — becoming free from karmic influx and destroying accumulated karma — reaches the vast, supreme, and eternal abode."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The Jain path summarized: right conduct + supreme restraint → stopping new karma (nirāsava) → destroying old karma (saṃkhivayāṇa kammaṃ) → liberation ("ṭhāṇaṃ dhuvaṃ"). This is the final destination for the authentic practitioner.
        </p>
@@ -2193,10 +2251,12 @@
        <p class="sutra-sanskrit font-headline">
         एलुग्गदंते वि महातवोधणे, महामुणी महापइण्णे महायसे । महाणियंठिज्जमिणं महासुयं, से काहए महया वित्थरेणं ॥२०.५३॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div><p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
+       <p class="principle-def">Deliberate practice that weakens karma and strengthens the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "This Mahānirgranthīya Mahāśruta — the great canonical text of the great Nirgranthas — was spoken in great detail by this great ascetic, this great Muni, this one of great resolve and great fame, who had even worn out his teeth through austerity."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Tapa · Austerity</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The narrator identifies Anāthī Muni as a "Mahāmuṇī" of immense tapas. "Elluggadaṃte" — his teeth were worn by decades of austerity. He speaks from a lifetime of practice, not just theoretical study. This is the weight of the Mahānirgranthīya teaching.
        </p>
@@ -2234,10 +2294,12 @@
        <p class="sutra-sanskrit font-headline">
         तुट्टो य सेणिओ राया, इणमुदाहु कयंजली । अणाहत्तं जहाभूयं, सुट्टु मे उवदंसियं ॥२०.५४॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "King Śreṇika, deeply satisfied, joined his palms and said: 'The truth of anāthāness, just as it is, has been beautifully shown to me.'"
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The king's transformation. He is "tuṭṭo" (satisfied with understanding). He joins his palms, recognizing the "real nature" ("jahābhūyaṃ") of protection. He has moved from a worldly view to a spiritual one through the monk's testimony.
        </p>
@@ -2305,10 +2367,12 @@
        <p class="sutra-sanskrit font-headline">
         तं सि णाहो अणाहाणं, सव्वभूयाण संजया । खामेमि ते महाभाग, इच्छामि अणुसासिउं ॥२०.५६॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div><p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
+       <p class="principle-def">Harmlessness toward all beings is the foundation of all virtues.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "You are the master of the masterless, O restrained one — the protector of all living beings. O greatly blessed one, I seek your forgiveness — and I wish to receive your instruction."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Ahimsa · Non-Violence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The king asks for forgiveness ("khāmemi"). He recognizes the monk as "aṇāhāṇaṃ nāha" — the protector of the masterless. By his non-violence, the monk protects all beings. The king now asks to be instructed, completing his transition from patron to student.
        </p>
@@ -2341,10 +2405,12 @@
        <p class="sutra-sanskrit font-headline">
         पुच्छिऊण मए तुब्भं, झाणविग्घो य जो कओ । णिमंतिया य भोगेहिं, तं सव्वं मरिसेहि मे ॥२०.५७॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div><p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
+       <p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "I asked you questions and thereby disturbed your meditation. I also invited you to pleasures — please forgive me all of that."
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The king's specific repentance: he disturbed the monk's dhyāna (meditation) and invited him back to worldliness. Real "kṣamāyācanā" involves identifying the specific harms caused. He seeks to clear his own karmic debt.
        </p>
@@ -2447,11 +2513,13 @@
        <p class="sutra-sanskrit font-headline">
         इयरो वि गुणसमिद्धो, तिगुत्तिगुत्तो तिदंडविरओ य । विहग इव विप्पमुक्को, विहरइ वसुहं विगयमोहो ॥६०॥ – ति बेमि
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div><p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         "And the other — Anāthī Muni — rich in all virtues, guarded by the triple guard (of mind, speech, body), free from the three sticks (of violence), and free from delusion — wandered the earth like a bird set free." — Thus I say.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The monk's state: "guṇasamiddho" (virtuous), "tigutti-gutto" (internally guarded), and "vigayamoho" (free from delusion). The crowning image of liberation: "vihaga iva vippamukko" — like a bird set free. He wanders the earth in perfect peace. "Ti bemi" (Thus I say) seals the chapter.
        </p>

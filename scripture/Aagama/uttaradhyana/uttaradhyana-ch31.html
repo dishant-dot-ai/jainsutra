@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -317,10 +317,12 @@
        <p class="sutra-sanskrit font-headline">
         चरणविहिं पवक्खामि, जीवस्स उ सुहावहं । जं चरित्ता बहू जीवा, तिण्णा संसार-सागरं ॥३१.१॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         I shall declare the rule of right conduct, which is beneficial to the soul — by following which many beings have crossed the ocean of worldly existence.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This opening verse is the manifesto of the entire chapter. Mahavira himself is the speaker — the twenty-fourth Tirthankar, a fully omniscient teacher who has already crossed saṃsāra and turned back to show others the way. He is not a philosopher guessing at how freedom might work; he is a witness reporting what he has directly seen and lived. Caraṇavidhi (चरणविहि) literally means "the rule of right conduct" — it names the disciplined, discerning practice of cāritra, the third of Jainism's three jewels (right faith, right knowledge, right conduct). Think of it like a tested recipe handed down by someone who has already made the dish successfully: Mahavira isn't theorizing — he's reporting a path that countless souls have actually used to cross the ocean of saṃsāra. The metaphor of the "ocean" is deliberate and powerful. Saṃsāra is not just unpleasant — it is vast, stormy, and disorienting. You can get lost in it for lifetimes without making progress. Conduct is the vessel that carries the soul safely across. A vessel without the right structure sinks; one built to the correct specifications reaches the far shore. Before listing a single rule, Mahavira first establishes this foundational point: this works. Souls have already done it. The chapter that follows is not a set of suggestions — it is a proven curriculum for liberation.
        </p>
@@ -388,10 +390,12 @@
        <p class="sutra-sanskrit font-headline">
         रागदोसे य दो पावे, पावकम्म-पवत्तणे । जे भिक्खू रुंभइ णिच्चं, से ण अच्छइ मंडले ॥३१.३॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Attachment and aversion are the two sins that cause sinful karma to arise — the monk who always restrains these does not wander in the cycle.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Here Mahavira precisely identifies the two deepest root causes of all suffering and bondage — rāga (attachment, craving, desire) and dveṣa (aversion, hatred, repulsion). These are called pāpa (sins) not because some outside authority punishes you for them, but because they are self-generated causes of harm that operate through an automatic inner mechanism. Every act of violence, every lie, every moment of greed, every grudge — trace any of them back far enough and you find either rāga or dveṣa at the root. Karma doesn't simply mean "action" — it means the sticky, soul-clinging residue that accumulates when actions are driven by these two inner forces. A monk who constantly monitors rāga and dveṣa — who catches them in their earliest, subtlest stages before they translate into words or deeds — stops the generation of new karma entirely. This phrase "does not wander in the cycle" (na aṭṭhati maṇḍale) becomes the chapter's binding refrain: it appears at the end of every subsequent sutra, like a signature. It is the specific promise that every rule points toward — not merely better behavior, not just social virtue, but actual freedom from the cycle of rebirth. Each rule in this chapter is one more way of pulling out the root of rāga or dveṣa.
        </p>
@@ -504,10 +508,12 @@
        <p class="sutra-sanskrit font-headline">
         विगहा-कसाय-सण्णाणं, झाणाणं च दुयं तहा । जे भिक्खू वज्जइ णिच्चं, से ण अच्छइ मंडले ॥३१.६॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div><p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
+       <p class="principle-def">Inward focus purifies the mind and awakens inner wisdom.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The four vain conversations (vikathās), the four passions (kaṣāyas), the four instincts (saṃjñās), and the two harmful meditations — the monk who always avoids these does not wander in the cycle.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dhyana · Meditation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Here Mahavira groups four categories of mental and verbal pollution that must all be avoided. The four vikathās are useless conversations that dissipate spiritual energy: gossip about women and relationships, talk about food and drink, talk about territories and nations, and talk about rulers and politics. None of these topics help the soul in the slightest — they simply pull attention back into worldly entanglement and refuel desires or opinions that should be fading. The four kaṣāyas (passions) are the primary generators of karma: anger (krodha), pride (māna), deceit (māyā), and greed (lobha). These are not just "negative emotions" — they are specific karmic mechanisms, each producing its own type of bondage. The four saṃjñās are instinctual drives inherited from animal existence: the drive for food, the drive of fear, the sex drive, and the hoarding drive. These four drives run automatically in every being — a monk must recognize them as inherited animal patterns and refuse to be controlled by them. Finally, the two harmful meditations — ārta dhyāna (sorrowful, anxious contemplation focused on loss, pain, and clinging to what you want to keep) and raudra dhyāna (cruel, violent contemplation focused on harming, revenge, or deception) — generate the heaviest karmic bondage of all meditative states. What connects all four of these categories is a single key insight: where attention goes, karma follows. The mind is not a neutral observer — it is the instrument through which karma is created or stopped.
        </p>
@@ -650,11 +656,13 @@
        <p class="sutra-sanskrit font-headline">
         मएसु बंभगुत्तीसु, भिक्खू-धम्मिम्म दसविहे । जे भिक्खू जयइ णिच्चं, से ण अच्छइ मंडले ॥३१.१०॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Mana · Pride</span></div><p class="caution-def">Arrogance blocks the humility needed for genuine learning.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         In the eight intoxications (madas), in the nine guardianships of celibacy (brahmacarya-guptis), and in the ten-fold monk's dharma — the monk who always wins does not wander in the cycle.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Three more comprehensive frameworks of discipline appear here, each covering a different layer of the monk's inner life. The eight madas are intoxicating forms of pride: pride in high birth (jāti), pride in physical appearance (rūpa), pride in learning (jñāna), pride in physical strength (bala), pride in wealth or spiritual attainments (ṛddhi), pride in austerities performed (tapas), pride in sharp intelligence (prajna), and pride in supernatural powers or influence (vibhūti). The word mada — literally "intoxication" — is chosen deliberately; these forms of pride cloud judgment and inflate the ego just as alcohol clouds the senses. What makes them especially dangerous is that they can arise even from genuinely good things — your real learning, your actual austerities. The achievement is real; the pride is the poison. The nine brahmacarya-guptis protect celibacy at every level: from avoiding dwelling in mixed-gender spaces, to not recalling past pleasures in imagination, to not listening to conversations that excite desire. Celibacy in Jainism is emphatically not just physical — it includes control of imagination, memory, conversation, and even the choice of environment. A monk may be physically celibate while mentally non-celibate; the guptis close that gap. Finally, the ten qualities of the bhikṣu-dharma — forgiveness (kṣamā), humility, straightforwardness, purity, truth, restraint, austerity, renunciation, non-attachment, and celibacy — form the complete portrait of what a monk must become in character. These are not just rules to follow; they are qualities to embody until they are no longer efforts but nature.
        </p>
@@ -762,10 +770,12 @@
        <p class="sutra-sanskrit font-headline">
         गाहासोलसएहिं, तहा असंजमिम्म य । जे भिक्खू जयइ णिच्चं, से ण अच्छइ मंडले ॥३१.१३॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+       <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         In the sixteen chapters of the [Sūtrakṛtāṅga] gāthas and regarding the seventeen forms of non-restraint — the monk who always wins does not wander in the cycle.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This sutra makes a strong claim: knowledge and behavior must be developed together — neither alone is sufficient for liberation. The 16 chapters of the Sūtrakṛtāṅga (one of the twelve canonical Agamas, the most authoritative Jain scriptures) provide the philosophical foundation the monk needs: the nature of the soul, the mechanics of karma and bondage, the refutation of false doctrines and wrong views, and the systematic description of the correct path. These 16 chapters are the intellect's protection against spiritual delusion — they arm the monk against the subtle intellectual traps that can derail even a sincere practitioner. Scripture is not just information; it is the immune system of the mind. At the same time, the 17 types of non-restraint must be identified and systematically eliminated — these are specific patterns of lax, careless behavior that slowly erode the monk's practice from within: improper acceptance of things, inconsistency in observance, cutting corners in discipline. A monk might know the right philosophy perfectly but still slip into non-restraint through habit, fatigue, or rationalization. Conversely, a monk might be behaviorally very disciplined but remain intellectually vulnerable to errors in understanding that gradually lead him off the path. Only when right knowledge and right restraint actively reinforce each other does the path become truly secure and unassailable.
        </p>
@@ -803,10 +813,12 @@
        <p class="sutra-sanskrit font-headline">
         बंभिम्म णायज्झयणेसु, ठाणेसु असमाहिए । जे भिक्खू जयइ णिच्चं, से ण अच्छइ मंडले ॥३१.१४॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div><p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
+       <p class="principle-def">Equal-mindedness in pleasure and pain reveals the soul's true nature.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Regarding the eighteen aspects of brahmacarya, the nineteen chapters of the Jñātā-sūtra, and the twenty stations of non-equanimity (asamādhi) — the monk who always wins does not wander in the cycle.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Samata · Equanimity</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Celibacy, scriptural learning, and inner equanimity — three completely different but interlinked disciplines are each given precise numbered frameworks here. The 18 aspects of brahmacarya establish a comprehensive, multi-layered protection of the monk's celibacy — covering not just the obvious level of physical conduct, but mental imagery, imagination, the content of conversations, the company one keeps, and even choices as specific as where to sleep and near whom. In Jainism, celibacy is a full-system commitment that has to be defended on every front simultaneously; one unguarded channel can undermine all others. The 19 chapters of the Jñātā-sūtra (the "Knowledge" scripture) contain illustrative stories and concrete examples — parables about how real beings in past lives responded to moral challenges, temptations, and difficult situations, and what the spiritual consequences were. Story-based learning makes abstract principles visceral and unforgettable in a way that abstract definitions cannot. It is one thing to know that attachment causes bondage; it is another to see it happen in a specific story that stays with you. The 20 asamādhi-sthānas (stations of non-equanimity) are specific, named mental states — agitation, anxiety, restlessness, frustration, overexcitement, despair — that destabilize the monk's inner peace. By naming each one specifically, a monk gains the ability to observe himself slipping into non-equanimity early and return to stillness before the disturbance has had time to generate fresh karma.
        </p>
@@ -839,10 +851,12 @@
        <p class="sutra-sanskrit font-headline">
         एगवीसाए सबले, बावीसाए परीसहे । जे भिक्खू जयइ णिच्चं, से ण अच्छइ मंडले ॥३१.१५॥
        </p>
-       <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+       <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         In the twenty-one śabala-doṣas and the twenty-two parīṣahas — the monk who always wins does not wander in the cycle.
        </p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Two complementary frameworks — one for avoiding faults, one for enduring hardships — work together to complete the monk's outer and inner discipline. The 21 śabala-doṣas are specific conduct-faults, compared in the tradition to stains on white cloth. They include things like: small failures of mindfulness, improper acceptance of certain types of alms, inconsistency between what the monk displays outwardly and what his inner state actually is, lapses in maintaining the great vows in subtle situations, and similar small but real failures of practice. White cloth shows every stain clearly — and so does a monk's practice. A monk who regularly examines himself against all 21 keeps his practice genuinely spotless rather than outwardly clean but inwardly compromised. The 22 parīṣahas (hardships to be endured) are the trials the monk will inevitably face in actual monastic life. Mahavira's list is strikingly realistic and specific: hunger, thirst, cold, heat, insect bites, nakedness, discomfort from long sitting, wandering without receiving any alms, verbal abuse from strangers, physical assault, requests he cannot fulfill, indifference or disrespect from others, and more. This is not an idealized vision of monastic life — it is an honest account of it. Each of these 22 hardships, met with equanimity rather than complaint, anger, or despair, does not merely test the monk — it actively purifies him. Past karma burns off in the heat of each endured difficulty. Hardship, properly met, is not an obstacle to progress; it is the mechanism of it.
        </p>
@@ -985,10 +999,12 @@
        <p class="sutra-sanskrit font-headline">
         पावसुयप्पसंगेसु, मोहठाणेसु चेव य । जे भिक्खू जयइ णिच्चं, से ण अच्छइ मंडले ॥३१.१९॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div><p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
+       <p class="caution-def">False perception of reality keeps the soul bound in karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Regarding the twenty-nine occasions of sinful scriptures (pāpaśruta-prasaṅgas) and the thirty stations of delusion (moha-sthānas) — the monk who always wins does not wander in the cycle.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Moha · Delusion</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Two of the most critical domains in the entire curriculum appear here — both targeting the subtle and dangerous enemy of the intellect. The 29 pāpaśruta-prasaṅgas are specific categories of harmful teachings that can corrupt the monk's understanding: false doctrines claiming the soul does not exist or that karma has no effect; nihilistic philosophies teaching that nothing has meaning; texts promoting sensory indulgence as liberation; materialist views that deny any reality beyond the physical body; fatalistic views that deny the usefulness of spiritual effort (claiming everything is predetermined). A monk who becomes involved with these teachings — even out of intellectual curiosity or scholarly interest — risks a kind of contamination of right understanding that can slowly unravel years of practice. The protection Jainism offers against these is not ignorance or avoidance of inquiry, but trained discernment — knowing these positions by name so that you can recognize them and see through them. The 30 moha-sthānas (stations of delusion) are the most comprehensive and high-stakes list in the entire chapter. These are specific, named mental and behavioral patterns — from performing rituals in hope of worldly gain, to harboring disrespect for the teacher, to seeking merit from sacrifice rather than from renunciation — that produce and reinforce mohanīya karma, the deluding karma. Moha is called the "king of karmas" in Jainism because it attacks both right perception and right conduct simultaneously. A mind in delusion cannot see the path clearly enough to escape. By identifying all 30 stations by name, the monk acquires the power to catch the early signs of delusion and correct course before it deepens.
        </p>

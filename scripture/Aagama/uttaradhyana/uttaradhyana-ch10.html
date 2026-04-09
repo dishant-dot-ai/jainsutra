@@ -69,24 +69,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -243,8 +243,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.5</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">पुढवीकाय-मइगओ, उक्कोसं जीवो उ संवसे। कालं संखाईयं, समयं गोयम मा पमायए ॥१०.५॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into earth-bodies dwells there, cycling birth and death, for an incalculable span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">The Jain cosmology recognizes six classes of one-sensed beings. The soul that enters earth-bodies (soil, rock, clay) cycles there through innumerable births and deaths for a period beyond calculation — incalculable (asankhyata). It has only the sense of touch, no awareness of a path out. This is one of the destinations karma leads to instead of the rare human form.</p>
         <p class="simple-explanation"><b>The simple version:</b> Souls trapped in earth-bodies (rocks, soil) live and die there for an unimaginably long time. That could be where you were — or where karma leads next.</p>
         <div class="concept-tags"><span class="concept-tag">Earth-Bodies</span><span class="concept-tag">Cycle of Existence</span><span class="concept-tag">One-Sensed Life</span></div>
@@ -257,8 +259,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.6</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">आउक्काय-मइगओ, उक्कोसं जीवो उ संवसे। कालं संखाईयं, समयं गोयम मा पमायए ॥१०.६॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into water-bodies dwells there, cycling birth and death, for an incalculable span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Water too is a life-form in Jain cosmology — a one-sensed being existing in every drop and current. A soul drawn into water-bodies by its karma remains there cycling through births and deaths across an incalculable duration. The same pattern as earth, the same warning: O Gautam, do not be negligent.</p>
         <p class="simple-explanation"><b>The simple version:</b> Water has life in it. Souls trapped there cycle for ages. Use your human life — you have something those beings cannot: the capacity for liberation.</p>
         <div class="concept-tags"><span class="concept-tag">Water-Bodies</span><span class="concept-tag">Cycle of Existence</span><span class="concept-tag">One-Sensed Life</span></div>
@@ -271,8 +275,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.7</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">तेउक्काय-मइगओ, उक्कोसं जीवो उ संवसे। कालं संखाईयं, समयं गोयम मा पमायए ॥१०.७॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into fire-bodies dwells there, cycling birth and death, for an incalculable span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Fire-bodies — living souls existing in flames and heat — are another destination for the wandering soul. The repetition of the same verse structure across sutras 5–9 is deliberate: it creates a chant-like rhythm of growing dread, listing the vast prisons of karma one after another. Each verse ends identically: do not be negligent.</p>
         <p class="simple-explanation"><b>The simple version:</b> Fire has living souls within it. They too are trapped in an incalculable loop. The human birth you have now is the exception, not the rule.</p>
         <div class="concept-tags"><span class="concept-tag">Fire-Bodies</span><span class="concept-tag">Cycle of Existence</span><span class="concept-tag">One-Sensed Life</span></div>
@@ -285,8 +291,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.8</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">वाउक्काय-मइगओ, उक्कोसं जीवो उ संवसे। कालं संखाईयं, समयं गोयम मा पमायए ॥१०.८॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into air-bodies dwells there, cycling birth and death, for an incalculable span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Air — the breath in the atmosphere, the wind — also contains living beings according to Jain cosmology. The soul dragged into air-bodies by its karma cycles there with only the sense of touch, for vast stretches of time. No capacity for wisdom, no hearing, no sight of the path. The warning deepens.</p>
         <p class="simple-explanation"><b>The simple version:</b> Even the wind carries living beings. They wander in it for ages, unable to seek liberation. The human form you hold right now is uniquely precious.</p>
         <div class="concept-tags"><span class="concept-tag">Air-Bodies</span><span class="concept-tag">Cycle of Existence</span><span class="concept-tag">One-Sensed Life</span></div>
@@ -299,8 +307,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.9</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">वणस्सइकाय-मइगओ, उक्कोसं जीवो उ संवसे। कालमणंत दुरंतयं, समयं गोयम मा पमायए ॥१०.९॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into plant-bodies dwells there, cycling birth and death, for an infinite and sorrowful span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Plant-bodies are the deepest rut among one-sensed beings — here the time is not merely "incalculable" (asankhyata) but infinite (ananta) and sorrowful (durantam). Souls in plant-bodies can cycle there literally forever without any mechanism to exit, unless some rare accumulation of merit carries them upward. This is the longest imprisonment karma offers among elemental bodies.</p>
         <p class="simple-explanation"><b>The simple version:</b> Plants are alive too. Souls trapped there can remain for literally infinite time — no awareness, no path out. This is what karma leads to without spiritual effort.</p>
         <div class="concept-tags"><span class="concept-tag">Plant-Bodies</span><span class="concept-tag">Infinite Wandering</span><span class="concept-tag">One-Sensed Life</span></div>
@@ -313,8 +323,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.10</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">बेइंदियकाय-मइगओ, उक्कोसं जीवो उ संवसे। कालं संखिज्ज सिणियं, समयं गोयम मा पमायए ॥१०.१०॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into two-sensed bodies dwells there, cycling birth and death, for a finite but still immense span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Two-sensed beings (worms, leeches, shellfish) possess touch and taste. The period of wandering here is finite (sankhyata — countable), but still vast. Compared to the infinite trap of plant-bodies, this is a step up — but still an enormous waste of the soul's potential. The soul gains a second sense but still has no capacity to hear truth, see a teacher, or reason toward liberation.</p>
         <p class="simple-explanation"><b>The simple version:</b> Worms and shellfish have two senses. Souls there are stuck for a huge but finite time. Still no access to the path of liberation.</p>
         <div class="concept-tags"><span class="concept-tag">Two-Sensed Beings</span><span class="concept-tag">Cycle of Existence</span><span class="concept-tag">Gradual Ascent</span></div>
@@ -327,8 +339,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.11</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">तेइंदियकाय-मइगओ, उक्कोसं जीवो उ संवसे। कालं संखिज्ज सिणियं, समयं गोयम मा पमायए ॥१०.११॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into three-sensed bodies dwells there, cycling birth and death, for a finite but still immense span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Three-sensed beings (ants, lice, bedbugs) possess touch, taste, and smell. Again, the period is sankhyata — vast but finite. Each step up the ladder of senses represents a little more awareness, a little closer to the human form — but still enormously far from the capacity to practice self-discipline and walk toward liberation.</p>
         <p class="simple-explanation"><b>The simple version:</b> Ants and lice have three senses. Better than before, but still trapped for an immense time, still unable to hear the teaching. Don't take your five senses for granted.</p>
         <div class="concept-tags"><span class="concept-tag">Three-Sensed Beings</span><span class="concept-tag">Cycle of Existence</span><span class="concept-tag">Gradual Ascent</span></div>
@@ -341,8 +355,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.12</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">चउरिंदियकाय-मइगओ, उक्कोसं जीवो उ संवसे। कालं संखिज्जसिणियं, समयं गोयम मा पमायए ॥१०.१२॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div><p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
+        <p class="caution-def">All worldly things are temporary—clinging to them brings suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into four-sensed bodies dwells there, cycling birth and death, for a finite but still immense span of time. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Impermanence and Death</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Four-sensed beings (flies, mosquitoes, butterflies) have touch, taste, smell, and sight. They can see the world but still cannot hear teachings, reason philosophically, or consciously choose renunciation. They too cycle for a vast but finite time. This is the last step before the five-sensed beings — the threshold at which liberation becomes possible.</p>
         <p class="simple-explanation"><b>The simple version:</b> Flies and butterflies can see the world but still cannot hear truth or choose a path. They cycle for ages. You can hear truth right now — that is extraordinary.</p>
         <div class="concept-tags"><span class="concept-tag">Four-Sensed Beings</span><span class="concept-tag">Cycle of Existence</span><span class="concept-tag">Gradual Ascent</span></div>
@@ -355,8 +371,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.13</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">पंचिंदियकाय मइगओ, उक्कोसं जीवो उ संवसे। सत्तटु भवग्गहणे, समयं गोयम मा पमायए ॥१०.१३॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">A soul born into five-sensed bodies (animals and humans) dwells there for at most seven or eight consecutive births. O Gautam, do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Five-sensed beings — including both animals and humans — have all five senses. This is where liberation becomes accessible. The text specifies that such a being can take at most seven or eight consecutive births in this tier (with a brief divine or infernal birth possible between them). Unlike the vast stretches of one-sensed existence, five-sensed existence has a natural ceiling — which means the window for liberation can close.</p>
         <p class="simple-explanation"><b>The simple version:</b> As a five-sensed being, you have at most seven or eight more births in this form. The window to reach liberation is real but limited. Start now.</p>
         <div class="concept-tags"><span class="concept-tag">Five-Sensed Beings</span><span class="concept-tag">Window for Liberation</span><span class="concept-tag">Urgency</span></div>
@@ -382,8 +400,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.15</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">एवं भव संसारे, संसरइ सुहासुहेहिं कम्मेहिं। जीवो पमाय बहुलो, समयं गोयम मा पमायए ॥१०.१५॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Pamada · Negligence</span></div><p class="caution-def">Indifference to spiritual practice wastes the precious human birth.</p></div>
+        <p class="caution-def">Indifference to spiritual practice wastes the precious human birth.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">In this way, the negligent soul — full of negligence — wanders through the cycle of existence (samsara), driven by wholesome and unwholesome karmas alike. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Pamada · Negligence</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">This verse draws the entire preceding sequence together. The soul wanders through all those forms — earth, water, fire, air, plants, two-sensed through five-sensed, divine, infernal — driven by both wholesome and unwholesome karma. Even "good" karma (that leads to heavenly birth) keeps the soul in the cycle. Only the karma that burns through itself with disciplined practice ends the wandering entirely. The cause is named plainly: negligence (pamaya).</p>
         <p class="simple-explanation"><b>The simple version:</b> The soul wanders through all those realms because of negligence — failing to practice. Even good karma just keeps the cycle going. Only decisive spiritual effort breaks it.</p>
         <div class="concept-tags"><span class="concept-tag">Samsara</span><span class="concept-tag">Karma</span><span class="concept-tag">Negligence as Root Cause</span></div>
@@ -425,8 +445,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.18</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">अहीणपंचिंदियत्तं पि से लहे, उत्तमधम्मसुई हु दुल्लहा। कुतित्थिय णिसेवए जणे, समयं गोयम मा पमायए ॥१०.१८॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Even having all five senses complete, hearing the highest teaching (the true path of liberation) is very rare — for many follow false teachers and wrong paths. O Gautam, do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">Even if one has human birth, a dharmic environment, and all five senses — encountering the actual highest teaching (uttama dharma shruti) is rare. Most people with intact senses fill their hearing with whatever is around them — and most of what is around them is not the clear path to liberation. Many follow teachers who claim to offer liberation but whose doctrines lead practitioners away from it. The fourth gift: actually encountering true teaching.</p>
         <p class="simple-explanation"><b>The simple version:</b> Lots of people can hear, but most don't hear the right thing. Many follow teachers whose path doesn't actually lead to liberation. The fourth rare gift: encountering the true teaching.</p>
         <div class="concept-tags"><span class="concept-tag">Hearing True Teaching</span><span class="concept-tag">Right Guidance</span><span class="concept-tag">False Paths</span></div>
@@ -562,8 +584,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.28</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">वुच्छिंद सिणेहमप्पणो, कुमुयं सारइयं व पाणियं। से सव्वसिणेह वज्जिए, समयं गोयम मा पमायए ॥१०.२८॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
+        <p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Cut off all attachment from your soul — like the autumn lotus that grows in water yet remains unattached to it. Become free of every form of attachment. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">The image of the autumn lotus (kumuda) is one of the most beautiful in Jain literature. The lotus is born in water, lives submerged in water, yet its petals are never wet — water beads off without clinging. This is the precise instruction: do not remove yourself from the world like a stone, but be in it like the lotus — fully present, entirely unattached. The word "vucchinda" (cut off) is sharp — not loosen, not reduce, but sever.</p>
         <p class="simple-explanation"><b>The simple version:</b> Be like the lotus — in the world but unattached to it. Water doesn't cling to the lotus petal. Let the world be what it is, but don't let it cling to you.</p>
         <div class="concept-tags"><span class="concept-tag">Non-attachment</span><span class="concept-tag">Lotus Metaphor</span><span class="concept-tag">Renunciation</span></div>
@@ -576,8 +600,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.29</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">चिच्चाणं धणं च भारियं, पव्वइओ हि सि अणगारियं। मा वंतं पुणो वि आविए, समयं गोयम मा पमायए ॥१०.२९॥</p>
-        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+        <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Having renounced wealth and wife (worldly life), you have accepted the homeless (monastic) path. Do not return to what you have already cast aside. O Gautam, do not be negligent for even a moment.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">The teaching becomes explicit: Gautama has already renounced. He is already on the path. This verse is not an invitation to renounce — it is a warning not to regress. The Prakrit word "vantam" is striking — it means vomited. What has been vomited out is done; to take it back in is a violation both of the body and of the spirit. Worldly life that has already been renounced should not be sought again, even in imagination or desire.</p>
         <p class="simple-explanation"><b>The simple version:</b> You already left that life behind. Don't go back to it — not in action, not in longing. What's vomited out is vomited out.</p>
         <div class="concept-tags"><span class="concept-tag">Monastic Vow</span><span class="concept-tag">No Regression</span><span class="concept-tag">Renunciation</span></div>
@@ -603,8 +629,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.31</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">ण हु जिणे अज्ज दीसइ, बहुमए दीसइ मग्गदेसिए। संपइ णेयाउए पहे, समयं गोयम मा पमायए ॥१०.३१॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Today no living Tirthankara is visible, and many self-proclaimed path-guides are seen — yet right now, the true path to liberation is available. O Gautam, do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">This verse is strikingly honest. It acknowledges that in the current age (spoken from within the fifth era of time), no Tirthankara walks the earth. Many claim to show the way. And yet — the teaching is here, the path is available, and those who follow it with genuine understanding and discipline can still attain liberation. The absence of the Tirthankara in person is not an excuse for negligence.</p>
         <p class="simple-explanation"><b>The simple version:</b> There's no living Tirthankara today, and many fake guides. But the path itself is still here, still valid. Walk it — don't use the difficulty of the time as an excuse.</p>
         <div class="concept-tags"><span class="concept-tag">Tirthankara</span><span class="concept-tag">Current Age</span><span class="concept-tag">Path Available</span></div>
@@ -617,9 +645,11 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.32</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">अवसोहिय कंटगापहं, ओइण्णो सि पहं महालयं। गच्छिस मग्गं विसोहिया, समयं गोयम मा पमायए ॥१०.३२॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Having cleared the thorny path, you have entered the great royal highway of liberation. Walk this path with full and unwavering faith, clearing every obstacle ahead. O Gautam, do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">The metaphor shifts to a journey. The thorny path (kantakapaham) represents the ordinary life of attachment, distraction, and wrong-view — full of obstacles at every step. By renouncing and taking up practice, Gautama has cleared that thorn-path and entered the great highway (mahalayam patham) — the Jain path of right conduct, which the great ones (the liberated ones) have walked before. It is cleared, wide, and true. The instruction: stay on it, with full faith.</p>
         <p class="simple-explanation"><b>The simple version:</b> You left the thorny path of worldly life and entered the clear, open highway to liberation. You're on the right road now. Don't wander off it.</p>
         <div class="concept-tags"><span class="concept-tag">Path of Liberation</span><span class="concept-tag">Right Conduct</span><span class="concept-tag">Steadfastness</span></div>
@@ -632,8 +662,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.33</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">अबले जह भारवाहए, मा मग्गे विसमेऽवगाहिया। पच्छा पच्छाणुतावए, समयं गोयम मा पमायए ॥१०.३३॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div><p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
+        <p class="principle-def">Self-imposed order of thought, word, and deed transforms the soul.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Like a weak porter who loses patience on a difficult road, abandons his precious load midway, and then bitterly regrets it at home — do not similarly abandon the self-discipline you have accepted. O Gautam, do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Vinaya · Discipline</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">The parable is vivid: a man is hired to carry a heavy load. He begins the journey. Midway, the road becomes rough — and he sets down his load and walks home empty-handed. When he arrives home and realizes he has no payment and must face poverty, he regrets it deeply. The load he abandoned was his wage and his livelihood. The parallel: the "load" of monastic discipline is heavy, but abandoning it midway is the real catastrophe — not carrying it.</p>
         <p class="simple-explanation"><b>The simple version:</b> A weak porter drops his load halfway and goes home — then regrets it when he's poor. Don't drop your practice when it gets hard. The regret after is much worse than the difficulty during.</p>
         <div class="concept-tags"><span class="concept-tag">Perseverance</span><span class="concept-tag">No Mid-Path Retreat</span><span class="concept-tag">Parable</span></div>
@@ -646,8 +678,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.34</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">तिण्णो हु सि अण्णवं महं, किं पुण चिट्टुसि तीरमागओ। अभितुर पारं गिमत्तए, समयं गोयम मा पमायए ॥१०.३४॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">You have crossed the great ocean of existence — why do you now stand still on the near shore? Swiftly reach the far shore (liberation). O Gautam, do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">This is one of the most dramatic verses in the chapter. Gautama has done the immense work — he has renounced, taken vows, practiced. He has crossed the vast ocean of samsara. He stands on the near shore. And the teacher asks: why are you standing there? The far shore — liberation (moksha) — is right there. The verse is a loving provocation: you have done the hardest part. Finish it. Do not stop with liberation in sight.</p>
         <p class="simple-explanation"><b>The simple version:</b> You've done the hard part — you crossed the ocean of samsara. Now you're standing on the near shore looking at liberation on the other side. Why are you just standing there? Cross it.</p>
         <div class="concept-tags"><span class="concept-tag">Near Liberation</span><span class="concept-tag">Samsara as Ocean</span><span class="concept-tag">Final Push</span></div>
@@ -660,8 +694,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.35</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">अकलेवर-सेणिमुसिया, सिद्धिं गोयम लोयं गच्छिसि। खेमं च सिवं अणुत्तरं, समयं गोयम मा पमायए ॥१०.३५॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Climbing the liberation-ladder beyond the body, O Gautam, you will attain the realm of the liberated — free from trouble, auspicious, unsurpassed. Do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">This verse offers the vision: the aklevara-shreni — the ladder of pure thought and practice that dissolves karma and leads the soul beyond all physical existence to the realm of the liberated (Siddha-loka). It is described as "khemam" (free from all harm and trouble), "shivam" (auspicious, wholesome), and "anuttaram" (unsurpassed — the highest state possible). This is what awaits on the far shore. The destination is named clearly: why wait?</p>
         <p class="simple-explanation"><b>The simple version:</b> Beyond the body, beyond the cycle, beyond every form of suffering — there is the realm of the liberated. Peaceful, pure, unsurpassed. That is where you are headed. Keep going.</p>
         <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">Siddha-Loka</span><span class="concept-tag">Final Goal</span></div>
@@ -674,8 +710,10 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.36</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">बुद्धे परिणिभ्युडे चरे, गामगए णगरे व संजए। संतिमग्गं च वूहए, समयं गोयम मा पमायए ॥१०.३६॥</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Prajna · Wisdom</span></div><p class="principle-def">Direct insight into reality transcends mere intellectual knowledge.</p></div>
+        <p class="principle-def">Direct insight into reality transcends mere intellectual knowledge.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Having realized truth and extinguished the passions, practice self-restraint as you roam through villages and cities — cultivate and expand the path of peace. O Gautam, do not be negligent for even a moment.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Prajna · Wisdom</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">This verse describes the active life of the enlightened monk: "budde" (having realized), "parinibhyude" (having quenched the passions fully), "charе" (moving through the world). Even with wisdom attained, the monk does not cease — he continues wandering, teaching, growing in the path of peace (shantimargam). The instruction is both inward (keep extinguishing) and outward (keep moving, keep teaching). Negligence has no place even for the advanced practitioner.</p>
         <p class="simple-explanation"><b>The simple version:</b> Even after realizing truth and quenching the passions, keep moving. Wander through villages and towns. Cultivate the path of peace in yourself and expand it in the world.</p>
         <div class="concept-tags"><span class="concept-tag">Self-Restraint</span><span class="concept-tag">Active Practice</span><span class="concept-tag">Path of Peace</span></div>
@@ -691,9 +729,11 @@ html { scroll-behavior: smooth; }
       <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.37</span>
       <div class="space-y-4 flex-1">
         <p class="sutra-sanskrit font-headline">बुद्धस्स णिसम्म भासियं, सुकिहयं-मट्टुपओवसोहियं। रागं दोसं च छिंदिया, सिद्धिगइं गए गोयमे ॥१०.३७॥<br/>— ति बेमि ।</p>
-        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div><p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
+        <p class="principle-def">Freedom from karma and rebirth is the soul's eternal home.</p></div>
         <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Sanga · Attachment</span></div><p class="caution-def">Emotional bonds to people and things perpetuate suffering.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">Having listened to the supremely beautiful and meaningful words of the Enlightened One (Lord Mahavira) — cutting away every thread of attachment and aversion — Gautama attained liberation. Thus I say.</p>
+<div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Moksha · Liberation</span></div>
+        
         <p class="text-base text-on-surface-variant leading-relaxed">The chapter closes with its most extraordinary moment: the teaching arrives, and the student attains what the teaching promises. Gautama — who was addressed throughout as "O Gautam, do not be negligent" — hears the full teaching to its end, cuts away attachment (raga) and aversion (dosha) completely, and attains liberation (siddhigatim). The word "siddhi-gatim gaye" means literally "gone to the state of perfection." The closing "iti bemi" (thus I say) is Lord Mahavira's seal on the teaching — the words are his own.</p>
         <p class="simple-explanation"><b>The simple version:</b> Gautama heard everything the Enlightened One said. He cut away attachment and aversion completely. And he was liberated. That is what these teachings lead to — not just theory, but the end of the cycle.</p>
         <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">Gautama Swami</span><span class="concept-tag">Attachment and Aversion</span><span class="concept-tag">Thus I Say</span></div>

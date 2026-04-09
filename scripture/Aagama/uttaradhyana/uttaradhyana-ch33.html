@@ -74,24 +74,24 @@
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #9b1515; background: rgba(186,26,26,0.05); }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.wrong-view-badge { background: #9b1515; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #9b1515; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #166534; background: rgba(22,101,52,0.05); }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: #166534; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #166534; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 8px; margin-bottom: 1.25rem; margin-top: 1rem; padding: 1rem; border-left: 3px solid #1e40af; background: rgba(30,64,175,0.05); }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.caution-badge { background: #1e40af; color: white; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; padding: 6px 12px; border-radius: 3px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.1rem; font-weight: 700; color: #1e40af; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 1rem; color: #4d4637; line-height: 1.6; }
 </style>
  </head>
  <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -301,10 +301,12 @@
        <p class="sutra-sanskrit font-headline">
         अट्ठु कम्माइं वोच्छामि, आणुपुव्वि जहक्कमं । जेहिं बद्धो अचं जीवो, संसारे परिवट्टइ ॥३३.१॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div><p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
+       <p class="caution-def">Involvement in worldly activities generates binding karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         I shall describe the eight karmas in sequence, by which this soul, being bound, wanders in the cycle of worldly existence.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Samsara · Worldly Existence</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Mahavira opens this chapter with a direct promise: I will explain the eight karmas in order. The phrase "anupurvī yathākramam" — in sequence, following the proper order — signals that this is not casual description but a systematic, technical teaching. Think of it like a doctor laying out the eight types of disease a patient must understand before any effective treatment can begin. You cannot treat what you have not diagnosed. The soul (jīva) is described as bound (baddha) — not in its natural, free state, but constrained and shaped by eight forms of invisible karmic matter that cling to it like layers of grime over a mirror. Because of this bondage, the soul "wanders in the cycle" of birth and death — it cannot freely choose where to be born, how long to live, what level of knowledge it has access to, or even how to feel on any given day. Everything about its worldly existence — body, family, emotions, lifespan, limitations — is shaped by these eight invisible constraints accumulated over countless past lives. This opening sutra is simultaneously a diagnosis and an invitation. Before any real liberation work can begin, the mechanism of bondage must be understood clearly and precisely. A person who does not know what is binding them cannot work intelligently toward freedom. This chapter is the map of the chains — and understanding the chains is the first step toward removing them.
        </p>
@@ -523,10 +525,12 @@
        <p class="sutra-sanskrit font-headline">
         वेयणीयं पि च दुविहं, सायमसायं च आहियं । सायस्स उ बहू भेया, एमेव असायस्स वि ॥३३.७॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div><p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
+       <p class="caution-def">Suffering arises from identifying with the perishable body and desires.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Feeling-producing karma is also of two kinds — pleasant and unpleasant; and the pleasant has many sub-divisions, as does the unpleasant.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Dukha · Suffering</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Feeling-producing karma (vedanīya) is divided into two types: śāta vedanīya (pleasant feelings and enjoyable experiences) and aśāta vedanīya (unpleasant feelings, pain, and suffering). Every single experience of pleasure or pain — every moment of warmth, every sting of heartbreak, every wave of joy, every bout of illness — is the fruition of one of these two types of karma ripening at its predetermined time. This karma does not determine what events happen to you; it determines the felt quality of your inner experience when those events occur. Someone with strong pleasant-feeling karma experiences even ordinary circumstances as enjoyable; someone with strong unpleasant-feeling karma suffers even in comfortable circumstances. Both types have many further sub-divisions based on the specific nature, intensity, and context of the experiences they produce. It is important to understand that vedanīya karma is among the least harmful spiritually — even the pleasant version does not block liberation, because the soul experiencing pleasure can still hold right faith and right conduct. This contrasts with mohanīya karma, which actively distorts both.
        </p>
@@ -562,10 +566,12 @@
        <p class="sutra-sanskrit font-headline">
         मोहणिज्जं पि दुविहं, दंसणे चरणे तहा । दंसणे तिविहं वुत्तं, चरणे दुविहं भवे ॥३३.८॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div><p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
+       <p class="caution-def">Anger destroys equanimity and generates the most intense karma.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Deluding karma is also of two kinds — perception-deluding and conduct-deluding; the perception-deluding is said to be of three types, and the conduct-deluding is of two types.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Krodha · Anger</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Deluding karma (mohanīya) is universally regarded in Jain philosophy as the most dangerous of all eight karmas — so dangerous that it is called the "king of karmas." The reason is precise: while the other karmas obstruct or limit the soul, mohanīya actually attacks the two foundations of the path itself — right faith (seeing reality as it is) and right conduct (acting rightly based on what you see). Without right faith, you cannot even begin the path correctly. Without right conduct, you cannot stay on it. Mohanīya attacks both simultaneously. It has two main divisions: darśana-mohanīya (which deludes faith — it corrupts the soul's fundamental perception of what is real and what is true) and cāritra-mohanīya (which deludes conduct — it drives the soul toward harmful and binding actions through the passions). The former has three sub-types reflecting three different degrees of distortion of right faith, and the latter has two broad categories — passions (kaṣāyas) and quasi-passions (nokaṣāyas) — covering the full range of ways the soul is driven to act against its own best interest. Removing mohanīya is the most critical milestone on the path to liberation.
        </p>
@@ -601,16 +607,18 @@
        <p class="sutra-sanskrit font-headline">
         सम्मत्तं चेव मिच्छत्तं, सम्मामिच्छत्तमेव य । एयाओ तिण्णि पयडीओ, मोहणिज्जस्स दंसणे ॥३३.९॥
        </p>
-       <div class="wrong-view-banner">
-  <div class="wrong-view-header">
-    <span class="wrong-view-badge">Wrong View Refuted</span>
-    <span class="wrong-view-name">Mithyādṛṣṭi Doctrines (मिथ्यादृष्टि) · The soul, karma, and liberation do not exist as described</span>
-  </div>
-  <p class="wrong-view-def">Any school — Vedic, materialist, or fatalist — that denies the independent soul, the mechanics of karma, or the possibility of self-effort-based liberation, holds what Jainism calls mithyatva: wrong faith that is itself a specific type of karma binding the soul tightly to continued wandering.</p>
+       <p class="wrong-view-def">Any school — Vedic, materialist, or fatalist — that denies the independent soul, the mechanics of karma, or the possibility of self-effort-based liberation, holds what Jainism calls mithyatva: wrong faith that is itself a specific type of karma binding the soul tightly to continued wandering.</p>
 </div>
        <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Right faith, wrong faith, and mixed faith — these are the three sub-types of the perception-deluding aspect of deluding karma.
        </p>
+<div class="wrong-view-banner">
+  <div class="wrong-view-header">
+    <span class="wrong-view-badge">Wrong View Refuted</span>
+    <span class="wrong-view-name">Mithyādṛṣṭi Doctrines (मिथ्यादृष्टि) · The soul, karma, and liberation do not exist as described</span>
+  </div>
+  
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         This sutra specifies the three sub-types of darśana-mohanīya by naming them precisely: samyaktva (the state where right faith has been reached but is still slightly veiled), mithyatva (the state of completely wrong faith — the soul holding fundamentally false views about reality, the soul, karma, or the path), and samyag-mithyatva (a mixed state where the soul fluctuates between right and wrong views without settling firmly in either). Mithyatva is the most binding and the most spiritually urgent problem because it prevents the soul from even beginning the path correctly. In Jainism, a person holding mithyatva may be virtuous by social standards, may perform rituals, may even observe some restraints — but if the foundational view of reality is wrong, all that effort cannot lead to liberation. It is like rowing hard in the wrong direction. The breakthrough from mithyatva to samyak-darśana (right faith) is called the first great threshold of the spiritual path — the moment the soul begins to see reality as it actually is. Until that threshold is crossed, the path has not really begun.
        </p>
@@ -643,10 +651,12 @@
        <p class="sutra-sanskrit font-headline">
         चरित्तमोहणं कम्मं, दुविहं तु विचारियं । कसाय मोहणिज्जस्स तहेव य ॥३३.१०॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         Conduct-deluding karma, when examined, is of two kinds — the passions (kashaya) and the quasi-passions (nokashaya).
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         Conduct-deluding karma (cāritra-mohanīya) works through two distinct channels. The kaṣāyas are the four primary passions — anger (krodha), pride (māna), deceit (māyā), and greed (lobha) — the four roots of almost every harmful act a soul commits. These four are "sticky" — they generate karma at full intensity and make it difficult for the soul to maintain right conduct. The nokaṣāyas are the quasi-passions — secondary emotional-behavioral states that are weaker than the four kaṣāyas but still disrupt the soul's inner clarity and pull it away from pure equanimity. They include laughter, attachment to pleasant things, dislike of unpleasant things, sorrow, fear, disgust, and various forms of sexual inclination. The nokaṣāyas are called "quasi-passions" because they share the nature of the primary passions without being as deeply entrenched. Both the kaṣāyas and nokaṣāyas directly undermine the soul's capacity for stable, consistent right conduct — this is why cāritra-mohanīya is so powerful. Removing it progressively is what the entire 14-stage spiritual ladder (guṇasthāna) is largely about.
        </p>
@@ -679,10 +689,12 @@
        <p class="sutra-sanskrit font-headline">
         सोलसविहं भेण्णं, कम्मं तु कसायज्जं । सत्तविहं णवविहं वा, कम्मं च णोकसायज्जं ॥३३.११॥
        </p>
-       <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div><p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
+       <p class="caution-def">Craving for possessions generates binding karma without ceasing.</p></div>
         <p class="text-lg font-semibold text-on-surface leading-relaxed">
         The passion-produced karma is of sixteen kinds; and the quasi-passion-produced karma is of seven or nine kinds.
        </p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Lobha · Greed</span></div>
+        
        <p class="text-base text-on-surface-variant leading-relaxed">
         The sixteen kaṣāya sub-types arise from the four primary passions (anger, pride, deceit, greed) operating at four different levels of intensity — giving 4 × 4 = 16 total sub-types. The four intensity levels are: ananta-ānubandhi (infinitely binding — these passions prevent right faith entirely and are the deepest form of karmic bondage), apratyākhyāna (these prevent the partial vows of a lay follower), pratyākhyāna (these prevent the complete vows of a monk but are not infinite), and sañjvalana (smoldering embers — these remain even in advanced practitioners and are the last to go before full liberation). The nokaṣāya are described as seven or nine: the nine include laughter, liking of pleasant things, disliking of unpleasant things, sorrow, fear, disgust, and the three types of sexual inclination (feminine, masculine, and neuter). These quasi-passions are what make even advanced practitioners experience moments of instability. Together, these 25 sub-types of cāritra-mohanīya determine precisely the strength, nature, and depth of conduct-distortion operating in any given soul at any given moment — making this the most detailed and clinically precise part of the chapter.
        </p>
