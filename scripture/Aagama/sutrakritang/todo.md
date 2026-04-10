@@ -146,6 +146,8 @@ border-radius: 6px
 
 ## TODO — Apply ch1 spec to remaining chapters
 
+- [x] Ch1 — APPROVED. Use as reference for all other chapters.
+
 - [ ] Apply banner CSS + structure to ch2–ch23 of Sutrakritanga
   - CSS block (all 3 banner types) to be copied from ch1
   - Banner repositioning: translation → banner(s) → commentary order
