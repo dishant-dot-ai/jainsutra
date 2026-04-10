@@ -46,7 +46,7 @@ font-weight: 600 (font-semibold)
 font-family: Inter, sans-serif (inherited)
 font-size: 1.2rem
 line-height: 1.85
-color: #1d1c17  (override via .sutra-card p.text-base)
+color: #4d4637  (from Tailwind text-on-surface-variant — do NOT override with black)
 ```
 
 **Simple version** — `.simple-explanation`
@@ -54,13 +54,13 @@ color: #1d1c17  (override via .sutra-card p.text-base)
 font-family: Inter, sans-serif
 font-size: 1.2rem
 line-height: 1.85
-color: #1d1c17
+color: #4d4637
 border-top: 1px dashed rgba(201,168,76,0.3)
 margin-top: 1rem
 padding-top: 1rem
 
   "The simple version:" bold label:
-    color: #1d1c17
+    color: #755b00  (gold — NOT black)
     font-weight: 600
 ```
 
