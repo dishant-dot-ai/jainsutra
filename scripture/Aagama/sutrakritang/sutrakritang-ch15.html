@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html class="light" lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -6,8 +7,8 @@
 <title>Sutrakritanga Chapter 15: Nganathaputra | JainAwaken.org</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script id="tailwind-config">
 tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#755b00","on-primary":"#ffffff","primary-container":"#c9a84c","on-primary-container":"#503d00","surface":"#fef9f1","on-surface":"#1d1c17","surface-variant":"#e7e2da","on-surface-variant":"#4d4637","outline":"#7e7665","outline-variant":"#d0c5b2","surface-container-low":"#f8f3eb","surface-container":"#f2ede5","surface-container-high":"#ece8e0","tertiary":"#4d5a98","on-tertiary":"#ffffff","error":"#ba1a1a"},fontFamily:{"headline":["Noto Serif","serif"],"body":["Inter","sans-serif"],"label":["Inter","sans-serif"]},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"}}}}
@@ -17,8 +18,8 @@ html{scroll-behavior:smooth}
 .burnished-gradient{background:radial-gradient(circle at center,#755b00,#c9a84c)}
 .sutra-card{border:1px solid rgba(201,168,76,0.25);border-left:3px solid #c9a84c;background:white}
 .sutra-sanskrit{font-size:1.35rem;line-height:2;color:#503d00}
-.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size:1.1rem;line-height:1.7;color:#4d4637}
-.simple-explanation b{color:#755b00;font-weight:600}
+.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size: 1.2rem;line-height: 1.85;color:#4d4637}
+.simple-explanation b{color: #1d1c17;font-weight:600}
 .concept-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:1rem}
 .concept-tag{display:inline-block;border:1px solid #C9A84C;color:#1d1c17;font-family:'Inter',sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;border-radius:100px;padding:4px 13px;font-weight:500}
 .nav-button{position:fixed;bottom:24px;z-index:100;background:transparent;border:1px solid rgba(201,168,76,0.35);color:rgba(201,168,76,0.6);transition:all 0.5s cubic-bezier(0.4,0,0.2,1);opacity:0;pointer-events:none;transform:translateY(20px)}
@@ -38,422 +39,385 @@ html{scroll-behavior:smooth}
 .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
 .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
 .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(186,26,26,0.04); border-radius: 6px; }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
-
+.wrong-view-badge { background: rgba(186,26,26,0.1); border: 1px solid rgba(186,26,26,0.35); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(30,64,175,0.04); border-radius: 6px; }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
-/* Sutra card hover */
-.sutra-card { transition: border-left-color 0.35s ease, background 0.35s ease, box-shadow 0.35s ease; }
-.sutra-card:hover { border-left-color: #4d5a98 !important; background: rgba(77,90,152,0.028) !important; box-shadow: 0 4px 20px rgba(77,90,152,0.09) !important; }
+.caution-badge { background: rgba(30,64,175,0.1); border: 1px solid rgba(30,64,175,0.35); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body bg-white">
-<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
-  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
-    <div class="flex items-center gap-12">
-      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
-      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
-        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
-      </div>
-    </div>
-    <div class="flex items-center gap-8">
-  <div class="relative group hidden lg:block">
-    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
-    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
-    <div id="search-dropdown"></div>
-  </div>
-  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
 </div>
-  </div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+<input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
 </nav>
 <main class="pt-40">
-
 <section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
-  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
-    <div class="flex flex-col gap-3">
-      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Sutrakritanga Sutra</span>
-      <h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Sutrakritanga Sutra</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
         Questions for the Knower<span class="block text-primary font-normal text-xl md:text-2xl mt-2">नाणाधम्म (Nganathaputra)</span>
-      </h1>
-    </div>
-    <h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">What Is the Path? What Is Bondage?</h2>
-    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Disciples ask Mahavira the most direct questions possible — what binds, what frees, what is the path, what are the signs of genuine progress. The answers are given with precision: bondage is the soul entangled by its own karma-generating activities; liberation is the dissolution of those activities through conquering the four passions; and the signs of genuine practice are visible in how a person moves through the world.</p>
-  </div>
-  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
-    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
-      <img alt="Ancient Jain manuscript — Sutrakritanga" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../../assets/manuscript.jpg"/>
-      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
-    </div>
-    <div class="mt-8 text-center">
-      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">किं मग्गो? किं बंधणं? किं मुक्खो? किं सुहासुहं?<br>एयं पुच्छामो भगवं, अणुसत्थु अम्हे तुमं॥</p>
-      <p class="text-base text-on-surface-variant mt-3 font-light italic">"What is the path? What is bondage? What is liberation? What is happiness and suffering? We ask you, Lord — teach us." — Sutrakritanga 15</p>
-    </div>
-  </div>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">What Is the Path? What Is Bondage?</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Disciples ask Mahavira the most direct questions possible — what binds, what frees, what is the path, what are the signs of genuine progress. The answers are given with precision: bondage is the soul entangled by its own karma-generating activities; liberation is the dissolution of those activities through conquering the four passions; and the signs of genuine practice are visible in how a person moves through the world.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Sutrakritanga" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">किं मग्गो? किं बंधणं? किं मुक्खो? किं सुहासुहं?<br/>एयं पुच्छामो भगवं, अणुसत्थु अम्हे तुमं॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"What is the path? What is bondage? What is liberation? What is happiness and suffering? We ask you, Lord — teach us." — Sutrakritanga 15</p>
+</div>
+</div>
 </section>
-
 <section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
-  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
-    <div class="col-span-12 lg:col-span-4">
-      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
-      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Nganathaputra</h3>
-    </div>
-    <div class="col-span-12 lg:col-span-8 space-y-6">
-      <p class="text-lg leading-relaxed text-on-surface-variant">Chapter 15 of the Sutrakritanga is a question-and-answer chapter structured around the most fundamental questions a seeker can bring to a teacher: what is the path, what is bondage, what is liberation, and how do you recognize genuine practice? The disciples address Mahavira as the Knower of the Path — the one who has traversed it completely and knows it from direct experience, not from inference or tradition.</p>
-      <p class="text-lg leading-relaxed text-on-surface-variant">The answers move through three movements: first, the nature of bondage and the liberation procedure; second, the deepening of the path question to include liberation from suffering and right vision; third, the signs of genuine progress in both monastics and laypeople. The chapter closes with the courageous monk who has heard everything and is now composed within the path — no longer confused about what binds and what frees.</p>
-      <div class="flex gap-8 items-center pt-4 flex-wrap">
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">24</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
-        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
-        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
-      </div>
-    </div>
-  </div>
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Nganathaputra</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant">Chapter 15 of the Sutrakritanga is a question-and-answer chapter structured around the most fundamental questions a seeker can bring to a teacher: what is the path, what is bondage, what is liberation, and how do you recognize genuine practice? The disciples address Mahavira as the Knower of the Path — the one who has traversed it completely and knows it from direct experience, not from inference or tradition.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The answers move through three movements: first, the nature of bondage and the liberation procedure; second, the deepening of the path question to include liberation from suffering and right vision; third, the signs of genuine progress in both monastics and laypeople. The chapter closes with the courageous monk who has heard everything and is now composed within the path — no longer confused about what binds and what frees.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">24</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+</div>
+</div>
+</div>
 </section>
-
 <section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
-  <div class="mb-16">
-    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 15 · Book 1</span>
-    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 24 Sutras</h3>
-    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
-  </div>
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 15 · Book 1</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 24 Sutras</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+</div>
+<div class="section-divider"><span>Part I — What Is Bondage? (1–8)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">किं मग्गो? किं बंधणं? भगवं, एयं पुच्छामहे तुमं।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">What is the path? What is bondage? Lord, this we ask you.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Chapter 15 opens in a completely different register than the preceding chapters. Where chapters 12–14 were Mahavira speaking to monks about conduct, this chapter is structured as a Q&amp;A — the disciples asking, Mahavira answering. The opening question is the most direct possible: what is the path? what is bondage? The two questions are asked together because in Jain philosophy they are two sides of one question. Understanding bondage is understanding what the path must overcome; understanding the path is understanding how bondage ends. The disciples address Mahavira as "Lord" — Bhagavan — the honorific reserved for a Tirthankara, a ford-maker who has himself crossed the ocean of samsara and can therefore guide others across. This is not ceremony. It is precise: a Tirthankara answers from direct experience of liberation, not from inference, scholarship, or tradition. What Mahavira says about the path and bondage, he says as one who has personally traveled this ground. The directness of the question models the directness that genuine students bring: no elaborate philosophical warm-up, no performance of piety, just the core question stated exactly as it is. Good teachers value this directness, and Mahavira responds to it directly in turn.</p>
+<p class="simple-explanation"><b>The simple version:</b> Good students ask direct questions. The disciples here go straight to what matters most: what binds and what frees.</p>
+<div class="concept-tags"><span class="concept-tag">Bondage</span><span class="concept-tag">Liberation</span><span class="concept-tag">Direct Questioning</span><span class="concept-tag">Mahavira</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">बुद्धि तिउट्टे पाणे, चित्तमंते अचित्तए।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The souls — with consciousness and without consciousness — should be understood.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Mahavira does not begin his answer to the bondage question with a list of rules or practices. He begins with ontology — with the fundamental nature of what exists. The first distinction is between beings with consciousness (chit) and matter without consciousness (achit). This is the foundational framework of Jain metaphysics: the universe contains two irreducible categories, soul and non-soul, consciousness and matter. Every soul — whether in a god, a human, an insect, a plant, or an earth-body — is fundamentally conscious. Every piece of matter — physical particles, karmic matter, the elements — is fundamentally non-conscious. Bondage is precisely what happens at the intersection of these two categories: the conscious soul, through its own passionate activities, becomes entangled with non-conscious karmic matter that sticks to it like dust to a surface wet with passion. Until you understand this basic structure — that there is a soul, that it is inherently conscious and pure, that it is currently associated with matter that it did not start out carrying — you cannot understand what bondage means. You might experience the symptoms of bondage (suffering, limitation, death, rebirth) without understanding their cause. Mahavira is giving the cause, and it begins with this distinction.</p>
+<p class="simple-explanation"><b>The simple version:</b> Understanding bondage starts with understanding what a soul is. You cannot understand what binds the soul if you do not first know what the soul is.</p>
+<div class="concept-tags"><span class="concept-tag">Soul</span><span class="concept-tag">Consciousness</span><span class="concept-tag">Matter</span><span class="concept-tag">Foundation</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">चित्तमंते पलिउंचइ, अचित्तं चित्तजं चेव।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The conscious one gets entangled; the non-conscious arises from the conscious.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse describes the actual mechanism of bondage, and it is worth understanding slowly because it is the center of Jain cosmology. Consciousness — the soul — gets entangled. It is the conscious thing that gets caught, not the non-conscious. This matters because it means the soul is not a passive victim of external forces that bind it against its will. The soul acts. Its actions are passionate — driven by anger, pride, deceit, or greed. These passionate activities create a specific condition at the soul's surface that allows karmic matter (fine non-conscious particles) to adhere to it. The "non-conscious arising from the conscious" points to this: karma is non-conscious matter, but it attaches itself because of conscious, passionate activity. Remove the passion from the activity and the karma cannot adhere. The soul creates its own bondage by acting passionately. This is simultaneously the most sobering and the most empowering truth in Jain philosophy. Sobering because there is no external force to blame — the soul has done this to itself, life after life, through its own choices. Empowering because if the soul created the bondage, the soul can also dissolve it — by changing what it does. The path is entirely within the soul's own hands. No deity needs to intervene, no grace needs to descend. The soul can free itself, because the soul bound itself.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul creates its own bondage through its own actions. Nothing external is doing this — the soul is doing it to itself.</p>
+<div class="concept-tags"><span class="concept-tag">Karma</span><span class="concept-tag">Entanglement</span><span class="concept-tag">Soul's Activity</span><span class="concept-tag">Self-Created Bondage</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवं बंधणमाहिए, मोक्खस्स य इमो विही।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Thus bondage has been described; and this is the procedure for liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Mahavira signals a transition: bondage has been described, and now the procedure for liberation follows. The precision of the transition is philosophically significant. He does not say "and now let me explain a separate topic." He says "thus is bondage — and this is the procedure for liberation." The two are directly connected: the procedure for liberation is the logical consequence of understanding how bondage works. If bondage results from passionate activity that allows karma to adhere to the soul, then the procedure for liberation is: (1) stop new karma from forming by removing passion from activity, and (2) burn away accumulated karma through restraint, equanimity, and austerity. These are mirror operations. Bondage is karma accumulating; liberation is karma dissolving. Bondage is passion driving action; liberation is passion removed from action. Understanding bondage completely is already ninety percent of understanding liberation — because the liberation procedure is just bondage reversed. This is why Mahavira answers both questions in the same breath. They are the same answer seen from two directions.</p>
+<p class="simple-explanation"><b>The simple version:</b> Understanding bondage is already half the answer about liberation. The path out is the reverse of the path in.</p>
+<div class="concept-tags"><span class="concept-tag">Bondage Described</span><span class="concept-tag">Liberation Procedure</span><span class="concept-tag">Mirror Structure</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण कुज्झे ण य माणे, ण य माया ण लोभए।</p>
 
-  <div class="section-divider"><span>Part I — What Is Bondage? (1–8)</span></div>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">No anger, no pride, no deceit, no greed.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Four Passions · Catuṣ-Kashāya</span>
+</div>
+<p class="principle-def">Anger, pride, deceit, and greed are the four sticky passions that make the soul's surface adhesive to karmic matter — conquering all four is the operative work of the path to liberation.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Having established that karma adheres to the soul through passionate activity, Mahavira now names the four passions precisely: krodha (anger), mana (pride), maya (deceit), and lobha (greed). In Jain philosophy these are called the kashaya — the "sticky" passions that make the soul's surface adhesive to karmic matter. Each passion generates karma through its specific mechanism. Anger drives violent action — harsh words, physical aggression, the internal burning that produces harmful speech even when no physical harm is done. Pride produces the mental inflation of self that distorts judgment, creates contempt for others, and generates the specific karma of arrogance. Deceit — maya — produces false representations of oneself and the world, spreading wrong understanding and generating karma through every dishonest act. Greed drives the accumulation of more than is needed, which requires constant effort to acquire, protect, and maintain — each such effort generating fresh karma. These four passions are not peripheral bad habits. They are the fundamental energies that keep the bondage engine running. Remove them and the engine stops. The practice of liberation is precisely the systematic work of weakening and eventually eliminating these four, one encounter at a time, until none of them can drive action anymore.</p>
+<p class="simple-explanation"><b>The simple version:</b> The four passions are the engines of bondage. Every action driven by anger, pride, deceit, or greed adds to the chains.</p>
+<div class="concept-tags"><span class="concept-tag">Four Passions</span><span class="concept-tag">Anger</span><span class="concept-tag">Pride</span><span class="concept-tag">Deceit</span><span class="concept-tag">Greed</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कोहं जेइ माणं जेइ, मायं जेइ लोहं जेइ।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He conquers anger, conquers pride, conquers deceit, conquers greed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Having named the four passions as the generators of bondage, Mahavira now names the four conquests that constitute the liberation procedure: conquer anger, conquer pride, conquer deceit, conquer greed. The word "conquers" — jei — is important. This is active, not passive. The passions are not dissolved by simply wishing them gone or by performing rituals aimed at purification. They are conquered through specific, repeated practice in specific situations. Anger is conquered in the moment of provocation — the actual moment when it arises — by recognizing it, not following it, and choosing a different response. This is done hundreds of times before the conquest becomes secure. Pride is conquered by practicing accurate self-assessment: seeing yourself as you actually are, not as you wish to appear to yourself or others. Deceit is conquered by maintaining truthfulness even when the truth is costly — even when honesty creates awkwardness, loses you advantages, or exposes your limitations. Greed is conquered by the constant practice of sufficiency: taking only what is needed, releasing what is accumulated, training the mind to find the present moment adequate. Each of these conquests is a repeated practice, not a single event. And each conquest is permanent — in Jain philosophy, each victory over a passion at a deep level weakens it permanently, until eventually it cannot arise at all. This is the actual content of the path toward liberation.</p>
+<p class="simple-explanation"><b>The simple version:</b> Liberation is built from these four conquests, repeated until they are complete. Each victory over a passion weakens it permanently.</p>
+<div class="concept-tags"><span class="concept-tag">Four Conquests</span><span class="concept-tag">Inner Victory</span><span class="concept-tag">Liberation Work</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">न कुणइ न कारवइ, न अणुजाणइ पाणिणं।</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-1">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.1</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">किं मग्गो? किं बंधणं? भगवं, एयं पुच्छामहे तुमं।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">What is the path? What is bondage? Lord, this we ask you.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Chapter 15 opens in a completely different register than the preceding chapters. Where chapters 12–14 were Mahavira speaking to monks about conduct, this chapter is structured as a Q&A — the disciples asking, Mahavira answering. The opening question is the most direct possible: what is the path? what is bondage? The two questions are asked together because in Jain philosophy they are two sides of one question. Understanding bondage is understanding what the path must overcome; understanding the path is understanding how bondage ends. The disciples address Mahavira as "Lord" — Bhagavan — the honorific reserved for a Tirthankara, a ford-maker who has himself crossed the ocean of samsara and can therefore guide others across. This is not ceremony. It is precise: a Tirthankara answers from direct experience of liberation, not from inference, scholarship, or tradition. What Mahavira says about the path and bondage, he says as one who has personally traveled this ground. The directness of the question models the directness that genuine students bring: no elaborate philosophical warm-up, no performance of piety, just the core question stated exactly as it is. Good teachers value this directness, and Mahavira responds to it directly in turn.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Good students ask direct questions. The disciples here go straight to what matters most: what binds and what frees.</p>
-  <div class="concept-tags"><span class="concept-tag">Bondage</span><span class="concept-tag">Liberation</span><span class="concept-tag">Direct Questioning</span><span class="concept-tag">Mahavira</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He does not do, does not cause to be done, does not approve of harming living beings.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Three Modes of Non-Violence · Tri-Yoga Ahiṃsā</span>
+</div>
+<p class="principle-def">Non-violence covers all three modes of participation in harm — what you do yourself, what you cause others to do, and what you approve of — all three generate karma equally.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">One of the most precise teachings in the entire Sutrakritanga: there are three modes of participation in harm, and all three generate karma equally. The first is direct action — you personally do the harm. The second is commissioning — you instruct or cause another to do the harm on your behalf. The third is approval — you know harm is being done and you consent to it, accept its fruits, or fail to object when you could. Most ethical frameworks focus only on the first mode. Jain philosophy insists that all three are equally significant karmic events. Consider concrete examples: a monk who asks an attendant to remove an ant colony from his path because he cannot step over it has generated the same harm-karma as if he had moved the colony himself. A person who eats meat has generated karma both through the direct consumption and through the systemic approval of the practice. A person who profits from another's harmful actions — and says nothing — has generated karma through approval, even if they never touched the harm itself. This three-mode framework is why Jain practice extends so far beyond simple personal conduct: the practitioner must examine what they cause, what they approve, what they profit from, and what they stay silent about — not just what they personally do with their own hands.</p>
+<p class="simple-explanation"><b>The simple version:</b> Non-violence covers three things: what you do, what you cause others to do, and what you approve of. All three count.</p>
+<div class="concept-tags"><span class="concept-tag">Three Modes of Non-Violence</span><span class="concept-tag">Approval</span><span class="concept-tag">Karma</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवमेव भगवं मग्गो, एयं बंधणं तहा।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, Lord, is the path; and thus is bondage.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The disciples confirm their understanding by restating it: "Thus, Lord, is the path; and thus is bondage." This move — reflecting the teaching back to the teacher — is a standard element of genuine learning in the Jain tradition. It is not parroting. It is confirmation that the teaching has been received, understood, and can be accurately reproduced. The "thus" is the signal of correct reception. The disciples are saying: we heard what you said, we understood it, and this is what we understood. If they have understood correctly, the teacher confirms it. If they have misunderstood, the teacher corrects it. This structure of teaching, reflecting, and confirming is still one of the best learning methods known. The teacher says something important. The student repeats it back in their own words. The teacher checks for accuracy. Understanding is verified before moving to the next level. Part I of the chapter ends with this confirmation: bondage is understood. The consciousness gets entangled through passion-driven activity; karma adheres through the four passions; liberation is the procedure that reverses this. With this understanding secure, the chapter can move deeper.</p>
+<p class="simple-explanation"><b>The simple version:</b> The teaching is confirmed by the student reflecting it back. Understanding is verified by being able to say it back accurately.</p>
+<div class="concept-tags"><span class="concept-tag">Teaching Sealed</span><span class="concept-tag">Confirmation</span><span class="concept-tag">Part I Summary</span></div>
+</div></div></article>
+<div class="section-divider"><span>Part II — What Is the Path? (9–16)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">किं मुक्खो? भगवं पुच्छामहे, मुक्खो य दुक्खस्स किं?</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">What is liberation, Lord, we ask? And what is liberation from suffering?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Part II opens with the disciples deepening their inquiry. Having received the teaching on bondage and confirmed their understanding, they press further: what exactly is liberation? And specifically, what is liberation from suffering? These are two angles on the same question, and the disciples are sophisticated enough to ask both simultaneously. The first angle is metaphysical: liberation as the soul's return to its natural state of pure, unbound consciousness — the state that existed before the first karma ever adhered, and that will exist again when the last karma has been dissolved. The second angle is experiential: liberation as the end of all suffering. This second question is the one most people care about most directly. The metaphysics of the soul may be intellectually important, but what most people want to know is: when does the suffering stop? Mahavira's answer will show that these are not two separate questions with two separate answers. The end of suffering and the soul's liberation to its pure state are the same event. You cannot have one without the other. This is important because it rules out a common misreading: liberation is not a kind of anaesthetic that numbs the soul to its circumstances while leaving the circumstances unchanged. Liberation is the dissolution of the very structure that produces suffering in the first place.</p>
+<p class="simple-explanation"><b>The simple version:</b> What is liberation? And what does it feel like from the inside? Both angles on the question are worth asking.</p>
+<div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">End of Suffering</span><span class="concept-tag">Two Angles</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे णं धम्मं विजाणइ, सो मुच्चइ सव्वदुक्खाओ।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He who truly understands the teaching is freed from all suffering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Mahavira's answer is compact and total: he who truly understands the teaching is freed from all suffering. This is the Jain position on what liberation is — and it is worth sitting with because it is not the answer most people expect. Most people expect the answer to be: "he who performs sufficient austerities," or "he who completes the five great vows without exception," or "he who accumulates enough merit." Mahavira says: he who truly understands the teaching. The "truly" is doing enormous work here. It is not the understanding of one who has read the text and can repeat it. It is the understanding of one who has so thoroughly grasped the nature of the soul, the mechanism of karma, the operation of the four passions, and the path through them, that this understanding has dissolved every false identification and every passion at their root. Understanding at this depth is not just an intellectual state — it is a transformative state. When you truly understand that you are not your body, not your social persona, not your accumulated history, but a pure consciousness temporarily entangled with matter — that understanding itself is the beginning of the disentanglement. The soul freed from false identification is a soul whose passions are losing their grip. Complete understanding and complete liberation are, in the end, the same event. This is why Mahavira answers both questions — what is liberation? what is liberation from suffering? — with the same answer.</p>
+<p class="simple-explanation"><b>The simple version:</b> Liberation and the end of suffering are the same event. Understanding completely is the moment the suffering structure collapses.</p>
+<div class="concept-tags"><span class="concept-tag">True Understanding</span><span class="concept-tag">Liberation</span><span class="concept-tag">End of Suffering</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जाणइ बंधणं मोक्खं, जाणइ लोगं अणाइयं।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He knows bondage and liberation; he knows the world as beginningless.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The monk who has genuinely understood bondage and liberation knows the world as beginningless — and this is a philosophically important point that distinguishes Jain cosmology from several other traditions. Jainism holds that the universe has no absolute beginning: there was no moment of creation by a divine being, no first cause that set everything in motion from nothing. The cycle of samsara — birth, death, and rebirth — extends backward in time infinitely. Every soul has been wandering through this cycle since beginningless time, accumulating karma in life after life. This means the problem of bondage is not a small one. The monk who truly understands this is facing something of enormous proportions: not one life's worth of karma to clear, but an infinite accumulation across infinite lives. The Jain path takes this seriously — which is why it is demanding, and why the great monks practice with extraordinary intensity. They understand the scale of what they are working through. And yet the same monk also knows liberation — knows it as real, achievable, and precisely described by the Tirthankaras who accomplished it. Holding both truths simultaneously — the enormity of the problem and the certainty of the solution — is the monk's specific mental orientation. He does not minimize the problem, and he does not despair of the solution.</p>
+<p class="simple-explanation"><b>The simple version:</b> The problem is vast; the solution is clear and achievable. Holding both truths at once is the monk's orientation.</p>
+<div class="concept-tags"><span class="concept-tag">Beginningless World</span><span class="concept-tag">Scope of Bondage</span><span class="concept-tag">Certainty of Liberation</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सम्मद्दिट्ठी सया होज्जा, लोगदिट्ठी विवज्जए।</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-2">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.2</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">बुद्धि तिउट्टे पाणे, चित्तमंते अचित्तए।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The souls — with consciousness and without consciousness — should be understood.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Mahavira does not begin his answer to the bondage question with a list of rules or practices. He begins with ontology — with the fundamental nature of what exists. The first distinction is between beings with consciousness (chit) and matter without consciousness (achit). This is the foundational framework of Jain metaphysics: the universe contains two irreducible categories, soul and non-soul, consciousness and matter. Every soul — whether in a god, a human, an insect, a plant, or an earth-body — is fundamentally conscious. Every piece of matter — physical particles, karmic matter, the elements — is fundamentally non-conscious. Bondage is precisely what happens at the intersection of these two categories: the conscious soul, through its own passionate activities, becomes entangled with non-conscious karmic matter that sticks to it like dust to a surface wet with passion. Until you understand this basic structure — that there is a soul, that it is inherently conscious and pure, that it is currently associated with matter that it did not start out carrying — you cannot understand what bondage means. You might experience the symptoms of bondage (suffering, limitation, death, rebirth) without understanding their cause. Mahavira is giving the cause, and it begins with this distinction.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Understanding bondage starts with understanding what a soul is. You cannot understand what binds the soul if you do not first know what the soul is.</p>
-  <div class="concept-tags"><span class="concept-tag">Soul</span><span class="concept-tag">Consciousness</span><span class="concept-tag">Matter</span><span class="concept-tag">Foundation</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He should always have right vision, and abandon the worldly view.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Right Vision Over Worldly View · Samyak-Darśana</span>
+</div>
+<p class="principle-def">Shifting from the worldly view — which identifies the soul with the body and social persona — to right vision — which sees the soul as pure consciousness — is the most fundamental change on the entire path.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Right vision — sammad-ditthi in Prakrit — is one of the most important concepts in the entire Jain path. Mahavira pairs it here with its opposite: loka-ditthi, the worldly view. Understanding the contrast between these two is essential. The worldly view is the default mode of human perception: you are your body, your social role, your name and family, your accumulated history of experiences and preferences. The purpose of life, under the worldly view, is to acquire pleasant experiences and avoid unpleasant ones — to satisfy desire, to protect what you have, to be seen well by others. This view seems obvious and natural because almost everyone around you shares it. But in Jain philosophy this view is the root error — the mithya-darshana, wrong vision — and every bondage-generating action flows from it, because if you believe you are your body then you will act to protect your body at the expense of others; if you believe you are your social status then you will generate pride-karma endlessly defending it. Right vision is the correction at the root: the soul is pure consciousness, distinct from the body, temporarily bound by karma it generated through passionate activity, capable of complete liberation. With this vision in place, the reasons for harm, deception, and attachment lose their grip. Why defend your social status with pride-karma if you know your social status is not your soul? Why accumulate possessions with greed-karma if you know possession cannot make the soul more what it already is? Right vision changes the entire motivational structure of a life.</p>
+<p class="simple-explanation"><b>The simple version:</b> The shift from worldly view to right vision is the most fundamental change on the path. Everything else follows from making this shift — or is blocked without it.</p>
+<div class="concept-tags"><span class="concept-tag">Right Vision</span><span class="concept-tag">Worldly View</span><span class="concept-tag">Fundamental Shift</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण य पावाइं करेज्जासि, ण अण्णे कारवेज्जासि।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He should not do harmful acts, should not cause others to do them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse translates right vision into behavior. The person who has genuinely made the shift to right vision — who sees the soul as distinct from the body, who understands how karma works, who sees what harm produces — that person stops doing harmful acts. Not because a rule prohibits them, not because of fear of punishment, but because they now see clearly what harmful action produces: karmic adhesion, bondage, more suffering, more rebirth. When you can see the effect of the action clearly, the motivation to perform it dissolves naturally. You do not need to force yourself not to grab a hot coal when you can see that it will burn you. The instruction also extends to causing others to act harmfully. This is the second mode from sutra 15.7 applied directly: a person with right vision does not commission harm on their behalf, does not instruct others to do what they themselves would not do. The monk who has right vision holds their influence to the same standard as their personal conduct. Their influence on the community around them — which is real and significant — is also directed toward non-harm. This symmetry between personal conduct and influence over others is one of the most demanding aspects of the Jain standard. It closes off the common human pattern of holding yourself to one standard while directing others to a lesser one.</p>
+<p class="simple-explanation"><b>The simple version:</b> Right vision changes both what you do and what you encourage. Genuine understanding produces both personal change and changed influence on others.</p>
+<div class="concept-tags"><span class="concept-tag">Non-Harm</span><span class="concept-tag">Personal Conduct</span><span class="concept-tag">Influence</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.14</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयमेव सयं जाणे, एयं च परिण्णाए।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He should know this himself, and understand it completely.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse contains one of the most important epistemological commitments of the Jain path: know it yourself, understand it completely yourself. The Jain tradition does not ask practitioners to accept the teaching on blind faith, on the authority of scripture alone, or simply because Mahavira said it. It asks practitioners to verify the teaching through their own practice and observation. The reason this is possible is that the teaching is about observable realities — the arising of passion, the effect of action on inner states, the progressive lightening that occurs as karma is shed and passions are weakened. These are not metaphysical postulates that cannot be confirmed in experience. They are observations about the practitioner's own inner life that can be made carefully and accurately by anyone who pays attention. The monk who practices genuinely and observes the results carefully will confirm: yes, anger produces a specific heaviness; yes, conquering anger in a specific moment produces a specific lightness; yes, the practice of non-harm produces an increase in inner peace. The teaching says these things. Practice confirms them. The direct verification transforms belief into knowledge. And this transformation — from second-hand belief to first-hand knowledge — is itself a step on the path toward liberation.</p>
+<p class="simple-explanation"><b>The simple version:</b> Verify the teaching through your own experience. The tradition does not ask for blind faith — it asks you to observe and confirm.</p>
+<div class="concept-tags"><span class="concept-tag">Direct Knowledge</span><span class="concept-tag">Self-Verification</span><span class="concept-tag">Personal Experience</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-15">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयमेव विजाणित्ता, मग्गमेयं समाचरे।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood exactly this, he should follow this path.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The sequence Mahavira insists on throughout the Sutrakritanga reappears here: understand exactly this, and then follow the path. The "exactly" is precise — not an approximation of understanding, not a rough agreement with the general direction, but a clear, verified grasp of the teaching as it has been given. Why must understanding precede following? Because following without understanding is mechanical behavior that fails under pressure. Consider two monks observing the same alms-round rules. One is following the rules because they were told to and because the community expects compliance. The other is following the rules because they genuinely understand what the rules protect — the lives of small beings, the integrity of the monk's practice, the quality of the monk-householder relationship. When the rules become difficult — when a householder offers food that seems acceptable but technically is not, when a shortcut seems harmless but violates the procedure — the first monk has only the rule to fall back on, and rules are easily rationalized away. The second monk has understanding, which does not rationalize away, because the monk can see what is at stake. Understanding exactly this makes the following stable across all conditions, not just the easy ones. This is why Mahavira repeats the sequence throughout the text: it is the reliable architecture of genuine practice.</p>
+<p class="simple-explanation"><b>The simple version:</b> Understanding is what makes following stable. Rules that are not understood fail under pressure; understanding holds.</p>
+<div class="concept-tags"><span class="concept-tag">Understand First</span><span class="concept-tag">Stable Practice</span><span class="concept-tag">Sequence</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-16">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.16</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सोच्चा परिण्णाय, एसो मग्गो समाहिया।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard and understood this, composed in this path.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Sutra 15.16 names the destination that the entire Part II sequence — hearing, understanding, knowing directly, following — has been building toward: samahiya, composed in the path. This Sanskrit-derived word carries both the sense of collected and settled. The monk who is composed in the path is a monk in whom the path has become the natural ground they stand on, rather than a set of external rules they are carefully navigating. Think of the difference between a student who has memorized a foreign language and must translate consciously in each conversation, and someone who has lived in that language long enough that they now think in it directly. The composed monk has made the path their native language. They do not convert each situation to a rule and look for the appropriate response — the right response arises directly, because their character has been formed by the path. This composure is the fruit of sustained genuine practice over time, and it is recognizable from the outside: it looks like effortlessness, but it is the effortlessness of something thoroughly learned, not the effortlessness of something never attempted. Part II closes here, having moved from the disciples' question about liberation and suffering all the way to this image of the composed practitioner — the person in whom the answers to those questions have been embodied, not just understood intellectually.</p>
+<p class="simple-explanation"><b>The simple version:</b> Composure in the path is the sign that understanding has been fully absorbed. You are not trying to follow the path — you are the path.</p>
+<div class="concept-tags"><span class="concept-tag">Composure</span><span class="concept-tag">Absorbed Practice</span><span class="concept-tag">Natural Ground</span></div>
+</div></div></article>
+<div class="section-divider"><span>Part III — Signs of Progress (17–24)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-17">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.17</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">किं लक्खणो पव्वइए, किं लक्खणो सावए।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">What are the signs of the one who has gone forth? What are the signs of the devoted follower?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Part III opens with the most practically important question the disciples have asked so far: what are the external signs of genuine progress? The disciples are not asking this out of idle curiosity. They are asking because it is a real problem: in a religious community, there are always those who wear the robes without living the practice, those who perform the forms without the inner reality, those whose claimed spiritual advancement is not visible in their conduct. How do you tell the genuine practitioner from the performer? Mahavira's answer, which follows, will be entirely in terms of observable conduct — not in terms of claimed inner states, not in terms of social standing, not in terms of institutional rank or years of ordination. This is a rigorous standard. It protects the tradition from being captured by those who are good at performing holiness while secretly living its opposite. The question asks about both the one who has "gone forth" (the monk who has taken full monastic vows) and the "devoted follower" (the lay practitioner who follows the five partial vows). Both categories are being assessed by the same external signs, at their respective levels of practice. The signs of genuine practice are universal, even if the degree of practice differs.</p>
+<p class="simple-explanation"><b>The simple version:</b> How do you recognize genuine practice? The tradition answers in terms of visible conduct, not claimed inner states.</p>
+<div class="concept-tags"><span class="concept-tag">Signs of Progress</span><span class="concept-tag">Monk</span><span class="concept-tag">Lay Follower</span><span class="concept-tag">Conduct</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-18">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.18</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे पव्वइए सावए, तेसिं एयाइं लक्खणाइं।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For the one who has gone forth and for the devoted follower — these are the signs.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Mahavira's answer addresses monk and lay follower together, which is significant in itself. He does not say "the monk has these signs and the lay follower has different, lesser signs." He says: for both — these are the signs. The signs of genuine practice are the same in kind for both categories of practitioners, even though the degree and completeness differ. A monk who has taken all five great vows in their absolute form — total non-violence, total truthfulness, total non-stealing, total celibacy, total non-possessiveness — expresses the signs more fully than a householder who follows the five in their partial forms. But the signs are recognizably the same kind of signs. Both show movement toward non-violence; both show evidence of conquered passion; both show the kind of steadiness that genuine practice produces. This parallel assessment is a quietly important affirmation of the lay path: the householder's practice is real, its progress is real, and it is measured by the same kind of signs as the monk's progress. The Jain tradition does not relegate householders to the status of supporters who make the real practitioners' lives possible. It recognizes that householders are themselves practitioners, making genuine progress toward liberation, measured by genuinely significant signs.</p>
+<p class="simple-explanation"><b>The simple version:</b> The signs of genuine practice are the same for monks and lay followers, just at different levels of completeness.</p>
+<div class="concept-tags"><span class="concept-tag">Shared Signs</span><span class="concept-tag">Degrees of Practice</span><span class="concept-tag">Universal Standard</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-19">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.19</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सव्वपाणभूयजीवाणं, अभयं दइज्ज पंडिए।</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-3">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.3</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">चित्तमंते पलिउंचइ, अचित्तं चित्तजं चेव।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The conscious one gets entangled; the non-conscious arises from the conscious.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse describes the actual mechanism of bondage, and it is worth understanding slowly because it is the center of Jain cosmology. Consciousness — the soul — gets entangled. It is the conscious thing that gets caught, not the non-conscious. This matters because it means the soul is not a passive victim of external forces that bind it against its will. The soul acts. Its actions are passionate — driven by anger, pride, deceit, or greed. These passionate activities create a specific condition at the soul's surface that allows karmic matter (fine non-conscious particles) to adhere to it. The "non-conscious arising from the conscious" points to this: karma is non-conscious matter, but it attaches itself because of conscious, passionate activity. Remove the passion from the activity and the karma cannot adhere. The soul creates its own bondage by acting passionately. This is simultaneously the most sobering and the most empowering truth in Jain philosophy. Sobering because there is no external force to blame — the soul has done this to itself, life after life, through its own choices. Empowering because if the soul created the bondage, the soul can also dissolve it — by changing what it does. The path is entirely within the soul's own hands. No deity needs to intervene, no grace needs to descend. The soul can free itself, because the soul bound itself.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The soul creates its own bondage through its own actions. Nothing external is doing this — the soul is doing it to itself.</p>
-  <div class="concept-tags"><span class="concept-tag">Karma</span><span class="concept-tag">Entanglement</span><span class="concept-tag">Soul's Activity</span><span class="concept-tag">Self-Created Bondage</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-4">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.4</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एवं बंधणमाहिए, मोक्खस्स य इमो विही।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus bondage has been described; and this is the procedure for liberation.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Mahavira signals a transition: bondage has been described, and now the procedure for liberation follows. The precision of the transition is philosophically significant. He does not say "and now let me explain a separate topic." He says "thus is bondage — and this is the procedure for liberation." The two are directly connected: the procedure for liberation is the logical consequence of understanding how bondage works. If bondage results from passionate activity that allows karma to adhere to the soul, then the procedure for liberation is: (1) stop new karma from forming by removing passion from activity, and (2) burn away accumulated karma through restraint, equanimity, and austerity. These are mirror operations. Bondage is karma accumulating; liberation is karma dissolving. Bondage is passion driving action; liberation is passion removed from action. Understanding bondage completely is already ninety percent of understanding liberation — because the liberation procedure is just bondage reversed. This is why Mahavira answers both questions in the same breath. They are the same answer seen from two directions.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Understanding bondage is already half the answer about liberation. The path out is the reverse of the path in.</p>
-  <div class="concept-tags"><span class="concept-tag">Bondage Described</span><span class="concept-tag">Liberation Procedure</span><span class="concept-tag">Mirror Structure</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-5">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.5</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">ण कुज्झे ण य माणे, ण य माया ण लोभए।</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Four Passions · Catuṣ-Kashāya</span>
-    </div>
-    <p class="principle-def">Anger, pride, deceit, and greed are the four sticky passions that make the soul's surface adhesive to karmic matter — conquering all four is the operative work of the path to liberation.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">No anger, no pride, no deceit, no greed.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Having established that karma adheres to the soul through passionate activity, Mahavira now names the four passions precisely: krodha (anger), mana (pride), maya (deceit), and lobha (greed). In Jain philosophy these are called the kashaya — the "sticky" passions that make the soul's surface adhesive to karmic matter. Each passion generates karma through its specific mechanism. Anger drives violent action — harsh words, physical aggression, the internal burning that produces harmful speech even when no physical harm is done. Pride produces the mental inflation of self that distorts judgment, creates contempt for others, and generates the specific karma of arrogance. Deceit — maya — produces false representations of oneself and the world, spreading wrong understanding and generating karma through every dishonest act. Greed drives the accumulation of more than is needed, which requires constant effort to acquire, protect, and maintain — each such effort generating fresh karma. These four passions are not peripheral bad habits. They are the fundamental energies that keep the bondage engine running. Remove them and the engine stops. The practice of liberation is precisely the systematic work of weakening and eventually eliminating these four, one encounter at a time, until none of them can drive action anymore.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The four passions are the engines of bondage. Every action driven by anger, pride, deceit, or greed adds to the chains.</p>
-  <div class="concept-tags"><span class="concept-tag">Four Passions</span><span class="concept-tag">Anger</span><span class="concept-tag">Pride</span><span class="concept-tag">Deceit</span><span class="concept-tag">Greed</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-6">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.6</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">कोहं जेइ माणं जेइ, मायं जेइ लोहं जेइ।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He conquers anger, conquers pride, conquers deceit, conquers greed.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Having named the four passions as the generators of bondage, Mahavira now names the four conquests that constitute the liberation procedure: conquer anger, conquer pride, conquer deceit, conquer greed. The word "conquers" — jei — is important. This is active, not passive. The passions are not dissolved by simply wishing them gone or by performing rituals aimed at purification. They are conquered through specific, repeated practice in specific situations. Anger is conquered in the moment of provocation — the actual moment when it arises — by recognizing it, not following it, and choosing a different response. This is done hundreds of times before the conquest becomes secure. Pride is conquered by practicing accurate self-assessment: seeing yourself as you actually are, not as you wish to appear to yourself or others. Deceit is conquered by maintaining truthfulness even when the truth is costly — even when honesty creates awkwardness, loses you advantages, or exposes your limitations. Greed is conquered by the constant practice of sufficiency: taking only what is needed, releasing what is accumulated, training the mind to find the present moment adequate. Each of these conquests is a repeated practice, not a single event. And each conquest is permanent — in Jain philosophy, each victory over a passion at a deep level weakens it permanently, until eventually it cannot arise at all. This is the actual content of the path toward liberation.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Liberation is built from these four conquests, repeated until they are complete. Each victory over a passion weakens it permanently.</p>
-  <div class="concept-tags"><span class="concept-tag">Four Conquests</span><span class="concept-tag">Inner Victory</span><span class="concept-tag">Liberation Work</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-7">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.7</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">न कुणइ न कारवइ, न अणुजाणइ पाणिणं।</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Three Modes of Non-Violence · Tri-Yoga Ahiṃsā</span>
-    </div>
-    <p class="principle-def">Non-violence covers all three modes of participation in harm — what you do yourself, what you cause others to do, and what you approve of — all three generate karma equally.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not do, does not cause to be done, does not approve of harming living beings.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">One of the most precise teachings in the entire Sutrakritanga: there are three modes of participation in harm, and all three generate karma equally. The first is direct action — you personally do the harm. The second is commissioning — you instruct or cause another to do the harm on your behalf. The third is approval — you know harm is being done and you consent to it, accept its fruits, or fail to object when you could. Most ethical frameworks focus only on the first mode. Jain philosophy insists that all three are equally significant karmic events. Consider concrete examples: a monk who asks an attendant to remove an ant colony from his path because he cannot step over it has generated the same harm-karma as if he had moved the colony himself. A person who eats meat has generated karma both through the direct consumption and through the systemic approval of the practice. A person who profits from another's harmful actions — and says nothing — has generated karma through approval, even if they never touched the harm itself. This three-mode framework is why Jain practice extends so far beyond simple personal conduct: the practitioner must examine what they cause, what they approve, what they profit from, and what they stay silent about — not just what they personally do with their own hands.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Non-violence covers three things: what you do, what you cause others to do, and what you approve of. All three count.</p>
-  <div class="concept-tags"><span class="concept-tag">Three Modes of Non-Violence</span><span class="concept-tag">Approval</span><span class="concept-tag">Karma</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-8">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.8</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एवमेव भगवं मग्गो, एयं बंधणं तहा।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Thus, Lord, is the path; and thus is bondage.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The disciples confirm their understanding by restating it: "Thus, Lord, is the path; and thus is bondage." This move — reflecting the teaching back to the teacher — is a standard element of genuine learning in the Jain tradition. It is not parroting. It is confirmation that the teaching has been received, understood, and can be accurately reproduced. The "thus" is the signal of correct reception. The disciples are saying: we heard what you said, we understood it, and this is what we understood. If they have understood correctly, the teacher confirms it. If they have misunderstood, the teacher corrects it. This structure of teaching, reflecting, and confirming is still one of the best learning methods known. The teacher says something important. The student repeats it back in their own words. The teacher checks for accuracy. Understanding is verified before moving to the next level. Part I of the chapter ends with this confirmation: bondage is understood. The consciousness gets entangled through passion-driven activity; karma adheres through the four passions; liberation is the procedure that reverses this. With this understanding secure, the chapter can move deeper.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The teaching is confirmed by the student reflecting it back. Understanding is verified by being able to say it back accurately.</p>
-  <div class="concept-tags"><span class="concept-tag">Teaching Sealed</span><span class="concept-tag">Confirmation</span><span class="concept-tag">Part I Summary</span></div>
-  </div></div></article>
-
-  <div class="section-divider"><span>Part II — What Is the Path? (9–16)</span></div>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-9">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.9</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">किं मुक्खो? भगवं पुच्छामहे, मुक्खो य दुक्खस्स किं?</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">What is liberation, Lord, we ask? And what is liberation from suffering?</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Part II opens with the disciples deepening their inquiry. Having received the teaching on bondage and confirmed their understanding, they press further: what exactly is liberation? And specifically, what is liberation from suffering? These are two angles on the same question, and the disciples are sophisticated enough to ask both simultaneously. The first angle is metaphysical: liberation as the soul's return to its natural state of pure, unbound consciousness — the state that existed before the first karma ever adhered, and that will exist again when the last karma has been dissolved. The second angle is experiential: liberation as the end of all suffering. This second question is the one most people care about most directly. The metaphysics of the soul may be intellectually important, but what most people want to know is: when does the suffering stop? Mahavira's answer will show that these are not two separate questions with two separate answers. The end of suffering and the soul's liberation to its pure state are the same event. You cannot have one without the other. This is important because it rules out a common misreading: liberation is not a kind of anaesthetic that numbs the soul to its circumstances while leaving the circumstances unchanged. Liberation is the dissolution of the very structure that produces suffering in the first place.</p>
-  <p class="simple-explanation"><b>The simple version:</b> What is liberation? And what does it feel like from the inside? Both angles on the question are worth asking.</p>
-  <div class="concept-tags"><span class="concept-tag">Liberation</span><span class="concept-tag">End of Suffering</span><span class="concept-tag">Two Angles</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-10">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.10</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे णं धम्मं विजाणइ, सो मुच्चइ सव्वदुक्खाओ।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He who truly understands the teaching is freed from all suffering.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Mahavira's answer is compact and total: he who truly understands the teaching is freed from all suffering. This is the Jain position on what liberation is — and it is worth sitting with because it is not the answer most people expect. Most people expect the answer to be: "he who performs sufficient austerities," or "he who completes the five great vows without exception," or "he who accumulates enough merit." Mahavira says: he who truly understands the teaching. The "truly" is doing enormous work here. It is not the understanding of one who has read the text and can repeat it. It is the understanding of one who has so thoroughly grasped the nature of the soul, the mechanism of karma, the operation of the four passions, and the path through them, that this understanding has dissolved every false identification and every passion at their root. Understanding at this depth is not just an intellectual state — it is a transformative state. When you truly understand that you are not your body, not your social persona, not your accumulated history, but a pure consciousness temporarily entangled with matter — that understanding itself is the beginning of the disentanglement. The soul freed from false identification is a soul whose passions are losing their grip. Complete understanding and complete liberation are, in the end, the same event. This is why Mahavira answers both questions — what is liberation? what is liberation from suffering? — with the same answer.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Liberation and the end of suffering are the same event. Understanding completely is the moment the suffering structure collapses.</p>
-  <div class="concept-tags"><span class="concept-tag">True Understanding</span><span class="concept-tag">Liberation</span><span class="concept-tag">End of Suffering</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-11">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.11</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जाणइ बंधणं मोक्खं, जाणइ लोगं अणाइयं।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He knows bondage and liberation; he knows the world as beginningless.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The monk who has genuinely understood bondage and liberation knows the world as beginningless — and this is a philosophically important point that distinguishes Jain cosmology from several other traditions. Jainism holds that the universe has no absolute beginning: there was no moment of creation by a divine being, no first cause that set everything in motion from nothing. The cycle of samsara — birth, death, and rebirth — extends backward in time infinitely. Every soul has been wandering through this cycle since beginningless time, accumulating karma in life after life. This means the problem of bondage is not a small one. The monk who truly understands this is facing something of enormous proportions: not one life's worth of karma to clear, but an infinite accumulation across infinite lives. The Jain path takes this seriously — which is why it is demanding, and why the great monks practice with extraordinary intensity. They understand the scale of what they are working through. And yet the same monk also knows liberation — knows it as real, achievable, and precisely described by the Tirthankaras who accomplished it. Holding both truths simultaneously — the enormity of the problem and the certainty of the solution — is the monk's specific mental orientation. He does not minimize the problem, and he does not despair of the solution.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The problem is vast; the solution is clear and achievable. Holding both truths at once is the monk's orientation.</p>
-  <div class="concept-tags"><span class="concept-tag">Beginningless World</span><span class="concept-tag">Scope of Bondage</span><span class="concept-tag">Certainty of Liberation</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-12">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.12</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">सम्मद्दिट्ठी सया होज्जा, लोगदिट्ठी विवज्जए।</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Right Vision Over Worldly View · Samyak-Darśana</span>
-    </div>
-    <p class="principle-def">Shifting from the worldly view — which identifies the soul with the body and social persona — to right vision — which sees the soul as pure consciousness — is the most fundamental change on the entire path.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should always have right vision, and abandon the worldly view.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Right vision — sammad-ditthi in Prakrit — is one of the most important concepts in the entire Jain path. Mahavira pairs it here with its opposite: loka-ditthi, the worldly view. Understanding the contrast between these two is essential. The worldly view is the default mode of human perception: you are your body, your social role, your name and family, your accumulated history of experiences and preferences. The purpose of life, under the worldly view, is to acquire pleasant experiences and avoid unpleasant ones — to satisfy desire, to protect what you have, to be seen well by others. This view seems obvious and natural because almost everyone around you shares it. But in Jain philosophy this view is the root error — the mithya-darshana, wrong vision — and every bondage-generating action flows from it, because if you believe you are your body then you will act to protect your body at the expense of others; if you believe you are your social status then you will generate pride-karma endlessly defending it. Right vision is the correction at the root: the soul is pure consciousness, distinct from the body, temporarily bound by karma it generated through passionate activity, capable of complete liberation. With this vision in place, the reasons for harm, deception, and attachment lose their grip. Why defend your social status with pride-karma if you know your social status is not your soul? Why accumulate possessions with greed-karma if you know possession cannot make the soul more what it already is? Right vision changes the entire motivational structure of a life.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The shift from worldly view to right vision is the most fundamental change on the path. Everything else follows from making this shift — or is blocked without it.</p>
-  <div class="concept-tags"><span class="concept-tag">Right Vision</span><span class="concept-tag">Worldly View</span><span class="concept-tag">Fundamental Shift</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-13">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.13</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">ण य पावाइं करेज्जासि, ण अण्णे कारवेज्जासि।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should not do harmful acts, should not cause others to do them.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse translates right vision into behavior. The person who has genuinely made the shift to right vision — who sees the soul as distinct from the body, who understands how karma works, who sees what harm produces — that person stops doing harmful acts. Not because a rule prohibits them, not because of fear of punishment, but because they now see clearly what harmful action produces: karmic adhesion, bondage, more suffering, more rebirth. When you can see the effect of the action clearly, the motivation to perform it dissolves naturally. You do not need to force yourself not to grab a hot coal when you can see that it will burn you. The instruction also extends to causing others to act harmfully. This is the second mode from sutra 15.7 applied directly: a person with right vision does not commission harm on their behalf, does not instruct others to do what they themselves would not do. The monk who has right vision holds their influence to the same standard as their personal conduct. Their influence on the community around them — which is real and significant — is also directed toward non-harm. This symmetry between personal conduct and influence over others is one of the most demanding aspects of the Jain standard. It closes off the common human pattern of holding yourself to one standard while directing others to a lesser one.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Right vision changes both what you do and what you encourage. Genuine understanding produces both personal change and changed influence on others.</p>
-  <div class="concept-tags"><span class="concept-tag">Non-Harm</span><span class="concept-tag">Personal Conduct</span><span class="concept-tag">Influence</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-14">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.14</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयमेव सयं जाणे, एयं च परिण्णाए।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He should know this himself, and understand it completely.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse contains one of the most important epistemological commitments of the Jain path: know it yourself, understand it completely yourself. The Jain tradition does not ask practitioners to accept the teaching on blind faith, on the authority of scripture alone, or simply because Mahavira said it. It asks practitioners to verify the teaching through their own practice and observation. The reason this is possible is that the teaching is about observable realities — the arising of passion, the effect of action on inner states, the progressive lightening that occurs as karma is shed and passions are weakened. These are not metaphysical postulates that cannot be confirmed in experience. They are observations about the practitioner's own inner life that can be made carefully and accurately by anyone who pays attention. The monk who practices genuinely and observes the results carefully will confirm: yes, anger produces a specific heaviness; yes, conquering anger in a specific moment produces a specific lightness; yes, the practice of non-harm produces an increase in inner peace. The teaching says these things. Practice confirms them. The direct verification transforms belief into knowledge. And this transformation — from second-hand belief to first-hand knowledge — is itself a step on the path toward liberation.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Verify the teaching through your own experience. The tradition does not ask for blind faith — it asks you to observe and confirm.</p>
-  <div class="concept-tags"><span class="concept-tag">Direct Knowledge</span><span class="concept-tag">Self-Verification</span><span class="concept-tag">Personal Experience</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-15">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.15</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयमेव विजाणित्ता, मग्गमेयं समाचरे।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood exactly this, he should follow this path.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The sequence Mahavira insists on throughout the Sutrakritanga reappears here: understand exactly this, and then follow the path. The "exactly" is precise — not an approximation of understanding, not a rough agreement with the general direction, but a clear, verified grasp of the teaching as it has been given. Why must understanding precede following? Because following without understanding is mechanical behavior that fails under pressure. Consider two monks observing the same alms-round rules. One is following the rules because they were told to and because the community expects compliance. The other is following the rules because they genuinely understand what the rules protect — the lives of small beings, the integrity of the monk's practice, the quality of the monk-householder relationship. When the rules become difficult — when a householder offers food that seems acceptable but technically is not, when a shortcut seems harmless but violates the procedure — the first monk has only the rule to fall back on, and rules are easily rationalized away. The second monk has understanding, which does not rationalize away, because the monk can see what is at stake. Understanding exactly this makes the following stable across all conditions, not just the easy ones. This is why Mahavira repeats the sequence throughout the text: it is the reliable architecture of genuine practice.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Understanding is what makes following stable. Rules that are not understood fail under pressure; understanding holds.</p>
-  <div class="concept-tags"><span class="concept-tag">Understand First</span><span class="concept-tag">Stable Practice</span><span class="concept-tag">Sequence</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-16">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.16</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सोच्चा परिण्णाय, एसो मग्गो समाहिया।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard and understood this, composed in this path.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Sutra 15.16 names the destination that the entire Part II sequence — hearing, understanding, knowing directly, following — has been building toward: samahiya, composed in the path. This Sanskrit-derived word carries both the sense of collected and settled. The monk who is composed in the path is a monk in whom the path has become the natural ground they stand on, rather than a set of external rules they are carefully navigating. Think of the difference between a student who has memorized a foreign language and must translate consciously in each conversation, and someone who has lived in that language long enough that they now think in it directly. The composed monk has made the path their native language. They do not convert each situation to a rule and look for the appropriate response — the right response arises directly, because their character has been formed by the path. This composure is the fruit of sustained genuine practice over time, and it is recognizable from the outside: it looks like effortlessness, but it is the effortlessness of something thoroughly learned, not the effortlessness of something never attempted. Part II closes here, having moved from the disciples' question about liberation and suffering all the way to this image of the composed practitioner — the person in whom the answers to those questions have been embodied, not just understood intellectually.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Composure in the path is the sign that understanding has been fully absorbed. You are not trying to follow the path — you are the path.</p>
-  <div class="concept-tags"><span class="concept-tag">Composure</span><span class="concept-tag">Absorbed Practice</span><span class="concept-tag">Natural Ground</span></div>
-  </div></div></article>
-
-  <div class="section-divider"><span>Part III — Signs of Progress (17–24)</span></div>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-17">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.17</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">किं लक्खणो पव्वइए, किं लक्खणो सावए।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">What are the signs of the one who has gone forth? What are the signs of the devoted follower?</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Part III opens with the most practically important question the disciples have asked so far: what are the external signs of genuine progress? The disciples are not asking this out of idle curiosity. They are asking because it is a real problem: in a religious community, there are always those who wear the robes without living the practice, those who perform the forms without the inner reality, those whose claimed spiritual advancement is not visible in their conduct. How do you tell the genuine practitioner from the performer? Mahavira's answer, which follows, will be entirely in terms of observable conduct — not in terms of claimed inner states, not in terms of social standing, not in terms of institutional rank or years of ordination. This is a rigorous standard. It protects the tradition from being captured by those who are good at performing holiness while secretly living its opposite. The question asks about both the one who has "gone forth" (the monk who has taken full monastic vows) and the "devoted follower" (the lay practitioner who follows the five partial vows). Both categories are being assessed by the same external signs, at their respective levels of practice. The signs of genuine practice are universal, even if the degree of practice differs.</p>
-  <p class="simple-explanation"><b>The simple version:</b> How do you recognize genuine practice? The tradition answers in terms of visible conduct, not claimed inner states.</p>
-  <div class="concept-tags"><span class="concept-tag">Signs of Progress</span><span class="concept-tag">Monk</span><span class="concept-tag">Lay Follower</span><span class="concept-tag">Conduct</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-18">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.18</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे पव्वइए सावए, तेसिं एयाइं लक्खणाइं।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">For the one who has gone forth and for the devoted follower — these are the signs.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Mahavira's answer addresses monk and lay follower together, which is significant in itself. He does not say "the monk has these signs and the lay follower has different, lesser signs." He says: for both — these are the signs. The signs of genuine practice are the same in kind for both categories of practitioners, even though the degree and completeness differ. A monk who has taken all five great vows in their absolute form — total non-violence, total truthfulness, total non-stealing, total celibacy, total non-possessiveness — expresses the signs more fully than a householder who follows the five in their partial forms. But the signs are recognizably the same kind of signs. Both show movement toward non-violence; both show evidence of conquered passion; both show the kind of steadiness that genuine practice produces. This parallel assessment is a quietly important affirmation of the lay path: the householder's practice is real, its progress is real, and it is measured by the same kind of signs as the monk's progress. The Jain tradition does not relegate householders to the status of supporters who make the real practitioners' lives possible. It recognizes that householders are themselves practitioners, making genuine progress toward liberation, measured by genuinely significant signs.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The signs of genuine practice are the same for monks and lay followers, just at different levels of completeness.</p>
-  <div class="concept-tags"><span class="concept-tag">Shared Signs</span><span class="concept-tag">Degrees of Practice</span><span class="concept-tag">Universal Standard</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-19">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.19</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">सव्वपाणभूयजीवाणं, अभयं दइज्ज पंडिए।</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Gift of Fearlessness · Abhaya-Dāna</span>
-    </div>
-    <p class="principle-def">Giving fearlessness to all living beings — so that no creature feels threatened by your presence — is the first and most visible sign that non-violence has been genuinely internalized.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The learned one gives fearlessness to all living beings.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The first sign Mahavira names is the one he considers most fundamental: giving fearlessness to all living beings. Abhaya — fearlessness — is what all living beings seek constantly. Every creature is perpetually assessing its environment for threats and adjusting its behavior accordingly. The cat watches the room. The bird watches the ground before landing. The person entering a new social situation reads the faces around them. What the genuine practitioner gives to this universal search for safety is a presence that is recognized as safe — not dangerous, not predatory, not indifferent to harm. Living beings sense this. Animals do not flee from someone who genuinely does not threaten them. In the Jain tradition, accounts of the great monks often include observations that animals remain calm in their presence. This is not miraculous — it is the natural behavioral result of genuine non-violence. Beings read intentions and recognize genuine non-threat. But fearlessness-giving extends beyond the famous stories: it means that in every interaction — with a child, with a servant, with an animal encountered on the road, with the insects in the path — the genuine practitioner's presence creates safety rather than threat. This is the first and most visible sign of authentic Jain practice, because it is the most fundamental expression of what non-violence actually means when it has been fully internalized.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The sign of genuine non-violence is that living beings feel safe near you. This is not an achievement but a natural result of genuine practice.</p>
-  <div class="concept-tags"><span class="concept-tag">Fearlessness Given</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Living Beings</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-20">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.20</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">न य अण्णेसु विरायए, न य भोगेसु गिद्धए।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He is not averse to others, not attached to sensory enjoyments.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The second pair of signs that Mahavira names: absence of aversion toward others, and absence of attachment to sensory enjoyments. These two are named as a pair because they are the two poles of ordinary human reactivity. The ordinary person oscillates between them constantly: attracted to pleasant things, repelled by unpleasant ones, clinging to what satisfies them, pushing away what irritates them. This oscillation drives most of ordinary human behavior, and it generates karma at every swing. Aversion generates harm — toward the people, situations, or experiences that are being pushed away. Attachment generates harm — through the grasping, protecting, and competing that comes with clinging to what is enjoyed. The genuine practitioner shows a recognizable steadiness at the center of this oscillation — not pulled toward enjoyment, not pushed away from difficulty. This is not emotional flatness or absence of engagement with life. It is the specific quality of equanimity that the teaching has been describing throughout the Sutrakritanga: the ability to encounter what is pleasant without being captured by it, and to encounter what is unpleasant without being destabilized by it. This steadiness is observable. It is visible in how the practitioner responds to praise and criticism, to good food and poor food, to comfortable environments and difficult ones. The consistency across these contrasts is the behavioral fingerprint of right vision having taken hold.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The two behavioral fingerprints of genuine practice are: not reacting against what you dislike, and not clinging to what you enjoy. Both are visible in how the practitioner moves through daily life.</p>
-  <div class="concept-tags"><span class="concept-tag">No Aversion</span><span class="concept-tag">No Attachment</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Behavioral Signs</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-21">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.21</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जीवाजीवं परिण्णाय, कम्मं च परिहरेज्ज से।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood living and non-living, he avoids karma.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse identifies a third sign that reveals whether genuine understanding is present: the practitioner who has understood the distinction between living and non-living beings naturally avoids karma in their daily life. The word "naturally" is critical. There are two ways to avoid karma-generating actions. The first is effortful, vigilant rule-following: checking each action against the code, monitoring behavior carefully, forcing compliance. The second is natural avoidance — the kind that arises when you simply understand what harm is and what it produces. The analogy is clear: a person who understands that touching a hot coal will burn them does not need to remind themselves not to touch it, does not require a rule that says "rule 7: do not touch hot coals." They naturally don't. Understanding of this quality does not require enforcement. In the same way, the practitioner who has truly understood that living beings feel pain, that the soul accumulates karma from harm, that every violent action adds to their own bondage — that practitioner does not need constant reminders to avoid harming the insects in their path. They just do. And this naturalness is observable, because it looks different from the careful, effortful avoidance of someone who is complying with rules they don't fully believe. Natural avoidance is fluid, consistent, and unfazed by novel situations. Rule-following avoidance is careful and tends to fail in situations the rules don't explicitly address.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Natural avoidance of harm is the sign that understanding is genuine. Effortful avoidance suggests the understanding is still incomplete.</p>
-  <div class="concept-tags"><span class="concept-tag">Living and Non-Living</span><span class="concept-tag">Natural Avoidance</span><span class="concept-tag">Karma</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-22">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.22</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">से लहुइज्जमाणे सव्वत्थ, ण य निज्जरए किंचि।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He moves lightly everywhere, without losing anything of his conduct.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">"Moving lightly everywhere, without losing anything of his conduct." This verse names a sign that is visible and verifiable: the genuine practitioner is light and complete at the same time. Light because the weight of possessions, attachment, and anxious self-management has been set down — there is nothing unnecessary being carried. Complete because not a single element of the practice has been abandoned to achieve that lightness. These two qualities together are a precise test. Consider the alternatives: a person who is light because they have abandoned their practice — who has stopped following the vows, stopped caring about karma, dropped the disciplines — is light in the wrong way. They have lightness through abandonment. And a person who retains every element of the practice but is not light — who is weighed down by the effort, by the constant vigilance, by the management of each action against the code — that person has completeness but not lightness. The genuine practitioner has both, and having both simultaneously is the sign that the practice has been internalized rather than performed. The lightness comes from having truly let go of what should be let go. The completeness comes from having genuinely integrated what should be integrated. Together they produce the particular quality that observers in the Jain tradition recognized in the great monks: an effortless, present, complete awareness of the path, combined with a visible absence of burden.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The genuine practitioner is light and complete at the same time. Light because there is nothing unnecessary being carried; complete because nothing of the practice has been abandoned.</p>
-  <div class="concept-tags"><span class="concept-tag">Moving Lightly</span><span class="concept-tag">Effortless Practice</span><span class="concept-tag">Completeness</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-23">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.23</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयमेव परिण्णाय, भवइ मुक्खस्स कारणं।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Knowing exactly this becomes the cause of liberation.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Sutra 15.23 makes the most powerful claim of the chapter, and it is worth reading carefully: knowing exactly this becomes the cause of liberation. Not "knowing this will help you on the path to liberation." Not "knowing this is one of the many causes of liberation." Knowing exactly this — this complete and verified understanding of bondage, liberation, the four passions, the three modes of harm, right vision, the signs of genuine practice — this knowledge is the cause of liberation. This is the Jain position on the relationship between knowledge and liberation, and it is importantly different from traditions that see liberation as primarily the result of devotion, or primarily the result of ritual, or primarily the result of divine grace. In Jain philosophy, the soul is bound by karma that accrues through ignorance and passion. The removal of ignorance through complete understanding directly addresses one of the two generators of bondage. When understanding is complete — when the soul genuinely knows what it is, how it got bound, and what the path through looks like — the false identifications that drive passion dissolve. And when passion dissolves, new karma stops forming. And when new karma stops forming while old karma is being burned through austerity, liberation follows with the same necessity as water flowing downhill. Knowledge is not peripheral to liberation — it is its cause. Thus knowing exactly this is the cause of liberation. This is why Mahavira answers every question with teaching rather than with ritual prescription: teaching is the most direct path to the understanding that causes freedom.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Real understanding is not just helpful for liberation — it is the cause of it. When understanding is complete, liberation follows as a consequence.</p>
-  <div class="concept-tags"><span class="concept-tag">Knowledge as Cause</span><span class="concept-tag">Liberation</span><span class="concept-tag">Complete Understanding</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-24">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.24</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सोच्चा मुणी धीरे, मग्गमेयं समाहिया। — iti bemi</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard this, the courageous monk is composed in this path. — Thus I say.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Chapter 15 closes with an image that gathers everything: the courageous monk — dhira — who has heard this teaching, understood it, and is now composed in this path. The word courageous is carefully chosen. The Jain path requires courage at every stage: the courage to renounce what the world values, the courage to face hardship in the wandering life, the courage to look honestly at one's own passions and work to overcome them, the courage to follow the path when it is difficult and when there is social pressure not to. The monk who is genuinely composed in the path is courageous because composure in the path is not the same as ease in the path — it is the settled stability of someone who knows what the path requires and has committed to it regardless. "Iti bemi" — "Thus I say" — is the Sutrakritanga's seal of direct authority. Mahavira is not reporting what others have taught him. He is speaking as a Tirthankara — a being who has personally completed the path and stands on its far shore, looking back and describing every step accurately. What he says about bondage and liberation he says from direct experience, not from tradition or inference. The questions the disciples asked — what is bondage? what is liberation? what is the path? what are the signs of progress? — have all been answered. The answers are complete. For the courageous monk who has heard and understood them, the path is now clear. Walk it.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The questions have been answered; the path is clear. The courageous monk who has heard this can now walk forward without confusion. — Thus I say.</p>
-  <div class="concept-tags"><span class="concept-tag">Courageous Monk</span><span class="concept-tag">Composed in Path</span><span class="concept-tag">Thus I Say</span><span class="concept-tag">Iti Bemi</span></div>
-  </div></div></article>
-
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The learned one gives fearlessness to all living beings.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Gift of Fearlessness · Abhaya-Dāna</span>
+</div>
+<p class="principle-def">Giving fearlessness to all living beings — so that no creature feels threatened by your presence — is the first and most visible sign that non-violence has been genuinely internalized.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The first sign Mahavira names is the one he considers most fundamental: giving fearlessness to all living beings. Abhaya — fearlessness — is what all living beings seek constantly. Every creature is perpetually assessing its environment for threats and adjusting its behavior accordingly. The cat watches the room. The bird watches the ground before landing. The person entering a new social situation reads the faces around them. What the genuine practitioner gives to this universal search for safety is a presence that is recognized as safe — not dangerous, not predatory, not indifferent to harm. Living beings sense this. Animals do not flee from someone who genuinely does not threaten them. In the Jain tradition, accounts of the great monks often include observations that animals remain calm in their presence. This is not miraculous — it is the natural behavioral result of genuine non-violence. Beings read intentions and recognize genuine non-threat. But fearlessness-giving extends beyond the famous stories: it means that in every interaction — with a child, with a servant, with an animal encountered on the road, with the insects in the path — the genuine practitioner's presence creates safety rather than threat. This is the first and most visible sign of authentic Jain practice, because it is the most fundamental expression of what non-violence actually means when it has been fully internalized.</p>
+<p class="simple-explanation"><b>The simple version:</b> The sign of genuine non-violence is that living beings feel safe near you. This is not an achievement but a natural result of genuine practice.</p>
+<div class="concept-tags"><span class="concept-tag">Fearlessness Given</span><span class="concept-tag">Non-Violence</span><span class="concept-tag">Living Beings</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-20">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.20</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">न य अण्णेसु विरायए, न य भोगेसु गिद्धए।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He is not averse to others, not attached to sensory enjoyments.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The second pair of signs that Mahavira names: absence of aversion toward others, and absence of attachment to sensory enjoyments. These two are named as a pair because they are the two poles of ordinary human reactivity. The ordinary person oscillates between them constantly: attracted to pleasant things, repelled by unpleasant ones, clinging to what satisfies them, pushing away what irritates them. This oscillation drives most of ordinary human behavior, and it generates karma at every swing. Aversion generates harm — toward the people, situations, or experiences that are being pushed away. Attachment generates harm — through the grasping, protecting, and competing that comes with clinging to what is enjoyed. The genuine practitioner shows a recognizable steadiness at the center of this oscillation — not pulled toward enjoyment, not pushed away from difficulty. This is not emotional flatness or absence of engagement with life. It is the specific quality of equanimity that the teaching has been describing throughout the Sutrakritanga: the ability to encounter what is pleasant without being captured by it, and to encounter what is unpleasant without being destabilized by it. This steadiness is observable. It is visible in how the practitioner responds to praise and criticism, to good food and poor food, to comfortable environments and difficult ones. The consistency across these contrasts is the behavioral fingerprint of right vision having taken hold.</p>
+<p class="simple-explanation"><b>The simple version:</b> The two behavioral fingerprints of genuine practice are: not reacting against what you dislike, and not clinging to what you enjoy. Both are visible in how the practitioner moves through daily life.</p>
+<div class="concept-tags"><span class="concept-tag">No Aversion</span><span class="concept-tag">No Attachment</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Behavioral Signs</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-21">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.21</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जीवाजीवं परिण्णाय, कम्मं च परिहरेज्ज से।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood living and non-living, he avoids karma.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse identifies a third sign that reveals whether genuine understanding is present: the practitioner who has understood the distinction between living and non-living beings naturally avoids karma in their daily life. The word "naturally" is critical. There are two ways to avoid karma-generating actions. The first is effortful, vigilant rule-following: checking each action against the code, monitoring behavior carefully, forcing compliance. The second is natural avoidance — the kind that arises when you simply understand what harm is and what it produces. The analogy is clear: a person who understands that touching a hot coal will burn them does not need to remind themselves not to touch it, does not require a rule that says "rule 7: do not touch hot coals." They naturally don't. Understanding of this quality does not require enforcement. In the same way, the practitioner who has truly understood that living beings feel pain, that the soul accumulates karma from harm, that every violent action adds to their own bondage — that practitioner does not need constant reminders to avoid harming the insects in their path. They just do. And this naturalness is observable, because it looks different from the careful, effortful avoidance of someone who is complying with rules they don't fully believe. Natural avoidance is fluid, consistent, and unfazed by novel situations. Rule-following avoidance is careful and tends to fail in situations the rules don't explicitly address.</p>
+<p class="simple-explanation"><b>The simple version:</b> Natural avoidance of harm is the sign that understanding is genuine. Effortful avoidance suggests the understanding is still incomplete.</p>
+<div class="concept-tags"><span class="concept-tag">Living and Non-Living</span><span class="concept-tag">Natural Avoidance</span><span class="concept-tag">Karma</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-22">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.22</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">से लहुइज्जमाणे सव्वत्थ, ण य निज्जरए किंचि।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He moves lightly everywhere, without losing anything of his conduct.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Moving lightly everywhere, without losing anything of his conduct." This verse names a sign that is visible and verifiable: the genuine practitioner is light and complete at the same time. Light because the weight of possessions, attachment, and anxious self-management has been set down — there is nothing unnecessary being carried. Complete because not a single element of the practice has been abandoned to achieve that lightness. These two qualities together are a precise test. Consider the alternatives: a person who is light because they have abandoned their practice — who has stopped following the vows, stopped caring about karma, dropped the disciplines — is light in the wrong way. They have lightness through abandonment. And a person who retains every element of the practice but is not light — who is weighed down by the effort, by the constant vigilance, by the management of each action against the code — that person has completeness but not lightness. The genuine practitioner has both, and having both simultaneously is the sign that the practice has been internalized rather than performed. The lightness comes from having truly let go of what should be let go. The completeness comes from having genuinely integrated what should be integrated. Together they produce the particular quality that observers in the Jain tradition recognized in the great monks: an effortless, present, complete awareness of the path, combined with a visible absence of burden.</p>
+<p class="simple-explanation"><b>The simple version:</b> The genuine practitioner is light and complete at the same time. Light because there is nothing unnecessary being carried; complete because nothing of the practice has been abandoned.</p>
+<div class="concept-tags"><span class="concept-tag">Moving Lightly</span><span class="concept-tag">Effortless Practice</span><span class="concept-tag">Completeness</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-23">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.23</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयमेव परिण्णाय, भवइ मुक्खस्स कारणं।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Knowing exactly this becomes the cause of liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Sutra 15.23 makes the most powerful claim of the chapter, and it is worth reading carefully: knowing exactly this becomes the cause of liberation. Not "knowing this will help you on the path to liberation." Not "knowing this is one of the many causes of liberation." Knowing exactly this — this complete and verified understanding of bondage, liberation, the four passions, the three modes of harm, right vision, the signs of genuine practice — this knowledge is the cause of liberation. This is the Jain position on the relationship between knowledge and liberation, and it is importantly different from traditions that see liberation as primarily the result of devotion, or primarily the result of ritual, or primarily the result of divine grace. In Jain philosophy, the soul is bound by karma that accrues through ignorance and passion. The removal of ignorance through complete understanding directly addresses one of the two generators of bondage. When understanding is complete — when the soul genuinely knows what it is, how it got bound, and what the path through looks like — the false identifications that drive passion dissolve. And when passion dissolves, new karma stops forming. And when new karma stops forming while old karma is being burned through austerity, liberation follows with the same necessity as water flowing downhill. Knowledge is not peripheral to liberation — it is its cause. Thus knowing exactly this is the cause of liberation. This is why Mahavira answers every question with teaching rather than with ritual prescription: teaching is the most direct path to the understanding that causes freedom.</p>
+<p class="simple-explanation"><b>The simple version:</b> Real understanding is not just helpful for liberation — it is the cause of it. When understanding is complete, liberation follows as a consequence.</p>
+<div class="concept-tags"><span class="concept-tag">Knowledge as Cause</span><span class="concept-tag">Liberation</span><span class="concept-tag">Complete Understanding</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-15-24">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.24</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सोच्चा मुणी धीरे, मग्गमेयं समाहिया। — iti bemi</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard this, the courageous monk is composed in this path. — Thus I say.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Chapter 15 closes with an image that gathers everything: the courageous monk — dhira — who has heard this teaching, understood it, and is now composed in this path. The word courageous is carefully chosen. The Jain path requires courage at every stage: the courage to renounce what the world values, the courage to face hardship in the wandering life, the courage to look honestly at one's own passions and work to overcome them, the courage to follow the path when it is difficult and when there is social pressure not to. The monk who is genuinely composed in the path is courageous because composure in the path is not the same as ease in the path — it is the settled stability of someone who knows what the path requires and has committed to it regardless. "Iti bemi" — "Thus I say" — is the Sutrakritanga's seal of direct authority. Mahavira is not reporting what others have taught him. He is speaking as a Tirthankara — a being who has personally completed the path and stands on its far shore, looking back and describing every step accurately. What he says about bondage and liberation he says from direct experience, not from tradition or inference. The questions the disciples asked — what is bondage? what is liberation? what is the path? what are the signs of progress? — have all been answered. The answers are complete. For the courageous monk who has heard and understood them, the path is now clear. Walk it.</p>
+<p class="simple-explanation"><b>The simple version:</b> The questions have been answered; the path is clear. The courageous monk who has heard this can now walk forward without confusion. — Thus I say.</p>
+<div class="concept-tags"><span class="concept-tag">Courageous Monk</span><span class="concept-tag">Composed in Path</span><span class="concept-tag">Thus I Say</span><span class="concept-tag">Iti Bemi</span></div>
+</div></div></article>
 </section>
-
-<a href="sutrakritang-ch14.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 14</a>
-<a href="sutrakritang-ch16.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 16 <span class="text-lg">&rarr;</span></a>
-
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="sutrakritang-ch14.html"><span class="text-lg">←</span> Chapter 14</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="sutrakritang-ch16.html">Chapter 16 <span class="text-lg">→</span></a>
 <footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
-  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
-    <div class="flex flex-col gap-6 max-w-md">
-      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
-      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
-      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
-    </div>
-    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
-    </div>
-  </div>
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
 </footer>
 <script>
 window.addEventListener('scroll',()=>{const v=window.scrollY>300;document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('visible',v))});
 </script>
 <script src="../../../js/sutrakritang-search.js"></script>
-</body></html>
+</main></body></html>

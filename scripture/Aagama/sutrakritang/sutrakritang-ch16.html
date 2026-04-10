@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html class="light" lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -6,8 +7,8 @@
 <title>Sutrakritanga Chapter 16: Ganipidag | JainAwaken.org</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script id="tailwind-config">
 tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#755b00","on-primary":"#ffffff","primary-container":"#c9a84c","on-primary-container":"#503d00","surface":"#fef9f1","on-surface":"#1d1c17","surface-variant":"#e7e2da","on-surface-variant":"#4d4637","outline":"#7e7665","outline-variant":"#d0c5b2","surface-container-low":"#f8f3eb","surface-container":"#f2ede5","surface-container-high":"#ece8e0","tertiary":"#4d5a98","on-tertiary":"#ffffff","error":"#ba1a1a"},fontFamily:{"headline":["Noto Serif","serif"],"body":["Inter","sans-serif"],"label":["Inter","sans-serif"]},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"}}}}
@@ -17,8 +18,8 @@ html{scroll-behavior:smooth}
 .burnished-gradient{background:radial-gradient(circle at center,#755b00,#c9a84c)}
 .sutra-card{border:1px solid rgba(201,168,76,0.25);border-left:3px solid #c9a84c;background:white}
 .sutra-sanskrit{font-size:1.35rem;line-height:2;color:#503d00}
-.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size:1.1rem;line-height:1.7;color:#4d4637}
-.simple-explanation b{color:#755b00;font-weight:600}
+.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size: 1.2rem;line-height: 1.85;color:#4d4637}
+.simple-explanation b{color: #1d1c17;font-weight:600}
 .concept-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:1rem}
 .concept-tag{display:inline-block;border:1px solid #C9A84C;color:#1d1c17;font-family:'Inter',sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;border-radius:100px;padding:4px 13px;font-weight:500}
 .nav-button{position:fixed;bottom:24px;z-index:100;background:transparent;border:1px solid rgba(201,168,76,0.35);color:rgba(201,168,76,0.6);transition:all 0.5s cubic-bezier(0.4,0,0.2,1);opacity:0;pointer-events:none;transform:translateY(20px)}
@@ -38,321 +39,294 @@ html{scroll-behavior:smooth}
 .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
 .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
 .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(186,26,26,0.04); border-radius: 6px; }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
-
+.wrong-view-badge { background: rgba(186,26,26,0.1); border: 1px solid rgba(186,26,26,0.35); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(30,64,175,0.04); border-radius: 6px; }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
-/* Sutra card hover */
-.sutra-card { transition: border-left-color 0.35s ease, background 0.35s ease, box-shadow 0.35s ease; }
-.sutra-card:hover { border-left-color: #4d5a98 !important; background: rgba(77,90,152,0.028) !important; box-shadow: 0 4px 20px rgba(77,90,152,0.09) !important; }
+.caution-badge { background: rgba(30,64,175,0.1); border: 1px solid rgba(30,64,175,0.35); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body bg-white">
-<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
-  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
-    <div class="flex items-center gap-12">
-      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
-      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
-        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
-      </div>
-    </div>
-    <div class="flex items-center gap-8">
-  <div class="relative group hidden lg:block">
-    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
-    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
-    <div id="search-dropdown"></div>
-  </div>
-  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
 </div>
-  </div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+<input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
 </nav>
 <main class="pt-40">
-
 <section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
-  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
-    <div class="flex flex-col gap-3">
-      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Sutrakritanga Sutra</span>
-      <h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Sutrakritanga Sutra</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
         The Scripture Repository<span class="block text-primary font-normal text-xl md:text-2xl mt-2">गणिपिडग (Ganipidag)</span>
-      </h1>
-    </div>
-    <h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">The Seal of Book One</h2>
-    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The closing chapter of Book 1 — a summary and seal of everything transmitted in the first Shrutaskandha. Mahavira declares the entire teaching as heard and comprehended, identifies the four pillars of the path, and closes with the promise that has anchored the whole first book: the monk established in this teaching burns away karma. Thus I say.</p>
-  </div>
-  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
-    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
-      <img alt="Ancient Jain manuscript — Sutrakritanga" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../../assets/manuscript.jpg"/>
-      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
-    </div>
-    <div class="mt-8 text-center">
-      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">एयं सुयं भगवया, परिण्णाय वियागरे।<br>जे भिक्खू एत्थ ठिए, सोहम्मं कम्मं खवेज्ज सो॥ — iti bemi</p>
-      <p class="text-base text-on-surface-variant mt-3 font-light italic">"This has been heard and declared by the Blessed One, having fully comprehended it. The monk who is established in this — he burns away his karma. — Thus I say." — Sutrakritanga 16.15</p>
-    </div>
-  </div>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">The Seal of Book One</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The closing chapter of Book 1 — a summary and seal of everything transmitted in the first Shrutaskandha. Mahavira declares the entire teaching as heard and comprehended, identifies the four pillars of the path, and closes with the promise that has anchored the whole first book: the monk established in this teaching burns away karma. Thus I say.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Sutrakritanga" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">एयं सुयं भगवया, परिण्णाय वियागरे।<br/>जे भिक्खू एत्थ ठिए, सोहम्मं कम्मं खवेज्ज सो॥ — iti bemi</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"This has been heard and declared by the Blessed One, having fully comprehended it. The monk who is established in this — he burns away his karma. — Thus I say." — Sutrakritanga 16.15</p>
+</div>
+</div>
 </section>
-
 <section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
-  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
-    <div class="col-span-12 lg:col-span-4">
-      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
-      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Ganipidag</h3>
-    </div>
-    <div class="col-span-12 lg:col-span-8 space-y-6">
-      <p class="text-lg leading-relaxed text-on-surface-variant">Chapter 16 is the closing chapter of Book 1 — the Ganipidag, or "Basket of Teaching." Its function is the seal: everything transmitted across the sixteen chapters of the first Shrutaskandha is here affirmed, summarized, and attributed to Mahavira as its authentic source. The four pillars of the entire first book — right vision, conduct, austerity, and restraint — are named together as the essence of the teaching.</p>
-      <p class="text-lg leading-relaxed text-on-surface-variant">The chapter moves from summary to Mahavira's direct declaration: this teaching comes from the one who comprehended it completely. It closes with the promise that the monk who is established in this teaching — not merely acquainted with it, but established in it as his ground — burns away karma. The final "iti bemi" (thus I say) is the tradition's seal on the entire first book: faithfully heard, faithfully transmitted, faithfully declared.</p>
-      <div class="flex gap-8 items-center pt-4 flex-wrap">
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">15</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
-        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
-        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
-      </div>
-    </div>
-  </div>
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Ganipidag</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant">Chapter 16 is the closing chapter of Book 1 — the Ganipidag, or "Basket of Teaching." Its function is the seal: everything transmitted across the sixteen chapters of the first Shrutaskandha is here affirmed, summarized, and attributed to Mahavira as its authentic source. The four pillars of the entire first book — right vision, conduct, austerity, and restraint — are named together as the essence of the teaching.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter moves from summary to Mahavira's direct declaration: this teaching comes from the one who comprehended it completely. It closes with the promise that the monk who is established in this teaching — not merely acquainted with it, but established in it as his ground — burns away karma. The final "iti bemi" (thus I say) is the tradition's seal on the entire first book: faithfully heard, faithfully transmitted, faithfully declared.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">15</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+</div>
+</div>
+</div>
 </section>
-
 <section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
-  <div class="mb-16">
-    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 16 · Book 1</span>
-    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 15 Sutras</h3>
-    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
-  </div>
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 16 · Book 1</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 15 Sutras</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+</div>
+<div class="section-divider"><span>Part I — The Teaching Sealed (1–8)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सुयं भगवया, धम्मं जाणह पंडिया।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This has been heard from the Blessed One — know the teaching, O learned ones.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Chapter 16 is the closing chapter of Book 1 of the Sutrakritanga, and its function is the seal — not a new teaching but the affirmation and summary of everything that has been transmitted across the preceding fifteen chapters. The opening phrase is deliberately formal: "This has been heard from the Blessed One." In the Jain tradition, the phrase marks the boundary between what was directly received from the Tirthankara and what might be inference, commentary, or later addition. Everything in Book 1 falls within this boundary — it is the transmitted teaching of Mahavira, carried through his principal disciple Sudharman and passed down through the monastic chain of transmission. The Jain tradition treats this chain as a sacred trust. Each disciple who received the teaching and passed it forward was responsible for preserving it without distortion — not reinterpreting it, not embellishing it, not simplifying it for convenience, but transmitting exactly what was heard. "Know the teaching, O learned ones" — the address to the learned ones is an address to those in each generation who carry this responsibility. Being learned in the Jain sense means being capable of receiving the teaching accurately and transmitting it faithfully. This is not just a matter of scholarship — it is a matter of spiritual integrity. The teaching's survival depends on the quality of those who receive and pass it on.</p>
+<p class="simple-explanation"><b>The simple version:</b> This teaching comes from the one who knew it from direct experience. The chain of transmission matters because it guarantees that what was heard was preserved accurately.</p>
+<div class="concept-tags"><span class="concept-tag">Authentic Transmission</span><span class="concept-tag">Mahavira</span><span class="concept-tag">Chain of Teaching</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सम्मद्दिट्ठी य चरित्ते, तवेण संजमेण य।</p>
 
-  <div class="section-divider"><span>Part I — The Teaching Sealed (1–8)</span></div>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Right vision, and conduct, and austerity, and restraint.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Four Pillars of Liberation · Samyag Darshan, Charitra, Tapa, Samyama</span>
+</div>
+<p class="principle-def">The four inseparable foundations of the Jain path: right vision, right conduct, austerity, and restraint — together they are the complete mechanism of liberation.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Having established the authority of the transmission, Mahavira now names the four pillars on which the entire first book rests. Right vision (sammad-ditthi) — the fundamental reorientation from the worldly view to the Jain understanding of the soul: distinct from the body, inherently pure, bound by karma generated through passionate activity, capable of complete liberation. Conduct (charitra) — the behavioral expression of right vision through the five great vows of non-violence, truthfulness, non-stealing, celibacy, and non-possessiveness. Austerity (tava) — the transformative internal practice that actively burns existing karma: fasting, enduring hardship with equanimity, study, confession, service, and meditation, all aimed at dissolving what has accumulated over lifetimes. Restraint (samjama) — the ongoing discipline that prevents new karma from forming through careful control of mind, speech, and body. These four are not a sequential curriculum to be completed in order — right vision first, then conduct, then austerity, then restraint. They are an integrated whole that develops simultaneously. Right vision without conduct is theoretically correct but practically sterile. Conduct without right vision is mechanical performance without understanding. Austerity without restraint produces effort without stability. Restraint without austerity prevents new bondage but doesn't dissolve old bondage. All four together, developed continuously, are what the entire book has been teaching.</p>
+<p class="simple-explanation"><b>The simple version:</b> The entire first book comes down to these four things. Know correctly, act rightly, transform through practice, maintain discipline.</p>
+<div class="concept-tags"><span class="concept-tag">Four Pillars</span><span class="concept-tag">Right Vision</span><span class="concept-tag">Conduct</span><span class="concept-tag">Austerity</span><span class="concept-tag">Restraint</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं धम्मस्स सारं, जाणंत पंडिया।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This is the essence of the teaching, as the learned ones know.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Mahavira now names the four pillars as the "saram" — the essence, the sap, the most vital substance — of the teaching. The metaphor of essence (saram, literally the juice or sap that makes a plant alive) points to something specific: this is what is irreducibly alive in the teaching, what gives it its power to change the soul's condition. Everything else in the Sutrakritanga — the extended philosophical debates of earlier chapters, the descriptions of what the wrong-view teachers believe, the detailed instructions for the alms round and village conduct, the Q&amp;A of Chapter 15, the warnings about negligence and the descriptions of those who fall away — all of it is in service of one thing: helping the practitioner truly understand and embody these four pillars. The debates clarify what right vision means by showing what it is not. The conduct instructions help the monk live out the five great vows accurately in the real conditions of the wandering life. The warnings about wrong-view teachers protect the practitioner from following paths that do not lead to liberation. But the essence, once all of that is stripped away, is four words: sammad-ditthi, charitra, tava, samjama. Right vision, conduct, austerity, restraint. The learned ones who know this are the ones who can distinguish the essence from its supporting teachings and hold it clearly, even after the supporting details have faded.</p>
+<p class="simple-explanation"><b>The simple version:</b> Strip away everything secondary and this is what remains. Four things. Learn them. Live them. They are enough.</p>
+<div class="concept-tags"><span class="concept-tag">Essence</span><span class="concept-tag">Distillation</span><span class="concept-tag">Four Things</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे भिक्खू एत्थ ठिए, सो णं खवेइ कम्माणि।</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-1">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.1</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सुयं भगवया, धम्मं जाणह पंडिया।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This has been heard from the Blessed One — know the teaching, O learned ones.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Chapter 16 is the closing chapter of Book 1 of the Sutrakritanga, and its function is the seal — not a new teaching but the affirmation and summary of everything that has been transmitted across the preceding fifteen chapters. The opening phrase is deliberately formal: "This has been heard from the Blessed One." In the Jain tradition, the phrase marks the boundary between what was directly received from the Tirthankara and what might be inference, commentary, or later addition. Everything in Book 1 falls within this boundary — it is the transmitted teaching of Mahavira, carried through his principal disciple Sudharman and passed down through the monastic chain of transmission. The Jain tradition treats this chain as a sacred trust. Each disciple who received the teaching and passed it forward was responsible for preserving it without distortion — not reinterpreting it, not embellishing it, not simplifying it for convenience, but transmitting exactly what was heard. "Know the teaching, O learned ones" — the address to the learned ones is an address to those in each generation who carry this responsibility. Being learned in the Jain sense means being capable of receiving the teaching accurately and transmitting it faithfully. This is not just a matter of scholarship — it is a matter of spiritual integrity. The teaching's survival depends on the quality of those who receive and pass it on.</p>
-  <p class="simple-explanation"><b>The simple version:</b> This teaching comes from the one who knew it from direct experience. The chain of transmission matters because it guarantees that what was heard was preserved accurately.</p>
-  <div class="concept-tags"><span class="concept-tag">Authentic Transmission</span><span class="concept-tag">Mahavira</span><span class="concept-tag">Chain of Teaching</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who is established in this burns away karma.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Karma Dissolution · Tapas / Nirjara</span>
+</div>
+<p class="principle-def">Genuine establishment in the four pillars actively dissolves accumulated karma — not merely prevents new karma from forming.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The promise is now stated directly and concretely: the monk established in this burns away karma. Every word is doing precise work. "Established" — sthita — means grounded, settled, having made the teaching the permanent ground you stand on rather than a practice you return to occasionally when you remember. The monk who picks up the five vows when it is convenient and sets them down when it becomes difficult is not established. The monk whose entire life is organized around these four pillars — who wakes up in right vision, who moves through the day in conduct governed by the five vows, who practices austerity systematically, who maintains restraint in every interaction — that monk is established. And the result is specific and powerful: he burns away karma. Not merely prevents new karma from forming (though that too), but actively dissolves the accumulated karmic coating that has covered the soul through countless lifetimes. The word "burns" (khavei) is the same word used throughout the tradition for the transformative work of tapa (austerity): fire that purifies. The soul covered in karma is like a stone covered in ash — the ash is not the stone, but it obscures the stone's nature. The burning of austerity and established practice clears the ash, restoring the stone to its original brilliance. This is the promise of Book 1: establish yourself in these four things and you will burn away what has bound you since beginningless time.</p>
+<p class="simple-explanation"><b>The simple version:</b> "Established" means it is the ground you stand on, not a practice you do occasionally. That kind of establishment burns karma.</p>
+<div class="concept-tags"><span class="concept-tag">Established</span><span class="concept-tag">Burns Karma</span><span class="concept-tag">Promise of Book 1</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सव्वेसिं पाणभूयाणं, अभयं देइ सव्वओ।</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-2">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.2</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">सम्मद्दिट्ठी य चरित्ते, तवेण संजमेण य।</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Four Pillars of Liberation · Samyag Darshan, Charitra, Tapa, Samyama</span>
-    </div>
-    <p class="principle-def">The four inseparable foundations of the Jain path: right vision, right conduct, austerity, and restraint — together they are the complete mechanism of liberation.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Right vision, and conduct, and austerity, and restraint.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Having established the authority of the transmission, Mahavira now names the four pillars on which the entire first book rests. Right vision (sammad-ditthi) — the fundamental reorientation from the worldly view to the Jain understanding of the soul: distinct from the body, inherently pure, bound by karma generated through passionate activity, capable of complete liberation. Conduct (charitra) — the behavioral expression of right vision through the five great vows of non-violence, truthfulness, non-stealing, celibacy, and non-possessiveness. Austerity (tava) — the transformative internal practice that actively burns existing karma: fasting, enduring hardship with equanimity, study, confession, service, and meditation, all aimed at dissolving what has accumulated over lifetimes. Restraint (samjama) — the ongoing discipline that prevents new karma from forming through careful control of mind, speech, and body. These four are not a sequential curriculum to be completed in order — right vision first, then conduct, then austerity, then restraint. They are an integrated whole that develops simultaneously. Right vision without conduct is theoretically correct but practically sterile. Conduct without right vision is mechanical performance without understanding. Austerity without restraint produces effort without stability. Restraint without austerity prevents new bondage but doesn't dissolve old bondage. All four together, developed continuously, are what the entire book has been teaching.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The entire first book comes down to these four things. Know correctly, act rightly, transform through practice, maintain discipline.</p>
-  <div class="concept-tags"><span class="concept-tag">Four Pillars</span><span class="concept-tag">Right Vision</span><span class="concept-tag">Conduct</span><span class="concept-tag">Austerity</span><span class="concept-tag">Restraint</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He gives fearlessness to all living beings from all sides.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Abhaya · Fearlessness Given to All Beings</span>
+</div>
+<p class="principle-def">The established monk's greatest gift to the world is complete fearlessness — no living being has any reason to fear him from any direction.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Having stated the promise of the teaching (the monk established in it burns away karma), Chapter 16 now names what that established monk gives to the world: fearlessness from all sides to all living beings. This is presented as the most important gift the monk can offer. Not teaching, not food, not material support, not social services — the primary and irreducible gift is abhaya: the complete absence of threat. "From all sides" extends this in every direction: no living being approaching the established monk from any angle has any reason to fear him. The child has nothing to fear. The old person has nothing to fear. The animal has nothing to fear. The insect underfoot has nothing to fear. The microorganism in the water has nothing to fear. This 360-degree fearlessness is not an aspiration or an ideal held up as a goal — it is the description of what a monk established in the four pillars actually is. When right vision, conduct, austerity, and restraint are fully established, the inner life is free of the passions that drive harm. And when the passions that drive harm are gone, no harm is possible — in any direction, in any mode, toward any living being. The fearlessness given is not a policy decision; it is the natural expression of a soul that has been largely freed from the drivers of harm. This is why Mahavira names it as the primary gift: it is the living proof that the teaching has worked.</p>
+<p class="simple-explanation"><b>The simple version:</b> The established monk's greatest gift is the safety he radiates. Every being is safer because he exists.</p>
+<div class="concept-tags"><span class="concept-tag">Fearlessness Given</span><span class="concept-tag">All Living Beings</span><span class="concept-tag">Radiated Safety</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">न कुणइ न कारवइ, पाणाणं किंचि हिंसए।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">He does not harm, does not cause harm to living beings in any way.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The two modes of non-violence reappear as the precise description of what the established monk's non-harm looks like: he does not harm and does not cause harm. This pairing has been present throughout the Sutrakritanga, and its appearance here in the closing summary confirms its importance. It is not enough to avoid personal harm if you are commissioning harm on your behalf. It is not enough to keep your own hands clean if you are directing others to do the dirty work. The established monk's non-violence is complete in both modes. In any way whatsoever — the breadth of this phrase is deliberate. "Any way" means through all three channels (mind, speech, body) and at all levels of subtlety (gross physical harm, subtle emotional harm, the harm of negligent disregard). The monk who has reached this stage of establishment is not achieving this through heroic constant vigilance. The constant vigilance was the work of the earlier stages of practice. At this stage, the non-harm is the natural expression of an inner life that has been so thoroughly transformed by years of right vision, conduct, austerity, and restraint that the drivers of harm have been largely dissolved. The inner life no longer generates the impulses that produce harm. Total non-harm flows naturally from a soul that has burned away the karma and passions that made harm possible.</p>
+<p class="simple-explanation"><b>The simple version:</b> Complete non-violence is not achieved through constant effort. At this stage, it is simply what the monk is.</p>
+<div class="concept-tags"><span class="concept-tag">Total Non-Harm</span><span class="concept-tag">Natural Expression</span><span class="concept-tag">Transformed Life</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयमेव समाहिया, एयमेव महब्बए।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Composed in exactly this, under exactly the great vows.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Sutra 16.7 names the specific structural form that the established monk's practice takes: composition in the great vows (mahavvata). The five great vows — complete non-violence, complete truthfulness, complete non-stealing, complete celibacy, complete non-possessiveness — are the definitive vows of full Jain monasticism. They are not like the partial vows of the householder, which permit limited exceptions and accommodations to household life. The great vows are absolute: no exceptions, no gradations, no circumstances in which deviation is permitted. For the monk in early stages of practice, these vows are external commitments that require active maintenance — moments of passion, temptation, and habit pull against them and the monk must actively choose to hold the vow. As practice deepens through years of right vision, conduct, austerity, and restraint, something changes. The vows become the monk's natural identity rather than his chosen commitments. Violating the vow of non-violence would feel like violating himself — not because of fear of consequence, but because the vow has become constitutive of who he is. This is what "composed in the great vows" means: the vows are no longer external to the monk's character, they are the monk's character. At this stage the great vows feel not like constraints but like the shape of freedom — because they express exactly what the monk is.</p>
+<p class="simple-explanation"><b>The simple version:</b> The great vows fulfilled are not chains — they are the shape of a free soul. At this stage, they feel like liberation, not constraint.</p>
+<div class="concept-tags"><span class="concept-tag">Great Vows</span><span class="concept-tag">Composed</span><span class="concept-tag">Identity</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सव्वस्स सारं, परिण्णाय विहरए।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This is the essence of everything — having understood it, he wanders.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The closing verse of Part I brings together the entire first section's argument in one image: the monk who has understood the essence of everything wanders. Not rests, not teaches, not administers — wanders. This is the consistent teaching of the Sutrakritanga: the path is practiced in motion, not in protected stillness. The great wanderer (mahapathika) of Chapter 12, the monk who moves through village and city and forest and mountain cave of Chapter 14, the courageous monk composed in the path of Chapter 15 — they are all this same figure, placed again before us in the final summary. "Having understood it, he wanders" — the understanding is what makes the wandering what it is. Without the understanding of the essence, wandering is just travel. With it, every step is practice, every encounter is the teaching applied, every alms round is non-violence in motion, every exchange with a householder is the path meeting the world. The monk who has understood the essence of everything carries the entire teaching within him — in his character, in his conduct, in the way he looks at living beings and the way he responds to what the world presents. He needs no external temple, no ritual apparatus, no institutional setting. The understanding is his only possession, and it is sufficient.</p>
+<p class="simple-explanation"><b>The simple version:</b> The monk who has understood the essence of everything carries the entire teaching within him wherever he goes. His wandering is itself the teaching's continuation.</p>
+<div class="concept-tags"><span class="concept-tag">Wandering Monk</span><span class="concept-tag">Teaching Embodied</span><span class="concept-tag">Essence Carried Within</span></div>
+</div></div></article>
+<div class="section-divider"><span>Part II — Mahavira's Declaration (9–15)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सुयं भगवया, परिण्णाय वियागरे।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This has been heard and declared by the Blessed One, having fully comprehended it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Part II shifts to Mahavira's direct declaration, and this shift is significant. The first eight verses of Chapter 16 have been affirmations of what has been transmitted — summaries and reflections on the teaching. Now, in sutra 16.9, the text returns to the source: "This has been heard and declared by the Blessed One, having fully comprehended it." "Fully comprehended" — pariñña — is the technical Jain description of a specific kind of knowledge that only the Omniscient One (kevalin) possesses. Mahavira, having achieved omniscience (kevala-jñana) under the ashoka tree after twelve years of rigorous practice, possesses direct, complete, non-inferential knowledge of all things at all times. He does not infer the nature of the soul from observation. He does not deduce the mechanism of karma from experience. He sees it directly, as completely and immediately as you see an object placed in front of you in full light. This is what "fully comprehended" means: not studied thoroughly, not thought about deeply, but directly seen without obstruction. When Mahavira declares the nature of bondage, liberation, right vision, and the path — he declares what he has directly seen. Not what tradition tells him, not what his teachers passed down, not what logical reasoning leads to. Direct seeing. This is the unique authority behind the Sutrakritanga's teaching, and sutra 16.9 is the explicit affirmation of that authority as Book 1 draws to its close.</p>
+<p class="simple-explanation"><b>The simple version:</b> What Book 1 contains is the declaration of the one who saw everything directly. This is not interpretation or tradition — it is omniscient knowledge transmitted faithfully.</p>
+<div class="concept-tags"><span class="concept-tag">Mahavira's Declaration</span><span class="concept-tag">Omniscient Knowledge</span><span class="concept-tag">Direct Seeing</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे भिक्खू एत्थ ठिए, सोहम्मं कम्मं खवेज्ज सो।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who is established in this burns away excellent karma.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The central promise of Book 1 is restated here with additional force: the monk established in this teaching burns away his karma. This verse echoes sutra 16.4, but its placement in Part II — after the explicit affirmation of the teaching's omniscient source — gives it greater weight. The promise is not a hope or an expectation. It is the observation of the one who fully comprehended what karma is, how it adheres, and what dissolves it. The monk established in right vision, conduct, austerity, and restraint is doing exactly what the mechanism of liberation requires: removing the passion that causes karma to adhere, dissolving through austerity the karma already accumulated, maintaining through restraint the conditions under which the dissolution continues. The result is the burning away of karma — not just the prevention of new karma (which restraint accomplishes) but the active dissolution of existing karma (which austerity accomplishes). This double operation — stopping input and burning accumulated stock — is what drives the soul progressively toward liberation. The promise is calibrated: the monk who is genuinely established, not the monk who occasionally practices, not the monk who follows the forms without the inner reality. Genuine establishment produces genuine liberation-progress. The teaching does not mislead about what is required or what results.</p>
+<p class="simple-explanation"><b>The simple version:</b> Established practice does not just stop new bondage — it dissolves old bondage. This is the most efficient relationship to karma available.</p>
+<div class="concept-tags"><span class="concept-tag">Burns Karma</span><span class="concept-tag">Dissolves Old Bondage</span><span class="concept-tag">Established Practice</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">से भिक्खू लहुइज्जमाणे, सव्वपाणभूयाणं सुणेइ।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">That monk, moving lightly, listens to all living beings.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is one of the most quietly beautiful images in the entire Sutrakritanga: the monk moving lightly who listens to all living beings. In a book that has spent considerable effort on the detailed rules of monastic conduct — the alms round procedure, the conditions under which food can be accepted, the ways of moving through different environments — this image of the monk simply listening brings something different into focus. Moving lightly has been the consistent description of the established practitioner throughout Book 1: light because there is nothing unnecessary being carried, light because the passions that make movement labored have been weakened. And yet this lightness is not the lightness of someone rushing past the world — it is the lightness of someone who has become more sensitive to it, not less. "Listening to all living beings" means being open to what the full range of life is experiencing: the suffering of creatures who cannot speak, the fear of animals in the path, the silent need of every being that is not human and cannot ask for help. The established monk who moves lightly through the world is listening to all of this simultaneously, and responding to it with the complete non-harm of his established practice. This is what the teaching produces at its fullest: not a practitioner who has retreated from the world into protected internal peace, but a practitioner who is more present to the world's full reality and responds to it with perfect non-harm.</p>
+<p class="simple-explanation"><b>The simple version:</b> The established monk is not disconnected from the world — he is more sensitive to it. Moving lightly means being more present, not less.</p>
+<div class="concept-tags"><span class="concept-tag">Moving Lightly</span><span class="concept-tag">Listening</span><span class="concept-tag">Full Presence</span><span class="concept-tag">Compassion</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं च मग्गं जाणित्ता, से भिक्खू न पमायए।</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-3">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.3</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं धम्मस्स सारं, जाणंत पंडिया।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the essence of the teaching, as the learned ones know.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Mahavira now names the four pillars as the "saram" — the essence, the sap, the most vital substance — of the teaching. The metaphor of essence (saram, literally the juice or sap that makes a plant alive) points to something specific: this is what is irreducibly alive in the teaching, what gives it its power to change the soul's condition. Everything else in the Sutrakritanga — the extended philosophical debates of earlier chapters, the descriptions of what the wrong-view teachers believe, the detailed instructions for the alms round and village conduct, the Q&A of Chapter 15, the warnings about negligence and the descriptions of those who fall away — all of it is in service of one thing: helping the practitioner truly understand and embody these four pillars. The debates clarify what right vision means by showing what it is not. The conduct instructions help the monk live out the five great vows accurately in the real conditions of the wandering life. The warnings about wrong-view teachers protect the practitioner from following paths that do not lead to liberation. But the essence, once all of that is stripped away, is four words: sammad-ditthi, charitra, tava, samjama. Right vision, conduct, austerity, restraint. The learned ones who know this are the ones who can distinguish the essence from its supporting teachings and hold it clearly, even after the supporting details have faded.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Strip away everything secondary and this is what remains. Four things. Learn them. Live them. They are enough.</p>
-  <div class="concept-tags"><span class="concept-tag">Essence</span><span class="concept-tag">Distillation</span><span class="concept-tag">Four Things</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-4">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.4</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे भिक्खू एत्थ ठिए, सो णं खवेइ कम्माणि।</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Karma Dissolution · Tapas / Nirjara</span>
-    </div>
-    <p class="principle-def">Genuine establishment in the four pillars actively dissolves accumulated karma — not merely prevents new karma from forming.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who is established in this burns away karma.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The promise is now stated directly and concretely: the monk established in this burns away karma. Every word is doing precise work. "Established" — sthita — means grounded, settled, having made the teaching the permanent ground you stand on rather than a practice you return to occasionally when you remember. The monk who picks up the five vows when it is convenient and sets them down when it becomes difficult is not established. The monk whose entire life is organized around these four pillars — who wakes up in right vision, who moves through the day in conduct governed by the five vows, who practices austerity systematically, who maintains restraint in every interaction — that monk is established. And the result is specific and powerful: he burns away karma. Not merely prevents new karma from forming (though that too), but actively dissolves the accumulated karmic coating that has covered the soul through countless lifetimes. The word "burns" (khavei) is the same word used throughout the tradition for the transformative work of tapa (austerity): fire that purifies. The soul covered in karma is like a stone covered in ash — the ash is not the stone, but it obscures the stone's nature. The burning of austerity and established practice clears the ash, restoring the stone to its original brilliance. This is the promise of Book 1: establish yourself in these four things and you will burn away what has bound you since beginningless time.</p>
-  <p class="simple-explanation"><b>The simple version:</b> "Established" means it is the ground you stand on, not a practice you do occasionally. That kind of establishment burns karma.</p>
-  <div class="concept-tags"><span class="concept-tag">Established</span><span class="concept-tag">Burns Karma</span><span class="concept-tag">Promise of Book 1</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-5">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.5</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">सव्वेसिं पाणभूयाणं, अभयं देइ सव्वओ।</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Abhaya · Fearlessness Given to All Beings</span>
-    </div>
-    <p class="principle-def">The established monk's greatest gift to the world is complete fearlessness — no living being has any reason to fear him from any direction.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He gives fearlessness to all living beings from all sides.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Having stated the promise of the teaching (the monk established in it burns away karma), Chapter 16 now names what that established monk gives to the world: fearlessness from all sides to all living beings. This is presented as the most important gift the monk can offer. Not teaching, not food, not material support, not social services — the primary and irreducible gift is abhaya: the complete absence of threat. "From all sides" extends this in every direction: no living being approaching the established monk from any angle has any reason to fear him. The child has nothing to fear. The old person has nothing to fear. The animal has nothing to fear. The insect underfoot has nothing to fear. The microorganism in the water has nothing to fear. This 360-degree fearlessness is not an aspiration or an ideal held up as a goal — it is the description of what a monk established in the four pillars actually is. When right vision, conduct, austerity, and restraint are fully established, the inner life is free of the passions that drive harm. And when the passions that drive harm are gone, no harm is possible — in any direction, in any mode, toward any living being. The fearlessness given is not a policy decision; it is the natural expression of a soul that has been largely freed from the drivers of harm. This is why Mahavira names it as the primary gift: it is the living proof that the teaching has worked.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The established monk's greatest gift is the safety he radiates. Every being is safer because he exists.</p>
-  <div class="concept-tags"><span class="concept-tag">Fearlessness Given</span><span class="concept-tag">All Living Beings</span><span class="concept-tag">Radiated Safety</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-6">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.6</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">न कुणइ न कारवइ, पाणाणं किंचि हिंसए।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">He does not harm, does not cause harm to living beings in any way.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The two modes of non-violence reappear as the precise description of what the established monk's non-harm looks like: he does not harm and does not cause harm. This pairing has been present throughout the Sutrakritanga, and its appearance here in the closing summary confirms its importance. It is not enough to avoid personal harm if you are commissioning harm on your behalf. It is not enough to keep your own hands clean if you are directing others to do the dirty work. The established monk's non-violence is complete in both modes. In any way whatsoever — the breadth of this phrase is deliberate. "Any way" means through all three channels (mind, speech, body) and at all levels of subtlety (gross physical harm, subtle emotional harm, the harm of negligent disregard). The monk who has reached this stage of establishment is not achieving this through heroic constant vigilance. The constant vigilance was the work of the earlier stages of practice. At this stage, the non-harm is the natural expression of an inner life that has been so thoroughly transformed by years of right vision, conduct, austerity, and restraint that the drivers of harm have been largely dissolved. The inner life no longer generates the impulses that produce harm. Total non-harm flows naturally from a soul that has burned away the karma and passions that made harm possible.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Complete non-violence is not achieved through constant effort. At this stage, it is simply what the monk is.</p>
-  <div class="concept-tags"><span class="concept-tag">Total Non-Harm</span><span class="concept-tag">Natural Expression</span><span class="concept-tag">Transformed Life</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-7">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.7</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयमेव समाहिया, एयमेव महब्बए।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Composed in exactly this, under exactly the great vows.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Sutra 16.7 names the specific structural form that the established monk's practice takes: composition in the great vows (mahavvata). The five great vows — complete non-violence, complete truthfulness, complete non-stealing, complete celibacy, complete non-possessiveness — are the definitive vows of full Jain monasticism. They are not like the partial vows of the householder, which permit limited exceptions and accommodations to household life. The great vows are absolute: no exceptions, no gradations, no circumstances in which deviation is permitted. For the monk in early stages of practice, these vows are external commitments that require active maintenance — moments of passion, temptation, and habit pull against them and the monk must actively choose to hold the vow. As practice deepens through years of right vision, conduct, austerity, and restraint, something changes. The vows become the monk's natural identity rather than his chosen commitments. Violating the vow of non-violence would feel like violating himself — not because of fear of consequence, but because the vow has become constitutive of who he is. This is what "composed in the great vows" means: the vows are no longer external to the monk's character, they are the monk's character. At this stage the great vows feel not like constraints but like the shape of freedom — because they express exactly what the monk is.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The great vows fulfilled are not chains — they are the shape of a free soul. At this stage, they feel like liberation, not constraint.</p>
-  <div class="concept-tags"><span class="concept-tag">Great Vows</span><span class="concept-tag">Composed</span><span class="concept-tag">Identity</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-8">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.8</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सव्वस्स सारं, परिण्णाय विहरए।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This is the essence of everything — having understood it, he wanders.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The closing verse of Part I brings together the entire first section's argument in one image: the monk who has understood the essence of everything wanders. Not rests, not teaches, not administers — wanders. This is the consistent teaching of the Sutrakritanga: the path is practiced in motion, not in protected stillness. The great wanderer (mahapathika) of Chapter 12, the monk who moves through village and city and forest and mountain cave of Chapter 14, the courageous monk composed in the path of Chapter 15 — they are all this same figure, placed again before us in the final summary. "Having understood it, he wanders" — the understanding is what makes the wandering what it is. Without the understanding of the essence, wandering is just travel. With it, every step is practice, every encounter is the teaching applied, every alms round is non-violence in motion, every exchange with a householder is the path meeting the world. The monk who has understood the essence of everything carries the entire teaching within him — in his character, in his conduct, in the way he looks at living beings and the way he responds to what the world presents. He needs no external temple, no ritual apparatus, no institutional setting. The understanding is his only possession, and it is sufficient.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The monk who has understood the essence of everything carries the entire teaching within him wherever he goes. His wandering is itself the teaching's continuation.</p>
-  <div class="concept-tags"><span class="concept-tag">Wandering Monk</span><span class="concept-tag">Teaching Embodied</span><span class="concept-tag">Essence Carried Within</span></div>
-  </div></div></article>
-
-  <div class="section-divider"><span>Part II — Mahavira's Declaration (9–15)</span></div>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-9">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.9</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सुयं भगवया, परिण्णाय वियागरे।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This has been heard and declared by the Blessed One, having fully comprehended it.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Part II shifts to Mahavira's direct declaration, and this shift is significant. The first eight verses of Chapter 16 have been affirmations of what has been transmitted — summaries and reflections on the teaching. Now, in sutra 16.9, the text returns to the source: "This has been heard and declared by the Blessed One, having fully comprehended it." "Fully comprehended" — pariñña — is the technical Jain description of a specific kind of knowledge that only the Omniscient One (kevalin) possesses. Mahavira, having achieved omniscience (kevala-jñana) under the ashoka tree after twelve years of rigorous practice, possesses direct, complete, non-inferential knowledge of all things at all times. He does not infer the nature of the soul from observation. He does not deduce the mechanism of karma from experience. He sees it directly, as completely and immediately as you see an object placed in front of you in full light. This is what "fully comprehended" means: not studied thoroughly, not thought about deeply, but directly seen without obstruction. When Mahavira declares the nature of bondage, liberation, right vision, and the path — he declares what he has directly seen. Not what tradition tells him, not what his teachers passed down, not what logical reasoning leads to. Direct seeing. This is the unique authority behind the Sutrakritanga's teaching, and sutra 16.9 is the explicit affirmation of that authority as Book 1 draws to its close.</p>
-  <p class="simple-explanation"><b>The simple version:</b> What Book 1 contains is the declaration of the one who saw everything directly. This is not interpretation or tradition — it is omniscient knowledge transmitted faithfully.</p>
-  <div class="concept-tags"><span class="concept-tag">Mahavira's Declaration</span><span class="concept-tag">Omniscient Knowledge</span><span class="concept-tag">Direct Seeing</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-10">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.10</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे भिक्खू एत्थ ठिए, सोहम्मं कम्मं खवेज्ज सो।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The monk who is established in this burns away excellent karma.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The central promise of Book 1 is restated here with additional force: the monk established in this teaching burns away his karma. This verse echoes sutra 16.4, but its placement in Part II — after the explicit affirmation of the teaching's omniscient source — gives it greater weight. The promise is not a hope or an expectation. It is the observation of the one who fully comprehended what karma is, how it adheres, and what dissolves it. The monk established in right vision, conduct, austerity, and restraint is doing exactly what the mechanism of liberation requires: removing the passion that causes karma to adhere, dissolving through austerity the karma already accumulated, maintaining through restraint the conditions under which the dissolution continues. The result is the burning away of karma — not just the prevention of new karma (which restraint accomplishes) but the active dissolution of existing karma (which austerity accomplishes). This double operation — stopping input and burning accumulated stock — is what drives the soul progressively toward liberation. The promise is calibrated: the monk who is genuinely established, not the monk who occasionally practices, not the monk who follows the forms without the inner reality. Genuine establishment produces genuine liberation-progress. The teaching does not mislead about what is required or what results.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Established practice does not just stop new bondage — it dissolves old bondage. This is the most efficient relationship to karma available.</p>
-  <div class="concept-tags"><span class="concept-tag">Burns Karma</span><span class="concept-tag">Dissolves Old Bondage</span><span class="concept-tag">Established Practice</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-11">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.11</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">से भिक्खू लहुइज्जमाणे, सव्वपाणभूयाणं सुणेइ।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">That monk, moving lightly, listens to all living beings.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This is one of the most quietly beautiful images in the entire Sutrakritanga: the monk moving lightly who listens to all living beings. In a book that has spent considerable effort on the detailed rules of monastic conduct — the alms round procedure, the conditions under which food can be accepted, the ways of moving through different environments — this image of the monk simply listening brings something different into focus. Moving lightly has been the consistent description of the established practitioner throughout Book 1: light because there is nothing unnecessary being carried, light because the passions that make movement labored have been weakened. And yet this lightness is not the lightness of someone rushing past the world — it is the lightness of someone who has become more sensitive to it, not less. "Listening to all living beings" means being open to what the full range of life is experiencing: the suffering of creatures who cannot speak, the fear of animals in the path, the silent need of every being that is not human and cannot ask for help. The established monk who moves lightly through the world is listening to all of this simultaneously, and responding to it with the complete non-harm of his established practice. This is what the teaching produces at its fullest: not a practitioner who has retreated from the world into protected internal peace, but a practitioner who is more present to the world's full reality and responds to it with perfect non-harm.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The established monk is not disconnected from the world — he is more sensitive to it. Moving lightly means being more present, not less.</p>
-  <div class="concept-tags"><span class="concept-tag">Moving Lightly</span><span class="concept-tag">Listening</span><span class="concept-tag">Full Presence</span><span class="concept-tag">Compassion</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-12">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.12</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं च मग्गं जाणित्ता, से भिक्खू न पमायए।</p>
-  <div class="caution-banner">
-    <div class="caution-header">
-      <span class="caution-badge">Caution</span>
-      <span class="caution-name">Negligence Even in Established Practice · Pramada</span>
-    </div>
-    <p class="caution-def">Even the advanced practitioner is warned: complacency about one's progress is a subtle and dangerous form of negligence that erodes what has been built.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood this path, that monk is not negligent.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Even in the closing chapter, having praised the established monk and described the burning of karma that his practice produces, Mahavira adds a crucial instruction: having understood this path, the monk is not negligent. The placement of this warning here — after the praise, after the promise — is intentional and important. It would be easy to read the description of the established monk and think: someone who has achieved that state of composure in the path, that level of karma-burning, that quality of listening to all living beings — surely that monk is beyond the reach of negligence? But Mahavira does not make that assumption. Negligence (pramada) is the single most dangerous threat to practice at every stage, because it is quiet and gradual. It does not announce itself. It shows up as slightly less careful attention, slightly more comfortable accommodations, slightly more lenient interpretation of the vows. The practitioner who has reached a genuine level of establishment in the teaching is not immune to this — if anything, they may face it in a subtler form: the pride of accomplishment, the assumption that the practice is secure enough to relax, the complacency of having been on the path for a long time. The warning is therefore precisely placed: understand the path, be established in it, listen to all beings, burn away karma — and through all of this, do not be negligent. Vigilance is required from the first step to the last.</p>
-  <p class="simple-explanation"><b>The simple version:</b> Understanding the path is not the same as walking it without slipping. Vigilance is required from the first step to the last.</p>
-  <div class="concept-tags"><span class="concept-tag">Non-Negligence</span><span class="concept-tag">Vigilance</span><span class="concept-tag">Continuous Practice</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-13">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.13</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सुयं धम्ममेयं, जाणह पंडिया तहा।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This teaching has been heard — know it thus, O learned ones.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The phrase "this teaching has been heard" returns a third time in Chapter 16, and its repetition is not accidental. In the oral transmission traditions of ancient India, repetition was the primary tool of preservation. Important teachings were stated, restated, and stated again — each repetition reinforcing the memory and the commitment to preserve the teaching exactly as received. The Jain transmission tradition was carried for centuries in exactly this way: monks learning the sutras by heart, reciting them repeatedly, passing them on orally before they were ever written down. "Know it thus, O learned ones" is the instruction to each generation of receivers: receive this exactly, hold it exactly, pass it on exactly. Do not paraphrase. Do not update for a contemporary audience. Do not simplify out of mercy for those who might find the original difficult. The teaching as heard from the Blessed One is the teaching that reaches liberation. Any departure from it — even a well-intentioned one — risks departing from what the omniscient one declared. The repetition of the hearing formula is therefore both a historical marker (this was heard, not invented) and an ongoing instruction to every generation that receives it: the chain of transmission is sacred and must be maintained with exactness.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The teaching's survival depends on each generation receiving and passing it accurately. Being a "learned one" means taking this responsibility seriously.</p>
-  <div class="concept-tags"><span class="concept-tag">Transmission Chain</span><span class="concept-tag">Responsibility</span><span class="concept-tag">Learned Ones</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-14">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.14</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं खलु सव्वधम्मे, जाणह लोगुत्तमं।</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This indeed is the teaching of all teachings — know it as the highest in the world.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Sutra 16.14 makes the most sweeping claim of Book 1: this indeed is the teaching of all teachings — loka-uttamam, the highest in the world. This claim requires careful understanding because it is easily misread as simple religious chauvinism — "our tradition is the best." But the Jain claim here is substantive rather than institutional. Throughout Book 1, Mahavira has argued and demonstrated what liberation requires: right vision (the correct understanding of the soul), conduct (the five great vows expressed in behavior), austerity (the active burning of accumulated karma), and restraint (the prevention of new karma). These are not arbitrary requirements — they are the logical response to what bondage is and how it operates. If bondage is caused by karma that adheres through passionate activity, then liberation requires: removing passion (through conquering the four kashaya), dissolving karma (through austerity), and preventing new adherence (through restraint). This is the Jain path. And the claim "highest in the world" means: any teaching that genuinely produces these conditions is, to that extent, participating in the highest teaching. Any teaching that claims to lead to liberation while excluding non-violence, right vision, and the dissolution of karma cannot arrive at the destination it names. The standard is not "does this teaching call itself Jainism" but "does this teaching produce what liberation requires." The claim is an invitation to scrutiny, not a demand for deference.</p>
-  <p class="simple-explanation"><b>The simple version:</b> This teaching is called the highest not because of its tradition but because of what it contains. Non-violence and right vision are the conditions of liberation — this has been demonstrated, not merely asserted.</p>
-  <div class="concept-tags"><span class="concept-tag">Highest Teaching</span><span class="concept-tag">Substantive Claim</span><span class="concept-tag">Universal Conditions</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-15">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.15</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सुयं भगवया, परिण्णाय वियागरे। जे भिक्खू एत्थ ठिए, सोहम्मं कम्मं खवेज्ज सो॥ — iti bemi</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This has been heard and declared by the Blessed One, having fully comprehended it. The monk who is established in this — he burns away his karma. — Thus I say.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The final sutra of the first Shrutaskandha is the great seal. Mahavira repeats the two lines that stand at the center of Chapter 16 — and now closes them with "iti bemi" — thus I say. These three syllables are the signature of the Tirthankara's direct declaration, used throughout the Sutrakritanga to mark the points of highest authority. Here, at the end of the entire first book, they serve as the final seal of everything that has been taught. "This has been heard and declared by the Blessed One, having fully comprehended it" — every chapter, every sutra, every verse of teaching, every description of right vision and wrong view, every instruction about the alms round and village conduct, every answer to the questions about bondage and liberation — all of it came from the direct, omniscient comprehension of the Tirthankara. It was not theorized. It was seen. "The monk who is established in this burns away his karma" — the promise of the entire book, stated in its most compact and complete form. Not the monk who knows about this, not the monk who agrees with this, not the monk who occasionally practices this: the monk who is established in this. Establishment is the threshold. Burning karma is the result. Liberation is the destination. And "thus I say" is Mahavira's signature on that promise — spoken from the far shore of samsara, by the one who made the crossing, to every soul still making their way toward it. Book 1 of the Sutrakritanga is complete. Walk the path. Thus I say.</p>
-  <p class="simple-explanation"><b>The simple version:</b> The book that began with questions about bondage ends with the promise of liberation. The monk who takes this teaching as his ground — not as a text to read but as a life to live — burns away what has bound the soul since beginningless time. Thus I say.</p>
-  <div class="concept-tags"><span class="concept-tag">Seal of Book 1</span><span class="concept-tag">Promise of Liberation</span><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Authentic Transmission</span></div>
-  </div></div></article>
-
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood this path, that monk is not negligent.</p><div class="caution-banner">
+<div class="caution-header">
+<span class="caution-badge">Caution</span>
+<span class="caution-name">Negligence Even in Established Practice · Pramada</span>
+</div>
+<p class="caution-def">Even the advanced practitioner is warned: complacency about one's progress is a subtle and dangerous form of negligence that erodes what has been built.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Even in the closing chapter, having praised the established monk and described the burning of karma that his practice produces, Mahavira adds a crucial instruction: having understood this path, the monk is not negligent. The placement of this warning here — after the praise, after the promise — is intentional and important. It would be easy to read the description of the established monk and think: someone who has achieved that state of composure in the path, that level of karma-burning, that quality of listening to all living beings — surely that monk is beyond the reach of negligence? But Mahavira does not make that assumption. Negligence (pramada) is the single most dangerous threat to practice at every stage, because it is quiet and gradual. It does not announce itself. It shows up as slightly less careful attention, slightly more comfortable accommodations, slightly more lenient interpretation of the vows. The practitioner who has reached a genuine level of establishment in the teaching is not immune to this — if anything, they may face it in a subtler form: the pride of accomplishment, the assumption that the practice is secure enough to relax, the complacency of having been on the path for a long time. The warning is therefore precisely placed: understand the path, be established in it, listen to all beings, burn away karma — and through all of this, do not be negligent. Vigilance is required from the first step to the last.</p>
+<p class="simple-explanation"><b>The simple version:</b> Understanding the path is not the same as walking it without slipping. Vigilance is required from the first step to the last.</p>
+<div class="concept-tags"><span class="concept-tag">Non-Negligence</span><span class="concept-tag">Vigilance</span><span class="concept-tag">Continuous Practice</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सुयं धम्ममेयं, जाणह पंडिया तहा।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This teaching has been heard — know it thus, O learned ones.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The phrase "this teaching has been heard" returns a third time in Chapter 16, and its repetition is not accidental. In the oral transmission traditions of ancient India, repetition was the primary tool of preservation. Important teachings were stated, restated, and stated again — each repetition reinforcing the memory and the commitment to preserve the teaching exactly as received. The Jain transmission tradition was carried for centuries in exactly this way: monks learning the sutras by heart, reciting them repeatedly, passing them on orally before they were ever written down. "Know it thus, O learned ones" is the instruction to each generation of receivers: receive this exactly, hold it exactly, pass it on exactly. Do not paraphrase. Do not update for a contemporary audience. Do not simplify out of mercy for those who might find the original difficult. The teaching as heard from the Blessed One is the teaching that reaches liberation. Any departure from it — even a well-intentioned one — risks departing from what the omniscient one declared. The repetition of the hearing formula is therefore both a historical marker (this was heard, not invented) and an ongoing instruction to every generation that receives it: the chain of transmission is sacred and must be maintained with exactness.</p>
+<p class="simple-explanation"><b>The simple version:</b> The teaching's survival depends on each generation receiving and passing it accurately. Being a "learned one" means taking this responsibility seriously.</p>
+<div class="concept-tags"><span class="concept-tag">Transmission Chain</span><span class="concept-tag">Responsibility</span><span class="concept-tag">Learned Ones</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.14</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं खलु सव्वधम्मे, जाणह लोगुत्तमं।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This indeed is the teaching of all teachings — know it as the highest in the world.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Sutra 16.14 makes the most sweeping claim of Book 1: this indeed is the teaching of all teachings — loka-uttamam, the highest in the world. This claim requires careful understanding because it is easily misread as simple religious chauvinism — "our tradition is the best." But the Jain claim here is substantive rather than institutional. Throughout Book 1, Mahavira has argued and demonstrated what liberation requires: right vision (the correct understanding of the soul), conduct (the five great vows expressed in behavior), austerity (the active burning of accumulated karma), and restraint (the prevention of new karma). These are not arbitrary requirements — they are the logical response to what bondage is and how it operates. If bondage is caused by karma that adheres through passionate activity, then liberation requires: removing passion (through conquering the four kashaya), dissolving karma (through austerity), and preventing new adherence (through restraint). This is the Jain path. And the claim "highest in the world" means: any teaching that genuinely produces these conditions is, to that extent, participating in the highest teaching. Any teaching that claims to lead to liberation while excluding non-violence, right vision, and the dissolution of karma cannot arrive at the destination it names. The standard is not "does this teaching call itself Jainism" but "does this teaching produce what liberation requires." The claim is an invitation to scrutiny, not a demand for deference.</p>
+<p class="simple-explanation"><b>The simple version:</b> This teaching is called the highest not because of its tradition but because of what it contains. Non-violence and right vision are the conditions of liberation — this has been demonstrated, not merely asserted.</p>
+<div class="concept-tags"><span class="concept-tag">Highest Teaching</span><span class="concept-tag">Substantive Claim</span><span class="concept-tag">Universal Conditions</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-16-15">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16.15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सुयं भगवया, परिण्णाय वियागरे। जे भिक्खू एत्थ ठिए, सोहम्मं कम्मं खवेज्ज सो॥ — iti bemi</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This has been heard and declared by the Blessed One, having fully comprehended it. The monk who is established in this — he burns away his karma. — Thus I say.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The final sutra of the first Shrutaskandha is the great seal. Mahavira repeats the two lines that stand at the center of Chapter 16 — and now closes them with "iti bemi" — thus I say. These three syllables are the signature of the Tirthankara's direct declaration, used throughout the Sutrakritanga to mark the points of highest authority. Here, at the end of the entire first book, they serve as the final seal of everything that has been taught. "This has been heard and declared by the Blessed One, having fully comprehended it" — every chapter, every sutra, every verse of teaching, every description of right vision and wrong view, every instruction about the alms round and village conduct, every answer to the questions about bondage and liberation — all of it came from the direct, omniscient comprehension of the Tirthankara. It was not theorized. It was seen. "The monk who is established in this burns away his karma" — the promise of the entire book, stated in its most compact and complete form. Not the monk who knows about this, not the monk who agrees with this, not the monk who occasionally practices this: the monk who is established in this. Establishment is the threshold. Burning karma is the result. Liberation is the destination. And "thus I say" is Mahavira's signature on that promise — spoken from the far shore of samsara, by the one who made the crossing, to every soul still making their way toward it. Book 1 of the Sutrakritanga is complete. Walk the path. Thus I say.</p>
+<p class="simple-explanation"><b>The simple version:</b> The book that began with questions about bondage ends with the promise of liberation. The monk who takes this teaching as his ground — not as a text to read but as a life to live — burns away what has bound the soul since beginningless time. Thus I say.</p>
+<div class="concept-tags"><span class="concept-tag">Seal of Book 1</span><span class="concept-tag">Promise of Liberation</span><span class="concept-tag">Iti Bemi</span><span class="concept-tag">Authentic Transmission</span></div>
+</div></div></article>
 </section>
-
-<a href="sutrakritang-ch15.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 15</a>
-<a href="sutrakritang-ch17.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 17 <span class="text-lg">&rarr;</span></a>
-
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="sutrakritang-ch15.html"><span class="text-lg">←</span> Chapter 15</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="sutrakritang-ch17.html">Chapter 17 <span class="text-lg">→</span></a>
 <footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
-  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
-    <div class="flex flex-col gap-6 max-w-md">
-      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
-      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
-      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
-    </div>
-    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
-    </div>
-  </div>
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
 </footer>
 <script>
 window.addEventListener('scroll',()=>{const v=window.scrollY>300;document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('visible',v))});
 </script>
 <script src="../../../js/sutrakritang-search.js"></script>
-</body></html>
+</main></body></html>

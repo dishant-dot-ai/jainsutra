@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html class="light" lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -6,8 +7,8 @@
 <title>Sutrakritanga Chapter 8: Mahababhaviya | JainAwaken.org</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script id="tailwind-config">
 tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#755b00","on-primary":"#ffffff","primary-container":"#c9a84c","on-primary-container":"#503d00","surface":"#fef9f1","on-surface":"#1d1c17","surface-variant":"#e7e2da","on-surface-variant":"#4d4637","outline":"#7e7665","outline-variant":"#d0c5b2","surface-container-low":"#f8f3eb","surface-container":"#f2ede5","surface-container-high":"#ece8e0","tertiary":"#4d5a98","on-tertiary":"#ffffff","error":"#ba1a1a"},fontFamily:{"headline":["Noto Serif","serif"],"body":["Inter","sans-serif"],"label":["Inter","sans-serif"]},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"}}}}
@@ -17,8 +18,8 @@ html{scroll-behavior:smooth}
 .burnished-gradient{background:radial-gradient(circle at center,#755b00,#c9a84c)}
 .sutra-card{border:1px solid rgba(201,168,76,0.25);border-left:3px solid #c9a84c;background:white}
 .sutra-sanskrit{font-size:1.35rem;line-height:2;color:#503d00}
-.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size:1.1rem;line-height:1.7;color:#4d4637}
-.simple-explanation b{color:#755b00;font-weight:600}
+.simple-explanation{margin-top:1rem;padding-top:1rem;border-top:1px dashed rgba(201,168,76,0.3);font-family:'Inter',sans-serif;font-size: 1.2rem;line-height: 1.85;color:#4d4637}
+.simple-explanation b{color: #1d1c17;font-weight:600}
 .concept-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:1rem}
 .concept-tag{display:inline-block;border:1px solid #C9A84C;color:#1d1c17;font-family:'Inter',sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:0.1em;border-radius:100px;padding:4px 13px;font-weight:500}
 .nav-button{position:fixed;bottom:24px;z-index:100;background:transparent;border:1px solid rgba(201,168,76,0.35);color:rgba(201,168,76,0.6);transition:all 0.5s cubic-bezier(0.4,0,0.2,1);opacity:0;pointer-events:none;transform:translateY(20px)}
@@ -38,472 +39,434 @@ html{scroll-behavior:smooth}
 .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
 .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
 .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(186,26,26,0.04); border-radius: 6px; }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
-
+.wrong-view-badge { background: rgba(186,26,26,0.1); border: 1px solid rgba(186,26,26,0.35); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(30,64,175,0.04); border-radius: 6px; }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
-/* Sutra card hover */
-.sutra-card { transition: border-left-color 0.35s ease, background 0.35s ease, box-shadow 0.35s ease; }
-.sutra-card:hover { border-left-color: #4d5a98 !important; background: rgba(77,90,152,0.028) !important; box-shadow: 0 4px 20px rgba(77,90,152,0.09) !important; }
+.caution-badge { background: rgba(30,64,175,0.1); border: 1px solid rgba(30,64,175,0.35); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body bg-white">
-<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
-  <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
-    <div class="flex items-center gap-12">
-      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
-      <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
-        <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
-        <a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
-      </div>
-    </div>
-    <div class="flex items-center gap-8">
-  <div class="relative group hidden lg:block">
-    <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
-    <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
-    <div id="search-dropdown"></div>
-  </div>
-  <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm">Donate</a>
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
 </div>
-  </div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+<input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
 </nav>
 <main class="pt-40">
-
 <section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
-  <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
-    <div class="flex flex-col gap-3">
-      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Sutrakritanga Sutra</span>
-      <h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Sutrakritanga Sutra</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
         The Great Existences<span class="block text-primary font-normal text-xl md:text-2xl mt-2">महाभविय</span>
-      </h1>
-    </div>
-    <h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Where Does Karma Take You?</h2>
-    <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Heaven and hell are both karma's destinations — one purchased by restraint and virtue, one earned by violence and possessiveness. This chapter maps both, then points beyond them: the truly wise aim not for better karma but for freedom from karma altogether. Liberation alone is permanent. Everything else, however glorious, eventually ends.</p>
-  </div>
-  <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
-    <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
-      <img alt="Ancient Jain manuscript — Sutrakritanga" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../../assets/manuscript.jpg"/>
-      <div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
-    </div>
-    <div class="mt-8 text-center">
-      <p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">जे संजया सीलवंता, तवस्सी णिव्वियारया ।<br>ते देवलोए उववज्जंति, सुद्धं सुक्कं पहाणयं ॥८.१॥</p>
-      <p class="text-base text-on-surface-variant mt-3 font-light italic">"Those who are restrained, virtuous, austere, and free from passions — they are reborn in the divine realm, in purity, brightness, and excellence." — Sutrakritanga 8.1</p>
-    </div>
-  </div>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Where Does Karma Take You?</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Heaven and hell are both karma's destinations — one purchased by restraint and virtue, one earned by violence and possessiveness. This chapter maps both, then points beyond them: the truly wise aim not for better karma but for freedom from karma altogether. Liberation alone is permanent. Everything else, however glorious, eventually ends.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Sutrakritanga" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">जे संजया सीलवंता, तवस्सी णिव्वियारया ।<br/>ते देवलोए उववज्जंति, सुद्धं सुक्कं पहाणयं ॥८.१॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Those who are restrained, virtuous, austere, and free from passions — they are reborn in the divine realm, in purity, brightness, and excellence." — Sutrakritanga 8.1</p>
+</div>
+</div>
 </section>
-
 <section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
-  <div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
-    <div class="col-span-12 lg:col-span-4">
-      <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
-      <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Mahababhaviya</h3>
-    </div>
-    <div class="col-span-12 lg:col-span-8 space-y-6">
-      <p class="text-lg leading-relaxed text-on-surface-variant">Chapter 8 of the Sutrakritanga is the companion chapter to Chapter 7 — a vivid map of both the highest and lowest destinations karma can produce. The first part describes the heavenly rebirths available to those who practice restraint, virtue, austerity, and freedom from passion: radiant realms of purity, pleasure-groves, divine abodes, and dancing celestial beings. The Tirthankara, it is declared, surpasses even the most powerful gods in inner luminosity — liberation is greater than the best heaven.</p>
-      <p class="text-lg leading-relaxed text-on-surface-variant">The second movement turns to hellish rebirths: the terrifying realms of violent winds, endless torment, and mutual harm that await those who live with unbridled violence, falsehood, theft, sensual indulgence, and possessiveness. The chapter's pivot is its central teaching: both heaven and hell are produced by karma, and the truly wise person aims beyond both. Examining karma thoroughly, practicing meditation, maintaining vigilance, and walking with humility — the complete path from repeated rebirth to infinite, permanent liberation.</p>
-      <div class="flex gap-8 items-center pt-4 flex-wrap">
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">25</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
-        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
-        <div class="w-px h-12 bg-outline-variant hidden md:block"></div>
-        <div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
-      </div>
-    </div>
-  </div>
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Mahababhaviya</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant">Chapter 8 of the Sutrakritanga is the companion chapter to Chapter 7 — a vivid map of both the highest and lowest destinations karma can produce. The first part describes the heavenly rebirths available to those who practice restraint, virtue, austerity, and freedom from passion: radiant realms of purity, pleasure-groves, divine abodes, and dancing celestial beings. The Tirthankara, it is declared, surpasses even the most powerful gods in inner luminosity — liberation is greater than the best heaven.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The second movement turns to hellish rebirths: the terrifying realms of violent winds, endless torment, and mutual harm that await those who live with unbridled violence, falsehood, theft, sensual indulgence, and possessiveness. The chapter's pivot is its central teaching: both heaven and hell are produced by karma, and the truly wise person aims beyond both. Examining karma thoroughly, practicing meditation, maintaining vigilance, and walking with humility — the complete path from repeated rebirth to infinite, permanent liberation.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">25</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Book 1</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shrutaskandha</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Mahavira</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Source</span></div>
+</div>
+</div>
+</div>
 </section>
-
 <section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
-  <div class="mb-16">
-    <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 8 · Book 1</span>
-    <h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 25 Sutras</h3>
-    <p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
-  </div>
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Adhyayana 8 · Book 1</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 25 Sutras</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each verse is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+</div>
+<div class="section-divider"><span>Part I — The Heavenly Rebirths (1–10)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे संजया सीलवंता, तवस्सी णिव्वियारया ।<br/>ते देवलोए उववज्जंति, सुद्धं सुक्कं पहाणयं ॥८.१॥</p>
 
-  <div class="section-divider"><span>Part I — The Heavenly Rebirths (1–10)</span></div>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those who are restrained, virtuous, austere, and free from passions — they are reborn in the divine realm, in purity, brightness, and excellence.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Karmic Fruit of Virtue · Punya Phala</span>
+</div>
+<p class="principle-def">Restraint, virtue, austerity, and freedom from passion produce heavenly rebirth — genuine purity and brightness of the soul — though this is still within the cycle and not the final liberation.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Chapter 8 opens as the mirror image of Chapter 7 — where Chapter 7 mapped the lower rebirths produced by careless and violent living, Chapter 8 opens with the opposite: the heavenly rebirths available to those who practice with genuine commitment. The four qualities named — restraint (saṃjaya, not harming), virtue (sīlavanta, ethical conduct), austerity (tavassi, disciplined reduction of desires), and freedom from passions (ṇivviyārayā, free from agitation and inner upheaval) — are the same qualities developed throughout the Sutrakritanga. They are not abstract spiritual ideals but the practical results of sustained daily practice of the five great vows. The heavenly realm is described with three adjectives that together paint a picture of the soul's increasing clarity: pure (suddha), bright (sukka), and excellent (pahāṇaya). In Jain cosmology, the soul's natural condition is pure radiant luminosity; hell-rebirths represent the maximum darkening of this natural light through accumulated karma, while heavenly rebirths represent the partial recovery of it — not full liberation, but a meaningful step in the right direction. Crucially, the verse does not present heaven as a permanent destination. This is Mahavira's teaching: even the best non-liberated state is still within the cycle.</p>
+<p class="simple-explanation"><b>Simply put:</b> People who practice restraint, live virtuously, do genuine discipline, and overcome their inner passions are reborn in heavenly realms of purity and light.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What is the quality of your inner light right now — do you feel it getting clearer or cloudier through your daily choices?</p>
+<div class="concept-tags"><span class="concept-tag">Heavenly Rebirth</span><span class="concept-tag">Virtue</span><span class="concept-tag">Restraint</span><span class="concept-tag">Karma</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">देवलोए सुहं खाइं, णंदणंदणवणेसु य ।<br/>विमाणेसु य रम्मेसु, देवी णच्चंति तत्थ य ॥८.२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In the divine realm there are pleasures, in the groves of joy and delight, in the beautiful divine chariots — and divine beings dance there.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse describes heavenly existence in vivid, appealing terms: pleasure-groves of joy (ṇaṃdaṇaṃdaṇavana — literally "groves of delight and rejoicing"), beautiful divine vehicles (vimāna) that are both flying abodes and palaces, and divine beings (devī) who dance with grace and vitality. Jain cosmology is not puritanical about heaven — it presents heavenly existence as genuinely pleasurable, refined, and far more vivid in its beauty than anything available in the human realm. The divine beings who inhabit these realms experience pleasure, joy, and freedom from the ordinary sufferings of embodied existence. This is real; it is not dismissed or minimized. But — and this is what distinguishes the Jain perspective from traditions that present heaven as the ultimate goal — all of this remains within the domain of karma and attachment. The divine beings dancing in those groves are not liberated; they are enjoying the fruit of good karma, just as animals are suffering the fruit of bad karma. They are still within the cycle; they are just at a more comfortable station in it. The pleasures are extraordinary but they are temporary.</p>
+<p class="simple-explanation"><b>Simply put:</b> Heavenly existence is genuinely wonderful — beautiful gardens, amazing abodes, divine beings full of joy and dance — but it is still within the cycle, not beyond it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: If heaven is still within the cycle of karma and not truly free, why do many spiritual traditions present it as the ultimate goal — and what does that tell you about what those traditions value?</p>
+<div class="concept-tags"><span class="concept-tag">Heaven</span><span class="concept-tag">Divine Pleasure</span><span class="concept-tag">Impermanence</span><span class="concept-tag">Cycle of Existence</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">दिव्वाइं भोगभोगाइं, भुंजंता देवया तहिं ।<br/>आउखयं च पावंति, आउखीणे चवंति ते ॥८.३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The divine beings there, enjoying divine pleasures — they reach the exhaustion of their lifespan; when the lifespan is exhausted, they fall.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse delivers the critical teaching about heaven that distinguishes the Jain view from traditions that present it as the highest goal: heaven ends. The divine beings are enjoying their pleasures — the verse acknowledges this with the word "enjoying" (bhuṃjaṃtā) — but then: they "reach the exhaustion of their lifespan" (āukhayaṃ pāvaṃti). Karma is like a bank account; good karma produces a heavenly lifespan just as bad karma produces a hellish one, but all accounts eventually run to zero. And when the karma is exhausted, the divine being "falls" (cavaṃti) — descends from the heavenly realm. The word "falls" is deliberately sharp. The divine being who has spent their entire heavenly lifespan indulging in pleasures without cultivating any new spiritual practice has not improved their karmic situation; they have merely spent what they had. When it runs out, there is no guarantee of what comes next. They may fall to the human realm, or they may fall lower. This is the Jain critique of seeking heaven as a goal: it is a finite investment in a temporary pleasant situation, not a way out of the cycle. You are still playing by karma's rules rather than transcending them entirely.</p>
+<p class="simple-explanation"><b>Simply put:</b> Even divine beings eventually exhaust their good karma and fall from heaven — it was never permanent, just a very long and pleasant stay.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Do you work toward pleasant temporary situations in your spiritual life — or toward the complete, permanent freedom that doesn't end?</p>
+<div class="concept-tags"><span class="concept-tag">Impermanence</span><span class="concept-tag">Karma Exhaustion</span><span class="concept-tag">Fall from Heaven</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तम्हा सव्वे पहिट्ठा, पुण्णकम्मस्स संचयं ।<br/>णो मुच्चंति भवात्तो, विण्णू ण रज्जए तहिं ॥८.४॥</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-1">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.1</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे संजया सीलवंता, तवस्सी णिव्वियारया ।<br>ते देवलोए उववज्जंति, सुद्धं सुक्कं पहाणयं ॥८.१॥</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Karmic Fruit of Virtue · Punya Phala</span>
-    </div>
-    <p class="principle-def">Restraint, virtue, austerity, and freedom from passion produce heavenly rebirth — genuine purity and brightness of the soul — though this is still within the cycle and not the final liberation.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who are restrained, virtuous, austere, and free from passions — they are reborn in the divine realm, in purity, brightness, and excellence.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Chapter 8 opens as the mirror image of Chapter 7 — where Chapter 7 mapped the lower rebirths produced by careless and violent living, Chapter 8 opens with the opposite: the heavenly rebirths available to those who practice with genuine commitment. The four qualities named — restraint (saṃjaya, not harming), virtue (sīlavanta, ethical conduct), austerity (tavassi, disciplined reduction of desires), and freedom from passions (ṇivviyārayā, free from agitation and inner upheaval) — are the same qualities developed throughout the Sutrakritanga. They are not abstract spiritual ideals but the practical results of sustained daily practice of the five great vows. The heavenly realm is described with three adjectives that together paint a picture of the soul's increasing clarity: pure (suddha), bright (sukka), and excellent (pahāṇaya). In Jain cosmology, the soul's natural condition is pure radiant luminosity; hell-rebirths represent the maximum darkening of this natural light through accumulated karma, while heavenly rebirths represent the partial recovery of it — not full liberation, but a meaningful step in the right direction. Crucially, the verse does not present heaven as a permanent destination. This is Mahavira's teaching: even the best non-liberated state is still within the cycle.</p>
-  <p class="simple-explanation"><b>Simply put:</b> People who practice restraint, live virtuously, do genuine discipline, and overcome their inner passions are reborn in heavenly realms of purity and light.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What is the quality of your inner light right now — do you feel it getting clearer or cloudier through your daily choices?</p>
-  <div class="concept-tags"><span class="concept-tag">Heavenly Rebirth</span><span class="concept-tag">Virtue</span><span class="concept-tag">Restraint</span><span class="concept-tag">Karma</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Therefore, though all are delighted (in heaven), through the accumulation of meritorious karma — they are not freed from existence; the wise one is not attached there.</p><div class="caution-banner">
+<div class="caution-header">
+<span class="caution-badge">Caution</span>
+<span class="caution-name">Heaven as Spiritual Trap · Seeking Good Karma Over Liberation</span>
+</div>
+<p class="caution-def">Even the highest heavenly existence does not free the soul from the cycle — accumulating good karma still keeps one bound; the wise do not become attached to heavenly rebirth as a goal.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse states the chapter's central philosophical thesis with complete clarity: everyone in heaven is genuinely delighted (puhiṭṭhā — joyful, pleased), but through the accumulation of meritorious karma — the very mechanism that produced the heavenly rebirth — they are not freed from existence (ṇo muccaṃti bhavā). The cycle has not been broken. This is a radical insight that goes against the spiritual intuition of most religious traditions. Many traditions teach: be good, practice virtue, and you will be rewarded with heaven — and heaven is the ultimate destination. Mahavira says: no. Heaven is a reward within the system, not an exit from the system. To exit the system requires something fundamentally different from accumulating good karma: it requires the cessation of all karma accumulation — good and bad — and the burning away of all existing karma through non-accumulation plus austerity. The wise person (viññū) who understands this is not attached to heaven as a goal. They have understood that the goal of "going to heaven" is like the goal of getting a better room in a prison: genuinely preferable to a worse room, but still a prison. The wise aim for the door out, not for the best room.</p>
+<p class="simple-explanation"><b>Simply put:</b> Even though heaven is wonderful and everyone there is happy, they are still not free — and the truly wise person isn't even attached to going there, because they want complete freedom, not just a very good next life.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: In your own spiritual aspiration, are you working toward lasting freedom — or toward a more comfortable situation, even if that situation is only temporary?</p>
+<div class="concept-tags"><span class="concept-tag">Meritorious Karma</span><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Liberation vs Heaven</span><span class="concept-tag">Wisdom</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">धम्मो य कित्तिई सगग, दुच्चरे लोगुत्तमे ।<br/>अहिंसा परमो धम्मो, जो ण पाओ ण णिंदिए ॥८.५॥</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-2">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.2</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">देवलोए सुहं खाइं, णंदणंदणवणेसु य ।<br>विमाणेसु य रम्मेसु, देवी णच्चंति तत्थ य ॥८.२॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">In the divine realm there are pleasures, in the groves of joy and delight, in the beautiful divine chariots — and divine beings dance there.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse describes heavenly existence in vivid, appealing terms: pleasure-groves of joy (ṇaṃdaṇaṃdaṇavana — literally "groves of delight and rejoicing"), beautiful divine vehicles (vimāna) that are both flying abodes and palaces, and divine beings (devī) who dance with grace and vitality. Jain cosmology is not puritanical about heaven — it presents heavenly existence as genuinely pleasurable, refined, and far more vivid in its beauty than anything available in the human realm. The divine beings who inhabit these realms experience pleasure, joy, and freedom from the ordinary sufferings of embodied existence. This is real; it is not dismissed or minimized. But — and this is what distinguishes the Jain perspective from traditions that present heaven as the ultimate goal — all of this remains within the domain of karma and attachment. The divine beings dancing in those groves are not liberated; they are enjoying the fruit of good karma, just as animals are suffering the fruit of bad karma. They are still within the cycle; they are just at a more comfortable station in it. The pleasures are extraordinary but they are temporary.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Heavenly existence is genuinely wonderful — beautiful gardens, amazing abodes, divine beings full of joy and dance — but it is still within the cycle, not beyond it.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: If heaven is still within the cycle of karma and not truly free, why do many spiritual traditions present it as the ultimate goal — and what does that tell you about what those traditions value?</p>
-  <div class="concept-tags"><span class="concept-tag">Heaven</span><span class="concept-tag">Divine Pleasure</span><span class="concept-tag">Impermanence</span><span class="concept-tag">Cycle of Existence</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Religion leads to heaven and to what is supreme in the world, difficult to practice; non-violence is the supreme religion, which is neither sinful nor blameworthy.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Ahimsa — Supreme and Blameless Religion · Ahimsā Paramo Dharmaḥ</span>
+</div>
+<p class="principle-def">Non-violence is the supreme religion and is neither sinful nor blameworthy — it is the most demanding ethical practice available, leading both to the best intermediate states and ultimately to what is supreme in the world.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse makes two connected claims. First: the religion of non-violence is the supreme religion (ahiṃsā paramo dhammo — a phrase that would later become famous across many Indian traditions) and it leads to both intermediate goods (heaven) and the ultimate good (what is supreme in the world). Second: it is genuinely difficult to practice (duccara — hard to do, hard to carry out). The difficulty is not in understanding the principle — the principle is simple. The difficulty is in the consistent, daily, unrelenting practice of it against the current of habitual behavior, social norms, biological drives, and centuries of cultural conditioning that treat harm as normal. The complete Jain practice of non-violence — protecting even one-sensed beings, refusing to delegate harm, refusing to approve of harm, maintaining it even under hostility and hardship — is one of the most demanding ethical commitments ever articulated in any tradition. The declaration that this religion is "neither sinful nor blameworthy" (ṇo pāo ṇa ṇiṃdie) has historical significance: in Mahavira's time, the practice of Vedic sacrifice was socially mandatory and critiquing it could be labeled as impiety or sin. Mahavira asserts directly that the path of non-violence is beyond any such accusation — it is the path above reproach.</p>
+<p class="simple-explanation"><b>Simply put:</b> The path of non-violence leads to heavenly existence and ultimately to what is highest — it is genuinely demanding to practice but completely pure and beyond blame.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What makes the practice of genuine non-violence genuinely difficult for you personally — not in theory but in your actual life?</p>
+<div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Supreme Religion</span><span class="concept-tag">Difficult Practice</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जो देवलोए उज्जोए, तं ण सक्को अणुगंतए ।<br/>सव्वो वि तित्थयरो लोए, णाणेण य तवेण य ॥८.६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The radiance that exists in the divine realm — even the lord of the gods cannot follow it; the ford-maker is supreme in the world through knowledge and through austerity.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse makes a claim that would have been startling to many in Mahavira's world: the fully liberated being — the Tirthankara, the ford-maker who has attained complete liberation through total renunciation — surpasses even the king of the gods in radiance. The divine realm described in the previous sutras is extraordinary. The divine beings are luminous and powerful. But even the lord of those divine beings — Indra, the most powerful god in the cosmic hierarchy — cannot follow or match the radiance of a Tirthankara (ṇaṃ sak­ko aṇugaṃtae — "even the lord of gods cannot follow it"). Why? Because the gods are powerful by virtue of accumulated good karma. Their power is within the cycle, produced by the same mechanism that produces all karma-based existence. The Tirthankara is beyond karma entirely — not more karma, not better karma, but no karma. The light of a karma-free soul is categorically different from any karma-based power, just as the sun is categorically different from the most powerful electric light. The path to this state is named directly: knowledge and austerity. These are the two instruments — understanding what liberation requires, and the disciplined practice of purifying the soul through austerity.</p>
+<p class="simple-explanation"><b>Simply put:</b> Even the most powerful god cannot match the inner radiance of a fully liberated being — liberation is something even greater than the best heaven.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What do you imagine liberation to actually feel like — can you form any genuine intuition of it, or does it remain abstract?</p>
+<div class="concept-tags"><span class="concept-tag">Tirthankara</span><span class="concept-tag">Liberation</span><span class="concept-tag">Knowledge</span><span class="concept-tag">Austerity</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सीलेण तवसा चेव, संजमेण य णिच्चसो ।<br/>अप्पाणमेव भावेज्जा, जाइजरामरणाणुगं ॥८.७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Through virtue, through austerity, and through restraint always — let one cultivate the self, following along with birth, old age, and death.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The instruction in this verse is not about what to practice but about when — and the answer is: always (ṇiccaso — always, constantly, without interruption). The three pillars of practice are named again: virtue (sīla), austerity (tava), and restraint (saṃjama). And the context for this continuous practice is the natural arc of human life: birth, old age, death (jāijara­māraṇāṇugaṃ — following along with birth, aging, and death). This is not an abstract temporal qualifier; it is a specific reminder. It is relatively easy to practice when you are young, healthy, energetic, and clear-minded. The real test is whether the practice continues as the body ages, as health deteriorates, as faculties dim, as death approaches. Many people become more virtuous in old age out of fear; the teaching here calls for something different — a practice that was cultivated from the beginning and has simply continued, unbroken, through every phase of life. The phrase "cultivate the self" (bhāvejjā appāṇam) reinforces the consistent Jain teaching: this is your work, your personal cultivation, and it must span the entire trajectory of your embodied existence.</p>
+<p class="simple-explanation"><b>Simply put:</b> Through virtue, discipline, and self-restraint — not just sometimes but always — keep working on yourself throughout your entire life.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: At what point in your life do you imagine you will stop needing to work on yourself — and is that expectation realistic?</p>
+<div class="concept-tags"><span class="concept-tag">Continuous Practice</span><span class="concept-tag">Self-Cultivation</span><span class="concept-tag">Virtue</span><span class="concept-tag">Restraint</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तवस्सी संजए भिक्खू, संजोगपरिवज्जए ।<br/>अप्पमत्तो सया जागो, णिव्वाणं सो अहिगच्छए ॥८.८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The austere, restrained monk, who avoids attachments, ever un-negligent, always awake — that one attains liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse gives the liberation formula in its most compressed form: austere (tavassi) plus restrained (saṃjae) plus avoidance of attachments (saṃjogaparivajjae) plus ever-un-negligent (appamatto) plus always awake (saya jāgo) equals liberation (ṇivvāṇaṃ ahigacchae). Each component is load-bearing. Austerity burns away accumulated karma. Restraint prevents new karma from accumulating. Avoidance of attachments removes the karmic glue that would bind the soul to yet another birth — "attachments" here means not just possessions but every emotional, relational, and material connection that creates binding desire. Un-negligence means not drifting into the careless autopilot of daily life that allows karma to accumulate passively. And "always awake" is the quality that makes all the others real: a practitioner who does the right things but is spiritually asleep — performing the motions automatically, without genuine present awareness — is going through the forms of practice without the substance. Wakefulness is the ingredient that makes the practice actually work, that gives austerity and restraint their cutting edge. Liberation needs both outer form and inner quality to be complete.</p>
+<p class="simple-explanation"><b>Simply put:</b> The monk who is genuinely disciplined, avoids all clinging attachments, and stays spiritually awake throughout — that person attains liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What would "always spiritually awake" actually look like in your daily life — and how far from that are you right now?</p>
+<div class="concept-tags"><span class="concept-tag">Wakefulness</span><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Austerity</span><span class="concept-tag">Liberation</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">चउव्विहाहारविरओ, इंदियाइं निरुंभए ।<br/>परिसहाइं खमे धीरे, भवसायर तरइ सो ॥८.९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who has renounced the four types of food, who restrains the senses, who endures hardships with steadiness — that one crosses the ocean of existence.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The "four types of food" (cauvviha āhāra) named in this verse reflect the thoroughness with which Jain philosophy analyzes what the soul takes in. In Jain understanding, food is not just solid food — it includes liquid food (water, drinks), material tastes (condiments, flavors tasted without being fully eaten), and the subtle material particles taken in through breathing. This four-fold definition reflects the understanding that karma can be accumulated through any form of sensory intake done with passion and grasping. Restraining the senses goes considerably beyond simply not eating meat: it means training each of the five senses not to grasp hungrily at its objects of pleasure. The eye that craves beautiful sights; the ear that demands pleasant sounds; the tongue that needs stimulating flavors; the nose that seeks pleasant aromas; the skin that can't bear discomfort — all five are trained in restraint. And then: enduring hardship (parisa­hāiṃ) with steadiness (dhīra — steadfast, courageous) is the specific practice that burns existing karma. Not avoiding discomfort but meeting it with composure. The image of crossing the ocean of existence (bhava­sāyara) is one of the most powerful in the Sutrakritanga: liberation is the far shore, and the ocean between is vast and stormy. The monk who practices all of this crosses it.</p>
+<p class="simple-explanation"><b>Simply put:</b> The one who controls what they take in, restrains their senses, and endures discomfort with steady courage — that person crosses over the enormous sea of repeated existence.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What hardship in your current life could you bear more steadily — using it as practice rather than simply enduring or trying to escape it?</p>
+<div class="concept-tags"><span class="concept-tag">Sense Restraint</span><span class="concept-tag">Endurance</span><span class="concept-tag">Ocean of Existence</span><span class="concept-tag">Four Types of Food</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे य णरगा जे य सुरगा, कम्मेण पच्छिया ते ।<br/>धीरो कम्मं परिक्खाय, मुच्चइ भवसायरा ॥८.१०॥</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-3">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.3</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">दिव्वाइं भोगभोगाइं, भुंजंता देवया तहिं ।<br>आउखयं च पावंति, आउखीणे चवंति ते ॥८.३॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The divine beings there, enjoying divine pleasures — they reach the exhaustion of their lifespan; when the lifespan is exhausted, they fall.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse delivers the critical teaching about heaven that distinguishes the Jain view from traditions that present it as the highest goal: heaven ends. The divine beings are enjoying their pleasures — the verse acknowledges this with the word "enjoying" (bhuṃjaṃtā) — but then: they "reach the exhaustion of their lifespan" (āukhayaṃ pāvaṃti). Karma is like a bank account; good karma produces a heavenly lifespan just as bad karma produces a hellish one, but all accounts eventually run to zero. And when the karma is exhausted, the divine being "falls" (cavaṃti) — descends from the heavenly realm. The word "falls" is deliberately sharp. The divine being who has spent their entire heavenly lifespan indulging in pleasures without cultivating any new spiritual practice has not improved their karmic situation; they have merely spent what they had. When it runs out, there is no guarantee of what comes next. They may fall to the human realm, or they may fall lower. This is the Jain critique of seeking heaven as a goal: it is a finite investment in a temporary pleasant situation, not a way out of the cycle. You are still playing by karma's rules rather than transcending them entirely.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Even divine beings eventually exhaust their good karma and fall from heaven — it was never permanent, just a very long and pleasant stay.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Do you work toward pleasant temporary situations in your spiritual life — or toward the complete, permanent freedom that doesn't end?</p>
-  <div class="concept-tags"><span class="concept-tag">Impermanence</span><span class="concept-tag">Karma Exhaustion</span><span class="concept-tag">Fall from Heaven</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Hells and heavens — both are purchased by karma; the wise one, having examined karma fully, is freed from the ocean of existence.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Beyond Hell and Heaven · Karma-Transcendence</span>
+</div>
+<p class="principle-def">Both hells and heavens are produced by karma — one by bad, one by good — and the truly wise person aims not for a better rebirth but for the complete cessation of all karma accumulation, which alone leads to liberation.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the philosophical climax of the chapter — the verse toward which the entire chapter has been building. Both hells (naraka) and heavens (svarga) are purchased by karma — one by bad karma, one by good karma — and this means both are within the cycle of existence, not beyond it. The ordinary religious aspiration across most traditions is: accumulate good karma, avoid bad karma, go to heaven. Mahavira's teaching cuts through this: the wise person (dhīro) who has "examined karma fully" (kammaṃ parikkhāya — thoroughly investigated the mechanism of karma) understands that any karma — good or bad — binds the soul to continued existence. You are not liberated by having better karma; you are liberated only by having no karma. This requires a fundamentally different aspiration: not "how do I get better karma?" but "how do I stop accumulating any karma at all?" "Having examined karma fully" is not a one-time insight but an ongoing investigation: Where is karma coming in right now, in this moment? Which of my habits are generating it? Which passions are fueling it? The wise person who does this investigation daily eventually understands the mechanism well enough to step outside it entirely — and that stepping-outside is what it means to be freed from the ocean of existence.</p>
+<p class="simple-explanation"><b>Simply put:</b> Both hell and heaven are produced by karma — and the truly wise person, understanding how karma works completely, aims to be free from the whole mechanism, not just to have a better next life.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Have you ever seriously examined how karma actually accumulates in your daily life — not the concept but the actual moment-to-moment mechanics in your own actions and reactions?</p>
+<div class="concept-tags"><span class="concept-tag">Karma Mechanism</span><span class="concept-tag">Heaven and Hell</span><span class="concept-tag">Wisdom</span><span class="concept-tag">Liberation</span></div>
+</div></div></article>
+<div class="section-divider"><span>Part II — The Hells (11–18)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे य हिंसा करेंति लोए, उद्दामा उत्थिया बहुसो ।<br/>ते णरगं उव्वज्जंति, घोरं दुक्खं वेयंति ते ॥८.११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those who commit violence in the world — unbridled, arisen in wrong ways many times — they are reborn in hell, experiencing terrible suffering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter now pivots dramatically — from the analysis of heaven as a temporary state within the cycle to the description of its opposite: hell. The people who arrive in hellish rebirths are described with two characteristics: "unbridled" (uḍḍāmā — completely undisciplined, wild, without restraint) and "arisen in wrong ways many times" (utthiyā bahuso — repeatedly arising in wrong conduct). The second descriptor is important: this is not about a single terrible act but about a pattern — repeated, habitual, accumulated violence committed without any internal check. This is the life that has been defined by harm at a structural level, not an occasional lapse. Jain cosmology describes seven levels of hell with progressively intensifying suffering, and the level of hell a soul reaches corresponds to the severity and duration of the karma accumulated. The terrible suffering described (ghora dukkha) is not a metaphor in the Jain tradition — it is understood as a genuine description of real existences that certain souls inhabit, just as hellish conditions in human life are real. These souls experience what they caused, in intensified form.</p>
+<p class="simple-explanation"><b>Simply put:</b> People who live violently without any restraint — doing it over and over — are headed for hellish rebirths where the suffering they caused comes back to them intensified.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What habitual patterns in your life involve harm — and are they getting better or more entrenched over time?</p>
+<div class="concept-tags"><span class="concept-tag">Violence</span><span class="concept-tag">Hellish Rebirth</span><span class="concept-tag">Karma</span><span class="concept-tag">Habit</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णरगे भोंति महावाया, सत्ता बहुविहाइं च ।<br/>तिव्वा दुक्खा अणंताओ, तत्थ वेयंति णारया ॥८.१२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In hell there are great winds, beings of many kinds, and sharp, endless sufferings — which the hell-beings experience there.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The physical description of hellish conditions is specific and vivid: mahāvāyā — great winds, intense and assaulting; various types of beings that include tormentors; and sufferings described as both intense (tivvā) and seemingly endless (aṇaṃtāo). The word "seemingly endless" (aṇaṃtāo) is important: in Jain cosmology, no form of existence lasts forever — even hellish rebirth eventually ends when the karma that produced it is exhausted. But the hell-being has no awareness of when this will happen; they cannot see the horizon of their release. From inside the experience of hell, it appears to have no end. This is itself a form of suffering beyond the physical torment: the absence of any visible limit to the suffering. Think about the difference between suffering you know will end in a specific time versus suffering with no known end — the second is vastly more psychologically crushing. The great winds that assault hell-beings are understood in Jain cosmology as either freezing or scorching — the elemental extremes amplified beyond anything possible in the human realm. Those who caused others to suffer without apparent limit or end now experience suffering without apparent limit or end.</p>
+<p class="simple-explanation"><b>Simply put:</b> Hell is full of intense and seemingly endless suffering — violent winds, torments of every kind — experienced by beings who created enormous harm in their previous lives.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Have you ever experienced a state of suffering that seemed as though it would never end — and what did that teach you about the nature of suffering itself?</p>
+<div class="concept-tags"><span class="concept-tag">Hell</span><span class="concept-tag">Suffering</span><span class="concept-tag">Karma</span><span class="concept-tag">Jain Cosmology</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">असी-मुसल-पासेहिं, सत्तीहिं य महाबहूहिं ।<br/>णारया हण्णंति तत्थ, कूडसाल्मलिभेयणं ॥८.१३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">By swords, clubs, and snares, by many great spears — the hell-beings are struck there, and by the piercing thorns of the kūta-shalmali tree.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The instruments of hellish suffering are named in specific detail: swords (asī), clubs (musala), snares (pāsa), and great spears (sattī) — and then, uniquely, the thorns of the shalmali tree (kūṭasāl­mali). This is not a random list. These instruments represent a range of harm: cutting weapons, blunt weapons, restraining weapons, and piercing weapons, covering the complete spectrum of physical harm that human violence can take. The shalmali tree appears in multiple Jain texts as a specific feature of certain hell realms: it grows with the appearance of a tree offering shade and perhaps fruit, but when a being climbs it in search of relief, its thorns — pointing downward — pierce from all sides. The image is of a hope that becomes a new source of suffering. These descriptions should not be read literally as hell-rooms stocked with weapons, but as the natural conditions of a karmic environment that a violent soul has shaped for itself: a life lived surrounded by the instruments of harm produces an existence saturated with them. The environment mirrors the soul's accumulated choices.</p>
+<p class="simple-explanation"><b>Simply put:</b> Hell-beings experience constant harm from every direction — swords, clubs, traps, spears, and trees full of sharp thorns — all of it the natural karmic echo of the harm they caused in previous lives.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: If your inner environment mirrors your accumulated habits and actions — what kind of environment are you creating for yourself right now?</p>
+<div class="concept-tags"><span class="concept-tag">Karmic Environment</span><span class="concept-tag">Hell</span><span class="concept-tag">Consequence</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.14</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">उव्वहंति य अण्णोण्णं, उव्वहेंति य ते बहू ।<br/>भमइ आउट्टए तत्थ, चक्कवाय व्व जीविया ॥८.१४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">They torment each other repeatedly, many torment each other; life there revolves and turns like a wheel.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Perhaps the most revealing feature of hellish existence in this description is that the beings torment each other — repeatedly and mutually (ubbhahaṃti aṇṇoṇṇaṃ — they torment one another). This is not a system of assigned punishers and victims; it is a spontaneous condition arising from the nature of the souls gathered there. Every soul in a hellish realm carries the karmic pattern of violence — that is what brought them there. Surrounded by other souls carrying the same pattern, the natural interaction is mutual aggression. They cannot help it; their accumulated karma is expressing itself in the environment and in every interaction. The image of life turning like a wheel (cakkavāy vva jīviyā — life revolves like a wheel) captures both the circular, repetitive nature of the mutual torment and the broader truth about the cycle of existence: samsara itself is a wheel, and in the worst conditions of that wheel, the spinning is felt most intensely. The souls spin through harm and being harmed, unable to exit, until the karma is finally exhausted.</p>
+<p class="simple-explanation"><b>Simply put:</b> In hell, beings are constantly hurting each other because they are all carrying the pattern of violence — it's a self-reinforcing cycle of mutual harm, spinning like a wheel.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Where in your own life do you see a cycle of mutual harm — where the same patterns keep producing the same kinds of conflict?</p>
+<div class="concept-tags"><span class="concept-tag">Mutual Harm</span><span class="concept-tag">Cycle of Violence</span><span class="concept-tag">Hell</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-15">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तत्थ णत्थि सुहं किंचि, णत्थि णिव्वुइ कयावि ।<br/>णत्थि मित्ता य बंधवा, एगओ वेयई दुक्खं ॥८.१५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">There is no pleasure there whatsoever; there is no peace there at any time; there are no friends, no relatives — one experiences suffering alone.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse describes the three-fold deprivation of hellish existence with heartbreaking precision. No pleasure whatsoever (ṇatthi suhaṃ kiṃci) — not even the smallest moment of relief or comfort. No peace at any time (ṇatthi ṇivvuī kayāvi) — the phrase "at any time" is emphatic; this is not a mostly-unpleasant existence with occasional calm; it is an existence with literally no peace at any moment. And then the most poignant detail: no friends, no relatives (ṇatthi mittā ya baṃdhavā). When humans face the worst suffering, what they instinctively reach for is connection — another person who understands, who can share the weight, who can make the suffering feel less completely isolating. In hellish existence, this consolation is absent entirely. The suffering is experienced alone (egao veyaī dukkhaṃ — one experiences suffering alone), without the social meaning-making that makes human suffering at least sometimes bearable. There is no one to say "I understand"; there is no community of shared experience; there is just the suffering and the self, alone with it, always. The absence of companions adds a layer to the suffering that, in some ways, may be worse than the physical torment itself.</p>
+<p class="simple-explanation"><b>Simply put:</b> In hell there is no pleasure, no peace, and no companions — you experience the suffering entirely alone, with no relief of any kind at any time.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: The deepest suffering humans experience often combines physical pain with isolation and meaninglessness — what does recognizing this tell you about what really matters in your current relationships and connections?</p>
+<div class="concept-tags"><span class="concept-tag">Isolation</span><span class="concept-tag">Suffering</span><span class="concept-tag">No Relief</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-16">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.16</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं णरगं भीमं पेच्च, कम्मविहिट्ठिया ।<br/>तम्हा कम्मं ण कायव्वं, जेण णरगं उवज्जए ॥८.१६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This terrible hell is attained after death by those who are bound by karma; therefore, karma that leads to hell should not be done.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">After describing hellish existence in careful, vivid detail over the preceding sutras, Mahavira now draws the practical conclusion with a directness that needs no ornamentation: do not do the karma that leads to hell. The mechanism is stated clearly: this terrible hell (etaṃ narakaṃ bhīmaṃ) is attained after death (pecca) by those who are bound by karma (kammavihiṭṭhiyā). The sequence is logical and unavoidable: if the consequence follows necessarily from the cause, and you understand both, the only rational response is to stop creating the cause. Notice what the teaching is not doing: it is not using the fear of hell as a threat to coerce compliance with rules. It is using the understanding of hell as a motivator to understand karma. A person who stops causing harm because they are terrified is still operating from fear; a person who stops causing harm because they genuinely understand the mechanism is practicing from wisdom. The Sutrakritanga consistently aims for the second, deeper motivation — because wisdom-based non-violence is self-sustaining in a way that fear-based compliance never is.</p>
+<p class="simple-explanation"><b>Simply put:</b> Hell is real and is attained after death by those who have accumulated violent karma — so simply: don't do what produces that karma.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Are you more motivated by understanding consequences clearly or by fear of punishment — and does that difference matter for how effective your motivation is?</p>
+<div class="concept-tags"><span class="concept-tag">Cause and Effect</span><span class="concept-tag">Karma</span><span class="concept-tag">Understanding vs Fear</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-17">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.17</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">हिंसा मोसं च थेयं च, अब्रह्मं परिग्गहो ।<br/>एयाइं पंच पावाइं, ते णरगे उवज्जए ॥८.१७॥</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-4">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.4</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">तम्हा सव्वे पहिट्ठा, पुण्णकम्मस्स संचयं ।<br>णो मुच्चंति भवात्तो, विण्णू ण रज्जए तहिं ॥८.४॥</p>
-  <div class="caution-banner">
-    <div class="caution-header">
-      <span class="caution-badge">Caution</span>
-      <span class="caution-name">Heaven as Spiritual Trap · Seeking Good Karma Over Liberation</span>
-    </div>
-    <p class="caution-def">Even the highest heavenly existence does not free the soul from the cycle — accumulating good karma still keeps one bound; the wise do not become attached to heavenly rebirth as a goal.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Therefore, though all are delighted (in heaven), through the accumulation of meritorious karma — they are not freed from existence; the wise one is not attached there.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse states the chapter's central philosophical thesis with complete clarity: everyone in heaven is genuinely delighted (puhiṭṭhā — joyful, pleased), but through the accumulation of meritorious karma — the very mechanism that produced the heavenly rebirth — they are not freed from existence (ṇo muccaṃti bhavā). The cycle has not been broken. This is a radical insight that goes against the spiritual intuition of most religious traditions. Many traditions teach: be good, practice virtue, and you will be rewarded with heaven — and heaven is the ultimate destination. Mahavira says: no. Heaven is a reward within the system, not an exit from the system. To exit the system requires something fundamentally different from accumulating good karma: it requires the cessation of all karma accumulation — good and bad — and the burning away of all existing karma through non-accumulation plus austerity. The wise person (viññū) who understands this is not attached to heaven as a goal. They have understood that the goal of "going to heaven" is like the goal of getting a better room in a prison: genuinely preferable to a worse room, but still a prison. The wise aim for the door out, not for the best room.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Even though heaven is wonderful and everyone there is happy, they are still not free — and the truly wise person isn't even attached to going there, because they want complete freedom, not just a very good next life.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: In your own spiritual aspiration, are you working toward lasting freedom — or toward a more comfortable situation, even if that situation is only temporary?</p>
-  <div class="concept-tags"><span class="concept-tag">Meritorious Karma</span><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Liberation vs Heaven</span><span class="concept-tag">Wisdom</span></div>
-  </div></div></article>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Violence, falsehood, theft, non-celibacy, and possession — these five evils: one who (practices) these is reborn in hell.</p><div class="caution-banner">
+<div class="caution-header">
+<span class="caution-badge">Caution</span>
+<span class="caution-name">The Five Evils · Mirror of the Five Vows</span>
+</div>
+<p class="caution-def">Violence, falsehood, theft, non-celibacy, and possessiveness are the precise inverse of the five great vows — practicing any of these is not a minor failing but a direct cause of hellish rebirth.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse presents one of the most elegant structural insights in the Sutrakritanga: the five things that lead to hellish rebirth are exactly the five great vows in reverse. The five great vows (mahāvratas) that every Jain monk undertakes are: non-violence (ahiṃsā), truth (satya), non-stealing (asteya), celibacy (brahmacarya), and non-possession (aparigraha). The five evils named here are: violence (hiṃsā), falsehood (mosa), theft (theya), non-celibacy (abrahma), and possession (pariggaha). Each evil is the precise inversion of the corresponding vow. This is not coincidence — it reveals the deep logic of the Jain ethical framework. The five vows are not arbitrary commandments invented by a lawgiver; they are the natural opposite of the five specific patterns of behavior that bind the soul to hellish conditions. When you understand that violence produces hellish karma, you naturally want to practice non-violence; when you understand that possessiveness binds the soul to continued existence, you naturally want to practice non-possession. The ethical practice and the cosmological understanding are two aspects of the same truth.</p>
+<p class="simple-explanation"><b>Simply put:</b> The five things that lead to hellish rebirth are exactly the opposite of the five great vows: violence, lying, stealing, sensual indulgence, and possessiveness.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Looking at your daily life honestly, which of these five plays a role — even in subtle forms — and what would it take to root it out?</p>
+<div class="concept-tags"><span class="concept-tag">Five Evils</span><span class="concept-tag">Five Vows</span><span class="concept-tag">Mirror Structure</span><span class="concept-tag">Hellish Karma</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-18">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.18</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जे य दंडं ण धारेंति, ण दंडं च पवट्टए ।<br/>अपरिग्गहिया सव्वं, ते दुक्खा परिमुच्चए ॥८.१८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those who do not wield force, who do not exercise force, and who are without possessions in every way — they are released from suffering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">After the catalog of what produces hellish rebirth, this verse names what produces release from suffering — and the contrast is striking in its simplicity. The person who does not wield force (daṃḍaṃ na dhāreṃti — they do not pick up the rod, meaning they do not use power to coerce, harm, or control), does not exercise force (daṃḍaṃ ca na pavaṭṭae — they do not put force into motion), and has no possessions in any direction (apariggahiyā savvaṃ — completely without possession) — that person is released from suffering. The word daṃḍa literally means a rod or stick — the ancient symbol of force and coercion — but is used broadly to mean any use of power to impose one's will on another through harm. When a person genuinely sets down that rod — internally, not just externally — and adds to that the complete release of the ownership orientation toward reality, they have dismantled the two fundamental mechanisms of karma accumulation in human life: harm and grasping. The resulting release from suffering follows as naturally as the river flowing to the sea.</p>
+<p class="simple-explanation"><b>Simply put:</b> Those who never use force or coercion, and who hold onto nothing as their own, become genuinely free from suffering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: In what ways do you use force — subtle or obvious — to control your environment, your relationships, or your circumstances?</p>
+<div class="concept-tags"><span class="concept-tag">Non-Force</span><span class="concept-tag">Non-Possession</span><span class="concept-tag">Release from Suffering</span></div>
+</div></div></article>
+<div class="section-divider"><span>Part III — Beyond Rebirth (19–25)</span></div>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-19">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.19</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं णाऊण मेहावी, धम्मे ठाए महामुणी ।<br/>झाणजोगसमाहिट्ठो, मुच्चइ सव्वबंधणा ॥८.१९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood this, the wise great monk, standing in the teaching, established in the practice of meditation — is freed from all bondage.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter's third section opens with the complete liberation formula stated in full: "having understood this" (etaṃ ṇāūṇ — having truly known it) plus "standing in the teaching" (dhamme ṭhāe — firmly established in the dharma) plus "established in the practice of meditation" (jhāṇajogasamāhiṭṭho — rooted in meditative practice) equals "freed from all bondage" (muccai savvabaṃdhaṇā). Three components are named and all three are necessary. Understanding alone — knowing the catalog of hells and heavens, knowing the mechanism of karma — does not produce liberation. It produces the map. Standing in the teaching translates understanding into ethical conduct: the five great vows, the careful non-harming, the restraint. And meditation — the direct inner work of the soul dissolving its karmic obscurations through sustained contemplative practice — is what burns away the accumulated karma that understanding and conduct prevent from growing. The great monk who has all three is not hoping for liberation or working toward it theoretically; they are in the process of it. The bonds are dissolving because all three components of the process are active simultaneously.</p>
+<p class="simple-explanation"><b>Simply put:</b> Understanding the full teaching about karma, hells, and heavens — and then actually practicing deep meditation as a result — leads to being freed from every single bond.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Does your meditation or contemplative practice arise from genuine understanding — or is it more of a technique you apply without deep connection to why it matters?</p>
+<div class="concept-tags"><span class="concept-tag">Meditation</span><span class="concept-tag">Understanding</span><span class="concept-tag">Liberation</span><span class="concept-tag">Great Monk</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-20">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.20</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णो हु सक्को णिवारेउं, कम्मकारेण कीरइ ।<br/>जो हु कम्मं करेइ राई, सो तस्स फलमश्नुए ॥८.२०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">It is not possible to prevent — karma operates through what the doer does; whoever commits karma at night, that one experiences its fruit.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This verse addresses one of the oldest temptations in human moral psychology: the belief that actions done in secret carry less consequence than actions done in public. The phrase "at night" (rāī) refers to concealed action — what is done when no one is watching, when social consequences can be avoided, when reputation is protected. The teaching is unambiguous: it is not possible to prevent karma's consequences (ṇo hū sakko ṇivāreu). The fruit arrives regardless of who witnessed the action. Karma is not generated by what others see; it is generated by the action itself as experienced by the soul that performs it. A person who behaves virtuously in public and carelessly in private is not practicing virtue — they are performing it. True practice is identical whether observed or not, because the soul that is doing the action is always present to it, and the soul's karmic state is shaped by its own actions regardless of external observation. This is why Jain practice demands inner consistency: the standard is not "would I be ashamed if someone saw this?" but "is this action generating karma?" Those questions have very different answers in many situations.</p>
+<p class="simple-explanation"><b>Simply put:</b> Karma can't be hidden or escaped — even actions done secretly, in the dark when no one is watching, still produce their full consequences for the one who did them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: How does your behavior change when you believe no one is watching — and what does that gap tell you about the depth of your ethical practice?</p>
+<div class="concept-tags"><span class="concept-tag">Moral Integrity</span><span class="concept-tag">Karma</span><span class="concept-tag">Hidden Actions</span><span class="concept-tag">Consequence</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-21">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.21</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण कप्पए ते उवमा, कम्मस्स फलमागए ।<br/>तम्हा कम्मं णिवारेज्ज, जो इच्छे अप्पणो सुहं ॥८.२१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">No comparison is possible when the fruit of karma arrives; therefore, one who desires happiness for the self should prevent (the accumulation of) karma.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When the fruit of karma actually arrives — when the consequence of a past harmful action is fully experienced — the intensity of the experience surpasses any description or anticipation. No comparison can capture what it is actually like to experience the karmic consequence of major violence, major deception, or major possessiveness. This sutra uses this inexpressibility as a motivation: since the experience of bad karma's fruit exceeds anything you can currently imagine, and since you genuinely desire your own happiness, take action now to prevent further karmic accumulation. The teaching is not fatalistic — you cannot undo past karma instantly, but you can completely stop adding to it, and that is the beginning of liberation.</p>
+<p class="simple-explanation"><b>Simply put:</b> When bad karma's consequences finally arrive, they are beyond any description — so if you want genuine happiness, start preventing the accumulation of karma right now.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Are there consequences of your past actions that are already arriving in your current life — and are you genuinely changing the behavior that produced them?</p>
+<div class="concept-tags"><span class="concept-tag">Karma Fruit</span><span class="concept-tag">Prevention</span><span class="concept-tag">Genuine Happiness</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-22">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.22</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अणिच्चाइं सुक्खाइं, अणिच्चो देहसंभवो ।<br/>अणिच्चा सव्वसंजोगा, णिच्चं णिव्वाणमव्वयं ॥८.२२॥</p>
 
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-5">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.5</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">धम्मो य कित्तिई सगग, दुच्चरे लोगुत्तमे ।<br>अहिंसा परमो धम्मो, जो ण पाओ ण णिंदिए ॥८.५॥</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Ahimsa — Supreme and Blameless Religion · Ahimsā Paramo Dharmaḥ</span>
-    </div>
-    <p class="principle-def">Non-violence is the supreme religion and is neither sinful nor blameworthy — it is the most demanding ethical practice available, leading both to the best intermediate states and ultimately to what is supreme in the world.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Religion leads to heaven and to what is supreme in the world, difficult to practice; non-violence is the supreme religion, which is neither sinful nor blameworthy.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse makes two connected claims. First: the religion of non-violence is the supreme religion (ahiṃsā paramo dhammo — a phrase that would later become famous across many Indian traditions) and it leads to both intermediate goods (heaven) and the ultimate good (what is supreme in the world). Second: it is genuinely difficult to practice (duccara — hard to do, hard to carry out). The difficulty is not in understanding the principle — the principle is simple. The difficulty is in the consistent, daily, unrelenting practice of it against the current of habitual behavior, social norms, biological drives, and centuries of cultural conditioning that treat harm as normal. The complete Jain practice of non-violence — protecting even one-sensed beings, refusing to delegate harm, refusing to approve of harm, maintaining it even under hostility and hardship — is one of the most demanding ethical commitments ever articulated in any tradition. The declaration that this religion is "neither sinful nor blameworthy" (ṇo pāo ṇa ṇiṃdie) has historical significance: in Mahavira's time, the practice of Vedic sacrifice was socially mandatory and critiquing it could be labeled as impiety or sin. Mahavira asserts directly that the path of non-violence is beyond any such accusation — it is the path above reproach.</p>
-  <p class="simple-explanation"><b>Simply put:</b> The path of non-violence leads to heavenly existence and ultimately to what is highest — it is genuinely demanding to practice but completely pure and beyond blame.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What makes the practice of genuine non-violence genuinely difficult for you personally — not in theory but in your actual life?</p>
-  <div class="concept-tags"><span class="concept-tag">Non-Violence</span><span class="concept-tag">Supreme Religion</span><span class="concept-tag">Difficult Practice</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-6">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.6</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जो देवलोए उज्जोए, तं ण सक्को अणुगंतए ।<br>सव्वो वि तित्थयरो लोए, णाणेण य तवेण य ॥८.६॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The radiance that exists in the divine realm — even the lord of the gods cannot follow it; the ford-maker is supreme in the world through knowledge and through austerity.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse makes a claim that would have been startling to many in Mahavira's world: the fully liberated being — the Tirthankara, the ford-maker who has attained complete liberation through total renunciation — surpasses even the king of the gods in radiance. The divine realm described in the previous sutras is extraordinary. The divine beings are luminous and powerful. But even the lord of those divine beings — Indra, the most powerful god in the cosmic hierarchy — cannot follow or match the radiance of a Tirthankara (ṇaṃ sak­ko aṇugaṃtae — "even the lord of gods cannot follow it"). Why? Because the gods are powerful by virtue of accumulated good karma. Their power is within the cycle, produced by the same mechanism that produces all karma-based existence. The Tirthankara is beyond karma entirely — not more karma, not better karma, but no karma. The light of a karma-free soul is categorically different from any karma-based power, just as the sun is categorically different from the most powerful electric light. The path to this state is named directly: knowledge and austerity. These are the two instruments — understanding what liberation requires, and the disciplined practice of purifying the soul through austerity.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Even the most powerful god cannot match the inner radiance of a fully liberated being — liberation is something even greater than the best heaven.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What do you imagine liberation to actually feel like — can you form any genuine intuition of it, or does it remain abstract?</p>
-  <div class="concept-tags"><span class="concept-tag">Tirthankara</span><span class="concept-tag">Liberation</span><span class="concept-tag">Knowledge</span><span class="concept-tag">Austerity</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-7">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.7</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">सीलेण तवसा चेव, संजमेण य णिच्चसो ।<br>अप्पाणमेव भावेज्जा, जाइजरामरणाणुगं ॥८.७॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Through virtue, through austerity, and through restraint always — let one cultivate the self, following along with birth, old age, and death.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The instruction in this verse is not about what to practice but about when — and the answer is: always (ṇiccaso — always, constantly, without interruption). The three pillars of practice are named again: virtue (sīla), austerity (tava), and restraint (saṃjama). And the context for this continuous practice is the natural arc of human life: birth, old age, death (jāijara­māraṇāṇugaṃ — following along with birth, aging, and death). This is not an abstract temporal qualifier; it is a specific reminder. It is relatively easy to practice when you are young, healthy, energetic, and clear-minded. The real test is whether the practice continues as the body ages, as health deteriorates, as faculties dim, as death approaches. Many people become more virtuous in old age out of fear; the teaching here calls for something different — a practice that was cultivated from the beginning and has simply continued, unbroken, through every phase of life. The phrase "cultivate the self" (bhāvejjā appāṇam) reinforces the consistent Jain teaching: this is your work, your personal cultivation, and it must span the entire trajectory of your embodied existence.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Through virtue, discipline, and self-restraint — not just sometimes but always — keep working on yourself throughout your entire life.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: At what point in your life do you imagine you will stop needing to work on yourself — and is that expectation realistic?</p>
-  <div class="concept-tags"><span class="concept-tag">Continuous Practice</span><span class="concept-tag">Self-Cultivation</span><span class="concept-tag">Virtue</span><span class="concept-tag">Restraint</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-8">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.8</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">तवस्सी संजए भिक्खू, संजोगपरिवज्जए ।<br>अप्पमत्तो सया जागो, णिव्वाणं सो अहिगच्छए ॥८.८॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">The austere, restrained monk, who avoids attachments, ever un-negligent, always awake — that one attains liberation.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse gives the liberation formula in its most compressed form: austere (tavassi) plus restrained (saṃjae) plus avoidance of attachments (saṃjogaparivajjae) plus ever-un-negligent (appamatto) plus always awake (saya jāgo) equals liberation (ṇivvāṇaṃ ahigacchae). Each component is load-bearing. Austerity burns away accumulated karma. Restraint prevents new karma from accumulating. Avoidance of attachments removes the karmic glue that would bind the soul to yet another birth — "attachments" here means not just possessions but every emotional, relational, and material connection that creates binding desire. Un-negligence means not drifting into the careless autopilot of daily life that allows karma to accumulate passively. And "always awake" is the quality that makes all the others real: a practitioner who does the right things but is spiritually asleep — performing the motions automatically, without genuine present awareness — is going through the forms of practice without the substance. Wakefulness is the ingredient that makes the practice actually work, that gives austerity and restraint their cutting edge. Liberation needs both outer form and inner quality to be complete.</p>
-  <p class="simple-explanation"><b>Simply put:</b> The monk who is genuinely disciplined, avoids all clinging attachments, and stays spiritually awake throughout — that person attains liberation.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What would "always spiritually awake" actually look like in your daily life — and how far from that are you right now?</p>
-  <div class="concept-tags"><span class="concept-tag">Wakefulness</span><span class="concept-tag">Non-Attachment</span><span class="concept-tag">Austerity</span><span class="concept-tag">Liberation</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-9">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.9</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">चउव्विहाहारविरओ, इंदियाइं निरुंभए ।<br>परिसहाइं खमे धीरे, भवसायर तरइ सो ॥८.९॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">One who has renounced the four types of food, who restrains the senses, who endures hardships with steadiness — that one crosses the ocean of existence.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The "four types of food" (cauvviha āhāra) named in this verse reflect the thoroughness with which Jain philosophy analyzes what the soul takes in. In Jain understanding, food is not just solid food — it includes liquid food (water, drinks), material tastes (condiments, flavors tasted without being fully eaten), and the subtle material particles taken in through breathing. This four-fold definition reflects the understanding that karma can be accumulated through any form of sensory intake done with passion and grasping. Restraining the senses goes considerably beyond simply not eating meat: it means training each of the five senses not to grasp hungrily at its objects of pleasure. The eye that craves beautiful sights; the ear that demands pleasant sounds; the tongue that needs stimulating flavors; the nose that seeks pleasant aromas; the skin that can't bear discomfort — all five are trained in restraint. And then: enduring hardship (parisa­hāiṃ) with steadiness (dhīra — steadfast, courageous) is the specific practice that burns existing karma. Not avoiding discomfort but meeting it with composure. The image of crossing the ocean of existence (bhava­sāyara) is one of the most powerful in the Sutrakritanga: liberation is the far shore, and the ocean between is vast and stormy. The monk who practices all of this crosses it.</p>
-  <p class="simple-explanation"><b>Simply put:</b> The one who controls what they take in, restrains their senses, and endures discomfort with steady courage — that person crosses over the enormous sea of repeated existence.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What hardship in your current life could you bear more steadily — using it as practice rather than simply enduring or trying to escape it?</p>
-  <div class="concept-tags"><span class="concept-tag">Sense Restraint</span><span class="concept-tag">Endurance</span><span class="concept-tag">Ocean of Existence</span><span class="concept-tag">Four Types of Food</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-10">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.10</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे य णरगा जे य सुरगा, कम्मेण पच्छिया ते ।<br>धीरो कम्मं परिक्खाय, मुच्चइ भवसायरा ॥८.१०॥</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Beyond Hell and Heaven · Karma-Transcendence</span>
-    </div>
-    <p class="principle-def">Both hells and heavens are produced by karma — one by bad, one by good — and the truly wise person aims not for a better rebirth but for the complete cessation of all karma accumulation, which alone leads to liberation.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Hells and heavens — both are purchased by karma; the wise one, having examined karma fully, is freed from the ocean of existence.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This is the philosophical climax of the chapter — the verse toward which the entire chapter has been building. Both hells (naraka) and heavens (svarga) are purchased by karma — one by bad karma, one by good karma — and this means both are within the cycle of existence, not beyond it. The ordinary religious aspiration across most traditions is: accumulate good karma, avoid bad karma, go to heaven. Mahavira's teaching cuts through this: the wise person (dhīro) who has "examined karma fully" (kammaṃ parikkhāya — thoroughly investigated the mechanism of karma) understands that any karma — good or bad — binds the soul to continued existence. You are not liberated by having better karma; you are liberated only by having no karma. This requires a fundamentally different aspiration: not "how do I get better karma?" but "how do I stop accumulating any karma at all?" "Having examined karma fully" is not a one-time insight but an ongoing investigation: Where is karma coming in right now, in this moment? Which of my habits are generating it? Which passions are fueling it? The wise person who does this investigation daily eventually understands the mechanism well enough to step outside it entirely — and that stepping-outside is what it means to be freed from the ocean of existence.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Both hell and heaven are produced by karma — and the truly wise person, understanding how karma works completely, aims to be free from the whole mechanism, not just to have a better next life.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Have you ever seriously examined how karma actually accumulates in your daily life — not the concept but the actual moment-to-moment mechanics in your own actions and reactions?</p>
-  <div class="concept-tags"><span class="concept-tag">Karma Mechanism</span><span class="concept-tag">Heaven and Hell</span><span class="concept-tag">Wisdom</span><span class="concept-tag">Liberation</span></div>
-  </div></div></article>
-
-  <div class="section-divider"><span>Part II — The Hells (11–18)</span></div>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-11">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.11</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे य हिंसा करेंति लोए, उद्दामा उत्थिया बहुसो ।<br>ते णरगं उव्वज्जंति, घोरं दुक्खं वेयंति ते ॥८.११॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who commit violence in the world — unbridled, arisen in wrong ways many times — they are reborn in hell, experiencing terrible suffering.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The chapter now pivots dramatically — from the analysis of heaven as a temporary state within the cycle to the description of its opposite: hell. The people who arrive in hellish rebirths are described with two characteristics: "unbridled" (uḍḍāmā — completely undisciplined, wild, without restraint) and "arisen in wrong ways many times" (utthiyā bahuso — repeatedly arising in wrong conduct). The second descriptor is important: this is not about a single terrible act but about a pattern — repeated, habitual, accumulated violence committed without any internal check. This is the life that has been defined by harm at a structural level, not an occasional lapse. Jain cosmology describes seven levels of hell with progressively intensifying suffering, and the level of hell a soul reaches corresponds to the severity and duration of the karma accumulated. The terrible suffering described (ghora dukkha) is not a metaphor in the Jain tradition — it is understood as a genuine description of real existences that certain souls inhabit, just as hellish conditions in human life are real. These souls experience what they caused, in intensified form.</p>
-  <p class="simple-explanation"><b>Simply put:</b> People who live violently without any restraint — doing it over and over — are headed for hellish rebirths where the suffering they caused comes back to them intensified.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What habitual patterns in your life involve harm — and are they getting better or more entrenched over time?</p>
-  <div class="concept-tags"><span class="concept-tag">Violence</span><span class="concept-tag">Hellish Rebirth</span><span class="concept-tag">Karma</span><span class="concept-tag">Habit</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-12">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.12</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">णरगे भोंति महावाया, सत्ता बहुविहाइं च ।<br>तिव्वा दुक्खा अणंताओ, तत्थ वेयंति णारया ॥८.१२॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">In hell there are great winds, beings of many kinds, and sharp, endless sufferings — which the hell-beings experience there.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The physical description of hellish conditions is specific and vivid: mahāvāyā — great winds, intense and assaulting; various types of beings that include tormentors; and sufferings described as both intense (tivvā) and seemingly endless (aṇaṃtāo). The word "seemingly endless" (aṇaṃtāo) is important: in Jain cosmology, no form of existence lasts forever — even hellish rebirth eventually ends when the karma that produced it is exhausted. But the hell-being has no awareness of when this will happen; they cannot see the horizon of their release. From inside the experience of hell, it appears to have no end. This is itself a form of suffering beyond the physical torment: the absence of any visible limit to the suffering. Think about the difference between suffering you know will end in a specific time versus suffering with no known end — the second is vastly more psychologically crushing. The great winds that assault hell-beings are understood in Jain cosmology as either freezing or scorching — the elemental extremes amplified beyond anything possible in the human realm. Those who caused others to suffer without apparent limit or end now experience suffering without apparent limit or end.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Hell is full of intense and seemingly endless suffering — violent winds, torments of every kind — experienced by beings who created enormous harm in their previous lives.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Have you ever experienced a state of suffering that seemed as though it would never end — and what did that teach you about the nature of suffering itself?</p>
-  <div class="concept-tags"><span class="concept-tag">Hell</span><span class="concept-tag">Suffering</span><span class="concept-tag">Karma</span><span class="concept-tag">Jain Cosmology</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-13">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.13</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">असी-मुसल-पासेहिं, सत्तीहिं य महाबहूहिं ।<br>णारया हण्णंति तत्थ, कूडसाल्मलिभेयणं ॥८.१३॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">By swords, clubs, and snares, by many great spears — the hell-beings are struck there, and by the piercing thorns of the kūta-shalmali tree.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The instruments of hellish suffering are named in specific detail: swords (asī), clubs (musala), snares (pāsa), and great spears (sattī) — and then, uniquely, the thorns of the shalmali tree (kūṭasāl­mali). This is not a random list. These instruments represent a range of harm: cutting weapons, blunt weapons, restraining weapons, and piercing weapons, covering the complete spectrum of physical harm that human violence can take. The shalmali tree appears in multiple Jain texts as a specific feature of certain hell realms: it grows with the appearance of a tree offering shade and perhaps fruit, but when a being climbs it in search of relief, its thorns — pointing downward — pierce from all sides. The image is of a hope that becomes a new source of suffering. These descriptions should not be read literally as hell-rooms stocked with weapons, but as the natural conditions of a karmic environment that a violent soul has shaped for itself: a life lived surrounded by the instruments of harm produces an existence saturated with them. The environment mirrors the soul's accumulated choices.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Hell-beings experience constant harm from every direction — swords, clubs, traps, spears, and trees full of sharp thorns — all of it the natural karmic echo of the harm they caused in previous lives.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: If your inner environment mirrors your accumulated habits and actions — what kind of environment are you creating for yourself right now?</p>
-  <div class="concept-tags"><span class="concept-tag">Karmic Environment</span><span class="concept-tag">Hell</span><span class="concept-tag">Consequence</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-14">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.14</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">उव्वहंति य अण्णोण्णं, उव्वहेंति य ते बहू ।<br>भमइ आउट्टए तत्थ, चक्कवाय व्व जीविया ॥८.१४॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">They torment each other repeatedly, many torment each other; life there revolves and turns like a wheel.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">Perhaps the most revealing feature of hellish existence in this description is that the beings torment each other — repeatedly and mutually (ubbhahaṃti aṇṇoṇṇaṃ — they torment one another). This is not a system of assigned punishers and victims; it is a spontaneous condition arising from the nature of the souls gathered there. Every soul in a hellish realm carries the karmic pattern of violence — that is what brought them there. Surrounded by other souls carrying the same pattern, the natural interaction is mutual aggression. They cannot help it; their accumulated karma is expressing itself in the environment and in every interaction. The image of life turning like a wheel (cakkavāy vva jīviyā — life revolves like a wheel) captures both the circular, repetitive nature of the mutual torment and the broader truth about the cycle of existence: samsara itself is a wheel, and in the worst conditions of that wheel, the spinning is felt most intensely. The souls spin through harm and being harmed, unable to exit, until the karma is finally exhausted.</p>
-  <p class="simple-explanation"><b>Simply put:</b> In hell, beings are constantly hurting each other because they are all carrying the pattern of violence — it's a self-reinforcing cycle of mutual harm, spinning like a wheel.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Where in your own life do you see a cycle of mutual harm — where the same patterns keep producing the same kinds of conflict?</p>
-  <div class="concept-tags"><span class="concept-tag">Mutual Harm</span><span class="concept-tag">Cycle of Violence</span><span class="concept-tag">Hell</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-15">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.15</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">तत्थ णत्थि सुहं किंचि, णत्थि णिव्वुइ कयावि ।<br>णत्थि मित्ता य बंधवा, एगओ वेयई दुक्खं ॥८.१५॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">There is no pleasure there whatsoever; there is no peace there at any time; there are no friends, no relatives — one experiences suffering alone.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse describes the three-fold deprivation of hellish existence with heartbreaking precision. No pleasure whatsoever (ṇatthi suhaṃ kiṃci) — not even the smallest moment of relief or comfort. No peace at any time (ṇatthi ṇivvuī kayāvi) — the phrase "at any time" is emphatic; this is not a mostly-unpleasant existence with occasional calm; it is an existence with literally no peace at any moment. And then the most poignant detail: no friends, no relatives (ṇatthi mittā ya baṃdhavā). When humans face the worst suffering, what they instinctively reach for is connection — another person who understands, who can share the weight, who can make the suffering feel less completely isolating. In hellish existence, this consolation is absent entirely. The suffering is experienced alone (egao veyaī dukkhaṃ — one experiences suffering alone), without the social meaning-making that makes human suffering at least sometimes bearable. There is no one to say "I understand"; there is no community of shared experience; there is just the suffering and the self, alone with it, always. The absence of companions adds a layer to the suffering that, in some ways, may be worse than the physical torment itself.</p>
-  <p class="simple-explanation"><b>Simply put:</b> In hell there is no pleasure, no peace, and no companions — you experience the suffering entirely alone, with no relief of any kind at any time.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: The deepest suffering humans experience often combines physical pain with isolation and meaninglessness — what does recognizing this tell you about what really matters in your current relationships and connections?</p>
-  <div class="concept-tags"><span class="concept-tag">Isolation</span><span class="concept-tag">Suffering</span><span class="concept-tag">No Relief</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-16">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.16</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं णरगं भीमं पेच्च, कम्मविहिट्ठिया ।<br>तम्हा कम्मं ण कायव्वं, जेण णरगं उवज्जए ॥८.१६॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">This terrible hell is attained after death by those who are bound by karma; therefore, karma that leads to hell should not be done.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">After describing hellish existence in careful, vivid detail over the preceding sutras, Mahavira now draws the practical conclusion with a directness that needs no ornamentation: do not do the karma that leads to hell. The mechanism is stated clearly: this terrible hell (etaṃ narakaṃ bhīmaṃ) is attained after death (pecca) by those who are bound by karma (kammavihiṭṭhiyā). The sequence is logical and unavoidable: if the consequence follows necessarily from the cause, and you understand both, the only rational response is to stop creating the cause. Notice what the teaching is not doing: it is not using the fear of hell as a threat to coerce compliance with rules. It is using the understanding of hell as a motivator to understand karma. A person who stops causing harm because they are terrified is still operating from fear; a person who stops causing harm because they genuinely understand the mechanism is practicing from wisdom. The Sutrakritanga consistently aims for the second, deeper motivation — because wisdom-based non-violence is self-sustaining in a way that fear-based compliance never is.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Hell is real and is attained after death by those who have accumulated violent karma — so simply: don't do what produces that karma.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Are you more motivated by understanding consequences clearly or by fear of punishment — and does that difference matter for how effective your motivation is?</p>
-  <div class="concept-tags"><span class="concept-tag">Cause and Effect</span><span class="concept-tag">Karma</span><span class="concept-tag">Understanding vs Fear</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-17">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.17</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">हिंसा मोसं च थेयं च, अब्रह्मं परिग्गहो ।<br>एयाइं पंच पावाइं, ते णरगे उवज्जए ॥८.१७॥</p>
-  <div class="caution-banner">
-    <div class="caution-header">
-      <span class="caution-badge">Caution</span>
-      <span class="caution-name">The Five Evils · Mirror of the Five Vows</span>
-    </div>
-    <p class="caution-def">Violence, falsehood, theft, non-celibacy, and possessiveness are the precise inverse of the five great vows — practicing any of these is not a minor failing but a direct cause of hellish rebirth.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Violence, falsehood, theft, non-celibacy, and possession — these five evils: one who (practices) these is reborn in hell.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse presents one of the most elegant structural insights in the Sutrakritanga: the five things that lead to hellish rebirth are exactly the five great vows in reverse. The five great vows (mahāvratas) that every Jain monk undertakes are: non-violence (ahiṃsā), truth (satya), non-stealing (asteya), celibacy (brahmacarya), and non-possession (aparigraha). The five evils named here are: violence (hiṃsā), falsehood (mosa), theft (theya), non-celibacy (abrahma), and possession (pariggaha). Each evil is the precise inversion of the corresponding vow. This is not coincidence — it reveals the deep logic of the Jain ethical framework. The five vows are not arbitrary commandments invented by a lawgiver; they are the natural opposite of the five specific patterns of behavior that bind the soul to hellish conditions. When you understand that violence produces hellish karma, you naturally want to practice non-violence; when you understand that possessiveness binds the soul to continued existence, you naturally want to practice non-possession. The ethical practice and the cosmological understanding are two aspects of the same truth.</p>
-  <p class="simple-explanation"><b>Simply put:</b> The five things that lead to hellish rebirth are exactly the opposite of the five great vows: violence, lying, stealing, sensual indulgence, and possessiveness.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Looking at your daily life honestly, which of these five plays a role — even in subtle forms — and what would it take to root it out?</p>
-  <div class="concept-tags"><span class="concept-tag">Five Evils</span><span class="concept-tag">Five Vows</span><span class="concept-tag">Mirror Structure</span><span class="concept-tag">Hellish Karma</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-18">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.18</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">जे य दंडं ण धारेंति, ण दंडं च पवट्टए ।<br>अपरिग्गहिया सव्वं, ते दुक्खा परिमुच्चए ॥८.१८॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Those who do not wield force, who do not exercise force, and who are without possessions in every way — they are released from suffering.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">After the catalog of what produces hellish rebirth, this verse names what produces release from suffering — and the contrast is striking in its simplicity. The person who does not wield force (daṃḍaṃ na dhāreṃti — they do not pick up the rod, meaning they do not use power to coerce, harm, or control), does not exercise force (daṃḍaṃ ca na pavaṭṭae — they do not put force into motion), and has no possessions in any direction (apariggahiyā savvaṃ — completely without possession) — that person is released from suffering. The word daṃḍa literally means a rod or stick — the ancient symbol of force and coercion — but is used broadly to mean any use of power to impose one's will on another through harm. When a person genuinely sets down that rod — internally, not just externally — and adds to that the complete release of the ownership orientation toward reality, they have dismantled the two fundamental mechanisms of karma accumulation in human life: harm and grasping. The resulting release from suffering follows as naturally as the river flowing to the sea.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Those who never use force or coercion, and who hold onto nothing as their own, become genuinely free from suffering.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: In what ways do you use force — subtle or obvious — to control your environment, your relationships, or your circumstances?</p>
-  <div class="concept-tags"><span class="concept-tag">Non-Force</span><span class="concept-tag">Non-Possession</span><span class="concept-tag">Release from Suffering</span></div>
-  </div></div></article>
-
-  <div class="section-divider"><span>Part III — Beyond Rebirth (19–25)</span></div>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-19">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.19</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं णाऊण मेहावी, धम्मे ठाए महामुणी ।<br>झाणजोगसमाहिट्ठो, मुच्चइ सव्वबंधणा ॥८.१९॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having understood this, the wise great monk, standing in the teaching, established in the practice of meditation — is freed from all bondage.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The chapter's third section opens with the complete liberation formula stated in full: "having understood this" (etaṃ ṇāūṇ — having truly known it) plus "standing in the teaching" (dhamme ṭhāe — firmly established in the dharma) plus "established in the practice of meditation" (jhāṇajogasamāhiṭṭho — rooted in meditative practice) equals "freed from all bondage" (muccai savvabaṃdhaṇā). Three components are named and all three are necessary. Understanding alone — knowing the catalog of hells and heavens, knowing the mechanism of karma — does not produce liberation. It produces the map. Standing in the teaching translates understanding into ethical conduct: the five great vows, the careful non-harming, the restraint. And meditation — the direct inner work of the soul dissolving its karmic obscurations through sustained contemplative practice — is what burns away the accumulated karma that understanding and conduct prevent from growing. The great monk who has all three is not hoping for liberation or working toward it theoretically; they are in the process of it. The bonds are dissolving because all three components of the process are active simultaneously.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Understanding the full teaching about karma, hells, and heavens — and then actually practicing deep meditation as a result — leads to being freed from every single bond.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Does your meditation or contemplative practice arise from genuine understanding — or is it more of a technique you apply without deep connection to why it matters?</p>
-  <div class="concept-tags"><span class="concept-tag">Meditation</span><span class="concept-tag">Understanding</span><span class="concept-tag">Liberation</span><span class="concept-tag">Great Monk</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-20">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.20</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">णो हु सक्को णिवारेउं, कम्मकारेण कीरइ ।<br>जो हु कम्मं करेइ राई, सो तस्स फलमश्नुए ॥८.२०॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">It is not possible to prevent — karma operates through what the doer does; whoever commits karma at night, that one experiences its fruit.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This verse addresses one of the oldest temptations in human moral psychology: the belief that actions done in secret carry less consequence than actions done in public. The phrase "at night" (rāī) refers to concealed action — what is done when no one is watching, when social consequences can be avoided, when reputation is protected. The teaching is unambiguous: it is not possible to prevent karma's consequences (ṇo hū sakko ṇivāreu). The fruit arrives regardless of who witnessed the action. Karma is not generated by what others see; it is generated by the action itself as experienced by the soul that performs it. A person who behaves virtuously in public and carelessly in private is not practicing virtue — they are performing it. True practice is identical whether observed or not, because the soul that is doing the action is always present to it, and the soul's karmic state is shaped by its own actions regardless of external observation. This is why Jain practice demands inner consistency: the standard is not "would I be ashamed if someone saw this?" but "is this action generating karma?" Those questions have very different answers in many situations.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Karma can't be hidden or escaped — even actions done secretly, in the dark when no one is watching, still produce their full consequences for the one who did them.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: How does your behavior change when you believe no one is watching — and what does that gap tell you about the depth of your ethical practice?</p>
-  <div class="concept-tags"><span class="concept-tag">Moral Integrity</span><span class="concept-tag">Karma</span><span class="concept-tag">Hidden Actions</span><span class="concept-tag">Consequence</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-21">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.21</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">ण कप्पए ते उवमा, कम्मस्स फलमागए ।<br>तम्हा कम्मं णिवारेज्ज, जो इच्छे अप्पणो सुहं ॥८.२१॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">No comparison is possible when the fruit of karma arrives; therefore, one who desires happiness for the self should prevent (the accumulation of) karma.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">When the fruit of karma actually arrives — when the consequence of a past harmful action is fully experienced — the intensity of the experience surpasses any description or anticipation. No comparison can capture what it is actually like to experience the karmic consequence of major violence, major deception, or major possessiveness. This sutra uses this inexpressibility as a motivation: since the experience of bad karma's fruit exceeds anything you can currently imagine, and since you genuinely desire your own happiness, take action now to prevent further karmic accumulation. The teaching is not fatalistic — you cannot undo past karma instantly, but you can completely stop adding to it, and that is the beginning of liberation.</p>
-  <p class="simple-explanation"><b>Simply put:</b> When bad karma's consequences finally arrive, they are beyond any description — so if you want genuine happiness, start preventing the accumulation of karma right now.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Are there consequences of your past actions that are already arriving in your current life — and are you genuinely changing the behavior that produced them?</p>
-  <div class="concept-tags"><span class="concept-tag">Karma Fruit</span><span class="concept-tag">Prevention</span><span class="concept-tag">Genuine Happiness</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-22">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.22</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">अणिच्चाइं सुक्खाइं, अणिच्चो देहसंभवो ।<br>अणिच्चा सव्वसंजोगा, णिच्चं णिव्वाणमव्वयं ॥८.२२॥</p>
-  <div class="principle-banner">
-    <div class="principle-header">
-      <span class="principle-badge">Jain Principle</span>
-      <span class="principle-name">Impermanence and Nirvana · Anicca-Nirvāṇa</span>
-    </div>
-    <p class="principle-def">Every pleasure, every body, every relationship is impermanent and will end — only nirvana, the liberated state of the soul, is permanent and unchanging; this is why liberation is the only rational ultimate goal.</p>
-  </div>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Pleasures are impermanent; the existence in the body is impermanent; all connections are impermanent; nirvana alone is permanent, unchanging.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">This sutra provides the philosophical foundation for all spiritual practice through the logic of impermanence. Pleasures are impermanent — every pleasant experience ends; there is no pleasure in the world that lasts. Physical embodiment is impermanent — every birth leads to death; no body lasts. All relationships and connections are impermanent — every person you love, every community you belong to, every bond you cherish will eventually dissolve. Against this universal impermanence, there is one thing that is permanent: nirvana — the state of the liberated soul, beyond the cycle of arising and passing. The logic is clear: clinging to impermanent things guarantees suffering when they pass; the only rational object of pursuit is the permanent. And the permanent is nirvana.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Every pleasure ends; every body dies; every relationship passes — the only thing that is permanent is liberation itself, which is why liberation is worth pursuing above all else.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What impermanent thing are you currently clinging to as though it were permanent — and what would it mean to hold it more lightly?</p>
-  <div class="concept-tags"><span class="concept-tag">Impermanence</span><span class="concept-tag">Nirvana</span><span class="concept-tag">Permanence</span><span class="concept-tag">Clinging</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-23">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.23</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">धुयकम्मो णिरासाओ, संसारभयभेरवो ।<br>अप्पाणमेव संवरे, ण पमाए कयाइ वि ॥८.२३॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having shaken off karma, without craving, fearful of the terrifying cycle of existence — let one restrain the self; never be negligent at any time.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The sutra combines two things that might seem contradictory: having shaken off karma (a description of genuine spiritual progress) and the urgency never to be negligent. Even someone who has made real progress in dissolving their karmic accumulation cannot afford complacency. The path of liberation requires sustained, unbroken practice until completion — because even a nearly-liberated soul can re-accumulate karma through a moment of negligence, anger, or attachment. The "fear" of the cycle is not neurotic anxiety but the appropriate sobriety of someone who has genuinely understood how easy it is to fall back into it. This fear motivates the continued restraint that keeps the practitioner on track.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Even when you've made real spiritual progress and shed a lot of old karma — never become lazy or careless, because one moment of negligence can pull you back into the cycle.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Does spiritual progress ever make you feel like you can relax your vigilance — and is that feeling trustworthy?</p>
-  <div class="concept-tags"><span class="concept-tag">Vigilance</span><span class="concept-tag">Self-Restraint</span><span class="concept-tag">Negligence</span><span class="concept-tag">Spiritual Progress</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-24">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.24</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">लोगस्स सारमादाय, पच्चक्खाय असेसओ ।<br>विणएण य संपण्णो, सिद्धिं पाहिइ पंडिए ॥८.२४॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having taken the essence of the world (the true teaching), having completely renounced everything, endowed with humility — the wise one will attain liberation.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The phrase "taking the essence of the world" is beautiful: the entire experience of existence, with all its suffering, impermanence, and cycles, serves to extract one essential insight — this is not the way; liberation is possible; the path is here. Having extracted this essence from the experience of the world, the wise person then renounces everything — completely, without retaining anything. And with humility as the final quality, they proceed to liberation. The three movements — understanding, renunciation, and humility — describe the complete arc of spiritual maturation. Understanding without renunciation stays theoretical; renunciation without understanding becomes mechanical; both without humility create spiritual pride that negates the work. All three together lead inevitably to liberation.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Having understood what the world is truly teaching you — then giving everything up completely — and walking with genuine humility: that is the complete path to liberation.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What has your life experience been trying to teach you about what matters — and have you fully received that teaching yet?</p>
-  <div class="concept-tags"><span class="concept-tag">Renunciation</span><span class="concept-tag">Humility</span><span class="concept-tag">Wisdom</span><span class="concept-tag">Liberation</span></div>
-  </div></div></article>
-
-  <article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-25">
-  <div class="flex items-start gap-6">
-  <span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.25</span>
-  <div class="space-y-4 flex-1">
-  <p class="sutra-sanskrit font-headline">एयं सुणित्ता मेहावी, णिव्वाणं अहिगच्छए ।<br>विणएण य संपण्णो, अणंतं सुक्खमश्नुए ।<br>इइ बेमि ॥८.२५॥</p>
-  <p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard this, the wise one attains liberation; endowed with humility, one experiences infinite happiness. — iti bemi (Thus I say.)</p>
-  <p class="text-base text-on-surface-variant leading-relaxed">The final sutra closes the chapter on its highest note: the wise person who has heard this complete teaching — the catalog of hells and heavens, the mechanism of karma, the path of restraint and meditation — and who has absorbed it with genuine humility, attains liberation and experiences infinite happiness. The phrase "infinite happiness" is the ultimate definition of liberation: not merely the absence of suffering, not merely peace, but a positive state of unbounded bliss that is the natural condition of the pure soul free from all karmic covering. This is the destination that makes the entire demanding path worthwhile — not a comfortable heaven that will eventually end, but infinite, permanent, unbounded joy. The traditional closing formula "Thus I say" anchors this vision in authentic transmission.</p>
-  <p class="simple-explanation"><b>Simply put:</b> Hearing and genuinely absorbing this teaching — and walking forward with humility — leads to liberation and to a happiness that is infinite and has no end. — Thus I say.</p>
-  <p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Can you touch, even briefly, the possibility of infinite, unbounded happiness — not as a concept but as something you can feel the direction of right now?</p>
-  <div class="concept-tags"><span class="concept-tag">Infinite Happiness</span><span class="concept-tag">Liberation</span><span class="concept-tag">Humility</span><span class="concept-tag">Iti Bemi</span></div>
-  </div></div></article>
-
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Pleasures are impermanent; the existence in the body is impermanent; all connections are impermanent; nirvana alone is permanent, unchanging.</p><div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Jain Principle</span>
+<span class="principle-name">Impermanence and Nirvana · Anicca-Nirvāṇa</span>
+</div>
+<p class="principle-def">Every pleasure, every body, every relationship is impermanent and will end — only nirvana, the liberated state of the soul, is permanent and unchanging; this is why liberation is the only rational ultimate goal.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This sutra provides the philosophical foundation for all spiritual practice through the logic of impermanence. Pleasures are impermanent — every pleasant experience ends; there is no pleasure in the world that lasts. Physical embodiment is impermanent — every birth leads to death; no body lasts. All relationships and connections are impermanent — every person you love, every community you belong to, every bond you cherish will eventually dissolve. Against this universal impermanence, there is one thing that is permanent: nirvana — the state of the liberated soul, beyond the cycle of arising and passing. The logic is clear: clinging to impermanent things guarantees suffering when they pass; the only rational object of pursuit is the permanent. And the permanent is nirvana.</p>
+<p class="simple-explanation"><b>Simply put:</b> Every pleasure ends; every body dies; every relationship passes — the only thing that is permanent is liberation itself, which is why liberation is worth pursuing above all else.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What impermanent thing are you currently clinging to as though it were permanent — and what would it mean to hold it more lightly?</p>
+<div class="concept-tags"><span class="concept-tag">Impermanence</span><span class="concept-tag">Nirvana</span><span class="concept-tag">Permanence</span><span class="concept-tag">Clinging</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-23">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.23</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">धुयकम्मो णिरासाओ, संसारभयभेरवो ।<br/>अप्पाणमेव संवरे, ण पमाए कयाइ वि ॥८.२३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having shaken off karma, without craving, fearful of the terrifying cycle of existence — let one restrain the self; never be negligent at any time.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The sutra combines two things that might seem contradictory: having shaken off karma (a description of genuine spiritual progress) and the urgency never to be negligent. Even someone who has made real progress in dissolving their karmic accumulation cannot afford complacency. The path of liberation requires sustained, unbroken practice until completion — because even a nearly-liberated soul can re-accumulate karma through a moment of negligence, anger, or attachment. The "fear" of the cycle is not neurotic anxiety but the appropriate sobriety of someone who has genuinely understood how easy it is to fall back into it. This fear motivates the continued restraint that keeps the practitioner on track.</p>
+<p class="simple-explanation"><b>Simply put:</b> Even when you've made real spiritual progress and shed a lot of old karma — never become lazy or careless, because one moment of negligence can pull you back into the cycle.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Does spiritual progress ever make you feel like you can relax your vigilance — and is that feeling trustworthy?</p>
+<div class="concept-tags"><span class="concept-tag">Vigilance</span><span class="concept-tag">Self-Restraint</span><span class="concept-tag">Negligence</span><span class="concept-tag">Spiritual Progress</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-24">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.24</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">लोगस्स सारमादाय, पच्चक्खाय असेसओ ।<br/>विणएण य संपण्णो, सिद्धिं पाहिइ पंडिए ॥८.२४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having taken the essence of the world (the true teaching), having completely renounced everything, endowed with humility — the wise one will attain liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The phrase "taking the essence of the world" is beautiful: the entire experience of existence, with all its suffering, impermanence, and cycles, serves to extract one essential insight — this is not the way; liberation is possible; the path is here. Having extracted this essence from the experience of the world, the wise person then renounces everything — completely, without retaining anything. And with humility as the final quality, they proceed to liberation. The three movements — understanding, renunciation, and humility — describe the complete arc of spiritual maturation. Understanding without renunciation stays theoretical; renunciation without understanding becomes mechanical; both without humility create spiritual pride that negates the work. All three together lead inevitably to liberation.</p>
+<p class="simple-explanation"><b>Simply put:</b> Having understood what the world is truly teaching you — then giving everything up completely — and walking with genuine humility: that is the complete path to liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: What has your life experience been trying to teach you about what matters — and have you fully received that teaching yet?</p>
+<div class="concept-tags"><span class="concept-tag">Renunciation</span><span class="concept-tag">Humility</span><span class="concept-tag">Wisdom</span><span class="concept-tag">Liberation</span></div>
+</div></div></article>
+<article class="sutra-card p-8 rounded-xl mb-6" id="sutra-8-25">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.25</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं सुणित्ता मेहावी, णिव्वाणं अहिगच्छए ।<br/>विणएण य संपण्णो, अणंतं सुक्खमश्नुए ।<br/>इइ बेमि ॥८.२५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having heard this, the wise one attains liberation; endowed with humility, one experiences infinite happiness. — iti bemi (Thus I say.)</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The final sutra closes the chapter on its highest note: the wise person who has heard this complete teaching — the catalog of hells and heavens, the mechanism of karma, the path of restraint and meditation — and who has absorbed it with genuine humility, attains liberation and experiences infinite happiness. The phrase "infinite happiness" is the ultimate definition of liberation: not merely the absence of suffering, not merely peace, but a positive state of unbounded bliss that is the natural condition of the pure soul free from all karmic covering. This is the destination that makes the entire demanding path worthwhile — not a comfortable heaven that will eventually end, but infinite, permanent, unbounded joy. The traditional closing formula "Thus I say" anchors this vision in authentic transmission.</p>
+<p class="simple-explanation"><b>Simply put:</b> Hearing and genuinely absorbing this teaching — and walking forward with humility — leads to liberation and to a happiness that is infinite and has no end. — Thus I say.</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic mt-2">Contemplate: Can you touch, even briefly, the possibility of infinite, unbounded happiness — not as a concept but as something you can feel the direction of right now?</p>
+<div class="concept-tags"><span class="concept-tag">Infinite Happiness</span><span class="concept-tag">Liberation</span><span class="concept-tag">Humility</span><span class="concept-tag">Iti Bemi</span></div>
+</div></div></article>
 </section>
-
-<a href="sutrakritang-ch7.html" class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide"><span class="text-lg">&larr;</span> Chapter 7</a>
-<a href="sutrakritang-ch9.html" class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide">Chapter 9 <span class="text-lg">&rarr;</span></a>
-
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="sutrakritang-ch7.html"><span class="text-lg">←</span> Chapter 7</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="sutrakritang-ch9.html">Chapter 9 <span class="text-lg">→</span></a>
 <footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
-  <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
-    <div class="flex flex-col gap-6 max-w-md">
-      <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
-      <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
-      <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
-    </div>
-    <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
-      <div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
-    </div>
-  </div>
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
 </footer>
 <script>
 window.addEventListener('scroll',()=>{const v=window.scrollY>300;document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('visible',v))});
 </script>
 <script src="../../../js/sutrakritang-search.js"></script>
-</body></html>
+</main></body></html>
