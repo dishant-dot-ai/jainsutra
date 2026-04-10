@@ -148,7 +148,7 @@ border-radius: 6px
 
 - [x] Ch1 — APPROVED. Use as reference for all other chapters.
 
-- [ ] Apply banner CSS + structure to ch2–ch23 of Sutrakritanga
+- [x] Apply banner CSS + structure to ch2–ch23 of Sutrakritanga
   - CSS block (all 3 banner types) to be copied from ch1
   - Banner repositioning: translation → banner(s) → commentary order
   - Remove hover effects from all chapters
