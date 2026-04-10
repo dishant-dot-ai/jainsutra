@@ -26,9 +26,9 @@ tailwind.config = {
 html { scroll-behavior: smooth; }
 .burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
 .sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
-.sutra-sanskrit { font-size: 1.25rem; line-height: 2; color: #503d00; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
 .simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
-.simple-explanation b { color: #755b00; font-weight: 600; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
 /* Sutra card readability */
 .sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
 .sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
@@ -41,7 +41,7 @@ html { scroll-behavior: smooth; }
 .section-divider { margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
 .section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
 .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
-@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.05rem; } }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.35rem; } }
 
     #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
     .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
@@ -56,26 +56,23 @@ html { scroll-behavior: smooth; }
     .nav-link { text-decoration: none; }
 
 /* Red: Wrong View Refuted */
-.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(186,26,26,0.04); border-radius: 6px; }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
-.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.wrong-view-badge { background: rgba(186,26,26,0.1); border: 1px solid rgba(186,26,26,0.35); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Green: Key Jain Principle */
-.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
-.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 /* Blue: Caution / Warning */
-.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(30,64,175,0.04); border-radius: 6px; }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
-.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
-.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
-/* Sutra card hover */
-.sutra-card { transition: border-left-color 0.35s ease, background 0.35s ease, box-shadow 0.35s ease; }
-.sutra-card:hover { border-left-color: #4d5a98 !important; background: rgba(77,90,152,0.028) !important; box-shadow: 0 4px 20px rgba(77,90,152,0.09) !important; }
+.caution-badge { background: rgba(30,64,175,0.1); border: 1px solid rgba(30,64,175,0.35); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
