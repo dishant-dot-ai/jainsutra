@@ -60,7 +60,7 @@ margin-top: 1rem
 padding-top: 1rem
 
   "The simple version:" bold label:
-    color: #755b00  (gold — NOT black)
+    color: #1d1c17  (black)
     font-weight: 600
 ```
 
