@@ -53,6 +53,24 @@ html { scroll-behavior: smooth; }
 .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
 .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
 @media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } }
+/* Green: Key Jain Principle */
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+/* Blue: Caution / Warning */
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-header { display: inline-flex; align-items: center; gap: 8px; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+/* Red: Wrong View */
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -94,6 +112,8 @@ html { scroll-behavior: smooth; }
     </div>
     <h2 class="text-3xl md:text-5xl font-headline text-on-surface-variant leading-tight font-light">The Fifth and Final Gate — The House of All Sufferings, from Indra to Every Living Being</h2>
     <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The fifth Aashrav-dvar and the root that drives all the others. Thirty names mapping how attachment operates from gathering to hoarding to burden to conflict to the soul's bondage. Every being — even Indra, even the Chakravarti — caught in its grip. The Sanskrit verse: wealth is suffering to earn, to guard, when it arrives, when it leaves. And then five closing verse-sutras that seal the entire First Shrutaskandha: the path from Aashrav to Samvar, the free medicine, the promise of supreme Siddhi.</p>
+<div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Parigraha · Possessiveness as Karmic Gate</span></div><p class="caution-def">The fifth aashrav-dvāra: the inner attitude of possession and craving — not merely the objects held but the "mine" feeling toward them. Parigraha extends to approval of others' possessiveness, and to subtle forms like possessiveness of views, relationships, and identity.</p></div>
+<div class="wrong-view-banner"><div class="wrong-view-header"><span class="wrong-view-badge">Wrong View</span><span class="wrong-view-name">Prosperity Theology · Wealth as Divine Blessing</span></div><p class="wrong-view-def">Multiple traditions — including certain Christian prosperity gospel streams, some Hindu interpretations of Lakshmi worship, and Brahminic valorization of grihastha wealth — treat accumulation as evidence of divine favor or earned merit. The Jain teaching identifies the possessive attitude itself, not the object, as the karmic root.</p></div>
   </div>
   <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
     <div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">

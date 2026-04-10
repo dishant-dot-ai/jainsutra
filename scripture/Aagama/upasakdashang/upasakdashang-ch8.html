@@ -59,6 +59,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
+/* Green: Key Jain Principle */
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+/* Blue: Caution / Warning */
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-header { display: inline-flex; align-items: center; gap: 8px; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+/* Red: Wrong View */
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -123,7 +141,8 @@ html { scroll-behavior: smooth; }
       <p class="text-lg leading-relaxed text-on-surface-variant">
         <span class="text-primary font-semibold">Chapter 8</span> of the Upasakdashang (उपासकदशांग) is the story of Mahashatak, the wealthiest lay devotee in the text, whose home contained one of the sharpest contrasts in the entire Upasakdashang: a husband in strict spiritual practice and a wife, Revati, who continued consuming meat and all six types of liquor. The chapter introduces the concept of "spiritual asymmetry" — what does one do when those closest to you live by entirely different values?
       </p>
-      <p class="text-lg leading-relaxed text-on-surface-variant">
+      <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Dharma-Dhyāna · Righteous Meditation</span></div><p class="principle-def">The Jain teaching that the highest response to worldly provocation is inner silence — not argument, not condemnation, but the active state of righteous meditation (dharma-dhyāna). Mahashatak demonstrates this: spiritual victory through equanimity rather than dramatic confrontation.</p></div>
+        <p class="text-lg leading-relaxed text-on-surface-variant">
         Mahashatak's answer is silence — not passive resignation, but the active inner state of Dharma-Dhyana (righteous meditation). He does not argue, condemn, or abandon his path. When he undertakes the Saṃlehanā (the conscious final fast), Bhagavan Gautam — Mahavira's greatest disciple — personally visits to share the teachings and offer support. Mahashatak then departs in peace, reborn in the luminous Arunabha palace in the Saudharma heaven. His story proves that individual sincerity is its own complete path.
       </p>
       <div class="flex gap-8 items-center pt-4 flex-wrap">
@@ -173,6 +192,7 @@ html { scroll-behavior: smooth; }
       </div>
       <div class="space-y-4">
         <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">Translation</p>
+        <div class="caution-banner"><div class="caution-header"><span class="caution-badge">Caution</span><span class="caution-name">Household Life as Spiritual Arena</span></div><p class="caution-def">The Upasakdashang teaches that a household with conflicting values is itself a spiritual crucible. Avoiding condemnation, maintaining one's own practice without forcing it on others, and responding to opposition with equanimity rather than reaction — this is the Jain householder's discipline.</p></div>
         <p class="text-xl text-on-surface leading-relaxed font-light">Then Revati, the householder's wife, continued to indulge in various meats, fried foods, and six types of liquors — tasting, savoring, and consuming them.</p>
       </div>
       <div class="simple-explanation">

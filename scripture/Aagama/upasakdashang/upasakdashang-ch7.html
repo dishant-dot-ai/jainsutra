@@ -59,6 +59,24 @@ html { scroll-behavior: smooth; }
 
     #main-nav a { text-decoration: none; }
     .nav-link { text-decoration: none; }
+/* Green: Key Jain Principle */
+.principle-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,101,52,0.12); }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.07); border: 1px solid rgba(22,101,52,0.22); color: #166534; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+/* Blue: Caution / Warning */
+.caution-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(30,64,175,0.12); }
+.caution-header { display: inline-flex; align-items: center; gap: 8px; }
+.caution-badge { background: rgba(30,64,175,0.07); border: 1px solid rgba(30,64,175,0.22); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
+/* Red: Wrong View */
+.wrong-view-banner { display: flex; flex-direction: column; gap: 4px; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(186,26,26,0.12); }
+.wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
+.wrong-view-badge { background: rgba(186,26,26,0.07); border: 1px solid rgba(186,26,26,0.22); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 4px 14px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.05rem; font-weight: 600; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.92rem; color: #7e7665; line-height: 1.5; font-style: italic; }
 </style>
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
@@ -120,9 +138,11 @@ html { scroll-behavior: smooth; }
       <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Śramaṇopāsaka Sakdalputra</h3>
     </div>
     <div class="col-span-12 lg:col-span-8 space-y-6">
-      <p class="text-lg leading-relaxed text-on-surface-variant">
+      <div class="wrong-view-banner"><div class="wrong-view-header"><span class="wrong-view-badge">Wrong View</span><span class="wrong-view-name">Ājīvika (Niyativāda) · Fatalism</span></div><p class="wrong-view-def">The doctrine of Makkhali Gośāla — all events in life are absolutely predetermined by fate (niyati). Personal effort, vows, and spiritual practice are powerless to change one's destiny. Sakdalputra held this view before his encounter with Mahavira, which shattered it entirely.</p></div>
+        <p class="text-lg leading-relaxed text-on-surface-variant">
         <span class="text-primary font-semibold">Chapter 7</span> of the Upasakdashang (उपासकदशांग) tells the story of Sakdalputra, a potter of Polaspur who embodied the Ajivika doctrine of Niyati — the belief that fate controls everything and personal effort is futile. His conversion by Lord Mahavira represents the text's most philosophically charged transformation: a direct confrontation between fatalism and the Jain doctrine of self-effort (purusha-kara).
       </p>
+        <div class="principle-banner"><div class="principle-header"><span class="principle-badge">Jain Principle</span><span class="principle-name">Puruṣa-Kāra · Self-Effort as the True Path</span></div><p class="principle-def">The Jain teaching directly opposed to fatalism: personal effort, right conduct, and sincere vows genuinely shape the soul's trajectory. Sakdalputra's fourteen-year practice and fearless endurance of divine testing prove this — karma can be stopped and shed through one's own conscious effort.</p></div>
       <p class="text-lg leading-relaxed text-on-surface-variant">
         His journey unfolds through three stages. First, he converts and reverses his earlier statements of violent intent into vows of non-retaliation. Second, after fourteen years of faithful practice, he faces the ultimate test — a celestial being appears with a razor-sharp blue sword, threatening his life if he does not abandon his vows. He refuses without hesitation. Finally, unshaken by the divine trial, he continues his practice and attains enlightenment. Sakdalputra's story is the Upasakdashang's boldest affirmation: we are the authors of our own liberation.
       </p>
