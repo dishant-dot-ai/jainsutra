@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Gyansaar: The Essence of Knowledge | JainAwaken.org</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(201,168,76,0.2); }
+      .index-card.unavailable { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+      .nav-button {
+        position: fixed; bottom: 24px; z-index: 100; background: #ffffff;
+        border: 1px solid #C9A84C; color: #755b00;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0; pointer-events: none; transform: translateY(20px);
+      }
+      .nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+      .nav-button:hover { border-color: #C9A84C; color: #503d00; }
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+      #main-nav a { text-decoration: none; }
+      .nav-link { text-decoration: none; }
+    </style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <a href="../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-40">
+
+    <!-- Hero Section -->
+    <section class="max-w-screen-2xl mx-auto px-6 md:px-12 mb-32">
+        <div class="max-w-4xl">
+            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Shvetambara Canon &middot; Yashovijayji</span>
+            <h1 class="text-6xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
+                Gyansaar <span class="text-primary font-normal">(ज्ञानसार)</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light">
+                The Essence of Knowledge. Composed by the great Shvetambara polymath Upadhyay Yashovijayji with Hindi vivechan by Bhadraguptavijayji, the Gyansaar is a 32-chapter Sanskrit treatise on the complete inner path — from the recognition of the soul's natural fullness to final liberation. Each chapter is a precise, concentrated teaching on one quality of the awakened being.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-12 pt-10 border-t border-primary/10">
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Author</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Upadhyay Yashovijayji</p>
+                <p class="text-xs text-on-surface-variant font-light mt-1">17th century CE</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Commentary</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Bhadraguptavijayji</p>
+                <p class="text-xs text-on-surface-variant font-light mt-1">Hindi Vivechan</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Translated By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Dishant Shah</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Structure</p>
+                <p class="text-lg font-headline font-normal text-on-surface">32 Chapters &middot; Sanskrit</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 32 Chapters -->
+    <section class="max-w-screen-2xl mx-auto px-6 md:px-12 pb-40">
+        <div class="mb-10">
+            <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">The Complete Path &mdash; Thirty-Two Chapters</span>
+            <h2 class="text-3xl font-headline font-bold text-on-surface mt-2">All 32 Chapters</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+
+            <!-- Chapter 1 — Available -->
+            <a href="gyansaar-ch1.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 01</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Purnata</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Fullness. The soul is not moving toward completeness — it already is complete. Eight shlokas establishing the foundation of the entire path.</p>
+            </a>
+
+            <!-- Chapter 2 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 02</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Sthirata</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Steadfastness. How to remain established in the recognized fullness — not a burst of insight, but a stable dwelling.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 3 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 03</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Magnata</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Absorption. The deepening of inner attentiveness — learning to be fully present in one's own consciousness.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 4 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 04</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Amoha</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Non-Delusion. Clarity that sees through the fundamental confusion between self and not-self.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 5 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 05</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Jnana</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Knowledge. Not knowledge as accumulated information, but as the soul's own self-luminous awareness — its inherent quality.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 6 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 06</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Vairagya</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Dispassion. Not aversion to the world, but the natural freedom that arises when the soul rests in its own sufficiency.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 7 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 07</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Anubhava</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Experience. Direct inner experience of the self — not theory, not belief, but the taste of one's own nature.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 8 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 08</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Dhyana</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Meditation. The practice of resting the consciousness undistracted in its own nature — the technology of liberation.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 9 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 09</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Upasana</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Devotion. The role of reverence toward the Arihanta — not as external worship but as alignment with the liberated state.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 10 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 10</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Viveka</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Discrimination. The faculty that correctly distinguishes the soul from what is not the soul — the operative intelligence of liberation.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 11 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 11</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Tyaga</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Renunciation. What genuine renunciation is and is not — a letting go that arises from fullness, not from force.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 12 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 12</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Ksama</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Forgiveness. The soul established in itself has nothing to defend — and so forgiveness becomes its natural disposition.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 13 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 13</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Mardava</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Humility. Genuine humility as the dissolution of the ego's claim — not self-deprecation but the end of the false center.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 14 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 14</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Arjava</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Straightforwardness. The alignment of thought, word, and action — the end of inner contradiction and outer pretense.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 15 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 15</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Shaucha</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Purity. Not ritual cleanliness but inner purity — the absence of greed and attachment as the soul's luminous ground.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 16 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 16</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Satya</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Truth. The commitment to reality as it is, not as we wish it to be — the most fundamental ethical root of liberation.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 17 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 17</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Sanyama</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Restraint. The protection of all forms of life through disciplined control of the senses, speech, and action.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 18 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 18</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Tapas</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Austerity. The deliberate practice of restraint as a means of burning away accumulated karma and revealing the self.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 19 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 19</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Brahmacharya</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Celibacy of the Self. The conservation of vital energy through the soul's absorption in its own pure consciousness.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 20 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 20</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Aparigraha</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Non-Possession. When the soul knows its own fullness, the compulsion to accumulate dissolves naturally.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 21 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 21</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Ahimsa</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Non-Violence. The supreme ethic — the natural expression of a soul that recognizes all other souls as itself.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 22 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 22</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Anekantavada</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Many-Sidedness. The epistemological foundation of Jain thought — how to hold truth without the violence of one-sided certainty.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 23 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 23</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Syadvada</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Conditional Assertion. The precise method of speaking truth without absolutism — the seven-fold predication of reality.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 24 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 24</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Samata</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Equanimity. The soul undisturbed by gain and loss, praise and blame — resting in its own unshakeable ground.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 25 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 25</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Karuna</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Compassion. Not sentiment, but the active recognition that every being in suffering is a soul on the same path.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 26 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 26</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Mudita</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Appreciative Joy. The capacity to rejoice in the virtue of others without the shadow of comparison or envy.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 27 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 27</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Upeksha</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Equanimous Observation. The detached witnessing of phenomena without either clinging or rejection.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 28 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 28</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Samadhi</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Inner Integration. The convergence of knowledge, conduct, and experience in the soul fully absorbed in itself.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 29 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 29</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Nirlepta</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Non-Attachment. The soul that acts fully in the world and remains utterly unaffected — doing without doing.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 30 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 30</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Shuddhatma</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The Pure Self. A direct description of what the soul is in its natural, unobscured state — the direct object of the entire path.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 31 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 31</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Moksha-Marg</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The Path of Liberation. Yashovijayji's summation of the complete path — right perception, right knowledge, right conduct as one.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+            <!-- Chapter 32 -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Chapter 32</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Siddhatva</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Liberation. The final chapter — what the liberated soul is, what it knows, and why that state is the soul's eternal home.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- Floating Navigation -->
+<a href="../../index-v4.html" class="nav-button left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    <span class="text-lg">&larr;</span> Home
+</a>
+<a href="../Aagama/sacred-sutras-index.html" class="nav-button right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    All Sutras <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a>
+                <a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+                <a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Connect</span>
+                <a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a>
+                <a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+</body>
+</html>

@@ -1,6 +1,42 @@
-# Design System Prompt: Gyansaar Chapter Pages
+# Design System Prompt: Gyansaar Pages
 
-Use this prompt when building chapter pages for the Gyansaar scripture on JainAwaken.org. This design system is derived from the Sutrakritanga series and must be followed exactly.
+Use this prompt when building chapter pages **or the index page** for the Gyansaar scripture on JainAwaken.org. This design system is derived from the Sutrakritanga series and must be followed exactly.
+
+---
+
+## INDEX PAGE DESIGN (gyansaar-index.html)
+
+The index page follows the same pattern as `samaysaar-index.html`. Key structure:
+
+### Hero Section
+- Label: `Shvetambara Canon · Yashovijayji` (italic uppercase, primary color)
+- H1: `Gyansaar (ज्ञानसार)` — 6xl/8xl, bold, tracking-tighter
+- Description: 1–2 sentences, 2xl, font-light, on-surface-variant
+- Metadata grid (4 cols): Author, Commentary, Translated By, Structure
+
+### Chapter Grid
+- Section header: `The Complete Path — Thirty-Two Chapters`
+- Grid: `grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10`
+- Available chapters: `<a href="...">` with `.index-card` class
+- Locked chapters: `<div>` with `.index-card.unavailable` class
+- Each card: chapter label (italic uppercase), lock/arrow icon, title (4xl bold), description (font-light), "Coming Soon" label on locked cards
+
+### CSS for index cards
+```css
+.index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+.index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(201,168,76,0.2); }
+.index-card.unavailable { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+```
+
+### Books UI (sacred-sutras-index.html)
+The Gyansaar appears as a book card in `sacred-sutras-index.html` using the `.book-container` / `.book-card` system:
+- Spine color: `#503d00` (darkest gold/brown)
+- Border-top: `8px solid #503d00`
+- Label: `Shvetambara Canon · Yashovijayji`
+- Tagline: `The essence of knowledge`
+- Stats: `32 Chapters · Sanskrit · Inner Path`
+
+---
 
 ---
 
