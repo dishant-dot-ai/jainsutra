@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Samaysaar: The Essence of the Self | JainAwaken.org</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>html { scroll-behavior: smooth; }
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(201,168,76,0.2); }
+      .index-card.unavailable { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+      .nav-button {
+        position: fixed; bottom: 24px; z-index: 100; background: #ffffff;
+        border: 1px solid #C9A84C; color: #755b00;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0; pointer-events: none; transform: translateY(20px);
+      }
+      .nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+      .nav-button:hover { border-color: #C9A84C; color: #503d00; }
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+      #main-nav a { text-decoration: none; }
+      .nav-link { text-decoration: none; }
+    </style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <a href="../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-40">
+    <!-- Hero Section -->
+    <section class="max-w-screen-2xl mx-auto px-6 md:px-12 mb-32">
+        <div class="max-w-4xl">
+            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Digambara Canon &middot; Kundkundacharya</span>
+            <h1 class="text-6xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
+                Samaysaar <span class="text-primary font-normal">(समयसार)</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light">
+                The Essence of the Self. Composed approximately 2,000 years ago by Bhagwan Kundkundacharya Dev, the Samaysaar is regarded as the supreme philosophical text of the Digambara Jain tradition. In 415 gathas across 10 sections, it establishes with absolute precision that the soul is inherently pure consciousness — and that liberation consists not in becoming something new, but in recognizing what was always there.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-12 pt-10 border-t border-primary/10">
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Author</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Kundkundacharya Dev</p>
+                <p class="text-xs text-on-surface-variant font-light mt-1">~2,000 years ago</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Commentary</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Amritchandra Suri</p>
+                <p class="text-xs text-on-surface-variant font-light mt-1">Atmakhyati Tika</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Translated By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Dishant Shah</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Structure</p>
+                <p class="text-lg font-headline font-normal text-on-surface">415 Gathas · 10 Sections</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poorvarang -->
+    <section class="max-w-screen-2xl mx-auto px-6 md:px-12 pb-16">
+        <div class="mb-10">
+            <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">Preliminary Section</span>
+            <h2 class="text-3xl font-headline font-bold text-on-surface mt-2">Poorvarang &mdash; The Prologue</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+            <a href="samaysaar-ch1.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Poorvarang</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">The Prologue</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">38 gathas establishing the nature of samaya, the two states of the soul, oneness, and the relationship between conventional and ultimate truth.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- 10 Adhikars -->
+    <section class="max-w-screen-2xl mx-auto px-6 md:px-12 pb-40">
+        <div class="mb-10">
+            <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">Main Text &mdash; Ten Sections</span>
+            <h2 class="text-3xl font-headline font-bold text-on-surface mt-2">The 10 Adhikars</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+
+            <!-- 1. Jeev-Ajeev -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 1</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Jeev-Ajeev</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The Soul and Non-Soul. The foundational distinction between consciousness and matter — what the soul is and what it is not.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 39–68 · Coming Soon</p>
+            </div>
+
+            <!-- 2. Kartakarmaadhikar -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 2</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Karta-Karma</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The Doer and the Deed. Is the soul the doer of karma? The revolutionary answer that overturns both determinism and free-will absolutism.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 69–144 · Coming Soon</p>
+            </div>
+
+            <!-- 3. Punya-Paap -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 3</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Punya-Paap</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Merit and Sin. Both are forms of bondage. Even "good" karma keeps the soul in the cycle. True liberation transcends both.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 145–163 · Coming Soon</p>
+            </div>
+
+            <!-- 4. Aasrav -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 4</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Aasrav</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Influx of Karma. How karma enters the soul — the mechanism of bondage at its most granular level.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 164–180 · Coming Soon</p>
+            </div>
+
+            <!-- 5. Samvar -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 5</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Samvar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Stoppage of Karma. How to halt the inflow — the first active step toward liberation.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 181–192 · Coming Soon</p>
+            </div>
+
+            <!-- 6. Nirjara -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 6</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Nirjara</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Shedding of Karma. The active dissolution of accumulated karma through austerity, knowledge, and self-realization.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 193–236 · Coming Soon</p>
+            </div>
+
+            <!-- 7. Bandh -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 7</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Bandh</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Bondage. What binds the soul to the cycle of birth and death — the mechanics of karma's grip.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 237–287 · Coming Soon</p>
+            </div>
+
+            <!-- 8. Moksha -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 8</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Moksha</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">Liberation. The final destination — what it is, how it is attained, and why it is the soul's natural state.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 288–307 · Coming Soon</p>
+            </div>
+
+            <!-- 9. Sarvavishuddhijnan -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Section 9</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Sarvavishuddhijnan</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">All-Pure Knowledge. The culmination — omniscient knowledge as the soul's inherent nature, not an external acquisition.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Gathas 308–415 · Coming Soon</p>
+            </div>
+
+            <!-- 10. Devotion / Conclusion -->
+            <div class="index-card unavailable bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Conclusion</span>
+                    <span class="material-symbols-outlined text-primary/40">lock</span>
+                </div>
+                <h3 class="text-4xl font-headline font-bold text-on-surface">Upasanhaar</h3>
+                <p class="text-on-surface-variant leading-relaxed font-light">The conclusion — Kundkundacharya's final seal on the complete teaching of the pure self.</p>
+                <p class="text-xs text-primary/60 font-label uppercase tracking-widest">Coming Soon</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- Floating Navigation -->
+<a href="../../index-v4.html" class="nav-button left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    <span class="text-lg">&larr;</span> Home
+</a>
+<a href="../Aagama/sacred-sutras-index.html" class="nav-button right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    All Sutras <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainAwaken. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a>
+                <a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+                <a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Connect</span>
+                <a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a>
+                <a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+</body>
+</html>
