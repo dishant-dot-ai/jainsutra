@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Chapter 9: Shramanopasak Nandinipita — Upasakdashang</title>
+<script>
+  // Tailwind config must come before the CDN script
+  window.tailwindConfig = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          primary: { DEFAULT: '#C9A84C', dark: '#755b00' },
+          surface: { DEFAULT: '#fdf8f0', dark: '#1a1612' },
+          'on-surface': { DEFAULT: '#2d1f0e', dark: '#f0e6d3' },
+          'on-surface-variant': { DEFAULT: '#5c4a2a', dark: '#c4a882' },
+          border: { DEFAULT: '#e8d9b8', dark: '#3d3020' },
+        },
+        fontFamily: {
+          headline: ['"Noto Serif"', 'Georgia', 'serif'],
+          body: ['"Inter"', 'system-ui', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --color-primary: #C9A84C;
+    --color-primary-dark: #755b00;
+    --color-surface: #fdf8f0;
+    --color-on-surface: #2d1f0e;
+    --color-on-surface-variant: #5c4a2a;
+    --color-border: #e8d9b8;
+  }
+  .dark {
+    --color-primary: #d4b56a;
+    --color-primary-dark: #C9A84C;
+    --color-surface: #1a1612;
+    --color-on-surface: #f0e6d3;
+    --color-on-surface-variant: #c4a882;
+    --color-border: #3d3020;
+  }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .font-headline { font-family: 'Noto Serif', Georgia, serif; }
+  .text-primary { color: var(--color-primary); }
+  .border-primary { border-color: var(--color-primary); }
+  .bg-surface { background-color: var(--color-surface); }
+  .text-on-surface { color: var(--color-on-surface); }
+  .text-on-surface-variant { color: var(--color-on-surface-variant); }
+  .border-border { border-color: var(--color-border); }
+
+  .sutra-card {
+    background: linear-gradient(135deg, rgba(201,168,76,0.06) 0%, rgba(201,168,76,0.02) 100%);
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-primary);
+  }
+  .dark .sutra-card {
+    background: linear-gradient(135deg, rgba(212,181,106,0.08) 0%, rgba(212,181,106,0.03) 100%);
+    border-color: var(--color-border);
+    border-left-color: var(--color-primary);
+  }
+  .sutra-sanskrit {
+    font-size: 1.1rem;
+    color: var(--color-primary-dark);
+    font-style: italic;
+    line-height: 1.8;
+    font-weight: 600;
+  }
+  .dark .sutra-sanskrit { color: var(--color-primary); }
+  .simple-explanation {
+    background: rgba(201,168,76,0.08);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    color: var(--color-on-surface);
+    line-height: 1.7;
+  }
+  .dark .simple-explanation { background: rgba(212,181,106,0.1); }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #2d1f0e 0%, #4a3520 50%, #2d1f0e 100%);
+  }
+  .chapter-badge {
+    background: rgba(201,168,76,0.15);
+    border: 1px solid rgba(201,168,76,0.4);
+    border-radius: 2rem;
+    padding: 0.3rem 1rem;
+    font-size: 0.85rem;
+    color: var(--color-primary);
+  }
+  .stat-card {
+    background: rgba(201,168,76,0.08);
+    border: 1px solid rgba(201,168,76,0.2);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.25rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-on-surface-variant);
+    transition: all 0.2s;
+    text-decoration: none;
+    background: var(--color-surface);
+  }
+  .nav-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+  #scroll-progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    background: var(--color-primary);
+    z-index: 9999;
+    transition: width 0.1s;
+  }
+  .toggle-btn {
+    background: rgba(201,168,76,0.15);
+    border: 1px solid rgba(201,168,76,0.3);
+    border-radius: 9999px;
+    padding: 0.4rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: var(--color-primary);
+    transition: all 0.2s;
+  }
+  .toggle-btn:hover { background: rgba(201,168,76,0.25); }
+</style>
+</head>
+<body>
+
+<div id="scroll-progress" style="width:0%"></div>
+
+<!-- NAV BAR -->
+<header class="sticky top-0 z-50 border-b border-border" style="background:var(--color-surface);backdrop-filter:blur(8px);">
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="../../index.html" class="font-headline font-bold text-primary text-lg">JainAwaken</a>
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="text-sm text-on-surface-variant hover:text-primary transition-colors">Upasakdashang</a>
+      <button class="toggle-btn" onclick="document.documentElement.classList.toggle('dark')">☀︎ / ☽</button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero-gradient text-white py-16 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <div class="chapter-badge inline-block mb-4">Chapter 9 · Upasakdashang</div>
+    <h1 class="font-headline text-4xl md:text-5xl font-bold mb-3" style="color:#C9A84C;">Shramanopasak Nandinipita</h1>
+    <p class="font-headline text-xl italic mb-2" style="color:rgba(201,168,76,0.8);">શ્રમણોપાસક નંદીનીપિતા</p>
+    <p class="text-gray-300 text-lg">The Ninth Lay Disciple · Shravasti · The Path of Untroubled Devotion</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="max-w-4xl mx-auto px-4 py-10">
+  <div class="rounded-xl p-6 mb-8" style="background:rgba(201,168,76,0.07);border:1px solid rgba(201,168,76,0.2);">
+    <h2 class="font-headline text-xl font-bold text-primary mb-3">About This Chapter</h2>
+    <p class="text-on-surface-variant leading-relaxed mb-3">Nandinipita was a wealthy guildmaster in Shravasti with 12 crore gold coins and 40,000 cows. His wife was named Ashvini. When Bhagavan Mahavir came to Shravasti, Nandinipita took the twelve vows of a Jain layperson — just as Ananda had before him.</p>
+    <p class="text-on-surface-variant leading-relaxed">What sets this chapter apart from all others is the complete absence of any divine ordeal. No deva came to test him through tragedy or suffering. Nandinipita's twenty years of practice — fourteen active, six in retirement — unfolded in unbroken peace, ending in samadhi death and rebirth in the Arunagav heaven of the Saudharma kalpa.</p>
+  </div>
+
+  <!-- STATS -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+    <div class="stat-card">
+      <div class="font-headline text-2xl font-bold text-primary">4</div>
+      <div class="text-xs text-on-surface-variant mt-1">Sutras</div>
+    </div>
+    <div class="stat-card">
+      <div class="font-headline text-2xl font-bold text-primary">12 Cr</div>
+      <div class="text-xs text-on-surface-variant mt-1">Gold Coins</div>
+    </div>
+    <div class="stat-card">
+      <div class="font-headline text-2xl font-bold text-primary">20 Yrs</div>
+      <div class="text-xs text-on-surface-variant mt-1">Total Practice</div>
+    </div>
+    <div class="stat-card">
+      <div class="font-headline text-2xl font-bold text-primary">Arunagav</div>
+      <div class="text-xs text-on-surface-variant mt-1">Celestial Vehicle</div>
+    </div>
+  </div>
+
+  <!-- SUTRAS -->
+  <h2 class="font-headline text-2xl font-bold text-on-surface mb-6">Sutras</h2>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">Navamass ukkhevo. Evam khalu Jambū! Teṇam kāleṇam teṇam samayeṇam Sāvatthī nayrī. Koṭṭhue ceiae. Jiyasattu rāyā. Tattha ṇam Sāvatthīe nayrīe Ṇandīṇīpiyā nām gāhāvaī parīvasaī. Aṭṭhe jāv bahujanas aparibhūe. Cāttāri hiraṇṇakoḍīo giṇhāṇapaṭṭāo, cāttāri hiraṇṇakoḍīo vuṭṭhipaṭṭāo, cāttāri hiraṇṇakoḍīo paviṭṭharapaṭṭāo, cāttāri vayā, dasa go-sāhasieṇam vaṇṇam. Assinī bhāriā.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The opening of the ninth chapter. Thus it was, O Jambū! At that time and in that era, the city of Shravasti existed. There was the Koshtuk shrine. King Jiyasattu ruled. In that city of Shravasti, there lived a householder named Nandinipita — wealthy, up to: revered by many. He held four crore gold coins in deposited form, four crore in circulating trade, and four crore in household assets; he had four gokulas, each with ten thousand cows. His wife's name was Ashvini.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The ninth chapter opens with the same setting as all prior chapters — Shravasti, the Koshtuk shrine, King Jiyasattu. Nandinipita means 'one who has found joy in the abode.' He was a prosperous merchant-guildmaster with 12 crore gold coins divided equally across savings, trade, and household, and 40,000 cows in four gokulas. His wife Ashvini is named after the first lunar asterism, associated with physicians and healers. What distinguishes this chapter from all that came before is the complete absence of any divine ordeal — no deva, no sons slain, no wealth destroyed, no diseases sent. Nandinipita's story is one of quiet, unbroken devotion.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The ninth chapter begins in Shravasti. Nandinipita was a wealthy and respected guildmaster with 12 crore gold coins and 40,000 cows. His wife was named Ashvini. Unlike the disciples who faced divine ordeals, no trial ever tested him — his entire spiritual journey unfolded in undisturbed peace.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">Sāmī samosaḍhe. Jahā Āṇamdo taheva giṇhidhammam paḍivajjai. Sāmī bahiyā viharḍhe.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The Lord arrived and established his samavaran assembly. Just as Ananda (accepted the lay dharma), so too did Nandinipita accept the householder's dharma. The Lord then departed to wander elsewhere.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Bhagavan Mahavir arrived in Shravasti and established his samavaran — the divine assembly that gathers spontaneously in his presence, drawing devotees from all directions. Among the faithful who came was Nandinipita. Moved by the teachings, he took the twelve vows of a shravak, just as Ananda did in the first chapter: five anuvratas (minor ethical vows), three gunavratas (qualifying vows), and four shikshavratas (educational/training vows). After initiating Nandinipita, Bhagavan continued his wandering ministry elsewhere. The sutra's brevity signals that his initiation was straightforward and unencumbered — he heard, he understood, he accepted.</p>
+<p class="simple-explanation"><b>Simply Put:</b> Mahavir came to Shravasti. Nandinipita heard his teachings and — just like Ananda — took the twelve vows of a Jain layperson. Mahavir then continued his journey.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">Tae ṇam se Ṇandīṇīpiyā samaṇovāsae jāv viharḍhe.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Thereupon Nandinipita became a shramanopasak (Jain lay follower) and lived accordingly, practicing the dharma in full.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Having taken his vows, Nandinipita began living the life of a committed shramanopasak — observing anuvratas with care, practicing samayik (equanimity meditation), observing poshadha fasts, and progressively deepening his practice through the stages of pratima. The yāvat (jāv) is the Agamic shorthand indicating that the full description of his diligent, growing practice is identical to what was narrated for earlier disciples. There is a quiet dignity in this sutra: Nandinipita did not need divine pressure to live his faith. He simply became, and lived.</p>
+<p class="simple-explanation"><b>Simply Put:</b> Nandinipita became a devoted Jain lay follower and lived his daily life in keeping with his vows — practicing meditation, fasting, and the progressive disciplines of the householder path.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">Tae ṇam tassa Ṇandīṇīpiyassa samaṇovāsayassa bahūhim sīlavvayaguṇa jāv bhāvemāṇassa coḍasa samvacchrāi vaikkamtāi. Taheva jeṭṭhu puttam ṭhavei. Dhammpaṇṇattim. Vīsam vāsāi pariyāgam. Ṇāṇatte — aruṇagave vimāṇe uvavāo mahāvidehe vāse sijjhihaī. Ṇikhkhevao jahā paḍhamass.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As the shramanopasak Nandinipita cultivated himself through many virtues, minor vows, and spiritual qualities — fourteen years passed. Just as earlier disciples did, he installed his eldest son in charge of household affairs. His total renunciation period was twenty years. Special note: he was born in the Arunagav celestial vehicle; he will attain liberation while dwelling in Mahavideha. The concluding verse is as in the first chapter.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Over fourteen years of active householder practice, Nandinipita cultivated all the spiritual qualities of a shramanopasak — anuvratas, gunavratas, and the progressive stages of pratima (the eleven graduated stages of lay discipline). At this turning point, he transferred all family and social responsibilities to his eldest son Jayesh, fully withdrawing from worldly affairs. The remaining six years were spent in complete retirement (nivritti) — residing in a poshdhashala, deepening practice without household obligations, culminating in sallekhana (the voluntary thinning of the body through fasting as death approaches). Total practice: twenty years. The ṇāṇatte (special note) marks this chapter's distinctive element: the Arunagav celestial vehicle in the Saudharma heaven, with a lifespan of four paliopamas. After exhausting his heavenly life, he will be born in Mahavideha and attain final liberation. The defining lesson: the absence of ordeal is not the absence of depth. Twenty years of steady, undisturbed practice is its own testimony.</p>
+<p class="simple-explanation"><b>Simply Put:</b> Nandinipita practiced his vows for fourteen active years, then handed household duties to his eldest son and spent six more years in retirement, culminating in a conscious fast unto death. His twenty years of undisturbed, peaceful practice earned him rebirth in the Arunagav heaven. After four paliopamas there, he is destined for liberation in Mahavideha.</p>
+</div>
+</div>
+</article>
+</section>
+
+<!-- CHAPTER NAV -->
+<div class="max-w-4xl mx-auto px-4 pb-16 flex justify-between items-center">
+  <a href="upasakdashang-ch8.html" class="nav-btn">&#8592; Ch 8</a>
+  <a href="index.html" class="nav-btn">All Chapters</a>
+  <a href="upasakdashang-ch10.html" class="nav-btn">Ch 10 &#8594;</a>
+</div>
+
+<!-- FOOTER -->
+<footer class="border-t border-border py-8 px-4 text-center text-sm text-on-surface-variant">
+  <p class="font-headline text-primary font-semibold mb-1">JainAwaken</p>
+  <p>Upasakdashang Sutra · Seventh Anga · Jain Agamic Canon</p>
+</footer>
+
+<script>
+  window.addEventListener('scroll', () => {
+    const el = document.getElementById('scroll-progress');
+    if (!el) return;
+    const pct = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+    el.style.width = Math.min(pct, 100) + '%';
+  });
+</script>
+</body>
+</html>
