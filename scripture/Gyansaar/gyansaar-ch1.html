@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 1: Purnata (Fullness) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 1</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Fullness<span class="block text-primary font-normal text-xl md:text-2xl mt-2">पूर्णता</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">You are already complete — the work is not to become full but to stop imagining you are empty</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The Gyansaar opens with its most radical declaration: the soul's natural state is total completeness. All suffering arises from the false belief in inadequacy. Through eight shlokas of luminous precision, Yashovijayji shows that fullness is not something to be achieved but something to be uncovered — like clearing clouds to reveal a sun that was always shining.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">ऐन्द्रधीसुखमरसेन, लीलालत्तनमिवालिखम् ।<br/>सच्चिदानन्दपूर्णन, पूर्ण जगदवेक्षते ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"With the nectar of supreme inner bliss, the one who is full of existence-consciousness-bliss sees the entire universe as full." — Gyansaar 1.1</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Purnata</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Purnata</span> — Fullness — is the foundational chapter of the Gyansaar, a masterwork by the great Shvetambara polymath Yashovijayji. Written in Sanskrit with Hindi vivechan (extended commentary) by Bhadraguptavijayji, it establishes the starting premise of the entire text: the soul is inherently, permanently, and completely full. Not potentially full. Not full-if-you-practice-enough. Full right now, as you are.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The Gyansaar ("Essence of Knowledge") is a 32-chapter spiritual treatise covering the complete arc of inner development — from recognizing fullness to engrossment, steadfastness, non-delusion, knowledge, renunciation, experience, meditation, worship, and final liberation. But everything rests on this first chapter's insight: if you do not begin from fullness, every step forward is actually a step sideways — because you are trying to get somewhere you already are.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">32</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 1 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — What Fullness Is (Shlokas 1–3)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ऐन्द्रधीसुखमरसेन, लीलालत्तनमिवालिखम् ।<br/>सच्चिदानन्दपूर्णन, पूर्ण जगदवेक्षते ॥१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">With the nectar of supreme inner bliss — as if playfully sketching a portrait — the one who is full of existence-consciousness-bliss sees the entire universe as full.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Satchidananda · Existence-Consciousness-Bliss</span>
+</div>
+<p class="principle-def">The soul's essential nature is to exist (eternally), to know (consciously), and to be at peace (blissfully). Suffering is an aberration caused by karmic obstruction, not the soul's baseline.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The soul established in its own nature does not see a universe of lack. It sees fullness everywhere. This is not optimism or positive thinking — it is the natural perception of a consciousness that has recognized its own completeness. The analogy of "playfully sketching" is profound: an artist who knows their own mastery creates with ease, with divine play. Similarly, the full soul does not labor to see truth. It simply sees, effortlessly, because seeing is its nature.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul that knows its own completeness sees the entire universe as complete — not from effort, but from its own nature.</p>
+<div class="concept-tags"><span class="concept-tag">Satchidananda</span><span class="concept-tag">Inner Bliss</span><span class="concept-tag">Fullness</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वृगता, या परोषामे सा वाञ्चितकमणजनम् ।<br/>या तु स्वभाविकी सैव, आत्मस्वरलमिभानिभा ॥२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The fullness that comes from external objects and fulfilled desires — that is not true fullness. But the fullness that is natural, innate — that alone shines with the radiance of the self's own light.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">There are two kinds of fullness. The first is conditional — the temporary satisfaction from getting what you want. You desire something, you obtain it, and for a moment you feel complete. But this fullness is borrowed, dependent on external conditions that always change. The second kind is the soul's own nature. It does not come from outside and therefore cannot be taken away. It is self-luminous — it shines by its own light, the way the sun does not need another light source. Just as a person who obtains every external comfort still finds themselves restless, external fullness can never satisfy the soul's deeper hunger. The soul's hunger is for itself.</p>
+<p class="simple-explanation"><b>The simple version:</b> Getting what you want gives a temporary feeling of completeness. Real, permanent fullness is not something you acquire — it is the soul's own natural state, always shining from within.</p>
+<div class="concept-tags"><span class="concept-tag">True vs False Fullness</span><span class="concept-tag">Self-Luminosity</span><span class="concept-tag">Svabhava</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अवास्तवी चिकल्पेन, तुच्छया कृत्यगाहिजाड्गुली ।<br/>पूर्णतिन्दस्य तत्त्वं कि, स्थावै दैन्यमूचिशंवचैवना ? ॥३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Can the fullness of the complete moon be diminished by pointing a finger at it and imagining it is imperfect? Similarly, can the soul's true completeness be touched by false mental constructions of inadequacy?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Imagine someone pointing at the full moon and insisting it has a hole because their finger appears to cover part of it. The moon is untouched. The "deficiency" exists only in the perceiver's false construction. The same applies to the soul. When we feel incomplete, broken, or lacking, we are pointing at the moon and seeing our own finger. The deficiency is projected by delusion — it is not a property of the self. This verse attacks the most fundamental spiritual error: the belief that you are fundamentally flawed and need to become something other than what you already are. Practice is needed to remove the false constructions — but the goal is uncovering, not construction.</p>
+<p class="simple-explanation"><b>The simple version:</b> Just as pointing a finger at the full moon doesn't create a hole in it, your mental stories of inadequacy don't actually diminish your soul's natural completeness.</p>
+<div class="concept-tags"><span class="concept-tag">False Construction</span><span class="concept-tag">Vikalpa</span><span class="concept-tag">Inherent Perfection</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Permanence of Self-Knowledge (Shlokas 4–5)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जागर्ता ज्ञानशिष्टिर्चैत, तद्दर्शनं नैव शक्यवते ।<br/>लोपमेयं प्रियवासलेयेपर्नीपि तच्चन्दनद्रव: ॥४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">If the awakened vision of true knowledge is attained, then the vision of inadequacy can never again have power — just as the fragrance of sandalwood cannot be extinguished by any amount of covering.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Once genuine self-knowledge dawns — even briefly — the spell of inadequacy is broken permanently. The soul may still experience karmic effects, but it can no longer fully believe the lie that it is incomplete. The difference is like someone who has seen light once versus someone who has never seen it. Sandalwood's fragrance is intrinsic to the wood itself — wrap it, bury it, cover it with other scents, and the fragrance persists. The soul's fullness is like this fragrance. This connects to the Jain concept of right perception: once the soul has its first genuine flash of self-recognition, the direction is set. It can no longer be permanently fooled.</p>
+<p class="simple-explanation"><b>The simple version:</b> Once you truly see your own completeness even once, the belief that you are broken loses its power forever — like sandalwood whose fragrance can never be fully covered up.</p>
+<div class="concept-tags"><span class="concept-tag">Samyak Drishti</span><span class="concept-tag">Irreversible Insight</span><span class="concept-tag">Self-Knowledge</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अपूर्णं पूर्णतामेति, पूर्णमाराधस्तु हीयते ।<br/>पूर्णतिन्दस्वभावेन, संव्यवस्थानुसारत: ॥५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The incomplete attains fullness, and fullness never diminishes through realization of it. By the very nature of complete fullness, this is the law of the soul's own constitution.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When the soul that has been experiencing itself as incomplete turns inward and recognizes its own fullness, it does not merely improve — it returns to its natural state. And this natural state, once genuinely established, does not decrease. Fullness does not depreciate. Material wealth can be lost, skills can degrade, relationships can end. But the soul's self-recognition cannot be un-recognized. The vivechan explains this through the metaphor of gold purification: gold mixed with impurities appears to be base metal. When the impurities are removed, the gold does not become gold — it was always gold. The purification reveals what was already there.</p>
+<p class="simple-explanation"><b>The simple version:</b> When an incomplete-seeming soul realizes its own fullness, it becomes whole — and that wholeness never diminishes. It is your nature being revealed, not something you gain and can lose.</p>
+<div class="concept-tags"><span class="concept-tag">Permanent Realization</span><span class="concept-tag">Gold Metaphor</span><span class="concept-tag">Uncovering</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Homage and the Practice of Fullness (Shlokas 6–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वस्त्य दृष्टि: कृपावृद्धिचरि, शमसुधारकि: ।<br/>तस्मै नम: शुभज्ञानचन्द्राय योगिने ॥६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Salutations to that yogi — the moon of auspicious knowledge — whose vision is truth, whose conduct overflows with compassion, and who is established in tranquility.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">In the middle of this philosophical exposition, Yashovijayji pauses to bow to the realized being who embodies everything the chapter describes. The concept of fullness is not merely theoretical — it has been lived. The description maps precisely to the three pillars of Jain realization: right perception (truth-vision), right conduct (compassion in action), and right knowledge (established tranquility). The realized yogi does not merely believe in fullness — they see through the lens of fullness, they act from fullness, and they rest in fullness.</p>
+<p class="simple-explanation"><b>The simple version:</b> The author bows to the realized soul who lives fullness in practice — whose seeing is truthful, whose actions are compassionate, and whose inner state is tranquil.</p>
+<div class="concept-tags"><span class="concept-tag">Realized Being</span><span class="concept-tag">Three Pillars</span><span class="concept-tag">Living Fullness</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञानमूत्र्य विनर्शयेत, लोपविशोभकुचर्वके: ।<br/>अम्बलद्रव्याभिचिन्मात्रमूर्ति मस्तवा स्थिरो भव ॥७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Let the image of pure knowledge destroy all coverings that diminish its radiance. Worship the form that is pure consciousness alone — and become steady.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter's practical instruction crystallizes here: the remedy for the sense of incompleteness is the cultivation of pure knowledge — not knowledge as information, but knowledge as the soul's own self-luminous awareness. When this awareness is turned inward, it burns away the coverings (karma) that have been blocking it. The instruction "become steady" connects directly to the next chapter — Sthirata (Steadfastness). Fullness is not a momentary flash. It must become stable. When you know you are complete, you stop running after things, and stillness becomes natural.</p>
+<p class="simple-explanation"><b>The simple version:</b> Let the light of pure self-knowledge burn away everything that covers it. Then rest in that awareness — and become steady in it.</p>
+<div class="concept-tags"><span class="concept-tag">Pure Awareness</span><span class="concept-tag">Karma Removal</span><span class="concept-tag">Steadiness</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शामहत्वगुती सत्त्व, विषुद्धोर्दि महात्मना ।<br/>कि स्तुकमो ज्ञानवीपुर्दे, तत्त्व सर्वांनुमन्तता ? ॥८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">What praise is sufficient for the great soul whose nature has become purified through tranquility? The truth alone — the truth of all things — is their lasting companion.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The closing verse returns to the opening's theme: the purified soul, established in its own fullness, needs nothing from outside. Its companion is truth itself — not a belief about truth, not a doctrine about truth, but the direct, unmediated experience of reality as it is. No words are adequate because the realized soul has transcended convention. The vivechan concludes by noting that Purnata is the foundation of the entire Gyansaar. Every subsequent chapter — Magnata, Sthirata, Amoha, Jnana, and all thirty-two — presupposes this starting point: the soul is already complete. The path is about removing what obscures what you already are.</p>
+<p class="simple-explanation"><b>The simple version:</b> No words can adequately praise the soul that has purified itself through inner peace. Such a soul's only companion is truth itself — direct experience of reality.</p>
+<div class="concept-tags"><span class="concept-tag">Beyond Words</span><span class="concept-tag">Truth as Companion</span><span class="concept-tag">Foundation of Path</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Floating Nav -->
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="gyansaar-ch2.html">Chapter 2 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
