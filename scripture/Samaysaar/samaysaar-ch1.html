@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Samaysaar — Poorvarang: The Prologue | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Samaysaar</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  The Prologue<span class="block text-primary font-normal text-xl md:text-2xl mt-2">पूर्वरंग</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">The essence of the self — what it is, what obscures it, and why it was never truly lost</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The Samaysaar opens with its most foundational teaching: the soul has two states — its own true nature (sva-samaya) and its entangled state identified with karma (para-samaya). Through ten gathas of extraordinary philosophical precision, Kundkundacharya establishes that the soul is inherently pure, one, and self-luminous — and that the path to liberation is not about becoming something new but recognizing what was always there.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Samaysaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">वंदित्तु सव्वसिद्धे धुवमचलमणोवमं गदिं पत्ते।<br/>वोच्छामि समयपाहुडमिणमो सुदकेवलीभणिदं ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Having bowed to all the Siddhas — who have attained the eternal, immovable, and incomparable state — I shall now expound the Samayaprabhrit." — Samaysaar 1</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Section</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Prologue</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Poorvarang</span> — the preliminary section of the Samaysaar — is one of the most philosophically concentrated passages in all of Jain literature. In just 38 gathas, Kundkundacharya lays the entire foundation: what the soul is, how it relates to karma, what "samaya" means, why conventional and ultimate viewpoints are both necessary, and what liberation actually requires. This is not a warm-up — it is the entire teaching in seed form.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The Samaysaar was composed approximately 2,000 years ago by Bhagwan Kundkundacharya Dev, regarded as one of the greatest Jain acharyas in the Digambara tradition. The commentary (Atmakhyati Tika) was written by Shrimad Amritchandra Suri approximately 1,000 years later. Together, the original gathas and the commentary form one of the most revered texts in Jain philosophical literature — described by Pujya Kanji Swami as "the essence of all scripture."</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">10</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Gathas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">38</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Total in Poorvarang</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Kundkund</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">~2000 yrs</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Age</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Gathas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Poorvarang · Samaysaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 10 Gathas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each gatha is presented with the original Ardhamagadhi Prakrit, English translation, and commentary.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Nature of the Self (Gathas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वंदित्तु सव्वसिद्धे धुवमचलमणोवमं गदिं पत्ते।<br/>वोच्छामि समयपाहुडमिणमो सुदकेवलीभणिदं ॥१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having bowed to all the Siddhas — who have attained the eternal, immovable, and incomparable state — I shall now expound this Samayaprabhrit (The Gift of the Self), as declared by the Shrutakevalins.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The Samaysaar opens with a bow to the Siddhas — liberated souls who have shed all karma and attained a state that is permanent, immovable, and beyond comparison. This is not a ritual formality. Kundkundacharya grounds his text in the highest possible reality: pure, disembodied consciousness that every soul is capable of reaching. The word "Samayaprabhrit" means "the gift of samaya" — where samaya carries a double meaning: the soul (the self) and the doctrine (the true teaching). The Siddhas are bowed to rather than the Tirthankaras because this text focuses on the pure soul — and the Siddhas are consciousness alone in its absolute form.</p>
+<p class="simple-explanation"><b>The simple version:</b> The author bows to all liberated souls and announces that he will present the essence of the soul's true nature, as taught by the great masters of scripture.</p>
+<div class="concept-tags"><span class="concept-tag">Siddhas</span><span class="concept-tag">Samaya</span><span class="concept-tag">Opening Declaration</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जीवो चरित्तदंसणणाणहिदो तं हि ससमयं जाण।<br/>पोगलकम्मपदेसहिदं च तं जाण परसमयं ॥२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Know the soul established in its own conduct, perception, and knowledge as "own-self" (sva-samaya); and know the soul situated in the provinces of material karma as "other-self" (para-samaya).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Sva-Samaya & Para-Samaya · The Two States of the Self</span>
+</div>
+<p class="principle-def">The soul operating from its own nature (knowledge, perception, conduct) is in its true state. The soul identified with material karma is in its distorted state. The entire Samaysaar is an elaboration of this single insight.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This is arguably the most foundational verse in all of Samaysaar. When the soul operates from its own inherent nature — its natural capacity for right perception, right knowledge, and right conduct — it is in its true state. These three are not external acquisitions; they are the soul's own properties, as natural to it as heat is to fire. When the same soul is found operating through the lens of material karma, it is in the "other-self" state — functioning as though it were something other than what it really is. This two-fold nature is not about two different souls. It is about two states of the same soul.</p>
+<p class="simple-explanation"><b>The simple version:</b> When the soul lives from its own nature — knowledge, perception, and right conduct — that is its true self. When it is caught up in the effects of karma, that is its distorted, false self.</p>
+<div class="concept-tags"><span class="concept-tag">Sva-Samaya</span><span class="concept-tag">Para-Samaya</span><span class="concept-tag">Soul's Two States</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Oneness and the Rarity of Self-Knowledge (Gathas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयत्तणिच्छयगदो समओ सव्वत्थ सुंदरो लोगे।<br/>बंधकहा एयत्ते तेण विसंवादिणी होदि ॥३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Samaya, when understood through the perspective of oneness, is beautiful everywhere in the universe. The story of bondage, being rooted in oneness with karma, is therefore contradictory to it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When each substance is understood as a single, unified entity that undergoes transformation through its own modes, every substance is complete in itself and beautiful. The "story of bondage" depends on treating the soul and karma as a single combined entity. But if every substance is truly one with itself and distinct from all others, then the soul cannot actually be "one with" karma. This does not mean bondage is a mere illusion — the soul genuinely experiences the effects of karma. But from the ultimate perspective, the soul's essential nature was never actually altered by karma, just as a crystal remains a crystal even when it appears red from a nearby flower.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you understand anything in the universe as truly one undivided thing, it is beautiful. The idea that the soul is bound by karma contradicts this oneness, because the soul and karma are fundamentally different substances.</p>
+<div class="concept-tags"><span class="concept-tag">Oneness</span><span class="concept-tag">Ekatva-Nishchaya</span><span class="concept-tag">Beauty of Self</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुदपरिचिदाणुभूदा सव्वस्स वि कामभोगबंधकहा।<br/>एयत्तसुवलंभो णवरि केवल सुलहो विहत्तस्स ॥४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The story of sensual bondage has been heard, studied, and experienced by all beings. But the realization of the soul's oneness — distinct from everything else — is simply not easy to attain.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Every being in the universe already knows the story of sensual desire and bondage — it has been heard, encountered, and experienced infinite times across infinite lifetimes. And yet, the one thing that remains genuinely rare is the direct realization of the soul's oneness — its nature as a single, distinct, conscious substance completely separate from all matter. The contrast is devastating: you know bondage intimately because you have lived it for eternity. You do not know your own self because you have never once turned inward to experience it directly. The Samaysaar exists to change that.</p>
+<p class="simple-explanation"><b>The simple version:</b> Everyone has experienced desire and bondage countless times — that story is familiar. But actually realizing your soul as something separate from all of that is extremely rare and difficult.</p>
+<div class="concept-tags"><span class="concept-tag">Rarity of Self-Knowledge</span><span class="concept-tag">Bondage</span><span class="concept-tag">Direct Realization</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — The Author's Promise and the Pure Knower (Gathas 5–7)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तं एयत्तविहत्तं दाएहं अप्पणो सविहवेण।<br/>जदि दाएज्ज पमाणं चुक्केज्ज छलं ण घेत्तव्वं ॥५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I shall reveal that soul — one and distinct — through its own inherent glory. If I demonstrate it with valid proof, accept it; and if I happen to slip anywhere, do not seize upon the error deceptively.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Kundkundacharya makes a remarkable declaration: he will show the soul through its own inherent splendor — not through external arguments alone, but through the soul's own self-luminous nature. The word "svavibhava" (own glory) is crucial — he is pointing to the soul's own radiance, its capacity to know itself directly. The second half is striking in its intellectual honesty: if my proofs are valid, accept them. But if I make an error somewhere, do not use that error as an excuse to reject the entire teaching. The teaching points beyond itself. A flaw in the pointing finger does not invalidate the moon.</p>
+<p class="simple-explanation"><b>The simple version:</b> The author promises to reveal the soul's true nature using its own inner radiance as proof. He asks: if the evidence is sound, accept it — and if he makes a mistake along the way, don't use it to dismiss the whole teaching.</p>
+<div class="concept-tags"><span class="concept-tag">Svavibhava</span><span class="concept-tag">Self-Luminosity</span><span class="concept-tag">Intellectual Honesty</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण वि होदि अप्पमत्तो ण पमत्तो जाणगो दु जो भावो।<br/>एवं भणंति सुद्धं णादो जो सो दु सो चेव ॥६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">That which is the knowing nature — it is neither vigilant nor negligent. Thus they call it pure. And the one who is known through that knowing — that alone is the self, nothing else.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Jnayaka-Bhava · The Knowing Nature</span>
+</div>
+<p class="principle-def">The soul's essential characteristic is its capacity to know. This knowing is permanent, self-luminous, and transcends all spiritual stages — it is what "pure" truly means.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The "knowing nature" is the soul's essential characteristic: its capacity to know. This knowing is not a product of spiritual effort — it is the soul's permanent, beginningless nature, self-established and self-luminous, just as a lamp illuminates both itself and its surroundings without needing another lamp. From this perspective, labels like "vigilant" and "negligent" belong to changing states, not to the essence. The knower alone is the self. Not the body, not karma, not emotional states, not spiritual stages. "Pure" here means not morally pure but ontologically pure — the soul in its undistorted essence.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul's essential nature is simply to know. This knowing nature is beyond all categories — it is pure. And whatever is known through that knowing, that alone is the true self.</p>
+<div class="concept-tags"><span class="concept-tag">Knowing Nature</span><span class="concept-tag">Purity</span><span class="concept-tag">Beyond Categories</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ववहारेणुवदिस्सदि णाणिस्स चरित्त दंसणं णाणं।<br/>ण वि णाणं ण चरित्तं ण दंसणं जाणगो सुद्धो ॥७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">From the conventional viewpoint, the knower is taught to have conduct, perception, and knowledge as three. But in reality, there is no separate knowledge, no separate conduct, no separate perception — the knower is simply pure.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This addresses one of the most subtle points in Jain philosophy: the relationship between a substance and its attributes. Conventionally, a knower's qualities are described as three distinct things. But from the ultimate perspective, these three are not separate items inside the soul. They are the soul's own nature expressing itself. The soul is one indivisible substance — seen as "knowledge" from one angle, "perception" from another, and "conduct" from a third. The practical implication is revolutionary: you do not need to acquire three separate achievements. You need to realize one thing — your own pure nature — and all three are already there.</p>
+<p class="simple-explanation"><b>The simple version:</b> Conventionally, a wise person is said to have three separate qualities — knowledge, perception, and conduct. But in reality, the knower is one indivisible pure being. The three are just different ways of describing the same thing.</p>
+<div class="concept-tags"><span class="concept-tag">Nishchaya vs Vyavahara</span><span class="concept-tag">Oneness of Attributes</span><span class="concept-tag">Non-Duality</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Why Convention is Necessary & Who is a Shrutakevali (Gathas 8–10)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जह ण वि सक्कमणज्जो अणज्जभासं विणा दु गाहेदुं।<br/>तह ववहारेण विणा परमत्थुवदेसणमसक्कं ॥८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as it is impossible to make a non-Aryan understand without using his own language, so too is it impossible to teach the ultimate truth without using the conventional viewpoint.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">After establishing that the ultimate reality is one undivided pure consciousness, a natural question arises: why bother with conventional teachings at all? Kundkundacharya answers with a vivid analogy. If a priest says a blessing in a language a foreigner does not know, the foreigner stares blankly. But if someone translates it into the foreigner's language, suddenly the meaning lands and tears of joy fill his eyes. Similarly, the soul's ultimate nature cannot be directly communicated to beings entangled in worldly understanding without first using the language they already know. The conventional viewpoint is not false; it is a necessary bridge. Rejecting it because you have heard of ultimate truth is like refusing to use a boat because the other shore exists.</p>
+<p class="simple-explanation"><b>The simple version:</b> Just as you cannot explain something to someone without speaking their language, you cannot teach the highest truth without first using the practical framework that people already understand.</p>
+<div class="concept-tags"><span class="concept-tag">Vyavahara Naya</span><span class="concept-tag">Conventional Truth</span><span class="concept-tag">Necessary Bridge</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जो हि सुदेणहिगच्छदि अप्पाणमिणं तु केवलं सुद्धं।<br/>तं सुदकेवलिमिसिणो भणंति लोयप्पदीवयरं ॥९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one who, through scriptural knowledge, directly approaches the self as purely one and distinct — the sages call that one a Shrutakevali, a lamp for the world.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A Shrutakevali is not someone who has memorized vast scriptures. A Shrutakevali is someone who, through scriptural knowledge, has turned inward and directly experienced the pure self. The scripture is the means; the self-realization is the end. One who merely recites scripture without self-realization is a scholar, not a Shrutakevali. The title "lamp for the world" is given because this person does not merely illuminate texts — they illuminate reality itself for others. Having seen the self directly, they can point others toward it.</p>
+<p class="simple-explanation"><b>The simple version:</b> A Shrutakevali is someone who uses scripture to directly experience their own pure soul — and becomes a light for the entire world.</p>
+<div class="concept-tags"><span class="concept-tag">Shrutakevali</span><span class="concept-tag">Self-Realization</span><span class="concept-tag">Lamp for the World</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णाणं अप्पा सव्वं जाणादि सुदकेवलिं तमाहु जिणा।<br/>सब ज्ञान सो आत्मा हि है, श्रुतकेवली उससे बने ॥१०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul that knows all through knowledge — the Jinas call that one a Shrutakevali. Because all knowledge is the soul itself, therefore it is a Shrutakevali.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The reason someone is called a Shrutakevali is that all knowledge is ultimately the soul itself. Knowledge is not something external that the soul acquires; it is the soul's own nature. The soul knows all things because knowing is what the soul is. When this is fully realized, the soul becomes a Shrutakevali — not by accumulating knowledge, but by recognizing that knowledge was always its own nature. This is the ultimate meaning: not that the soul contains a cosmic database, but that the nature of consciousness is to know, and this knowing, when unobstructed, is infinite.</p>
+<p class="simple-explanation"><b>The simple version:</b> All knowledge is ultimately just the soul's own nature. The one who realizes this — that knowing is what they are — is called a Shrutakevali by the Jinas.</p>
+<div class="concept-tags"><span class="concept-tag">Knowledge is Self</span><span class="concept-tag">Infinite Knowing</span><span class="concept-tag">Jina's Declaration</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Floating Nav -->
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="samaysaar-ch2.html">Chapter 2 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
