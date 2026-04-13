@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 6: Sham (Equanimity) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 6</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Equanimity<span class="block text-primary font-normal text-xl md:text-2xl mt-2">शम</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Not a mood to be cultivated or a discipline to be practiced — but the natural ripening of jnana when the soul rests in its own nature</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Sham (Equanimity) is what happens when jnana matures — when vikalpas fall away and the atma rests naturally in svabhava. Through eight shlokas, Yashovijayji reveals: the equal vision that sees soul-substance in all (Shloka 2), the flood of meditation that uproots even the oldest vasanas (Shloka 4), why Bahubali had everything but kevalajnana until sham arrived (Shloka 6), and the final declaration — Munirajya, sovereignty of the inner kingdom.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">शमसूषतसुभासिक्तं येषां नक्तं दिनं मनः ।<br/>कदाऽपि ते न दह्यन्ते, रागोरगविषोऽमिभः ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Those whose mind is day and night immersed in the auspicious nectar of Sham — even the serpent-venom of raga cannot burn them." — Gyansaar 6.7</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sham</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Sham</span> — Equanimity — is the sixth chapter and the natural consequence of Jnana maturing. The progression: Purnata → Magnata → Sthirata → Amoha → Jnana → and now Sham — what happens when knowledge fully ripens. Not an emotion to be cultivated, not a discipline to be practiced — but the organic settling of the soul into its own svabhava when all the preceding qualities are genuinely established.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter's key pivot: Sham makes all other virtues operative. Sheel, samyaktva, and tapa without sham are incomplete — like Bahubali, who had everything except the one missing ingredient, and kevalajnana remained distant until that single quality (upasham-vrtti) arrived. The chapter ends with the image of Munirajya — the muni who has become sovereign of the inner kingdom, requiring nothing outside for bliss.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 6 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Definition and Equal Vision (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">विकल्पविषयोत्सीणं, स्वभायालम्बन सदा ।<br/>ज्ञानत्य परिपाकों य, स ते शम परिकीलित ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Free from vikalpas (mental fluctuations) and vishaya (sensory objects), always resting in the support of one's own svabhava — that maturation (paripaak) of Jnana is called Sham.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Sham · The Ripening of Jnana</span>
+</div>
+<p class="principle-def">Sham is not a discipline or an emotion — it is the paripaak (ripening) of jnana. When knowledge truly matures, vikalpas fall away naturally and the soul rests in svabhava the way a river settles after flood season. This resting in one's own nature — supported not by effort but by the completion of jnana — is Sham.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Vikalpas are unnecessary mental agitations — "I am the best, I am the giver, I am the tapasvi." These are not wicked thoughts; they are simply unnecessary. Sham's result is the samata-pariNati-svastha state of consciousness — the soul's vigorous shuddha transformation. In this state, the jivatma can reach wherever it arrives — mountain, village, forest or city, day-time and night-time — samata arrives. Absorbed this deeply, it fills with atmananda, shining with pramod (delight), karuna (compassion), and madhyastha (equanimity). The samata-yogi has a vast ocean of shamras. When something shakes it for a moment, it returns quickly. And after every flood of disturbance, the roots of shamras go deeper.</p>
+<p class="simple-explanation"><b>The simple version:</b> Sham is not suppression — it's the natural state that emerges when knowledge truly matures. Vikalpas fall away not by force but by ripening. The soul settles in svabhava the way a river settles after flood season.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is my experience of vikalpa — what unnecessary mental spinning do I engage in that is not my actual nature? What would it feel like to simply not need those thoughts?</div>
+<div class="concept-tags"><span class="concept-tag">Vikalpa</span><span class="concept-tag">Svabhava</span><span class="concept-tag">Paripaak</span><span class="concept-tag">Samata</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अनिचछ्न् कर्मबेधर्म्यं, ब्रह्मांशेन सभं जगत् ।<br/>आत्माशेदेन य पश्येदसौ, मोक्षंगमो शमी ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Not desiring the karma-made distinctions; seeing the entire world through the Brahma-ansa (the soul-essence within all); seeing through atma-abheda (non-difference with the soul) — such a shami (equanimous one) becomes moksha-gami (bound for liberation).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Karma creates distinctions: brahmin, shudra, educated, uneducated, beautiful, ugly. The shami sees through them all. Brahma has two aspects — dravya (substance) and paryaya (mode). All of humanity, animality, divinity, naraka, heaven, poverty — these are all paryayas (modes) of the atma. There are distinctions in paryayamsha, but not in dravyamsha. From the dravyastika naya (substance-viewpoint), there is no place for raga or dvesha. The shami sees the dravya-substance in all, rises above the thorny thickets of envy and jealousy, plunges in shamras-sarovar, and attains moksha. The Gita confirms (5.18): the learned one sees equally in the brahmin, the cow, the elephant, the dog, and the outcaste — this samadarshana is shamras.</p>
+<p class="simple-explanation"><b>The simple version:</b> The shami does not see brahmin, shudra, beautiful, ugly. They see the soul-substance in all. When the substance-lens replaces the mode-lens, raga and dvesha have nowhere to stand.</p>
+<div class="contemplate-block"><b>Contemplate</b>What categories do I habitually use to divide people — educated/uneducated, successful/unsuccessful, same-belief/different-belief? What would I see if I looked only at the dravya, the soul-substance, that all these paryayas share?</div>
+<div class="concept-tags"><span class="concept-tag">Samadarshana</span><span class="concept-tag">Dravyastika Naya</span><span class="concept-tag">Brahma-Ansa</span><span class="concept-tag">Moksha-Gami</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Flood and the Inner Stillness (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">धारेद्धगु नियोगं, धनेद् बाह्यिक्रियामिव ।<br/>मोगाद्यं समाचार्य, शुध्यमान तक्षिप ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even while fully engaged in outer activity, the one absorbed in samadhi-yoga remains internally pure. External engagement does not disturb the internal state — both continue simultaneously.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The samadhi-yogi does not withdraw from the world. But in the midst of outer activity, their mind does not join the outer. The inner anchor remains. This state is like the Everest climber who, at extreme altitude in extreme conditions, still follows the guide's instruction step by step — remains continuously active, becomes joyful in the activity, develops love and devotion toward the margdarshak. This is exactly the jnana required for climbing the gyan-samadhi-shikhar: outer engagement and inner stillness simultaneously. Once the summit is reached, the muniyan/yogi reaches the stage of 'asanga anushthan' — a practice that needs no external support, that is simply naturally present like nireem herbs dissolving in water.</p>
+<p class="simple-explanation"><b>The simple version:</b> The samadhi-yogi does not withdraw from outer activity. Their mind stays anchored inward even while hands and feet are engaged outward — like the Everest climber who follows the guide even in extreme conditions, inner connection maintained throughout.</p>
+<div class="contemplate-block"><b>Contemplate</b>Is there a form of activity in my life where I am fully engaged outward but inwardly still? What makes that different from activities where I lose myself completely in the external?</div>
+<div class="concept-tags"><span class="concept-tag">Samadhi-Yoga</span><span class="concept-tag">Asanga Anushthan</span><span class="concept-tag">Inner Stillness</span><span class="concept-tag">Outer Activity</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ध्यानवृप्टेर्यानद्या, शमपूरे प्रसर्पति ।<br/>दिनांरतीरवृक्षाणां, सूलोत्तुर्मूलन भवेत् ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When the river of meditation-rain (dhyan-vrushti) flows and fills the sham-flood (shampoor) — even the huge trees on the banks rooted in worldly vasanas since beginningless time are uprooted and swept away.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">The Flood Analogy · Depth Determines Completeness</span>
+</div>
+<p class="principle-def">Like a monsoon flood that uproots even the tallest trees from riverbanks, the flood of sham-filled meditation uproots even the deepest worldly attachments. No vasana-tree is too ancient when the flood comes with full force. But the flood only comes when continuous rains fall — continuous dharma-dhyan. The depth of the flood determines the completeness of the uprooting.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Have you seen a flood from the Ganga, Yamuna, or Brahmaputra? The proud tall trees on the banks, rooted for ages — when the flood comes, they are uprooted instantly, swept away. When the compassion-filled Saryu brings flood-waters, even the sky-touching worldly-paudgalik vishaya-vasana trees don't last. But a flood only comes when continuous rains fall. Exactly the same way: when the river of karuna slowly flows on atma-pradesh and continuously receives the flood of dharma-dhyan's rain — then the shamras flood comes, and after this flood, even the deepest udvas-trees (trees of worldly desire) are uprooted. The deeper the flood, the more effectively the roots of upasham-ras are swept clean.</p>
+<p class="simple-explanation"><b>The simple version:</b> The flood of meditation-rain sweeps away even the most ancient worldly attachments. No tree of vasana is too deep-rooted when the sham-flood comes. The depth of the flood determines the completeness of the uprooting.</p>
+<div class="contemplate-block"><b>Contemplate</b>What are the deepest-rooted trees of vasana in my life — the oldest attachments, the most ancient habitual patterns? What would a true flood of dharma-dhyan feel like washing over them?</div>
+<div class="concept-tags"><span class="concept-tag">Dhyan-Vrushti</span><span class="concept-tag">Vasana-Uprooting</span><span class="concept-tag">Flood Analogy</span><span class="concept-tag">Shamras</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — The Four Qualities and the Indispensable Virtue (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुविविद्यज्ञास्समाको निस्सगो निर्भओ निरासो अ ।<br/>बेरंगाभाविवमणो, भाछूमि सुतिच्छलो होई ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who truly knows the appearance of the world — nissanga (unattached), nirbhaya (fearless), nirasha (without craving), with mind free from any emotional coloring — such a great soul, immersed in dharma-yoga, remains inwardly unshaken.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Four qualities define the shami — and they are not disciplines, they are natural consequences. Nissanga: not bound by any attachment. Nirbhaya: with no fear because there is nothing to protect. Nirasha: without craving because all needs are already met from within. Nirlipti: emotionally uncolored because no situation can permanently stain the atma. These four are not achieved sequentially — when sham is genuine, all four arrive together. The one who truly sees samsara as it is — its impermanence, its constructed distinctions, its fundamental unity at the dravya level — finds these four qualities as the natural outcome of that clear seeing.</p>
+<p class="simple-explanation"><b>The simple version:</b> Four qualities — unattached, fearless, expectation-free, emotionally uncolored — are not achieved by discipline alone. They are what remains naturally when the soul truly sees through the appearance of the world. Sham is the container. These are the contents.</p>
+<div class="contemplate-block"><b>Contemplate</b>Of these four — nissanga, nirbhaya, nirasha, nirlipti — which feels most distant from my current state? What one thing, if I truly released it, might make all four accessible?</div>
+<div class="concept-tags"><span class="concept-tag">Nissanga</span><span class="concept-tag">Nirbhaya</span><span class="concept-tag">Nirasha</span><span class="concept-tag">Nirlipti</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शांत प्पाय तव शोल-सम्यक्तासहितोप्पहो ।<br/>त नाप्ओति गुण, सागुयसाप्नोति समाजित ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">If the jivatma does not have Sham — even with sheel (conduct), samyaktva (right vision), and tapa (austerity) — the supreme path is not reached. Only with Sham does the sadhu's path complete itself.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Bahubali's Story · The One Missing Ingredient</span>
+</div>
+<p class="principle-def">Bahubali had everything — continuous extreme tapa, countless hardships faced with equanimity, dharma-dhyan, sheel. Kevalajnana remained distant. What was missing? Only upasham-vrtti — the quality of inner equanimity. The moment it arrived, kevalajnana blazed without delay. Sham is not one virtue among many. It is the carrier that delivers all other virtues to their destination.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Bhagavan Umasvati in 'Prashamrati': "He who is himself samyak-drashti yet considers others mithyatvi, considers himself jnani yet mocks others, considers himself shravak or shraman yet considers others mohangha — such a person's chitta is filled with krodha, mana, maya, and sprha. They are distances from kevalajnana." Four munis who observed nirajal fasting for four months expressed disgust toward 'Kurgantu muni' (who ate on Samvatsari) — result: kevalajnana moved further away. But Kurgantu muni, absorbed in upasham-sarovar, became an adhikari of kevalajnana. This is the mystery of Sham: all virtues are operating, but without this one, they fail to deliver their highest fruit.</p>
+<p class="simple-explanation"><b>The simple version:</b> Sham is the one quality that makes all other virtues deliver their fruit. Without sham, even the most impressive sadhana is incomplete. Bahubali had everything — until the one missing ingredient arrived: upasham.</p>
+<div class="contemplate-block"><b>Contemplate</b>Do I practice virtues with inner equanimity, or do I hold them as proof of my superiority over others? The moment a virtue becomes a source of pride, it has lost its sham.</div>
+<div class="concept-tags"><span class="concept-tag">Upasham-Vrtti</span><span class="concept-tag">Bahubali</span><span class="concept-tag">Kevalajnana</span><span class="concept-tag">Sham as Foundation</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — The Immunity and the Inner Kingdom (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शमसूषतसुभासिक्तं येषां नक्तं दिनं मनः ।<br/>कदाऽपि ते न दह्यन्ते, रागोरगविषोऽमिभः ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those whose mind is day and night immersed in the auspicious nectar of Sham — even the serpent-venom of raga cannot burn them. They are never burned by it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The atma irrigated by shamras, immersed in dharma-grantha and subhashitas — in it, even accidentally, the poisonous wave of raga cannot spread. The one daily engaged in upasham-filled study and mannan: in their mind, the craving, pleasure-attachment, and emotional love of physical things cannot surface. The story of Sthulibhadra confirms this: before him in private, a dancer in full allure with sixteen ornaments — he remained in dhyana-yoga throughout, utterly unshaken. How? Only due to absorption in upashamras-yukta shastra-parishilan. Months of poison-laced food later, not a single arrow of madan (cupid) could pierce him. Why? His hands and mouth were eating, but his mind was immersed in the lake of samata-yoga. When the senses are absorbed in their objects but the mind does not join — remaining in the paribhavana of upashamras — then everything becomes easy. Raga-dvesha cannot even bend a hair.</p>
+<p class="simple-explanation"><b>The simple version:</b> The mind drenched in shamras becomes immune to raga-venom. Sthulibhadra's story: months of poison-laced food, a dancing woman in private — not a single wave of reaction. Not through suppression — through complete absorption in shamras.</p>
+<div class="contemplate-block"><b>Contemplate</b>What situation most predictably triggers raga or dvesha in me? And what would it look like to be so absorbed in shamras that even that situation leaves no trace?</div>
+<div class="concept-tags"><span class="concept-tag">Shamras</span><span class="concept-tag">Raga-Venom</span><span class="concept-tag">Sthulibhadra</span><span class="concept-tag">Immunity</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्वयभूरमणसयद्धि, क्षिण्यशनतारस ।<br/>मुनियलोगसमोहेत, कौणि तारौ चराचरे ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The muni who has acquired the power of svayambhuramana (self-sovereign inner bliss) — equal throughout the entire moving and unmoving universe — wherever they wander, they remain always steadily peaceful, never shaken by anything.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Munirajya · Sovereign of the Inner Kingdom</span>
+</div>
+<p class="principle-def">The muni who has cultivated Sham becomes Munirajya — the sovereign of their own inner kingdom of equanimity. "Muniraj! You are now a king — the one and only powerful emperor of your upasham-rajya! Protect and guard it with vigilance." The inner kingdom has all weapons needed. Raga-dvesha cannot enter. Remain nishchinta and play sports on the noble horses of ashvadal. This is the final destination of Sham: sovereignty that needs nothing from outside.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Munirajya — what a beautiful name. The muni's samata is their greatest attractive quality and protection. No raga-dvesha enters no matter how high the pravrtti current. Muni-life — supremely beautiful, enchanting, profoundly admirable. Upadhyayaji Maharaj puts this before us with the image of the muni anointed on the royal throne with "May Munirajya's kingdom be eternally victorious!" When the muni is distressed, frightened — the voice says: "My king! Being frightened will not do. You have all powerful armies and inexhaustible weapon-treasury. You are hriday and ashvadal, jnana and dhyan's sole overlord, powerful commander! With hriday's sky-piercing arrow-shower, the arrows of raga-dvesha will escape and even moha-obstructions cannot advance one step." The samata-yogi can protect samata-yoga easily by the strength of jnana-dhyan alone.</p>
+<p class="simple-explanation"><b>The simple version:</b> The muni who has cultivated Sham becomes Munirajya — sovereign of the inner kingdom. Nothing external can disturb this kingdom. You have all weapons. Raga-dvesha cannot enter. Remain nishchinta and play.</p>
+<div class="contemplate-block"><b>Contemplate</b>What would it feel like to be the Munirajya — sovereign of your own inner kingdom? Not having to protect yourself from external disturbances because nothing can genuinely disturb you? This is not indifference — it is the supreme samata that loves all, fears nothing.</div>
+<div class="concept-tags"><span class="concept-tag">Munirajya</span><span class="concept-tag">Svayambhuramana</span><span class="concept-tag">Inner Sovereignty</span><span class="concept-tag">Upasham-Rajya</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#1d1c17] text-[#f5f0e8] py-16">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-5">
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<p class="text-sm text-[#f5f0e8]/60 mt-4 leading-relaxed max-w-sm">Gyansaar — a synthesis of Jain wisdom by Yashovijayji Maharaj. 23 chapters on the qualities of the awakened soul.</p>
+</div>
+<div class="col-span-12 md:col-span-3">
+<h4 class="text-xs uppercase tracking-widest font-semibold text-[#f5f0e8]/40 mb-4">This Text</h4>
+<div class="flex flex-col gap-2 text-sm">
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-index.html">Gyansaar Index</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-ch5.html">← Ch 5: Jnana</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-ch7.html">Ch 7: Indriya-Jay →</a>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4">
+<h4 class="text-xs uppercase tracking-widest font-semibold text-[#f5f0e8]/40 mb-4">Sacred Texts</h4>
+<div class="flex flex-col gap-2 text-sm">
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras Library</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="../Samaysaar/samaysaar-index.html">Samaysaar</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Floating Nav Buttons -->
+<a class="nav-button left-btn rounded-full w-12 h-12 flex items-center justify-center" href="gyansaar-ch5.html" id="prev-btn" style="left:24px">
+<span class="material-symbols-outlined text-xl">arrow_back</span>
+</a>
+<a class="nav-button right-btn rounded-full w-12 h-12 flex items-center justify-center" href="gyansaar-ch7.html" id="next-btn" style="right:24px">
+<span class="material-symbols-outlined text-xl">arrow_forward</span>
+</a>
+<script>
+const navButtons = document.querySelectorAll('.nav-button');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) { navButtons.forEach(b => b.classList.add('visible')); }
+  else { navButtons.forEach(b => b.classList.remove('visible')); }
+});
+const nav = document.getElementById('main-nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) { nav.classList.add('shadow-md'); }
+  else { nav.classList.remove('shadow-md'); }
+});
+</script>
+</body>
+</html>
