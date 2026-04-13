@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 4: Amoha (Non-Delusion) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 4</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Non-Delusion<span class="block text-primary font-normal text-xl md:text-2xl mt-2">अमोह</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">When the soul is fully absorbed in its own nature, moha's web falls away — and natural, inexhaustible joy is what remains</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Amoha is not a struggle against delusion — it is what happens naturally when steadiness and absorption are genuine. Through eight shlokas, Yashovijayji maps the mechanics of moha: how it entraps through the "I and mine" mantra, how it spins the soul in the vikalpa-wheel of fantasy, and how the soul — like pure crystal — was never actually contaminated. The path is substitution, not suppression: replace the "I am mine" with "I am pure awareness."</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">शुद्धात्मद्रव्यमेवाहं शुद्धज्ञानं गुणो मम ।<br/>नाण्योऽहं न ममान्ये चेत्यहो मोहास्त्रमुल्वणम् ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"I am only pure soul-substance. Pure knowledge alone is my permanent quality. I am not other, and nothing else is mine." — The great weapon that tears apart the net of moha. — Gyansaar 4.2</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Amoha</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Amoha</span> — Non-Delusion — is the fourth chapter and the natural consequence of genuine Sthirata. The sequence is logical: Purnata establishes completeness, Magnata cultivates absorption, Sthirata makes it stable, and Amoha names what falls away when stability is genuine — the fundamental delusion (moha) that the soul is anything other than pure consciousness.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter's central weapon against moha is the contemplation: "Naho-na mam — not I, not mine." Moha's mantra is "aham-mam — I and mine." To replace one with the other is the entire practice of this chapter. The soul is described as a pure crystal: naturally radiant, bearing no actual color of its own. All apparent qualities — beautiful, ugly, good, troubled — are karma's shadows on the crystal, not the crystal itself. To see the crystal clearly is Amoha.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 4 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Weapons Against Moha (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अह मंगेति मन्नोड्य मोहेड्य जगदास्यकुतू ।<br/>धर्थमेयं ही मञ्चूय प्रतिमम्-नोड्पि मोहुजित ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Moha is conquered when the soul knows itself clearly as what it truly is. To conquer moha is, undoubtedly, the highest of all human purposes.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Amoha · The Natural Consequence of Genuine Steadiness</span>
+</div>
+<p class="principle-def">Once body and mind become steady and fully absorbed in atma-bhava — the death of moha is certain, beyond all doubt. Amoha is not achieved through struggle. It is the natural fruit of Sthirata and Magnata.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Moh-raja (King Delusion) has spread his mayajal (net of illusion) over the entire universe with 21 primary weapons: ajnana, asanyam, six leshas, four kashaya, mithyatva, and others. All 21 work together to ensnare the soul. The antidote is not struggle but recognition. The moment the soul turns the weapon of true knowledge upon moha — through dana, proper use of resources, and the five forms of jnana — moha's traps begin to fail. The key: do not become vashibhut (enslaved) to it. Stay at a distance. Moh's attempts will tire and eventually cease. The vivechan title-box declares: "Do not worry at all about moha's magical attacks. Steadiness makes moha's destruction inevitable."</p>
+<p class="simple-explanation"><b>The simple version:</b> Moha's defeat is certain — once the soul is truly steady and absorbed in its own nature. Self-knowledge is moha's greatest adversary. Use it.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is the strongest current of moha in your life right now — the attachment or identification that most pulls you away from your own center? What would it look like to simply not be enslaved by it, rather than fighting it directly?</div>
+<div class="concept-tags"><span class="concept-tag">Moha</span><span class="concept-tag">Mayajal</span><span class="concept-tag">Amoha</span><span class="concept-tag">Mithyatva</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शुद्धात्मद्रव्यमेवाहं शुद्धज्ञानं गुणो मम ।<br/>नाण्योऽहं न ममान्ये चेत्यहो मोहास्त्रमुल्वणम् ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"I am only pure soul-substance. Pure knowledge alone is my permanent quality. I am not other than this, and nothing else belongs to me." — This contemplation is the great weapon that tears apart the net of moha.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Naho-Na Mam · The Antidote Mantra</span>
+</div>
+<p class="principle-def">Moha's mantra is "Aham-mam: I and mine." The antidote mantra is "Naho-na mam: not I, not mine." I am not my body, name, family, wealth, status. I am pure soul-substance alone. Pure knowledge is my quality. Everything else is neither me nor mine. This is the amogh-shastra — the infallible weapon — that cuts through moha's net.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan presents the dialogue with painful honesty: "But how can I forget the 'aham-mam' mantra? I have been chanting it since beginningless time. Every atom of my body is saturated with it. Even when I want to forget it, I cannot." The response: "Use a new mantra. Not I — not mine." The full substitution: "I am not wealthy, not handsome, not a father, not a mother, not a body, not powerful, not a status-holder. Who am I? I am simply pure soul-substance." World-possessions are not mine. Parents are not mine. Children are not mine. What is mine? "Shuddha-jnana — kevalajnana — is mine. I am not separate from it." As love for atma-tattva grows, paudgala-love's bonds proportionally break.</p>
+<p class="simple-explanation"><b>The simple version:</b> Moha's mantra is "I and mine." Replace it with "Not I, not mine — I am pure soul-substance alone." This contemplation, practiced fully, tears apart the net of delusion.</p>
+<div class="contemplate-block"><b>Contemplate</b>Try for just one minute: "I am not my body, not my name, not my relationships, not my achievements. I am pure consciousness — the knowing aware of all these things." What shifts when you rest in that? What remains?</div>
+<div class="concept-tags"><span class="concept-tag">Aham-Mam</span><span class="concept-tag">Naho-Na Mam</span><span class="concept-tag">Atma-Tattva</span><span class="concept-tag">Bhavana</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Lotus and the Theater (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">यो न मुञ्चित संसेमेषु भावेषोद्रिकमादिषु ।<br/>प्राकाभिमिय पद्मोपि, नाऽमूढ: पार्श्वेन लिप्यते ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul that does not abandon its own natural bliss — even while engaged in worldly existence — remains like a lotus in the mud: present, but untouched. The non-deluded soul is not tainted by what surrounds it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Moh-raja's city encompasses the entire universe. Countless souls roam in his mayajal without finding a way out — acting out birth, old age, and death as the daily drama of his city. And yet: those with viveka (discernment) can live in the city without being of it. The lotus metaphor is precise: the lotus grows in mud, rooted in it. Yet it rises above, blooms pure and fragrant, untouched by the mud that gave it birth. The non-deluded soul is exactly this. It lives in the world — in family, activity, circumstance — and yet is not of the world. Its roots are in its own nature. What keeps the lotus above the mud? Its very nature — the stem that holds it upright. For the soul, this stem is the continuous atma-svarup bhavana. As long as that contemplation remains alive, moha's mud cannot cover the bloom.</p>
+<p class="simple-explanation"><b>The simple version:</b> Like a lotus that grows in mud yet stays untouched by it, the soul of genuine non-delusion lives fully in the world without being enslaved by it. The mud is still there. But the lotus is not the mud.</p>
+<div class="contemplate-block"><b>Contemplate</b>Think of a time you were in a difficult, chaotic, or morally compromised environment — and something in you remained clear and uncontaminated. What was that quality? Could it be cultivated more deliberately?</div>
+<div class="concept-tags"><span class="concept-tag">Lotus Metaphor</span><span class="concept-tag">Viveka</span><span class="concept-tag">Atma-Svarup</span><span class="concept-tag">Non-Contamination</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पश्यन्नेव परद्रव्य-नाटकं प्रतियाटकम् ।<br/>भवचक्रपुरस्थोऽपि, नाऽमूढ: परिखिद्यते ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even while watching the endless drama of external existence — birth-cycle unfolding scene by scene — the non-deluded soul, though dwelling in the city of the existence-cycle, is not distressed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Samsara is a magnificent, ancient theater with moh-raja as its director. The theater has many players — humans, animals, celestial beings — and multiple venues: homes, temples, battlegrounds, market squares. All are natak-bhumi (theater-grounds) staging the various acts of this eternal drama. The key: when a knowing audience member watches a play, they know it is a play. The actor on stage pretends to die — the knowing audience does not mourn in earnest. Only the naive think stage deaths are real. The non-deluded soul is the knowing audience member. It sees paradravya — body, possessions, relationships, circumstances — as the natak they are: the karmo-day-scripted performance of this particular lifetime. It watches with clarity and without distress. "I have never actually been born into this theater. I am the awareness watching it."</p>
+<p class="simple-explanation"><b>The simple version:</b> Samsara is a theater. The non-deluded soul watches the entire drama without being overwhelmed by it — not because it doesn't care, but because it knows what the drama actually is.</p>
+<div class="contemplate-block"><b>Contemplate</b>Can you identify one recurring drama in your life — a pattern that keeps replaying? What would it look like to watch it with clear eyes as a performance rather than as ultimate reality?</div>
+<div class="concept-tags"><span class="concept-tag">Natak</span><span class="concept-tag">Samsara-Theater</span><span class="concept-tag">Paradravya</span><span class="concept-tag">Non-Distress</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — The Vikalpa-Wheel and the Crystal Soul (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">विकल्पचक्रेरात्मा, पौत्तमोहाऽऽसयोर्हाधम् ।<br/>भवोच्चतालमृत्ताल-प्रपञ्चमवितपठति ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul entangled in the wheel of vikalpa (mental fabrications) — spinning in the intoxication of poudgalik moha — endlessly recites the elaborate drama of worldly existence, rise after rise and fall after fall.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The vikalpa-chakra spins constantly: "Go to the market, open a shop, build mansions, become wealthy, boast to the world!" The lamp of sankalpa (positive intention) generates vikalpa (distorted intention) the moment it is lit — like a flame that quickly produces smoke. The lamp flickers out, but behind it, the smoke remains — not one but many. The craving for fame is even more dangerous. The moment the sankalpa "May I hold the highest national position" is formed, the army of vikalpa follows: "Win elections, bribe voters, form shady alliances, destroy the competition..." — violence, lies, and sins accumulate without hesitation. And even if that position is reached, the person becomes a madman thoroughly bound in paps. The way out: not suppression, but substitution. Replace poudgalik vikalpa with atma-vikalpa — replace material fantasy with contemplation of the soul's own pure nature.</p>
+<p class="simple-explanation"><b>The simple version:</b> The wheel of mental fabrications — endless planning, desiring, scheming, comparing — is moha's intoxicating drink. As long as the soul remains drunk on it, pure inner stillness is impossible. Replace material fantasy with soul-contemplation.</p>
+<div class="contemplate-block"><b>Contemplate</b>How many thoughts in a typical day are driven by wanting, planning, comparing, or scheming? What would an hour without any of those thoughts feel like? What remains in the mind when desire-driven thought quiets down?</div>
+<div class="concept-tags"><span class="concept-tag">Vikalpa-Chakra</span><span class="concept-tag">Sankalpa</span><span class="concept-tag">Poudgalik Moha</span><span class="concept-tag">Substitution</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">निमल स्फटिकस्येव सहज रपमासनत् ।<br/>अव्यस्तोपाधिसम्बन्धो जड़रतना विमुद्राति ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Like pure crystal — naturally radiant from within — the soul unstained by false superimpositions shines with the undisturbed clarity of its own genuine nature.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Sphatika · The Crystal-Soul Analogy</span>
+</div>
+<p class="principle-def">Pure crystal has no color of its own — yet placed near a red object it appears red, near blue it appears blue. The soul is exactly like this. Its apparent color is karma's shadow — the reflection of what surrounds it — not its actual nature. The soul in truth is transparent, pure, and naturally luminous.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan asks: what is the true color of a human being? Not black or white, not beautiful or ugly — these are all bahya-rup (external forms), guna-matra (mere qualities), the shadow of karma. The soul in its true nature is like sphatika-ratna (crystal-gem): transparent, pure, utterly clean. When the soul begins seeing itself through the mirror of jnana-atmasvarup — when the five acharas (right knowledge, perception, conduct, austerity, energy) are reflected in this mirror — the soul recognizes the incomparable beauty of its own nature. It becomes utterly absorbed. The result: external objects appear tasteless, colorless, uncompelling. Moha-bhavana toward them becomes impossible. The soul has found something infinitely more beautiful to behold: itself.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul is like pure crystal — naturally radiant, with no inherent color of its own. What we think of as its qualities — beautiful or ugly, good or bad — are karma's reflections, not the soul's actual nature. To know this is to begin seeing clearly.</p>
+<div class="contemplate-block"><b>Contemplate</b>Think of yourself not as a collection of qualities, experiences, and history — but as the clear awareness aware of all those things. What is that awareness like? Does it have any color of its own, any inherent flaw, any size or shape?</div>
+<div class="concept-tags"><span class="concept-tag">Sphatika</span><span class="concept-tag">Crystal Metaphor</span><span class="concept-tag">Karma Shadow</span><span class="concept-tag">Natural Luminosity</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — The Wonder of Freedom and the Five Acharas (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अनारोपसुखं मोहेत्यागादनुभवन्नपि ।<br/>भ्रारोपप्रियलोकेषु यस्तुमाऽचर्येवान् भवेत् ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The yogi who experiences the natural bliss of freedom from moha — while remaining among those who still love superimposition — becomes a source of wonder (acharyavan) to the world.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan addresses the paradox of the realized soul in the world. Such a person stands before ordinary people still embedded in moha-niya karma and finds themselves in an odd silence. They cannot speak about their natural bliss, because those who hear them don't have a reference point. What others call "sukh" (pleasure) is moha's shadow — and to call it "sukh" would validate a false category. So the realized soul becomes a question to the world — an acharyavan (source of wonder). Their very presence raises the question of what they know. The soul that has been freed from moha's wheel becomes, by its very existence, a demonstration of what is possible. Words are insufficient. But the freedom is visible and inexplicable to those who have not tasted it.</p>
+<p class="simple-explanation"><b>The simple version:</b> The person who has genuinely moved beyond moha lives with a bliss that those still in moha cannot fully comprehend. They become a source of wonder — not because they try to, but because their freedom is visible.</p>
+<div class="contemplate-block"><b>Contemplate</b>Have you ever met someone whose inner freedom or equanimity in difficult circumstances left you genuinely puzzled — not just impressed, but wondering "how is that possible"? What quality were you sensing in them?</div>
+<div class="concept-tags"><span class="concept-tag">Acharyavan</span><span class="concept-tag">Natural Bliss</span><span class="concept-tag">Living Example</span><span class="concept-tag">Aropa-Mukta</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">यश्चिद्यणिव-यत्त-सामंसाऽऽचारधारपी ।<br/>स य नाम स परहब्बे अनुयोगिनि मुद्राति ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one fully established in the five acharas (right modes of conduct) — who holds steadfast to them with body, speech, and mind aligned — that person alone truly shines among those who follow the inner path.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The closing shloka gives the practical summary. The five acharas — jnana-achara (right engagement with knowledge), darshana-achara (right engagement with perception), charitra-achara (right engagement with conduct), tapa-achara (right engagement with austerity), virya-achara (right engagement with energy) — are the anupam soundarya (incomparable beauty) of the soul's interior. When these five grow in practice, the soul perceives its own beauty in the mirror of jnana-atmasvarup. As it sees itself more clearly — as it becomes more absorbed in its own interior beauty — its craving for paradravya proportionally decreases. The bond of moha-bhavana toward external things loosens naturally. Not through suppression, not through force, but because the soul has found something infinitely more compelling to behold: itself. Amoha is not a withdrawal from the world. It is the natural consequence of self-knowing.</p>
+<p class="simple-explanation"><b>The simple version:</b> The person fully established in the five right modes of conduct shines with a beauty that comes from within. As that inner beauty is increasingly recognized, the pull of external things proportionally loosens.</p>
+<div class="contemplate-block"><b>Contemplate</b>Of the five acharas — right knowledge, right perception, right conduct, right austerity, right energy — which one, if cultivated more deeply, would make the greatest difference in your life right now?</div>
+<div class="concept-tags"><span class="concept-tag">Panch Achara</span><span class="concept-tag">Jnana-Achara</span><span class="concept-tag">Five Right Modes</span><span class="concept-tag">Interior Beauty</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Floating Nav -->
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="gyansaar-ch3.html"><span class="text-lg">←</span> Chapter 3</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="gyansaar-ch5.html">Chapter 5 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
