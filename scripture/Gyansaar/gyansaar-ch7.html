@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 7: Indriya-Jay (Conquest of the Senses) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 7</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Conquest of the Senses<span class="block text-primary font-normal text-xl md:text-2xl mt-2">इन्द्रिय-जय</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Not willpower alone — only samadhi achieves indriya-jay. The senses are Moharaja's most loyal servants, and they are swamps</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Indriya-Jay is a warning and a manual. Eight shlokas map the full territory: the senses as swamps (Shloka 2), the ocean that can never be filled (Shloka 3), Moharaja's servants disguised as helpers (Shloka 4), the deer and the mirage (Shlokas 5–6), the five creatures killed by five senses (Shloka 7), and the final declaration — only samadhi-dhana achieves what all heroic effort alone cannot.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">पतङ्गामृण्डाभीनेभ-सारंगा यान्ति बुदंशाम् ।<br/>एककेन्द्रिय दोषाच्चेद्, दुष्टैस्तैः किं न पञ्चभिः ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"The moth, bee, elephant, and deer — each destroyed by one corrupt sense. If one sense is enough for destruction, what of all five?" — Gyansaar 7.7</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Indriya-Jay</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Indriya-Jay</span> — Conquest of the Senses — is the seventh chapter and a fearsome territory requiring constant vigilance. The chapter opens with a warning: where nirmohi-bhav becomes shithil (weak) for even a moment, the senses activate immediately. Where the jivatma comes out helpless from sham-sarovar, the senses rush in. Moha and ajnana spread their mayajal.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter's central revelation: the senses are not simple objects. They are Moharaja's most loyal servants — appearing gentle and helpful, they are sworn agents of moha's empire. And indriya-jay cannot be achieved by willpower or heroism alone — only samadhi-dhana (the wealth of concentrated inner absorption) can achieve what all external effort cannot. Samadhi is the method; indriya-jay is the result.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 7 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Call to Paurusha and the Swamp (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">विभेषि यदि संसारान्मोक्षप्राप्तिं च काङ्क्षसि ।<br/>तदेन्द्रियजयं कर्तुं, स्फोरय स्फारपौरुषम् ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">If you are afraid of samsara and desire the attainment of moksha — then to conquer the senses, rouse your fullest heroic effort (sphara-paurusham).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Paurusha · Fear Plus Desire Must Become Heroic Action</span>
+</div>
+<p class="principle-def">Fear of samsara plus desire for moksha are necessary but not sufficient. They must translate into concrete paurusha (heroic effort) — specifically, the conquest of the five senses. There is no shortcut. The bell of mahapurushartha must be rung with mana-vachan-kaya (thought, speech, and body). "Aaram haraam hai" — only then is liberation possible.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The vasana (longing) for freedom must arise — and with it, the extreme effort and striving. Like the caged lion who has glimpsed freedom: the vasana includes both the longing and the full-body commitment to achieve it. The five senses — shabd (sound), rupa (form), rasa (taste), gandha (smell), sparsha (touch) — their limitless desires must be restrained. Do not fulfill the desires as they arise. Make the firm sankalpa to not fulfill them. And if countless dukhas must be faced — learn to bear them with a smile. Develop the atma-shakti to endure dukha-dard. Luck cannot be relied upon. Time cannot be used as a pretext. Bhagiratha purushartha alone works.</p>
+<p class="simple-explanation"><b>The simple version:</b> Fear of samsara and desire for moksha are not enough. They must become paurusha — heroic effort to conquer the senses. No vasana, no effort, no result. The bell of mahapurushartha must be rung with mana-vachan-kaya.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is my actual level of paurusha toward spiritual liberation? Is my spiritual practice costing me something real, or is it comfortable? What would 'bhagiratha purushartha' look like in my specific life right now?</div>
+<div class="concept-tags"><span class="concept-tag">Paurusha</span><span class="concept-tag">Indriya-Jay</span><span class="concept-tag">Mahapurushartha</span><span class="concept-tag">Moksha</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वृद्धास्तुणाजलपुणशलचाले किलेन्द्रियम् ।<br/>मृच्छ्ांमेतुच्छा यच्छ्न्ति, विकारिनेयपायवा ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The senses are like swamps filled with water-weeds — they trap and drag down even the strongest. Even the most heroic are drowned by the vikara (degeneration) of the most trifling sense-object.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The indriya are deceptively ordinary on the surface — treacherous below. Like swamps: the strongest swimmers can drown. Even the most disciplined sadhu can be dragged down by the pull of a single sense. The moment even one vishaya-vikalpa thought enters the mind, it spreads through the body's entirety. Once trapped in this mind-flow, the jiva ends up lost in the labyrinth of samsara. The jivatma becomes submerged and uncontrolled — roaming in the market of samsara, here and there, directionless. The mind becomes distracted-confused and wanders in mayajal. The key insight: no one is immune who underestimates the senses. Their power is not visible from the surface.</p>
+<p class="simple-explanation"><b>The simple version:</b> The senses look simple and manageable. They are swamps. One small indulgence starts a process that is very hard to reverse. Even the most disciplined can drown here. No one is immune who underestimates them.</p>
+<div class="contemplate-block"><b>Contemplate</b>Which of my five senses is most powerful in its pull — most capable of dragging my attention away from what I actually value? And how honestly do I acknowledge that danger?</div>
+<div class="concept-tags"><span class="concept-tag">Indriya-Swamp</span><span class="concept-tag">Vikara</span><span class="concept-tag">Vigilance</span><span class="concept-tag">Mayajal</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Ocean and Moharaja's Servants (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सरित्सहस्रदुष्पूरसमुद्रोदरसोदर ।<br/>तृप्तिमान्नेन्द्रियग्रामो, भव तृप्तोऽन्तरात्मना ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">All the rivers combined cannot fill the ocean's belly — so the group of senses cannot be satisfied by external things. Be satisfied through the inner atma — the antara-atma.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">The Unfillable Ocean · Antara-Atma as the Only Satisfaction</span>
+</div>
+<p class="principle-def">Ganga, Yamuna, Brahmaputra — countless rivers for eternity — have never filled the ocean. The ocean has never said "I am satisfied." Exactly so: the senses have never been satisfied by any amount of external feeding. This is not a flaw that can be corrected by better objects. It is the fundamental nature of external satisfaction. The only trupti (true satisfaction) is antara-atma — the inner self.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">From beginningless time, jivatma has been feeding its senses. Has any single moment given true satisfaction? No — the next day, the same craving. Next month, next year — it grows. The recommended path: use samyag-vivek (right discernment) to remove the indriya from their vishaya-objects. Immerse in the vachan, samman, and seva of the param purush; shastra-shravana; mahatma-gunanusaran. In dharma-kriyas with full sincerity — even one moment will give the param shanti of anubhav that all sensory feeding combined cannot give.</p>
+<p class="simple-explanation"><b>The simple version:</b> The ocean has never been filled. Countless rivers for eternity — still empty. The senses have never been satisfied by any amount of feeding. Stop feeding the indriya externally. Feed the antara-atma. That alone satisfies.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where in my life do I keep feeding a craving that never gets satisfied — where more only creates the need for more? What would it look like to redirect that very hunger toward the inner atma?</div>
+<div class="concept-tags"><span class="concept-tag">Trupti</span><span class="concept-tag">Antara-Atma</span><span class="concept-tag">Unfillable Ocean</span><span class="concept-tag">Samyag-Vivek</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आत्मानं विषयैः पाशंभंबवासपराङ्मुखम् ।<br/>इन्द्रियाणि निबध्नन्ति, मोहुराजस्य किंकरा ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The senses — servants of Moharaja — bind the atma that has turned away from vishaya-bonds, pulling it back into the samsara-cycle. They are Moharaja's sworn, loyal agents.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Do not mistake the senses for ordinary objects. They appear mild — they are extraordinary. They are Moharaja's exclusive sworn servants. Through these loyal servants, Moharaja has extended his empire over infinite jivatmas. The jivatma breaking from samsaravasa toward dharmaraja — the senses stop it in the middle and pull it back. They entrap so skillfully that the jiva doesn't realize it has been entrapped. It remains in the illusion: "I am in dharmaraja's kingdom." The senses' most effective tool: vishayabhilaap — making the jiva desire vishaya through apparently reasonable justifications. "Health is important for dharma." "Keep the body pure — it serves dharma." These whispers are Moharaja's agents at work.</p>
+<p class="simple-explanation"><b>The simple version:</b> The senses are Moharaja's most loyal servants. Appearing gentle and helpful, they are traps. They entrap so skillfully that the jiva never realizes it is in a trap. Visible enemies are manageable. Invisible agents disguised as helpers are not.</p>
+<div class="contemplate-block"><b>Contemplate</b>In what ways do my senses present themselves as friends or helpers — 'you need this for your health, your creativity, your relaxation' — while pulling me away from what I truly value? Which sense is Moharaja's most effective agent in my particular case?</div>
+<div class="concept-tags"><span class="concept-tag">Moharaja's Servants</span><span class="concept-tag">Vishayabhilaap</span><span class="concept-tag">Jadu-Pash</span><span class="concept-tag">Bondage</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — The Deer and the Mirage (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तिरिमृग्सना घन पश्यन, घाबतीन्द्रियमोहित ।<br/>भनादिनियान ज्ञान, घन पारवे न पश्यति ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as the deer in the desert runs toward the mirage-water, deluded by sight — and sees no water at all — so the atma blinded by indriya-moha fails to see the real knowledge-substance.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Who can counsel the deer? It doesn't know what happiness it is chasing. Where is the water here? Only the midday sun's shimmer — a mirage. It will find: distress, grief, futile exhaustion. But it is downright dimwitted — despite a hundred explanations, it runs. In exactly this same way, in the desert of samsara, the sense-enslaved jivas — whom can viveka counsel? The jivatma's yearning-trishna grows with each step. Distress, grief, suffering increase. Despite this, it doesn't understand that indriya-vishaya can never provide true trupti. Shree Umasvati confirms in Prashamrati: those with keen attachment to vishaya-objects are deceived by indriya-maya. As indriya-trishna is born step by step, step by step the material pleasure-chasing diminishes — trishna reduces not by feeding, but by the recognition of the mirage.</p>
+<p class="simple-explanation"><b>The simple version:</b> The deer runs toward the mirage, exhausts itself, finds only sand. The jiva chasing sensory satisfaction is the deer. Mirage-recognition — viveka — is the one thing that stops the running. Not more running toward better mirages.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where in my life am I the deer — running toward a 'water' that keeps receding? What would it look like to stop and recognize: 'this is a mirage, there is no water in that direction'?</div>
+<div class="concept-tags"><span class="concept-tag">Mrigatrishna</span><span class="concept-tag">Mirage</span><span class="concept-tag">Indriya-Moha</span><span class="concept-tag">Viveka</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पुरः पुरः स्फुरत्तृष्णा, मृगतृष्णानुकारिषु ।<br/>इन्द्रियार्थेषु घावन्ति, त्यक्त्वा ज्ञानामृत जडाः ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The trishna (craving) that grows and grows — like the ever-receding mirage — the foolish (jada) chase vishaya-objects, abandoning the amruta of jnana that was actually within reach.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Two parallel images: the mirage that recedes as you approach, and the trishna that grows as you feed it. The jada (spiritually inert) chases both — abandoning the jnana-amruta that was actually present. The viveka is this recognition: jnana-amruta is the one thing that truly satisfies. But obsessed with the sensory mirage, the jiva leaves actual amruta behind and chases the illusion. The clear prescription: make yourself a hardened atma-nigrahi (self-controller). When vishaya appears in many forms, do not even raise your eyes toward it. Let the indriyas not be activated. In this state — 'na rahega baans, na bajegi baansuri' (no bamboo, no flute). You will become vijeta (victor) and svaadhayi (self-governing). Then no force in the world can disturb you from your sankalpa.</p>
+<p class="simple-explanation"><b>The simple version:</b> Trishna grows with each feeding — always a new mirage further ahead. The jada abandons jnana-amruta (actually within reach) to chase it. The viveki stops, turns, and discovers the amruta they were standing on.</p>
+<div class="contemplate-block"><b>Contemplate</b>Am I aware of the jnana-amruta that is always available? What am I leaving behind each time I run toward sensory satisfaction? The amruta doesn't move. Only I move away from it.</div>
+<div class="concept-tags"><span class="concept-tag">Trishna</span><span class="concept-tag">Jnana-Amruta</span><span class="concept-tag">Jada vs. Viveki</span><span class="concept-tag">Mirage-Trishna</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Five Creatures and the Samadhi Solution (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पतङ्गामृण्डाभीनेभ-सारंगा यान्ति बुदंशाम् ।<br/>एककेन्द्रिय दोषाच्चेद्, दुष्टैस्तैः किं न पञ्चभिः ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The moth, bee, elephant, deer — each destroyed by the flaw of a single indriya. If each is killed by one corrupt sense — what of one beset by all five?</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">The Five Creatures · One Sense Is Enough for Destruction</span>
+</div>
+<p class="principle-def">Moth: dies for form/light (rupa — touch indriya). Bee: dies for fragrance (gandha), trapped in lotus petals. Elephant: captured for touch (sparsha), lured by tactile bait. Fish: caught for taste (rasa), bait on hook. Deer: killed for sound (shabd), hunter's music. One corrupt indriya destroys each. Five senses attacking simultaneously requires the full force of samadhi-dhyan — piecemeal effort fails.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The moth — circling the lamp, it offers its life for rupa-priti. It embraces the flame. Gets nothing: not love, not warmth. Only ash. The emotional bee — lover of fragrance — runs toward the lotus, gets trapped in petals. The lotus doesn't care: "Tu nahin. Aur sahi" (not you, another will do). The bee's devoted body prostrates; the lotus is unaffected. The deer — runs toward the hunter's sweet music, finds only the hunter's arrow. The fish — takes the tasty bait, finds only the hook. The elephant — lured by tactile sensation, captured. Each creature: one indriya, complete destruction. What of one attacked by all five simultaneously? Without concentrated samadhi-force — no chance.</p>
+<p class="simple-explanation"><b>The simple version:</b> Five classic creatures — each killed by one sense. One sense is enough for complete destruction. What about five senses attacking simultaneously? Only samadhi-dhyan can protect from five-fronted assault.</p>
+<div class="contemplate-block"><b>Contemplate</b>Which single sense, if I had mastered it completely, would change my life most dramatically? What would mastery of that one sense actually look like in practice?</div>
+<div class="concept-tags"><span class="concept-tag">Moth-Bee-Elephant-Deer-Fish</span><span class="concept-tag">Five Senses</span><span class="concept-tag">Single-Sense Destruction</span><span class="concept-tag">Panca-Indriya</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">विषेकद्वीमेहयक् समाधिघनतल्पर ।<br/>इंद्रियाणि न जितोऽसौ, वीरणपा धुरि यथते ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who is not established in samadhi-dhana (the wealth of samadhi) — even the most shallow vishaya — cannot conquer the senses. Without samadhi, no matter how heroic, the senses remain unconquered.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Samadhi-Dhana · The Method That Achieves What Heroism Cannot</span>
+</div>
+<p class="principle-def">Indriya-jay is not achieved through willpower alone. The method is samadhi — concentrated, undisturbed immersion in the atma. Five powerful evil fishermen have surrounded your atma-kshetra. Heroic effort without samadhi fails against them. Samadhi is the specific technique; indriya-jay is the natural result. "Indriyasya mukham pashya, kabhoo vishaye mat do" — watch the face of the indriya, never give to vishaya.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Realize: let the indriya-path not become the main path of dharma-activities. The prescription: samadhi. In your atma-kshetra, five powerful and deceptive fishermen surround you — ready to shoot with thought-arrows. Never let these evil fishermen escape even for a moment in your samadhi-dhyan. One who, when caught in the prison of vishaya-vikaras, makes the senses permanently absorbed in savikalpa-nirvikalpa samadhi — through the means of niyata dhyan-samadhi-nidhi's strong protection — when the senses are in full sensory flow, yet the chitta remains vishaya-free, the nadi of samadhi-nidhi keeps flowing steadily. This is the final key of indriya-jay: not suppression by force, but saturation in samadhi.</p>
+<p class="simple-explanation"><b>The simple version:</b> Indriya-jay cannot be achieved by heroic willpower alone. It requires samadhi — concentrated immersion in the atma. Without samadhi-dhana, even the most heroic fails. With it, even the most powerful sensory attack is neutralized at the source.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is my equivalent of samadhi in actual practice — that concentrated stillness that, when present, makes everything else manageable? And what are the conditions that support it in my daily life?</div>
+<div class="concept-tags"><span class="concept-tag">Samadhi-Dhana</span><span class="concept-tag">Nirvikalpa Samadhi</span><span class="concept-tag">Atma-Kshetra</span><span class="concept-tag">Indriya-Jay</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#1d1c17] text-[#f5f0e8] py-16">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-5">
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<p class="text-sm text-[#f5f0e8]/60 mt-4 leading-relaxed max-w-sm">Gyansaar — a synthesis of Jain wisdom by Yashovijayji Maharaj. 23 chapters on the qualities of the awakened soul.</p>
+</div>
+<div class="col-span-12 md:col-span-3">
+<h4 class="text-xs uppercase tracking-widest font-semibold text-[#f5f0e8]/40 mb-4">This Text</h4>
+<div class="flex flex-col gap-2 text-sm">
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-index.html">Gyansaar Index</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-ch6.html">← Ch 6: Sham</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-ch8.html">Ch 8: Tyag →</a>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4">
+<h4 class="text-xs uppercase tracking-widest font-semibold text-[#f5f0e8]/40 mb-4">Sacred Texts</h4>
+<div class="flex flex-col gap-2 text-sm">
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras Library</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="../Samaysaar/samaysaar-index.html">Samaysaar</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Floating Nav Buttons -->
+<a class="nav-button left-btn rounded-full w-12 h-12 flex items-center justify-center" href="gyansaar-ch6.html" id="prev-btn" style="left:24px">
+<span class="material-symbols-outlined text-xl">arrow_back</span>
+</a>
+<a class="nav-button right-btn rounded-full w-12 h-12 flex items-center justify-center" href="gyansaar-ch8.html" id="next-btn" style="right:24px">
+<span class="material-symbols-outlined text-xl">arrow_forward</span>
+</a>
+<script>
+const navButtons = document.querySelectorAll('.nav-button');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) { navButtons.forEach(b => b.classList.add('visible')); }
+  else { navButtons.forEach(b => b.classList.remove('visible')); }
+});
+const nav = document.getElementById('main-nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) { nav.classList.add('shadow-md'); }
+  else { nav.classList.remove('shadow-md'); }
+});
+</script>
+</body>
+</html>
