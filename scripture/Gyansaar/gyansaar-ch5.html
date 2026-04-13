@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 5: Jnana (Knowledge) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 5</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Knowledge<span class="block text-primary font-normal text-xl md:text-2xl mt-2">ज्ञान</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Not the accumulation of texts or victory in debate — but the living fire that awakens longing for the atma and dissolves every false identification</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Amohi's very meaning is to become a Jnani. When moha's veil is removed, the jnana-jyoti blazes spontaneously. Through eight shlokas, Yashovijayji maps the nature of true knowledge: the pig vs. the swan, the one decisive pada, the granthi-bheda that makes lamps unnecessary, and the final declaration — Jnana is the amruta that needs no ocean, the rasayana that needs no physician, the sovereign wealth that needs nothing outside itself.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">पीयूषमसमुद्रोत्थं, रसायनमनौषधम् ।<br/>अनन्यापेक्षमैश्वर्यं, ज्ञानमाहुर्मनीषिणः ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Jnana is amruta not risen from the ocean; rasayana that is no physician's medicine; sovereignty that needs nothing else." — The supreme declaration of the Jnana chapter. — Gyansaar 5.8</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Jnana</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Jnana</span> — Knowledge — is the fifth chapter and the natural flowering of Amoha. The sequence is complete: Purnata (completeness), Magnata (absorption), Sthirata (steadiness), Amoha (non-delusion) — and now Jnana, the light that illuminates all three worlds when moha's veil is removed. Not the knowledge of texts or debates, but the direct luminosity of the atma recognizing itself.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter's central image is the contrast between a pig in a drain and a royal swan in Mansarovar. Where a being naturally gravitates — what it gravitates toward, whose company it seeks — reveals its true state of knowledge. The chapter moves through eight shlokas to its final declaration: Jnana is incomparable amruta, rasayana, and aishvarya — self-sufficient, requiring nothing outside itself.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 5 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Pig and the Swan (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मज्जात्मज्ञः किलज्ञाने, बिष्टायामिब शूकरः ।<br/>ज्ञानी निमज्जति ज्ञाने, मराल इव मानसे ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a pig is always immersed in filth, so the ajnani remains ever sunk in ignorance. Just as a royal swan (rajahansa) is immersed in Mansarovar, so the Jnani remains immersed in Knowledge.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Jnana · The Nature of True Knowledge</span>
+</div>
+<p class="principle-def">Where a being naturally gravitates — what it returns to again and again, whose company it seeks, what it loves to hear — reveals its true state. The pig does not choose filth; filth is its nature. The swan does not choose Mansarovar; clarity is its nature. What is your soul's natural gravitational pull?</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Observe a person carefully — where do they go repeatedly, what comes to mind again and again, whose company do they prefer? From this, the jivatma's true inclination reveals itself. Where only physical and sensory pleasure is discussed, where only comfort-seeking stories are told — the soul is like the pig, absorbed in the drain of its own ignorance. But the Jnani — the darshi of truth — is always drawn toward discussion of atma-unnati (soul's elevation) and atma-kalyan (soul's welfare). They seek the constant company of atma-jnani persons. Their speech flows only toward Atma, Mahatma, and Paramatma. Lost in these stories in reading and recitation, absorbed — like the rajahansa playing freely in Mansarovar's pure waters, visible from all sides in progressive clarity.</p>
+<p class="simple-explanation"><b>The simple version:</b> Where your mind gravitates, what you keep talking about, who you seek out — this reveals your true level of consciousness. The pig seeks filth by nature; the swan seeks the pure lake. Where does your soul naturally return?</p>
+<div class="contemplate-block"><b>Contemplate</b>What do I most naturally gravitate toward — the physical and sensory, or the atmic and eternal? The pig does not know it is in filth. Does the ajnani know they are sunk in ignorance?</div>
+<div class="concept-tags"><span class="concept-tag">Ajnana</span><span class="concept-tag">Jnana</span><span class="concept-tag">Rajahansa</span><span class="concept-tag">Atma-Unnati</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">निर्वाणपदमाप्नोति, भाष्यते यन्मुहुर्मुहुः ।<br/>तदेव ज्ञानमुक्तेष्टं, निर्बन्धो नारित भूयसा ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">That one decisive pada (word/principle) which is spoken and returned to again and again — that alone is true jnana. Debating and repeating endless texts and many words is not knowledge.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">The One Decisive Pada · Depth Over Volume</span>
+</div>
+<p class="principle-def">One clear nirnayatmak (decisive) pada — returned to repeatedly until it becomes one's nature — is worth more than a library of debated shastras. Gurudev gave the muni Maatap these two words: "Ma rup, ma tup — neither hatred nor attachment." Twelve years of continuous contemplation. The result: moksha-pada.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The purpose is not to study many texts and store vast information. The teaching is: find one definitive pada — one word, one mantra — and make it your singular focus. Contemplate it with ekagrya (singular attention), keep returning to it, let it penetrate. When continuously engaged with it, moha cannot push you away. Even one single thought pointed at moha like a missile will shatter and dissolve it. For this knowledge to become impenetrable, four elements are essential: continuous practice after initial contemplation; deepening of understanding with love toward tattva, Tirthankaras, and gurujans; vivechan guided by shastra-paddhati and agam; and a gradual quieting of the intoxication of kshayopasham as tatva-chintana deepens. Total absorption in tatva-chintana — dissolving oneself in it — is the highest category of knowledge.</p>
+<p class="simple-explanation"><b>The simple version:</b> One clear, decisive pada returned to again and again is worth more than a library of debated texts. The muni Maatap attained moksha through just two words: "Ma rup, ma tup" — neither hatred nor attachment.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is my one pada? What is the single deepest truth I can return to again and again until it becomes my nature? Volume of reading without that anchor is noise. Depth on one truth is knowledge.</div>
+<div class="concept-tags"><span class="concept-tag">Nirnayatmak Pada</span><span class="concept-tag">Ekagrya</span><span class="concept-tag">Tatva-Chintana</span><span class="concept-tag">Moksha-Pada</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Vasana for the Atma (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्वभावलाभसंस्कारकारणं ज्ञानमिप्यते ।<br/>ध्यान्ध्यमात्रमतस्त्वन्यत्, तथा चोक्तं महात्मना ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">That which is the cause of gaining (labha) the atma-svabhava — one's own true nature — is called Jnana. Studying for the mere sake of study (dhyandya-matra) beyond this is something else entirely. Thus have the great souls declared.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Jnana is that which continuously gives the jivatma momentum toward realizing atma-svaroop — that which creates the vasana (deep longing) to know one's own nature. Vasana is that which creates the drive in the mind to know a subject deeply, that gives the inspiration to work hard, that keeps urging you to follow with hands and feet. For example: if a man develops a vasana for a woman, he becomes constantly occupied in thought of her — waking and sleeping, sitting and standing, only one thought. This vasana arose from manohar-darshan (a beautiful sight in the mind). Real jnana creates the same intensity of longing — but for the atma. The one in whom this vasana for atma-svaroop burns continuously keeps finding the path clear, because no moha or mayajal can hold someone whose entire being is magnetized toward the pure atma. As Patanjali also confirmed: this is the universal view of the great souls.</p>
+<p class="simple-explanation"><b>The simple version:</b> Real jnana is not information — it's the igniting of a deep longing (vasana) for the atma. Just as a man consumed by longing thinks of nothing else, the jnani consumed by longing for the atma turns every experience toward that single focus.</p>
+<div class="contemplate-block"><b>Contemplate</b>Does my study ignite longing for the atma, or does it only satisfy the intellect? Am I reading to know more, or am I reading to become more?</div>
+<div class="concept-tags"><span class="concept-tag">Atma-Svabhava</span><span class="concept-tag">Vasana</span><span class="concept-tag">Atma-Parishrama</span><span class="concept-tag">Sva-Labha</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वादांश्च प्रतिवादांश्च यदन्तोऽनिश्चितांस्तथा ।<br/>तत्त्वान्तं नैव गच्छन्ति, तिलपीसकवद्गतौ ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those stuck in endless vad (argument) and prativad (counter-argument) — never arriving at certainty — are completely incapable of reaching tattva's end. They are like the sesame-press bullock: constant circular movement, no progress forward.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The shastra-jnana meant to conquer inner enemies and move consciousness toward the atma — you have used it instead to get lost in purposeless vad-vivad. You have abandoned what is iShta (dear) and chased what is anishta (not dear). The honest assessment: in this world there are no kevalajnanis, no manah-paryay-jnanis, no great souls with avadhi-jnana. Then how dare anyone claim to fully understand scriptures composed by masters of infinite knowledge? Your mati (understanding) is limited. Your shrutajnanavaran ksayopasham is very weak. Whatever shastra-jnana you hold is surely with anishchit (uncertain) meaning. Based on this, debating for years will not reach tattva's end. You will fail to grasp the true meaning. It is possible that in debate you will be victorious and the ananda of that will thrill every pore — but this ananda is momentary, transient, and unnatural. The oil-press bullock is always in motion. It gets nowhere.</p>
+<p class="simple-explanation"><b>The simple version:</b> The debater who never reaches tattva is like the sesame-press bullock — all effort, endless circles, zero progress. Real jnana does not make you win debates. It makes you see truth.</p>
+<div class="contemplate-block"><b>Contemplate</b>In my spiritual discussions, am I moving toward truth or circling the same points? What is the difference between a discussion that illuminates and one that only seeks to win?</div>
+<div class="concept-tags"><span class="concept-tag">Vad-Vivad</span><span class="concept-tag">Tattva</span><span class="concept-tag">Tila-Pisak</span><span class="concept-tag">Anishchit</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Sva-Dravya and the Knot-Breaking (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्वद्रव्यगुणपर्यायेषु स्थिरः, परेषु न परिणतः ।<br/>इति रहस्यज्ञानं मुनिः, ज्ञानी इति नो वदे ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In one's own dravya (substance), guna (quality), and paryaya (mode) — one is truly established and correct. In para-dravya (another's substance), guna, and paryaya — no transformation belongs to me. The one who knows this secret is the Jnani — thus has this rahasyajnana been revealed.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The Jnani's orientation is precise: my sva-dravya, guna, paryaya are authentic and real. In para-dravya, guna, paryaya — no transformation is mine. This is the rahasyajnana (secret understanding) the Jnani has revealed. Para-dravya is endless — wealth, status, others' actions — and one is never fully satisfied by it. Rather, satisfaction keeps declining. And para-dravya, guna, paryaya do not belong to the atma at all. They never will. If there is no satisfaction there, why make para-dravya the aim? The prescription is direct: resolve to be nishchint-nishchal. Let sva-jnana-dhyan happen. Turn the mind inward. The inherent jnana, darshan, and charitra-guna will awaken — and experience across all three will deepen. All dissatisfaction comes from chasing para-dravya. All peace comes from resting in sva-dravya.</p>
+<p class="simple-explanation"><b>The simple version:</b> The Jnani's compass: what is truly mine is my own dravya-guna-paryaya. What belongs to others is not mine and cannot satisfy me. All dissatisfaction comes from chasing para-dravya. All peace comes from resting in sva-dravya.</p>
+<div class="contemplate-block"><b>Contemplate</b>How much of my suffering comes from wanting para-dravya — others' situations, possessions, approval — to be different? What if I truly accepted that para-dravya is not mine to transform?</div>
+<div class="concept-tags"><span class="concept-tag">Sva-Dravya</span><span class="concept-tag">Para-Dravya</span><span class="concept-tag">Rahasyajnana</span><span class="concept-tag">Nishchinta</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अस्ति चेद् ग्रथिभिज्ञान, किं चित्रैस्तंत्रयणैः ।<br/>प्रदीपाः नवोपष्टुज्यन्ते, तमोध्नी हृष्टिरेव चेतु ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">If granthi-bheda jnana (the knowledge that breaks the knot) has been attained — what use is the elaborate array of many shastras? When one's own eyes blazingly illuminate dense darkness from within, what use then are external lamps?</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Granthi-Bheda · The Breaking of the Knot</span>
+</div>
+<p class="principle-def">Granthi-bheda — the dissolution of the inner knot of mithyatva — is the singular turning point. Before it, all shastras are needed as lamps in the darkness. After it, the atma itself blazes. The lamps are lit for you when you are in darkness. The moment granthi-bheda occurs, the need for external lamps dissolves — just as someone whose eyes blaze with inner light has no need of candles.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">When the granthi (knot) of raga-dvesha dissolves, samyaktva (right vision) blazes within the atma and its sharp light spreads everywhere. The one who has attained granthi-bheda-jnana has no need of elaborate shastra arrays — just as a person with blazing inner sight has no use for external lamps. This does not dismiss shastras — the shastras are precisely what lead you to the granthi-bheda. They are the lamps lit for the one walking in darkness. Read them, absorb them, use the rahasyajnana as a weapon against moha every time the chitta gets pulled toward para-pudgal. But always know: the lamps are a means, not the destination. The destination is when you become the light yourself.</p>
+<p class="simple-explanation"><b>The simple version:</b> Granthi-bheda is the turning point. Before it, all shastras are needed as lamps. After it, the atma blazes. The one who has attained this inner sight has no need of external lamps.</p>
+<div class="contemplate-block"><b>Contemplate</b>Am I reading shastras to find the key that breaks my inner knot, or am I collecting keys as a hobby? The shastras are lamps lit for me when I am in darkness. What would it look like to not need them anymore?</div>
+<div class="concept-tags"><span class="concept-tag">Granthi-Bheda</span><span class="concept-tag">Mithyatva</span><span class="concept-tag">Samyaktva</span><span class="concept-tag">Inner Light</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — The Vajra and the Incomparable Wealth (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मिथ्यात्वशल्यच्छित्वाद्, सम्यग्दर्शनभासितः ।<br/>निभाय सत्त्वद् घोमों, नन्दतयान वन्दने ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having cut away the thorn/arrow of mithyatva — the soul blazes with the radiance of samyak-darshan (right vision). With this right perception, even a wild elephant becomes tame and bows at your feet in worship.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The great muni who has discarded karma, cut asunder moha's layers, whose knowledge is total — what fear does such a yogiraj have? The only weapon needed: 'jnana' — which cuts through mithyatva's peaks in manana-fanan. Like the vajra (thunderbolt), it is self-sufficient. He roams freely in the garden of atma-pradesh's heaven, always experiencing the inexpressible bliss of atmananda. Muniajans are here compared to Devraj-Indra: just as for a moment's sake, Indra never lets his vajra leave his side, so muniajans must always keep atma-pariNati-roop jnana ready with them. Bhagavan Mahavir once said to Gautam: "Samayam Goyam! Ma pamayae." — "O Gautam! The jnana-vajra in your possession — never put it away even for a moment." When atma-pariNati-roop jnana is intact, the powerful assault of raga-dvesha asuras cannot happen. These demons, dragging muniajans from atmananda's heaven into pudgalananda's prison, will fail.</p>
+<p class="simple-explanation"><b>The simple version:</b> The muni who has extracted the thorn of mithyatva blazes with samyak-darshan. Like Indra who never puts down his vajra, the muni must never set aside the weapon of atma-pariNati-jnana. With this weapon, even a mad elephant bows.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is my mithyatva — the one false belief that, if truly uprooted, would transform everything? And what would it feel like to carry jnana the way Indra carries his vajra — never setting it down?</div>
+<div class="concept-tags"><span class="concept-tag">Mithyatva-Shalya</span><span class="concept-tag">Samyak-Darshan</span><span class="concept-tag">Jnana-Vajra</span><span class="concept-tag">Atma-Pariṇati</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पीयूषमसमुद्रोत्थं, रसायनमनौषधम् ।<br/>अनन्यापेक्षमैश्वर्यं, ज्ञानमाहुर्मनीषिणः ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The learned (manishinaH) have declared: Jnana is amruta (nectar) that has not emerged from the ocean; a rasayana (elixir) that is not a physician's medicine; an aishvarya (sovereignty) that requires no one else. It is the incomparable, self-sufficient wealth.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Ananya-Apeksha · The Self-Sufficient Wealth</span>
+</div>
+<p class="principle-def">Jnana is the most supreme amruta — not sourced from ocean-churning, not needing to be compounded as medicine, not dependent on anyone else for its power. It is the self-sufficient, sovereign, incomparable wealth. Ananya-apeksha: requiring nothing from any other source. This is the final declaration of the Jnana chapter — and of the entire arc from Purnata through Magnata, Sthirata, Amoha to here.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The learned say amruta emerged from ocean-churning. Great kings consider rasayana to be born of physician-knowledge. Sovereign aishvarya is thought to reside in elephants, horses, wealth, gold, and silver. But the Jnani's declaration: "Jnana is amruta — yet not from the ocean. Jnana is rasayana — yet not a physician's medicine. Jnana is aishvarya — yet not in elephants or horses." The ocean cannot save a person from death. But jnana-amruta transforms them. Physical medicines help stabilize the body. But the jnana-rasayana makes the mind always full of bliss — not the pleasure of gold and sense pleasures, which have no power of lasting satisfaction. Jnana does this always. From three categories — deva-guru-dharma — the authority of this bhavana-jnana gives the path of amruta, jnana-rasayana, and jnana-aishvarya. The jivatma finds the supreme trupti (satisfaction). This becomes the highest motivation toward moksha.</p>
+<p class="simple-explanation"><b>The simple version:</b> Jnana is the real amruta — not mythology. The real rasayana — not from any physician. The real aishvarya — needing nothing and no one outside itself. This self-sufficient, incomparable wealth surpasses all.</p>
+<div class="contemplate-block"><b>Contemplate</b>What in my life do I treat as 'amruta' — the thing I think will finally satisfy? Is it external? And what would it feel like to have a satisfaction that requires nothing from outside — truly ananya-apeksha, without dependence on anything else?</div>
+<div class="concept-tags"><span class="concept-tag">Amruta</span><span class="concept-tag">Rasayana</span><span class="concept-tag">Aishvarya</span><span class="concept-tag">Ananya-Apeksha</span><span class="concept-tag">Manishinah</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#1d1c17] text-[#f5f0e8] py-16">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-5">
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<p class="text-sm text-[#f5f0e8]/60 mt-4 leading-relaxed max-w-sm">Gyansaar — a synthesis of Jain wisdom by Yashovijayji Maharaj. 23 chapters on the qualities of the awakened soul.</p>
+</div>
+<div class="col-span-12 md:col-span-3">
+<h4 class="text-xs uppercase tracking-widest font-semibold text-[#f5f0e8]/40 mb-4">This Text</h4>
+<div class="flex flex-col gap-2 text-sm">
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-index.html">Gyansaar Index</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-ch4.html">← Ch 4: Amoha</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="gyansaar-ch6.html">Ch 6: Sham →</a>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4">
+<h4 class="text-xs uppercase tracking-widest font-semibold text-[#f5f0e8]/40 mb-4">Sacred Texts</h4>
+<div class="flex flex-col gap-2 text-sm">
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras Library</a>
+<a class="text-[#f5f0e8]/70 hover:text-primary transition-colors" href="../Samaysaar/samaysaar-index.html">Samaysaar</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Floating Nav Buttons -->
+<a class="nav-button left-btn rounded-full w-12 h-12 flex items-center justify-center" href="gyansaar-ch4.html" id="prev-btn" style="left:24px">
+<span class="material-symbols-outlined text-xl">arrow_back</span>
+</a>
+<a class="nav-button right-btn rounded-full w-12 h-12 flex items-center justify-center" href="gyansaar-ch6.html" id="next-btn" style="right:24px">
+<span class="material-symbols-outlined text-xl">arrow_forward</span>
+</a>
+<script>
+const navButtons = document.querySelectorAll('.nav-button');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) { navButtons.forEach(b => b.classList.add('visible')); }
+  else { navButtons.forEach(b => b.classList.remove('visible')); }
+});
+const nav = document.getElementById('main-nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) { nav.classList.add('shadow-md'); }
+  else { nav.classList.remove('shadow-md'); }
+});
+</script>
+</body>
+</html>
