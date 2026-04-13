@@ -34,39 +34,53 @@ html { scroll-behavior: smooth; }
 .burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
 .sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
 .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
-.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
-.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
 .simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
 .simple-explanation b { color: #1d1c17; font-weight: 600; }
+.wrong-view-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(186,26,26,0.04); border-radius: 6px; }
+.wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
+.wrong-view-badge { background: rgba(186,26,26,0.1); border: 1px solid rgba(186,26,26,0.35); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+/* Sutra card readability */
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
 .concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
 .concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
-.nav-button { position: fixed; bottom: 24px; z-index: 100; background: #ffffff; border: 1px solid #C9A84C; color: #755b00; transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
 .nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
-.nav-button:hover { border-color: #C9A84C; color: #503d00; }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
 .glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
 .section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
 .section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
 .section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
-.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+#breadcrumb { transition: opacity 0.4s ease, transform 0.4s ease; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+
+/* Green: Key Jain Principle */
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
 .principle-header { display: inline-flex; align-items: center; gap: 8px; }
 .principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
 .principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
 .principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
-#main-nav a { text-decoration: none; }
-.nav-link { text-decoration: none; }
-@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+/* Blue: Caution / Warning */
+.caution-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(30,64,175,0.04); border-radius: 6px; }
+.caution-header { display: inline-flex; align-items: center; gap: 8px; }
+.caution-badge { background: rgba(30,64,175,0.1); border: 1px solid rgba(30,64,175,0.35); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.caution-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
 </style>
 </head>
-<body class="text-on-surface font-body selection:bg-primary-container bg-[#f8f7f6]">
-
-<!-- Floating Navigation Buttons -->
-<a class="nav-button left-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch5.html" id="nav-left" style="left:24px">
-<span class="material-symbols-outlined text-base" style="font-size:18px">arrow_back</span>Adhikar 4
-</a>
-<a class="nav-button right-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch7.html" id="nav-right" style="right:24px">
-Adhikar 6<span class="material-symbols-outlined text-base" style="font-size:18px">arrow_forward</span>
-</a>
-
+<body class="text-on-surface font-body bg-white">
 <!-- Nav -->
 <nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
 <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
@@ -80,8 +94,9 @@ Adhikar 6<span class="material-symbols-outlined text-base" style="font-size:18px
 </div></div>
 <div class="flex items-center gap-8">
 <div class="relative group hidden lg:block">
-<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
-<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+<span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+<input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
 </div>
 <a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
 </div>
@@ -349,40 +364,36 @@ Adhikar 6: Nirjarā<span class="material-symbols-outlined" style="font-size:18px
 
 </section>
 </main>
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="samaysaar-ch5.html"><span class="text-lg">←</span> Adhikar 4</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="samaysaar-ch7.html">Adhikar 6 <span class="text-lg">→</span></a>
 
-<footer class="bg-inverse-surface text-inverse-on-surface py-16 mt-24">
-<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
-<div class="col-span-12 md:col-span-4 flex flex-col gap-4">
-<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
-<p class="text-sm text-inverse-on-surface/60 leading-relaxed max-w-xs">A living digital sanctuary for Jain wisdom — Āgamas, scripture, meditation, and the path to liberation.</p>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
 </div>
-<div class="col-span-12 md:col-span-8 flex flex-col gap-4">
-<p class="text-xs text-inverse-on-surface/40 uppercase tracking-widest font-semibold">Samaysaar Navigation</p>
-<div class="flex flex-wrap gap-4">
-<a href="samaysaar-index.html" class="text-sm text-inverse-on-surface/60 hover:text-primary transition-colors font-headline">Index</a>
-<a href="samaysaar-ch2.html" class="text-sm text-inverse-on-surface/60 hover:text-primary transition-colors font-headline">Adhikar 1</a>
-<a href="samaysaar-ch3.html" class="text-sm text-inverse-on-surface/60 hover:text-primary transition-colors font-headline">Adhikar 2</a>
-<a href="samaysaar-ch4.html" class="text-sm text-inverse-on-surface/60 hover:text-primary transition-colors font-headline">Adhikar 3</a>
-<a href="samaysaar-ch5.html" class="text-sm text-inverse-on-surface/60 hover:text-primary transition-colors font-headline">Adhikar 4</a>
-<a href="samaysaar-ch6.html" class="text-sm text-primary transition-colors font-headline font-bold">Adhikar 5</a>
-</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
 </div>
 </div>
 </footer>
-
 <script>
-// Floating nav visibility
-const navLeft = document.getElementById('nav-left');
-const navRight = document.getElementById('nav-right');
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 300) {
-    navLeft.classList.add('visible');
-    navRight.classList.add('visible');
-  } else {
-    navLeft.classList.remove('visible');
-    navRight.classList.remove('visible');
+  const bc = document.getElementById('breadcrumb');
+  const hero = document.querySelector('main > section');
+  if (bc && hero) {
+    const past = window.scrollY > hero.offsetHeight * 0.75;
+    bc.style.opacity = past ? '0' : '1';
+    bc.style.transform = past ? 'translateY(-6px)' : 'translateY(0)';
+    bc.style.pointerEvents = past ? 'none' : 'auto';
   }
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
 });
 </script>
-</body>
-</html>
+<script src="../../js/sutrakritang-search.js"></script>
+</body></html>
