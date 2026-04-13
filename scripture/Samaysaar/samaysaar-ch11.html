@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Samaysaar — Adhikar 10: Upasamhāra · Pariśiṣṭam (Kalaśas 247–278) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+
+<!-- Floating Navigation Buttons -->
+<a class="nav-button left-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch10.html" id="nav-left" style="left:24px">
+<span class="material-symbols-outlined text-base" style="font-size:18px">arrow_back</span>Adhikar 9
+</a>
+
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div></div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Samaysaar · Adhikar 10 · Pariśiṣṭam · Kalaśas 247–278</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Conclusion<span class="block text-primary font-normal text-xl md:text-2xl mt-2">उपसंहार · परिशिष्टम्</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Amṛtacandrasūri's concluding philosophical synthesis — jñāna, jñeya, and jñātṛ are one undivided vastu; ātmā is simultaneously the path and the goal; caitanya-camatkāra is the uncontested victor</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The Pariśiṣṭam is not a postscript. It is the seal. After nine adhikars establishing what the soul is and what it is not, Amṛtacandra steps forward as practitioner, not commentator, and declares: the knower, the knowing, and the known are one. The commentary ends where the soul begins — in silence.</p>
+<div class="flex gap-8 items-center flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">32</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Kalaśas</span></div>
+<div class="w-px h-10 bg-outline-variant"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">10</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">of 10 Adhikars</span></div>
+<div class="w-px h-10 bg-outline-variant"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">47</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Śaktis of Ātmā</span></div>
+</div>
+<a class="text-primary font-headline text-sm uppercase tracking-[0.2em] flex items-center gap-2 hover:gap-3 transition-all" href="samaysaar-index.html">
+<span class="material-symbols-outlined" style="font-size:16px">arrow_back</span>Back to Samaysaar Index
+</a>
+</div>
+
+<!-- Featured verse panel -->
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+<div class="rounded-xl overflow-hidden shadow-xl border border-[#C9A84C]/20">
+<div class="burnished-gradient px-8 py-6">
+<span class="text-white/70 font-headline uppercase tracking-[0.2em] text-xs font-semibold">Featured Verse — Kalaśa 278 · The Colophon</span>
+<p class="sutra-sanskrit text-white mt-3 font-headline">स्वशक्तिसंसूचितवस्तुतत्त्वै-<br/>र्व्याख्या कृतेयं समयस्य शब्दैः।<br/>स्वरूपगुप्तस्य न किञ्चिदस्ति<br/>कर्तव्यमेवामृतचन्द्रसूरेः।। २७८ ।।</p>
+</div>
+<div class="bg-white px-8 py-6 flex flex-col gap-4">
+<p class="font-headline text-on-surface-variant italic text-lg leading-relaxed">The commentary of the Samaya has been accomplished through words that reveal the tattva-vastu through their own śakti. For Amṛtacandrasūri — absorbed in his own svarūpa — there is nothing whatsoever remaining to be done.</p>
+<p class="text-on-surface-variant text-base leading-relaxed">The most extraordinary closing line in all of classical Jain literature. Not a dedication, not a summary — a declaration of arrival. The commentator dissolves into the ātmā he was describing. The author who has no more to do is the author who has become what the text was pointing toward.</p>
+<div class="concept-tags">
+<span class="concept-tag">Svarūpa-gupta</span>
+<span class="concept-tag">Na Kiñcit Karttavyam</span>
+<span class="concept-tag">Svayaṃ-Śakti</span>
+<span class="concept-tag">Amṛtacandrasūri</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Principles -->
+<section class="bg-surface-container-low py-24 mb-20">
+<div class="max-w-screen-2xl mx-auto px-6 md:px-12">
+<div class="section-divider mb-10"><span>Five Governing Principles of the Pariśiṣṭam</span></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle I</span>
+</div>
+<span class="principle-name">Jñānamātra Declaration</span>
+<span class="principle-def">I am not fragmented by dravya, kṣetra, kāla, or bhāva. I am the supremely pure, singular jñānamātra bhāva. No external category can divide the undivided knower.</span>
+</div>
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle II</span>
+</div>
+<span class="principle-name">47 Śaktis — Complete Self-Sufficiency</span>
+<span class="principle-def">Every power ātmā needs — to live, to know, to be blissful, to act — is inherent (svābhāvika), not borrowed. Mokṣa is not acquisition but full expression of what ātmā already is.</span>
+</div>
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle III</span>
+</div>
+<span class="principle-name">Syādvāda: 14 Bhaṅgas of Jñāna</span>
+<span class="principle-def">Jñāna exists precisely in its own dravya-kṣetra-kāla-bhāva and nowhere else. This 14-fold syādvāda mapping dissolves the jñāna-mūḍha's confusion and leads to svayam-anubhava of ātmatattva.</span>
+</div>
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle IV</span>
+</div>
+<span class="principle-name">Upāya-Upeya Identity</span>
+<span class="principle-def">Ātmā is simultaneously the path (sādhaka-rūpa) and the goal (siddha-rūpa). The means and the destination share the same jñānamātra nature. Knowing ātmā IS becoming ātmā.</span>
+</div>
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle V</span>
+</div>
+<span class="principle-name">Vijñānaghana — Dvaita Dissolves</span>
+<span class="principle-def">In ajñāna, dvaita (sva-para split) appeared, spawning rāga-dveṣa, kriyā-kāraka differentiation, and exhausted experience. In jñāna, vijñānaghana alone remains. Kiñcin na kiñcit — nothing else.</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Main Content -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 mb-32">
+
+<!-- Left column: content -->
+<div class="col-span-12 lg:col-span-8 flex flex-col gap-10">
+
+<!-- Part 1 -->
+<div class="section-divider"><span>Part 1 · Opening Declaration · The Jñānamātra Revelation</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
+<span class="principle-name">The Four-Fold Non-Fragmentation</span>
+<span class="principle-def">The Pariśiṣṭam opens with one of the most direct first-person doctrinal declarations in all of Sanskrit philosophical literature. The practitioner — not the theorist — speaks: I have looked at myself from every angle (dravya, kṣetra, kāla, bhāva) and in none of them is there a fragmentation of the knower. The knower remains whole, singular, and pure across all four frameworks of analysis.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Opening Prose Declaration — The Supreme Self-Declaration</span>
+<p class="sutra-sanskrit font-headline">न द्रव्येण खण्डयामि, न क्षेत्रेण खण्डयामि,<br/>न कालेन खण्डयामि, न भावेन खण्डयामि;<br/>सुविशुद्ध एको ज्ञानमात्रो भावोऽस्मि।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">I do not fragment myself by dravya (substance). I do not fragment myself by kṣetra (space). I do not fragment myself by kāla (time). I do not fragment myself by bhāva (mode). <em>I am the supremely pure, singular, jñānamātra bhāva.</em></p>
+<div class="simple-explanation"><b>What this means:</b> The śuddhanaya basis. When the jñānī holds the pure standpoint (śuddhanaya), the ātmā appears as undivided caitanya-mātra. No spatial location fragments it. No moment of time captures it. No modal modification exhausts it. "Suviśuddha" — beyond the admixture of karma-generated bhāvas. "Eko" — singular, not pluralized by objects known. "Jñānamātro bhāvo'smi" — I AM this jñānamātra bhāva, not merely associated with it.</div>
+<div class="concept-tags">
+<span class="concept-tag">Jñānamātra</span>
+<span class="concept-tag">Śuddhanaya</span>
+<span class="concept-tag">Na Khaṇḍayāmi</span>
+<span class="concept-tag">Suviśuddha</span>
+</div>
+</div>
+
+<!-- Part 2 -->
+<div class="section-divider"><span>Part 2 · 47 Śaktis of Ātmā · The Complete Self-Sufficiency Enumeration</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
+<span class="principle-name">Ātmā Lacks Nothing — All Śaktis Are Inherent</span>
+<span class="principle-def">Before the 14-bhaṅga analysis, the Pariśiṣṭam establishes the positive enumeration of ātmā's complete powers. The 47 śaktis establish a structural point: ātmā does not borrow any capacity from karma, body, or external contact. Every śakti is svābhāvika — constitutionally inherent. Mokṣa is not gaining new powers; it is the unobstructed expression of powers already present.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">The 47 Śaktis — Principal Powers of Ātmā</span>
+<div class="overflow-x-auto mt-2">
+<table class="w-full text-sm border-collapse">
+<thead>
+<tr class="border-b border-[#C9A84C]/20">
+<th class="text-left py-2 pr-4 font-label uppercase tracking-widest text-xs text-primary/70 font-semibold">#</th>
+<th class="text-left py-2 pr-4 font-label uppercase tracking-widest text-xs text-primary/70 font-semibold">Śakti</th>
+<th class="text-left py-2 font-label uppercase tracking-widest text-xs text-primary/70 font-semibold">What It Means</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#C9A84C]/10 font-body">
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">1</td><td class="py-2 pr-4 font-headline text-on-surface">Jīvataśakti</td><td class="py-2 text-on-surface-variant">The power of being alive — caitanya svarūpa itself</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">2</td><td class="py-2 pr-4 font-headline text-on-surface">Cittiśakti</td><td class="py-2 text-on-surface-variant">The power of consciousness as such — pure sentience</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">3</td><td class="py-2 pr-4 font-headline text-on-surface">Anākāropayogamayī Jñānaśakti</td><td class="py-2 text-on-surface-variant">Formless (object-free) upayoga-jñāna — knowing without grasping object's shape</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">4</td><td class="py-2 pr-4 font-headline text-on-surface">Sākāropayogamayī Jñānaśakti</td><td class="py-2 text-on-surface-variant">Formed (object-reflecting) upayoga-jñāna — knowing as it illuminates objects in particular form</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">5</td><td class="py-2 pr-4 font-headline text-on-surface">Anākulatāsukhaśakti</td><td class="py-2 text-on-surface-variant">The power of undisturbed bliss — constitutional absence of agitation (vītarāga sukha)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">6</td><td class="py-2 pr-4 font-headline text-on-surface">Svaropaparināmasāmarthya Vīryaśakti</td><td class="py-2 text-on-surface-variant">Power of vīrya as self-directed potency — transforms in own mode, not outward force</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">7</td><td class="py-2 pr-4 font-headline text-on-surface">Amūrtaghutvaśakti</td><td class="py-2 text-on-surface-variant">Power of immaterial fineness — expressible in sixfold gradations of increase and decrease</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">8</td><td class="py-2 pr-4 font-headline text-on-surface">Vibhutaśakti</td><td class="py-2 text-on-surface-variant">Power of pervasion — single form that pervades all bhāvas (omnipresent in its jñāna-nature)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">9</td><td class="py-2 pr-4 font-headline text-on-surface">Sarvajñataśakti</td><td class="py-2 text-on-surface-variant">Power of omniscience — the jñāna-form that knows all particular bhāvas of all reality</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">…</td><td class="py-2 pr-4 font-headline text-on-surface">+ 38 more</td><td class="py-2 text-on-surface-variant">Completing 47 total sub-śaktis, each inherent, none acquired</td></tr>
+</tbody>
+</table>
+</div>
+<div class="simple-explanation"><b>Why this matters:</b> If you enumerate what ātmā already has, you realize what mokṣa actually removes — nothing. Mokṣa only removes the āvaraṇa (covering) that hides what was always there. You are not building yourself toward liberation. You are uncovering yourself toward liberation.</div>
+<div class="concept-tags">
+<span class="concept-tag">Jīvataśakti</span>
+<span class="concept-tag">Anākulatā Sukha</span>
+<span class="concept-tag">Sarvajñataśakti</span>
+<span class="concept-tag">Svābhāvika</span>
+</div>
+</div>
+
+<!-- Part 3 -->
+<div class="section-divider"><span>Part 3 · Kalaśas 247–263 · Syādvāda: The 14 Bhaṅgas of Jñāna</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
+<span class="principle-name">Syādvāda as Purifier — Precision Over Absolutism</span>
+<span class="principle-def">The 14-bhaṅga analysis uses the syādvāda framework to map precisely what jñāna is and what it is not. The goal is not intellectual completeness but prasāda (clarification/purification): once jñāna is seen precisely as existing only in its own dravya-kṣetra-kāla-bhāva and nowhere else, the jñāna-mūḍha's confusion dissolves, and the anekānta ātmatattva is experienced (anubhūyate) spontaneously.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">The 14 Bhaṅgas — How Jñāna Exists and Does Not Exist</span>
+<div class="overflow-x-auto mt-2">
+<table class="w-full text-sm border-collapse">
+<thead>
+<tr class="border-b border-[#C9A84C]/20">
+<th class="text-left py-2 pr-4 font-label uppercase tracking-widest text-xs text-primary/70 font-semibold">#</th>
+<th class="text-left py-2 pr-6 font-label uppercase tracking-widest text-xs text-primary/70 font-semibold">Bhaṅga</th>
+<th class="text-left py-2 font-label uppercase tracking-widest text-xs text-primary/70 font-semibold">Meaning</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#C9A84C]/10 font-body">
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">1</td><td class="py-2 pr-6 font-headline text-on-surface">Svadravya-astittva</td><td class="py-2 text-on-surface-variant">Jñāna exists in its own dravya (ātmā)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">2</td><td class="py-2 pr-6 font-headline text-on-surface">Paradravya-nastittva</td><td class="py-2 text-on-surface-variant">Jñāna is non-existent in other dravyas (pudgala, etc.)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">3–4</td><td class="py-2 pr-6 font-headline text-on-surface">Sva/Para-kṣetra</td><td class="py-2 text-on-surface-variant">Jñāna exists in its own space; non-existent in others' space</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">5–6</td><td class="py-2 pr-6 font-headline text-on-surface">Sva/Para-kāla</td><td class="py-2 text-on-surface-variant">Jñāna exists in its own time-mode; non-existent in others'</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">7–8</td><td class="py-2 pr-6 font-headline text-on-surface">Sva/Para-bhāva</td><td class="py-2 text-on-surface-variant">Jñāna exists in its own bhāva (jñāna-guṇa paryāya); non-existent in others'</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">9</td><td class="py-2 pr-6 font-headline text-on-surface">Krama-parināma</td><td class="py-2 text-on-surface-variant">Jñāna changes sequentially (paryāya-mode)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">10</td><td class="py-2 pr-6 font-headline text-on-surface">Akrama-parināma</td><td class="py-2 text-on-surface-variant">Jñāna's guṇa is unchanging (nityatva of the guṇa itself)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">11</td><td class="py-2 pr-6 font-headline text-on-surface">Nityatva</td><td class="py-2 text-on-surface-variant">Jñāna is permanent (dravyārthinaya)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">12</td><td class="py-2 pr-6 font-headline text-on-surface">Anityatva</td><td class="py-2 text-on-surface-variant">Jñāna is impermanent (paryāyārthinaya)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">13</td><td class="py-2 pr-6 font-headline text-on-surface">Nitya-anityatva</td><td class="py-2 text-on-surface-variant">Both permanent and impermanent simultaneously (anekānta)</td></tr>
+<tr><td class="py-2 pr-4 text-primary font-bold font-headline">14</td><td class="py-2 pr-6 font-headline text-on-surface">Avaktavyatva</td><td class="py-2 text-on-surface-variant">Inexpressible in its simultaneous unity (syāt-avaktavya)</td></tr>
+</tbody>
+</table>
+</div>
+<div class="simple-explanation"><b>The result:</b> Every time you say "my body is sick" you commit paradravya-astittva — wrongly placing ātmā in body's kṣetra/bhāva. The 14 bhaṅgas are a corrective lens. Jñāna exists only in its own dravya, kṣetra, kāla, bhāva. Once seen precisely, ātmā recognizes itself automatically — not through effort but through clarity.</div>
+<div class="concept-tags">
+<span class="concept-tag">Syādvāda</span>
+<span class="concept-tag">Svadravya-Astittva</span>
+<span class="concept-tag">Paradravya-Nastittva</span>
+<span class="concept-tag">14 Bhaṅgas</span>
+<span class="concept-tag">Prasāda</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 262 — Syādvāda Leads to Svayam-Anubhava</span>
+<p class="sutra-sanskrit font-headline">इत्यज्ञानविमूढ़ानां ज्ञानमात्रं प्रसादयन्।<br/>आत्मतत्त्वमनेकान्तः स्वयमेवानुभूयते।। २६२ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Thus, by clarifying jñānamātra for those bewildered by ajñāna, the anekānta-ātmatattva is experienced spontaneously (svayameva anubhūyate).</p>
+<div class="simple-explanation"><b>The teaching:</b> Syādvāda does not produce liberation through argument. It produces clarity. And when the fog of ajñāna lifts — the ātmā, which was always there, simply appears. "Svayameva" — by itself, automatically. You cannot manufacture ātmā-anubhava; you can only remove the obstructions to it.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 263 — The Jain Śāsana Is Alaṅghya (Unbreachable)</span>
+<p class="sutra-sanskrit font-headline">एवं तत्त्वव्यवस्थित्या स्वं व्यवस्थापयन् स्वयम्।<br/>अलङ्घ्यं शासनं जैनमेकान्तो व्यवस्थितः।। २६३ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Thus, by establishing itself through tattva-vyavasthā (precise tattva-arrangement), the Jain śāsana — established by its own ekānta (syādvāda's non-one-sided singleness) — is unbreachable (alaṅghya).</p>
+<div class="simple-explanation"><b>The claim:</b> Syādvāda is not merely tolerant of multiple views. It is itself established through tattva-vyavasthā — by the precision of its own tattva-mapping, it creates a philosophical structure that cannot be overturned from outside because it already contains all legitimate outside views within itself.</div>
+<div class="concept-tags">
+<span class="concept-tag">Alaṅghya Śāsana</span>
+<span class="concept-tag">Tattva-Vyavasthā</span>
+<span class="concept-tag">Anekānta</span>
+</div>
+</div>
+
+<!-- Part 4 -->
+<div class="section-divider"><span>Part 4 · Kalaśas 266–268 · Upāya-Upeya — Ātmā as Path and Goal</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
+<span class="principle-name">The Non-Dual Path — Sādhaka-Rūpa and Siddha-Rūpa Are One</span>
+<span class="principle-def">The Pariśiṣṭam dissolves the spiritual path's apparent duality: path here, goal there. Since ātmā's nature IS jñānamātra — and the goal of mokṣa IS also jñānamātra (the unobstructed expression of the same nature) — there is no external destination to reach. The sādhaka-rūpa (ātmā as seeker) and the siddha-rūpa (ātmā as achieved) are the same jñānamātra seen in two modes. To know ātmā IS to become ātmā.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">The Upāya-Upeya Identity</span>
+<p class="text-base text-on-surface-variant leading-relaxed font-headline italic">ātmavastuno jñānamātratvena upāyopeyabhāva — through its jñānamātra-nature, ātmā is simultaneously upāya (the means, the path) and upeya (the goal, the destination).</p>
+<div class="mt-4 grid grid-cols-2 gap-4">
+<div class="p-4 bg-[#f8f3eb] rounded-lg">
+<div class="text-xs font-label uppercase tracking-widest text-primary/70 font-semibold mb-2">Upāya (Path)</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">Ātmā as sādhaka-rūpa: the jīva practicing niścaya-svabhāva-paricaya, progressively removing āvaraṇa. The path is not external ritual — it is the ātmā's own self-acquaintance.</p>
+</div>
+<div class="p-4 bg-[#f8f3eb] rounded-lg">
+<div class="text-xs font-label uppercase tracking-widest text-primary/70 font-semibold mb-2">Upeya (Goal)</div>
+<p class="text-sm text-on-surface-variant leading-relaxed">The same ātmā as siddha-rūpa: jñānamātra fully expressed, without āvaraṇa. Not a separate place or entity — the same substance now unobstructed.</p>
+</div>
+</div>
+<div class="simple-explanation"><b>The implication:</b> You do not travel to some distant mokṣa — you deepen into what you already are. Every genuine act of self-knowing IS liberation, even if incomplete. The path and the goal share the same jñānamātra nature.</div>
+<div class="concept-tags">
+<span class="concept-tag">Upāya-Upeya</span>
+<span class="concept-tag">Sādhaka-Rūpa</span>
+<span class="concept-tag">Siddha-Rūpa</span>
+<span class="concept-tag">Jñānamātra</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 268 — The Ātmā That Rises for the One Who Takes Refuge</span>
+<p class="sutra-sanskrit font-headline">चितिपिण्डचण्डमिलसिविकासहासः<br/>शुद्धप्रकाशभरनिर्भरसुप्रभातः।<br/>आनन्दसुस्थितसदाखिलतैकरूपः<br/>तस्यैव चायमुदयत्यचलचिरत आत्मा।। २६८ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">With the blazing laugh of citipiṇḍa's (the mass of consciousness) natural expansion; full of the burden of pure radiance, like an excellent dawn; eternally established in ānanda; of singular form that pervades everything always — for that one, this ātmā rises, steady and eternal.</p>
+<div class="simple-explanation"><b>Citipiṇḍa-chaṇḍa-vikāsa-hāsaḥ:</b> The mass of consciousness (citipiṇḍa) has a natural expansive "laugh" (hāsa) — the spontaneous blossoming of awareness that is not forced but is cit's natural tendency when unobstructed. The ātmā does not rise from outside. For the one who rests in upāya-upeya bhāva, this ātmā simply… arises.</div>
+<div class="concept-tags">
+<span class="concept-tag">Citipiṇḍa</span>
+<span class="concept-tag">Vikāsa-Hāsa</span>
+<span class="concept-tag">Ānanda-Susthita</span>
+<span class="concept-tag">Acala</span>
+</div>
+</div>
+
+<!-- Part 5 -->
+<div class="section-divider"><span>Part 5 · Kalaśas 269–271 · Jñāna–Jñeya–Jñātṛ Are One Vastu</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
+<span class="principle-name">The Summit — The Triadic Structure Collapses</span>
+<span class="principle-def">The apparent triadic structure of knowing — jñātṛ (knower), jñeya (known), jñāna (knowledge) — which seems to divide reality into three, is here revealed as one undivided jñānamātra vastu. The jñeya does not exist as a separate entity that jñāna "reaches out to." It appears as waves (kallola) within jñāna itself. This is the philosophical summit of the entire Pariśiṣṭam.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 271 — Jñāna-Jñeya-Jñātṛ: One Undivided Vastu</span>
+<p class="sutra-sanskrit font-headline">योऽयं भावो ज्ञानमात्रोऽहमस्मि<br/>ज्ञेयो ज्ञेयज्ञानमात्रः स नैव।<br/>ज्ञेयो ज्ञेयज्ञानकल्लोलवल्गन्<br/>ज्ञानज्ञेयज्ञातृमद्वस्तुमात्रः।। २७१ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This bhāva — I am jñānamātra. The jñeya (object) is not jñeyajñānamātra as something separate. The jñeya floats as waves (kallola) of jñeya-jñāna. [In truth] this is the pure vastu of jñāna-jñeya-jñātṛ combined.</p>
+<div class="simple-explanation"><b>The wave analogy:</b> An ocean does not go to its waves — the waves ARE the ocean in motion. Similarly, jñeya is jñāna in its knowing-mode. The "thing known" is a wave in the knowing-ness. There is no outsider to the ocean. Jñātṛ + jñāna + jñeya = one jñānamātra vastu. This resolves the deepest question of the entire Samaysaar — what is the relationship between the knower and the known?</div>
+<div class="concept-tags">
+<span class="concept-tag">Jñāna-Jñeya-Jñātṛ</span>
+<span class="concept-tag">Jñāna-Kallola</span>
+<span class="concept-tag">Vastu-Mātra</span>
+<span class="concept-tag">Non-Duality</span>
+</div>
+</div>
+
+<!-- Part 6 -->
+<div class="section-divider"><span>Part 6 · Kalaśas 272–274 · The Meca/Ameca Dialectic — Anekāntatva of Ātmā</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 272 — The Alam-Medhā Is Never Bewildered</span>
+<p class="sutra-sanskrit font-headline">क्वचिच्छ्वसिति मेचकं क्वचिन्मेचकामेचकं<br/>क्वचित्पुनरमेचकं सहजमेव तत्त्वं मम।<br/>तथापि न विमोहयत्यलमेधसां तन्मनः<br/>परस्परसुसंहतप्रकटशक्तिचक्रं स्फुरत्।। २७२ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Sometimes (my tattva) appears meca (dark, impure — karma-mixed); sometimes meca-ameca (dark-and-clear, mixed); sometimes ameca (pure, clear) — yet my tattva is sahaja (natural, unchanged) throughout. Yet this does not bewilder the mind of the alam-medhasā (the sufficient-intellect person), for the interlinked and manifest power-complex (śakticakra) blazes forth.</p>
+<div class="simple-explanation"><b>What meca/ameca means:</b> Meca = clouded, dark, impure (like a clouded sky). Ameca = pure, clear, unclouded. Under different naya-viewpoints (dravya vs paryāya) and different karma-states, ātmā appears differently. The alam-medhasā (truly wise — not the half-educated) is not bewildered because he holds the śakticakra — the integrated understanding of all of ātmā's śaktis — and sees the unity beneath the multiplicity.</div>
+<div class="concept-tags">
+<span class="concept-tag">Meca / Ameca</span>
+<span class="concept-tag">Sahaja Tattva</span>
+<span class="concept-tag">Alam-Medhasā</span>
+<span class="concept-tag">Śakticakra</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 273 — The Six-Fold Anekāntatva: The Adbhuta Vaibhava</span>
+<p class="sutra-sanskrit font-headline">इतो गतमनेकतां दधदितः सदाप्येकता-<br/>मितः क्षणविभङ्गुरं ध्रुवमितः सदैवोदयात्।<br/>इतः परमविस्तृतं धृतमितः प्रदेशैर्निजैः<br/>रहो सहजात्मनस्तदिदमद्भुतं वैभवम्।। २७३ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">From one angle: anekā (many-natured); from another: always eka (one). From one angle: kṣaṇabhaṅgura (momentary); from another: dhruva (permanent — by always arising). From one angle: paramavistṛta (infinitely extended); from another: held within its own pradeśas. This is the wonderful (adbhuta) vaibhava (glory) of the sahaja-ātmā — it is a secret (raho).</p>
+<div class="simple-explanation"><b>Not contradiction — glory:</b> The anekāntatva of ātmā is not a philosophical escape hatch. It is the vaibhava — the wonder, the magnificence. The same ātmā that is momentary is also permanent. The same ātmā that is infinitely vast is also contained within its own pradeśas. "Raho" — a secret, accessible only to those who can hold multiple vantage points simultaneously without demanding ekānta resolution.</div>
+<div class="concept-tags">
+<span class="concept-tag">Anekāntatva</span>
+<span class="concept-tag">Adbhuta Vaibhava</span>
+<span class="concept-tag">Kṣaṇabhaṅgura + Dhruva</span>
+<span class="concept-tag">Eka + Aneka</span>
+</div>
+</div>
+
+<!-- Part 7 -->
+<div class="section-divider"><span>Part 7 · Kalaśa 275 · Victory of Caitanya-Camatkāra</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 275 — The Natural Radiance Outshines the Triloka</span>
+<p class="sutra-sanskrit font-headline">जयति सहजतेजःपुञ्जमज्जित्रिलोकी-<br/>स्खलदखिलविकल्पोऽप्येक एव स्वरूपः।<br/>स्वरसविसरपूर्णच्छिन्नतत्त्वोपलब्धः<br/>प्रसभनियमितार्चिश्चित्वचित्मत्कार एषः।। २७५ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Victory to this caitanya-camatkāra — the ātmā that drowns the triloka in its natural radiance (sahajatejapuñja), whose svarūpa is singular (ekam eva) even as all vikalpas dissolve, whose tattvopalabdhi is complete and full of its own rasa (svarasa-visara-pūrṇa), whose flame is unconditionally constant (prasabha-niyamita-arci). This camatkāra is victorious!</p>
+<div class="simple-explanation"><b>Sahajatejapuñja-majji-trilokī:</b> The triloka (three realms) is drowned/immersed in the natural radiance of ātmā. Not that ātmā illuminates a portion of the triloka — the entire triloka floats within ātmā's jñāna. This is the sarvajñatā of the fully expressed ātmā. A lamp doesn't fight darkness — it simply shines, and darkness has no choice. Caitanya-camatkāra (the wonder of pure consciousness) is the inevitable victor.</div>
+<div class="concept-tags">
+<span class="concept-tag">Caitanya-Camatkāra</span>
+<span class="concept-tag">Sahajatejapuñja</span>
+<span class="concept-tag">Svarasa-Visara</span>
+<span class="concept-tag">Prasabha-Niyamita</span>
+</div>
+</div>
+
+<!-- Part 8 -->
+<div class="section-divider"><span>Part 8 · Kalaśas 276–278 · Amṛtacandra's Blessing and the Colophon</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
+<span class="principle-name">The Commentator Becomes the Practice</span>
+<span class="principle-def">In the closing verses, Amṛtacandra steps out of the role of commentator and enters the first person. He reveals his own name embedded in the blessing verse (K276) and closes with the most extraordinary colophon in classical Jain literature: the words that revealed the vastu through their own śakti are complete; for the one absorbed in svarūpa, nothing remains to be done.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 276 — Amṛtacandra Reveals His Name in a Blessing</span>
+<p class="sutra-sanskrit font-headline">अविचलितचिदात्मन्यात्मनातमान्मात्म-<br/>न्यनवरतनिमग्नं धारयद्ध्वस्तमोहम्।<br/>उदितममृतचंद्रज्योतिरेत्समन्ता-<br/>ज्ज्वलतु विमलपूर्ण निःसपत्नस्वभावम्।। २७६ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">May the one who holds the motionless cit-ātmā (avicalita-cidātman) within itself, constantly immersed (anavarata-nimagnam), with moha destroyed — may that Amṛtacandra-jyoti (the nectar-moon's radiance; Amṛtacandra the author) blaze forth everywhere (samantāt), pure and full, with an uncontested nature (niḥsapatna-svabhāvam)!</p>
+<div class="simple-explanation"><b>The śleṣa (double meaning):</b> "Amṛtacandrajyotiḥ" means both (1) the jyoti of amṛtacandra (nectar-moon = the fully expressed jñāna-ātmā) and (2) Amṛtacandra, the author, offering a self-blessing. "Niḥsapatna" — without rival, uncontested. No other dravya can claim to be the knowing subject. Ātmā's svabhāva is niḥsapatna. The commentary reaches its most personal moment — the author names himself the light.</div>
+<div class="concept-tags">
+<span class="concept-tag">Avicalita-Cidātman</span>
+<span class="concept-tag">Amṛtacandrajyoti</span>
+<span class="concept-tag">Niḥsapatna</span>
+<span class="concept-tag">Anavarata-Nimagnam</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 277 — Ajñāna and Jñāna: Before and After</span>
+<p class="sutra-sanskrit font-headline">यस्माद्द्वैतमभूत्पुरा स्वपरयोर्भूत् यतोऽत्रान्तरं<br/>रागद्वेषपरिग्रहे सति यतो जातं क्रियाकारकैः।<br/>भुञ्जान च यतोऽनुभूतिरखिलं खिन्ना क्रियायाः फलं<br/>तद्विज्ञानघनोऽघमग्नमधुना किञ्चिन्न किञ्चित्कल।। २७७ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Because of ajñāna — dvaita arose between sva and para; separation appeared; with rāga-dveṣa-parigraha, kriyā-kārakas proliferated; the anubhūti exhausted itself consuming kriyā's fruits — that (ajñāna) is now drowned in vijñānaghana (dense mass of jñāna). Now (adhunā): nothing at all (kiñcin na kiñcit).</p>
+<div class="simple-explanation"><b>The before and after:</b> In ajñāna: sva-para dvaita → rāga-dveṣa → agent-action multiplication → exhausted experience of kriyā's fruits. In jñāna: all of that is vijñānaghana — drowned in the dense ocean of jñāna. "Kiñcin na kiñcit" — not "nothing happened" but "no other thing exists as a separate reality." Vijñānaghana alone is.</div>
+<div class="concept-tags">
+<span class="concept-tag">Vijñānaghana</span>
+<span class="concept-tag">Dvaita Dissolution</span>
+<span class="concept-tag">Kiñcin Na Kiñcit</span>
+<span class="concept-tag">Kriyā-Kāraka</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśa 278 — The Final Verse · Words Reveal Through Their Own Śakti</span>
+<p class="sutra-sanskrit font-headline">स्वशक्तिसंसूचितवस्तुतत्त्वै-<br/>र्व्याख्या कृतेयं समयस्य शब्दैः।<br/>स्वरूपगुप्तस्य न किञ्चिदस्ति<br/>कर्तव्यमेवामृतचन्द्रसूरेः।। २७८ ।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The commentary (vyākhyā) of the Samaya (Samayaprābhṛta) has been accomplished through words (śabdaiḥ) that reveal (saṃsūcita) the tattva-vastu through their own śakti (svayaṃ-śakti). For Amṛtacandrasūri — who is absorbed (gupta) in his own svarūpa — there is nothing whatsoever remaining to be done (na kiñcid karttavyam).</p>
+<div class="simple-explanation"><b>"Sva-śakti-saṃsūcita-vastu-tattvaiḥ śabdaiḥ"</b> — the words of the commentary revealed the vastu-tattva through the words' own śakti, not through the author's ego. ātmā (as vastu) is self-revealing. The words of jñāna-śāstra carry inherent power to reveal the ātmā-tattva when received with śraddhā. "Svarūpa-gupta" — Amṛtacandra is hidden in his own svarūpa — absorbed in the ātmā, not visible as ego-author. "Na kiñcid karttavyam" — for one absorbed in svarūpa, there is no agent-action-result structure anymore. The kārtā has dissolved into jñātā.</div>
+<div class="concept-tags">
+<span class="concept-tag">Sva-Śakti</span>
+<span class="concept-tag">Svarūpa-Gupta</span>
+<span class="concept-tag">Na Kiñcit Karttavyam</span>
+<span class="concept-tag">Colophon</span>
+</div>
+</div>
+
+<!-- Closing colophon -->
+<div class="mt-8 p-10 rounded-xl border border-[#C9A84C]/30 bg-gradient-to-br from-[#fef9f1] to-white text-center">
+<p class="font-headline text-on-surface text-xl italic leading-relaxed mb-4">इति श्रीमदमृतचंद्राचार्यकृता समयसारव्याख्या आत्मख्याति: समाप्ता।।</p>
+<p class="text-on-surface-variant text-base leading-relaxed">Thus is complete the commentary on the Samaysaar called Ātmakhyāti, composed by Śrīmad Amṛtacandracārya.</p>
+<div class="mt-6 flex justify-center"><span class="text-primary/40 font-headline text-4xl">•</span></div>
+<p class="text-sm text-on-surface-variant/60 font-label uppercase tracking-widest mt-4">Samayaprābhṛta · Kundakunda · Gathas 1–415 · Complete</p>
+</div>
+
+</div>
+
+<!-- Right sidebar -->
+<div class="col-span-12 lg:col-span-4 flex flex-col gap-8 lg:pt-10">
+
+<!-- Final chapter card -->
+<div class="rounded-xl border border-[#C9A84C]/20 overflow-hidden sticky top-32">
+<div class="burnished-gradient px-6 py-5">
+<div class="text-white/70 font-headline uppercase tracking-[0.2em] text-xs font-semibold">The Samaysaar Complete</div>
+<div class="text-white text-2xl font-headline font-bold mt-1">All 10 Adhikars</div>
+</div>
+<div class="bg-white p-6 flex flex-col gap-3">
+<div class="text-xs font-label uppercase tracking-widest text-on-surface-variant font-semibold mb-1">All Sections</div>
+
+<a href="samaysaar-ch1.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">1</span>
+<span class="font-headline">Jīvādhikar — The Living Self</span>
+</a>
+<a href="samaysaar-ch2.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">2</span>
+<span class="font-headline">Ajīvādhikar — Non-Living Matter</span>
+</a>
+<a href="samaysaar-ch3.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">3</span>
+<span class="font-headline">Karttā-Karmādhikar — Doership</span>
+</a>
+<a href="samaysaar-ch4.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">4</span>
+<span class="font-headline">Puṇya-Pāpādhikar — Merit &amp; Demerit</span>
+</a>
+<a href="samaysaar-ch5.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">5</span>
+<span class="font-headline">Āsravādhikar — Karmic Inflow</span>
+</a>
+<a href="samaysaar-ch6.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">6</span>
+<span class="font-headline">Saṃvarādhikar — Karmic Stoppage</span>
+</a>
+<a href="samaysaar-ch7.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">7</span>
+<span class="font-headline">Nirjarādhikar — Karmic Erosion</span>
+</a>
+<a href="samaysaar-ch8.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">8</span>
+<span class="font-headline">Bandhādhikar — Karmic Bondage</span>
+</a>
+<a href="samaysaar-ch9.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">9</span>
+<span class="font-headline">Mokṣādhikar — Liberation</span>
+</a>
+<a href="samaysaar-ch10.html" class="flex items-center gap-3 text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">10</span>
+<span class="font-headline">Sarvavishuddhajñāna — Pure Knowledge</span>
+</a>
+<div class="flex items-center gap-3 text-sm text-primary py-1.5 font-semibold">
+<span class="text-primary font-headline font-bold text-xs w-5 shrink-0">✦</span>
+<span class="font-headline">Upasamhāra — Conclusion (You Are Here)</span>
+</div>
+
+<div class="mt-4 pt-4 border-t border-outline-variant/30">
+<a href="samaysaar-index.html" class="flex items-center gap-2 text-xs font-label uppercase tracking-widest text-primary hover:underline">
+<span class="material-symbols-outlined" style="font-size:14px">home</span>Samaysaar Index
+</a>
+</div>
+</div>
+</div>
+
+<!-- Key terms -->
+<div class="rounded-xl border border-[#C9A84C]/20 bg-white p-6 flex flex-col gap-4">
+<div class="text-xs font-label uppercase tracking-widest text-on-surface-variant font-semibold">Key Terms</div>
+<div class="flex flex-col gap-3 text-sm">
+<div class="flex flex-col gap-1">
+<span class="font-headline font-bold text-on-surface">Jñānamātra</span>
+<span class="text-on-surface-variant leading-relaxed">Pure knowing-ness — the undivided self that is neither fragmented by substance, space, time, nor mode</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-headline font-bold text-on-surface">Upāya-Upeya</span>
+<span class="text-on-surface-variant leading-relaxed">Means and goal — the spiritual path and its destination share the same jñānamātra nature</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-headline font-bold text-on-surface">Vijñānaghana</span>
+<span class="text-on-surface-variant leading-relaxed">Dense mass of pure knowledge — the state in which dvaita, rāga-dveṣa, and kriyā-kāraka structures dissolve</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-headline font-bold text-on-surface">Caitanya-Camatkāra</span>
+<span class="text-on-surface-variant leading-relaxed">The wonder of pure consciousness — the natural amazement of the ātmā recognizing itself as the light in which all arises</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-headline font-bold text-on-surface">Svarūpa-Gupta</span>
+<span class="text-on-surface-variant leading-relaxed">Hidden in one's own svarūpa — the dissolved state of the commentator-author who is absorbed in the ātmā being described</span>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-inverse-surface text-inverse-on-surface py-16 mt-24">
+<div class="max-w-screen-2xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between gap-8">
+<div class="flex flex-col gap-3">
+<span class="text-2xl font-headline text-primary-container tracking-tighter font-bold">JainAwaken.org</span>
+<p class="text-sm text-inverse-on-surface/60 max-w-sm font-light leading-relaxed">Samayaprābhṛta by Kundakunda · Ātmakhyāti commentary by Amṛtacandrasūri · Complete — 9 Adhikars (415 Gathas) + Pariśiṣṭam</p>
+</div>
+<div class="flex flex-col gap-3">
+<a href="samaysaar-index.html" class="text-sm text-inverse-on-surface/70 hover:text-primary-container transition-colors font-headline">Samaysaar Index</a>
+<a href="samaysaar-ch10.html" class="text-sm text-inverse-on-surface/70 hover:text-primary-container transition-colors font-headline">← Adhikar 9: Sarvavishuddhajñāna</a>
+<a href="../../index-v4.html" class="text-sm text-inverse-on-surface/70 hover:text-primary-container transition-colors font-headline">JainAwaken Home</a>
+</div>
+</div>
+</footer>
+
+<script>
+// Floating nav buttons
+const navLeft = document.getElementById('nav-left');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    navLeft && navLeft.classList.add('visible');
+  } else {
+    navLeft && navLeft.classList.remove('visible');
+  }
+});
+</script>
+</body>
+</html>
