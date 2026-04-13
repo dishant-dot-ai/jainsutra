@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Samaysaar — Adhikar 9: Sarvavishuddhajnana (Pure All-Knowledge, Gathas 308–415) | JainAwaken.org</title>
+<title>Samaysaar — Adhikar 9: Sarvavishuddhajñāna (Pure All-Knowledge, Gathas 308–415) | JainAwaken.org</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
@@ -34,15 +34,15 @@ html { scroll-behavior: smooth; }
 .burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
 .sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
 .sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
-.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
-.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
 .simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
 .simple-explanation b { color: #1d1c17; font-weight: 600; }
 .concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
 .concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
-.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: #ffffff; border: 1px solid #C9A84C; color: #755b00; transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
 .nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
-.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.nav-button:hover { border-color: #C9A84C; color: #503d00; }
 .glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
 .section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
 .section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
@@ -57,7 +57,7 @@ html { scroll-behavior: smooth; }
 @media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
 </style>
 </head>
-<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<body class="text-on-surface font-body selection:bg-primary-container bg-[#f8f7f6]">
 
 <!-- Floating Navigation Buttons -->
 <a class="nav-button left-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch9.html" id="nav-left" style="left:24px">
@@ -77,588 +77,394 @@ Adhikar 10<span class="material-symbols-outlined text-base" style="font-size:18p
 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
 <a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
-</div></div>
+</div>
+</div>
 <div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+</div>
 <a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
 </div>
 </div>
 </nav>
 
 <main class="pt-40">
+
 <!-- Hero -->
 <section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
 <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
 <div class="flex flex-col gap-3">
 <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Samaysaar · Adhikar 9 · Gathas 308–415</span>
 <h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
-  Pure Knowledge<span class="block text-primary font-normal text-xl md:text-2xl mt-2">सर्वविशुद्धज्ञान अधिकार</span>
+Pure Knowledge<span class="block text-primary font-normal text-xl md:text-2xl mt-2">सर्वविशुद्धज्ञान अधिकार</span>
 </h1>
 </div>
 <h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">All 108 gathas of the ninth Adhikar — the jñāyaka is the jñāyaka alone; rāga is your own pariṇāma; jñāna is non-separate from the knower; darśana-jñāna-cāritra — not any external garb — is the only path to liberation</h2>
 <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">The washing stone whitens clothes by its own nature — it is the washing stone alone. The knower knows by its own nature — it is the knower alone. The entire ninth Adhikar is a sustained proof: the soul's knowing-nature is utterly untouched by karma, body, sense-objects, and even scripture. You, the soul, are jñāna itself.</p>
-<div class="flex gap-8 items-center flex-wrap">
-<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">108</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Gathas</span></div>
-<div class="w-px h-10 bg-outline-variant"></div>
-<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">9</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">of 10 Adhikars</span></div>
-<div class="w-px h-10 bg-outline-variant"></div>
-<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">148</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Karma Declarations</span></div>
-</div>
 <a class="text-primary font-headline text-sm uppercase tracking-[0.2em] flex items-center gap-2 hover:gap-3 transition-all" href="samaysaar-index.html">
 <span class="material-symbols-outlined" style="font-size:16px">arrow_back</span>Back to Samaysaar Index
 </a>
 </div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Samaysaar Adhikar 9 Sarvavishuddhajñāna" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">जम्हा जाणिदे णिचं तम्हा जीवो दु जाणगो णाणी।<br/>णाणं च जाणयादो अव्विदिरित्तं मुणेयव्वं।।</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Because jīva always knows, therefore jīva is jñāyaka — the knower — the jñānī. And jñāna should be understood as avyatiriktam (non-separate, non-distinct) from the jñāyaka." — Gatha 403</p>
+</div>
+</div>
+</section>
 
-<!-- Featured verse panel -->
-<div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
-<div class="rounded-xl overflow-hidden shadow-xl border border-[#C9A84C]/20">
-<div class="burnished-gradient px-8 py-6">
-<span class="text-white/70 font-headline uppercase tracking-[0.2em] text-xs font-semibold">Featured Verse — G403</span>
-<p class="sutra-sanskrit text-white mt-3 font-headline">जम्हा जाणिदे णिचं तम्हा जीवो दु जाणगो णाणी।<br/>णाणं च जाणयादो अव्विदिरित्तं मुणेयव्वं।।४०३।।</p>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Section</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sarvavishuddhajñāna</h3>
 </div>
-<div class="bg-white px-8 py-6 flex flex-col gap-4">
-<p class="font-headline text-on-surface-variant italic text-lg leading-relaxed">Because (jīva) always knows (nityaṃ jānāti), therefore jīva is jñāyaka — the knower — the jñānī. And jñāna should be understood as avyatiriktam (non-separate, non-distinct) from the jñāyaka.</p>
-<p class="text-on-surface-variant text-base leading-relaxed">Jñāna is not an activity the soul performs. Jñāna is not a product produced by the soul. Jñāna is what the soul IS. The knower and the knowing are one substance. This is the summit of Adhikar 9 — and the reason it is called Sarvavishuddhajñāna: pure knowledge, unsullied by any admixture of karma, object, or act.</p>
-<div class="concept-tags">
-<span class="concept-tag">Jñāyaka</span>
-<span class="concept-tag">Avyatiriktam</span>
-<span class="concept-tag">Nityaṃ Jānāti</span>
-<span class="concept-tag">Jñāna = Jīva</span>
-</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Sarvavishuddhajñāna</span> — Pure All-Knowledge — is the summit of the Samaysaar's nine adhikars. Kundakunda opens with the foundational ontology: dravya and its guṇas are ananya (non-separate), but different dravyas are strictly distinct. The soul cannot be produced by karma nor can it produce karma. This mutual distinctness, combined with the nimitta-naimittika relationship that sustains saṃsāra, is the structural foundation on which the entire adhikar rests.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The central thesis: the soul is <em>jñāyaka</em> — the eternal knower — alone. Jñāna is <em>avyatiriktam</em> (non-separate) from jñāyaka. This knowing-nature has nothing to do with any para-dravya: not karma, not body, not sense-objects, not dharma-astikāya, not the act of doing or experiencing. Every trace of ownership (mamakāra), agency (kartṛtva), and enjoyership (bhoktṛtva) projected onto the soul is mithyā. The path to liberation is darśana-jñāna-cāritra — not any external garb (liṅga).</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">108</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Gathas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Parts</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">148</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Karma Declarations</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Adhikar 9</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">of 10</span></div>
 </div>
 </div>
 </div>
 </section>
 
-<!-- Principles -->
-<section class="bg-surface-container-low py-24 mb-20">
-<div class="max-w-screen-2xl mx-auto px-6 md:px-12">
-<div class="section-divider mb-10"><span>Five Governing Principles</span></div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-
-<div class="principle-banner">
-<div class="principle-header">
-<span class="principle-badge">Principle I</span>
+<!-- Gathas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Sarvavishuddhajñāna · Samaysaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Gathas 308–415</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">All 108 gathas of Adhikar 9, presented with original Prakrit, Sanskrit chāyā, English translation, and commentary — organized into eight thematic parts.</p>
 </div>
-<span class="principle-name">Jñāyaka Is Jñāyaka Alone</span>
-<span class="principle-def">The seṭikā (washing stone) whitens by its own svabhāva — it is the seṭikā alone. The jñāyaka knows by its own svabhāva — it is jñāyaka alone. No karma, no body, no object modifies what the knower essentially is.</span>
-</div>
-
-<div class="principle-banner">
-<div class="principle-header">
-<span class="principle-badge">Principle II</span>
-</div>
-<span class="principle-name">Karma Is the Kartā</span>
-<span class="principle-def">All jīvas are akāraka (non-doers) in the ultimate sense. Karma is the kartā. The soul's apparent agency arises from misidentification with karma's modifications. When that misidentification dissolves, karma exhausts itself.</span>
-</div>
-
-<div class="principle-banner">
-<div class="principle-header">
-<span class="principle-badge">Principle III</span>
-</div>
-<span class="principle-name">Rāga Is Your Own Pariṇāma</span>
-<span class="principle-def">No external object causes rāga, dveṣa, or moha. The object is nimitta; the pariṇāma arises in the soul from the soul's own modification. No dravya can produce another dravya's guṇa.</span>
-</div>
-
-<div class="principle-banner">
-<div class="principle-header">
-<span class="principle-badge">Principle IV</span>
-</div>
-<span class="principle-name">The Three Kalpas of Niścaya-Cāritra</span>
-<span class="principle-def">Pratikramaṇa = past karma mamtva-tyāga. Ālocana = present udaya-doṣa witnessing. Pratyākhyāna = future karma intention-release. These three performed constantly — not ritually — constitute the soul's authentic conduct.</span>
-</div>
-
-<div class="principle-banner">
-<div class="principle-header">
-<span class="principle-badge">Principle V</span>
-</div>
-<span class="principle-name">Darśana-Jñāna-Cāritra Is the Only Path</span>
-<span class="principle-def">Liṅga (external garb — muni or householder) is not the mokṣa-mārga. Darśana-jñāna-cāritra is the mokṣa-mārga. The ātmā that establishes itself in its own seeing-knowing-conduct attains uttama saukhya.</span>
-</div>
-
-</div>
-</div>
-</section>
-
-<!-- Main Content -->
-<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 mb-32">
-
-<!-- Left column: gathas -->
-<div class="col-span-12 lg:col-span-8 flex flex-col gap-10">
 
 <!-- Part 1 -->
 <div class="section-divider"><span>Part 1 · G308–G315 · Ananya-Pariṇāma: Soul and Its Modifications Are Non-Separate</span></div>
 
 <div class="principle-banner">
-<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
+<div class="principle-header">
+<span class="principle-badge">Foundational Ontology</span>
 <span class="principle-name">The Gold-Bracelet Analogy</span>
-<span class="principle-def">Kundakunda opens Adhikar 9 with the foundational ontology: dravya and its guṇas are ananya (non-separate). Gold cannot exist without some form — bracelet, ring, ingot. The soul cannot exist without its own paryāyas (modifications). But those paryāyas are its own — not karma's. This non-separateness of substance and quality, combined with the strict distinctness of different substances, is the structural foundation of everything that follows.</span>
+</div>
+<p class="principle-def">Kundakunda opens Adhikar 9 with the foundational ontology: dravya and its guṇas are ananya (non-separate). Gold cannot exist without some form — bracelet, ring, ingot. The soul cannot exist without its own paryāyas. But those paryāyas are its own — not karma's. This non-separateness of substance and quality, combined with the strict distinctness of different substances, is the structural foundation of everything that follows.</p>
 </div>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G308 — Gold-Bracelet Analogy: Dravya Is Non-Separate from Its Paryāyas</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g308">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G308</span>
+<div class="space-y-4 flex-1">
 <p class="sutra-sanskrit font-headline">जह णवि होदि सुवण्णं विणा कडगसोहणेण अण्णेण।<br/>तह णवि होंति जीवा विणा णियएण पज्जएण।।३०८।।</p>
-<p class="text-base text-on-surface-variant leading-relaxed">Just as gold does not exist without its bracelet-form (or some other form) — similarly jīvas do not exist without their own paryāyas (modifications).</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The crucial implication: the soul's modifications are its own niyata (fixed, proper) paryāyas — arising from the soul's own svabhāva. They are not borrowed from karma. And karma's modifications are karma's own paryāyas — arising from karma's own svabhāva. Each dravya has its own stream of modifications.</p>
-<div class="simple-explanation"><b>Simply put:</b> The soul always exists as some specific form of knowing or seeing. Those forms are its own — not forms imposed on it by karma.</div>
-<div class="concept-tags">
-<span class="concept-tag">Ananya-Pariṇāma</span>
-<span class="concept-tag">Dravya-Guṇa Ananya</span>
-<span class="concept-tag">Niyata-Paryāya</span>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Gold-Bracelet Analogy: Just as gold does not exist without its bracelet-form (or some other form) — similarly jīvas do not exist without their own paryāyas (modifications).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Dravya and its guṇas are ananya (non-separate). The gold is inseparable from some modification; the soul is inseparable from its own paryāyas.</p>
+<p class="simple-explanation"><b>Simply put:</b> You cannot have a soul floating free of all modifications. The soul always manifests as some particular form of knowing, seeing, or feeling. But those forms are its <em>own</em> — not borrowed from karma or body.</p>
+<div class="concept-tags"><span class="concept-tag">Ananya</span><span class="concept-tag">Dravya-Paryāya</span><span class="concept-tag">Svabhāva</span></div>
 </div>
 </div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G309–G310 — Each Dravya Arises from Its Own Svabhāva</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G309:</b> Jīva is ananya from its own pariṇāmas; ajīva is ananya from its own pariṇāmas. This non-separateness applies across all dravyas — each is non-separate from its own modifications.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G310:</b> The ātmā is not the kārya (product) of any other dravya, and is not the kāraṇa (cause) of any other dravya. Each dravya arises from its own svabhāva alone.</p>
-<div class="simple-explanation"><b>Simply put:</b> The soul didn't make karma, and karma didn't make the soul. They influence each other as nimitta — but neither produces the other's modifications.</div>
-<div class="concept-tags">
-<span class="concept-tag">Svabhāva-Udbhava</span>
-<span class="concept-tag">Akāraṇa</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g309-315">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G309–315</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Jīva and Ajīva Are Non-Separate from Their Paryāyas; Soul Is No One's Kārya and No Kāraṇa; Mutual Nimitta and Saṃsāra; Release vs. Bondage</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G309:</strong> Jīva is ananya from its own pariṇāmas; ajīva is ananya from its own pariṇāmas — this applies across all dravyas. <strong>G310:</strong> Ātmā is not the kārya (product) of any other dravya, and not the kāraṇa (cause) of any other dravya. Each dravya arises from its own svabhāva. <strong>G311–313:</strong> Karma depends on the cetayitā (conscious soul) and cetayitā depends on karma — this mutual nimitta-naimittika relationship is the mechanism of saṃsāra. <strong>G314:</strong> As long as the cetayitā does not release the prakṛti-paryāyas, it remains ajñāyaka, mithyādṛṣṭi, and asaṃyata. <strong>G315:</strong> When it releases — it becomes vimukta (free), jñāyaka, darśaka, and muni.</p>
+<p class="simple-explanation"><b>Simply put:</b> The soul is not "inside" karma and karma is not "inside" the soul. They are distinct dravyas with a nimitta relationship. The delusion is mistaking this nimitta for identity. The watershed is not cosmological — it is the inner release of false identification.</p>
+<div class="concept-tags"><span class="concept-tag">Cetayitā</span><span class="concept-tag">Nimitta-Naimittika</span><span class="concept-tag">Vimukta</span></div>
 </div>
 </div>
-
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G311–G315 — Mutual Nimitta-Naimittika and the Pivot of Saṃsāra</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G311–G313:</b> The cetayitā (conscious soul) and karma's prakṛti have a mutual nimitta-naimittika (occasion-occasioned) relationship — this is the mechanism of saṃsāra. As long as cetayitā holds karma's paryāyas as its own, it remains ajñāyaka (non-knower) and mithyādṛṣṭi.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G314–G315:</b> The watershed: When cetayitā releases karma's paryāyas (prakṛti-paryāya-tyāga) it becomes vimukta (free), jñāyaka, darśaka, muni. The pivot of all liberation is this inner release — not a cosmological event, but an epistemological one.</p>
-<div class="simple-explanation"><b>Simply put:</b> Saṃsāra runs on one engine: the soul mistaking karma's modifications for its own. The moment that mistaking stops — vimukti begins.</div>
-<div class="concept-tags">
-<span class="concept-tag">Nimitta-Naimittika</span>
-<span class="concept-tag">Prakṛti-Paryāya-Tyāga</span>
-<span class="concept-tag">Vimukta</span>
-<span class="concept-tag">Jñāyaka</span>
-</div>
-</div>
+</article>
 
 <!-- Part 2 -->
-<div class="section-divider"><span>Part 2 · G316–G323 · The Jñānī Only Knows — The Eye Analogy</span></div>
+<div class="section-divider"><span>Part 2 · G316–G323 · Jñānī Does Not Experience; Only Knows</span></div>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G316 — The Core Distinction: Jñānī Is Avedaka</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g316">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G316</span>
+<div class="space-y-4 flex-1">
 <p class="sutra-sanskrit font-headline">अण्णाणी जीवो पुण खवेदि कम्मं खु णाणिणो णेव।<br/>होंति अवेदया कम्मं णाणिणो णादू।।३१६।।</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The ajñānī (ignorant) experiences the karmaphala within the prakṛti-svabhāva (karma's own nature). The jñānī only knows — does not experience. The jñānī is avedaka (non-experiencer) of karma; only jñātā (knower).</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The same karma rises in both. What differs is not the karma — but the mode of the soul. The ajñānī's soul collapses into the karma ("I am in agony"). The jñānī's soul illuminates the karma without entering it ("pain is arising in that pudgala-process").</p>
-<div class="simple-explanation"><b>Simply put:</b> Same event; two different souls. One becomes the pain. One witnesses it.</div>
-<div class="concept-tags">
-<span class="concept-tag">Avedaka</span>
-<span class="concept-tag">Jñātā vs Bhoktā</span>
-<span class="concept-tag">Ajñānī vs Jñānī</span>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The ajñānī (ignorant) experiences the karmaphala within the prakṛti-svabhāva (karma's own nature). The jñānī only knows — does not experience. The jñānī is avedaka (non-experiencer) of karma; only jñātā (knower).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the core distinction. The ajñānī becomes the pain; the jñānī knows the pain happening in karma. Same event; two different modes of the soul.</p>
+<p class="simple-explanation"><b>Simply put:</b> When pain arises, the ajñānī becomes the pain — "I am in agony." The jñānī knows the pain arising in that pudgala-process — "pain is arising there." Same event; two entirely different modes of consciousness.</p>
+<div class="concept-tags"><span class="concept-tag">Avedaka</span><span class="concept-tag">Jñātā</span><span class="concept-tag">Ajñānī vs Jñānī</span></div>
 </div>
 </div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G320 — The Eye Analogy: Akāraka and Avedaka</span>
-<p class="text-base text-on-surface-variant leading-relaxed">Just as the eye (akṣi) is akāraka (non-doer) and avedaka (non-experiencer) — it illuminates objects without doing anything to them — similarly jñāna is akāraka and avedaka with respect to its objects.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The eye doesn't "do" the seeing — it illuminates. The seeing happens. No karma is made by the act of seeing. Similarly: jñāna doesn't "do" the knowing. The knowing happens. No karma is made in the mere act of knowing. The problem is not knowing — it is the kartic reaction (rāga-dveṣa) that knowing is mistakenly paired with.</p>
-<div class="simple-explanation"><b>Simply put:</b> Your eye doesn't get stained by what it sees. Your jñāna doesn't get stained by what it knows. Staining only happens through rāga-dveṣa — which are your own modifications, not caused by objects.</div>
-<div class="concept-tags">
-<span class="concept-tag">Akāraka</span>
-<span class="concept-tag">Eye Analogy</span>
-<span class="concept-tag">Jñāna Is Not Karma</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g317-323">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G317–323</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Snake-Milk Analogy; Avedaka in Nirveda; The Eye Analogy: Akāraka and Avedaka</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G317:</strong> The abhavya is like snake-milk — even in a golden vessel, it becomes poison. <strong>G318:</strong> The jñānī, established in nirveda (detachment), is avedaka — does not experience even what is experienced. <strong>G319:</strong> The jñānī neither does nor experiences karma — only knows. This is the absolute definition. <strong>G320:</strong> Just as the eye (akṣi) is akāraka (non-doer) and avedaka — it illuminates without doing anything — similarly jñāna is akāraka and avedaka. <strong>G321–323:</strong> "Viṣṇu created the world" and "ātmā created the six kāya" — both commit the same error of kartā-bhāva. Jñāna does not create its objects.</p>
+<p class="simple-explanation"><b>Simply put:</b> Your eye doesn't "do" the seeing — it illuminates. Similarly, jñāna doesn't "do" the knowing — it illuminates the objects. No karma is made in the mere act of knowing.</p>
+<div class="concept-tags"><span class="concept-tag">Akāraka</span><span class="concept-tag">Avedaka</span><span class="concept-tag">Eye Analogy</span><span class="concept-tag">Nirveda</span></div>
 </div>
 </div>
+</article>
 
 <!-- Part 3 -->
-<div class="section-divider"><span>Part 3 · G324–G348 · Para-Dravya Is Never Mine; Four-Way Mithyatva</span></div>
+<div class="section-divider"><span>Part 3 · G324–G348 · Para-Dravya Is Not Mine; The Four-Way Mithyātva Logic</span></div>
 
-<div class="principle-banner">
-<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
-<span class="principle-name">Karma Is the Kartā — All Jīvas Are Akāraka</span>
-<span class="principle-def">G332–G339 contain one of the most radical doctrinal statements in the Samaysaar: karma makes everything — the ajñānī, the jñānī, sleep, waking, happiness, unhappiness, mithyātva, asaṃyama, wandering in three worlds. All jīvas are akāraka (non-doers). Karma desires karma — there is no brahmacārī-breaker. Karma kills karma — there is no killer. This appears Sāṃkhya-like, but the purpose is precise: not to deny the soul, but to dissolve the soul's false kartā-bhāva. The soul's non-agency is the result of jñāna — not an inherent inertness.</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g324-327">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G324–327</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Para-Dravya Is Never Mine</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G324:</strong> By niścaya (absolute standpoint) — not even a single paramāṇu (atom) of para-dravya is mine. <strong>G325:</strong> Village, country, body — all mamakāra (ownership) is ajñānī delusion. <strong>G326–327:</strong> The mithyādṛṣṭi who claims para-dravya as his own; those who have kartṛtva-vyavasāya (determination of agency) toward para-dravyas — they are dṛṣṭi-rahita (sight-deprived).</p>
+<div class="concept-tags"><span class="concept-tag">Niścaya</span><span class="concept-tag">Mamakāra</span><span class="concept-tag">Para-dravya</span></div>
 </div>
+</div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G324–G327 — Not Even One Paramāṇu of Para-Dravya Is Mine</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G324:</b> By niścaya (absolute standpoint) — not even a single paramāṇu (atom) of para-dravya is mine.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G325:</b> Village, country, body — all mamakāra (ownership-sense) is the delusion of the ajñānī. The samyag-dṛṣṭi knows: these are not mine by any niścaya-measure.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G326–G327:</b> The mithyādṛṣṭi who claims para-dravya as his own; those who have kartṛtva-vyavasāya (determined resolve of agency) toward para-dravyas — they are dṛṣṭi-rahita (sight-deprived). Their very resolution to be the doer of para-dravya is what constitutes mithyā-dṛṣṭi.</p>
-<div class="simple-explanation"><b>Simply put:</b> By ultimate measure, nothing outside the soul is the soul's. Body, village, relationships — all nimitta, not sva. The moment this is grasped with certainty, mamakāra dissolves.</div>
-<div class="concept-tags">
-<span class="concept-tag">Para Not Mine</span>
-<span class="concept-tag">Mamakāra</span>
-<span class="concept-tag">Niścaya Naya</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g328-348">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G328–348</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The Four-Way Mithyātva Logic; Karma Is the Kartā; Syādvāda on Doer-Experiencer</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G328–331:</strong> Four forms of mithyātva arise when jīva treats para as sva: (1) claiming karma's modifications as one's own paryāyas; (2) claiming karma's fruit as one's own experience; (3) claiming one's pariṇāmas as caused by para-dravya; (4) claiming one's own pariṇāmas as belonging to para-dravya. All four are mithyā. Niścaya sees each dravya arising from its own svabhāva alone. <strong>G332–334:</strong> Karma makes everything: the ajñānī, the jñānī, sleep, waking, happiness, unhappiness, mithyātva. Karma is the kartā. <strong>G335–339:</strong> All jīvas are akāraka. Karma desires karma — there is no brahmacārī-breaker. Karma kills karma — there is no killer. <strong>G342–343:</strong> Ātmā is nitya (eternal), asaṃkhyāta-pradeśī (innumerable-spaced), lokamātra. <strong>G345–348:</strong> Syādvāda: only the correct anekānta position — jīva is kartā of its own pariṇāmas, avedaka of karma's pariṇāmas.</p>
+<p class="simple-explanation"><b>Commentary:</b> This appears Sāṃkhya-like, but the distinction is crucial. Kārikā Sāṃkhya says prakṛti is the agent and puruṣa is inert. Samaysaar says: when the soul mistakenly identifies with prakṛti-paryāyas, karma binds; when it releases that identification, karma exhausts itself. The jīva's non-agency is the <em>result</em> of jñāna — not an inherent inertness.</p>
+<div class="concept-tags"><span class="concept-tag">Four-Way Mithyātva</span><span class="concept-tag">Karma-Kartā</span><span class="concept-tag">Akāraka</span><span class="concept-tag">Syādvāda</span></div>
 </div>
 </div>
-
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G328–G331 — The Four-Way Mithyatva Logic</span>
-<p class="text-base text-on-surface-variant leading-relaxed">Four forms of mithyātva arise when jīva treats para as sva:</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>1.</b> Claiming karma's modifications as one's own paryāyas — "these feelings of bondage are what I am"</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>2.</b> Claiming karma's fruit as one's own experience — "I am enjoying/suffering this"</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>3.</b> Claiming one's own pariṇāmas as caused by para-dravya — "that object made me angry"</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>4.</b> Claiming one's own pariṇāmas as belonging to para-dravya — confusing the domains entirely</p>
-<p class="text-base text-on-surface-variant leading-relaxed">All four are mithyā. Niścaya sees each dravya arising from its own svabhāva alone — karma from karma's svabhāva, soul from soul's svabhāva.</p>
-<div class="simple-explanation"><b>Simply put:</b> All delusion takes one form — confusing your modifications with karma's, or karma's with yours. Clear seeing severs this confusion at the root.</div>
-<div class="concept-tags">
-<span class="concept-tag">Four-Way Mithyātva</span>
-<span class="concept-tag">Sva vs Para</span>
-<span class="concept-tag">Svabhāva-Udbhava</span>
-</div>
-</div>
+</article>
 
 <!-- Part 4 -->
 <div class="section-divider"><span>Part 4 · G349–G365 · The Śilpī and Seṭikā Analogies</span></div>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G356–G360 — The Seṭikā (Washing Stone): Niścaya View — Jñāyaka Is Jñāyaka Alone</span>
-<p class="sutra-sanskrit font-headline">सेडिया सेडियामेव जाणगो जाणगो हवे।<br/>पासओ पासगो हवे संजदो संजदो हवे।।३५६।।</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The seṭikā (washing stone) is seṭikā alone. The jñāyaka is jñāyaka alone. The pāśaka (observer) is pāśaka alone. The saṃyata (restrained one) is saṃyata alone.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">G357–G360 continue: Darśana is darśana alone. Jñāna is jñāna alone. The jñāyaka does not become something else by virtue of what it knows. The seṭikā whitens — but the seṭikā remains the seṭikā; the whitened cloth is the cloth's own transformation. Similarly: the jñāyaka knows — but the jñāyaka remains the jñāyaka; the known object undergoes its own transformations by its own svabhāva.</p>
-<div class="simple-explanation"><b>Simply put:</b> You don't become the objects you know. You remain the knower. Always. That is your identity — jñāyaka — and it cannot be modified by what passes through your awareness.</div>
-<div class="concept-tags">
-<span class="concept-tag">Seṭikā Analogy</span>
-<span class="concept-tag">Jñāyaka Is Jñāyaka</span>
-<span class="concept-tag">Niścaya View</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g349-355">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G349–355</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Śilpī (Craftsman) — Vyavahāra and Niścaya</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G349–352 (Vyavahāra):</strong> From the conventional standpoint, the craftsman (soul) does karma, uses karma, grasps karma, enjoys karma's fruit — but is not tammaya (identified) with karma. <strong>G353–355 (Niścaya):</strong> From niścaya — the craftsman who becomes ananya (one) with the cheṭṭā (activity) is perpetually duḥkhī (suffering). The jīva that identifies with its activities of karma is bound.</p>
+<div class="concept-tags"><span class="concept-tag">Śilpī Analogy</span><span class="concept-tag">Vyavahāra</span><span class="concept-tag">Niścaya</span><span class="concept-tag">Tammaya</span></div>
 </div>
 </div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G361–G365 — The Seṭikā: Vyavahāra View — All by Own Svabhāva</span>
-<p class="text-base text-on-surface-variant leading-relaxed">From vyavahāra: the seṭikā whitens para-dravya by its own svabhāva. Similarly: the jñātā knows by own svabhāva, the jīva sees by own svabhāva, the jñātā abandons by own svabhāva, the samyag-dṛṣṭi has śraddhā by own svabhāva.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">Both the niścaya and the vyavahāra views converge on the same truth: every modification of the soul — knowing, seeing, restraining, having faith — arises from the soul's own svabhāva. Nothing is borrowed from outside. Nothing is imposed from karma or body.</p>
-<div class="simple-explanation"><b>Simply put:</b> When you see rightly — that is your own seeing. When you have faith — that is your own faith. Even liberation is your own pariṇāma, arising from your own svabhāva.</div>
-<div class="concept-tags">
-<span class="concept-tag">Sva-Svabhāva</span>
-<span class="concept-tag">Vyavahāra View</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g356">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G356</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सेडिया सेडियामेव जाणगो जाणगो हवे।<br/>पासओ पासगो हवे संजदो संजदो हवे।।३५६।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The seṭikā (washing stone) is seṭikā alone. The jñāyaka is jñāyaka alone. The pāśaka (observer) is pāśaka alone. The saṃyata (restrained) is saṃyata alone.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">By niścaya, each thing is only what it is. The seṭikā whitens clothes — but niścaya says: the seṭikā is seṭikā; the whiteness belongs to the cloth's own transformation. Similarly: the jñāyaka is jñāyaka; knowing is its own; what is "known" belongs to the jñeya's own nature.</p>
+<p class="simple-explanation"><b>Simply put:</b> The soul is not "a knower of karma" or "a knower of the body." The soul is jñāyaka — period. That is its identity, completely, without residue.</p>
+<div class="concept-tags"><span class="concept-tag">Seṭikā Analogy</span><span class="concept-tag">Jñāyaka Alone</span><span class="concept-tag">Niścaya</span></div>
 </div>
 </div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g357-365">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G357–365</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Seṭikā — Niścaya Continued; Seṭikā — Vyavahāra</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G357–360 (Niścaya):</strong> Darśana is darśana alone. The jñāyaka is the jñāyaka alone. These are not modified by what they observe. <strong>G361–365 (Vyavahāra):</strong> From vyavahāra: the seṭikā whitens para-dravya by its own svabhāva → similarly: the jñātā knows (by own svabhāva), the jīva sees (by own svabhāva), the jñātā abandons (by own svabhāva), the samyag-dṛṣṭi has śraddhā (by own svabhāva). All by sva-svabhāva.</p>
+<div class="concept-tags"><span class="concept-tag">Sva-Svabhāva</span><span class="concept-tag">Darśana Alone</span><span class="concept-tag">Jñātā</span></div>
+</div>
+</div>
+</article>
 
 <!-- Part 5 -->
-<div class="section-divider"><span>Part 5 · G366–G382 · Rāga Is Your Own Pariṇāma; Jñāna Outside All Para-Dravyas</span></div>
+<div class="section-divider"><span>Part 5 · G366–G382 · Jñāna Outside Para-Dravya; Rāga Is Own Pariṇāma</span></div>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G371–G372 — Rāga-Dveṣa-Moha Are Your Own; No Dravya Produces Another's Guṇa</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G371:</b> Rāga, dveṣa, and moha are the jīva's own ananya-pariṇāmas — they do not exist in śabda (sound) and other sense-objects (viṣayas). They arise from the jīva's own modification, not from the external object. The object is only nimitta.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G372:</b> No other dravya can produce another dravya's guṇa. Therefore all dravyas arise by their own svabhāva (svabhāvataḥ). The guṇas of pudgala — colour, taste, smell, touch — belong to pudgala. They cannot enter the soul and become the soul's guṇas.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">This is one of the most liberating doctrines in the Samaysaar: rāga is your modification — not something the object did to you. The beautiful object did not cause your desire. Your soul modified into desire — using the object as nimitta. This cuts the root of blame, projection, and attachment.</p>
-<div class="simple-explanation"><b>Simply put:</b> No one makes you angry. No object makes you desire. These are your own modifications. This is not blame — it is freedom. If rāga is your own pariṇāma, you can dissolve it. If it came from outside, you would be helpless.</div>
-<div class="concept-tags">
-<span class="concept-tag">Rāga = Own Pariṇāma</span>
-<span class="concept-tag">Nimitta vs Upādāna</span>
-<span class="concept-tag">No Dravya Makes Another's Guṇa</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g366-372">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G366–372</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Darśana-Jñāna-Cāritra Have Nothing in Achetana; Rāga Is Your Own Pariṇāma</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G366–368:</strong> Darśana, jñāna, and cāritra have nothing (kiṃcit nāsti) in insentient viṣayas, in karma, in the body. So why does the ātmā cause harm in those domains? <strong>G370:</strong> The jīva's guṇas are not in para-dravyas. Therefore the samyag-dṛṣṭi has no rāga toward sense-objects. <strong>G371:</strong> Rāga, dveṣa, moha are the jīva's own ananya-pariṇāmas — they do not exist in śabda and other viṣayas. They arise from the jīva's own modification, not from the external object. <strong>G372:</strong> No other dravya can produce another dravya's guṇa. Therefore all dravyas arise by their own svabhāva.</p>
+<p class="simple-explanation"><b>Commentary:</b> This is one of the most powerful doctrines in the Samaysaar: Rāga is <em>your</em> modification — not something the object did to you. The beautiful object did not cause your desire. Your soul modified into desire — using the object as nimitta. This cuts the root of blame, projection, and attachment.</p>
+<div class="concept-tags"><span class="concept-tag">Rāga as Own Pariṇāma</span><span class="concept-tag">No Dravya Makes Another's Guṇa</span><span class="concept-tag">Nimitta</span></div>
 </div>
 </div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G373–G381 — The Six-Sense Analogy: Objects Never Say "Grab Me"</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G373:</b> Pudgala transforms as nindā (criticism) and stuti (praise) words. The ajñānī becomes angry or pleased, thinking "this was said to me." The jñānī sees: pudgala-śabda transformed; its guṇa belongs to pudgala.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G375–G381:</b> Śabda (sound) doesn't say "grab me." Rūpa (form) doesn't say "grab me." Gandha (smell), rasa (taste), sparśa (touch), guṇa, dravya — none of them approach the soul and demand to be grasped. The ātmā doesn't go out to grasp them. The ātmā illuminates them. The grasping is entirely the soul's own impulse.</p>
-<div class="simple-explanation"><b>Simply put:</b> The world never grabs you. You grab the world. And once you see that, you can stop — not because the world changed, but because you saw the truth of your own grasping.</div>
-<div class="concept-tags">
-<span class="concept-tag">Six-Sense Analogy</span>
-<span class="concept-tag">Objects Don't Pull</span>
-<span class="concept-tag">Grasping Is Internal</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g373-382">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G373–382</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The Six-Sense Analogy; Ātmā Does Not Move to Grasp</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G373:</strong> Pudgala transforms as nindā and stuti words. The ajñānī becomes angry or pleased, thinking "this was said to me." <strong>G374:</strong> The guṇa of pudgala-śabda belongs to pudgala — not to you. <strong>G375–381:</strong> Śabda doesn't say "grab me." Rūpa doesn't say "grab me." Gandha, rasa, sparśa, guṇa, dravya — none say "grab me." The ātmā doesn't go out to grasp them. The ātmā illuminates them; the jñeyas appear — the ātmā doesn't move. <strong>G382:</strong> Despite all this teaching, the mūḍha (deluded) still does not attain upaśama (inner calm). The delusion is deep-rooted.</p>
+<p class="simple-explanation"><b>Simply put:</b> The sound that criticized you did not make you angry. You modified into anger — using that sound as nimitta. The object is innocent. The modification is yours. Knowing this dissolves the root of reactivity.</p>
+<div class="concept-tags"><span class="concept-tag">Six-Sense Analogy</span><span class="concept-tag">Ātmā Illuminates</span><span class="concept-tag">Pudgala-Śabda</span><span class="concept-tag">Mūḍha</span></div>
 </div>
 </div>
+</article>
 
 <!-- Part 6 -->
 <div class="section-divider"><span>Part 6 · G383–G389 · Niścaya-Cāritra: The Three Kalpas</span></div>
 
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g383-389">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G383–389</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The Three Kalpas of Niścaya-Cāritra; Three Forms of Vedanā That Bind Again</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G383:</strong> Pratikramaṇa = past karma mamtva-tyāga (release of ownership of past karma). <strong>G384:</strong> Pratyākhyāna = future karma bhāva-nirvṛtti (cessation of intention toward future karma). <strong>G385:</strong> Ālocana = present udaya-doṣa recognition — consciously seeing the present karma rising. <strong>G386:</strong> Nitya (constant) pratikramaṇa + ālocana + pratyākhyāna = true cāritra. <strong>G387:</strong> Experiencing karmaphala as own-rūpa → binds 8-types duḥkha-seeds again. <strong>G388:</strong> Experiencing thinking "I am the one who did this karmaphala" → binds again. <strong>G389:</strong> Experiencing and <em>becoming</em> sukha or duḥkha → binds again.</p>
+<p class="simple-explanation"><b>Commentary:</b> These are not ritual recitations performed once a day. By niścaya, these three are a continuous inner attitude: "I was never the owner of past karma" (pratikramaṇa), "I am witnessing what is rising now" (ālocana), "I have no intention toward future karma" (pratyākhyāna). The three traps: (1) "This pain is what I am," (2) "I am the author of this karma," (3) "I am happy / I am miserable." Each of these reinforces bondage even while experiencing karma's fruit. The release: "karma is rising; I am the witness."</p>
+<div class="concept-tags"><span class="concept-tag">Pratikramaṇa</span><span class="concept-tag">Ālocana</span><span class="concept-tag">Pratyākhyāna</span><span class="concept-tag">Niścaya-Cāritra</span></div>
+</div>
+</div>
+</article>
+
 <div class="principle-banner">
-<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
-<span class="principle-name">The Three Kalpas: Not Ritual — Continuous Inner Stance</span>
-<span class="principle-def">The Samaysaar's definition of cāritra (conduct) by niścaya is radical: not vows, not garb, not ritual recitation — but a continuous inner threefold stance: (1) Pratikramaṇa — "I was never the owner of past karma; that mamtva was mithyā"; (2) Ālocana — "I am witnessing what is rising now; this udaya is karma's, not mine"; (3) Pratyākhyāna — "I have no intention toward future karma; I release all claim on what karma will produce." These three, held constantly, constitute true niścaya-cāritra.</span>
+<div class="principle-header">
+<span class="principle-badge">The 148 Karma Declarations</span>
+<span class="principle-name">Pratyākhyāna-Kalpa (Kalaśas 225–229)</span>
 </div>
-
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G383–G386 — Pratikramaṇa, Ālocana, Pratyākhyāna Defined</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G383:</b> Pratikramaṇa = past karma mamtva-tyāga. Not a ritual of repentance — a realization: "I was never the owner of those karmic fruits. My ownership-sense was the error."</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G384:</b> Pratyākhyāna = future karma bhāva-nirvṛtti. Not a vow to abstain — a realization: "I have no intention toward future karma. I release even the desire to control what karma will produce."</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G385:</b> Ālocana = present udaya-doṣa recognition. Consciously seeing: "This karma is rising now. I witness it without becoming it."</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G386:</b> Nitya (constant) pratikramaṇa + ālocana + pratyākhyāna = true cāritra. The word nitya is crucial — this is not once-a-day. This is the continuous orientation of the jñānī-soul.</p>
-<div class="simple-explanation"><b>Simply put:</b> Past — "it wasn't mine." Present — "I witness it." Future — "I claim nothing." Hold all three at once, always. That is true cāritra.</div>
-<div class="concept-tags">
-<span class="concept-tag">Pratikramaṇa</span>
-<span class="concept-tag">Ālocana</span>
-<span class="concept-tag">Pratyākhyāna</span>
-<span class="concept-tag">Niścaya-Cāritra</span>
-</div>
-</div>
-
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G387–G389 — Three Modes of Vedana That Bind Again</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G387:</b> Experiencing karmaphala as own-rūpa (as one's own nature) — "I am in pain; this is what I am" → binds 8-types duḥkha-seeds again. Even as old karma exhausts itself, this identification plants new seeds.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G388:</b> Experiencing thinking "I am the one who did this karmaphala" — taking authorship → binds again. This is the re-ignition of kartā-bhāva at the moment of karma's fruition.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G389:</b> Experiencing and becoming sukha or duḥkha (pleasure or pain) — collapsing identity into the momentary state → binds again. Even pleasure-identification binds as firmly as pain-identification.</p>
-<div class="simple-explanation"><b>Simply put:</b> Three traps: (1) "This pain is what I am," (2) "I made this karma," (3) "I am happy / I am miserable." Each reinforces bondage even while old karma exhausts itself. The release: "karma is rising; I am the witness."</div>
-<div class="concept-tags">
-<span class="concept-tag">Three Vedana Traps</span>
-<span class="concept-tag">Karma-Phala-Mamakāra</span>
-<span class="concept-tag">Kartā-Bhāva in Fruition</span>
-</div>
-</div>
-
-<!-- Pratyakhyana Kalpa -->
-<div class="section-divider"><span>The Pratyākhyāna-Kalpa · 148 Karma Declarations</span></div>
-
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">Kalaśas 225–229 — The 148-Type Karma Renunciation Bhāvanā</span>
-<p class="text-base text-on-surface-variant leading-relaxed">The text provides three complete kalpas with 49 bhaṅgas each (3 yoga × 3 karaṇa = 9 + additional combinations = 49), applied across three time periods — covering all 148 karma types.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>The formula for each karma type:</b><br/>
-"नाहं [X कर्म का फल] भुज्जे, चैतन्यात्मानमात्मानमेव सञ्चेतये।"<br/>
-<i>"I do not experience the fruit of [X karma]; I consciously experience only the consciousness-natured ātmā."</i></p>
-<p class="text-base text-on-surface-variant leading-relaxed">Applied to all 148: 5 jñānāvaraṇa, 9 darśanāvaraṇa, 2 vedanīya, 28 mohanīya (including all 16 kasāya and 9 nokasāya), 4 āyu, 103 nāma karma (all gati, jāti, śarīra, saṃghāta, saṃsthāna, varṇa, gandha, rasa, sparśa, pūrvi, and special types), 2 gotra, 5 antarāya.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The bhāvanā commentary clarifies: When the jīva reaches apramatta daśā and directs upayoga entirely toward caitanyamātra ātmā — this bhāvanā produces kevalajñāna. The fruit is jñāna-cetanā free from karma-cetanā and karmaphala-cetanā, absorbed in paramānanda, eternally.</p>
-<div class="simple-explanation"><b>Simply put:</b> For every possible type of karmic experience — "I am not that. I am consciousness alone." Contemplated for all 148 types, across past/present/future, this bhāvanā is itself the path to kevalajñāna.</div>
-<div class="concept-tags">
-<span class="concept-tag">148 Karma Types</span>
-<span class="concept-tag">49 Bhaṅgas</span>
-<span class="concept-tag">Caitanyātmā Sañcetana</span>
-<span class="concept-tag">Kevalajñāna Path</span>
-</div>
+<p class="principle-def">The text provides three complete kalpas with 49 bhaṅgas each (3 yoga × 3 karaṇa + 4 extra combinations = 49) across three time periods. The Pratikramaṇa-Kalpa (past: "What I did/caused/approved by manas/vāc/kāya × 3-karaṇa = mithyā for me"); the Ālocana-Kalpa (present: "I am not doing / causing / approving..."); the Pratyākhyāna-Kalpa (future: "I will not do / cause / approve..."). The Pratyākhyāna-Kalpa covers all 148 karma types across Jñānāvaraṇa (5), Darśanāvaraṇa (9), Vedanīya (2), Mohanīya (28), Āyu (4), Nāma (103), Gotra (2), and Antarāya (5). For each: "Nāhaṃ X bhuje, caitanyātmānamātmānameva sañcetaye" — "I do not experience the fruit of X karma; I consciously experience only the consciousness-natured ātmā."</p>
 </div>
 
 <!-- Part 7 -->
-<div class="section-divider"><span>Part 7 · G390–G404 · Jñāna Distinct from All Dravyas; Jñāna Is the Jñāyaka</span></div>
+<div class="section-divider"><span>Part 7 · G390–G403 · Jñāna Is Distinct from All Dravyas; The Summit</span></div>
 
-<div class="principle-banner">
-<div class="principle-header"><span class="principle-badge">Doctrine</span></div>
-<span class="principle-name">Fourteen Propositions: Why X Is Not Jñāna</span>
-<span class="principle-def">G390–G401 follow a single logical pattern: "X is not jñāna because X doesn't know anything. Therefore jñāna is different and X is different — so Jinas say." This logic is applied to: śāstra, śabda, rūpa, varṇa, gandha, rasa, sparśa, karma, dharma-astikāya, adharma-astikāya, kāla, ākāśa. G402 adds adhyavasāna (karmic impulse-determination), which is achetana and therefore not jñāna. The positive conclusion is G403 — jīva is jñāyaka (always-knowing), and jñāna is avyatiriktam (non-separate) from jñāyaka.</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g390-402">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G390–402</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Fourteen Propositions of Distinctness; Adhyavasāna Is Not Jñāna</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Each gatha follows the same logical form: "X is not jñāna because X doesn't know anything. Therefore jñāna is different and X is different — so Jinas say." Applied to: <strong>G390</strong> Śāstra (scripture) — achetana; <strong>G391</strong> Śabda (sound) — pudgala paryāya; <strong>G392</strong> Rūpa (form); <strong>G393</strong> Varṇa (colour); <strong>G394</strong> Gandha (smell); <strong>G395</strong> Rasa (taste); <strong>G396</strong> Sparśa (touch); <strong>G397</strong> Karma (karmic matter); <strong>G398</strong> Dharma (dharmāstikāya); <strong>G399</strong> Adharma; <strong>G400</strong> Kāla (time); <strong>G401</strong> Ākāśa (space); <strong>G402</strong> Adhyavasāna (karmic determination / passion-driven impulse) — achetana. Jñāna and jīva are avyatiriktam. Jñāna and every other dravya are vyatiriktam. Only jīva is cetana — therefore jñāna and jīva are avyatiriktam.</p>
+<div class="concept-tags"><span class="concept-tag">Avyatiriktam</span><span class="concept-tag">Vyatiriktam</span><span class="concept-tag">Fourteen Dravyas</span><span class="concept-tag">Adhyavasāna</span></div>
 </div>
+</div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G390–G401 — Twelve Distinctions: Śāstra, Śabda, Rūpa, Varṇa, Gandha, Rasa, Sparśa, Karma, Dharma, Adharma, Kāla, Ākāśa Are Not Jñāna</span>
-<p class="text-base text-on-surface-variant leading-relaxed">Each gatha: "X is not jñāna because X doesn't know anything. Therefore jñāna is different and X is different — so Jinas say."</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G390:</b> Śāstra (scripture) — not jñāna. Śāstra is achetana; it doesn't know. <b>G391:</b> Śabda (sound/word) — not jñāna. <b>G392:</b> Rūpa (form) — not jñāna. <b>G393:</b> Varṇa (colour) — not jñāna. <b>G394:</b> Gandha (smell) — not jñāna. <b>G395:</b> Rasa (taste) — not jñāna. <b>G396:</b> Sparśa (touch) — not jñāna. <b>G397:</b> Karma — not jñāna. <b>G398:</b> Dharma-astikāya — not jñāna. <b>G399:</b> Adharma-astikāya — not jñāna. <b>G400:</b> Kāla — not jñāna. <b>G401:</b> Ākāśa — not jñāna.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">None of these know. Therefore none of these are jñāna. Jñāna is distinct from all of them. The Tīkā adds: jñāna and jīva alone are avyatiriktam (non-separate), because jīva alone is cetana.</p>
-<div class="simple-explanation"><b>Simply put:</b> The scripture is not the knowledge. The words are not the knowledge. The objects are not the knowledge. Even your karmic impulses are not the knowledge. You — the soul — are the knowledge. Everything else is the known.</div>
-<div class="concept-tags">
-<span class="concept-tag">Jñāna Distinct from All</span>
-<span class="concept-tag">Achetana Cannot Know</span>
-<span class="concept-tag">Śāstra ≠ Jñāna</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g403">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G403</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जम्हा जाणिदे णिचं तम्हा जीवो दु जाणगो णाणी।<br/>णाणं च जाणयादो अव्विदिरित्तं मुणेयव्वं।।४०३।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The Summit: Because jīva always knows (nityaṃ jānāti), therefore jīva is jñāyaka — the knower — the jñānī. And jñāna should be understood as avyatiriktam (non-separate, non-different, non-distinct) from the jñāyaka.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Jñāna is not an activity the soul performs. Jñāna is not a product produced by the soul. Jñāna is what the soul <em>is</em>. The knower and the knowing are one substance. This is the summit of Adhikar 9 — and the reason it is called Sarvavishuddhajñāna.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul is the knower because it always knows. And knowledge is not some separate thing from the knower — they are one. You, the soul, ARE knowing itself.</p>
+<div class="concept-tags"><span class="concept-tag">Jñāyaka = Jñāna</span><span class="concept-tag">Avyatiriktam</span><span class="concept-tag">Summit</span><span class="concept-tag">Sarvavishuddhajñāna</span></div>
 </div>
 </div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G402–G403 — Adhyavasāna Is Not Jñāna; Jñāyaka and Jñāna Are One</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G402:</b> Adhyavasāna (karmic-impulse, passion-driven determination) is not jñāna, because adhyavasāna is achetana (insentient). Therefore jñāna is different and adhyavasāna is different.</p>
-<p class="sutra-sanskrit font-headline mt-2">जम्हा जाणिदे णिचं तम्हा जीवो दु जाणगो णाणी।<br/>णाणं च जाणयादो अव्विदिरित्तं मुणेयव्वं।।४०३।।</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G403:</b> Because (jīva) always knows (nityaṃ jānāti), therefore jīva is jñāyaka — the knower — the jñānī. And jñāna should be understood as avyatiriktam (non-separate, non-distinct) from the jñāyaka.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The Tīkā: jñāna and jīva are avyatiriktam — one substance. Jñāna and śāstra are vyatiriktam. Jñāna and śabda are vyatiriktam. Jñāna and karma are vyatiriktam. Only jīva is cetana — therefore jñāna and jīva are non-separate. "The tiny remaining doubt — 'is jñāna perhaps slightly separate from jīva?' — should not be entertained even for a moment."</p>
-<div class="simple-explanation"><b>Simply put:</b> The soul is not a knower who "has" knowledge the way a hand holds a lamp. The soul IS knowing. Knowledge and knower are the same substance.</div>
-<div class="concept-tags">
-<span class="concept-tag">G403 — Summit Verse</span>
-<span class="concept-tag">Avyatiriktam</span>
-<span class="concept-tag">Jñāna = Jīva</span>
-</div>
-</div>
-
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G404 — Jñāna IS Samyagdṛṣṭi, Saṃyama, Sūtra, Dharma, Pravrajyā</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g404">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G404</span>
+<div class="space-y-4 flex-1">
 <p class="sutra-sanskrit font-headline">णाणं सम्मदिदिं दु संजमं सुत्तंगपुव्वगयं।<br/>धम्मादम्मं च तहा पव्वज्जं अभुवंति बुहा।।४०४।।</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The budha (wise, jñānī) regard jñāna itself as samyagdṛṣṭi (right faith), as saṃyama (self-restraint), as sūtras and pūrvas (sacred scripture), as dharma and adharma (puṇya and pāpa), and as pravrajyā (initiation into renunciation).</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The jñānī does not see samyagdṛṣṭi as a set of beliefs held. The jñānī sees samyagdṛṣṭi as jñāna itself — the knowing faculty as right seeing. Saṃyama is not a list of restraints — it is the natural non-grasping of jñāna. Pravrajyā is not wearing a garb — it is the inner renunciation that is jñāna's own nature. All these arise from within jñāna — not from external acts.</p>
-<div class="simple-explanation"><b>Simply put:</b> If you truly know — you are already in right faith. If you truly know — you are already restrained. If you truly know — you are already renounced. Jñāna contains all of these, not the other way around.</div>
-<div class="concept-tags">
-<span class="concept-tag">Jñāna = Samyagdṛṣṭi</span>
-<span class="concept-tag">Jñāna = Saṃyama</span>
-<span class="concept-tag">Jñāna = Pravrajyā</span>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The budha (wise, jñānī) regard jñāna itself as samyagdṛṣṭi (right faith), as saṃyama (self-restraint), as sūtras and pūrvas (sacred scripture), as dharma and adharma (puṇya and pāpa), and as pravrajyā (initiation into renunciation).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The jñānī does not see samyagdṛṣṭi as a set of beliefs held. The jñānī sees samyagdṛṣṭi as the jñāna itself — the knowing faculty as right seeing. Saṃyama is not a list of restraints — it is the natural non-grasping of jñāna. Pravrajyā is not wearing a garb — it is the inner renunciation that is jñāna's own nature.</p>
+<div class="concept-tags"><span class="concept-tag">Jñāna = Samyagdṛṣṭi</span><span class="concept-tag">Jñāna = Saṃyama</span><span class="concept-tag">Budha</span><span class="concept-tag">Pravrajyā</span></div>
 </div>
 </div>
+</article>
 
 <!-- Part 8 -->
 <div class="section-divider"><span>Part 8 · G405–G415 · Jñāna Has No Body; Liṅga Is Not Mokṣa-Mārga</span></div>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G405–G407 — Ātmā Is Amūrta; Pure Soul Grasps and Releases Nothing</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G405:</b> The ātmā is amūrta (formless, immaterial). Āhāra (intake/nourishment) is mūrta (material), being pudgalamaya. Therefore ātmā cannot be āhāraka (one who takes in nourishment). The soul does not "eat" experience.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G406:</b> Para-dravya cannot be grasped or released by the soul. Neither prāyogika (applied by nimitta) nor vaiśasika (inherent) modification of the soul reaches into para-dravya to grasp or release it.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G407:</b> Therefore the viśuddha-cetā (pure-consciousness soul) neither grasps anything nor releases anything of jīva-ajīva dravyas. This soul is completely free — not by effort of grasping purity, but by the nature of pure consciousness itself.</p>
-<div class="simple-explanation"><b>Simply put:</b> The soul doesn't "take in" experience the way food is taken in. The soul illuminates — nothing is captured in the soul from outside. What appears to be stored is karma — a pudgala phenomenon, not a soul phenomenon.</div>
-<div class="concept-tags">
-<span class="concept-tag">Amūrta Ātmā</span>
-<span class="concept-tag">Not Āhāraka</span>
-<span class="concept-tag">Viśuddha-Cetā</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g405-411">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G405–411</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Ātmā Is Amūrta; Pure Soul Grasps Nothing; Liṅga Is Not the Path</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G405:</strong> The ātmā is amūrta (formless/immaterial). Āhāra (nourishment/intake) is mūrta (material), being pudgalamaya. Therefore ātmā cannot be āhāraka (one who takes food/intake). <strong>G406:</strong> Para-dravya cannot be grasped or released by the soul. <strong>G407:</strong> Therefore the viśuddha-cetā (pure-consciousness soul) neither grasps anything nor releases anything of jīva-ajīva dravyas. <strong>G408:</strong> The deluded, grasping the pāṣaṇḍī (heterodox ascetic) garb or gṛhī (householder) garb in many forms, declare "this liṅga is the path of mokṣa." <strong>G409:</strong> Liṅga is not the path of mokṣa. Arhants are nirmmama (beyond mamakāra) regarding the body; they leave the liṅga and serve darśana-jñāna-cāritra. <strong>G410:</strong> Neither pāṣaṇḍī-liṅga nor gṛhī-liṅga is mokṣa-mārga. Darśana-jñāna-cāritra is the mokṣa-mārga — so Jinas say. <strong>G411:</strong> Abandoning whatever liṅga is held — engage the ātmā in darśana-jñāna-cāritra, which is the path of mokṣa.</p>
+<p class="simple-explanation"><b>Commentary:</b> This does not abolish external vows or the monastery. The Tīkā clarifies: vyavahāra-naya calls both muni-liṅga and śrāvaka-liṅga the path of mokṣa (as sadhanā containers). Niścaya-naya says: no liṅga is mokṣa-mārga — only darśana-jñāna-cāritra is. The garb is the container; darśana-jñāna-cāritra is the content. Only the content liberates.</p>
+<div class="concept-tags"><span class="concept-tag">Amūrta</span><span class="concept-tag">Liṅga Is Not Path</span><span class="concept-tag">Darśana-Jñāna-Cāritra</span><span class="concept-tag">Mokṣa-Mārga</span></div>
 </div>
 </div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G408–G411 — Liṅga Is Not Mokṣa-Mārga; Darśana-Jñāna-Cāritra Is</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G408:</b> The deluded, grasping the pāṣaṇḍī (ascetic) garb or gṛhī (householder) garb in many forms, declare "this liṅga is the path of mokṣa."</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G409:</b> But liṅga is not the path of mokṣa. Arhants are nirmmama (beyond mamakāra) regarding the body; they leave liṅga-identification and serve darśana-jñāna-cāritra.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G410:</b> Neither pāṣaṇḍī-liṅga nor gṛhī-liṅga is mokṣa-mārga. Darśana-jñāna-cāritra is the mokṣa-mārga — so Jinas say.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G411:</b> Therefore, abandoning whatever liṅga is held, engage the ātmā in darśana-jñāna-cāritra, which is the path of mokṣa.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><i>Tīkā clarifies:</i> This does not abolish external vows. Vyavahāra-naya calls both muni-liṅga and śrāvaka-liṅga the path of mokṣa as sadhanā containers. Niścaya-naya says: no liṅga is mokṣa-mārga — only darśana-jñāna-cāritra is. The vow-keeping is valid; the mamakāra in the garb is what must be released.</p>
-<div class="simple-explanation"><b>Simply put:</b> The garb is the container. Darśana-jñāna-cāritra is the content. The garb doesn't liberate — what's inside it does.</div>
-<div class="concept-tags">
-<span class="concept-tag">Liṅga Not Mokṣa-Mārga</span>
-<span class="concept-tag">Darśana-Jñāna-Cāritra</span>
-<span class="concept-tag">Nirmmama</span>
-</div>
-</div>
-
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G412 — The Final Instruction: Establish, Meditate, Dwell, Do Not Stray</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g412">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G412</span>
+<div class="space-y-4 flex-1">
 <p class="sutra-sanskrit font-headline">मोक्खपहे अप्पाणं ठवेहि तं चेव झाहि तं चेय।<br/>तत्थेव विहर णिच्चं मा विहरसु अण्णदव्वेसु।।४१२।।</p>
-<p class="text-base text-on-surface-variant leading-relaxed">Establish the ātmā on the mokṣa-path (darśana-jñāna-cāritra); meditate on that; contemplate it; dwell there always (nitya); do not dwell (viharsu) in other dravyas.</p>
-<p class="text-base text-on-surface-variant leading-relaxed">Four imperatives, one prohibition. Establish (ṭhavehi), meditate (jhāhi), experience (cetayasva), dwell constantly (nitya vihar) — all four aimed at the same target: darśana-jñāna-cāritra-rūpa ātmā. And one prohibition: do not dwell (mātra viharsu) in para-dravyas — even to "know" them is fine; to dwell there is bondage.</p>
-<div class="simple-explanation"><b>Simply put:</b> Four actions, one place. The entire path compressed into two lines: establish your soul in its own true nature, and stay there.</div>
-<div class="concept-tags">
-<span class="concept-tag">Establish</span>
-<span class="concept-tag">Meditate</span>
-<span class="concept-tag">Dwell</span>
-<span class="concept-tag">Not in Para-Dravyas</span>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Establish the ātmā on the mokṣa-path; meditate on that (darśana-jñāna-cāritra); contemplate it; dwell there always (nitya); do not dwell (viharsu) in other dravyas.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The Final Instruction — four imperatives and one prohibition. Establish, meditate, experience, dwell. Don't dwell in other dravyas.</p>
+<p class="simple-explanation"><b>The simple version:</b> Four commands: establish, meditate, experience, dwell. One prohibition: don't dwell in other dravyas. This is the entire path in two lines.</p>
+<div class="concept-tags"><span class="concept-tag">Four Imperatives</span><span class="concept-tag">Establish in Ātmā</span><span class="concept-tag">Mokṣa-Path</span></div>
 </div>
 </div>
+</article>
 
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G413–G414 — Mamatā in Liṅga = Never Knowing Samayasāra; Vyavahāra vs. Niścaya on Liṅga</span>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G413:</b> Those who carry mamatā (ownership) in pāṣaṇḍī liṅgas or gṛhī liṅgas of many types — they have not known samayasāra (the essence of the soul). Because samayasāra is the pure soul itself — and it is known by jñāna, not by any external marker.</p>
-<p class="text-base text-on-surface-variant leading-relaxed"><b>G414:</b> Vyavahāra-naya calls both liṅgas (muni and śrāvaka) the path of mokṣa. Niścaya-naya does not consider any liṅga as mokṣa-mārga. These are not contradictions — they are two levels of the same truth. Vyavahāra: yes, the muni-discipline is a mokṣa-mārga instrument. Niścaya: the discipline works only because of the darśana-jñāna-cāritra operating within it.</p>
-<div class="simple-explanation"><b>Simply put:</b> The one who wears the muni garb but thinks "this garb will liberate me" — has not known samayasāra. The one who wears the garb and knows "only my darśana-jñāna-cāritra liberates me" — is on the path.</div>
-<div class="concept-tags">
-<span class="concept-tag">Samayasāra</span>
-<span class="concept-tag">Vyavahāra vs. Niścaya on Liṅga</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g413-414">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G413–414</span>
+<div class="space-y-4 flex-1">
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those with Mamatā in Liṅgas Have Not Known Samayasāra; Vyavahāra-Naya vs. Niścaya-Naya on Liṅga</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><strong>G413:</strong> Those who carry mamatā (ownership) in pāṣaṇḍī liṅgas or gṛhī liṅgas of many types — they have not known samayasāra (the essence of the soul). The one who wears the muni garb but secretly thinks "this garb is what liberates me" — has not known samayasāra. <strong>G414:</strong> Vyavahāra-naya calls both liṅgas (muni and śrāvaka) the path of mokṣa. Niścaya-naya does not consider any liṅga as mokṣa-mārga. These are not contradictions — they are two levels of the same truth.</p>
+<div class="concept-tags"><span class="concept-tag">Mamatā</span><span class="concept-tag">Samayasāra</span><span class="concept-tag">Vyavahāra vs Niścaya</span></div>
 </div>
 </div>
+</article>
 
-<!-- G415 Colophon Gatha -->
-<div class="sutra-card rounded-xl p-7 flex flex-col gap-4" style="border-left-color: #755b00; border-left-width: 4px;">
-<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G415 — The Promise of This Text</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="g415">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">G415</span>
+<div class="space-y-4 flex-1">
 <p class="sutra-sanskrit font-headline">जो समयपाहुडिमणं पढिदूणं अत्थतच्चदो णादुं।<br/>अत्थे ठाही चेदा सो होही उत्तमं सोक्खं।।४१५।।</p>
-<p class="text-base text-on-surface-variant leading-relaxed italic font-headline" style="font-size:1.05rem;">Yaḥ samayaprābhṛtamidaṃ paṭhitvā arthatattvato jñātvā / Arthe sthāsyati cetayitā sa bhaviṣyatyuttamaṃ saukhyam //</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā (conscious soul — the bhavya jīva) who reads this Samayaprābhṛta, knows its meaning and tattvas, and establishes itself in that meaning — will attain the highest happiness (uttamaṃ saukhyam).</p>
-<p class="text-base text-on-surface-variant leading-relaxed">The Tīkā: The Samayaprābhṛta is śabdabrahma — equivalent to the universal creative Word — because it illuminates all things as they are. The soul that reads this scripture, grasps its paramārtha, and establishes itself in that paramārtha — in that complete pūrṇavijñāna-ghana-paramabrahma — will in the immediacy of that experience become radiant with one cetanya-rasa, naturally arrive at uttama saukhya (paramānanda), and remain in that state eternally.</p>
-<div class="simple-explanation"><b>Simply put:</b> If you read this text, understand it truly, and live in that understanding — you will attain the highest joy. Not someday. The moment the soul establishes itself in its own true nature as jñāyaka, that is the beginning of paramānanda.</div>
-<div class="concept-tags">
-<span class="concept-tag">Samayaprābhṛta Promise</span>
-<span class="concept-tag">Uttama Saukhya</span>
-<span class="concept-tag">Establish in Artha</span>
-<span class="concept-tag">Kevalajñāna</span>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The Colophon Promise: The cetayitā (conscious soul) who reads this Samayaprābhṛta, knows its meaning and tattvas (principles), and establishes (sthāyate) itself in that meaning — will attain the highest happiness (uttamaṃ saukhyam).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The Samayaprābhṛta is called "śabdabrahma" — equivalent to the universal creative Word — because it illuminates all things as they are. The soul that reads this scripture, grasps its paramārtha (the caitanya-prakāśarūpa ātmā), and establishes itself in that paramārtha — will, in the immediacy of that experience, become radiant with cidānanda and remain in paramānanda eternally.</p>
+<p class="simple-explanation"><b>The simple version:</b> If you read this text, understand it truly, and <em>live</em> in that understanding — you will attain the highest joy. Not someday. The moment the soul establishes itself in its own true nature as jñāyaka, that is the beginning of paramānanda.</p>
+<div class="concept-tags"><span class="concept-tag">Uttama Saukhya</span><span class="concept-tag">Śabdabrahma</span><span class="concept-tag">Cetayitā</span><span class="concept-tag">Paramānanda</span></div>
 </div>
 </div>
+</article>
 
-<!-- Colophon -->
-<div class="rounded-xl p-8 bg-surface-container-low border border-outline-variant/50 flex flex-col gap-4 mt-6">
-<p class="sutra-sanskrit font-headline text-center" style="font-size:1.2rem; color:#503d00; line-height:2.1;">
-इति श्रीमदमृतचन्द्रसूरिविरचितायां समयसारख्याख्यामात्मख्यातौ<br/>
-सर्वविशुद्धज्ञानप्ररूपकः नवमोऽङ्कः।।
-</p>
-<p class="text-center text-on-surface-variant italic font-headline text-base leading-relaxed">Thus in the Ātmakhyāti — the authoritative commentary on the Samaysaar composed by the revered Ācārya Amṛtacandra Sūri — the ninth adhikar, the exposition of Sarvavishuddhajñāna (Pure All-Knowledge), is concluded.</p>
-</div>
-
-<!-- Closing Sarvaya -->
-<div class="rounded-xl p-8 bg-[#503d00]/5 border border-[#C9A84C]/20 flex flex-col gap-4 mt-4">
-<span class="text-primary font-headline text-xs uppercase tracking-[0.2em] font-semibold">Closing Sarvayā Verse</span>
-<p class="font-headline text-on-surface leading-loose" style="font-size:1.05rem;">सर्वविशुद्धज्ञानरूप सदा चिदानंद करता न भोगता न परद्रव्यभावको,<br/>मूरत अमूरत जे आनद्रव्य लोकमांहि ते भी ज्ञानरूप नहीं न्यारे न अभावको;<br/>यहै जानि ज्ञानी जीव आपकूं भजे सदीव ज्ञानरूप सुखतूप आन न लगावको,<br/>कर्म-कर्मफलरूप चेतनाकूं दूरि टारि ज्ञानचेतना अभ्यास करे शुद्ध भावको।</p>
-<p class="text-on-surface-variant text-sm leading-relaxed italic">The ātmā of sarvavishuddhajñāna-rūpa forever experiences cidānanda — not experiencing any para-dravya-bhāva. Even mūrta and amūrta other dravyas — they are not jñāna-rūpa; they are not absent but they are elsewhere. Knowing this, the jñānī jīva worships its own self as jñāna-rūpa always — attaching nothing else. Removing karma-cetanā and karmaphala-cetanā far away, practicing jñāna-cetanā with pure bhāva.</p>
-</div>
-
-<!-- Next Adhikar Teaser -->
-<div class="rounded-xl p-8 border border-[#C9A84C]/20 bg-white flex flex-col gap-5 mt-8">
-<span class="text-primary font-headline text-sm uppercase tracking-[0.2em] font-semibold">Next · Adhikar 10 of 10</span>
-<h3 class="text-2xl font-headline font-bold text-on-surface">Upasamhāra — उपसंहार</h3>
-<p class="text-on-surface-variant text-base leading-relaxed">The tenth and final adhikar — Kundakunda's conclusion and benediction. The entire Samaysaar is gathered into its final message. What remains for the soul that has truly absorbed these nine adhikars? What is the state of one who has known the samayasāra? The grand summation of all Jain philosophy, in the last gathas of the greatest Jain scripture.</p>
-<a class="text-primary font-headline text-sm uppercase tracking-[0.2em] flex items-center gap-2 hover:gap-3 transition-all" href="samaysaar-ch11.html">
-<span>Read Adhikar 10</span>
-<span class="material-symbols-outlined" style="font-size:16px">arrow_forward</span>
-</a>
-</div>
-
-</div>
-
-<!-- Right sidebar -->
-<div class="col-span-12 lg:col-span-4 flex flex-col gap-8">
-<div class="sticky top-32 flex flex-col gap-8">
-
-<!-- Adhikar summary -->
-<div class="rounded-xl p-7 border border-outline-variant bg-surface-container-low flex flex-col gap-5">
-<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold font-headline">Adhikar 9 · At a Glance</span>
-<table class="w-full text-sm">
-<tbody>
-<tr class="border-b border-outline-variant/50"><td class="py-3 text-on-surface-variant font-semibold pr-4">Title</td><td class="py-3 text-on-surface">Sarvavishuddhajñāna · Pure All-Knowledge</td></tr>
-<tr class="border-b border-outline-variant/50"><td class="py-3 text-on-surface-variant font-semibold pr-4">Gathas</td><td class="py-3 text-on-surface">308–415</td></tr>
-<tr class="border-b border-outline-variant/50"><td class="py-3 text-on-surface-variant font-semibold pr-4">Count</td><td class="py-3 text-on-surface">108 Gathas</td></tr>
-<tr class="border-b border-outline-variant/50"><td class="py-3 text-on-surface-variant font-semibold pr-4">Featured</td><td class="py-3 text-on-surface">G403 — Jñāyaka Is Jñāyaka</td></tr>
-<tr class="border-b border-outline-variant/50"><td class="py-3 text-on-surface-variant font-semibold pr-4">Central Doctrine</td><td class="py-3 text-on-surface">Jñāna is avyatiriktam from jñāyaka; jñāyaka is jñāyaka alone</td></tr>
-<tr class="border-b border-outline-variant/50"><td class="py-3 text-on-surface-variant font-semibold pr-4">Key Analogy</td><td class="py-3 text-on-surface">Seṭikā — the washing stone is the washing stone</td></tr>
-<tr><td class="py-3 text-on-surface-variant font-semibold pr-4">Colophon</td><td class="py-3 text-on-surface">सर्वविशुद्धज्ञानप्ररूपकः नवमोऽङ्कः</td></tr>
-</tbody>
-</table>
-</div>
-
-<!-- Five Keys -->
-<div class="rounded-xl p-7 border border-outline-variant bg-white flex flex-col gap-5">
-<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold font-headline">Five Keys of Adhikar 9</span>
-<div class="flex flex-col gap-4">
-
-<div class="flex gap-3 items-start">
-<span class="text-primary font-headline font-bold text-lg leading-none mt-0.5">1</span>
-<div><p class="font-semibold text-on-surface text-sm">Jñāyaka Is Jñāyaka Alone</p><p class="text-xs text-on-surface-variant leading-relaxed mt-1">The seṭikā is the seṭikā; the knower is the knower. The soul is not defined by what it knows, or by the karma surrounding it. (G356-G360)</p></div>
-</div>
-
-<div class="flex gap-3 items-start">
-<span class="text-primary font-headline font-bold text-lg leading-none mt-0.5">2</span>
-<div><p class="font-semibold text-on-surface text-sm">Rāga Is Your Own Pariṇāma</p><p class="text-xs text-on-surface-variant leading-relaxed mt-1">No external object causes rāga or dveṣa. The object is nimitta; the pariṇāma is yours. This cuts all projection and blame at the root. (G371-G372)</p></div>
-</div>
-
-<div class="flex gap-3 items-start">
-<span class="text-primary font-headline font-bold text-lg leading-none mt-0.5">3</span>
-<div><p class="font-semibold text-on-surface text-sm">The Three Kalpas of Niścaya-Cāritra</p><p class="text-xs text-on-surface-variant leading-relaxed mt-1">Pratikramaṇa (past mamtva-tyāga), ālocana (present witness), pratyākhyāna (future intention-release) — constant, not ritual. (G383-G386)</p></div>
-</div>
-
-<div class="flex gap-3 items-start">
-<span class="text-primary font-headline font-bold text-lg leading-none mt-0.5">4</span>
-<div><p class="font-semibold text-on-surface text-sm">Jñāna Is Avyatiriktam from Jñāyaka</p><p class="text-xs text-on-surface-variant leading-relaxed mt-1">Knowledge and the knower are not two things. The soul is not a knower who "has" knowledge. The soul IS knowing itself. (G403)</p></div>
-</div>
-
-<div class="flex gap-3 items-start">
-<span class="text-primary font-headline font-bold text-lg leading-none mt-0.5">5</span>
-<div><p class="font-semibold text-on-surface text-sm">Darśana-Jñāna-Cāritra Is the Only Mokṣa-Mārga</p><p class="text-xs text-on-surface-variant leading-relaxed mt-1">Not the garb, not the ritual, not the lineage. The ātmā that establishes itself in darśana-jñāna-cāritra attains uttama saukhya. (G410-G415)</p></div>
-</div>
-
-</div>
-</div>
-
-<!-- Samaysaar navigation -->
-<div class="rounded-xl p-7 border border-outline-variant bg-surface-container-low flex flex-col gap-4">
-<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold font-headline">Samaysaar · All Adhikars</span>
-<div class="flex flex-col gap-1">
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch2.html"><span>Adhikar 1 · Jīva</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch3.html"><span>Adhikar 2 · Ajīva</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch4.html"><span>Adhikar 3 · Punya-Pāpa</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-on-surface-outlined hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch5.html"><span>Adhikar 4 · Āsrava</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch6.html"><span>Adhikar 5 · Saṃvara</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch7.html"><span>Adhikar 6 · Nirjarā</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch8.html"><span>Adhikar 7 · Bandh</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch9.html"><span>Adhikar 8 · Moksha</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<a class="text-sm text-primary font-semibold py-1.5 border-b border-outline-variant/30 flex items-center justify-between" href="samaysaar-ch10.html"><span>Adhikar 9 · Sarvavishuddhajnana ←</span><span class="material-symbols-outlined text-xs" style="font-size:14px">chevron_right</span></a>
-<span class="text-sm text-on-surface-variant/50 py-1.5 flex items-center justify-between"><span>Adhikar 10 · Upasamhāra</span><span class="material-symbols-outlined text-xs" style="font-size:14px">lock</span></span>
-</div>
-</div>
-
-</div>
+<!-- Closing Colophon -->
+<div class="mt-20 text-center py-16 border-t border-[#C9A84C]/20">
+<p class="font-headline text-xl md:text-2xl text-primary leading-relaxed">इति श्रीमदमृतचन्द्रसूरिविरचितायां समयसारख्याख्यामात्मख्यातौ सर्वविशुद्धज्ञानप्ररूपकः नवमोऽङ्कः।।</p>
+<p class="text-base text-on-surface-variant mt-4 font-light italic">Thus in the Ātmakhyāti — the commentary on the Samayasāra composed by the venerable Śrī Amṛtacandrasūri — the Ninth Act, <strong>revealer of Sarvavishuddhajñāna</strong>, is concluded.</p>
 </div>
 
 </section>
+
 </main>
 
-<footer class="border-t border-outline-variant py-16 mt-20">
-<div class="max-w-screen-2xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start gap-8">
+<!-- Footer -->
+<footer class="bg-[#f2f1f0] border-t border-primary/10 mt-0">
+<div class="max-w-screen-2xl mx-auto px-6 md:px-12 py-16 grid grid-cols-12 gap-8">
+<div class="col-span-12 lg:col-span-4 flex flex-col gap-6">
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<p class="text-sm text-on-surface-variant leading-relaxed max-w-xs">Illuminating the essence of Jain philosophy — making the ancient wisdom of Kundakunda and Amṛtacandra accessible to sincere seekers.</p>
+</div>
+<div class="col-span-12 lg:col-span-4 flex flex-col gap-4">
+<span class="text-xs font-semibold uppercase tracking-widest text-on-surface-variant">Samaysaar</span>
 <div class="flex flex-col gap-3">
-<span class="text-xl font-headline font-bold text-primary tracking-tighter">JainAwaken.org</span>
-<p class="text-sm text-on-surface-variant max-w-xs leading-relaxed">A living digital treasury of Jain wisdom — scripture, philosophy, and practice for the modern seeker.</p>
+<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="samaysaar-index.html">Index — All Adhikars</a>
+<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="samaysaar-ch9.html">Adhikar 8 — Mokṣa-Adhikar</a>
+<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="samaysaar-ch11.html">Adhikar 10 — Upasamhāra</a>
 </div>
-<div class="flex flex-col gap-2">
-<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold mb-2">Samaysaar</span>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="samaysaar-index.html">All Adhikars</a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="samaysaar-ch9.html">Adhikar 8 · Moksha</a>
-<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="samaysaar-ch11.html">Adhikar 10 · Upasamhāra</a>
 </div>
-<p class="text-xs text-on-surface-variant/60 self-end">© 2025 JainAwaken.org · Shared freely for Dharma</p>
+<div class="col-span-12 lg:col-span-4 flex flex-col gap-4">
+<span class="text-xs font-semibold uppercase tracking-widest text-on-surface-variant">Sacred Texts</span>
+<div class="flex flex-col gap-3">
+<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">All Sacred Texts</a>
+<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritang</a>
+<a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Support This Work</a>
+</div>
+</div>
+</div>
+<div class="border-t border-primary/10 py-6 text-center">
+<p class="text-xs text-on-surface-variant">© 2025 JainAwaken.org · Made with devotion for sincere seekers · All content for educational and spiritual purposes</p>
 </div>
 </footer>
 
 <script>
-// Floating nav visibility on scroll
+// Floating nav buttons appear after scrolling
 const navLeft = document.getElementById('nav-left');
 const navRight = document.getElementById('nav-right');
 window.addEventListener('scroll', () => {
   const scrolled = window.scrollY > 300;
-  navLeft.classList.toggle('visible', scrolled);
-  navRight.classList.toggle('visible', scrolled);
+  if (navLeft) navLeft.classList.toggle('visible', scrolled);
+  if (navRight) navRight.classList.toggle('visible', scrolled);
 });
 </script>
 </body>
