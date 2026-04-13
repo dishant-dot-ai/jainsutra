@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Samaysaar — Adhikar 6: Nirjara (Shedding of Karma, Gathas 193–236) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+
+<!-- Floating Navigation Buttons -->
+<a class="nav-button left-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch6.html" id="nav-left" style="left:24px">
+<span class="material-symbols-outlined text-base" style="font-size:18px">arrow_back</span>Adhikar 5
+</a>
+<a class="nav-button right-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch8.html" id="nav-right" style="right:24px">
+Adhikar 7<span class="material-symbols-outlined text-base" style="font-size:18px">arrow_forward</span>
+</a>
+
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div></div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Samaysaar · Adhikar 6 · Gathas 193–236</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Shedding of Karma<span class="block text-primary font-normal text-xl md:text-2xl mt-2">निर्जरा अधिकार</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">All 44 gathas of the sixth Adhikar — how the pure knower naturally sheds karma, and what the eight qualities of samyag-darśana look like in practice</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Nirjarā is not effortful karma-destruction. It is the natural consequence of jñāyaka-svabhāva. When the soul knows itself as pure knower — and correctly sees rāga as karma's product, not self — karma sheds naturally through experience without generating new bondage. The eight qualities of samyag-darśana are this principle lived in all dimensions.</p>
+<div class="flex gap-8 items-center flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">44</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Gathas</span></div>
+<div class="w-px h-10 bg-outline-variant"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">6</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">of 10 Adhikars</span></div>
+<div class="w-px h-10 bg-outline-variant"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Qualities of Samyag-Darśana</span></div>
+</div>
+<a class="text-primary font-headline text-sm uppercase tracking-[0.2em] flex items-center gap-2 hover:gap-3 transition-all" href="samaysaar-index.html">
+<span class="material-symbols-outlined" style="font-size:16px">arrow_back</span>Back to Samaysaar Index
+</a>
+</div>
+
+<!-- Featured verse panel -->
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2">
+<div class="rounded-xl overflow-hidden shadow-xl border border-[#C9A84C]/20">
+<div class="burnished-gradient px-8 py-6">
+<span class="text-white/70 font-headline uppercase tracking-[0.2em] text-xs font-semibold">Featured Verse — G199</span>
+<p class="sutra-sanskrit text-white mt-3 font-headline">पोग्गलकम्मं रागो तस्स िववागोदओ हविद एसो।<br/>ण तु एस मज्झ भावो जाणगभावो हु अहमेको।।१९९।।</p>
+</div>
+<div class="bg-white px-8 py-6 flex flex-col gap-4">
+<p class="font-headline text-on-surface-variant italic text-lg leading-relaxed">Rāga is pudgala-karma; this rāga-bhāva is its vipāka-udaya (rising fruition). But this is not my bhāva. I am certainly one — the jñāyaka-bhāva alone.</p>
+<p class="text-on-surface-variant text-base leading-relaxed">That feeling of attraction or desire you are experiencing? That is karma's ripening — not you. You are the awareness that knows it is happening. The samyag-dṛṣṭi who sees this clearly does not bind new karma through experience — because without the inner claim of "this is mine, this is me," the experience exhausts itself and dissolves.</p>
+<div class="concept-tags">
+<span class="concept-tag">Jñāyaka-Bhāva</span>
+<span class="concept-tag">Rāga as Karma-Vipāka</span>
+<span class="concept-tag">Nirjarā</span>
+<span class="concept-tag">Pudgala-Karma</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Principles -->
+<section class="bg-surface-container-low py-24 mb-20">
+<div class="max-w-screen-2xl mx-auto px-6 md:px-12">
+<div class="section-divider mb-10"><span>Three Governing Principles</span></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle I</span>
+</div>
+<span class="principle-name">Jñāyaka-Bhāva as Nirjarā</span>
+<span class="principle-def">Knowing oneself as the pure knower — and rāga as karma's product, not self — is itself the mechanism of karma-shedding. Nirjarā is not something you do to karma; it is what happens when you correctly know what you are.</span>
+</div>
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle II</span>
+</div>
+<span class="principle-name">Gold in Mud — Svabhāva Determines Stainability</span>
+<span class="principle-def">Gold surrounded by mud does not become muddy. Iron does. The difference is svabhāva. The jñānī in karma-situations is gold — rāga-abandonment is their nature. Karma cannot adhere to what does not crave it. The same external conditions produce nirjarā in the jñānī and bandha in the ajñānī.</span>
+</div>
+
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Principle III</span>
+</div>
+<span class="principle-name">The Eight Qualities Are Jñāyaka-Bhāva in Life</span>
+<span class="principle-def">The eight qualities of samyag-darśana — niḥśaṅka, niḥkāṅkṣa, nirvidicikitsa, amūḍha-dṛṣṭi, upagūhana, sthitikāraṇa, vātsalya, prabhāvana — are not separate ideals. They are the direct expression of established jñāyaka-bhāva operating across all dimensions of living.</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Main Content -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 mb-32">
+
+<!-- Left column: gathas -->
+<div class="col-span-12 lg:col-span-8 flex flex-col gap-10">
+
+<!-- Part 1 -->
+<div class="section-divider"><span>Part 1 · G193–G194 · What Is Nirjarā?</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Foundation</span></div>
+<span class="principle-name">Every Experience of the Samyag-Dṛṣṭi Is a Cause of Nirjarā</span>
+<span class="principle-def">The Adhikar opens with a revolutionary reframe. Every experience the samyag-dṛṣṭi has — through the senses, through the mind — becomes a cause of nirjarā (karma-shedding), not of new bondage. Without the inner rāgādi bhāva that converts experience into bondage, karma simply exhausts itself through experience and drops away.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G193 — The Foundational Declaration</span>
+<p class="text-base text-on-surface-variant leading-relaxed">All upayoga-upabhoga (conscious experiencing) by the samyag-dṛṣṭi of insentient and sentient substances through the sense organs — all of it becomes a cause of nirjarā.</p>
+<div class="simple-explanation"><b>Simply put:</b> For the one who knows the self, every experience dissolves karma instead of building it.</div>
+<div class="concept-tags">
+<span class="concept-tag">Nirjarā</span>
+<span class="concept-tag">Samyag-Dṛṣṭi</span>
+<span class="concept-tag">Upayoga</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G194 — Pleasure and Pain Both Dissolve</span>
+<p class="text-base text-on-surface-variant leading-relaxed">When any substance is experienced, sukha (pleasure) or duḥkha (pain) necessarily arises in the soul. Experiencing that — it goes to nirjarā (is shed, dissolved).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Experience cannot be neutral — it produces either pleasant or unpleasant sensation. These sensations, correctly known as karma-vipāka (the ripening of previously bound karma), pass through experience and exit as nirjarā. The key is "correctly known" — recognized as karma-products, not as self, not as worth craving or fleeing.</p>
+<div class="simple-explanation"><b>Simply put:</b> Every pleasure and pain that a knower experiences is karma burning off — not karma accumulating.</div>
+</div>
+
+<!-- Part 2 -->
+<div class="section-divider"><span>Part 2 · G195–G196 · Doctor and Drunkard Analogies</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G195 — The Physician and Poison</span>
+<p class="sutra-sanskrit font-headline">जह विसमुवभुंजंतो वेज्जो पुिरसो ण मरणमुवय िद।<br/>पोग्गलकम्मस्सुदयं तह भुंजिद णेव बज्झदे णाणी।।१९५।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">यथा विषमुपभुञ्जानो वैद्यः पुरुषो न मरणमुपयाति। पुद्गलकर्मण उदयं तथा भुङ्क्ते नैव बध्यते ज्ञानी।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Just as a physician eating poison does not die — so the jñānī, experiencing the rise of pudgala-karma, does not bind new karma.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The physician's knowledge of medicine gives him a counter-force that neutralizes the poison's killing power. Similarly, the jñānī's amogha-jñāna — specifically the absence of rāgādi bhāva — counter-neutralizes karma's binding power. When karma rises and the jñānī experiences its fruits, karma cannot bind because the jñānī lacks the inner bhāva-āsrava (rāga-dveṣa-moha) that would convert experience into new bondage.</p>
+<div class="simple-explanation"><b>Simply put:</b> Knowledge is the antidote. Just as the knowledgeable physician eats poison without dying, the jñānī lives through karma's fruits without binding new karma.</div>
+<div class="concept-tags">
+<span class="concept-tag">Jñāna as Antidote</span>
+<span class="concept-tag">Karma-Udaya</span>
+<span class="concept-tag">Bhāva-Āsrava</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G196 — The Drunkard Who Does Not Get Drunk</span>
+<p class="sutra-sanskrit font-headline">जह मज्जं पिबमाणो अरदीभावेण मज्जिद ण पुिरसो।<br/>दव्वुवभोगे अरदो णाणी िव ण बज्झिद तहेव।।१९६।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">यथा मद्यं पिबन् अरतिभावेन माद्यति न पुरुषः। द्रव्योपभोगेऽरतो ज्ञान्यपि न बध्यते तथैव।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Just as a person drinking intoxicant with arati-bhāva (feeling of loathing/non-attachment) does not become intoxicated — so the jñānī, having vairāgya toward all sense-object enjoyment, does not bind karma.</p>
+<div class="simple-explanation"><b>Simply put:</b> Intoxication comes from craving, not from the drink. Karma-bondage comes from inner rāga, not from external experience.</div>
+<div class="concept-tags">
+<span class="concept-tag">Arati-Bhāva</span>
+<span class="concept-tag">Vairāgya</span>
+<span class="concept-tag">Karma-Bandha</span>
+</div>
+</div>
+
+<!-- Part 3 -->
+<div class="section-divider"><span>Part 3 · G197 · The Owner and the Instrument</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G197 — Karma Cannot Be Imputed to the Jñānī</span>
+<p class="sutra-sanskrit font-headline">सेवंतो िव ण सेविद असेवमाणो िव सेवगो कोई।<br/>पगरणचेट्ठा कस्स िव ण य पायरणो ित सो होिद।।१९७।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">One who performs activity does not really do it; one who does not do it may still be the doer. The activity of the instrument (prakaraṇa) does not make someone the owner of that instrument's action.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The prakaraṇa (instrument/tool) performs activity. But the activity of the instrument is not the activity of whoever wields it — the owner must claim it as their own for it to be "theirs." The samyag-dṛṣṭi, through the power of bheda-jñāna, does not claim karma-udaya as "mine." The ajñānī claims ownership of karma-driven activity — and that claiming is itself the bondage.</p>
+<div class="simple-explanation"><b>Simply put:</b> Not the activity but the ownership-claim makes you the doer. The jñānī doesn't claim karma's activities as theirs.</div>
+<div class="concept-tags">
+<span class="concept-tag">Bheda-Jñāna</span>
+<span class="concept-tag">Kartā-Bhoktā</span>
+<span class="concept-tag">Karma-Udaya</span>
+</div>
+</div>
+
+<!-- Part 4 -->
+<div class="section-divider"><span>Part 4 · G198–G200 · I Am Jñāyaka-Bhāva — Rāga Is Not My Svabhāva</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G198 — Karma's Products Are Not My Svabhāva</span>
+<p class="sutra-sanskrit font-headline">उदयिववागो िविवहो कम्माणं वण्णदो जिणवरेिहं।<br/>ण तु ते मज्झ सहावा जाणगभावो तु अहमेको।।१९८।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">उदयविपाको विविधः कर्मणां वर्णितो जिनवरैः। न तु ते मम स्वभावाः ज्ञायकभावस्त्वहमेकः।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The many types of karma-udaya-vipāka (fruition of arising karma) have been described in various ways by the Jinavars. But those are not my svabhāva. I am one — the jñāyaka-bhāva (pure knowing-state).</p>
+<div class="simple-explanation"><b>Simply put:</b> Karma produces all kinds of results. None of them are you. You are the one who knows all of them.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G199 — Rāga Is Karma's Product, Not My Bhāva <span class="text-xs ml-2 bg-primary/10 text-primary px-2 py-0.5 rounded-full normal-case tracking-normal font-semibold">Featured Verse</span></span>
+<p class="sutra-sanskrit font-headline">पोग्गलकम्मं रागो तस्स िववागोदओ हविद एसो।<br/>ण तु एस मज्झ भावो जाणगभावो हु अहमेको।।१९९।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">पुद्गलकर्म रागस्तस्य विपाकोदयो भवति एषः। न त्वेष मम भावो ज्ञायकभावः खल्वहमेकः।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Rāga is pudgala-karma; this rāga-bhāva is its vipāka-udaya (rising fruition). But this is not my bhāva. I am certainly one — the jñāyaka-bhāva alone.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is a precise metaphysical claim: rāga (attraction, love, desire) is not a property of the soul — it is pudgala-karma in its fruition-arising form. When mohanīya-karma rises, its fruition appears as rāga-bhāva in the experiential field. The ajñānī misidentifies this as "my feeling, my nature." The jñānī sees: "this rāga is karma's product — its vipāka-udaya. Not my bhāva. I am jñāyaka-bhāva alone."</p>
+<div class="simple-explanation"><b>Simply put:</b> That feeling of attraction or love you're experiencing? That is karma's ripening — not you. You are the awareness that knows it is happening.</div>
+<p class="text-on-surface-variant text-sm italic mt-2 border-l-2 border-primary/30 pl-3">Contemplate: Right now, whatever feeling is strongest in you — notice that you are also aware of it. Which of these is more fundamentally you: the feeling, or the awareness?</p>
+<div class="concept-tags">
+<span class="concept-tag">Jñāyaka-Bhāva</span>
+<span class="concept-tag">Rāga as Karma</span>
+<span class="concept-tag">Mohanīya-Karma</span>
+<span class="concept-tag">Vipāka-Udaya</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G200 — Right Knowledge Naturally Releases Karma</span>
+<p class="sutra-sanskrit font-headline">एवं सम्मिदिट्ठी अप्पाणं मुणिद जाणगसहावं।<br/>उदयं कम्मिवावागं च मुयिद तच्चं िवयाणंतो।।२००।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">एवं सम्यग्दृष्टिः आत्मानं मुनाति ज्ञायकस्वभावम्। उदयं कर्मविपाकं च मुञ्चति तत्त्वं विजानन्।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Thus the samyag-dṛṣṭi knows the self as jñāyaka-svabhāva. And knowing tattva (reality correctly), releases (muñcati) karma-vipāka-udaya. Not by fighting karma or suppressing it — but like releasing your grip on something you've realized you were mistakenly holding.</p>
+<div class="simple-explanation"><b>Simply put:</b> Right knowledge of self as pure knower — combined with right knowledge of rāga as karma's product — results in natural release of karma.</div>
+</div>
+
+<!-- Part 5 -->
+<div class="section-divider"><span>Part 5 · G201–G202 · Even a Paramāṇu of Rāgādi = Self-Ignorance</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G201 — No Scripture Compensates for Rāga</span>
+<p class="sutra-sanskrit font-headline">परमाणुमित्तयं पि हु रागादीणं तु िवज्जदे जस्स।<br/>ण िव सो जाणिद अप्पाणयं तु सव्वागमधरो िव।।२०१।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">परमाणुमात्रमपि खलु रागादीनां तु विद्यते यस्य। नापि स जानात्यात्मानं तु सर्वागमधरोऽपि।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">In whom even a paramāṇu-measure of rāgādi exists — even if he is sarvāgama-dhara (carrier of all scriptures) — he does not know the ātmā.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The standard is absolute: even the smallest trace of rāgādi indicates the absence of true ātma-jñāna. Because rāga is karma's vipāka-udaya — if one truly knew the self as jñāyaka-bhāva, one could not mistake karma's product for the self. Textual knowledge without experiential self-discrimination is still ignorance of the self.</p>
+<div class="simple-explanation"><b>Simply put:</b> Even the tiniest trace of rāga reveals you haven't truly known the self yet — no matter how many scriptures you've studied.</div>
+<div class="concept-tags">
+<span class="concept-tag">Ātma-Jñāna</span>
+<span class="concept-tag">Rāgādi</span>
+<span class="concept-tag">Sarvāgama-Dhara</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G202 — Self-Knowledge and Non-Self-Knowledge Arise Together</span>
+<p class="sutra-sanskrit font-headline">अप्पाणमयाणंतो अणप्पयं चािव सो अयाणंतो।<br/>कह होिद सम्मिदट्ठी जीवाजीवे अयाणंतो।।२०२।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">आत्मानमजानन् अनात्मानं चापि सोऽजानन्। कथं भवति सम्यग्दृष्टिर्जीवाजीवावजानन्।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Not knowing the self — and thus also not knowing the non-self — how can he be samyag-dṛṣṭi, not knowing jīva and ajīva?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Self-knowledge and non-self-knowledge arise together. When the soul truly knows itself as jīva (consciousness, jñāyaka-bhāva), it simultaneously knows what it is not — ajīva (matter, karma, body, rāga). These are two sides of one discrimination. Without self-knowledge, non-self-knowledge is also absent.</p>
+<div class="simple-explanation"><b>Simply put:</b> True knowledge of the self and true knowledge of what is not-self arise together. Without one, you don't have the other.</div>
+</div>
+
+<!-- Part 6 -->
+<div class="section-divider"><span>Part 6 · G203–G206 · Grasp the Stable Single Jñāna-Bhāva</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G203 — Abandon the Transients; Grasp the Permanent</span>
+<p class="sutra-sanskrit font-headline">आदम्हि दव्वभावे अपदे मोत्तूण गिण्ह तह णियदं।<br/>िथरमेगिममं भावं उवलब्धंत सहावेण।।२०३।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">आत्मनि द्रव्यभावानपदानि मुक्त्वा गृहाण तथा नियतम्। स्थिरमेकमिमं भावमुपलभ्यमानं स्वभावेन।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">In the ātmā — abandoning the dravya-bhāvas (material states) that are apad (not the true resting-place) — grasp that fixed, single, stable bhāva that is attainable through svabhāva.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Apad" means "not a stable station" — something that cannot be a permanent resting place. All dravya-bhāva — the states arising from karma's interaction with the soul — are apad: impermanent, unstable, borrowed. The soul's svabhāva is the one stable bhāva: pure jñāna-consciousness, niyata, sthira, eka.</p>
+<div class="simple-explanation"><b>Simply put:</b> All the states that come and go are not your home. Your home is the one stable thing: pure knowing.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G204 — All Five Jñānas Are One Pada</span>
+<p class="sutra-sanskrit font-headline">आभिणिसुदोिधमणकेवलं च तं होिद एक्केमेव पदं।<br/>सो एसो परमट्ठो जं लिहदुं णिव्युिदं जािद।।२०४।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Mati-jñāna, śruta-jñāna, avadhi-jñāna, manaḥparyaya-jñāna, and kevala-jñāna — that is one single pada (station/abode). That is the paramārtha — by attaining which one goes to nirvāṇa.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The five types of jñāna appear to be five different things. But from the paramārtha standpoint, they are all one: the soul's consciousness expressing itself at different degrees of unfolding. The substrate is one. Recognizing jñāna as one single pada and resting there: that is the practice.</p>
+<div class="simple-explanation"><b>Simply put:</b> Whether you have little knowledge or omniscience, it's all one thing — knowing. Rest in knowing as such, not in its particular contents.</div>
+<div class="concept-tags">
+<span class="concept-tag">Pañca-Jñāna</span>
+<span class="concept-tag">Paramārtha</span>
+<span class="concept-tag">Kevala-Jñāna</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G205 — Grasp This Jñāna Firmly</span>
+<p class="sutra-sanskrit font-headline">णाणगुणेण विहीणा एदं तु पदं बहू िव ण लहंते।<br/>तं गिण्ह णियदमेदं जिद इच्छिस कम्मपिरमोक्खं।।२०५।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Many people, devoid of jñāna-guṇa, do not attain this pada. Therefore, O bhavya! If you desire complete liberation from karma — grasp this niyata (certain, fixed) jñāna.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The word "niyatam" carries the force of "unwaveringly, with firm resolve, without alternative." Liberation comes from jñāna alone, not from karma-kāṇḍa (ritual action-based approaches).</p>
+<div class="simple-explanation"><b>Simply put:</b> Millions miss liberation not for lack of effort but for lack of jñāna. Grasp jñāna firmly. It alone frees from karma.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G206 — Be Content in Knowing Itself</span>
+<p class="sutra-sanskrit font-headline">एदगिह रदो णिच्चं संतुट्ठो होिह णिचमेदम्हि।<br/>एदेण होिह तित्तो होहिद तुह उत्तमं सोक्खं।।२०६।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">एतस्मिन् रतो नित्यं सन्तुष्टो भव नित्यमेतस्मिन्। एतेन भव तृप्तो भविष्यति तवोत्तमं सौख्यम्।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Be always ratī (devoted, content) in this (jñāna). Be always santushṭa (satisfied) in this. Be tṛpta (satiated) in this. This will become your uttama-sukha (highest happiness).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Three imperatives — ratī, santushṭa, tṛpta — all directed toward jñāna itself. Not toward the contents of knowledge, not toward outcomes, but toward the very fact of knowing. When the soul takes jñāna itself as its object of delight, the "uttama-sukha" arises as the natural quality of resting in one's own nature.</p>
+<div class="simple-explanation"><b>Simply put:</b> Find your contentment in knowing itself — not in what you know or what you get. That is the highest joy there is.</div>
+<p class="text-on-surface-variant text-sm italic mt-2 border-l-2 border-primary/30 pl-3">Contemplate: Right now — awareness is happening. Can "knowing is occurring" itself be your object of delight? Try resting in that, rather than in what is known.</p>
+</div>
+
+<!-- Part 7 -->
+<div class="section-divider"><span>Part 7 · G207–G209 · The Self's Only Parigraha Is the Self</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G207 — Who Would Claim Para-Dravya as Mine?</span>
+<p class="sutra-sanskrit font-headline">को णाम भिणज्ज बुहो परदव्वं मम इमं हविद दव्वं।<br/>अप्पाणमप्पणो पिरगहं तु णियदं वियाणंतो।।२०७।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">को नाम भणेद्बुधः परद्रव्यं ममेदं भवति द्रव्यम्। आत्मानमात्मनः परिग्रहं तु नियतं विजानन्।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">What wise person would say "this para-dravya is my dravya" — the one who knows, as a fixed fact, that the self's parigraha (possession) is the self alone?</p>
+<div class="simple-explanation"><b>Simply put:</b> Once you know what is truly yours — the self alone — claiming anything else as yours becomes as absurd as claiming someone else's home as yours.</div>
+<div class="concept-tags">
+<span class="concept-tag">Parigraha</span>
+<span class="concept-tag">Para-Dravya</span>
+<span class="concept-tag">Svata</span>
+</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G208 — If It Were Mine, I Would Become Ajīva</span>
+<p class="sutra-sanskrit font-headline">मज्झं पिरग्गहो जिद तदो अहमजीवदं तु गच्छेज्ज।<br/>णादेव अहं जम्हा तम्हा ण पिरग्गहो मज्झ।।२०८।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">If that (para-dravya) were my parigraha, then I would become ajīva (insentient). Since I am jñāta (the knower) alone — therefore that is not my parigraha.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A precise logical argument: "mine-ness" in the ultimate sense means becoming that thing (sharing its svabhāva). If the body were truly mine, I would become body-svabhāva (ajīva). But I am jñāta — consciousness, not matter. Therefore para-dravya cannot be truly mine.</p>
+<div class="simple-explanation"><b>Simply put:</b> If the body were truly mine, I would BE body — insentient. But I know. I am the knower. Therefore the body is not mine.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G209 — Let It Go Where It Goes</span>
+<p class="sutra-sanskrit font-headline">छिज्जदु वा भिज्जदु वा णिज्जदु वा अहव जादु विप्पलयं।<br/>जम्हा तम्हा गच्छदु तह वि हु ण पिरग्गहो मज्झ।।२०९।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Let it be cut, broken, taken away, or destroyed — let it go wherever it goes — even so, it is certainly not my parigraha.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The jñānī's non-possession is unconditional. No circumstance changes it. This is the opposite of conventional renunciation (which is still emotionally engaged with what it gives up). The jñānī hasn't given up anything — they have simply correctly seen that it was never theirs to begin with.</p>
+<div class="simple-explanation"><b>Simply put:</b> The jñānī is unconcerned with gain or loss — not because of effort, but because they correctly know: it was never mine.</div>
+</div>
+
+<!-- Part 8 -->
+<div class="section-divider"><span>Part 8 · G210–G214 · Jñānī as Knower, Not Possessor</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Structural Teaching</span></div>
+<span class="principle-name">The Jñānī Is Knower of All Bhāvas — Not Their Possessor</span>
+<span class="principle-def">G210–G214 apply the same principle across five categories: dharma (merit), adharma (demerit), food, drink, and all other bhāvas. The jñānī's relationship to all of these is jñāna (knowing), not icchā (desire/possessing). This same substitution applies to all modifications of karma, body, mind, speech, and sense organs — sixteen different categories total.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G210 — Knower of Dharma, Not Its Possessor</span>
+<p class="sutra-sanskrit font-headline">अपिरग्गहो अणिच्छो भणिदो णाणी य णेच्छदे धम्मं।<br/>अपिरग्गहो दु धम्मस्स जाणगो तेण सो होिद।।२१०।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The jñānī, having been declared aparigraha and aniccha, does not desire dharma (punya/merit). Therefore he is the knower of dharma — not its possessor.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The desire for merit — for good karma, for virtuous outcomes — is itself a form of parigraha. "Icchā parigraha" — desire is possession. The jñānī sees dharma as something that happens in the field of experience — they know it, without owning or craving it.</p>
+<div class="simple-explanation"><b>Simply put:</b> Even craving for virtue is a form of grasping. The jñānī doesn't grasp even merit — they simply know it.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G211–G213 — Knower of Adharma, Food, and Drink</span>
+<p class="text-base text-on-surface-variant leading-relaxed">The same principle extends across all categories. G211: The jñānī does not desire adharma (pāpa/demerit) — they are the knower of adharma, not its possessor. G212: The jñānī does not desire food — even when hungry, they know hunger as karma's product and eating as its address, not as "I desire food." G213: The jñānī does not desire drink — same structural principle.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Note the structural elegance: "aparigraha" applies equally to punya and pāpa and food and drink. The categories are not ethical ones — the principle is ontological: the jñānī's relationship to all bhāvas is knowing, not possessing.</p>
+<div class="simple-explanation"><b>Simply put:</b> The jñānī doesn't own their vices any more than their virtues. They are the witness of both.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G214 — Jñāyaka-Bhāva Is Nirālamba</span>
+<p class="sutra-sanskrit font-headline">एमादिए दु िविविहे सव्वे भावे य णेच्छदे णाणी।<br/>जाणगभावो णियदो णीरालंबो दु सव्वत्थ।।२१४।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">एवमादिकांस्तु विविधान् सर्वान् भावांश्च नेच्छति ज्ञानी। ज्ञायकभावो नियतो निरालम्बस्तु सर्वत्र।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The jñānī does not desire any of these many types of bhāvas. His jñāyaka-bhāva is fixed — completely nirālamba (without support/anchorage) everywhere.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Nirālamba" — without external support or anchorage. The jñāyaka-bhāva does not lean on anything outside itself. It is entirely self-sufficient, resting in its own svabhāva. This is the ultimate non-parigraha: the soul's standing in its own knowing-nature without needing anything else as support.</p>
+<div class="simple-explanation"><b>Simply put:</b> The jñānī's awareness needs nothing to lean on. It stands in itself. That is the deepest non-possession.</div>
+<div class="concept-tags">
+<span class="concept-tag">Nirālamba</span>
+<span class="concept-tag">Jñāyaka-Svabhāva</span>
+<span class="concept-tag">Aparigraha</span>
+</div>
+</div>
+
+<!-- Part 9 -->
+<div class="section-divider"><span>Part 9 · G215–G216 · Viyoga-Buddhi — Detachment at All Three Times</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G215–G216 — The Three Times of Non-Craving</span>
+<p class="sutra-sanskrit font-headline">उप्पण्णोदयभोगो वियोगबुद्धीए तस्त सो णिच्चं।<br/>कंखामणागदस्स य उदयस्स ण कुव्वदे णाणी।।२१५।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Toward the upabhoga (enjoyment/experience) that has arisen through karma-udaya — the jñānī always has viyoga-buddhi (detachment-understanding). And toward anāgata (future) karma-udaya, the jñānī does not make kāṅkṣā (desire/craving).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G216: The vedaka-bhāva (experiencing-state) and the vedya-bhāva (the experienced-state) — both perish moment by moment. The jñānī, knowing this, never desires either of them. Both the experiencer-modification and the experienced-object are momentary — arising and perishing in each instant. The jñānī sees this impermanence — and knowing there is nothing stable in either, makes no desire toward either.</p>
+<div class="simple-explanation"><b>Simply put:</b> Present pleasures — "this will end, I know I am not this." Future pleasures — "I don't crave them." Both the one who wants and the object of wanting vanish moment by moment. What is there to crave?</div>
+<div class="concept-tags">
+<span class="concept-tag">Viyoga-Buddhi</span>
+<span class="concept-tag">Kāṅkṣā</span>
+<span class="concept-tag">Vedaka-Vedya</span>
+</div>
+</div>
+
+<!-- Part 10 -->
+<div class="section-divider"><span>Part 10 · G217–G219 · Gold and Iron — Svabhāva Determines Stainability</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G217 — No Rāga in the Jñānī's Inner Determinations</span>
+<p class="sutra-sanskrit font-headline">बंधुवभोगिणिमित्ते अझ्वसाणोदएसु णाणिस्स।<br/>संसारदेहिवसएसु णेव उप्पज्जदे रागो।।२१७।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">In the adhyavasāna-udayas (arising of inner determinations) related to causes of bondage, sensory enjoyment, samsāra, and body — rāga does not arise in the jñānī. Because the jñānī knows all these things as pāra-svabhāva (other-nature), not as their own, even their mere mention does not trigger attraction or aversion.</p>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G218–G219 — Gold in Mud vs Iron in Mud</span>
+<p class="sutra-sanskrit font-headline">णाणी रागप्पजहो सव्वदव्वेसु कम्ममज्झगदो।<br/>णो लिप्पिद रजएण दु कद्ममज्झे जहा कणयं।।२१८।।</p>
+<p class="sutra-sanskrit font-headline">अण्णाणी पुण रत्तो सव्वदव्वेसु कम्ममज्झगदो।<br/>लिप्पिद कम्मरएण दु कद्ममज्झे जहा लोहं।।२१९।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G218: The jñānī — having abandoned rāga toward all dravyas — even when in the midst of karma — is not stained by karma-dust. <em>Just as gold in the middle of mud is not stained.</em></p>
+<p class="text-base text-on-surface-variant leading-relaxed">G219: The ajñānī — attached to all dravyas — even when in the midst of karma — is stained by karma-dust. <em>Just as iron in mud gets stained.</em></p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gold's svabhāva is aliptatva (non-sticking). Mud cannot adhere to gold's nature. The jñānī in karma-situations: karma cannot adhere because the jñānī's svabhāva is rāga-tyāga (rāga-abandonment). The ajñānī's svabhāva is rāgopādāna-śīlatva (the tendency to grasp through rāga) — therefore karma adheres like rust on iron. The difference is internal, not circumstantial.</p>
+<div class="simple-explanation"><b>Simply put:</b> In the same karma-ocean: the jñānī is gold — karma doesn't stick. The ajñānī is iron — karma sticks and rusts.</div>
+<div class="concept-tags">
+<span class="concept-tag">Aliptatva</span>
+<span class="concept-tag">Svabhāva</span>
+<span class="concept-tag">Gold Analogy</span>
+</div>
+</div>
+
+<!-- Part 11 -->
+<div class="section-divider"><span>Part 11 · G220–G223 · The Conch Analogy</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G220–G223 — Only Self-Abandonment Causes Fall</span>
+<p class="sutra-sanskrit font-headline">भुंजंतस्स िव िविविहे सिच्ताचित्तमिस्सिसए दव्वे।<br/>संखस्स सेदभावो ण िव सक्किद किण्हगो काडंु।।२२०।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G220: Just as the whiteness of a conch — even while eating various saccitta, acitta, and mixed substances — cannot be made black by anyone. G221: Similarly, the jñānī, even while enjoying various substances — their jñāna cannot be made ajñāna by anyone from outside.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G222: But when the conch itself abandons its white svabhāva and takes on blackness — then it loses its whiteness. G223: Similarly, when the jñānī itself abandons its jñāna-svabhāva and becomes transformed by ajñāna — then it attains ajñānatā.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The conch's whiteness cannot be blackened by external substances — only when the conch itself transforms. Similarly, external experiences cannot make the jñānī ajñānī — only when the jñānī itself abandons jñāna-svabhāva. The key implication: the responsibility for spiritual fall is always internal, never external.</p>
+<div class="simple-explanation"><b>Simply put:</b> Nothing outside you can destroy your knowing. Only you can abandon it.</div>
+<div class="concept-tags">
+<span class="concept-tag">Conch Analogy</span>
+<span class="concept-tag">Jñāna-Svabhāva</span>
+<span class="concept-tag">Self-Responsibility</span>
+</div>
+</div>
+
+<!-- Part 12 -->
+<div class="section-divider"><span>Part 12 · G224–G227 · The King Analogy</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G224–G227 — Karma Delivers Only to Those Who Crave Its Fruits</span>
+<p class="text-base text-on-surface-variant leading-relaxed">G224–225: Just as a person serves the king for livelihood purposes — and the king gives him various happiness-producing enjoyments — similarly, the jīva-puruṣa serves karma-rāja (karma-king) for the sake of sukha, and karma gives him various enjoyments.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G226–227: But when that person does NOT serve the king for livelihood — the king does not give him those enjoyments. Similarly, the samyag-dṛṣṭi does NOT serve karma-rāja for sense-objects — so karma does not give him the various rañjita-pariṇāma (rāga-tinged fruits).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Serving karma" means seeking karma's products — craving pleasure from karma's fruits, doing actions with the motive of obtaining karma-produced sukha. The ajñānī serves karma (desires its products) → karma gives those products. The samyag-dṛṣṭi doesn't serve karma (doesn't seek karma-produced sukha as the goal) → karma cannot deliver to someone who isn't craving.</p>
+<div class="simple-explanation"><b>Simply put:</b> Karma can only deliver to someone who's placed an order. The jñānī has stopped ordering.</div>
+<div class="concept-tags">
+<span class="concept-tag">King Analogy</span>
+<span class="concept-tag">Karma-Rāja</span>
+<span class="concept-tag">Rañjita-Pariṇāma</span>
+</div>
+</div>
+
+<!-- Part 13 -->
+<div class="section-divider"><span>Part 13 · G228 · Freedom from the Seven Fears</span></div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G228 — Samyag-Dṛṣṭi Are Niḥśaṅka and Nirbhaya</span>
+<p class="sutra-sanskrit font-headline">सम्मािदट्ठी जीवा णिस्सका होंित िणभ्भया तेण।<br/>सत्तभयिवप्पमुक्का जम्हा तम्हा दु िणस्सका।।२२८।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">सम्यग्दृष्टयो जीवा निरशङ्का भवन्ति निर्भयास्तेन। सप्तभयविप्रमुक्ता यस्मात्तस्मातु निरशङ्काः।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Samyag-dṛṣṭi jīvas are niḥśaṅka (free from doubt) and therefore nirbhaya (fearless). Because they are free from the seven fears.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The seven fears: (1) this-world fear (loka-bhaya), (2) next-world fear (paraloka-bhaya), (3) agupti-bhaya (fear from lack of protection), (4) vedanā-bhaya (fear of suffering), (5) maraṇa-bhaya (fear of death), (6) ākasmika-bhaya (fear of sudden events), (7) other karma-related fears. The samyag-dṛṣṭi is niḥśaṅka — free from all seven — because being established in jñāyaka-bhāva, they know: this consciousness cannot be harmed by any external condition.</p>
+<div class="simple-explanation"><b>Simply put:</b> When you know you are the eternal knower, every fear dissolves. What is there to fear if you know you cannot be harmed?</div>
+<div class="concept-tags">
+<span class="concept-tag">Niḥśaṅka</span>
+<span class="concept-tag">Nirbhaya</span>
+<span class="concept-tag">Sapta-Bhaya</span>
+</div>
+</div>
+
+<!-- Part 14 -->
+<div class="section-divider"><span>Part 14 · G229–G236 · Eight Qualities of Samyag-Darśana</span></div>
+
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Core Teaching</span></div>
+<span class="principle-name">The Eight Qualities (Aṅgas) of Samyag-Darśana</span>
+<span class="principle-def">These eight gathas describe the eight aṅgas (qualities/dimensions) of samyag-darśana. Each is a mode of nirjarā — the soul established in jñāyaka-bhāva naturally expressing itself across all dimensions of life, each expression shedding karma rather than binding it.</span>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G229 — Niḥśaṅka (Doubt-Free)</span>
+<p class="sutra-sanskrit font-headline">जो चत्तािर िव पाए छिदिद ते कम्मबंधमोहकरे।<br/>सो िणस्सको चेदा सम्मािदिट्ठ मुणेदव्वो।।२२९।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā (experiencing consciousness) who cuts the four pādas (foot-like causes) — the karma-bandha-moha-causing ones — is niḥśaṅka and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The four pādas are the four forms of mithyātva (false views) that create confusion and doubt about karma-bondage. The cetayitā who cuts these doubt-causing misconceptions stands unwavering in niḥśaṅka.</p>
+<div class="simple-explanation"><b>Simply put:</b> First quality: no doubt about the nature of the self and the path.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G230 — Niḥkāṅkṣa (Craving-Free)</span>
+<p class="sutra-sanskrit font-headline">जो दु ण करेिद कंखं कम्मफलेसु तह सव्वधम्मेसु।<br/>सो िणकांखो चेदा सम्मािदिट्ठ मुणेदव्वो।।२३०।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā who does not make kāṅkṣā toward karma-fruits and toward all dharmas — is niḥkāṅkṣa and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">No desire for karma's products — no craving for pleasant birth-conditions, good fortune, or the fruits of virtue. No desire even for diverse dharmas as means to specific ends.</p>
+<div class="simple-explanation"><b>Simply put:</b> Second quality: no craving for what karma can deliver, and no craving even for virtue-as-means.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G231 — Nirvidicikitsa (Disgust-Free)</span>
+<p class="sutra-sanskrit font-headline">जो ण करेिद दुगुंछं चेदा सव्वेिसमेव धम्माणं।<br/>सो खलु िणिव्विदेिगच्छो सम्मािदिट्ठ मुणेदव्वो।।२३१।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā who does not make juguptsā (disgust/aversion) toward all dharmas — is nirvidicikitsa and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">No juguptsā toward the natural properties of things (hunger, thirst, heat, cold) and no disgust toward impure or unclean objects. The samyag-dṛṣṭi knows these as karma-udaya products — events in the field, not objects of personal revulsion.</p>
+<div class="simple-explanation"><b>Simply put:</b> Third quality: no disgust or aversion toward the natural conditions of embodied life.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G232 — Amūḍha-Dṛṣṭi (Non-Deluded Vision)</span>
+<p class="sutra-sanskrit font-headline">जो हविद असम्मूढो चेदा सिदिट्ठ सव्वभावेसु।<br/>सो खलु अमूिढदिट्ठ सम्मािदिट्ठ मुणेदव्वो।।२३२।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā who is asammūḍha (non-deluded) in all states and has yathārtha-dṛṣṭi (correct vision) — is amūḍha-dṛṣṭi and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Not deluded by external forms, not taking karma-udaya effects for the nature of things. Correct vision about the true svabhāva of each substance — knowing dev, guru, śāstra, and worldly events for what they actually are, not through the distorted lens of moha.</p>
+<div class="simple-explanation"><b>Simply put:</b> Fourth quality: seeing all things as they actually are, without the distortion of moha.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G233 — Upagūhana (Concealment / Protection of Dharma)</span>
+<p class="sutra-sanskrit font-headline">जो िसद्धभित्तजुत्तो उवगूहणगो दु सव्वधम्माणं।<br/>सो उवगूहणकारी सम्मािदिट्ठ मुणेदव्वो।।२३३।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā who is endowed with siddha-bhakti (devotion to the Siddhas) and is upagūhanaka (concealer/protector) of all dharmas — is upagūhana-kārī and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Upagūhana means protecting dharma from being defamed, not exposing the faults of fellow practitioners, nurturing the growth of the path. The basis is siddha-bhakti: devotion directed toward liberated souls focused on pure consciousness.</p>
+<div class="simple-explanation"><b>Simply put:</b> Fifth quality: protecting and nurturing the dharma, not broadcasting its practitioners' faults.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G234 — Sthitikāraṇa (Stabilization)</span>
+<p class="sutra-sanskrit font-headline">उम्मग्गं गच्छंतं सगं पि मग्गे ठवेिद जो चेदा।<br/>सो ठिदकरणाजुत्तो सम्मािदिट्ठ मुणेदव्वो।।२३४।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā who places even those going astray — even their own ātmā — back on the right path — is sthitikāraṇa-yukta and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"Even their own ātmā" — even when the samyag-dṛṣṭi's own soul slips from the moksha-path (sthiti), they bring it back. Self-stabilization is the primary meaning; stabilization of others is secondary.</p>
+<div class="simple-explanation"><b>Simply put:</b> Sixth quality: bringing the straying soul — first your own — back to the right path.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G235 — Vātsalya (Affection for the Path)</span>
+<p class="sutra-sanskrit font-headline">जो कुणिद वच्छलत्तं ितण्हं साहूण मोक्खमग्गम्हि।<br/>सो वच्छलभावजुदो सम्मािदिट्ठ मुणेदव्वो।।२३५।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā who performs vātsalya (affection/fondness) toward the three sādhas on the moksha-mārga — is vātsalya-bhāva-yuta and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Vātsalya = deep affection-love toward the three sādhas (samyag-darśana, samyak-jñāna, samyak-cāritra). The samyag-dṛṣṭi loves the moksha-path itself. This love is prīti directed at the path as one's own svabhāva-rūpa — of the nature of one's own nature.</p>
+<div class="simple-explanation"><b>Simply put:</b> Seventh quality: genuine love for the moksha-path — not as external discipline, but as your own nature.</div>
+</div>
+
+<div class="sutra-card rounded-xl p-7 flex flex-col gap-4">
+<span class="font-headline font-bold text-primary text-sm uppercase tracking-widest">G236 — Prabhāvana / Jina-Jñāna-Prabhāvin (Propagation of Knowledge)</span>
+<p class="sutra-sanskrit font-headline">िवज्जारहमारूढो मणोरहपहेसु भमइ जो चेदा।<br/>सो िजणणाणपहावी सम्मािदिट्ठ मुणेदव्वो।।२३६।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed italic">विद्यारथमारूढः मनोरथपथेषु भ्रमति यश्चेतयिता। स जिनज्ञानप्रभावी सम्यग्दृष्टिज्ञातव्यः।।</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The cetayitā who, mounted on the vidyā-ratha (knowledge-chariot), roams in the paths of manoratha (thought-paths/mental paths) — is jina-jñāna-prabhāvin (one who propagates/manifests Jina-knowledge) and should be known as samyag-dṛṣṭi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The eighth quality: prabhāvana — manifesting, propagating, making radiant the Jina's knowledge. The cetayitā who is "mounted on the vidyā-chariot" — established in jñāna as their vehicle — and roams in the mental paths (investigating, contemplating, applying): this is the samyag-dṛṣṭi who spreads the influence of Jina-jñāna. The samyag-dṛṣṭi's own practice is itself a propagation — by making jñāna radiant in their own consciousness, they embody and propagate it.</p>
+<div class="simple-explanation"><b>Simply put:</b> Eighth quality: let your knowledge radiate. Mount the knowledge-chariot and let it move through your thinking — that itself is prabhāvana.</div>
+<div class="concept-tags">
+<span class="concept-tag">Prabhāvana</span>
+<span class="concept-tag">Vidyā-Ratha</span>
+<span class="concept-tag">Jina-Jñāna</span>
+</div>
+</div>
+
+<!-- Closing colophon -->
+<div class="bg-surface-container rounded-xl p-8 mt-4 text-center">
+<p class="font-headline text-xl text-primary italic">इति निर्जरा निष्क्रान्ता।</p>
+<p class="font-headline text-lg text-on-surface-variant italic mt-1">निर्जराप्ररूपक: षष्ठोऽङ्क:।।</p>
+<p class="text-on-surface-variant text-sm mt-3">Thus Nirjarā is departed. The sixth Adhikar — the exposition of Nirjarā — is concluded.</p>
+</div>
+
+</div><!-- end left column -->
+
+<!-- Right sidebar -->
+<div class="col-span-12 lg:col-span-4 flex flex-col gap-8">
+
+<!-- Summary table -->
+<div class="bg-surface-container-low rounded-xl p-6 sticky top-32">
+<h3 class="font-headline font-bold text-on-surface text-base mb-5 uppercase tracking-widest text-sm">Adhikar 6 at a Glance</h3>
+<div class="flex flex-col gap-3">
+<div class="flex justify-between items-start text-sm border-b border-outline-variant/30 pb-3">
+<span class="text-on-surface-variant font-medium">Gathas</span>
+<span class="text-on-surface font-semibold font-headline text-right">G193–G236 (44)</span>
+</div>
+<div class="flex justify-between items-start text-sm border-b border-outline-variant/30 pb-3">
+<span class="text-on-surface-variant font-medium">Theme</span>
+<span class="text-on-surface font-semibold font-headline text-right">Karma-Shedding</span>
+</div>
+<div class="flex justify-between items-start text-sm border-b border-outline-variant/30 pb-3">
+<span class="text-on-surface-variant font-medium">Featured Verse</span>
+<span class="text-on-surface font-semibold font-headline text-right">G199 (Rāga as Karma)</span>
+</div>
+<div class="flex justify-between items-start text-sm border-b border-outline-variant/30 pb-3">
+<span class="text-on-surface-variant font-medium">Key Analogies</span>
+<span class="text-on-surface font-semibold font-headline text-right">Doctor, Drunkard, Gold, Conch, King</span>
+</div>
+<div class="flex justify-between items-start text-sm">
+<span class="text-on-surface-variant font-medium">Eight Qualities</span>
+<span class="text-on-surface font-semibold font-headline text-right">G229–G236</span>
+</div>
+</div>
+
+<div class="mt-6 pt-6 border-t border-outline-variant/30">
+<h4 class="font-headline font-bold text-on-surface text-sm mb-3 uppercase tracking-widest">Eight Aṅgas of Samyag-Darśana</h4>
+<div class="flex flex-col gap-2">
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G229</span><span class="text-on-surface-variant">Niḥśaṅka — Doubt-Free</span></div>
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G230</span><span class="text-on-surface-variant">Niḥkāṅkṣa — Craving-Free</span></div>
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G231</span><span class="text-on-surface-variant">Nirvidicikitsa — Disgust-Free</span></div>
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G232</span><span class="text-on-surface-variant">Amūḍha-Dṛṣṭi — Non-Deluded</span></div>
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G233</span><span class="text-on-surface-variant">Upagūhana — Protector</span></div>
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G234</span><span class="text-on-surface-variant">Sthitikāraṇa — Stabilizer</span></div>
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G235</span><span class="text-on-surface-variant">Vātsalya — Path-Lover</span></div>
+<div class="flex items-start gap-2 text-sm"><span class="text-primary font-bold font-headline text-xs mt-0.5">G236</span><span class="text-on-surface-variant">Prabhāvana — Propagator</span></div>
+</div>
+</div>
+
+<div class="mt-6 pt-6 border-t border-outline-variant/30">
+<h4 class="font-headline font-bold text-on-surface text-sm mb-3 uppercase tracking-widest">Central Doctrine</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Nirjarā is the natural consequence of jñāyaka-svabhāva. The soul that knows itself as pure knower — and sees rāga as karma's vipāka-udaya, not self — naturally sheds karma through experience without generating new bondage.</p>
+</div>
+</div>
+
+</div><!-- end right sidebar -->
+</section>
+
+<!-- Footer navigation -->
+<footer class="border-t border-outline-variant/30 bg-surface-container-low py-16">
+<div class="max-w-screen-2xl mx-auto px-6 md:px-12 flex flex-col gap-10">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+<a class="flex flex-col gap-1 p-4 rounded-lg hover:bg-surface-container transition-colors" href="samaysaar-ch2.html">
+<span class="text-primary font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 1</span>
+<span class="text-on-surface text-sm font-headline">Jīva (G1–G72)</span>
+</a>
+<a class="flex flex-col gap-1 p-4 rounded-lg hover:bg-surface-container transition-colors" href="samaysaar-ch3.html">
+<span class="text-primary font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 2</span>
+<span class="text-on-surface text-sm font-headline">Ajīva (G73–G100)</span>
+</a>
+<a class="flex flex-col gap-1 p-4 rounded-lg hover:bg-surface-container transition-colors" href="samaysaar-ch4.html">
+<span class="text-primary font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 3</span>
+<span class="text-on-surface text-sm font-headline">Punya-Pāpa (G101–G145)</span>
+</a>
+<a class="flex flex-col gap-1 p-4 rounded-lg hover:bg-surface-container transition-colors" href="samaysaar-ch5.html">
+<span class="text-primary font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 4</span>
+<span class="text-on-surface text-sm font-headline">Āsrava (G146–G180)</span>
+</a>
+<a class="flex flex-col gap-1 p-4 rounded-lg hover:bg-surface-container transition-colors" href="samaysaar-ch6.html">
+<span class="text-primary font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 5</span>
+<span class="text-on-surface text-sm font-headline">Samvar (G181–G192)</span>
+</a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+<div class="flex flex-col gap-1 p-4 rounded-lg bg-primary/5 border border-primary/20">
+<span class="text-primary font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 6 ← Here</span>
+<span class="text-on-surface text-sm font-headline font-bold">Nirjara (G193–G236)</span>
+</div>
+<div class="flex flex-col gap-1 p-4 rounded-lg text-on-surface-variant/50">
+<span class="font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 7</span>
+<span class="text-sm font-headline">Bandh (G237–G287)</span>
+</div>
+<div class="flex flex-col gap-1 p-4 rounded-lg text-on-surface-variant/50">
+<span class="font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 8</span>
+<span class="text-sm font-headline">Moksha (G288–G307)</span>
+</div>
+<div class="flex flex-col gap-1 p-4 rounded-lg text-on-surface-variant/50">
+<span class="font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 9</span>
+<span class="text-sm font-headline">Sarvavishuddhijnan</span>
+</div>
+<div class="flex flex-col gap-1 p-4 rounded-lg text-on-surface-variant/50">
+<span class="font-headline text-xs uppercase tracking-widest font-semibold">Adhikar 10</span>
+<span class="text-sm font-headline">Upasanhaar</span>
+</div>
+</div>
+<div class="flex justify-between items-center border-t border-outline-variant/30 pt-8">
+<a href="samaysaar-index.html" class="text-primary font-headline text-sm uppercase tracking-widest hover:opacity-80 transition-opacity flex items-center gap-2">
+<span class="material-symbols-outlined" style="font-size:16px">arrow_back</span>Back to Samaysaar Index
+</a>
+<span class="text-on-surface-variant/60 text-sm font-headline">Samaysaar · Acharya Kundkund · JainAwaken.org</span>
+</div>
+</div>
+</footer>
+
+</main>
+
+<script>
+// Floating nav buttons
+const navLeft = document.getElementById('nav-left');
+const navRight = document.getElementById('nav-right');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY > 300;
+  navLeft.classList.toggle('visible', scrolled);
+  navRight.classList.toggle('visible', scrolled);
+});
+</script>
+</body>
+</html>
