@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 2: Magnata (Absorption) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 2</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Absorption<span class="block text-primary font-normal text-xl md:text-2xl mt-2">मग्नता</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Total immersion in the bliss of pure knowledge — the first step on the path from fullness to liberation</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Magnata — absorption — is the soul's natural next step after recognizing its own fullness. Through six shlokas of crystalline precision, Yashovijayji defines what it means to be genuinely absorbed: senses withdrawn, mind stilled, consciousness resting in itself. In that state, the soul becomes a witness rather than a doer, and the bliss it discovers cannot be compared to anything in the sensory world.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">प्रत्याहृत्येन्द्रियव्यूहं समाधाय मनो निजम् ।<br/>दधच्चिन्मात्रविश्रांतिमग्न इत्यभिघोयते ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Having withdrawn the army of senses and stilled the mind, resting in pure consciousness alone — that soul is called absorbed." — Gyansaar 2.1</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Magnata</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Magnata</span> — Absorption — is the second chapter of the Gyansaar and the first movement after recognizing fullness. If Purnata establishes that you are already complete, Magnata asks: what does it look like to actually live from that completeness? The answer is absorption — deep, total, self-sustaining immersion in the bliss of pure knowledge.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">Yashovijayji defines absorption with surgical precision: three conditions must be met — senses withdrawn from external objects, mind brought to stillness, and consciousness resting in itself alone. When these three are present, the soul is magna (absorbed). The vivechan commentary is vivid: every other resting place the soul has sought — sensory pleasure, wealth, reputation — has turned out to be not a rest-house but a house of disturbance. Only self-rest is genuine rest.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">6</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 2 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 6 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — What Absorption Is (Shlokas 1–3)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">प्रत्याहृत्येन्द्रियव्यूहं समाधाय मनो निजम् ।<br/>दधच्चिन्मात्रविश्रांतिमग्न इत्यभिघोयते ॥१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul that withdraws its army of senses from outward objects, brings its own mind to stillness, and rests completely in pure consciousness alone — that soul is called "absorbed" (magna).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Magnata · Three Conditions of Absorption</span>
+</div>
+<p class="principle-def">Absorption is not a vague spiritual feeling but a specific state: (1) senses withdrawn from external objects, (2) mind brought to stillness, (3) consciousness resting in itself alone — chinmatra.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter opens with a precise technical definition. First — withdrawal of the senses from external objects. The senses by nature run outward, toward sound, form, taste, touch. Magnata begins with the deliberate reversal of this flow. Second — the stilling of the mind. Even after the senses are withdrawn, the mind continues its restless movement. Magnata requires that this restlessness be quieted — not suppressed by force, but settled through self-knowledge. Third — resting in pure consciousness alone. The word "chinmatra" is key: the soul does not rest in a thought about consciousness but in consciousness itself. The vivechan challenges the reader directly: up to now you have chased worldly objects with a frantic thirst. What did you find? Unending agitation. Only self-rest is genuine rest.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul that turns its senses inward, stills its mind, and rests in pure awareness — that soul is absorbed. This is the foundation of the inner path.</p>
+<div class="contemplate-block"><b>Contemplate</b>Right now, where is your attention? Running outward toward objects, sounds, concerns? What would it feel like to let all of that settle — and simply rest in the awareness that is already here?</div>
+<div class="concept-tags"><span class="concept-tag">Pratyahara</span><span class="concept-tag">Chinmatra</span><span class="concept-tag">Sense Withdrawal</span><span class="concept-tag">Magnata</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्वभावसुखमग्नस्य, जगत्तत्त्वावलोकिन ।<br/>कर्तृत्वं तान्यभावानां, साक्षित्वमवशिष्यते ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For the soul absorbed in natural bliss and observing the truth of the world — there is no authorship of those external states. What remains is only witnessing-awareness.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This shloka addresses karma and action from the perspective of Magnata. When the soul is genuinely absorbed in its own natural bliss, its relationship to worldly activity fundamentally changes. It no longer claims authorship of external impulses and states. It becomes the witness — the sakshi — rather than the doer. The vivechan draws a vivid analogy: consider a noble person who has been trapped by criminals, their identity thoroughly corrupted. One day a great benefactor reveals the criminals' secrets and frees them. Looking back, this person thinks: "Those evil acts were not mine — they were done through me by those who had captured me." When the soul is absorbed in its own nature, it recognizes the same thing: the desire-driven karmic actions of the past were not its true nature but distortions imposed by moha (delusion). Freed from moha through absorption, the soul becomes a witness — present, clear-eyed, and unentangled.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul truly absorbed in its own natural bliss does not feel like the "doer" of its worldly activities. It becomes a witness — watching clearly, without owning what arises.</p>
+<div class="contemplate-block"><b>Contemplate</b>Have you ever noticed a moment of action that felt effortless — where "you" were barely involved, and things just happened? What if that effortlessness is a taste of witness-awareness?</div>
+<div class="concept-tags"><span class="concept-tag">Sakshi</span><span class="concept-tag">Non-Doership</span><span class="concept-tag">Svabhava Sukha</span><span class="concept-tag">Moha</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परवस्तुनि मग्नस्य, तलथा पौद्गलिकी कथा ।<br/>— Gold in the river — the absorbed soul is like pure gold lying undisturbed at the river's bottom. The water flows past. The gold remains gold.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For the soul absorbed in the self, all talk of external material things is like — just as pure gold alloyed with base metals appears debased, yet the gold itself was never diminished. The absorbed soul remains pure despite the material world's clamoring for attention.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan develops the gold-purity metaphor that runs throughout the Gyansaar. The soul absorbed in itself hears the constant noise of the material world — name, fame, beauty, music, food, bodily sensations — but this noise finds no purchase. It flows past the absorbed soul like water past a gold coin at the bottom of a river. The gold does not become water. The absorbed soul does not become the noise. The commentary paints a remarkably specific picture: when the soul is truly absorbed in jnana-ananda (the bliss of knowledge), even the most enchanting sensory objects — gorgeous music, fragrant flowers, the touch of soft things, the beauty of youth — lose their magnetic pull. Why would a soul already bathed in the most extraordinary bliss be attracted to the secondhand pleasures of the senses? It is like asking a person who has just feasted to be tempted by stale crumbs. The absorption itself acts as the greatest protection against distraction.</p>
+<p class="simple-explanation"><b>The simple version:</b> When the soul is absorbed in its own bliss, the constant clamoring of the material world simply doesn't register. The absorbed soul doesn't need to fight temptation — it has no room for it.</p>
+<div class="contemplate-block"><b>Contemplate</b>Think of a time you were completely absorbed in something you loved. Did distraction intrude? The absorbed mind is its own protection. What would it mean to be that absorbed in your own nature?</div>
+<div class="concept-tags"><span class="concept-tag">Gold Metaphor</span><span class="concept-tag">Jnana-Ananda</span><span class="concept-tag">Natural Protection</span><span class="concept-tag">Pudgala</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Incomparable Bliss (Shlokas 4–5)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञानमग्नस्य यच्छर्म, तद्वक्तुं नैव शक्यते ।<br/>नोपमेयं प्रियाश्लेषेर्नापि तच्चन्दनद्रवैः ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The bliss of the soul absorbed in knowledge — that cannot be described in words. It cannot be compared to the intoxicating embrace of a beloved, nor even to the cool fragrance of sandalwood.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Anubhava · The Inexpressibility of Inner Bliss</span>
+</div>
+<p class="principle-def">The bliss of jnana-magnata is not a sensation — it is not felt through sense organs. It is the soul's own self-knowing, which has no object outside itself and therefore no equivalent in the sensory world. It can only be experienced, never adequately described.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the most lyrical shloka of the chapter. Yashovijayji acknowledges that all language breaks down here. Every analogy that might capture the bliss of jnana-magnata is inadequate. The vivechan engages this through dialogue: "Is it like the pleasure of a beloved's embrace?" — "No, not at all." — "Is it like the fragrant coolness of sandalwood?" — "That too falls short." — "Then what is it like?" — Nothing in the world can serve as its comparison. The text offers only one solution: experience it directly. But the vivechan also issues a practical guarantee: if even once you taste this bliss of knowledge-absorption, you will naturally and irresistibly return to it again and again. The taste of jnana-magnata, once known, makes all other pleasures feel like poor imitations.</p>
+<p class="simple-explanation"><b>The simple version:</b> The joy of being absorbed in pure knowledge cannot be put into words. No comparison — not the pleasure of love, not the fragrance of sandalwood — comes close. It must be tasted directly.</p>
+<div class="contemplate-block"><b>Contemplate</b>Has anyone ever tried to describe to you a taste or experience you'd never had — and found words completely inadequate? Self-absorption may be like that. Words can only point. The experience is beyond them.</div>
+<div class="concept-tags"><span class="concept-tag">Beyond Words</span><span class="concept-tag">Anubhava</span><span class="concept-tag">Jnana-Ananda</span><span class="concept-tag">Direct Experience</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शमसत्यपुरो यस्य, विधुषोऽपि महाभया ।<br/>किं स्तुमो ज्ञानदीधुर्यें, तत्र सर्वदेगुमागे ? ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For the one established in tranquility and truth, even the great and learned bow in reverence. What praise is adequate for this ocean of knowledge, this abode of all excellence?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter pauses to offer homage to the great souls who have truly attained jnana-magnata. The vivechan describes two exemplary figures: first, a great muni whose head was severed by a cruel king — yet the muni, having conquered anger through total absorption in his own nature, attained complete realization at that very moment. What sustained him? The single drop of jnana-amrita — the nectar of knowledge. Second, Daya-sagar Lalitang muni — even in the midst of a royal existence, he chose the renunciant path, and the flute of tranquility-bliss never ceased playing in his heart. What was the secret? Again: the one drop of jnana-ananda. Throughout the ages, countless realized beings have remained fountains of inner peace — even under extreme circumstances — because of this one quality: absorption in the bliss of knowledge.</p>
+<p class="simple-explanation"><b>The simple version:</b> The great souls absorbed in knowledge are revered even by the learned. No adequate words exist for their praise — we can only bow before their example and aspire toward their state.</p>
+<div class="contemplate-block"><b>Contemplate</b>Can you think of someone whose inner tranquility in difficult circumstances has moved you? What quality in them were you sensing? Could that quality be cultivated in yourself?</div>
+<div class="concept-tags"><span class="concept-tag">Realized Souls</span><span class="concept-tag">Jnana-Amrita</span><span class="concept-tag">Equanimity</span><span class="concept-tag">Tranquility</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Homage to the Absorbed Yogi (Shloka 6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">यस्य दृष्टिः कृपावृत्तिगिर, शमसूधाकिर ।<br/>तस्मै नमः शुभज्ञानध्यानमग्रताय योगिने ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">To the yogi whose vision overflows with compassion, whose being is steeped in the nectar of tranquility — salutations to that great soul perpetually absorbed in the meditation of pure, auspicious knowledge.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Magnata as Compassion · The Inward Yields the Outward</span>
+</div>
+<p class="principle-def">The soul established in jnana-magnata naturally becomes a source of boundless compassion. The false barriers between self and other — false identifications with this body, this family, this status — thin out in the light of absorption. What remains is a soul that sees other souls clearly, as soul.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The final shloka of the chapter is a devotional seal — a bow to the realized yogi who embodies Magnata in its perfection. The description is precise: vision flowing with compassion (not sentiment, but the spontaneous natural response of a soul that knows all beings as soul), being soaked in tranquility-nectar (not an achieved calm but an effortless baseline), and constant absorption in knowledge-meditation. The vivechan makes a crucial practical observation: the soul established in jnana-magnata naturally becomes a source of boundless compassion. Why? Because in that state, the artificial barriers between self and other dissolve. What remains is a soul that sees other souls clearly, as soul — and cannot help but overflow with compassion. Magnata is not a withdrawal from the world. It is the deepest possible engagement with reality.</p>
+<p class="simple-explanation"><b>The simple version:</b> The yogi absorbed in pure knowledge radiates compassion and tranquility naturally, without effort. Salutations to that being who lives in constant inner absorption.</p>
+<div class="contemplate-block"><b>Contemplate</b>What if compassion is not something you cultivate by trying harder to care — but something that overflows naturally when you are sufficiently absorbed in your own nature? How does that change your understanding of spiritual practice?</div>
+<div class="concept-tags"><span class="concept-tag">Compassion</span><span class="concept-tag">Realized Yogi</span><span class="concept-tag">Tranquility</span><span class="concept-tag">Jnana-Dhyana</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Floating Nav -->
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="gyansaar-ch1.html"><span class="text-lg">←</span> Chapter 1</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="gyansaar-ch3.html">Chapter 3 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
