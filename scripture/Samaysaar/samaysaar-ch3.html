@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Samaysaar — Adhikar 2: Kartā-Karma (The Doer and the Deed, Gathas 69–144) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+
+<!-- Floating Navigation Buttons -->
+<a class="nav-button left-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch2.html" id="nav-left" style="left:24px">
+<span class="material-symbols-outlined text-base" style="font-size:18px">arrow_back</span>Adhikar 1
+</a>
+<a class="nav-button right-btn rounded-full flex items-center gap-2 px-5 py-3 text-sm font-headline font-semibold tracking-wide" href="samaysaar-ch4.html" id="nav-right" style="right:24px">
+Adhikar 3<span class="material-symbols-outlined text-base" style="font-size:18px">arrow_forward</span>
+</a>
+
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Samaysaar · Adhikar 2 · Gathas 69–144</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  The Doer &amp; the Deed<span class="block text-primary font-normal text-xl md:text-2xl mt-2">कर्ता-कर्म अधिकार</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">All 76 gathas of the second Adhikar — demolishing the false belief that the soul makes karma</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">In 76 gathas of surgical philosophical precision, Kundkundacharya establishes who the real doer is — and who is not. Ajñāna (self-ignorance) creates the illusion of karma-doership. Jñāna dissolves it. Each substance transforms only through its own nature. The soul that knows this — knows itself as Samayasāra.</p>
+<div class="flex gap-8 items-center flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">76</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Gathas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">11</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Thematic Parts</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Adhikar 2</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">of 10</span></div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Samaysaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">अहमेक्को खलु सुद्धो णिम्ममओ णाणदंसणसमग्गो।<br/>तम्हि ठिदो तच्चितो सव्वे एदे खयं णेमि ॥७३॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"I alone am truly pure — without possessiveness, complete in knowledge and perception. Established in that, absorbed in that — I will bring all these to extinction." — Samaysaar Adhikar 2, Gatha 73</p>
+</div>
+</div>
+</section>
+
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Adhikar</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Kartā-Karma: Who Really Does?</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant">The second Adhikar takes up the most practically urgent question in Jain spiritual life: <span class="text-primary font-semibold">who is the doer of karma?</span> The conventional answer — "the soul does karma" — turns out to be both useful and dangerous. Useful as a pedagogical tool. Dangerous when taken literally, because it places the soul in a relationship of agency with matter that, at the ultimate level, cannot exist.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">Kundkundacharya's answer has two layers. From the vyavahāra (conventional) standpoint, yes — the soul is called the doer of karma. From the niśchaya (ultimate) standpoint, the soul does only itself — its own bhavas, its own upayoga-transformations. Karma is done by guṇas (the spiritual-stage forces), while the soul is nimitta (instrumental occasion) — not the material agent. The Atmakhyati of Amrutchandra elaborates each verse with legendary philosophical precision.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The Adhikar culminates in the concept of Samayasāra itself — the soul that, having transcended both vyavahāra and niśchaya as standpoints, abides in the direct experience of its own pure nature. The soul that neither does karma (ultimately) nor needs to pretend it doesn't (conventionally) — but simply knows itself, completely.</p>
+
+<!-- Key Principles -->
+<div class="pt-6 space-y-3">
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Core Doctrine</span><span class="principle-name">Nimitta-Naimittika — Mutual Instrumental Causation</span></div>
+<p class="principle-def">Soul and pudgala mutually condition each other's transformations — but neither directly produces the other's qualities. The soul's state is the occasion (nimitta) for pudgala becoming karma; karma's rise is the occasion for the soul's rāga-dvesha. Each substance transforms only through its own svabhāva.</p>
+</div>
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Key Distinction</span><span class="principle-name">Jñānī as Akartā — The Non-Doing Knower</span></div>
+<p class="principle-def">The jñānī knows karma's transformations without enacting them. Jñānamaya (knowledge-filled) bhavas do not produce karma. Ajñānamaya (ignorance-filled) bhavas do. The difference is not in external action — it is in the quality of consciousness from which action arises.</p>
+</div>
+<div class="principle-banner">
+<div class="principle-header"><span class="principle-badge">Culmination</span><span class="principle-name">Samayasāra — Beyond Both Standpoints</span></div>
+<p class="principle-def">"Karma is bound" (vyavahāra) and "karma is unbound" (śuddha-naya) are both standpoints. The Samayasāra is what lies beyond both — the soul's direct experience of its own pure nature, prior to all naya-mediation. Free from all standpoints: that is the Samayasāra.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Gathas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-20">
+
+<!-- PART 1 -->
+<div class="section-divider"><span>Part 1 · Gathas 69–74 · The Root of Bondage — Ajñāna</span></div>
+<p class="text-on-surface-variant text-base mb-8 max-w-3xl">The Adhikar opens with a diagnostic statement that is also a map of liberation: the only root of karma-bondage is ajñāna — not knowing the distinction between the soul and its āsravas (passions). Know the distinction; bondage stops. Miss it; bondage continues. All 76 gathas flow from this opening.</p>
+
+<!-- G69 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 69</span>
+<div class="concept-tags"><span class="concept-tag">Ajñāna</span><span class="concept-tag">Āsrava</span><span class="concept-tag">Krodhādi</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">जाव ण वेदि विसेसंतरं तु आदासवाण दोण्हं पि।<br/>अण्णाणी ताव दु सो कोहादिसु वट्टदे जीवो ॥६९॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">As long as this soul does not know the specific distinction between itself and the āsravas — as long as that, being in ajñāna, the soul remains engaged in krodhādi (anger and other passions).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The root of karma-bondage is not fate, punishment, or external compulsion — it is <strong class="text-on-surface">ajñāna</strong>: the failure to know the distinction between what the soul is and what āsravas (passions, karmic inflows) are. When you do not know the difference between yourself and anger, you live inside anger. You become it. The term "vishesha-antara" (specific distinction) points not to a conceptual belief but to a lived recognition — the direct experience that the soul is of an utterly different nature than krodhādi. Until that recognition dawns, the āsrava rules, because the soul has no alternative reference point.</p>
+<div class="simple-explanation"><b>Simply:</b> Not knowing yourself as distinct from your passions IS the bondage. The moment that distinction is known — clearly, directly — engagement in passion loses its grip.</div>
+</div>
+
+<!-- G70 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 70</span>
+<div class="concept-tags"><span class="concept-tag">Karma Samchaya</span><span class="concept-tag">Bandha</span><span class="concept-tag">Sarvadarshin</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">कोहादिसु वट्टंतस्स तस्स कम्मस्स संचओ होदि।<br/>जीवस्सेवं बंधो भणिदो खलु सव्वदरिसीहिं ॥७०॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">For that soul active in krodhādi, accumulation of karma takes place. This is exactly what the all-seeing Jinas have declared as the bondage of the soul.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The mechanism is stated plainly: activity in passions → accumulation of karma (samchaya) → bondage. The all-seers (sarvadarshin — omniscient Jinas) have not merely theorized this — they have directly perceived the causal chain through kevalajñāna. The word "samchaya" (accumulation) is significant: karma builds up moment by moment. Every moment of passion-driven activity adds more. This is why urgency — jñāna-urgency, not anxious urgency — is appropriate.</p>
+<div class="simple-explanation"><b>Simply:</b> Being active in passions accumulates karma — and that accumulation is what the Jinas call bondage.</div>
+</div>
+
+<!-- G71 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 71</span>
+<div class="concept-tags"><span class="concept-tag">Vishesha-Antara</span><span class="concept-tag">Jñāna</span><span class="concept-tag">Bandha-Cessation</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">जइया इमेण जीवेण अप्पणो आसवाण य तहेव।<br/>णादं होदि विसेसंतरं तु तइया ण बंधो से ॥७१॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">When the specific distinction between the soul itself and the āsravas becomes known to this soul — at that very time (tadyā), there is no bondage for it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G71 is the mirror of G69. Not after years of additional practice. Not after death and rebirth in a better realm. <strong class="text-on-surface">At that very time</strong> — the moment of genuine knowing. The recognition itself is the cessation of bondage. This connects to samyak-darśana (right perception): the first genuine flash of self-recognition immediately stops wrong-belief-based karma at its root. New karma from mithyātva ceases at the very moment of right knowing.</p>
+<div class="simple-explanation"><b>Simply:</b> The moment you truly know the distinction between yourself and your passions — at that very moment, bondage stops.</div>
+</div>
+
+<!-- G72 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 72</span>
+<div class="concept-tags"><span class="concept-tag">Aśuci</span><span class="concept-tag">Viparīta-bhāva</span><span class="concept-tag">Duḥkha-kāraṇa</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">णादूण आसवाणं असुचित्तं च विवरीयभावं च।<br/>दुक्खस्स कारणं ति य तदो णियत्तिं कुणिदं जीवो ॥७२॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Knowing the āsravas' impurity, their contrary nature, and that they are causes of suffering — the soul then withdraws from them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Three realizations together trigger natural withdrawal: (1) <strong class="text-on-surface">Impurity</strong> — the āsravas are not sacred or noble; anger feels righteous in the moment but is dirt on the lens of consciousness. (2) <strong class="text-on-surface">Contrary nature</strong> — they are structurally opposite to the soul: where the soul is consciousness, āsravas are insentient; where the soul is free, āsravas bind. (3) <strong class="text-on-surface">Cause of suffering</strong> — they hurt, across lifetimes. When all three are known — not believed, but known — withdrawal is the soul's natural response. Renunciation is not forced; it is intelligence seeing clearly.</p>
+<div class="simple-explanation"><b>Simply:</b> When the soul sees its passions as impure, contrary to its nature, and the source of suffering — it turns away naturally. No willpower required. Seeing is enough.</div>
+</div>
+
+<!-- G73 — FEATURED -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6" style="border-left: 4px solid #755b00; background: linear-gradient(135deg, rgba(201,168,76,0.06), white);">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 73 — Featured Verse</span>
+<div class="concept-tags"><span class="concept-tag">Śuddha Ātmā</span><span class="concept-tag">Nirmamao</span><span class="concept-tag">Soul's Declaration</span><span class="concept-tag">Amrutchandra Celebrated</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4" style="font-size:1.55rem">अहमेक्को खलु सुद्धो णिम्ममओ णाणदंसणसमग्गो।<br/>तम्हि ठिदो तच्चितो सव्वे एदे खयं णेमि ॥७३॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">"I alone am truly pure — without possessiveness, complete in knowledge and perception. Established in that, absorbed in that — I will bring all these (āsravas and karmas) to their extinction."</p>
+<p class="text-base text-on-surface-variant leading-relaxed">One of the most celebrated verses in all of Jain literature — a declaration of the soul from within its own recognition. Not a hope. Not a prayer. A statement of what the soul has already seen itself to be. <strong class="text-on-surface">"I alone"</strong> (aham ekko) — not I plus body, not I plus history, not I plus karma. The soul, stripped of all superimposition, is singular and complete. <strong class="text-on-surface">"Without possessiveness"</strong> (nimmamao) — no "mine." The entire web of samsāra is sustained by mamakāra (the sense of ownership); when that collapses, the root is cut. <strong class="text-on-surface">"Established in that"</strong> (tamhi thido) — resting in the recognition of one's own nature. Already there. Just remaining. The āsravas and karmas dissolve not through violent effort, but because consciousness established in its own nature naturally burns away what obscures it — as sunlight dissolves fog.</p>
+<p class="text-base text-on-surface-variant leading-relaxed mt-3">Amrutchandra's Atmakhyati declares this verse to be the entire Samaysaar condensed into one utterance.</p>
+<div class="simple-explanation"><b>Simply:</b> The awakened soul speaks: "I am alone, pure, without possessiveness, whole in knowing. Rooted in this truth — I will bring all that obscures me to extinction."</div>
+<div class="mt-4 p-4 rounded-lg bg-primary/5 border border-primary/15">
+<p class="text-sm text-on-surface-variant italic">Contemplate: Can you hold "I alone am truly pure" without arrogance? What makes it a recognition rather than a claim? This is the question this verse places before every reader.</p>
+</div>
+</div>
+
+<!-- G74 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 74</span>
+<div class="concept-tags"><span class="concept-tag">Adhruva</span><span class="concept-tag">Anicā</span><span class="concept-tag">Asaraṇā</span><span class="concept-tag">Fivefold Recognition</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">जीविणिबद्धा एदे अधुव अणिचा तहा असरणा य।<br/>दुक्खा दुक्खफल ति य णादूण णिवत्तदे तेहिं ॥७४॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">These āsravas — bound to life, impermanent, shelterless, painful, and fruit of suffering — knowing this, one withdraws from them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Five characteristics of āsravas that warrant withdrawal: (1) <strong class="text-on-surface">Bound to life</strong> — they bind the soul to continued samsāra by nature; (2) <strong class="text-on-surface">Impermanent</strong> — no passion-driven pleasure endures; (3) <strong class="text-on-surface">Shelterless</strong> — you cannot take refuge in anger — it burns you; (4) <strong class="text-on-surface">Painful</strong> — suffering is their essential nature even when they feel temporarily pleasant; (5) <strong class="text-on-surface">Fruit of suffering</strong> — they produce suffering as their result. When genuinely seen, this fivefold recognition produces the natural turning-away that G72 described.</p>
+<div class="simple-explanation"><b>Simply:</b> The āsravas bind, fade, offer no shelter, hurt, and reproduce suffering. Seeing this clearly — withdrawing from them happens on its own.</div>
+</div>
+
+<!-- PART 2 -->
+<div class="section-divider"><span>Part 2 · Gathas 75–79 · The Jñānī as Akartā</span></div>
+<p class="text-on-surface-variant text-base mb-8 max-w-3xl">The Adhikar now defines the jñānī — not by their attainments or practices — but by the one precise quality that distinguishes them from the ajñānī: they know karma's transformations without enacting them.</p>
+
+<!-- G75 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 75</span>
+<div class="concept-tags"><span class="concept-tag">Jñānī</span><span class="concept-tag">Akartā</span><span class="concept-tag">Nokamma</span><span class="concept-tag">Knowing vs Doing</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">कम्मस्स य परिणामं णोकम्मस्स य तहेव परिणामं।<br/>ण करेइ एयमादा जो जाणिदे सो हवदि णाणी ॥७५॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">The soul that does not bring about the transformation of karma and of nokamma — but merely knows it — that soul is the jñānī.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The definition of jñānī is precise. Not: "one who has read many texts." Not: "one who has practiced many austerities." The jñānī is the one who <strong class="text-on-surface">knows</strong> (jānādi) karma's transformation without <strong class="text-on-surface">doing</strong> it (na karedi). The knowing and the non-doing coexist in the same consciousness. Upayoga (the soul's knowing-mode) is inherently knowing. When the soul operates as pure upayoga — pure knowing — it is not doing. It is when upayoga is contaminated by mithyātva and rāga-dvesha that knowing becomes doing.</p>
+<div class="simple-explanation"><b>Simply:</b> The jñānī knows karma's transformations — without producing them. Knowing without doing: that is the definition.</div>
+</div>
+
+<!-- G75-79 grouped -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 76–79</span>
+<div class="concept-tags"><span class="concept-tag">Svabhāva-Pariṇāma</span><span class="concept-tag">Para-dravya-pajjāe</span></div>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed mb-4">G76-79 elaborate the jñānī's three-fold non-doing: the jñānī, even while knowing many kinds of pudgala-karma, <strong class="text-on-surface">does not transform into it</strong> (na pariṇamate), <strong class="text-on-surface">does not claim it</strong> (na grihṇādi), and <strong class="text-on-surface">does not arise in other-substance modes</strong> (na upajjadi para-dravya-pajjāe). All three describe a soul that is fully present as awareness without being invaded, captured, or redefined by what it is aware of.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G79 then applies the same principle to pudgala: pudgala-dravya also transforms only by its own bhavas — not in the soul's modes. This is the doctrine of svabhāva-pariṇāma (own-nature transformation): <em>each substance transforms only through its own nature.</em> No substance can actually do anything to another substance. They can serve as instrumental causes (nimittas) — but the transformation happens from within.</p>
+<div class="simple-explanation"><b>Simply:</b> The jñānī knows karma fully — but doesn't become it, claim it, or get lost in it. And pudgala transforms only by its own nature — never by invading the soul.</div>
+</div>
+
+<!-- PART 3 -->
+<div class="section-divider"><span>Part 3 · Gathas 80–84 · Mutual Instrumental Causation</span></div>
+<p class="text-on-surface-variant text-base mb-8 max-w-3xl">Gathas 80–84 present the doctrine of nimitta-naimittika — the most precise answer Jainism gives to the question of how soul and karma are related without the soul being karma's agent.</p>
+
+<!-- G80-81 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 80–81</span>
+<div class="concept-tags"><span class="concept-tag">Nimitta-Naimittika</span><span class="concept-tag">Instrumental Causation</span><span class="concept-tag">Crystal Analogy</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">जीवपरिणामहेदुं कम्मत्तं पोग्गला परिणमंति।<br/>पोग्गलकम्मिणिमित्तं तहेव जीवो वि परिणमदि ॥८०॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Pudgalas transform into karma-form due to the soul's transformation as cause; the soul also transforms due to pudgala-karma as instrumental cause.</p>
+<p class="sutra-sanskrit font-headline mb-4 mt-6">ण वि कुव्वदि कम्मगुणे जीवो कम्मं तहेव जीवगुणे।<br/>अण्णोण्णणिमित्तेण दु परिणामं जाण दोण्हं पि ॥८१॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">The soul does not produce karma's qualities; karma does not produce the soul's qualities. Know the transformation of both through mutual instrumental causation only.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Neither soul nor pudgala acts on the other directly. The soul's transformation (rāga, dvesha, moha) is <strong class="text-on-surface">nimitta</strong> — the occasion — for pudgalas to transform into karma. Karma's rise is nimitta for the soul's transformation. Each is occasion for the other's transformation, while each transforms only through its own svabhāva (nature). The Atmakhyati uses the crystal analogy: a crystal placed near a red flower appears red — but the redness does not actually enter the crystal. The crystal transforms through its own capacity for transparency, using the flower as nimitta. Remove the flower, the crystal is again pure. Soul and karma work exactly this way. G81 sharpens it: the soul does NOT produce karma's qualities; karma does NOT produce the soul's qualities. Each produces only its own.</p>
+<div class="simple-explanation"><b>Simply:</b> Soul and karma mutually condition each other — but neither forces the other to transform. Each transforms by its own nature, using the other as occasion. You are never fully determined by conditions. But you are never independent of them either.</div>
+</div>
+
+<!-- G82-84 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 82–84</span>
+<div class="concept-tags"><span class="concept-tag">Niśchaya</span><span class="concept-tag">Vyavahāra</span><span class="concept-tag">Ātmā tu Ātmānam</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">णिच्छयणयस्स एवं आदा अप्पाणमेव हि करेदि।<br/>वेदयदि पुणो तं चेव जाण अत्ता दु अत्ताणं ॥८३॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">From the niśchaya (ultimate) standpoint: the soul does only itself and experiences only itself. Know this — ātmā does ātmānam (the soul does the soul).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G82 establishes that the soul is kartā of its own bhavas (inner states) — but is NOT the kartā of all bhavas produced by pudgala-karma. G83 goes further to the niśchaya level: the soul's doing and experiencing are both self-contained. It does its own bhavas. It experiences its own bhavas. Nothing external is actually done or experienced — only the soul's own transformation is real at the ultimate level. The phrase "ātmā tu ātmānam" (the soul does the soul) is among the most celebrated in Jain metaphysics: the soul is simultaneously the doer, the deed, and the done-to. G84 gives the vyavahāra balance: conventionally, the soul does and experiences many kinds of pudgala-karma — useful for practical teaching, not the final word.</p>
+<div class="simple-explanation"><b>Simply:</b> Ultimately: the soul does only itself, experiences only itself. Conventionally: the soul does and experiences karma. Both true at their respective levels. Neither collapses the other.</div>
+</div>
+
+<!-- PART 4 -->
+<div class="section-divider"><span>Part 4 · Gathas 85–108 · The Self-Vikalpas and the Two Faces of Doership</span></div>
+<p class="text-on-surface-variant text-base mb-8 max-w-3xl">The longest section of the Adhikar addresses the mechanism of ajñāna-based doership — specifically the self-vikalpas ("I am anger," "I am this") — and systematically establishes the precise boundary between the soul's legitimate kartā-ship and false karma-doership.</p>
+
+<!-- G92-93 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 92–93 — The Two Reversals</span>
+<div class="concept-tags"><span class="concept-tag">Ajñāna-Kartā</span><span class="concept-tag">Jñāna-Akartā</span><span class="concept-tag">Para → Ātmā</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">परमप्पाणं कुव्वं अप्पाणं पि य परं किरंतो सो।<br/>अण्णाणमओ जीवो कम्माणं कारगो होदि ॥९२॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Making the supreme self into "other," making the self into "other" — the ajñāna-filled soul becomes the kartā of karmas.</p>
+<p class="sutra-sanskrit font-headline mb-4 mt-6">परमप्पाणमकुव्वं अप्पाणं पि य परं अकुव्वंतो।<br/>सो णाणमओ जीवो कम्माणमकारगो होदि ॥९३॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Not making the supreme self into "other," not making the self into "other" — the jñāna-filled soul is the akartā of karmas.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The mechanism of ajñāna-based doership described with surgical precision: two distortions happen simultaneously in the ajñānī — (1) making the supreme self (paramātmā — the pure soul) into "other": treating your deepest nature as foreign, unknown; (2) making "other" (body, passions, possessions) into "self": identifying with what you are not. These two reversals, together, ARE ajñāna — and they ARE what makes the soul the kartā of karma. G93 states the exact reversal: the jñānī knows the true self as self and the not-self as not-self. That knowing alone — not ritual, not austerity — makes the soul akartā of karma. Which means: reversing the reversal IS liberation.</p>
+<div class="simple-explanation"><b>Simply:</b> When you mistake your true self as "not me" and mistake what is not you as "me" — you make karma. The jñānī reverses both errors simultaneously — and is freed from doership.</div>
+</div>
+
+<!-- G94 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 94</span>
+<div class="concept-tags"><span class="concept-tag">Krodho'ham</span><span class="concept-tag">Self-Vikalpa</span><span class="concept-tag">Upayoga</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">तिविहो एसुवओगो अप्पियप्पं करेदि कोहोऽहं।<br/>कत्ता तस्सुवओगस्सं होदि सो अत्तभावस्स ॥९४॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Threefold upayoga creates self-vikalpas like "I am anger (krodhaḥ aham)"; the kartā of that upayoga becomes kartā of that bhāva.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">"I am anger," "I am pride," "I am deceit" — these self-vikalpas (self-constructions) are the practical mechanism of ajñāna-based bondage. The upayoga, perverted by mithyātva, generates these false self-statements. Whoever identifies as kartā of that upayoga — whoever says "I am angry" and means it as their very identity — becomes kartā of that bhāva and binds karma through it. This is one of the most psychologically penetrating verses in the Samaysaar. Modern psychology would call it the difference between <em>having</em> an emotion and <em>being</em> an emotion. The Samaysaar calls the latter vicarious kartā-ship — the karmic identification that binds.</p>
+<div class="simple-explanation"><b>Simply:</b> "I am angry" (as identity) binds. Noticing anger without claiming it as self — that is jñāna. The difference is not in the emotion but in who you take yourself to be when it arises.</div>
+</div>
+
+<!-- G85-108 summary -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 85–108 — Overview</span>
+<div class="concept-tags"><span class="concept-tag">Dvikrīyā-dosha</span><span class="concept-tag">Tanmaya</span><span class="concept-tag">Upachāra</span><span class="concept-tag">King Analogy</span></div>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed mb-4">G85-86 establish that the soul cannot simultaneously be the material maker AND experiencer of karma — the "dvikrīyā" (double-action) problem rejected by the Jinas. G87-90 map the four bondage-causes (mithyātva, ajñāna, avirati, yoga/kasāya) across the jīva/ajīva distinction — showing each has both a soul-side manifestation and a matter-side manifestation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed mb-4">G95-97 show even "I am dharma" vikalpas can be bondage if not arising from genuine self-knowledge. G99-100 establish that the soul doesn't make pots, cloth, or chariots — yoga and upayoga are the producers (in that sense only). G101-104 show the soul does not create karma's dravya and guṇas — it is not their material maker.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The section closes with three celebrated analogies (G105-108): "karma done by the soul" is upachāra (conventional metaphor) only — like saying "the king fought the battle" when warriors did the fighting. The soul, by vyavahāra, is called "producer of dravya-qualities" just as a king is conventionally called "producer of subjects' faults and virtues."</p>
+<div class="simple-explanation"><b>Simply:</b> The soul's conventional karma-doership is a useful metaphor (upachāra), not ultimate fact. Ultimately, each substance produces only its own transformations.</div>
+</div>
+
+<!-- PART 5 -->
+<div class="section-divider"><span>Part 5 · Gathas 109–112 · The Four Causes of Bondage</span></div>
+<p class="text-on-surface-variant text-base mb-8 max-w-3xl">The Adhikar now gives the formal theory of bondage-causes — four general pratyayas and their thirteen specific varieties across the guṇasthānas — and establishes that these causes are themselves achetana (insentient), clarifying where exactly the soul's responsibility lies.</p>
+
+<!-- G109-112 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 109–112</span>
+<div class="concept-tags"><span class="concept-tag">Mithyātva</span><span class="concept-tag">Avirata</span><span class="concept-tag">Kasāya</span><span class="concept-tag">Yoga</span><span class="concept-tag">Guṇasthāna</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">सामण्णपच्चया खलु चउरो भण्णंति बंधकत्तारो।<br/>मिच्छत्तं अविरमणं कसायजोगा य बोद्धव्वा ॥१०९॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">The four general causes of bondage are: mithyātva, non-restraint (aviramana), kasāya (passions), and yoga — these are to be understood.</p>
+<p class="sutra-sanskrit font-headline mb-4 mt-4">गुणसंणिदा दु एदे कम्मं कुव्वंति पच्चया जम्हा।<br/>तम्हा जीवोऽकत्ता गुणा य कुव्वंति कम्माणि ॥११२॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">These pratyayas — as guṇas (guṇasthāna-level forces) — do karma; therefore the soul is akartā, and the guṇas do the karmas.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G109 gives the four foundational causes. G110 shows their thirteen specific varieties corresponding to the thirteen guṇasthānas — measuring spiritual progress by which causes are progressively reduced. G111 establishes a key point: these four pratyayas arise from pudgala-karma's rise — they are achetana (insentient). If they alone did karma, the soul would not experience it. But the soul IS the experiencer — so its conscious upayoga is what converts insentient karmic conditions into lived bondage. G112 concludes: from the niśchaya level, the soul is akartā — the guṇas (the pratyayas as spiritual-stage attributes) are the actual karma-doers. The soul is their field, not their agent.</p>
+<div class="simple-explanation"><b>Simply:</b> Four things cause karma: wrong belief, non-restraint, passions, and activity. But even these are insentient forces. The soul's contribution is its upayoga — its conscious engagement. Take away the upayoga's identification, and the bondage loses its hook.</div>
+</div>
+
+<!-- PART 6 -->
+<div class="section-divider"><span>Part 6 · Gathas 113–115 · Soul and Pratyaya Are Not Identical</span></div>
+
+<!-- G113-115 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 113–115</span>
+<div class="concept-tags"><span class="concept-tag">Upayoga-Ananya</span><span class="concept-tag">Krodha-Anya</span><span class="concept-tag">Non-Identity</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">अह दे अण्णो कोहो अण्णुवओगप्पगो हवइ चेदा।<br/>जह कोहो तह पच्चय कम्मं णोकम्ममिव अण्णं ॥११५॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Krodha (anger) is other (anya) than the soul — and the soul is of the nature of upayoga as other. Just as krodha is other — so too pratyaya, karma, and nokamma are all other (separate from the soul).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G113-114 address a possible objection: if upayoga is non-separate (ananya) from the soul, and if krodha is upayoga, then krodha would be non-separate from the soul — making soul and ajīva identical, which is the fundamental error. The resolution in G115 is clean: upayoga IS genuinely the soul's own (ananya). But krodha — arising from karma, insentient at its root — is NOT ananya to the soul in the same way. Krodha is anya (other). And this distinction extends cleanly to all karma, nokamma, and pratyaya — all anya to the soul. The soul is consciousness. Everything else is other. Not as ascetic ideology — as precise metaphysics.</p>
+<div class="simple-explanation"><b>Simply:</b> Upayoga is genuinely the soul's own. Anger — arising from karma — is genuinely other. And therefore all of karma's universe is cleanly other than the soul.</div>
+</div>
+
+<!-- PART 7 -->
+<div class="section-divider"><span>Part 7 · Gathas 116–125 · Each Substance Transforms Itself</span></div>
+<p class="text-on-surface-variant text-base mb-8 max-w-3xl">A long and philosophically dense section responding to the Sāṃkhya school's view that the soul is entirely non-transforming. Kundkundacharya proves that BOTH soul and pudgala are pariṇāmi (transforming) substances — and that each transforms only through its own svabhāva.</p>
+
+<!-- G116-120 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 116–120 — The Sāṃkhya Refutation</span>
+<div class="concept-tags"><span class="concept-tag">Svabhāva-Pariṇāma</span><span class="concept-tag">Sāṃkhya Refutation</span><span class="concept-tag">Aparinami</span></div>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed mb-4">G116: If the soul does not transform itself, pudgala is also proved non-transforming (Sāṃkhya). G117: If karmic matter doesn't transform by itself, either samsāra is impossible or Sāṃkhya follows. G118: If pudgala doesn't transform itself, the soul cannot force it to. G119: If pudgala transforms by itself — then saying "the soul transforms karma" is false. G120: By necessity, pudgala transformed into karma-form IS karma (jñānāvaraṇa etc.) — the soul doesn't make it; pudgala's own svabhāva transforms it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The logic is a set of interlocking dilemmas that progressively eliminate every alternative to the Jain position: each substance transforms only through its own svabhāva. The soul cannot transform pudgala; pudgala cannot transform the soul. Each transforms according to its own nature when the other is present as nimitta (occasion).</p>
+<div class="simple-explanation"><b>Simply:</b> The soul can't force pudgala to become karma; pudgala can't force the soul into anger. Each becomes what it becomes by its own nature — the other is only occasion.</div>
+</div>
+
+<!-- G121-125 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 121–125 — The Soul's Own Anger</span>
+<div class="concept-tags"><span class="concept-tag">Krodha-Upayoga</span><span class="concept-tag">Soul's Transformation</span><span class="concept-tag">Responsibility</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">कोहुवजुत्तो कोहो माणुवजुत्तो य माणमेवादा।<br/>माउवजुत्तो माया लोहुवजुत्तो हवदि लोहो ॥१२५॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Soul engaged in krodha-upayoga IS krodha; engaged in māna-upayoga IS māna; engaged in māyā-upayoga IS māyā; engaged in lobha-upayoga IS lobha.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G121-124 apply the same Sāṃkhya-refutation argument to the soul's transformation in krodhādi: if the soul doesn't transform itself into anger — samsāra is impossible. If pudgala-anger forces the soul into anger — but pudgala can't transform what doesn't first transform itself. The conclusion in G125 is revolutionary: <strong class="text-on-surface">the soul IS anger when its upayoga is in anger-mode</strong>. Not as its nature — as its current transformation. The anger-karma is nimitta. The soul's own transformation IS the anger. This simultaneously eliminates fatalism (karma can't force you into anger) and establishes responsibility (your anger is your own transformation).</p>
+<div class="simple-explanation"><b>Simply:</b> Your anger is not what karma does to you — it is what you transform into when karma rises as occasion. Which means it can change. By you.</div>
+</div>
+
+<!-- PART 8 -->
+<div class="section-divider"><span>Part 8 · Gathas 126–131 · Jñānī vs Ajñānī — The Nature of Bhāvas</span></div>
+
+<!-- G126-127 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 126–127</span>
+<div class="concept-tags"><span class="concept-tag">Jñānamaya</span><span class="concept-tag">Ajñānamaya</span><span class="concept-tag">No-Karma</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">जं कुणिदे भावमादा कत्ता सो होदि तस्स कम्मस्स।<br/>णाणिस्स स णाणमओ अण्णाणमओ अणाणिस्स ॥१२६॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">Whatever bhāva the soul does, it is kartā of that karma. For the jñānī it is jñānamaya (knowledge-filled); for the ajñānī it is ajñānamaya (ignorance-filled).</p>
+<p class="sutra-sanskrit font-headline mb-4 mt-4">अण्णाणमओ भावो अणाणिणो कुणिदे तेण कम्माणि।<br/>णाणमओ णाणिस्स दु ण कुणिदे तम्हा दु कम्माणि ॥१२७॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">The ajñānī's bhāva is ajñānamaya — therefore it does karmas. The jñānī's bhāva is jñānamaya — therefore it does NOT do karmas.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G126-127 contain the core operational principle: <strong class="text-on-surface">ajñānamaya doing = karma; jñānamaya doing = no karma.</strong> The jñānī's life may look similar to the ajñānī's externally — both breathe, eat, speak, move. But the jñānī's actions arise from jñānamaya upayoga — not adding to karma. The ajñānī's arise from ajñānamaya upayoga — they do. The Atmakhyati explains: the jñānī does not perform actions while treating rāga-dvesha as "mine" — as self-definition. Without that claiming, karma has no hook to attach to. The inner quality of consciousness is what determines the karmic outcome, not the external act.</p>
+<div class="simple-explanation"><b>Simply:</b> Ajñānamaya doing = karma. Jñānamaya doing = no karma. The outcome is determined by the quality of consciousness, not the external action.</div>
+</div>
+
+<!-- G128-131 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 128–131 — Like Produces Like</span>
+<div class="concept-tags"><span class="concept-tag">Self-Reproducing Consciousness</span><span class="concept-tag">Gold Analogy</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">णाणमया भावाओ णाणमओ चेव जायदे भावो।<br/>जम्हा तम्हा णाणिस्स सव्वे भावा हु णाणमया ॥१२८॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">From jñānamaya bhāva, only jñānamaya bhāva arises; therefore all bhavas of the jñānī are truly jñānamaya.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G128-131 reveal the self-reproducing nature of consciousness states. From jñāna, jñāna is generated. From ajñāna, ajñāna is generated. G130 gives the analogy: from gold come only gold-forms (earrings); from iron come only iron-forms (bangles). Similarly — from jñānamaya bhāva, only jñānamaya bhavas arise; from ajñānamaya, only ajñānamaya. This has a profound implication: once the jñānī's consciousness is established in jñānamaya bhāva, everything that arises — every thought, every response — is jñānamaya. Not because of suppression or control, but because the source is clean. And for the ajñānī — the same self-reproduction works in reverse. Every act of ignorance generates more ignorance.</p>
+<div class="simple-explanation"><b>Simply:</b> From knowing comes knowing. From ignorance comes ignorance. Transform the source — and everything arising from it transforms. This is the deepest argument for why self-knowledge — not behavioral reform alone — is the path.</div>
+</div>
+
+<!-- PART 9 -->
+<div class="section-divider"><span>Part 9 · Gathas 132–136 · The Four Rises and Their Nature</span></div>
+
+<!-- G132-136 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 132–136</span>
+<div class="concept-tags"><span class="concept-tag">Udaya</span><span class="concept-tag">Ajñāna-rise</span><span class="concept-tag">Kasāya-rise</span><span class="concept-tag">Yoga-rise</span><span class="concept-tag">Kārmika-varganā</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">अण्णाणस्स स उदओ जा जीवाणं अतच्चउवलद्धी।<br/>मिच्छत्तस्स दु उदओ जीवस्स असद्दहाणतं ॥१३२॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">The rise of ajñāna in jīvas is non-attainment of truth; the rise of mithyātva is non-faith in the soul.</p>
+<p class="text-base text-on-surface-variant leading-relaxed mb-4">G132-136 describe each bondage-cause at its experiential level: Ajñāna-rise = not recognizing reality as it is (missing truth). Mithyātva-rise = actively oriented away from truth (rejecting truth). Asaṃyama-rise = non-restraint in action. Kasāya-rise = the upayoga becoming kalusha (murky, defiled) — unable to see clearly. Yoga-rise = the soul's sheer initiative — pure or impure — including even the impulse toward renunciation (yoga is neutral; what matters is the quality of consciousness directing it).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G135-136 give the complete picture: when these four rises operate, kārmika-varganā particles adhere to the soul and transform into the eight types of karma. The soul is nimitta (instrumental occasion) — pudgala does the actual material transformation. Mithyātva-rise, karma's transformation into bondage-form, and the soul's own ajñānamaya transformation all happen simultaneously — each by its own nature, in mutual nimitta-naimittika relationship.</p>
+<div class="simple-explanation"><b>Simply:</b> Four kinds of "rise" (udaya) are what bondage-causes feel like from the inside. They operate simultaneously with karma binding — each substance doing its own part, simultaneously, by its own nature.</div>
+</div>
+
+<!-- PART 10 -->
+<div class="section-divider"><span>Part 10 · Gathas 137–142 · Distinctness of Soul and Pudgala Transformations</span></div>
+
+<!-- G137-140 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 137–140</span>
+<div class="concept-tags"><span class="concept-tag">Saha-Pariṇāma Refutation</span><span class="concept-tag">Rāgādi</span><span class="concept-tag">Separate Transformation</span></div>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed mb-4">G137-138 refute the view that soul and pudgala jointly transform into karma: if they transformed together, both would be karma — but the soul doesn't become karma, so they transform separately. G138 concludes: karma-transformation belongs to pudgala alone, by its own nature. The soul's state is nimitta (occasion), not upādāna kāraṇa (material cause).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G139-140 apply the same argument to the soul's transformation in rāgādi (attachment): if soul and karma together produced rāga, both would become rāgī (attached). But karma cannot experience attachment. Therefore rāga is the soul's own transformation alone — with karma as nimitta. This is simultaneously a statement of non-determinism (karma can't force you into attachment) and of responsibility (your attachment is your own transformation).</p>
+<div class="simple-explanation"><b>Simply:</b> Only pudgala becomes karma. Only the soul becomes rāgī. Their transformations are categorically separate. Each substance produces only its own modes.</div>
+</div>
+
+<!-- G141-142 — PIVOTAL -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6" style="border-left: 4px solid #755b00; background: linear-gradient(135deg, rgba(201,168,76,0.06), white);">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gathas 141–142 — The Philosophical Pivot</span>
+<div class="concept-tags"><span class="concept-tag">Vyavahāra</span><span class="concept-tag">Śuddha-Naya</span><span class="concept-tag">Samayasāra Defined</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">जीवे कम्मं बद्धं पुट्ठं चेद ववहारणयभणिदं।<br/>सुद्धणयस्स दु जीवे अबद्धपुट्ठं हवदि कम्मं ॥१४१॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">That karma is "bound and touched" in the soul — this is the vyavahāra-naya's statement. From the śuddha-naya's perspective, karma is "unbound and untouched" in the soul.</p>
+<p class="sutra-sanskrit font-headline mb-4 mt-4">कम्मं बद्धमबद्धं जीवे एवं तु जाण णयपक्खं।<br/>पक्खादिक्कंतो पुण भण्णिदे जो सो समयसारो ॥१४२॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">"Karma is bound in the soul" or "karma is not bound in the soul" — know these as naya-standpoints. But the one who is described as beyond standpoints — THAT is the Samayasāra.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">G141 presents the two valid naya-views without contradiction: Vyavahāra — karma IS bound to the soul. Useful for teaching about bondage, shedding karma, the process of liberation. Śuddha-naya — at the level of the soul's actual nature, karma never touches it. The soul is anādi-śuddha (pure from the beginningless). Both are true at their respective levels. G142 is the pivot of the entire Adhikar: both "karma binds" and "karma doesn't bind" are standpoints — useful lenses, partial truth. The Samayasāra is what lies beyond both. Not a third opinion — the direct experience of what the soul actually is, prior to any lens, any standpoint, any secondary description.</p>
+<div class="simple-explanation"><b>Simply:</b> "Karma binds" (conventional). "Karma never touches the soul" (ultimate). Both are standpoints. The Samayasāra is what is beyond both — the soul's direct self-experience, prior to all philosophy.</div>
+<div class="mt-4 p-4 rounded-lg bg-primary/5 border border-primary/15">
+<p class="text-sm text-on-surface-variant italic">Contemplate: What are the standpoints you cling to about yourself — "I am bound" or "I am free"? What would it be to simply rest in what you are, prior to either story?</p>
+</div>
+</div>
+
+<!-- PART 11 -->
+<div class="section-divider"><span>Part 11 · Gathas 143–144 · Beyond Both Standpoints — Samayasāra</span></div>
+<p class="text-on-surface-variant text-base mb-8 max-w-3xl">The final two gathas name the destination — and reveal that the destination is not a state to be achieved but a direct seeing of what the soul already is, when no standpoint mediates the seeing.</p>
+
+<!-- G143 -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 143</span>
+<div class="concept-tags"><span class="concept-tag">Samayapraribaddha</span><span class="concept-tag">Naya-Paksha-Rahita</span><span class="concept-tag">Kevalī Analogy</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4">दोण्ह वि णयाण भणिदं जाणिदे णवरं तु समयपिडिबद्धो।<br/>ण दु णयपक्खं गिण्हिदे किंचि वि णयपक्खपरिहीणो ॥१४३॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">The one who is firmly bound to Samayasāra knows the statements of both nayas — but does not take any naya-standpoint; being free from all naya-standpoints.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The samayapraribaddha (Samayasāra-bound soul) is not ignorant of the nayas — this is not anti-intellectualism. They know both viewpoints thoroughly. But understanding does not become attachment to a position. They move through both frameworks as tools without being captured by either. The Atmakhyati compares this to a Kevalī: the omniscient one knows all standpoints simultaneously but is not captured by any. The Kevalī abides in direct experience of reality, which no standpoint fully describes. The samyak-dṛṣṭi approaching this state does the same at a more modest level — uses nayas as maps, isn't imprisoned by any map.</p>
+<div class="simple-explanation"><b>Simply:</b> The Samayasāra-oriented soul knows both standpoints — but doesn't take sides with either. Tools, not cages.</div>
+</div>
+
+<!-- G144 — FINALE -->
+<div class="sutra-card rounded-xl p-8 md:p-10 mb-6" style="border-left: 4px solid #755b00; background: linear-gradient(135deg, rgba(201,168,76,0.06), white);">
+<div class="flex items-start justify-between gap-4 mb-6">
+<span class="text-xs font-label uppercase tracking-[0.2em] text-primary/70 font-semibold pt-1">Gatha 144 — Closing Verse of Adhikar 2</span>
+<div class="concept-tags"><span class="concept-tag">Samyak-Darśana</span><span class="concept-tag">Samyak-Jñāna</span><span class="concept-tag">Sarvnaya-Paksha-Rahita</span><span class="concept-tag">Samayasāra</span></div>
+</div>
+<p class="sutra-sanskrit font-headline mb-4" style="font-size:1.55rem">सम्मदंसणणाणं एसो लहिदे ति णवरि ववदेसं।<br/>सव्वणयपक्खरहिदो भणिदो जो सो समयसारो ॥१४४॥</p>
+<p class="text-base text-on-surface-variant mb-4 italic">This alone obtains the designation "samyak-darśana and samyak-jñāna." The one described as free from all naya-standpoints — THAT is Samayasāra.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The final gatha of Adhikar 2 is a revelation: samyak-darśana (right perception) and samyak-jñāna (right knowledge) are not two separate things acquired through separate practices. They are the same reality — the direct experience of the soul in its purity, beyond all standpoints. "Sarvnaya-paksha-rahito" — freed from all standpoints. Not a blank mind. A fully luminous, knowing consciousness that sees itself directly, without the mediation of even the most refined philosophical framework. The Samayasāra is not a book. Not a doctrine. It is <strong class="text-on-surface">the soul itself</strong> — as it truly is, when seen without any naya overlay. This is what all 76 gathas of Adhikar 2 have been pointing toward from the very first verse: the distinction between self and not-self (G69), when fully realized, leads here.</p>
+<div class="simple-explanation"><b>Simply:</b> Free from all standpoints — that alone obtains the names "right perception" and "right knowledge." That pure knowing is Samayasāra itself. The journey of 76 gathas ends where it always pointed — at the soul, knowing itself, directly.</div>
+<div class="mt-4 p-4 rounded-lg bg-primary/5 border border-primary/15">
+<p class="text-sm text-on-surface-variant italic">Contemplate: What would it mean to know yourself without any story — no standpoint of bound or free, jñānī or ajñānī, seeker or found? Just this: awareness, knowing itself, directly.</p>
+</div>
+</div>
+
+<!-- Navigation to next/prev -->
+<div class="flex justify-between items-center mt-20 pt-8 border-t border-outline-variant">
+<a href="samaysaar-ch2.html" class="flex items-center gap-3 text-on-surface-variant hover:text-primary transition-colors group">
+<span class="material-symbols-outlined text-xl group-hover:-translate-x-1 transition-transform">arrow_back</span>
+<div><p class="text-xs uppercase tracking-widest font-semibold mb-1 opacity-60">Previous</p><p class="font-headline font-bold text-lg">Adhikar 1: Jeev-Ajeev</p></div>
+</a>
+<a href="samaysaar-index.html" class="text-xs uppercase tracking-widest font-semibold text-on-surface-variant hover:text-primary transition-colors">All Chapters</a>
+<a href="samaysaar-ch4.html" class="flex items-center gap-3 text-on-surface-variant hover:text-primary transition-colors group">
+<div class="text-right"><p class="text-xs uppercase tracking-widest font-semibold mb-1 opacity-60">Next</p><p class="font-headline font-bold text-lg">Adhikar 3: Punya-Paap</p></div>
+<span class="material-symbols-outlined text-xl group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="border-t border-outline-variant mt-20 py-12">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
+<div>
+<span class="font-headline text-lg font-bold text-primary">JainAwaken.org</span>
+<p class="text-sm text-on-surface-variant mt-1">Samaysaar — Adhikar 2 · Kartā-Karma · Gathas 69–144</p>
+</div>
+<p class="text-xs text-on-surface-variant opacity-60 text-center md:text-right">Shrimad Kundakunda Acharya · Atmakhyati of Amrutchandra Acharya<br/>English translation for study and contemplation</p>
+</div>
+</footer>
+
+<script>
+// Floating nav visibility
+const leftBtn = document.getElementById('nav-left');
+const rightBtn = document.getElementById('nav-right');
+let lastY = 0;
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  if (y > 400) {
+    leftBtn.classList.add('visible');
+    rightBtn.classList.add('visible');
+  } else {
+    leftBtn.classList.remove('visible');
+    rightBtn.classList.remove('visible');
+  }
+  lastY = y;
+}, { passive: true });
+</script>
+</body>
+</html>
