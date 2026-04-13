@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 8: Tyag (Renunciation) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 8</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Renunciation<span class="block text-primary font-normal text-xl md:text-2xl mt-2">त्याग</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Not what you renounce, but from what understanding you renounce — and toward what light</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Tyag is not loss — it is rediscovery. Eight shlokas move through layers: renounce worldly family for divine family (atmarati, shuddhajnana), adopt samata as beloved, transcend supportive dharmas at the right stage, renounce even the practices, then the yogas — until the nirguna, purna, infinite soul blazes forth like the full moon freed of every cloud.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">वस्तुतस्तु गुणः पूर्णमनन्तैर्भासते स्वतः ।<br/>रूपं त्यक्त्कात्मन साघोनिं रचरस्य विघोरिव ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"In truth, the soul's quality blazes complete and infinite, self-luminous — like the cloud-free sky revealing the full moon in all its radiance." — Gyansaar 8.8</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Tyag</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Tyag</span> — Renunciation — is the eighth chapter and the most radical reorientation in Gyansaar. The author opens with a subtle but crucial distinction: renouncing a specific worldly object is not significant. What matters is <em>from what understanding</em> and <em>toward what vision</em> one renounces. Renunciation without inner realignment is just deprivation.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter's movement is a great descending: first renounce the worldly family and adopt the divine family (atmarati as true mother, shuddhajnana as true father, samata as true beloved). Then renounce even supportive dharmas when their purpose is fulfilled. Then renounce practices when shuddha-pada is reached. Then renounce all yogas. And at the very end — when the last cloud drops — the full moon of the pure, complete, infinite soul blazes forth by itself. Tyag is not loss. Tyag is homecoming.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 8 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The New Family (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संयतात्मा श्रये शुद्धोपयोगं दितरं निक्षम् ।<br/>सृतिमम्बां च पितरो, तन्मां विगृहतां प्रूषम् ॥१॥५७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The disciplined soul takes refuge in shuddhopayoga as the highest father, and in the samsara-crossing mother — this is the family that truly nourishes me.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Atmarati · The True Family</span>
+</div>
+<p class="principle-def">Atmarati is the true mother — whose company brings steadiness and joy in the atma. Shuddha-atmajnana is the true father — who illumines the true path. The author does not ask for coldness toward parents — he asks for a transformation of what we call family. Until these inner parents are found, the family we think we have is a beautiful cage.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The shloka invites: abandon the material-emotional attachment to parents who bind with moha-sneha; establish a relationship with these inner-divine parents who liberate. Pray to your worldly parents for moksha — bow to them, fall at their feet, ask their blessing for the inner path — and then offer yourself entirely to atmarati and shuddhajnana. The jnani-mahatmas present here introduce you to these new parents and invite a deeper relationship with them.</p>
+<p class="simple-explanation"><b>The simple version:</b> Your real mother is Atmarati — the taste of resting in yourself. Your real father is Shuddha-Atmajnana — pure self-knowing. Until you find these parents, the family you think you have is a beautiful cage.</p>
+<div class="contemplate-block"><b>Contemplate</b>What would it mean to truly be nourished by atmarati? When did you last feel your soul as home?</div>
+<div class="concept-tags"><span class="concept-tag">Shuddhopayog</span><span class="concept-tag">Atmarati</span><span class="concept-tag">Samsara-crossing</span><span class="concept-tag">Divine parentage</span><span class="concept-tag">Tyag as re-orientation</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कान्ता से समतैलौका, ज्ञातयो से समक्रिया ।<br/>बाह्यवर्गमिति त्यक्त्वा, धर्मसंन्यासवान् भवेत् ॥२॥५८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Renouncing the bondage of worldly associations, embrace as true companion: Shil, Satya, Dharma-Upasham, Santosh — the eternal, self-illuminating virtues.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Samata is my one and only priyatama (beloved). I have been unfaithful to her my entire life. I went to Mamata-veshya, Trishna, Khumti — they promised pleasure but looted me every time, dishonored me, threw me out. Yet when I recovered somewhat, I rushed back again. But Samata — always waiting, infinitely sushil — her company gives true peace, apaar sukh, and boundless prasannata. The real family are those who carry mana-vachan-kaya toward moksha, who are always raga-free, who are the true benefactors of all jivas. The worldly sneha-svajano can never be in truly selfless un-tied love with you. But Shil, Satya, Samata, Dharma — these are your real siblings and beloved. They never leave. They never betray.</p>
+<p class="simple-explanation"><b>The simple version:</b> You have been cheating on Samata your whole life. She was always faithful. The worldly family — however loving — binds with moha. Shil, Satya, Samata are your real family. They never abandon you, in any life.</p>
+<div class="contemplate-block"><b>Contemplate</b>Who is your true beloved — Samata or Mamata? How much of your inner life is spent in Mamata's house versus Samata's?</div>
+<div class="concept-tags"><span class="concept-tag">Shil</span><span class="concept-tag">Satya</span><span class="concept-tag">Samata</span><span class="concept-tag">Sneha vs. Dharma-bandhu</span><span class="concept-tag">Priyatama analogy</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Dharma-Sanyasa: Transcending the Scaffolding (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">धर्मस्त्याच्यया, सुतमोत्स्मा, क्षायोपशमिका अपि ।<br/>प्राप्य चंदयण-चांभ, धमसन्यासमुरानम् ॥३॥५९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even kshaayopashamik dharma must be ultimately renounced (dharma-sanyasa). Through dharma-sanyasa, the highest pure path is attained.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Dharma-Sanyasa · The Ladder Left Behind</span>
+</div>
+<p class="principle-def">Kshaayopashamik dharma is the porch to reach the inner palace of kshaayik bhav. Kshaayik guna is the atma's true svarup — like sandalwood fragrance is sandal's permanent nature. When kshaayik manifests, the kshaayopashamik dharmas are naturally left behind — like a ladder abandoned once the rooftop is reached. Dharma-sanyasa is not abandoning dharma. It is arriving.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">From the contact of pious dev-guru, mithyatva, kashaya, ajnan, asanyam are purged and the atma shines with samyakta, samyag-jnana, sanyam. These kshaayopashamik dharmas are necessary — but only until kshaayik gunas are attained. When that manifests, the supportive dharmas are naturally transcended. The path to the second apurvakarana on the eighth gunasthana is dharma-sanyasa. Before samyag-darshan it is called anattatvik dharma-sanyasa. The ultimately fruitful is beyond — the ayogic stage.</p>
+<p class="simple-explanation"><b>The simple version:</b> You need the ladder to reach the roof. But once you're on the roof, you don't stand on the ladder anymore. Dharma-sanyasa means you've arrived — not that you've abandoned dharma.</p>
+<div class="contemplate-block"><b>Contemplate</b>Are you clinging to the ladder after reaching the roof? Or have you truly stepped inside?</div>
+<div class="concept-tags"><span class="concept-tag">Dharma-sanyasa</span><span class="concept-tag">Kshaayopashamik</span><span class="concept-tag">Kshaayik dharma</span><span class="concept-tag">Apurvakarana</span><span class="concept-tag">Gunasthana</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कान्ता से समतैलौका, ज्ञातयो से समक्रिया ।<br/>बाह्यवर्गमिति त्यक्त्वा, धर्मसंन्यासवान् भवेत् ॥४॥६०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"Samata alone is my beloved wife; those of equal conduct are my relatives." Renouncing the external group in this way — become a true dharma-sanyasi.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The param-tyagi's declaration: samata is my priyatama, and those with same-dharmic conduct are my true relatives. Renouncing outer varga in this spirit — with raga-dvesha-moha dissolved — one becomes dharma-sanyasvaan. The atma's shil, satya, dharma are its sthayibhav like sandalwood fragrance. Every jivnatma has kshaayik jnana, darshan, charitra inherent in its svarup. The renunciation of kshaayopashamik kshamaadi gunas is dharma-sanyasa — the second apurvakarana at the eighth gunasthana level.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you've truly left the outer world — not just in body but in affection — and adopted Samata as your beloved, your relatives are those who walk the same inner path. This is what makes a tyagi real.</p>
+<div class="contemplate-block"><b>Contemplate</b>Have you truly divorced Mamata and married Samata — even for a moment? What would that feel like?</div>
+<div class="concept-tags"><span class="concept-tag">Samata</span><span class="concept-tag">Kanta</span><span class="concept-tag">Dharma-sanyasa</span><span class="concept-tag">Gunasthana</span><span class="concept-tag">Sthayibhav</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — The Guru and the Five Practices (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गुरुत्बं स्वस्य नोदेति, शिक्षासांत्म्येन याचता ।<br/>श्रात्मतत्त्वप्रकाशेन, ताटत् सेव्यो गुरुतांस ॥५॥६१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">True guruhood does not arise through self-assertion; it comes through teaching aligned with the truth. Until the guru reveals the atma-tatva — take refuge in such a sadguru as guide and aradhana.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Just as abandoning worldly snehi-svajanos is necessary, so is recognizing that pseudo-spiritual connections — when they do not open the atma-tatva — must also be transcended. Shishya must practice "grahana" (receiving) and "asevana" (deep practice) shiksha. The five acharas must be followed earnestly: jnanachara (until kevaljnana), darshanachar (until kshaayik-samikta), charitrachara (until yathaakhyat-charitra), tapachara (until shukladhyan pervades entirely), viryachara (until anant-vishuddh virya manifests). Among the five mahavrats, pramada-vimochan, daily observance of panchachara — this is the sadguru's highest upkaar on the shishya. Without same-bhaav — matching inner direction — no sadguru can truly serve.</p>
+<p class="simple-explanation"><b>The simple version:</b> The guru's greatness comes from aligning teaching with the atma-tatva — not from lineage or position. Until that guru appears, keep seeking and keep practicing the five acharas with full commitment.</p>
+<div class="contemplate-block"><b>Contemplate</b>Are you truly receiving from your guru — in grahana and asevana — or only attending? What would deep reception look like for you?</div>
+<div class="concept-tags"><span class="concept-tag">Sadguru</span><span class="concept-tag">Panchachara</span><span class="concept-tag">Grahana-shiksha</span><span class="concept-tag">Asevana</span><span class="concept-tag">Atma-tatva</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञानाचरादयोऽपीष्टाः, शुद्धस्वस्वपदाबधि ।<br/>निविकल्पे पुनस्त्यागे, न विकल्पो न वा क्रिया ॥६॥६२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even jnanacharadi acharas are necessary — but only up to the attainment of shuddha-pada. In nirvikalpa tyag, there is neither vikalpa nor any kriya.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Nirvikalpa · Practices Are Means, Not Ends</span>
+</div>
+<p class="principle-def">All practices — jnana-path, darshan-path, charitra-path — are scaffolding. Necessary while the building is going up. The moment of nirvikalpa tyag is the building complete — scaffolding down. The acharas must never be abandoned prematurely. But one must always remember their purpose: they serve until shuddha-pada, not beyond.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Shuddha sankalp-purvik kriya is fruitful. Follow jnanachara until kevaljnana. Darshanachar until kshaayik-samikta. Charitrachara until yathaakhyat-charitra. Tapachara until shukladhyan pervades the atma entirely. Viryachara until anant-vishuddh virya's nibandh is complete. This is the firm sankalp with which all practice must be held. In the nirvikalpa state, there is no residue of vikalpa and no external kriya — only pure awareness. Not because one has given up — but because one has arrived.</p>
+<p class="simple-explanation"><b>The simple version:</b> Every practice you do is a means, not an end. When you reach the pure state, there's nothing to do. Not because you've given up — but because you've arrived.</p>
+<div class="contemplate-block"><b>Contemplate</b>Are you practicing the five acharas with the sankalp of kevaljnana — or as ritual, habit, or social performance?</div>
+<div class="concept-tags"><span class="concept-tag">Panchachara</span><span class="concept-tag">Nirvikalpa</span><span class="concept-tag">Shuddha-pada</span><span class="concept-tag">Tyag as transcendence</span><span class="concept-tag">Kevaljnana</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Nirguna and the Full Moon (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">योगस्त्यागतस्त्यागी, योगमानव्यसिलाल्रत्यजेत् ।<br/>इत्येवं निगु॑ण ब्रह्म, परोत्रमुपचते ॥७॥६३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The true tyagi abandons yogas progressively — leading to nirguna brahma, the ultimate state of ayog.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Ayog · The Absolute Yoga-Sanyasa</span>
+</div>
+<p class="principle-def">Abandoning yogas does not mean suppressing them by force — it means the progressive resolution of udayik and kshaayopashamik bhavas until the 'ayoga' state is reached. When all aupadhik dharma-yoga is transcended, what remains is nirguna brahma — the soul's primordial, attribute-free radiance. This is not emptiness. This is fullness beyond description.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Yoga drishti samucchay describes this: kshaayopashamik dharma's tyag is dharma-sanyasa at the eighth gunasthan's second apurvakarana. Before samyag-darshan this is anattatvik dharma-sanyasa. The full yoga-tyag leads to 'ayogya karma' — absolute yoga-sanyasa where the liberated soul's consciousness burns off all residue. The jivnatma, through pramada-free atma-bhaav rooted in Arihant's nature, approaches the state where even 'dropping weapons' reaches its final resolution. This is the nirguna — always was complete, always will be complete.</p>
+<p class="simple-explanation"><b>The simple version:</b> The tyagi's path: drop worldly attachments, drop practices, drop the yogas. At the very end, the nirguna self shines alone — always was complete, always will be.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is the next yoga — thought-pattern, habit, identity — that you are being asked to let go of? What holds you back?</div>
+<div class="concept-tags"><span class="concept-tag">Nirguna</span><span class="concept-tag">Ayog</span><span class="concept-tag">Yoga-tyag</span><span class="concept-tag">Sarva-sanyasa</span><span class="concept-tag">Dharma-sanyasa</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वस्तुतस्तु गुणः पूर्णमनन्तैर्भासते स्वतः ।<br/>रूपं त्यक्त्कात्मन साघोनिं रचरस्य विघोरिव ॥८॥६४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In truth, the soul's quality blazes complete, infinite, and self-luminous, on its own — like the cloud-free sky revealing the full moon of Poornima in all its radiance.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Purna-Atma · The Full Moon Was Always There</span>
+</div>
+<p class="principle-def">The moon was always full. It was only the clouds. All renunciations — of family, of belongings, of practices, of yogas — were cloud-clearing. When the last cloud drops, only the blazing light remains. That is you. The entire Tyag chapter was about removing clouds — not about making the moon. The moon is already complete.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Like the full moon of Poornima — not obscured by a single cloud, clear sky, sixteen phases complete — this is the vision the author offers. Anupam, achala, sarvottam svarup. The param-tyagi/yogi's svarup is purna and anant-gunon se dedipta — blazing with infinite qualities. The message of Tyag chapter: the atma's true svarup is purnata — infinite, self-luminous. We could not see it because clouds of kashaya, raga, moha covered it. Shlokas 1–7 removed the clouds one by one. Now look up. The full moon blazes. Nothing was ever missing. Nothing will be missing. Tyag is not loss — it is rediscovery.</p>
+<p class="simple-explanation"><b>The simple version:</b> The moon was always full. The clouds were the problem, not the moon. All of tyag — renouncing family, practices, yogas — was cloud-clearing. When the last cloud drops, only the blazing light remains. That light is you.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is the last cloud between you and the full moon of your own svarup? Can you name it?</div>
+<div class="concept-tags"><span class="concept-tag">Purna-atma</span><span class="concept-tag">Nirguna</span><span class="concept-tag">Cloud-moon analogy</span><span class="concept-tag">Siddha-darshan</span><span class="concept-tag">Tyag as revelation</span></div>
+</div>
+</div>
+</article>
+
+</section>
+<!-- Footer -->
+<footer class="bg-[#1d1c17] text-white/70 py-16 mt-24">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-4 flex flex-col gap-4">
+<span class="text-2xl font-headline text-white tracking-tighter font-bold">JainAwaken.org</span>
+<p class="text-sm leading-relaxed">Bringing the living wisdom of Jain scripture to seekers worldwide. Free, open, and dedicated to the liberation of all souls.</p>
+</div>
+<div class="col-span-6 md:col-span-2 flex flex-col gap-3">
+<span class="text-white font-semibold text-xs uppercase tracking-widest mb-1">Gyansaar</span>
+<a class="text-sm hover:text-white transition-colors" href="gyansaar-index.html">All Chapters</a>
+<a class="text-sm hover:text-white transition-colors" href="gyansaar-ch7.html">Ch7: Indriya-Jay</a>
+<a class="text-sm hover:text-white transition-colors" href="gyansaar-ch9.html">Ch9: Kriya</a>
+</div>
+<div class="col-span-6 md:col-span-2 flex flex-col gap-3">
+<span class="text-white font-semibold text-xs uppercase tracking-widest mb-1">Sacred Texts</span>
+<a class="text-sm hover:text-white transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+<a class="text-sm hover:text-white transition-colors" href="../Samaysaar/samaysaar-index.html">Samaysaar</a>
+</div>
+</div>
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 pt-8 mt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-white/40">© 2025 JainAwaken.org · All content offered freely for the liberation of souls</p>
+<p class="text-xs text-white/40 font-headline italic">ज्ञानसार · Yashovijay Upadhyay</p>
+</div>
+</footer>
+</main>
+<!-- Nav Buttons -->
+<a class="nav-button left-btn rounded-full px-5 py-3 font-headline text-sm flex items-center gap-2" href="gyansaar-ch7.html" id="prev-btn" style="left:24px">
+<span class="material-symbols-outlined text-base">arrow_back</span> Ch7
+</a>
+<a class="nav-button right-btn rounded-full px-5 py-3 font-headline text-sm flex items-center gap-2" href="gyansaar-ch9.html" id="next-btn" style="right:24px">
+Ch9 <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+<script>
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY > 300;
+  prevBtn.classList.toggle('visible', scrolled);
+  nextBtn.classList.toggle('visible', scrolled);
+});
+</script>
+</body>
+</html>
