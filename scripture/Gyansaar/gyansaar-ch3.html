@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 3: Sthirata (Steadfastness) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 3</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Steadfastness<span class="block text-primary font-normal text-xl md:text-2xl mt-2">स्थिरता</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Stop wandering. The glory you seek is found only in the steady, unshaken abiding in your own nature</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Sthirata is the quality that transforms the flash of inner recognition into a permanent mode of being. Where Purnata said "you are full" and Magnata said "become absorbed," Sthirata says: stay there. Through seven shlokas, Yashovijayji shows that steadiness is not one virtue among many — it is the very nature of right conduct, the guardian of all other qualities, the jewel-lamp that illuminates the entire path.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">चारित्रं स्थिरतारूपमत सिद्धैरुपदिश्यते ।<br/>यतन्तां यतयोऽवश्यमस्या एव प्रसिद्धये ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Steadfastness itself is right conduct — so the Siddhas have proclaimed. O yogis, strive with full effort for its accomplishment." — Gyansaar 3.6</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Sthirata</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Sthirata</span> — Steadfastness — is the third chapter and the quality that makes the previous two real. Recognition of fullness (Purnata) and deep absorption in it (Magnata) are not enough if the mind immediately slides back into its old restlessness the moment practice ends. Sthirata is the stabilizing force — the continuous, unbroken dwelling that turns glimpse into ground.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The vivechan is unusually direct in this chapter. Yashovijayji addresses the reader almost as a concerned elder: stop wandering. All the running you have done — from object to object, place to place, search to search — has produced only agitation. The ratna-deepak (jewel-lamp) of steadiness is the only light that illuminates the whole path. And the shlokas culminate in a declaration that shook early readers: charitra (right conduct) is steadiness. Not a rule. Not a vow. Steadiness itself.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">7</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 3 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 7 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Restless Mind and Its Cure (Shlokas 1–3)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वस्त ! किं चचलस्वान्तो भ्रात्वा भ्रातवा विथोदसि ?<br/>निनिं स्वस्तिनायायेय स्थिरता यशोदयति ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">O friend! Why do you exhaust yourself wandering with a restless, unstable mind — going here and there? Be steady. It is Steadfastness alone that brings all excellence.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Sthirata · The Jewel-Lamp of All Virtues</span>
+</div>
+<p class="principle-def">Sthirata is not one virtue among many. It is the ratna-deepak — the jewel-lamp — whose light illuminates and enables every other quality. Without it, no other virtue can fully take root or bear fruit.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter opens not with definition but with a direct challenge — almost a shout of compassion from teacher to student: What are you doing? Why are you still wandering? You have tasted absorption. You have recognized your own fullness. And yet the mind is still restless, still chasing? The vivechan states the bald truth: what you seek cannot be found out there. It never was. Satisfaction has never been found through external searching — not north, south, east, or west — and it never will be. The glory you seek comes from one source only: Sthirata, the steady abiding in one's own nature. The title-page summary of the original text: "Always be steady. Continuously. Forever. Steadfastness should be the permanent condition of the human being."</p>
+<p class="simple-explanation"><b>The simple version:</b> Stop wandering. All the running you have done — from one thing to the next — has produced only agitation. The glory you seek comes from steadfastness alone.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where has your mind gone today — how many things, how many concerns, how many plans? Has any of that movement brought you to rest? What if the movement itself is the problem?</div>
+<div class="concept-tags"><span class="concept-tag">Sthirata</span><span class="concept-tag">Ratna-Deepak</span><span class="concept-tag">Restlessness</span><span class="concept-tag">Chanchalta</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञानदुघं विनश्येत, लोभविक्षोभकुचंकैः ।<br/>अम्लद्रव्यादिवास्थेयादिदति मत्वा स्थिरो भव ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The vessel of knowledge is ruined by the churning disturbance of greed — just as pure milk is curdled and spoiled by acidic substances. Knowing this, become steady.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Imagine a vessel of pure, fresh milk — the milk of knowledge, the jnana-amrita. Now drop acid into it. The milk instantly curdles. The vessel of knowledge is exactly like this. The acid? Greed — the craving for external material objects. The vivechan is direct: you cannot simultaneously cultivate jnana-magnata and pursue material wealth with full desire. When the acid of craving enters the milk of inner absorption, the absorption is destroyed. The bliss curdles into restlessness. Instead of liberation, the soul gets more karma — more entanglement. The solution is simple: knowing this — become steady. Sthirata is the protection of the jnana-vessel from the acid of greed.</p>
+<p class="simple-explanation"><b>The simple version:</b> Greed poured into the vessel of inner knowledge is like acid dropped into pure milk — it instantly curdles everything. To protect the bliss of absorption, you must be steady away from the pull of material craving.</p>
+<div class="contemplate-block"><b>Contemplate</b>Think of a time when a moment of inner peace was broken by a sudden desire or craving. Did you notice the transition? The peace was there — and then the craving arrived — and the peace was gone. What does that tell you about the relationship between steadiness and contentment?</div>
+<div class="concept-tags"><span class="concept-tag">Jnana-Amrita</span><span class="concept-tag">Lobha</span><span class="concept-tag">Milk Analogy</span><span class="concept-tag">Poudgalik</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अस्थिरे दृढमे चिंता, वाड् मन:त्वाकारगोपेना ।<br/>पुरुषध्या दृढ कर्त्याण्यकारिरणो न प्रकीतिता ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When steadiness is absent, the mind falls into deep anxiety. For one whose speech, mind, and action are unsteady — even noble deeds are rendered ineffective and cannot bear fruit.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan poses the searching question: the Siddhas' pure milk of dharma flows into the atma-bhajan (vessel of the self) through shastras and saints. But why does it immediately lose its nourishing quality? Because poudgalic desire-tendencies are mixed into it. The result: even noble actions done from that unstable base cannot achieve their full benefit. The vivechan makes a pointed observation: many devout practitioners ask, "Why don't I have inner peace after all this practice?" The answer is Sthirata — or its absence. As long as the mind chases material pleasure, no amount of outward religious activity can produce the deep inner purification it was designed to create. Moh-mukti (freedom from delusion) has only one door: inward steadiness.</p>
+<p class="simple-explanation"><b>The simple version:</b> Without steadiness, even virtuous efforts cannot produce their full fruit. Steadiness is not just a spiritual quality — it is the prerequisite for all other qualities to function.</p>
+<div class="contemplate-block"><b>Contemplate</b>Have you done something good — made an effort, given something, practiced something — and felt it didn't "land"? Could instability of mind have been the reason? What would it look like to do the same action from a steadier ground?</div>
+<div class="concept-tags"><span class="concept-tag">Vikshipta-Chitta</span><span class="concept-tag">Asthi-Rta</span><span class="concept-tag">Moha</span><span class="concept-tag">Ineffective Virtue</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Test and Nature of Steadiness (Shlokas 4–5)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्थिरता वाड् मन:कार्ययवामड्रागितां गता ।<br/>योगिन: समशीलास्ते ग्रामेऽरण्ये दिवा निशि ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">For the one whose steadiness has pervaded speech, mind, and action completely — such great yogis are of the same nature whether in village or forest, in day or night.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">The Test of Sthirata · Same in All Conditions</span>
+</div>
+<p class="principle-def">Genuine steadiness does not depend on ideal conditions. Village or forest, noise or silence, day or night — the yogi of true Sthirata is the same. Not because they suppress their reactions, but because the inner light is so bright that external conditions cannot disturb it.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan offers a beautiful analogy: the person in whom steadiness has truly taken root is like someone for whom the bright light of day causes no excessive excitement and the deep darkness of night causes no fear. They are the same. In their speech flows the river of purnananda (complete bliss). In their body radiates the light of purnananda. The vivechan connects this to the fully integrated state of Samras — where consciousness, speech, and body have all merged into one steady flow of self-awareness. This is not a suppression of experience but an illumination from within so bright that external conditions cannot disturb it, just as a great lamp cannot be blown out by the breeze that barely moves an ordinary candle.</p>
+<p class="simple-explanation"><b>The simple version:</b> The yogi of genuine steadiness is the same in the village and the forest, by day and by night. That is the test: not how steady you are in ideal conditions, but whether steadiness holds when conditions change.</p>
+<div class="contemplate-block"><b>Contemplate</b>Think of your inner state in two contrasting environments — a quiet place of practice versus a chaotic, demanding situation. How much does it change? What would it mean to carry the same quality of presence into both?</div>
+<div class="concept-tags"><span class="concept-tag">Samras</span><span class="concept-tag">Purnananda</span><span class="concept-tag">Unconditional Steadiness</span><span class="concept-tag">Yoga</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अतंगत महाशाल्यमस्थर्यं यदि नोड् दत्म् ।<br/>क्रिद्वीषपत्व को वीषरतदा गुणमयच्छत् ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">If the great disease of unsteadiness has not been removed from within — then what virtue can be truly attained, and what quality can fully manifest?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan develops the disease metaphor with surgical precision. The stomach carries the accumulated filth of a long illness. Before that filth is cleared, no medicine — however excellent, however divinely prescribed — can work properly. You can receive the best treatment, take the finest medicines, follow the most precise regimen. But as long as the underlying filth remains, it blocks every cure. The illness returns. This is precisely the situation with the soul suffering from unsteadiness. We perform puja, pratikraman, samayik, tap, jap. We seek great saints. We read profound shastras. But if the disease — chanchalta (agitation), vikshipta-chitta (distracted mind) — has not been addressed, all these medicines are absorbed imperfectly. The filth remains. True healing requires first clearing the stomach: steadying the mind.</p>
+<p class="simple-explanation"><b>The simple version:</b> If unsteadiness has not been removed, no virtue can take full root. All spiritual practice is like pouring medicine into a stomach full of filth. Clear the filth first. That is what Sthirata does.</p>
+<div class="contemplate-block"><b>Contemplate</b>Are there spiritual practices in your life that feel hollow or effortful — that don't seem to produce the depth you expect? Is it possible the obstacle is not the practice itself but the instability of mind that the practice is entering into?</div>
+<div class="concept-tags"><span class="concept-tag">Chanchalta</span><span class="concept-tag">Disease Metaphor</span><span class="concept-tag">Dharmic Practice</span><span class="concept-tag">Root Cause</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Steadiness as Conduct and the Jewel-Lamp (Shlokas 6–7)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">चारित्रं स्थिरतारूपमत सिद्धैरुपदिश्यते ।<br/>यतन्तां यतयोऽवश्यमस्या एव प्रसिद्धये ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Steadfastness itself is the true nature of right conduct (charitra). This has been proclaimed by the Siddhas. Therefore, O yogis, strive with full effort for the perfect accomplishment of this steadiness.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Charitra is Sthirata · The Siddhas' Declaration</span>
+</div>
+<p class="principle-def">Right conduct (charitra) is not a list of rules. It is not a set of observances. It IS Sthirata. The Siddhas — beings of absolute liberation — are described as having no agitation, no instability, no movement toward or away from anything. That absolute steadiness is what charitra actually means.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This shloka makes a stunning philosophical declaration that reframes the entire concept of religious ethics. The vivechan is pointed: if you want samyak charitra (right conduct), focus on Sthirata. All ethical and spiritual behaviors that flow from a truly stable mind are genuinely effective. All behaviors attempted from an unstable, material-craving mind are compromised at the root. The vivechan closes with a story: a young muni once went for alms in blazing heat. Already weakened, he passed a beautiful mansion — and a young woman's glance from the window caught his attention. In that moment of distraction, his years of sadhana were swept away. One moment of wavering undid enormous spiritual work. How precious is Sthirata! It is the guardian of all virtues.</p>
+<p class="simple-explanation"><b>The simple version:</b> The Siddhas have declared it: steadfastness is the very nature of right conduct itself. Everything else rests on it. Strive for this steadiness with complete effort.</p>
+<div class="contemplate-block"><b>Contemplate</b>What would your ethical and spiritual life look like if you stopped trying to follow rules from the outside and focused entirely on cultivating inner steadiness? What naturally arises from a truly stable mind?</div>
+<div class="concept-tags"><span class="concept-tag">Samyak Charitra</span><span class="concept-tag">Siddhas</span><span class="concept-tag">Right Conduct</span><span class="concept-tag">Spiritual Guardian</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">उत्तीरविचरसि स्थातारस्येये पवन यदि ।<br/>समायेयम्मनेयस्व यदा दियदेविष्यति ॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">If you cultivate steadiness continuously — remaining unshaken, like the wind that moves through the world without being entangled in it — then that steadiness will unfailingly illuminate and uplift you.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The closing shloka is a direct encouragement and a promise. The vivechan presents the ratna-deepak metaphor in its full form: Sthirata is a jewel-lamp. Where the ratna-deepak of inner steadiness burns — in the heart where the atma-gurus are absorbed in meditation, where the mind is steeped in steadiness — that is where the inner temple becomes luminous (man-mandir devadeepyaman). The practical promise: cultivate steadiness through constant shubha (auspicious) thoughts and dharmic activity, avoiding poudgalic distractions. When even one shubha thought takes deep root, it dissolves scattered agitation from within. Slowly, the distracted mind becomes steady. Steadiness produces more steadiness. The ratna-deepak brightens. Through Sthirata, the soul free from sinful tendencies dwells always in auspicious tendencies — absorbed in the purest self-awareness, transcending the ordinary human condition.</p>
+<p class="simple-explanation"><b>The simple version:</b> Cultivate steadiness continuously. Allow it to pervade your inner life like light. When that steadiness takes root and shines as a jewel-lamp, it illuminates everything — and the path forward becomes clear and certain.</p>
+<div class="contemplate-block"><b>Contemplate</b>What one practice, if done consistently every day, would most increase your inner steadiness? Not necessarily formal — perhaps just a pause before reacting, five minutes of deliberate stillness, choosing not to follow one habitual thought. What would the jewel-lamp of your steadiness look like if you lit it every day?</div>
+<div class="concept-tags"><span class="concept-tag">Ratna-Deepak</span><span class="concept-tag">Shubha Pravritti</span><span class="concept-tag">Continuous Practice</span><span class="concept-tag">Illumination</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Floating Nav -->
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="gyansaar-ch2.html"><span class="text-lg">←</span> Chapter 2</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="gyansaar-ch4.html">Chapter 4 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
