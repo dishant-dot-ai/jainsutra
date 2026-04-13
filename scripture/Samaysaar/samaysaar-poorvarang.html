@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Samaysaar — Poorvarang: The Complete Prologue (All 38 Gathas) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Samaysaar · Complete Poorvarang</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  The Prologue<span class="block text-primary font-normal text-xl md:text-2xl mt-2">पूर्वरंग — सभी ३८ गाथाएँ</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">The entire foundation of the Samaysaar — all 38 gathas of the Poorvarang</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">In 38 gathas of extraordinary philosophical concentration, Kundkundacharya lays the complete foundation: what the soul is, how it relates to karma, the two standpoints of reality, the nature of right worship, three stages of conquest, and the soul's own first-person declaration of self-knowledge. This is not a warm-up — it is the entire teaching in seed form.</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Samaysaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">अहमेक्को खलु सुद्धो दंसणणाणमइओ सदारूवी।<br/>ण वि अत्थि मज्झ किंचि वि अण्णं परमाणुमेत्तं पि ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"I alone am truly pure, consisting of darshana and jnana, ever-formless. There is nothing at all that is other to me — not even a single paramanu." — Samaysaar Poorvarang 38</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Section</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Complete Prologue</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Poorvarang</span> — the preliminary section of the Samaysaar — is one of the most philosophically concentrated passages in all of Jain literature. In just 38 gathas, Kundkundacharya lays the entire foundation: what the soul is, how it relates to karma, what "samaya" means, why conventional and ultimate viewpoints are both necessary, how right worship works, what the three stages of spiritual conquest mean — and finally, the soul's own first-person declaration of pure self-knowledge. This is not a warm-up — it is the entire teaching in seed form.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The Samaysaar was composed approximately 2,000 years ago by Bhagwan Kundkundacharya Dev, regarded as one of the greatest Jain acharyas in the Digambara tradition. The commentary (Atmakhyati Tika) was written by Shrimad Amritchandra Suri approximately 1,000 years later. Together, the original gathas and the commentary form one of the most revered texts in Jain philosophical literature — described by Pujya Kanji Swami as "the essence of all scripture."</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">38</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Complete Gathas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">11</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Thematic Parts</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Kundkund</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">~2000 yrs</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Age</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Gathas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Poorvarang · Samaysaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">All 38 Gathas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each gatha is presented with the original Ardhamagadhi Prakrit, English translation, and commentary drawn from the Atmakhyati Tika of Amritchandra Suri.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Nature of the Self (Gathas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वंदित्तु सव्वसिद्धे धुवमचलमणोवमं गदिं पत्ते।<br/>वोच्छामि समयपाहुडमिणमो सुदकेवलीभणिदं ॥१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Having bowed to all the Siddhas — who have attained the eternal, immovable, and incomparable state — I shall now expound this Samayaprabhrit (The Gift of the Self), as declared by the Shrutakevalins.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The Samaysaar opens with a bow to the Siddhas — liberated souls who have shed all karma and attained a state that is permanent, immovable, and beyond comparison. This is not a ritual formality. Kundkundacharya grounds his text in the highest possible reality: pure, disembodied consciousness that every soul is capable of reaching. The word "Samayaprabhrit" means "the gift of samaya" — where samaya carries a double meaning: the soul (the self) and the doctrine (the true teaching). The Siddhas are bowed to rather than the Tirthankaras because this text focuses on the pure soul — and the Siddhas are consciousness alone in its absolute form.</p>
+<p class="simple-explanation"><b>The simple version:</b> The author bows to all liberated souls and announces that he will present the essence of the soul's true nature, as taught by the great masters of scripture.</p>
+<div class="concept-tags"><span class="concept-tag">Siddhas</span><span class="concept-tag">Samaya</span><span class="concept-tag">Opening Declaration</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जीवो चरित्तदंसणणाणहिदो तं हि ससमयं जाण।<br/>पोगलकम्मपदेसहिदं च तं जाण परसमयं ॥२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Know the soul established in its own conduct, perception, and knowledge as "own-self" (sva-samaya); and know the soul situated in the provinces of material karma as "other-self" (para-samaya).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Sva-Samaya & Para-Samaya · The Two States of the Self</span>
+</div>
+<p class="principle-def">The soul operating from its own nature (knowledge, perception, conduct) is in its true state. The soul identified with material karma is in its distorted state. The entire Samaysaar is an elaboration of this single insight.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This is arguably the most foundational verse in all of Samaysaar. When the soul operates from its own inherent nature — its natural capacity for right perception, right knowledge, and right conduct — it is in its "own-self" state. These three are not external acquisitions; they are the soul's own properties, as natural to it as heat is to fire. When the same soul is found operating through the lens of material karma, it is in the "other-self" state — functioning as though it were something other than what it really is. This two-fold nature is not about two different souls. It is about two states of the same soul.</p>
+<p class="simple-explanation"><b>The simple version:</b> When the soul lives from its own nature — knowledge, perception, and right conduct — that is its true self. When it is caught up in the effects of karma, that is its distorted, false self.</p>
+<div class="concept-tags"><span class="concept-tag">Sva-Samaya</span><span class="concept-tag">Para-Samaya</span><span class="concept-tag">Soul's Two States</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Oneness and the Rarity of Self-Knowledge (Gathas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयत्तणिच्छयगदो समओ सव्वत्थ सुंदरो लोगे।<br/>बंधकहा एयत्ते तेण विसंवादिणी होदि ॥३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Samaya, when understood through the perspective of oneness, is beautiful everywhere in the universe. The story of bondage, being rooted in oneness with karma, is therefore contradictory to it.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">When each substance is understood as a single, unified entity that undergoes transformation through its own modes, every substance is complete in itself and beautiful. The "story of bondage" depends on treating the soul and karma as a single combined entity. But if every substance is truly one with itself and distinct from all others, then the soul cannot actually be "one with" karma. This does not mean bondage is a mere illusion — the soul genuinely experiences the effects of karma. But from the ultimate perspective, the soul's essential nature was never actually altered by karma, just as a crystal remains a crystal even when it appears red from a nearby flower.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you understand anything in the universe as truly one undivided thing, it is beautiful. The idea that the soul is bound by karma contradicts this oneness, because the soul and karma are fundamentally different substances.</p>
+<div class="concept-tags"><span class="concept-tag">Oneness</span><span class="concept-tag">Ekatva-Nishchaya</span><span class="concept-tag">Beauty of Self</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुदपरिचिदाणुभूदा सव्वस्स वि कामभोगबंधकहा।<br/>एयत्तसुवलंभो णवरि केवल सुलहो विहत्तस्स ॥४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The story of sensual bondage has been heard, studied, and experienced by all beings. But the realization of the soul's oneness — distinct from everything else — is simply not easy to attain.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Every being in the universe already knows the story of sensual desire and bondage — it has been heard, encountered, and experienced infinite times across infinite lifetimes. And yet, the one thing that remains genuinely rare is the direct realization of the soul's oneness — its nature as a single, distinct, conscious substance completely separate from all matter. The contrast is devastating: you know bondage intimately because you have lived it for eternity. You do not know your own self because you have never once turned inward to experience it directly. The Samaysaar exists to change that.</p>
+<p class="simple-explanation"><b>The simple version:</b> Everyone has experienced desire and bondage countless times — that story is familiar. But actually realizing your soul as something separate from all of that is extremely rare and difficult.</p>
+<div class="concept-tags"><span class="concept-tag">Rarity of Self-Knowledge</span><span class="concept-tag">Bondage</span><span class="concept-tag">Direct Realization</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — The Author's Promise and the Pure Knower (Gathas 5–7)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तं एयत्तविहत्तं दाएहं अप्पणो सविहवेण।<br/>जदि दाएज्ज पमाणं चुक्केज्ज छलं ण घेत्तव्वं ॥५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I shall reveal that soul — one and distinct — through its own inherent glory. If I demonstrate it with valid proof, accept it; and if I happen to slip anywhere, do not seize upon the error deceptively.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Kundkundacharya makes a remarkable declaration: he will show the soul through its own inherent splendor — not through external arguments alone, but through the soul's own self-luminous nature. The word "svavibhava" (own glory) is crucial — he is pointing to the soul's own radiance, its capacity to know itself directly. The second half is striking in its intellectual honesty: if my proofs are valid, accept them. But if I make an error somewhere, do not use that error as an excuse to reject the entire teaching. The teaching points beyond itself. A flaw in the pointing finger does not invalidate the moon.</p>
+<p class="simple-explanation"><b>The simple version:</b> The author promises to reveal the soul's true nature using its own inner radiance as proof. He asks: if the evidence is sound, accept it — and if he makes a mistake along the way, don't use it to dismiss the whole teaching.</p>
+<div class="concept-tags"><span class="concept-tag">Svavibhava</span><span class="concept-tag">Self-Luminosity</span><span class="concept-tag">Intellectual Honesty</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ण वि होदि अप्पमत्तो ण पमत्तो जाणगो दु जो भावो।<br/>एवं भणंति सुद्धं णादो जो सो दु सो चेव ॥६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">That which is the knowing nature — it is neither vigilant nor negligent. Thus they call it pure. And the one who is known through that knowing — that alone is the self, nothing else.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Jnayaka-Bhava · The Knowing Nature</span>
+</div>
+<p class="principle-def">The soul's essential characteristic is its capacity to know. This knowing is permanent, self-luminous, and transcends all spiritual stages — it is what "pure" truly means.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The "knowing nature" is the soul's essential characteristic: its capacity to know. This knowing is not a product of spiritual effort — it is the soul's permanent, beginningless nature, self-established and self-luminous, just as a lamp illuminates both itself and its surroundings without needing another lamp. From this perspective, labels like "vigilant" and "negligent" belong to changing states, not to the essence. The knower alone is the self. Not the body, not karma, not emotional states, not spiritual stages. "Pure" here means not morally pure but ontologically pure — the soul in its undistorted essence.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul's essential nature is simply to know. This knowing nature is beyond all categories — it is pure. And whatever is known through that knowing, that alone is the true self.</p>
+<div class="concept-tags"><span class="concept-tag">Knowing Nature</span><span class="concept-tag">Purity</span><span class="concept-tag">Beyond Categories</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ववहारेणुवदिस्सदि णाणिस्स चरित्त दंसणं णाणं।<br/>ण वि णाणं ण चरित्तं ण दंसणं जाणगो सुद्धो ॥७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">From the conventional viewpoint, the knower is taught to have conduct, perception, and knowledge as three. But in reality, there is no separate knowledge, no separate conduct, no separate perception — the knower is simply pure.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This addresses one of the most subtle points in Jain philosophy: the relationship between a substance and its attributes. Conventionally, a knower's qualities are described as three distinct things. But from the ultimate perspective, these three are not separate items inside the soul. They are the soul's own nature expressing itself. The soul is one indivisible substance — seen as "knowledge" from one angle, "perception" from another, and "conduct" from a third. The practical implication is revolutionary: you do not need to acquire three separate achievements. You need to realize one thing — your own pure nature — and all three are already there.</p>
+<p class="simple-explanation"><b>The simple version:</b> Conventionally, a wise person is said to have three separate qualities — knowledge, perception, and conduct. But in reality, the knower is one indivisible pure being. The three are just different ways of describing the same thing.</p>
+<div class="concept-tags"><span class="concept-tag">Nishchaya vs Vyavahara</span><span class="concept-tag">Oneness of Attributes</span><span class="concept-tag">Non-Duality</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Why Convention is Necessary & The Shrutakevali (Gathas 8–10)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जह ण वि सक्कमणज्जो अणज्जभासं विणा दु गाहेदुं।<br/>तह ववहारेण विणा परमत्थुवदेसणमसक्कं ॥८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as it is impossible to make a non-Aryan understand without using his own language, so too is it impossible to teach the ultimate truth without using the conventional viewpoint.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">After establishing that the ultimate reality is one undivided pure consciousness, a natural question arises: why bother with conventional teachings at all? Kundkundacharya answers with a vivid analogy. If a priest says a blessing in a language a foreigner does not know, the foreigner stares blankly. But if someone translates it into the foreigner's language, suddenly the meaning lands. Similarly, the soul's ultimate nature cannot be directly communicated to beings entangled in worldly understanding without first using the language they already know. The conventional viewpoint is not false; it is a necessary bridge. Rejecting it because you have heard of ultimate truth is like refusing to use a boat because the other shore exists.</p>
+<p class="simple-explanation"><b>The simple version:</b> Just as you cannot explain something to someone without speaking their language, you cannot teach the highest truth without first using the practical framework that people already understand.</p>
+<div class="concept-tags"><span class="concept-tag">Vyavahara Naya</span><span class="concept-tag">Conventional Truth</span><span class="concept-tag">Necessary Bridge</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जो हि सुदेणहिगच्छदि अप्पाणमिणं तु केवलं सुद्धं।<br/>तं सुदकेवलिमिसिणो भणंति लोयप्पदीवयरं ॥९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one who, through scriptural knowledge, directly approaches the self as purely one and distinct — the sages call that one a Shrutakevali, a lamp for the world.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A Shrutakevali is not someone who has memorized vast scriptures. A Shrutakevali is someone who, through scriptural knowledge, has turned inward and directly experienced the pure self. The scripture is the means; the self-realization is the end. One who merely recites scripture without self-realization is a scholar, not a Shrutakevali. The title "lamp for the world" is given because this person does not merely illuminate texts — they illuminate reality itself for others. Having seen the self directly, they can point others toward it.</p>
+<p class="simple-explanation"><b>The simple version:</b> A Shrutakevali is someone who uses scripture to directly experience their own pure soul — and becomes a light for the entire world.</p>
+<div class="concept-tags"><span class="concept-tag">Shrutakevali</span><span class="concept-tag">Self-Realization</span><span class="concept-tag">Lamp for the World</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णाणं अप्पा सव्वं जाणादि सुदकेवलिं तमाहु जिणा।<br/>णाणमओ सो आदा तेण दु सो सुदकेवली होदि ॥१०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul that knows all through knowledge — the Jinas call that one a Shrutakevali. Because all knowledge is the soul itself, therefore it is a Shrutakevali.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The reason someone is called a Shrutakevali is that all knowledge is ultimately the soul itself. Knowledge is not something external that the soul acquires; it is the soul's own nature. The soul knows all things because knowing is what the soul is. When this is fully realized, the soul becomes a Shrutakevali — not by accumulating knowledge, but by recognizing that knowledge was always its own nature. This is the ultimate meaning: not that the soul contains a cosmic database, but that the nature of consciousness is to know, and this knowing, when unobstructed, is infinite.</p>
+<p class="simple-explanation"><b>The simple version:</b> All knowledge is ultimately just the soul's own nature. The one who realizes this — that knowing is what they are — is called a Shrutakevali by the Jinas.</p>
+<div class="concept-tags"><span class="concept-tag">Knowledge is Self</span><span class="concept-tag">Infinite Knowing</span><span class="concept-tag">Jina's Declaration</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 5 — Bhutartha and the Two Standpoints (Gathas 11–15)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-11">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">व्यवहारो भूदत्थो भूदत्थो देसिदो दु सुद्धणओ।<br/>भूदत्थमस्सिदो खलु सम्मादिट्ठी हवदि जीवो ॥११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Vyavahara (the conventional standpoint) is abhutartha (not the ultimate reality); shuddhana (the pure standpoint) is bhutartha (the ultimate reality). The soul that takes refuge in bhutartha is truly samyagdrshti (one of right perception).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Bhutartha vs Abhutartha · The Ultimate and the Conventional</span>
+</div>
+<p class="principle-def">Vyavahara (conventional view) is abhutartha — useful, but not ultimate truth. Shuddhana (pure standpoint) is bhutartha — reality as it actually is. Samyak-drshti (right perception) requires grounding in bhutartha.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This is one of the pivotal gathas of the Poorvarang — a direct declaration of the Samaysaar's central thesis. Kundkund states plainly: vyavahara is not the ultimate reality. Shuddhana — the pure standpoint that sees the soul as it truly is — is bhutartha, the real meaning. The word bhutartha means "that which is as things actually are." Vyavahara naya serves a purpose — it is not false per se — but it describes the soul through its external relations: its bondage, its associated karma, its conduct in the world. Shuddhana naya cuts through all of that and sees the soul in its pure, unentangled nature. The bold claim of this verse is that samyak-drshti requires taking refuge in bhutartha — not merely accepting vyavahara descriptions as sufficient.</p>
+<p class="simple-explanation"><b>The simple version:</b> The conventional view of the soul (as one who acts, accumulates karma, takes rebirths) is not the ultimate truth. The pure view — seeing the soul as it really is — is the ultimate truth. Only one who is grounded in this ultimate view has genuine right perception.</p>
+<div class="concept-tags"><span class="concept-tag">Bhutartha</span><span class="concept-tag">Abhutartha</span><span class="concept-tag">Shuddhana Naya</span><span class="concept-tag">Samyak-Drshti</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-12">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुद्धो सुद्धादेसो णादव्वो परमभावदरिसीहिं।<br/>ववहारदेसिदा पुण जे दु अपरमे द्विदा भावे ॥१२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The pure instruction (shuddhana-desha) is to be known by those who perceive the supreme state. The vyavahara instruction is for those who are situated in an imperfect state (not yet the supreme).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Having established that shuddhana is bhutartha in Gatha 11, Kundkund now clarifies who receives which instruction. Those who have already attained direct perception of the soul's supreme nature — the paramabhava-darshin — can and should be instructed through shuddhana. They are ready for it; the pure view aligns with their direct experience. But those still on the path, not yet established in that direct vision, require vyavahara instruction. The conventional teaching of karma, conduct, and the nine tattvas serves as scaffolding that helps them approach what they cannot yet see directly. There is no contradiction — only appropriate instruction for different levels of readiness. The task of the seeker is to use conventional understanding as a ladder, then recognize the soul's nature directly and step off the ladder.</p>
+<p class="simple-explanation"><b>The simple version:</b> Pure (ultimate) teaching is for those who can already perceive the soul's supreme nature. Conventional teaching is for those still on the path. Both are given out of wisdom — one is the goal, the other is the means.</p>
+<div class="concept-tags"><span class="concept-tag">Levels of Instruction</span><span class="concept-tag">Paramabhava</span><span class="concept-tag">Scaffolding vs Destination</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-13">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">भूदत्थेणाभिगदा जीवाजीवा य पुण्णपावं च।<br/>आसवसंवरिणज्जरबंधो मोक्खो य सम्मत्तं ॥१३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When the nine tattvas — jiva, ajiva, punya, papa, asrava, samvar, nirjara, bandha, and moksha — are known through bhutartha (the ultimate standpoint), that knowing is samyaktva (right understanding).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Samyaktva · Right Understanding Through Bhutartha</span>
+</div>
+<p class="principle-def">Knowing the nine tattvas as dry categories is scholarship. Knowing them through bhutartha — understanding each in relation to the soul's own pure nature — is samyaktva, the beginning of the liberation path.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Samyaktva — right understanding — is the foundational realization that turns an ordinary soul toward liberation. But what makes understanding "right"? This gatha gives the precise answer: it is not merely knowing the nine tattvas as concepts. It is knowing them through bhutartha — the ultimate standpoint. To know them through bhutartha is to understand each in terms of the soul's own pure nature. Jiva is not merely "the category of living beings" — it is your own consciousness, self-luminous and eternally free. Moksha is not merely "a state to be attained" — it is the soul's own nature revealed. Bandha is not an external burden — it is what happens when consciousness mistakes itself for matter. When the nine tattvas are seen this way — as lived realities pointing back to the soul itself — that seeing is samyaktva.</p>
+<p class="simple-explanation"><b>The simple version:</b> Knowing the nine tattvas of Jain philosophy through the ultimate standpoint — understanding them as they truly are, in relation to the soul's own nature — is what constitutes genuine right understanding (samyaktva).</p>
+<div class="concept-tags"><span class="concept-tag">Samyaktva</span><span class="concept-tag">Nine Tattvas</span><span class="concept-tag">Bhutartha Knowledge</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-14">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जो पस्सदि अप्पाणं अबद्धपुदं अणण्णयं णियदं।<br/>अविसेसमसंजुत्तं तं सुद्धणयं वियाणीहि ॥१४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Know as shuddhana (the pure standpoint) that view which sees the self as: unbound-untouched by karma, not-other (one without a second), constant, undifferentiated, and unconnected.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Shuddhana's Five Attributes · The Soul as Seen Through Pure Vision</span>
+</div>
+<p class="principle-def">The pure standpoint sees the soul as: (1) unbound and untouched, (2) non-dual — one without a second, (3) constant — never fluctuating, (4) undifferentiated — uniformly one, (5) unconnected — not truly joined to anything external. These five together define shuddhana naya.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Kundkund offers a precise technical definition of shuddhana naya through five attributes of the soul it perceives. The soul seen through shuddhana is: unbound and untouched — karma may exist in proximity but does not actually penetrate the soul's essential nature; not-other — the soul has no second, no division; constant — it does not fluctuate, it is the steady background of all experience; undifferentiated — in its pure nature, the soul does not split into defiled and pure parts; unconnected — it is not truly joined to body, mind, karma, or any other substance at the ultimate level. Any view that attributes binding, otherness, fluctuation, differentiation, or connection to the soul's essential nature is vyavahara at best — and at worst, a form of delusion.</p>
+<p class="simple-explanation"><b>The simple version:</b> The pure standpoint is the one that sees the soul exactly as it is: unbound, singular, unchanging, undivided, and genuinely disconnected from all external matter. That seeing — of those five attributes — is shuddhana.</p>
+<div class="concept-tags"><span class="concept-tag">Shuddhana Naya</span><span class="concept-tag">Five Attributes</span><span class="concept-tag">Soul's Pure Nature</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-15">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जो पस्सदि अप्पाणं अबद्धपुदं अणण्णमिवसेसं।<br/>अपदेससंतमझं पस्सदि जिणसासणं सव्वं ॥१५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who sees the self as unbound-untouched, not-other, undifferentiated — permeating all pradesha (space-points), established within — that one sees the entire teaching of the Jinas in that single vision.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This gatha makes a breathtaking claim: all of Jina's teaching — the entire Jain dharma in its depth and breadth — is contained within the vision of the soul's pure nature. The twelve angas, the fourteen purvas, the entire Agama — they are maps. The territory they map is the soul's pure nature. One who has directly seen the territory has no need to guess at the maps. This is not an invitation to abandon scripture or scholarship. It is a statement about the purpose of all religious and philosophical learning: it exists to bring the seeker to direct self-knowledge. When that vision arrives, the seeker doesn't abandon the teaching — they fulfill it. They become a living embodiment of what the Jinas were pointing at with every word.</p>
+<p class="simple-explanation"><b>The simple version:</b> Whoever directly sees the soul as unbound, singular, and undivided has, in that one vision, understood the entire teaching of the Jinas. All the scriptures are just different ways of pointing here.</p>
+<div class="concept-tags"><span class="concept-tag">Jina's Teaching</span><span class="concept-tag">Direct Vision</span><span class="concept-tag">Scripture's Purpose</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 6 — Three Jewels and the King Analogy (Gathas 16–18)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-16">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">16</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">दंसणणाणचिरित्ताणि सेवदव्वाणि साहुणा णिच्चं।<br/>ताणि पुण जाण तिण्णि वि अप्पाणं चेव णिच्छयदो ॥१६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Right perception (darshan), right knowledge (jnana), and right conduct (charitra) should always be practiced by the seeker. But know from nishchaya that all three of these ARE the soul itself.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Three Jewels as Soul · The Ratnatraya Are the Self</span>
+</div>
+<p class="principle-def">Darshan, jnana, and charitra are not external achievements to be acquired — from the nishchaya standpoint, they ARE the soul's own nature. Practice is not construction; it is uncovering what was always already there.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The three jewels of Jain practice are not external behaviors layered onto the soul. From the ultimate standpoint, they are the soul's own nature. The soul's intrinsic being is perception (darshan is the soul's pure seeing); the soul's intrinsic activity is knowing (jnana is what the soul actually is); the soul's intrinsic state is already-established correctness (charitra is the natural mode of the soul not distorted by delusion). This creates a paradox that is actually the heart of the teaching: you practice the three jewels in order to realize that the soul has always been the three jewels. The practice is not adding something new. It is removing the obscurations that prevent the soul's own darshan, jnana, and charitra from shining as they naturally are.</p>
+<p class="simple-explanation"><b>The simple version:</b> Right perception, knowledge, and conduct should be practiced always — but know from the ultimate standpoint that these three are not external achievements. They are the soul's own nature. Practice is the process of uncovering what was always already there.</p>
+<div class="concept-tags"><span class="concept-tag">Ratnatraya</span><span class="concept-tag">Three Jewels as Soul</span><span class="concept-tag">Nishchaya Standpoint</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-17">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">17</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जह णाम को वि पुरिसो रायाणं जाणिऊण सद्दहदि।<br/>तो तं अणुचरदि पुणो अत्थत्थीओ पयत्तेण ॥१७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as someone seeking wealth first learns about a king, then believes in him, and then diligently serves him in order to obtain what they seek —</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gathas 17 and 18 form a paired analogy — one of the most memorable in the entire Poorvarang. A person who wants wealth but knows nothing about the king cannot serve him. Knowledge comes first. But knowledge without faith is sterile — the person must also believe that the king can actually deliver what is promised. Faith without action is also insufficient — they must then actually serve, persistently and diligently. All three are necessary, in sequence, and mutually supporting. This analogy maps exactly onto the Jain moksha-path: first, know the soul (jnana); then, have faith in the soul's nature as described (shraddha/darshan); then, align one's conduct with that knowing and believing (charitra). Gatha 18 completes the application.</p>
+<p class="simple-explanation"><b>The simple version:</b> This is the first half of an analogy: a person seeking wealth first learns about the king, believes in him, then serves him diligently. This will be applied to the moksha-seeker in the next gatha.</p>
+<div class="concept-tags"><span class="concept-tag">King Analogy</span><span class="concept-tag">Know-Believe-Follow</span><span class="concept-tag">Three Jewels Path</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-18">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">18</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवं हि जीवराया णादव्वो तह य सद्दहेदव्वो।<br/>अणुचरिदव्वो य पुणो सो चेव दु मोक्खकामेण ॥१८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">In the same way, the soul-king must be known, must be believed in, and must be followed — by one who desires liberation.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The analogy from Gatha 17 is now completed. The soul itself is the king. Not any external authority — no guru, no tirthankara, no scripture — but the soul in its own sovereign, luminous nature. "Knowing" the soul-king means genuine self-inquiry — not simply accepting the doctrine "I am a jiva" but actually investigating the nature of consciousness. "Believing" means that once glimpsed or rationally understood, the seeker holds that vision with faith. "Following" means aligning one's entire conduct, inner and outer, with the soul's own nature. The phrase "jiva-raja" — soul-king — is profound: a king is sovereign, self-governing, not subject to external control. The soul is described as a king because in its pure nature it governs itself by its own nature, not by the dictates of karma, sense, or social conditioning. Liberation is the restoration of this sovereignty.</p>
+<p class="simple-explanation"><b>The simple version:</b> For the one who seeks liberation: know the soul, believe in the soul's pure nature, and align your life with that knowing. This — knowing, believing, following — is the complete path.</p>
+<div class="concept-tags"><span class="concept-tag">Soul-King</span><span class="concept-tag">Jiva-Raja</span><span class="concept-tag">Liberation Path</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 7 — The Ajnani's False Identification (Gathas 19–25)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-19">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">19</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कम्मे णोकम्मि ह य अहमिदि अहकं च कम्म णोकम्म।<br/>जा एसा खलु बुद्धी अप्पिडिबुद्धो हवदि ताव ॥१९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As long as someone holds the understanding "I am karma, I am nokamma" and "karma and nokamma are mine" — for as long as that understanding persists, that soul is apratibhuddha (unawakened).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Apratibhuddha · The Definition of the Unawakened Soul</span>
+</div>
+<p class="principle-def">Spiritual ignorance is not vague confusion — it is this specific error: identifying the self with karma and nokamma (body, mind, senses). As long as this identification holds, the soul remains apratibhuddha — unawakened.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Here Kundkund defines, with surgical precision, what spiritual ignorance actually is: the identification of the self with karma and nokamma. Karma (the eight types of karmic matter that bind the soul) and nokamma (the body, sense organs, and mind — the physical apparatus associated with the soul) are both pudgala — matter. They are not the soul. But when consciousness forgets its own nature, it latches onto this associated matter and says: "This is me. This is mine." The word apratibhuddha — unawakened — means not yet turned toward the soul's own light. The unawakened soul is not evil; it is simply mistaken about what it is. The mistake is so old, so habitual, so constantly reinforced by sensory experience that it feels like identity itself.</p>
+<p class="simple-explanation"><b>The simple version:</b> As long as someone identifies with their karma and body — thinking "I am these things, these things are mine" — that person remains spiritually unawakened. The identification is the ignorance, not any external condition.</p>
+<div class="concept-tags"><span class="concept-tag">Apratibhuddha</span><span class="concept-tag">False Identification</span><span class="concept-tag">Karma & Nokamma</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-20">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">20</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अहमेदं एदमहं अदमेदस्स म्हि अत्थि मम एदं।<br/>अण्णं जं परदव्वं सचित्ताचित्तमिस्सं वा ॥२०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"I am this; this is me; therefore I belong to this; this belongs to me" — said about any other substance (paradravya), whether sentient, insentient, or mixed — this is the mark of the ajnani.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gatha 20 maps the exact geography of the ajnani's inner world. The fourfold identification — "I am this / this is me / I belong to this / this is mine" — is the complete structure of all attachment. Notice that the identification runs in all directions: outward (this is mine), inward (I am this), possessive (I belong to this), and bilateral (this belongs to me). The confusion is complete and circular. And it applies to all types of other substances — not merely the obviously physical (body, possessions) but also the relational (other living beings) and the mixed (relationships, social identities). Even identification with loved ones — from the ultimate standpoint — is a form of ajnana when the soul believes its identity is defined by these relationships. Not because relationships are bad, but because the soul's nature transcends all of them.</p>
+<p class="simple-explanation"><b>The simple version:</b> The mark of the unawakened soul is identifying with anything other than itself: "I am this body, these relationships, these possessions" — and the reverse, "these things are mine." This fourfold identification is the fundamental structure of spiritual ignorance.</p>
+<div class="concept-tags"><span class="concept-tag">Ajnani</span><span class="concept-tag">Fourfold Identification</span><span class="concept-tag">Paradravya</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-21">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">21</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आसि मम पुव्वमेदं एदस्स अहं पि आसि पुव्वं हि।<br/>होहिदि पुणो ममेदं एदस्स अहं पि होस्सामि ॥२१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"This was mine before; I was this before. This will be mine again; I will be this again." — This false identification extended across time is the ajnani's delusion.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gatha 21 extends the analysis of Gatha 20 into the time dimension. The ajnani's identification with non-self is not merely a present-moment confusion — it extends backward into the past and forward into the future. "We were together before; we will be together again." "I have always been like this; this is who I fundamentally am." This temporal projection of identity feels like depth, loyalty, or self-knowledge — but from nishchaya, it is an extension of the basic delusion. The "self" that was this way in childhood, that has been consistent across years, that will continue into the future — all of this is a constructed narrative, not the soul's actual nature. The soul's actual nature is timeless awareness, not a life-story.</p>
+<p class="simple-explanation"><b>The simple version:</b> The ajnani's false identification extends across time — "this was mine before, will be mine again." But the soul's actual nature is timeless awareness, not a biographical story about who you have been and will be.</p>
+<div class="concept-tags"><span class="concept-tag">Temporal Identity</span><span class="concept-tag">Past-Future Delusion</span><span class="concept-tag">Timeless Awareness</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-22">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">22</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एयं तु असब्भूदं आदियप्पं करेदि समूढो।<br/>भूदत्थं जाणंतो ण करेदि दु तं असमूढो ॥२२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The deluded (sammudha) makes this false self-attribution (asadbhuta atma-arpana) — attributing non-self to the self. But the undeluded (asammudha) who knows bhutartha does not do this.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This gatha draws the clean line: the entire pattern described in Gathas 20–21 — the fourfold identification, the temporal extension of false identity — is asadbhuta atma-arpana: a false ascription of selfhood. The delusion is not in the objects themselves (body, relationships, karma are real in their own domain) but in the soul's mistaken claim upon them as "self." The contrast is equally precise: the one who knows bhutartha simply does not do this. Not "tries hard not to" or "struggles with" — simply does not. Genuine self-knowledge, once stable, makes the false identification impossible to maintain. You cannot sincerely claim "I am this body" after having genuinely seen that you are pure consciousness. The knowing itself is the remedy.</p>
+<p class="simple-explanation"><b>The simple version:</b> The deluded soul falsely claims non-self as self. The one who knows the ultimate truth simply does not make this error — not through effort, but because genuine knowing makes the false identification impossible.</p>
+<div class="concept-tags"><span class="concept-tag">Sammudha vs Asammudha</span><span class="concept-tag">Asadbhuta Atma-Arpana</span><span class="concept-tag">Knowing as Remedy</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-23">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">23</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अण्णाणमोहिदमदी मज्झिमणं भणदि पोग्गलं दव्वं।<br/>बद्धमबद्धं च तहा जीवो बहुभावसंजुत्तो ॥२३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one whose understanding is deluded by ignorance says: "This pudgala substance is mine." And similarly, "the jiva is bound and unbound, connected with many states."</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Kundkund now specifies what the ajnani actually says and believes. Two claims emerge from ignorance-deluded thinking: (1) pudgala is "mine" — the body, senses, physical objects are identified as belonging to the soul; (2) the jiva is described as "bound and unbound, connected with many states." The second claim is subtler. An ajnani in the religious context might know perfectly well the theory of karma and liberation — might even teach it — but still attribute to the soul the quality of being bound-and-unbound. From nishchaya, this is still a form of ignorance: the soul's pure nature is neither bound nor unbound. Bondage and liberation are conventional descriptions, but from the ultimate view, the soul's intrinsic nature has never actually changed. Gathas 24 and 25 will refute both claims.</p>
+<p class="simple-explanation"><b>The simple version:</b> The ignorance-deluded person claims: "This physical matter is mine" and "the soul is in various states of bondage and liberation." Both claims mistake the conventional description of the soul for the soul's actual nature.</p>
+<div class="concept-tags"><span class="concept-tag">Ajnani's Claims</span><span class="concept-tag">Pudgala Identification</span><span class="concept-tag">Conventional vs Ultimate</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-24">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">24</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सव्वण्हुणाणिदिट्ठो जीवो उवओगलक्खणो णिच्चं।<br/>कह सो पोग्गलदव्वीभूदो जं भणसि मज्झिमणं ॥२४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The soul, as seen in the knowledge of the omniscient, is eternally characterized by upayoga (conscious awareness). How can that soul have become pudgala — as you claim when you say "this is mine"?</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The refutation begins with an appeal to the highest epistemic authority: the direct knowledge of the omniscient. The Tirthankaras saw the soul's nature with perfect clarity. What did they see? The soul as upayoga-lakshana — characterized by conscious awareness, eternally. Not sometimes conscious, but eternally characterized by upayoga. Given this, how can the soul "become" pudgala — even partly? Pudgala is matter: inert, devoid of consciousness, characterized by touch, taste, smell, color. The soul is consciousness itself. These two are not merely different in degree; they are different in kind. For the soul to become pudgala would be a categorical impossibility — like heat becoming cold or space becoming solid. The question "how can that be?" is rhetorical, exposing the incoherence of the ajnani's claim.</p>
+<p class="simple-explanation"><b>The simple version:</b> The omniscient saw that the soul is eternally consciousness — that is its defining characteristic. If that is so, how can the soul ever become matter? The claim "this material thing is mine" collapses on examination.</p>
+<div class="concept-tags"><span class="concept-tag">Upayoga-Lakshana</span><span class="concept-tag">Omniscient's Testimony</span><span class="concept-tag">Soul vs Matter</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-25">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">25</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जदि सो पोग्गलदव्वीभूदो जीवत्तमागदं इदरं।<br/>तो सक्को वत्तुं जे मज्झिमणं पोग्गलं दव्वं ॥२५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Only if the soul became pudgala AND pudgala became the soul would it be possible to say "this pudgala is mine." Since neither happens, the claim is impossible.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gatha 25 completes the logical refutation. For "this pudgala is mine" to be coherent, you would need: (a) the soul to have actually become pudgala AND (b) pudgala to have actually become a soul. Even then, the possessive claim "mine" would be strange, since what is "mine" would now be what "I" am. The point is that possession requires a distinction between possessor and possessed. Kundkund shows that even the ajnani's grammar contains the seed of self-knowledge: the word "mine" implies a "me" who is different from what is claimed. The soul knows, at some level, that it is not the pudgala. The statement self-refutes.</p>
+<p class="simple-explanation"><b>The simple version:</b> For "this pudgala is mine" to make sense, the soul would have to literally become matter and matter would have to become soul — which is impossible. The claim defeats itself.</p>
+<div class="concept-tags"><span class="concept-tag">Logical Refutation</span><span class="concept-tag">Self-Refuting Claim</span><span class="concept-tag">Mine Implies Distinction</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 8 — Soul, Body, and Right Worship (Gathas 26–30)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-26">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">26</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जदि जीवो ण सरीरं तित्थयरायरियसंथुदी चेव।<br/>सव्वा वि हवदि मिच्छा तेण दु आदा हवदि देहो ॥२६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">(The ajnani argues:) If the soul is not the body, then all praise offered to Tirthankaras and acharyas becomes false. Therefore the soul must be the body.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Kundkund introduces an objection — the voice of the ajnani making a counter-argument in classical dialectical (tarka) format: state the opposing position fully and fairly before refuting it. The objection is clever from a conventional standpoint: if the soul is truly different from the body, then when we bow to a Tirthankara or praise an acharya, we are bowing to a body — which is mere pudgala. Wouldn't all praise then be meaningless — praising an invisible soul while standing before a physical form? This is the confusion that arises from not understanding the distinction between nishchaya and vyavahara. Gathas 27–30 will work through this distinction carefully, showing how praise of the Tirthankara is coherent from both standpoints.</p>
+<p class="simple-explanation"><b>The simple version:</b> The ajnani's objection: if soul and body are different, then bowing to the Tirthankara (a physical form) can't actually be bowing to the soul's qualities — so either all religious practice is meaningless, or the soul must really be the body.</p>
+<div class="concept-tags"><span class="concept-tag">Ajnani's Objection</span><span class="concept-tag">Religious Practice</span><span class="concept-tag">Dialectical Argument</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-27">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">27</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ववहारणओ भासदि जीवो देहो य हवदि खलु एक्को।<br/>ण दु णिच्छयस्स जीवो देहो य कदा वि एक्कट्ठो ॥२७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">From the vyavahara standpoint, it is said that jiva and body are indeed one. But from nishchaya, the jiva and the body are never the same substance — not at any time.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the pivotal verse resolving the objection raised in Gatha 26. Kundkund doesn't dismiss the conventional identification of soul and body — he locates it accurately. From vyavahara naya, jiva and body function together, appear together, and in ordinary discourse are referred to as one. "He is a great saint" means the person — the jiva-body unity — is great. This is not wrong at the conventional level; it is how language works. But from nishchaya, jiva and body are never the same substance. They are two entirely different categories of reality: jiva is consciousness, pudgala is matter. They share the same space but they do not merge in substance — like two different types of fluid occupying the same container, intermingling but remaining distinct in their essential nature.</p>
+<p class="simple-explanation"><b>The simple version:</b> Conventionally, soul and body are spoken of as one — that's fine for ordinary purposes. But from the ultimate standpoint, they have never been the same substance. Not once. Not ever.</p>
+<div class="concept-tags"><span class="concept-tag">Jiva vs Deha</span><span class="concept-tag">Never the Same</span><span class="concept-tag">Vyavahara Justification</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-28">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">28</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">इणमण्णं जीवादो देहं पोग्गलमयं थुणित्तु मुणी।<br/>मण्णदि हु संथुदो वंदिदो मए केवली भयवं ॥२८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The sage praises this body of pudgala — knowing it to be distinct from the jiva — and thereby considers that he has praised and bowed to Kevali Bhagavan.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Having established in Gatha 27 that from vyavahara, jiva and body are conventionally treated as one, Kundkund now shows how this convention serves a legitimate purpose in religious practice. When a sage bows to and praises the Kevali — knowing all along that the body is pudgala and that the soul and body are ultimately distinct — and yet considers this act to be praise of Kevali Bhagavan, this is coherent vyavahara, not confusion. The key phrase is "knowing it to be distinct from the jiva." The sage is not confused. In the context of devotion and worship, the Kevali's body (pudgala form) serves as the focus for the bhakti that is actually directed toward the soul-qualities of omniscience, infinite bliss, and freedom. The body is the visible point of contact; the soul-qualities are what the praise actually honors.</p>
+<p class="simple-explanation"><b>The simple version:</b> A sage, knowing that the body is just pudgala and is distinct from the jiva, still praises the physical form of the Kevali — and considers this to be genuine praise of Kevali Bhagavan. This is the right use of conventional action.</p>
+<div class="concept-tags"><span class="concept-tag">Right Worship</span><span class="concept-tag">Kevali</span><span class="concept-tag">Vyavahara Devotion</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-29">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">29</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तं णिच्छये ण जुज्जदि ण सरीरगुणा हि होंति केवलिणो।<br/>केवलिगुणे थुणदि जो सो तच्चं केवलिं थुणदि ॥२९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">From nishchaya, this (body-praise) is not fitting — for body-qualities are not the Kevali's qualities. But one who praises the qualities of the Kevali (the soul-qualities) truly and essentially praises the Kevali.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">While Gatha 28 affirmed the validity of vyavahara praise, this gatha states plainly from nishchaya: body-praise does not apply to the Kevali. The Kevali's actual nature — omniscience (keval-jnana), infinite perception (keval-darshan), infinite power, infinite bliss — is not located in the body. These are soul-qualities, not body-qualities. Therefore: whoever praises the Kevali's soul-qualities truly praises the Kevali. This praise reaches its actual target. Even in conventional religious acts, the actual praise is always trying to reach the soul-qualities. When the understanding is clear, the praise arrives where it was always meant to go. This gatha simultaneously answers the ajnani's objection (Gatha 26) and completes the teaching on right worship: know what you are praising.</p>
+<p class="simple-explanation"><b>The simple version:</b> From the ultimate standpoint, body-qualities are not Kevali's qualities. Genuine praise of the Kevali means praising the Kevali's actual qualities — omniscience, purity, freedom. That praise truly reaches the Kevali.</p>
+<div class="concept-tags"><span class="concept-tag">Nishchaya Worship</span><span class="concept-tag">Kevali's Soul-Qualities</span><span class="concept-tag">True Praise</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-30">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">30</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णयरम्मि वण्णिदे जह ण वि रण्णो वण्णणा कदा होदि।<br/>देहगुणे थुव्वंते ण केवलिगुणा थुदा होंति ॥३०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as praising the city does not thereby praise the king — in the same way, praising the body's qualities does not mean the Kevali's qualities have been praised.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">A precise and memorable analogy closes this section on worship. A king lives in a city. If you praise the city's architecture, its parks, its boulevards — you have not thereby praised the king. The king is not the city, though the king dwells there. Similarly, the Kevali's soul dwells in the body — but the body's qualities (its color, form, height, elegance) are not the Kevali's qualities. Praising the body does not reach the Kevali. Kundkund's complete answer to the ajnani's objection: praise is not meaningless when directed correctly. Praise of the Kevali must be praise of the Kevali's actual nature — the omniscience, the infinite equanimity, the pure consciousness. That praise is the most meaningful act possible.</p>
+<p class="simple-explanation"><b>The simple version:</b> Praising a city doesn't praise the king. Praising the Kevali's body doesn't praise the Kevali. Real praise of the Kevali means praising the Kevali's actual nature — pure consciousness and omniscience.</p>
+<div class="concept-tags"><span class="concept-tag">City-King Analogy</span><span class="concept-tag">Directed Praise</span><span class="concept-tag">What Worship Reaches</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 9 — Three Stages of Conquest (Gathas 31–33)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-31">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">31</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जो इंदिये जिणित्ता णाणसहावाधियं मुणिद आदं।<br/>तं खलु जिदिंदियं ते भणंति जे णिच्छिदा साहू ॥३१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who conquers the senses and knows the self as superior in the nature of knowledge — those sages who are established in nishchaya call that one "jitindriya" (conqueror of the senses).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Here begins a remarkable series of gathas (31–33) that redefine three classical spiritual titles through the lens of nishchaya. From the conventional standpoint, "jitindriya" means someone who has disciplined their sense organs — who does not eat excessively, whose eyes do not wander. This is genuine and important. But the nishchaya definition adds depth: the true conqueror of the senses is one who knows the self as jnanasvabhavadhika — as that which is fundamentally characterized by, and superior in, the quality of pure knowing. This soul does not merely suppress the senses; it has found something more real than what the senses offer. Having tasted the soul's own luminous nature, the pull of sensory distraction simply loses its grip.</p>
+<p class="simple-explanation"><b>The simple version:</b> A "conqueror of the senses," from the ultimate standpoint, is not merely one who disciplines their behavior. It is one who has known the self as pure consciousness — and in that knowing, found something that makes sense-gratification pale in comparison.</p>
+<div class="concept-tags"><span class="concept-tag">Jitindriya</span><span class="concept-tag">Sense Conquest</span><span class="concept-tag">Knowledge Nature</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-32">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">32</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जो मोहं तु जिणित्ता णाणसहावाधियं मुणिद आदं।<br/>तं जिदमोहं साहुं परमद्वियाणया बेंति ॥३२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One who conquers moha (delusion) and knows the self as superior in the nature of knowledge — those who know the ultimate truth call that sage "jitamoha" (conqueror of delusion).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Moha — delusion — is the root of all spiritual bondage in Jain philosophy. The mohaniya karma is considered the most destructive because it is delusion that causes all other mistakes: wrong identification, attachment, aversion, and the entire cycle of karma-accumulation. But what does conquering moha actually mean, from nishchaya? Kundkund's answer is the same: it is inseparable from knowing the self through its knowledge-nature. Moha is conquered not merely by willpower or ascetic practice but by seeing clearly. When the soul sees itself as it is — pure consciousness, distinct from karma, eternally free in its nature — the ground of moha is removed. Delusion cannot survive genuine self-knowledge any more than darkness can survive the lighting of a lamp. A jitamoha has subdued moha through self-nature contemplation — not necessarily destroyed it entirely (that is kshinamoha, the next stage) — but moha no longer governs their experience.</p>
+<p class="simple-explanation"><b>The simple version:</b> The "conqueror of delusion" from the ultimate standpoint is one who has known the self's knowledge-nature — and in that knowing, found that delusion no longer has the same power to mislead.</p>
+<div class="concept-tags"><span class="concept-tag">Jitamoha</span><span class="concept-tag">Moha Conquest</span><span class="concept-tag">Self-Nature Contemplation</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-33">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">33</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जिदमोहस्स दु जइया खीणो मोहो हवेज्ज साहुस्स।<br/>तइया हु खीणमोहो भण्णिद सो णिच्छयविदूहिं ॥३३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When the moha of the jitamoha sage is completely extinguished (kshina) — at that point, those who know nishchaya call that sage "kshinamoha" (one whose delusion has been utterly destroyed).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The progression is now complete: from jitindriya (who has known the self beyond the senses) to jitamoha (who has conquered moha through self-knowledge) to kshinamoha (in whom moha has been utterly destroyed). Kshinamoha represents a qualitative threshold: moha has not merely been suppressed or reduced — it has been ksheen, completely exhausted and eliminated at its root. This corresponds to the 12th gunasthana in Jain philosophy — the state in which mohaniya karma has been fully destroyed, and the soul is now in an irreversible trajectory toward keval-jnana (omniscience). This destruction of moha comes when the jitamoha sage's own self-nature contemplation becomes so profound and continuous that the karmic substrate of moha has no opportunity to regenerate. The soul then becomes kshinamoha — an irreversible attainment.</p>
+<p class="simple-explanation"><b>The simple version:</b> When the sage who conquered moha has had it completely destroyed — not subdued but eliminated — that sage is called "kshinamoha" by those who know the ultimate standpoint. This is the irreversible threshold before omniscience.</p>
+<div class="concept-tags"><span class="concept-tag">Kshinamoha</span><span class="concept-tag">12th Gunasthana</span><span class="concept-tag">Irreversible Threshold</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 10 — Knowledge as Renunciation (Gathas 34–35)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-34">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">34</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सव्वे भावे जम्हा पच्चखाई परे ति णादूणं।<br/>तम्हा पच्चखाणं णाणं णियमा मुणेदव्वं ॥३४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Because the knowing one renounces all states (bhavas) by knowing them as "other" (para) — therefore, necessarily, knowledge itself is to be understood as pratyakhyana (renunciation).</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This gatha introduces one of the most radical philosophical moves in the Poorvarang: the equation of jnana (knowledge) with pratyakhyana (renunciation). In Jain practice, pratyakhyana is typically understood as the formal vow of renunciation — giving up certain foods, activities, or possessions. But Kundkund cuts to the root: real renunciation is the knowing itself. The knowing one, by the very act of knowing all states as "other" — as para, as not-self — has already renounced them. Not through a formal declaration, not through external restraint, but through the clarity of seeing. When you know clearly that the anger arising in you is a state of pudgala-origin (mohaniya karma's manifestation), not the soul's nature — you have not merely suppressed the anger. You have genuinely not identified with it. That non-identification is pratyakhyana. Knowledge performs the renunciation by clearly perceiving what is other.</p>
+<p class="simple-explanation"><b>The simple version:</b> Real renunciation is not primarily about giving up objects. It is about knowledge — seeing all states and objects as genuinely "other" than the self. That seeing is itself the renunciation. Knowledge and renunciation are the same act.</p>
+<div class="concept-tags"><span class="concept-tag">Jnana as Pratyakhyana</span><span class="concept-tag">Knowledge as Renunciation</span><span class="concept-tag">Non-Identification</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-35">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">35</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जह णाम को वि पुरिसो परदव्विमिणं ति जाणिदुं चयिद।<br/>तह सव्वे परभावे णाऊण विमुंचदे णाणी ॥३५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a person, knowing "this belongs to another," lets it go — in the same way the jnani (wise one), knowing all other-states as "other," releases them.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gatha 35 gives a concrete analogy to illuminate Gatha 34's abstract principle. If someone picks up an object and then discovers it belongs to someone else, they simply put it down. No struggle, no grief, no elaborate ceremony of letting go. The knowledge that "this is not mine" is sufficient to release the claim. The renunciation is already accomplished in the knowing. The commentary elaborates: it is like someone who, confused, has put on another person's garment and is sleeping thinking it is their own. When awakened and told firmly "this garment is someone else's" — they examine it, confirm it, and immediately give it back. No one who clearly knows "this is another's" continues to cling to it. The jnani's relationship to all paranature states — moha, karma, body, emotions, mental formations — is identical: seeing them as genuinely other, the jnani does not cling. The release flows from clarity.</p>
+<p class="simple-explanation"><b>The simple version:</b> Just as you'd immediately release an object you discovered belongs to someone else, the jnani — knowing all non-self states as genuinely "other" — naturally releases them. Knowing clearly is releasing completely.</p>
+<div class="concept-tags"><span class="concept-tag">Other's Garment</span><span class="concept-tag">Natural Release</span><span class="concept-tag">Clarity as Liberation</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 11 — The Soul's Own Declaration (Gathas 36–38)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-36">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">36</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णत्थि मम को वि मोहो बुज्झिद उवओग एव अहमेक्को।<br/>तं मोहिणिम्मत्तं समयस्स वियाणया बेंति ॥३६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"No moha whatsoever is mine; I understand: I am one — upayoga alone." Those who know the Samaya (the soul) call this understanding "moha-nimmatta" — being free of attachment-claim toward moha.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">Moha-Nimmatta · Freedom from Identification with Moha</span>
+</div>
+<p class="principle-def">The soul's first-person recognition: "I am one — upayoga alone. No moha belongs to me." This is moha-nimmatta — not suppression of moha, but genuine non-identification. Moha is seen as other, and therefore the soul has no possessive claim on it.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This gatha articulates the soul's actual first-person experience of self-knowledge in the most direct language of the Poorvarang so far: "I am one — upayoga alone." Not "I have upayoga" or "upayoga is my quality" — but "I AM upayoga." This is the complete identification of the self with pure conscious awareness, stripped of all other attributions. Upayoga is the Jain technical term for consciousness in operation — the soul's capacity to know and perceive. It is what the soul fundamentally IS. The result is "moha-nimmatta" — freedom of possessive identification toward moha. The soul does not suppress moha from the outside; it simply does not include moha in its "I." Moha is seen as other, and therefore the soul has no possessive claim on it — even while moha-karma may technically still be present in the process of exhaustion.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul that knows itself says: "No moha is mine — I am one, pure awareness alone." Those who truly understand the soul's nature call this "freedom from identification with moha." Not suppression — non-identification.</p>
+<div class="concept-tags"><span class="concept-tag">Moha-Nimmatta</span><span class="concept-tag">Upayoga Eva Aham</span><span class="concept-tag">Non-Identification</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-37">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">37</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">णत्थि मम धम्मआदी बुज्झिद उवओग एव अहमेक्को।<br/>तं धम्मणिम्मत्तं समयस्स वियाणया बेंति ॥३७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"No dharma-substance etc. is mine; I understand: I am one — upayoga alone." Those who know the Samaya call this "dharma-nimmatta" — freedom from possessive identification with dharma-dravya and all other substances.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Gatha 37 extends the principle of Gatha 36 from moha to the entire universe of "other substances" — dharma, adharma, akasha, kala, pudgala, and other jivas. The Jain ontology recognizes six types of dravya (substances). Only one of them is the self: the jiva. All others are genuinely other. The soul that truly knows itself does not make a possessive claim on any of these. Not even the good ones: not dharma (as a cosmic substance), not space (akasha), not time (kala). This is total non-possessiveness — not as an ascetic achievement but as the natural expression of self-knowledge. When you know you are pure consciousness, nothing in the entire universe of non-consciousness is "yours." The commentary notes that "dharma" here refers to the dravya dharma (dharma as a cosmic substance, one of the six dravyas) — an ontological claim, not an ethical one. All six dravyas — the entire universe — are other than the jiva. And the jiva that knows this is free.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soul that knows itself says: "Nothing outside my own nature — not even the great substances of the universe — is mine. I am upayoga alone." This recognition of universal non-possessiveness flows from knowing what you truly are.</p>
+<div class="concept-tags"><span class="concept-tag">Dharma-Nimmatta</span><span class="concept-tag">Six Dravyas</span><span class="concept-tag">Universal Non-Possessiveness</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-38">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">38</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अहमेक्को खलु सुद्धो दंसणणाणमइओ सदारूवी।<br/>ण वि अत्थि मज्झ किंचि वि अण्णं परमाणुमेत्तं पि ॥३८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I alone am truly pure, consisting of darshana and jnana, ever-formless. There is nothing at all that is other to me — not even a single paramanu (atom).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Doctrine</span>
+<span class="principle-name">The Soul's Declaration · Aham Ekah Khalu Shuddha</span>
+</div>
+<p class="principle-def">The Poorvarang's closing voice: "I alone am pure, made of knowing and perceiving, eternally formless. Nothing whatsoever — not even an atom — is other to me or mine." This is the soul speaking from complete self-knowledge. Every gatha before this was preparation for this recognition.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The Poorvarang closes — after 38 gathas of philosophical argument, analogy, refutation, and progressive deepening — with this verse of pure first-person self-declaration. It is not a doctrine. It is a voice. The voice of the soul that has genuinely arrived at self-knowledge, speaking from within its own recognition. "I alone" — ekah: singular, undivided, without a second. "Truly pure" — shuddhah: not relatively pure or becoming pure, but intrinsically pure. "Consisting of darshana and jnana" — the soul is nothing other than perceiving and knowing; these are not attributes it has but what it is. "Ever-formless" — sada arupi: not formless only in liberation but always, eternally; the soul has never had physical form as its nature. "Not even a paramanu" — not the smallest atom belongs to it or constitutes it. Every gatha — from the definition of samaya in Gatha 1 to the equation of knowledge with renunciation — has been clearing the ground for this final recognition. The Poorvarang ends not with a logical conclusion but with a living realization: <em>I am this.</em></p>
+<p class="simple-explanation"><b>The simple version:</b> The Poorvarang's closing voice: "I alone am pure, made of knowing and perceiving, eternally formless. Nothing whatsoever — not even an atom — is other to me or mine." This is the soul speaking from complete self-knowledge. The entire Poorvarang was preparation for this recognition.</p>
+<div class="concept-tags"><span class="concept-tag">Soul's Declaration</span><span class="concept-tag">Aham Ekah Shuddha</span><span class="concept-tag">Pure Consciousness</span><span class="concept-tag">Closing Recognition</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Floating Nav -->
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="samaysaar-index.html"><span class="text-lg">←</span> Samaysaar Index</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="samaysaar-ch2.html">Adhikar 1 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
