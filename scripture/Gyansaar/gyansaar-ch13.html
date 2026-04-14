@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 13: Maun (Silence) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 13</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Silence<span class="block text-primary font-normal text-xl md:text-2xl mt-2">मौन</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Maun is not the closing of the mouth. It is the turning of manas, vachan, and kāyā entirely toward the ātmā — until every action is luminous by nature.</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Maun — silence — is the thirteenth chapter and the most interior of all. Yashovijayji begins with the muni's definition: the one who knows jagat-tattva (Shloka 1). He maps the ratnatraya as abheda-parijñāti (Shloka 2), defines chāritra as ātma-anugaman (Shloka 3), and warns against inauthentic jnāna-śraddhā that produces no shuddhi (Shlokas 4–5). He closes with the three mauns — mānasik, vāchik, kāyik — and the supreme image: the jyotiṣmayī dīpa, the lamp whose very nature is light (Shloka 8).</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">ज्योतिर्मयीव दीपस्य क्रिया सर्वोऽपि चिन्मयी ।<br/>यत्सं-मन्यस्वभावाऽस्य तस्य मौनमनुत्तरम् ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"As the lamp's every action is luminous by nature — so the muni whose svarūp is chinmaya has maun that is anuttara, unsurpassed." — Gyansaar 13.8</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Maun</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Maun</span> — Silence — is the thirteenth chapter and a precise architecture of interior stillness. Yashovijayji does not define maun as non-speaking. He defines it through the evambhūt naya: the muni is the one who actively knows jagat-tattva, and that knowing — samyaktva — is itself maun. True maun is not the absence of sound; it is the presence of ātmik orientation in all three yogas.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter moves through eight shlokas: jagat-tattva-jnāna = samyaktva = maun (1), ātmā knowing ātmā by ātmā — ratnatraya's abheda-parijñāti (2), chāritra as ātma-anugaman, jnāna's phala is kriyā (3), atātvikī pravṛtti produces no ātmik phala (4), that which yields no doṣa-nivṛtti is neither jnāna nor darśan (5), the ātmatrupt muni free from jnāna-bhavonmāda (6), three dimensions of maun: mānasik, vāchik, kāyik (7), the jyotiṣmayī lamp — the muni whose svarūp is chinmaya has anuttara maun (8).</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 13 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — Jagat-Tattva-Jnāna &amp; The Muni's True Svabhāv (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मन्यते यो जगत्तत्त्वं स मुनिः परिकीर्तित ।<br/>सम्यक्त्वमेव तन्मौनं सम्यक्त्वमेव वा ॥१॥९७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one who knows jagat-tattva — the true nature of reality — is called a muni. That very samyaktva is maun. Samyaktva IS maun.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Jagat-Tattva-Jnāna · The Equation That Defines Munihood</span>
+</div>
+<p class="principle-def">The muni is not defined by robes, rituals, or silence of the mouth. The evambhūt naya identifies a being by its characteristic action — and the muni's characteristic action is knowing jagat-tattva. The equation flows from this: jagat-tattva-jnāna = samyaktva; samyaktva = śramaṇatva; therefore jagat-tattva-jnāna = śramaṇatva. And that samyaktva — that right knowledge of the nature of reality — is itself maun. Not the absence of words, but the presence of correct vision: this is the first and foundational definition of maun.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The approach is through the evambhūt naya — the standpoint that identifies a vastu by its characteristic svarūp in active expression. Among the muni's anant svarūps, one that evambhūt naya highlights is this: "the one who knows jagat-tattva." This is not a credential or title earned once and held permanently — it is the ongoing, living act of knowing. The muni who is continuously engaged in that knowing is the muni in the fullest sense. And from that knowing, samyaktva arises — and samyaktva is inseparable from maun. Maun here is not the stopping of speech; it is the emergence of the correct relationship with reality. When you truly know jagat-tattva — what the world actually is — then the grasping, striving, and noise that constitute ordinary living naturally subside. Not by force, but by recognition.</p>
+<p class="simple-explanation"><b>The simple version:</b> If you truly knew the nature of reality — what is permanent and what is not, what belongs to the ātmā and what is merely passing — would you still be troubled by the same things? That untroubled state, born from correct knowing, is maun. It begins not with silence of the mouth but with clarity of vision.</p>
+<div class="contemplate-block"><b>Contemplate</b>What do you currently "know" about the nature of reality — jagat-tattva? Is that knowing active, lived, present? Or is it intellectual and stored? What changes in daily life when jagat-tattva-jnāna is genuinely operational?</div>
+<div class="concept-tags"><span class="concept-tag">Evambhūt naya</span><span class="concept-tag">Jagat-tattva-jnāna</span><span class="concept-tag">Samyaktva</span><span class="concept-tag">Śramaṇatva</span><span class="concept-tag">Muni-svarūp</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आत्मोऽस्त्रमेयेव मञ्चशुद्ध जानात्मात्मानमात्मना ।<br/>सेय रत्नत्रये शान्तिरध्याचारैरता मुने ॥२॥९८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The ātmā knows the pure ātmā by the ātmā, through the ātmā itself. This is the ratnatraya in its state of śānti and abheda-parijñāti — the muni's authentic path.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Abheda-Parijñāti · The Ratnatraya's Unbroken Self-Recognition</span>
+</div>
+<p class="principle-def">The four-fold ātmā formula: ātmā (having renounced moha) → ātmā ko (the sarvajnānamay self) → ātmā dvārā (through śrutajnān) → ātmā mein (in the sarva-guṇa-paryāyamay state) — jāne. This abheda-parijñāti (unbroken self-recognition) is the ādhārbhūt upāy. The Samayprābhṛt confirms: those who know the pure ātmā through śrutajnān are called the luminaries of the world. When the firm conviction becomes established — "Main sādhy-sādhak aur siddha-svarūp hūṁ" — then jnāna-darśan and chāritra-guṇas arise naturally. That is the ratnatraya's abheda form. In it alone is the authentic anubhav of ātmasukha.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This shloka gives the complete method of maun at the level of jnāna: the ātmā does not look outward for its object. It turns inward, makes itself both the knower and the known, and uses śrutajnān as the instrument. This inward turn — ātmā knowing ātmā by ātmā — is the form of ratnatraya in its deepest, most integrated expression. Jnāna, darśan, and chāritra are not three separate practices here; they are one movement of self-recognition. The śānti that emerges from this is not peace-as-calm but peace-as-correctness: the ātmā aligned with its own svarūp, undisturbed by par-padārtha, no longer seeking what it already is. This is the interior architecture of maun.</p>
+<p class="simple-explanation"><b>The simple version:</b> Most searching looks outward — for a teacher, a book, a practice, a place. This shloka says the ultimate search is the ātmā using its own capacity to know itself. When that inward knowing becomes stable, the ratnatraya is complete and living maun begins.</p>
+<div class="contemplate-block"><b>Contemplate</b>When you seek guidance or clarity, where do you look first — outward or inward? What would it mean for the ātmā to "know itself by itself"? Is there a moment in your life when this has happened, even briefly?</div>
+<div class="concept-tags"><span class="concept-tag">Abheda-parijñāti</span><span class="concept-tag">Ratnatraya</span><span class="concept-tag">Ātmā-jnāna</span><span class="concept-tag">Śrutajnān</span><span class="concept-tag">Moha-tyāg</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Chāritra as Ātma-Anugaman &amp; The Two Nayas (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">चारित्रमात्मचरणाद् ज्ञान वा दर्शन मुने ।<br/>शुद्धजानमये साध्ये नियालाभात् क्रियानये ॥३॥९९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Chāritra is ātma-anugaman — following the ātmā. The muni's sādhya is shuddhajnāna. By the jnānanaya standpoint: after ātmajnāna, the appropriate kriyā must integrate into jīvan.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Chāritra = Ātma-Anugaman · Following the Soul's Own Path</span>
+</div>
+<p class="principle-def">Chāritra is not rule-following or ritual observance. It is ātmā ke sāmnay mein chalna — moving in the direction the ātmā points. The vivechan gives a precise chain: chāritra = ātmā mein anugaman = paudgalik māyā se nivrut honā = ātma-svarūp mein ramaṇā = ātmā, jo ki chetanāsvarūp hai, us mein ḍūb jānā. The jnānanaya formula confirms: jnānasya phalaṁ virati → viratiphalaṁ āśravanirodha → saṁvaraphalaṁ tapobalaṁ → tapaso nirjarāphalaṁ. Jnān and chāritra are not separate; jnān is the root, chāritra is the phala. "Jo bhī karnā hai ātmā ke liye kar."</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The distinction between nishchayanaya and vyavahāranaya is operative here. From the nishchayanaya: chāritra = ātmasvabhāv mein ramaṇā — sinking into the soul's nature, nothing more. From the vyavahāranaya: chāritra = specific vows, observances, restraints. Both are valid at their respective levels. But Yashovijayji emphasizes the nishchayanaya root: ātmajnān mein sthirtā yahī chāritra hai. When jnāna becomes firm and continuous, chāritra follows naturally — not as imposed discipline but as the natural expression of the ātmā's alignment with its own svarūp. This is maun as lived action: the body, speech, and mind that move only in the direction the ātmā indicates.</p>
+<p class="simple-explanation"><b>The simple version:</b> Chāritra is not a list of do's and don'ts imposed from outside. It is following the soul's own direction. When you know your ātmā's svarūp deeply enough, the right action in each moment becomes clear — not from rules, but from recognition. That clarity-directed action is chāritra, and it is the highest form of maun.</p>
+<div class="contemplate-block"><b>Contemplate</b>In your daily actions — are they following an external rule or an internal recognition? Is there a quality of ātma-anugaman in your choices today? What would it feel like if every action were rooted in ātmā-jnān rather than habit or fear?</div>
+<div class="concept-tags"><span class="concept-tag">Ātma-anugaman</span><span class="concept-tag">Chāritra</span><span class="concept-tag">Jnānanaya</span><span class="concept-tag">Nishchayanaya</span><span class="concept-tag">Jnāna-phala</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">यत प्रवृत्तिने मणौ, लभ्यते वानतत्फलम् ।<br/>अतात्विकी सरिण्ज्ञप्ति-सरिण्ज्ञश्रद्धा च सा यथा ॥४॥१००॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The pravṛtti of the muni from which no ātmik phala is obtained — that is atātvikī (inauthentic). Similarly, jnāna and śraddhā of the wrong kind produce no genuine result.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Atātvikī Pravṛtti · The Test of Authentic Practice</span>
+</div>
+<p class="principle-def">The mani (gem) analogy: just as a gem that produces no value is not truly a gem — so too a muni's pravṛtti that produces no ātmik phala is not truly muni-pravṛtti. It may have the form of practice — but no fruit. Similarly: jnāna that does not transform, śraddhā that does not move the jīv toward śuddha ātmasvabhāv — these are atātvikī. The test of authentic jnāna and śraddhā is a single question: is the ātmā actually moving toward its śuddha svarūp? If not, however elaborate the practice, however genuine the sincerity — the root cause must be investigated.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This shloka provides an unflinching diagnostic. The muni may be performing elaborate practices — āhāra-restrictions, maun-vrat, anuṣṭhāna. But if none of it produces actual ātmik movement — no reduction of moha, no increase in viveka, no deepening of ātmajnān — then it is atātvikī. Not false in intention, but not yet tātvikī (authentic) in result. Yashovijayji is not being harsh; he is being precise. The dharma-path requires feedback: Am I actually moving? The authentic śraddhā is paired with the authentic jnāna: both must have śuddha ātmasvabhāv as their orientation. When that orientation is present, even small practice bears large fruit. When it is absent, even large practice bears none.</p>
+<p class="simple-explanation"><b>The simple version:</b> Not all practice is the same. Two people can observe the exact same vow — but in one it produces real ātmik movement, in the other it produces nothing. The difference is orientation: is the jnāna and śraddhā pointing toward śuddha ātmasvabhāv? If yes, even small effort bears large fruit. If not, even large effort leaves no trace.</p>
+<div class="contemplate-block"><b>Contemplate</b>Examine your current spiritual practices honestly. Are they producing ātmik phala — actual reduction of moha, deepening of viveka, greater stability? If not — what is the root orientation? Is it pointing toward ātmasvabhāv, or toward something else?</div>
+<div class="concept-tags"><span class="concept-tag">Atātvikī pravṛtti</span><span class="concept-tag">Ātmik phala</span><span class="concept-tag">Tātvikī jnāna</span><span class="concept-tag">Mani analogy</span><span class="concept-tag">Śuddha ātmasvabhāv</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — When Jnāna-Śraddhā Produces No Shuddhi (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तथा यतो न शुद्धात्मस्वभावाऽऽश्रणं भवेत् ।<br/>फलं दोषनिवृत्तिवां, न तद् ज्ञानं न दर्शनम् ॥५॥१०१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">That from which no resort to śuddhātma-svabhāv arises — from which no phala of doṣa-nivṛtti comes — that is neither jnāna nor darśan in the true sense.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Doṣa-Nivṛtti · The Only Valid Proof of Jnāna</span>
+</div>
+<p class="principle-def">The standard is unambiguous: true jnāna and darśan must produce doṣa-nivṛtti — actual cessation of faults, actual purification of the ātmā's expression in manas, vachan, and kāyā. "Maiṁ viśuddha ātmā hūṁ.... satchidānadasvarūp hūṁ" — when this conviction is genuine and operative, its effects are visible: manoratha, kalpanāeṁ, and spruhāeṁ turn away from paudgalik bhāvs; vāṇī becomes free of nindā-praśansā and moves toward ātmabhāv's expression; indriya-vyāpār withdraws from śabda-rūpa-rasa-gandha-sparśa's sukha-duḥkha and orients toward ātmābhivyakti. If none of this is occurring, the "jnāna" and "darśan" claimed are only nominal — not yet functioning as genuine transformation.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This shloka is among the most demanding in the chapter. It removes the comfortable space between "having jnāna" and "living jnāna." If the jnāna does not produce śuddhātma-svabhāv's āśraya — a turning toward and resting in the pure soul-nature — and if it does not produce doṣa-nivṛtti — reduction of the actual faults operating in life — it does not qualify as jnāna or darśan in the tātvikī sense. This is not a condemnation; it is a compass. The practitioner who honestly sees that their jnāna has not yet produced these results has been given an exact direction: deepen the śraddhā, sharpen the orientation, let jnāna become lived rather than held.</p>
+<p class="simple-explanation"><b>The simple version:</b> Real jnāna changes you. If after years of study and practice the faults — the anger, the attachment, the fear — have not reduced, then something in the orientation is off. The knowledge is there but not yet operative. True jnāna does not leave the ātmā unchanged.</p>
+<div class="contemplate-block"><b>Contemplate</b>Which doṣas in your daily life have reduced over the past year as a result of your practice? Which ones are exactly the same? The ones unchanged — what does their persistence reveal about where the jnāna is not yet fully operational?</div>
+<div class="concept-tags"><span class="concept-tag">Doṣa-nivṛtti</span><span class="concept-tag">Śuddhātma-svabhāv āśraya</span><span class="concept-tag">Tātvikī jnāna</span><span class="concept-tag">Operative knowledge</span><span class="concept-tag">Ātmā transformation</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">यथा शोफस्य पुष्टत्वं यथा वा वध्यमण्डनम् ।<br/>तथा ज्ञानभवोन्मादमात्मतृप्तो मुनिर्भवेत् ॥६॥१०२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as the puffiness of a swollen body is not true health — and just as the ornamentation of a condemned man is not true beauty — so the muni should be free from jnāna-bhavonmāda. The ātmatrupt muni is the true form.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Jnāna-Bhavonmāda · The Pride of Spiritual States</span>
+</div>
+<p class="principle-def">Two images of false fullness: (1) a body swollen with disease looks plump — but it is not health; (2) a man about to be executed, decorated with garlands and taken through the streets with drums and fanfare — the ornaments are real, the procession is real, but it is the procession toward death. The jnāna-bhavonmāda (pride or intoxication about one's spiritual attainment — jnāna-states, bhāvanā-levels, "how far I have come") is exactly this: real-looking but false-filled. The ātmatrupt muni has no such pride — because the ātmā is the target, not the spiritual career. The vivechan gives the counter-image: Ramachandra, unmoved when Siteindra created an entire magnificent world of music and dance before him. Ātmatrupta muni's sole target: nirmal, niṣkalaṅka, paraṁ chetanya svarūp.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The condemned man story from the vivechan is precise: in ancient times, the tradition was to beautifully decorate the condemned prisoner, mount him on an elephant, parade him through the city with music and celebration — and then take him to execution. From the outside, it looked like honor. From the inside, the condemned man knew exactly what the destination was. Jnāna-bhavonmāda is this: the practitioner who has accumulated genuine jnāna-states and feels swelled by them has not understood what those states are for. They are not destinations — they are instruments toward the ātmā. Any intoxication with them is exactly as misplaced as the condemned man mistaking the garland for genuine honor. The ātmatrupt muni — who rests in ātma-trupti alone — is beyond this error.</p>
+<p class="simple-explanation"><b>The simple version:</b> There is a subtle pride that enters when spiritual practice is going well — "I have understood so much," "I am so much more aware than before." This pride is jnāna-bhavonmāda. It looks like fullness but it is swelling. The muni who rests only in ātmatrupti — satisfaction from the ātmā itself — is immune to this error.</p>
+<div class="contemplate-block"><b>Contemplate</b>Is there any area in your spiritual life where jnāna-bhavonmāda operates — a quiet pride about how far you have come, what you understand, what you have renounced? What would it mean to hold even your deepest insights lightly, as instruments rather than possessions?</div>
+<div class="concept-tags"><span class="concept-tag">Jnāna-bhavonmāda</span><span class="concept-tag">Ātmatrupti</span><span class="concept-tag">Śofa analogy</span><span class="concept-tag">Vādhya-maṇḍana</span><span class="concept-tag">Ramachandra</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — The Three Mauns &amp; The Jyotiṣmayī Dīpa (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सुलभ वाग्मनुच्चार मौनमेकेन्द्रियेऽपि ।<br/>पुद्गलेषु धर्मप्रवृत्तिषु योगीनां मौनमुत्तमम् ॥७॥१०३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Even a one-sensed being can achieve maun as mere non-speaking. But the true maun of yogīs is the maun of manas, vachan, and kāyā turned away from pudgal-pravṛtti.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Three Mauns · Mānasik, Vāchik, Kāyik</span>
+</div>
+<p class="principle-def">The three dimensions of maun precisely defined: (1) Mānasik maun — not entertaining any thought of paudgalik bhāva, even in dreams; positively: keeping the mind flooded with ātmabhāvopayak vicārs — kṣamā, namratā, vinaya, vivek, sralatā, nirlabhmatā; holding manorath of ahiṃsā, satya, achauya, brahmacharya, aparigraha. (2) Vāchik maun — not engaging in nindā-praśansā of paudgalik bhāvas; positively: speaking ātmabhāvopayak kathā, śāstrābhyās, paramātma-stuti. (3) Kāyik maun — abandoning all kāyā-pravṛtti rooted in paudgalik bhāv; positively: engaging the kāyā in ātmabhāv-oriented, protsāhit pravṛttis. The common misunderstanding: "maun = not speaking." Even an ekēndriya jīva — a plant, a one-sensed being with no vocal capacity — achieves this automatically. The genuine maun is far more demanding and far more interior.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Each maun has a negative (nivrut) form and a positive (pravṛtt) form. The negative is withdrawal from paudgalik orientation; the positive is active engagement with ātmabhāv orientation. Both are essential. Merely stopping paudgalik thoughts, speech, and action without filling the vacuum with ātmabhāv is incomplete — the vacuum will be refilled. The yogī's maun is therefore not a suppression but a redirection: the same capacity of manas, vachan, and kāyā that was previously oriented toward pudgal is now oriented toward ātmā. The three yogas — manoyog, vachanayog, kāyayog — are not abandoned; they are redirected. That redirection is maun in its complete form.</p>
+<p class="simple-explanation"><b>The simple version:</b> Maun has three layers: mental silence (not thinking about paudgalik matters), speech silence (not speaking about what pulls away from ātmā), and physical silence (not acting on paudgalik impulses). But each layer also has a positive fill: the mind thinking of ātmā, speech serving ātmā, body moving toward ātmā. Without the positive fill, the silence is empty and temporary.</p>
+<div class="contemplate-block"><b>Contemplate</b>Examine your three yogas right now: Where is the manas oriented — toward ātmā or toward pudgal? Where is the vachan flowing — toward ātmabhāv or paudgalik gossip and gain? Where is the kāyā being directed — toward ātma-expression or outward accumulation? Which of the three mauns is weakest in your life?</div>
+<div class="concept-tags"><span class="concept-tag">Mānasik maun</span><span class="concept-tag">Vāchik maun</span><span class="concept-tag">Kāyik maun</span><span class="concept-tag">Pudgal-nivrut</span><span class="concept-tag">Ātmabhāv-pravṛtt</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">13.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्योतिर्मयीव दीपस्य क्रिया सर्वोऽपि चिन्मयी ।<br/>यत्सं-मन्यस्वभावाऽस्य तस्य मौनमनुत्तरम् ॥८॥१०४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as the lamp's every action is luminous by nature — so the muni whose svarūp is chinmaya has maun that is anuttara, unsurpassed.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Hero Shloka</span>
+<span class="principle-name">Jyotiṣmayī Dīpa · The Lamp That Cannot Do Anything But Shine</span>
+</div>
+<p class="principle-def">The lamp does not "decide" to give light. Its nature is light — and therefore every action of the lamp is only light. The lamp prākāśanmay becomes prākāśa. This is the image for the muni whose svarūp is chinmaya (consciousness-full): āhāra-kriyā, parodeṣa-kriyā, walking, speaking — all of it is jnānamay. Not because they are performing jnāna — but because their svarūp IS jnāna. When jnānadṛṣṭi's dvār opens: pudgal's rūp, raṅg, gandh, sparśa can no longer create rāga-dveṣa-moha in the ātmā. The ātmā moves through the world but the world cannot touch its core. This is anuttara maun — supreme, unsurpassed silence — not as absence but as the fullness of chinmaya svarūp expressing itself in every action.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The distinction the vivechan makes is essential: when jnānadṛṣṭi's dvār was closed, pudgalbhāv created rāga-dveṣa. When jnānadṛṣṭi's dvār opens, the same pudgalbhāv is present — the world has not disappeared — but it is now sarvandhā asamarth: completely incapable of producing rāga-dveṣa-moha. The world is the same; the lamp's nature has changed from moha-dṛṣṭi to jnāna-dṛṣṭi. And that change means every action that emerges is now jnānamay — not by effort, but by svarūp. The lamp does not strain to produce light. The muni whose svarūp has become chinmaya does not strain to produce maun. The maun is anuttara precisely because it is not produced — it is expressed. This is the final statement of the chapter: when the ātmā's svarūp is fully chinmaya, every action becomes maun, every step becomes light, every breath is the lamp shining.</p>
+<p class="simple-explanation"><b>The simple version:</b> The lamp does not practice being bright. It simply is light — and brightness is everything it does. When the muni's inner nature has become fully chinmaya — consciousness through and through — maun is no longer a practice. It is simply the natural expression of what they are. Every action: maun. Every step: light. This is the highest form — anuttara maun.</p>
+<div class="contemplate-block"><b>Contemplate</b>Imagine a version of yourself in which every action — eating, speaking, walking, deciding — was naturally an expression of your highest inner nature, without effort or maintenance. What would that feel like? What stands between where you are now and that anuttara state? Is it a matter of doing more — or of removing what obscures the light that is already there?</div>
+<div class="concept-tags"><span class="concept-tag">Anuttara maun</span><span class="concept-tag">Jyotiṣmayī dīpa</span><span class="concept-tag">Chinmaya svarūp</span><span class="concept-tag">Jnānadṛṣṭi</span><span class="concept-tag">Mohadṛṣṭi</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch12.html"><span class="text-lg">←</span> Chapter 12</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch14.html">Chapter 14 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
