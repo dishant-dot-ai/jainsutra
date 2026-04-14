@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 12: Nispruhatā (Desirelessness) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 12</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Desirelessness<span class="block text-primary font-normal text-xl md:text-2xl mt-2">निःस्पृहता</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Par-spruhā is the definition of duḥkha. Nispruhatva is the definition of sukha. The desireless muni is the freest being in the world.</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Nispruhatā — desirelessness — is not poverty or renunciation as hardship. It is the recognition that after atma-svabhāv's attainment, nothing else remains to be obtained (Shloka 1). Every form of desire (spruhā) brings dīnatā in its wake (Shloka 2). Jnāna is the sickle that cuts the poison-vine of spruhā (Shloka 3). The chapter ends with a declaration that is the very definition of sukha and duḥkha: par-spruhā = mahāduḥkha, nispruhatva = mahāsukha (Shloka 8).</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">परस्पृहा महादु:खं, निस्पृहत्वं महासुखम् ।<br/>एतदुक्तं समासेन लक्षणं सुखदु:खयो: ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Par-spruhā is the greatest duḥkha. Nispruhatva is the greatest sukha. This is the very definition of sukha and duḥkha." — Gyansaar 12.8</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Nispruhatā</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Nispruhatā</span> — Desirelessness — is the twelfth chapter and a precise anatomy of spruhā (craving). Yashovijayji does not romanticize renunciation; he demonstrates its logic. After the soul has recognized its svabhava-lābha — its inherent completeness — every external desire becomes literally redundant. The one who truly knows "I am svayam-sampanna" (self-complete) is nispruha not by force of will but by recognition of fact.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter moves through eight shlokas: svabhava-lābha makes all else redundant (1), spruhā is inseparable from dīnatā — the Ravana warning (2), jnāna-dātrā cuts the spruhā-vish-vallarī (3), the chandālinī of anatma-rati must be expelled from the mind-home (4), spruhā makes great souls fall — Kosha, Apadabhuti, vs. Meru-parvat (5), nispruha muni's gaurav arrives on its own — Bhamfuriya story (6), par-nirapexa vs. par-sapexa sukha — Ravana, Kadiraka muni (7), the final irreversible equation: par-spruhā = mahāduḥkha, nispruhatva = mahāsukha (8).</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 12 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — Svabhava-Lābha &amp; The Hungry Senses (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्वभावलाभात् किमपि प्राप्तव्यं नावशिष्यते ।<br/>इत्यात्मनः स्वयंसंपन्नो निःस्पृहो जायते मुनिः ॥१॥८९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">After the attainment of one's svabhava (soul-nature), nothing whatsoever remains to be obtained. Knowing this, the svayam-sampanna (self-complete) muni becomes nispruha (desireless).</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Svabhava-Lābha · The Recognition That Makes All Else Redundant</span>
+</div>
+<p class="principle-def">What does the soul actually want? Gold, palaces, youth, fame? All of this is kṣaṇika, chañchal, asthir — and the soul has received it all countless times in bhutkāl, yet remains daridra. The one thing worth pursuing is atma-svabhāv — the akṣay, achyut, achal nature available right now. Make this sankalpa: "Mujhe ātma-svabhāv kī prāpti karnā hai — isake alāvā mujhe aur kuch nahi chāhie!" That desirelessness toward all else is nispruhatā.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Yashovijayji's direct question to the reader: what armān drives you night and day? Even if all abhilāpāeṁ are fulfilled — will you become truly sukhi? No. Because par-padārtha sukh is always conditional and perishable. Sansar mein kitana bhi pao — tṛpti nahi. The soul has been through this cycle countless times. Even after receiving everything, it remains a bhikhāri — because it has been searching for atma-trupti in pudgal. The moment the seeker redirects from par-padārtha to atma-svabhāv, the logic of nispruhatā becomes not a discipline but a recognition: when you know you already have what you were seeking, desire for everything else naturally drops.</p>
+<p class="simple-explanation"><b>The simple version:</b> You have been hungry your whole life and eating everything in sight — but none of it satisfies. That is because you have been eating the wrong food. When you taste the right food — atma-svabhāv — you realize you were never hungry for any of the other things.</p>
+<div class="contemplate-block"><b>Contemplate</b>What are the armāns — the deep wishes and longings — you carry? If all of them were fulfilled, would you become truly sukhi? And what is the one fulfillment that would make all others redundant?</div>
+<div class="concept-tags"><span class="concept-tag">Svabhava-lābha</span><span class="concept-tag">Svayam-sampanna</span><span class="concept-tag">Nispruhatā</span><span class="concept-tag">Atma-svabhāv</span><span class="concept-tag">Par-padārtha</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संयोजितकरैः के के प्रार्थ्यन्ते न स्पृहावहैः ।<br/>अमात्रज्ञानपात्रस्य निःस्पृहस्य तृणं जगत् ॥२॥९०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Who bows with folded hands, beseeching the nispruha muni? For one with limitless jnāna, the entire world is as tṛṇa — worthless grass.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Spruhā-Dīnatā · Desire Is Inseparable from Beggarliness</span>
+</div>
+<p class="principle-def">Wherever pudgalja spruhā arises, dīnatā has already entered through the back door. The Ravana warning: the most parākramī Ravana was seized by spruhā for Sita — went to her girigiḍāte hue, begging, making himself dīna. That tīvra spruhā destroyed his parivāra, putra, rājya, and sent him to naraka. Spruhā's mūl svabhāv is to compel dīnatā, make the jivatma beg and plead, enslave it. The muni who truly has no spruhā — the whole world comes to him with folded hands.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Three contemplations to uproot spruhā: (1) "Mujhe ātma-svabhāv prāpti karnī hai — isake alāvā kuch nahi chāhie" — the positive aspiration that replaces all lesser desires; (2) "If my current spruhā for this par-padārtha is fulfilled, what follows?" — āshānti, bandan, bhav-chakkar; (3) "If I renounce this spruhā entirely, what is lost?" — nothing, only gain. These three thought experiments, applied honestly, dissolve the spruhā at the root. The contrast: the spruhāvant is perpetually making himself a beggar before whomever holds what he desires. The nispruha muni, before whom the whole world becomes a devotee, has made the ultimate trade: exchanged all small desires for the one recognition that needs nothing.</p>
+<p class="simple-explanation"><b>The simple version:</b> The moment you desire something external, you have made yourself a beggar before whoever holds it. The nispruha muni desires nothing external — so the whole world, paradoxically, comes and bows before him.</p>
+<div class="contemplate-block"><b>Contemplate</b>Notice today every time you make yourself dīna (beggarly, dependent) in pursuit of something external. What spruhā is behind it? And what would it feel like to be completely svayam-sampanna in that moment?</div>
+<div class="concept-tags"><span class="concept-tag">Dīnatā</span><span class="concept-tag">Spruhā-bandhan</span><span class="concept-tag">Ravana-warning</span><span class="concept-tag">Nispruha-gaurav</span><span class="concept-tag">Tṛṇa-jaga</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Jnāna Cuts Spruhā-Viplavlatā (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">छिन्दन्ति ज्ञानदात्रेण स्पृहाविषवल्लतां धुधा ।<br/>मुखशोषं च मूर्च्छां च दैन्यं यच्छति यत्फलम् ॥३॥९१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise cut the poison-vine of spruhā with the sickle of jnāna — that vine whose fruits are dry-mouth, unconsciousness (mūrchhā), and dīnatā.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Vish-Vallarī · The Poison-Vine Whose Fruits Are Always Bitter</span>
+</div>
+<p class="principle-def">Spruhā is called vish-vallarī — a poison vine growing unobstructed on the ātmabhūmi from anādikāl, covering every region with various forms and flavors. But its fruits are always the same: mukhśoṣ (burning, dryness), mūrchhā (stupefaction, loss of ātmik clarity), and dainya (beggarliness). In pudgalik spruhā's presence: the face loses tejas, the voice becomes dīna, jīvan becomes trivial, ātmik sambodhan and prasan disappear. The only effective tool: jnāna-dātrā — the sickle of right knowledge applied to the root.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Three upayas for maintaining jnāna-vigil against spruhā: (1) cultivate deep acquaintance with nispruha ātmās — study their jīvan-charitra, observe their lived experience of freedom; (2) never allow spruhā for āvashyak padārthoṁ to reach the point where you must become dīna before anyone to obtain them; (3) develop tapoval (endurance capacity) and sahnaśakti (tolerance power) so that even when desired objects are unavailable, the life continues with dignity. The vine of spruhā can be cut — but only by jnāna applied precisely and continuously. Not willpower alone. Willpower suppresses spruhā; jnāna dissolves it.</p>
+<p class="simple-explanation"><b>The simple version:</b> Desire is a vine that looks beautiful and promises sweet fruit. But its actual fruits are always the same three: you become hollow (mukhśoṣ), you become confused (mūrchhā), and you become a beggar (dainya). Jnāna recognizes this — and the recognition is the sickle that cuts the vine.</p>
+<div class="contemplate-block"><b>Contemplate</b>Find a specific spruhā in your current life. Look at its three fruits: has it produced dryness/burning, some form of confusion or loss of clarity, and some form of dependency or dīnatā? Does seeing the fruit clearly change your relationship to the vine?</div>
+<div class="concept-tags"><span class="concept-tag">Vish-vallarī</span><span class="concept-tag">Jnāna-dātrā</span><span class="concept-tag">Mukhśoṣ</span><span class="concept-tag">Mūrchhā</span><span class="concept-tag">Dainya</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">निष्कासनीया विदुषा स्पृहा चित्तगृहाद् बहि ।<br/>अनात्मरतिचाण्डाली संगमड्गीकरोति वः ॥४॥९२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise must expel spruhā from the mind-home entirely. For spruhā — the cāṇḍālinī of anatma-rati — accepts association that degrades the soul.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Anatma-Rati vs Ātma-Rati · The Discernment That Saves</span>
+</div>
+<p class="principle-def">Spruhā and ātma-rati (delight in the self) are fundamentally incompatible — they cannot coexist. But Upaadhyayji does not reject all spruhā: anatma-rati spruhā (desire rooted in the non-self) is heya — must be expelled. Ātma-rati spruhā (desire rooted in the soul's aspiration) is upādeya — must be cultivated. The longing for sadguru, samyagjnāna, samyam, śāstrasarakṣaṇa, mokshaprāpti — these are ātma-rati spruhās that accelerate liberation. The test: does the root of this desire enhance or erode ātma-rati? If it erodes — expel it. If it enhances — deepen it.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The conversation: spruhā says "What harm am I doing? I am not bothering anyone." Upaadhyayji responds: "Great harm — you with us are making our heart-Lakshmi flee and keeping us nirāntar durghat-pareśān. The obstacle is in our own inner sanctum." The moment any spruhā is fulfilled, the jīv's security-anxiety increases, atma-guṇoṁ ko sarakṣit rakhne kī vismṛti deepens, and ordinary virtues of justice, sadachar, udāratā disappear. And spruhā-pūrti creates more spruhā — not satisfaction. Always interrogate: "Is there anatma-rati at the root of this desire?" If yes — expel it immediately. Do not let it stay even a moment. Our svatyānāś has already happened from this very negligence.</p>
+<p class="simple-explanation"><b>The simple version:</b> Not all desire is equal. The desire for one's own liberation, for true knowledge, for genuine service — these are ātma-rati born and should be nurtured. The desire for sense-pleasures, recognition, comfort — these are anatma-rati born and should be expelled from the mind-home like an unwanted intruder.</p>
+<div class="contemplate-block"><b>Contemplate</b>Make a list of your current desires and longings. Sort them: which have ātma-rati at their root (they move you toward the atma)? Which have anatma-rati (they move you away)? How clearly can you tell the difference?</div>
+<div class="concept-tags"><span class="concept-tag">Anatma-rati</span><span class="concept-tag">Ātma-rati</span><span class="concept-tag">Cāṇḍālinī</span><span class="concept-tag">Mind-home</span><span class="concept-tag">Spruhā-discrimination</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — The Meru-Parvat of the Nispruha Soul (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्पृहावतो विलोकते, लघवस्तुणतुल्यवत् ।<br/>महावचय तथापेते, सञ्जन्ति भवधारिणौ ॥५॥९३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The spruhāvant, chasing even small things, appears beggar-like. But one who has expelled spruhā — even the greatest worldly praise cannot move them.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Meru-Parvat · The Spruhāvant Falls; The Nispruha Stands Immovable</span>
+</div>
+<p class="principle-def">Two stories in stark contrast. The Sinhagufāvāsī Muni: a single stuti from Kosha the veshyā — and spruhā entered. Sanhayamdrudhata shattered, pulled to her theatrical world, became a captive. The Apadabhuti story: a single modaka (sweet) ignited spruhā — progressive fall, until spruhā-āndhi covered all directions and he fell into the company of mādanākṣī abhinetriyo, destroying his entire spiritual life. But for the true yogīśvar: like Meru-parvat — the fastest storm, the tallest bhav-sāgar wave, the most forceful spruhā — cannot move him a fraction. Spruhā cannot even enter his antaḥsthal.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The parallel is precise. Spruhā makes even mahāmunis fall — this is the sobering fact. And spruhā's entry point is always small: a modaka, a stuti, an indriya-vishay that seemed innocent. Once spruhā is active, it propagates itself — from one vishay to another, from a small desire to an overwhelming āndhi. This is why the muni must never let even a single spruhā take root. Simultaneously: the yogīśvar who has utterly uprooted spruhā from the soul-ground is incorruptible — because there is no surface for spruhā to grip. The Meru-parvat doesn't resist the storm; it simply has no opening for the wind to find purchase.</p>
+<p class="simple-explanation"><b>The simple version:</b> Spruhā doesn't require a huge temptation to destroy a soul. A sweet. A smile. A small desire — and the spiral begins. This is why the great munis were so vigilant about the first stirring. The one who has no opening for spruhā to enter is truly free.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where does spruhā tend to enter your life — through which small, seemingly innocent doorway? If that first stirring was recognized and addressed each time, what would change?</div>
+<div class="concept-tags"><span class="concept-tag">Meru-parvat</span><span class="concept-tag">Sinhagufāvāsī Muni</span><span class="concept-tag">Apadabhuti</span><span class="concept-tag">Spruhā-propagation</span><span class="concept-tag">Samyamdrudhata</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गौरव पीरव-प्रप्तात् प्रभुत्वं प्रतिपद्यते ।<br/>ख्यातिं जातिनिःस्पृहस्य स्वयमभ्युद्यन्ति निःस्पृह ॥६॥९४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The nispruha muni — freed from pudgalik spruhā — attains true gaurav, prabhutva, and kalyan-guṇa. The highest recognition comes to him of its own accord.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Bhamfuriya Muni · Siddhi-Pad Through Absolute Nispruhatā</span>
+</div>
+<p class="principle-def">The Bhamfuriya Muni story: Kanchanpur's king came with drawn sword to kill him. The muni was perfectly peaceful, even smiling. The king: "Who are you? You look like Pratishthānpur's Mādanbrahmakumāra — who renounced the throne for śramaṇa life!" Had the muni said "Yes, that is who I am" — the king would have prostrated immediately. But as a truly nispruha, tyāgī, and tarasvi — he preferred to remain in the pit where he was thrown and absorb the sword's blow with śānt bhāv — and attained siddhi-pad. Prabhutva arrived — not through seeking it, but through being utterly free of spruhā for it.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The nispruha muni's internal state: the world's nagarkāoṁ may stuti him, bhajan-pūjan him — he accepts none of it as genuine sukh. For him it is all parabhāv-pudgalbhāv — it holds no value. The entire world's greatest fame and pratishṭhā cannot move him; he already sees all of it as parpadārtha. And yet — paradoxically — genuine gaurav, prabhutva, and recognition come to him spontaneously, without pursuit, precisely because he is not pursuing them. The seeking of recognition produces dīnatā; the absence of that seeking produces the dignity that cannot be taken away. This is the economy of nispruhatā.</p>
+<p class="simple-explanation"><b>The simple version:</b> The one who seeks recognition gets something fragile and temporary. The one who is utterly beyond seeking it — recognition comes to him of its own accord, and it is unshakeable. Bhamfuriya Muni chose the sword and siddhi-pad over the king's prostration and worldly honor.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where do you seek gaurav — recognition, acknowledgment, being seen? What would it mean to be so complete in yourself that gaurav became irrelevant? What would you do differently today from that position?</div>
+<div class="concept-tags"><span class="concept-tag">Gaurav</span><span class="concept-tag">Bhamfuriya Muni</span><span class="concept-tag">Siddhi-pad</span><span class="concept-tag">Prabhutva</span><span class="concept-tag">Par-pudgal-freedom</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Par-Nirapexa Sukha &amp; The Final Declaration (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परस्पृहा महादुःखं परस्पृहत्वं प्रतिच्छया ।<br/>ख्याति जातिनिस्पृहस्य स्वयमभ्युत्थायन्ति निस्पृह ॥७॥९५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Par-spruhā (desire for external things) causes the greatest suffering. The nispruha soul attains its own kalyan-lakṣaṇa naturally — without displaying them.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Par-Nirapexa vs Par-Sāpexa · The Root of All Suffering</span>
+</div>
+<p class="principle-def">Par-nirapexa sukha — joy independent of anything external — is the only real sukha. Par-sāpexa sukha (joy dependent on external objects or beings) is always āśvanaka-bhraṁk: it comes only when wanted and leaves the moment it arrives. The chakravartī must depend on servants, entertainers, rānī-mahārāniyon — totally par-ādhīn. The nispruha muni's sampada: a stone slab, dry food, one cloth, open sky. Kadiraka Muni: param sukhi until one taste of royal food activated spruhā — progressive fall, violated sādhu-maryādā, ultimately landed in sātavīṁ naraka. One spruhā activated. One. That is all it took.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The Ravana-Sita story: tīvra spruhā for Sita — destroyed his kingdom, his family, his lineage, sent him to naraka. The Mālvapati Muja-Mṛṇālinī story: spruhā for one woman — trampled by elephants, kingdom destroyed. These are not parables about sexual desire specifically — they are precise demonstrations of how par-spruhā operates. When par-padārtha sukha is activated, par-padārtha-duḥkha is activated simultaneously — they are one mechanism. The moment jnānadṛṣṭi recognizes par-padārthoṁ kī spruhā as the root of all duḥkha in one's life — that recognition is already the beginning of liberation.</p>
+<p class="simple-explanation"><b>The simple version:</b> The chakravartī looks like the most powerful person in the world. But examine his daily life: he is totally dependent on a hundred external things for his sukha. The muni on a stone slab depends on nothing. Who is actually free?</p>
+<div class="contemplate-block"><b>Contemplate</b>Identify one source of par-sāpexa sukha in your life — something external whose presence gives you joy and whose absence causes pain. What would it mean to become par-nirapexa in relation to that thing? What shifts?</div>
+<div class="concept-tags"><span class="concept-tag">Par-nirapexa sukha</span><span class="concept-tag">Par-sāpexa sukha</span><span class="concept-tag">Kadiraka Muni</span><span class="concept-tag">Chakravartī</span><span class="concept-tag">Spruhā-duḥkha</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">12.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परस्पृहा महादु:खं, निस्पृहत्वं महासुखम् ।<br/>एतदुक्तं समासेन लक्षणं सुखदु:खयो: ॥८॥९६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Par-spruhā is the greatest duḥkha. Nispruhatva is the greatest sukha. This, in brief, is the very definition and lakṣaṇa of duḥkha and sukha.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Hero Shloka</span>
+<span class="principle-name">The Final Equation · Par-Spruhā = Mahāduḥkha; Nispruhatva = Mahāsukha</span>
+</div>
+<p class="principle-def">The chapter's declaration is final and irreversible. This is not poetry — it is the precise lakṣaṇa (definition/characteristic) of what duḥkha and sukha actually are. The Bhaktaparijñā sutra quote confirms: "Nirabekaḷa ātmā prāya duḥkkar duster bhavsāmudra se tīr jātī hai" — the nispruha soul crosses the bhavsāmudra easily. The Kadiraka Muni story shows the entire progression: nispruha → param sukhi; one spruhā activated → progressive fall → sātavīṁ naraka. The nispruha soul that has renounced obtained sukha in favor of atma-svabhāv prāpti is chirasthayi, anupam, nirvicar — the ultimate nidhi.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The shloka gives us a diagnostic tool of absolute precision: where is duḥkha in my life? Trace it — somewhere there is par-spruhā. Where is sukha? Trace that also — somewhere there is nispruhatā operating. This is not circumstantial. It is the structure of experience itself. "Jab tak 'sukha duṣ' tone man ko kabhī śānti, kalyāṇā man nahi hogi" — as long as the conception of par-padārtha as sukha's source remains unchallenged, no lasting peace is possible. The chapter ends not with a devotional flourish but with a mathematical statement: the equation is defined. The practitioner who truly internalizes it becomes, by the logic of that internalization itself, nispruha.</p>
+<p class="simple-explanation"><b>The simple version:</b> The entire chapter leads here. Duḥkha = wanting what is outside. Sukha = wanting nothing outside. This is not renunciation as suffering — it is renunciation as the most precise possible path to the only sukha that is real.</p>
+<div class="contemplate-block"><b>Contemplate</b>Apply this equation to your life right now. Where is your duḥkha? Trace it — find the par-spruhā at its root. Where is your sukha? Trace it — find the nispruhatā operating. Does the equation hold?</div>
+<div class="concept-tags"><span class="concept-tag">Mahāduḥkha</span><span class="concept-tag">Mahāsukha</span><span class="concept-tag">Par-spruhā</span><span class="concept-tag">Nispruhatva</span><span class="concept-tag">Lakṣaṇa</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch11.html"><span class="text-lg">←</span> Chapter 11</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch13.html">Chapter 13 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
