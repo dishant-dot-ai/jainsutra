@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 10: Trupti (Contentment) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 10</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Contentment<span class="block text-primary font-normal text-xl md:text-2xl mt-2">तृप्ति</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Pudgala can never fill the atma's hunger — only touching one's own infinite qualities brings the contentment the world cannot give</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Trupti — true contentment — is not found by consuming more. The dirty vessel must be cleaned before nourishment can enter (Shloka 1). Senses are structurally incapable of satisfaction (Shloka 2). Shantarasa surpasses all six rasas (Shloka 3). Worldly trupti is dream-trupti (Shloka 4). Pudgal cannot feed atma (Shloka 5). Only the jnana-trupt, niranjana bhikshu is truly sukhi (Shloka 8).</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">सलिलं विषयासन्ना, नेत्रोपेद्रास्योऽव्यहो ।<br/>भिक्षुरेक सुखी लोके, ज्ञानतृप्तो निरञ्जन ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Only the bhikshu — jnana-trupt and niranjana — is the one truly sukhi in the entire world." — Gyansaar 10.8</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Trupti</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Trupti</span> — Contentment — is the tenth chapter and a direct investigation of hunger. Not physical hunger, but the deep structural hunger of a soul chasing pudgala for satisfaction it can never provide. The chapter opens with the bhojana-patra analogy: the vessel must be clean before nourishment enters. Until the seeker purifies the mind-vessel through jnana, no amount of spiritual consumption produces true trupti.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">Eight shlokas map the terrain completely: the senses are architecturally incapable of satisfaction; shantarasa is the highest of all rasas; worldly trupti is dream-trupti; pudgal cannot by the Nishchaya Naya fill the atma; param brahma trupti is unknown to the world-immersed; jnana produces a continuous stream of dhyana-contentment (unlike pudgal's grass-essence); and the muni who is both jnana-trupt AND niranjana is the only genuinely sukhi person in the world. Two examples anchor this: Ramachandra unmoved by Siteindra's sensory paradise, and Khadak Muni tortured but immersed in jnanamrit.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 10 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Dirty Vessel &amp; Sense-Hunger (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">परिव्राजकानां भुक्त्वा ज्ञानागमं परम् ।<br/>तृप्तिः परमा ज्ञेया, भोजनपात्रवत् तथा ॥१॥७३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a food vessel must first be cleaned before nourishment enters — so the mind must first be purified through jnana-agama before param trupti can fill it.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Bhojana-Patra · The Clean Vessel Receives Nourishment</span>
+</div>
+<p class="principle-def">A dirty vessel contaminates whatever is placed in it — even the finest food becomes inedible. Similarly, a mind stained with vishaya-vasana (sense-cravings) cannot receive param trupti no matter how much spiritual knowledge is poured in. First purify the vessel through jnana and sadachar — then true contentment can enter. This is not a suggestion; it is the law of spiritual receptivity.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The parivrajaka (wandering seeker) who first purifies their inner vessel through jnana-agama — scripture-rooted knowledge — gains param trupti. Those who approach spirituality with an unpurified mind find it unsatisfying and fall back. The vessel determines what the contents become. The same wisdom that lifts a purified mind leaves an impure mind unchanged, even hostile. Purification must precede reception. Jnana-agama — the continuum of scripture and its lived teaching — is the purifying agent.</p>
+<p class="simple-explanation"><b>The simple version:</b> Pour the finest food into a vessel covered in soot and it becomes inedible. The problem was never the food. Clean the vessel first. Param trupti is available to everyone — but only the purified vessel can hold it.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is the current state of your inner vessel? What specific stains of craving, jealousy, or attachment are preventing trupti from landing?</div>
+<div class="concept-tags"><span class="concept-tag">Bhojana-patra</span><span class="concept-tag">Jnana-agama</span><span class="concept-tag">Param trupti</span><span class="concept-tag">Purification</span><span class="concept-tag">Vishaya-vasana</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">रविमुनेः तृप्ति-भेदकाल-आत्मिना स्वरी ।<br/>इन्द्रियाणि न तृप्यन्ति, विषया नश्वरास्तथा ॥२॥७४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The senses are never satisfied — they are by nature unquenchable. Worldly beauty and fragrance are transient: first comes trupti, then immediately atrupti (dissatisfaction) follows.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the structural reality of sense-engagement. The rhythm is always: brief satisfaction → deeper hunger. Fragrance fades the moment you step away from it. Beauty dims the instant possession begins. Sound's pleasure peaks immediately and then exhausts. The senses are constitutionally designed to crave more — no vishaya (sense-object) can break this cycle because the senses themselves are instruments of atrupti. They were never built for permanent satisfaction. Trying to achieve trupti through indriyas is like trying to fill a vessel with holes: the effort never stops and the result never lasts.</p>
+<p class="simple-explanation"><b>The simple version:</b> The senses are not broken — they're working exactly as designed. Their design is: give a moment of pleasure, then hunger for more. Expecting permanent trupti from the senses is expecting an instrument of hunger to stop creating hunger.</p>
+<div class="contemplate-block"><b>Contemplate</b>Track one sense-pleasure today from beginning to end. Notice: when did the trupti become atrupti? How long did the gap last? What does this reveal?</div>
+<div class="concept-tags"><span class="concept-tag">Indriya</span><span class="concept-tag">Vishaya</span><span class="concept-tag">Atrupti</span><span class="concept-tag">Nashvar</span><span class="concept-tag">Sense-hunger</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Shantarasa &amp; Dream-Trupti (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">या शान्तरस-स्वादस्य, साहित्यदर्पण-मते ।<br/>षड्रसानाम् अतिशयी, सा तृप्तिः परमोच्यते ॥३॥७५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The Sahityadarpan declares shantarasa the supreme rasa, surpassing all six. The trupti rooted in shantarasa — the taste of inner stillness — is called param trupti.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Shantarasa · The Rasa That Surpasses All Six</span>
+</div>
+<p class="principle-def">Shantarasa: "न यत्र दुःखं न सुखं न चिंता..." — where there is no sorrow, no worldly pleasure, no anxiety. The classical Sahityadarpan, which catalogues all aesthetic experience, declares shantarasa supreme. Three upayas for reaching param trupti: (1) Sat-charann darshan — witnessing great souls living the dharmic life. (2) Jina-vachan dhyan — immersing in the Tirthankar's words in deep meditation. (3) Samyag-tatva pravesh — entering right principles with full understanding.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The six worldly rasas (sweet, sour, salty, bitter, pungent, astringent) can only stimulate the tongue. Shantarasa penetrates to the level of the jivatma itself — the only rasa the atma is actually capable of tasting, because the atma is not tongue or skin or eye. The atmosphere for shantarasa: vairagya (dispassion), viveka (discrimination), and inward absorption. The three upayas are not theoretical — they are live exposures to the frequency of shantarasa that retrain the atma's orientation.</p>
+<p class="simple-explanation"><b>The simple version:</b> Six rasas stimulate the body and leave you wanting more. Shantarasa satisfies the soul — and the soul is what is actually hungry. The body's hunger is just the soul's hunger misdirected outward.</p>
+<div class="contemplate-block"><b>Contemplate</b>Have you tasted shantarasa — even briefly? In which moments does inner stillness visit? What creates those conditions?</div>
+<div class="concept-tags"><span class="concept-tag">Shantarasa</span><span class="concept-tag">Sahityadarpan</span><span class="concept-tag">Vairagya</span><span class="concept-tag">Viveka</span><span class="concept-tag">Sat-charann darshan</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संसारे स्वप्नवत् स्थित्या, तृप्तिः स्वप्नोपमा मता ।<br/>सदाचरण-दर्शनात् ज्ञानाद्, परमतृप्तिः प्राप्यते ॥४॥७६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The worldly trupti is dream-trupti — satisfaction found in samsara is dream-satisfaction. True param trupti is reached through sadacharana-darshana and jnana.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">In a dream, one experiences hunger, eats, and feels full — but wakes to find nothing was eaten and the hunger remains. This is the precise analogy for samsaric trupti. The satisfaction felt is completely real in the moment and completely absent when one "wakes up." The three upayas elaborated: (1) sad-charann darshan — witnessing great souls in action creates an irresistible pull toward the real; (2) jina-vachan dhyan — the Jina's words carry the frequency of awakening and shake the dreamer; (3) samyag-tatva pravesh — understanding the tattvas at their root dissolves the dream-logic that sustains false trupti. Like waking from a dream, the contact is immediate and the difference is total.</p>
+<p class="simple-explanation"><b>The simple version:</b> Samsaric trupti is dream-satisfaction — real in the moment, gone when consciousness shifts. The three upayas are the alarm clock. Each one can wake you up. All three together make it impossible to stay asleep.</p>
+<div class="contemplate-block"><b>Contemplate</b>In what areas of your life are you still running on dream-trupti — satisfactions that feel real but evaporate? What would it feel like to wake from them?</div>
+<div class="concept-tags"><span class="concept-tag">Svapna-trupti</span><span class="concept-tag">Sadacharana</span><span class="concept-tag">Jina-vachan</span><span class="concept-tag">Samyag-tatva</span><span class="concept-tag">Three upayas</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Pudgal Cannot Satisfy Atma (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पुद्गलैः पुद्गलस्तृप्तिः, आत्मतृप्तिः आत्मगुणैः ।<br/>जडात् चेतनतृप्तिः न, निश्चयनयेन जायते ॥५॥७७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Pudgala satisfies pudgala. Atma-trupti comes only from the atma's own gunas. By the Nishchaya Naya (absolute standpoint), inert matter cannot give contentment to the conscious soul.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Nishchaya Naya · The Soul's Hunger is of a Different Order</span>
+</div>
+<p class="principle-def">The Nishchaya Naya (absolute standpoint) is uncompromising: jada (inert pudgal) and chetana (conscious atma) belong to categorically different orders. Feeding the body satiates the body. The atma's hunger — for jnana, darshan, ananda — is of an entirely different nature. You cannot satisfy it with matter, no matter how refined. Only atma-sparsh — contact with the atma's own infinite qualities — feeds the atma.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The Nishcharv Nay analogy: even the finest pudgal experience cannot cross the boundary into chetana's hunger. The atma has infinite jnana-shakti, darshan-shakti, ananda-shakti — and these are perpetually covered, not destroyed. Atma-trupti comes from uncovering them — not from accumulating more external experience. Every moment spent seeking trupti from pudgal is a moment the atma's own infinite reservoir goes untouched. Jad pudgal is constitutionally incapable of crossing into chetana's domain — this is not pessimism, it is physics of the soul.</p>
+<p class="simple-explanation"><b>The simple version:</b> The body's hunger and the soul's hunger are completely different kinds of hunger. Food solves one; it cannot touch the other. Stop using food-solutions for a soul-problem.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where are you using pudgal — comfort, entertainment, food, acquisition — to address an atma-hunger? What would actually address the atma-hunger directly?</div>
+<div class="concept-tags"><span class="concept-tag">Pudgal</span><span class="concept-tag">Atma-trupti</span><span class="concept-tag">Nishchaya Naya</span><span class="concept-tag">Atma-gunas</span><span class="concept-tag">Chetana</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मधुराज्यमहाशाका ग्राहो बाह्यो च गोरसात् ।<br/>परब्रह्मरिण तृप्तिर्यो जनास्तां जानतेऽपि न ॥६॥७८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Beyond the sweetest kingdoms, beyond the finest external pleasures — there exists a trupti in param brahma that ordinary people do not even know exists.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The world-immersed person — occupied with manohar (captivating) pleasures, praise, expectations, sense-sovereignty — cannot conceive of param brahma trupti. They live in a simulation of trupti, mistaking pudgal's momentary flicker for the real thing. The Ramachandra story makes this concrete: Siteindra, the lord of devlok, is disturbed by Ramachandra's advancing samadhi and descends to disrupt it. He conjures a paradise of sensory enchantment — divine beauty, music, fragrance, the most alluring scenes imaginable. Ramachandra, already immersed in param brahma trupti, does not flinch. The external paradise finds no purchase. Siteindra, humbled, surrenders before such immovable contentment. The message: the most extraordinary external experience is literally nothing compared to the trupti of param brahma. It is not even a contest.</p>
+<p class="simple-explanation"><b>The simple version:</b> The finest pleasures of devlok could not move Ramachandra — not because he was suppressing desire, but because he had something infinitely more satisfying. The ordinary person cannot even imagine what they are missing.</p>
+<div class="contemplate-block"><b>Contemplate</b>If you had the finest imaginable worldly pleasures in front of you and true param brahma trupti in front of you — could you tell the difference? Have you tasted the second even once?</div>
+<div class="concept-tags"><span class="concept-tag">Param brahma</span><span class="concept-tag">Ramachandra</span><span class="concept-tag">Siteindra</span><span class="concept-tag">Samadhi</span><span class="concept-tag">Inward trupti</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Jnana-Udgara &amp; the Nitya Sukhi (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">विषयोपनिषोदसार स्यात्तृणास्य पुदगले ।<br/>ज्ञानतस्तय तु ध्यानसमोद्गार-परम्परा ॥७॥७९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">From pudgala indulgence the "saar" obtained is mere tṛṇa — grass, worthless. But from jnana flows a continuous, unbroken stream of dhyana-udgara — the supreme contentment of deep meditation.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Dhyana-Udgara · Jnana's Unbroken Stream vs. Pudgal's Grass-Essence</span>
+</div>
+<p class="principle-def">Pudgal indulgence produces tṛṇa-saar — the essence of grass. Nutritionless. Jnana produces dhyana-udgara — a continuous, self-renewing stream of meditation-contentment. The Dharmadhyana Saar quote: "viṣaya-kṣaya" — from the dissolution of sense-attachment, true shanta-bhaav arises and contentment deepens without bound. The stream does not run dry; it deepens with practice. The two options are stark: grass or an endless inner spring.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Two contrasting stories anchor the teaching: (1) A gluttonous guest at a raja's feast broke all conduct rules, consumed what was forbidden, and fell into catastrophic suffering — the grass-essence consumed with full force. (2) Khadak Muni — royal soldiers tortured him, cut his flesh, blood flowed across the ground — yet he was completely immersed in jnanamrit, the stream of dhyana-udgara. Not only unmoved but advancing: his unwavering dhyan-sadhana moved from dharmadhyana to shukladhyana, then to kevalgyan. All ghati karmas (jnanavaran, darshanavaran, mohniya, antaraya) dissolved. The cycle of bhavsansar ended. One consumed tṛṇa and fell; the other drank from the spring and was liberated.</p>
+<p class="simple-explanation"><b>The simple version:</b> Pudgal gives grass. Jnana gives an infinite spring. You cannot get both — what you drink from determines where you go. Khadak Muni's body was being destroyed while his soul moved toward liberation. That is the power of the spring.</p>
+<div class="contemplate-block"><b>Contemplate</b>When have you experienced dhyana-udgara — the stream of jnana-contentment — even briefly? What opened it? How can you return to that opening more consistently?</div>
+<div class="concept-tags"><span class="concept-tag">Dhyana-udgara</span><span class="concept-tag">Jnanamrit</span><span class="concept-tag">Khadak Muni</span><span class="concept-tag">Shukladhyana</span><span class="concept-tag">Kevalgyan</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">10.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सलिलं विषयासन्ना, नेत्रोपेद्रास्योऽव्यहो ।<br/>भिक्षुरेक सुखी लोके, ज्ञानतृप्तो निरञ्जन ॥८॥८०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those who run after sense-objects find no sukha — like eyes that are never content. Only the bhikshu — jnana-trupt and niranjana — is the one truly sukhi in the entire world.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Bhikshurekah Sukho Loke · Two Conditions for Genuine Happiness</span>
+</div>
+<p class="principle-def">Shri Umaswati's declaration: "Bhikshurekah sukho loke" — the muni alone is supremely happy. Two inseparable conditions: (1) Jnana-trupt — content through jnana, the atma drinking from its own spring of infinite knowing; (2) Niranjana — unstained, the atma uncontaminated by pudgal's residue. Both together. The muni who has conquered kama-mada, whose vikars of mind-speech-body are extinguished, free from all para-pudgala expectations — unaffected by body-attachment, enemy-anger, disease, old age, death — he is "nitya sukhi": always-content, not conditionally content.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The Henry story: a wealthy Western seeker arrives in India saying "I have everything — wealth, fame, health, beauty, status — but no peace." The world's richest kings, emperors, and merchants are not truly sukhi. Shri Umaswati provides the two shlokas: "निजितमदमदनानां, वाक्कायमनोविकाररहितानाम् | विनिवृत्तपराशानामिहैव मोक्षः सुविहितानाम्" — and "स्वशरीरेऽपि न रज्यति, शत्राविपि न प्रदाषमुपयाति | रोगजरामरणभयेरब्यतितो यः स नित्यसुखी" — the muni undisturbed by body-love, enemy-hate, disease, old age, or death is nitya sukhi. This is the chapter's summit. The journey from dirty vessel to nitya sukhi is complete.</p>
+<p class="simple-explanation"><b>The simple version:</b> Henry had everything the world says creates happiness. He had no peace. The muni has nothing the world measures as success. He is nitya sukhi. Jnana-trupt + niranjana = the only equation that actually works.</p>
+<div class="contemplate-block"><b>Contemplate</b>What percentage of your sukha is conditional — dependent on circumstances, health, approval, success? What would it mean to have sukha that is not conditional on any of these?</div>
+<div class="concept-tags"><span class="concept-tag">Bhikshu</span><span class="concept-tag">Jnana-trupt</span><span class="concept-tag">Niranjana</span><span class="concept-tag">Nitya sukhi</span><span class="concept-tag">Umaswati</span></div>
+</div>
+</div>
+</article>
+
+</section>
+<!-- Footer nav -->
+<section class="bg-[#f2f1f0] border-t border-primary/10 py-16">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 flex justify-between items-center">
+<a class="flex flex-col gap-1 group" href="gyansaar-ch9.html">
+<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold group-hover:text-primary transition-colors">← Previous</span>
+<span class="text-2xl font-headline font-bold text-on-surface group-hover:text-primary transition-colors">Chapter 9: Kriya</span>
+</a>
+<a href="gyansaar-index.html" class="text-primary font-headline font-semibold text-sm uppercase tracking-widest hover:opacity-70 transition-opacity">Index</a>
+<a class="flex flex-col gap-1 group text-right" href="gyansaar-ch11.html">
+<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold group-hover:text-primary transition-colors">Next →</span>
+<span class="text-2xl font-headline font-bold text-on-surface group-hover:text-primary transition-colors">Chapter 11: Nilepata</span>
+</a>
+</div>
+</section>
+</main>
+
+<!-- Floating nav buttons -->
+<button class="nav-button left-btn px-5 py-3 rounded-full font-headline text-sm tracking-widest uppercase" id="btn-prev" onclick="window.location.href='gyansaar-ch9.html'" style="left:24px;">← Ch 9</button>
+<button class="nav-button right-btn px-5 py-3 rounded-full font-headline text-sm tracking-widest uppercase" id="btn-next" onclick="window.location.href='gyansaar-ch11.html'" style="right:24px;">Ch 11 →</button>
+<script>
+const btnPrev = document.getElementById('btn-prev');
+const btnNext = document.getElementById('btn-next');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY > 300;
+  btnPrev.classList.toggle('visible', scrolled);
+  btnNext.classList.toggle('visible', scrolled);
+});
+</script>
+</body>
+</html>
