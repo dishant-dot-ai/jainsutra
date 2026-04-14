@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 9: Kriya (Right Action) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 9</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Right Action<span class="block text-primary font-normal text-xl md:text-2xl mt-2">क्रिया</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Jnana without kriya knows the road but never walks it — only the union of five qualities crosses the bhavsagar</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Kriya is not ritual — it is the activated expression of jnana and bhavana. Five qualities together cross the ocean of samsara (Shloka 1). Jnana without action never arrives — the Delhi train analogy (Shloka 2). The lamp needs ghee even if it is already light (Shloka 3). Five guards protect shubha-bhaav (Shloka 7). And the supreme energizer: ananya-priti toward Jineshvar (Shloka 8).</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">ज्ञानी क्रियापर ज्ञा लो, भावितात्मा तितीर्षय ।<br/>स्वयं तीर्णों भवसागरे, परांस्तारयितु क्षम ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"The jnani who is also kriyapar and bhavantima — crosses the bhavsagar themselves, and has the capacity to carry others across." — Gyansaar 9.1</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Kriya</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Kriya</span> — Right Action — is the ninth chapter and a direct confrontation with spiritual passivity. The chapter opens with a challenge: "If dharmic kriyas are not performed, what is the loss?" — a question asked for years. But nobody asks: "If paap-kriyas are not performed, what is the loss?" The author's answer: without kriya, jnana is a map you never walk. The path to moksha requires both jnana and its activation in action.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter presents five qualities needed to cross the bhavsagar together — jnani, kriyapar, shant, bhavit-atma, jit-endriya. It dismantles the idea that jnana alone suffices, shows the spirit and timing that makes kriya alive, enumerates five inner guards (vrat-smarana, gunashali-samman, paap-jugupsa, parinaam-alochan, Tirthankara-bhakti), and culminates in the supreme energizer: ananya-priti toward Jineshvar Deva.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 9 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — Five Qualities for Crossing (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञानी क्रियापर ज्ञा लो, भावितात्मा तितीर्षय ।<br/>स्वयं तीर्णों भवसागरे, परांस्तारयितु क्षम ॥१॥६५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Know: the one who is jnani AND kriyapar AND bhavantima — crosses the bhavsagar themselves and has the capacity to carry others across.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Panchaguna · Five Qualities Together Cross the Bhavsagar</span>
+</div>
+<p class="principle-def">1. Jnani — knows the fearsome nature of bhavsagar, impossible to cross without a jnanakari guide. 2. Kriyapar — follows Jinesha's shown kriyas at all times. 3. Shant — upasham, samata; without this, jnana and kriya both fail. 4. Bhavit-atma — soul pervaded with dharma like kasturi-fragrant cloth, spreading jnana-darshana-charitra fragrance everywhere. 5. Jit-endriya — controlled senses; uncontrolled indriyas throw the jivatma overboard.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The highest purpose of human life is to cross the bhavsagar. If this bhavana has become awakened in every pore of the jivatma, then jnana and kriya will come without delay. When the desire for something is born, its correct recognition, the upay for obtaining it, and the purushartha — all arise naturally. The jivatma seeking param-sansati (incomparable shelter) will spare no effort. All five qualities must be present and active together — no single one alone is sufficient.</p>
+<p class="simple-explanation"><b>The simple version:</b> Five qualities cross the bhavsagar together — not one alone. Jnana without kriya is a map without walking. Kriya without jnana is walking blind. Upasham without both is stillness without direction. All five together — that is the one who can cross and carry others.</p>
+<div class="contemplate-block"><b>Contemplate</b>Which of the five qualities is most developed in you? Which is most missing? What would integrating all five actually look like in your daily life?</div>
+<div class="concept-tags"><span class="concept-tag">Jnani</span><span class="concept-tag">Kriyapar</span><span class="concept-tag">Bhavit-atma</span><span class="concept-tag">Jit-endriya</span><span class="concept-tag">Bhavsagar</span><span class="concept-tag">Panchaguna</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">क्रियाविरहिता मार्गः, ज्ञानमात्रमनत्यकम् ।<br/>गति विना पत्ज्ञोऽपि, नाप्नोति पुरुषीस्तिताम् ॥२॥६६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">A path without kriya — mere jnana alone — cannot arrive anywhere. Even one who knows every route perfectly cannot reach the destination without movement.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">The Delhi Train · Knowledge Without Movement Delivers Nothing</span>
+</div>
+<p class="principle-def">You know the road to Delhi from every angle — every route, every shortcut, every timetable. But you never bought a ticket, never boarded, never took a step. You will never arrive. Jnana without kriya is exactly this: perfect knowledge, zero movement. The one who walks with less knowledge reaches; the one who knows everything but never walks does not.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Paramabhakti, pratikraman, samayik, sutra-svadhyaya, dhyan, gurubhakti, glan-seva, pratilekhana, tapa-tyagadi — these are all kriyas. Without these, the jivatma seeking atma-vishuddhi cannot go anywhere. If the moha-path's jnana is acquired but kriya not done — after death the jnana on one side, the paap-kriyas' weight overwhelms. Jnana without kriya can actually become a danger — it breeds pride without progress, smugness without transformation.</p>
+<p class="simple-explanation"><b>The simple version:</b> You know the road. You know every turn. But you haven't moved. Knowledge without action — perfectly knowing and never walking — delivers nothing. The walking starts with the first step.</p>
+<div class="contemplate-block"><b>Contemplate</b>What do you know intellectually about the spiritual path that you are not yet living? What is the gap between your jnana and your kriya today?</div>
+<div class="concept-tags"><span class="concept-tag">Kriya</span><span class="concept-tag">Jnana</span><span class="concept-tag">Moksha-marg</span><span class="concept-tag">Delhi train analogy</span><span class="concept-tag">Purushartha</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Spirit and Timing of Kriya (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">स्वाध्यूक्षला क्रिया काले, ज्ञानपूर्ण ऽपेक्षलते ।<br/>प्रबोधि स्वप्रकाशोऽपि, सैलयोपवयोदिकम् ॥३॥६७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The kriya done at the right time (svadhyaya-kala), with jnana as its foundation, becomes self-illuminating — like the lamp that is already prakaash-svarup but never neglects the act of filling with ghee.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">As long as the sadhak-dasha is present, kriya-avashyakata remains. Even in the nirmal avastha, different kinds of kriya are necessary for pushing svabhav forward. Three stages of kriya: deshvirat (sravak, following 67 types of vyavhar-niyama in purity), sarvvirat (full renunciant, panchachara — jnanachara etc), samnirvrittam-sadhu (shukladhyana at all times). Each stage has appropriate kriya. The lamp that is itself prakaash-svarup — even that must be regularly filled with ghee or its light dims. Kriya is not a sign of incompleteness; it is the act of remaining complete.</p>
+<p class="simple-explanation"><b>The simple version:</b> Even the lamp that is light itself needs to be filled with ghee. Even the soul that is already prakaash-svarup needs daily practice — the act of self-maintenance. Kriya is not a sign you haven't arrived; it is what keeps you there.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is your daily "ghee-filling" practice — the kriya that keeps your inner light burning? Are you doing it?</div>
+<div class="concept-tags"><span class="concept-tag">Svaadhyaya</span><span class="concept-tag">Kriya-kala</span><span class="concept-tag">Svaprakaash</span><span class="concept-tag">Lamp analogy</span><span class="concept-tag">Guna-vruddhi</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आलस्य-वेठ-अविविध नहीं, उदासीनता नहीं ।<br/>बल्कि सटैठ प्रदस्य उत्साह, उल्लास अपरिमित ॥४॥६८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">No laziness, no boredom, no indifference. On the contrary — unwavering enthusiasm and boundless joy must animate all kriya.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Shanti (samata, upasham) is an absolute necessity alongside kriya. Even if jnana is present, even if kriya is present — if krodh and rog arise in the mind, jnana and kriya become lifeless and dead. The boat roaming in bhavsagar stops — stuck, sinking. The rushing river current of avyarogeho breaks the anchor line. If krodh, rog, irshya are not removed from the boat, they will make holes in the vessel and give jal-samadhi. The jivatma seeking to cross bhavsagar must be shant-prashant, kshamasheela, and param upasham-yukta. The difference between alive and dead practice is the bhaav animating it: utsah (enthusiasm) and ullasa (joy) are not optional — they are the very life-force of kriya.</p>
+<p class="simple-explanation"><b>The simple version:</b> Kriya without bhaav is dead ritual. Bhaav without kriya is dream without action. The union of the two — with enthusiasm and without laziness — is the living spiritual practice. Shant must also be present, or even good kriya can sink the boat.</p>
+<div class="contemplate-block"><b>Contemplate</b>Which of your spiritual practices have become mechanical? How can you reinject genuine enthusiasm and wonder into them?</div>
+<div class="concept-tags"><span class="concept-tag">Utsah</span><span class="concept-tag">Ullasa</span><span class="concept-tag">Shant</span><span class="concept-tag">Upasham</span><span class="concept-tag">Kriya-bhaav union</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Kriya at Every Level (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तत्राष्टमे गुणस्थाने, शुक्लसद्ध्यानमादिमम् ।<br/>ध्यालुं प्रक्रमते साधु राढ्यसंहृननान्वित ॥५॥६९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">At the eighth gunasthana, the saadhu begins the first shukladhyana with the vajra-rishabha-naraach structure — even here, kriya is required. No stage is exempt.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Kriya at Every Level · Even the Eighth Gunasthana</span>
+</div>
+<p class="principle-def">Even the soul that has burned ghati-karmas and become purnajna must perform yoganirodha and samudghaat to reach full liberation. Even light (bijli) — which is itself prakaash-svarup — needs 'switch on' and powerhouse connection. No stage, no matter how elevated, is exempt from appropriate kriya. The higher the stage, the more refined the kriya — but kriya itself never becomes unnecessary until the very end.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">For reaching purnata's highest peak, necessary kriya must be done at every stage. Paap-kriyas are the root cause of bhav-bhraman. To stop bhav-bhraman, their causes must be resolved and destroyed. Paap-kriyas' antidote is dharmic-kriyas. This applies from the very first level of the path all the way to the eighth gunasthana. Even the Arihant needed kriya to reach Arihantship. There is no shortcut, no level of attainment where kriya becomes obsolete.</p>
+<p class="simple-explanation"><b>The simple version:</b> Even at the eighth gunasthana, shukladhyana is required. Even the Arihant needed kriya. No stage is exempt. The appropriate kriya changes — but kriya itself never disappears until final liberation.</p>
+<div class="contemplate-block"><b>Contemplate</b>Are you at a stage where you use "I'm beyond kriya" as an excuse not to practice? What is the appropriate kriya for your current level?</div>
+<div class="concept-tags"><span class="concept-tag">Gunasthana</span><span class="concept-tag">Shukladhyana</span><span class="concept-tag">Kriya at every level</span><span class="concept-tag">Vajra-naraach</span><span class="concept-tag">Yoganirodha</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">बाह्यभांग पुरश्कृत्य, ये क्रिया व्यमहारत ।<br/>वत्ने कवलक्षेय विगते तु तुष्टिकालिम ॥६॥७०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Those who perform kriyas only for external display and worldly honor — without inner bhaav — derive no true benefit. Only those with genuine moksha-bhavna gain true contentment.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Three examples from history of shubha-bhaav protection: (1) Raja Harishchandra — for protecting satya, he renounced all royal grandeur and comforts, laughingly accepted the path of vanavasa. (2) Maharaj Kumar Meghavar — for protecting ahimsa-bhaav, he saved the pigeon's life. (3) Santil — for protecting the sanvatsam-bhaav of a fast, Nirupamati Ravana endured severest tests with grace. These are not stories of external kriya — they are stories of bhaav so strong it transformed all circumstances. When prashant-bhaav is maintained, even the most difficult kriyas become natural. Jab shubha bhaav hon to ant mein moksha-bhaav ki santoshi prapti hogi.</p>
+<p class="simple-explanation"><b>The simple version:</b> Kriyas without bhaav are theater. What matters is: what is the soul behind the action? If kriyas come from moksha-bhavna, they build inner treasure. If they come from praise-seeking, they build only reputation.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is driving your spiritual practice right now — recognition, habit, or genuine moksha-bhavna? Where is the bhaav?</div>
+<div class="concept-tags"><span class="concept-tag">Bhaav</span><span class="concept-tag">Moksha-bhavna</span><span class="concept-tag">Harishchandra</span><span class="concept-tag">External vs. inner kriya</span><span class="concept-tag">Parishuddhi</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Five Guards and the Supreme Energizer (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">गुणवद्बहुमानादिनित्यस्मृत्या च सतिक्रया ।<br/>ज्ञात न पातवेदु भावमज्ञात जनधेशपि ॥७॥७१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Through constant remembrance of the virtuous with great reverence — the kriya becomes alive. Five shubha-bhaav guards protect even the most unknowing soul from falling.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Five Guards · Protection for the Shubha-Bhaav</span>
+</div>
+<p class="principle-def">1. Vrat-smarana: When ashubbha attacks, recall the vrat. Bhanakria Muni to the attacking sundari: "मन-वचन-काया से प्रहित, लिया व्रत नहीं भंग करूँ | अविचल रहूँ ध्रुव सा निज तप में, संसार का न मोह धरूँ" — 2. Gunashali-samman: Deep shraddha toward the virtuous; they rush to help in sankatakal. 3. Paap-jugupsa: Permanent disgust for abandoned paaps — never let moha's subtle attraction return. 4. Parinaam-alochan: Continuous contemplation — "Dukha papat, sukha dharmat." 5. Tirthankara-bhakti: Namasmarana, darshan-pujana, ceaseless smaran of their upkaaras.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Dan, sheel, tap, svadhyaya, satsang, anshana, etc — various dharmic kriyas must continuously be woven into life for new guna-vikasa and vruddhi. In this samabhav: gunavruddhi, guruseva — both are essential. At the ultimate level all kevalajnanis' samast gunas get manifested. And with them, their goal of guna-tyag (transcendence) has no difficulty. Saath hi unka sarana (their shelter) — the param-tatva pravritti (their manifestation of the atma-guna) — continuously unfolds.</p>
+<p class="simple-explanation"><b>The simple version:</b> Five guards protect the inner bhaav: vrat-remembrance, reverence for the virtuous, disgust for past sins, contemplating consequences, and bhakti toward the Tirthankara. With these five active, the inner journey stays on track.</p>
+<div class="contemplate-block"><b>Contemplate</b>Which of the five guards is most active in your life? Which have you neglected? Can you name a time each one has protected you?</div>
+<div class="concept-tags"><span class="concept-tag">Vrat-smarana</span><span class="concept-tag">Gunashali</span><span class="concept-tag">Paap-jugupsa</span><span class="concept-tag">Parinaam-alochan</span><span class="concept-tag">Tirthankara-bhakti</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">9.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">वषोद्युक्ठानतोऽसागनियासागतिमगति ।<br/>सेय ज्ञान क्रियाऽस्मुमिरान-दिपच्छला ॥८॥७२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When Jinesha-deva's love-bhakti fully pervades the jivatma, a vishuddh virya surges up — through which the capacity to understand and live his vachana becomes available. This is the supreme energizer of all kriya.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Jinesha-Bhakti · The Supreme Energy Source</span>
+</div>
+<p class="principle-def">Four items for asang-anushthan (unattached practice): 1. Ananya-priti toward Jineshvar. 2. Shraddha-bhakti toward Jineshvar. 3. Sarvangin jnana of his vachana. 4. Mahapurushartha to live those vachana. When priti-bhakti toward Parmatma fully arises, the physical/paudgalik sambandh breaks naturally — shabd-rupa-rasa-gandha's chains loosen on their own. Love of the Jina is not emotion — it is the energy of liberation.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The jivatma's sadhana must have one dhyey, one direction, one sarana: guru-vruddhi (growth in spiritual virtue). Like the businessman with a single goal of ghan-vruddhi — however difficult the path, however much parishram required — he remains sada sachet, sajag, and sacchet for his goal. Similarly, the spiritual practitioner's every kriya must be laser-focused on moksha-bhavna. When Jina's bhakti becomes total, all kriyas become natural and self-sustaining. The energy of bhakti carries the jivnatma through what willpower alone cannot.</p>
+<p class="simple-explanation"><b>The simple version:</b> The final key to kriya: love the Jina. Not as ritual, not as duty — but as your deepest longing. When that love becomes total, every kriya becomes natural. The energy of bhakti carries the jivnatma across what all effort alone cannot.</p>
+<div class="contemplate-block"><b>Contemplate</b>Does your practice include genuine priti toward Jineshvar — or only formal respect? What would it look like to truly love the Jina?</div>
+<div class="concept-tags"><span class="concept-tag">Jinesha-bhakti</span><span class="concept-tag">Asang-anushthan</span><span class="concept-tag">Vishuddh-virya</span><span class="concept-tag">Ananya-priti</span><span class="concept-tag">Mahapurushartha</span></div>
+</div>
+</div>
+</article>
+
+</section>
+<!-- Footer -->
+<footer class="bg-[#1d1c17] text-white/70 py-16 mt-24">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8">
+<div class="col-span-12 md:col-span-4 flex flex-col gap-4">
+<span class="text-2xl font-headline text-white tracking-tighter font-bold">JainAwaken.org</span>
+<p class="text-sm leading-relaxed">Bringing the living wisdom of Jain scripture to seekers worldwide. Free, open, and dedicated to the liberation of all souls.</p>
+</div>
+<div class="col-span-6 md:col-span-2 flex flex-col gap-3">
+<span class="text-white font-semibold text-xs uppercase tracking-widest mb-1">Gyansaar</span>
+<a class="text-sm hover:text-white transition-colors" href="gyansaar-index.html">All Chapters</a>
+<a class="text-sm hover:text-white transition-colors" href="gyansaar-ch8.html">Ch8: Tyag</a>
+<a class="text-sm hover:text-white transition-colors" href="gyansaar-ch10.html">Ch10: Trupti</a>
+</div>
+<div class="col-span-6 md:col-span-2 flex flex-col gap-3">
+<span class="text-white font-semibold text-xs uppercase tracking-widest mb-1">Sacred Texts</span>
+<a class="text-sm hover:text-white transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+<a class="text-sm hover:text-white transition-colors" href="../Samaysaar/samaysaar-index.html">Samaysaar</a>
+</div>
+</div>
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 pt-8 mt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-white/40">© 2025 JainAwaken.org · All content offered freely for the liberation of souls</p>
+<p class="text-xs text-white/40 font-headline italic">ज्ञानसार · Yashovijay Upadhyay</p>
+</div>
+</footer>
+</main>
+<!-- Nav Buttons -->
+<a class="nav-button left-btn rounded-full px-5 py-3 font-headline text-sm flex items-center gap-2" href="gyansaar-ch8.html" id="prev-btn" style="left:24px">
+<span class="material-symbols-outlined text-base">arrow_back</span> Ch8
+</a>
+<a class="nav-button right-btn rounded-full px-5 py-3 font-headline text-sm flex items-center gap-2" href="gyansaar-ch10.html" id="next-btn" style="right:24px">
+Ch10 <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+<script>
+const prevBtn = document.getElementById('prev-btn');
+const nextBtn = document.getElementById('next-btn');
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY > 300;
+  prevBtn.classList.toggle('visible', scrolled);
+  nextBtn.classList.toggle('visible', scrolled);
+});
+</script>
+</body>
+</html>
