@@ -73,6 +73,10 @@ html { scroll-behavior: smooth; }
 </div>
 </div>
 <div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+</div>
 <a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
 </div>
 </div>
@@ -287,32 +291,27 @@ html { scroll-behavior: smooth; }
 </article>
 
 </section>
-<!-- Footer nav -->
-<section class="bg-[#f2f1f0] border-t border-primary/10 py-16">
-<div class="max-w-screen-xl mx-auto px-6 md:px-12 flex justify-between items-center">
-<a class="flex flex-col gap-1 group" href="gyansaar-ch9.html">
-<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold group-hover:text-primary transition-colors">← Previous</span>
-<span class="text-2xl font-headline font-bold text-on-surface group-hover:text-primary transition-colors">Chapter 9: Kriya</span>
-</a>
-<a href="gyansaar-index.html" class="text-primary font-headline font-semibold text-sm uppercase tracking-widest hover:opacity-70 transition-opacity">Index</a>
-<a class="flex flex-col gap-1 group text-right" href="gyansaar-ch11.html">
-<span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold group-hover:text-primary transition-colors">Next →</span>
-<span class="text-2xl font-headline font-bold text-on-surface group-hover:text-primary transition-colors">Chapter 11: Nilepata</span>
-</a>
-</div>
-</section>
 </main>
-
-<!-- Floating nav buttons -->
-<button class="nav-button left-btn px-5 py-3 rounded-full font-headline text-sm tracking-widest uppercase" id="btn-prev" onclick="window.location.href='gyansaar-ch9.html'" style="left:24px;">← Ch 9</button>
-<button class="nav-button right-btn px-5 py-3 rounded-full font-headline text-sm tracking-widest uppercase" id="btn-next" onclick="window.location.href='gyansaar-ch11.html'" style="right:24px;">Ch 11 →</button>
+<a class="nav-button left-btn right-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch9.html"><span class="text-lg">←</span> Chapter 9</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch11.html">Chapter 11 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
 <script>
-const btnPrev = document.getElementById('btn-prev');
-const btnNext = document.getElementById('btn-next');
 window.addEventListener('scroll', () => {
-  const scrolled = window.scrollY > 300;
-  btnPrev.classList.toggle('visible', scrolled);
-  btnNext.classList.toggle('visible', scrolled);
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
 });
 </script>
 </body>

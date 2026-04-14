@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 11: Nilepata (Unstainedness) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 11</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Unstainedness<span class="block text-primary font-normal text-xl md:text-2xl mt-2">निलेंपता</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">The jnana-siddha passes through the soot-house of samsara without becoming black — not by avoiding it, but by knowing what they truly are</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Nilepata — unstainedness — is not achieved by running from the world. The sansar is a kajjal-griha (house of soot) and cannot be escaped. But the jnana-siddha, armed with the triple non-identification (Shloka 2), the sky-analogy of pudgal-vigyan (Shloka 3), and the union of the two nayas (Shloka 6), passes through without being stained. Spiritual pride stains more than worldly action (Shloka 5). The chapter ends with a namaskara to Bhagavan whose svabhav is shuddhashuddhsvabhav (Shloka 8).</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">सत्ज्ञान यदनुष्ठान, न लिप्त दोषपंकत ।<br/>शुद्धशुद्धस्वभावाय, तस्मै भगवते नम ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Sat-jnana with dosha-free anushthan is not stained. To that Bhagavan whose svabhav is shuddhashuddhsvabhav — namaskara." — Gyansaar 11.8</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Nilepata</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Nilepata</span> — Unstainedness — is the eleventh chapter and a masterclass in navigation. The samsara is a kajjal-griha (house of soot): inescapable, pervasive, relentlessly staining. Everyone inside gets covered in karma-kajjal. But the jnana-siddha passes through the same house and comes out unstained. Not because they avoided the soot — but because they applied jnana-rasayan before entering.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter moves through eight precise shlokas: the soot-house analogy (1), triple non-identification as doer/causer/approver (2), sky-through-clouds — contact without staining (3), svayog-svabhav of atma and pudgal (4), the paradox of spiritual pride as a stainer (5), the dual nayas working in concert (6), bhoomika-wise balance of jnana and kriya (7), and the culminating namaskara to Bhagavan whose shuddhashuddhsvabhav is both the model and the goal (8).</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 11 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — The Kajjal-Griha &amp; The Non-Doer (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संसारे निवसन् स्वायसज्ज: कज्जलवेश्मनि ।<br/>लिप्यते निखिलो लोक: ज्ञानसिद्धो न लिप्यते ॥१॥८१॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Living in the kajjal-griha (house of soot) of samsara, the self-absorbed world gets karmically stained. But the jnana-siddha does not get stained.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Kajjal-Griha · The Soot-House That Cannot Be Avoided</span>
+</div>
+<p class="principle-def">The sansar is a kajjal-griha. Wherever you touch — soot. Wherever you go — soot. Everyone inside gets blackened: hands, feet, chest, back. The only way to be in the kajjal-griha and remain unstained is jnana-rasayan (the alchemy of right knowledge). Not avoidance — the house cannot be avoided. But jnana forms an invisible protective layer that prevents the soot from adhering. Without it, bhav-bhraman continues indefinitely. With it, even the deepest immersion in samsara leaves no karmic residue.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The jnana-siddha passes through the same soot-house as everyone else — same streets, same family, same daily encounters with the world's soot. But the jnana-rasayan forms a layer of recognition: "I am not this house. I am not this soot. I am the atma — radically other than all of this." This recognition is not detachment in the sense of indifference — it is precise discrimination. The kajjal cannot stick to what knows itself to be other than kajjal. The teaching is simultaneously a diagnosis (this is why all worldly souls are stained) and a prescription (jnana-siddhi is the answer).</p>
+<p class="simple-explanation"><b>The simple version:</b> You cannot leave the soot-house. But you can apply the protective layer before entering. That layer is jnana. Without it, everyone who enters gets covered. With it, even the one who walks through the soot comes out clean.</p>
+<div class="contemplate-block"><b>Contemplate</b>In which areas of your daily life does the sansar's soot stick most easily — where do you leave interactions feeling "blackened"? What is the specific jnana-rasayan that could protect you in those encounters?</div>
+<div class="concept-tags"><span class="concept-tag">Kajjal-griha</span><span class="concept-tag">Jnana-rasayan</span><span class="concept-tag">Jnana-siddha</span><span class="concept-tag">Karma-lipta</span><span class="concept-tag">Bhav-bhraman</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">नाहं पुद्गलभावानां, कर्ता कारयिताऽपि च ।<br/>नानुमन्ताऽपि चेत्यात्मज्ञानवान् लिप्यते कथम् ॥२॥८२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"I am not the doer, the causer, nor the approver of paudgalik bhavas" — such an atma-jnani: how can they be stained?</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Triple Non-Identification · The Three Levels of Kartritva Abandoned</span>
+</div>
+<p class="principle-def">The operative jnana-rasayan practice. Three levels: (1) Karta — "I am not the creator of pudgal-bhavas." (2) Kaarayita — "I am not the one who causes others to create pudgal-bhavas." (3) Anumanta — "I am not even the silent approver of pudgal-bhavas." This triple renunciation of kartritva must not be an intellectual position but a living saturation — like a cloth soaked in kasturi until it permanently carries the fragrance. The mithya-abhiman of "Main khata hoon... kamata hoon... bhogopabhog karta hoon..." is the glue that makes soot stick. Remove the glue and the soot cannot adhere.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The atma absorbed in pudgal-prem forgets its true nature, drowns in rupa-ranga (form and color), and faces endless dukha-vedana (experience of suffering). The cycle: pudgal-prem → false kartritva → karma accumulation → more dukha → more pudgal-prem. The triple non-identification breaks this cycle at its root. It must be applied not once but continuously — "bar-bar, ek hi vichar, ek hi chintan." Not a resolution made in the morning. A living current of recognition throughout the day.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soot sticks because of the glue of kartritva. "I did this, I own this, I am responsible for this outcome." Remove the glue — not by becoming passive, but by recognizing that the atma was never the agent of matter's movements — and the soot stops adhering.</p>
+<div class="contemplate-block"><b>Contemplate</b>Notice today every time you say or think "I did this" or "I caused this" about a material outcome. Is there a way to be fully responsible in action while releasing the deeper kartritva? What would that look like?</div>
+<div class="concept-tags"><span class="concept-tag">Kartritva</span><span class="concept-tag">Kaarayita</span><span class="concept-tag">Anumanta</span><span class="concept-tag">Jnana-rasayan</span><span class="concept-tag">Pudgal-prem</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Sky-Analogy &amp; The Eternal Atma (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">लिप्यते पुद्गलस्कन्धो, न लिप्ये पुद्गलैरहम् ।<br/>चित्रघोषांजनेनैव, ध्यायन्निति न लिप्यते ॥३॥८३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Pudgal-skandha stains pudgal. "I am not stained by pudgal." — One who meditates with this chitra-ghosh-anjana (the collyrium of pure contemplation) does not get stained.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Pudgal-Vigyan · The Collyrium That Does Not Stain the Sky</span>
+</div>
+<p class="principle-def">Chitra-ghosh-anjana: the vivid collyrium applied to the eye — but the sky seen through that eye is never colored. Upaadhyayji's pudgal-vigyan: "Jis tarah anjana se vividh varna yukt aakash lipt nahi hota, thik usi tarah pudgalsamudaya se chetanya lipt nahi banta." Pudgal stains pudgal — that is what pudgal does. But chetanya is not pudgal. Contact is not contamination. The staining is not in the contact — it is in the identification. Maintain this chintan actively during pudgal-parihhog and the engagement itself does not produce karma-bandhan.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The ordinary jivatma, absorbed in pudgal-bhav, sometimes senses that something is wrong — that "meri atma lipt nahi hoti" (my soul shouldn't be stained). But this remains a vague intuition. The pudgal-vigyan makes it precise and operative: pudgal by nature stains pudgal. Your body interacts with soot and becomes sooty — that is the body's nature, and it is fine. But chetanya, in the same space, in the same moment, is not sooty — not because it avoided the soot but because it belongs to a different order. Recognizing this clearly while engaged in necessary pudgal-activities (eating, working, relating) produces nilepata in action.</p>
+<p class="simple-explanation"><b>The simple version:</b> The collyrium touches the eye. The eye sees through it. The sky does not become the color of the collyrium. You interact with the world. The world touches the body. The atma is not touched — not because it's separate, but because it belongs to a different category entirely.</p>
+<div class="contemplate-block"><b>Contemplate</b>Can you find a moment today where you are engaged with pudgal (eating, listening to music, working) and simultaneously maintain the recognition: "Pudgal stains pudgal — I am not being stained right now"? What shifts when you hold both at once?</div>
+<div class="concept-tags"><span class="concept-tag">Pudgal-vigyan</span><span class="concept-tag">Anjana-sky analogy</span><span class="concept-tag">Chetanya</span><span class="concept-tag">Skandha</span><span class="concept-tag">Nilepata in action</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">लिप्त होते पुद्गल सभी, पुद्गलों से भी नहीं ।<br/>भ्रमल रथो न भाकाश, हूं शाश्वत सत्य यही ॥<br/>लिप्ता ज्ञान सपात-प्रतिपाताय केवलम् ।<br/>निते पंताणमात्रस्य, क्रिया सर्वेषियुस्मते ॥४॥८४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">All pudgal stains pudgal — but not me. Like the sky unstained by the moving chariot — I am the eternal, unchanging truth. Jnana alone is the purifying agent. The appropriate kriyas of each stage must always continue.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The atma-pudgal relationship is **svayog-svabhav** — natural coexistence through circumstance, not essential identity. They share a space from beginningless time but have never been the same substance. The moving chariot doesn't color the sky it moves through. The cloud of color doesn't stain the sky it floats in. The atma — chetanya — is the sky: "Hoon shaashvat satya yahi." This recognition is not abstract: it must become the living ground of daily experience. Simultaneously: the appropriate kriyas for one's current bhoomika (spiritual stage) must always be performed. The recognition of nilepata does not make kriyas unnecessary — it transforms their quality. Kriyas done from the ground of "I am shaashvat satya" are qualitatively different from kriyas done from identification with pudgal.</p>
+<p class="simple-explanation"><b>The simple version:</b> The chariot moves through sky and the sky is unchanged. You have been moving through samsara for countless births. You are unchanged. That is not a consolation — it is the most important fact about you. Act from it.</p>
+<div class="contemplate-block"><b>Contemplate</b>Sit for a moment with: "I am shaashvat satya — the eternal truth that the movement of pudgal cannot touch." Does this produce peace or distance? What is the difference between that recognition and spiritual bypassing?</div>
+<div class="concept-tags"><span class="concept-tag">Svayog-svabhav</span><span class="concept-tag">Shaashvat satya</span><span class="concept-tag">Sky analogy</span><span class="concept-tag">Bhoomika-kriya</span><span class="concept-tag">Atma-chetanya</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Abhiman Stains, Bhavana Purifies (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तपःश्रुतादिना मत्त: क्रियावानपि लिप्यते ।<br/>भावनाज्ञानसंपन्नो, निष्क्रियोऽपि न लिप्यते ॥५॥८५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">One intoxicated with pride of tapa, learning, and kriyas — even while performing kriyas — gets karmically stained. One endowed with bhavana-jnana, even with fewer kriyas, does not get stained.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Spiritual Pride · The Stainer That Comes from Practice</span>
+</div>
+<p class="principle-def">The devastating paradox: "Main tapasvi hoon... main vidwan hoon... main vidyavan hoon... main kriyavan hoon." This kartritva-abhiman arising from spiritual accomplishment is itself a source of karma-bandhan — regardless of how much tapa or jnana prompted it. Umaswati's question: "Having received everything from those very teachings, how can you make pride the fruit?" Verdict: "Kevalmunmaad: svahridayasya sansaravriddhishcha" — pride only expands samsara. Bhavana-jnana is the actual purifying agent — not the volume of kriyas performed.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Four saturation-bhavanas against spiritual pride: (1) Comparing oneself to insects/worms vs. the atma's infinite potential — "Mera kya abhiman?" (2) Tapa and jnana help cross bhavsagar but should not become identity — they are boats, not the destination. (3) Even after acquiring shruta-jnana, mithyabhiman can still creep in and undo the work. (4) Bhavana-jnana is the required foundation for all aavashyakadi niyamas — without it, even perfect kriya-performance accumulates karma through the backdoor of pride. The person performing zero kriyas but utterly saturated in bhavana-jnana is less karmically stained than the person performing all kriyas with a trace of "I am the great practitioner."</p>
+<p class="simple-explanation"><b>The simple version:</b> The soot of pride is the sneakiest soot in the kajjal-griha. It coats you in the act of cleaning yourself. Bhavana-jnana is the only solvent that removes it — because it removes the "I" that is doing the cleaning.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where does spiritual pride appear in your practice? "I meditate daily." "I know the scriptures." "I am more conscious than others." Can you see how this pride is itself a source of karma-bandhan?</div>
+<div class="concept-tags"><span class="concept-tag">Abhiman</span><span class="concept-tag">Bhavana-jnana</span><span class="concept-tag">Tapa-garv</span><span class="concept-tag">Shruta-abhiman</span><span class="concept-tag">Mithyabhiman</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">अलिप्तो निश्चयेनात्मा, सिप्तश्च व्यवहारत: ।<br/>शुद्ध्यत्यलिप्ततया ज्ञानी, क्रियावान् लिप्ततया रशा ॥६॥८६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">By Nishchaya Naya the atma is unstained. By Vyavahar Naya it is karma-bound. The jnani holding nilepata-drishti becomes genuinely shuddhata. The kriyavan holding lipta-drishti gets cleansed through shuddhi-kriyas.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Two Nayas · Nishchaya + Vyavahar Producing Actual Shuddhi</span>
+</div>
+<p class="principle-def">The Nishchaya marg — complete saturation meditation: "Main apne shuddha svabhava mein ajnani nahi... poornaroopen jnani hoon... purnadashi hoon... akrodhi hoon... nirabhamani hoon... mayarahit hoon... nirlobhi hoon... nirmohi hoon... anant veeryashali hoon... sat-chidanandamay hoon." The Vyavahar marg: "Main japna/ashuddhya pravrittiyo ke karana karma-vandhano se jakda hua hoon. Lekin ab satpravritiyo ko apne jivan mein sthapit karunga." Both together produce atma-shuddhi. Neither alone is complete — pure nishchaya without vyavahar can become passive; pure vyavahar without nishchaya can become mechanical performance.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The same teaching illuminated from two angles. The jnani who holds nilepata-drishti (the nishchaya perspective: I am inherently unstained) becomes shuddhata through that very recognition. The kriyavan who holds lipta-drishti (the vyavahar perspective: I am currently karma-bound and need cleansing) gets cleansed through energetically performing kriyas. The key is that both paths lead to the same place — and at different moments and stages, one or the other may be the appropriate doorway. The test: if nishchaya-drishti is causing you to neglect necessary kriyas, switch to vyavahar. If vyavahar-drishti is causing mechanical kriya and abhiman, infuse nishchaya.</p>
+<p class="simple-explanation"><b>The simple version:</b> The jnani says "I am already pure" — and becomes pure by living from that truth. The kriyavan says "I am stained and must clean" — and becomes pure by energetically cleaning. Both are true. Both work. The trap is using one to avoid the other.</p>
+<div class="contemplate-block"><b>Contemplate</b>At this moment, which drishti do you need more — nishchaya (rest in your inherent purity) or vyavahar (acknowledge the karma and clean it)? What would it look like to apply the right one?</div>
+<div class="concept-tags"><span class="concept-tag">Nishchaya Naya</span><span class="concept-tag">Vyavahar Naya</span><span class="concept-tag">Nilepata-drishti</span><span class="concept-tag">Lipta-drishti</span><span class="concept-tag">Atma-shuddhi</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — The Two Nayas United &amp; The Final Namaskara (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">ज्ञान-निषासमावेशा सद्देशोमीलने हयो ।<br/>भूमिकामेदतत्त्वज्ञ, भवेदेवेकं शुद्धता ॥७॥८७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">When jnana-drishti and kriya-drishti open together — both nadis simultaneously unlock — jnana and kriya achieve unity. The one who knows the tattva of bhoomika-distinction attains shuddhata.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Jnana-Kriya Unity · The YogiRaj Drowning Story</span>
+</div>
+<p class="principle-def">A man drowning in a pond, thrashing desperately. YogiRaj wades in, drags him to safety hand-in-hand through deep water. After rescue: "When I put you in the water, why were you thrashing?" "For air — another moment and I would have died." "Is your longing for Parmatma-darshan as intense as that?" The teaching: give primacy to jnana or kriya according to your bhoomika. Up to the 6th gunasthana, kriya has primacy — but jnana-drishti is essential. In dhyanavastha, jnana has primacy — but neglecting aavashyaka kriyas breaks shuddhi. Neither ekanta kriya (only kriya, no jnana) nor ekanta jnana (only jnana, no kriya) alone produces atma-shuddhi.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Jnana and kriya are equal — both are boats, both are necessary. "Jnana ko praadhaanya do athva kriya ko, dono hi barabar hain." The key is vivek: knowing which requires primacy at your stage. The jivatma who develops this bhoomika-vivek automatically navigates toward shuddhi. The failure modes are symmetrical: one who uses "I am already pure (nishchaya)" to avoid kriya stagnates; one who performs kriyas mechanically without jnana-drishti accumulates mithyabhiman. The YogiRaj story is the question that cuts through all excuses: "Is your longing for liberation as desperate as that drowning man's longing for air?" When it is — jnana and kriya both come of their own accord.</p>
+<p class="simple-explanation"><b>The simple version:</b> The drowning man didn't ask "Should I use my left arm or my right arm?" He used everything. When the longing is real — jnana and kriya unite by themselves. The union happens when the bhavana behind it is genuine.</p>
+<div class="contemplate-block"><b>Contemplate</b>Is your longing for liberation as desperate as the drowning man's longing for air? If not — what would it take for it to become that? What stands between you and that quality of longing?</div>
+<div class="concept-tags"><span class="concept-tag">Jnana-kriya union</span><span class="concept-tag">Bhoomika-vivek</span><span class="concept-tag">YogiRaj story</span><span class="concept-tag">Ekanta-kriya</span><span class="concept-tag">Ekanta-jnana</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">11.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">सत्ज्ञान यदनुष्ठान, न लिप्त दोषपंकत ।<br/>शुद्धशुद्धस्वभावाय, तस्मै भगवते नम ॥८॥८८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Sat-jnana with dosha-free anushthan is not stained by dosha-panka (the mire of faults). To that Bhagavan — whose svabhav is shuddhashuddhsvabhav (both pure and the purifying force) — namaskara.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Shuddhashuddhsvabhav · Bhagavan as Both Model and Goal</span>
+</div>
+<p class="principle-def">The chapter culminates in pranama. The precise formula: dosha-rahit (without moha, abhiman, garv, kashaay, upasarg-bhiruta, vishay-akarshan) + samyag jnana-yukt + vidhipurvak anushthan = atma's shuddhbuddha svaroop is revealed by itself. Dosh-yukt kriyas feed mithyabhiman instead of revealing purity. Shuddhashuddhsvabhav: Bhagavan is both perfectly pure (shuddhata as his eternal nature) and the purifying force (shuddhata that purifies others). The namaskara is not merely devotional — it is the practitioner recognizing in Bhagavan the destination of their own sadhana.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The chapter's journey concludes: from the kajjal-griha (Shloka 1) through jnana-rasayan, triple non-identification, sky-analogy, eternal atma-truth, the paradox of spiritual pride, the dual nayas, bhoomika-wise balance — to here: a prostration before Bhagavan whose very svabhav is shuddhata. The namaskara recognizes three things: (1) Bhagavan has already achieved what the sadhak is seeking — he is the proof it is achievable; (2) his shuddhashuddhsvabhav is both the model and the active force that supports the sadhak's journey; (3) the one making the namaskara recognizes themselves as on the same path, approaching the same summit. "For karma-nirlep, jnana-kriya's vivekpurna tadatamya sadhana is essential." This is the summary of everything.</p>
+<p class="simple-explanation"><b>The simple version:</b> The chapter began: you are in a soot-house. It ends: namaskara to Bhagavan who is already what you are becoming. Between those two points — eight shlokas that show exactly how to make the journey without being covered in soot.</p>
+<div class="contemplate-block"><b>Contemplate</b>When you bow before Bhagavan, what are you recognizing? Are you prostrating before something external — or before the mirror of your own ultimate nature? What changes when the namaskara becomes both at once?</div>
+<div class="concept-tags"><span class="concept-tag">Shuddhashuddhsvabhav</span><span class="concept-tag">Sat-jnana</span><span class="concept-tag">Dosha-rahit</span><span class="concept-tag">Bhagavan-namaskara</span><span class="concept-tag">Karma-nirlep</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch10.html"><span class="text-lg">←</span> Chapter 10</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch12.html">Chapter 12 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
