@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 14: Vidyā (Knowledge) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 14</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Knowledge<span class="block text-primary font-normal text-xl md:text-2xl mt-2">विद्या</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Vidyā is not the accumulation of information. It is the precise reversal of avidyā — the three root confusions that have driven the jīva through saṃsāra since beginningless time.</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Vidyā — knowledge — is the fourteenth chapter and an anatomy of ignorance. Yashovijayji maps avidyā's three confusions: transient-as-permanent, impure-as-pure, other-as-self (Shloka 1). He shows how the moha-thief enters only through par-saṃyog's sukha-kalpanā (Shloka 2), names the lakshmī-jīvan-śarīra tri-koṇa as saṃsāra's entire novel (Shloka 3), and closes with the three ātmā stages — bāhirātmā, antarātmā, paramātmā — as vidyā's ultimate destination (Shloka 8).</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">नित्यशुच्यात्मताष्यातिरनित्याशुच्यनात्मसु ।<br/>अविद्या तत्वधीविद्या, योगाचाये: प्रकीतिता ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"Seeing the transient-impure-other as permanent-pure-self is avidyā. True tatva-understanding is vidyā." — Gyansaar 14.1</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Vidyā</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Vidyā</span> — Knowledge — is the fourteenth chapter and a precise dissection of avidyā's structure. The yogācāryas define avidyā as three core confusions: seeing the transient as permanent, the impure as pure, and the non-self as self. Vidyā is the tatva-dhī — the wisdom-understanding — that directly reverses these confusions. Not intellectual information, but lived recognition.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter builds from the root (three confusions, Shloka 1) through the mechanism (moha-thief, Shloka 2), the worldly expression of avidyā (lakshmī-jīvan-śarīra tri-koṇa, Shloka 3), the body's futile pursuit of purity (Shloka 4), the true bath of samata-kuṇḍa (Shloka 5), the ātmabodha pāśa of "I and mine" (Shloka 6), jīva-pudgal bhinnata as jnāna-dṛṣṭi's wonder (Shloka 7), and the final destination: bāhirātmā → antarātmā → paramātmā (Shloka 8).</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 14 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — Avidyā's Three Confusions &amp; The Moha-Chor (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">नित्यशुच्यात्मताष्यातिरनित्याशुच्यनात्मसु ।<br/>अविद्या तत्वधीविद्या, योगाचाये: प्रकीतिता ॥१॥१०५॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The yogācāryas have declared: considering the transient, impure, and non-self as permanent, pure, and self — this is avidyā. True tatva-understanding (tatva-dhī) is vidyā.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Avidyā's Three Confusions · The Root of All Saṃsāra</span>
+</div>
+<p class="principle-def">Three core confusions define avidyā: (1) Seeing par-saṃyog — external connections — as nitya (permanent). (2) Seeing the aśuci (impure) body as śuci (pure). (3) Seeing jaḍa-pudgal (inert matter) as ātmā ("mine"). This ahambhāvanā and mamavṛddhi is avidyā itself. It is the obstruction within maun, the vighna in sādhu-sādhanā. As long as this is not conquered, the perfection of sādhu-jīvan remains impossible. The karmā-sitam and nārkīya-yantranāeṁ borne over countless yugas — their root is this very avidyā. The reversal: recognize ātmā as nitya, recognize ātmā as pavitra, let ahambhāvanā arise in ātmā alone.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Yashovijayji places this diagnostic at the very opening: examine the three confusions operating in your daily life right now. Par-saṃyog — the connections to people, objects, relationships, reputation — are you treating these as permanent? Do they form the architecture of your security? That is avidyā-1. The body — with its āhāra-nidrā-bhaya-maithunamayi nature — are you treating it as the śuci entity that needs protection and enhancement? That is avidyā-2. The wealth, home, and position — are you experiencing "mine-ness," the mamakāra? That is avidyā-3. All three can operate simultaneously, reinforcing each other, creating the dense woven fabric of saṃsāra-entanglement. Vidyā is not merely knowing the names of the three confusions; it is the living tatva-dhī that directly reverses them through sustained recognition: par-saṃyog = anitya; body = aśuci; pudgal = not-ātmā.</p>
+<p class="simple-explanation"><b>The simple version:</b> You have been living with three basic errors in your operating system: treating the temporary as permanent, the impure as pure, and the external as yourself. These are not moral failures — they are errors of recognition. Vidyā is not adding more knowledge on top of these errors. It is replacing the errors with the correct recognition. That replacement is the whole work.</p>
+<div class="contemplate-block"><b>Contemplate</b>Find one place in your daily life where each of the three confusions is active right now. Which par-saṃyog are you treating as permanent? Which impure thing as pure? Which external thing as self? See all three clearly — and notice what shifts when you do.</div>
+<div class="concept-tags"><span class="concept-tag">Avidyā tri-bhrāma</span><span class="concept-tag">Nitya-anitya</span><span class="concept-tag">Śuci-aśuci</span><span class="concept-tag">Ātmā-anātmā</span><span class="concept-tag">Tatva-dhī</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">य: पश्येद् नित्यमात्मानमनित्यं परसंगमम् ।<br/>छलं लब्धु न शक्नोति तस्य मोहमलिम्लुच: ॥२॥१०६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one who always sees the ātmā as imperishable and par-padārtha's connection as perishable — the moha-thief (malimluca) finds no crevice to enter in him.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Moha-Malimluca · The Thief Who Enters Only Through One Door</span>
+</div>
+<p class="principle-def">Three simultaneous upāyas: (1) Ātmā's darśan as avināśī — not once, not occasionally, but continuously: "jab-jab ātmā kī or dṛṣṭipāt kareṁ tab-sab ātmā avināśī hai." (2) Par-pudgal-saṃyog as vināśī — seeing every external connection in its transience; when this recognition is alive, par-saṃyog-nartana cannot create the old ananda-vipāda. (3) Moha's entry prohibited from ātma-pradeśa — the dṛḍha saṃkalpa that moha shall not step foot. The mechanism: wherever par-saṃyog's sukha-kalpanā arises — the moment you imagine sukha in an external connection — moha-mahārāja enters ātmabhūmi without resistance. This is the single door through which the thief enters. Close that door through tatva-dṛṣṭi.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The Sīta-Rāmachandra parallel from the vivechan: when par-saṃyog is treated as nitya and then lost, the reaction is Sītā's vilāpa — that uncontrolled grief is precisely the proof of how deeply anitya was being treated as nitya. The Satakumāra-chakravartī reference: when the body he treated as śuci was revealed in its true aśuci form, he became bescaini — completely lost. These are not failures of willpower; they are natural consequences of the three confusions operating unchecked. The solution: avināśī-ātmā darśan as a continuous, living practice — "jab ātmā kā avināśī svarūp avlokan karne kī ānandānubhūti hogī tab naśvar śarīra aur bhautik sampada ke prati nirasatā aur gharīkāṣaṇa-vṛtti kā janma hogā." This is the organic displacement of avidyā by vidyā.</p>
+<p class="simple-explanation"><b>The simple version:</b> Moha has only one door: par-saṃyog's sukha-kalpanā. The moment you imagine sukha in something external, moha has already walked in. The lock for that door: the living recognition that ātmā is avināśī and par-saṃyog is anitya. Hold both simultaneously — moha has no entry.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where does moha most reliably enter your life? What is the specific par-saṃyog sukha-kalpanā that opens the door for it? Can you see the exact moment when the imagination of sukha in that external thing activates the chain? What would it mean to hold "this is anitya" at precisely that moment?</div>
+<div class="concept-tags"><span class="concept-tag">Moha-malimluca</span><span class="concept-tag">Avināśī ātmā</span><span class="concept-tag">Par-saṃyog anitya</span><span class="concept-tag">Ātma-pradeśa</span><span class="concept-tag">Sukha-kalpanā</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — The Lakshmī-Āyuṣya-Śarīra Tri-Koṇa (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तरंगतरलां लक्ष्मीमायुर्वायुवदस्थिरम् ।<br/>अदक्षधीरनुव्यायेदक्षवद् वपु: ॥३॥१०७॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The wise person sees: lakshmī is as fickle as an ocean wave; āyuṣya is as unstable as a gust of wind; śarīra is as perishable as a cloud. The unwise see the opposite.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Avidyā Tri-Koṇa · The Triangle That Is Saṃsāra's Entire Novel</span>
+</div>
+<p class="principle-def">The tri-koṇa of lakshmī-jīvan-śarīra has enslaved the jīvātmā's buddhi for countless lifetimes — made it directionless, limited its vicāra-śakti, buried its antar-cetanā under mounds of confusion. Every dvandva — rāga-dveṣa, harṣa-viṣāda, puṇya-pāpa, āśā-nirāśā — has this triangle at its root. It is the śmaśāna (cremation ground) of pure, elevated, ātmānulakṣī bhāvanās. Three prescriptions for dismantling it: see lakshmī in ocean waves → farewell to lakshmī-lālasā; hear āyuṣya's instability in mountain wind → resolve to release jīvan-cling; see śarīra's kṣayamayatā in passing clouds → decide inwardly to relinquish kāyā-spṛhā. When the tri-koṇa is seen truly, vidyā flowers: jnān-lakṣmī, ātmā's svalaya-dhana-jīvan, ātmadravya's ananta sampat — where pūrṇānanda and saccidānanda are experienced.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The power of these three images — ocean waves, mountain wind, monsoon clouds — is that they are not abstract philosophical propositions. They are concrete, sensory invitations to directly experience the three attributes of the tri-koṇa. At the seashore, watching the waves: no single wave stays. The most beautiful, the most powerful — it crests and disappears. Lakshmī is exactly this. On the mountain peak, in howling wind: the gust arrives with full force and is completely gone in a moment. Āyuṣya is exactly this. In the forest watching clouds gather and dissipate: the most dramatic cloud formation — dissolved in minutes. Śarīra is exactly this. When this is not intellectual agreement but actual bodily recognition — the lālasā, the cling, the spṛhā for these three things begins to loosen. Not through renunciation-as-hardship, but through recognition-as-clarity.</p>
+<p class="simple-explanation"><b>The simple version:</b> Wealth, life, and body — these three form the triangle that saṃsāra is built on. Every novel of suffering has these three in its plot. Yashovijayji's prescription: don't fight them — go to the ocean, the mountain, the forest, and let nature show you directly what these three actually are. When you've truly seen a wave break, you know lakshmī.</p>
+<div class="contemplate-block"><b>Contemplate</b>Spend a few minutes with each image: a wave, a gust of wind, a passing cloud. Let each become a direct perception of lakshmī's capala-svabhāv, āyuṣya's asthiratā, and śarīra's kṣayamayatā. What loosens in you? What cling is revealed by its loosening?</div>
+<div class="concept-tags"><span class="concept-tag">Lakshmī-taraṅga</span><span class="concept-tag">Āyuṣya-vāyu</span><span class="concept-tag">Śarīra-megha</span><span class="concept-tag">Avidyā tri-koṇa</span><span class="concept-tag">Dakṣa-adakṣa buddhi</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शुचीन्यप्यशुचीकतु समयेऽशुचीसंभवे ।<br/>देहे जलादिना शौचभ्रमो मूढस्य दारुण: ॥४॥१०८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">That which has the power to make even pure substances impure — born of impure materials — attempting to purify that body with water is a dāruṇa bhrama (terrible delusion) of the mūḍha.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Śarīra-Śuddhi · The Delusion of Purifying What Cannot Be Purified</span>
+</div>
+<p class="principle-def">The Bhavabhāvanā quote establishes the body's origin: born of the union of śukra and rūdhira — the first āhāra the jīvātmā takes at conception is these very pudgals. The body's mūla svabhāv: making the pure impure, turning fragrance into stench, turning the well-formed misshapen. Apply camphor, musk, sandalwood — within hours the body converts all of it to aśuddhi. Bathe a thousand times — two-three ghante later, sweating and malodorous again. This is not a problem to be solved — it is the śarīra's fundamental nature. The mūḍha spends enormous energy trying to make the body permanently śuci — a project that is ontologically impossible. The dṛḍha reorientation: śarīra is sādhan, not sādhya. Every dhātu, every indriya, every spandana — used as instruments for mokṣa-ārādhanā.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan's analogy: "Caukhale kā hazar bār dūdh-camcā pānī se dhoyā jāe — kya vah safed hogā?" A coal-black pot washed a thousand times with milk and water — does it turn white? So too the body, which is constituted of utterly impure materials and whose function is to render the pure impure — no amount of water, perfume, or ritual will change its mūla svabhāv. This is not contempt for the body; it is accurate recognition of what it is. The body is the best available vehicle for mokṣa-mārga ārādhanā — this is its actual dignity. Not as an end in itself, but as the supreme sādhan. The entire confusion collapses when śarīra's role is correctly understood: not the object of purisartion efforts, but the instrument of liberation.</p>
+<p class="simple-explanation"><b>The simple version:</b> The body is born of impure materials and its function is to make the pure impure. No amount of bathing changes this — it is the body's very nature. This is not a problem to solve; it is a fact to recognize. When recognized, the enormous energy spent on body-purification as a spiritual project is freed for the ātmā's actual purification.</p>
+<div class="contemplate-block"><b>Contemplate</b>How much time, energy, and attention goes toward śarīra-śuddhi in your daily life — physical maintenance, health, appearance? Is it being treated as sādhan (instrument for ātma-ārādhanā) or as sādhya (end in itself)? What shifts when the śarīra is firmly re-placed as instrument rather than goal?</div>
+<div class="concept-tags"><span class="concept-tag">Dāruṇa-bhrama</span><span class="concept-tag">Śarīra-mūla-svabhāv</span><span class="concept-tag">Sādhan vs sādhya</span><span class="concept-tag">Bhavabhāvanā</span><span class="concept-tag">Mokṣa-sādhan</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Samata-Kuṇḍa &amp; The Ātmabodha Pāśa (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">य भ्नात्वा समताकुण्डे हित्वा कर्मलज मलम् ।<br/>पूजनं माति मातिन सोऽनरात्मा पर सुचि ॥५॥१०९॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one who bathes in the samata-kuṇḍa, casting away the mala born of karma-pāpa — without desiring worship — that antarātmā is supremely pure in the world.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Samata-Kuṇḍa · The Only Bath That Purifies Permanently</span>
+</div>
+<p class="principle-def">The counterpoint to body-purification-with-water: the samata-kuṇḍa — filled with the deep water of upaśama. Bathing in it: pāpa-paṅka is washed, samyaktva's parama-pāvitrată is received. The samakitī ātmā that has received samyag-darśan's amogh-śakti will not be defeated in karma's battle — at most binds koḍākoḍī sāgaropama sthiti. Three mala dissolved by samata-rasa immersion (Adhyātmasāra): viṣaya-vāsanā's venom dries from the eyes; krodha's heat cools; svacchandatā's filth washes away. The Adhyātmasāra confirms: the ātmā's samata alone, when truly internalized, produces the greatest benefit — no number of external bathing rites can match it. Once the bhāvanā "maiṁ pavitra hūṁ" becomes stable — the very impulse to externally purify the body disappears.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan's invitation is direct and sensory: "Lo yah rahā samata kā kuṇḍ! Yah upaśama ke athāha jal se bharā paḍā hai. Usameṁ praveś kara tum sarvāṅgīṇa snāna karo." This is not metaphor for the sake of beauty — it is a precise instruction about where the actual purification occurs. The contrast: the person who cleanses the body with elaborate ritual while the ātmā remains covered with karma-mala is performing the wrong bath. The person who immerses in samata-kuṇḍa — regardless of external circumstances, not seeking any worship or recognition — is performing the only bath that matters. The sequence: samata → samkita → ātmā's ujjvalatā and pavitrātā. Not the reverse.</p>
+<p class="simple-explanation"><b>The simple version:</b> Shloka 4 asks: why are you trying to purify the body? Shloka 5 gives the alternative: there is a bath that actually works. It is samata — equanimity. One bath in samata dissolves what a million external baths cannot touch. And it leaves a purity that lasts, not one that needs to be renewed every few hours.</p>
+<div class="contemplate-block"><b>Contemplate</b>What does samata — equanimity, upashama — actually feel like when it is present? Can you locate a moment recently when samata was fully alive in you? What produced it? Can you find your way back to that samata-kuṇḍa intentionally, right now?</div>
+<div class="concept-tags"><span class="concept-tag">Samata-kuṇḍa</span><span class="concept-tag">Upaśama</span><span class="concept-tag">Samyag-darśan</span><span class="concept-tag">Karma-mala</span><span class="concept-tag">Antarātmā</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आत्मबोधो नव पाशो, देहगेहघनादिषु ।<br/>य:क्षिप्तोज्नात्मना तेषु स्वस्य वन्धाय जायते ॥६॥११०॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Considering the body, home, and wealth as ātmā — this is a new, extraordinary bondage-pāśa. The pāśa thrown by ātmā onto body/home/wealth binds not the body but the ātmā itself.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Ātmabodha Pāśa · The Alaukika Noose That Only Binds Its Thrower</span>
+</div>
+<p class="principle-def">The paradox that is saṃsāra's central mechanism: ātmā throws the pāśa of "I" onto the body and "mine" onto the home and wealth — but the pāśa binds ātmā, not the objects. This is alaukika (extraordinary, unlike ordinary nooses) because: normally the one the noose is thrown at gets bound; here, the thrower gets bound. "Main aur merā" — this anādikālīna ahaṃkāra and mamatvakāra is what keeps the jīva wandering in saṃsāra, jailed in karma, rotting in naraka-nigoda. The Adhyātmasāra confirms the signs of bāhirātmāvasthā: viṣaya-kaṣāya-āveśa, tattvā-śraddhā lacking, guṇeṣu-dveṣa. Historical echoes: Puḍama-chakravartī, Hitler, Napoleon — great powers consumed and destroyed by this pāśa.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The darpan (mirror) image from the vivechan: if we looked at ourselves truly in this mirror — what would we see? "Jaḍa-ayakato se jakaḍe, tamīna, nisteje, parāthīna, paratama aura sabasya gāwāra hue, dara dara meṁ bhikhārī meṁ." Entangled in matter, dull, without luster, dependent, enslaved — and a beggar from door to door. This is the bāhirātmāvasthā seen clearly. The contrast: as mamakāra grows toward the body-home-wealth, parāyamanīnatā and paratavata grow simultaneously. The path out is not destroying the body-home-wealth — it is removing the ātmabodha pāśa. When the "I" is correctly placed in the ātmā (not the body) and "mine" is released from home and wealth — the pāśa is dissolved, and the bound becomes free.</p>
+<p class="simple-explanation"><b>The simple version:</b> When you say "I am this body" and "this is mine," you have thrown a noose — but it lands around your own ātmā, not around the body or the possessions. The body, the house, the wealth continue as before — it is the ātmā that gets bound. The release: correctly locating "I" in the ātmā and releasing "mine" from everything else.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where is your "I" placed right now — in the ātmā or in the body? And where is "mine" most strongly felt — which possession, which relationship, which status? See the noose clearly: notice how it binds you, not the thing it surrounds. What does it feel like to loosen it even slightly?</div>
+<div class="concept-tags"><span class="concept-tag">Ātmabodha pāśa</span><span class="concept-tag">Alaukika bandhan</span><span class="concept-tag">Ahaṃkāra-mamatvakāra</span><span class="concept-tag">Bāhirātmāvasthā</span><span class="concept-tag">Main-aur-merā</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Jīva-Pudgal Bhinnata &amp; The Three Ātmā Stages (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">मिथोयुक्तपदार्थानामर्शांकमद्वसत्क्रिया ।<br/>चिन्मात्रपरिज्ञामेन विदुर्षवानुभूयते ॥७॥१११॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The chamatkāra (wonder) of the distinctness of jīva and pudgala — these substances that appear mixed — is experienced only through the jnāna-mātṛ parijñāna (wisdom-recognition) of the vidvān.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Pañcāstikāya & The Wonder of Bhinnata · What Jnāna-Dṛṣṭi Sees</span>
+</div>
+<p class="principle-def">Five dravyas exist eternally: Dharmāstikāya (aids motion), Adharmāstikāya (aids stasis), Ākāśāstikāya (provides space), Pudgalāstikāya (all rūpī matter, in constant transformation), Jīvāstikāya (cetana, whose function is self-luminous jnāna). No dravya's astitva merges into another. No dravya performs another's function. ātmā's jnān-guṇa does not enter pudgala; pudgala's guṇa does not enter ātmā. Yet they appear completely intermixed to ordinary vision. The chamatkāra: jīva and pudgala are radically distinct even in their most intimate apparent union — and this distinctness can be directly perceived, but only through jnāna-mātṛ parijñāna. Siddhasena Diwākarjī (Sammati-tarka): "like different colors of water appearing mixed — jīva and pudgala in their special paryāyas must be distinguished." This seeing is vidyā itself.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The chamatkāra is genuinely astonishing when perceived: jīva and pudgala have been coexisting, apparently intermingled, since anādi kāl — yet they remain utterly distinct. The cetanā of the jīva has never actually become the jaḍatā of pudgala. The rūpa of the pudgala has never actually become the arūpa of the jīva. They cohabit but do not merge. This radical distinctness — simultaneous with apparent unity — is accessible only to the jnāna-dṛṣṭi that has done the work of developing parijñāna. For ordinary mohadṛṣṭi, jīva and pudgala are completely fused — "I am this body," "my pain is my ātmā's pain." For jnānadṛṣṭi, the distinctness is vivid, immediate, and wonder-producing. This is not a philosophical conclusion; it is an anubhava available through the sustained practice of the vidyā this chapter teaches.</p>
+<p class="simple-explanation"><b>The simple version:</b> The ātmā and the body have been together since beginningless time — yet they have never merged. The ātmā's light has never become the body's weight; the body's pain has never actually entered the ātmā. This radical distinctness, perceived directly, is the wonder that vidyā reveals. And only jnāna-dṛṣṭi can see it — ordinary vision sees only the mixture.</p>
+<div class="contemplate-block"><b>Contemplate</b>In this moment: can you sense any separation between your awareness itself and what it is aware of — including the body's sensations, the mind's thoughts? Is there a "knowing" that is distinct from the "known"? That gap — however small — is the beginning of jīva-pudgal bhinnata as a lived anubhava rather than a philosophical position.</div>
+<div class="concept-tags"><span class="concept-tag">Jīva-pudgal bhinnata</span><span class="concept-tag">Pañcāstikāya</span><span class="concept-tag">Chamatkāra</span><span class="concept-tag">Jnāna-mātṛ parijñāna</span><span class="concept-tag">Sammati-tarka</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">14.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">पादिठ्यानिनिदरस्मो एशा विद्याज्ञानसंपशा ।<br/>पर्यन्त परमासम्व लाभमान्यय हि ओलिगिन ॥८॥११२॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">This is vidyā — the jnāna-sampat of the yoga-yukta: abandoning the identification with bāhirātmā and anātmā, and finding paramāsukha in the ātmā itself.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Hero Shloka</span>
+<span class="principle-name">Three Ātmā Stages · Bāhirātmā → Antarātmā → Paramātmā</span>
+</div>
+<p class="principle-def">The chapter's culmination: the three ātmā stages that are both the diagnosis and the map. Bāhirātmā: ātmā identified with the body, home, and wealth — the pāśa fully operative, the three confusions fully active, moha fully resident in ātma-pradeśa. Antarātmā: the stage of samata-kuṇḍa immersion — some samyag-darśan present, the pāśa beginning to loosen, vidyā's light beginning to illuminate the three confusions. Paramātmā: the bāhirātmā-anātmā identifications fully dissolved — "we are paramātmā," teraveṁ or chaudaveṁ guṇasthānak traversed, the ātmā's jyoti shining forth naturally. The prerequisite for this final stage: mānasika śānti — krodha, māna, māyā, matsara, kalaha, vipāda, vairavṛtti quieted. Without this śānti, vidyā cannot become fully operational. The Adhyātmasāra: "śānte namani vabhoti prakāśate śāntamātmana sahajam" — the peaceful mind is illuminated; the peaceful ātmā's light shines of its own accord.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The Adhyātmasāra quote at the conclusion gives the direct method: "Saṃsārata sabhī bāla yapat ko chāḍachāḍa kara, mana ko kuma dhuna byālamvana meṁ sthira kara, yadi dhyāna sarā jāya toa mana ko śānta hotā hai. Īvālambana meṁ sthira kara upaśānta ho jāte hai. Tab ātmā kī jyoti sahaja upaśānta ho jātī." Releasing all of saṃsāra's noise, stabilizing the mind in the single support of the ātmā, allowing dhyāna to flow — the mind becomes śānta; the support becomes upaśama; the ātmā's jyoti shines naturally. This is not a distant promise. This is vidyā's actual function when it is genuinely operative. The entire chapter — from avidyā's three confusions to paramātmā-darśana — is one coherent movement: avidyā dissolves and vidyā flows, and the ātmā's natural light, always present, always available, is finally unobstructed.</p>
+<p class="simple-explanation"><b>The simple version:</b> Every jīva moves through three stages: bāhirātmā (identified with body, house, wealth), antarātmā (the samata-stage, beginning to recognize the ātmā), paramātmā (all false identifications dissolved, the ātmā's light shining freely). Vidyā is the movement from the first to the third — not as a distant goal but as a living progression that begins the moment avidyā's first confusion is clearly seen.</p>
+<div class="contemplate-block"><b>Contemplate</b>Where are you in the three stages right now — mostly bāhirātmā, with some antarātmā moments? Or more firmly antarātmā, with glimpses of paramātmā? What does the next step look like specifically — not as an abstract aspiration, but as a concrete change in how the "I" is placed and what "mine" is attached to?</div>
+<div class="concept-tags"><span class="concept-tag">Bāhirātmā</span><span class="concept-tag">Antarātmā</span><span class="concept-tag">Paramātmā</span><span class="concept-tag">Mānasika śānti</span><span class="concept-tag">Vidyā-jnāna-sampat</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch13.html"><span class="text-lg">←</span> Chapter 13</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch15.html">Chapter 15 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
