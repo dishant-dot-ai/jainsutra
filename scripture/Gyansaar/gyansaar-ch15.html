@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gyansaar Chapter 15: Vivek (Discernment) | JainAwaken.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.contemplate-block { margin-top: 0.75rem; padding: 0.875rem 1.125rem; background: rgba(117,91,0,0.04); border-radius: 6px; font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.75; color: #503d00; font-style: italic; }
+.contemplate-block b { font-style: normal; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: 'Inter', sans-serif; color: #755b00; font-weight: 700; display: block; margin-bottom: 4px; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+.principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }
+.principle-header { display: inline-flex; align-items: center; gap: 8px; }
+.principle-badge { background: rgba(22,101,52,0.1); border: 1px solid rgba(22,101,52,0.35); color: #166534; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
+.principle-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
+.principle-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Gyansaar · Chapter 15</span>
+<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+  Discernment<span class="block text-primary font-normal text-xl md:text-2xl mt-2">विवेक</span>
+</h1>
+</div>
+<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">Vivek is not practical wisdom — it is the bheda-jnāna that knows the jīva as utterly distinct from karma, from pudgal, from everything that is not-ātmā.</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Vivek — discernment — is the fifteenth chapter and the sharpest tool in Gyansaar. Yashovijayji opens with the haṃsa-viveka: separating jīva from karma as a swan separates milk from water (Shloka 1). He shows that true bheda-jnāna is rarer than crores of lifetimes of kāma-bhoga (Shloka 2), establishes the timira-roga analogy (Shloka 3), and closes with the saṃyama-śastra sharpened on viveka-sān — the Khapaka Muni who was skinned alive yet remained unmoved (Shloka 8).</p>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full aspect-[16/10] relative rounded-xl overflow-hidden bg-surface-container-highest shadow-2xl">
+<img alt="Ancient Jain manuscript — Gyansaar" class="w-full h-full object-cover grayscale-[0.1] hover:grayscale-0 transition-all duration-1000 scale-105 hover:scale-100" src="../../assets/manuscript.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-surface/20 to-transparent pointer-events-none"></div>
+</div>
+<div class="mt-8 text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">संयमास्त्रं विवेकेन धाण्यनोनोरोजितं मुने: ।<br/>घृतिघारोल्वणं कर्मनात्रुच्छेदक्षमं भवेत् ॥</p>
+<p class="text-base text-on-surface-variant mt-3 font-light italic">"The muni's saṃyama-śastra, sharpened on viveka-sān and edged with dhṛti — becomes capable of utterly destroying the karma-enemy." — Gyansaar 15.8</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Vivek</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant"><span class="text-primary font-semibold">Vivek</span> — Discernment — is the fifteenth chapter and Gyansaar's sharpest tool. This is not the ordinary vivek of common sense, but the tātvika bheda-jnāna: knowing jīva as utterly distinct from karma and pudgala. Like milk and water appear completely mixed, jīva and karma have been intertwined since anādi kāl — yet the muni-haṃsa can and must separate them through viveka.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter maps the full architecture: haṃsavṛtti of separating jīva from karma (1), the extreme rarity of genuine bheda-jnāna (2), timira-roga: vikaras in the pure ātmā are like streaks in clear sky — only the afflicted eye sees them (3), karma's actions wrongly credited to the pure ātmā (4), dhatura analogy and ātmā's distinctness from all five dravyas (5), paramabhāva as viveka's summit with fourteen lakṣaṇas (6), ṣaṭ-kāraka applied entirely within ātmā — the ātmādvaita dṛṣṭi (7), the saṃyama-śastra — Khapaka Muni's proof (8).</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">8</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Shlokas</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">23</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Chapters Total</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Yashovijayji</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Author</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Shvetambara</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Tradition</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Shlokas -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Chapter 15 · Gyansaar</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The 8 Shlokas</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each shloka is presented with the original Sanskrit, English translation, and commentary synthesized from the vivechan.</p>
+</div>
+
+<div class="section-divider"><span>Part 1 — Haṃsavṛtti &amp; The Rarity of True Bheda-Jnāna (Shlokas 1–2)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">कस जीव च समिसटं सयवा खीरनीरसद् ।<br/>कस जीव व समिसट मोलसो मुनिहसो विवेचवाद् ।।१।।११३।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as the haṃsa (swan) separates milk from water — so the muni-haṃsa separates the jīva from karma through viveka.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Haṃsavṛtti · The Swan Who Separates What Appears Inseparable</span>
+</div>
+<p class="principle-def">Jīva and karma have been mixed since anādi kāl — like milk and water in the same vessel, completely intermingled. This intermixing is what has kept the jīva wandering in saṃsāra without rest. The Samayasāra confirms: even at the paramāṇu level, the bheda must be known and maintained. When the jīva attains viveka-jnāna — the knowledge that separates jīva from karma with precision — the accumulated confusion begins to dissolve. The muni who achieves this haṃsavṛtti experiences pūrṇānanda; rāgādi doṣas become upaśamified; the citta becomes prasanna and praphullit. The key recognition: the ātmā is pūrṇa-viśuddha right now. The impurities are not ātmā's own; they are karmajanya projections. Recognizing this is the beginning of actual liberation.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The haṃsa image is precise: the swan does not avoid water or condemn it. It lives with water, moves through water — yet it separates the milk perfectly. The muni-haṃsa is the same: living in saṃsāra, moving through karmajanya experience — yet maintaining the bheda-jnāna that keeps jīva's recognition separate from the karma-mix. This is not renunciation-from-the-world but clarity-within-the-world. The viveka is not spatial separation (moving away from karma's influence) but jnāna-separation: knowing at every moment "this is jīva, this is karma, these are not the same." The Samayasāra's confirmation that even paramāṇu-level separation is possible indicates that no entanglement, however subtle or ancient, is immune to bheda-jnāna's operation.</p>
+<p class="simple-explanation"><b>The simple version:</b> Milk and water look completely mixed. The swan can separate them perfectly. Jīva and karma look completely mixed — they have been together since time without beginning. But viveka-jnāna is the swan's capacity: it can separate them. And when separated, the jīva is revealed as always-pure, always-distinct — it was only the mixing that created the confusion.</p>
+<div class="contemplate-block"><b>Contemplate</b>Right now, in this moment of experience — can you identify any quality that is distinctly jīva (knowing, luminous, witnessing) versus anything that is clearly not-jīva (weight, sensation, thought-content)? That flash of distinction — however momentary — is the beginning of haṃsavṛtti. Can you hold it for one more breath?</div>
+<div class="concept-tags"><span class="concept-tag">Haṃsavṛtti</span><span class="concept-tag">Jīva-karma bheda</span><span class="concept-tag">Bheda-jnāna</span><span class="concept-tag">Kṣīra-nīra</span><span class="concept-tag">Muni-haṃsa</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">देहात्माघविवेकोऽयं सर्वेदा सुलभो भवे ।<br/>भवकोट्यापि तद्भेद-विवेकस्त्वति दुलभ: ।।२।।११४॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The mere vāsanā (habitual non-discrimination) of body-ātmā confusion is always easily available. But the true bheda-viveka — even after crores of lifetimes — is supremely rare.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Bheda-Jnāna's Extreme Rarity · What Is Actually Durlabha</span>
+</div>
+<p class="principle-def">The diagnosis of saṃsāra's default state: living in body-ātmā non-discrimination is "sulabha" — easily available, requiring no effort, the automatic condition of the unawakened jīva. What is genuinely rare: even knowing that a distinct "ātmapadārtha" exists, separate from the body. Most beings go through countless lifetimes never even knowing such a distinction is possible. The Samayasāra captures it: "Egalastu yalamo śāvariśṇa sulamo vibhassata" — kāmabhoga's story is universally known and experienced; but the viśuddha ātmā's ekākinī uniqueness — who has made that familiar? The prerequisites for bheda-jnāna: viṣaya-vairāgya, kaṣāya-upaśama, nine-tattva śraddhā, ātmā's natural anurāga toward its own svarūpa — only then does bheda-jnāna become accessible.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The vivechan gives the precise prerequisites for bheda-jnāna to become possible: first, viṣaya-tyāga-vṛtti — as long as anurāga toward viṣayas remains, the mind stays saturated with bāhya-bhāvas and cannot turn inward. Second, kaṣāya-upaśama — the mind seized by kaṣāyas cannot understand or experience jaḍa-cetana's bheda. As the kaṣāya-vega slows and its heat reduces, natural attraction toward tatva arises. Third: nine-tattva śraddhā growing — leading to ātmā's svarūpa anurāga arising, which leads to kṣamādi guṇa anurāga, which leads to vrata-anuṣṭhāna vṛtti, which leads to moha-vāsanā weakening, which finally creates the yogyatā (capacity) for bheda-jnāna. It is a whole sequence — not a single switch. This is why bheda-jnāna is bhavakoṭi-durlabha: it requires the full sequential preparation.</p>
+<p class="simple-explanation"><b>The simple version:</b> Confusion is easy — it is the default. Clarity is rare — it is the achievement. Most beings don't even know that "jīva distinct from karma" is a possible experience. Even those who know it intellectually haven't yet made it familiar through lived recognition. This is why Yashovijayji says: even after crores of lives of kāmabhoga — which everyone has known — bheda-jnāna remains durlabha. It requires preparation that most lives don't include.</p>
+<div class="contemplate-block"><b>Contemplate</b>How familiar is kāmabhoga's story in your experience? Very familiar. How familiar is the ātmā's distinct, separate, luminous quality? Has it become a living anubhava — or is it still a heard-about concept? The gap between these two familiarities is exactly what this shloka is pointing at.</div>
+<div class="concept-tags"><span class="concept-tag">Bhava-koṭi-durlabha</span><span class="concept-tag">Viṣaya-vairāgya</span><span class="concept-tag">Kaṣāya-upaśama</span><span class="concept-tag">Deha-ātmā bheda</span><span class="concept-tag">Sulabha-durlabha</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 2 — Timira-Roga &amp; Karma's False Attribution to the Pure Ātmā (Shlokas 3–4)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">शुद्धेऽपि ध्योम्नि तिमिराद् रेखाभिमिश्रता यथा ।<br/>विकारैर्मिश्रता भाति तथास्त्वन्यविवेकत: ।।३।।११५।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as in the clear sky, due to timira-roga (an eye-disease), colored streaks appear mixed in — so too in the pure ātmā, due to aviveka, vikaras appear intermixed.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Timira-Roga · The Afflicted Eye That Sees Streaks in Clear Sky</span>
+</div>
+<p class="principle-def">The sky is utterly clear and śūnya. But the eye afflicted with timira-roga sees colored lines and shapes — nīla, pīta, vicitradigvikāras — everywhere in the sky. The vivekavān knows: these are not in the sky; they are in the afflicted vision. The avivekī insists: "Look, the sky has streaks — it is vikārātmaka!" So too with the ātmā. In the avivekī's view, the pure ātmā appears full of vikaras: janma, jarā, mṛtyu, rāga, dveṣa, moha, disease, suffering. The vivekī knows: these are not ātmā's own vikaras — these are karmajanya bhāvas projected by the afflicted aviveka-dṛṣṭi. The ātmā is always śuddha, always chinmātra, always distinct. The Adhyātmasāra confirms: ātmajnāna's phala is dhyāna; ātmajnāna itself is mokṣa-giving. Bheda-jnāna = the cure for timira-roga.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The timira analogy makes precise what avidyā-analysis can sometimes leave abstract. The sky's actual nature is not in question — it is utterly clear. The question is entirely about the vision observing it. Similarly, the ātmā's actual nature is not in question — it is utterly śuddha, always was and always will be. The question is entirely about the dṛṣṭi observing it. The person with timira-roga is not wrong about what they see — they genuinely see colored streaks. But those streaks are not in the sky; they are in the condition of their vision. The avivekī is not wrong about what they experience — they genuinely experience vikaras. But those vikaras are not in the ātmā; they are in the condition of their aviveka-dṛṣṭi. The cure is not changing the sky (the ātmā needs no change) — it is curing the timira-roga (the aviveka-dṛṣṭi).</p>
+<p class="simple-explanation"><b>The simple version:</b> The sky is perfectly clear. Someone with a certain eye condition sees colored lines in it. They think: "The sky has lines in it." You know: no, the lines are in the eye, not the sky. The ātmā is perfectly pure. The avivekī sees all kinds of vikaras in it. The vivekī knows: no, those are karmajanya projections, not ātmā's own nature. The ātmā has always been clear sky.</p>
+<div class="contemplate-block"><b>Contemplate</b>Think of a moment when you experienced a strong state — grief, anger, fear, joy. Did you experience it as "I am grieving/angry/afraid/joyful"? Or was there any sense of an aware witness that was slightly separate from the state? That witness — however slight — is the glimpse beyond timira-roga. Can you find it now?</div>
+<div class="concept-tags"><span class="concept-tag">Timira-roga</span><span class="concept-tag">Aviveka-dṛṣṭi</span><span class="concept-tag">Śuddha ātmā</span><span class="concept-tag">Karmajanya vikāra</span><span class="concept-tag">Āropana</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.4</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">यथा योधैः कुतं युद्ध स्वामिन्येवोपचर्यते ।<br/>शुद्धात्मन्यविवेकेन कमस्कन्धोजितं तथा ।।४।।११६।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as a war fought by soldiers is credited to the king — so too, due to aviveka, the karma-skandha's activity is attributed to the pure ātmā.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Karma-Skandha & The King Who Did Not Fight · The Mithyā Āropana</span>
+</div>
+<p class="principle-def">Soldiers fight the battle — the king does not personally swing a sword. Yet the people say "the king won" or "the king was defeated." The soldiers' action is credited to the king. This is the precise structure of aviveka: karma-pudgala creates puṇya and pāpa through its own activity — but aviveka credits the pure ātmā: "ātmā did puṇya," "ātmā did pāpa." The Adhyātmasāra verse establishes: janmādiko'pi nimittaṁ pariṇāmo hi karmaṇām — birth, old age, death, all these are karmajanya pariṇāmas; they do not belong to the avikārī ātmā. But the jnānabhrashṭa attributes them to the ātmā — like seeing a crystal as red due to a nearby red cloth. The sphatikaratna has not become red; it appears red due to the upadhāna (nearby influence). Ātmā has not become janmādi-vikārī; it appears so due to karma's proximity — that is all.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The Adhyātmasāra provides three parallel verses that build the case with precision: (1) "janya vikṛti naḥ... āropyakevala gamtṛtā vikṛtim ātmani | bhrāntiḥ sphaṭika-vijñānaṁ..." — attributing karmajanya vikṛti to the ātmā is exactly like mistaking a crystal for red due to a red background. (2) The upadhābheda parallel — just as different upadhis (coverings) create the illusion of difference in what is actually undifferentiated. The key insight: ātmā and karma may occupy the same "ākāśa-pradeśa" — yet karma cannot truly enter ātmā because ātmā remains in its svabhāva and is therefore always śuddha-viśuddha. Just as different astikāyas coexist in the same space without merging, ātmā and karma coexist without ātmā actually becoming karma's vikārī.</p>
+<p class="simple-explanation"><b>The simple version:</b> The soldiers do the fighting; the king gets the credit or blame. Karma does the activity; the ātmā gets wrongly credited. "I am sick" (actually: the karma-governed body has the sickness). "I committed that act" (actually: karmajanya impulses created that action). The pure ātmā — the king who did not personally fight — is innocent. Viveka restores that innocence to consciousness.</p>
+<div class="contemplate-block"><b>Contemplate</b>In the last week: what was credited to "you" that was actually karmajanya? A mood you were in — was that "you," or karma's activity? An impulse you acted on — "your" decision, or karmajanya tendency? What is it like to see those as karma's soldiers' battles rather than the king's personal choices?</div>
+<div class="concept-tags"><span class="concept-tag">Karma-skandha āropana</span><span class="concept-tag">Mithyā āropana</span><span class="concept-tag">Sphatikaratna analogy</span><span class="concept-tag">Avikārī ātmā</span><span class="concept-tag">Jnānabhrashṭa</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 3 — Dhatura Analogy &amp; Ātmā's Distinctness from All Five Dravyas (Shlokas 5–6)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.5</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">इष्टकाद्यपि हि स्वर्णं पीतोश्मतो वयेक्षते ।<br/>आत्माऽपेदऽसत्तह्रद् देहादादविवेकिन: ।।५।।११७।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Just as the one who has drunk dhatura-juice sees even bricks as gold everywhere — the avivekī also sees the ātmā in the body and senses.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Dhatura-Dṛṣṭi · The Intoxication That Makes Everything Look Like Gold</span>
+</div>
+<p class="principle-def">Dhatura-rasa creates total viparītatā in the dṛṣṭi — whatever the person sees, they see as gold. Avidyā and aviveka produce the same effect: the avivekī sees ātmā in the body, in the indriyas, in the mind — identifies them as self, treats them as ātmā. The antidote: knowing ātmā's distinctness from each of the five dravyas. (1) Pudgalāstikāya's dharma = mūrtatā (form); ātmā's guṇa = jnāna → bhinna. (2) Dharmāstikāya's dharma = gatihetuatā; ātmā's guṇa = jnāna → bhinna. (3) Adharmāstikāya's dharma = sthitihetuatā; ātmā's guṇa = jnāna → bhinna. (4) Ākāśāstikāya's dharma = avakāśa; ātmā's guṇa = jnāna → bhinna. And: indriya, bala, śvāsocchvāsa, āyuṣya — all dravya-prāṇa, pudgal's paryāyas — utterly distinct from ātmā. "Jīvo jīvita na prāṇovir nā" — the ātmā lives not because of these.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The dhatura analogy is more penetrating than the timira analogy: dhatura actively distorts perception, creating enthusiasm and certainty in the distorted seeing — the dhatura-drunk person is not merely confused but confidently confused, seeing gold everywhere with excitement. Aviveka has exactly this quality: the avivekī does not merely confuse ātmā with body — they are confidently, enthusiastically identified with the body, defending it, elaborating it, proud of it. The five-dravya analysis is the systematic cure: one by one, each candidate for "self" (body, senses, indriyas, dravya-prāṇas) is examined and found to have a dharma (characteristic function) utterly different from jnāna — which is ātmā's alone. By the process of elimination, ātmā stands revealed as distinct from everything that has a dharma other than jnāna.</p>
+<p class="simple-explanation"><b>The simple version:</b> Dhatura makes you see gold everywhere — even in bricks. Aviveka makes you see "self" everywhere — even in the body's sensations, the mind's contents, the indriyas' experiences. The five-dravya analysis is the antidote: one by one, show that each candidate has a different essential nature from jnāna. Only ātmā is jnāna-svarūpa. Everything else is bhinna.</p>
+<div class="contemplate-block"><b>Contemplate</b>When you say "I am hungry" or "I am tired" or "I am in pain" — where exactly is the "I" placed? Is it in the sensation (pudgal's paryāya) or in the awareness of the sensation (ātmā's jnāna)? Can you find the distinction between "there is hunger being known" versus "I am hunger"? That distinction is the beginning of the five-dravya viveka applied directly.</div>
+<div class="concept-tags"><span class="concept-tag">Dhatura-dṛṣṭi</span><span class="concept-tag">Pañca-dravya bheda</span><span class="concept-tag">Jnāna-guṇa</span><span class="concept-tag">Dravya-prāṇa bheda</span><span class="concept-tag">Mūrtatā vs jnāna</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.6</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">इच्छन् न परमान् भावान् विवेकाड्रे पतत्यष् ।<br/>परम भावमनिच्छन् नाविवेके निमज्जति ।।६।।११८।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one who does not seek paramottama bhāvas falls from the peak of viveka. The one who seeks paramabhāva never sinks into aviveka.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Viveka-Giriraj · The Summit That Holds Only the One Who Seeks Paramabhāva</span>
+</div>
+<p class="principle-def">Seeking śuddha-caitanyabhāva — viśuddha ātmabhāva — lifts the jīva to viveka's supreme peak. Neglecting it throws the jīva into the deep valley where aviveka's rākṣasī jaws devour it. The peak = apramattabhāva. At that summit, rare siddhis and labdhis arrive — but the viśuddha-ātmabhāva-yukta muni is utterly udāsīna (indifferent) toward them. Praśamarati's two verses: "In this world, other beings would struggle enormously for such rare siddhi-labdhi — but the praśamarati-muni cannot be moved by them." And: "All devas' combined sampat cannot equal one-thousandth of the muni's adhyātma-sampat." The fourteen viveka-lakṣaṇas that mark the summit-dweller: dhyāna-nimagnatā, prabodhitā, dharma-praśāntatā, nirabhimāna, sāgara-rahita nirmalatā, labdhābhijatma, śatru-mitra samadhṛṣṭi, ātmā-rāma, duḥkha-sukha samadhṛṣṭi, svādhyāya-pramattatā, dharmadhyāna-viśuddhi, buddhi-gata viśuddhi, vaidya śarīra-viśuddhi, leśyā-viśuddhi.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The image of viveka as a mountain (giriraj — king of mountains) is deliberate: the summit is where genuine freedom lives. But the mountain has a condition: you must keep seeking paramabhāva to remain at the peak. The moment you stop seeking — whether through achievement-pride, spiritual fatigue, or simple neglect — the descent begins. Even at the summit, the apramattabhāva must be maintained: "yadi vahāṃ pramāda kā avarodha upasthit ho jāe, śuddha chetanyabhāva meṃ tanika bhī vicalit ho jāe, tab patan hue binā nahīṃ rahegā." The fourteen lakṣaṇas are not a checklist of achievements — they are markers of a living state that must be continuously renewed by the seeking of paramabhāva.</p>
+<p class="simple-explanation"><b>The simple version:</b> Viveka is a mountain peak. You reach it by seeking paramabhāva (the highest state of the ātmā). You stay there only by continuing to seek it. Stop seeking — even at the peak, the descent begins. The one who continuously keeps seeking paramabhāva has built in an automatic protection against falling into aviveka.</p>
+<div class="contemplate-block"><b>Contemplate</b>Among the fourteen viveka-lakṣaṇas — dhyāna-nimagnatā, nirabhimāna, śatru-mitra samadhṛṣṭi, ātmā-rāma, svādhyāya-pramattatā — which is most developed in your life? Which is weakest? What does the weakest one reveal about where the seeking of paramabhāva needs more energy?</div>
+<div class="concept-tags"><span class="concept-tag">Viveka-giriraj</span><span class="concept-tag">Apramattabhāva</span><span class="concept-tag">Paramabhāva-seeking</span><span class="concept-tag">Fourteen viveka-lakṣaṇas</span><span class="concept-tag">Praśamarati</span></div>
+</div>
+</div>
+</article>
+
+<div class="section-divider"><span>Part 4 — Ṣaṭ-Kāraka Ātmaika Dṛṣṭi &amp; The Saṃyama-Śastra (Shlokas 7–8)</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.7</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">आत्मन्येवात्मन. कुर्यात् य: पट्कारकसंगितम् ।<br/>अवाविवेकजवरस्पास्य. वेद्यम्यं जडमज्जनात् ।।७।।११९।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The one who establishes all six kāraka (grammatical case) relationships entirely within the ātmā — for them, the fever of aviveka born of immersion in jaḍa-pudgal cannot arise.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Core Teaching</span>
+<span class="principle-name">Ṣaṭ-Kāraka Ātmaika · When All Relationships Are With the Ātmā Alone</span>
+</div>
+<p class="principle-def">The six kārakas of Sanskrit grammar applied entirely to ātmā: (1) Kartā (agent): ātmā does jnāna-darśana → ātmā is kartā. (2) Karma (object): ātmā's pāta-sahita pariṇāma is its ādheyasthāna → ātmā is karma. (3) Karaṇa (instrument): ātmā is upakāraṇa for jnāna-kriyā → ātmā is karaṇa. (4) Sampradāna (recipient): ātmā is dhāmapātra for śuddha-pariṇāma → ātmā is sampradāna. (5) Apādāna (source): from pūrva paryāyas' dissolution and new paryāyas' arising → ātmā is apādāna. (6) Adhikaraṇa (locus): all śuddha-paryāyas have their kṣetra in ātmā's pradeśa → ātmā is adhikaraṇa. When all six are with ātmā — an ātmādvaita world is created. Wherever one looks: ātmā. This is ātmānanda's fullness. "Jab pudgaloṃ ke sath yah sambandha vicchhinna ho jāe aur ātmā ke sath ghaṭit ce dhana jāe — bas, isī kā hī nāma hai viveka."</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The ṣaṭ-kāraka framework is the grammar of experience: every experience involves an agent, an object, an instrument, a recipient, a source, and a locus. In ordinary aviveka, all six point outward — to pudgala, to the body, to the world. In viveka's full expression, all six find their reference in ātmā alone. This doesn't mean ignoring the world — the muni still acts, eats, speaks. But the kartā of all that is recognized as ātmā's jnāna-śakti; the karma is ātmā's own pariṇāma; the karaṇa is ātmā's consciousness; the sampradāna is ātmā's ongoing śuddhi; the apādāna is ātmā's paryāya-flow; the adhikaraṇa is ātmā's pradeśa. When this reorientation is complete, "jab pudgal-kart ā ke rūp meṃ ātmā kā bhāva hotā hai" — the last remaining confusion dissolves, and aviveka's fever has no purchase.</p>
+<p class="simple-explanation"><b>The simple version:</b> Every experience has six roles: who acts, what is acted on, the tool, the recipient, the source, the location. Right now, you probably assign all six to the world: "I" (body) act on "things" (world) using "senses" (indriyas). Viveka's ṣaṭ-kāraka insight: all six actually belong to the ātmā. Shift the reference for all six to ātmā — and aviveka has nowhere left to stand.</p>
+<div class="contemplate-block"><b>Contemplate</b>Take a simple action you are about to do — drinking water, taking a breath, reading this text. Now apply the six kārakas: who is the true agent? What is actually happening (karma)? What is the actual instrument? Who is the recipient? From where does the action arise? Where does it occur? Can all six be placed in the ātmā rather than in the body-world complex? What shifts?</div>
+<div class="concept-tags"><span class="concept-tag">Ṣaṭ-kāraka</span><span class="concept-tag">Ātmādvaita dṛṣṭi</span><span class="concept-tag">Ātmānanda</span><span class="concept-tag">Jaḍa-sambandha viccheda</span><span class="concept-tag">Aviveka-jvara</span></div>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">15.8</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">संयमास्त्रं विवेकेन धाण्यनोनोरोजितं मुने: ।<br/>घृतिघारोल्वणं कर्मनात्रुच्छेदक्षमं भवेत् ।।८।।१२०।।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The muni's saṃyama-śastra (weapon of restraint), sharpened on viveka-sān (whetstone of discernment) and made fierce with dhṛti-dhāra (the edge of endurance) — becomes fully capable of destroying the karma-enemy.</p>
+<div class="principle-banner">
+<div class="principle-header">
+<span class="principle-badge">Hero Shloka</span>
+<span class="principle-name">Khapaka Muni · Skinned Alive, Unmoved — The Proof of Viveka-Śakti</span>
+</div>
+<p class="principle-def">Three instruments for karma-kṣaya: saṃyama (weapon), viveka (whetstone), santoṣa/dhṛti (razor-edge). The Khapaka Muni story: a royal servant flayed the muni's skin with great cruelty. The muni held dhṛti and sharpened saṃyama on viveka-sān. While the body's skin was being stripped — the muni was engaged in stripping karma's skin with the saṃyama-weapon. Result: in an instant, countless karmas were dissolved and the ātmā became free from pudgala-niyantaṇas. No disturbance, no asaṃyama, not a fraction of āvṛtti-bhāvanā — while blood flowed and unbearable vedanā was present. This was possible only through viveka-śakti: utterly knowing that śarīra and ātmā are distinct, so śarīra's vikṛtis cannot reach ātmā's bhāva. Other examples: Rāyamaśūrijī Muni's 500 disciples beaten; Śukramāra Muni thrown into molten metal — all maintained saṃyama through bheda-jnāna alone.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The metaphor is exact: a dull weapon cannot cut. Even great saṃyama without viveka's sharpening cannot penetrate karma's armor. But saṃyama + viveka + dhṛti = the combination that cuts through the most ancient and entrenched karma-bondage. The vivechan's call to continuous practice is urgent: "Yadi bhedajnāna kā abhyāsa, cintana, magan, manana aur prayoga jīvan meṃ nirantara cālū rahegā, tabhī mṛtyu ke samaya vah (bhedajnāna) hamārī taraph kāma karegā." Bheda-jnāna is not a concept to understand and file — it is a living practice that must be continuously applied, so that at the critical moment (death, extreme pain, great temptation), it is ready and operative. The muni being flayed is not a story about physical endurance; it is a demonstration of what bheda-jnāna looks like when fully internalized: the most extreme bodily pain cannot create a single moment of āvṛtti when the ātmā-śarīra bheda is utterly present in the muni's consciousness.</p>
+<p class="simple-explanation"><b>The simple version:</b> A sword needs sharpening. Saṃyama (restraint) is the sword. Viveka is the whetstone. The sharper the viveka, the more powerful the saṃyama — until the saṃyama-weapon can cut through the most ancient karma in an instant. The Khapaka Muni was literally being skinned — and used that moment to destroy countless karmas, unmoved. That is what viveka fully internalized looks like in practice.</p>
+<div class="contemplate-block"><b>Contemplate</b>What is the "whetstone" — the sharpening practice — for your saṃyama right now? Is your bheda-jnāna being continuously practiced, contemplated, and internalized? Or is it a concept you understand but rarely actively use? What would it look like to take viveka into the next difficulty you face — not as a strategy, but as a living recognition?</div>
+<div class="concept-tags"><span class="concept-tag">Saṃyama-śastra</span><span class="concept-tag">Viveka-sān</span><span class="concept-tag">Dhṛti-dhāra</span><span class="concept-tag">Khapaka Muni</span><span class="concept-tag">Karma-uccheda</span></div>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch14.html"><span class="text-lg">←</span> Chapter 14</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="gyansaar-ch16.html">Chapter 16 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainAwaken</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainAwaken. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Scripture</span><a class="hover:text-primary transition-colors" href="../Aagama/sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../Aagama/sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../Aagama/uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+</body>
+</html>
