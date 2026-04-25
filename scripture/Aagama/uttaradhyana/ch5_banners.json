@@ -1,0 +1,252 @@
+{
+  "chapter": 5,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        },
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "2": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "3": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "4": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "5": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "6": {
+      "banners": []
+    },
+    "7": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "8": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "9": {
+      "banners": []
+    },
+    "10": {
+      "banners": []
+    },
+    "11": {
+      "banners": []
+    },
+    "12": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "13": {
+      "banners": []
+    },
+    "14": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "16": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "17": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "18": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "19": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "20": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "21": {
+      "banners": []
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Samata \u00b7 Equanimity",
+          "def": "Equal-mindedness in pleasure and pain reveals the soul's true nature."
+        }
+      ]
+    },
+    "24": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "25": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "26": {
+      "banners": []
+    },
+    "28": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "29": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "30": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "31": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "32": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    }
+  }
+}

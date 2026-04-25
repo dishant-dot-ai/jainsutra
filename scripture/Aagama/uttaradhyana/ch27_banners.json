@@ -1,0 +1,114 @@
+{
+  "chapter": 27,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Samata \u00b7 Equanimity",
+          "def": "Equal-mindedness in pleasure and pain reveals the soul's true nature."
+        }
+      ]
+    },
+    "2": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Krodha \u00b7 Anger",
+          "def": "Anger destroys equanimity and generates the most intense karma."
+        }
+      ]
+    },
+    "7": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Krodha \u00b7 Anger",
+          "def": "Anger destroys equanimity and generates the most intense karma."
+        }
+      ]
+    },
+    "8": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "9": {
+      "banners": []
+    },
+    "10": {
+      "banners": []
+    },
+    "11": {
+      "banners": []
+    },
+    "12": {
+      "banners": []
+    },
+    "13": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": []
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    }
+  }
+}

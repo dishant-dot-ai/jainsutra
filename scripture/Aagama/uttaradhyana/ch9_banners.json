@@ -1,0 +1,207 @@
+{
+  "chapter": 9,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Moha \u00b7 Delusion",
+          "def": "False perception of reality keeps the soul bound in karma."
+        }
+      ]
+    },
+    "2": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": []
+    },
+    "5": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "7": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "9": {
+      "banners": []
+    },
+    "12": {
+      "banners": []
+    },
+    "14": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "20": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "24": {
+      "banners": []
+    },
+    "26": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "28": {
+      "banners": []
+    },
+    "30": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Krodha \u00b7 Anger",
+          "def": "Anger destroys equanimity and generates the most intense karma."
+        }
+      ]
+    },
+    "32": {
+      "banners": []
+    },
+    "34": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "38": {
+      "banners": []
+    },
+    "40": {
+      "banners": []
+    },
+    "42": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "44": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "46": {
+      "banners": []
+    },
+    "48": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "51": {
+      "banners": []
+    },
+    "53": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "55": {
+      "banners": []
+    },
+    "56": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "58": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "59": {
+      "banners": []
+    },
+    "61": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "62": {
+      "banners": []
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "chapter": 36,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": []
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": []
+    },
+    "9": {
+      "banners": []
+    },
+    "10": {
+      "banners": []
+    },
+    "13": {
+      "banners": []
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": []
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "22": {
+      "banners": []
+    },
+    "48": {
+      "banners": []
+    },
+    "49": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "69": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "70": {
+      "banners": []
+    },
+    "220": {
+      "banners": []
+    },
+    "272": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "273": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "274": {
+      "banners": []
+    }
+  }
+}

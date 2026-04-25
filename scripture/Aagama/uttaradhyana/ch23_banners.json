@@ -1,0 +1,480 @@
+{
+  "chapter": 23,
+  "sutras": {
+    "1": {
+      "banners": []
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": []
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": []
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": []
+    },
+    "9": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Samata \u00b7 Equanimity",
+          "def": "Equal-mindedness in pleasure and pain reveals the soul's true nature."
+        }
+      ]
+    },
+    "10": {
+      "banners": []
+    },
+    "11": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "12": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "13": {
+      "banners": []
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": []
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": []
+    },
+    "20": {
+      "banners": []
+    },
+    "21": {
+      "banners": []
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "24": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "25": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "26": {
+      "banners": []
+    },
+    "27": {
+      "banners": []
+    },
+    "28": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "29": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "30": {
+      "banners": []
+    },
+    "31": {
+      "banners": []
+    },
+    "32": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "33": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "34": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "35": {
+      "banners": []
+    },
+    "36": {
+      "banners": []
+    },
+    "37": {
+      "banners": []
+    },
+    "38": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "39": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "40": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "41": {
+      "banners": []
+    },
+    "42": {
+      "banners": []
+    },
+    "43": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "44": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "45": {
+      "banners": []
+    },
+    "46": {
+      "banners": []
+    },
+    "47": {
+      "banners": []
+    },
+    "48": {
+      "banners": []
+    },
+    "49": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "50": {
+      "banners": []
+    },
+    "51": {
+      "banners": []
+    },
+    "52": {
+      "banners": []
+    },
+    "53": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "54": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "55": {
+      "banners": []
+    },
+    "56": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Samata \u00b7 Equanimity",
+          "def": "Equal-mindedness in pleasure and pain reveals the soul's true nature."
+        }
+      ]
+    },
+    "57": {
+      "banners": []
+    },
+    "58": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "59": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "60": {
+      "banners": []
+    },
+    "61": {
+      "banners": []
+    },
+    "62": {
+      "banners": []
+    },
+    "63": {
+      "banners": []
+    },
+    "64": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "65": {
+      "banners": []
+    },
+    "66": {
+      "banners": []
+    },
+    "67": {
+      "banners": []
+    },
+    "68": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "69": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "70": {
+      "banners": []
+    },
+    "71": {
+      "banners": []
+    },
+    "72": {
+      "banners": []
+    },
+    "73": {
+      "banners": []
+    },
+    "74": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "75": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Avijja \u00b7 Ignorance",
+          "def": "Lack of spiritual vision perpetuates the cycle of rebirth."
+        }
+      ]
+    },
+    "76": {
+      "banners": []
+    },
+    "77": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Avijja \u00b7 Ignorance",
+          "def": "Lack of spiritual vision perpetuates the cycle of rebirth."
+        }
+      ]
+    },
+    "78": {
+      "banners": []
+    },
+    "79": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "80": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "81": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "82": {
+      "banners": []
+    },
+    "83": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "84": {
+      "banners": []
+    },
+    "85": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "86": {
+      "banners": []
+    },
+    "87": {
+      "banners": []
+    },
+    "88": {
+      "banners": []
+    },
+    "89": {
+      "banners": []
+    }
+  }
+}

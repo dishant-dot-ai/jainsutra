@@ -1,0 +1,147 @@
+{
+  "chapter": 11,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "2": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "3": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Krodha \u00b7 Anger",
+          "def": "Anger destroys equanimity and generates the most intense karma."
+        }
+      ]
+    },
+    "5": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "9": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "13": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Krodha \u00b7 Anger",
+          "def": "Anger destroys equanimity and generates the most intense karma."
+        }
+      ]
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": []
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": []
+    },
+    "20": {
+      "banners": []
+    },
+    "21": {
+      "banners": []
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": []
+    },
+    "24": {
+      "banners": []
+    },
+    "25": {
+      "banners": []
+    },
+    "26": {
+      "banners": []
+    },
+    "27": {
+      "banners": []
+    },
+    "28": {
+      "banners": []
+    },
+    "29": {
+      "banners": []
+    },
+    "30": {
+      "banners": []
+    },
+    "31": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "32": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    }
+  }
+}

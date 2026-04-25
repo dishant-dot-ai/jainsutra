@@ -1,0 +1,116 @@
+{
+  "chapter": 17,
+  "sutras": {
+    "1": {
+      "banners": []
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": []
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "7": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "8": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Pamada \u00b7 Negligence",
+          "def": "Indifference to spiritual practice wastes the precious human birth."
+        }
+      ]
+    },
+    "9": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "10": {
+      "banners": []
+    },
+    "11": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "12": {
+      "banners": []
+    },
+    "13": {
+      "banners": []
+    },
+    "14": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "15": {
+      "banners": []
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "20": {
+      "banners": []
+    },
+    "21": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    }
+  }
+}

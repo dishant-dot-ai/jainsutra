@@ -1,0 +1,335 @@
+{
+  "chapter": 14,
+  "sutras": {
+    "1": {
+      "banners": []
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "5": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        }
+      ]
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        }
+      ]
+    },
+    "9": {
+      "banners": []
+    },
+    "10": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Moha \u00b7 Delusion",
+          "def": "False perception of reality keeps the soul bound in karma."
+        }
+      ]
+    },
+    "11": {
+      "banners": []
+    },
+    "12": {
+      "banners": []
+    },
+    "13": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "14": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "15": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Pamada \u00b7 Negligence",
+          "def": "Indifference to spiritual practice wastes the precious human birth."
+        }
+      ]
+    },
+    "16": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        }
+      ]
+    },
+    "17": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": []
+    },
+    "20": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Moha \u00b7 Delusion",
+          "def": "False perception of reality keeps the soul bound in karma."
+        }
+      ]
+    },
+    "21": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "24": {
+      "banners": []
+    },
+    "25": {
+      "banners": []
+    },
+    "26": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "27": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "28": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "29": {
+      "banners": []
+    },
+    "30": {
+      "banners": []
+    },
+    "31": {
+      "banners": []
+    },
+    "32": {
+      "banners": []
+    },
+    "33": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "34": {
+      "banners": []
+    },
+    "35": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        }
+      ]
+    },
+    "36": {
+      "banners": []
+    },
+    "37": {
+      "banners": []
+    },
+    "38": {
+      "banners": []
+    },
+    "39": {
+      "banners": []
+    },
+    "40": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "41": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "42": {
+      "banners": []
+    },
+    "43": {
+      "banners": []
+    },
+    "44": {
+      "banners": []
+    },
+    "45": {
+      "banners": []
+    },
+    "46": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "47": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "48": {
+      "banners": []
+    },
+    "49": {
+      "banners": []
+    },
+    "50": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        }
+      ]
+    },
+    "51": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "52": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "53": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    }
+  }
+}

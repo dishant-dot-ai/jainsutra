@@ -1,0 +1,246 @@
+{
+  "chapter": 10,
+  "sutras": {
+    "1": {
+      "banners": []
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": []
+    },
+    "5": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "7": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "8": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "9": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "10": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "11": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "12": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "13": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Pamada \u00b7 Negligence",
+          "def": "Indifference to spiritual practice wastes the precious human birth."
+        }
+      ]
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "19": {
+      "banners": []
+    },
+    "20": {
+      "banners": []
+    },
+    "21": {
+      "banners": []
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": []
+    },
+    "24": {
+      "banners": []
+    },
+    "25": {
+      "banners": []
+    },
+    "26": {
+      "banners": []
+    },
+    "27": {
+      "banners": []
+    },
+    "28": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "29": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "30": {
+      "banners": []
+    },
+    "31": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "32": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "33": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "34": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "35": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "36": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "37": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    }
+  }
+}

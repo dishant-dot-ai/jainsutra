@@ -1,0 +1,153 @@
+{
+  "chapter": 8,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "2": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "3": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Moha \u00b7 Delusion",
+          "def": "False perception of reality keeps the soul bound in karma."
+        }
+      ]
+    },
+    "4": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "9": {
+      "banners": []
+    },
+    "10": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "11": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "12": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "13": {
+      "banners": []
+    },
+    "14": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Samata \u00b7 Equanimity",
+          "def": "Equal-mindedness in pleasure and pain reveals the soul's true nature."
+        }
+      ]
+    },
+    "15": {
+      "banners": []
+    },
+    "16": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "17": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": []
+    },
+    "20": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    }
+  }
+}

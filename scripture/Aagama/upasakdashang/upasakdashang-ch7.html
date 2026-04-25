@@ -72,13 +72,13 @@ html { scroll-behavior: smooth; }
 .caution-header { display: inline-flex; align-items: center; gap: 8px; }
 .caution-badge { background: rgba(30,64,175,0.1); border: 1px solid rgba(30,64,175,0.35); color: #1e40af; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
 .caution-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
-.caution-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+.caution-def { font-family: 'Inter', sans-serif; font-size: 1.1rem; color: #5a5345; line-height: 1.7; }
 /* Red: Wrong View */
 .wrong-view-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(186,26,26,0.04); border-radius: 6px; }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }
 .wrong-view-badge { background: rgba(186,26,26,0.1); border: 1px solid rgba(186,26,26,0.35); color: #9b1515; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; padding: 3px 11px; border-radius: 4px; }
 .wrong-view-name { font-family: 'Noto Serif', serif; font-size: 1.0625rem; font-weight: 700; color: #1d1c17; }
-.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 0.9625rem; color: #7e7665; line-height: 1.65; font-style: italic; }
+.wrong-view-def { font-family: 'Inter', sans-serif; font-size: 1.1rem; color: #5a5345; line-height: 1.7; }
 .mesh-bg {
     background-color: #f8f7f6;
     background-image: radial-gradient(#C9A84C15 1px, transparent 1px);
@@ -88,23 +88,24 @@ html { scroll-behavior: smooth; }
 </head>
 <body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
 <!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
-<div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
 <div class="flex items-center gap-12">
 <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainAwaken.org</span></a>
 <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
 <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
-<a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../scripture/Aagama/sacred-sutras-index.html">Sacred Sutras</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../../../scripture/Aagama/sacred-sutras-index.html">Sacred Texts</a>
 </div>
 </div>
 <div class="flex items-center gap-8">
 <div class="relative group hidden lg:block">
 <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
 <input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
 </div>
-<a class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center" href="../../../fundamentals/donate-v4.html">Donate</a>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">Donate</a>
 </div>
 </div>
 </nav>
@@ -114,11 +115,11 @@ html { scroll-behavior: smooth; }
 <div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
 <div class="flex flex-col gap-3">
 <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold hero-primary-text">Upasakdashang · Chapter 7</span>
-<h1 class="text-4xl md:text-5xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
-        Lay Follower Sakdalputra<span class="block text-primary font-normal hero-primary-text text-3xl md:text-5xl mt-2">श्रमणोपासक सद्दालपुत्त</span>
+<h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        Lay Follower Sakdalputra <span class="text-primary font-normal">(श्रमणोपासक सद्दालपुत्त)</span>
 </h1>
 </div>
-<h2 class="text-xl md:text-2xl font-headline text-on-surface-variant leading-relaxed font-light">From fatalism to liberation — the triumph of self-effort over fate</h2>
+<h2 class="text-5xl font-headline italic text-on-surface-variant leading-tight font-light"><span class="not-italic">Chapter 7 — </span>“From fatalism to liberation — the triumph of self-effort over fate”</h2>
 <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 max-w-lg font-light">Sakdalputra was a potter of the ancient city of Polaspur — and a devoted follower of the Ajivika doctrine, which taught that all life is predetermined and that personal effort is meaningless. In a supreme philosophical irony, this craftsman who shaped clay with his own hands believed he had no power over his destiny. His encounter with Lord Mahavira shattered that belief entirely. This chapter traces one of the most dramatic transformations in the Upasakdashang: from a man who once boasted of violent retaliation to one who endured a divine test with a razor-edged blue sword without flinching — and ultimately attained liberation through fourteen years of steadfast practice.</p>
 </div>
 <div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
@@ -142,11 +143,9 @@ html { scroll-behavior: smooth; }
 <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Śramaṇopāsaka Sakdalputra</h3>
 </div>
 <div class="col-span-12 lg:col-span-8 space-y-6">
-
 <p class="text-lg leading-relaxed text-on-surface-variant">
 <span class="text-primary font-semibold">Chapter 7</span> of the Upasakdashang (उपासकदशांग) tells the story of Sakdalputra, a potter of Polaspur who embodied the Ajivika doctrine of Niyati — the belief that fate controls everything and personal effort is futile. His conversion by Lord Mahavira represents the text's most philosophically charged transformation: a direct confrontation between fatalism and the Jain doctrine of self-effort (purusha-kara).
       </p>
-
 <p class="text-lg leading-relaxed text-on-surface-variant">
         His journey unfolds through three stages. First, he converts and reverses his earlier statements of violent intent into vows of non-retaliation. Second, after fourteen years of faithful practice, he faces the ultimate test — a celestial being appears with a razor-sharp blue sword, threatening his life if he does not abandon his vows. He refuses without hesitation. Finally, unshaken by the divine trial, he continues his practice and attains enlightenment. Sakdalputra's story is the Upasakdashang's boldest affirmation: we are the authors of our own liberation.
       </p>
@@ -177,125 +176,65 @@ html { scroll-behavior: smooth; }
 <!-- Sutras -->
 <section class="max-w-screen-xl mx-auto px-6 md:px-12 py-32 space-y-24">
 <!-- Sutra 7.32 -->
-<div class="sutra-card p-8 md:p-12 rounded-xl" id="sutra-7.32">
-<div class="flex justify-between items-start mb-8 flex-wrap gap-4">
-<div class="flex flex-col gap-1">
-<span class="foundation-badge">Moral Evolution</span>
-<span class="text-xs uppercase tracking-[0.2em] text-on-surface/40 font-semibold font-label">Sutra 7.32</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7.32">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.32</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">भंते ! अहं णं तं पुरिसिं णिब्भच्छेज्जा वा हणेज्जा वा तज्जेज्जा वा ताओसेज्जा वा णिच्छोडेज्जा वा णिक्खंभच्छेज्जा वा... ॥७.३2॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"Lord! I should not reprimand, strike, threaten, harass, push, or obstruct that person (who wrongs me); I should not torment or harass them."</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This shows a dramatic evolution. Earlier, Sakdalputra had said he would strike or even kill anyone who wronged him. Now, he recognizes that violent responses are harmful to the soul. He articulates the principle of non-retaliation — responding to harm with harm only accumulates negative karma.</p>
+<p class="simple-explanation"><b>Simply Put:</b> "Sakdalputra now said the opposite of what he'd said earlier: 'I should not hurt anyone back, no matter what they do to me.'"</p>
 </div>
 </div>
-<div class="space-y-10">
-<div>
-<p class="sutra-sanskrit font-headline text-on-surface/60 italic">भंते ! अहं णं तं पुरिसिं णिब्भच्छेज्जा वा हणेज्जा वा तज्जेज्जा वा ताओसेज्जा वा णिच्छोडेज्जा वा णिक्खंभच्छेज्जा वा... ॥७.३2॥</p>
-</div>
-<div class="space-y-4">
-<p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">Translation</p>
-<p class="text-xl text-on-surface leading-relaxed font-light">"Lord! I should not reprimand, strike, threaten, harass, push, or obstruct that person (who wrongs me); I should not torment or harass them."</p>
-</div>
-<div class="simple-explanation">
-<p><b>Commentary:</b> This shows a dramatic evolution. Earlier, Sakdalputra had said he would strike or even kill anyone who wronged him. Now, he recognizes that violent responses are harmful to the soul. He articulates the principle of non-retaliation — responding to harm with harm only accumulates negative karma.</p>
-</div>
-<div class="pt-6 border-t border-outline-variant/30 text-center">
-<p class="text-primary font-headline italic text-lg">"Sakdalputra now said the opposite of what he'd said earlier: 'I should not hurt anyone back, no matter what they do to me.'"</p>
-</div>
-</div>
-</div>
+</article>
 <!-- Sutra 7.36 -->
-<div class="sutra-card p-8 md:p-12 rounded-xl" id="sutra-7.36">
-<div class="flex justify-between items-start mb-8 flex-wrap gap-4">
-<div class="flex flex-col gap-1">
-<span class="foundation-badge">Soul Knowledge</span>
-<span class="text-xs uppercase tracking-[0.2em] text-on-surface/40 font-semibold font-label">Sutra 7.36</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7.36">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.36</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तए णं तस्स सद्दालपुत्तस्स समणोवासयस्स जाए अभिगयजीवाजीवे जाव विहरइ । तए णं सा अग्गिमित्ता भारिया समणोवासिया जाव विहरइ ॥७.३६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Then Sakdalputra, the lay devotee, having understood the nature of living and non-living substances (Jiva and Ajiva), lived accordingly. And Agnimitra, his wife, also lived as a lay devotee.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Understanding the distinction between soul and matter is the basis of all Jain ethics. When one truly understands that every being has a soul capable of suffering, non-violence becomes self-evident. Agnimitra also takes her own independent vows, becoming a "female lay devotee" (samaṇovāsiyā).</p>
+<p class="simple-explanation"><b>Simply Put:</b> "Both Sakdalputra and his wife now lived as committed spiritual practitioners, understanding that all beings have souls."</p>
 </div>
 </div>
-<div class="space-y-10">
-<div>
-<p class="sutra-sanskrit font-headline text-on-surface/60 italic">तए णं तस्स सद्दालपुत्तस्स समणोवासयस्स जाए अभिगयजीवाजीवे जाव विहरइ । तए णं सा अग्गिमित्ता भारिया समणोवासिया जाव विहरइ ॥७.३६॥</p>
-</div>
-<div class="space-y-4">
-<p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">Translation</p>
-<p class="text-xl text-on-surface leading-relaxed font-light">Then Sakdalputra, the lay devotee, having understood the nature of living and non-living substances (Jiva and Ajiva), lived accordingly. And Agnimitra, his wife, also lived as a lay devotee.</p>
-</div>
-<div class="simple-explanation">
-<p><b>Commentary:</b> Understanding the distinction between soul and matter is the basis of all Jain ethics. When one truly understands that every being has a soul capable of suffering, non-violence becomes self-evident. Agnimitra also takes her own independent vows, becoming a "female lay devotee" (samaṇovāsiyā).</p>
-</div>
-<div class="pt-6 border-t border-outline-variant/30 text-center">
-<p class="text-primary font-headline italic text-lg">"Both Sakdalputra and his wife now lived as committed spiritual practitioners, understanding that all beings have souls."</p>
-</div>
-</div>
-</div>
+</article>
 <!-- Sutra 7.46 -->
-<div class="sutra-card p-8 md:p-12 rounded-xl" id="sutra-7.46">
-<div class="flex justify-between items-start mb-8 flex-wrap gap-4">
-<div class="flex flex-col gap-1">
-<span class="foundation-badge">Long-term Practice</span>
-<span class="text-xs uppercase tracking-[0.2em] text-on-surface/40 font-semibold font-label">Sutra 7.46</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7.46">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.46</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तए णं तस्स सद्दालपुत्तस्स समणोवासयस्स बहूहिं सीलजाव भावेमाणस्स चोद्दस संवच्छराइ वइक्कंताइ... ॥७.४६॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As Sakdalputra the lay devotee practiced his many virtues and disciplines, fourteen years passed. During the fifteenth year, he continued dwelling in the practice of dharma.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This fast-forwards through fourteen years of dedicated practice. Transformation is not instantaneous; it requires patient, persistent effort. This long duration proves his commitment was a lifelong transformation, not a fleeting emotional response.</p>
+<p class="simple-explanation"><b>Simply Put:</b> "For fourteen years, Sakdalputra faithfully practiced his spiritual disciplines, proving his commitment was real."</p>
 </div>
 </div>
-<div class="space-y-10">
-<div>
-<p class="sutra-sanskrit font-headline text-on-surface/60 italic">तए णं तस्स सद्दालपुत्तस्स समणोवासयस्स बहूहिं सीलजाव भावेमाणस्स चोद्दस संवच्छराइ वइक्कंताइ... ॥७.४६॥</p>
-</div>
-<div class="space-y-4">
-<p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">Translation</p>
-<p class="text-xl text-on-surface leading-relaxed font-light">As Sakdalputra the lay devotee practiced his many virtues and disciplines, fourteen years passed. During the fifteenth year, he continued dwelling in the practice of dharma.</p>
-</div>
-<div class="simple-explanation">
-<p><b>Commentary:</b> This fast-forwards through fourteen years of dedicated practice. Transformation is not instantaneous; it requires patient, persistent effort. This long duration proves his commitment was a lifelong transformation, not a fleeting emotional response.</p>
-</div>
-<div class="pt-6 border-t border-outline-variant/30 text-center">
-<p class="text-primary font-headline italic text-lg">"For fourteen years, Sakdalputra faithfully practiced his spiritual disciplines, proving his commitment was real."</p>
-</div>
-</div>
-</div>
+</article>
 <!-- Sutra 7.48 -->
-<div class="sutra-card p-8 md:p-12 rounded-xl" id="sutra-7.48">
-<div class="flex justify-between items-start mb-8 flex-wrap gap-4">
-<div class="flex flex-col gap-1">
-<span class="foundation-badge">Ultimate Test</span>
-<span class="text-xs uppercase tracking-[0.2em] text-on-surface/40 font-semibold font-label">Sutra 7.48</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7.48">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.48</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तए णं से देवे एगं नीलं जाव खुरधारं असिं गहाय सद्दालपुत्तं समणोवासयं एवं वयासी– हं भो सद्दालपुत्ता ! एवं सव्वं उच्चं जाव आयंचइ ॥७.४८॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Then a celestial being appeared with a razor-sharp blue sword and said to Sakdalputra: "O Sakdalputra! Renounce your vows or face the consequences!"</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The divine test is a threat to life itself. Is his commitment stronger than his fear of death? In Jainism, a true practitioner recognizes the soul is eternal and cannot be destroyed by any weapon. One who realizes this truth has no reason to fear physical death.</p>
+<p class="simple-explanation"><b>Simply Put:</b> "A divine being threatened him with a sword, but Sakdalputra remained fearless — his faith was stronger than his fear."</p>
 </div>
 </div>
-<div class="space-y-10">
-<div>
-<p class="sutra-sanskrit font-headline text-on-surface/60 italic">तए णं से देवे एगं नीलं जाव खुरधारं असिं गहाय सद्दालपुत्तं समणोवासयं एवं वयासी– हं भो सद्दालपुत्ता ! एवं सव्वं उच्चं जाव आयंचइ ॥७.४८॥</p>
-</div>
-<div class="space-y-4">
-<p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">Translation</p>
-<p class="text-xl text-on-surface leading-relaxed font-light">Then a celestial being appeared with a razor-sharp blue sword and said to Sakdalputra: "O Sakdalputra! Renounce your vows or face the consequences!"</p>
-</div>
-<div class="simple-explanation">
-<p><b>Commentary:</b> The divine test is a threat to life itself. Is his commitment stronger than his fear of death? In Jainism, a true practitioner recognizes the soul is eternal and cannot be destroyed by any weapon. One who realizes this truth has no reason to fear physical death.</p>
-</div>
-<div class="pt-6 border-t border-outline-variant/30 text-center">
-<p class="text-primary font-headline italic text-lg">"A divine being threatened him with a sword, but Sakdalputra remained fearless — his faith was stronger than his fear."</p>
-</div>
-</div>
-</div>
+</article>
 <!-- Sutra 7.53 -->
-<div class="sutra-card p-8 md:p-12 rounded-xl" id="sutra-7.53">
-<div class="flex justify-between items-start mb-8 flex-wrap gap-4">
-<div class="flex flex-col gap-1">
-<span class="foundation-badge">Culmination</span>
-<span class="text-xs uppercase tracking-[0.2em] text-on-surface/40 font-semibold font-label">Sutra 7.53</span>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-7.53">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">7.53</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">तए णं तस्स सद्दालपुत्तस्स समणोवासयस्स... मोक्खमग्गस्स आराहणं— जाव संबुद्ध ॥७.५३॥</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">Then Sakdalputra the lay devotee, having remained fearless through repeated tests, continued his practice. He successfully practiced the path leading to liberation and thus attained enlightenment.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The journey from Ajivika fatalist to enlightened Jain concludes. His story proves that liberation is achievable for lay practitioners who maintain their vows with dedication. The power of personal effort — the very thing his former doctrine denied — became the key to his spiritual freedom.</p>
+<p class="simple-explanation"><b>Simply Put:</b> "After a life of faithful practice, Sakdalputra achieved the highest spiritual goal — proving that we are the masters of our own destiny."</p>
 </div>
 </div>
-<div class="space-y-10">
-<div>
-<p class="sutra-sanskrit font-headline text-on-surface/60 italic">तए णं तस्स सद्दालपुत्तस्स समणोवासयस्स... मोक्खमग्गस्स आराहणं— जाव संबुद्ध ॥७.५३॥</p>
-</div>
-<div class="space-y-4">
-<p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">Translation</p>
-<p class="text-xl text-on-surface leading-relaxed font-light">Then Sakdalputra the lay devotee, having remained fearless through repeated tests, continued his practice. He successfully practiced the path leading to liberation and thus attained enlightenment.</p>
-</div>
-<div class="simple-explanation">
-<p><b>Commentary:</b> The journey from Ajivika fatalist to enlightened Jain concludes. His story proves that liberation is achievable for lay practitioners who maintain their vows with dedication. The power of personal effort — the very thing his former doctrine denied — became the key to his spiritual freedom.</p>
-</div>
-<div class="pt-6 border-t border-outline-variant/30 text-center">
-<p class="text-primary font-headline italic text-lg">"After a life of faithful practice, Sakdalputra achieved the highest spiritual goal — proving that we are the masters of our own destiny."</p>
-</div>
-</div>
-</div>
+</article>
 </section>
 <!-- Closing -->
 <section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24 border-t border-primary/10 text-center">

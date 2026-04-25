@@ -1,0 +1,399 @@
+{
+  "chapter": 20,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "2": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Dhyana \u00b7 Meditation",
+          "def": "Inward focus purifies the mind and awakens inner wisdom."
+        }
+      ]
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": []
+    },
+    "9": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "10": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "11": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "12": {
+      "banners": []
+    },
+    "13": {
+      "banners": []
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "20": {
+      "banners": []
+    },
+    "21": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "24": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "25": {
+      "banners": []
+    },
+    "26": {
+      "banners": []
+    },
+    "27": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "28": {
+      "banners": []
+    },
+    "29": {
+      "banners": []
+    },
+    "30": {
+      "banners": []
+    },
+    "31": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "32": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "33": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "34": {
+      "banners": []
+    },
+    "35": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "36": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "37": {
+      "banners": []
+    },
+    "38": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "39": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Pamada \u00b7 Negligence",
+          "def": "Indifference to spiritual practice wastes the precious human birth."
+        }
+      ]
+    },
+    "40": {
+      "banners": []
+    },
+    "41": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "42": {
+      "banners": []
+    },
+    "43": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "44": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "45": {
+      "banners": []
+    },
+    "46": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "47": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "48": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "49": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tyaga \u00b7 Renunciation",
+          "def": "Voluntarily releasing worldly attachments leads to spiritual freedom."
+        }
+      ]
+    },
+    "50": {
+      "banners": []
+    },
+    "51": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Sanga \u00b7 Attachment",
+          "def": "Emotional bonds to people and things perpetuate suffering."
+        }
+      ]
+    },
+    "52": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "53": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Tapa \u00b7 Austerity",
+          "def": "Deliberate practice that weakens karma and strengthens the soul."
+        }
+      ]
+    },
+    "54": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "55": {
+      "banners": []
+    },
+    "56": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "57": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Dhyana \u00b7 Meditation",
+          "def": "Inward focus purifies the mind and awakens inner wisdom."
+        }
+      ]
+    },
+    "58": {
+      "banners": []
+    },
+    "59": {
+      "banners": []
+    },
+    "60": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        },
+        {
+          "type": "caution",
+          "name": "Moha \u00b7 Delusion",
+          "def": "False perception of reality keeps the soul bound in karma."
+        }
+      ]
+    }
+  }
+}

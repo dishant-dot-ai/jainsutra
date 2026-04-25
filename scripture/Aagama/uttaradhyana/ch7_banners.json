@@ -1,0 +1,183 @@
+{
+  "chapter": 7,
+  "sutras": {
+    "1": {
+      "banners": []
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "4": {
+      "banners": []
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": []
+    },
+    "9": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "10": {
+      "banners": []
+    },
+    "11": {
+      "banners": []
+    },
+    "12": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "13": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": []
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Lobha \u00b7 Greed",
+          "def": "Craving for possessions generates binding karma without ceasing."
+        }
+      ]
+    },
+    "18": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "19": {
+      "banners": []
+    },
+    "20": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "21": {
+      "banners": []
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": []
+    },
+    "24": {
+      "banners": []
+    },
+    "25": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "26": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Impermanence and Death",
+          "def": "All worldly things are temporary\u2014clinging to them brings suffering."
+        }
+      ]
+    },
+    "27": {
+      "banners": []
+    },
+    "28": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Avijja \u00b7 Ignorance",
+          "def": "Lack of spiritual vision perpetuates the cycle of rebirth."
+        }
+      ]
+    },
+    "29": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        }
+      ]
+    },
+    "30": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Prajna \u00b7 Wisdom",
+          "def": "Direct insight into reality transcends mere intellectual knowledge."
+        },
+        {
+          "type": "caution",
+          "name": "Avijja \u00b7 Ignorance",
+          "def": "Lack of spiritual vision perpetuates the cycle of rebirth."
+        }
+      ]
+    }
+  }
+}

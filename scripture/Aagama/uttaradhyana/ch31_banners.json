@@ -1,0 +1,121 @@
+{
+  "chapter": 31,
+  "sutras": {
+    "1": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Samsara \u00b7 Worldly Existence",
+          "def": "Involvement in worldly activities generates binding karma."
+        }
+      ]
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Dukha \u00b7 Suffering",
+          "def": "Suffering arises from identifying with the perishable body and desires."
+        }
+      ]
+    },
+    "4": {
+      "banners": []
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Dhyana \u00b7 Meditation",
+          "def": "Inward focus purifies the mind and awakens inner wisdom."
+        }
+      ]
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": []
+    },
+    "9": {
+      "banners": []
+    },
+    "10": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        },
+        {
+          "type": "caution",
+          "name": "Mana \u00b7 Pride",
+          "def": "Arrogance blocks the humility needed for genuine learning."
+        }
+      ]
+    },
+    "11": {
+      "banners": []
+    },
+    "12": {
+      "banners": []
+    },
+    "13": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Moksha \u00b7 Liberation",
+          "def": "Freedom from karma and rebirth is the soul's eternal home."
+        }
+      ]
+    },
+    "14": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Samata \u00b7 Equanimity",
+          "def": "Equal-mindedness in pleasure and pain reveals the soul's true nature."
+        }
+      ]
+    },
+    "15": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Vinaya \u00b7 Discipline",
+          "def": "Self-imposed order of thought, word, and deed transforms the soul."
+        }
+      ]
+    },
+    "16": {
+      "banners": []
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Moha \u00b7 Delusion",
+          "def": "False perception of reality keeps the soul bound in karma."
+        }
+      ]
+    },
+    "20": {
+      "banners": []
+    },
+    "21": {
+      "banners": []
+    }
+  }
+}

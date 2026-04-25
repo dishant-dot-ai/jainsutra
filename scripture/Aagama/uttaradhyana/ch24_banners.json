@@ -1,0 +1,104 @@
+{
+  "chapter": 24,
+  "sutras": {
+    "1": {
+      "banners": []
+    },
+    "2": {
+      "banners": []
+    },
+    "3": {
+      "banners": []
+    },
+    "4": {
+      "banners": []
+    },
+    "5": {
+      "banners": []
+    },
+    "6": {
+      "banners": []
+    },
+    "7": {
+      "banners": []
+    },
+    "8": {
+      "banners": []
+    },
+    "9": {
+      "banners": [
+        {
+          "type": "caution",
+          "name": "Moha \u00b7 Delusion",
+          "def": "False perception of reality keeps the soul bound in karma."
+        }
+      ]
+    },
+    "10": {
+      "banners": []
+    },
+    "11": {
+      "banners": []
+    },
+    "12": {
+      "banners": []
+    },
+    "13": {
+      "banners": []
+    },
+    "14": {
+      "banners": []
+    },
+    "15": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Ahimsa \u00b7 Non-Violence",
+          "def": "Harmlessness toward all beings is the foundation of all virtues."
+        }
+      ]
+    },
+    "16": {
+      "banners": [
+        {
+          "type": "principle",
+          "name": "Dhyana \u00b7 Meditation",
+          "def": "Inward focus purifies the mind and awakens inner wisdom."
+        }
+      ]
+    },
+    "17": {
+      "banners": []
+    },
+    "18": {
+      "banners": []
+    },
+    "19": {
+      "banners": []
+    },
+    "20": {
+      "banners": []
+    },
+    "21": {
+      "banners": []
+    },
+    "22": {
+      "banners": []
+    },
+    "23": {
+      "banners": []
+    },
+    "24": {
+      "banners": []
+    },
+    "25": {
+      "banners": []
+    },
+    "26": {
+      "banners": []
+    },
+    "27": {
+      "banners": []
+    }
+  }
+}
