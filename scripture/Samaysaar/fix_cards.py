@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-BASE = Path('/Users/thefounder/Projects/active/JainAwaken/scripture/Samaysaar')
+BASE = Path('/Users/thefounder/Projects/active/JainSutra/scripture/Samaysaar')
 
 ADHIKAR_MAP = {
     'samaysaar-ch2.html': 1,

@@ -12,7 +12,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-ROOT = Path("/Users/thefounder/Projects/active/JainAwaken/scripture")
+ROOT = Path("/Users/thefounder/Projects/active/JainSutra/scripture")
 SKIP = ["-index", "sacred-sutras-index", "samaysaar-poorvarang", "/.claude/", "/.git/"]
 
 # Stats div: <div class="flex gap-8 ...">...stats columns...</div>

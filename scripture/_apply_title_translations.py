@@ -14,7 +14,7 @@ import re
 from pathlib import Path
 from typing import Dict, Tuple
 
-ROOT = Path("/Users/thefounder/Projects/active/JainAwaken/scripture")
+ROOT = Path("/Users/thefounder/Projects/active/JainSutra/scripture")
 
 # (old_english, new_english, new_hindi)
 TRANSLATIONS: Dict[str, Tuple[str, str, str]] = {

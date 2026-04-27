@@ -3,7 +3,7 @@
 
 from pathlib import Path
 
-BASE = Path('/Users/thefounder/Projects/active/JainAwaken/scripture/Samaysaar')
+BASE = Path('/Users/thefounder/Projects/active/JainSutra/scripture/Samaysaar')
 
 # (old_span_content, new_span_content) — exact matches
 REPLACEMENTS = [

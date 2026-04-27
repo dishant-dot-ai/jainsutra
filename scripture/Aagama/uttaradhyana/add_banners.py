@@ -75,7 +75,7 @@ def get_chapter_num(filename):
     return int(match.group(1)) if match else None
 
 # Test with chapter 1
-ch1_path = Path("/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/uttaradhyana-ch1.html")
+ch1_path = Path("/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/uttaradhyana-ch1.html")
 if ch1_path.exists():
     with open(ch1_path, 'r', encoding='utf-8') as f:
         content = f.read()

@@ -3,7 +3,7 @@
 
 from pathlib import Path
 
-BASE = Path('/Users/thefounder/Projects/active/JainAwaken/scripture/Samaysaar')
+BASE = Path('/Users/thefounder/Projects/active/JainSutra/scripture/Samaysaar')
 FILE = BASE / 'samaysaar-ch3.html'
 ADHIKAR = 2
 

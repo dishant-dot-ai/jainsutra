@@ -10,7 +10,7 @@ import re
 import sys
 from bs4 import BeautifulSoup
 
-BASE = '/Users/thefounder/Projects/active/JainAwaken/scripture/tattvartha'
+BASE = '/Users/thefounder/Projects/active/JainSutra/scripture/tattvartha'
 
 NEW_BANNER_CSS = """/* Green: Key Jain Principle */
 .principle-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(22,101,52,0.04); border-radius: 6px; }

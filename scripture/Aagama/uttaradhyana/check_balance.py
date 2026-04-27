@@ -1,6 +1,6 @@
 import os
 
-dir_path = "/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/"
+dir_path = "/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/"
 files = [f for f in os.listdir(dir_path) if f.startswith("uttaradhyana-ch") and f.endswith(".html")]
 
 for filename in files:

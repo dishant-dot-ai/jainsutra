@@ -1,8 +1,8 @@
 import re
 import os
 
-source_file = "/Users/thefounder/Projects/active/JainAwaken/scripture/aagama/uttaradhyana/translations/uttaradhyana-ch36-translation.md"
-output_file = "/Users/thefounder/Projects/active/JainAwaken/scripture/aagama/uttaradhyana/uttaradhyana-ch36.html"
+source_file = "/Users/thefounder/Projects/active/JainSutra/scripture/aagama/uttaradhyana/translations/uttaradhyana-ch36-translation.md"
+output_file = "/Users/thefounder/Projects/active/JainSutra/scripture/aagama/uttaradhyana/uttaradhyana-ch36.html"
 
 # Read the translation file
 with open(source_file, 'r', encoding='utf-8') as f:

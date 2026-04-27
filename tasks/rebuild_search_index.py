@@ -5,7 +5,7 @@ with full sutra-level entries (extracted from the English commentary text).
 """
 import re, os, json
 
-BASE = '/Users/thefounder/Projects/active/JainAwaken'
+BASE = '/Users/thefounder/Projects/active/JainSutra'
 UDHY_DIR = f'{BASE}/scripture/Aagama/uttaradhyana'
 VIPK_DIR = f'{BASE}/scripture/Aagama/vipaak'
 

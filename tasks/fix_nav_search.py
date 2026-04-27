@@ -4,7 +4,7 @@ Fix nav paths and add cross-book search to all Uttaradhyana and Vipaak chapter p
 """
 import re, os, json
 
-BASE = '/Users/thefounder/Projects/active/JainAwaken'
+BASE = '/Users/thefounder/Projects/active/JainSutra'
 UDHY_DIR = f'{BASE}/scripture/Aagama/uttaradhyana'
 VIPK_DIR = f'{BASE}/scripture/Aagama/vipaak'
 TATT_DIR = f'{BASE}/scripture/tattvartha'

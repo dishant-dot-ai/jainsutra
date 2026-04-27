@@ -24,7 +24,7 @@ from typing import Optional, Tuple
 sys.path.insert(0, str(Path(__file__).parent))
 from _add_chapter_prefix import chapter_label, SKIP_PATTERNS  # reuse
 
-ROOT = Path("/Users/thefounder/Projects/active/JainAwaken/scripture")
+ROOT = Path("/Users/thefounder/Projects/active/JainSutra/scripture")
 
 H2_CLASS = "text-5xl font-headline italic text-on-surface-variant leading-tight font-light"
 

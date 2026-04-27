@@ -14,7 +14,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path("/Users/thefounder/Projects/active/JainAwaken/scripture")
+ROOT = Path("/Users/thefounder/Projects/active/JainSutra/scripture")
 
 # Skip these (already match, or are not chapters)
 SKIP_PATTERNS = [

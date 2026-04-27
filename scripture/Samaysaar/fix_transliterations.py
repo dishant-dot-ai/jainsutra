@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString, Tag, Comment
 
-BASE = Path('/Users/thefounder/Projects/active/JainAwaken/scripture/Samaysaar')
+BASE = Path('/Users/thefounder/Projects/active/JainSutra/scripture/Samaysaar')
 
 # ─── REPLACEMENT TABLE ────────────────────────────────────────────────────────
 # Order matters: longer/more specific phrases FIRST to avoid partial matches.

@@ -1,7 +1,7 @@
 import os
 import re
 
-dir_path = "/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/"
+dir_path = "/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/"
 files = [f for f in os.listdir(dir_path) if f.startswith("uttaradhyana-ch") and f.endswith(".html")]
 
 opening_tag_pattern = re.compile(r'(<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">)\s*<div class="max-w-4xl mx-auto space-y-6">', re.MULTILINE)

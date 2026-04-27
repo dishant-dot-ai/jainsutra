@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 from typing import Optional, Tuple
 
-ROOT = Path("/Users/thefounder/Projects/active/JainAwaken/scripture")
+ROOT = Path("/Users/thefounder/Projects/active/JainSutra/scripture")
 
 SKIP_PATTERNS = [
     "-index",

@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from typing import Dict
 
-ROOT = Path("/Users/thefounder/Projects/active/JainAwaken/scripture")
+ROOT = Path("/Users/thefounder/Projects/active/JainSutra/scripture")
 
 # rel_path -> (old_h2_inner_text, new_h2_inner_text)
 SUBTITLES: Dict[str, tuple] = {

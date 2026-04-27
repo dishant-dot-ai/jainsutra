@@ -19,7 +19,7 @@ from typing import Tuple
 sys.path.insert(0, str(Path(__file__).parent))
 from _add_chapter_prefix import SKIP_PATTERNS
 
-ROOT = Path("/Users/thefounder/Projects/active/JainAwaken/scripture")
+ROOT = Path("/Users/thefounder/Projects/active/JainSutra/scripture")
 
 H2_RE = re.compile(r'<h2[\s>]', re.IGNORECASE)
 

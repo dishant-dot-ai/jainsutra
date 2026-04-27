@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 from bs4 import BeautifulSoup, Tag
 
-BASE = Path('/Users/thefounder/Projects/active/JainAwaken/scripture/Samaysaar')
+BASE = Path('/Users/thefounder/Projects/active/JainSutra/scripture/Samaysaar')
 
 FILES = [
     'samaysaar-index.html',

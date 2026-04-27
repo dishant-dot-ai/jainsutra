@@ -3,7 +3,7 @@
 import re, json
 from pathlib import Path
 
-BASE = Path('/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana')
+BASE = Path('/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana')
 
 # ── Sutra data ────────────────────────────────────────────────────────────────
 # Each: (id, num_label, prakrit, translation, commentary, simple, tags)

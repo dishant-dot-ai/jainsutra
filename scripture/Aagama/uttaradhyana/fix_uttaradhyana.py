@@ -10,7 +10,7 @@ import re
 import sys
 from bs4 import BeautifulSoup
 
-BASE = '/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana'
+BASE = '/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana'
 
 NEW_BANNER_CSS = """.wrong-view-banner { display: flex; flex-direction: column; gap: 6px; margin-bottom: 1.5rem; padding: 1rem 1.25rem 1rem 1.25rem; background: rgba(186,26,26,0.04); border-radius: 6px; }
 .wrong-view-header { display: inline-flex; align-items: center; gap: 8px; }

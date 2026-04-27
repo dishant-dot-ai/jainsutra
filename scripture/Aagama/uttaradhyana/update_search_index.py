@@ -3,7 +3,7 @@
 import re
 from pathlib import Path
 
-BASE = Path('/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana')
+BASE = Path('/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana')
 
 # Extract the SEARCH_INDEX JSON blob from ch32.html (it's the authoritative source)
 ch32 = (BASE / 'uttaradhyana-ch32.html').read_text(encoding='utf-8')

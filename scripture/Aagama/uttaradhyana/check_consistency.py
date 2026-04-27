@@ -9,7 +9,7 @@ files = [
     "uttaradhyana-ch14.html", "uttaradhyana-ch15.html"
 ]
 
-base_dir = "/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/"
+base_dir = "/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/"
 
 def check_file(filename):
     path = os.path.join(base_dir, filename)

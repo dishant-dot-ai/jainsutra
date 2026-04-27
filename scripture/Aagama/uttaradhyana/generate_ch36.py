@@ -2,9 +2,9 @@ import re
 import os
 
 def generate_html():
-    template_path = '/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/uttaradhyana-ch10.html'
-    translation_path = '/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/translations/uttaradhyana-ch36-translation.md'
-    output_path = '/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/uttaradhyana-ch36.html'
+    template_path = '/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/uttaradhyana-ch10.html'
+    translation_path = '/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/translations/uttaradhyana-ch36-translation.md'
+    output_path = '/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/uttaradhyana-ch36.html'
 
     with open(template_path, 'r', encoding='utf-8') as f:
         template_content = f.read()

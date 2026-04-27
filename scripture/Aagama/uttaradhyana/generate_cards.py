@@ -81,7 +81,7 @@ def format_card(header, body, index):
 """
     return html
 
-file_path = '/Users/thefounder/Projects/active/JainAwaken/scripture/Aagama/uttaradhyana/translations/uttaradhyana-ch36-translation.md'
+file_path = '/Users/thefounder/Projects/active/JainSutra/scripture/Aagama/uttaradhyana/translations/uttaradhyana-ch36-translation.md'
 cards = parse_markdown(file_path)
 
 print(f"Total cards: {len(cards)}")
