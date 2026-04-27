@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Avashyak 3: Vandanā | JainSutra.org</title>
+<meta name="description" content="Avashyak 3 of the Avashyak Sutra — Vandanā (વંદના). The Third Essential — formal reverence to the Guru. The Ichchhami Khamasamano sutra in its four-part structure: wish, request for entry, enquiry about welfare, and request for forgiveness."/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "secondary-container":"#e6ded9","primary-fixed-dim":"#e6c364","surface":"#fef9f1","outline-variant":"#d0c5b2","outline":"#7e7665","on-secondary":"#ffffff","surface-dim":"#ded9d2","surface-container-high":"#ece8e0","primary":"#755b00","on-primary-container":"#503d00","secondary":"#625d59","on-secondary-container":"#67625e","on-primary":"#ffffff","on-error-container":"#93000a","secondary-fixed-dim":"#ccc5c0","surface-variant":"#e7e2da","surface-container-lowest":"#ffffff","surface-container-highest":"#e7e2da","primary-container":"#c9a84c","inverse-primary":"#e6c364","on-surface-variant":"#4d4637","tertiary":"#4d5a98","background":"#fef9f1","on-surface":"#1d1c17","surface-container":"#f2ede5","surface-container-low":"#f8f3eb"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: #ffffff; border: 1px solid #C9A84C; color: #755b00; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #503d00; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+.mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainSutra.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+<input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Avashyak Sutra · Avashyak 3</span>
+<h1 class="text-7xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+Vandanā <span class="block text-primary font-normal text-3xl md:text-4xl mt-3">વંદના</span>
+</h1>
+</div>
+<h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-tight font-light">The Third Essential — formal reverence to the Guru. The Ichchhami Khamasamano sutra in its four-part structure: wish, request for entry, enquiry about welfare, and request for forgiveness.</h2>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex items-center justify-center">
+<div class="w-full max-w-2xl aspect-[4/3] rounded-xl bg-surface-container-low flex items-center justify-center border border-outline-variant/30">
+<p class="text-center font-headline text-on-surface/40 text-sm px-8">Avashyak 3: Vandanā</p>
+</div>
+</div>
+</section>
+<section class="bg-[#f2f1f0] py-24 mesh-bg">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="flex flex-col gap-8">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-xs uppercase font-semibold">About This Essential</span>
+<h3 class="text-3xl md:text-4xl font-headline font-bold text-on-surface leading-tight tracking-tighter">Reverence to the Living Guide</h3>
+</div>
+<p class="text-lg text-on-surface-variant leading-relaxed">After the practitioner has steadied the mind in equanimity (Sāmāyika) and praised the perfected ones (Chaturvimshatistava), the current of devotion naturally flows toward the <i>living</i> guide who keeps the path visible. Without a Guru to correct the seeker's missteps, the texts are silent letters and the seeker walks blind.</p>
+<p class="text-lg text-on-surface-variant leading-relaxed">Acharya Umaswati gives the chain of cause and effect that begins with vandanā: humility leads to the wish to serve; serving the Guru leads to scriptural knowledge; knowledge leads to detachment; detachment to the stopping of inflow; the stopping of inflow to the gathering of austerity; austerity to the shedding of karma; the shedding of karma to liberation. The whole spiritual ladder rests on its first rung: humility expressed through reverence to the teacher.</p>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-3xl font-headline font-bold text-primary mb-1">1</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Sutra</p>
+</div>
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-lg font-headline font-bold text-primary mb-1">4 Parts</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Inner Structure</p>
+</div>
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-lg font-headline font-bold text-primary mb-1">3.5 Cubit</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Avagrah</p>
+</div>
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-3xl font-headline font-bold text-primary mb-1">33</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Āshātanās</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-32 space-y-24">
+<div class="flex flex-col gap-3 mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-xs uppercase font-semibold">Sacred Text</span>
+<h3 class="text-3xl md:text-4xl font-headline font-bold text-on-surface leading-tight tracking-tighter">The Sutras of Avashyak 3</h3>
+<p class="text-lg text-on-surface-variant max-w-2xl">Prakrit original with English translation, commentary, and the simple explanation.</p>
+</div>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-3.1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">3.1</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">The Guru-Vandana Sutra (Ichchhami Khamasamano)</h4>
+<p class="sutra-sanskrit font-headline">इच्छामि खमासमणो ! वंदिउं जावणिज्जाए निसीहियाए, अणुजाणह मे मि उग्गहं निसीहि, अहोकायं कायसंफासं खमणिज्जो भे ! किलामो अप्पकिलंताणं बहुसुभेण भे ! दिवसो वइक्कंतो जत्ता भे जवणिज्जं च भे ? खामेमि खमासमणो देवसियं वइक्कमं आवस्सियाए पडिक्कमामि खमासमणाणं देवसियाए आसायणाए तित्तीसण्णयराए जं किंचि मिच्छाए मणदुक्कडाए वयदुक्कडाए कायदुक्कडाए कोहाए माणाए मायाए लोहाए सव्व कालियाए सव्वमिच्छोवयाराए सव्व धम्माइक्कमणाए आसायणाए जो मे देवसिओ अइयारो कओ तस्स खमासमणो ! पडिक्कमामि निंदामि गरिहामि अप्पाणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I wish, O forgiving ascetic (Khamasamano), to bow — having stopped my sinful activities, with whatever bodily strength I possess. Grant me permission to enter your limited personal space; with the word "nisīhi" (renouncing all other activity) I bow, touching your feet (the lower part of your body) with my body. Forgive me, O Lord! — for any pain my touch may have caused you, who are yourself untired. Has your day passed in great wholesomeness? Is your spiritual journey (of restraint) proceeding without obstacle, and are your senses and mind in good order? I beg forgiveness, O forgiving ascetic, for my transgressions of this day. With "āvassiyāe" (returning from the avagrah), I perform pratikraman of any of the thirty-three forms of disrespect (āshātanā) of this day toward the forgiving ascetics — whatever was done from false belief, by misdeed of mind, by misdeed of speech, by misdeed of body, from anger, from pride, from deceit, from greed; whatever transgression of all time, whatever wrong conduct toward all, whatever violation of all dharmas — for any disrespect, for whatever transgression of this day I have committed, O forgiving ascetic, I turn back from it; I censure it; I confess it before you; I let go of (that) sinful self.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This single sutra is the verbal half of the highest-grade vandana ritual (utkrishta vandana). The other half is physical — twenty-five precise actions called the <i>vandana panchavishika</i> (the twenty-five components of vandana), enumerated by the Samavayanga Sutra: two bows (avanata), one yathāj̄āta posture, twelve āvartana (circular hand-gestures), four shira-namana (head-bowings), three guptis (restraints), two pravesha (entries), and one nishkraman (exit). The sutra and the gestures together make a single ritual; neither one is complete without the other. The four-part inner structure of the sutra teaches a complete philosophy of the disciple-Guru relationship. <b>1. Ichchhanivedan — "I wish."</b> Every spiritual practice begins with the disciple's own wish, freely offered. A vandana performed because someone said "you must" is empty. The very first word — <i>ichchhāmi</i>, "I wish" — establishes that the act about to be performed is not coerced. This is why every Avashyak formula begins with the same word. The sutras of dharma know that the only acts that purify are those born of the seeker's own free choice. <b>2. Agya Yachana — "Grant me permission to enter."</b> The Guru, like every monk and nun, is held to occupy a personal space of three-and-a-half cubits (about five feet) in every direction — the <i>avagraha</i>. Within this circle the Guru sits, studies, meditates, sleeps. No one — disciple or stranger — may enter without explicit permission. Why? Because the Guru's sphere is sacred to the work of liberation, and unannounced intrusion is itself a disrespect. The disciple stands at the boundary, asks <i>aṇujāṇaha me mi uggahaṃ</i>, waits for the Guru to grant <i>aṇujāṇāmi</i>, and only then steps in with the word <i>nisīhi</i> — "I cease all other activity at this moment." This single ritual teaches an entire ethic of presence: do not assume access, ask for it; when granted, enter wholly. <b>3. Sukhshata Pruchchha — "How is your day, your journey, your sustenance?"</b> Three questions, each more interior than the last. <i>Has the day passed wholesomely?</i> — outward enquiry about the Guru's day. <i>Is the journey of restraint proceeding without obstacle?</i> — interior enquiry about the Guru's spiritual practice (saṃyam-yātrā). <i>Are the senses and mind well?</i> — innermost enquiry about whether the Guru is being disturbed by the pull of sense-objects or the wandering of mind. The disciple is being trained, by these three questions, to attend to the Guru's whole condition: body, practice, and inner state. Not as flattery, not as small-talk, but as the real care of one who depends on the Guru's continued well-being for their own spiritual life. <b>4. Kshama Yachana — "Forgive my transgressions."</b> The fourth and longest movement of the sutra is the request for forgiveness. The Dasha-shrutaskandha Sutra enumerates thirty-three specific āshātanās (forms of disrespect to the Guru); the commentators cluster them into four broad categories: <i>dravya-āshātanā</i> (refusing to share food, drink, robes, or vessels with the elders), <i>kshetra-āshātanā</i> (taking the choicer seat or place and leaving the inferior for the elder), <i>kāla-āshātanā</i> (failing to answer when the Guru calls at night, or remaining silent when one is awake and able to respond), <i>bhāva-āshātanā</i> (lacking inward respect; speaking to the Guru with familiar pronouns like "you" instead of honorifics). The sutra then enumerates by what <i>means</i> these disrespects can have arisen: by misdeed of mind, speech, or body; from anger, pride, deceit, or greed; from any false dealing or violation of dharma. The phrase <b>savva-kāliyāe</b> is read in two ways by the commentators — either <i>all kinds of time-bound transgressions</i> (covering the day's daily / fortnightly / four-monthly / yearly āshātanās), or <i>transgressions of all time</i> (covering past, present, and future — confessing the past, withdrawing from the present, vowing against the future). The wider reading is preferred: the disciple who confesses has just stepped, in this ritual moment, outside the timeline of their own karmic accumulation. The sutra closes with the same formula as the Karemi Bhante vow: <i>paḍikkamāmi, niṃdāmi, garihāmi, appāṇaṃ vosirāmi</i> — I turn back, I censure inwardly, I confess outwardly, I let go of the part of me that did the deed. The ritual is not complete with mere acknowledgement; the disciple must release identification with the part of the self that committed the disrespect. What this single sutra teaches, taken whole, is that reverence is a precise discipline — not a feeling, not a posture, but a sequence of actions and inner movements that together remake the relationship between disciple and Guru. The disciple's pride is dissolved through asking permission. The disciple's self-absorption is broken through enquiry about the Guru's condition. The disciple's accumulated faults are released through confession. And the disciple's identification with the small, faulty self is set aside through <i>vosirāmi</i>. In the space cleared by this fourfold movement, the Guru's teaching can land without obstruction. This is why vandana is the third essential, and why no further practice — neither pratikraman, nor kāyotsarga, nor pratyākhyāna — is possible until this one is firm.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The disciple says to the teacher: "I want to bow. May I come into your space? I have come; please forgive any discomfort I cause. Has your day been peaceful? Is your spiritual practice going well? Are your senses calm? And please forgive any disrespect I may have shown you today — by mind, speech, or body, from anger, pride, deceit, or greed — I am sorry, I confess it, and I let go of the part of me that did it."</p>
+</div>
+</div>
+</article>
+</section>
+</main>
+<a class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="avashyak-ch2.html"><span class="text-lg">←</span> Avashyak 2</a>
+<a class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="avashyak-ch4.html">Avashyak 4 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainSutra</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainSutra. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Aagama</span>
+<a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+<a class="hover:text-primary transition-colors" href="avashyak-index.html">Avashyak Index</a>
+<a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Explore</span>
+<a class="hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+<a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+    const buttons = document.querySelectorAll('.nav-button');
+    if (window.scrollY > 300) {
+        buttons.forEach(btn => btn.classList.add('visible'));
+    } else {
+        buttons.forEach(btn => btn.classList.remove('visible'));
+    }
+});
+</script>
+<script src="../../../js/global-search.js"></script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Avashyak 6: Pratyākhyāna | JainSutra.org</title>
+<meta name="description" content="Avashyak 6 of the Avashyak Sutra — Pratyākhyāna (પ્રત્યાખ્યાન). The Sixth and Final Essential — the formal vow of renunciation. Ten time-bound pratyakhyana vows from Navkarshi to Upvas — the polishing-stroke that completes the day."/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "secondary-container":"#e6ded9","primary-fixed-dim":"#e6c364","surface":"#fef9f1","outline-variant":"#d0c5b2","outline":"#7e7665","on-secondary":"#ffffff","surface-dim":"#ded9d2","surface-container-high":"#ece8e0","primary":"#755b00","on-primary-container":"#503d00","secondary":"#625d59","on-secondary-container":"#67625e","on-primary":"#ffffff","on-error-container":"#93000a","secondary-fixed-dim":"#ccc5c0","surface-variant":"#e7e2da","surface-container-lowest":"#ffffff","surface-container-highest":"#e7e2da","primary-container":"#c9a84c","inverse-primary":"#e6c364","on-surface-variant":"#4d4637","tertiary":"#4d5a98","background":"#fef9f1","on-surface":"#1d1c17","surface-container":"#f2ede5","surface-container-low":"#f8f3eb"
+      },
+      fontFamily: { "headline": ["Noto Serif", "serif"], "body": ["Inter", "sans-serif"], "label": ["Inter", "sans-serif"] },
+      borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: #ffffff; border: 1px solid #C9A84C; color: #755b00; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #503d00; }
+.glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+.search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+.search-section-label:first-child { border-top:none; }
+.search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+.search-result-item:hover { background:#fef9f1; }
+.search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+.search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+.search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+.mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-white">
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainSutra.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+<input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Avashyak Sutra · Avashyak 6</span>
+<h1 class="text-7xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+Pratyākhyāna <span class="block text-primary font-normal text-3xl md:text-4xl mt-3">પ્રત્યાખ્યાન</span>
+</h1>
+</div>
+<h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-tight font-light">The Sixth and Final Essential — the formal vow of renunciation. Ten time-bound pratyakhyana vows from Navkarshi to Upvas — the polishing-stroke that completes the day.</h2>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex items-center justify-center">
+<div class="w-full max-w-2xl aspect-[4/3] rounded-xl bg-surface-container-low flex items-center justify-center border border-outline-variant/30">
+<p class="text-center font-headline text-on-surface/40 text-sm px-8">Avashyak 6: Pratyākhyāna</p>
+</div>
+</div>
+</section>
+<section class="bg-[#f2f1f0] py-24 mesh-bg">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="flex flex-col gap-8">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-xs uppercase font-semibold">About This Essential</span>
+<h3 class="text-3xl md:text-4xl font-headline font-bold text-on-surface leading-tight tracking-tighter">The Forward-Looking Vow</h3>
+</div>
+<p class="text-lg text-on-surface-variant leading-relaxed">Where the four earlier essentials looked backward (confession of past faults) or inward (cultivation of the present mind), Pratyākhyāna looks <i>forward</i>: it pre-emptively closes off the future possibility of certain karma-bindings. To do pratyakhyana is to <i>declare against</i> — to publicly and formally renounce. It is not a mere intention ('I should fast'); it is a binding promise ('from sunrise to sunrise, I shall not eat').</p>
+<p class="text-lg text-on-surface-variant leading-relaxed">The ten paths of this Avashyak are the ten forms of <i>aḍḍhā-pratyākhyāna</i> — the time-bound renunciations: Navkarshi (one muhurta), Porisi (one praharaḥ), Be Porisi (two praharas), Ekashanu (one sitting), Ekalathanu (one position), Ayambil (tasteless food), Upvas (full fast), Divas Charim (day-end), Abhigrah (conditional resolution), and Nirvigai (no enrichments). Each includes specified <i>āgārs</i> (exemptions) — practical wisdom built into every vow. The chapter closes with the Antim Mangal: the Namotthunaṃ Sūtra.</p>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-3xl font-headline font-bold text-primary mb-1">10</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Paths</p>
+</div>
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-lg font-headline font-bold text-primary mb-1">4 Foods</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Asana, Pana, Khadima, Svadima</p>
+</div>
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-lg font-headline font-bold text-primary mb-1">6 Vigaiyas</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Tasty Enrichments</p>
+</div>
+<div class="sutra-card p-6 rounded-xl">
+<p class="text-lg font-headline font-bold text-primary mb-1">Namotthunaṃ</p>
+<p class="text-sm text-on-surface-variant font-label uppercase tracking-widest">Closing Mangal</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-32 space-y-24">
+<div class="flex flex-col gap-3 mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-xs uppercase font-semibold">Sacred Text</span>
+<h3 class="text-3xl md:text-4xl font-headline font-bold text-on-surface leading-tight tracking-tighter">The Sutras of Avashyak 6</h3>
+<p class="text-lg text-on-surface-variant max-w-2xl">Prakrit original with English translation, commentary, and the simple explanation.</p>
+</div>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.1</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Navkarshi Pratyakhyana</h4>
+<p class="sutra-sanskrit font-headline">उग्गए सूरे णमुक्कारसहियं पच्चक्खामि, चउव्विहं पि आहारं — असणं, पाणं, खाइमं, साइमं अण्णत्थणाभोगेणं, सहसागारेणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">After sunrise, I take the vow of "Namaskar-sahita" (the salutation-bound vow): until I conclude with the Namaskar Mantra, I renounce all four kinds of food — solid, drink, chewable, tasteable — apart from (the two exemptions of) absent-mindedness (anābhoga) and sudden involuntary action (sahasākāra) — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">Navkarshi is the <i>shortest and lightest</i> pratyakhyana — yet, paradoxically, the most universally taken. Its name comes from its closing: the practitioner concludes by reciting the Namaskar Mahamantra. Its time-limit is exactly <i>one muhurta</i> (forty-eight minutes) after sunrise. The practitioner pre-vows: "From the moment of sunrise until I formally end this vow with the Namaskar Mantra (which I will only do after at least one muhurta has passed), I will not eat anything in any of the four categories." Why one muhurta? The Jain teaching is that food taken too soon after sunrise is karmically heavier — the digestive fire has not yet kindled, the mouth is unrinsed, the day's first impressions are not yet settled. By delaying food by even one muhurta, the practitioner cleanses the boundary between night and day. By concluding with the Namaskar Mantra, the practitioner marks the day's first eating with the day's first salutation. Two exemptions are named. <b>Anābhoga</b> — total forgetting; if the practitioner simply forgets the vow exists and eats, no karma binds. <b>Sahasākāra</b> — sudden action; if rain, dust, or another's splash enters the mouth unbidden, no karma binds. These exemptions exist because vows must be takeable in real conditions; without them, the conscientious practitioner would be paralysed. Variations: The same pratyakhyana can be taken in <i>symbolic</i> form. Instead of "after sunrise," one says <b>गंठीसहियं</b> (<i>ganthi-sahiyaṃ</i> — "knot-bound": until I untie this knot in my robe) or <b>मुट्ठीसहियं</b> (<i>muṭṭhī-sahiyaṃ</i> — "fist-bound": until I open this fist). These allow the same vow to be taken at any time of day.</p>
+<p class="simple-explanation"><b>Simply Put:</b> After sunrise, the practitioner promises: "I will not eat or drink anything until I formally end this vow by reciting the Namaskar Mantra — which I will do only after at least one muhurta (about 48 minutes) has passed. Forgetting the vow or being unintentionally splashed does not break it."</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.2</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Porisi Pratyakhyana (Until One Praharaḥ)</h4>
+<p class="sutra-sanskrit font-headline">उग्गए सूरे पोरिसिं पच्चक्खामि; चउव्विहं पि आहारं — असणं, पाणं, खाइमं, साइमं — अण्णत्थणाभोगेणं, सहसागारेणं, पच्छण्णकालेणं, दिसामोहेणं, साहुवयणेणं, सव्वसमाहिवत्तियागारेणं, वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">After sunrise, I take the <i>porisi</i> vow: until one praharaḥ (a quarter of the day) has passed, I renounce all four kinds of food — apart from (six exemptions): absent-mindedness, sudden action, time obscured by clouds, confusion of direction, the word of a sādhu, and (the case of) general samadhi-disturbance — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The <i>porisi</i> (Sanskrit <i>paurusi</i>) is the time when the shadow cast by an upright person equals their own height — about three hours after sunrise (one praharaḥ). The practitioner vows: from sunrise until one praharaḥ has passed, no food in any of the four categories. Six exemptions are named. The first two (anābhoga, sahasākāra) are the standard ones. The next three address honest mistakes about <i>time</i>: if clouds hide the sun, if one is geographically disoriented, or if a trusted person announces "porisi is over" — and one breaks the vow under such mistaken belief — no karma binds, <i>provided</i> that as soon as the truth is known, eating immediately stops. The sixth — <i>sarva-samādhi-pratyākāra</i> — is the most profound. If during the vow a sudden severe illness arises (renal stone, acute pain) that threatens to drag the practitioner into ārta or raudra dhyāna, and medication or food becomes medically necessary to restore equanimity, the vow may be broken without karmic stain. The principle: the vow exists <i>for the sake of</i> samadhi; if the vow itself becomes the cause of samadhi-loss, breaking it is the right action. As the commentators say: <i>"the exemption is not for the cultivation of laxness but for the prevention of stained mental states."</i> A variant — <i>sārdha porisi</i> (one and a half praharaḥ) — extends the vow by another half praharaḥ.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner promises: "From sunrise until my shadow becomes equal to my height (about three hours), no food of any kind. Six honest exceptions are recognised — including the rule that if a sudden severe illness threatens my mental stability, I may break the vow to restore equanimity."</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.3</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Be Porisi (Purimaḍḍhaṃ — Until Two Praharas)</h4>
+<p class="sutra-sanskrit font-headline">उग्गए सूरे, पुरिमड्ढं पच्चक्खामि, चउव्विहं पि आहारं — असणं, पाणं, खाइमं, साइमं । अण्णत्थणाभोगेणं, सहसागारेणं, पच्छण्णकालेणं, दिसामोहेणं, साहुवयणेणं, महत्तरागारेणं, सव्वसमाहिवत्तियागारेणं, वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">After sunrise, I take the <i>purimaḍḍha</i> vow: until the first half (purvārdha) of the day — i.e. two praharas — has passed, I renounce all four kinds of food. Apart from (seven exemptions): absent-mindedness, sudden action, time obscured by clouds, confusion of direction, the word of a sādhu, the special-call exemption (<i>mahattara</i>), and total samadhi-disturbance — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This pratyakhyana extends the <i>porisi</i> to two full praharas — <i>purimaḍḍha</i>, the first half of the day, until noon. With the longer duration comes a new exemption: <b>mahattara-āgāra</b> (the "greater-call" exemption). Acharya Siddhasena Divakar explains: when an emergency in service to a sick monk, an aging fellow-practitioner, or the monastic community arises, and only the practitioner can perform the service, the practitioner may, with the Guru's permission, break the vow to perform the more meritorious act. The principle is delicate. The vow has karmic weight; service to a sick monk has greater karmic weight; therefore the vow may be set down for the service. <i>Vaiyāvṛtya</i> (service) is itself a category of austerity (<i>ābhyantara tapa</i>) — and one of the highest. The pratyakhyana, being <i>bāhya</i> (external) tapa, can yield to it. This is why navkarshi and porisi (which are short) do not include this exemption (the brevity makes service possible after the vow ends), but purimaḍḍha and longer vows do. A variant — <i>aparārdha</i> (the second half) — extends instead until three praharas after sunrise.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner extends the no-food vow until noon (two praharas). A new exemption appears: if the spiritual community needs urgent service and only this practitioner can give it, the vow may be broken — because service to others is itself a higher form of austerity.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.4">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.4</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Ekashanu Pratyakhyana (One Sitting per Day)</h4>
+<p class="sutra-sanskrit font-headline">एगासणं पच्चक्खामि तिविहं पि आहारं असणं, खाइमं, साइमं (चउव्विहं पि आहारं असणं, पाणं, खाइमं, साइमं) अण्णत्थणाभोगेणं, सहसागारेणं, सागारियागारेणं, आउंटणपसारणेणं, गुरुअब्भुट्ठाणेणं, पारिट्ठावणियागारेणं, महत्तरागारेणं, सव्वसमाहिवत्तियागारेणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I take the <i>ekāsana</i> vow: I will eat only one sitting today. Apart from three (or four) kinds of food, I renounce the rest. Apart from (eight exemptions): absent-mindedness, sudden action, sāgārika-event (an outsider entering during meal), contraction-and-extension of limbs, standing for the Guru, parishtāpanika (food given by another monk), the special-call exemption, total samadhi-disturbance — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><i>Ekāsana</i> (Prakrit <i>egāsaṇa</i>) literally means "one sitting" or "one meal-station." The Sanskrit yields two readings: <i>eka-aśana</i> (one eating per day) and <i>eka-āsana</i> (eating on one seat without rising). Both meanings are observed: the practitioner eats only once during the day, and during that one sitting does not rise from the seat until finished. Eight exemptions are named. The four new ones (beyond the four standard) are practical accommodations: if an unexpected guest arrives, if a limb cramps, if the Guru comes, or if another monk needs to share excess food. None of these breaks the vow's intent — which is the discipline of one continuous mindful meal — even though each technically interrupts the seat. For a layperson, the <i>parishtāpanika</i> exemption does not strictly apply (since lay food is plentiful); for a monk, it is essential, since wasting food is wasting prāṇas and the monk who has gathered too much must somehow consume or transfer it. A variant — <i>biāsaṇa</i> — permits eating twice a day instead of once, with the same other rules. This is taken by those who cannot yet sustain ekāsana.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner eats only once today — on one seat, in one continuous session — renouncing all other meals. Practical exemptions cover the small interruptions of real life (a guest arrives, a leg cramps, the teacher comes by) without breaking the vow's spirit.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.5">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.5</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Ekalathanu Pratyakhyana (One Position, One Sitting)</h4>
+<p class="sutra-sanskrit font-headline">एक्कासणं एगट्ठाणं पच्चक्खामि चउव्विहं पि आहारं असणं पाणं खाइमं साइमं अण्णत्थणाभोगेणं, सहसागारेणं, सागारियागारेणं, गुरुअब्भुद्दाणेणं, पारिट्ठावणियागारेणं, महत्तरागारेणं, सव्वसमाहिवत्तियागारेणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I take the <i>ekāsana-ekasthāna</i> vow: I will eat once today on one seat in one position — renouncing all four kinds of food (apart from this one meal). Apart from seven exemptions (as in ekāsana, minus the limb-movement exemption), I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is <i>ekāsana</i> taken to a stricter degree. Where ekāsana permitted contraction-and-extension of limbs (the limb-cramp exemption), <i>ekāsana-ekasthāna</i> removes that permission: whatever bodily position the practitioner adopts at the start of the meal must be maintained — without limb-movement — until the meal is complete. There are eight āgāras in ekāsana but only seven in ekasthāna (the <i>āuṃṭaṇa-pasāraṇa</i> exemption is dropped). This stricter version develops the practice of body-stillness during eating. The mind, knowing that the limbs cannot shift to find comfort, must be more present to the actual moment of eating. The meal becomes a small kāyotsarga — the body is held; only the eating-action moves. Water during the day (after the meal) is also renounced in ekasthāna; what is taken at the meal is taken once and finally.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner eats once today — on one seat, in one continuous session, <i>and</i> in one bodily position held without limb-movement throughout the meal. Stricter than ekāsana, it turns even eating into a small standing meditation.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.6">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.6</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Ayambil Pratyakhyana (Tasteless-Food Vow)</h4>
+<p class="sutra-sanskrit font-headline">आयंबिलं पच्चक्खामि (चउव्विहं पि आहारं असणं पाणं खाइमं साइमं, अथवा तिविहं पि आहारं असणं खाइमं साइमं) अण्णत्थणाभोगेणं, सहसागारेणं, लेवालेवेणं, उक्खित्तविवेगेणं, गिहित्थसंसट्ठेणं, पारिट्ठावणियागारेणं, महत्तरागारेणं, सव्वसमाहिवत्तियागारेणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I take the <i>āyambil</i> vow today. I renounce all flavoured food. (I will eat only once, and only of plain unseasoned grain.) Apart from eight exemptions — including absent-mindedness, sudden action, leva-aleva (slight unintentional contact with vigai), ukkhitta-viveka (separable-removal of an over-spread vigai), gihastha-saṃsṛṣṭa (touched by a householder's vigai-stained hand), parishtāpanika, mahattara, total samadhi-disturbance — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed"><i>Āyambil</i> (Sanskrit <i>ācāmla</i>) is the renunciation of <i>taste itself</i>. The practitioner eats only one bland meal of plain boiled grain — typically rice, lentil paste, or barley flour — without any of the six <i>vigaiyas</i>: ghee, oil, milk, curd, jaggery (sugar), and salt-sugar combinations. The food is meant to fulfil bodily need, not delight the tongue. Of all the longer pratyakhyanas, āyambil is the most spiritually distinguished. Where ekāsana and ekasthāna train discipline of <i>quantity</i> and <i>posture</i>, āyambil trains discipline of the <b>rasendriya</b> (the taste-sense) — the most subtle and most addictive of the five senses. The food fills the stomach but offers nothing to the tongue. The result, after years of practice, is a profound shift: the sense of taste loses its grip on the mind. Three of the eight exemptions are unique to āyambil and concern <i>minimal contact</i> with vigai. The principle is generosity to the conscientious practitioner: when food was prepared by a householder who normally cooks with ghee or oil, total purification is impossible; the slight unavoidable trace is exempted. But deliberate addition or substantial contamination breaks the vow. In Jain tradition, <b>navpad oli</b> — the nine-day āyambil cycle observed twice a year — involves continuous āyambil for nine days while reciting the navpad (the nine refuges including Arihant, Siddha, etc.). It is one of the most beloved lay austerities.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner eats only one meal today — and only of plain, unseasoned, boiled grain, with none of the six taste-enrichments (ghee, oil, milk, curd, jaggery, sugar). The discipline is not of hunger but of taste itself: the food fills the stomach without delighting the tongue.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.7">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.7</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Upvas Pratyakhyana (Fasting)</h4>
+<p class="sutra-sanskrit font-headline">उग्गए सूरे, अभत्तट्ठं पच्चक्खामि, चउव्विहं पि आहारं — असणं, पाणं, खाइमं, साइमं । अण्णत्थणाभोगेणं, सहसागारेणं, पारिट्ठावणियागारेणं, महत्तरागारेणं, सव्वसमाहिवत्तियागारेणं, वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">After sunrise, I take the <i>abhakta-artha</i> (food-renunciation) vow: until tomorrow's sunrise, I renounce all four kinds of food. Apart from five exemptions — absent-mindedness, sudden action, parishtāpanika, mahattara, total samadhi-disturbance — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The <i>upavāsa</i> (fast) is the longest of the daily-cycle pratyakhyanas. It runs from sunrise of one day to sunrise of the next — a full twenty-four hours of complete renunciation. Two forms: <b>chauvihār upvas</b> (renouncing all four including water) and <b>tivihār upvas</b> (renouncing solid, chewable, tasteable; water permitted under specified conditions). In the Agamic tradition, longer fasts have technical names: <i>catustha-bhakta</i> (chauttha-bhatta) for one fast (counting the previous day's evening meal and the next day's morning meal as the surrounding meals); <i>ṣaṣṭha-bhakta</i> for two consecutive fasts; <i>aṣṭama-bhakta</i> for three; and so on, counting in eight-meal increments. For the tivihār upvas, the Avashyak Vrtti adds six water-related āgāras: (1) <b>levaḍeṇa</b> — water in which lentils or rice were rinsed, leaving a trace; (2) <b>alevaḍeṇa</b> — water without trace (rinse-water); (3) <b>acchena</b> — perfectly clear, even slightly heated water; (4) <b>bahalena</b> — thick-water (rice-broth, tamarind-water); (5) <b>sasitthena</b> — water with grain-flecks (where flour-stained hands washed); (6) <b>asitthena</b> — water without grain-flecks. These six allow the practitioner who has taken tivihār to drink permissible kinds of water during the fast. The five general exemptions are unchanged: absent-mindedness, sudden action, parishtāpanika (transfer from another monk in unavoidable need), mahattara (urgent service), and total samadhi-disturbance. The classic Jain austerity sequence — <i>upvas, chhath, attham, navam, dasham...</i> through <i>māsa-kshamana</i> (one-month fast) — extends the upvas progressively. Each step is taken only when the body and mind have proven steady at the previous step. Mahavir himself is said to have undertaken multi-month fasts during his twelve-year ascetic period; the historical record of present-day Jain practitioners regularly attaining 30-, 45-, even 90-day fasts continues.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner takes a complete fast — no food at all (and either no water, or only specified pure waters) — from sunrise today to sunrise tomorrow. Five exemptions are recognised, including the rule that if the fast itself begins to disturb mental stability, it may be broken to preserve equanimity.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.8">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.8</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Divas Charim Pratyakhyana (Day-End Vow)</h4>
+<p class="sutra-sanskrit font-headline">दिवसचरिमं पच्चक्खामि, चउव्विहं पि आहारं — असणं, पाणं, खाइमं, साइमं । अण्णत्थणाभोगेणं, सहसागारेणं, महत्तरागारेणं, सव्व समाहिवत्तियागारेणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I take the <i>day-end</i> vow: I renounce all four kinds of food (until tomorrow's sunrise). Apart from four exemptions — absent-mindedness, sudden action, mahattara, total samadhi-disturbance — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The <i>divas-carima</i> is the small vow taken every evening at sunset by every observant Jain. Whatever the day's eating has been (full meals, ekāsana, fast — anything), the evening pratyakhyana closes the eating-day formally: from sunset to next sunrise, no food in any of the four categories. The Jain prohibition on night-eating is given multiple foundations — the visible (insects in food), the digestive (the body's metabolic readiness), and the karmic (the inability of light-body life to be seen and avoided after sunset). This pratyakhyana is the simplest and most universally taken. It has only four exemptions — the lightest list of any pratyakhyana — because its duration is short and its content (cessation of evening eating) is what every Jain household already practises. A second sense, <b>bhava-carima</b> ("life-end"): the vow taken at the moment of impending death, renouncing all food for the remainder of life — which may be hours or days. This is the entry point to <i>santhāra</i> (sallekhana) — the holy death by progressive fasting. The same pratyakhyana formula is used; only the duration is open-ended.</p>
+<p class="simple-explanation"><b>Simply Put:</b> At sunset, the practitioner closes the day's eating with this vow: no food or drink of any kind from now until tomorrow's sunrise. It is the smallest of the pratyakhyanas — and the one taken every single evening by every observant Jain.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.9">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.9</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Abhigrah Pratyakhyana (Conditional Resolution)</h4>
+<p class="sutra-sanskrit font-headline">अभिग्गहं पच्चक्खामि चउव्विहं पि आहारं असणं, पाणं, खाइमं, साइमं । अण्णत्थणाभोगेणं, सहसागारेणं, महत्तरागारेणं, सव्व समाहिवत्तियागारेणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I take the <i>abhigraha</i> (conditional-resolution) vow: I renounce all four kinds of food until my conditional resolution is fulfilled (within a stated time-limit). Apart from four exemptions, I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The <i>abhigraha</i> is the most personal and the most secret of the pratyakhyanas. After completing some austerity (or independent of any), the practitioner privately resolves: "I will eat today <i>only if</i> a specific unlikely condition is met." For example: "only if a black ox crosses my path before noon," or "only if a stranger offers me pancakes in this specific way before sunset." The condition is set in the privacy of the practitioner's own mind, told to no one. If the condition is met, the practitioner eats; if not, the practitioner remains fasting until the time-limit, then completes a regular fast. The locus classicus of this practice is Lord Mahavira's own forty-day abhigraha during his ascetic period, which was finally fulfilled by the slave-girl Chandanbala — who fed him boiled urad-beans from the corner of a winnowing basket, fulfilling thirteen specific conditions that Mahavira had set in his mind. The story is one of the most beloved in the entire Jain tradition; it teaches that an abhigraha is the practitioner's secret pact with reality itself. The vow has strict conditions: it must be kept entirely private until fulfilled (otherwise others might engineer the condition to please the practitioner); only the <i>dhīra</i> (firm), <i>gambhīra</i> (deep), and <i>śūravīra</i> (courageous) practitioner should take it (since failure to maintain equanimity if the condition does not arise can cause intense ārta or raudra dhyāna); and the practitioner must take it within their actual capacity, not in imitation of others.</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner privately resolves: "I will eat today only if a very specific condition is met." If the condition is met, they eat; if not, they continue to fast. The vow is kept secret so that no one can deliberately fulfil it — it must arise on its own, or not at all.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-6.10">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">6.10</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Nirvigai Pratyakhyana (Renunciation of Tasty Enrichments)</h4>
+<p class="sutra-sanskrit font-headline">णिव्विगइयं पच्चक्खामि, अण्णत्थणाभोगेणं, सहसागारेणं, लेवालेवेणं, गिहत्थसंसट्ठेणं, उक्खित्तविवेगेणं, पडुच्चमक्किख्खएणं, परिट्ठावणियागारेणं, महत्तरागारेणं, सव्वसमाहिवत्तियागारेणं वोसिरामि</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">I take the <i>nirvigai</i> (vigai-less) vow: I renounce all the <i>vigaiyas</i> (tasty enrichments). Apart from nine exemptions — absent-mindedness, sudden action, leva-aleva, gihastha-saṃsṛṣṭa, ukkhitta-viveka, paḍucca-makkhia, parishtāpanika, mahattara, total samadhi-disturbance — I let go.</p>
+<p class="text-base text-on-surface-variant leading-relaxed">The <i>nirvigai</i> is the renunciation of the six <i>vigaiyas</i> — the food-enrichments that delight the tongue and stir the senses but are not strictly necessary for nourishment. Where ekāsana and ekasthāna control <i>quantity</i>, where āyambil eliminates <i>taste itself</i>, the nirvigai sits between: full-quantity meals, but without the six rasendriya-stimulants. The Sanskrit <i>nirvikṛti</i> literally means "without transformation/distortion." The vigaiyas are called <i>vikṛti</i> because they transform — they alter the mind's natural sattvic state into rajas (agitation) and tamas (torpor). For a practitioner trying to maintain unbroken equanimity, the regular intake of vigaiyas creates a slow undertow of mental alteration. The nirvigai vow removes this undertow. Nine exemptions are listed — the largest exemption-set of any pratyakhyana — because the practitioner who takes nirvigai is typically eating from the householder's kitchen where vigai-traces are unavoidable. The exemptions cover the realistic boundaries: lightly smeared, separable by lifting, householder's hand-stained, etc. The practitioner who is sincere does not exploit these as loopholes; they exist only so that the practitioner is not paralysed by the impossibility of finding <i>zero</i>-vigai food in a vigai-using world. The traditional six vigaiyas (in the Shvetambara enumeration): <b>ghṛta</b> (clarified butter), <b>taila</b> (oil), <b>dugdha</b> (milk), <b>dadhi</b> (curd), <b>guḍa</b> (jaggery/sugar), and <b>avagāhya</b> (oil-fried sweets). Some traditions add ten <i>mahā-vigaiyas</i> — wine, meat, butter, honey, certain figs, etc. — which are absolutely renounced and not within the scope of pratyakhyana (since they should never be eaten at all).</p>
+<p class="simple-explanation"><b>Simply Put:</b> The practitioner eats today without the six tasty enrichments — no ghee, oil, milk, curd, jaggery, sugar, or oil-fried sweets. Quantity may be normal, but the food remains unstimulating to the senses. Nine practical exemptions are recognised because vigai-traces are unavoidable in a normal kitchen.</p>
+</div>
+</div>
+</article>
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-closing">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">closing</span>
+<div class="space-y-4 flex-1">
+<h4 class="text-xl font-headline font-bold text-on-surface mt-0">Pratyakhyana Pālan Sutra</h4>
+<p class="sutra-sanskrit font-headline">उग्गएसूरे नमुक्कार सहियं ..... पच्चक्खाणं कयं । तं पच्चक्खाणं सम्मं कायेण फासियं, पालियं, तीरियं, किट्टियं, सोहियं, आराहियं । जं च न आराहियं तस्स मिच्छामि दुक्कडम् ।</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The pratyakhyana (Navkarshi or whichever was taken) — taken at sunrise — has been (or is now being) completed. That pratyakhyana has been by my body rightly <i>sparshita</i> (touched), <i>pālita</i> (observed), <i>tīrita</i> (carried to completion), <i>kīrtita</i> (extolled), <i>śodhita</i> (purified), <i>ārādhita</i> (perfectly fulfilled). Whatever I did <i>not</i> fulfil — for that, may my misdeed be reduced to nothing. ### 4. ANVAYARTHA — The Six Aṅgas of Pratyakhyana-Pālan - <b>फासियं</b> (phāsiyaṃ) = <i>sparśita</i> — touched/contacted: the vow has been observed without breach in the middle period - <b>पालियं</b> (pāliyaṃ) = <i>pālita</i> — observed: the vow has been kept in continuous mindfulness, without sliding into transgression through inattention - <b>तीरियं</b> (tīriyaṃ) = <i>tīrita</i> — carried to completion: the vow has been observed until its full time-limit was reached, not abandoned partway - <b>किट्टियं</b> (kiṭṭiyaṃ) = <i>kīrtita</i> — extolled: the practitioner has expressed and acknowledged the vow (to themselves or to the Guru), giving it weight - <b>सोहियं</b> (sohiyaṃ) = <i>śodhita</i> — purified: any minor lapse during the vow has been immediately confessed and corrected - <b>आराहियं</b> (ārāhiyaṃ) = <i>ārādhita</i> — fulfilled in totality: all six previous aṅgas have been satisfied; the vow has been completely successful ### 5. COMMENTARY This is the <b>pratyakhyana-pālan sutra</b> — the closing recitation of every pratyakhyana. After the vow's time-limit has passed, the practitioner does not simply resume normal eating; they formally close the vow with this recitation. The Niryukti enumerates six <i>aṅgas</i> (limbs) of complete pratyakhyana-observance, and the practitioner reviews their performance against each. The first three are about the vow itself (<i>touched, observed, carried to completion</i> — the basic discipline). The fourth (<i>kīrtita</i>) is about acknowledgement — having spoken or thought the vow into being and held it as one's own. The fifth (<i>śodhita</i>) is about correction — any small slip during the vow having been immediately addressed. The sixth (<i>ārādhita</i>) is the integration of all five: the vow has been wholly fulfilled. The closing line — <i>jaṃ ca na ārāhiyaṃ tassa micchāmi dukkaḍam</i> — acknowledges that even with the best intent, <i>complete</i> fulfilment is rare. Where the vow was not perfectly observed, the standard formula of self-cancellation is applied: "may my misdeed be reduced to nothing." This humility prevents the spiritual pride that easily arises after successful austerity. A note: for navkarshi, the closing is simply <i>uggae sūre namukkāra sahiyaṃ paccakkhāṇaṃ kayaṃ</i>; for porisi, <i>porisī paccakkhāṇaṃ kayaṃ</i>; for upvas, the appropriate name is substituted. The six aṅgas remain the same. ### 6. SIMPLY PUT When the time-limit of the pratyakhyana has passed, the practitioner formally closes the vow by reciting six qualities of fulfilment — "the vow was touched, observed, carried to completion, extolled, purified, fulfilled" — and then humbly adds: "for whatever I failed to fulfil completely, may my misdeed be reduced to nothing." ### 7. CONTEMPLATE When you complete a discipline, do you formally close it — or do you simply slide back into the unstructured time on the other side? --- ## ANTIM MANGAL — The Closing Auspiciousness (Namotthunaṃ Sutra) The Avashyak Sutra closes — as it began — with an auspicious salutation. The opening was the <b>Namaskar Mahamantra</b> (the five-fold salutation to the Arihants, Siddhas, Acharyas, Upadhyayas, and all Sadhus). The closing is the <b>Namotthunaṃ Sutra</b> — the <i>Praṇipāta-stotra</i> — which begins <i>namotthuṇaṃ arihaṃtāṇaṃ bhagavaṃtāṇaṃ</i> and unfolds into a series of profound qualifying epithets describing the Arihants and Siddhas: <i>ādikaras</i> (the first-makers, founders), <i>titthayarāṇaṃ</i> (the ford-makers), <i>sayaṃsambuddhāṇaṃ</i> (the self-awakened), <i>purisuttamāṇaṃ</i> (supreme of men), <i>purisasīhāṇaṃ</i> (lions among men), <i>purisavarapuṇḍarīyāṇaṃ</i> (best lotus-flowers among men), and continuing through more than thirty epithets that constitute one of the most beloved descriptive prayers in the entire Jain canon. The Uttaradhyayana Sutra (29/43, 23/52) directs that this stuti be recited at the close of every morning and evening pratikraman; the practice was already universal when the Avashyak Sutra was compiled and is preserved unchanged today. The fruit of reciting Namotthunaṃ at the close of the daily practice, as Lord Mahavira himself described in the Uttaradhyayana, is <i>jñāna-darśana-cāritra-bodhi-lābha</i> — "the gain of right knowledge, right perception, right conduct, and bodhi" — and from that gain, the practitioner becomes capable of <i>antakriyā</i> (final liberation) or, if karmic residue remains, of rebirth in the celestial realms. By the path of devotion — <i>bhakti-mārga</i> — the practitioner can arrive at fullness. <i>(The full text of the Namotthunaṃ is preserved in the appendix of this volume and recited daily by every observant Jain.)</i> --- ## END OF AVASHYAK 6 AND OF THE AVASHYAK SUTRA ॥ આવશ્યક-૬ સંપૂર્ણ ॥ <i>(Avashyak-6 sampurna — "Avashyak 6 is complete.")</i> ॥ શ્રી આવશ્યક સૂત્ર સંપૂર્ણ ॥ <i>(Shri Avashyak Sutra sampurna — "The Avashyak Sutra is complete.")</i> The sixth essential closes here, and with it the entire Avashyak Sutra. Through six essentials — Samayika (equanimity), Chaturvinshatistava (praise of the twenty-four), Vandana (reverence to the Guru), Pratikramana (turning back from transgression), Kāyotsarga (release of the body), and Pratyakhyana (renunciation forward) — the practitioner has been given the complete daily framework for the inner life. Each essential builds on the one before; each prepares the one after. Done together each morning and each evening, they are the daily work by which a Jain practitioner — monk, nun, layman, or laywoman — keeps the path visible and the soul moving toward liberation. The Acharya Haribhadra summarises the six in a single line: <i>the soul, washed by Samayika, polished by Stava, made humble by Vandana, healed by Pratikramana, made still by Kāyotsarga, and pre-emptively guarded by Pratyakhyana — moves daily, by the lightest of steps, toward the highest of goals.</i> Jai Jinendra 🙏</p>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the <b>pratyakhyana-pālan sutra</b> — the closing recitation of every pratyakhyana. After the vow's time-limit has passed, the practitioner does not simply resume normal eating; they formally close the vow with this recitation. The Niryukti enumerates six <i>aṅgas</i> (limbs) of complete pratyakhyana-observance, and the practitioner reviews their performance against each. The first three are about the vow itself (<i>touched, observed, carried to completion</i> — the basic discipline). The fourth (<i>kīrtita</i>) is about acknowledgement — having spoken or thought the vow into being and held it as one's own. The fifth (<i>śodhita</i>) is about correction — any small slip during the vow having been immediately addressed. The sixth (<i>ārādhita</i>) is the integration of all five: the vow has been wholly fulfilled. The closing line — <i>jaṃ ca na ārāhiyaṃ tassa micchāmi dukkaḍam</i> — acknowledges that even with the best intent, <i>complete</i> fulfilment is rare. Where the vow was not perfectly observed, the standard formula of self-cancellation is applied: "may my misdeed be reduced to nothing." This humility prevents the spiritual pride that easily arises after successful austerity. A note: for navkarshi, the closing is simply <i>uggae sūre namukkāra sahiyaṃ paccakkhāṇaṃ kayaṃ</i>; for porisi, <i>porisī paccakkhāṇaṃ kayaṃ</i>; for upvas, the appropriate name is substituted. The six aṅgas remain the same.</p>
+<p class="simple-explanation"><b>Simply Put:</b> When the time-limit of the pratyakhyana has passed, the practitioner formally closes the vow by reciting six qualities of fulfilment — "the vow was touched, observed, carried to completion, extolled, purified, fulfilled" — and then humbly adds: "for whatever I failed to fulfil completely, may my misdeed be reduced to nothing."</p>
+</div>
+</div>
+</article>
+</section>
+</main>
+<a class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="avashyak-ch5.html"><span class="text-lg">←</span> Avashyak 5</a>
+<a class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide" href="avashyak-index.html">Index <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainSutra</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainSutra. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Aagama</span>
+<a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+<a class="hover:text-primary transition-colors" href="avashyak-index.html">Avashyak Index</a>
+<a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-primary/40 mb-2">Explore</span>
+<a class="hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a>
+<a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+    const buttons = document.querySelectorAll('.nav-button');
+    if (window.scrollY > 300) {
+        buttons.forEach(btn => btn.classList.add('visible'));
+    } else {
+        buttons.forEach(btn => btn.classList.remove('visible'));
+    }
+});
+</script>
+<script src="../../../js/global-search.js"></script>
+</body>
+</html>
