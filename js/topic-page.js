@@ -1,5 +1,5 @@
 /* ============================================
-   JainAwaken — Topic Page JS
+   JainSutra — Topic Page JS
    "The Digital Alchemist" Edition
    ============================================ */
 
@@ -18,7 +18,7 @@
     return;
   }
 
-  document.title = `${topic.title} — JainAwaken`;
+  document.title = `${topic.title} — JainSutra`;
 
   // Image mappings
   const TOPIC_IMAGES = {

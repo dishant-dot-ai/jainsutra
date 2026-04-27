@@ -1,6 +1,6 @@
 # Sutrakritanga Sutra — Chapter 8: Mahababhaviya (महाभविय)
 
-**Translation by:** JainAwaken.org
+**Translation by:** JainSutra.org
 **Source:** Ardhamagadhi Prakrit — Sutrakritanga, Book 1 (Prathama Shrutaskandha)
 **Chapter:** Eighth Adhyayana (अष्टम् अध्ययन)
 **Total Sutras:** 25

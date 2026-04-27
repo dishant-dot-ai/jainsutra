@@ -1,6 +1,6 @@
 # Sutrakritanga Sutra — Chapter 6: Dharma-Katha (धम्म-कहा)
 
-**Translation by:** JainAwaken.org
+**Translation by:** JainSutra.org
 **Source:** Ardhamagadhi Prakrit — Sutrakritanga, Book 1 (Prathama Shrutaskandha)
 **Chapter:** Sixth Adhyayana (छठम् अध्ययन)
 **Total Sutras:** 27

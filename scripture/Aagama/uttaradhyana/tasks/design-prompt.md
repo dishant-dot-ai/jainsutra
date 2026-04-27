@@ -1,6 +1,6 @@
 # Prompt Template: Uttaradhyayana Chapter Page
 
-Use this prompt when asking any LLM coding tool (Cursor, Copilot, GPT-4, etc.) to build a new chapter page for JainAwaken.org.
+Use this prompt when asking any LLM coding tool (Cursor, Copilot, GPT-4, etc.) to build a new chapter page for JainSutra.org.
 
 ---
 
@@ -8,7 +8,7 @@ Use this prompt when asking any LLM coding tool (Cursor, Copilot, GPT-4, etc.) t
 
 ---
 
-Build an HTML page for Chapter [NUMBER] of the Uttaradhyayana Sutra for the site JainAwaken.org.
+Build an HTML page for Chapter [NUMBER] of the Uttaradhyayana Sutra for the site JainSutra.org.
 
 **File to create:** `uttaradhyana-ch[NUMBER].html`
 
@@ -79,7 +79,7 @@ html { scroll-behavior: smooth; }
 Build these sections in this exact order:
 
 **1. Fixed Top Nav**
-- Logo: `JainAwaken.org` (links to `index-v4.html#hero`)
+- Logo: `JainSutra.org` (links to `index-v4.html#hero`)
 - Nav links: Fundamentals (`index-v4.html#foundations`), Navkar (`navkar-mantra-v4.html`), Meditations (`meditations.html`), Sacred Texts (`tattvartha-index-v4.html`)
 - Donate button (`.burnished-gradient`, links to `donate-v4.html`)
 - Class: `glass-nav fixed top-0 w-full z-50`
@@ -182,7 +182,7 @@ Replace all bracketed values below:
 
 ---
 
-*Template version: March 2026 — JainAwaken.org Uttaradhyayana series*
+*Template version: March 2026 — JainSutra.org Uttaradhyayana series*
 
 ---
 

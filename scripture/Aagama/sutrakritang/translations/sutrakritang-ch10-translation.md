@@ -1,6 +1,6 @@
 # Sutrakritanga Sutra — Chapter 10: Vairattabhaviya (वैरट्टभविय)
 
-**Translation by:** JainAwaken.org
+**Translation by:** JainSutra.org
 **Source:** Ardhamagadhi Prakrit — Sutrakritanga, Book 1 (Prathama Shrutaskandha)
 **Chapter:** Tenth Adhyayana (दशम् अध्ययन)
 **Total Sutras:** 44

@@ -260,7 +260,7 @@ def build_search_index():
         soup = BeautifulSoup(html, 'html.parser')
 
         title_tag = soup.find('title')
-        title = title_tag.get_text(strip=True).replace(' | JainAwaken.org', '') if title_tag else filename
+        title = title_tag.get_text(strip=True).replace(' | JainSutra.org', '') if title_tag else filename
 
         if filename == 'samaysaar-index.html':
             sutras = extract_index_sutras(soup)

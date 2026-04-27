@@ -1,5 +1,5 @@
 /* ============================================
-   JainAwaken — Main JS
+   JainSutra — Main JS
    ============================================ */
 
 // ---- IntersectionObserver fade-ins ----

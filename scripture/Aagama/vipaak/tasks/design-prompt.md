@@ -1,6 +1,6 @@
 # Prompt Template: Vipaak Sutra Chapter Page
 
-Use this prompt when asking any LLM coding tool (Cursor, Copilot, GPT-4, etc.) to build a new chapter page for JainAwaken.org.
+Use this prompt when asking any LLM coding tool (Cursor, Copilot, GPT-4, etc.) to build a new chapter page for JainSutra.org.
 
 > **IMPORTANT — Content Style:** The Vipaak Sutra is **prose narrative**, not verse. Each chapter is a complete story. Sutras are long prose sentences (not two-line couplets). The structure is: narrative frame → question → past-life story → karma revelation → future trajectory. This is fundamentally different from the Uttaradhyana design — treat each "sutra" as a story beat, not a philosophical aphorism.
 
@@ -10,7 +10,7 @@ Use this prompt when asking any LLM coding tool (Cursor, Copilot, GPT-4, etc.) t
 
 ---
 
-Build an HTML page for Chapter [NUMBER] of the Vipaak Sutra ([VOLUME]: [Duhkha Vipaak / Sukha Vipaak]) for the site JainAwaken.org.
+Build an HTML page for Chapter [NUMBER] of the Vipaak Sutra ([VOLUME]: [Duhkha Vipaak / Sukha Vipaak]) for the site JainSutra.org.
 
 **File to create:** `vipak-ch[NUMBER].html`
 
@@ -84,7 +84,7 @@ html { scroll-behavior: smooth; }
 Build these sections in this exact order:
 
 **1. Fixed Top Nav**
-- Logo: `JainAwaken.org` (links to `../../../../index-v4.html#hero`)
+- Logo: `JainSutra.org` (links to `../../../../index-v4.html#hero`)
 - Nav links: Fundamentals, Navkar, Meditations, Sacred Texts (same relative paths as Uttaradhyana pages)
 - Donate button (`.burnished-gradient`, links to `../../../../fundamentals/donate-v4.html`)
 - Class: `glass-nav fixed top-0 w-full z-50`
@@ -260,7 +260,7 @@ Sukha Vipaak (chapters 1–10): all protagonists are happy/blessed due to virtue
 
 ---
 
-*Template version: March 2026 — JainAwaken.org Vipaak Sutra series*
+*Template version: March 2026 — JainSutra.org Vipaak Sutra series*
 
 ---
 

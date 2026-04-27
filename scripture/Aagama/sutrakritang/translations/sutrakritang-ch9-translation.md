@@ -1,6 +1,6 @@
 # Sutrakritanga Sutra — Chapter 9: Samkhya (सम्खाय)
 
-**Translation by:** JainAwaken.org
+**Translation by:** JainSutra.org
 **Source:** Ardhamagadhi Prakrit — Sutrakritanga, Book 1 (Prathama Shrutaskandha)
 **Chapter:** Ninth Adhyayana (नवम् अध्ययन)
 **Total Sutras:** 35

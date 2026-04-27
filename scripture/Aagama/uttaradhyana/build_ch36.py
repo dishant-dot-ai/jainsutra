@@ -82,7 +82,7 @@ html_template = """<!DOCTYPE html>
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Uttaradhyayana Sutra Chapter 36: Classification of Living and Non-Living | JainAwaken.org</title>
+<title>Uttaradhyayana Sutra Chapter 36: Classification of Living and Non-Living | JainSutra.org</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
@@ -134,7 +134,7 @@ html { scroll-behavior: smooth; }
 <nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
   <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
     <div class="flex items-center gap-12">
-      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span></a>
+      <a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainSutra.org</span></a>
       <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
         <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
         <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
@@ -319,7 +319,7 @@ html_content += """
 <footer class="bg-[#1d1c17] text-white py-24">
   <div class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 border-b border-white/10 pb-20 mb-12">
     <div class="col-span-12 md:col-span-4 flex flex-col gap-8">
-      <a href="../../../index-v4.html#hero" class="text-3xl font-headline font-bold tracking-tighter">JainAwaken.org</a>
+      <a href="../../../index-v4.html#hero" class="text-3xl font-headline font-bold tracking-tighter">JainSutra.org</a>
       <p class="text-white/60 font-light leading-relaxed max-w-sm">A digital sanctuary dedicated to ancient sacred texts.</p>
     </div>
     <div class="col-span-6 md:col-span-2 flex flex-col gap-6">

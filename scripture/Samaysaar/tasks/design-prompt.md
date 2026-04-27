@@ -1,6 +1,6 @@
 # Design System Prompt: Samaysaar Chapter Pages
 
-Use this prompt when building chapter pages for the Samaysaar scripture on JainAwaken.org. This design system is derived from the Sutrakritanga series and must be followed exactly.
+Use this prompt when building chapter pages for the Samaysaar scripture on JainSutra.org. This design system is derived from the Sutrakritanga series and must be followed exactly.
 
 ---
 
@@ -131,7 +131,7 @@ Build these sections in this exact order:
 
 ### 1. Fixed Top Nav
 
-- Logo: `JainAwaken.org` (links to `index-v4.html#hero`)
+- Logo: `JainSutra.org` (links to `index-v4.html#hero`)
 - Nav links: Fundamentals (`index-v4.html#foundations`), Navkar (`navkar-mantra-v4.html`), Meditations (`meditations.html`), Sacred Texts (`sacred-sutras-index.html`) — Sacred Texts link is highlighted as active
 - Donate button (`.burnished-gradient`, links to `donate-v4.html`)
 - Class: `glass-nav fixed top-0 w-full z-50`
@@ -178,7 +178,7 @@ Build these sections in this exact order:
 ### 5. Footer
 
 Standard footer across all pages:
-- Left: JainAwaken branding + tagline + copyright
+- Left: JainSutra branding + tagline + copyright
 - Right: 3-column grid with links — Aagama (Sacred Sutras, Sutrakritanga, Uttaradhyayana), Explore (Fundamentals, Navkar Mantra, Meditations), Connect (Contact, Donate)
 
 ### 6. Fixed Nav Buttons (bottom corners, appear on scroll)
@@ -260,4 +260,4 @@ Rules:
 
 ---
 
-*Design system derived from the Sutrakritanga series — JainAwaken.org*
+*Design system derived from the Sutrakritanga series — JainSutra.org*

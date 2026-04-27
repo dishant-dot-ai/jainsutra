@@ -502,7 +502,7 @@ HTML = f'''<!DOCTYPE html>
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Uttaradhyayana Sutra Chapter 32: Pramādasthāna | JainAwaken.org</title>
+<title>Uttaradhyayana Sutra Chapter 32: Pramādasthāna | JainSutra.org</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
@@ -566,7 +566,7 @@ HTML = f'''<!DOCTYPE html>
 <div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
 <div class="flex items-center gap-12">
 <a href="../../../index-v4.html#hero">
-<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainAwaken.org</span>
+<span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainSutra.org</span>
 </a>
 <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
 <a class="text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>

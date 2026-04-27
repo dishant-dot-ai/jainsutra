@@ -1,6 +1,6 @@
 # Sutrakritanga Sutra — Chapter 7: Khuddabhaviya (खुद्दभविय)
 
-**Translation by:** JainAwaken.org
+**Translation by:** JainSutra.org
 **Source:** Ardhamagadhi Prakrit — Sutrakritanga, Book 1 (Prathama Shrutaskandha)
 **Chapter:** Seventh Adhyayana (सप्तम् अध्ययन)
 **Total Sutras:** 25
