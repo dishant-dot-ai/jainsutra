@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/index-v4.html" },
     { "source": "/topic/:id", "destination": "/topic.html" }
   ],
   "cleanUrls": true,
