@@ -1453,5 +1453,753 @@ What are you postponing for "later"? On what basis do you assume that "later" wi
 
 ---
 
+## SUTRA 8.37 — Renounce the Four Kashayas
+
+### 1. PRAKRIT TEXT
+
+कोहं माणं च मायं च, लोभं च पाववड्ढणं ।
+वमे चत्तारि दोसे उ, इच्छंतो हियमप्पणो ॥८.३७॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.37 ||
+kohaṃ māṇaṃ ca māyaṃ ca, lobhaṃ ca pāvavaḍḍhaṇaṃ |
+vame cattāri dose u, icchaṃto hiyamappaṇo ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Anger, pride, deceit, and greed — the four (kashayas) which augment sin — let the one who desires his own good resolutely vomit out (renounce).
+
+### 4. ANVAYARTHA
+
+- **कोहं** (kohaṃ) = anger (krodha)
+- **माणं** (māṇaṃ) = pride (māna)
+- **मायं** (māyaṃ) = deceit (māyā)
+- **लोभं** (lobhaṃ) = greed (lobha)
+- **पाववड्ढणं** (pāvavaḍḍhaṇaṃ) = increasers of sin
+- **वमे चत्तारि दोसे उ** (vame cattāri dose u) = let him vomit out (renounce, eject) these four faults — definitively
+- **इच्छंतो हियमप्पणो** (icchaṃto hiyamappaṇo) = (he) who desires his own good
+
+### 5. COMMENTARY
+
+The chapter now opens its great kashaya-sequence (sutras 37-40). The four poisons are introduced together as *pap-vardhana* — "increasers of sin" — because every transgression in Jain karmic theory is rooted in one or more of them. The verb *vame* — "let him vomit out" — is unusually strong; the kashayas must not be controlled, not merely managed, but *expelled* from the system as the body expels what is toxic. The conditional *icchanto hiyam appano* — "desiring one's own good" — establishes the spiritual stake: only the person who actually wants his own welfare will undertake this difficult ejection.
+
+### 6. SIMPLY PUT
+
+Anger, pride, deceit, greed — these four grow sin. Whoever truly wants his own good must vomit them out.
+
+### 7. CONTEMPLATE
+
+Which of the four sits most stubbornly in you — and what does it cost to keep it?
+
+---
+
+## SUTRA 8.38 — What Each Kashaya Destroys
+
+### 1. PRAKRIT TEXT
+
+कोहो पीइं पणासेइ, माणो विणय णासणो ।
+माया मित्ताणि णासेइ, लोहो सव्व विणासणो ॥८.३८॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.38 ||
+koho pīiṃ paṇāsei, māṇo viṇaya ṇāsaṇo |
+māyā mittāṇi ṇāsei, loho savva viṇāsaṇo ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Anger destroys love. Pride destroys humility. Deceit destroys friendships. Greed destroys all virtues entire.
+
+### 4. ANVAYARTHA
+
+- **कोहो पीइं पणासेइ** (koho pīiṃ paṇāsei) = anger destroys love (priti)
+- **माणो विणय णासणो** (māṇo viṇaya ṇāsaṇo) = pride destroys humility (vinaya)
+- **माया मित्ताणि णासेइ** (māyā mittāṇi ṇāsei) = deceit destroys friendships
+- **लोहो सव्व विणासणो** (loho savva viṇāsaṇo) = greed destroys everything (sarva-vinashana)
+
+### 5. COMMENTARY
+
+The sutra is a perfect compact analysis. Each kashaya has a specific casualty: anger kills affection (the warmth between beings), pride kills humility (the basis of all learning), deceit kills friendship (the trust between souls), and greed — most damning — kills *everything*: integrity, dharma, peace, even the gains greed itself was after. The Gujarati commentary illustrates with the well-known parable of the son who quarrelled with his father over money (lobha), broke the relationship (priti destroyed by anger), proudly claimed his share (vinaya destroyed by mana), gained the wealth deceitfully and lied when asked (mitrata destroyed by maya), and so destroyed all virtues at once (sarva-guna destroyed by lobha). One greed cascades into all four.
+
+### 6. SIMPLY PUT
+
+Anger kills love. Pride kills humility. Deceit kills friendship. Greed destroys everything.
+
+### 7. CONTEMPLATE
+
+Which relationship in your life has been damaged by one of these four — and which of them did the damage?
+
+---
+
+## SUTRA 8.39 — Antidote to Each Kashaya
+
+### 1. PRAKRIT TEXT
+
+उवसमेण हणे कोहं, माणं मद्दवया जिणे ।
+मायं च अज्जवभावेण, लोभं संतोसओ जिणे ॥८.३९॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.39 ||
+uvasameṇa haṇe kohaṃ, māṇaṃ maddavayā jiṇe |
+māyaṃ ca ajjavabhāveṇa, lobhaṃ saṃtosao jiṇe ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+By forbearance (upashama), let him slay anger; by humility (mardava), let him conquer pride; by straightforwardness (arjava), (let him conquer) deceit; by contentment (santosha), let him conquer greed.
+
+### 4. ANVAYARTHA
+
+- **उवसमेण हणे कोहं** (uvasameṇa haṇe kohaṃ) = by forbearance / pacification, slay anger
+- **माणं मद्दवया जिणे** (māṇaṃ maddavayā jiṇe) = by softness / humility, conquer pride
+- **मायं च अज्जवभावेण** (māyaṃ ca ajjavabhāveṇa) = and deceit, by straightforwardness
+- **लोभं संतोसओ जिणे** (lobhaṃ saṃtosao jiṇe) = greed, by contentment, conquer
+
+### 5. COMMENTARY
+
+For each poison, an antidote. *Krodha* (anger) is dissolved by *upashama* — the inner pacification that does not match heat with heat. *Mana* (pride) is dissolved by *mardava* — softness, the willingness to be small. *Maya* (deceit) is dissolved by *arjava* — straightforwardness, where what is in the heart is also in the mouth. *Lobha* (greed) is dissolved by *santosha* — contentment, the active sufficiency that needs no more. The Gujarati commentary makes a key point: these four antidotes are themselves "weapons" but they are weapons one must *learn to wield*. They are taught in the agama and through guru-instruction, but they become effective only through repeated practice (abhyasa) and inward conviction (vairagya-buddhi). Four diseases, four medicines — but the patient must take them.
+
+### 6. SIMPLY PUT
+
+Slay anger with forbearance, pride with humility, deceit with straightforwardness, greed with contentment.
+
+### 7. CONTEMPLATE
+
+Of the four antidotes — pacification, humility, straightforwardness, contentment — which is the most foreign to your nature, and therefore the one most worth cultivating?
+
+---
+
+## SUTRA 8.40 — Unrestrained Kashayas Re-Water Samsara
+
+### 1. PRAKRIT TEXT
+
+कोहो य माणो य अणिग्गहीया, माया य लोभो य पवड्ढमाणा ।
+चत्तारि एए कसिणा कसाया, सिंचंति मूलाइं पुणब्भवस्स ॥८.४०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.40 ||
+koho ya māṇo ya aṇiggahīyā, māyā ya lobho ya pavaḍḍhamāṇā |
+cattāri ee kasiṇā kasāyā, siṃcaṃti mūlāiṃ puṇabbhavassa ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Anger and pride unrestrained, deceit and greed ever-growing — these four full-bodied kashayas water the very roots of the tree of rebirth.
+
+### 4. ANVAYARTHA
+
+- **कोहो य माणो य अणिग्गहीया** (koho ya māṇo ya aṇiggahīyā) = anger and pride, ungoverned (anigrahita)
+- **माया य लोभो य पवड्ढमाणा** (māyā ya lobho ya pavaḍḍhamāṇā) = deceit and greed, growing unchecked (pravardhamana)
+- **चत्तारि एए कसिणा कसाया** (cattāri ee kasiṇā kasāyā) = these four full / krishna (dark, dense) kashayas
+- **सिंचंति मूलाइं पुणब्भवस्स** (siṃcaṃti mūlāiṃ puṇabbhavassa) = water the roots of rebirth (punarbhava)
+
+### 5. COMMENTARY
+
+A grand image: samsara is a tree, and its roots are watered by the four kashayas. So long as the kashayas flow unchecked, the tree of rebirth flourishes. The word *kasiṇa* — "full, complete, dark" (Sanskrit *krtsna* / *krishna*) — names the kashayas in their most virulent form, when they have been fed and have grown into dominance. The Gujarati commentary notes that *kashaya* is itself etymologised from *kash* (samsara) + *aya* (gain): "that which produces the gains of samsara." Hence to renounce them is literally to cut off samsara at its irrigation. This sutra closes the kashaya-tetrad with a vivid warning: every passion not killed becomes a root that produces another life.
+
+### 6. SIMPLY PUT
+
+Ungoverned anger and pride, ever-growing deceit and greed — these four dark passions water the roots of the rebirth-tree.
+
+### 7. CONTEMPLATE
+
+The passions you do not uproot become the very water-table of your next life. Which root will you starve today?
+
+---
+
+## SUTRA 8.41 — Vinaya, Steadfastness, and Restraint of Body
+
+### 1. PRAKRIT TEXT
+
+रायणिएसु विणयं पउंजे, धुवसीलयं सययं ण हावइज्जा ।
+कुम्मुव्व अल्लीणपलीणगुत्तो, परक्कमेज्जा तवसंजमम्मि ॥८.४१॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.41 ||
+rāyaṇiesu viṇayaṃ pauṃje, dhuvasīlayaṃ sayayaṃ ṇa hāvaijjā |
+kummuvva allīṇapalīṇagutto, parakkamejjā tavasaṃjamammi ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Toward the senior monks (the ratnadhika), let him exercise humility-discipline. Let him never let his steady character (the eighteen thousand silas) decline. Like a tortoise, with all limbs well-withdrawn and well-protected, let him exert himself in austerity and restraint.
+
+### 4. ANVAYARTHA
+
+- **रायणिएसु** (rāyaṇiesu) = toward the ratnadhikas — those superior in the "jewels" (knowledge-perception-conduct), i.e. the seniors of the order
+- **विणयं पउंजे** (viṇayaṃ pauṃje) = let him exercise vinaya (humility-service)
+- **धुवसीलयं** (dhuvasīlayaṃ) = the steady-character (the 18,000 silas)
+- **सययं ण हावइज्जा** (sayayaṃ ṇa hāvaijjā) = let him not slacken / lessen continuously
+- **कुम्मुव्व** (kummuvva) = like a tortoise
+- **अल्लीणपलीणगुत्तो** (allīṇapalīṇagutto) = with limbs well-withdrawn (alina) and well-hidden (palina), well-guarded (gupta)
+- **परक्कमेज्जा तवसंजमम्मि** (parakkamejjā tavasaṃjamammi) = let him exert himself in austerity and restraint
+
+### 5. COMMENTARY
+
+The verse braids three duties. *First*, to the seniors of the order (the ratnadhika — those richer in the jewels of knowledge, perception, conduct), the monk practises *vinaya* — humble service, deference, learning. *Second*, the eighteen thousand silas — the canonical enumeration of monastic conduct (10 dharma × 10 categories of beings × 5 senses × 4 sanjnas × 3 yogas × 3 karanas) — must be held without any slackening. *Third*, like a tortoise that pulls all limbs into its shell at the first sign of danger, the monk withdraws his sense-organs and limbs from outward engagement and places his energy into tap and samyam. The tortoise image is one of the most enduring in Indian spiritual literature; here it specifically images *gupti* — guarding-in.
+
+### 6. SIMPLY PUT
+
+Be humble before the seniors. Never let your steady character slip. Like a tortoise pulling in all its limbs, withdraw your senses and pour all your energy into austerity and restraint.
+
+### 7. CONTEMPLATE
+
+What would it look like for you to live, even for one hour, like a tortoise — with every limb pulled in?
+
+---
+
+## SUTRA 8.42 — Renunciation of Pramada (Negligence)
+
+### 1. PRAKRIT TEXT
+
+णिद्दं च ण बहु मण्णिज्जा, सप्पहासं विवज्जए ।
+मिहो कहाहिं ण रमे, सज्झायम्मि रओ सया ॥८.४२॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.42 ||
+ṇiddaṃ ca ṇa bahu maṇṇijjā, sappahāsaṃ vivajjae |
+miho kahāhiṃ ṇa rame, sajjhāyammi rao sayā ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Let him not value sleep highly. Let him abandon loud laughter. Let him not delight in idle gossip with others. Let him be ever absorbed in self-study (svadhyaya).
+
+### 4. ANVAYARTHA
+
+- **णिद्दं च ण बहु मण्णिज्जा** (ṇiddaṃ ca ṇa bahu maṇṇijjā) = let him not give much value to sleep
+- **सप्पहासं विवज्जए** (sappahāsaṃ vivajjae) = let him abandon loud laughter (samprahasa, attahasa)
+- **मिहो कहाहिं ण रमे** (miho kahāhiṃ ṇa rame) = let him not delight in mutual / private gossip
+- **सज्झायम्मि रओ सया** (sajjhāyammi rao sayā) = always absorbed in svadhyaya (self-study)
+
+### 5. COMMENTARY
+
+The sutra targets the four most common forms of *pramada* (spiritual negligence) for a monk: excessive sleep, loud laughter, idle group-talk (*vikatha*), and the absence of svadhyaya. The Gujarati commentary classifies *vikatha* into four canonical types — stri-katha (talk about women), bhakta-katha (talk about food), raja-katha (talk about politics/kings), and desha-katha (talk about countries) — and a fifth category covering secret talk, gender-related talk, and so on. The monk's antidote is *svadhyaya*: absorption in scriptural reading, questioning, repetition, contemplation, and dharma-katha. The discipline is to fill the hours that pramada would empty.
+
+### 6. SIMPLY PUT
+
+Don't sleep too much. Don't burst into loud laughter. Don't get caught up in idle gossip. Stay always absorbed in self-study.
+
+### 7. CONTEMPLATE
+
+Which of the four — sleep, laughter, gossip, distraction — most easily drains your day?
+
+---
+
+## SUTRA 8.43 — Energetic Engagement in Shramana-Dharma
+
+### 1. PRAKRIT TEXT
+
+जोगं च समणधम्मम्मि, जुंजे अणलसो धुवं ।
+जुत्तो य समणधम्मम्मि, अट्ठं लहइ अणुत्तरं ॥८.४३॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.43 ||
+jogaṃ ca samaṇadhammammi, juṃje aṇalaso dhuvaṃ |
+jutto ya samaṇadhammammi, aṭṭhaṃ lahai aṇuttaraṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Steadily, free of laziness, let him engage all his powers (yogas) in the shramana-dharma. The monk thus engaged in the shramana-dharma attains the supreme goal (anuttara artha — liberation).
+
+### 4. ANVAYARTHA
+
+- **जोगं** (jogaṃ) = activity / yoga (of mind, speech, body)
+- **समणधम्मम्मि** (samaṇadhammammi) = in the shramana-dharma (the ten-fold monastic religion)
+- **जुंजे** (juṃje) = let him engage / yoke
+- **अणलसो** (aṇalaso) = free of laziness (analasa)
+- **धुवं** (dhuvaṃ) = steadily, with firm constancy
+- **जुत्तो** (jutto) = (when) so engaged
+- **अणुत्तरं अट्ठं लहइ** (aṇuttaraṃ aṭṭhaṃ lahai) = attains the unsurpassed goal (artha) — moksha
+
+### 5. COMMENTARY
+
+The sutra closes the pramada-section. Where the previous verse said "do not waste yourself in sleep, laughter, gossip," this one says positively: "engage all yogas in the shramana-dharma, and the supreme goal is yours." The shramana-dharma in the standard Jain enumeration has ten components — kshama (forbearance), mardava (humility), arjava (straightforwardness), nirlobha (non-greed), tap (austerity), samyama (restraint), satya (truth), saucha (purity), akinchanata (non-possession), brahmacharya (celibacy). Engaged in these with full mind-speech-body, free of laziness and steady in continuance, the monk reaches *anuttara artha* — the goal beyond which there is no further goal.
+
+### 6. SIMPLY PUT
+
+Without laziness, steadily, engage all your faculties in the monastic dharma. Doing so, you attain the highest goal.
+
+### 7. CONTEMPLATE
+
+What would it mean to engage *all* your faculties — not most of them — in the highest practice you know?
+
+---
+
+## SUTRA 8.44 — Service of the Learned
+
+### 1. PRAKRIT TEXT
+
+इह लोगपारत्तहियं, जेणं गच्छइ सोग्गइं ।
+बहुस्सुयं पज्जुवासेज्जा, पुच्छिज्जत्थविणिच्छयं ॥८.४४॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.44 ||
+iha logapārattahiyaṃ, jeṇaṃ gacchai soggaiṃ |
+bahussuyaṃ pajjuvāsejjā, pucchijjatthaviṇicchayaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+By which one attains good in this world and the next, and reaches a good destination — let the monk serve a *bahushruta* (one of vast scriptural learning), and (from him) ask for the determination of meanings.
+
+### 4. ANVAYARTHA
+
+- **इह लोगपारत्तहियं** (iha logapārattahiyaṃ) = welfare in this world and the next (iha-loka and para-loka)
+- **जेणं गच्छइ सोग्गइं** (jeṇaṃ gacchai soggaiṃ) = by which one reaches a good destiny
+- **बहुस्सुयं पज्जुवासेज्जा** (bahussuyaṃ pajjuvāsejjā) = let him attend upon / serve a man of vast scriptural learning (bahushruta)
+- **पुच्छिज्जत्थविणिच्छयं** (pucchijjatthaviṇicchayaṃ) = let him ask for the determination of meanings
+
+### 5. COMMENTARY
+
+The verse establishes the monk's duty of *bahushruta-paryupasana* — the active service of those rich in scriptural knowledge. The verb *paryupasana* means more than visiting; it means dwelling in the proximity of, attending upon, learning by living-near. From such a teacher the monk does not merely receive information but obtains *artha-vinishchaya* — the *settled determination* of meaning. Doubts (shanka, jignyasa) which would otherwise corrode the monk's faith are resolved face-to-face, in the patient atmosphere of the bahushruta's company. This is the social mechanism by which the lineage of right understanding is preserved.
+
+### 6. SIMPLY PUT
+
+To gain good in this life and the next, the monk serves a deeply learned teacher and asks him to settle the meanings he is unsure of.
+
+### 7. CONTEMPLATE
+
+In whose presence have your doubts been most truly resolved — and how often do you sit there?
+
+---
+
+## SUTRA 8.45 — Bodily Discipline Before the Guru
+
+### 1. PRAKRIT TEXT
+
+हत्थं पायं च कायं च, पणिहाय जिइंदिए ।
+अल्लीणगुत्तो णिसीए, सगासे गुरुणो मुणी ॥८.४५॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.45 ||
+hatthaṃ pāyaṃ ca kāyaṃ ca, paṇihāya jiindie |
+allīṇagutto ṇisīe, sagāse guruṇo muṇī ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Hands, feet, the (whole) body — having well-restrained them, master of his senses, motionless and self-guarded, let the monk sit in the presence of the Guru.
+
+### 4. ANVAYARTHA
+
+- **हत्थं पायं च कायं च** (hatthaṃ pāyaṃ ca kāyaṃ ca) = hands, feet, and (whole) body
+- **पणिहाय** (paṇihāya) = having drawn-in / restrained
+- **जिइंदिए** (jiindie) = master of the senses (jitendriya)
+- **अल्लीणगुत्तो** (allīṇagutto) = motionless (alina = drawn in; gupta = guarded)
+- **णिसीए** (ṇisīe) = let him sit
+- **सगासे गुरुणो मुणी** (sagāse guruṇo muṇī) = the monk in the proximity of the Guru
+
+### 5. COMMENTARY
+
+The sutra describes the precise physical posture for sitting before the Guru. Hands, feet, body — every limb is to be drawn in and stilled. The senses are to be governed (jitendriya). The whole bearing should be *alina-gupta* — held inward and protected. This is not merely etiquette; it is a transmission discipline. The body's restlessness mirrors and produces the mind's restlessness. To sit absolutely still in the Guru's presence is to become a vessel ready to receive what the Guru transmits. Conversely, a monk who fidgets, who sprawls, who lets his eyes wander, has already declared himself spiritually closed.
+
+### 6. SIMPLY PUT
+
+When sitting before the Guru, the monk holds in his hands, feet, and body, masters his senses, and stays motionless — with full inward respect.
+
+### 7. CONTEMPLATE
+
+How does your body sit when you are about to receive what truly matters?
+
+---
+
+## SUTRA 8.46 — Where Not to Sit Before the Guru
+
+### 1. PRAKRIT TEXT
+
+ण पक्खओ ण पुरओ, णेव किच्चाण पिट्ठओ ।
+ण य ऊरुं समासिज्जा, चिट्ठेज्जा गुरुणंतिए ॥८.४६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.46 ||
+ṇa pakkhao ṇa purao, ṇeva kiccāṇa piṭṭhao |
+ṇa ya ūruṃ samāsijjā, ciṭṭhejjā guruṇaṃtie ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Neither at the side, nor in front, nor close behind — and not so close that one's thigh touches (the Guru's) — should the monk sit when staying near the Guru.
+
+### 4. ANVAYARTHA
+
+- **ण पक्खओ** (ṇa pakkhao) = not at his side
+- **ण पुरओ** (ṇa purao) = not in front of him
+- **णेव किच्चाण पिट्ठओ** (ṇeva kiccāṇa piṭṭhao) = nor (close) behind him
+- **ण य ऊरुं समासिज्जा** (ṇa ya ūruṃ samāsijjā) = nor leaning thigh-to-thigh
+- **चिट्ठेज्जा गुरुणंतिए** (ciṭṭhejjā guruṇaṃtie) = while sitting near the Guru
+
+### 5. COMMENTARY
+
+A precise spatial discipline. To sit *beside* the Guru implies equality; to sit *in front of* the Guru implies blocking him; to sit *directly behind* the Guru disrespects him; to sit *touching* the Guru collapses the very distance that vinaya requires. The monk must therefore find the right position — close enough to learn, distant enough to honour, attentive but not crowding. The Gujarati commentary emphasises that this etiquette is not mere outward show; it expresses inward humility. The way one positions oneself reveals the disposition one brings.
+
+### 6. SIMPLY PUT
+
+When sitting near the Guru, don't sit beside him, don't sit in front of him, don't sit right behind him, and don't sit touching him.
+
+### 7. CONTEMPLATE
+
+How do you arrange your physical relationship to the people whose authority you accept?
+
+---
+
+## SUTRA 8.47 — Speech Discipline Before the Guru
+
+### 1. PRAKRIT TEXT
+
+अपुच्छिओ ण भासेज्जा, भासमाणस्स अंतरा ।
+पिट्ठिमंसं ण खाएज्जा, मायामोसं विवज्जए ॥८.४७॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.47 ||
+apucchio ṇa bhāsejjā, bhāsamāṇassa aṃtarā |
+piṭṭhimaṃsaṃ ṇa khāejjā, māyāmosaṃ vivajjae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(The pupil) shall not speak unless asked. He shall not interrupt while (the Guru) is speaking. He shall not "eat back-flesh" (i.e. backbite, slander). And he shall completely renounce maya-mrisha (deceitful falsehood).
+
+### 4. ANVAYARTHA
+
+- **अपुच्छिओ** (apucchio) = unasked (by the Guru)
+- **ण भासेज्जा** (ṇa bhāsejjā) = let him not speak
+- **भासमाणस्स अंतरा** (bhāsamāṇassa aṃtarā) = (nor) in the middle of the (Guru's) speaking
+- **पिट्ठिमंसं ण खाएज्जा** (piṭṭhimaṃsaṃ ṇa khāejjā) = let him not eat the back-meat (paishunya = backbiting in absence)
+- **मायामोसं विवज्जए** (māyāmosaṃ vivajjae) = let him completely renounce deceitful falsehood (the seventeenth pap-sthana)
+
+### 5. COMMENTARY
+
+The verse extends pupil-discipline from the body (sutras 45-46) to the speech. Four prohibitions: do not speak unasked; do not interrupt; do not slander another behind their back ("eating back-flesh" — *pishtimansa-bhakshana*, the colourful Indian metaphor for backbiting); and do not engage in *maya-mrisha* (the fusion of deceit and falsehood, which the texts list as the 17th of the eighteen pap-sthanas). The commentary notes that backbiting feeds envy, hostility, and a culture of mutual suspicion that destroys monastic harmony — and that maya-mrisha breeds compounding lies that draw an entire chain of corruptions in their wake.
+
+### 6. SIMPLY PUT
+
+Don't speak unless asked. Don't interrupt the Guru. Don't backbite. Never speak deceitful lies.
+
+### 7. CONTEMPLATE
+
+In your speech, which of the four — speaking unasked, interrupting, backbiting, deceitful lying — slips out most often without your noticing?
+
+---
+
+## SUTRA 8.48 — Refrain from Hurtful Speech
+
+### 1. PRAKRIT TEXT
+
+अप्पत्तियं जेण सिया, आसु कुप्पिज्ज वा परो ।
+सव्वसो तं ण भासिज्जा, भासं अहियगामिणिं ॥८.४८॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.48 ||
+appattiyaṃ jeṇa siyā, āsu kuppijja vā paro |
+savvaso taṃ ṇa bhāsijjā, bhāsaṃ ahiyagāmiṇiṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+That speech by which displeasure (in another) might arise, by which the other might quickly grow angry, or which leads to harm — such speech the monk shall never, in any condition, utter.
+
+### 4. ANVAYARTHA
+
+- **अप्पत्तियं जेण सिया** (appattiyaṃ jeṇa siyā) = by which displeasure (a-priti) might arise
+- **आसु कुप्पिज्ज वा परो** (āsu kuppijja vā paro) = (or) by which the other might quickly become angered
+- **सव्वसो तं ण भासिज्जा** (savvaso taṃ ṇa bhāsijjā) = let him not at all utter that
+- **भासं अहियगामिणिं** (bhāsaṃ ahiyagāmiṇiṃ) = a speech that leads to harm
+
+### 5. COMMENTARY
+
+A simple, decisive criterion: the monk applies a triple test to every utterance. Will it cause displeasure? Will it provoke anger? Will it produce harm? If any of the three is true, the speech is forbidden — *savvaso*, in all conditions, with no exception. This is not merely politeness; it is recognition that hurtful speech itself binds karma — both for the speaker (who has injured another) and indirectly for the listener (who is now disturbed). Speech is therefore screened *before* it leaves the mouth.
+
+### 6. SIMPLY PUT
+
+If a speech would cause hurt, anger, or harm, the monk simply does not speak it — ever, in any condition.
+
+### 7. CONTEMPLATE
+
+If you applied the triple test before every sentence, how much of your daily talk would survive?
+
+---
+
+## SUTRA 8.49 — The Eight Qualities of Right Speech
+
+### 1. PRAKRIT TEXT
+
+दिट्ठं मियं असंदिद्धं, पडिपुण्णं वियं जियं ।
+अयंपिरमणुव्विग्गं, भासं णिसिर अत्तवं ॥८.४९॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.49 ||
+diṭṭhaṃ miyaṃ asaṃdiddhaṃ, paḍipuṇṇaṃ viyaṃ jiyaṃ |
+ayaṃpiramaṇuvviggaṃ, bhāsaṃ ṇisira attavaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The wise monk shall utter speech that is (1) seen with one's own eyes, (2) measured, (3) free of doubt, (4) complete, (5) clear, (6) familiar (well-understood), (7) free of pretentious flourish, and (8) free of agitation.
+
+### 4. ANVAYARTHA
+
+- **दिट्ठं** (diṭṭhaṃ) = seen / based on direct perception, not assumption
+- **मियं** (miyaṃ) = measured / limited, not excessive
+- **असंदिद्धं** (asaṃdiddhaṃ) = free of doubt; spoken with certain knowledge
+- **पडिपुण्णं** (paḍipuṇṇaṃ) = complete; full sentences with subject and verb, not fragments
+- **वियं** (viyaṃ) = vyakta — clear in pronunciation
+- **जियं** (jiyaṃ) = familiar / well-mastered subject
+- **अयंपिरं** (ayaṃpiraṃ) = free of unnecessary garrulity / verbal flourish
+- **अणुव्विग्गं** (aṇuvviggaṃ) = free of agitation / undisturbed
+- **भासं णिसिर अत्तवं** (bhāsaṃ ṇisira attavaṃ) = the soulful (atmavān) monk shall utter such speech
+
+### 5. COMMENTARY
+
+This sutra is one of the chapter's most useful — a perfect eightfold checklist for right speech. The monk speaks only what he has *directly verified* (diṣṭa); only as much as is *necessary* (mita); only when he is *certain* (asandigdha); in *complete* sentences (paripurna); with *clear* pronunciation (vyakta); on subjects he *knows well* (jita); without rhetorical flourish or pretension (ayampira); and without agitation or anxiety (anudvigna). Each of the eight is a real-life screen against a common pathology of speech.
+
+### 6. SIMPLY PUT
+
+The wise monk's words are: based on what he himself has seen, measured, certain, complete, clearly pronounced, familiar, plain, and calm.
+
+### 7. CONTEMPLATE
+
+Of the eight, which is hardest for you — and what would your speech sound like if you cultivated that one virtue?
+
+---
+
+## SUTRA 8.50 — No Mockery of the Knowledgeable
+
+### 1. PRAKRIT TEXT
+
+आयार पण्णत्तिधरं, दिट्ठिवायमहिज्जगं ।
+वायाविक्खलियं णच्चा, ण तं उवहसे मुणी ॥८.५०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.50 ||
+āyāra paṇṇattidharaṃ, diṭṭhivāyamahijjagaṃ |
+vāyāvikkhaliyaṃ ṇaccā, ṇa taṃ uvahase muṇī ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+When the holder of (the Anga) Acharanga, of (the Anga) Prajnapti (Bhagavati), of the Drishtivada — should at some moment slip in his speech, the (other) monk shall not laugh at him.
+
+### 4. ANVAYARTHA
+
+- **आयार पण्णत्तिधरं** (āyāra paṇṇattidharaṃ) = the holder (memoriser) of Acharanga (the first Anga) and Prajnapti (the fifth Anga, Bhagavati)
+- **दिट्ठिवायमहिज्जगं** (diṭṭhivāyamahijjagaṃ) = the studier of Drishtivada (the twelfth Anga; the most profound)
+- **वायाविक्खलियं णच्चा** (vāyāvikkhaliyaṃ ṇaccā) = knowing him to have stumbled in speech
+- **ण तं उवहसे मुणी** (ṇa taṃ uvahase muṇī) = the (other) monk shall not laugh at him
+
+### 5. COMMENTARY
+
+A specific protection of the learned. Even the great scholar — the one who has memorised the Acharanga, Bhagavati, and Drishtivada (representing the beginning, middle, and end of the twelve Angas) — may, at some moment in chhadmastha (non-omniscient) state, mis-speak. The text forbids the other monk from laughing at the slip. The Gujarati commentary lists the harms: laughing at a knowledgeable person creates *ashatana* (disrespect to the wise) — which is one of the principal causes of jnanavaraniya karma; it diminishes one's own reputation; it generates pride; it breeds disrespect for tradition. The monk who guards his laughter guards, ultimately, his own access to knowledge.
+
+### 6. SIMPLY PUT
+
+When a great scholar — even one who has memorised the foundational scriptures — slips in his speech, no monk should laugh at him.
+
+### 7. CONTEMPLATE
+
+When someone you respect makes a small error, what does your inner reaction reveal about you?
+
+---
+
+## SUTRA 8.51 — No Astrology, Spells, or Medical Prescriptions
+
+### 1. PRAKRIT TEXT
+
+णक्खत्तं सुमिणं जोगं, णिमित्तं मंतभेसजं ।
+गिहिणो तं ण आइक्खे, भूयाहिगरणं पयं ॥८.५१॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.51 ||
+ṇakkhattaṃ sumiṇaṃ jogaṃ, ṇimittaṃ maṃtabhesajaṃ |
+gihiṇo taṃ ṇa āikkhe, bhūyāhigaraṇaṃ payaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Astrology of stars, dream-interpretation, occult formulae of attraction, omen-reading, mantras, and medicines — the monk shall not declare these to laypeople, for these are the locus of harm to living beings.
+
+### 4. ANVAYARTHA
+
+- **णक्खत्तं** (ṇakkhattaṃ) = astrology of nakshatras / horoscope-reading
+- **सुमिणं** (sumiṇaṃ) = dream-fruit / dream interpretation
+- **जोगं** (jogaṃ) = vashikarana-yoga (occult attraction techniques)
+- **णिमित्तं** (ṇimittaṃ) = niryukti — interpreting omens for past, present, future
+- **मंतभेसजं** (maṃtabhesajaṃ) = mantras and medicines
+- **गिहिणो तं ण आइक्खे** (gihiṇo taṃ ṇa āikkhe) = the monk shall not tell to the layperson
+- **भूयाहिगरणं पयं** (bhūyāhigaraṇaṃ payaṃ) = (these are) the locus / cause of harm to beings
+
+### 5. COMMENTARY
+
+The sutra forbids the monk from practising as an astrologer, dream-interpreter, sorcerer, omen-reader, mantra-vendor, or doctor. The reason given is precise: *bhūta-adhikarana* — these are *occasions of injury to living beings*. Astrology induces violent decisions (a war timed by stars, a pregnancy aborted by a bad horoscope); occult attraction violates another's free will; medicines are made by killing beings and prescribing them entangles the monk in the patient's diet, lifestyle, and household economy. Even where the immediate intent is benign, the karmic chains are deep. The monk's vocation is moksha-marga; once he becomes practically useful in worldly arts, his independence dissolves.
+
+### 6. SIMPLY PUT
+
+Astrology, dream-reading, spells, omens, mantras, medicines — the monk doesn't tell laypeople any of these, because they all become occasions for harming beings.
+
+### 7. CONTEMPLATE
+
+What useful skills do you possess that would, if offered, slowly compromise the deeper discipline you have undertaken?
+
+---
+
+## SUTRA 8.52 — Choice of Lodging
+
+### 1. PRAKRIT TEXT
+
+अण्णट्ठं पगडं लयणं, भएज्ज सयणासणं ।
+उच्चारभूमिसंपण्णं, इत्थीपसुविवज्जियं ॥८.५२॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.52 ||
+aṇṇaṭṭhaṃ pagaḍaṃ layaṇaṃ, bhaejja sayaṇāsaṇaṃ |
+uccārabhūmisaṃpaṇṇaṃ, itthīpasuvivajjiyaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The monk shall use a lodging built for some other purpose (not for him), and seats and beds (similarly intended for others) — and only in a place that has access to a clean toilet-ground and is free of women and animals.
+
+### 4. ANVAYARTHA
+
+- **अण्णट्ठं** (aṇṇaṭṭhaṃ) = made for another's purpose (not made for the monk himself, to avoid audeshika dosha)
+- **पगडं लयणं** (pagaḍaṃ layaṇaṃ) = a constructed dwelling
+- **भएज्ज सयणासणं** (bhaejja sayaṇāsaṇaṃ) = let him use sleeping-place and seat
+- **उच्चारभूमिसंपण्णं** (uccārabhūmisaṃpaṇṇaṃ) = with toilet-ground available
+- **इत्थीपसुविवज्जियं** (itthīpasuvivajjiyaṃ) = free of women and animals
+
+### 5. COMMENTARY
+
+The verse opens the brahmacharya (celibacy) discipline that runs through sutras 52-60. Three conditions for the monk's lodging are specified: (1) it must be *anyartha-prakata* — built originally for someone else's purpose, never specifically for the monk (which would constitute the audeshika fault); (2) it must have access to a clean prasuk toilet-ground for the fifth samiti; (3) it must be free of women and animals (or, for nuns, free of men and male animals), because constant proximity to the opposite sex disturbs brahmacharya-samadhi and inflames the latent veda-mohaniya karma.
+
+### 6. SIMPLY PUT
+
+The monk uses a place built for others (not for him), with a clean toilet-area nearby, and free of women and animals.
+
+### 7. CONTEMPLATE
+
+How much of your environment shapes your inner state without your knowing?
+
+---
+
+## SUTRA 8.53 — Quiet Lodging, No Idle Talk With Women, No Householder Familiarity
+
+### 1. PRAKRIT TEXT
+
+विवित्ता य भवे सेज्जा, नारीणं न लवे कहं ।
+गिहिसंथवं ण कुज्जा, कुज्जा साहूहिं संथवं ॥८.५३॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.53 ||
+vivittā ya bhave sejjā, nārīṇaṃ na lave kahaṃ |
+gihisaṃthavaṃ ṇa kujjā, kujjā sāhūhiṃ saṃthavaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The lodging shall be solitary (free of crowd-flow). The monk shall not engage in stories with women. He shall not become familiar with householders, but he shall keep familiarity (sangati) with monks.
+
+### 4. ANVAYARTHA
+
+- **विवित्ता य भवे सेज्जा** (vivittā ya bhave sejjā) = the lodging be solitary, free of constant traffic
+- **नारीणं न लवे कहं** (nārīṇaṃ na lave kahaṃ) = let him not engage in (story-)talk with women
+- **गिहिसंथवं ण कुज्जा** (gihisaṃthavaṃ ṇa kujjā) = let him not develop familiarity (santhava) with householders
+- **कुज्जा साहूहिं संथवं** (kujjā sāhūhiṃ saṃthavaṃ) = let him cultivate familiarity (sangati) with (other) monks
+
+### 5. COMMENTARY
+
+Three further protections of brahmacharya. *First*, the lodging must be *vivikta* — solitary, isolated, not on the busy thoroughfare where women and men pass continually. *Second*, the monk must not engage in conversation with women — even apparently innocent talk about women (stri-katha) excites raga and inflames the veda-mohaniya. *Third*, household-familiarity must be avoided; the monk does not visit a particular family often, does not develop personal favourites, does not become a "house-friend." The positive corollary is *sadhu-santhava* — cultivate the company of monks, where speech and behaviour are aligned with the path.
+
+### 6. SIMPLY PUT
+
+The monk's lodging should be quiet and out of the way. No story-talk with women. No deep familiarity with householders. Cultivate company instead with other monks.
+
+### 7. CONTEMPLATE
+
+Whose company most easily pulls you off your path — and whose company holds you on it?
+
+---
+
+## SUTRA 8.54 — The Chick and the Cat
+
+### 1. PRAKRIT TEXT
+
+जहा कुक्कुडपोयस्स, णिच्चं कुललओ भयं ।
+एवं खु बंभयारिस्स, इत्थीविग्गहओ भयं ॥८.५४॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.54 ||
+jahā kukkuḍapoyassa, ṇiccaṃ kulalao bhayaṃ |
+evaṃ khu baṃbhayārissa, itthīviggahao bhayaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Just as for a chick of a hen, there is constant danger from a cat — exactly so, for the celibate (brahmachari) monk, there is danger from the body of a woman.
+
+### 4. ANVAYARTHA
+
+- **जहा** (jahā) = just as
+- **कुक्कुडपोयस्स** (kukkuḍapoyassa) = of a chick / chicken's young
+- **णिच्चं कुललओ भयं** (ṇiccaṃ kulalao bhayaṃ) = (there is) constant danger from a cat
+- **एवं खु बंभयारिस्स** (evaṃ khu baṃbhayārissa) = exactly so, for the brahmachari
+- **इत्थीविग्गहओ भयं** (itthīviggahao bhayaṃ) = (there is) danger from the body / form of a woman
+
+### 5. COMMENTARY
+
+One of the chapter's most striking similes. The chick is harmless; it has done the cat no wrong; the cat may not even be hungry now. But the *biological asymmetry* is total — the cat is danger by its very nature for a chick. The sutra applies this to the brahmachari and the female body: it is not a moral judgement against women (and the parallel verse for nuns reverses the genders), it is a clear-eyed acknowledgement that as long as veda-mohaniya karma is in udaya, the very presence of an opposite-sex body in close proximity is, for the celibate, a structural danger that no good intentions on either side can remove. The monk's awareness of this danger is what keeps him safe; pretending the danger does not exist is what destroys.
+
+### 6. SIMPLY PUT
+
+A chick is in constant danger from a cat. In just the same way, the celibate monk is in constant danger from the body of a woman.
+
+### 7. CONTEMPLATE
+
+What danger in your own life have you stopped acknowledging because admitting it feels embarrassing?
+
+---
+
+## SUTRA 8.55 — Eyes Withdrawn from Painted Walls and Adorned Women
+
+### 1. PRAKRIT TEXT
+
+चित्तभित्तिं ण णिज्झाए, नारिं वा सुअलंकियं ।
+भक्खरं पिव दठ्ठूणं, दिट्ठिं पडिसमाहरे ॥८.५५॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 8.55 ||
+cittabhittiṃ ṇa ṇijjhāe, nāriṃ vā sualaṃkiyaṃ |
+bhakkharaṃ piva daṭṭhūṇaṃ, diṭṭhiṃ paḍisamāhare ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The monk shall not gaze upon a wall painted with images (of women) nor upon a well-adorned woman. As one withdraws the eye instantly upon seeing the sun, so let him withdraw his gaze (from such sights).
+
+### 4. ANVAYARTHA
+
+- **चित्तभित्तिं** (cittabhittiṃ) = a wall painted with female forms
+- **ण णिज्झाए** (ṇa ṇijjhāe) = let him not stare / gaze
+- **नारिं वा सुअलंकियं** (nāriṃ vā sualaṃkiyaṃ) = nor a woman well-adorned (in clothes and jewels)
+- **भक्खरं पिव दठ्ठूणं** (bhakkharaṃ piva daṭṭhūṇaṃ) = like (one's gaze that meets) the sun
+- **दिट्ठिं पडिसमाहरे** (diṭṭhiṃ paḍisamāhare) = let him at once withdraw the gaze
+
+### 5. COMMENTARY
+
+A simple eye-discipline taught through a vivid analogy. When one accidentally looks at the sun, one does not stop to consider — the eye instantly withdraws. The monk must develop this same instantaneous reflex toward the sight of (a) painted images of women on walls or in art, and (b) actual women adorned with finery. The point is not aversion or contempt; it is the speed of withdrawal. A glance held becomes a gaze; a gaze becomes attachment; attachment becomes the breach of brahmacharya. The simile of the sun is also delicately positioned — looking at the sun *damages the eye*; looking at attractive forms *damages the brahmacharya*.
+
+### 6. SIMPLY PUT
+
+Don't stare at painted images of women or at well-adorned women. Just as you instantly pull your gaze back from the sun, pull it back from these.
+
+### 7. CONTEMPLATE
+
+How quickly can your eye learn to withdraw — not in shame or aversion, but with the speed of pure self-protection?
+
+---
+
+
+
 
 

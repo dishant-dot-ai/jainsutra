@@ -1583,3 +1583,1144 @@ When two people own the food and both willingly invite the monk, he should accep
 What gifts in your life have come with full consent — and what came with only half?
 
 ---
+
+## SUTRA 5.1.39 — Food Prepared for a Pregnant Woman
+
+### 1. PRAKRIT TEXT
+
+गुव्विणीए उवण्णत्थं, विविहं पाणभोयणं ।
+भुंजमाणं विवज्जेज्जा, भुत्तसेसं पडिच्छए ॥५.१.३९॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.39 ||
+guvviṇīe uvaṇṇatthaṃ, vivihaṃ pāṇabhoyaṇaṃ |
+bhuṃjamāṇaṃ vivajjejjā, bhuttasesaṃ paḍicchae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The various foods and drinks that have been specially prepared for a pregnant woman (to satisfy her cravings) — the monk should refuse them while she is still eating; he may accept what remains *after* she has finished and there is genuine surplus.
+
+### 4. ANVAYARTHA
+
+- **गुव्विणीए** (guvviṇīe) = for a pregnant woman
+- **उवण्णत्थं** (uvaṇṇatthaṃ) = specially prepared (for her cravings — dohad)
+- **विविहं** (vivihaṃ) = various kinds of
+- **पाणभोयणं** (pāṇabhoyaṇaṃ) = drink and food
+- **भुंजमाणं** (bhuṃjamāṇaṃ) = while she is eating (or before she has had her share)
+- **विवज्जेज्जा** (vivajjejjā) = should refuse
+- **भुत्तसेसं** (bhuttasesaṃ) = the genuine remainder after her meal
+- **पडिच्छए** (paḍicchae) = may accept
+
+### 5. COMMENTARY
+
+If a special meal has been prepared to satisfy the cravings (dohad) of a pregnant woman, the monk must not take from it before she eats — to do so could leave her unsatisfied, harm both mother and unborn child, and constitute a subtle violation of the great vow of non-violence. But if she has eaten her fill and food genuinely remains as surplus, the monk may accept that remainder. The principle: the monk's hunger is never to come at the cost of another's nourishment, especially not the nourishment of a vulnerable life.
+
+### 6. SIMPLY PUT
+
+Special food made for a pregnant woman should not be taken by the monk while she is still eating; only what is genuinely left over after her meal may be accepted.
+
+### 7. CONTEMPLATE
+
+When you take, do you ever take from someone who needs it more than you do?
+
+---
+
+## SUTRA 5.1.40-41 — Food Given by a Pregnant Woman in Late Stages
+
+### 1. PRAKRIT TEXT
+
+सिया य समणट्ठाए, गुव्विणी कालमासिणी ।
+उट्ठिया वा णिसीइज्जा, णिसण्णा वा पुणुट्ठए ॥५.१.४०॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.४१॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.40 ||
+siyā ya samaṇaṭṭhāe, guvviṇī kālamāsiṇī |
+uṭṭhiyā vā ṇisīijjā, ṇisaṇṇā vā puṇuṭṭhae ||
+
+|| 5.1.41 ||
+taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ |
+diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If, for the sake of the monk, a pregnant woman in her ninth month — having been standing — sits down to give, or, having been seated, stands up to give: such food is impermissible for the restrained monk; he should refuse the giver, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **सिया** (siyā) = if it should happen
+- **य समणट्ठाए** (ya samaṇaṭṭhāe) = for the monk's sake
+- **गुव्विणी** (guvviṇī) = a pregnant woman
+- **कालमासिणी** (kālamāsiṇī) = in her ninth (full-term) month — close to delivery
+- **उट्ठिया** (uṭṭhiyā) = having been standing
+- **णिसीइज्जा** (ṇisīijjā) = sits down (to give)
+- **णिसण्णा** (ṇisaṇṇā) = having been seated
+- **पुणुट्ठए** (puṇuṭṭhae) = rises again
+- **तं भवे भत्तपाणं तु** (taṃ bhave bhattapāṇaṃ tu) = that food and drink would be
+- **संजयाण अकप्पियं** (saṃjayāṇa akappiyaṃ) = impermissible for the restrained ones (monks)
+- **दिंतियं पडियाइक्खे** (diṃtiyaṃ paḍiyāikkhe) = should refuse the giver
+- **ण मे कप्पइ तारिसं** (ṇa me kappai tārisaṃ) = "such (food) is not permissible for me"
+
+### 5. COMMENTARY
+
+The compassion here is precise. A woman in the ninth month of pregnancy is heavy, fragile, and any sudden movement — standing up after sitting, sitting down after standing — risks injury both to herself and to the unborn child. If she makes such a movement *for the monk's sake* (to get up and serve, or to settle and serve), the monk shares in that risk and that violence. So the rule: he refuses food given by such a woman in the act of changing posture. He may accept only if she serves him from the same posture she was already in.
+
+The Sthavira-kalpa tradition is even more cautious: from the seventh month onward, the monk avoids taking food specifically from pregnant women altogether; the Jina-kalpa tradition begins this caution from the fifth month. The principle that runs through all these gradations is the same: the monk's nourishment must never become the smallest source of distress to a vulnerable being.
+
+### 6. SIMPLY PUT
+
+If a woman in her last month of pregnancy gets up or sits down specifically to serve the monk, he must refuse — because the movement itself could harm her and the baby.
+
+### 7. CONTEMPLATE
+
+How many small inconveniences do you cause to others without ever noticing — and what would happen if you did notice?
+
+---
+
+## SUTRA 5.1.42-43 — Food Given by a Mother Nursing a Child
+
+### 1. PRAKRIT TEXT
+
+थणगं पिज्जमाणी, दारगं वा कुमारियं ।
+तं णिक्खिवित्तु रोयंतं, आहरे पाणभोयणं ॥५.१.४२॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.४३॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.42 ||
+thaṇagaṃ pijjamāṇī, dāragaṃ vā kumāriyaṃ |
+taṃ ṇikkhivittu royaṃtaṃ, āhare pāṇabhoyaṇaṃ ||
+
+|| 5.1.43 ||
+taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ |
+diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If a woman who is breastfeeding a baby boy or girl sets the crying child down (on the bare ground) and brings food and drink — that food is impermissible for the restrained monk; he should refuse the giver, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **थणगं पिज्जमाणी** (thaṇagaṃ pijjamāṇī) = (the woman) breastfeeding the child
+- **दारगं वा कुमारियं** (dāragaṃ vā kumāriyaṃ) = a baby boy or baby girl
+- **तं णिक्खिवित्तु** (taṃ ṇikkhivittu) = setting (the child) down
+- **रोयंतं** (royaṃtaṃ) = (the child) crying
+- **आहरे पाणभोयणं** (āhare pāṇabhoyaṇaṃ) = brings food and drink
+- **तं भवे भत्तपाणं तु** (taṃ bhave bhattapāṇaṃ tu) = that food and drink would be
+- **संजयाण अकप्पियं** (saṃjayāṇa akappiyaṃ) = impermissible for the restrained ones
+- **दिंतियं पडियाइक्खे** (diṃtiyaṃ paḍiyāikkhe) = should refuse the giver
+- **ण मे कप्पइ तारिसं** (ṇa me kappai tārisaṃ) = "such (food) is not permissible for me"
+
+### 5. COMMENTARY
+
+The same principle of compassion is now applied to the nursing mother. If she puts down the baby — interrupting the feeding, perhaps onto a hard surface — and the baby cries from hunger or fear, then the food brought to the monk has come at the cost of the baby's distress and potentially harm. The monk's first great vow (non-violence) extends even to that smallest cry. So he refuses politely.
+
+The text gives gentle conditions under which the monk *may* accept: (1) if the mother gives leftover food *after* nursing is complete; (2) if she serves while remaining seated and the baby is content; (3) if the baby is already accepting other food besides milk, will not cry on being put down, and the mother gives without disturbing the child.
+
+### 6. SIMPLY PUT
+
+If a mother sets down a hungry, crying baby just to serve the monk, he must refuse the food — the baby's distress is too high a price.
+
+### 7. CONTEMPLATE
+
+What needs of the small and vulnerable around you go unnoticed because you were the louder voice in the room?
+
+---
+
+## SUTRA 5.1.44 — Refuse Food About Which You Are in Doubt
+
+### 1. PRAKRIT TEXT
+
+जं भवे भत्तपाणं तु, कप्पाकप्पंमि संकियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.४४॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.44 ||
+jaṃ bhave bhattapāṇaṃ tu, kappākappaṃmi saṃkiyaṃ |
+diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Whatever food and drink may be doubtful — uncertain whether permissible or not — the monk should refuse the giver, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **जं भवे भत्तपाणं तु** (jaṃ bhave bhattapāṇaṃ tu) = whatever food and drink may be
+- **कप्पाकप्पंमि** (kappākappaṃmi) = regarding (whether) permissible or impermissible
+- **संकियं** (saṃkiyaṃ) = doubtful, uncertain
+- **दिंतियं पडियाइक्खे** (diṃtiyaṃ paḍiyāikkhe) = should refuse the giver
+- **ण मे कप्पइ तारिसं** (ṇa me kappai tārisaṃ) = "such (food) is not permissible for me"
+
+### 5. COMMENTARY
+
+This is the famous **shankita dosha** — the "doubt fault." If after careful inspection and inquiry the monk still cannot determine whether the food is permissible or not — for example, he is uncertain whether the salt was raw (sachitta) or treated; whether the water touching the food was fresh or boiled; whether the giver's hair fell into the food; whether the food contains any tiny living creatures, etc. — then doubt itself is the deciding factor. *Where doubt remains, refusal is the rule.*
+
+The principle is profound. In the spiritual discipline of non-violence, the burden of proof is on the food, not on the monk. The food must be *known* faultless before it is accepted. If even after the monk's inquiry the doubt remains, he must refuse — for to accept under doubt is itself a fault. The fault is not in the food but in the act of accepting under uncertainty.
+
+### 6. SIMPLY PUT
+
+If after looking and asking, the monk is still not sure whether the food is faultless or faulty, he must simply refuse it — because doubt itself is enough reason to say no.
+
+### 7. CONTEMPLATE
+
+In your life, do you act through doubt, or do you wait until the doubt has been honestly cleared?
+
+---
+
+## SUTRA 5.1.45-46 — Pihita and Udbhinna Doshas (Covered Vessels)
+
+### 1. PRAKRIT TEXT
+
+दगवारेण पिहियं, णिसाए पीढएण वा ।
+लोढेण वावि लेवेण, सिलेसेण व केणइ ॥५.१.४५॥
+
+तं च उब्भिंदिया देज्जा, समणट्ठाए व दावए ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.४६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.45 ||
+dagavāreṇa pihiyaṃ, ṇisāe pīḍhaeṇa vā |
+loḍheṇa vāvi leveṇa, silesaṇa va keṇai ||
+
+|| 5.1.46 ||
+taṃ ca ubbhiṃdiyā dejjā, samaṇaṭṭhāe va dāvae |
+diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+A vessel that is covered — by a water-pot, by a grinding stone, by a stool, by a heavy stone slab, by a clay-paste seal, or by any other lac-seal: if (the giver) breaks open such a seal for the monk's sake or arranges for someone else to do so, the monk should refuse, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **दगवारेण** (dagavāreṇa) = with a water-pot (a vessel of water placed on top)
+- **पिहियं** (pihiyaṃ) = covered, sealed
+- **णिसाए** (ṇisāe) = with a grinding-stone (the heavy stone used for grinding spices, perfumes)
+- **पीढएण** (pīḍhaeṇa) = with a stool, plank, or wooden board
+- **लोढेण** (loḍheṇa) = with a heavy stone (such as a millstone)
+- **लेवेण** (leveṇa) = with a clay or mud-paste seal
+- **सिलेसेण व केणइ** (silesaṇa va keṇai) = or with any kind of lac/wax/resin seal
+- **तं च उब्भिंदिया** (taṃ ca ubbhiṃdiyā) = breaking it open
+- **देज्जा** (dejjā) = should give
+- **समणट्ठाए** (samaṇaṭṭhāe) = for the monk's sake
+- **व दावए** (va dāvae) = or causes (another) to give
+- **दिंतियं पडियाइक्खे** (diṃtiyaṃ paḍiyāikkhe) = should refuse the giver
+- **ण मे कप्पइ तारिसं** (ṇa me kappai tārisaṃ) = "such (food) is not permissible for me"
+
+### 5. COMMENTARY
+
+This is the **udbhinna dosha** — the "breaking-open fault" — combined with the **pihita dosha** ("covered fault") which is the 12th of the 16 udgama doshas. If a vessel of food is sealed shut by a heavy water-pot, a grindstone, a stool, a millstone, a clay seal, or a wax/lac seal, and the householder *breaks the seal* specifically to serve the monk, several violences result: lifting heavy stones risks crushing earth-bodied beings beneath; breaking clay or lac seals kills earth-, water-, fire- (in the case of warm wax), or plant-bodied beings; the act of unsealing for the monk's sake itself constitutes a special preparation that violates the principle of "no extra effort for the monk." So the monk refuses.
+
+If, however, the cover comes off easily (no heavy lifting needed) and the seal involves no living substance — the monk *may* accept. The rule is again about preventing violence done expressly for the monk.
+
+### 6. SIMPLY PUT
+
+If the food is in a vessel sealed shut by heavy stones or clay or wax, and the giver breaks the seal just to feed the monk, he must refuse — because the breaking itself causes harm.
+
+### 7. CONTEMPLATE
+
+What do others have to "break open" to give to you — and is the breaking worth it?
+
+---
+
+## SUTRA 5.1.47-48 — Refusing Food Made Specifically for Charity (Danartha)
+
+### 1. PRAKRIT TEXT
+
+असणं पाणगं वावि, खाइमं साइमं तहा ।
+जं जाणेज्ज सुणेज्जा वा, दाणट्ठा पगडं इमं ॥५.१.४७॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.४८॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.47 ||
+asaṇaṃ pāṇagaṃ vāvi, khāimaṃ sāimaṃ tahā |
+jaṃ jāṇejja suṇejjā vā, dāṇaṭṭhā pagaḍaṃ imaṃ ||
+
+|| 5.1.48 ||
+taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ |
+diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If the monk knows or hears that food, drink, chewables, or flavour-fresheners have been prepared specifically *for the purpose of giving away as charity* — such food and drink are impermissible for the restrained monk; he should refuse, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **असणं** (asaṇaṃ) = food (cooked staples)
+- **पाणगं** (pāṇagaṃ) = drink (water etc.)
+- **वावि** (vāvi) = also
+- **खाइमं** (khāimaṃ) = chewables (fruits, dried fruits, sweets)
+- **साइमं तहा** (sāimaṃ tahā) = and flavour-fresheners (cardamom, betel, fennel)
+- **जं जाणेज्ज सुणेज्जा वा** (jaṃ jāṇejja suṇejjā vā) = which the monk knows (himself) or has heard from others
+- **दाणट्ठा** (dāṇaṭṭhā) = for the purpose of giving (as charity)
+- **पगडं इमं** (pagaḍaṃ imaṃ) = has been prepared
+- **तं भवे...अकप्पियं** = that food would be impermissible for the restrained
+- **दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं** = should refuse the giver: "such food is not permissible for me"
+
+### 5. COMMENTARY
+
+This verse names a profound principle. Food prepared *specifically for charitable distribution* — as part of a public almsgiving event, a charitable feeding of the poor, or any kind of organised giving — is not for the Jain monk. Why? Because such food has been prepared for *those who need it*: the genuinely hungry, the destitute, the needy who depend on charity to eat. If the monk takes from such a stock, he diminishes what is left for those who truly need it. Worse, the food was prepared with the *intention* of giving — and the act of preparation itself involves violence (cooking, gathering, etc.) done *for* the recipients, which the monk must not co-author.
+
+The Jain monk's begging tradition is unique in this respect: it is *bhiksha-vritti* — going from house to house and taking only the smallest portion of the household's *normal* food. It is not charity-feeding. The two are spiritually different acts: the monk shares the family's meal in tiny measure; the charitable giver feeds the destitute. The monk does not draw from the second.
+
+### 6. SIMPLY PUT
+
+If food has been specially made for handing out as charity to the needy, the monk should refuse it — that food belongs to those who need it more.
+
+### 7. CONTEMPLATE
+
+When something is meant for those who have less, can you keep your hand back even when it is offered to you?
+
+---
+
+## SUTRA 5.1.49-54 — Refusing Food Made for Merit, Beggars, or Other Renunciants
+
+### 1. PRAKRIT TEXT
+
+असणं पाणगं वावि, खाइमं साइमं तहा ।
+जं जाणेज्ज सुणेज्जा वा, पुण्णट्ठा पगडं इमं ॥५.१.४९॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.५०॥
+
+असणं पाणगं वावि, खाइमं साइमं तहा ।
+जं जाणेज्ज सुणेज्जा वा, वणिमट्ठा पगडं इमं ॥५.१.५१॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.५२॥
+
+असणं पाणगं वावि, खाइमं साइमं तहा ।
+जं जाणेज्ज सुणेज्जा वा, समणट्ठा पगडं इमं ॥५.१.५३॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.५४॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.49 || asaṇaṃ pāṇagaṃ vāvi, khāimaṃ sāimaṃ tahā | jaṃ jāṇejja suṇejjā vā, puṇṇaṭṭhā pagaḍaṃ imaṃ ||
+|| 5.1.50 || taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+|| 5.1.51 || asaṇaṃ pāṇagaṃ vāvi, khāimaṃ sāimaṃ tahā | jaṃ jāṇejja suṇejjā vā, vaṇimaṭṭhā pagaḍaṃ imaṃ ||
+|| 5.1.52 || taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+|| 5.1.53 || asaṇaṃ pāṇagaṃ vāvi, khāimaṃ sāimaṃ tahā | jaṃ jāṇejja suṇejjā vā, samaṇaṭṭhā pagaḍaṃ imaṃ ||
+|| 5.1.54 || taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(49-50) If the monk knows or hears that food, drink, chewables or flavour-fresheners have been prepared *for the purpose of earning religious merit* (e.g., for ritual feeding of Brahmins, shraddha rites, etc.) — such food is impermissible; he should refuse.
+
+(51-52) If prepared *for ordinary beggars and supplicants* — such food is impermissible; he should refuse.
+
+(53-54) If prepared *for non-Jain renunciants* (samana — wandering ascetics of other traditions) — such food is impermissible; he should refuse.
+
+### 4. ANVAYARTHA
+
+- **पुण्णट्ठा** (puṇṇaṭṭhā) = for (earning) religious merit
+- **वणिमट्ठा** (vaṇimaṭṭhā) = for beggars / mendicant supplicants (including those who flatter the giver to receive)
+- **समणट्ठा** (samaṇaṭṭhā) = for samanas — non-Jain renunciants such as Buddhist monks, sannyasis, tapasvis, parivrajakas
+- (Other words as in 5.1.47-48.)
+
+### 5. COMMENTARY
+
+These three pairs of verses extend the principle of 5.1.47-48 to three additional categories of "prepared-for-someone-else" food. The Uddesha names *four* situations in total in which prepared-for-charity food is forbidden: **danartha** (prepared for general charity, 47-48), **punyartha** (prepared for religious merit-making, 49-50), **vanima-artha** (prepared for ordinary beggars, 51-52), and **samana-artha** (prepared for other renunciants, 53-54).
+
+The underlying logic in all four cases is identical: the food was prepared *with a particular recipient in mind*. To take from it diminishes what reaches that intended recipient (causing antaraya — the obstruction of another's nourishment, a serious karmic fault). And the cooking-violence associated with it was undertaken on behalf of someone else; for the monk to share in that food is to share in violence not done for him but which still benefits him — a subtle form of complicity.
+
+The fourth case (samana-artha) is especially worth noting: the Jain monk does not even take from food prepared for fellow-renunciants of other traditions. Each renunciant tradition keeps its own discipline; the Jain monk does not "borrow" charity meant for others. This rigorous independence is part of what makes the Jain alms-tradition unique.
+
+### 6. SIMPLY PUT
+
+If food was made specifically for religious merit, for ordinary beggars, or for non-Jain monks and ascetics — the Jain monk must refuse it, because that food belongs to those for whom it was prepared.
+
+### 7. CONTEMPLATE
+
+When you take what was meant for someone else, even if offered freely, what subtle harm have you done?
+
+---
+
+## SUTRA 5.1.55 — The Seven Forbidden Categories Summarised
+
+### 1. PRAKRIT TEXT
+
+उद्देसियं कीयगडं, पूइकम्मं च आहडं ।
+अज्झोयर पामिच्चं, मीसजायं विवज्जए ॥५.१.५५॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.55 ||
+uddesiyaṃ kīyagaḍaṃ, pūikammaṃ ca āhaḍaṃ |
+ajjhoyara pāmiccaṃ, mīsajāyaṃ vivajjae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The monk should avoid food that is **uddeshika** (prepared with the monk in mind), **kritakrita** (purchased for the monk), **putikarma** (mixed with even a particle of adhakarmika food), **ahrita** (specially fetched from elsewhere), **adhyavatara** (made in extra quantity for the monk), **pramitya** (borrowed for the monk), and **mishrajata** (made jointly for the household and the monk).
+
+### 4. ANVAYARTHA
+
+- **उद्देसियं** (uddesiyaṃ) = prepared with the monk specifically in mind (the 2nd of the 16 udgama doshas)
+- **कीयगडं** (kīyagaḍaṃ) = purchased for the monk (the 8th udgama dosha)
+- **पूइकम्मं** (pūikammaṃ) = "putrid action" — mixed with even a small portion of forbidden food (the 3rd udgama dosha)
+- **आहडं** (āhaḍaṃ) = food specially carried to the monk's lodging from another village or place (the 16th udgama dosha)
+- **अज्झोयर** (ajjhoyara) = "addition" — extra quantity added to the family's cooking after the family had begun preparing, with the monk in mind (the 11th udgama dosha)
+- **पामिच्चं** (pāmiccaṃ) = food borrowed from a neighbour to give to the monk (the 9th udgama dosha)
+- **मीसजायं** (mīsajāyaṃ) = mixed-purpose — cooked from the start with both the household and the monk in mind (the 4th udgama dosha)
+- **विवज्जए** (vivajjae) = should avoid
+
+### 5. COMMENTARY
+
+This single verse compresses seven of the sixteen famous **udgama doshas** (donor-side faults) into one summary. Each of the seven names a specific way in which the food has been prepared *with the monk in mind*, even subtly:
+
+(1) **Uddeshika** — the family cooks something extra "in case a monk comes." This is a special intent.
+
+(2) **Kritakrita** — the family *purchases* something specifically to offer the monk.
+
+(3) **Putikarma** — the food itself is pure, but a single spoonful of "adhakarmika" (food cooked specifically for monks) was mixed in. Like a drop of impurity in clean water, the whole becomes impure.
+
+(4) **Ahrita** — the food is carried from one's own home to the upashraya (monk's lodging) or another village specifically to give.
+
+(5) **Adhyavatara** — while cooking for the family, more rice or vegetables are added to the pot once a monk is sighted, "so there will be enough."
+
+(6) **Pramitya** — the family borrows a bowl of ghee or lentils from a neighbour just to be able to offer the monk something nice.
+
+(7) **Mishrajata** — from the very beginning, the family cooked both for themselves and for the monks they expected.
+
+In every case, the violence of cooking, fetching, purchasing, or borrowing was undertaken at least partly *for the monk*. The monk's discipline of eating only what is "naturally" available (as if grazing like the cow on the meadow) is broken. So all seven are forbidden.
+
+### 6. SIMPLY PUT
+
+The monk must refuse food that was made or bought or borrowed or fetched or added or mixed *with him in mind* — he should only take what the family was making for themselves.
+
+### 7. CONTEMPLATE
+
+What "extra" things do others quietly prepare for you — and would you accept them if you knew?
+
+---
+
+## SUTRA 5.1.56 — Inquiring About Origin When in Doubt
+
+### 1. PRAKRIT TEXT
+
+उग्गमं से य पुच्छेज्जा, कस्सट्ठा केण वा कडं ।
+सोच्चा णिस्संकियं सुद्धं, पडिगाहेज्ज संजए ॥५.१.५६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.56 ||
+uggamaṃ se ya pucchejjā, kassaṭṭhā keṇa vā kaḍaṃ |
+soccā ṇissaṃkiyaṃ suddhaṃ, paḍigāhejja saṃjae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The restrained monk should inquire about the origin (of the food), asking: "For whose sake was this prepared?" and "By whom was it made?" — and having heard the answer, only if it is doubt-free and pure should he accept.
+
+### 4. ANVAYARTHA
+
+- **उग्गमं** (uggamaṃ) = origin (the udgama — the manner in which the food came into being)
+- **से य पुच्छेज्जा** (se ya pucchejjā) = (the monk) should ask
+- **कस्सट्ठा** (kassaṭṭhā) = "for whose sake?" (whose was the intended purpose?)
+- **केण वा कडं** (keṇa vā kaḍaṃ) = "by whom was it made?"
+- **सोच्चा** (soccā) = having heard (the answer)
+- **णिस्संकियं** (ṇissaṃkiyaṃ) = doubt-free
+- **सुद्धं** (suddhaṃ) = pure
+- **पडिगाहेज्ज** (paḍigāhejja) = should accept
+- **संजए** (saṃjae) = the restrained one
+
+### 5. COMMENTARY
+
+This verse gives the monk's investigative method when the seven faults of the previous verse are suspected. He may ask the giver two simple questions: "For whose sake was this food prepared?" and "Who prepared it?" The answers reveal whether any of the seven udgama doshas applies. If the answer indicates that the food was prepared as part of the family's normal meal, by family members, with no special intent toward the monk — the monk may accept. If any doubt remains after inquiry, the previous rule (5.1.44, shankita-dosha) applies: refuse.
+
+The monk does not interrogate aggressively or in a way that embarrasses the householder. The inquiry is brief, gentle, and aimed solely at protecting his own discipline — never at testing the giver.
+
+### 6. SIMPLY PUT
+
+If in doubt, the monk should simply ask: "Who is this food made for?" and "Who made it?" — and accept only if the answers leave no doubt that the food is faultless.
+
+### 7. CONTEMPLATE
+
+What honest questions could you ask before saying yes — and how often do you skip them?
+
+---
+
+## SUTRA 5.1.57-58 — Food Mixed with Flowers, Seeds, or Fresh Plants
+
+### 1. PRAKRIT TEXT
+
+असणं पाणगं वावि, खाइमं साइमं तहा ।
+पुप्फेसु हुज्ज उम्मीसं, बीएसु हरिएसु वा ॥५.१.५७॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.५८॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.57 ||
+asaṇaṃ pāṇagaṃ vāvi, khāimaṃ sāimaṃ tahā |
+pupphesu hujja ummīsaṃ, bīesu hariesu vā ||
+
+|| 5.1.58 ||
+taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ |
+diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If food, drink, chewables, or flavour-fresheners are mixed with (live) flowers, with seeds, or with fresh green plants — such food is impermissible for the restrained monk; he should refuse, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **पुप्फेसु** (pupphesu) = (mixed) with flowers (one-sense plant beings, still alive)
+- **बीएसु** (bīesu) = (with) seeds (capable of sprouting, plant-bodied)
+- **हरिएसु वा** (hariesu vā) = (with) green vegetation, fresh shoots
+- **उम्मीसं** (ummīsaṃ) = mixed
+- (Other words as before.)
+
+### 5. COMMENTARY
+
+If the food contains living substances mixed in — fresh flowers used as garnish (which are still alive), whole grains (which contain sleeping plant-life), or fresh herbs and shoots — then eating it would mean killing those living beings inside the food. So the monk refuses. The principle: food must be entirely lifeless (achitta) at the moment of acceptance. Even the smallest living substance mixed in renders it impermissible.
+
+### 6. SIMPLY PUT
+
+If the food has fresh flowers, live seeds, or green herbs mixed in, the monk must refuse — eating it would kill those living things.
+
+### 7. CONTEMPLATE
+
+What "garnishes" come along with what you accept — and are they really part of the gift, or part of the cost?
+
+---
+
+## SUTRA 5.1.59-60 — Food Set on Fresh Water or Insect-Holes
+
+### 1. PRAKRIT TEXT
+
+असणं पाणगं वावि, खाइमं साइमं तहा ।
+उदगम्मि हुज्ज णिक्खित्तं, उत्तिंग पणगेसु वा ॥५.१.५९॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.६०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.59 ||
+asaṇaṃ pāṇagaṃ vāvi, khāimaṃ sāimaṃ tahā |
+udagammi hujja ṇikkhittaṃ, uttiṃga paṇagesu vā ||
+
+|| 5.1.60 ||
+taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ |
+diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If food, drink, chewables, or flavour-fresheners have been set down upon (sachitta) water, or upon insect-burrows or upon fresh moss/mould — such food is impermissible for the restrained monk; he should refuse, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **उदगम्मि** (udagammi) = on (sachitta, living) water
+- **हुज्ज णिक्खित्तं** (hujja ṇikkhittaṃ) = if it has been set down
+- **उत्तिंग** (uttiṃga) = an insect-burrow / ant-hole / termite-hole
+- **पणगेसु वा** (paṇagesu vā) = or on green/blue moss, mould, fungus
+- (Other words as before.)
+
+### 5. COMMENTARY
+
+This is another **nikshipta dosha** — the "set-down fault" — applied to specific living substrates. If the giver has temporarily placed the food vessel on top of fresh water, or on top of an insect-burrow (where many small creatures live), or on a patch of moss or mould (one-sense plant-bodied beings), then the food has come into direct contact with those living substances, the substrate has been crushed by the weight of the vessel, and the food is impermissible. The monk politely refuses.
+
+### 6. SIMPLY PUT
+
+If the food has been placed on fresh water, on an insect-hole, or on a patch of moss or mould, the monk must refuse — these are all living things being harmed.
+
+### 7. CONTEMPLATE
+
+What surfaces does what you carry rest on — and what life lies underneath them?
+
+---
+
+## SUTRA 5.1.61-62 — Food on Fire or Touching Fire
+
+### 1. PRAKRIT TEXT
+
+असणं पाणगं वावि, खाइमं साइमं तहा ।
+तेउम्मि हुज्ज णिक्खित्तं, तं च संघट्टिया दए ॥५.१.६१॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.६२॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.61 || asaṇaṃ pāṇagaṃ vāvi, khāimaṃ sāimaṃ tahā | teummi hujja ṇikkhittaṃ, taṃ ca saṃghaṭṭiyā dae ||
+|| 5.1.62 || taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If food, drink, chewables, or flavour-fresheners have been placed upon fire, or are given after touching the fire — such food is impermissible for the restrained monk; he should refuse, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **तेउम्मि** (teummi) = on fire (tejaskaya — fire-bodied living beings)
+- **हुज्ज णिक्खित्तं** (hujja ṇikkhittaṃ) = if it has been set down
+- **संघट्टिया** (saṃghaṭṭiyā) = touching, brushing against
+- **दए** (dae) = (the giver) gives
+- (Other words as before.)
+
+### 5. COMMENTARY
+
+Fire itself is a living being (tejaskaya — fire-bodied). If the food vessel rests on a fire (typical of cooking pots over a stove), or if the giver brings food that has just brushed against the fire, the contact has destroyed many fire-beings *for the monk's sake*. So the food is impermissible.
+
+### 6. SIMPLY PUT
+
+If the food has been on the fire, or the giver's vessel has just touched fire, the monk must refuse — fire itself is a form of life that has been disturbed for him.
+
+### 7. CONTEMPLATE
+
+What life is consumed for the warmth of what you receive?
+
+---
+
+## SUTRA 5.1.63-64 — The Nine "Fire-Touching" Doshas
+
+### 1. PRAKRIT TEXT
+
+एवं उस्सक्किया ओसक्किया, उज्जालिया पज्जालिया णिव्वाविया ।
+उस्सिंचिया णिस्सिंचिया, उववत्तिया ओवारिया दए ॥५.१.६३॥
+
+तं भवे भत्तपाणं तु, संजयाण अकप्पियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.६४॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.63 || evaṃ ussakkiyā osakkiyā, ujjāliyā pajjāliyā ṇivvāviyā | ussiṃciyā ṇissiṃciyā, uvavattiyā ovāriyā dae ||
+|| 5.1.64 || taṃ bhave bhattapāṇaṃ tu, saṃjayāṇa akappiyaṃ | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+In the same way (the food is impermissible if), the giver gives after — moving fuel toward the fire, withdrawing fuel from the fire, lighting the fire, fanning the fire to greater flame, extinguishing the fire, ladling out (food) from the cooking vessel, sprinkling water (on the food), tilting the vessel to one side to pour, or removing the vessel from the fire altogether.
+
+### 4. ANVAYARTHA
+
+- **उस्सक्किया** (ussakkiyā) = pushing fuel toward the fire (utsarpya — to keep the fire from dying down so the food stays warm for the monk)
+- **ओसक्किया** (osakkiyā) = pulling fuel away from the fire (avasarpya — to reduce the heat for the monk)
+- **उज्जालिया** (ujjāliyā) = lighting / kindling fresh fuel to heat the food
+- **पज्जालिया** (pajjāliyā) = blowing or fanning to make the fire burn hotter
+- **णिव्वाविया** (ṇivvāviyā) = extinguishing the fire (when serving will be done)
+- **उस्सिंचिया** (ussiṃciyā) = ladling out the contents (with sprinkling) from the cooking vessel
+- **णिस्सिंचिया** (ṇissiṃciyā) = sprinkling extra water onto the food in the cooking pot to thin it
+- **उववत्तिया** (uvavattiyā) = tilting the vessel to pour out the food into another container
+- **ओवारिया** (ovāriyā) = removing / lowering the vessel from the fire
+- **दए** (dae) = gives (any of these acts having been done for the monk's sake)
+
+### 5. COMMENTARY
+
+These nine acts — all of which are typical kitchen actions performed when serving — each cause violence to the fire-bodied beings, and several also cause violence to water- and earth-beings. If any of them is performed *specifically for the monk* (to keep food warm, to make it ready to serve, to pour it out, etc.), the food becomes impermissible. The principle: the monk's discipline of taking only what would have happened anyway in the household's normal routine is violated whenever such "extra" actions are performed for his sake.
+
+### 6. SIMPLY PUT
+
+If the giver, just to serve the monk, adds fuel, removes fuel, lights or blows on the fire, puts out the fire, ladles, sprinkles, tilts, or removes the cooking pot — the monk must refuse, because all of this disturbs fire-beings for his sake.
+
+### 7. CONTEMPLATE
+
+What invisible adjustments do others make to "keep things warm" for you?
+
+---
+
+## SUTRA 5.1.65-66 — Avoiding Unstable Walking Surfaces
+
+### 1. PRAKRIT TEXT
+
+हुज्ज कट्ठं सिलं वावि, इट्टालं वावि एगया ।
+ठवियं संकमट्ठाए, तं च होज्ज चलाचलं ॥५.१.६५॥
+
+ण तेण भिक्खू गच्छेज्जा, दिट्ठो तत्थ असंजमो ।
+गंभीरं झुसिरं चेव, सर्विंदिय समाहिए ॥५.१.६६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.65 || hujja kaṭṭhaṃ silaṃ vāvi, iṭṭālaṃ vāvi egayā | ṭhaviyaṃ saṃkamaṭṭhāe, taṃ ca hojja calācalaṃ ||
+|| 5.1.66 || ṇa teṇa bhikkhū gacchejjā, diṭṭho tattha asaṃjamo | gaṃbhīraṃ jhusiraṃ ceva, savviṃdiya samāhie ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If sometimes a piece of wood, a stone slab, or a brick has been placed (across a puddle or pit) as a passing-bridge, and it is wobbly and unstable — a monk in command of all his senses should not walk over it; for there is visible danger of unrestraint, and the place beneath it may be deep and hollow.
+
+### 4. ANVAYARTHA
+
+- **हुज्ज** (hujja) = if there should be
+- **कट्ठं** (kaṭṭhaṃ) = a piece of wood / plank
+- **सिलं** (silaṃ) = a stone slab
+- **इट्टालं** (iṭṭālaṃ) = a brick
+- **एगया** (egayā) = at some time, sometimes
+- **ठवियं** (ṭhaviyaṃ) = placed
+- **संकमट्ठाए** (saṃkamaṭṭhāe) = for the purpose of crossing
+- **चलाचलं** (calācalaṃ) = wobbly, unsteady
+- **ण तेण... गच्छेज्जा** (ṇa teṇa... gacchejjā) = should not walk over it
+- **दिट्ठो तत्थ असंजमो** (diṭṭho tattha asaṃjamo) = unrestraint is visible there (i.e., it is clearly a violation-causing situation)
+- **गंभीरं** (gaṃbhīraṃ) = deep
+- **झुसिरं** (jhusiraṃ) = hollow
+- **सर्विंदिय समाहिए** (savviṃdiya samāhie) = with all senses composed
+
+### 5. COMMENTARY
+
+This returns to the rules of walking — specifically the situation of crossing puddles or pits during the monsoon season when villagers lay temporary planks, stones, or bricks across them. If the makeshift bridge wobbles, the monk slips: he falls, his bones may break, the householders' regard for the monk-tradition decreases, and water-beings or other living beings beneath get crushed. So even when it is the only available path, the monk should not use it if it is unstable — better to wait or take a longer route.
+
+### 6. SIMPLY PUT
+
+If a temporary plank, stone, or brick has been placed across a puddle and it wobbles, the monk should not walk on it — both his safety and the lives beneath are at risk.
+
+### 7. CONTEMPLATE
+
+What unstable supports do you trust your weight to in life — and what would happen if they gave way?
+
+---
+
+## SUTRA 5.1.67-69 — Refusing Food from Climbed Heights (Malapahrita Dosha)
+
+### 1. PRAKRIT TEXT
+
+णिस्सेणिं फलगं पीढं, उस्सवित्ताणमारुहे ।
+मंचं कीलं च पासायं, समणट्ठाए व दावए ॥५.१.६७॥
+
+दुरूहमाणी पवडेज्जा, हत्थं पायं व लूसए ।
+पुढविजीवे वि हिंसेज्जा, जे य तण्णिस्सिया जगे ॥५.१.६८॥
+
+एयारिसे महादोसे, जाणिऊण महेसिणो ।
+तम्हा मालोहडं भिक्खं, ण पडिगिण्हंति संजया ॥५.१.६९॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.67 || ṇisseṇiṃ phalagaṃ pīḍhaṃ, ussavittāṇamāruhe | maṃcaṃ kīlaṃ ca pāsāyaṃ, samaṇaṭṭhāe va dāvae ||
+|| 5.1.68 || durūhamāṇī pavaḍejjā, hatthaṃ pāyaṃ va lūsae | puḍhavijīve vi hiṃsejjā, je ya taṇṇissiyā jage ||
+|| 5.1.69 || eyārise mahādose, jāṇiūṇa mahesiṇo | tamhā mālohaḍaṃ bhikkhaṃ, ṇa paḍigiṇhaṃti saṃjayā ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If — for the monk's sake — the giver climbs a ladder, plank, stool, raised platform, post, or upper storey, and brings down (food from a height): she may fall while climbing, injure her hand or foot, kill earth-bodied beings (where she falls), and harm whatever creatures live in connection with that earth. Knowing such great faults, the great seers — the restrained monks — do not accept food brought from a height (mala-apahrita-dosha).
+
+### 4. ANVAYARTHA
+
+- **णिस्सेणिं** (ṇisseṇiṃ) = a ladder
+- **फलगं** (phalagaṃ) = a wide plank
+- **पीढं** (pīḍhaṃ) = a stool, low seat
+- **उस्सवित्ताणमारुहे** (ussavittāṇamāruhe) = standing on, climbing up
+- **मंचं** (maṃcaṃ) = a raised platform / cot-like elevated structure
+- **कीलं** (kīlaṃ) = a post / pillar
+- **पासायं** (pāsāyaṃ) = an upper storey / top floor of a mansion
+- **समणट्ठाए व दावए** (samaṇaṭṭhāe va dāvae) = (climbing) for the monk's sake to give
+- **दुरूहमाणी** (durūhamāṇī) = climbing
+- **पवडेज्जा** (pavaḍejjā) = may fall
+- **हत्थं पायं व लूसए** (hatthaṃ pāyaṃ va lūsae) = may injure hand or foot
+- **पुढविजीवे वि हिंसेज्जा** (puḍhavijīve vi hiṃsejjā) = may also harm earth-bodied beings
+- **जे य तण्णिस्सिया जगे** (je ya taṇṇissiyā jage) = and the creatures dependent on (that earth) in the world
+- **एयारिसे महादोसे** (eyārise mahādose) = such great faults
+- **जाणिऊण महेसिणो** (jāṇiūṇa mahesiṇo) = knowing — the great seers
+- **मालोहडं** (mālohaḍaṃ) = food brought from above (literally "fetched from the upper storey")
+- **ण पडिगिण्हंति** (ṇa paḍigiṇhaṃti) = do not accept
+
+### 5. COMMENTARY
+
+This is the famous **mala-apahrita dosha** — the "fetched-from-storage-above" fault. If the giver must climb a ladder, plank, stool, post, or mount to the top floor of the house to fetch food kept up there, several harms become possible: she may fall and break a bone; her own life may be endangered; she may crush insects or earth-beings on her landing or in her route; the entire faith in monks may be damaged if she is hurt while serving one. The great seers have thought of all this, and so refuse such food.
+
+There are three kinds of mala-apahrita: **urdhva** (fetched from above by climbing), **adho** (fetched from a basement / underground store by descending), **tiryak** (fetched with difficulty from a tall vessel or hard-to-reach side place). All three are forbidden. But where the household has ordinary stable stairs and the giver has no risk in fetching, the food may be accepted — the rule applies specifically to risky climbs.
+
+### 6. SIMPLY PUT
+
+If the giver has to climb a ladder, plank, post, or upper floor to fetch food just for the monk, he must refuse — because she might fall and hurt herself or others.
+
+### 7. CONTEMPLATE
+
+How often do you let someone reach for you in a way that puts them at risk — and pretend you didn't see?
+
+---
+
+## SUTRA 5.1.70 — Refusing Living Plant Substances (Sachitta Vegetation)
+
+### 1. PRAKRIT TEXT
+
+कंदं मूलं पलंबं वा, आमं छिण्णं व सण्णिरं ।
+तुंबागं सिंगबेरं च, आमगं परिवज्जए ॥५.१.७०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.70 ||
+kaṃdaṃ mūlaṃ palaṃbaṃ vā, āmaṃ chiṇṇaṃ va saṇṇiraṃ |
+tuṃbāgaṃ siṃgaberaṃ ca, āmagaṃ parivajjae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The monk should refuse: tubers, roots, fruits/seeds — whether raw, sliced, or moistened (still alive); gourds and ginger and the like, in any unprocessed (sachitta) state.
+
+### 4. ANVAYARTHA
+
+- **कंदं** (kaṃdaṃ) = a tuber (such as onion, potato, taro)
+- **मूलं** (mūlaṃ) = a root
+- **पलंबं** (palaṃbaṃ) = a fruit / seed
+- **आमं** (āmaṃ) = raw, uncooked, in living state
+- **छिण्णं** (chiṇṇaṃ) = sliced, cut (but not yet treated by fire or other "weapon")
+- **सण्णिरं** (saṇṇiraṃ) = with moisture / watery juice still in (a partially-processed state)
+- **तुंबागं** (tuṃbāgaṃ) = a gourd / pumpkin
+- **सिंगबेरं** (siṃgaberaṃ) = ginger
+- **आमगं** (āmagaṃ) = in raw state
+- **परिवज्जए** (parivajjae) = should refuse
+
+### 5. COMMENTARY
+
+A foundational rule: the monk does not take **sachitta vegetation** — plants still containing their living plant-soul. Tubers, roots, seeds, gourds, ginger, fruits — any of these in a raw state still hold one or more plant-bodied beings. Even slicing them does not kill the soul; only application of "shastra-parinata" (an instrument that destroys life — fire, salt, drying, prolonged separation, etc.) renders them lifeless and therefore acceptable.
+
+This single verse contains the entire Jain restriction on tubers (kanda-mool) — the famous prohibition against root vegetables that distinguishes Jain dietary practice. The deepest reason: a single tuber may contain *infinite* (anantakaya) souls, while a fruit contains only one or a limited number. So the karmic weight of consuming a tuber is exponentially greater.
+
+### 6. SIMPLY PUT
+
+The monk must refuse raw tubers, roots, fruits, seeds, gourds, and ginger — anything still alive that has not been fully processed by fire or other means.
+
+### 7. CONTEMPLATE
+
+How carefully do you ask whether something is still alive before you take it?
+
+---
+
+## SUTRA 5.1.71-72 — Refusing Food Sold in Open Shops
+
+### 1. PRAKRIT TEXT
+
+तहेव सत्तुचुण्णाइं, कोलचुण्णाइं आवणे ।
+सक्कुलिं फाणियं पूयं, अण्णं वावि तहाविहं ॥५.१.७१॥
+
+विक्कायमाणं पसढं, रएण परिफासियं ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.७२॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.71 || taheva sattucuṇṇāiṃ, kolacuṇṇāiṃ āvaṇe | sakkuliṃ phāṇiyaṃ pūyaṃ, aṇṇaṃ vāvi tahāvihaṃ ||
+|| 5.1.72 || vikkāyamāṇaṃ pasaḍhaṃ, raeṇa parifāsiyaṃ | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+In the same way: barley-flour, jujube-powder displayed in shops; sesame cakes, jaggery-paste, cooked sweets, and other such goods — if displayed openly for sale and (therefore) covered with road-dust, the monk should refuse, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **सत्तुचुण्णाइं** (sattucuṇṇāiṃ) = barley-flour (sattu)
+- **कोलचुण्णाइं** (kolacuṇṇāiṃ) = jujube/ber-powder
+- **आवणे** (āvaṇe) = in the shop / market-stall
+- **सक्कुलिं** (sakkuliṃ) = sesame cakes (til-paapdi)
+- **फाणियं** (phāṇiyaṃ) = jaggery / molasses
+- **पूयं** (pūyaṃ) = sweet fried cakes
+- **अण्णं वावि तहाविहं** (aṇṇaṃ vāvi tahāvihaṃ) = or any other such food
+- **विक्कायमाणं** (vikkāyamāṇaṃ) = being displayed for sale
+- **पसढं** (pasaḍhaṃ) = openly arranged
+- **रएण परिफासियं** (raeṇa parifāsiyaṃ) = covered with (road-)dust
+- **दिंतियं पडियाइक्खे** (diṃtiyaṃ paḍiyāikkhe) = should refuse the giver
+- **ण मे कप्पइ तारिसं** (ṇa me kappai tārisaṃ) = "such (food) is not permissible for me"
+
+### 5. COMMENTARY
+
+The monk does not normally take food from a shopkeeper at his sale-counter. Why? Because the food displayed openly for sale collects road-dust (full of earth-beings, and on which insects crawl), and customers' constant handling makes it neither pure nor traceable in origin. Furthermore, accepting from a shopkeeper risks lowering the monk's reputation — he may appear to be diverting goods meant for paying customers. The principle of begging from family kitchens, not market-stalls, is preserved.
+
+### 6. SIMPLY PUT
+
+The monk must refuse food displayed openly in shops for sale — it is dust-covered and not the same as fresh family cooking.
+
+### 7. CONTEMPLATE
+
+What "displayed and dust-covered" things do you accept simply because they are easy to take?
+
+---
+
+## SUTRA 5.1.73-74 — Refusing Food with Too Much Discardable Material
+
+### 1. PRAKRIT TEXT
+
+बहुअट्ठियं पुग्गलं अणिमिसं वा बहुकंटयं ।
+अत्थियं तिंदुयं बिल्लं उच्छुखंडं व सिंबलिं ॥५.१.७३॥
+
+अप्पे सिया भोयणजाए, बहुउज्झियधम्मिए ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.७४॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.73 || bahuaṭṭhiyaṃ puggalaṃ aṇimisaṃ vā bahukaṃṭayaṃ | atthiyaṃ tiṃduyaṃ billaṃ ucchukhaṃḍaṃ va siṃbaliṃ ||
+|| 5.1.74 || appe siyā bhoyaṇajāe, bahuujjhiyadhammie | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(Such items as): meat full of bones, pineapple full of thorns, the bony fruit of the tinduka tree, the bel-fruit, sugarcane pieces, the flowers/seeds of the silk-cotton tree — if the edible portion is little and the discardable portion is much, the monk should refuse, saying: "Such (food) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **बहुअट्ठियं पुग्गलं** (bahuaṭṭhiyaṃ puggalaṃ) = a "lump" with many bones (i.e., meat with bones — Jain monks are vegetarian, but this listing covers what may be presented; the bones themselves represent inedible mass)
+- **अणिमिसं** (aṇimisaṃ) = pineapple (or by some readings: a non-fish-like substance with many thorns)
+- **बहुकंटयं** (bahukaṃṭayaṃ) = with many thorns/pits
+- **अत्थियं तिंदुयं** (atthiyaṃ tiṃduyaṃ) = the bony fruit of the tinduka (ebony) tree
+- **बिल्लं** (billaṃ) = bel-fruit (wood-apple)
+- **उच्छुखंडं** (ucchukhaṃḍaṃ) = sugarcane pieces
+- **सिंबलिं** (siṃbaliṃ) = silk-cotton tree fruit/seed
+- **अप्पे** (appe) = little
+- **भोयणजाए** (bhoyaṇajāe) = of the edible part
+- **बहुउज्झियधम्मिए** (bahuujjhiyadhammie) = of which much must be discarded ("ujjhita" = discarded; "dhamma" = nature)
+- **दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं** = should refuse: "such food is not permissible for me"
+
+### 5. COMMENTARY
+
+This is the **bahu-ujjhita-dharma dosha** — the "much-must-be-discarded fault." If the proportion of inedible material (bones, thorns, pits, husks) is high relative to the edible portion, the monk refuses for two reasons: (1) the discarded material has to be thrown somewhere, where insects will gather and where the monk's discarding itself causes harm; (2) the discarded material may attract crawling beings. So the food is not "clean" food.
+
+### 6. SIMPLY PUT
+
+If a food item has very little to eat and a lot to throw away (like bel-fruit, sugarcane bits with much fibre, fruits with big pits), the monk should refuse — because the discards cause more harm.
+
+### 7. CONTEMPLATE
+
+What do you accept that creates more waste than nourishment?
+
+---
+
+## SUTRA 5.1.75 — Examining Wash-Water (Dhovan)
+
+### 1. PRAKRIT TEXT
+
+तहेवुच्चावयं पाणं, अदुवा वारधोयणं ।
+संसेइमं चाउलोदगं, अहुणाधोयं विवज्जए ॥५.१.७५॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.75 ||
+tahevuccāvayaṃ pāṇaṃ, aduvā vāradhoyaṇaṃ |
+saṃseimaṃ cāulodagaṃ, ahuṇādhoyaṃ vivajjae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+In the same way, water (offered in various qualities) — including water used to wash a vessel, water used to wash boiled vegetables, water used to wash uncooked rice — if just freshly washed (still containing living water-beings), the monk should refuse it.
+
+### 4. ANVAYARTHA
+
+- **उच्चावयं** (uccāvayaṃ) = of high or low (quality) — varying kinds
+- **पाणं** (pāṇaṃ) = water
+- **वारधोयणं** (vāradhoyaṇaṃ) = water used to wash a vessel
+- **संसेइमं** (saṃseimaṃ) = water used to wash boiled vegetables
+- **चाउलोदगं** (cāulodagaṃ) = water used to wash (uncooked) rice
+- **अहुणाधोयं** (ahuṇādhoyaṃ) = freshly washed (just now)
+- **विवज्जए** (vivajjae) = should refuse
+
+### 5. COMMENTARY
+
+Jain monks traditionally drink only "dhovan" — the water used for washing utensils or vegetables in the household. The reason is subtle: such water is no longer fresh sachitta water (since it has been used and "spent") but it is still potable. *However* — and this is the key — if it has been *just now* poured (still freshly drawn from the tap or well), it contains living water-beings and is impermissible. Only after some time has passed (so that, by traditional understanding, the water-beings have died and the water is achitta) may it be accepted. The next two verses elaborate.
+
+### 6. SIMPLY PUT
+
+The monk should refuse water that has just been freshly drawn — even if it's only wash-water — because it still contains living water-beings.
+
+### 7. CONTEMPLATE
+
+What "fresh" things do you grasp at without considering whether they are ready to be received?
+
+---
+
+## SUTRA 5.1.76 — Inquire About How Long Ago the Water Was Drawn
+
+### 1. PRAKRIT TEXT
+
+जं जाणेज्ज चिराधोयं, मईए दंसणेण वा ।
+पडिपुच्छिऊण सुच्चा वा, जं च णिस्संकियं भवे ॥५.१.७६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.76 ||
+jaṃ jāṇejja cirādhoyaṃ, maīe daṃsaṇeṇa vā |
+paḍipucchiūṇa succā vā, jaṃ ca ṇissaṃkiyaṃ bhave ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If the monk knows by his own discernment, by direct observation, or by inquiring of the householder and hearing the answer, that the water has been drawn long ago — and his mind is fully free of doubt — then (he may accept it).
+
+### 4. ANVAYARTHA
+
+- **जं** (jaṃ) = which (water)
+- **चिराधोयं** (cirādhoyaṃ) = washed / drawn long ago
+- **मईए** (maīe) = by (one's own) intelligence / discernment
+- **दंसणेण वा** (daṃsaṇeṇa vā) = or by direct observation
+- **पडिपुच्छिऊण** (paḍipucchiūṇa) = by inquiring (of the householder)
+- **सुच्चा वा** (succā vā) = or by hearing (the answer)
+- **जाणेज्ज** (jāṇejja) = (the monk) should know
+- **जं च णिस्संकियं भवे** (jaṃ ca ṇissaṃkiyaṃ bhave) = and (his mind) becomes fully free of doubt
+
+### 5. COMMENTARY
+
+The monk's three means of verification: his own judgment (does the water look fresh or has it been sitting?); his own direct observation (did he see it being drawn?); and inquiring of the householder. If after all three the monk is certain the water was drawn long enough ago to be lifeless, he may accept it.
+
+### 6. SIMPLY PUT
+
+The monk should determine — by judgment, by looking, or by asking — whether the water was drawn long ago, and accept it only if he is fully sure.
+
+### 7. CONTEMPLATE
+
+What do you accept on appearance alone, when one careful question would have revealed the truth?
+
+---
+
+## SUTRA 5.1.77 — Knowing It Is Lifeless, Accept; If In Doubt, Taste
+
+### 1. PRAKRIT TEXT
+
+अजीवं परिणयं णच्चा, पडिगाहेज्ज संजए ।
+अह संकियं भवेज्जा, आसाइत्ताण रोयए ॥५.१.७७॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.77 ||
+ajīvaṃ pariṇayaṃ ṇaccā, paḍigāhejja saṃjae |
+aha saṃkiyaṃ bhavejjā, āsāittāṇa royae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Knowing the water to have become lifeless, the restrained monk may accept it; but if doubt arises, he should taste a little and decide.
+
+### 4. ANVAYARTHA
+
+- **अजीवं परिणयं** (ajīvaṃ pariṇayaṃ) = transformed into lifeless (achitta) state
+- **णच्चा** (ṇaccā) = knowing
+- **पडिगाहेज्ज संजए** (paḍigāhejja saṃjae) = the restrained monk should accept
+- **अह** (aha) = but
+- **संकियं भवेज्जा** (saṃkiyaṃ bhavejjā) = if doubt should arise
+- **आसाइत्ताण रोयए** (āsāittāṇa royae) = should taste and decide / examine
+
+### 5. COMMENTARY
+
+If the monk is certain the water is now lifeless, he accepts. If doubt remains even after observation and inquiry, he is permitted a taste-test: living water has its own taste; spent dhovan has another. By tasting a small amount, he can determine whether the water is fit for the body (drinkable, thirst-quenching) and free of lingering doubt.
+
+### 6. SIMPLY PUT
+
+If the monk is sure the water is now lifeless, he may accept it; if uncertain, he is allowed to taste a little to check.
+
+### 7. CONTEMPLATE
+
+When in doubt, do you taste before you commit — or do you commit and then deal with doubt?
+
+---
+
+## SUTRA 5.1.78-79 — Asking for a Taste, and Refusing What Is Sour or Bitter
+
+### 1. PRAKRIT TEXT
+
+थोवमासायणट्ठाए, हत्थगम्मि दलाहि मे ।
+मा मे अच्चंबिलं पूयं, णालं तिण्हं विणित्तए ॥५.१.७८॥
+
+तं च अच्चंबिलं पूयं, णालं तिण्हं विणित्तए ।
+दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं ॥५.१.७९॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.78 || thovamāsāyaṇaṭṭhāe, hatthagammi dalāhi me | mā me accaṃbilaṃ pūyaṃ, ṇālaṃ tiṇhaṃ viṇittae ||
+|| 5.1.79 || taṃ ca accaṃbilaṃ pūyaṃ, ṇālaṃ tiṇhaṃ viṇittae | diṃtiyaṃ paḍiyāikkhe, ṇa me kappai tārisaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(The monk says:) "Pour a little into my hand for tasting, so that I may judge — lest the water be too sour or too foul (in which case) it cannot quench my thirst."
+
+If, on tasting, the water is found to be too sour or foul such that it cannot quench thirst, the monk should refuse the giver, saying: "Such (water) is not permissible for me."
+
+### 4. ANVAYARTHA
+
+- **थोवमासायणट्ठाए** (thovamāsāyaṇaṭṭhāe) = for the purpose of a small taste-test
+- **हत्थगम्मि** (hatthagammi) = in (my) hand
+- **दलाहि मे** (dalāhi me) = please give to me
+- **मा मे अच्चंबिलं पूयं** (mā me accaṃbilaṃ pūyaṃ) = let it not be too sour, too foul, too bitter for me
+- **णालं तिण्हं विणित्तए** (ṇālaṃ tiṇhaṃ viṇittae) = unable to quench my thirst
+- **दिंतियं पडियाइक्खे, ण मे कप्पइ तारिसं** = should refuse: "such (water) is not permissible for me"
+
+### 5. COMMENTARY
+
+These two verses give the practical procedure for the taste-test of verse 77. The monk politely says: "Please pour a little into my hand so I may taste — I want to know whether this water can quench my thirst." If on tasting the water is found to be excessively sour, fermented, foul, or bitter (such water existed in many traditional forms — fermented rice-wash, vegetable-wash with souring, etc.), the monk refuses. Why? Because such water cannot serve its purpose (quenching thirst), so accepting it serves no genuine bodily need; and the monk does not accept what serves no purpose.
+
+### 6. SIMPLY PUT
+
+The monk asks: "Pour a little in my hand to taste — I need to know if this will actually quench my thirst." If it tastes too sour or foul to drink, he politely refuses.
+
+### 7. CONTEMPLATE
+
+What do you accept that you cannot actually use — and why do you accept it anyway?
+
+---
+
+## SUTRA 5.1.80 — Mistakenly Accepted, Yet Not Drunk Nor Given Away
+
+### 1. PRAKRIT TEXT
+
+तं च होज्ज अकामेणं, विमणेणं पडिच्छियं ।
+तं अप्पणा ण पिबे, णो वि अण्णस्स दावए ॥५.१.८०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.80 ||
+taṃ ca hojja akāmeṇaṃ, vimaṇeṇaṃ paḍicchiyaṃ |
+taṃ appaṇā ṇa pibe, ṇo vi aṇṇassa dāvae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+If such (improper water) has been accidentally accepted — without intent, in absent-mindedness — the monk should neither drink it himself nor give it to another (monk) to drink.
+
+### 4. ANVAYARTHA
+
+- **तं च** (taṃ ca) = and that (improper water)
+- **अकामेणं** (akāmeṇaṃ) = unwillingly, without intention
+- **विमणेणं** (vimaṇeṇaṃ) = absent-mindedly, without attention
+- **पडिच्छियं** (paḍicchiyaṃ) = (was) accepted
+- **अप्पणा ण पिबे** (appaṇā ṇa pibe) = should not drink it himself
+- **णो वि अण्णस्स दावए** (ṇo vi aṇṇassa dāvae) = nor give it to another (monk) to drink
+
+### 5. COMMENTARY
+
+If the monk, by lapse of attention, has actually accepted impermissible water (or food), he must not compound the error by drinking it (causing more harm to himself, his discipline) or by passing it to another monk (which would spread the error). The next verse explains what to do with such accidentally-accepted water.
+
+### 6. SIMPLY PUT
+
+If the monk has accidentally accepted improper water without paying attention, he should not drink it himself or pass it to another monk.
+
+### 7. CONTEMPLATE
+
+When you realise too late that something was a mistake, do you compound it by acting on it — or do you stop and undo?
+
+---
+
+## SUTRA 5.1.81 — Disposing of Accidentally Accepted Water
+
+### 1. PRAKRIT TEXT
+
+एगंतमवक्कमित्ता, अचित्तं पडिलेहिया ।
+जयं परिट्ठवेज्जा, परिट्ठप्प पडिक्कमे ॥५.१.८१॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 5.1.81 ||
+egaṃtamavakkamittā, acittaṃ paḍilehiyā |
+jayaṃ pariṭṭhavejjā, pariṭṭhappa paḍikkame ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Going to a solitary place, having inspected a lifeless spot (free of living beings), with care he should set down (the water there); and after setting it down, he should perform the pratikramana (atonement-formula) for the careless walking involved.
+
+### 4. ANVAYARTHA
+
+- **एगंतमवक्कमित्ता** (egaṃtamavakkamittā) = going to a solitary place
+- **अचित्तं पडिलेहिया** (acittaṃ paḍilehiyā) = having inspected a lifeless / non-living place
+- **जयं** (jayaṃ) = with care, with vigilance
+- **परिट्ठवेज्जा** (pariṭṭhavejjā) = should set down / pour out
+- **परिट्ठप्प** (pariṭṭhappa) = having set it down
+- **पडिक्कमे** (paḍikkame) = should perform pratikramana (the atonement-formula for the irya-samiti / careless walking)
+
+### 5. COMMENTARY
+
+The disposal of accidentally-accepted improper water is itself a careful spiritual act. The monk goes alone to a solitary spot, inspects it carefully to confirm it is lifeless (no creatures, no plants, no living surfaces), then with full awareness pours out the water there. Then he performs the *iryapathika pratikramana* — the formal atonement for any unintended harm caused by his walking to and from that spot. The principle: even error must be corrected through ritual and inner attention; nothing is glossed over.
+
+### 6. SIMPLY PUT
+
+The monk should take the water to a clean, lonely spot with no living things, pour it out carefully, and then perform the prescribed atonement for any harm caused by his walk there.
+
+### 7. CONTEMPLATE
+
+When you make a mistake, do you carry the correction all the way through — or do you only do half?
+
+---

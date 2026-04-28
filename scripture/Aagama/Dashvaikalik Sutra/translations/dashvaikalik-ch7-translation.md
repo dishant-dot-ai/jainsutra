@@ -1648,3 +1648,521 @@ When you give business advice you have no stake in, what part of you is borrowin
 
 ---
 
+## SUTRA 7.46 — When Speech About Trade is Necessary, Speak Without Endorsement
+
+### 1. PRAKRIT TEXT
+
+अप्पग्घे वा महग्घे वा, कए वा विक्कए वि वा ।
+पणियट्ठे समुप्पण्णे, अणवज्जं वियागरे ॥७.४६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.46 ||
+appagghe vā mahagghe vā, kae vā vikkae vi vā |
+paṇiyaṭṭhe samuppaṇṇe, aṇavajjaṃ viyāgare ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+In matters of low-priced or high-priced (goods), buying or selling — when (specific) commercial necessity arises, (the monk) should speak (only) sinless (descriptive) words.
+
+### 4. ANVAYARTHA
+
+- **अप्पग्घे** = of low value
+- **महग्घे वा** = or of high value
+- **कए वा विक्कए वि वा** = in buying or in selling
+- **पणियट्ठे समुप्पण्णे** = when a particular need has arisen regarding commodities
+- **अणवज्जं वियागरे** = should speak (only) sinless / blameless (words)
+
+### 5. COMMENTARY
+
+A practical concession: there are circumstances where a monk may need to *describe* a transaction (for instance, when explaining a dharmic point about wealth, or in the limited domain of monastic alms-economics). In such cases, the monk speaks descriptively — "this is low-priced," "this is high-priced," "this was bought," "this was sold" — without adding the evaluative endorsement forbidden in 7.45. The line: factual reference is permitted; commercial recommendation is not.
+
+### 6. SIMPLY PUT
+
+If the monk genuinely must mention a transaction, he may describe it neutrally — "this is cheap," "this is expensive," "this was bought," "this was sold" — without saying it was "good" or "bad."
+
+### 7. CONTEMPLATE
+
+The same fact can be reported or recommended. The monk reports.
+
+---
+
+## SUTRA 7.47 — Do Not Issue Commands to Householders
+
+### 1. PRAKRIT TEXT
+
+तहेवासंजय धीरो, आस एहि करेहि वा ।
+सयं चिट्ठ वयाहि त्ति, णेवं भासिज्ज पण्णवं ॥७.४७॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.47 ||
+tahevāsaṃjaya dhīro, āsa ehi karehi vā |
+sayaṃ ciṭṭha vayāhi tti, ṇevaṃ bhāsijja paṇṇavaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Likewise, the steadfast wise (monk) should not say to an unrestrained (householder): "sit here," "come here," "do this," "lie down," "stand," "go (there)."
+
+### 4. ANVAYARTHA
+
+- **असंजय** (asaṃjaya) = the unrestrained one — i.e., a householder (who has not taken monastic vows)
+- **धीरो** = the steadfast (monk)
+- **आस** = "sit (here)"
+- **एहि** = "come (here)"
+- **करेहि वा** = "do this"
+- **सयं** = "lie down"
+- **चिट्ठ** = "stand"
+- **वयाहि त्ति** = "go (to such-and-such place)"
+- **णेवं भासिज्ज पण्णवं** = the wise monk should not so speak
+
+### 5. COMMENTARY
+
+This sutra extends the monk's discipline to the *imperative mood* itself. To command the householder — "sit," "come," "do," "go" — is to enter into the householder's domain of activity. The householder's actions are governed by *asanyam* (lack of restraint) and inevitably involve subtle violence; for the monk to direct those actions is to become karmically responsible for them, even if the householder's act was already going to happen.
+
+The Gujarati commentary suggests permissible alternatives: rather than "sit here," say "you may sit nearby if you wish, no need to stand"; rather than "come back later," say "we are at our alms-time now, please come at a more convenient hour for both of us." The principle: the monk does not command — he describes circumstances and lets the householder choose.
+
+### 6. SIMPLY PUT
+
+The monk must not order householders: "sit here," "come here," "do this," "lie down," "stand," "go there." Such commanding speech makes the monk responsible for the household activity.
+
+### 7. CONTEMPLATE
+
+The imperative mood is a form of authority. Where do you exercise it without realising it has consequences?
+
+---
+
+## SUTRA 7.48 — Do Not Call the Unworthy "Sadhu"
+
+### 1. PRAKRIT TEXT
+
+बहवे इमे असाहू, लोए वुच्चंति साहुणो ।
+ण लवे असाहुं साहुत्ति, साहुं साहुत्ति आलवे ॥७.४८॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.48 ||
+bahave ime asāhū, loe vuccaṃti sāhuṇo |
+ṇa lave asāhuṃ sāhutti, sāhuṃ sāhutti ālave ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Many in this world who are not (true) sadhus are called sadhus. (The monk) should not call a non-sadhu "sadhu"; he should call a (true) sadhu "sadhu."
+
+### 4. ANVAYARTHA
+
+- **बहवे इमे असाहू** = many in this world are not (true) sadhus
+- **लोए वुच्चंति साहुणो** = (yet they) are called "sadhus" by the world
+- **ण लवे असाहुं साहुत्ति** = (the monk) should not call the non-sadhu "sadhu"
+- **साहुं साहुत्ति आलवे** = should call the (true) sadhu "sadhu"
+
+### 5. COMMENTARY
+
+A precise teaching about religious titles. The world is loose with the word "sadhu" — applying it to anyone in robes, anyone who claims spiritual authority, anyone with a following. The monk must not be loose: to call an unworthy person "sadhu" is itself a form of falsehood (*musavaada*), because it asserts qualities that are not present. It also misleads the laity into giving devotion where devotion is not warranted, weakening the community's discrimination.
+
+The next sutra (7.49) gives the four marks by which a true sadhu is identified.
+
+### 6. SIMPLY PUT
+
+The world calls many people "sadhu" who are not really sadhus. The monk must not extend that label to the unworthy — he calls a true sadhu "sadhu" only.
+
+### 7. CONTEMPLATE
+
+How readily do you bestow titles on people who have not earned them? What does that habit cost the community?
+
+---
+
+## SUTRA 7.49 — The Four Marks of a True Sadhu
+
+### 1. PRAKRIT TEXT
+
+णाणदंसणसंपण्णं, संजमे य तवे रयं ।
+एवं गुणसमाउत्तं, संजयं साहुमालवे ॥७.४९॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.49 ||
+ṇāṇadaṃsaṇasaṃpaṇṇaṃ, saṃjame ya tave rayaṃ |
+evaṃ guṇasamāuttaṃ, saṃjayaṃ sāhumālave ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(One who is) endowed with right knowledge and right perception, and devoted to self-restraint and austerity — being thus equipped with (these four) qualities, the (true) self-restrained one — call him "sadhu."
+
+### 4. ANVAYARTHA
+
+- **णाणदंसणसंपण्णं** = endowed with samyag-jnana (right knowledge) and samyag-darshana (right perception)
+- **संजमे रयं** = devoted to samyam (self-restraint, the great vows)
+- **तवे रयं** = devoted to tapas (austerity)
+- **एवं गुणसमाउत्तं** = thus possessed of (these four) qualities
+- **संजयं** = the truly self-restrained one
+- **साहुमालवे** = (him alone) call "sadhu"
+
+### 5. COMMENTARY
+
+The four-fold criterion is precise: *samyag-jnana* + *samyag-darshana* + *samyam* + *tapas*. This is the classical definition of the path to liberation (the same four named in the *Tattvartha Sutra*'s *samyag-darshana-jnana-charitra-tapasi marga*). Where these four are present, "sadhu" is a true name; where they are absent, "sadhu" is a lie.
+
+The commentary notes a subtlety: the monk's discipline is more strict toward Jain monks (who must be evaluated by these four qualities) than toward non-Jain ascetics (where conventional forms of address may apply, since the monk is not bound to recognize Jain vows in non-Jain contexts). But within the Jain order, no slack is permitted. A Jain monk who neglects loch (hair-pulling), pratikraman (daily confession), restricted travel, or proper monastic dress, has crossed the line and should not be called sadhu — silence is the right response in such cases.
+
+### 6. SIMPLY PUT
+
+A true sadhu has four marks: right knowledge, right perception, devotion to self-restraint, and devotion to austerity. Call only such a one "sadhu."
+
+### 7. CONTEMPLATE
+
+When you call someone by an honorific, are you naming what they are — or what you wish they were?
+
+---
+
+## SUTRA 7.50 — Do Not Predict Outcomes of Wars
+
+### 1. PRAKRIT TEXT
+
+देवाणं मणुयाणं च, तिरियाणं च वुग्गहे ।
+अमुगाणं जओ होउ, मा वा होउ त्ति णो वए ॥७.५०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.50 ||
+devāṇaṃ maṇuyāṇaṃ ca, tiriyāṇaṃ ca vuggahe |
+amugāṇaṃ jao hou, mā vā hou tti ṇo vae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+In conflicts among gods, humans, or animals — "may such-and-such party win," "may such-and-such party not win" — (the monk) should not say so.
+
+### 4. ANVAYARTHA
+
+- **देवाणं मणुयाणं च तिरियाणं च** = of gods, humans, and animals
+- **वुग्गहे** = in conflict / battle / war
+- **अमुगाणं जओ होउ** = "may victory be to such-and-such (party)"
+- **मा वा होउ त्ति** = "or may it not be"
+- **णो वए** = should not say
+
+### 5. COMMENTARY
+
+Wars and conflicts are sites of enormous violence. To wish either side victory is to endorse the violence on that side; to wish either side defeat is to endorse the violence done to them. The monk's tongue stays out of partisan conflict entirely. Beyond that, predicting outcomes is forbidden by the same logic as 7.6-7.10: only the omniscient knows who will win. To predict and be wrong is to lose credibility for the dharma; to predict and be right is to nourish the speaker's pride and the laity's superstition.
+
+### 6. SIMPLY PUT
+
+In any conflict — among gods, humans, or animals — the monk must not say "may this side win" or "may this side lose." No partisan or predictive speech.
+
+### 7. CONTEMPLATE
+
+How much of your speech-energy is invested in cheering on one side of a fight that has nothing to do with your liberation?
+
+---
+
+## SUTRA 7.51 — Do Not Predict Weather, Health, or Prosperity
+
+### 1. PRAKRIT TEXT
+
+वाओ वुटुं च सीउण्हं, खेमं धायं सिवं ति वा ।
+कयाणु हुज्ज एयाणि, मा वा होउ त्ति णो वए ॥७.५१॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.51 ||
+vāo vuṭuṃ ca sīuṇhaṃ, khemaṃ dhāyaṃ sivaṃ ti vā |
+kayāṇu hujja eyāṇi, mā vā hou tti ṇo vae ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+"When will (favourable) wind, rain, cool, heat, peace, abundant harvest, prosperity arise?" or "may they not arise" — (the monk) should not say so.
+
+### 4. ANVAYARTHA
+
+- **वाओ** = wind
+- **वुटुं** = rain
+- **सीउण्हं** = cold or heat
+- **खेमं** = peace / safety / freedom from troubles
+- **धायं** = abundance of food / good harvest
+- **सिवं** = absence of disease / auspicious well-being
+- **कयाणु हुज्ज एयाणि** = "when will these come about?"
+- **मा वा होउ त्ति** = "or may they not come about"
+- **णो वए** = should not say
+
+### 5. COMMENTARY
+
+The monk does not predict weather, public health, harvest, or general welfare. The reason is twofold: (1) such predictions are speculative — only the omniscient knows; if the prediction proves false, the layperson loses faith in the monk and in the dharma; (2) such talk is *useless prattle* (*nirarthak pravartan*) — speaking of natural phenomena does not change them, and the speaker accumulates either complacency (if right) or shame (if wrong) without spiritual gain. The monk's silence on such matters preserves both his dignity and his focus.
+
+### 6. SIMPLY PUT
+
+The monk must not predict or wish about weather, public health, harvests, peace, or prosperity — neither "may these come" nor "may these not come."
+
+### 7. CONTEMPLATE
+
+How much of your conversation is about things you cannot influence and cannot predict?
+
+---
+
+## SUTRA 7.52 — Do Not Deify Clouds, Sky, or People
+
+### 1. PRAKRIT TEXT
+
+तहेव मेहं व नहं व माणवं, ण देव देव त्ति गिरं वएज्जा ।
+संमुच्छिए उण्णए वा पओए, वएज्ज वा वुट्टे बलाहए त्ति ॥७.५२॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.52 ||
+taheva mehaṃ va nahaṃ va māṇavaṃ, ṇa deva deva tti giraṃ vaejjā |
+saṃmucchie uṇṇae vā paoe, vaejja vā vuṭṭe balāhae tti ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Likewise, of a cloud, the sky, or a (great) human, the monk should not utter speech (calling them) "god, god." (Of a cloud one) may say "the cloud has gathered," "it has risen high," or "this cloud-mass has rained."
+
+### 4. ANVAYARTHA
+
+- **मेहं** = a cloud
+- **नहं** = the sky
+- **माणवं** = a (notable) human
+- **ण देव देव त्ति** = should not call "god, god"
+- **गिरं वएज्जा** = should not utter such speech
+- **संमुच्छिए** = "(the cloud) has gathered / become dense"
+- **उण्णए वा** = "or has risen high"
+- **पओए** = the cloud-mass
+- **वुट्टे बलाहए त्ति** = "this cloud has rained"
+
+### 5. COMMENTARY
+
+A precise theological teaching. Ordinary religion deifies natural phenomena — clouds become rain-gods, sky becomes sky-god, charismatic people become incarnations. Jain doctrine refuses all such deification: clouds are pudgala (matter), the sky is ajiva-dravya (a non-living substance), and even the most miraculous human is still a samsari jiva bound to embodiment. To call any of them "god" is *mithyatva* (false belief) and *musavaada* (falsehood) at once.
+
+The monk speaks of clouds in their actual physics: gathered, risen, raining. The wonder remains; the false reverence is removed.
+
+### 6. SIMPLY PUT
+
+The monk must not call a cloud, the sky, or any extraordinary human "god." Of a cloud, he may simply say "it has gathered," "it has risen high," "this cloud has rained."
+
+### 7. CONTEMPLATE
+
+The reverence we offer to weather and to charismatic people — what is it really seeking?
+
+---
+
+## SUTRA 7.53 — Permitted Speech About Sky and Powerful People
+
+### 1. PRAKRIT TEXT
+
+अंतलिक्खे त्ति णं बूया, गुज्झाणुचरियत्ति य ।
+रिद्धिमंतं णरं दिस्स, रिद्धिमंतं ति आलवे ॥७.५३॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.53 ||
+aṃtalikkhe tti ṇaṃ būyā, gujjhāṇucariyatti ya |
+riddhimaṃtaṃ ṇaraṃ dissa, riddhimaṃtaṃ ti ālave ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(Of the sky) one should say "antariksha" or "the path traversed by the celestials"; seeing a person of (worldly) prosperity, one should say "(this is) a prosperous person."
+
+### 4. ANVAYARTHA
+
+- **अंतलिक्खे त्ति णं बूया** = should call (the sky) "antariksha" (atmosphere / mid-region)
+- **गुज्झाणुचरिय त्ति** = "the path traversed by the unseen (devas)"
+- **रिद्धिमंतं णरं दिस्स** = seeing a wealthy / endowed person
+- **रिद्धिमंतं ति आलवे** = should call him "wealthy / endowed"
+
+### 5. COMMENTARY
+
+The neutral, non-deifying vocabulary. The sky is *antariksha* — the in-between space — or "the path by which the unseen devas travel" (a poetic but factually neutral description). The wealthy or powerful person is *riddhimanta* — "endowed with worldly prosperity" — a description of *what they have*, not a deification of *what they are*. The monk preserves accuracy and refuses inflation simultaneously.
+
+### 6. SIMPLY PUT
+
+The monk may call the sky "antariksha" or "the path the devas travel"; a wealthy person, simply "wealthy / endowed."
+
+### 7. CONTEMPLATE
+
+To name accurately is to refuse both worship and contempt. Where do your words lean toward one or the other?
+
+---
+
+## SUTRA 7.54 — Closing Instruction: Avoid All Sin-Endorsing or Wounding Speech
+
+### 1. PRAKRIT TEXT
+
+तहेव सावज्जणुमोयणी गिरा, ओहारिणी जा य परोवघाइणी ।
+से कोह लोह भयसा व माणवो, ण हासमाणो वि गिरं वइज्जा ॥७.५४॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.54 ||
+taheva sāvajjaṇumoyaṇī girā, ohāriṇī jā ya parovaghāiṇī |
+se koha loha bhayasā va māṇavo, ṇa hāsamāṇo vi giraṃ vaijjā ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Likewise, the speech that endorses sin, that asserts certainty (where there is none), that injures another being — the (wise) man should not utter it under (the influence of) anger, greed, fear, or pride; not even while jesting.
+
+### 4. ANVAYARTHA
+
+- **सावज्जणुमोयणी गिरा** = speech that endorses sinful activity
+- **ओहारिणी** = speech that asserts certainty (where it should not)
+- **जा य परोवघाइणी** = and that which injures other beings
+- **से माणवो** = he, the wise man (the monk)
+- **कोह लोह भयसा व माणवो** = under anger, greed, fear, or pride
+- **हासमाणो वि** = even while jesting / for fun
+- **गिरं ण वइज्जा** = should not utter (such) speech
+
+### 5. COMMENTARY
+
+This is the great summary verse. Three categories of speech are banned in absolute terms: (1) *savadya-anumodani* — that which endorses sin; (2) *avadharini / oharini* — that which asserts unwarranted certainty; (3) *parovaghatini* — that which wounds others. And four inner states are named as the roots from which such speech most often springs: krodha (anger), lobha (greed), bhaya (fear), mana (pride). Plus a fifth — *hasamana* (jest, joking) — which the monk often imagines is harmless but which is included here because even in jest, sin-endorsing or wounding speech accumulates karma.
+
+### 6. SIMPLY PUT
+
+The monk must never utter speech that endorses sin, asserts false certainty, or wounds others — not under anger, greed, fear, pride, or even in jest.
+
+### 7. CONTEMPLATE
+
+"I was only joking" is one of the most common cover-stories for harmful speech. What hides under your jests?
+
+---
+
+## SUTRA 7.55 — The Reward of Pure Speech
+
+### 1. PRAKRIT TEXT
+
+सुवक्कसुद्धिं समुपेहिया मुणी, गिरं च दुट्ठं परिवज्जए सया ।
+मियं अदुट्ठं अणुवीइ भासए, सयाण मज्झे लहइ पसंसणं ॥७.५५॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.55 ||
+suvakkasuddhiṃ samupehiyā muṇī, giraṃ ca duṭṭhaṃ parivajjae sayā |
+miyaṃ aduṭṭhaṃ aṇuvīi bhāsae, sayāṇa majjhe lahai pasaṃsaṇaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The monk who has well examined the purification of well-spoken words, who always avoids corrupted speech, who speaks measured (limited), uncorrupted speech with due reflection — finds praise among the company of the noble.
+
+### 4. ANVAYARTHA
+
+- **सुवक्कसुद्धिं** = the purification of well-spoken words (the entire teaching of this chapter)
+- **समुपेहिया** = having well examined / contemplated
+- **मुणी** = the monk
+- **गिरं च दुट्ठं परिवज्जए सया** = should always avoid corrupted (faulty) speech
+- **मियं** = measured, limited, restrained
+- **अदुट्ठं** = uncorrupted
+- **अणुवीइ** = with due reflection
+- **भासए** = speaks
+- **सयाण मज्झे** = in the midst of the noble (sat-purushas)
+- **लहइ पसंसणं** = obtains praise
+
+### 5. COMMENTARY
+
+The first of three closing summary verses. The monk who has actually internalized the chapter's teaching — who has examined the purity of his own speech, who consistently rejects faulty utterance, and who speaks only measured, uncorrupted, well-considered words — receives the natural reward: praise among the noble. This is not mere social standing; it is the recognition by the spiritually mature that this monk has achieved one of the rarest of disciplines. To be praised by the wise is itself a confirmation that the path is bearing fruit.
+
+### 6. SIMPLY PUT
+
+The monk who studies the purity of speech, avoids faulty speech, and speaks only measured, clean, well-considered words — earns praise among the truly noble.
+
+### 7. CONTEMPLATE
+
+The opinion of the wise about your speech is a more accurate mirror than the opinion of the crowd. Whose praise are you actually seeking?
+
+---
+
+## SUTRA 7.56 — The Discipline of the Six Restraints
+
+### 1. PRAKRIT TEXT
+
+भासाइ दोसे य गुणे य जाणिया, तीसे य दुट्ठे परिवज्जए सया ।
+छसु संजए सामणिए सया जए, वएज्ज बुद्धे हियमणुलोमियं ॥७.५६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.56 ||
+bhāsāi dose ya guṇe ya jāṇiyā, tīse ya duṭṭhe parivajjae sayā |
+chasu saṃjae sāmaṇie sayā jae, vaejja buddhe hiyamaṇulomiyaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Knowing well the faults and virtues of speech, always rejecting its corruptions, restrained in the (protection of) the six (kinds of life-bodies), always vigilant in the monastic state — the awakened (monk) should speak that which is beneficial and pleasing (to all beings).
+
+### 4. ANVAYARTHA
+
+- **भासाइ दोसे य गुणे य जाणिया** = having known well the faults and virtues of speech
+- **तीसे य दुट्ठे परिवज्जए सया** = always rejecting its corrupted forms
+- **छसु संजए** = restrained / careful in (the protection of) the six (kinds of life-bodies — earth, water, fire, air, plant, mobile)
+- **सामणिए सया जए** = always vigilant in the monastic state (sramanya)
+- **बुद्धे** = the awakened
+- **हियमणुलोमियं वएज्ज** = should speak that which is beneficial and pleasing / agreeable
+
+### 5. COMMENTARY
+
+The second summary verse expands the principle to the full monastic life. Speech-purity is not an isolated discipline; it sits inside *chasu samjae* (the six-fold restraint, protecting the six kinds of jivas) and *samaniye saya jae* (constant vigilance in the monastic state). The monk who has all three layers — knowing faults and virtues of speech, rejecting all faulty speech, and being constantly restrained in the larger monastic discipline — is qualified to speak. And what he speaks is *hita* (beneficial) and *anulomik* (agreeable, in harmony with the listener) — words that genuinely help and that fall pleasingly on the ear.
+
+### 6. SIMPLY PUT
+
+The awakened monk — knowing speech's faults and virtues, always avoiding corrupted speech, restrained toward all six kinds of beings, vigilant in monastic life — should speak only what is beneficial and agreeable to all.
+
+### 7. CONTEMPLATE
+
+Beneficial *and* agreeable. Most speech achieves at most one. What discipline is required to achieve both?
+
+---
+
+## SUTRA 7.57 — Closing Verse: The Fruit of the Discipline (||ti bemi||)
+
+### 1. PRAKRIT TEXT
+
+परिक्खभासी सुसमाहिइंदिए, चउक्कसायावगए अणिस्सए ।
+स णिद्धुणे धुण्णमलं पुरेकडं, आराहए लोगमिणं तहा परं ॥
+॥त्ति बेमि॥ ॥७.५७॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 7.57 ||
+parikkhabhāsī susamāhiiṃdie, cauakkasāyāvagae aṇissae |
+sa ṇiddhuṇe dhuṇṇamalaṃ purekaḍaṃ, ārāhae logamiṇaṃ tahā paraṃ ||
+|| ti bemi ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The (monk) who speaks only after examination, whose senses are well-controlled, who has overcome the four passions (anger, pride, deceit, greed), who is unattached — he shakes off the karmic dust accumulated from previous (deeds), and accomplishes (the welfare of) this world and the next. — Thus do I declare.
+
+### 4. ANVAYARTHA
+
+- **परिक्खभासी** = one who speaks only after examination (parikshapurvak)
+- **सुसमाहिइंदिए** = with senses well-controlled (susamahit-indriya)
+- **चउक्कसायावगए** = having gone beyond the four kashayas (anger, pride, deceit, greed)
+- **अणिस्सए** = unattached, without (worldly) support
+- **स** = he, that monk
+- **णिद्धुणे** = shakes off
+- **धुण्णमलं पुरेकडं** = the karmic-dust accumulated from previous deeds (purvarjit / shakeable karma-mala)
+- **आराहए** = accomplishes / wins / fulfils
+- **लोगमिणं तहा परं** = (the welfare of) this world and the next
+- **त्ति बेमि** = "Thus I declare" — the standard concluding formula spoken by Sudharma Swami to his disciple Jambu Swami, by which he certifies that what he has just transmitted is the very teaching of Bhagavan Mahavira
+
+### 5. COMMENTARY
+
+The closing verse names four qualities that, taken together, complete the discipline of speech: (1) *parikshabhashi* — speaks only after careful examination; (2) *susamahit-indriya* — has all five senses under control; (3) *chatur-kashaya-apagata* — has overcome anger, pride, deceit, and greed; (4) *anissaya* — is unattached, free of worldly support and dependence. When these four are present, the monk's speech itself becomes a force of purification: it shakes off the accumulated karma-dust of past deeds, and accomplishes welfare in both this world and the next.
+
+The closing **ti bemi** ("thus I declare") is the canonical signature of Sudharma Swami, the fifth Gandhara of Bhagavan Mahavira. Through him the teaching reached his disciple Jambu Swami, and from there to all subsequent ages. The phrase certifies that this entire chapter is not the composition of the editor but the direct teaching of the Tirthankara.
+
+The chapter's deepest message: pure speech is not a mere social courtesy or even a moral discipline — it is a karma-shaking practice. Every sentence the monk would have spoken in fault is a karmic bond that does not form; every sentence spoken in care is a small act of liberation. The fruit, named here as *loga imanam taha param* ("this world and the next"), is the sequence of progressively purer rebirths that culminates in the final liberation.
+
+### 6. SIMPLY PUT
+
+The monk who speaks only after careful thought, whose senses are calm, who has conquered the four inner passions, and who is free from worldly attachment — shakes off the karmic dust of his past deeds, and wins the welfare of this life and the next. Thus I declare.
+
+### 7. CONTEMPLATE
+
+Speech is karma in motion. Every sentence either binds or releases. Which way does yours move today?
+
+---
+
+## END OF ADHYAYAN 7
+
+॥ અધ્યયન-૭ સંપૂર્ણ ॥
+*(Adhyayan-7 sampurna — "Adhyayan 7 is complete.")*
+
+The chapter closes with Sudharma's signature **ti bemi**. What began as a fourfold classification of language has unfolded into a complete science of monastic speech: when to speak and when to be silent, how to address persons of both sexes, how to describe trees and crops and rivers and animals without endorsing the violence done to them, how to refuse the language of commerce and command, how to deflate the false deification of natural phenomena and powerful humans, and finally how to recognise the speech-purity that wins praise among the noble and shakes off the karma of past lives.
+
+The next chapter — Adhyayan 8, *Achara-pranidhi* — turns from speech-purity to the larger field of monastic conduct: protection of the six life-bodies, discipline over senses and sleep, conquest of the kashayas, and the various aids the monk needs to convert the body itself into a vehicle of liberation.
+
+Jai Jinendra 🙏
+
+

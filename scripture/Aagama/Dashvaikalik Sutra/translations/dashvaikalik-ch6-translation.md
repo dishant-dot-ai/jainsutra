@@ -1555,4 +1555,656 @@ What "small allowance" do you make at the moment of choosing — and what discip
 
 ---
 
+## SUTRA 6.48 — Refuse the Forbidden in All Four Categories; Accept the Permissible
+
+### 1. PRAKRIT TEXT
+
+पिंडं सेज्जं च वत्थं च, चउत्थं पायमेव य ।
+अकप्पियं ण इच्छिज्जा, पडिगाहिज्ज कप्पियं ॥६.४८॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.48 ||
+piṃḍaṃ sejjaṃ ca vatthaṃ ca, cauttaṃ pāyameva ya |
+akappiyaṃ ṇa icchijjā, paḍigāhijja kappiyaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Food, lodging, cloth, and fourth — the bowl: whatever is forbidden, one should not desire; whatever is permissible, one should accept.
+
+### 4. ANVAYARTHA
+
+- **पिंडं** (piṃḍaṃ) = food (the alms-piṇḍa)
+- **सेज्जं** (sejjaṃ) = lodging / sleeping place (śayyā — also includes the upāśraya, the temporary dwelling)
+- **वत्थं च** (vatthaṃ ca) = and clothing
+- **चउत्थं पायमेव य** (cauttaṃ pāyameva ya) = and the fourth, namely, the bowl (pātra)
+- **अकप्पियं** (akappiyaṃ) = the forbidden (akalpya)
+- **ण इच्छिज्जा** (ṇa icchijjā) = (one) should not desire
+- **पडिगाहिज्ज** (paḍigāhijja) = (one) should accept (pratigṛhṇīyāt)
+- **कप्पियं** (kappiyaṃ) = the permissible (kalpya)
+
+### 5. COMMENTARY
+
+This gatha extends the akalpya principle from food alone to the four categories of items the monk receives from householders: *piṇḍa* (food), *śayyā* (lodging), *vastra* (cloth), and *pātra* (bowl). For each of the four, what is offered may be either *kalpya* (fit for monks — meeting all the rules of acceptance) or *akalpya* (unfit — falling under any of the doshas). The discipline is uniform: refuse the forbidden, accept the permissible.
+
+The principle is one of *active discrimination* at every interaction with the lay community. The monk does not accept whatever is offered out of politeness; he does not refuse whatever is offered out of austerity; he discriminates. He examines what is offered against the rules he has taken, and accepts only what passes. This careful inspection is itself a form of restraint — it trains the discriminating faculty (*viveka*) and protects against the slow erosion of the discipline through "small acceptances."
+
+The four categories define the entire material support of the monastic life. Beyond food, lodging, cloth, and bowl, the monk needs nothing. To keep the discipline of *kalpya*-only at all four points is to keep the monkhood entirely. To slip even at one — to accept a fancier robe, a softer place to sleep, a special-purpose vessel — is to begin the slide.
+
+### 6. SIMPLY PUT
+
+For all four things a monk receives — food, place to stay, cloth, and bowl — refuse whatever is forbidden by the rules, and accept only what is permitted.
+
+### 7. CONTEMPLATE
+
+When something is offered to you, do you ask "is this fit for what I am committed to?" — or do you simply accept because refusing feels awkward?
+
+---
+
+## SUTRA 6.49–6.50 — The Four Doshas of Forbidden Food: Why They Implicate the Monk in Killing
+
+### 1. PRAKRIT TEXT
+
+जे णियागं ममायंति, कीयमुद्देसियाहडं ।
+वहं ते समणुजाणंति, इइ वुत्तं महेसिणा ॥६.४९॥
+
+तम्हा असणपाणाइं, कीयमुद्देसियाहडं ।
+वज्जयंति ठियप्पाणो, निग्गंथा धम्मजीविणो ॥६.५०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.49 ||
+je ṇiyāgaṃ mamāyaṃti, kīyamuddesiyāhaḍaṃ |
+vahaṃ te samaṇujāṇaṃti, ii vuttaṃ mahesiṇā ||
+
+|| 6.50 ||
+tamhā asaṇapāṇāiṃ, kīyamuddesiyāhaḍaṃ |
+vajjayaṃti ṭhiyappāṇo, niggaṃthā dhammajīviṇo ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Those (monks) who take as their own the perpetually-invited food, the bought food, the food prepared specifically for them, and the food brought from afar to them — they (in effect) approve of the killing (involved); thus has it been declared by the great seer. Therefore, the steady-souled Nirgranthas, who live by dharma, completely renounce food, drink, and the like that is perpetually-invited, bought, prepared specifically, or brought from afar.
+
+### 4. ANVAYARTHA
+
+- **णियागं** (ṇiyāgaṃ) = perpetually invited (nityāmantrita) — food where the householder has issued a standing daily invitation
+- **ममायंति** (mamāyaṃti) = (they) take as one's own / accept with mine-feeling
+- **कीयं** (kīyaṃ) = bought (krīta) — purchased specifically for the monk
+- **उद्देसियं** (uddesiyaṃ) = prepared with the monk in mind (audeśika) — specifically intended for the monk
+- **आहडं** (āhaḍaṃ) = brought (ābhṛta) — brought from afar / brought to the monk
+- **वहं** (vahaṃ) = killing, slaughter (vadha)
+- **समणुजाणंति** (samaṇujāṇaṃti) = (they) approve, consent to (samanujñā)
+- **इइ वुत्तं महेसिणा** (ii vuttaṃ mahesiṇā) = thus declared by the great seer (Mahavira)
+- **तम्हा** (tamhā) = therefore
+- **असणपाणाइं** (asaṇapāṇāiṃ) = food, drink, etc. (the four categories)
+- **वज्जयंति** (vajjayaṃti) = (they) renounce
+- **ठियप्पाणो** (ṭhiyappāṇo) = those whose souls are steady (sthitātman)
+- **निग्गंथा** (niggaṃthā) = the Nirgranthas
+- **धम्मजीविणो** (dhammajīviṇo) = those who live by dharma (dharma-jīvin)
+
+### 5. COMMENTARY
+
+These two gathas name the four most serious doshas of food acceptance and explain why even *taking* such food makes the monk a participant in violence. The four are: (1) *nityāmantrita / niyāga* — the food of a standing daily invitation, where the householder cooks every day specifically expecting the monk; (2) *krīta* — food purchased specifically to give to the monk; (3) *audeśika* — food prepared specifically with the monk in mind, even without being sold; (4) *ābhṛta* — food brought from a distant kitchen specifically for the monk.
+
+The reasoning is given in the third line of 6.49: *vahaṃ te samaṇujāṇaṃti* — "they approve of the killing." How does the monk who merely accepts the food *approve of killing*? Because the cooking process always involves harm — to water-bodies, fire-bodies, plant-bodies, and the small mobile beings caught up in the kitchen. When food is cooked for the householder's own purpose, the harm is already done independently of the monk; the monk neither caused nor approved it. But when the food is cooked *for the monk* — by standing invitation, by purchase, by specific intention, by special transport — the monk becomes the *cause* of the cooking, and accepting the food is the silent *approval* of the violence performed for his sake. The first karana is closed (the monk did not kill); but the second (causing) and third (approving) are violated.
+
+This is one of the most precise ethical analyses in Jain literature. The vow of non-violence is broken not only by direct killing but by *being the reason* for killing — even at second remove. The monk's discipline therefore shapes the householder's behaviour from a distance: the monk refuses any food cooked for him, and in so doing keeps the householder from initiating violence on his behalf. The whole begging-system — taking only what was already cooked for the family — is structured precisely to protect against this complicity.
+
+### 6. SIMPLY PUT
+
+If a monk takes food that was specially invited, bought, cooked, or brought from afar just for him, he is silently approving the killing involved in preparing it. So the steady-souled Nirgranthas who truly live by dharma refuse all such food and drink.
+
+### 7. CONTEMPLATE
+
+In your own life, where do you benefit from harm done specifically for your sake — and how does silent acceptance make you part of it?
+
+---
+
+## SUTRA 6.51–6.53 — Fourteenth Station: Renunciation of the Householder's Vessels
+
+### 1. PRAKRIT TEXT
+
+कंसेसु कंसपाएसु, कुंडमोएसु वा पुणो ।
+भुंजंतो असणपाणाइं, आयारा परिभस्सइ ॥६.५१॥
+
+सीओदगसमारंभे, मत्तधोयणछड्डणे ।
+जाइं छण्णंति भूयाइं, दिट्ठो तत्थ असंजमो ॥६.५२॥
+
+पच्छाकम्मं पुरेकम्मं, सिया तत्थ ण कप्पइ ।
+एयमट्ठं ण भुंजंति, णिग्गंथा गिहिभायणे ॥६.५३॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.51 ||
+kaṃsesu kaṃsapāesu, kuṃḍamoesu vā puṇo |
+bhuṃjaṃto asaṇapāṇāiṃ, āyārā paribhassai ||
+
+|| 6.52 ||
+sīodagasamāraṃbhe, mattadhoyaṇachaḍḍaṇe |
+jāiṃ chaṇṇaṃti bhūyāiṃ, diṭṭho tattha asaṃjamo ||
+
+|| 6.53 ||
+pacchākammaṃ purekammaṃ, siyā tattha ṇa kappai |
+eyamaṭṭhaṃ ṇa bhuṃjaṃti, ṇiggaṃthā gihibhāyaṇe ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+One who eats food, drink, and the like in the householder's bell-metal vessels, bell-metal plates, or large bowls falls from the (monastic) discipline. In the violent disturbance of cold (live) water, in the throwing-out of the rinsing-water, the living beings that get destroyed — there the lack of restraint is plainly seen. After-action (washing the vessel after the monk eats) and before-action (washing the vessel before serving the monk) might occur — these are not permissible; for this very reason, the Nirgranthas do not eat from the householder's vessels.
+
+### 4. ANVAYARTHA
+
+- **कंसेसु** (kaṃsesu) = in bell-metal vessels (kaṃsa — bronze / bell-metal bowls)
+- **कंसपाएसु** (kaṃsapāesu) = in bell-metal plates
+- **कुंडमोएसु** (kuṃḍamoesu) = in large bowls / pitchers (kuṇḍa — large vessels of various shapes; the commentary notes the meaning shifts with region and era — earthenware, clay, large metal pots)
+- **वा पुणो** (vā puṇo) = or again
+- **भुंजंतो** (bhuṃjaṃto) = (one) eating
+- **असणपाणाइं** (asaṇapāṇāiṃ) = food, drink, etc.
+- **आयारा परिभस्सइ** (āyārā paribhassai) = falls from (his) conduct (ācāra)
+- **सीओदग** (sīodaga) = cold water (i.e., raw, unboiled, still-living water)
+- **समारंभे** (samāraṃbhe) = in the violent activity (of using it)
+- **मत्तधोयणछड्डणे** (mattadhoyaṇachaḍḍaṇe) = in throwing out the rinsing-water of the vessel (matta = vessel; dhoyaṇa = rinsing; chaḍḍaṇa = throwing out)
+- **जाइं छण्णंति भूयाइं** (jāiṃ chaṇṇaṃti bhūyāiṃ) = the living beings that are crushed / destroyed
+- **दिट्ठो तत्थ असंजमो** (diṭṭho tattha asaṃjamo) = there the absence of restraint is clearly seen
+- **पच्छाकम्मं** (pacchākammaṃ) = after-action (paścāt-karma) — the householder washing the vessel *after* the monk has eaten from it (which would involve harm to water-bodies)
+- **पुरेकम्मं** (purekammaṃ) = before-action (puraḥ-karma) — the householder washing the vessel *before* serving the monk (likewise)
+- **सिया तत्थ ण कप्पइ** (siyā tattha ṇa kappai) = these (might occur and) are not permissible
+- **एयमट्ठं** (eyamaṭṭhaṃ) = for this reason (etadartham)
+- **गिहिभायणे** (gihibhāyaṇe) = in / from the householder's vessel
+
+### 5. COMMENTARY
+
+The fourteenth sthana addresses why the monk does not eat from the householder's plates and vessels. The reasoning, given in three gathas, has two strands: the violation of the discipline of monastic identity (*saṃyama-virādhanā*) and the violation of life (*jīva-virādhanā*).
+
+First, *saṃyama-virādhanā*. The monk's distinct dress, distinct equipment, and distinct manner of eating from his own permitted bowl maintain his self-identity as a monk. When he sits at the householder's table and eats from the householder's polished bell-metal plate, the visual and behavioural distinction collapses. Both the monk and any onlookers begin to lose the sense that he is a *monk*. The whole structure of monastic identity — kept in place by visible difference — quietly erodes. Other householders watching may also begin to doubt his monkhood. The teaching's reputation suffers.
+
+Second, *jīva-virādhanā* — the harm to life. The householder's vessel must be washed. If washed *before* serving the monk (*purekarma*), the washing involves the use of water-bodied beings — done specifically for the monk, which makes him the cause. If washed *after* the monk eats (*paścātkarma*), the same harm occurs, again caused by the monk's having used the vessel. Even the rinsing-water thrown out kills beings on the ground where it falls. The monk's own bowl, by contrast, is wiped clean (not water-washed) and used only by him; no harm to water-bodies is required. The discipline of using only the permitted bowl is therefore the discipline of leaving water-bodied beings undisturbed.
+
+### 6. SIMPLY PUT
+
+If a monk eats from the householder's bronze plates, bowls, or large vessels, he loses his monastic discipline. The water used to wash those vessels — before or after he eats — kills tiny water-creatures, and the harm is caused by the monk's act. So the monks never eat from the householder's vessels; they use only their own permitted bowls.
+
+### 7. CONTEMPLATE
+
+What ordinary conveniences in your life are kept clean and ready for you only by causing harm you never see?
+
+---
+
+## SUTRA 6.54–6.56 — Fifteenth Station: Renunciation of Couches, Beds, and Cushioned Seats
+
+### 1. PRAKRIT TEXT
+
+आसंदीपलियंकेसु, मंचमासालएसु वा ।
+अणायरियमज्जाणं, आसइत्तु सइत्तु वा ॥६.५४॥
+
+णासंदीपलियंकेसु, ण णिसिज्जा ण पीढए ।
+णिग्गंथा (अ)पडिलेहाए, बुद्धवुत्तमहिट्ठगा ॥६.५५॥
+
+गंभीरविजया एए, पाणा दुप्पडिलेहगा ।
+आसंदी पलियंका य, एयमट्ठं विवज्जिया ॥६.५६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.54 ||
+āsaṃdīpaliyaṃkesu, maṃcamāsālaesu vā |
+aṇāyariyamajjāṇaṃ, āsaittu saittu vā ||
+
+|| 6.55 ||
+ṇāsaṃdīpaliyaṃkesu, ṇa ṇisijjā ṇa pīḍhae |
+ṇiggaṃthā (a)paḍilehāe, buddhavuttamahiṭṭhagā ||
+
+|| 6.56 ||
+gaṃbhīravijayā ee, pāṇā duppaḍilehagā |
+āsaṃdī paliyaṃkā ya, eyamaṭṭhaṃ vivajjiyā ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+For (these) noble monks, to sit or to sleep upon small cot-stools, large couches (palaṃka), bedsteads (mañca), or cane easy-chairs (māsālaka) is unbecoming. The Nirgranthas — who follow the words of the awakened ones, who keep the discipline of (re-)inspection (pratilekhanā) — do not (sit) on these cot-stools and couches, nor on (cushioned) sitting-mats, nor on stools. These (seats) have deep cavities; the small living beings within them cannot be properly inspected; for this reason, cot-stools and large couches are renounced.
+
+### 4. ANVAYARTHA
+
+- **आसंदी** (āsaṃdī) = a small cot / stool (āsandī)
+- **पलियंकेसु** (paliyaṃkesu) = on the large couch / bedstead with sides (palyaṃka)
+- **मंच** (maṃca) = the simple bedstead
+- **मासालएसु** (māsālaesu) = the cane / wicker easy-chair (māśālaka)
+- **अणायरियमज्जाणं** (aṇāyariyamajjāṇaṃ) = of the noble monks (āryā mendicants), it is unbecoming / not to be practised (anācaraṇīya)
+- **आसइत्तु सइत्तु वा** (āsaittu saittu vā) = to sit or to sleep
+- **पडिलेहाए** (paḍilehāe) = (with the discipline of) inspection (pratilekhanā — careful examination of any place / cloth before sitting / using, to remove or protect any living being)
+- **बुद्धवुत्तमहिट्ठगा** (buddhavuttamahiṭṭhagā) = those who follow / abide by the words of the awakened ones
+- **गंभीरविजया** (gaṃbhīravijayā) = (having) deep cavities / hollow places (gambhīra-vijayā — with deep gaps and holes)
+- **पाणा दुप्पडिलेहगा** (pāṇā duppaḍilehagā) = the (small) living beings (within them) are difficult to inspect (duṣ-pratilekhya)
+- **एयमट्ठं विवज्जिया** (eyamaṭṭhaṃ vivajjiyā) = for this reason, renounced
+
+### 5. COMMENTARY
+
+The fifteenth sthana addresses the furniture on which the monk does not sit or sleep. The reason given is precise and characteristic of Jain practice: such furniture has deep cavities, hollow joints, and unseen interiors in which small living beings (insects, mites, eggs) take shelter. These cannot be properly inspected (*pratilekhanā*) before use, and so sitting or sleeping on them necessarily involves the crushing of unseen lives. The first vow of non-violence is therefore the operative reason — though there is a second reason as well, hinted at in the commentary: such cushioned, comfortable furniture induces *pramāda* (negligence, drowsiness), which is the cardinal vice of the spiritual life.
+
+The Jain practice of *pratilekhanā* — the careful examination, by hand and eye, of every cloth, every place, every utensil before its use — is one of the most distinctive features of monastic life. The monk inspects his robe before putting it on, his sitting-place before sitting, his sleeping-mat before lying down, his bowl before eating from it. The purpose: to find and protect any living being that might be present. Furniture that cannot be inspected — because of its construction, its joints, its inaccessible interior — fails this requirement and is therefore avoided.
+
+The commentary notes that an exception (*apavāda mārga*) exists. If, for some reason of dharma — visiting a royal household, etc. — the monk must sit on such furniture, it can be done after careful inspection. But the general rule (*utsarga mārga*) is to avoid all such seats. The monk sits on a swept floor, on his own simple cloth (the *paṭṭa*), or on a wooden plank (*pāṭa*) with a thin sheet — all of which can be inspected fully and offer no hiding-place to small life.
+
+### 6. SIMPLY PUT
+
+The monks do not sit or sleep on small cots, large couches, bedsteads, or cushioned chairs — because such furniture has hollow places where tiny creatures hide and cannot be checked. Following the awakened ones, the monks who maintain careful inspection avoid all such seats.
+
+### 7. CONTEMPLATE
+
+What spaces in your own life are too cluttered or too soft to allow you to *see* what truly lives within them?
+
+---
+
+## SUTRA 6.57–6.60 — Sixteenth Station: Not Sitting in the Householder's Home
+
+### 1. PRAKRIT TEXT
+
+गोयरग्गपविट्ठस्स, णिसिज्जा जस्स कप्पइ ।
+इमेरिसमणायारं, आवज्जइ अबोहियं ॥६.५७॥
+
+विवत्ती बंभचेरस्स, पाणाणं च वहे वहो ।
+वणीमगपडिग्घाओ, पडिकोहो अगारिणं ॥६.५८॥
+
+अगुत्ती बंभचेरस्स, इत्थिओ यावि संकणं ।
+कुसीलवड्ढणं ठाणं, दूरओ परिवज्जए ॥६.५९॥
+
+तिण्हमण्णयरागस्स, णिसिज्जा जस्स कप्पइ ।
+जराए अभिभूयस्स, वाहियस्स तवस्सिणो ॥६.६०॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.57 ||
+goyaraggapaviṭṭhassa, ṇisijjā jassa kappai |
+imerisamaṇāyāraṃ, āvajjai abohiyaṃ ||
+
+|| 6.58 ||
+vivattī baṃbhacerassa, pāṇāṇaṃ ca vahe vaho |
+vaṇīmagapaḍigghāo, paḍikoho agāriṇaṃ ||
+
+|| 6.59 ||
+aguttī baṃbhacerassa, itthio yāvi saṃkaṇaṃ |
+kusīlavaḍḍhaṇaṃ ṭhāṇaṃ, dūrao parivajjae ||
+
+|| 6.60 ||
+tiṇhamaṇṇayarāgassa, ṇisijjā jassa kappai |
+jarāe abhibhūyassa, vāhiyassa tavassiṇo ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+For one who has entered the begging-round, sitting (in the householder's home) is permissible — only (in special cases). Otherwise (the monk who sits there) attracts these unbecoming faults that bring forth ignorance: failure of celibacy; killing of living beings; the cutting-off of (other) beggars; the anger of the householders. (Sitting there causes) the un-guardedness of celibacy, the suspicion of women, a place that increases bad conduct — flee it from a far distance. Of (only) one of three (kinds of monks) is sitting there permissible: of one overcome by old age, of one diseased, and of one (great) ascetic (whose long austerity prevents normal walking).
+
+### 4. ANVAYARTHA
+
+- **गोयरग्गपविट्ठस्स** (goyaraggapaviṭṭhassa) = of one who has entered for the begging-round (gocarāgra-praviṣṭa)
+- **णिसिज्जा जस्स कप्पइ** (ṇisijjā jassa kappai) = for whom (in special cases) sitting is permissible
+- **इमेरिसं** (imerisaṃ) = these such-described
+- **अणायारं** (aṇāyāraṃ) = unbecoming (an-ācāra) faults
+- **आवज्जइ** (āvajjai) = (he) attracts / falls into
+- **अबोहियं** (abohiyaṃ) = bringing forth ignorance / non-realization (a-bodhi-phala-da)
+- **विवत्ती बंभचेरस्स** (vivattī baṃbhacerassa) = the failure (vipatti) of celibacy
+- **पाणाणं च वहे वहो** (pāṇāṇaṃ ca vahe vaho) = the killing (vadha) of living beings (and through it, the killing of restraint)
+- **वणीमगपडिग्घाओ** (vaṇīmagapaḍigghāo) = the obstruction / cutting-off (pratighāta) of (other) beggars (vaṇīmaga — beggars / vagrant alms-seekers; if the monk sits, the householder will turn other beggars away)
+- **पडिकोहो अगारिणं** (paḍikoho agāriṇaṃ) = (cause for) the anger (pratikrodha) of the householders (agārin — those of the home)
+- **अगुत्ती** (aguttī) = un-guardedness (a-gupti)
+- **इत्थिओ यावि संकणं** (itthio yāvi saṃkaṇaṃ) = and the suspicion (śaṅkana) of women (regarding their own modesty, or of the women themselves regarding the monk's character)
+- **कुसीलवड्ढणं ठाणं** (kusīlavaḍḍhaṇaṃ ṭhāṇaṃ) = a place that increases bad conduct (kuśīla-vardhana-sthāna)
+- **दूरओ परिवज्जए** (dūrao parivajjae) = (one) should renounce from a great distance
+- **तिण्हमण्णयरागस्स** (tiṇhamaṇṇayarāgassa) = of one of three (kinds)
+- **जराए अभिभूयस्स** (jarāe abhibhūyassa) = of one overcome by old age
+- **वाहियस्स** (vāhiyassa) = of one who is diseased
+- **तवस्सिणो** (tavassiṇo) = of an ascetic (engaged in long austerities)
+
+### 5. COMMENTARY
+
+The sixteenth sthana addresses sitting in the householder's home. The general rule (*utsarga mārga*): the monk enters for the begging-round, accepts the food, and immediately leaves; no sitting, no settling. The four gathas explain why with unusual specificity, naming the faults that arise from prolonged stay.
+
+Sutra 6.58 lists four direct harms. *Failure of celibacy* — extended exposure to the women of the household, the sights, the sounds, the conversations, weakens the celibacy vow. *Killing of living beings* — the householder, embarrassed by the monk's continued presence, may prepare special food, special drinks, special arrangements, all involving harm to small life. *Cutting-off of other beggars* — the householder, occupied with the monk, turns away other alms-seekers who would otherwise have received help. *Anger of the householders* — long stays disrupt the household's routine, irritate other members, and produce resentment toward the monk and the order.
+
+Sutra 6.59 names the deeper psychological harms. The vow of celibacy needs *gupti* — guarding — and prolonged contact with the household's women creates *aguptī*, the failure of that guarding. The women themselves come under suspicion (either of misbehaviour, or of inducing it). The householder's home thus becomes a *kusīla-vardhana-sthāna* — a "place that increases bad conduct." The instruction is unequivocal: *dūrao parivajjae* — flee from it from a great distance.
+
+Sutra 6.60 then introduces the exception (*apavāda mārga*). For three kinds of monks, sitting in the householder's home is permitted: (1) the very old, (2) the sick, (3) the great ascetic worn out by long austerity. These three may, with the householder's permission, sit briefly to rest — for them the body cannot continue without it. The general rule remains for everyone else. The presence of an exception does not weaken the rule; it shows that even the rule is held within wisdom, not rigidity.
+
+### 6. SIMPLY PUT
+
+When a monk goes for alms, he should not sit down in the householder's home. Sitting there leads to four problems: weakened celibacy, harm to small lives, blocking other beggars, and angering the household. It also tempts him into bad conduct. So he should avoid such places from far away. The only exceptions: very old monks, sick monks, and monks worn out by long austerity may sit briefly with permission.
+
+### 7. CONTEMPLATE
+
+What "extended stays" do you make in places you went into for one short purpose — and what slow erosion happens because you stayed?
+
+---
+
+## SUTRA 6.61–6.63 — Seventeenth Station: Renunciation of Bathing
+
+### 1. PRAKRIT TEXT
+
+वाहिओ वा अरोगी वा, सिणाणं जो उ पत्थए ।
+वुक्कंतो होइ आयारो, जढो हवइ संजमो ॥६.६१॥
+
+संतिमे सुहुमा पाणा, घसासु भिलुगासु य ।
+जे उ भिक्खू सिणायंतो, वियडेणुप्पिलावए ॥६.६२॥
+
+तम्हा ते ण सिणायंति, सीएण उसिणेण वा ।
+जावज्जीवं वयं घोरं, असिणाणमहिट्ठगा ॥६.६३॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.61 ||
+vāhio vā arogī vā, siṇāṇaṃ jo u patthae |
+vukkaṃto hoi āyāro, jaḍho havai saṃjamo ||
+
+|| 6.62 ||
+saṃtime suhumā pāṇā, ghasāsu bhilugāsu ya |
+je u bhikkhū siṇāyaṃto, viyaḍeṇuppilāvae ||
+
+|| 6.63 ||
+tamhā te ṇa siṇāyaṃti, sīeṇa usiṇeṇa vā |
+jāvajjīvaṃ vayaṃ ghoraṃ, asiṇāṇamahiṭṭhagā ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Whoever — diseased or healthy — desires bathing: his conduct is broken; his restraint is lost. There exist these subtle living beings — in saline soil and in the cracks of the earth; the monk who bathes (with even cleansed water) sweeps them away in the (water-)flood. Therefore they (the monks) do not bathe — neither with cold nor with hot water; for as long as life lasts, they uphold the awe-inspiring vow of non-bathing.
+
+### 4. ANVAYARTHA
+
+- **वाहिओ वा अरोगी वा** (vāhio vā arogī vā) = whether diseased or healthy
+- **सिणाणं जो उ पत्थए** (siṇāṇaṃ jo u patthae) = whoever desires bathing (snāna)
+- **वुक्कंतो होइ आयारो** (vukkaṃto hoi āyāro) = the (right) conduct (ācāra) becomes broken / overstepped (vyutkrānta)
+- **जढो हवइ संजमो** (jaḍho havai saṃjamo) = restraint (saṃyama) becomes lost / abandoned
+- **संतिमे सुहुमा पाणा** (saṃtime suhumā pāṇā) = there exist these subtle living beings
+- **घसासु** (ghasāsu) = in saline / alkaline ground (with porous earth)
+- **भिलुगासु य** (bhilugāsu ya) = and in the cracks (of the earth)
+- **जे उ भिक्खू सिणायंतो** (je u bhikkhū siṇāyaṃto) = the monk who is bathing
+- **वियडेण** (viyaḍeṇa) = with cleansed (acit) water (vikṛta — water that has been boiled or otherwise made lifeless)
+- **उप्पिलावए** (uppilāvae) = sweeps them away (in the flood of bath-water)
+- **सीएण उसिणेण वा** (sīeṇa usiṇeṇa vā) = with cold (water) or with hot (water)
+- **जावज्जीवं** (jāvajjīvaṃ) = for as long as life lasts
+- **वयं घोरं** (vayaṃ ghoraṃ) = the awe-inspiring vow
+- **असिणाण** (asiṇāṇa) = non-bathing
+- **महिट्ठगा** (ahiṭṭhagā) = the upholders, the firm-keepers (adhiṣṭhātṛ)
+
+### 5. COMMENTARY
+
+The seventeenth sthana — the renunciation of bathing — strikes most modern listeners as unusual, but the reasoning is twofold and entirely consistent with the chapter's logic. First, *non-violence*: bathing with live (un-boiled) water directly kills countless water-bodied beings; even bathing with boiled (acit) water washes that water across the ground, into cracks and porous soil where countless small mobile beings dwell, and sweeps them to their death. The second gatha (6.62) makes this exact point: the porous ground and the cracks of the earth shelter subtle lives, and the bath-water flood destroys them.
+
+Second, *celibacy*: bathing is a form of bodily care that easily slides into beautification — the body becomes pleasant to itself, attractive to others, and the mind is stirred. Bathing is one of the principal *vibhuṣā* practices (the eighteenth sthana, coming next), and the seventeenth and eighteenth sthanas together build a single defence: the monk's body is to be a means of practice, not an object of beautification. Without bathing, without ornamentation, the body becomes neutral — neither despised nor pampered, simply allowed to be the vehicle of the spiritual life.
+
+Sutra 6.61 is striking: *whether diseased or healthy*. Even illness is not a ground for bathing in the monastic discipline. The vow is absolute. To bathe — even from medical reason — is to break conduct (*vukkanto āyāro*) and to lose restraint (*jaḍho saṃjamo*). The text emphasises this severity to make clear that the renunciation is total. Sutra 6.63 confirms: not with cold water, not with hot water, never — *jāvajjīvaṃ*, for the whole of life. The monks are *asiṇāṇa-ahiṭṭhagā* — "the upholders of non-bathing," a noble title for those who keep this hardest of bodily disciplines. The text accepts that this is *ghora* — awe-inspiring, severe — but precisely as one of the marks of true monkhood.
+
+Note: in the Nishitha Sutra, partial washings of hands, feet, or mouth (when stained or unclean for some practical reason) are addressed as faults of celibacy with prescribed atonements; they are not casual permissions. The general vow stands.
+
+### 6. SIMPLY PUT
+
+Whoever wants to bathe — sick or healthy — breaks the conduct and loses the restraint. There are tiny living beings hiding in the porous soil and earth-cracks; even bathing with boiled water sweeps them away to their death. So the monks never bathe — not in cold water, not in hot — and they keep this severe vow of non-bathing for life.
+
+### 7. CONTEMPLATE
+
+What bodily comforts have become so automatic that you have never asked what they cost — to your awareness, to your discipline, to the small lives around you?
+
+---
+
+## SUTRA 6.64–6.65 — Eighteenth Station: Renunciation of Bodily Ornamentation
+
+### 1. PRAKRIT TEXT
+
+सिणाणं अदुवा कक्कं, लोद्धं पउमगाणि य ।
+गायस्सुव्वट्टणट्ठाए, णायरंति कयाइ वि ॥६.६४॥
+
+णगिणस्स वावि मुंडस्स, दीहरोमणहंसिणो ।
+मेहुणाओ उवसंतस्स, किं विभूसाए कारियं ॥६.६५॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.64 ||
+siṇāṇaṃ aduvā kakkaṃ, loddhaṃ paumagāṇi ya |
+gāyassuvvaṭṭaṇaṭṭhāe, ṇāyaraṃti kayāi vi ||
+
+|| 6.65 ||
+ṇagiṇassa vāvi muṃḍassa, dīharomaṇahaṃsiṇo |
+mehuṇāo uvasaṃtassa, kiṃ vibhūsāe kāriyaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+(They use) bath-substances (perfumed cleansing pastes), or ointment-pastes (sandal-paste, fragrant pastes), or astringent-powder (loddha — a herbal cleansing-powder), or saffron-petal-powders (kuṅkuma, kesar) — for the rubbing-and-anointing of the body — never, never. Of one who is unrobed (or wears the bare minimum), shaven-headed, with long body-hair and long nails, who is utterly tranquil regarding sexual conduct — what use does he have for ornamentation?
+
+### 4. ANVAYARTHA
+
+- **सिणाणं** (siṇāṇaṃ) = bath-substance (snāna-dravya — perfumed soaps, scented bath powders)
+- **अदुवा कक्कं** (aduvā kakkaṃ) = or ointment-paste (kalka — sandalwood and other fragrant pastes)
+- **लोद्धं** (loddhaṃ) = loddha-powder (a herbal astringent cleansing powder)
+- **पउमगाणि य** (paumagāṇi ya) = and saffron-petal-powders (kuṅkuma, kesar — colourful aromatic powders)
+- **गायस्सुव्वट्टणट्ठाए** (gāyassuvvaṭṭaṇaṭṭhāe) = for the rubbing / anointing (uvvaṭṭaṇa — udvartana) of the body (gātra)
+- **णायरंति कयाइ वि** (ṇāyaraṃti kayāi vi) = (the monks) do not practise (this), ever
+- **णगिणस्स वावि** (ṇagiṇassa vāvi) = of one who is naked or barely clad (the Jinakalpi monk; or, by extension, of one who wears the bare minimum)
+- **मुंडस्स** (muṃḍassa) = of one who is shaven-headed — both literally (the monk pulls out his hair by hand at the time of initiation and periodically thereafter — *keśa-loca*) and figuratively (free of passions)
+- **दीहरोमणहंसिणो** (dīharomaṇahaṃsiṇo) = of one who has long body-hair and long nails (i.e., who does not trim them; who has no concern with bodily appearance)
+- **मेहुणाओ उवसंतस्स** (mehuṇāo uvasaṃtassa) = of one who is utterly tranquil regarding sexual conduct (mithuna-upaśānta)
+- **किं विभूसाए कारियं** (kiṃ vibhūsāe kāriyaṃ) = what use, what business, has he with ornamentation (vibhūṣā)?
+
+### 5. COMMENTARY
+
+The eighteenth and final sthana — *vibhūṣā-varjana*, the renunciation of bodily ornamentation — completes the chapter. The first gatha names the principal means of beautification that the monk must never use: perfumed bath-substances, fragrant ointment-pastes, herbal cleansing powders, saffron-petal pigments. These are the ordinary cosmetics of the day — the things householders apply to look attractive, smell pleasant, and adorn the skin. The monk uses *none of them, ever* — *kayāi vi*, the text emphasises with that double negative.
+
+The second gatha then asks the deeper question through a portrait. Picture the true monk: he wears either no robe (Jinakalpi) or the simplest of cloths; his head is shaven (or the hair pulled out by hand at the periodic *keśa-loca*); his body-hair and nails grow long because he does not trim them; he has become entirely tranquil with respect to sexual conduct. *What possible use does such a person have for ornamentation?* The body has become an instrument; appearance has lost meaning; the senses have stopped seeking attraction. Ornamentation serves a purpose only for one who still seeks to be seen, to be desired, to be admired. The monk has stepped outside that game entirely.
+
+This vow is therefore the natural completion of the celibacy vow. As long as the body is being decorated, the unconscious aim of the body is to attract — even to oneself, in the mirror. The monk who has taken the celibacy vow seriously cannot continue to decorate the body, because the decoration would itself stir the very inner movements that the celibacy vow is designed to still. The eighteenth sthana is not an arbitrary austerity; it is the body-discipline that allows the celibacy of the heart to actually take hold.
+
+### 6. SIMPLY PUT
+
+The monks never use perfumed bath powders, fragrant pastes, cleansing powders, or coloured beautifying substances on their body — never. Picture a monk: barely clothed, shaven-headed, with uncut hair and nails, completely calm about sexual matters. What possible use would such a person have for ornamentation?
+
+### 7. CONTEMPLATE
+
+How much of your daily grooming is genuine care for the body — and how much is the quiet hope of being seen?
+
+---
+
+## SUTRA 6.66 — Ornamentation Binds Sticky Karma That Drowns the Soul in Samsara
+
+### 1. PRAKRIT TEXT
+
+विभूसावत्तियं भिक्खू, कम्मं बंधइ चिक्कणं ।
+संसारसायरे घोरे, जेणं पडइ दुरुत्तरे ॥६.६६॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.66 ||
+vibhūsāvattiyaṃ bhikkhū, kammaṃ baṃdhai cikkaṇaṃ |
+saṃsārasāyare ghore, jeṇaṃ paḍai duruttare ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+A monk who acts on account of ornamentation binds sticky karma — by which he falls into the dreadful ocean of worldly existence (saṃsāra) that is exceedingly hard to cross.
+
+### 4. ANVAYARTHA
+
+- **विभूसावत्तियं** (vibhūsāvattiyaṃ) = on account of ornamentation (vibhūṣā-pratyaya)
+- **भिक्खू** (bhikkhū) = the monk
+- **कम्मं** (kammaṃ) = karma
+- **बंधइ** (baṃdhai) = binds
+- **चिक्कणं** (cikkaṇaṃ) = sticky, dense (cikkaṇa — the kind of karma that adheres tightly and is hard to remove)
+- **संसारसायरे घोरे** (saṃsārasāyare ghore) = into the dreadful ocean of worldly existence
+- **जेणं** (jeṇaṃ) = by which (karma)
+- **पडइ** (paḍai) = (he) falls
+- **दुरुत्तरे** (duruttare) = exceedingly hard to cross over (dur-uttara)
+
+### 5. COMMENTARY
+
+This gatha gives the karmic consequence of the practice that the previous two gathas forbade. The monk who acts in any way on account of ornamentation — applying it, desiring it, even mentally entertaining it — binds *cikkaṇa karma*: sticky, dense karma that adheres to the soul tightly and is exceedingly hard to dissolve. By binding such karma, the monk falls into the *ghora saṃsāra-sāgara* — the dreadful ocean of worldly existence — that is *duruttara*, hard to cross.
+
+The Jain analysis of karma distinguishes between karma that adheres lightly (and dissolves quickly) and karma that adheres densely (and persists for many lifetimes). The factor that determines stickiness is principally the *intensity of passion* with which the act is committed. Casual, unattached acts bind light karma; passionate, ego-attached acts bind sticky karma. Bodily ornamentation is by its nature an ego-amplifying act — it is precisely the cultivation of self-image, attractiveness, vanity. So the karma it binds is heavy. For a monk, who has renounced all such cultivation, the act is doubly inappropriate: it contradicts the vow at every level, and the karma it binds is among the densest the soul can accumulate. The result is a long, hard journey through saṃsāra.
+
+The teaching is severe but logically consistent with the chapter. Each of the eighteen sthanas, when violated, multiplies *durgati* — bad destinies. Ornamentation, which sits at the intersection of celibacy and possession (both deep ego-investments), produces especially heavy karmic binding. Hence the strong language: *ghora* (dreadful), *duruttara* (hard to cross). The monk who genuinely understands this has no inclination toward decoration; the inclination itself has been seen for what it is.
+
+### 6. SIMPLY PUT
+
+A monk who decorates himself binds heavy, sticky karma — and that karma drops him into a fearful ocean of worldly rebirths that is extremely hard to cross.
+
+### 7. CONTEMPLATE
+
+What sticky inner residue is left in you each time you act for the sake of being noticed?
+
+---
+
+## SUTRA 6.67 — Even the Mind That Dwells on Ornamentation Is Sinful
+
+### 1. PRAKRIT TEXT
+
+विभूसावत्तियं चेयं, बुद्धा मण्णंति तारिसं ।
+सावज्जबहुलं चेयं, णेयं ताईहिं सेवियं ॥६.६७॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.67 ||
+vibhūsāvattiyaṃ ceyaṃ, buddhā maṇṇaṃti tārisaṃ |
+sāvajjabahulaṃ ceyaṃ, ṇeyaṃ tāīhiṃ seviyaṃ ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+The very mind that turns toward ornamentation — the awakened ones consider that mind itself as such (as a producer of bondage). It too is full of sin; it is not to be cultivated by the protectors (of the six classes of life).
+
+### 4. ANVAYARTHA
+
+- **विभूसावत्तियं चेयं** (vibhūsāvattiyaṃ ceyaṃ) = the mind / state of consciousness (cetas) that arises on account of ornamentation
+- **बुद्धा** (buddhā) = the awakened ones (the Tirthankaras)
+- **मण्णंति** (maṇṇaṃti) = consider, hold
+- **तारिसं** (tārisaṃ) = like that (i.e., as a cause of bondage, like the act itself)
+- **सावज्जबहुलं** (sāvajjabahulaṃ) = full of sin (sāvadya-bahula)
+- **चेयं** (ceyaṃ) = (this) mental state (caitta)
+- **णेयं** (ṇeyaṃ) = (it is) not to be
+- **ताईहिं** (tāīhiṃ) = by the protectors (tāyī — those who protect the six classes of life)
+- **सेवियं** (seviyaṃ) = practised, cultivated
+
+### 5. COMMENTARY
+
+This gatha pushes the eighteenth sthana to its inward limit. It is not enough to refrain from the *act* of ornamentation; the very *mental movement* toward ornamentation — the inner wish, the inner imagining, the inner fascination — is itself a producer of sinful karma. The Tirthankaras hold that the *cetas*, the state of consciousness inclining toward decoration, is *as binding as the act itself*. There is no inner-outer split; the mind that wants to decorate is already binding karma, even if no decoration ever appears on the body.
+
+This is the inner deepening of every vow that the chapter has taught. The non-violence vow is not just about the act of killing but the mind that contemplates harming. The truth vow is not just about the speaking but the mind that drafts the lie. The non-stealing vow is not just about the taking but the mind that covets. The celibacy vow is not just about the act but the mind that dwells. The non-possession vow is not just about the holding but the mind that grasps. And now the ornamentation vow: not just about the application but the mind that desires the application.
+
+The phrase *ṇeyaṃ tāīhiṃ seviyaṃ* — "it is not to be cultivated by the protectors of the six classes" — closes the gatha with a beautiful identification. The monk is *tāyī* — protector. He protects all six classes of life from harm. And he protects his own inner life from the cultivation of states that bind heavy karma. The protection is total — outward and inward, of others and of self.
+
+### 6. SIMPLY PUT
+
+The Tirthankaras say: even the *mind* that turns toward decorating itself is full of sin. The monks who protect all life — must not let even their thoughts drift toward such ornamentation.
+
+### 7. CONTEMPLATE
+
+What unspoken wish — never acted on, never even named — quietly does to your inner life what the act itself would have done?
+
+---
+
+## CHAPTER CONCLUSION
+
+## SUTRA 6.68 — The Conclusion: Those Who Keep These Eighteen Burn Past Karmas, Bind No New Ones
+
+### 1. PRAKRIT TEXT
+
+खवेंति अप्पाणममोहदंसिणो, तवे रया संजम अज्जवे गुणे ।
+धुणंति पावाइं पुरे कडाइं, णवाइं पावाइं ण ते कुर्वंति ॥६.६८॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.68 ||
+khaveṃti appāṇamamohadaṃsiṇo, tave rayā saṃjama ajjave guṇe |
+dhuṇaṃti pāvāiṃ pure kaḍāiṃ, ṇavāiṃ pāvāiṃ ṇa te kurvaṃti ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Those whose vision is undeluded — absorbed in austerity, in restraint, in straightforwardness, and in (all such) qualities — wear away (the karma of) their (outer / passion-bound) self; they shake off the sinful karmas previously committed; and they do not commit new sinful karmas.
+
+### 4. ANVAYARTHA
+
+- **खवेंति** (khaveṃti) = (they) wear away, exhaust (kṣapayanti)
+- **अप्पाणं** (appāṇaṃ) = (the karma of) the (outer / passion-bound) self (ātman — here in the sense of *bahirātman*, the outward-turned, karma-stained self)
+- **अमोहदंसिणो** (amohadaṃsiṇo) = those whose vision is undeluded (amoha-darśin — possessed of right perception, free from delusion)
+- **तवे रया** (tave rayā) = absorbed in austerity (tapas)
+- **संजम** (saṃjama) = restraint
+- **अज्जवे** (ajjave) = straightforwardness (ārjava — uprightness, simplicity)
+- **गुणे** (guṇe) = (and other) qualities
+- **धुणंति** (dhuṇaṃti) = (they) shake off, dust off
+- **पावाइं पुरे कडाइं** (pāvāiṃ pure kaḍāiṃ) = the sinful karmas previously committed
+- **णवाइं पावाइं** (ṇavāiṃ pāvāiṃ) = new sinful karmas
+- **ण ते कुर्वंति** (ṇa te kurvaṃti) = (they) do not commit
+
+### 5. COMMENTARY
+
+The chapter draws to its close with two beautiful gathas of summation. This first conclusion-gatha names the inner state of the practitioner who has truly kept the eighteen sthanas. Such a one is *amoha-darśin* — undeluded in vision; free of the fundamental confusion that mistakes the body for the self, the impermanent for the permanent, the painful for the pleasurable. They are absorbed (*rata*) in the qualities that constitute the spiritual life: austerity, restraint, straightforwardness, and all the supporting virtues.
+
+The fruit of this absorption is threefold. First, *khaveṃti appāṇaṃ* — they wear away the outer self, the karma-stained personality that has carried the soul through countless births. Second, *dhuṇaṃti pāvāiṃ pure kaḍāiṃ* — they shake off, like dust shaken from a cloth, the sinful karmas they have previously committed. Third, *ṇavāiṃ pāvāiṃ ṇa te kurvaṃti* — they do not commit new sinful karmas. These three together are the complete formula of liberation: removal of past karma (*nirjarā*), prevention of new karma (*saṃvara*), and the consequent dissolution of the karma-bound self.
+
+The eighteen sthanas of conduct that the chapter has just taught are precisely the technology by which this triple result is produced. By keeping the great vows and the protections of the six classes of life, no new karma is bound (*saṃvara*). By the austerities and restraints, the past karma is burned away (*nirjarā*). And by the absorption in the resulting qualities, the outward-turned self gradually dissolves, until the pure inner self alone remains. The chapter has therefore not only described conduct; it has described the *means by which the soul becomes free*. Conduct is not an end but the technique by which the goal is reached.
+
+### 6. SIMPLY PUT
+
+Those who see clearly — without delusion — and who give themselves to austerity, restraint, and straightforwardness, slowly burn away the bad karma they did before, and never make new bad karma. That is how the soul is set free.
+
+### 7. CONTEMPLATE
+
+If your conduct alone — quiet, careful, and complete — could burn away every wrong you have ever done, would you give it the attention it deserves?
+
+---
+
+## SUTRA 6.69 — Pure as the Autumn Moon: They Reach Liberation or the Highest Heavens
+
+### 1. PRAKRIT TEXT
+
+सओवसंता अममा अकिंचणा, सविज्जविज्जाणुगया जसंसिणो ।
+उउप्पसण्णे विमलेव चंदिमा, सिद्धिं विमाणाइं उवेंति ताइणो ॥६.६९॥
+॥ त्ति बेमि ॥
+
+### 2. ROMAN TRANSLITERATION
+
+|| 6.69 ||
+saovasaṃtā amamā akiṃcaṇā, savijjavijjāṇugayā jasaṃsiṇo |
+uuppasaṇṇe vimaleva caṃdimā, siddhiṃ vimāṇāiṃ uveṃti tāiṇo ||
+|| tti bemi ||
+
+### 3. LITERAL ENGLISH TRANSLATION
+
+Those forever calmed (sadā-upaśānta), free of mine-feeling (amama), without possession (akiṃcana), accomplished in their own (self-)knowledge (sva-vidyā-anugata), of great fame (yaśasvin), the protectors (of the six classes of life) — pure as the spotless moon in the clear autumn sky — attain liberation, or (if a residue of karma remains) the celestial palaces of the heavens. Thus do I declare.
+
+### 4. ANVAYARTHA
+
+- **सओवसंता** (saovasaṃtā) = always tranquil (sadā-upaśānta)
+- **अममा** (amamā) = free of mine-feeling (a-mama — without "this is mine")
+- **अकिंचणा** (akiṃcaṇā) = without any possession (akiṃcana — owning nothing)
+- **सविज्जविज्जाणुगया** (savijjavijjāṇugayā) = accomplished in self-knowledge (sva-vidyā-anugata — possessed of, devoted to, the inner spiritual knowledge)
+- **जसंसिणो** (jasaṃsiṇo) = of great fame (yaśasvin)
+- **उउप्पसण्णे विमलेव चंदिमा** (uuppasaṇṇe vimaleva caṃdimā) = like the spotless moon in a clear (autumn) season — *prasanna ṛtu* (the autumn season, when the sky is clearest), *vimala candra* (the spotless moon)
+- **सिद्धिं** (siddhiṃ) = liberation, the state of the Siddha (perfected, bodiless, eternally free)
+- **विमाणाइं** (vimāṇāiṃ) = the celestial palaces — i.e., the heavens of the Vaimānika devas (the highest class of celestial beings)
+- **उवेंति** (uveṃti) = (they) attain
+- **ताइणो** (tāiṇo) = the protectors (of the six classes of life — the great monks)
+- **त्ति बेमि** (tti bemi) = "thus do I declare" — the traditional closing formula by which the disciple Sudharma Swami attests that what he has just spoken is exactly what he heard from Lord Mahavira
+
+### 5. COMMENTARY
+
+The chapter closes with one of the most beautiful gathas in the entire Dashvaikalik. It paints the portrait of the realised monk in nine words — and ends with a celestial image. *Saovasaṃtā* — forever tranquil; the inner storms of passion have stilled. *Amamā* — free of mine-feeling; the deepest knot of the ego has loosened. *Akiṃcaṇā* — without any possession; the outer life mirrors the inner freedom. *Savijja-vijjāṇugayā* — accomplished in self-knowledge; the inner light has been kindled and is steady. *Jasaṃsiṇo* — of great fame; the world honours such beings, though they themselves do not seek the honour.
+
+Then comes the image: *uuppasaṇṇe vimaleva caṃdimā* — like the spotless full moon in the perfectly clear autumn sky. The autumn season in the Indian calendar — *śarat ṛtu* — is the season of clearest skies; the rains have ended, the dust has settled, and the moon shines undimmed. The realised monk is exactly that — the soul, naturally luminous, has been fully revealed because every veil of karma has been removed. There is no further obscuration. The moon shines as it truly is. Nothing more needs to be added.
+
+The destination of such a monk is then named with characteristic precision: *siddhiṃ vimāṇāiṃ uveṃti* — they attain *siddhi* (final liberation, bodiless eternal freedom) or, if any residue of karma remains, the *vimāṇa* (celestial palaces of the highest heavens). Either is the fruit of the conduct described in this chapter. The closing formula *tti bemi* — "thus do I declare" — is Sudharma Swami's seal: this entire chapter is exactly what he heard from Mahavira, transmitted faithfully, without addition or subtraction. It is the signature of authenticity that closes the great account of conduct.
+
+### 6. SIMPLY PUT
+
+Those who keep this conduct become forever calm, with no "mine," no possessions, full of self-knowledge, and held in the highest honour — they shine like the perfect moon in a clear autumn sky. Such monks attain final liberation; or, if some karma remains, they are reborn in the highest celestial palaces. Thus do I declare.
+
+### 7. CONTEMPLATE
+
+If the moon in the clear autumn sky is what your soul truly looks like beneath all its coverings — what coverings are you willing, today, to begin removing?
+
+---
+
+## END OF ADHYAYAN 6
+
+॥ અધ્યયન-૬ સંપૂર્ણ ॥
+*(Adhyayan-6 sampurna — "Adhyayan 6 is complete.")*
+
+The sixth adhyayan of the Dashvaikalik Sutra closes here. The eighteen sthanas of conduct have been laid out one by one — from the foundational five great vows and the renunciation of night-eating, through the protection of the six classes of life, to the six practical disciplines that shape the texture of monastic life. Together they describe the conduct that the Tirthankaras have called *bhima* (awe-inspiring) and *duradhiṣṭhita* (exceedingly hard to undertake), but also unmatched in any other tradition past or future.
+
+The closing two gathas have shown the fruit of this conduct: the wearing-away of past karmas, the prevention of new karmas, and the eventual attainment of liberation — or, at the least, the highest celestial heavens. The conduct described is not an ascetic harshness but the exact technology by which the soul is freed.
+
+What follows in the next adhyayan — the *Suvākyaśuddhi* (Purity of Speech) — turns from conduct in general to one particular and crucial dimension of conduct: the speech that issues from the practitioner's mouth. The vow of truth has already been taken; now its subtle application in every sentence of daily life is to be unfolded.
+
+Jai Jinendra 🙏
+
+
+
 
