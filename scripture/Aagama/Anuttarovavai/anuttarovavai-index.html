@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Anuttarovavai Sutra — The Ninth Anga | JainSutra.org</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#755b00",
+              "on-primary": "#ffffff",
+              "primary-container": "#c9a84c",
+              "on-primary-container": "#503d00",
+              "surface": "#fef9f1",
+              "on-surface": "#1d1c17",
+              "surface-variant": "#e7e2da",
+              "on-surface-variant": "#4d4637",
+              "outline": "#7e7665",
+              "outline-variant": "#d0c5b2",
+              "secondary": "#625d59",
+              "secondary-container": "#e6ded9",
+              "on-secondary-container": "#67625e",
+              "surface-container-low": "#f8f3eb",
+              "surface-container": "#f2ede5",
+              "surface-container-high": "#ece8e0",
+            },
+            fontFamily: {
+              "headline": ["Noto Serif", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+    <style>html { scroll-behavior: smooth; }
+
+      .burnished-gradient { background: linear-gradient(135deg, #e6c364, #755b00); }
+      .mesh-bg { background-color: #f8f7f6; background-image: radial-gradient(#C9A84C15 1px, transparent 1px); background-size: 40px 40px; }
+      .index-card { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid transparent; }
+      .index-card:hover { transform: translateY(-4px); background-color: #f2ede5; border-color: rgba(201,168,76,0.2); }
+      .index-card.unavailable { opacity: 0.5; pointer-events: none; filter: grayscale(1); }
+
+      .nav-button {
+        position: fixed;
+        bottom: 24px;
+        z-index: 100;
+        background: #ffffff;
+        border: 1px solid #C9A84C;
+        color: #755b00;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+      }
+      .nav-button.visible {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+      .nav-button:hover { border-color: #C9A84C; color: #503d00; }
+
+      #search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+      .search-section-label { padding:8px 16px 4px; font-family:'Inter',sans-serif; font-size:9px; text-transform:uppercase; letter-spacing:0.12em; color:#C9A84C; font-weight:700; border-top:1px solid #f0ebe3; }
+      .search-section-label:first-child { border-top:none; }
+      .search-result-item { display:flex; align-items:baseline; gap:10px; padding:9px 16px; text-decoration:none; cursor:pointer; border:none; background:none; width:100%; text-align:left; transition:background 0.15s; }
+      .search-result-item:hover { background:#fef9f1; }
+      .search-result-num { font-family:'Noto Serif',serif; font-size:11px; color:#C9A84C; font-weight:700; flex-shrink:0; }
+      .search-result-title { font-family:'Inter',sans-serif; font-size:12px; color:#1d1c17; line-height:1.4; }
+      .search-no-results { padding:16px; color:#7e7665; font-family:'Inter',sans-serif; font-size:12px; text-align:center; }
+
+      .glass-nav { background: rgba(248, 247, 246, 0.85); backdrop-filter: blur(20px); }
+
+    #main-nav a { text-decoration: none; }
+    .nav-link { text-decoration: none; }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container bg-[#f8f7f6]">
+
+<!-- TopNavBar -->
+<nav id="main-nav" class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10">
+    <div class="flex justify-between items-center px-12 py-5 max-w-screen-2xl mx-auto">
+        <div class="flex items-center gap-12">
+            <a href="../../../index-v4.html#hero"><span class="nav-logo text-2xl font-headline text-primary tracking-tighter font-bold transition-colors duration-500">JainSutra.org</span></a>
+            <div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+                <a class="nav-link text-on-surface/80 hover:text-primary transition-colors duration-300" href="../../../fundamentals/meditations.html">Meditations</a>
+                <a class="nav-link text-primary font-bold transition-colors duration-300" href="../sacred-sutras-index.html">Sacred Sutras</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-8">
+            <div class="relative group hidden lg:block">
+                <span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+                <input id="search-input" class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" placeholder="Explore Wisdom..." type="text"/>
+                <div id="search-dropdown"></div>
+            </div>
+            <a href="../../../fundamentals/donate-v4.html" class="burnished-gradient text-on-primary px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+        </div>
+    </div>
+</nav>
+
+<main class="pt-40">
+    <!-- Hero Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 mb-32">
+        <div class="max-w-4xl">
+            <span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Anuttarovavai Sutra</span>
+            <h1 class="text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter mt-4">
+                The Ninth Anga <span class="block text-primary font-normal text-3xl md:text-4xl mt-2">(અનુત્તરોવવાઈ સૂત્ર)</span>
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-headline italic font-normal text-on-surface-variant mt-6 leading-snug">
+                Thirty-three souls who reached the highest realm reachable from human birth.
+            </h2>
+            <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 mt-8 font-light">
+                The Anuttaropapātika Daśā — &ldquo;the decads of those reborn in the heavens beyond which nothing is higher&rdquo; — is the ninth Anga of the Jain canon. It records the lives of thirty-three great souls whose monastic discipline was so pure that, at the close of their human lives, they ascended directly into the five highest celestial realms: <span class="italic">Vijaya, Vaijayanta, Jayanta, Aparājita,</span> and <span class="italic">Sarvārthasiddha</span> &mdash; the <span class="italic">Anuttara Vimānas</span>.
+            </p>
+            <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 mt-6 font-light">
+                The scripture is organized in three Vargas (sub-books) containing thirty-three Adhyayanas (chapters) in total. The first two Vargas tell of twenty-three princes of Rajagriha &mdash; sons and grandsons of King Shrenika &mdash; who renounced kingdoms to follow Lord Mahavira. The third and longest Varga is centered on the climactic narrative of Dhanya Anagar, whose nine-fold abhigraha (the ninefold lifelong vow of austerity) Mahavira himself called the foremost penance among his entire fourteen-thousand-strong order of monks.
+            </p>
+            <p class="text-xl text-on-surface-variant leading-relaxed opacity-90 mt-6 font-light">
+                None of these thirty-three souls attained final liberation in that birth. Each, after a single further human life in the great continent of Mahavideha, will reach moksha &mdash; the absolute end of suffering. The Ninth Anga is therefore the canon's portrait of the threshold: the souls who stand one heartbeat away from the freedom that all spiritual practice ultimately seeks.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 mt-12 pt-10 border-t border-primary/10">
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Teachings By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Lord Mahavira</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Compiled By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Sudharma Swami</p>
+                <p class="text-xs text-on-surface-variant font-light mt-1">Chief Disciple of the Lord</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Translated By</p>
+                <p class="text-lg font-headline font-normal text-on-surface">Dishant Shah</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label mb-2">Structure</p>
+                <p class="text-lg font-headline font-normal text-on-surface">33 Adhyayanas &middot; 3 Vargas</p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial Block -->
+    <section class="max-w-screen-2xl mx-auto px-12 mb-32">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 border-t border-primary/10 pt-16">
+            <div>
+                <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">A Reader's Guide</span>
+                <h2 class="text-4xl font-headline font-bold text-on-surface mt-4 leading-tight">What you'll find here</h2>
+            </div>
+            <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <span class="material-symbols-outlined text-primary text-3xl">menu_book</span>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mt-3">Verse-by-verse translation</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light mt-2">Each sutra is given in the original Prakrit, followed by Roman transliteration, a literal English translation, an <span class="italic">anvayārtha</span> word-by-word gloss, full commentary, a plain-language summary, and a contemplation prompt.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined text-primary text-3xl">account_tree</span>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mt-3">The structure of the canon</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light mt-2">Three Vargas, ten chapters in the first, thirteen in the second, ten in the third &mdash; thirty-three souls in all. The text uses <span class="italic">atidesha</span> (reference by analogy) to compress repeated narratives without losing meaning.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined text-primary text-3xl">self_improvement</span>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mt-3">The path of pure discipline</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light mt-2">From Jali Kumar's renunciation of crores of wealth to Dhanya Anagar's nine-fold abhigraha, the scripture is a study of how a soul standing one step from liberation actually lives, eats, walks, and dies.</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined text-primary text-3xl">ac_unit</span>
+                    <h3 class="text-xl font-headline font-bold text-on-surface mt-3">The Anuttara heavens</h3>
+                    <p class="text-on-surface-variant leading-relaxed font-light mt-2">Five celestial realms beyond which nothing is higher: Vijaya, Vaijayanta, Jayanta, Aparājita, and Sarvārthasiddha. The scripture maps which soul ascended to which heaven and exactly when each will attain final liberation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Index Section -->
+    <section class="max-w-screen-2xl mx-auto px-12 pb-24">
+        <div class="mb-10">
+            <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">The Three Vargas</span>
+            <h2 class="text-3xl font-headline font-bold text-on-surface mt-2">Thirty-three souls, three sub-books</h2>
+            <p class="text-on-surface-variant font-light mt-3 max-w-2xl leading-relaxed">Each card opens a complete Varga. Click through to read every chapter in that sub-book, sutra by sutra, with full commentary.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
+
+            <!-- Varga 1 -->
+            <a href="anuttarovavai-ch1.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Varga 01</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <div>
+                    <p class="text-primary/70 font-headline italic text-base mb-1">Pradhamo Vagga &middot; પ્રથમ વર્ગ</p>
+                    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight">The First Decad</h3>
+                </div>
+                <p class="text-on-surface-variant leading-relaxed font-light">Jali Kumar and the nine princes of King Shrenika &mdash; ten royal sons of Rajagriha who walked away from kingdoms and ascended to the Anuttara Vimanas.</p>
+                <div class="mt-auto pt-4 border-t border-primary/10 flex justify-between items-center">
+                    <span class="text-xs uppercase tracking-[0.15em] text-on-surface-variant font-semibold font-label">10 Adhyayanas</span>
+                    <span class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">8 Sutras</span>
+                </div>
+            </a>
+
+            <!-- Varga 2 -->
+            <a href="anuttarovavai-ch2.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Varga 02</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <div>
+                    <p class="text-primary/70 font-headline italic text-base mb-1">Bīo Vagga &middot; દ્વિતીય વર્ગ</p>
+                    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight">The Second Group</h3>
+                </div>
+                <p class="text-on-surface-variant leading-relaxed font-light">Dirghasena Kumar and twelve more princes of Rajagriha &mdash; thirteen souls of Shrenika's lineage who took the same path of renunciation, sallekhana, and ascent.</p>
+                <div class="mt-auto pt-4 border-t border-primary/10 flex justify-between items-center">
+                    <span class="text-xs uppercase tracking-[0.15em] text-on-surface-variant font-semibold font-label">13 Adhyayanas</span>
+                    <span class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">15 Sutras</span>
+                </div>
+            </a>
+
+            <!-- Varga 3 -->
+            <a href="anuttarovavai-ch3.html" class="index-card bg-[#f8f7f6] p-12 flex flex-col gap-6">
+                <div class="flex justify-between items-start">
+                    <span class="text-primary font-headline italic text-sm tracking-widest uppercase">Varga 03</span>
+                    <span class="material-symbols-outlined text-primary/40">arrow_outward</span>
+                </div>
+                <div>
+                    <p class="text-primary/70 font-headline italic text-base mb-1">Taio Vagga &middot; તૃતીય વર્ગ</p>
+                    <h3 class="text-4xl font-headline font-bold text-on-surface leading-tight">The Final Decad</h3>
+                </div>
+                <p class="text-on-surface-variant leading-relaxed font-light">Dhanya Kumar of Kakandi and nine more souls &mdash; the climactic narrative of the nine-fold abhigraha, the wasting-away of the body, and the ascent to Sarvārthasiddha.</p>
+                <div class="mt-auto pt-4 border-t border-primary/10 flex justify-between items-center">
+                    <span class="text-xs uppercase tracking-[0.15em] text-on-surface-variant font-semibold font-label">10 Adhyayanas</span>
+                    <span class="text-xs uppercase tracking-[0.15em] text-primary font-semibold font-label">33 Sutras</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Roster of the Thirty-Three -->
+    <section class="max-w-screen-2xl mx-auto px-12 pb-40">
+        <div class="mb-10">
+            <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">The Roster</span>
+            <h2 class="text-3xl font-headline font-bold text-on-surface mt-2">All thirty-three souls, by name</h2>
+            <p class="text-on-surface-variant font-light mt-3 max-w-2xl leading-relaxed">The full named ascent &mdash; every prince, every monk, every soul listed in the Ninth Anga, each with the heaven they reached at the end of their human life.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+            <!-- Varga 1 Roster -->
+            <div class="border-l-2 border-primary/20 pl-8">
+                <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">Varga One &middot; Ten Princes of Rajagriha</span>
+                <h3 class="text-2xl font-headline font-bold text-on-surface mt-2 mb-6">The First Decad</h3>
+                <ol class="space-y-3 text-sm font-body text-on-surface-variant">
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">1.</span><span><span class="font-semibold text-on-surface">Jali Kumar</span> &mdash; ascended to Vijaya Vimana</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">2.</span><span><span class="font-semibold text-on-surface">Mayali Kumar</span> &mdash; ascended to Vaijayanta Vimana</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">3.</span><span><span class="font-semibold text-on-surface">Upajali Kumar</span> &mdash; ascended to Jayanta Vimana</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">4.</span><span><span class="font-semibold text-on-surface">Purushasena Kumar</span> &mdash; ascended to Aparājita Vimana</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">5.</span><span><span class="font-semibold text-on-surface">Varishena Kumar</span> &mdash; ascended to Sarvārthasiddha Vimana</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">6.</span><span><span class="font-semibold text-on-surface">Dirghadanta Kumar</span> &mdash; the Long-Toothed One</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">7.</span><span><span class="font-semibold text-on-surface">Lashtadanta Kumar</span> &mdash; the Smooth-Toothed One</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">8.</span><span><span class="font-semibold text-on-surface">Vehalla Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">9.</span><span><span class="font-semibold text-on-surface">Vehayasa Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">10.</span><span><span class="font-semibold text-on-surface">Abhaya Kumar</span> &mdash; the Fearless One, Shrenika's wise minister-prince</span></li>
+                </ol>
+            </div>
+
+            <!-- Varga 2 Roster -->
+            <div class="border-l-2 border-primary/20 pl-8">
+                <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">Varga Two &middot; Thirteen More Princes</span>
+                <h3 class="text-2xl font-headline font-bold text-on-surface mt-2 mb-6">The Second Group</h3>
+                <ol class="space-y-3 text-sm font-body text-on-surface-variant">
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">11.</span><span><span class="font-semibold text-on-surface">Dirghasena Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">12.</span><span><span class="font-semibold text-on-surface">Mahasena Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">13.</span><span><span class="font-semibold text-on-surface">Lashtadanta Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">14.</span><span><span class="font-semibold text-on-surface">Gudhadanta Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">15.</span><span><span class="font-semibold text-on-surface">Shuddhadanta Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">16.</span><span><span class="font-semibold text-on-surface">Halla Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">17.</span><span><span class="font-semibold text-on-surface">Druma Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">18.</span><span><span class="font-semibold text-on-surface">Drumasena Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">19.</span><span><span class="font-semibold text-on-surface">Mahadrumasena Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">20.</span><span><span class="font-semibold text-on-surface">Simha Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">21.</span><span><span class="font-semibold text-on-surface">Simhasena Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">22.</span><span><span class="font-semibold text-on-surface">Mahasimhasena Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">23.</span><span><span class="font-semibold text-on-surface">Punyasena Kumar</span></span></li>
+                </ol>
+            </div>
+
+            <!-- Varga 3 Roster -->
+            <div class="border-l-2 border-primary/20 pl-8">
+                <span class="text-xs uppercase tracking-[0.2em] text-primary font-semibold font-label">Varga Three &middot; The Final Decad</span>
+                <h3 class="text-2xl font-headline font-bold text-on-surface mt-2 mb-6">The Climactic Ten</h3>
+                <ol class="space-y-3 text-sm font-body text-on-surface-variant">
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">24.</span><span><span class="font-semibold text-on-surface">Dhanya Anagar</span> of Kakandi &mdash; the foremost ascetic, ascended to Sarvārthasiddha</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">25.</span><span><span class="font-semibold text-on-surface">Sunakshatra Kumar</span> &mdash; ascended to Sarvārthasiddha</span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">26.</span><span><span class="font-semibold text-on-surface">Rishidasa Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">27.</span><span><span class="font-semibold text-on-surface">Pellaka Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">28.</span><span><span class="font-semibold text-on-surface">Ramaputra Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">29.</span><span><span class="font-semibold text-on-surface">Chandrika Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">30.</span><span><span class="font-semibold text-on-surface">Pushtimatrika Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">31.</span><span><span class="font-semibold text-on-surface">Peyalaputra Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">32.</span><span><span class="font-semibold text-on-surface">Pottilla Kumar</span></span></li>
+                    <li class="flex gap-4"><span class="text-primary font-headline italic w-6 flex-shrink-0">33.</span><span><span class="font-semibold text-on-surface">Vehalla Kumar</span> &mdash; the closing soul of the canon</span></li>
+                </ol>
+                <p class="text-xs text-on-surface-variant/80 italic font-light mt-6 leading-relaxed">All thirty-three souls will, after one final human birth in the great continent of Mahavideha, attain absolute liberation &mdash; the end of all karma, the end of all rebirth, the end of all suffering.</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- Floating Navigation Buttons -->
+<a href="../../../index-v4.html" class="nav-button left-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    <span class="text-lg">&larr;</span> Home
+</a>
+
+<a href="../sacred-sutras-index.html" class="nav-button right-12 flex items-center gap-3 px-4 py-2 rounded-sm font-headline font-bold text-xs tracking-wide">
+    All Sutras <span class="text-lg">&rarr;</span>
+</a>
+
+<!-- Footer -->
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+    <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-12 gap-16">
+        <div class="flex flex-col gap-6 max-w-md">
+            <span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainSutra</span>
+            <p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">
+                Exploring the profound depths of Jain philosophy through a modern lens. Dedicated to the path of Anekantavada and the purification of the soul.
+            </p>
+            <p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">&copy; 2024 JainSutra. All Rights Reserved.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Explore</span>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html">About Us</a>
+                <a class="hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+                <a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Practice</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <span class="text-primary/40 mb-2">Scripture</span>
+                <a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a>
+                <a class="hover:text-primary transition-colors" href="../sutrakritang/sutrakritang-index.html">Sutrakritanga</a>
+                <a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a>
+                <a class="hover:text-primary transition-colors" href="anuttarovavai-index.html">Anuttarovavai</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="../../../js/anuttarovavai-search.js"></script>
+<script>
+    window.addEventListener('scroll', () => {
+        const buttons = document.querySelectorAll('.nav-button');
+        if (window.scrollY > 300) {
+            buttons.forEach(btn => btn.classList.add('visible'));
+        } else {
+            buttons.forEach(btn => btn.classList.remove('visible'));
+        }
+    });
+</script>
+
+</body>
+</html>

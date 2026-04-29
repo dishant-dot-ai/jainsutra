@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Anuttarovavai Chapter 2: The Second Group — Dirghasena and the Twelve | JainSutra.org</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#755b00","on-primary": "#ffffff","primary-container": "#c9a84c","on-primary-container": "#503d00",
+        "surface": "#fef9f1","on-surface": "#1d1c17","surface-variant": "#e7e2da","on-surface-variant": "#4d4637",
+        "outline": "#7e7665","outline-variant": "#d0c5b2","secondary": "#625d59","secondary-container": "#e6ded9",
+        "on-secondary-container": "#67625e","surface-container-low": "#f8f3eb","surface-container": "#f2ede5",
+        "surface-container-high": "#ece8e0","tertiary": "#4d5a98","tertiary-container": "#9ba8eb",
+        "on-tertiary": "#ffffff","on-tertiary-container": "#2e3b77","error": "#ba1a1a","on-error": "#ffffff",
+        "inverse-surface": "#32302b","inverse-on-surface": "#f5f0e8","surface-container-highest": "#e7e2da",
+      },
+      fontFamily: { "headline": ["Noto Serif","serif"], "body": ["Inter","sans-serif"], "label": ["Inter","sans-serif"] },
+      borderRadius: { "DEFAULT": "0.125rem","lg": "0.25rem","xl": "0.5rem","full": "0.75rem" },
+    },
+  },
+}
+</script>
+<style>
+html { scroll-behavior: smooth; }
+.burnished-gradient { background: radial-gradient(circle at center, #755b00, #c9a84c); }
+.sutra-card { border: 1px solid rgba(201,168,76,0.25); border-left: 3px solid #c9a84c; background: white; }
+.sutra-sanskrit { font-size: 1.35rem; line-height: 2; color: #503d00; }
+.sutra-translit { font-family: 'Noto Serif', serif; font-size: 0.95rem; font-style: italic; color: #7e7665; line-height: 1.7; margin-top: -0.25rem; }
+.simple-explanation { margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed rgba(201,168,76,0.3); font-family: 'Inter', sans-serif; font-size: 1.2rem; line-height: 1.85; color: #4d4637; }
+.simple-explanation b { color: #1d1c17; font-weight: 600; }
+.anvayartha-block { margin-top: 0.5rem; padding: 1rem 1.25rem; background: rgba(201,168,76,0.06); border-radius: 6px; }
+.anvayartha-label { display: inline-block; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; color: #755b00; margin-bottom: 0.5rem; }
+.anvayartha-list { font-family: 'Noto Serif', serif; font-size: 1rem; line-height: 1.85; color: #4d4637; }
+.anvayartha-list em { color: #503d00; font-weight: 600; font-style: italic; }
+.contemplate-footer { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(201,168,76,0.2); font-family: 'Noto Serif', serif; font-style: italic; font-size: 1.05rem; line-height: 1.75; color: #5a5345; }
+.contemplate-footer b { font-style: normal; color: #755b00; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; font-weight: 700; display: block; margin-bottom: 0.4rem; }
+.flag-note { display: inline-block; margin: 0.25rem 0; padding: 0.5rem 0.85rem; background: rgba(186,26,26,0.05); border-left: 3px solid rgba(186,26,26,0.4); border-radius: 4px; font-family: 'Inter', sans-serif; font-size: 0.95rem; color: #5a5345; line-height: 1.6; }
+.flag-note::before { content: "⚠️ "; color: #9b1515; font-weight: 700; }
+/* Sutra card readability */
+.sutra-card p.text-base { font-size: 1.2rem; line-height: 1.85; }
+.sutra-card p.text-lg { font-size: 1.2rem; line-height: 1.85; }
+.concept-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1rem; }
+.concept-tag { display: inline-block; border: 1px solid #C9A84C; background: transparent; color: #1d1c17; font-family: 'Inter', sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 100px; padding: 4px 13px; font-weight: 500; }
+.nav-button { position: fixed; bottom: 24px; z-index: 100; background: transparent; border: 1px solid rgba(201,168,76,0.35); color: rgba(201,168,76,0.6); transition: all 0.5s cubic-bezier(0.4,0,0.2,1); opacity: 0; pointer-events: none; transform: translateY(20px); }
+.nav-button.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+.nav-button:hover { border-color: #C9A84C; color: #C9A84C; }
+.glass-nav { background: rgba(248,247,246,0.85); backdrop-filter: blur(20px); }
+.section-divider { margin: 2.5rem 0 1.5rem; display: flex; align-items: center; gap: 1rem; }
+.section-divider span { font-family: 'Noto Serif', serif; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.2em; color: #755b00; font-weight: 600; white-space: nowrap; }
+.section-divider::before, .section-divider::after { content: ''; flex: 1; height: 1px; background: rgba(201,168,76,0.3); }
+#breadcrumb { transition: opacity 0.4s ease, transform 0.4s ease; }
+#main-nav a { text-decoration: none; }
+.nav-link { text-decoration: none; }
+@media (max-width: 768px) { .nav-button { bottom: 16px; } .nav-button.left-btn { left: 12px !important; } .nav-button.right-btn { right: 12px !important; } .sutra-sanskrit { font-size: 1.15rem; } }
+#search-dropdown { position:absolute; top:calc(100% + 8px); left:0; min-width:400px; max-width:520px; background:#fff; border-radius:8px; box-shadow:0 8px 32px rgba(0,0,0,0.13); border:1px solid rgba(201,168,76,0.25); overflow:hidden; display:none; z-index:1000; max-height:420px; overflow-y:auto; }
+</style>
+</head>
+<body class="text-on-surface font-body selection:bg-primary-container bg-white">
+<!-- Nav -->
+<nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-500 border-b border-[#C9A84C]/10" id="main-nav">
+<div class="flex justify-between items-center px-6 md:px-12 py-5 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="../../../index-v4.html#hero"><span class="text-2xl font-headline text-primary tracking-tighter font-bold">JainSutra.org</span></a>
+<div class="hidden md:flex gap-10 items-center font-headline tracking-[0.1em] uppercase text-xs font-semibold">
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../index-v4.html#foundations">Fundamentals</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar</a>
+<a class="nav-link text-on-surface/80 hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a>
+<a class="text-primary font-semibold hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Texts</a>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="relative group hidden lg:block">
+<span class="nav-search-icon material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm transition-colors duration-500">search</span>
+<input class="nav-search bg-surface-container-low border-none rounded-full py-2 pl-10 pr-6 text-sm font-label placeholder:italic transition-all duration-300 w-48 focus:w-72 focus:ring-1 focus:ring-primary/20" id="search-input" placeholder="Explore Wisdom..." type="text"/>
+<div id="search-dropdown"></div>
+</div>
+<a class="burnished-gradient text-white px-8 py-2.5 rounded-full font-headline uppercase text-[10px] font-bold tracking-[0.2em] hover:opacity-90 transition-all shadow-sm" href="../../../fundamentals/donate-v4.html">Donate</a>
+</div>
+</div>
+</nav>
+<main class="pt-40">
+<!-- Hero -->
+<section class="max-w-screen-2xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-8 md:gap-16 items-center mb-40">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-10 order-2 lg:order-1">
+<div class="flex flex-col gap-3">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Anuttarovavai Sutra · Varga 2</span>
+<h1 class="text-7xl md:text-8xl font-headline font-bold text-on-surface leading-tight tracking-tighter">
+        The Second Group <span class="text-primary font-normal">(દ્વિતીય વર્ગ)</span>
+</h1>
+</div>
+<h2 class="text-2xl md:text-3xl font-headline text-on-surface-variant leading-tight font-light">Thirteen princes of Rajagriha, headed by Dirghasena, who renounce under Mahavira and ascend to the four sub-Anuttara heavens</h2>
+<div class="flex gap-8 items-start pt-2 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Imparted By</span><span class="text-lg font-headline font-bold text-primary">Lord Mahavira</span></div>
+<div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Compiled By</span><span class="text-lg font-headline font-bold text-primary">Sudharma Swami</span></div>
+<div class="w-px h-10 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Translated By</span><span class="text-lg font-headline font-bold text-primary">Dishant Shah</span></div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-7 order-1 lg:order-2 flex flex-col items-center justify-center gap-0">
+<div class="w-full text-center">
+<p class="font-headline text-2xl md:text-3xl text-primary leading-relaxed">दीहसेणे महासेणे, लट्टदंते य गूढदंते य सुद्धदंते य ।<br/>हल्ले दुमे दुमसेणे, महादुमसेणे य आहिए ।।<br/>सीहे य सीहसेणे य, महासीहसेणे य आहिए ।<br/>पुण्णसेणे य बोधव्वे, तेरसमे होइ अज्झयणे ।।</p>
+<p class="text-base text-on-surface-variant mt-6 font-light italic">"Dirghasena, Mahasena, Lashtadanta, Gudhadanta, Shuddhadanta; Halla, Druma, Drumasena, Mahadrumasena are stated; Simha, Simhasena, Mahasimhasena are stated; and Punyasena is to be known as the thirteenth sub-chapter." — Anuttarovavai 2.A1.S1</p>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="bg-[#f2f1f0] py-24 border-y border-primary/5">
+<div class="max-w-screen-xl mx-auto px-6 md:px-12 grid grid-cols-12 gap-12 md:gap-20">
+<div class="col-span-12 lg:col-span-4">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">About This Chapter</span>
+<h3 class="text-4xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">Second Varga of the 9th Anga</h3>
+</div>
+<div class="col-span-12 lg:col-span-8 space-y-6">
+<p class="text-lg leading-relaxed text-on-surface-variant">The Second Varga of the <span class="text-primary font-semibold">Anuttaropapātika Daśā</span> presents thirteen princes of Rajagriha — Dirghasena, Mahasena, Lashtadanta, Gudhadanta, Shuddhadanta, Halla, Druma, Drumasena, Mahadrumasena, Simha, Simhasena, Mahasimhasena, and Punyasena — sons of King Shrenika by various queens, who renounced the world under Lord Mahavira, observed sixteen years of monastic discipline, undertook a one-month <em>sallekhana</em> in the highest <em>pādapopagamana</em> grade, and ascended in pairs to the four sub-Anuttara heavens (Vijaya, Vaijayanta, Jayanta, Aparajita), with the last five — beginning with Mahadrumasena — rising to Sarvarthasiddha, the supreme heaven.</p>
+<p class="text-lg leading-relaxed text-on-surface-variant">The chapter is told in the canonical shorthand of the <em>daśā</em> form: only the <em>utkshepa</em> (opening question), the body of the account (Dirghasena's biography by reference to Jali Kumar of Varga 1), and the <em>nikshepa</em> (closing seal) are given as full Prakrit. The individual accounts of the remaining twelve princes are extended by <em>atidesha</em> — formula reference — using the phrase <em>jahā dīhaseṇe tahā [name] vi</em> ("as with Dirghasena, so also with [name]"), folding all thirteen lives into one shared biography that differs only in the prince's name and final destination.</p>
+<div class="flex gap-8 items-center pt-4 flex-wrap">
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">~16</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Sutras</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">Jambu Swami</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Addressed To</span></div>
+<div class="w-px h-12 bg-outline-variant hidden md:block"></div>
+<div class="flex flex-col gap-1"><span class="text-3xl font-headline font-bold text-primary">13</span><span class="text-xs uppercase tracking-widest text-on-surface-variant font-semibold">Adhyayanas</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sutras -->
+<section class="max-w-screen-xl mx-auto px-6 md:px-12 py-24">
+<div class="mb-16">
+<span class="text-primary font-headline italic tracking-[0.2em] text-sm uppercase font-semibold">Varga 2 · 9th Anga</span>
+<h3 class="text-5xl font-headline font-bold text-on-surface leading-tight tracking-tight mt-4">The Thirteen Princes</h3>
+<p class="text-lg text-on-surface-variant mt-4 max-w-2xl">Each sutra is presented with the original Ardhamagadhi Prakrit, Roman transliteration, English translation, anvayartha, commentary, and contemplation.</p>
+</div>
+
+<!-- Adhyayana 1 -->
+<div class="section-divider" id="section-adhyayana-1"><span>Adhyayana 1 — Dirghasena Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A1-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A1.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जइ णं भंते ! समणेणं भगवया महावीरेणं जाव संपत्तेणं अणुत्तरोववाइयदसाणं पढमस्स वग्गस्स अयमट्ठे पण्णत्ते, दोच्चस्स णं भंते ! वग्गस्स अणुत्तरोववाइयदसाणं समणेणं भगवया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते ?<br/><br/>एवं खलु जंबू ! समणेणं भगवया महावीरेणं जाव संपत्तेणं अणुत्तरोववाइय-दसाणं दोच्चस्स वग्गस्स तेरस अज्झयणा पण्णत्ता । तं जहा—<br/><br/>दीहसेणे महासेणे, लट्टदंते य गूढदंते य सुद्धदंते य ।<br/>हल्ले दुमे दुमसेणे, महादुमसेणे य आहिए ।।<br/>सीहे य सीहसेणे य, महासीहसेणे य आहिए ।<br/>पुण्णसेणे य बोधव्वे, तेरसमे होइ अज्झयणे ।।<br/><br/>जइ णं भंते ! समणेणं भगवया महावीरेणं जाव संपत्तेणं अणुत्तरोववाइयदसाणं दोच्चस्स वग्गस्स तेरस अज्झयणा पण्णत्ता, पढमस्स णं भंते ! अज्झयणस्स समणेणं भगवया महावीरेणं जाव संपत्तेणं के अट्ठे पण्णत्ते । ॥2.A1.S1॥</p>
+<p class="sutra-translit">jai ṇaṃ bhante! samaṇeṇaṃ bhagavayā mahāvīreṇaṃ jāva saṃpatteṇaṃ aṇuttarovavāiyadasāṇaṃ paḍhamassa vaggassa ayamaṭṭhe paṇṇatte, doccassa ṇaṃ bhante! vaggassa aṇuttarovavāiyadasāṇaṃ samaṇeṇaṃ bhagavayā mahāvīreṇaṃ jāva saṃpatteṇaṃ ke aṭṭhe paṇṇatte? ... evaṃ khalu jaṃbū! ... terasa ajjhayaṇā paṇṇattā ... dīhaseṇe mahāseṇe, laṭṭadaṃte ya gūḍhadaṃte ya suddhadaṃte ya | halle dume dumaseṇe, mahādumaseṇe ya āhie || sīhe ya sīhaseṇe ya, mahāsīhaseṇe ya āhie | puṇṇaseṇe ya bodhavve, terasame hoi ajjhayaṇe ||</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"Reverend Sir! If the liberated Sramana Lord Mahavira has declared this meaning of the first chapter of the Anuttaropapātika Daśā, then, Reverend Sir, what meaning has He declared of its second chapter?" — "Truly so, Jambu! The Lord Mahavira has declared thirteen sub-chapters of the second chapter, namely: Dirghasena, Mahasena, Lashtadanta, Gudhadanta, and Shuddhadanta; Halla, Druma, Drumasena, and Mahadrumasena are stated; Simha and Simhasena, and Mahasimhasena are stated; and Punyasena is to be known as the thirteenth sub-chapter." — "Reverend Sir! Then what meaning has He declared of its first sub-chapter?"</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jai ṇaṃ bhante</em> = if, Reverend Sir | <em>samaṇeṇaṃ bhagavayā mahāvīreṇaṃ</em> = by the Sramana Lord Mahavira | <em>jāva saṃpatteṇaṃ</em> = up to "the one who has attained" (liberation) | <em>aṇuttarovavāiyadasāṇaṃ</em> = of the Anuttaropapātika Daśā (the Ninth Anga) | <em>paḍhamassa vaggassa</em> = of the first chapter | <em>ayamaṭṭhe paṇṇatte</em> = this meaning has been declared | <em>doccassa vaggassa</em> = of the second chapter | <em>ke aṭṭhe paṇṇatte</em> = what meaning has been declared? | <em>evaṃ khalu jaṃbū</em> = thus indeed, O Jambu | <em>terasa ajjhayaṇā paṇṇattā</em> = thirteen sub-chapters have been declared | <em>taṃ jahā</em> = namely, as follows | <em>dīhaseṇe</em> = Dirghasena (long-armied) | <em>mahāseṇe</em> = Mahasena (great-armied) | <em>laṭṭadaṃte</em> = Lashtadanta (graceful-toothed) | <em>gūḍhadaṃte</em> = Gudhadanta (concealed-toothed) | <em>suddhadaṃte</em> = Shuddhadanta (pure-toothed) | <em>halle</em> = Halla | <em>dume</em> = Druma (tree) | <em>dumaseṇe</em> = Drumasena | <em>mahādumaseṇe</em> = Mahadrumasena | <em>āhie</em> = is/are stated | <em>sīhe</em> = Simha (lion) | <em>sīhaseṇe</em> = Simhasena | <em>mahāsīhaseṇe</em> = Mahasimhasena | <em>puṇṇaseṇe</em> = Punyasena (army-of-merit) | <em>bodhavve</em> = is to be known | <em>terasame ajjhayaṇe</em> = as the thirteenth sub-chapter.</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This opening sutra is the <em>utkshepa</em> — the formal invitation that begins every chapter of the <em>daśā</em> literature. Jambu Swami, the disciple, asks his teacher Sudharma Swami: "You have told me what is in the first chapter — now what is in the second?" The teacher answers by first listing the thirteen names that the chapter will cover. This pattern — list first, narrate second — is the standard scaffolding of the <em>daśā</em> texts and serves a memorial purpose. In an oral tradition, names had to be fixed at the outset so the listener knew the shape of what was coming and could later test their recall against the list. Most names end in <em>-sena</em> ("army"), a typical feature of Kshatriya naming in the Magadhan era; three are formed with <em>-danta</em> ("tooth"), likely descriptive of the prince's dental beauty, a noted feature in classical Indian portraiture of nobility. The repetition of root-names with intensifiers — Sena/Mahasena, Druma/Drumasena/Mahadrumasena, Simha/Simhasena/Mahasimhasena — suggests these were brothers or near-brothers in the same lineage, named in graded series. The fact that thirteen princes from the same household chose ordination in a single generation is itself the silent claim of this chapter: Mahavira's teaching, when it entered Shrenika's palace, did not draw one or two disciples but emptied entire wings of it.</p>
+<p class="simple-explanation"><b>Simply put:</b> Jambu asks his teacher what the second chapter of the scripture says, and the teacher answers by first naming the thirteen princes the chapter is about, and then asking which one to begin with — the first, Dirghasena.</p>
+<div class="concept-tags"><span class="concept-tag">Utkshepa</span><span class="concept-tag">Thirteen Princes</span><span class="concept-tag">Oral Tradition</span><span class="concept-tag">Lineage</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>When you hear thirteen names of people who walked the same path, do you hear them as a list — or as a quiet proof that this path is walkable?</p>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A1-S2">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A1.S2</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवं खलु जंबू ! तेणं कालेणं तेणं समएणं रायगिहे नयरे, गुणसिलए चेइए । सेणिए राया । धारिणी देवी । सीहो सुमिणे । जहा जाली तहा जम्मं, बालत्तणं, कलाओ । नवरं दीहसेणे णामं कुमारे ।<br/><br/>सच्चेव वत्तव्वया जहा जालिस्स जाव अंतं काहिइ ।<br/><br/>एवं तेरस वि रायगिहे । सेणिओ पिया । धारिणी माया । तेरसण्हं वि सोलस वासा परियाओ । आणुपुव्वीए विजए दोण्णि, वेजयंते दोण्णि, जयंते दोण्णि, अपराजिए दोण्णि, सेसा महादुमसेणमाई पंच सव्वट्ठसिद्धे । ॥2.A1.S2॥</p>
+<p class="sutra-translit">evaṃ khalu jaṃbū! teṇaṃ kāleṇaṃ teṇaṃ samaeṇaṃ rāyagihe nayare, guṇasilae ceie | seṇie rāyā | dhāriṇī devī | sīho sumiṇe | jahā jālī tahā jammaṃ, bālattaṇaṃ, kalāo | navaraṃ dīhaseṇe ṇāmaṃ kumāre | saccceva vattavvayā jahā jālissa jāva aṃtaṃ kāhii | evaṃ terasa vi rāyagihe | seṇio piyā | dhāriṇī māyā | terasaṇhaṃ vi solasa vāsā pariyāo | āṇupuvvīe vijae doṇṇi, vejayaṃte doṇṇi, jayaṃte doṇṇi, aparājie doṇṇi, sesā mahādumaseṇamāī paṃca savvaṭṭhasiddhe |</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"Truly so, Jambu! In that age, at that time, there was a city called Rajagriha and a sacred grove called Gunashilaka. The king was Shrenika; the queen was Dharini. She saw a lion in her dream. As with Jali, so the birth, the childhood, and the training in the arts are to be understood — only the prince's name was Dirghasena. The same account as Jali's is to be applied to him, up to 'he will make an end of all suffering.' In the same way, all thirteen were of Rajagriha; Shrenika was the father; Dharini was the mother; the ascetic life of all thirteen lasted sixteen years. In due order: two were reborn in the Vijaya heaven, two in the Vaijayanta, two in the Jayanta, two in the Aparajita; the remaining five, beginning with Mahadrumasena, in Sarvarthasiddha."</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>evaṃ khalu jaṃbū</em> = thus indeed, O Jambu | <em>teṇaṃ kāleṇaṃ teṇaṃ samaeṇaṃ</em> = in that age, at that time | <em>rāyagihe nayare</em> = in the city of Rajagriha | <em>guṇasilae ceie</em> = the Gunashilaka sacred grove | <em>seṇie rāyā</em> = King Shrenika | <em>dhāriṇī devī</em> = Queen Dharini | <em>sīho sumiṇe</em> = a lion (was seen) in (her) dream | <em>jahā jālī tahā jammaṃ</em> = as with Jali, so the birth | <em>bālattaṇaṃ</em> = childhood | <em>kalāo</em> = the seventy-two arts (mastered) | <em>navaraṃ</em> = the only difference | <em>dīhaseṇe ṇāmaṃ kumāre</em> = the prince's name was Dirghasena | <em>saccceva vattavvayā</em> = the same account is to be told | <em>jahā jālissa</em> = as in Jali's case | <em>jāva aṃtaṃ kāhii</em> = up to "he will make an end (of all suffering)" | <em>evaṃ terasa vi</em> = in this way, all thirteen as well | <em>solasa vāsā pariyāo</em> = sixteen years was their ascetic tenure | <em>āṇupuvvīe</em> = in due sequence | <em>vijae doṇṇi</em> = in Vijaya, two | <em>vejayaṃte doṇṇi</em> = in Vaijayanta, two | <em>jayaṃte doṇṇi</em> = in Jayanta, two | <em>aparājie doṇṇi</em> = in Aparajita, two | <em>sesā</em> = the remaining ones | <em>mahādumaseṇamāī paṃca</em> = the five beginning with Mahadrumasena | <em>savvaṭṭhasiddhe</em> = in Sarvarthasiddha (the supreme heaven).</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the heart of the Second Varga, told in canonical shorthand. The opening sentence — "in that age, at that time, in Rajagriha, at the Gunashilaka grove, King Shrenika, Queen Dharini, a lion in her dream" — is not new information but a stamp every prince in this chapter shares. The phrase <em>jahā jālī</em> — "as with Jali" — is the textual hinge: the entire detailed biography of Jali Kumar from the First Varga is to be transposed onto Dirghasena, with only the prince's name changed. This includes Jali's lion-dream conception, his upbringing by five wet-nurses, his mastery of the seventy-two arts, his marriage to eight princesses each bringing eight crores of silver and eight crores of gold, his life of pleasure in the upper apartments, his awakening when Mahavira arrived in Rajagriha, his ordination after his parents' permission, his study of the eleven Angas under the elders, his Gunaratna fast, his sallekhana, his ascent to an Anuttara heaven, and finally his single rebirth in Mahavideha where he will attain liberation. The phrase <em>jāva aṃtaṃ kāhii</em> — "up to 'he will make an end'" — abbreviates the entire ending of the Jali account into three syllables. The collective summary then groups all thirteen princes by destination: eight (in pairs) to the four sub-Anuttara heavens, and the remaining five to Sarvarthasiddha — the supreme fifth Anuttara heaven, the highest single station any embodied soul can reach short of liberation. The detail that all thirteen kept exactly sixteen years of ascetic tenure tells us they functioned as one phenomenon viewed thirteenfold: a single household's mass renunciation. The economy of the writing is itself a teaching — the text refuses to entertain us with thirteen separate stories because, at the level of soul, the story is one.</p>
+<p class="simple-explanation"><b>Simply put:</b> Prince Dirghasena's whole life, from birth to liberation, is the same story as Jali's from the first chapter — and the same story applies to all thirteen princes named here, who lived sixteen years as monks and were reborn in the highest heavens, with the last five reaching Sarvarthasiddha, the very top.</p>
+<div class="concept-tags"><span class="concept-tag">Atidesha Formula</span><span class="concept-tag">Sarvarthasiddha</span><span class="concept-tag">Sub-Anuttara Heavens</span><span class="concept-tag">Sixteen Years</span><span class="concept-tag">Mass Renunciation</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>If thirteen brothers from the same palace can each walk the same path to the highest heaven, what excuse remains for me — that my life is too unique to follow it?</p>
+</div>
+</div>
+</article>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A1-S3">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A1.S3</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">एवं खलु जंबू ! समणेणं भगवया महावीरेणं जाव संपत्तेणं अणुत्तरोव-वाइयदसाणं दोच्चस्स वग्गस्स अयमट्ठे पण्णत्ते ।<br/><br/>मासियाए संलेहणाए दोसु वि वग्गेसु । ॥2.A1.S3॥</p>
+<p class="sutra-translit">evaṃ khalu jaṃbū! samaṇeṇaṃ bhagavayā mahāvīreṇaṃ jāva saṃpatteṇaṃ aṇuttarova-vāiyadasāṇaṃ doccassa vaggassa ayamaṭṭhe paṇṇatte | māsiyāe saṃlehaṇāe dosu vi vaggesu |</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">"Truly so, Jambu! This is the meaning of the second chapter of the Anuttaropapātika Daśā that the liberated Sramana Lord Mahavira has declared. In both chapters, the sallekhana of every monk lasted one month."</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>evaṃ khalu jaṃbū</em> = thus indeed, O Jambu | <em>samaṇeṇaṃ bhagavayā mahāvīreṇaṃ</em> = by the Sramana Lord Mahavira | <em>jāva saṃpatteṇaṃ</em> = up to "the one who has attained (liberation)" | <em>aṇuttarovavāiyadasāṇaṃ</em> = of the Anuttaropapātika Daśā | <em>doccassa vaggassa</em> = of the second chapter | <em>ayamaṭṭhe paṇṇatte</em> = this meaning has been declared | <em>māsiyāe saṃlehaṇāe</em> = with a one-month sallekhana (final fasting and self-purification) | <em>dosu vi vaggesu</em> = in both chapters (i.e., for every monk in both Vargas).</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">This is the <em>nikshepa</em> — the formal sealing of the chapter. Sudharma Swami declares the second chapter complete and adds a single technical note of immense importance: in both the first and second chapters, every monk's sallekhana lasted exactly one month. Sallekhana is the final spiritual practice of the Jain renunciate — a deliberate, gradual reduction of food and water leading to a peaceful, conscious death held in deep equanimity. It is not suicide; it is the opposite. Suicide is performed in revulsion against life; sallekhana is performed in detachment from both life and death, when the body has become incapable of sustaining its religious duties and the soul is ready to leave with its attention undisturbed. The discipline requires that the dying soul hold no clinging to life, no fear of death, no attachment to past pleasures, no aversion to past pains, no anxiety about the next birth — a state called <em>samādhi-maraṇa</em>, equipoise-death. The note here specifies that all twenty-three princes — ten in Varga 1 and thirteen in Varga 2 — undertook a one-month sallekhana, and the editor's <em>vivechan</em> further explains that all twenty-three undertook <em>pādapopagamana santhāra</em> — the highest grade, in which the monk lies down motionless like a fallen tree (<em>pādapa</em>, "tree") and remains so until death, neither moving the limbs nor accepting any service. Twenty-three princes of one royal house, born to luxury, raised in palaces, married to dozens of princesses, owning crores of gold — all of them ended their lives lying immobile in a forest, eating nothing, watching their last breath leave with the same equanimity with which they had once watched dancers perform.</p>
+<p class="simple-explanation"><b>Simply put:</b> The teacher closes the second chapter and adds one critical detail: every single one of the twenty-three princes from the first and second chapters spent the last month of their lives in a deliberate, peaceful fast, ending their bodies in full awareness.</p>
+<div class="concept-tags"><span class="concept-tag">Nikshepa</span><span class="concept-tag">Sallekhana</span><span class="concept-tag">Pādapopagamana</span><span class="concept-tag">Samādhi-Maraṇa</span><span class="concept-tag">Equipoise-Death</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>If you knew you had one month to leave this body — could you let go of it the way these princes did, without fear, without grasping, without one last bargain?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 2 -->
+<div class="section-divider" id="section-adhyayana-2"><span>Adhyayana 2 — Mahasena Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A2-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A2.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">नवरं महासेणे णामं कुमारे । ॥2.A2.S1॥</p>
+<p class="sutra-translit">navaraṃ mahāseṇe ṇāmaṃ kumāre |</p>
+<p class="flag-note">The PDF presents Adhyayanas 2 through 13 inside the same condensed sutra block (sutra 2 of the chapter); they are not given individual Prakrit verses. The Prakrit shown here is reconstructed by the chapter's own internal formula <em>jahā dīhaseṇe tahā [name] vi</em>.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">The only difference is that the prince's name was Mahasena.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>navaraṃ</em> = the only difference | <em>mahāseṇe ṇāmaṃ kumāre</em> = the prince was named Mahasena ("great-armied") | (the rest of the account — Rajagriha, Gunashilaka, Shrenika, Dharini, lion dream, birth, childhood, arts, marriage, awakening, ordination, sixteen years of ascetic life, ascent to one of the four sub-Anuttara heavens — <em>vijae / vejayaṃte / jayaṃte / aparājie</em> — and the final rebirth in Mahavideha for liberation, is the same as for Dirghasena and ultimately as for Jali Kumar.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Mahasena's name — "great army" — pairs naturally with his elder Dirghasena's "long army"; together the names suggest two princes intended for military leadership in their father Shrenika's empire. The text gives us no individuating story. Instead it asks the reader to take the entire Jali template — the lion-dream conception, the birth as one of the most beloved sons of the Magadhan throne, the upbringing by five royal nurses, the mastery of the seventy-two arts, the marriage to eight princesses, the awakening when Mahavira arrived at Gunashilaka, the parents' grief and final consent, the renunciation, the eleven Anga studies under the elders, the long silent fasts, the climb up Vipulachala, and the final ascent — and apply it without subtraction. The deep point of this kind of telling is theological: the text refuses to make Mahasena's life feel different from Dirghasena's because, in the logic of liberation, the differences do not matter. What matters is the path — the alignment of right vision, knowledge, and conduct — and once two souls have aligned themselves with that path, their biographies become functionally identical even if their birth-names and palace memories differ. The sameness is not a literary shortcut; it is a metaphysical statement.</p>
+<p class="flag-note">Whether Mahasena ascended specifically to Vijaya, Vaijayanta, Jayanta, or Aparajita is not individually specified; the text only tells us that of the first eight princes in the list, two each went to those four heavens in due order. The plain pair-reading places Dirghasena and Mahasena together in Vijaya, but the source does not state this assignment in so many words.</p>
+<p class="simple-explanation"><b>Simply put:</b> The second prince, Mahasena, lived the same life as Dirghasena and Jali — born to King Shrenika and Queen Dharini, raised in Rajagriha, ordained under Mahavira, sixteen years a monk, and reborn in one of the highest heavens.</p>
+<div class="concept-tags"><span class="concept-tag">Mahasena</span><span class="concept-tag">Atidesha</span><span class="concept-tag">Sub-Anuttara</span><span class="concept-tag">Same Path</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>If two brothers can walk the identical path to liberation, where in your life do you still insist that your circumstances are uniquely difficult?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 3 -->
+<div class="section-divider" id="section-adhyayana-3"><span>Adhyayana 3 — Lashtadanta Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A3-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A3.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा लट्ठदंते वि । नवरं लट्ठदंते णामं कुमारे । ॥2.A3.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā laṭṭhadaṃte vi | navaraṃ laṭṭhadaṃte ṇāmaṃ kumāre |</p>
+<p class="flag-note">Individual Adhyayana Prakrit is not given in the PDF; the verse here is reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Lashtadanta. The only difference is that the prince's name was Lashtadanta.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā laṭṭhadaṃte vi</em> = so also with Lashtadanta | <em>navaraṃ</em> = the only difference | <em>laṭṭhadaṃte ṇāmaṃ kumāre</em> = the prince was named Lashtadanta (literally "of graceful / well-formed teeth"; <em>laṣṭa</em> in Prakrit/Sanskrit denotes elegance or beauty) | (rest as Dirghasena, ultimately as Jali; the rebirth was in one of the four sub-Anuttara heavens within the chapter's collective allocation of two-each in due order.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Lashtadanta's name draws attention to a feature of classical Indian portraiture: well-shaped teeth were among the thirty-two physical signs of a great being (<em>mahāpuruṣa-lakṣaṇa</em>). To be named "graceful-toothed" is to carry one of those signs as a daily badge. The chapter's economy says nothing about whether Lashtadanta lived up to the implication, only that his life followed the Jali pattern. Names like this matter because they reveal how the world saw these princes before their renunciation. They were the most beautiful, most accomplished, most physically auspicious men of their generation — and they walked away from their bodies as easily as from their robes. The text places the name and the renunciation side by side without comment, trusting the reader to feel the contrast.</p>
+<p class="flag-note">The PDF does not specify Lashtadanta's exact heavenly destination; he is one of the eight princes paired into the four sub-Anuttara heavens in order.</p>
+<p class="simple-explanation"><b>Simply put:</b> The third prince, Lashtadanta — named for his beautiful teeth — lived the same life of luxury and renunciation as his brothers, ending in one of the highest heavens.</p>
+<div class="concept-tags"><span class="concept-tag">Lashtadanta</span><span class="concept-tag">Mahāpuruṣa-Lakṣaṇa</span><span class="concept-tag">Beauty Renounced</span><span class="concept-tag">Atidesha</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>What part of your body or appearance do you still think defines you — and could you, like these princes, place it down and walk on?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 4 -->
+<div class="section-divider" id="section-adhyayana-4"><span>Adhyayana 4 — Gudhadanta Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A4-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A4.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा गूढदंते वि । नवरं गूढदंते णामं कुमारे । ॥2.A4.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā gūḍhadaṃte vi | navaraṃ gūḍhadaṃte ṇāmaṃ kumāre |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Gudhadanta. The only difference is that the prince's name was Gudhadanta.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā gūḍhadaṃte vi</em> = so also with Gudhadanta | <em>navaraṃ</em> = the only difference | <em>gūḍhadaṃte ṇāmaṃ kumāre</em> = the prince was named Gudhadanta (literally "of concealed / hidden teeth"; <em>gūḍha</em> = concealed, drawn-in) | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">The name Gudhadanta — "concealed-toothed" — describes a prince whose teeth did not show prominently when he smiled, considered an aristocratic feature in classical India. He is paired in the listing-verse with Lashtadanta and Shuddhadanta, the three "tooth-named" princes appearing together. Like his brothers, his life is folded into Dirghasena's. The sixteen years of ascetic discipline, the eleven Angas studied, the long silent fasts, the final sallekhana — all are his too. Whether his Anuttara destination was Vaijayanta or one of the others is not individually specified.</p>
+<p class="flag-note">The interpretation of <em>gūḍha-danta</em> as "concealed-toothed" follows standard scholarly readings; alternatives such as "deep-set teeth" or "even-toothed" are possible but less standard.</p>
+<p class="simple-explanation"><b>Simply put:</b> The fourth prince, Gudhadanta, named for the way his teeth were set, walked the same path as his brothers — palace to forest to heaven.</p>
+<div class="concept-tags"><span class="concept-tag">Gudhadanta</span><span class="concept-tag">Tooth-Named Trio</span><span class="concept-tag">Atidesha</span><span class="concept-tag">Sub-Anuttara</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>The smaller details of how you look — what would change in your life if you knew they were as fleeting as a prince's smile?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 5 -->
+<div class="section-divider" id="section-adhyayana-5"><span>Adhyayana 5 — Shuddhadanta Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A5-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A5.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा सुद्धदंते वि । नवरं सुद्धदंते णामं कुमारे । ॥2.A5.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā suddhadaṃte vi | navaraṃ suddhadaṃte ṇāmaṃ kumāre |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Shuddhadanta. The only difference is that the prince's name was Shuddhadanta.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā suddhadaṃte vi</em> = so also with Shuddhadanta | <em>navaraṃ</em> = the only difference | <em>suddhadaṃte ṇāmaṃ kumāre</em> = the prince was named Shuddhadanta (literally "of pure / clean / pristine teeth") | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Shuddhadanta — "pure-toothed" — completes the trio of dental-named princes. The name means more than dental hygiene; in the classical idiom <em>śuddha</em> carries a sense of brightness, clarity, and untaintedness. To carry such a name was to carry a piece of physical perfection. The text gives us no individual story, only the formulaic placement: he too was a son of Shrenika and Dharini, ordained at the standard age, kept sixteen years of ascetic life, and was reborn in one of the sub-Anuttara heavens. He is, by the order in the listing-verse, the fifth of the eight who were paired into Vijaya, Vaijayanta, Jayanta, and Aparajita.</p>
+<p class="flag-note">Reading the listing-verse strictly in pairs would place Shuddhadanta and Halla together as the third pair (probably in Jayanta), but the text only specifies "two each in due order" without naming the pairs explicitly. The Gujarati edition's <em>vivechan</em> notes that some readings differ between manuscripts (<em>kyāṃka pāṭhabheda jovā maḷe chhe</em>).</p>
+<p class="simple-explanation"><b>Simply put:</b> The fifth prince, Shuddhadanta — named for his pure white teeth — followed the same path of renunciation as his brothers and reached one of the highest heavens.</p>
+<div class="concept-tags"><span class="concept-tag">Shuddhadanta</span><span class="concept-tag">Purity</span><span class="concept-tag">Tooth-Named Trio</span><span class="concept-tag">Atidesha</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>What in you is called "pure" by others — and have you mistaken that compliment for the actual purity of soul that these princes were chasing?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 6 -->
+<div class="section-divider" id="section-adhyayana-6"><span>Adhyayana 6 — Halla Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A6-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A6.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा हल्ले वि । नवरं हल्ले णामं कुमारे । ॥2.A6.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā halle vi | navaraṃ halle ṇāmaṃ kumāre |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Halla. The only difference is that the prince's name was Halla.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā halle vi</em> = so also with Halla | <em>navaraṃ</em> = the only difference | <em>halle ṇāmaṃ kumāre</em> = the prince was named Halla | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Halla is one of the better-known names from the Magadhan canonical cycle. The text places Halla among the eight who were reborn in the sub-Anuttara heavens (Vijaya, Vaijayanta, Jayanta, or Aparajita), with the standard sixteen-year ascetic tenure. He is the sixth in the listing-verse — by strict pair-reading he would be in Jayanta; but again the text does not assign pairs explicitly. The very plainness of the entry tells us something important: even a prince whose worldly story may have been dramatic (war, rivalry, loss of empire) is, in this scripture, reduced to a single line — not because his story did not matter, but because once he reached the path, his story collapsed into the path. The drama of the world becomes a footnote when the soul finds its road.</p>
+<p class="flag-note">A prince named Halla appears in the Bhagavati Sutra and elsewhere as a son of Shrenika who, with his half-brother Vihalla, became famous for an episode involving the divine elephant Sechanaka and the necklace called Aṭṭhāra-saraga, leading to a war with their elder half-brother Kuṇika (Ajātaśatru). Whether the Halla of <em>this</em> Anuttarovavai chapter is the same prince is not stated in the source PDF and is debated in the broader tradition.</p>
+<p class="simple-explanation"><b>Simply put:</b> The sixth prince, Halla — perhaps the same Halla famous in other Jain texts for a war over an elephant — walked the same path of renunciation as his brothers and reached one of the highest heavens.</p>
+<div class="concept-tags"><span class="concept-tag">Halla</span><span class="concept-tag">Magadhan Cycle</span><span class="concept-tag">Sechanaka</span><span class="concept-tag">Sub-Anuttara</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>The most dramatic chapter of your life — would it survive on the page of a scripture, or would it be reduced to a single line about which heaven you reached?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 7 -->
+<div class="section-divider" id="section-adhyayana-7"><span>Adhyayana 7 — Druma Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A7-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A7.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा दुमे वि । नवरं दुमे णामं कुमारे । ॥2.A7.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā dume vi | navaraṃ dume ṇāmaṃ kumāre |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Druma. The only difference is that the prince's name was Druma.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā dume vi</em> = so also with Druma | <em>navaraṃ</em> = the only difference | <em>dume ṇāmaṃ kumāre</em> = the prince was named Druma (literally "tree") | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Druma — "tree" — is the seventh of the listing. He is the last of the eight princes assigned to the sub-Anuttara heavens. The name "tree" is not random. In Jain symbolism a tree often carries the meanings of stability, rootedness, and finally the <em>pādapopagamana</em> form of sallekhana — the "fallen-tree" posture in which the dying monk lies motionless. A prince named Druma whose life ends in the tree-posture sallekhana embodies his name in his death.</p>
+<p class="flag-note">By strict pair-reading Druma would be in Aparajita with Drumasena, but the text does not assign pairs explicitly. The connection between his name and the <em>pādapopagamana</em> sallekhana is interpretive; the text itself does not draw it.</p>
+<p class="simple-explanation"><b>Simply put:</b> The seventh prince, Druma — whose name means "tree" — followed the same renunciation as his brothers and reached one of the highest heavens.</p>
+<div class="concept-tags"><span class="concept-tag">Druma</span><span class="concept-tag">Tree Symbolism</span><span class="concept-tag">Pādapopagamana</span><span class="concept-tag">Stillness</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>A tree gives without keeping, and falls without protest — could your renunciation, when it comes, look as much like the falling of a tree as the act of a person?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 8 -->
+<div class="section-divider" id="section-adhyayana-8"><span>Adhyayana 8 — Drumasena Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A8-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A8.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा दुमसेणे वि । नवरं दुमसेणे णामं कुमारे । ॥2.A8.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā dumaseṇe vi | navaraṃ dumaseṇe ṇāmaṃ kumāre |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Drumasena. The only difference is that the prince's name was Drumasena.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā dumaseṇe vi</em> = so also with Drumasena | <em>navaraṃ</em> = the only difference | <em>dumaseṇe ṇāmaṃ kumāre</em> = the prince was named Drumasena ("tree-armied" or "of the army of trees") | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Drumasena's name pairs the steadiness of "tree" with the strength of "army": a prince of a forest-strong battalion. He is the eighth in the listing-verse, occupying the borderline position between the eight sub-Anuttara princes and the five Sarvarthasiddha princes that follow. The source PDF locates his rebirth in the collective ("two each in Vijaya, Vaijayanta, Jayanta, Aparajita; the rest, beginning with Mahadrumasena, in Sarvarthasiddha"). Reading "the rest beginning with Mahadrumasena" strictly excludes Drumasena from Sarvarthasiddha — meaning he is the last of the eight in Aparajita. The Gujarati <em>bhāvārtha</em> on PDF p. 12 confirms this reading: "the remaining five Mahadrumasena and the others ascended to Sarvarthasiddha."</p>
+<p class="flag-note">Drumasena is the boundary case: by strict pair-reading he is the last of the eight assigned to the four sub-Anuttara heavens, but the source text does not state this individually.</p>
+<p class="simple-explanation"><b>Simply put:</b> The eighth prince, Drumasena, was the last of the eight brothers reborn in the four sub-Anuttara heavens after sixteen years of monastic life.</p>
+<div class="concept-tags"><span class="concept-tag">Drumasena</span><span class="concept-tag">Aparajita</span><span class="concept-tag">Boundary Case</span><span class="concept-tag">Last of Eight</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>You are at the boundary of one stage and the next, more often than you notice — what would your life look like if you treated each border as sacred?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 9 -->
+<div class="section-divider" id="section-adhyayana-9"><span>Adhyayana 9 — Mahadrumasena Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A9-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A9.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा महादुमसेणे वि । नवरं महादुमसेणे णामं कुमारे । उववाओ सव्वट्ठसिद्धे । ॥2.A9.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā mahādumaseṇe vi | navaraṃ mahādumaseṇe ṇāmaṃ kumāre | uvavāo savvaṭṭhasiddhe |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Mahadrumasena. The only difference is that the prince's name was Mahadrumasena, and his rebirth was in Sarvarthasiddha.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā mahādumaseṇe vi</em> = so also with Mahadrumasena | <em>navaraṃ</em> = the difference (here is twofold) | <em>mahādumaseṇe ṇāmaṃ kumāre</em> = the prince was named Mahadrumasena ("great tree-armied") | <em>uvavāo savvaṭṭhasiddhe</em> = his rebirth was in Sarvarthasiddha (the supreme Anuttara heaven) | (rest of the life — birth, upbringing, ordination, sixteen years of monastic life, sallekhana — as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">With Mahadrumasena the chapter shifts. He is the first of the five princes reborn in Sarvarthasiddha — the supreme heaven of the Jain cosmos, the highest single station any embodied soul can occupy. From Sarvarthasiddha, only one more birth in Mahavideha is required, and then liberation. The four sub-Anuttara heavens are also one-life-from-liberation realms, but Sarvarthasiddha is <em>the</em> peak: its inhabitants are the spiritual cream of the cosmos. The text does not tell us why Mahadrumasena was reborn higher than his predecessors. There is no narrative of him fasting longer, meditating deeper, or studying more thoroughly. The implication, in Jain doctrine, is that the difference lay in the subtler quality of his right-vision-knowledge-conduct — the inwardness of his practice rather than its outward form. Two monks may keep identical fasts; one rises higher because his attention is purer. This is a sobering point. The chapter does not give the reader a checklist by which to climb. It tells us that climbing happens, that some climb higher than others, and that the difference is invisible to outside observation. What is visible is the path; what determines the elevation is the quiet inward fire.</p>
+<p class="simple-explanation"><b>Simply put:</b> The ninth prince, Mahadrumasena, was the first of five brothers reborn in Sarvarthasiddha — the very highest heaven, only one more human life away from final liberation.</p>
+<div class="concept-tags"><span class="concept-tag">Mahadrumasena</span><span class="concept-tag">Sarvarthasiddha</span><span class="concept-tag">Inner Quality</span><span class="concept-tag">Supreme Heaven</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>Two people can do the same practice for the same number of years and end at different heights — what is the inner quality you bring that no one else can see?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 10 -->
+<div class="section-divider" id="section-adhyayana-10"><span>Adhyayana 10 — Simha Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A10-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A10.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा सीहे वि । नवरं सीहे णामं कुमारे । उववाओ सव्वट्ठसिद्धे । ॥2.A10.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā sīhe vi | navaraṃ sīhe ṇāmaṃ kumāre | uvavāo savvaṭṭhasiddhe |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Simha. The only difference is that the prince's name was Simha, and his rebirth was in Sarvarthasiddha.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā sīhe vi</em> = so also with Simha | <em>navaraṃ</em> = the difference | <em>sīhe ṇāmaṃ kumāre</em> = the prince was named Simha (literally "lion") | <em>uvavāo savvaṭṭhasiddhe</em> = his rebirth was in Sarvarthasiddha | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Simha — "lion" — carries one of the most charged names in the Indian spiritual lexicon. The lion is the king of beasts; in Jain symbolism it stands for fearless solitude, royal bearing, and the uncompromising spirit of the renunciate. Mahavira himself is repeatedly compared to a lion in his independence and his refusal to be moved by approval or fear. To name a prince "Simha" was to wish on him exactly the qualities he later showed when he walked away from his throne. His mother Dharini is also said in Varga 1 (and by inference here) to have seen a lion in her dream when she conceived. The recurrence of the lion-image — in the dream, in the prince's name, and in the Tirthankara whose teaching he followed — is one of the quiet structural beauties of the chapter. Simha is the second of the five princes reborn in Sarvarthasiddha, the supreme heaven.</p>
+<p class="simple-explanation"><b>Simply put:</b> The tenth prince, Simha — "lion" — was the second of five brothers to reach Sarvarthasiddha, the very highest heaven.</p>
+<div class="concept-tags"><span class="concept-tag">Simha</span><span class="concept-tag">Lion Symbolism</span><span class="concept-tag">Sarvarthasiddha</span><span class="concept-tag">Fearless Solitude</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>What does a lion-like soul refuse that a soul of lesser bearing accepts — and where in your day are you accepting what a lion would refuse?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 11 -->
+<div class="section-divider" id="section-adhyayana-11"><span>Adhyayana 11 — Simhasena Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A11-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A11.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा सीहसेणे वि । नवरं सीहसेणे णामं कुमारे । उववाओ सव्वट्ठसिद्धे । ॥2.A11.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā sīhaseṇe vi | navaraṃ sīhaseṇe ṇāmaṃ kumāre | uvavāo savvaṭṭhasiddhe |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Simhasena. The only difference is that the prince's name was Simhasena, and his rebirth was in Sarvarthasiddha.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā sīhaseṇe vi</em> = so also with Simhasena | <em>navaraṃ</em> = the difference | <em>sīhaseṇe ṇāmaṃ kumāre</em> = the prince was named Simhasena ("lion-armied") | <em>uvavāo savvaṭṭhasiddhe</em> = his rebirth was in Sarvarthasiddha | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Simhasena is the third of the Sarvarthasiddha five and the second of the lion-named trio. The graded series — Simha, Simhasena, Mahasimhasena — mirrors the earlier graded series — Druma, Drumasena, Mahadrumasena — and shows the typical Magadhan custom of naming successive sons in intensifying degrees. His ascent to Sarvarthasiddha is identical in form to his elder brother Simha's: sixteen years of strict ascetic life, the eleven Angas mastered, the one-month <em>pādapopagamana</em> sallekhana, and then the soul's rise past every lower heavenly realm — the <em>Saudharma</em>, the <em>Iśāna</em>, the <em>Sanat-kumāra</em>, the <em>Māhendra</em>, the <em>Brahma-loka</em>, the <em>Lāntaka</em>, the <em>Mahāśukra</em>, the <em>Sahasrāra</em>, the <em>Ānata</em>, the <em>Prāṇata</em>, the <em>Āraṇa</em>, and the <em>Acyuta</em>; then past the nine <em>Graiveyaka</em> layers above those; and finally past the four sub-Anuttara heavens — Vijaya, Vaijayanta, Jayanta, Aparajita — to settle in the highest Anuttara: Sarvarthasiddha. From there, a single human birth in Mahavideha brings final liberation.</p>
+<p class="simple-explanation"><b>Simply put:</b> The eleventh prince, Simhasena, was the third of five brothers to reach Sarvarthasiddha, the highest heaven, after sixteen years as a monk.</p>
+<div class="concept-tags"><span class="concept-tag">Simhasena</span><span class="concept-tag">Lion-Armied</span><span class="concept-tag">Sarvarthasiddha</span><span class="concept-tag">Cosmic Ascent</span><span class="concept-tag">Graveyaka</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>The soul, after death, is said to rise past every lower realm to its destination — what in you, today, is asking to rise past a lower attachment to find its true station?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 12 -->
+<div class="section-divider" id="section-adhyayana-12"><span>Adhyayana 12 — Mahasimhasena Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A12-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A12.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा महासीहसेणे वि । नवरं महासीहसेणे णामं कुमारे । उववाओ सव्वट्ठसिद्धे । ॥2.A12.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā mahāsīhaseṇe vi | navaraṃ mahāsīhaseṇe ṇāmaṃ kumāre | uvavāo savvaṭṭhasiddhe |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Mahasimhasena. The only difference is that the prince's name was Mahasimhasena, and his rebirth was in Sarvarthasiddha.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā mahāsīhaseṇe vi</em> = so also with Mahasimhasena | <em>navaraṃ</em> = the difference | <em>mahāsīhaseṇe ṇāmaṃ kumāre</em> = the prince was named Mahasimhasena ("great lion-armied") | <em>uvavāo savvaṭṭhasiddhe</em> = his rebirth was in Sarvarthasiddha | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Mahasimhasena — "great lion-army" — completes the lion trio. He is the fourth of the five princes who reached Sarvarthasiddha. The intensifier <em>mahā</em> ("great") added to his older brothers' names suggests he was the youngest of the three, named in the established custom of giving younger sons grander forms of the elder son's name. What is striking, when one steps back to view the chapter as a whole, is that the youngest in each grouping seems to have reached the highest destination. Mahadrumasena is reborn higher than Druma and Drumasena. Mahasimhasena is reborn higher than Simha and Simhasena.</p>
+<p class="flag-note">This pattern is an interpretive observation; the text does not draw the comparison, and the cause-and-effect cannot be extracted from the source. A doctrinal reading would note that the spiritual destination depends on the soul's inner state at the moment of death, not on age or birth-order. The pattern, if it is a pattern, may be coincidental.</p>
+<p class="simple-explanation"><b>Simply put:</b> The twelfth prince, Mahasimhasena — "great lion-army" — was the fourth of five brothers to reach the highest heaven, Sarvarthasiddha.</p>
+<div class="concept-tags"><span class="concept-tag">Mahasimhasena</span><span class="concept-tag">Lion Trio</span><span class="concept-tag">Sarvarthasiddha</span><span class="concept-tag">Inner State</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>The youngest in your family, the latest in your line — does that position carry hidden gifts that the elders' shadow makes hard to see?</p>
+</div>
+</div>
+</article>
+
+<!-- Adhyayana 13 -->
+<div class="section-divider" id="section-adhyayana-13"><span>Adhyayana 13 — Punyasena Kumar</span></div>
+
+<article class="sutra-card p-8 rounded-xl mb-6 transition-all duration-300" id="sutra-2-A13-S1">
+<div class="flex items-start gap-6">
+<span class="font-headline font-bold text-primary text-2xl flex-shrink-0 pt-1">2.A13.S1</span>
+<div class="space-y-4 flex-1">
+<p class="sutra-sanskrit font-headline">जहा दीहसेणे तहा पुण्णसेणे वि । नवरं पुण्णसेणे णामं कुमारे । उववाओ सव्वट्ठसिद्धे । ॥2.A13.S1॥</p>
+<p class="sutra-translit">jahā dīhaseṇe tahā puṇṇaseṇe vi | navaraṃ puṇṇaseṇe ṇāmaṃ kumāre | uvavāo savvaṭṭhasiddhe |</p>
+<p class="flag-note">Individual Adhyayana Prakrit not given in the PDF; reconstructed by chapter-internal formula.</p>
+<p class="text-lg font-semibold text-on-surface leading-relaxed">As with Dirghasena, so also with Punyasena. The only difference is that the prince's name was Punyasena, and his rebirth was in Sarvarthasiddha.</p>
+<div class="anvayartha-block">
+<span class="anvayartha-label">Anvayartha · Word-by-Word</span>
+<p class="anvayartha-list"><em>jahā dīhaseṇe</em> = as with Dirghasena | <em>tahā puṇṇaseṇe vi</em> = so also with Punyasena | <em>navaraṃ</em> = the difference | <em>puṇṇaseṇe ṇāmaṃ kumāre</em> = the prince was named Punyasena (literally "army of merit"; <em>puṇya</em> = merit, virtue, auspicious karma) | <em>uvavāo savvaṭṭhasiddhe</em> = his rebirth was in Sarvarthasiddha | (rest as Dirghasena.)</p>
+</div>
+<p class="text-base text-on-surface-variant leading-relaxed">Punyasena closes the chapter — the thirteenth and last of the princes, the fifth and last of the Sarvarthasiddha-bound. His name means "army of merit" or "merit-armied," a beautifully apt closing name for a chapter whose entire arc is about the conversion of inherited royal merit into the merit that lifts a soul to the highest heaven. Among the thirteen, he stands at the end of the list as a kind of summation. The chapter began with Dirghasena, "long-armied" — the prince of long worldly reach — and ends with Punyasena, "merit-armied" — the prince whose army was inward, made not of spears but of right faith, right knowledge, and right conduct. The scripture has, by listing them in this order, traced an arc: from worldly army to spiritual army, from kingdom to renunciation, from palace to forest to highest heaven. With Punyasena's ascent, the chapter closes its full circle. All thirteen are now installed in heaven, all twenty-three (including the ten of Varga 1) have completed their one-month sallekhana, and the path has been demonstrated to be available — visibly, repeatedly, in one royal generation alone. The reader who has read carefully is meant to notice that the path has not been kept secret, that it was not reserved for a single hero. It was walked thirteen times in a single household, and twenty-three times in two adjacent chapters.</p>
+<p class="flag-note">The Gujarati <em>vivechan</em> (PDF p. 13) makes the chapter's closing point explicit: "In this Varga, the auspicious fruit of the integrated practice of right faith, right knowledge, and right conduct has been displayed. It is well known that only the action performed in conjunction with right faith and right knowledge has the power to destroy karma."</p>
+<p class="simple-explanation"><b>Simply put:</b> The thirteenth and final prince, Punyasena — "merit-armied" — was the last of five brothers to reach Sarvarthasiddha, completing the chapter's account of all thirteen princes who walked from palace to highest heaven.</p>
+<div class="concept-tags"><span class="concept-tag">Punyasena</span><span class="concept-tag">Merit-Armied</span><span class="concept-tag">Three Jewels</span><span class="concept-tag">Closing Seal</span><span class="concept-tag">Sarvarthasiddha</span></div>
+<p class="contemplate-footer"><b>Contemplate</b>When your life is finally listed in a single line at the end of a chapter — what would the name beside that line truly mean? "Long-armied"? Or "merit-armied"?</p>
+</div>
+</div>
+</article>
+
+</section>
+</main>
+<!-- Floating Nav -->
+<a class="nav-button left-btn left-6 md:left-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="anuttarovavai-ch1.html"><span class="text-lg">←</span> Chapter 1</a>
+<a class="nav-button right-btn right-6 md:right-12 flex items-center gap-3 px-4 py-2 rounded-lg font-headline font-bold text-xs tracking-wide" href="anuttarovavai-ch3.html">Chapter 3 <span class="text-lg">→</span></a>
+<footer class="w-full py-20 bg-surface-container-low border-t border-primary/10">
+<div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-start px-6 md:px-12 gap-16">
+<div class="flex flex-col gap-6 max-w-md">
+<span class="font-headline text-primary font-bold tracking-[0.3em] uppercase text-sm">JainSutra</span>
+<p class="font-body text-sm leading-relaxed text-on-surface/60 font-light">Exploring the profound depths of Jain philosophy through a modern lens.</p>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline font-bold">© 2024 JainSutra. All Rights Reserved.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-3 gap-12 font-headline text-xs font-bold tracking-[0.2em] uppercase text-on-surface-variant">
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Aagama</span><a class="hover:text-primary transition-colors" href="../sacred-sutras-index.html">Sacred Sutras</a><a class="hover:text-primary transition-colors" href="../sutrakritang/sutrakritang-index.html">Sutrakritanga</a><a class="hover:text-primary transition-colors" href="../uttaradhyana/uttaradhyana-index.html">Uttaradhyayana</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Explore</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html">Fundamentals</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/navkar-mantra-v4.html">Navkar Mantra</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/meditations.html">Meditations</a></div>
+<div class="flex flex-col gap-4"><span class="text-primary/40 mb-2">Connect</span><a class="hover:text-primary transition-colors" href="../../../index-v4.html#contact">Contact</a><a class="hover:text-primary transition-colors" href="../../../fundamentals/donate-v4.html">Donate</a></div>
+</div>
+</div>
+</footer>
+<script>
+window.addEventListener('scroll', () => {
+  const bc = document.getElementById('breadcrumb');
+  const hero = document.querySelector('main > section');
+  if (bc && hero) {
+    const past = window.scrollY > hero.offsetHeight * 0.75;
+    bc.style.opacity = past ? '0' : '1';
+    bc.style.transform = past ? 'translateY(-6px)' : 'translateY(0)';
+    bc.style.pointerEvents = past ? 'none' : 'auto';
+  }
+  const visible = window.scrollY > 300;
+  document.querySelectorAll('.nav-button').forEach(b => b.classList.toggle('visible', visible));
+});
+</script>
+<script src="../../../js/anuttarovavai-search.js"></script>
+</body>
+</html>
